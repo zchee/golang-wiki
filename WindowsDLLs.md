@@ -91,8 +91,6 @@ func main() {
 func init() {
 	fmt.Print("Starting Up\n")
 }
-
-
 ```
 
 
@@ -102,24 +100,23 @@ Second way is via syscall.NewProc (etc.) instead of syscall.GetProcAddress.  The
 package main
 
 import (
-    "syscall"
-    "unsafe"
-    "fmt"
+	"fmt"
+	"syscall"
+	"unsafe"
 )
 
 func main() {
- var mod = syscall.NewLazyDLL("user32.dll")
- var proc = mod.NewProc("MessageBoxW");
- var MB_YESNOCANCEL       = 0x00000003
+	var mod = syscall.NewLazyDLL("user32.dll")
+	var proc = mod.NewProc("MessageBoxW")
+	var MB_YESNOCANCEL = 0x00000003
 
- ret, _, _ := proc.Call(0,
-  uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("Done Title"))),
-  uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("This test is Done."))),
-  uintptr(MB_YESNOCANCEL));
-  fmt.Printf("Return: %d\n", ret)
-  
+	ret, _, _ := proc.Call(0,
+		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("Done Title"))),
+		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("This test is Done."))),
+		uintptr(MB_YESNOCANCEL))
+	fmt.Printf("Return: %d\n", ret)
+
 }
-
 ```
 
 A third way would be to call into libraries basically by "linking" against the library, using the "[cgo](wiki/cgo)" method (this way works in Linux and Windows):
@@ -130,7 +127,6 @@ This way would look something like this
 import ("C")
 ...
 C.MessageBoxW(...)
-
 ```
 
 See [cgo](wiki/cgo) for further details.

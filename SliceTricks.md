@@ -31,8 +31,8 @@ a[i], a = a[len(a)-1], a[:len(a)-1]
 > ` Cut `
 ```
 copy(a[i:], a[j:])
-for k, n := len(a)-j+i, len(a); k < n; k ++ {
-    a[k] = nil // or the zero value of T
+for k, n := len(a)-j+i, len(a); k < n; k++ {
+	a[k] = nil // or the zero value of T
 } // for k
 a = a[:len(a)-j+i]
 ```
@@ -89,8 +89,8 @@ This trick uses the fact that a slice shares the same backing array and capacity
 ```
 b := a[:0]
 for _, x := range a {
-    if f(x) {
-        b = append(b, x)
-    }
+	if f(x) {
+		b = append(b, x)
+	}
 }
 ```

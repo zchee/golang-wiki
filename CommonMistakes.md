@@ -11,9 +11,9 @@ When new programmers start using Go or when old Go programmers start using a new
 When iterating in Go, one might also be tempted to use a closure and goroutine to process data in parallel.  For example, if you wanted to process values coming in from a channel in their own goroutines, you might write the following code:
 ```
 for val := range values {
-    go func() {
-        fmt.Println(val)
-    }()
+	go func() {
+		fmt.Println(val)
+	}()
 }
 ```
 
@@ -24,9 +24,9 @@ The ` val ` variable in the above loop is actually a single variable that takes 
 The proper way to write that loop is:
 ```
 for val := range values {
-    go func(val interface{}) {
-        fmt.Println(val)
-    }(val)
+	go func(val interface{}) {
+		fmt.Println(val)
+	}(val)
 }
 ```
 
@@ -36,10 +36,10 @@ It is also important to note that variables declared within the body of a loop a
 
 ```
 for i := range valslice {
-    val := valslice[i]
-    go func() {
-       fmt.Println(val)
-    }()
+	val := valslice[i]
+	go func() {
+		fmt.Println(val)
+	}()
 }
 ```
 
@@ -47,9 +47,9 @@ Note that without executing this closure as a goroutine, the code runs as expect
 
 ```
 for i := 1; i <= 10; i++ {
-    func() {
-        fmt.Println(i)
-    }()
+	func() {
+		fmt.Println(i)
+	}()
 }
 ```
 

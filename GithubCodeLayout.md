@@ -44,7 +44,6 @@ Both Go and Eclipse use the term "workspace", but they use it to mean something 
 Let's assume we are starting from scratch.  Initialize the two new repositories on Github, using the "Initialize this repository with a README" option so your repos can be cloned immediately.  Then setup the project like this:
 
 ```sh
-
 cd ~/workspace # Standard location for Eclipse workspace
 mkdir mygo # Create your Go workspace
 export GOPATH=~/workspace/mygo # GOPATH = Go workspace
@@ -63,8 +62,9 @@ Conventionally, the name of the repository is the same as the name of the packag
 package useless
 
 func Foobar() string {
-return "Foobar!"
-}```
+	return "Foobar!"
+}
+```
 
 
 # Applications
@@ -77,18 +77,19 @@ So ` uselessd.go ` looks like this:
 package main
 
 import (
-"net/http"
+	"net/http"
 
-"code.google.com/p/go.net/websocket"
-"github.com/jmcvetta/useless"
+	"code.google.com/p/go.net/websocket"
+	"github.com/jmcvetta/useless"
 )
 
 func main() {
-http.Handle("/useless", websocket.Handler(func(ws *websocket.Conn) {
-ws.Write([]byte(useless.Foobar()))
-}))
-http.ListenAndServe(":3000", nil)
-}```
+	http.Handle("/useless", websocket.Handler(func(ws *websocket.Conn) {
+		ws.Write([]byte(useless.Foobar()))
+	}))
+	http.ListenAndServe(":3000", nil)
+}
+```
 
 
 # Dependencies

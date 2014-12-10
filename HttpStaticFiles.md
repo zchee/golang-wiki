@@ -9,7 +9,9 @@ This is a complete Go webserver serving static files:
 
 ```
 package main
+
 import "net/http"
+
 func main() {
 	panic(http.ListenAndServe(":8080", http.FileServer(http.Dir("/usr/share/doc"))))
 }

@@ -11,26 +11,26 @@ Struct field names must not include package qualifiers.
 For example, take this struct with an embedded ` *bytes.Buffer ` field:
 
 ```
-	type S struct {
-		*bytes.Buffer
-	}
+type S struct {
+	*bytes.Buffer
+}
 ```
 
 In Go 1.0 the compiler would (incorrectly) accept this struct literal:
 
 ```
-	s := S{
-		bytes.Buffer: new(bytes.Buffer),
-	}
+s := S{
+	bytes.Buffer: new(bytes.Buffer),
+}
 ```
 
 Under Go 1.1 the compiler rejects this.
 Instead you should use the field name without the package qualifier:
 
 ```
-	s := S{
-		Buffer: new(bytes.Buffer),
-	}
+s := S{
+	Buffer: new(bytes.Buffer),
+}
 ```
 
 ## Initialization loop
@@ -40,26 +40,26 @@ The Go 1.1 compiler now better detects initialization loops.
 For instance, the following code compiled under Go 1.0.
 
 ```
-	var funcVar = fn
+var funcVar = fn
 
-	func fn() {
-		funcVar()
-	}
+func fn() {
+	funcVar()
+}
 ```
 
 Such code must now use an ` init ` function for the variable assignment to avoid
 the initialization loop.
 
 ```
-	var funcVar func()
+var funcVar func()
 
-	func fn() {
-		funcVar()
-	}
+func fn() {
+	funcVar()
+}
 
-	func init() {
-		funcVar = fn
-	}
+func init() {
+	funcVar = fn
+}
 ```
 
 In particular, this affects users of App Engine's [delay package](https://developers.google.com/appengine/docs/go/taskqueue/delay).
@@ -70,12 +70,12 @@ In particular, this affects users of App Engine's [delay package](https://develo
 Go 1.0 permitted fallthrough in the final case of a switch statement:
 
 ```
-	switch {
-	case false:
-		fallthrough // fall through to 'true' case
-	case true:
-		fallthrough // fall through to... nowhere?
-	}
+switch {
+case false:
+	fallthrough // fall through to 'true' case
+case true:
+	fallthrough // fall through to... nowhere?
+}
 ```
 
 A language change affecting [return requirements](http://golang.org/doc/go1.1#return) led us to make the superfluous fallthrough illegal.
@@ -88,7 +88,7 @@ The fix is to remove such statements from your code.
 A compiler bug permitted function type declarations with parameters and return values of the same name. This would compile under Go 1.0:
 
 ```
-	type T func(a int) (a int)
+type T func(a int) (a int)
 ```
 
 Under Go 1.1, the compiler gives an error:

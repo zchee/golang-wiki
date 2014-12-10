@@ -2,8 +2,8 @@
 
 Given that you can assign a variable of any type to an ` interface{} `, often people will try code like the following.
 ```
-  var dataSlice []int = foo()
-  var interfaceSlice []interface{} = dataSlice
+var dataSlice []int = foo()
+var interfaceSlice []interface{} = dataSlice
 ```
 This gets the error
 ```
@@ -34,9 +34,9 @@ If you want a container for an arbitrary array type, and you plan on changing ba
 
 If you really want a ` []interface{} ` because you'll be doing indexing before converting back, or you are using a particular interface type and you want to use its methods, you will have to make a copy of the slice.
 ```
-  var dataSlice []int = foo()
-  var interfaceSlice []interface{} = make([]interface{}, len(dataSlice))
-  for i, d := range dataSlice {
-    interfaceSlice[i] = d
-  }
+var dataSlice []int = foo()
+var interfaceSlice []interface{} = make([]interface{}, len(dataSlice))
+for i, d := range dataSlice {
+	interfaceSlice[i] = d
+}
 ```

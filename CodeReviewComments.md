@@ -12,9 +12,9 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 ## gofmt
 
-Run [gofmt](http://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses ` gofmt `. The rest of this document addresses non-mechanical style points.
+Run [gofmt](http://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
-An alternative is to use [goimports](https://godoc.org/code.google.com/p/go.tools/cmd/goimports), a superset of ` gofmt ` which additionally adds (and removes) import lines as necessary.
+An alternative is to use [goimports](https://godoc.org/code.google.com/p/go.tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
 ## Comment Sentences
 
@@ -44,7 +44,7 @@ Error strings should not be capitalized (unless beginning with proper nouns or a
 
 ## Handle Errors
 
-See http://golang.org/doc/effective_go.html#errors. Do not discard errors using ` _ ` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
+See http://golang.org/doc/effective_go.html#errors. Do not discard errors using `_` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
 
 ## Imports
 
@@ -54,15 +54,15 @@ Imports are organized in groups, with blank lines between them.  The standard li
 package main
 
 import (
-    "fmt"
-    "hash/adler32"
-    "os"
+	"fmt"
+	"hash/adler32"
+	"os"
 
-    "appengine/user"
-    "appengine/foo"
+	"appengine/foo"
+	"appengine/user"
 
-    "code.google.com/p/x/y"
-    "github.com/foo/bar"
+	"code.google.com/p/x/y"
+	"github.com/foo/bar"
 )
 ```
 
@@ -76,8 +76,8 @@ The import . form can be useful in tests that, due to circular dependencies, can
 package foo_test
 
 import (
-    . "foo"
-    "bar/testutil"  // also imports "foo"
+	"bar/testutil" // also imports "foo"
+	. "foo"
 )
 ```
 
@@ -89,9 +89,9 @@ Try to keep the normal code path at a minimal indentation, and indent the error 
 
 ```
 if err != nil {
-    // error handling
+	// error handling
 } else {
-    // normal code
+	// normal code
 }
 ```
 
@@ -99,8 +99,8 @@ Instead, write
 
 ```
 if err != nil {
-    // error handling
-    return // or continue, etc.
+	// error handling
+	return // or continue, etc.
 }
 // normal code
 ```
@@ -109,10 +109,10 @@ If the if statement has an initialization statement that, such as
 
 ```
 if x, err := f(); err != nil {
-  // error handling
-  return
+	// error handling
+	return
 } else {
-  // use x
+	// use x
 }
 ```
 
@@ -121,8 +121,8 @@ then this may require moving the short variable declaration to its own line:
 ```
 x, err := f()
 if err != nil {
-  // error handling
-  return
+	// error handling
+	return
 }
 // use x
 ```
@@ -143,7 +143,7 @@ Comments are typically wrapped before no more than 80 characters, not because it
 
 ## Mixed Caps
 
-See http://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is ` maxLength ` not ` MaxLength ` or ` MAX_LENGTH `.
+See http://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
 
 ## Named Result Parameters
 
@@ -162,14 +162,14 @@ func (n *Node) Parent2() (*Node, error)
 On the other hand, if a function returns two or three parameters of the same type, or if the meaning of a result isn't clear from context, adding names may be useful. For example:
 
 ```go
-
-func (f *Foo) Location() (float64, float64, error)```
+func (f *Foo) Location() (float64, float64, error)
+```
 is less clear than
 ```go
-
 // Location returns f's latitude and longitude.
 // Negative values mean south and west, respectively.
-func (f *Foo) Location() (lat, long float64, err error)```
+func (f *Foo) Location() (lat, long float64, err error)
+```
 
 Naked returns are okay if the function is a handful of lines. Once it's a medium-sized function, be explicit with your return values. Corollary: it's not worth it to name result parameters just because it enables you to use naked returns. Clarity of docs is always more important than saving a line or two in your function.
 
@@ -205,7 +205,7 @@ All references to names in your package will be done using the package name, so 
 
 ## Pass Values
 
-Don't pass pointers as function arguments just to save a few bytes.  If a function refers to its argument ` x ` only as ` *x ` throughout, then the argument shouldn't be a pointer.  Common instances of this include passing a pointer to a string (` *string `) or a pointer to an interface value (` *io.Reader `).  In both cases the value itself is a fixed size and can be passed directly.  This advice does not apply to large structs, or even small structs that might grow.
+Don't pass pointers as function arguments just to save a few bytes.  If a function refers to its argument `x` only as `*x` throughout, then the argument shouldn't be a pointer.  Common instances of this include passing a pointer to a string (`*string`) or a pointer to an interface value (`*io.Reader`).  In both cases the value itself is a fixed size and can be passed directly.  This advice does not apply to large structs, or even small structs that might grow.
 
 ## Receiver Names
 
@@ -230,9 +230,9 @@ Choosing whether to use a value or pointer receiver on methods can be difficult,
 Tests should fail with helpful messages saying what was wrong, with what inputs, what was actually got, and what was expected.  It may be tempting to write a bunch of assertFoo helpers, but be sure your helpers produce useful error messages.  Assume that the person debugging your failing test is not you, and is not your team.  A typical Go test fails like:
 
 ```
-        if got != tt.want {
-                t.Errorf("Foo(%q) = %d; want %d", tt.in, got, tt.want)    // or Fatalf, if test can't test anything more past this point
-        }
+if got != tt.want {
+	t.Errorf("Foo(%q) = %d; want %d", tt.in, got, tt.want) // or Fatalf, if test can't test anything more past this point
+}
 ```
 
 Note that the order here is actual != expected, and the message uses that order too. Some test frameworks encourage writing these backwards: 0 != x, "expected 0, got x", and so on. Go does not.
@@ -242,8 +242,8 @@ If that seems like a lot of typing, you may want to write a table-driven test: h
 Another common technique to disambiguate failing tests when using a test helper with different input is to wrap each caller with a different TestFoo function, so the test fails with that name:
 
 ```
-     func TestSingleValue(t *testing.T) { testHelper(t, []int{80}) }
-     func TestNoValues(t *testing.T) { testHelper(t, []int{}) }
+func TestSingleValue(t *testing.T) { testHelper(t, []int{80}) }
+func TestNoValues(t *testing.T)    { testHelper(t, []int{}) }
 ```
 
 In any case, the onus is on you to fail with a helpful message to whoever's debugging your code in the future.
@@ -252,4 +252,4 @@ In any case, the onus is on you to fail with a helpful message to whoever's debu
 
 Variable names in Go should be short rather than long.  This is especially true for local variables with limited scope.  Prefer c to lineCount.  Prefer i to sliceIndex.
 
-The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (` i `, ` r `). More unusual things and global variables need more descriptive names.
+The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (`i`, `r`). More unusual things and global variables need more descriptive names.

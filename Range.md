@@ -10,15 +10,15 @@ A range clause provides a way to iterate over a array, slice, string, map, or ch
 
 ```
 for k, v := range myMap {
-    log.Printf("key=%v, value=%v", k, v)
+	log.Printf("key=%v, value=%v", k, v)
 }
 
 for v := range myChannel {
-    log.Printf("value=%v", v)
+	log.Printf("value=%v", v)
 }
 
 for i, v := range myArray {
-    log.Printf("array value at [%d]=%v", i, v)
+	log.Printf("array value at [%d]=%v", i, v)
 }
 ```
 
@@ -50,7 +50,7 @@ The ` make ` and assignment look like they might work, but the value property of
 ```
 items := make([]map[int]int, 10)
 for i := range items {
-	items[i] = make(map[int]int, 1) 
+	items[i] = make(map[int]int, 1)
 	items[i][1] = 2
 }
 ```

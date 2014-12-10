@@ -82,8 +82,8 @@ The following code shows an example of invoking a Go callback from C code. Go pa
 package gocallback
 
 import (
-	"unsafe"
 	"fmt"
+	"unsafe"
 )
 
 /*

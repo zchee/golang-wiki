@@ -19,15 +19,15 @@ http://golang.org/pkg/sort/#Interface
 
 - map() in Python: **map(lambda x:x\*2, range(100))**:
 ```
-  func Map(f interface{}, v interface{}) interface{} { 
-     // Reflection to solve f and v types
-  }
+func Map(f interface{}, v interface{}) interface{} {
+	// Reflection to solve f and v types
+}
 ```
 The reflect solution performance is really bad
 
 - Polymorphic functions that operate on built-in generic types.
 ```
-  func KeyIntersection(a map[T1]T2, b map[T1]T2) map[T1]T2 {} 
+func KeyIntersection(a map[T1]T2, b map[T1]T2) map[T1]T2 {}
 ```
 
 - Containers that must store non-interface values. (Various

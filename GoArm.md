@@ -308,7 +308,6 @@ _-- Rémy Oudompheng_
 | Power Switch     | To power cycle the board ?|
 
 ```
-
 root@bpi01:/data/go13/src# cat ./buildgo.bash
 #!/bin/bash
 # use 1 CPU to avoid out of memory compilation issue.

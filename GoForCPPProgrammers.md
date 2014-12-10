@@ -96,8 +96,8 @@ parentheses.
 
 ```
 var (
-    i int
-    m float64
+	i int
+	m float64
 )
 ```
 
@@ -128,19 +128,19 @@ Within a function, a short declaration syntax is available with
 ` := ` .
 
 ```
-v1 := v2       // C++11: auto v1 = v2;
+v1 := v2 // C++11: auto v1 = v2;
 ```
 
 This is equivalent to
 
 ```
-var v1 = v2    // C++11: auto v1 = v2;
+var v1 = v2 // C++11: auto v1 = v2;
 ```
 
 Go permits multiple assignments, which are done in parallel.  That is, first all of the values on the right-hand side are computed, and then these values are assigned to the variables on the left-hand side.
 
 ```
-i, j = j, i    // Swap i and j.
+i, j = j, i // Swap i and j.
 ```
 
 Functions may have multiple return values, indicated by a list in
@@ -218,9 +218,9 @@ Thus, syntactically speaking, a structure and a pointer to a structure
 are used in the same way.
 
 ```
-type myStruct struct { i int }
-var v9 myStruct              // v9 has structure type
-var p9 *myStruct             // p9 is a pointer to a structure
+type myStruct struct{ i int }
+var v9 myStruct  // v9 has structure type
+var p9 *myStruct // p9 is a pointer to a structure
 f(v9.i, p9.i)
 ```
 
@@ -255,9 +255,9 @@ even to adjacent cases.
 
 ```
 switch i {
-case 0:  // empty case body
+case 0: // empty case body
 case 1:
-    f()  // f is not called when i == 0!
+	f() // f is not called when i == 0!
 }
 ```
 
@@ -266,7 +266,7 @@ But a ` case ` can have multiple values.
 ```
 switch i {
 case 0, 1:
-    f()  // f is called if i == 0 || i == 1.
+	f() // f is called if i == 0 || i == 1.
 }
 ```
 
@@ -279,11 +279,11 @@ value is omitted it defaults to ` true `.
 ```
 switch {
 case i < 0:
-    f1()
+	f1()
 case i == 0:
-    f2()
+	f2()
 case i > 0:
-    f3()
+	f3()
 }
 ```
 
@@ -291,7 +291,7 @@ The ` defer ` statement may be used to call a function after the function contai
 
 ```
 fd := open("filename")
-defer close(fd)         // fd will be closed when this function returns.
+defer close(fd) // fd will be closed when this function returns.
 ```
 
 <h2>Operators</h2>
@@ -339,7 +339,7 @@ freely without requiring general implicit type conversion.
 
 ```
 var a uint
-f(a + 1)  // untyped numeric constant "1" becomes typed as uint
+f(a + 1) // untyped numeric constant "1" becomes typed as uint
 ```
 
 The language does not impose any limits on the size of an untyped
@@ -359,9 +359,9 @@ it reuses the preceding expression.
 
 ```
 const (
-    red = iota   // red == 0
-    blue         // blue == 1
-    green        // green == 2
+	red   = iota // red == 0
+	blue         // blue == 1
+	green        // green == 2
 )
 ```
 
@@ -393,7 +393,7 @@ type velocity float64
 var pos position = 218.0
 var vel velocity = -9.8
 
-pos += vel               // INVALID: mismatched types position and velocity
+pos += vel // INVALID: mismatched types position and velocity
 // pos += position(vel)  // Valid
 ```
 
@@ -529,7 +529,8 @@ has a <em>receiver</em>.  The receiver is similar to
 the ` this ` pointer in a C++ class method.
 
 ```
-type myType struct { i int }
+type myType struct{ i int }
+
 func (p *myType) Get() int { return p.i }
 ```
 
@@ -545,9 +546,12 @@ derived from it.  The new type is distinct from the builtin type.
 
 ```
 type myInteger int
+
 func (p myInteger) Get() int { return int(p) } // Conversion required.
-func f(i int) { }
+func f(i int)                {}
+
 var v myInteger
+
 // f(v) is invalid.
 // f(int(v)) is valid; int(v) has no defined methods.
 ```
@@ -589,7 +593,11 @@ An anonymous field may be used to implement something much like a C++ child
 class.
 
 ```
-type myChildType struct { myType; j int }
+type myChildType struct {
+	myType
+	j int
+}
+
 func (p *myChildType) Get() int { p.j++; return p.myType.Get() }
 ```
 
@@ -629,8 +637,9 @@ not need to be any declared relationship between the two interfaces.
 type myPrintInterface interface {
 	Print()
 }
+
 func f3(x myInterface) {
-	x.(myPrintInterface).Print()  // type assertion to myPrintInterface
+	x.(myPrintInterface).Print() // type assertion to myPrintInterface
 }
 ```
 
@@ -644,7 +653,7 @@ programming similar to templates in C++.  This is done by
 manipulating values of the minimal interface.
 
 ```
-type Any interface { }
+type Any interface{}
 ```
 
 Containers may be written in terms of ` Any `, but the caller
@@ -800,9 +809,11 @@ can be useful with the ` go ` statement.
 var g int
 go func(i int) {
 	s := 0
-	for j := 0; j < i; j++ { s += j }
+	for j := 0; j < i; j++ {
+		s += j
+	}
 	g = s
-}(1000)  // Passes argument 1000 to the function literal.
+}(1000) // Passes argument 1000 to the function literal.
 ```
 
 Like C++11, but unlike prior versions of C++, Go defines a
@@ -857,7 +868,7 @@ To use ` Manager2 `, given a channel to it:
 ```
 func f4(ch chan<- Cmd2) int {
 	myCh := make(chan int)
-	c := Cmd2{ true, 0, myCh }   // Composite literal syntax.
+	c := Cmd2{true, 0, myCh} // Composite literal syntax.
 	ch <- c
 	return <-myCh
 }

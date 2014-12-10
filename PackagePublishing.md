@@ -82,7 +82,7 @@ To reuse the example above, the file ` ./publish/main.go ` may look something li
 package main
 
 import (
-    "flag"
+	"flag"
 )
 
 import "codesite.tld/authorName/Go-PublishingExample/epub"
@@ -90,8 +90,8 @@ import "codesite.tld/authorName/Go-PublishingExample/epub"
 var dir = flag.String("dir", ".", "Directory to publish")
 
 func main() {
-    flag.Parse()
-    epub.Publish(*dir)
+	flag.Parse()
+	epub.Publish(*dir)
 }
 ```
 

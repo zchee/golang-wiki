@@ -29,6 +29,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Build Tools
 
   * [colorgo](https://github.com/songgao/colorgo) - Colorize go build output
+  * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart)
   * [fileembed-go](https://bitbucket.org/rj/fileembed-go/) - This is a command-line utility to take a number of source files, and embed them into a Go package
   * [gb](http://github.com/skelterjohn/go-gb) - A(nother) build tool for go, with an emphasis on multi-package projects
   * [GG](http://www.manatlan.com/page/gg) - A build tool for Go in Go
@@ -1092,6 +1093,7 @@ See also [SQLDrivers page](https://code.google.com/p/go-wiki/wiki/SQLDrivers).
   * [OAuth Consumer](https://github.com/mrjones/oauth) - OAuth 1.0 consumer implementation
   * [authcookie](https://github.com/dchest/authcookie) - Package authcookie implements creation and verification of signed authentication cookies.
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
+  * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [dgoogauth](https://github.com/dgryski/dgoogauth) - Go port of Google's Authenticator library for one-time passwords
   * [go-http-auth](https://github.com/abbot/go-http-auth) - HTTP Basic and HTTP Digest authentication
   * [httpauth](https://github.com/apexskier/httpauth) - HTTP session (cookie) based authentication and authorization

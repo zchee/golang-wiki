@@ -74,6 +74,7 @@ And finally, the Go file that uses the embedded slide:
 ```
 /* data.go */
 package bindata
+
 func getDataSlices() ([]byte, []byte) // defined in slice.c
 
 var A, B = getDataSlices()

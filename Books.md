@@ -39,6 +39,11 @@ Sorted by publication date.
     * ISBN: ---
     * References: [site](http://jan.newmarch.name/go/)
 
+  * **Go: Up and Running**
+    * Author: Alan Harris
+    * Publication Date: April 2015 (est.)
+    * ISBN: 978-1-4493-7025-1
+
   * **Go In Action**
     * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
     * Publication Date: Summer 2015 (est.)
