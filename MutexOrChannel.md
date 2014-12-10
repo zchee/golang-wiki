@@ -13,7 +13,7 @@ A common Go newbie mistake is to over-use channels and goroutines just because i
 As a general guide, though:
 
 | **Channel** | **Mutex**|
-|:------------|:|
+|:------------|:---------|
 | passing ownership of data,<br />distributing units of work,<br /> communicating async results | caches,<br />state |
 
 If you ever find your sync.Mutex locking rules are getting too complex, ask yourself whether using channel(s) might be simpler.
