@@ -1,7 +1,3 @@
-### Contributing
-
-To edit this page you must be a contributor to the go-wiki project. To get contributor access, send mail to [adg@golang.org](mailto:adg@golang.org) from your Google Account.
-
 Is your area not listed below? Check out [this list](http://golang.meetup.com/all/) of people from around the world that are interested in Go meetups.
 
 # Africa
