@@ -96,6 +96,7 @@
   * [Toggl](http://www.toggl.com) - [blog](http://blog.toggl.com/2012/09/moving-to-go/)
   * [Torbit ](http://www.torbit.com) - [blog](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
   * [Tumblr ](http://www.tumblr.com) - [github](https://github.com/tumblr/gocircuit) [source](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/qelU5Lrq-uA)
+  * [TV4 (Swedish TV station)](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/) 
   * [Twitch](http://www.twitch.tv/) - [blog](http://blog.twitch.tv/2014/04/technically-speaking-group-chat-and-general-chat-engineering/)
   * [TweetQureet](http://qureet.com) - [blog](http://www.qureet.com/blog/golang-technology-stack/)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
