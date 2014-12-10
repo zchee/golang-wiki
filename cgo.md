@@ -10,9 +10,9 @@ If a Go source file imports ` "C" `, it is using cgo. The Go file will have acce
 
 Note that there must be no blank lines in between the cgo comment and the import statement.
 
-To access a symbol originating from the C side, use the package name ` C `. That is, if you want to call the C function ` printf() ` from Go code, you write ` C.printf() `.  Since variable argument methods like printf aren't supported yet (issue [975](https://code.google.com/p/go/issues/detail?id=975)), we will wrap it in the C method "myprint":
+To access a symbol originating from the C side, use the package name ` C `. That is, if you want to call the C function ` printf() ` from Go code, you write ` C.printf() `.  Since variable argument methods like printf aren't supported yet (issue [975](https://github.com/golang/go/issues/975)), we will wrap it in the C method "myprint":
 
-```
+```go
 package cgoexample
 
 /*
@@ -45,7 +45,8 @@ Note: you can't define any C functions in preamble if you're using exports.
 
 For example, there are two files, foo.c and foo.go:
 foo.go contains:
-```
+
+```go
 package gocallback
 
 import "fmt"
@@ -65,8 +66,10 @@ func Example() {
 	C.ACFunction()
 }
 ```
+
 foo.c contains:
-```
+
+```go
 #include "_cgo_export.h"
 void ACFunction() {
 	printf("ACFunction()\n");
@@ -78,7 +81,7 @@ void ACFunction() {
 
 The following code shows an example of invoking a Go callback from C code. Go passes the function variable to the CGo code by calling ` CallMyFunction() `. ` CallMyFunction() ` invokes the callback by sending it back into the Go code, with the desired parameters, for unpacking and calling.
 
-```
+```go
 package gocallback
 
 import (
@@ -118,14 +121,13 @@ func Example() {
 }
 ```
 
-
-
 ### Function pointer callbacks
 
 C code can call exported Go functions with their explicit name. But if a C-program wants a function pointer, a gateway function has to be written. This is because we can't take the address of a Go function and give that to C-code since the cgo tool will generate a stub in C that should be called. The following example shows how to integrate with C code wanting a function pointer of a give type.
 
 Place these source files under _$GOPATH/src/ccallbacks/_. Compile and run with:
-```
+
+```console
 $ gcc -c clibrary.c
 $ ar cru libclibrary.a clibrary.o
 $ go build ccallbacks
@@ -138,7 +140,8 @@ C.some_c_func(): callback responded with 3
 ```
 
 **goprog.go**
-```
+
+```go
 package main
 
 /*
@@ -169,7 +172,8 @@ func main() {
 ```
 
 **cfuncs.go**
-```
+
+```go
 package main
 
 /*
@@ -196,7 +200,8 @@ void some_c_func(callback_fcn);
 ```
 
 **clibrary.c**
-```
+
+```go
 #include <stdio.h>
 
 #include "clibrary.h"
@@ -210,11 +215,6 @@ void some_c_func(callback_fcn callback)
 }
 ```
 
-
-
-
-
-
 ## Go strings and C strings
 
 Go strings and C strings are different. Go strings are the combination of a length and a pointer to the first character in the string. C strings are just the pointer to the first character, and are terminated by the first instance of the null character, ` '\0' `.
@@ -225,7 +225,8 @@ Go provides means to go from one to another in the form of the following three f
   * ` func C.GoStringN(cString *C.char, length C.int) string `
 
 One important thing to remember is that ` C.CString() ` will allocate a new string of the appropriate length, and return it. That means the C string is not going to be garbage collected and it is up to **you** to free it. A standard way to do this follows.
-```
+
+```go
 // #include <stdlib.h>
 import "C"
 import "unsafe"
@@ -234,6 +235,7 @@ import "unsafe"
 	defer C.free(unsafe.Pointer(cmsg))
 	// do something with the C string
 ```
+
 Of course, you aren't required to use ` defer ` to call ` C.free() `. You can free the C string whenever you like, but it is your responsibility to make sure it happens.
 
 ## Turning C arrays into Go slices
@@ -245,7 +247,7 @@ Go provides the following function to make a new Go byte slice from a C array:
 
 To create a Go slice backed by a C array (without copying the original data), one needs to acquire this length at runtime and use ` reflect.SliceHeader `.
 
-```
+```go
 import "C"
 import "unsafe"
 ...
@@ -265,7 +267,8 @@ It is important to keep in mind that the Go garbage collector will not interact 
 Another simpler solution is casting the pointer to a pointer to a very big array and then
 slice it to the length that you want (also remember to set the cap if you're using Go 1.2
 or later), for example (see http://play.golang.org/p/XuC0xqtAIC for a runnable example):
-```
+
+```go
 import "C"
 import "unsafe"
 ...
@@ -282,8 +285,9 @@ To use it, you have to read/write the struct as byte array/slice.
 
 Another problem is that some types has lower alignment requirement than their counterpart in Go,
 and if that type happens to be aligned in C but not in Go rules, that struct simply can't be represented
-in Go. An example is this (issue 7560 (on Google Code)):
-```
+in Go. An example is this ([issue 7560](https://github.com/golang/go/issues/7560)):
+
+```go
 struct T {
     uint32_t pad;
     complex float x;
@@ -294,12 +298,14 @@ complex float internally as a ` struct { float real; float imag; } `, not a basi
 doesn't have a Go representation. For this case, if you control the layout of the struct, move the
 complex float so that it is also aligned to 8-byte is better, and if you're not willing to move it,
 use this form will force it to align to 8-byte (and waste 4-byte):
-```
+
+```go
 struct T {
    uint32_t pad;
    __attribute__((align(8))) complex float x;
 };
 ```
+
 However, if you don't control the struct layout, you will have to define accessor C functions for
 that struct because cgo won't be able to translate that struct into equivalent Go struct.
 
