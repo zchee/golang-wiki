@@ -38,12 +38,18 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
 
 # North America
 
+## Canada
+
   * [Edmonton Go Meetup](http://edmontongo.org/) - Edmonton AB, Canada.
   * [vangophers](http://groups.google.com/group/vangophers) - Vancouver BC, Canada.
   * [Go Vancouver](https://plus.google.com/u/0/communities/106063002572645508555) - Vancouver BC, Canada.
   * [GoTO](http://www.meetup.com/go-toronto) - Toronto ON, Canada.
 
+## Mexico
+
   * [golangmx](http://golang.mx/) - Mexico City, Mexico.
+
+## United States
 
   * [Los-Angeles-Gophers](http://www.meetup.com/Los-Angeles-Gophers/) - Los Angeles CA, USA.
   * [Golang Mountain View](http://www.meetup.com/Golang-Mountain-View/) - Mountain View CA, USA.
