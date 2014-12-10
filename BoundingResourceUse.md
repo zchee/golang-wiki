@@ -1,8 +1,8 @@
 # Bounding resource use
 
-To bound a program's use of a limited resource, like memory, have goroutines synchronize their use of that resource using a buffered channel (i.e., use the channel as a semaphore):
+To bound a program's use of a limited resource - like memory - have goroutines synchronize their use of that resource using a buffered channel (i.e., use the channel as a semaphore):
 
-```
+```go
 const (
 	AvailableMemory         = 10 << 20 // 10 MB
 	AverageMemoryPerRequest = 10 << 10 // 10 KB
