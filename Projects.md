@@ -7,13 +7,9 @@ These sites provide indexes and search engines for Go packages:
   * [gowalker](http://gowalker.org/)
   * [Sourcegraph](https://sourcegraph.com/)
 
-# Contributing
-
-To edit this page you must be a contributor to the go-wiki project. To get contributor access, send mail to [adg@golang.org](mailto:adg@golang.org) from your Google Account.
-
 ## Dead projects
 
-If you find a project in this list that is dead or broken, please either mark it as such (if you have edit permissions) or mention it in the #go-nuts IRC channel.
+If you find a project in this list that is dead or broken, please either mark it as such or mention it in the #go-nuts IRC channel.
 
 # Table of Contents
 |(TODO: Add table of contents.)|
@@ -260,12 +256,12 @@ If you find a project in this list that is dead or broken, please either mark it
   * [tribool](https://github.com/saschpe/tribool) - Ternary (tree-valued) logic for Go
   * [Tuple](https://bitbucket.org/gotamer/tuple) - Tuple is a go type that will hold mixed types / values
   * [vcard](https://bitbucket.org/llg/vcard) - Reading and writing vcard file in go.  Implementation of RFC 2425 (A MIME Content-Type for Directory Information) and RFC 2426 (vCard MIME Directory Profile).
-  * [x2j](https://github.com/clbanning/x2j) - Unmarshal XML doc into map[string](wiki/string)interface{} or JSON
+  * [x2j](https://github.com/clbanning/x2j) - Unmarshal XML doc into `map[string]interface{}` or JSON
   * [xlsx](https://github.com/tealeg/xlsx) - A library to help with extracting data from Microsoft Office Excel XLSX files.
 
 ## Databases and Storage
 
-See also [SQLDrivers page](https://code.google.com/p/go-wiki/wiki/SQLDrivers).
+See also [[SQLDrivers page|SQLDrivers]].
 
 #### MongoDB
 
