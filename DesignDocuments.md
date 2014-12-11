@@ -50,5 +50,5 @@
   * [Go Builder Plan](http://golang.org/s/builderplan)
 
 # Rejected Proposals
-  * [Read-only Slices](https://docs.google.com/a/golang.org/document/d/1UKu_do3FRvfeN5Bb1RxLohV-zBOJWTzX0E8ZU1bkqX0/edit#heading=h.2wzvdd6vdi83), [Evaluation of read-only slices](https://docs.google.com/document/d/1-NzIYu0qnnsshMBpMPmuO21qd8unlimHgKjRD9qwp2A/edit) ([rejected](https://groups.google.com/d/msg/golang-dev/Y7j4B2r_eDw/Rkq-OtEsEBAJ)
-  * [Go 1.4: unsafe.Pointer arithmetic](https://docs.google.com/a/dempsky.org/document/d/1yyCMzE4YPfsXvnZNjhszaYNqavxHhvbY-OWPqdzZK30/pub) Rejected.
+  * [Read-only Slices](https://docs.google.com/a/golang.org/document/d/1UKu_do3FRvfeN5Bb1RxLohV-zBOJWTzX0E8ZU1bkqX0/edit#heading=h.2wzvdd6vdi83), [Evaluation of read-only slices](https://docs.google.com/document/d/1-NzIYu0qnnsshMBpMPmuO21qd8unlimHgKjRD9qwp2A/edit) ([rejected](https://groups.google.com/d/msg/golang-dev/Y7j4B2r_eDw/Rkq-OtEsEBAJ))
+  * [Go 1.4: unsafe.Pointer arithmetic](https://docs.google.com/a/dempsky.org/document/d/1yyCMzE4YPfsXvnZNjhszaYNqavxHhvbY-OWPqdzZK30/pub)
