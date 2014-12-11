@@ -6,7 +6,7 @@ First way: Dynamically load a dll, then call a method on it. You can call the me
 
 A sample program that calls Windows DLLs from Go:
 
-```
+```go
 package main
 
 import (
@@ -96,7 +96,7 @@ func init() {
 
 Second way is via syscall.NewProc (etc.) instead of syscall.GetProcAddress.  These are basically some helper methods over the syscall ones, you saw above, and are available in Windows only: http://golang.org/src/pkg/syscall/dll_windows.go
 
-```
+```go
 package main
 
 import (
@@ -119,14 +119,14 @@ func main() {
 }
 ```
 
-A third way would be to call into libraries basically by "linking" against the library, using the "[cgo](wiki/cgo)" method (this way works in Linux and Windows):
+A third way would be to call into libraries basically by "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows):
 
 This way would look something like this
 
-```
+```go
 import ("C")
 ...
 C.MessageBoxW(...)
 ```
 
-See [cgo](wiki/cgo) for further details.
+See [[cgo]] for further details.
