@@ -31,7 +31,7 @@
 
 # Future Proposals
 
-* [dev.cc branch plan](http://golang.org/s/dev.cc)
+  * [dev.cc branch plan](http://golang.org/s/dev.cc)
   * [Go 1.4+ Garbage Collection (GC) Plan and Roadmap](http://golang.org/s/go14gc)
   * [Better GC and Memory Allocator for Go](https://docs.google.com/document/d/1HCPu3WKyCX3ZRYxmIMKTk0Ik1dePxKW1p02k3uhcft4/view) 
     * [Groups Discussion](https://groups.google.com/d/topic/golang-dev/pwUh0BVFpY0/discussion)
