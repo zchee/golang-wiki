@@ -1,6 +1,6 @@
 Heap dump format for other versions:
 
-  * [heapdump13](wiki/heapdump13)
+  * [[heapdump13]]
 
 # Introduction
 
