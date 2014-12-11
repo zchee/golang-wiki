@@ -34,4 +34,4 @@
   * [I/O BootCamp 2011: Real World Go](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Go at Heroku](http://blog.golang.org/2011/04/go-at-heroku.html)
 
-See also [GoUsers](wiki/GoUsers)
+See also [[GoUsers]].
