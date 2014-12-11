@@ -1,4 +1,4 @@
-_**Update: the Plan 9 C compilers are going away in future releases of Go (probably in Go 1.5), so some of the tricks below that use them are deprecated.**_
+_**Update: the Plan 9 C compilers are going away in future releases of Go (scheduled in Go 1.5), so some of the tricks below that use them are deprecated.**_
 
 # Introduction
 This page documents some less well-known (perhaps advanced) tricks for the ` gc ` toolchain (and the Go tool).
