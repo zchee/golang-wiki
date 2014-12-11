@@ -70,14 +70,14 @@ Sorted by publication date.
     * ISBN: 9787121200915
     * Reference: https://github.com/astaxie/build-web-application-with-golang/
 
-  * **Go语言程序设计(Programming in Go: Creating Applications for the 21st Century)**
+  * **Go语言程序设计 (Programming in Go: Creating Applications for the 21st Century)**
     * Author: Mark Summerfield
     * Translator: 许式伟, 吕桂华, 徐立, 何李石
     * Publication Date: 2013-08
     * ISBN: 978-7-115-31790-2
     * Reference: http://www.ptpress.com.cn/Book.aspx?id=35714
 
-  * **Go语言程序设计(21世纪高等学校规划教材·计算机科学与技术)**
+  * **Go语言程序设计 (21世纪高等学校规划教材·计算机科学与技术)**
     * Author: 王鹏
     * Publication Date: 2013-12-18
     * ISBN: 9787302347231
