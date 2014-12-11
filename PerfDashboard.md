@@ -8,7 +8,7 @@ The dashboard uses two builders: linux-amd64 running Ubuntu 14.04 and windows-am
 
 # Benchmarks
 
-The builders run benchmarks from the [go.benchmarks](https://code.google.com/p/go/source/browse?repo=benchmarks) repo:
+The builders run benchmarks from the [x/benchmarks](https://golang.org/x/benchmarks) repo:
   * ` json `: marshals and unmarshals large json object, in several goroutines independently.
   * ` http `: http client and server serving "hello world", uses persistent connections and read/write timeouts.
   * ` garbage `: parses net package using go/parser, in a loop in several goroutines; half of packages are instantly discarded, the other half is preserved indefinitely; this creates significant pressure on the garbage collector.
