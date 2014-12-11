@@ -107,7 +107,7 @@ With your _$PATH_ set to find _xgo\_and the cross-compiling version of_gccgo and
 
 ## TODO
 
-Go-programs importing "C" does not seems to work using xgo. Currently blocked by [Go issue#7398](https://code.google.com/p/go/issues/detail?id=7398)
+Go-programs importing "C" does not seems to work using xgo. Currently blocked by [Go issue#7398](https://github.com/golang/go/issues/7398)
 
 
 This Wiki page was inspired by the lessons learned from "[golang-nuts] Simplification of MIPS cross-compilation?" @ https://groups.google.com/forum/#!topic/golang-nuts/PgyS2yoO2jM
