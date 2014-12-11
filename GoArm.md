@@ -59,7 +59,7 @@ The major issue with ARMv5 is the lack of floating point support in common ARMv5
 html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](http://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill  the application after 10 segfaults.
 
 ## Potential kernel bug in 2.6.32-5-kirkwood on QNAP 219P
-See [Issue 5466](https://code.google.com/p/go/issues/detail?id=5466) for details. Updating to 3.2.0-4-kirkwood solved the issue.
+See [Issue 5466](https://github.com/golang/go/issues/5466) for details. Updating to 3.2.0-4-kirkwood solved the issue.
 
 # Success stories
 
