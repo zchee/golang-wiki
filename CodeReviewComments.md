@@ -201,7 +201,7 @@ Finally, in some cases you need to name a result parameter in order to change it
 
 ## Naked Returns
 
-See [CodeReviewComments#Named\_Result\_Parameters](wiki/CodeReviewComments#Named_Result_Parameters).
+See [Named Result Parameters](#named-result-parameters).
 
 ## Package Comments
 
