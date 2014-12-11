@@ -1,11 +1,11 @@
 # Introduction
-Now that you've spent many hours writing your package and debugging it and testing it (you did [test it](wiki/TableDrivenTests), didn't you?), you want to publish it so other people can [goinstall](http://golang.org/cmd/goinstall) your package and see it on the [dashboard](http://godashboard.appspot.com/package).
+Now that you've spent many hours writing your package and debugging it and testing it (you did [[test it|TableDrivenTests]], didn't you?), you want to publish it so other people can [go install](http://golang.org/cmd/go/) your package and see it on the [dashboard](https://godoc.org/).
 
-First, you will need to host it online somewhere.  Four major code hosting sites are [bitbucket](http://bitbucket.org/) (hg), [github](http://github.com/) (git), [googlecode](http://code.google.com/projecthosting/) (hg/git/svn), and [launchpad](http://launchpad.net) (bzr).  I recommend choosing whichever version control system you are familiar with or which your code is versioned locally on your machine.  Mercurial (hg) is the version control system used by the central Go repository, so it is the closest to a guarantee as you can get that a developer wanting to use your project will have the right software.  Git is also very popular, and so is also often available.  If you have never used version control before, these websites have some nice HOWTOs and you can find many great tutorials by searching Google for "{name} tutorial" where {name} is the name of the version control system you would like to learn.
+First, you will need to host it online somewhere.  Four major code hosting sites are [bitbucket](http://bitbucket.org/) (hg/git), [GitHub](http://github.com/) (git), [googlecode](http://code.google.com/projecthosting/) (hg/git/svn), and [launchpad](http://launchpad.net) (bzr).  I recommend choosing whichever version control system you are familiar with or which your code is versioned locally on your machine.  Git (git) is the version control system used by the central Go repository, so it is the closest to a guarantee as you can get that a developer wanting to use your project will have the right software. If you have never used version control before, these websites have some nice HOWTOs and you can find many great tutorials by searching Google for "{name} tutorial" where {name} is the name of the version control system you would like to learn.
 
 # Package Setup
 ## Choosing the Import
-The full import of your package often has something identifying its author (particularly on hosting sites like github, where "github.com/kylelemons/..." is the full import), should always have the project name, and should end with the name of the package you've developed if it is different from the project name.  For instance, the go-gypsy project provides a yaml package, and is written by Kyle Lemons, and thus has the following import path:
+The full import of your package often has something identifying its author (particularly on hosting sites like GitHub, where "github.com/kylelemons/..." is the full import), should always have the project name, and should end with the name of the package you've developed if it is different from the project name.  For instance, the go-gypsy project provides a yaml package, and is written by Kyle Lemons, and thus has the following import path:
 ```
 import "github.com/kylelemons/go-gypsy/yaml"
              ^         ^          ^     ^
@@ -15,7 +15,7 @@ import "github.com/kylelemons/go-gypsy/yaml"
              `----------------------------- Hosting site
 ```
 
-As of the time of this writing, the current release (r60 (on Google Code)) does support subdirectories of package repositories, but if you are going to be supporting earlier versions, note that they may not have a goinstall binary which reports subdirectories within a repository to the dashboard.
+As of the time of this writing, the current release (r60 (on Google Code)) does support subdirectories of package repositories, but if you are going to be supporting earlier versions, note that they may not have a go install binary which reports subdirectories within a repository to the dashboard.
 
 ## Subdirectories
 
