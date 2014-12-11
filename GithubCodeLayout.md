@@ -79,7 +79,7 @@ package main
 import (
 	"net/http"
 
-	"code.google.com/p/go.net/websocket"
+	"golang.org/x/net/websocket"
 	"github.com/jmcvetta/useless"
 )
 
@@ -94,7 +94,7 @@ func main() {
 
 # Dependencies
 
-Your project will probably depend on some existing packages.  The application above depends upon ` code.google.com/p/go.net/websocket `.  You can install all dependencies by running "` go get -v ./... `" from the root of your workspace.  The "` go get `" command is similar to "` go install `" in that it will attempt to build and install all packages in the workspace (technically, all packages matched by "` ./... `"), except that it will also examine their dependencies and download (and install) any that are missing first.
+Your project will probably depend on some existing packages.  The application above depends upon ` golang.org/x/net/websocket `.  You can install all dependencies by running "` go get -v ./... `" from the root of your workspace.  The "` go get `" command is similar to "` go install `" in that it will attempt to build and install all packages in the workspace (technically, all packages matched by "` ./... `"), except that it will also examine their dependencies and download (and install) any that are missing first.
 
 See the output of "` go help packages `" for a full explanation of the "` ... `" syntax.
 
