@@ -1,5 +1,3 @@
-(TODO: Add table of contents.)
-
 # Go Code Review Comments
 
 This page collects common comments made during reviews of Go code, so
@@ -10,17 +8,39 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 **Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
+* [gofmt](#gofmt)
+* [Comment Sentences](#comment-sentences)
+* [Doc Comments](#doc-comments)
+* [Don't Panic](#dont-panic)
+* [Error Strings](#error-strings)
+* [Handle Errors](#handle-errors)
+* [Imports](#imports)
+* [Import Dot](#import-dot)
+* [Indent Error Flow](#indent-error-flow)
+* [Initialisms](#initialisms)
+* [Line Length](#line-length)
+* [Mixed Caps](#mixed-caps)
+* [Named Result Parameters](#named-result-parameters)
+* [Naked Returns](#naked-returns)
+* [Package Comments](#package-comments)
+* [Package Names](#package-names)
+* [Pass Values](#pass-values)
+* [Receiver Names](#receiver-names)
+* [Receiver Type](#receiver-type)
+* [Useful Test Failures](#useful-test-failures)
+* [Variable Names](#variable-names)
+
 ## gofmt
 
 Run [gofmt](http://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
-An alternative is to use [goimports](https://godoc.org/code.google.com/p/go.tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
+An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
 ## Comment Sentences
 
 See http://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
 
-```
+```go
 // A Request represents a request to run a command.
 type Request struct { ...
 
@@ -40,7 +60,7 @@ See http://golang.org/doc/effective_go.html#errors. Don't use panic for normal e
 
 ## Error Strings
 
-Error strings should not be capitalized (unless beginning with proper nouns or acronyms) or end with punctuation, since they are usually printed following other context. That is, use fmt.Errorf("something bad") not fmt.Errorf("Something bad"), so that log.Print("Reading %s: %v", filename, err) formats without a spurious capital letter mid-message. This does not apply to logging, which is implicitly line-oriented and not combined inside other messages.
+Error strings should not be capitalized (unless beginning with proper nouns or acronyms) or end with punctuation, since they are usually printed following other context. That is, use `fmt.Errorf("something bad")` not `fmt.Errorf("Something bad")`, so that `log.Print("Reading %s: %v", filename, err)` formats without a spurious capital letter mid-message. This does not apply to logging, which is implicitly line-oriented and not combined inside other messages.
 
 ## Handle Errors
 
@@ -50,7 +70,7 @@ See http://golang.org/doc/effective_go.html#errors. Do not discard errors using 
 
 Imports are organized in groups, with blank lines between them.  The standard library packages are in the first group.
 
-```
+```go
 package main
 
 import (
@@ -66,13 +86,13 @@ import (
 )
 ```
 
-<a href='https://godoc.org/code.google.com/p/go.tools/cmd/goimports'>goimports</a> will do this for you.
+<a href="https://godoc.org/golang.org/x/tools/cmd/goimports">goimports</a> will do this for you.
 
 ## Import Dot
 
 The import . form can be useful in tests that, due to circular dependencies, cannot be made part of the package being tested:
 
-```
+```go
 package foo_test
 
 import (
@@ -85,9 +105,9 @@ In this case, the test file cannot be in package foo because it uses bar/testuti
 
 ## Indent Error Flow
 
-Try to keep the normal code path at a minimal indentation, and indent the error handling, dealing with it first. This improves the readability of the code by permitting visually scanning the normal path quickly. For instance, don't write
+Try to keep the normal code path at a minimal indentation, and indent the error handling, dealing with it first. This improves the readability of the code by permitting visually scanning the normal path quickly. For instance, don't write:
 
-```
+```go
 if err != nil {
 	// error handling
 } else {
@@ -95,9 +115,9 @@ if err != nil {
 }
 ```
 
-Instead, write
+Instead, write:
 
-```
+```go
 if err != nil {
 	// error handling
 	return // or continue, etc.
@@ -105,9 +125,9 @@ if err != nil {
 // normal code
 ```
 
-If the if statement has an initialization statement that, such as
+If the if statement has an initialization statement that, such as:
 
-```
+```go
 if x, err := f(); err != nil {
 	// error handling
 	return
@@ -118,7 +138,7 @@ if x, err := f(); err != nil {
 
 then this may require moving the short variable declaration to its own line:
 
-```
+```go
 x, err := f()
 if err != nil {
 	// error handling
@@ -149,12 +169,14 @@ See http://golang.org/doc/effective_go.html#mixed-caps. This applies even when i
 
 Consider what it will look like in godoc.  Named result parameters like:
 
-```
+```go
 func (n *Node) Parent1() (node *Node)
 func (n *Node) Parent2() (node *Node, err error)
 ```
+
 will stutter in godoc; better to use:
-```
+
+```go
 func (n *Node) Parent1() *Node
 func (n *Node) Parent2() (*Node, error)
 ```
@@ -164,7 +186,9 @@ On the other hand, if a function returns two or three parameters of the same typ
 ```go
 func (f *Foo) Location() (float64, float64, error)
 ```
-is less clear than
+
+is less clear than:
+
 ```go
 // Location returns f's latitude and longitude.
 // Negative values mean south and west, respectively.
@@ -183,12 +207,12 @@ See [CodeReviewComments#Named\_Result\_Parameters](wiki/CodeReviewComments#Named
 
 Package comments, like all comments to be presented by godoc, must appear adjacent to the package clause, with no blank line.
 
-```
+```go
 // Package math provides basic constants and mathematical functions.
 package math
 ```
 
-```
+```go
 /*
 Package template implements data-driven templates for generating textual
 output such as HTML.
@@ -229,7 +253,7 @@ Choosing whether to use a value or pointer receiver on methods can be difficult,
 
 Tests should fail with helpful messages saying what was wrong, with what inputs, what was actually got, and what was expected.  It may be tempting to write a bunch of assertFoo helpers, but be sure your helpers produce useful error messages.  Assume that the person debugging your failing test is not you, and is not your team.  A typical Go test fails like:
 
-```
+```go
 if got != tt.want {
 	t.Errorf("Foo(%q) = %d; want %d", tt.in, got, tt.want) // or Fatalf, if test can't test anything more past this point
 }
@@ -237,11 +261,11 @@ if got != tt.want {
 
 Note that the order here is actual != expected, and the message uses that order too. Some test frameworks encourage writing these backwards: 0 != x, "expected 0, got x", and so on. Go does not.
 
-If that seems like a lot of typing, you may want to write a table-driven test: http://code.google.com/p/go-wiki/wiki/TableDrivenTests
+If that seems like a lot of typing, you may want to write a [[table-driven test|TableDrivenTests]].
 
 Another common technique to disambiguate failing tests when using a test helper with different input is to wrap each caller with a different TestFoo function, so the test fails with that name:
 
-```
+```go
 func TestSingleValue(t *testing.T) { testHelper(t, []int{80}) }
 func TestNoValues(t *testing.T)    { testHelper(t, []int{}) }
 ```
