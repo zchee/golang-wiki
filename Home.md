@@ -10,3 +10,7 @@ Other documentation:
 
 - [golang.org](https://golang.org/doc/) - official docs.
 - [blog.golang.org](https://blog.golang.org/) - the official blog.
+
+Notes:
+
+- Please refrain from changing the title of the wiki pages, as some of them might be linked to from [golang.org](https://golang.org) or other websites.
