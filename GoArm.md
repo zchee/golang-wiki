@@ -1,6 +1,6 @@
 # Introduction
 
-Go is fully supported on linux/arm. Any Go program that you can compile for x86/x86\_64 should work on Arm.
+Go is fully supported on linux/arm. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux, Go is also experimentally supported on FreeBSD, and NetBSD. There is a also unofficial port to [Darwin (iOS)](https://bitbucket.org/minux/goios).
 
 # Supported architectures
 
