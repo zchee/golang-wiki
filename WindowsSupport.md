@@ -1,5 +1,5 @@
-# Go under MS Windows
+# Go under Microsoft Windows
 
-The windows port is stable and officially supported.
+The Windows port is stable and officially supported.
 
-  * See the [open Windows issues](http://code.google.com/p/go/issues/list?q=label:os-windows) on the issue tracker.
+  * See the [open Windows issues](https://github.com/golang/go/issues?q=is%3Aopen+is%3Aissue+label%3Aos-windows) on the issue tracker.
