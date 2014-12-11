@@ -41,7 +41,7 @@ The ` go build ` command will only produce a binary; if you run go build in a pa
 If you have a source distribution, make sure that your packages are up-to-date.  Also double check the environment above.
 
 ## When cross compiling, I get ` "runtime/extern.go:135: undefined: theGoos" `
-Read [WindowsCrossCompiling](wiki/WindowsCrossCompiling) for some helpful scripts.  You can also use the ` --no-clean ` argument when you're building the cross-compile toolchain via ` make.bash `.
+Read [[WindowsCrossCompiling]] for some helpful scripts.  You can also use the ` --no-clean ` argument when you're building the cross-compile toolchain via ` make.bash `.
 
 ### Why does ` go get ` work for some packages and report ` permission denied ` in ` $GOROOT ` for some others (with GOPATH set properly)?
 If you at any point installed the package in ` GOROOT ` (either by having no ` GOPATH ` set or by including ` GOROOT ` itself in ` GOPATH `) then there might still be a directory in ` $GOROOT ` (which is always checked first) that is overriding your ` GOPATH `.  To verify, run ` go list -f {{.Dir}} importpath ` and if it reports a directory under ` $GOPATH ` try deleting that first.
