@@ -2,7 +2,7 @@
 
 Here's why: a list of people/organizations tell why they use Go.
 
-This is partly redundant with https://code.google.com/p/go-wiki/wiki/GoUsers
+This is partly redundant with [[GoUsers]]
 
 
 # Why Go
