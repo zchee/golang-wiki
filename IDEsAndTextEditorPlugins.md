@@ -9,13 +9,13 @@
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
     * [GoFlyMake](https://github.com/dougm/goflymake) Flymake-style syntax checking for Go
     * [go-errcheck.el](https://github.com/dominikh/go-errcheck.el) Errcheck integration for Emacs
-  * **[Gedit](http://projects.gnome.org/gedit/)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formating available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
+  * **[Gedit](http://projects.gnome.org/gedit/)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://code.google.com/p/rog-go/source/browse/exp/cmd/godef/)**: Prints the source location of definitions in Go programs. Integrates with acme and emacs.
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-plattform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](http://plugins.jetbrains.com/plugin/?idea&id=5047) support available.
-  * **[jEdit](http://www.jedit.org/)**: Open source cross-plattform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
+  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](http://plugins.jetbrains.com/plugin/?idea&id=5047) support available.
+  * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
   * **[LiteIDE](http://code.google.com/p/golangide/)**: A simple, open source and cross-platform Go IDE
   * **[Notepad++](http://notepad-plus-plus.org/)**: Free source code editor for Windows.
     * [notepadplus-go](https://github.com/chai2010/notepadplus-go) Syntax highlighting, functions list panel (for code browsing), code completion for keywords & builtins.
@@ -34,4 +34,4 @@
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
   * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go.
 
-Other environments such XCode and kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://code.google.com/p/go/source/browse/misc/?name=release-branch.go1.3
+Other environments such Xcode and kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://code.google.com/p/go/source/browse/misc/?name=release-branch.go1.3
