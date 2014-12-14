@@ -89,6 +89,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: [site](http://www.mikespook.com/learning-go/)
 
+  * **Go 学习笔记 - 第三版** (e-book)
+    * Author: 雨痕（qyuhen）
+    * Publication Date: ---
+    * ISBN: ---
+    * References: [site](https://github.com/qyuhen/book)
+
 # Japanese
   * **はじめての「Go言語」**
     * Author: 茨木 隆彰
