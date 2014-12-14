@@ -743,6 +743,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [selenium](https://bitbucket.org/tebeka/selenium/src) - Selenium client
   * [go-selenium](https://github.com/sourcegraph/go-selenium) - Selenium WebDriver client for Go
   * [serial](https://github.com/ziutek/serial) - Serial ports API (pure Go)
+  * [go-serial](https://github.com/mikepb/go-serial) - Go binding to libserialport for serial port functionality (cgo).
   * [sio](https://github.com/schleibinger/sio) - Package sio lets you access old serial junk. It's a go-gettable fork and modification of dustin's rs232 package.
   * [symutils](https://github.com/salviati/symutils) - Various tools and libraries to handle symbolic links
   * [udis86](https://github.com/jroimartin/udis86) - Go bindings for libudis86
