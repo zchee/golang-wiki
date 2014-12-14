@@ -106,6 +106,7 @@
   * [Viki](http://www.viki.com/) - [github](https://github.com/viki-org/)
   * [VividCortex](https://vividcortex.com/) - [source](https://vividcortex.com/jobs/) [github](https://github.com/VividCortex/)
   * [Zynga](http://www.zynga.com) - [source (zbase component)](http://code.zynga.com/2013/08/zbase-a-high-performance-elastic-distributed-key-value-store/) [github](https://github.com/zbase)
+  * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
 
 
 # Tried Go, but moved away
