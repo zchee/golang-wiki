@@ -1008,6 +1008,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Testing
 
   * [assert](https://github.com/chai2010/assert) - Assert for go test.
+  * [assert](https://github.com/seanpont/assert) - JUnit-like asserts with excellent error messages
   * [downtest](https://github.com/jmcvetta/downtest) - Automatically run tests for all known downstream consumers of a Go package.
   * [go2xunit](https://bitbucket.org/tebeka/go2xunit) - Convert "go test -v" output to xunit XML output
   * [goautotest](https://github.com/ryanslade/goautotest) - Automatically run unit tests when code changes are made
