@@ -5,7 +5,7 @@
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js) _2012-09-14_
   * [Why I program in Go](http://tech.t9i.in/2013/01/why-program-in-go/) _2013-01-05_
-  * [What I Love About Go](http://blog.natefinch.com/2013/01/what-i-love-about-go.html) _2013-01-25_
+  * [What I Love About Go](http://npf.io/2013/01/what-i-love-about-go) _2013-01-25_
   * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
   * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
 
