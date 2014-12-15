@@ -89,6 +89,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
+  * [passman](https://github.com/seanpont/passman) - A command-line password manager
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [gssh](https://github.com/syamp/gssh) - A simple command line utility to run ssh concurrently across many hosts
