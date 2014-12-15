@@ -31,7 +31,7 @@ Sorted by publication date.
     * Author: Miek Gieben
     * Publication Date: ---
     * ISBN: ---
-    * References: [site](http://www.miek.nl/projects/learninggo/)
+    * References: [site](http://archive.miek.nl/projects/learninggo/)
 
   * **Network Programming with Go** (e-book)
     * Author: Jan Newmarch
