@@ -1,10 +1,6 @@
-# Introduction
+Here's why: a list of people/organizations tell why they use Go. This is partly redundant with [[GoUsers]]
 
-Here's why: a list of people/organizations tell why they use Go.
-
-This is partly redundant with [[GoUsers]]
-
-- [**Go Wiki**](https://code.google.com/p/go-wiki/wiki/GoUsers)
+## Why Go
 - [*Half a decade with Go* by golang.org blog](http://blog.golang.org/5years)
 - [**Why Learn Go** by Rob Pike (YouTube)](https://www.youtube.com/watch?v=FTl0tl9BGdc)
 - [**Go at Google** by Rob Pike (YouTube)](http://www.infoq.com/presentations/Go-Google)
@@ -34,6 +30,8 @@ This is partly redundant with [[GoUsers]]
 - [*DNS Server in Go* by Ask Bjørn Hansen](http://news.ntppool.org/2012/10/new-dns-server.html)
 - [*Fixing Server bottlenecks with Go and Nginx* by Ismael Celis](https://www.new-bamboo.co.uk/blog/2014/11/18/fixing-server-bottlenecks-with-go-and-nginx/)
 - [*Go and Switft* by Scott Rosenberg](https://medium.com/backchannel/my-computer-language-is-better-than-yours-58d9c9523644)
+
+## Who uses Go
 - [**Go at Aerospike** by Brian Bulkowski](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
 - [**Go at Airbrake** by Ben Arent](https://airbrake.io/blog/status/planned-airbrake-migration-love-go-love-riak)
 - [**Go at Apcera** by Derek Collison](https://www.hakkalabs.co/articles/why-we-use-go)
