@@ -226,6 +226,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gotree](https://github.com/gyuho/gotree) - Tree Visualization, Algorithms
   * [gtreap](https://github.com/steveyen/gtreap) - Persistent treap implementation.
   * [go-ibbs](https://github.com/jaekwon/go-ibbs) - Immutable AVL+ tree
+  * [go-btree](https://github.com/liangx8/tree.git) - Simple balance tree implementation
 
 #### Other
 
