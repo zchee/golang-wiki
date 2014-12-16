@@ -40,6 +40,7 @@ Here's why: a list of people/organizations tell why they use Go. This is partly 
 - [**Go at Bitly**](http://word.bitly.com/post/29550171827/go-go-gadget)
 - [**Go at Canonical (Juju)** by Dave Cheney](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
 - [**Go at CloudFlare** by John Graham-Cumming](http://blog.cloudflare.com/go-at-cloudflare/)
+- [**Go at Copper.io** by Mark Bakker](https://blog.copper.io/building-a-scaleable-app-that-can-actually-scale/)
 - [**Go at CoreOS** by Kelsey Hightower](http://blog.gopheracademy.com/birthday-bash-2014/go-at-coreos/)
 - [**Go at CoreOS**](https://github.com/coreos/go-etcd)
 - [**Go at Datadog** by Jason Moiron](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
