@@ -99,7 +99,6 @@ The wait fields must be present in all cases, but they only mean something if th
 
   * bool: big endian
   * uvarint: pointer size in bytes
-  * uvarint: channel header size in bytes
   * uvarint: starting address of heap
   * uvarint: ending address of heap
   * uvarint: thechar = architecture specifier
