@@ -505,7 +505,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go-OpenGL](https://github.com/banthar/Go-OpenGL) - Go bindings for OpenGL
   * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
   * [GoMacDraw](https://github.com/skelterjohn/gmd) - A mac implementation of go.wde
-  * [Goop](http://goop.googlecode.com) - Audio synthesizer engine
+  * [Goop](https://github.com/peterbourgon/goop) - Audio synthesizer engine
   * [Plotinum](https://code.google.com/p/plotinum) - An API for creating plots
   * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
   * [allergro](https://github.com/lasarux/go-spanish/tree/master/allegro) - basic wrapper for the Allegro library
