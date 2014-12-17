@@ -1,4 +1,4 @@
-**These instructions aren't clear at all. ./make.bash doesn't exist. Can you please give full instructions without shortcuts?**
+# ### **These instructions aren't clear at all. ./make.bash doesn't exist. Can you please give full instructions without shortcuts?**
 
 
 # Building windows go programs on linux
