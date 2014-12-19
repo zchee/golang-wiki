@@ -7,4 +7,4 @@ The ` go get ` fetching of source code is done by using one of the following too
   * **git** - Git, download at http://git-scm.com/downloads
   * **bzr** - Bazaar, download at http://wiki.bazaar.canonical.com/Download
 
-Refer GoGetProxyConfig for setting proxies for these tools.
+Refer [GoGetProxyConfig](GoGetProxyConfig) for setting proxies for these tools.
