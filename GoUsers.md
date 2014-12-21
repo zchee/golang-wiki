@@ -2,7 +2,6 @@
 
   * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential. The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](http://code.google.com/p/vitess/) as open source software.  And dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1).  Other known uses include the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html), the [Santa Tracker (2012)](https://www.youtube.com/watch?v=fc25ihfXhbg), [writing map/reduce jobs](http://simplystatistics.org/2013/02/15/interview-with-nick-chamandy-statistician-at-google/), [Jam With Chrome](http://www.jamwithchrome.com/technology), the [CubeSlam Chrome Experiment](https://code.google.com/p/cubeslam/), and the [pprof command line tool](https://codereview.appspot.com/153750043/).
 
-  * [10gen](http://www.10gen.com) - [blog](http://blog.mongodb.org/post/51643994762/go-agent-go)
   * [6Wunderkinder](http://www.6wunderkinder.com/) - [video](https://www.youtube.com/watch?v=sVpMc0hwqps)
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
   * [ActiveState](http://www.activestate.com) - [github](https://github.com/activestate)
@@ -15,6 +14,7 @@
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
   * [Bitbucket](https://bitbucket.org/) - [source](http://www.reddit.com/r/golang/comments/1pjn0k/bitbucket_hiccup_reveals_go_usage/)
   * [bitly](http://bit.ly) - [github](https://github.com/bitly/nsq) [blog](http://word.bitly.com/post/33232969144/nsq)
+  * [Bowery](http://bowery.io/) - [source](http://bowery.io/blog/posts/2014/09/30/shared-libraries-at-bowery.html)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
   * [CloudFlare](http://www.cloudflare.com/) - [blog](http://blog.cloudflare.com/go-at-cloudflare) [article](http://arstechnica.com/information-technology/2013/02/cloudflare-blows-hole-in-laws-of-web-physics-with-go-and-railgun/)
@@ -56,6 +56,7 @@
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
   * [Modcloth](http://www.modcloth.com) - [github](https://github.com/modcloth-labs)
   * [Moovweb](http://www.moovweb.com) - [github](https://github.com/moovweb) [source](https://groups.google.com/forum/#!topic/golang-nuts/MeiTNnGhLg8/discussion)
+  * [MongoDB](http://www.mongodb.com) - [blog](http://blog.mongodb.org/post/51643994762/go-agent-go)
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
