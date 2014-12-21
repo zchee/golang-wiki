@@ -65,7 +65,7 @@ These builders are configured and run manually. The goal is to migrate as many a
 
 # How to set up a builder
   1. obtain a hash from Go team members, and put that in ` ~/.gobuildkey `
-  1. go get code.google.com/p/go.tools/dashboard/builder
+  1. go get golang.org/x/tools/dashboard/builder
   1. builder YOUR\_BUILDER\_NAME
 
 # Special notes
