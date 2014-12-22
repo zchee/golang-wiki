@@ -62,6 +62,7 @@
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
+  * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
   * [Modcloth](http://www.modcloth.com) - [github](https://github.com/modcloth-labs)
   * [Moovweb](http://www.moovweb.com) - [github](https://github.com/moovweb) [source](https://groups.google.com/forum/#!topic/golang-nuts/MeiTNnGhLg8/discussion)
