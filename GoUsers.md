@@ -1,7 +1,15 @@
 # Currently using Go
 
-  * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential. The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](http://code.google.com/p/vitess/) as open source software.  And dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1).  Other known uses include the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html), the [Santa Tracker (2012)](https://www.youtube.com/watch?v=fc25ihfXhbg), [writing map/reduce jobs](http://simplystatistics.org/2013/02/15/interview-with-nick-chamandy-statistician-at-google/), [Jam With Chrome](http://www.jamwithchrome.com/technology), the [CubeSlam Chrome Experiment](https://code.google.com/p/cubeslam/), and the [pprof command line tool](https://codereview.appspot.com/153750043/).
-
+  * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential. 
+    * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](http://code.google.com/p/vitess/) as open source software.
+    * And dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1).  
+    * Other known uses include 
+      * the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html),
+      * the [Santa Tracker (2012)](https://www.youtube.com/watch?v=fc25ihfXhbg),
+      * [writing map/reduce jobs](http://simplystatistics.org/2013/02/15/interview-with-nick-chamandy-statistician-at-google/),
+      * [Jam With Chrome](http://www.jamwithchrome.com/technology),
+      * the [CubeSlam Chrome Experiment](https://code.google.com/p/cubeslam/),
+      * and the [pprof command line tool](https://codereview.appspot.com/153750043/).
   * [6Wunderkinder](http://www.6wunderkinder.com/) - [video](https://www.youtube.com/watch?v=sVpMc0hwqps)
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
   * [ActiveState](http://www.activestate.com) - [github](https://github.com/activestate)
