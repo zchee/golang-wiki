@@ -4,7 +4,7 @@
 
 To limit the rate of operations per unit time, use time.Tick:
 
-```
+```go
 import "time"
 
 rate_per_sec := 10
@@ -16,7 +16,7 @@ for req := range requests {
 ```
 
 To allow some bursts, add a buffer to the throttle:
-```
+```go
 import "time"
 
 rate_per_sec := 10
@@ -44,7 +44,7 @@ Here is a simpler approach that relies on the notion of elapsed time to provide 
 
 
 
-```
+```go
 //
 // Ratelimiting incoming connections - Small Library
 //
@@ -122,7 +122,7 @@ func (r *Ratelimiter) Limit() bool {
 
 Using this package is quite easy:
 
-```
+```go
     // rate limit at 100/s
     nl = ratelimit.NewRateLimiter(100)
 
