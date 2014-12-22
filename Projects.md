@@ -551,6 +551,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
+  * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
   * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
