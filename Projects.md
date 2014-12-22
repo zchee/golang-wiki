@@ -759,7 +759,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gotenv](https://github.com/subosito/gotenv) - Loads environment variables from ` .env ` file
   * [daemonigo](https://github.com/tyranron/daemonigo) - A simple library to daemonize Go applications.
   * [go-eventsocket](https://github.com/fiorix/go-eventsocket) - An event socket client/server library for the [FreeSWITCH](https://freeswitch.org) telephony platform.
-  * [EventBus](https://github.com/asaskevich/EventBus) - Lightweight eventbus for Go.
+  * [EventBus](https://github.com/asaskevich/EventBus) - Lightweight event bus with async compatibility for Go .
 
 
 ## Music
