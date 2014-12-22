@@ -34,6 +34,7 @@
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
   * [ErrPlane](http://www.errplane.com) - [blog](http://techcrunch.com/2013/03/18/errplane-performance-monitoring-and-alert-service-for-web-apps/)
+  * [Facebook](https://facebook.com) - [github](https://github.com/facebookgo/)
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
   * [Flipboard](http://www.flipboard.com)  - [source (job post)](https://news.ycombinator.com/item?id=6140956)
   * [Gengo](http://www.gengo.com)  - [blog](http://blog.gengo.com/go-gengo/)
