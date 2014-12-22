@@ -42,9 +42,9 @@ These builders are configured and run manually. The goal is to migrate as many a
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
 | nacl-arm  | samsung chromebook | rsc       | running chrubuntu |
 | nacl-arm-cheney | same builder as linux-arm-cheney-imx6 | Dave Cheney |           |
-| openbsd-386-rootbsd | VM on RootBSD   | adg       | OpenBSD 5.4-current |
+| openbsd-386-rootbsd | VM on RootBSD   | adg/jsing       | OpenBSD 5.5 |
 | openbsd-386-crawshaw | VM              | crawshaw  | OpenBSD 5.5 |
-| openbsd-amd64-rootbsd | VM on RootBSD   | adg       | OpenBSD 5.4-current |
+| openbsd-amd64-rootbsd | VM on RootBSD   | adg/jsing       | OpenBSD 5.5 |
 | netbsd-386-minux | KVM             | Shenghou Ma |           |
 | netbsd-amd64-bsiegert | EC2 m1.small VM | Benny Siegert | on Brad's work EC2 account |
 | plan9-386-cnielsen | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs, updated nightly |
