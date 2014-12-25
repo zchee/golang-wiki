@@ -426,17 +426,18 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Editors
 
-  * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin for the conTEXT editor
-  * [Google Go for Idea](http://plugins.intellij.net/plugin/?idea&id=5047) - Google Go language plugin for Intellij IDEA
+  * [Conception](https://github.com/shurcooL/Conception) - Conception is an experimental research project, meant to become a modern IDE/Language package.  [demo video](http://youtu.be/DNJ7HqlV55k)
+  * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin
   * [go-gedit](http://code.google.com/p/go-gedit3-plugin/) - Google Go language plugin for gedit
   * [goclipse](http://code.google.com/p/goclipse/) - An Eclipse-based IDE for Go.
   * [godev](https://github.com/sirnewton01/godev) - Web-based IDE for the Go language
+  * [godit](https://github.com/nsf/godit) - A microemacs-like text editor written in Go.
   * [gofinder](https://github.com/mpl/gofinder) - (code) search tool for acme
   * [golab](https://github.com/mb0/lab) - go local application builder - a web-based Go ide
+  * [Google Go for Idea](http://plugins.intellij.net/plugin/?idea&id=5047) - Google Go language plugin for Intellij IDEA
   * [tabby](https://github.com/mikhailt/tabby) - Source code editor
-  * [godit](https://github.com/nsf/godit) - A microemacs-like text editor written in Go.
   * [ViGo](https://github.com/kisielk/vigo) - A vim-like text editor.
-  * [Conception](https://github.com/shurcooL/Conception) - Conception is an experimental research project, meant to become a modern IDE/Language package.  [demo video](http://youtu.be/DNJ7HqlV55k)
+  * [Wide](https://github.com/b3log/wide) - A Web-based IDE for Teams using Golang.
 
 ## Error handling
 
