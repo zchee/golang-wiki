@@ -125,4 +125,4 @@
   * [Braintree Payments](http://braintreepayments.com) - [blog](https://www.braintreepayments.com/braintrust/gotchas-irritants-and-warts-in-go-web-development)
 
 
-Also: [Organizations using Go](http://go-lang.cat-v.org/organizations-using-go) and [[SuccessStories]]
+See also [[SuccessStories]]
