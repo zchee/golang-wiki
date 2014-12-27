@@ -157,3 +157,10 @@ Sorted by publication date.
     * Publication Date: 2014-07-01
     * ISBN: 978-85-66250-49-7
     * Reference: http://www.casadocodigo.com.br/products/livro-google-go
+
+# Russian
+  * **Программирование на языке Go**
+  * Author: Марк Саммерфильд
+  * Publication Date: 2013-02-14
+  * ISBN: 978-5-94074-854-0
+  * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
