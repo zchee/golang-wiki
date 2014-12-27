@@ -160,7 +160,7 @@ Sorted by publication date.
 
 # Russian
   * **Программирование на языке Go**
-  * Author: Марк Саммерфильд
-  * Publication Date: 2013-02-14
-  * ISBN: 978-5-94074-854-0
-  * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
+    * Author: Марк Саммерфильд
+    * Publication Date: 2013-02-14
+    * ISBN: 978-5-94074-854-0
+    * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
