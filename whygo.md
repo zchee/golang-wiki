@@ -30,6 +30,7 @@ Here's why: a list of people/organizations tell why they use Go. This is partly 
 - [*DNS Server in Go* by Ask Bjørn Hansen](http://news.ntppool.org/2012/10/new-dns-server.html)
 - [*Fixing Server bottlenecks with Go and Nginx* by Ismael Celis](https://www.new-bamboo.co.uk/blog/2014/11/18/fixing-server-bottlenecks-with-go-and-nginx/)
 - [*Go and Switft* by Scott Rosenberg](https://medium.com/backchannel/my-computer-language-is-better-than-yours-58d9c9523644)
+- [*Features I Like about Go* by Abhi Yerra](https://medium.com/on-being-a-code-monkey/things-i-like-about-go-e026762be8ac)
 
 ## Who uses Go
 - [**Go at Aerospike** by Brian Bulkowski](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
