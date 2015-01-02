@@ -32,6 +32,7 @@
   * [Conformal Systems](http://www.conformal.com) - [blog post](https://blog.cyphertite.com/go-at-conformal/) [github](https://github.com/conformal)
   * [Crashlytics](http://try.crashlytics.com/) - [tweet](https://twitter.com/brianhatfield/status/360866306276327424)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
+  * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/) 
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
   * [Digital Ocean](http://www.digitalocean.com/) - [blog](http://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/)
   * [Disqus](http://disqus.com/) - [blog](http://blog.disqus.com/post/51155103801/trying-out-this-go-thing)
