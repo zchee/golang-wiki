@@ -166,6 +166,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [ketama.go](https://github.com/mncaudill/ketama.go) - libketama-style consistent hashing
   * [kindi](https://github.com/uwedeportivo/Kindi) - encryption command line tool
   * [openssl](https://github.com/spacemonkeygo/openssl) - openssl bindings for go
+  * [otrcat](https://github.com/andrewclausen/otrcat) - a general purpose command-line tool for communicating using the Off-The-Record protocol
   * [scrypt](https://code.google.com/p/go/source/browse?repo=crypto#hg%2Fscrypt) - Go implementation of Colin Percival's scrypt key derivation function
   * [simpleaes](https://github.com/tadzik/simpleaes) - AES encryption made easy
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
