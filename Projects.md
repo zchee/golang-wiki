@@ -898,6 +898,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorobot](https://github.com/aimxhaisse/gorobot) - a modular IRC bot
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
   * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
+  * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
 
 ## Operating System Interfaces
 
