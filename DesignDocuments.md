@@ -27,6 +27,7 @@
   * [The syscall package](https://docs.google.com/a/golang.org/document/d/1QXzI9I1pOfZPujQzxhyRy6EeHYTQitKKjHfpq0zpxZs)
   * [Go 1.4 Subrepo Renaming](http://golang.org/s/go14subrepo)
   * [Go 1.4 Native Client Support for ARM](http://golang.org/s/go14naclarm)
+  * [dev.cc branch plan](http://golang.org/s/dev.cc)
 
 # Go 1.5
 
@@ -35,7 +36,6 @@
 
 # Future Proposals
 
-  * [dev.cc branch plan](http://golang.org/s/dev.cc)
   * [Go 1.4+ Garbage Collection (GC) Plan and Roadmap](http://golang.org/s/go14gc)
   * [Better GC and Memory Allocator for Go](https://docs.google.com/document/d/1HCPu3WKyCX3ZRYxmIMKTk0Ik1dePxKW1p02k3uhcft4/view) 
     * [Groups Discussion](https://groups.google.com/d/topic/golang-dev/pwUh0BVFpY0/discussion)
