@@ -27,7 +27,11 @@
   * [The syscall package](https://docs.google.com/a/golang.org/document/d/1QXzI9I1pOfZPujQzxhyRy6EeHYTQitKKjHfpq0zpxZs)
   * [Go 1.4 Subrepo Renaming](http://golang.org/s/go14subrepo)
   * [Go 1.4 Native Client Support for ARM](http://golang.org/s/go14naclarm)
-  * [Go Compiler Overhaul](https://docs.google.com/document/d/1P3BLR31VA8cvLJLfMibSuTdwTuF7WWLux71CYD0eeD8/edit)
+
+# Go 1.5
+
+  * [Go Compiler Overhaul](http://golang.org/s/go13compiler)
+  * [Go Execution Tracer](http://goo.gl/eXjfeS)
 
 # Future Proposals
 
@@ -40,7 +44,6 @@
   * [Go 1.5 os/fsnotify API](http://goo.gl/MrYxyA)
   * [Simple Multi-Dimensional Slices (Tables)](https://docs.google.com/document/d/1eHm7KqfKP9_s4vR1zToxq-FBazdUQ9ZYi-YhcEtdfR0/edit)
   * [Go execution modes](https://docs.google.com/a/golang.org/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
-  * [Go Execution Tracer](http://goo.gl/eXjfeS)
   * [NUMA-aware scheduler for Go](https://docs.google.com/document/d/1d3iI2QWURgDIsSR6G2275vMeQ_X7w-qxM2Vp7iGwwuM/pub)
   * [Go 1.5+ "External" Packages](https://docs.google.com/document/d/1CJnU6ZKvsp21B0lQwbJlKFt8Zz4EWscaCRy_EwK8ja8)
 
