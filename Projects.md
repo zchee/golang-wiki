@@ -445,6 +445,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Space Monkey errors](https://github.com/spacemonkeygo/errors) - Go's missing errors library - stack capture, error hierarchies, error tags
   * [errgo](https://github.com/juju/errgo) - Error tracing and annotation.
   * [errors](https://github.com/juju/errors) - The juju/errors package provides an easy way to annotate errors without losing the original error context, and get a stack trace back out of the error for the locations that were recorded.
+  * [goerr](https://github.com/goerr/goerr) - Allows to make a separate(modular) and reusable error handlers. Exception-like panic() recover() mechanism using Return(error) and catching err := OR1(..)
 
 ## Encodings and Character Sets
 
