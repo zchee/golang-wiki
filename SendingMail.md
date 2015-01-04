@@ -4,7 +4,7 @@ See also: http://golang.org/pkg/net/smtp/
 
 Streaming the body:
 
-```
+```go
 package main
 
 import (
@@ -37,7 +37,7 @@ func main() {
 
 Authenticated SMTP:
 
-```
+```go
 package main
 
 import (
