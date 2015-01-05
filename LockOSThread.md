@@ -9,7 +9,7 @@ to use correctly.
 
 Russ Cox presented a good solution for this problem in this [thread](https://groups.google.com/d/msg/golang-nuts/IiWZ2hUuLDA/SNKYYZBelsYJ).
 
-```
+```Go
 package sdl
 
 // Arrange that main.main runs on main thread.
@@ -42,7 +42,8 @@ func do(f func()) {
 ```
 
 And then other functions you write in package sdl can be like
-```
+
+```Go
 func Beep() {
 	do(func() {
 		// whatever must run in main thread
