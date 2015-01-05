@@ -10,6 +10,7 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 * [gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
+* [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
 * [Error Strings](#error-strings)
@@ -49,6 +50,19 @@ func Encode(w io.Writer, req *Request) { ...
 ```
 
 and so on.
+
+## Declaring Empty Slices
+
+Prefer
+```go
+var t []string
+```
+to
+```go
+t := []string{}
+```
+
+The former avoids allocating memory if the string is never appended to.
 
 ## Doc Comments
 
