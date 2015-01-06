@@ -11,9 +11,11 @@ See http://golang.org/s/builderplan
 | linux-386 | in Docker on GCE | bradfitz  |           |
 | linux-386-387 | in Docker on GCE | bradfitz  | GO386=387 |
 | linux-386-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
+| linux-386-gccgo | in Docker on GCE | cmang | builds gccgo |
 | linux-386-sid | in Docker on GCE | bradfitz  | Debian sid |
 | linux-amd64 | in Docker on GCE | bradfitz  |           |
 | linux-amd64-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
+| linux-amd64-gccgo | in Docker on GCE | cmang | builds gccgo |
 | linux-amd64-nocgo | in Docker on GCE | bradfitz  | cgo disabled |
 | linux-amd64-noopt | in Docker on GCE | bradfitz  | optimizations and inlining disabled |
 | linux-amd64-race| in Docker on GCE | bradfitz  |           |
