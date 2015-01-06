@@ -320,7 +320,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorp](https://github.com/coopernurse/gorp) - SQL mapper for Go
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PosgreSQL and SQLite3.
-  * [xorm](https://github.com/lunny/xorm) - A Simple and Powerful ORM for Go.
+  * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
   * [go-modeldb](https://github.com/jaekwon/go-modeldb) - A simple wrapper around sql.DB for struct support.
 
 #### Multiple wrappers
@@ -343,6 +343,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [tiedot](https://github.com/HouzuoGuo/tiedot) - A NoSQL document database engine using JSON for documents and queries; it can be embedded into your program, or run a stand-alone server using HTTP for an API.
   * [ledisdb](https://github.com/siddontang/ledisdb) - A high performance NoSQL like Redis.
+  * [nodb](https://github.com/lunny/nodb) - A pure Go embed Nosql database with kv, list, hash, zset, bitmap, set.
 
 #### Other
 
@@ -1149,6 +1150,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
   * [wfdr](https://github.com/crazy2be/wfdr) - Simple web framework designed for and written in go. Works with other languages as well, but not as well.
   * [xweb](https://github.com/go-xweb/xweb) - A web framework for Go. Just like Struts for Java.
+  * [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go
 
 #### HTML forms
 
