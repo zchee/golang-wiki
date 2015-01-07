@@ -34,6 +34,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [goenv](https://bitbucket.org/ymotongpoo/goenv) - goenv provides Go version and Go workspace management tools
   * [goscons](https://github.com/alberts/goscons) - Another set of SCons builders for Go
   * [gotgo](https://github.com/droundy/gotgo) - An experimental preprocessor to implement 'generics'
+  * [gows](https://github.com/ascarter/gows) - Go workspace manager
   * [goxc](https://github.com/laher/goxc) - A build tool with a focus on cross-compiling, packaging, versioning and distribution
   * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions
   * [SCons Go Tools](https://launchpad.net/sconsgo) - A collection of builders that makes it easy to compile Go projects in SCons
@@ -431,6 +432,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Conception](https://github.com/shurcooL/Conception) - Conception is an experimental research project, meant to become a modern IDE/Language package.  [demo video](http://youtu.be/DNJ7HqlV55k)
   * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin
   * [go-gedit](http://code.google.com/p/go-gedit3-plugin/) - Google Go language plugin for gedit
+  * [Go.bbpackage](https://github.com/ascarter/Go.bbpackage) - BBEdit package for Go development
   * [goclipse](http://code.google.com/p/goclipse/) - An Eclipse-based IDE for Go.
   * [godev](https://github.com/sirnewton01/godev) - Web-based IDE for the Go language
   * [godit](https://github.com/nsf/godit) - A microemacs-like text editor written in Go.
