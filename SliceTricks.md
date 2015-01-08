@@ -2,33 +2,37 @@ Since the introduction of the ` append ` built-in, most of the functionality of 
 
 Here are the vector methods and their slice-manipulation analogues:
 
-` AppendVector `
+**AppendVector**
 ```
 a = append(a, b...)
 ```
-` Copy `
+
+**Copy**
 ```
 b = make([]T, len(a))
 copy(b, a)
 // or
 b = append([]T(nil), a...)
 ```
-` Cut `
+
+**Cut**
 ```
 a = append(a[:i], a[j:]...)
 ```
-` Delete `
+
+**Delete**
 ```
 a = append(a[:i], a[i+1:]...)
 // or
 a = a[:i+copy(a[i:], a[i+1:])]
 ```
-` Delete without preserving order `
+
+**Delete without preserving order**
 ```
 a[i], a = a[len(a)-1], a[:len(a)-1]
 ```
 **NOTE** If the type of the element is a _pointer_ or a struct with pointer fields, which need to be garbage collected, the above implementations of ` Cut ` and ` Delete ` have a potential _memory leak_ problem: some elements with values are still referenced by slice ` a ` and thus can not be collected. The following code can fix this problem:
-> ` Cut `
+> **Cut**
 ```
 copy(a[i:], a[j:])
 for k, n := len(a)-j+i, len(a); k < n; k++ {
@@ -36,46 +40,51 @@ for k, n := len(a)-j+i, len(a); k < n; k++ {
 } // for k
 a = a[:len(a)-j+i]
 ```
-> ` Delete `
+
+> **Delete**
 ```
 a[i] = nil // or the zero value of T
 a = append(a[:i], a[i+1:]...)
 ```
-> ` Delete without preserving order `
+
+> **Delete without preserving order**
 ```
 a[i], a[len(a)-1], a = a[len(a)-1], nil, a[:len(a)-1]
 ```
 
-` Expand `
+**Expand**
 ```
 a = append(a[:i], append(make([]T, j), a[i:]...)...)
 ```
-` Extend `
+
+**Extend**
 ```
 a = append(a, make([]T, j)...)
 ```
 
-` Insert `
+**Insert**
 ```
 a = append(a[:i], append([]T{x}, a[i:]...)...)
 ```
 **NOTE** The second ` append ` creates a new slice with its own underlying storage and  copies elements in ` a[i:] ` to that slice, and these elements are then copied back to slice ` a ` (by the first ` append `). The creation of the new slice (and thus memory garbage) and the second copy can be avoided by using an alternative way:
-> ` Insert `
+> **Insert**
 ```
 s = append(s, 0)
 copy(s[i+1:], s[i:])
 s[i] = x
 ```
 
-` InsertVector `
+**InsertVector**
 ```
 a = append(a[:i], append(b, a[i:]...)...)
 ```
-` Pop `
+
+**Pop**
 ```
 x, a = a[len(a)-1], a[:len(a)-1]
 ```
-` Push `
+
+**Push**
 ```
 a = append(a, x)
 ```
