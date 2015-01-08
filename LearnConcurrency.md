@@ -10,7 +10,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
     - [Select statements](https://golang.org/ref/spec#Select_statements)
 - Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
 - Study [Go by Example](https://gobyexample.com) from [goroutines](https://gobyexample.com/goroutines) through [stateful goroutines](https://gobyexample.com/stateful-goroutines)
-- Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating)
+- Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating) and to the [codewalk](http://golang.org/doc/codewalk/sharemem/)
 - Read [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
 - Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
 
