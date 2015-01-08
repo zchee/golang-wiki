@@ -85,6 +85,7 @@
   * [Repustate](http://www.repustate.com) - [blog](http://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/2013/04/23/)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
+  * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
   * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
   * [SendHub](https://www.sendhub.com/) - [source (shipbuilder PaaS)](http://shipbuilder.io/)
   * [Shopify](http://www.shopify.com) [tweet](https://twitter.com/burkelibbey/status/312328030670450688)
