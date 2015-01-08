@@ -2,13 +2,13 @@ This page links to resources for learning about concurrency in Go.  The items ar
 
 ## Beginner
 - Read [Effective Go: Concurrency](https://golang.org/doc/effective_go.html#concurrency)
-- Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
 - Study [The Go Programming Language Specification](https://golang.org/ref/spec), especially
     - [Go statements](https://golang.org/ref/spec#Go_statements)
     - [Channel types](https://golang.org/ref/spec#Channel_types)
     - [Send statements](https://golang.org/ref/spec#Send_statements)
     - [Receive operator](https://golang.org/ref/spec#Receive_operator)
     - [Select statements](https://golang.org/ref/spec#Select_statements)
+- Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
 - Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating)
 - Read [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
 - Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
