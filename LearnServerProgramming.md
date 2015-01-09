@@ -57,7 +57,7 @@ This page links to resources for learning about server programming in Go. The it
 ### Amazon Web Services
 
 - [Package goamz](https://wiki.ubuntu.com/goamz) enables Go programs to interact with the Amazon Web Services.
-- Search packages for [AWS](http://godoc.org/?q=aws) or [amazon services](http://godoc.org/?q=amazon+service)
+- Search packages for [AWS](http://godoc.org/?q=aws) or [Amazon services](http://godoc.org/?q=amazon+service)
 
 ### Microsoft Azure
 
