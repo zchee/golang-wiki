@@ -5,6 +5,7 @@ This page links to resources for learning about server programming in Go. The it
 - Code [A Tour of Go: Web Servers](http://tour.golang.org/methods/13) and [HTTP Handlers](http://tour.golang.org/methods/14)
 - Read [Writing Web Applications](http://golang.org/doc/articles/wiki/)
 - Read [LearnConcurrency](/golang/go/wiki/LearnConcurrency)
+- Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 
 ## Communication
 
