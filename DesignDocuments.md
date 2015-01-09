@@ -31,6 +31,7 @@
 
 # Go 1.5
 
+  * [Go 1.5 Bootstrap Plan](https://golang.org/s/go15bootstrap)
   * [Go Compiler Overhaul](http://golang.org/s/go13compiler)
   * [Go Execution Tracer](http://goo.gl/eXjfeS)
 
