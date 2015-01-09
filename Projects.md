@@ -994,6 +994,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-migemo](https://github.com/mattn/go-migemo) - migemo extension for go (Japanese incremental text search)
   * [goini](https://github.com/glacjay/goini) - A go library to parse INI files.
   * [golorem](https://github.com/drhodes/golorem) - lorem ipsum generator
+  * [goregen](https://github.com/zach-klippenstein/goregen) - A Go library for generating random strings from regular expressions.
   * [gosphinx](https://github.com/kpumuk/gosphinx) - A Go client interface to the Sphinx standalone full-text search engine
   * [gpKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth–Morris–Pratt algorithm
   * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character.
