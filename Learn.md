@@ -2,6 +2,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 
   * [Go By Example](http://gobyexample.com/) provides a series of annotated code snippets.
   * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walkthrough of the language.
-  * [LearnConcurrency](http://github.com/golang/go/wiki/LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
-  * [LearnErrorHandling](http://github.com/golang/go/wiki/LearnErrorHandling) links to resources about error handling in Go.
-  * [LearnServerProgramming](http://github.com/golang/go/wiki/LearnServerProgramming) links to resources about server programming in Go.
+  * [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
+  * [LearnErrorHandling](/golang/go/wiki/LearnErrorHandling) links to resources about error handling in Go.
+  * [LearnTesting](/golang/go/wiki/LearnTesting) links to resources about testing in Go.
+  * [LearnServerProgramming](/golang/go/wiki/LearnServerProgramming) links to resources about server programming in Go.
