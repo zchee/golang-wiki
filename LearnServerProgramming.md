@@ -50,5 +50,5 @@ Go servers process each request in its own goroutine.  To share memory safely, t
 
 ### Microsoft Azure
 
-- Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go)
+- Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go) provides a Golang package that makes it easy to consume and manage Microsoft Azure Services.
 - Search packages for [Azure](http://godoc.org/?q=azure)
