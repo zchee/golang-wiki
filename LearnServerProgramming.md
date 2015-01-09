@@ -1,6 +1,7 @@
 This page links to resources for learning about server programming in Go. The items are organized into sections by topic.
 
 Go servers process each request in its own goroutine.  To share memory safely, these goroutines must communicate.  [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study.
+
 ## Communication
 
 - [Package net/http](http://golang.org/pkg/net/http) provides HTTP client and server implementations.
@@ -15,8 +16,12 @@ Go servers process each request in its own goroutine.  To share memory safely, t
 
 ## Profiling and Performance
 
-- Read [Arrays, slices (and strings): The mechanics of 'append'](http://blog.golang.org/slices)
 - Read [Profiling Go Programs](http://blog.golang.org/profiling-go-programs)
+- Read [Arrays, slices (and strings): The mechanics of 'append'](http://blog.golang.org/slices)
+- Read the [Frequently Asked Questions (FAQ)](http://golang.org/doc/faq), especially
+    - [Why does Go perform badly on benchmark X?](http://golang.org/doc/faq#Why_does_Go_perform_badly_on_benchmark_x)
+    - [Why do garbage collection? Won't it be too expensive?](http://golang.org/doc/faq#garbage_collection)
+- [Package bufio](http://golang.org/pkg/bufio) implements buffered I/O.
 - [Package runtime/pprof](http://golang.org/pkg/runtime/pprof) writes runtime profiling data in the format expected by the pprof visualization tool.
 - [Package net/http/pprof](http://golang.org/pkg/net/http/pprof) serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool.
 
