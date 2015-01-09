@@ -1,5 +1,6 @@
 This page links to resources for learning about server programming in Go. The items are organized into sections by topic.
 
+Go servers process each request in its own goroutine.  To share memory safely, these goroutines must communicate.  [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study.
 ## Communication
 
 - [Package net/http](http://golang.org/pkg/net/http) provides HTTP client and server implementations.
@@ -40,14 +41,15 @@ This page links to resources for learning about server programming in Go. The it
 - Watch [Go and the Google Cloud Platform](http://blog.golang.org/go-and-google-cloud-platform)
 - Read [Go on App Engine: tools, tests, and concurrency](http://blog.golang.org/appengine-dec2013)
 - Read [Deploying Go servers with Docker](http://blog.golang.org/docker)
-- Search for [App Engine](http://godoc.org/?q=appengine) or [GAE](http://godoc.org/?q=gae) packages
+- Search packages for [Google Cloud](http://godoc.org/?q=google+cloud) or [gcloud](http://godoc.org/?q=gcloud)
+- Search packages for [App Engine](http://godoc.org/?q=appengine) or [GAE](http://godoc.org/?q=gae)
 
 ### Amazon Web Services
 
 - [Package goamz](https://wiki.ubuntu.com/goamz) enables Go programs to interact with the Amazon Web Services.
-- Search for [AWS](http://godoc.org/?q=aws) packages
+- Search packages for [AWS](http://godoc.org/?q=aws) or [amazon services](http://godoc.org/?q=amazon+service)
 
 ### Microsoft Azure
 
 - Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go)
-- Search for [Azure](http://godoc.org/?q=azure) packages
+- Search packages for [Azure](http://godoc.org/?q=azure)
