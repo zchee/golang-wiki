@@ -46,6 +46,7 @@ This page links to resources for learning about server programming in Go. The it
 
 ### Google Cloud Platform
 
+- Read [Google Cloud Platform: Go Runtime Environment](https://cloud.google.com/appengine/docs/go/)
 - Watch [Go and the Google Cloud Platform](http://blog.golang.org/go-and-google-cloud-platform)
 - Read [Go on App Engine: tools, tests, and concurrency](http://blog.golang.org/appengine-dec2013)
 - Read [Deploying Go servers with Docker](http://blog.golang.org/docker)
