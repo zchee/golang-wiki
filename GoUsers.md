@@ -30,7 +30,7 @@
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
   * [clypd](http://www.clypd.com) - [blog](http://www.clypd.com/getting-to-go/)
   * [Conformal Systems](http://www.conformal.com) - [blog post](https://blog.cyphertite.com/go-at-conformal/) [github](https://github.com/conformal)
-  * [Couchbase http://www.couchbase.com/] - [github https://github.com/couchbaselabs]
+  * [Couchbase](http://www.couchbase.com/) - [github](https://github.com/couchbaselabs)
   * [Crashlytics](http://try.crashlytics.com/) - [tweet](https://twitter.com/brianhatfield/status/360866306276327424)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/) 
@@ -111,7 +111,7 @@
   * [TinkerCad](http://tinkercad.com/)
   * [Toggl](http://www.toggl.com) - [blog](http://blog.toggl.com/2012/09/moving-to-go/)
   * [Torbit ](http://www.torbit.com) - [blog](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
-  * [Transloadit https://transloadit.com] - [blog https://transloadit.com/blog/2014/11/releasing-our-new-go-sdk/]
+  * [Transloadit](https://transloadit.com) - [blog](https://transloadit.com/blog/2014/11/releasing-our-new-go-sdk/)
   * [Tumblr ](http://www.tumblr.com) - [github](https://github.com/tumblr/gocircuit) [source](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/qelU5Lrq-uA)
   * [TV4 (Swedish TV station)](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/) 
   * [Twitch](http://www.twitch.tv/) - [blog](http://blog.twitch.tv/2014/04/technically-speaking-group-chat-and-general-chat-engineering/)
