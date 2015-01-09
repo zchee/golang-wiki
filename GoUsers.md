@@ -30,6 +30,7 @@
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
   * [clypd](http://www.clypd.com) - [blog](http://www.clypd.com/getting-to-go/)
   * [Conformal Systems](http://www.conformal.com) - [blog post](https://blog.cyphertite.com/go-at-conformal/) [github](https://github.com/conformal)
+  * [Couchbase http://www.couchbase.com/] - [github https://github.com/couchbaselabs]
   * [Crashlytics](http://try.crashlytics.com/) - [tweet](https://twitter.com/brianhatfield/status/360866306276327424)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/) 
