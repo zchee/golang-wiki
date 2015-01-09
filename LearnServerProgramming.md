@@ -1,6 +1,6 @@
 This page links to resources for learning about server programming in Go. The items are organized into sections by topic.
 
-Go servers process each request in its own goroutine.  To share memory safely, these goroutines must communicate.  [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study.
+Go servers process each request in its own goroutine.  These goroutines share memory by communicating via channels.  [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study on Go's concurrency model.
 
 ## Communication
 
