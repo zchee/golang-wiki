@@ -7,7 +7,6 @@ Go servers process each request in its own goroutine.  To share memory safely, t
 - [Package encoding/json](http://golang.org/pkg/encoding/json) implements encoding and decoding of JSON objects as defined in RFC 4627.
 - [Package net/rpc](http://golang.org/pkg/net/rpc) provides access to the exported methods of an object across a network or other I/O connection.
 - [Package os/exec](http://golang.org/pkg/os/exec) runs external commands.
-- Read [Go Concurrency Patterns: Context](http://blog.golang.org/context)
 
 ## Presentation
 
