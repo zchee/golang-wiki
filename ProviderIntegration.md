@@ -7,7 +7,7 @@ A number of Platform-as-a-Service ([PaaS](http://en.wikipedia.org/wiki/Platform_
 | PaaS | Repository | Quickstart Guide |
 |:-----|:-----------|:-----------------|
 | [Google App Engine](http://developers.google.com/appengine/) | https://github.com/GoogleCloudPlatform/appengine-plus-go | https://developers.google.com/appengine/training/go-plus-appengine/ |
-| [Windows Azure](http://www.windowsazure.com/) |            |  http://sanatgersappa.blogspot.nl/2012/11/serving-go-using-fastcgi-on-windows.html |
+| [Azure](http://www.sazure.com/) | https://github.com/wadewegner/azure-website-go-builder | http://www.wadewegner.com/2015/01/creating-a-go-site-extension-and-resource-template-for-azure/ |
 | [IBM BlueMix](http://www.ibm.com/bluemix) |            | http://www.ibm.com/developerworks/cloud/library/cl-bluemix-go-app/ |
 | [CloudBees](http://www.cloudbees.com) | https://github.com/CloudBees-community/golang-clickstart |                  |
 | [Cloud Foundry](http://www.cloudfoundry.com/) | https://github.com/kr/heroku-buildpack-go | http://catdevrandom.me/blog/2013/05/16/buildpacks-in-cloud-foundry-v2/ |
