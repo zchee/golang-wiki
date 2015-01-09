@@ -27,6 +27,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Read [Go Concurrency Patterns: Pipelines and Cancellation](http://blog.golang.org/pipelines)
 - Study [Package sync](https://golang.org/pkg/sync/)
 - Read [Introducing the Go Race Detector](http://blog.golang.org/race-detector)
+- Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 
 ## Advanced
 - Watch [Advanced Go Concurrency Patterns](http://talks.golang.org/2013/advconc.slide#1)
