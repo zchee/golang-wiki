@@ -53,7 +53,7 @@ and so on.
 
 ## Declaring Empty Slices
 
-Prefer
+For a slice of strings, for example, prefer
 ```go
 var t []string
 ```
