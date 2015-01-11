@@ -53,7 +53,7 @@ and so on.
 
 ## Declaring Empty Slices
 
-For a slice of strings, for example, prefer
+When declaring a slice, prefer
 ```go
 var t []string
 ```
@@ -62,7 +62,7 @@ to
 t := []string{}
 ```
 
-The former avoids allocating memory if the string is never appended to.
+The former avoids allocating memory if the slice is never appended to.
 
 ## Doc Comments
 
