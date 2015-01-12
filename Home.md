@@ -5,6 +5,7 @@ Popular pages:
 - [GoUserGroups](GoUserGroups) - a list of Go user groups around the world.
 - [Projects](Projects) - a list of Go projects.
 - [Go Code Review Comments](CodeReviewComments) - a supplement to Effective Go.
+- [Learn](Learn) - learning resources on specific topics.
 
 Other documentation:
 
