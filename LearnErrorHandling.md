@@ -13,7 +13,7 @@ This page links to resources about error handling in Go.
 - Read [Why does Go not have exceptions?](http://golang.org/doc/faq#exceptions)
 - Read [Error handling and Go](http://blog.golang.org/error-handling-and-go)
 - Read [Go by Example: Errors](https://gobyexample.com/errors)
-- Read [golang/go/wiki: Errors](https://github.com/golang/go/wiki/Errors)
+- Read [golang/go/wiki: Errors](Errors)
 
 ## Advanced Topics
 
