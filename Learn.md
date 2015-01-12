@@ -4,7 +4,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walkthrough of the language.
 
 Learning resources for specific topics:
-  * [LearnConcurrency](/golang/go/wiki/LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
-  * [LearnErrorHandling](/golang/go/wiki/LearnErrorHandling) links to resources about error handling in Go.
-  * [LearnTesting](/golang/go/wiki/LearnTesting) links to resources about testing in Go.
-  * [LearnServerProgramming](/golang/go/wiki/LearnServerProgramming) links to resources about server programming in Go.
+  * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
+  * [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
+  * [LearnTesting](LearnTesting) links to resources about testing in Go.
+  * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
