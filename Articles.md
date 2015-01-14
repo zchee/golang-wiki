@@ -110,5 +110,5 @@
   * [Go character encoding](http://www.slideshare.net/suapapa/go-character-encoding)
   * [Using Google API in Go](http://www.slideshare.net/golanger/using-google-api-in-go)
   * [Go로 Git 들여다보기](http://goo.gl/nCDV3I)
-  * [Go: 90% 완벽?!, 100% of the time] (http://100coding.com/go/slide)
+  * [Go: 90% 완벽?!, 100% of the time 슬라이드 번역 ] (http://100coding.com/go/slide)
   * [Go 동시성 패턴 advanced 영상 번역] (http://www.youtube.com/watch?v=4g2skln42eo)
