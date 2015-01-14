@@ -77,7 +77,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [options](https://github.com/fd/options/) - Self documenting CLI options parser
   * [opts.go](http://opts-go.googlecode.com/) - lightweight POSIX- and GNU- style option parsing
   * [pflag](https://github.com/ogier/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
-  * [redis-view](https://github.com/dreamersdw/redis-view) A tree like tool help you explore data structures in your redis server 
   * [subcommands](https://github.com/maruel/subcommands) - A concurrent, unit tested, subcommand library
   * [go-commander](https://code.google.com/p/go-commander) - Simplify the creation of command line interfaces for Go, with commands and sub-commands, with argument checks and contextual usage help. Forked from the "go" tool code.
   * [uggo](https://github.com/laher/uggo) - Yet another option parser offering gnu-like option parsing. This one wraps (embeds) flagset. It also offers rudimentary pipe-detection (commands like ls behave differently when being piped to).
@@ -92,6 +91,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
+  * [redis-view](https://github.com/dreamersdw/redis-view) A tree like tool help you explore data structures in your redis server
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [gssh](https://github.com/syamp/gssh) - A simple command line utility to run ssh concurrently across many hosts
