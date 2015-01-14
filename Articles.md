@@ -112,3 +112,5 @@
   * [Go로 Git 들여다보기](http://goo.gl/nCDV3I)
   * [Go: 90% 완벽?!, 100% of the time 슬라이드 번역 ] (http://100coding.com/go/slide)
   * [Go 동시성 패턴 advanced 영상 번역] (http://www.youtube.com/watch?v=4g2skln42eo)
+  * [Go + Revel + Gorp 간단 게시판 만들기] (http://100coding.com/go/tutorial/1)
+  * [Go + Revel + Gorm 으로 만드는 블로그] (https://github.com/jaehue/goblog/wiki/Hello-World)
