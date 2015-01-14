@@ -101,3 +101,12 @@
   * [Go言語のWebフレームワーク"goweb"をGAE/Gで動かす](http://takashi-yokoyama.blogspot.jp/2012/07/gowebgowebgaeg.html)
   * [Ubuntu 12.04にgolangを”ソースから”インストールする。](http://takashi-yokoyama.blogspot.jp/2012/07/ubuntu-1204golang.html)
   * [GAE/Gで時間のチェック（Datastore編）](http://takashi-yokoyama.blogspot.jp/2012/06/gaegdatastore.html)
+
+# Korean
+  * [Go for Java Programmer](http://goo.gl/8zjRwt)
+  * [The Go Programming Language](http://www.slideshare.net/golanger/abou-go)
+  * [You can read Go code](http://goo.gl/vUeSzl)
+  * [Go channel tutorial](http://www.gonuts.kr/2014/12/golang-channels-tutorial.html)
+  * [Go character encoding](http://www.slideshare.net/suapapa/go-character-encoding)
+  * [Using Google API in Go](http://www.slideshare.net/golanger/using-google-api-in-go)
+  * [Go로 Git 들여다보기](http://goo.gl/nCDV3I)
