@@ -1,6 +1,6 @@
 # Introduction
 
-Go is a great langage for CS majors. This page presents some university courses that use Go.
+Go is a great language for CS majors. This page presents some university courses that use Go.
 
 # Language
 
