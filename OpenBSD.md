@@ -7,7 +7,7 @@ Required:
 
 | **Kernel version** | **Min. version** | **Max. version**|
 |:-------------------|:-----------------|:----------------|
-| 5.6                | go1.5            | go1.5 |
+| 5.6                | go1.4.1          | go1.5 |
 | 5.5                | go1.3            | go1.5 |
 
   * ulimits (` /etc/login.conf `)
