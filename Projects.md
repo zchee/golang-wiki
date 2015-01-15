@@ -251,6 +251,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [goop](https://github.com/losalamos/goop) - Dynamic object-oriented programming support for Go
   * [goset](https://github.com/fatih/goset) - A simple, thread safe Set implementation
   * [gotoc](https://github.com/dsymonds/gotoc) - A protocol buffer compiler written in Go
+  * [govalid](https://github.com/gima/govalid) - Data validation library
   * [goxml](https://github.com/jbussdieker/golibxml) - A thin wrapper around libxml2
   * [hyperloglog](https://github.com/clarkduvall/hyperloglog) - An implementation of the HyperLogLog and HyperLogLog++ algorithms for estimating cardinality of sets using constant memory.
   * [itertools](https://github.com/xchapter7x/goutil) - Provides generic iteratable generator function along with functionality similar to the itertools python package.
