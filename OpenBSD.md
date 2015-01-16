@@ -2,7 +2,7 @@
 
 Required:
 
-  * OpenBSD amd64, 386: 5.5
+  * OpenBSD amd64, 386: 5.5 and above
     * If you want to run go1.3 or 1.4 on OpenBSD 5.6, see http://golang.org/issue/9102
 
 | **Kernel version** | **Min. version** | **Max. version**|
