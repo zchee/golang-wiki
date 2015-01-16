@@ -334,7 +334,7 @@ Architecture: ARMv8 (64-bit) 8-core, 2.4GHz, 16GB RAM
 
 Operating System: Linux
 
-The linux/arm64 Go port is not functional yet, but you can run the linux/arm port.
+The linux/arm64 Go port is not functional yet, but you can run the linux/arm port if you add arm64 support to `cmd/dist` with this patch: https://gist.github.com/4ad/c3799da7e486854e6655
 
 ```
 $ sudo apt-get install gcc-arm-linux-gnueabihf libc6-dev-armhf-cross
@@ -364,5 +364,7 @@ CGO_ENABLED="1"
 ```
 
 A static toolchain is required as arm64 Linux distributions don't ship the necessary 32-bit arm libraries (except in a sysroot). ` GO_DISTFLAGS=-s ` is not enough, ` CC='arm-linux-gnueabihf-gcc -static' ` is required to build a static dist tool.
+
+Alternatively, you can use native (64-bit) binaries for the C tools by leaving gcc alone, and doing just `GOHOSTARCH=arm GOARM=7 CGO_ENABLED=0 ./make.bash`
 
 _-- Aram Hăvărneanu_
