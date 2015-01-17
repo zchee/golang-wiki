@@ -156,7 +156,13 @@ Go Version Managers allow you to have multiple versions of Go installed on your 
 |:--------|:-----------------------------|
 |Title    |Go Version Manager            |
 |Author   |Josh Bussdieker               |
-|Categories|Go Version Manager            |
+|Categories|Go Version Manager           |
+
+| **goenv**  | https://bitbucket.org/ymotongpoo/goenv |
+|:-----------|:---------------------------------------|
+| Title      | Go environment manager                 |
+| Author     | Yoshifumi YAMAGUCHI                    |
+| Categories | Go Version Manager                     |
 
 ## Unclassified
 Not able to classify these tools.
