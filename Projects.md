@@ -333,12 +333,14 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 #### Key-Value-Stores
 
+  * [bolt](https://github.com/boltdb/bolt) - Persistent key/value store inspired by LMDB.
   * [dbm](https://github.com/cznic/exp/tree/master/dbm) - Package dbm (WIP) implements a simple database engine, a hybrid of a hierarchical and/or a key-value one.
   * [Diskv](https://github.com/peterbourgon/diskv) - Home-grown, disk-backed key-value store
   * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
   * [gocask](http://code.google.com/p/gocask/) - Key-value store inspired by Riak Bitcask. Can be used as pure go implementation of dbm and other kv-stores.
   * [kv](http://github.com/cznic/kv) - Yet another key/value persistent store. Atomic operations, two phase commit, automatic crash recovery, ...
   * [leveldb-go](http://code.google.com/p/leveldb-go/) - This is an implementation of the LevelDB key/value database.
+  * [goleveldb](https://github.com/syndtr/goleveldb) - Another implementation of LevelDB key/value in pure Go.
   * [levigo](https://github.com/jmhodges/levigo) - levigo provides the ability to create and access LevelDB databases.
   * [persival](https://github.com/nu7hatch/persival) - Programatic, persistent, pseudo key-value storage
   * [gkvlite](https://github.com/steveyen/gkvlite) - Pure go, simple, ordered, atomic key-value persistence based on append-only file format.
