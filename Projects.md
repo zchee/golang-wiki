@@ -1158,7 +1158,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
   * [wfdr](https://github.com/crazy2be/wfdr) - Simple web framework designed for and written in go. Works with other languages as well, but not as well.
   * [xweb](https://github.com/go-xweb/xweb) - A web framework for Go. Just like Struts for Java.
-  * [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go
+  * [Tango](https://github.com/lunny/tango) - Micro-kernel & pluggable web framework for Go
 
 #### HTML forms
 
