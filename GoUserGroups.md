@@ -35,6 +35,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Meetup Lausanne](http://www.meetup.com/Lausanne-golang-Meetup) - Lausanne, Switzerland
   * [Meetup Zurich](http://www.meetup.com/Zurich-Gophers/) - Zurich, Switzerland
   * [Meetup Frankfurt](http://www.meetup.com/Frankfurt-Gophers-Meetup/) - Frankfurt am Main, Germany
+  * [Go-ningen](http://www.meetup.com/Go-ningen/) - Groningen, The Netherlands
 
 # North America
 
