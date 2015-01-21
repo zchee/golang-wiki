@@ -31,7 +31,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Go-Stockholm](http://www.meetup.com/Go-Stockholm/) - Stockholm, Sweden.
   * [GolangIT](http://golangit.github.io/) - Italy.
   * [Go-Turkey](https://plus.google.com/communities/101920753066440157216) - Turkey.
-  * [Go Graz](https://plus.google.com/communities/106198408392520934164) - Graz, Austria
+  * [Go Graz](http://gograz.org) - Graz, Austria
   * [Meetup Lausanne](http://www.meetup.com/Lausanne-golang-Meetup) - Lausanne, Switzerland
   * [Meetup Zurich](http://www.meetup.com/Zurich-Gophers/) - Zurich, Switzerland
   * [Meetup Frankfurt](http://www.meetup.com/Frankfurt-Gophers-Meetup/) - Frankfurt am Main, Germany
