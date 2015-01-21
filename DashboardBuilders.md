@@ -22,8 +22,9 @@ See http://golang.org/s/builderplan
 | linux-amd64-sid | in Docker on GCE | bradfitz  | Debian sid |
 | nacl-386  | in Docker on GCE | bradfitz  |           |
 | nacl-amd64p32 | in Docker on GCE | bradfitz  |           |
-| openbsd-amd64-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in tools/dashboard/env/openbsd-amd64         |
-| plan9-386-gcepartial | in VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in tools/dashboard/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
+| openbsd-amd64-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
+| plan9-386-gcepartial | in VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
+| freebsd-amd64-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
 
 ## Legacy Builders
 
