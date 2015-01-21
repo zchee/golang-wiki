@@ -72,6 +72,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Utah Gophers](http://www.meetup.com/utahgophers/) - Salt Lake City UT, USA.
   * [Golang-DC](http://www.meetup.com/Golang-DC/) - Arglinton VA, USA.
   * [Seattle Go Programmers](http://www.meetup.com/golang/) - Seattle WA, USA.
+  * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
 
 # Oceania
   * [golang-sydney](http://www.meetup.com/golang-syd/) - Sydney, Australia.
