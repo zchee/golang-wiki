@@ -23,6 +23,7 @@ See http://golang.org/s/builderplan
 | nacl-386  | in Docker on GCE | bradfitz  |           |
 | nacl-amd64p32 | in Docker on GCE | bradfitz  |           |
 | openbsd-amd64-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
+| openbsd-386-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-386         |
 | plan9-386-gcepartial | in VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
 | freebsd-amd64-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
 | freebsd-386-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
@@ -45,8 +46,6 @@ These builders are configured and run manually. The goal is to migrate as many a
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
 | nacl-arm  | samsung chromebook | rsc       | running chrubuntu |
 | nacl-arm-cheney | same builder as linux-arm-cheney-imx6 | Dave Cheney |           |
-| openbsd-386-rootbsd | VM on RootBSD   | adg/jsing       | OpenBSD 5.6 |
-| openbsd-amd64-rootbsd | VM on RootBSD   | adg/jsing       | OpenBSD 5.6, **to be deleted soon** |
 | netbsd-386-minux | KVM             | Shenghou Ma |           |
 | netbsd-amd64-bsiegert | EC2 m1.small VM | Benny Siegert | on Brad's work EC2 account |
 | plan9-386-cnielsen | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs, updated nightly |
