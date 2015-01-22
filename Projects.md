@@ -430,6 +430,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [redoc](https://github.com/simonz05/redoc) - Commands documentation for Redis
   * [sphinxcontrib-golangdomain](http://pypi.python.org/pypi/sphinxcontrib-golangdomain) - Sphinx domain for Go
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
+  * [examplgen](https://github.com/gima/examplgen) - Insert code from .go files to documents (examples to project's readme, for instance).
 
 ## Editors
 
