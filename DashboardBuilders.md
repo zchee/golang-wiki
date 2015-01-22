@@ -25,6 +25,8 @@ See http://golang.org/s/builderplan
 | openbsd-amd64-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
 | plan9-386-gcepartial | in VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
 | freebsd-amd64-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
+| freebsd-386-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
+| freebsd-amd64-race | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but runs src/race.bash instead, and n1-highcpu-4 instance type    |
 
 ## Legacy Builders
 
@@ -38,10 +40,6 @@ These builders are configured and run manually. The goal is to migrate as many a
 | darwin-386 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-386-cheney | 2011 Mac Mini, 2.4Ghz Core i5  | Dave Cheney | Mac OS X 10.10 XCode 5 |
 | dragonfly-amd64 | ?               | Justin Sherrill | ?         |
-| dragonfly-386 | ?               | Justin Sherrill | ?         |
-| freebsd-386 | rootbsd.net VPS | adg       | FreeBSD 9.1 |
-| freebsd-amd64 | rootbsd.net VPS | adg       | FreeBSD 9.1 |
-| freebsd-amd64-race | rootbsd.net VPS | adg       | FreeBSD 9.2, Only runs -race tests (./race.bash) |
 | linux-arm-luitvd | RaspberryPi     | Luit van Drongelen |           |
 | linux-arm-arm5 | QNAP TS-119P, ARMv5 @ 2.0GHz, 512MB | Dave Cheney | GOARM=5   |
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
