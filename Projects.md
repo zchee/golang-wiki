@@ -771,6 +771,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [daemonigo](https://github.com/tyranron/daemonigo) - A simple library to daemonize Go applications.
   * [go-eventsocket](https://github.com/fiorix/go-eventsocket) - An event socket client/server library for the [FreeSWITCH](https://freeswitch.org) telephony platform.
   * [EventBus](https://github.com/asaskevich/EventBus) - Lightweight event bus with async compatibility for Go .
+  * [Vboxgo](https://github.com/th4t/vboxgo) - user-like access to VirtualBox VMs from Go.
 
 
 ## Music
