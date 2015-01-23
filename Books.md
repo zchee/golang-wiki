@@ -48,7 +48,7 @@ Sorted by publication date.
     * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
     * Publication Date: Summer 2015 (est.)
     * ISBN: 9781617291784
-    * References: http://goinactionbook.com
+    * References: http://www.goinactionbook.com
     * Discount Code 40% Off: gocenter
 
 # Chinese
