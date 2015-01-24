@@ -35,6 +35,7 @@ These builders are configured and run manually. The goal is to migrate as many a
 
 | **title** | **description** | **owner** | **notes** |
 |:----------|:----------------|:----------|:----------|
+| android-arm-crawshaw | Nexus 7 | crawshaw | Builder runs on attached desktop, uses adb |
 | darwin-amd64 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-amd64-cheney | 2011 Mac Mini, 2.4Ghz Core i5 | Dave Cheney | Mac OS X 10.10 XCode 5 |
 | darwin-amd64-race-cheney | 2011 Mac Mini, 2.4Ghz Core i5 | Dave Cheney | Mac OS X 10.10 XCode 5 |
