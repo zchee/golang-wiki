@@ -215,6 +215,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 #### Sets
   * https://github.com/deckarep/golang-set - A full thread-safe and unsafe set implementation for Go.
+  * https://github.com/fatih/set - Set data structure for Go.
 
 #### Trees
 
