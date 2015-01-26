@@ -212,6 +212,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 #### Graphs
   * [goraph](https://github.com/gyuho/goraph) - Graph Visualization, Algorithms
+  * [graphs](https://github.com/thcyron/graphs) - Implementation of various tree, graph and network algorithms
 
 #### Sets
   * https://github.com/deckarep/golang-set - A full thread-safe and unsafe set implementation for Go.
