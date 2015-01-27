@@ -25,5 +25,6 @@ Drivers for Go's sql package include:
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
   * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
+  * **Couchbase N1QL**: https://github.com/couchbaselabs/go_n1ql
 
 Drivers marked with a ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test
