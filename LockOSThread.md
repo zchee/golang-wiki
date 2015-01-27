@@ -22,7 +22,7 @@ func init() {
 // Main does not return. If the binary needs to do other work, it
 // must do it in separate goroutines.
 func Main() {
-	for f = range mainfunc {
+	for f := range mainfunc {
 		f()
 	}
 }
