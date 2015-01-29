@@ -56,6 +56,7 @@ This page links to resources for learning about server programming in Go. The it
 
 ### Amazon Web Services
 
+- The [aws-sdk-go](https://github.com/awslabs/aws-sdk-go) repository provides automatically generated AWS clients in Go.  It has [official support](http://aws.amazon.com/blogs/aws/coming-soon-aws-sdk-for-go) from Amazon.
 - [Package goamz](https://wiki.ubuntu.com/goamz) enables Go programs to interact with the Amazon Web Services.
 - Search packages for [AWS](http://godoc.org/?q=aws) or [Amazon services](http://godoc.org/?q=amazon+service)
 
