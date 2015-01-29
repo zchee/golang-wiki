@@ -39,6 +39,7 @@ Here's why: a list of people/organizations tell why they use Go. This is partly 
 - [**Go at Axioms.IO** by Dieter Shirley](http://axioms.io/zen/2014-11-06-swift-go/)
 - [**Go at BBC**](http://www.quora.com/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
 - [**Go at Bitly**](http://word.bitly.com/post/29550171827/go-go-gadget)
+- [**Go at Bowery**](http://bowery.io/posts/Nodejs-to-Golang-Bowery/)
 - [**Go at Canonical (Juju)** by Dave Cheney](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
 - [**Go at CloudFlare** by John Graham-Cumming](http://blog.cloudflare.com/go-at-cloudflare/)
 - [**Go at Copper.io** by Mark Bakker](https://blog.copper.io/building-a-scaleable-app-that-can-actually-scale/)
