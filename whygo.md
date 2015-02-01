@@ -83,6 +83,7 @@ Here's why: a list of people/organizations tell why they use Go. This is partly 
 - [**Go at Toggl** by Alari Aho](http://blog.toggl.com/2012/09/moving-to-go/)
 - [**Go at Torbit** by Tylor Arndt](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
 - [**Go at VividCortex** by Anna Navatsyk](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/?utm_source=org&utm_medium=twit)
+- [**Go at Yahoo**](https://github.com/yahoo/webseclab)
 - [**Go at YouTube (Vitess)** by Sugu Sougoumarane (dotScale 2014 2014)](https://www.youtube.com/watch?v=5yDO-tmIoXY)
 - [**Go at YouTube (Vitess)** by Sugu Sougoumarane (FOSDEM 2014)](https://www.youtube.com/watch?v=qATTTSg6zXk)
 - [**Go at YouTube (Vitess)** by Sugu Sougoumarane (I/O Bytes 2014)](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
