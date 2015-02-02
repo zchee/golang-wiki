@@ -3,3 +3,4 @@
 * [go tool yacc](https://golang.org/cmd/yacc/) – Yacc for Go
 * [stringer](https://godoc.org/golang.org/x/tools/cmd/stringer) – Generates Stringer types for enums
 * [jsonenums](https://github.com/campoy/jsonenums) – Generates json.Marshaler and json.Unmarshaler types for enums
+* [gen-mocks](https://sourcegraph.com/sourcegraph/gen-mocks) – Generate mocks for interfaces
