@@ -40,6 +40,8 @@ It is often a good idea to make sure the last directory path (in this case, "epu
 
 **Please note that this section is out of date.** The pseudo version numbers below were applicable to Go < version 1; also the Go repository itself uses Git instead of Mercurial now. **Maybe we should remove this section.**
 
+**You can get up to date information on go get using "go help get" and "go help importpath".**
+
 In general, the Go source tree can exist in three basic states.  It can be checked out at a Go Release branch (r60 (on Google Code) at the time of this writing -- this is where most users should be), or it can be checked out at a Go Weekly (a new tag for which is made roughly once per week), or at tip (the Mercurial term for the latest change).  The last two are primarily for developers of the Go language itself or developers who need features or fixes which have not been introduced into the latest Release.
 
 Due to the lielihood that you might continue collaborating on your project with your team on code that is not ready for general consumption, it is recommended that you utilize the tagging or branching functionality of your version control system.  The go get tool understands some special tags and branches, which you may want to use to ensure users get a compatible version of your package:
