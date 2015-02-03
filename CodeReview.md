@@ -29,7 +29,7 @@ To use GitHub as a git remote, you can either fork github.com/golang/go or creat
 To add your git remote, run something like:
 
 ```bash
-$ git remote add git@github.com:yourusername/go.git fork
+$ git remote add fork git@github.com:yourusername/go.git
 ```
 
 You can then push changes to the "fork" remote with `git push fork branchname`.
@@ -37,7 +37,7 @@ You can then push changes to the "fork" remote with `git push fork branchname`.
 Gerrit's code review model is to rewrite a single commit until it is correct. GitHub will try to prevent you from accidentally overwriting your existing branch. You can work around this by forcing the push: `git push --force fork branchname`. Alternatively, you can set up your forked remote as a mirror by cloning it initially with:
 
 ```bash
-$ git remote add --mirror=push git@github.com:yourusername/go.git fork
+$ git remote add --mirror=push fork git@github.com:yourusername/go.git
 ```
 
 Then running `git push fork` will update GitHub to perfectly mirror *everything* (all branches, all tags, etc.). This is handy, but take care when using this on multiple clients. You are bypassing the usual git safeguards, so it is easy to overwrite (and thus lose) work pushed by a different client.
