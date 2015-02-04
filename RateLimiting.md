@@ -99,7 +99,7 @@ func (r *Ratelimiter) Limit() bool {
 	now := time.Now()
 	elapsed := now.Sub(r.last)
 	r.last = now
-	r.allowance += float64(elapsed) * rate
+	r.allowance += elapsed.Seconds() * rate
 
 	// Clamp number of tokens in the bucket. Don't let it get
 	// unboundedly large
