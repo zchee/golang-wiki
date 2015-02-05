@@ -27,6 +27,20 @@ For a map m of type map[string]T and []byte b, m[string(b)] doesn't allocate. (t
 * **gc:** 1.4+
 * **gccgo:** ?
 
+### range over []byte(s)
+
+Avoiding allocating []byte of a string when ranging over the bytes:
+
+```
+	s := "foo"
+	for i, c := range []byte(s) {
+		// ...
+	}
+```
+
+* **gc:** 1.5+ (CL 3790)
+* **gccgo:** ?
+
 ## Escape analysis and Inlining
 
 Use `-gcflags -m` to observe the result of escape analysis and inlining
