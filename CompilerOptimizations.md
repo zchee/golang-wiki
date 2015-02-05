@@ -36,12 +36,14 @@ decisions for the gc toolchain.
 
 ### Escape analysis
 
+Gc compiler does global escape analysis across function and package boundaries. However, there are lots of cases where it gives up. For example, anything assigned to any indirection (`*p = ...`; `a[i] = ...`) is considered escaped. Other things that can inhibit analysis are: function calls, package boundaries, slice literals, subslicing and indexing, etc. Full rules are too complex to describe, so check the `-m` output.
+
 * **gc:** 1.0+
 * **gccgo:** not yet.
 
 ### Function Inlining
 
-Only short and simple functions are inlined. To be inlined a function must contain less than ~40 expressions and does not contain complex things like loops, labels, closures, panic's, recover's, select's, switch'es, etc.
+Only short and simple functions are inlined. To be inlined a function must contain less than ~40 expressions and does not contain complex things like function calls, loops, labels, closures, panic's, recover's, select's, switch'es, etc.
 
 * **gc:** 1.0+
 * **gccgo:** -O1 and above.
