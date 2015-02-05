@@ -41,6 +41,8 @@ decisions for the gc toolchain.
 
 ### Function Inlining
 
+Only short and simple functions are inlined. To be inlined a function must contain less than ~40 expressions and does not contain complex things like loops, labels, closures, panic's, recover's, select's, switch'es, etc.
+
 * **gc:** 1.0+
 * **gccgo:** -O1 and above.
 
