@@ -41,7 +41,3 @@ $ git remote add --mirror=push fork git@github.com:yourusername/go.git
 ```
 
 Then running `git push fork` will update GitHub to perfectly mirror *everything* (all branches, all tags, etc.). This is handy, but take care when using this on multiple clients. You are bypassing the usual git safeguards, so it is easy to overwrite (and thus lose) work pushed by a different client.
-
-# Code Review on Windows
-
-The code review command ```git-codereview``` currently does not work on Windows. This is [#9257](../issues/9257).
