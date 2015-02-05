@@ -27,9 +27,22 @@ For a map m of type map[string]T and []byte b, m[string(b)] doesn't allocate. (t
 * **gc:** 1.4+
 * **gccgo:** ?
 
-## Escape analysis
+## Escape analysis and Inlining
 
-TODO
+Use `-gcflags -m` to observe the result of escape analysis and inlining
+decisions for the gc toolchain.
+
+(TODO: explain the output of `-gcflags -m`).
+
+### Escape analysis
+
+* **gc:** 1.0+
+* **gccgo:** not yet.
+
+### Function Inlining
+
+* **gc:** 1.0+
+* **gccgo:** -O1 and above.
 
 ## Idioms
 
