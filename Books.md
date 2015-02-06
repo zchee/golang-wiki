@@ -51,6 +51,12 @@ Sorted by publication date.
     * References: http://www.goinactionbook.com
     * Discount Code 40% Off: gocenter
 
+  * **Go Web Programming** (MEAP)
+    * Author: Sau Sheong Chang
+    * Publication Date: Fall 2015 (est.)
+    * ISBN: 9781617292569
+    * References: [site](http://manning.com/chang/)
+    
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
