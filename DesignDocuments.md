@@ -52,6 +52,7 @@
   * [Go Oracle](https://docs.google.com/document/d/1WmMHBUjQiuy15JfEnT8YBROQmEv-7K6bV-Y_K53oi5Y)
   * [Binding Go and Java](http://golang.org/s/gobind)
   * [Go Builder Plan](http://golang.org/s/builderplan)
+  * [gomobile — a tool for building apps](https://docs.google.com/document/d/1cePOQ35PNEb_QqxnPAmBv0cEnAm7AQSGuz9wVeJ-lBs/edit)
 
 # Rejected Proposals
   * [Read-only Slices](https://docs.google.com/a/golang.org/document/d/1UKu_do3FRvfeN5Bb1RxLohV-zBOJWTzX0E8ZU1bkqX0/edit#heading=h.2wzvdd6vdi83), [Evaluation of read-only slices](https://docs.google.com/document/d/1-NzIYu0qnnsshMBpMPmuO21qd8unlimHgKjRD9qwp2A/edit) ([rejected](https://groups.google.com/d/msg/golang-dev/Y7j4B2r_eDw/Rkq-OtEsEBAJ))
