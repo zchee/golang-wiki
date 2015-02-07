@@ -81,7 +81,7 @@ are converted into efficient runtime memclr calls. [Issue](golang.org/issue/5373
 
 ## Non-scannable objects
 
-Garbage collector does not scan underlying buffers of slices, channels and maps when element type does not contain pointers (both key and value for maps). This allows to hold large data sets in memory without paying high price during garbage collector. For example the following map won't visibly affect GC time:
+Garbage collector does not scan underlying buffers of slices, channels and maps when element type does not contain pointers (both key and value for maps). This allows to hold large data sets in memory without paying high price during garbage collection. For example, the following map won't visibly affect GC time:
 
 ```go
 type Key [64]byte // SHA-512 hash
