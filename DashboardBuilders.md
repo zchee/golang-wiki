@@ -8,29 +8,29 @@ See http://golang.org/s/builderplan
 
 | **title** | **description** | **owner** | **notes** |
 |:----------|:----------------|:----------|:----------|
-| linux-386 | in Docker on GCE | bradfitz  |           |
-| linux-386-387 | in Docker on GCE | bradfitz  | GO386=387 |
+| linux-386 | buildlet VM on GCE | bradfitz  |           |
+| linux-386-387 | buildlet VM on GCE | bradfitz  | GO386=387 |
 | linux-386-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
 | linux-386-gccgo | in Docker on GCE | cmang | builds gccgo |
 | linux-386-sid | in Docker on GCE | bradfitz  | Debian sid |
-| linux-amd64 | in Docker on GCE | bradfitz  |           |
+| linux-amd64 | buildlet VM on GCE | bradfitz  |           |
 | linux-amd64-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
 | linux-amd64-gccgo | in Docker on GCE | cmang | builds gccgo |
 | linux-amd64-nocgo | in Docker on GCE | bradfitz  | cgo disabled |
-| linux-amd64-noopt | in Docker on GCE | bradfitz  | optimizations and inlining disabled |
-| linux-amd64-race| in Docker on GCE | bradfitz  |           |
+| linux-amd64-noopt | buildlet VM on GCE | bradfitz  | optimizations and inlining disabled |
+| linux-amd64-race| buildlet VM Docker on GCE | bradfitz  |           |
 | linux-amd64-sid | in Docker on GCE | bradfitz  | Debian sid |
 | nacl-386  | in Docker on GCE | bradfitz  |           |
 | nacl-amd64p32 | in Docker on GCE | bradfitz  |           |
-| openbsd-amd64-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
-| openbsd-386-gce56 | in VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-386         |
-| plan9-386-gcepartial | in VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
-| freebsd-amd64-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
-| freebsd-386-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
-| freebsd-amd64-race | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but runs src/race.bash instead, and n1-highcpu-4 instance type    |
-| windows-386-gce | buildlet on GCE| bradfitz  |           |
-| windows-amd64-gce | buildlet on GCE | bradfitz  |           |
-| windows-amd64-race | buildlet on GCE | bradfitz | Only runs -race tests (./race.bat) |
+| openbsd-amd64-gce56 | buildlet VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
+| openbsd-386-gce56 | buildlet VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-386         |
+| plan9-386-gcepartial | buildlet VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
+| freebsd-amd64-gce101 | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
+| freebsd-386-gce101 | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
+| freebsd-amd64-race | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but runs src/race.bash instead, and n1-highcpu-4 instance type    |
+| windows-386-gce | buildlet VM on GCE| bradfitz  |           |
+| windows-amd64-gce | buildlet VM on GCE | bradfitz  |           |
+| windows-amd64-race | buildlet VM on GCE | bradfitz | Only runs -race tests (./race.bat) |
 ## Legacy Builders
 
 These builders are configured and run manually. The goal is to migrate as many as possible over to the new system.
