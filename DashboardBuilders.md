@@ -28,7 +28,9 @@ See http://golang.org/s/builderplan
 | freebsd-amd64-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
 | freebsd-386-gce101 | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
 | freebsd-amd64-race | in VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but runs src/race.bash instead, and n1-highcpu-4 instance type    |
-
+| windows-386-gce | buildlet on GCE| bradfitz  |           |
+| windows-amd64-gce | buildlet on GCE | bradfitz  |           |
+| windows-amd64-race | buildlet on GCE | bradfitz | Only runs -race tests (./race.bat) |
 ## Legacy Builders
 
 These builders are configured and run manually. The goal is to migrate as many as possible over to the new system.
@@ -53,9 +55,6 @@ These builders are configured and run manually. The goal is to migrate as many a
 | plan9-amd64-aram | VM              | Nick Owens  | runs 9front |
 | solaris-amd64-smartos | E5-1650 Xeon, 6C/12T | Daniel Malon | runs illumos (smartos zone); dfc, aram have full access |
 | solaris-amd64-solaris11 | VM              | Dave Cheney | runs Solaris 11 |
-| windows-386 | on GCE 16 core instance, same machine as windows-amd64 | bradfitz  |           |
-| windows-amd64 | on GCE 16 core instance, same machine as windows-386 | bradfitz  |           |
-| windows-amd64-race | Windows 8.1, 2 x Intel Xeon E5620 @ 2.4GHz, 8 HT cores, 12GB RAM | Dmitry Vyukov | Only runs -race tests (./race.bash) |
 
 # Builder Requirements
   * internet connection (at least be able to access Google and http://build.golang.org)
