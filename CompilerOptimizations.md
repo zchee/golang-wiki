@@ -1,4 +1,4 @@
-# Compiler Optimizations
+# Compiler And Runtime Optimizations
 
 This page lists optimizations done by the compilers. Note that these are not guaranteed by the language specification.
 
@@ -75,6 +75,23 @@ for i := range s {
 ```
 
 are converted into efficient runtime memclr calls. [Issue](golang.org/issue/5373) and [commit](https://golang.org/change/f03c9202c43e0abb130669852082117ca50aa9b1).
+
+* **gc:** 1.5+
+* **gccgo:** ?
+
+## Non-scannable objects
+
+Garbage collector does not scan underlying buffers of slices, channels and maps when element type does not contain pointers (both key and value for maps). This allows to hold large data sets in memory without paying high price during garbage collector. For example the following map won't visibly affect GC time:
+
+```go
+type Key [64]byte // SHA-512 hash
+type Value struct {
+	Name      [32]byte
+	Balance   uint64
+	Timestamp int64
+}
+m := make(map[Key]Value, 1e8)
+```
 
 * **gc:** 1.5+
 * **gccgo:** ?
