@@ -513,73 +513,74 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Graphics and Audio
 
+  * [allegro 5](https://github.com/tapir/allegro5) - Go Bindings for Allegro 5 library
+  * [allergro](https://github.com/lasarux/go-spanish/tree/master/allegro) - basic wrapper for the Allegro library
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
-  * [Go-OpenGL](https://github.com/banthar/Go-OpenGL) - Go bindings for OpenGL
-  * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
-  * [GoMacDraw](https://github.com/skelterjohn/gmd) - A mac implementation of go.wde
-  * [Goop](https://github.com/peterbourgon/goop) - Audio synthesizer engine
-  * [Plotinum](https://code.google.com/p/plotinum) - An API for creating plots
-  * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
-  * [allergro](https://github.com/lasarux/go-spanish/tree/master/allegro) - basic wrapper for the Allegro library
-  * [allegro 5](https://github.com/tapir/allegro5) - Go Bindings for Allegro 5 library
   * [baukasten](https://github.com/Agon/baukasten) - A modular game library.
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [bmp.go](http://gopaste.org/w0D8b) - package for encoding/decoding Windows BMP files
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, hstogram) in different output formats.
   * [draw2d](http://code.google.com/p/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
-  * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
-  * [gl](https://github.com/go-gl/gl) - OpenGL bindings using glew
-  * [glfw](https://github.com/go-gl/glfw) - bindings to the multi-platform library for opening a window, creating an OpenGL context and managing input
-  * [glfw 3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3 library
-  * [glh](https://github.com/go-gl/glh) - OpenGL helper functions to manage text, textures, framebuffers and more
-  * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
+  * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
+  * [glfw 3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3 library
+  * [glfw](https://github.com/go-gl/glfw) - bindings to the multi-platform library for opening a window, creating an OpenGL context and managing input
+  * [glh](https://github.com/go-gl/glh) - OpenGL helper functions to manage text, textures, framebuffers and more
+  * [gl](https://github.com/go-gl/gl) - OpenGL bindings using glew
+  * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
+  * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
+  * [gocairo](http://bitbucket.org/dethe/gocairo/) - Go wrapper for cairo graphics library
   * [go-cairo](https://github.com/ungerik/go-cairo) - Go wrapper for the cairo graphics library
+  * [gocl](https://github.com/rainliu/gocl) - Go OpenCL (gocl) binding
   * [go-csnd6](https://github.com/fggp/go-csnd6) - Go binding to the Csound6 API
   * [go-csperfthread](https://github.com/fggp/go-csperfthread) - Go binding to the CsoundPerformanceThread helper class of the Csound6 API
-  * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
+  * [goexif](https://github.com/rwcarlsen/goexif) - Retrieve EXIF metadata from image files
   * [go-gd](https://github.com/bolknote/go-gd) - Go bingings for GD
+  * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
   * [go-gnuplot](https://bitbucket.org/binet/go-gnuplot) - go bindings for GNUPlot
   * [go-gtk3](https://github.com/norisatir/go-gtk3) - gtk3 bindings for go
   * [go-heatmap](https://github.com/dustin/go-heatmap) - A toolkit for making heatmaps
+  * [GoHM](https://github.com/rainliu/GoHM) - H.265/HEVC HM Video Codec in Go
+  * [goHorde](http://code.google.com/p/gohorde/) - Go Bindings for the Horde3d Rendering engine.
+  * [GoMacDraw](https://github.com/skelterjohn/gmd) - A mac implementation of go.wde
   * [go-openal](https://github.com/phf/go-openal) - Experimental OpenAL bindings for Go
   * [go-opencl](https://github.com/tones111/go-opencl) - A go wrapper to the OpenCL heterogeneous parallel programming library
-  * [gocl](https://github.com/rainliu/gocl) - Go OpenCL (gocl) binding
-  * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
-  * [go-taglib](https://github.com/wtolson/go-taglib) - Go wrapper for TagLib, an audio meta-data parser
-  * [go-tmx](https://github.com/salviati/go-tmx) - A Go library that reads Tiled's TMX files
-  * [go-vlc](https://github.com/jteeuwen/go-vlc) - Go bindings for libVLC
-  * [go.wde](https://github.com/skelterjohn/go.wde) - A windowing/drawing/event interface
-  * [GoHM](https://github.com/rainliu/GoHM) - H.265/HEVC HM Video Codec in Go
-  * [GoVisa](https://github.com/rainliu/GoVisa) - H265/HEVC Bitstream Analyzer in Go
-  * [goHorde](http://code.google.com/p/gohorde/) - Go Bindings for the Horde3d Rendering engine.
-  * [gocairo](http://bitbucket.org/dethe/gocairo/) - Go wrapper for cairo graphics library
-  * [goexif](https://github.com/rwcarlsen/goexif) - Retrieve EXIF metadata from image files
+  * [Go-OpenGL](https://github.com/banthar/Go-OpenGL) - Go bindings for OpenGL
+  * [Goop](https://github.com/peterbourgon/goop) - Audio synthesizer engine
   * [goray](http://goray.sourceforge.net/) - Raytracer written in Go, based on Yafaray
   * [gosc](https://bitbucket.org/liamstask/gosc) - Pure Go OSC (Open Sound Control) library
+  * [go-taglib](https://github.com/wtolson/go-taglib) - Go wrapper for TagLib, an audio meta-data parser
+  * [go-tmx](https://github.com/salviati/go-tmx) - A Go library that reads Tiled's TMX files
+  * [GoVisa](https://github.com/rainliu/GoVisa) - H265/HEVC Bitstream Analyzer in Go
+  * [go-vlc](https://github.com/jteeuwen/go-vlc) - Go bindings for libVLC
+  * [go.wde](https://github.com/skelterjohn/go.wde) - A windowing/drawing/event interface
   * [goxscr](http://goxscr.googlecode.com) - Go rewrites of xscreensaver ports
   * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
+  * [netpbm](https://github.com/spakin/netpbm) - Read and write Netpbm images from Go programs
+  * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
+  * [Plotinum](https://code.google.com/p/plotinum) - An API for creating plots
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
-  * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
-  * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
+  * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
+  * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
   * [starfish](https://github.com/gtalent/starfish) - A simple Go graphics and user input library, built on SDL
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
   * [svgo](https://github.com/ajstarks/svgo) - a library for creating and outputting SVG
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
+  * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
   * [wingo](https://github.com/BurntSushi/wingo) - A fully-featured window manager written in Go.
+  * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
   * [wxGo](https://github.com/JeroenD/wxGo) - Go Wrapper for the wxWidgets GUI
-  * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
   * [xgb](https://github.com/BurntSushi/xgb) - A fork of the x-go-binding featuring support for thread safety and all X extensions.
   * [xgbutil](https://github.com/BurntSushi/xgbutil/) - A utility library to make use of the X Go Binding easier. (Implements EWMH and ICCCM specs, key binding support, etc.)
-  * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
+  * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
 
 ## GUIs and Widget Toolkits
 
