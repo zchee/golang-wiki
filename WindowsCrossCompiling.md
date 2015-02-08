@@ -4,14 +4,14 @@ I use linux/386, but, I suspect, this procedure will apply to other host platfor
 
 First step is to build host version of go:
 
-```
+```sh
 $ cd $GOROOT/src
 $ ./make.bash
 ```
 
 Next you need to build the rest of go compilers and linkers. I have small program to do that:
 
-```
+```sh
 $ cat ~/bin/buildcmd
 #!/bin/sh
 set -e
@@ -25,7 +25,7 @@ exit 0
 
 Last step is to build windows versions of standard commands and libraries. I have small script for that too:
 
-```
+```sh
 $ cat ~/bin/buildpkg
 #!/bin/sh
 if [ -z "$1" ]; then
@@ -48,7 +48,7 @@ go install -v -a std
 
 I run it like that:
 
-```
+```sh
 $ ~/bin/buildpkg windows 386
 ```
 
@@ -56,7 +56,7 @@ to build windows/386 version of Go commands and packages. You can, probably, see
 
 Now we're ready to build our windows executable:
 
-```
+```go
 $ cat hello.go
 package main
 
