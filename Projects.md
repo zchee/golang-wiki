@@ -1140,6 +1140,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gogallery](http://code.google.com/p/gogallery/) - simple web server with an emphasis on easily browsing images
   * [goof](https://github.com/stone/goof) - A simple http server to exchange files over http (upload/download)
   * [gopages](http://code.google.com/p/gopages/) - A php-like web framework that allows embedding Go code in web pages
+  * [httpfolder](https://github.com/biorisk/httpfolder) - A http server to exchange files over http with basic authentication (upload/download)
   * [kurz.go](https://github.com/fs111/kurz.go) - a url shortener based on web.go and redis
   * [Monsti](https://github.com/chrneumann/monsti) - Resource friendly flat file CMS for private and small business sites.
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
