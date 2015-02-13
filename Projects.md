@@ -431,6 +431,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Weed File System](http://code.google.com/p/weed-fs/) - fast distributed key-file store
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
   * [squirrel](https://github.com/lann/squirrel) - Fluent SQL generation for Go
+  * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
 
 ## Development Tools
 
