@@ -16,6 +16,7 @@
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
   * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](http://plugins.jetbrains.com/plugin/?idea&id=5047) support available.
   * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
+  * **[Komodo IDE](http://komodoide.com/resources/languages/komodo--golang/) Powerful cross-platform IDE, Go-lang support will be built-in as of version 9 (currently available as a pre-release).
   * **[LiteIDE](http://code.google.com/p/golangide/)**: A simple, open source and cross-platform Go IDE
   * **[Notepad++](http://notepad-plus-plus.org/)**: Free source code editor for Windows.
     * [notepadplus-go](https://github.com/chai2010/notepadplus-go) Syntax highlighting, functions list panel (for code browsing), code completion for keywords & builtins.
