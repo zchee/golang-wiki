@@ -1012,7 +1012,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gopp](http://github.com/skelterjohn/gopp) - Go Parser Parser
   * [goyacc](http://github.com/cznic/goyacc) - Goyacc is a version of yacc generating Go parsers.
   * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
-  * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator..
+  * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator.
 
 ## Simulation Modeling
 
@@ -1092,7 +1092,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gospecify](https://github.com/stesla/gospecify) - another BDD framework
   * [go-stat](https://github.com/mreiferson/go-stat) - performant instrumentation/profiling for Go
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
-  * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software..
+  * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
   * [Nitro](https://github.com/spf13/nitro) - A quick and simple profiler For Go
   * [testflight](https://github.com/drewolson/testflight) - Painless http testing in Go
   * [terst](https://github.com/robertkrimen/terst) - A terse, easy-to-use testing library for Go
