@@ -455,6 +455,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Livedev](https://github.com/qrtz/livedev) - Livedev is a development proxy server that enables live code reloading.
   * [liccor](https://github.com/gtalent/liccor) - A tool for updating license headers in Go source files
   * [liteide](http://code.google.com/p/golangide/) - An go auto build tools and qt-based ide for Go
+  * [nvm-windows](https://github.com/coreybutler/nvm-windows) - Node.js version manager for Windows
   * [rerun](https://github.com/skelterjohn/rerun) - Rerun watches your binary and all its dependencies so it can rebuild and relaunch when the source changes.
   * [trace](https://bitbucket.org/santucco/trace) - A simple debug tracing
   * [godepgraph](https://github.com/kisielk/godepgraph) - Create a dependency graph for a go package
