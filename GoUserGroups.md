@@ -44,7 +44,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
 
 ## Canada
 
-  * [Edmonton Go Meetup](http://edmontongo.org/) - Edmonton AB, Canada.
+  * [Edmonton Go Meetup](https://edmontongo.org/) - Edmonton AB, Canada.
   * [vangophers](http://groups.google.com/group/vangophers) - Vancouver BC, Canada.
   * [Go Vancouver](https://plus.google.com/u/0/communities/106063002572645508555) - Vancouver BC, Canada.
   * [GolangVan meetup](http://www.meetup.com/golangvan/) - Vancouver BC, Canada.
