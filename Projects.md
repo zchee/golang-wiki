@@ -759,6 +759,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [functional](https://github.com/tcard/functional) - Functional programming library including a lazy list implementation and some of the most usual functions.
   * [go-amiando](https://github.com/ungerik/go-amiando) - Wrapper for the Amiando event management API
   * [go-bit](http://code.google.com/p/go-bit/) - An efficient and comprehensive bitset implementation with utility bit functions.
+  * [go-bitops](https://github.com/cmchao/go-bitops) - common bit operations for 32/64 bit integer
   * [go-business-creditcard](https://github.com/dsparling/go-business-creditcard) - Validate/generate credit card checksums/names.
   * [gochem](http://github.com/rmera/gochem) - A computational chemistry/biochemistry library.
   * [go-ean](https://github.com/nicholassm/go-ean) - A minimal utility library for validating EAN-8 and EAN-13 and calculating checksums.
