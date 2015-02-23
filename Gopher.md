@@ -9,3 +9,4 @@ Read [this article](http://blog.golang.org/gopher) for more details.
 * [gopher 3d](https://github.com/golang-samples/gopher-3d)
 * [golang graphics](https://github.com/mholt/golang-graphics)
 * [print-ready swimming gopher](https://gumroad.com/l/golang)
+* [go gopher vector](https://github.com/keygx/Go-gopher-Vector)
