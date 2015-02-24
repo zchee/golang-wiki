@@ -568,6 +568,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
   * [baukasten](https://github.com/Agon/baukasten) - A modular game library.
+  * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, hstogram) in different output formats.
   * [draw2d](http://code.google.com/p/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
@@ -621,8 +622,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
   * [svgo](https://github.com/ajstarks/svgo) - a library for creating and outputting SVG
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
+  * [tiff](https://github.com/chai2010/tiff) - Rich TIFF/BigTIFF/GeoTIFF decoder/encoder for Go.
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
   * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
+  * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
   * [wingo](https://github.com/BurntSushi/wingo) - A fully-featured window manager written in Go.
   * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
