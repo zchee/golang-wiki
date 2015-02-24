@@ -187,6 +187,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go.linenoise](https://github.com/GeertJohan/go.linenoise) - Linenoise bindings (simple and easy readline with prompt, optional history, optional tab completion)
   * [go-stfl](https://github.com/akrennmair/go-stfl) - a thin wrapper around STFL, an ncurses-based widget toolkit
   * [gockel](https://github.com/akrennmair/gockel) - a Twitter client for text terminals
+  * [gocui](https://github.com/jroimartin/gocui) - Minimalist library aimed at creating Console User Interfaces
   * [gocurse](https://github.com/jabb/gocurse) - Go bindings for NCurses
   * [gocurses](https://github.com/tncardoso/gocurses) - NCurses wrapper
   * [goncurses](http://code.google.com/p/goncurses/) - An ncurses library, including the form, menu and panel extensions
