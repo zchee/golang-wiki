@@ -569,7 +569,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
   * [baukasten](https://github.com/Agon/baukasten) - A modular game library.
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
-  * [bmp.go](http://gopaste.org/w0D8b) - package for encoding/decoding Windows BMP files
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, hstogram) in different output formats.
   * [draw2d](http://code.google.com/p/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
