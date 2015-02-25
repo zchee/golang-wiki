@@ -1,6 +1,6 @@
 # Use [winstrap](https://github.com/golang/winstrap)
 
-Download [winstrap.exe](http://storage.googleapis.com/winstrap/winstrap-20140711.exe) and run it.
+Download the latest version of winstrap.exe from the [winstrap](https://github.com/golang/winstrap) page and run it.
 
 It will download some installers to your desktop, which you should run. Just click through; all the defaults are fine.
 
