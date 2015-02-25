@@ -49,6 +49,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [P2P and File Sharing](#p2p-and-file-sharing)
 * [Programming](#programming)
 * [Scanner and Parser Generators](#scanner-and-parser-generators)
+* [Security](#security)
 * [Simulation Modeling](#simulation-modeling)
 * [Sorting](#sorting)
 * [Source Code Management](#source-code-management)
@@ -1018,6 +1019,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goyacc](http://github.com/cznic/goyacc) - Goyacc is a version of yacc generating Go parsers.
   * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
   * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator.
+
+## Security 
+
+  * [webseclab](https://github.com/yahoo/webseclab) - a sample set of web security test cases and a toolkit to construct new ones. 
 
 ## Simulation Modeling
 
