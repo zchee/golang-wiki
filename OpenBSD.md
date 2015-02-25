@@ -1,12 +1,12 @@
 # Go on OpenBSD
 
-Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  See [`ports/lang/go`](http://ports.su/lang/go) for details.
+Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It is marked as i386- and amd64- only.  See [`ports/lang/go`](http://ports.su/lang/go) for details.
 
 | **OpenBSD release** | **golang in ports** |
 |:--------------------|:--------------------|
 | 5.7-beta (Feb 2015) | go-1.4.1            |
-| 5.6 (Nov 1, 2014)   | go-1.3              |
-| 5.5 (May 1, 2014)   | go-1.2              |
+| 5.6 (Nov 1, 2014)   | go-1.3p0            |
+| 5.5 (May 1, 2014)   | go-1.2p0            |
 | 5.4 (Nov 1, 2013)   | go-1.1.1            |
 | 5.3 (May 1, 2013)   | go-1.0.3            |
 | 5.2 (Nov 1, 2012)   | go-1.0.2            |
