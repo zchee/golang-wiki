@@ -1,4 +1,4 @@
-# Use [winstrap](https://code.google.com/p/winstrap)
+# Use [winstrap](https://github.com/golang/winstrap)
 
 Download [winstrap.exe](http://storage.googleapis.com/winstrap/winstrap-20140711.exe) and run it.
 
