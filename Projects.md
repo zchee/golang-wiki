@@ -1022,6 +1022,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Security 
 
+  * [hyperfox](https://github.com/xiam/hyperfox) - a security tool for proxying and recording HTTP and HTTPs communications on a LAN.
   * [webseclab](https://github.com/yahoo/webseclab) - a sample set of web security test cases and a toolkit to construct new ones. 
 
 ## Simulation Modeling
