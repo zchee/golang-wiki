@@ -39,23 +39,27 @@ Sorted by publication date.
     * ISBN: ---
     * References: [site](http://jan.newmarch.name/go/)
 
-  * **Go: Up and Running**
-    * Author: Alan Harris
-    * Publication Date: April 2015 (est.)
-    * ISBN: 978-1-4493-7025-1
+## Early Access
 
   * **Go In Action**
     * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
     * Publication Date: Summer 2015 (est.)
     * ISBN: 9781617291784
-    * References: http://www.goinactionbook.com
+    * Site: http://www.goinactionbook.com
     * Discount Code 40% Off: gocenter
 
   * **Go Web Programming** (MEAP)
     * Author: Sau Sheong Chang
     * Publication Date: Fall 2015 (est.)
     * ISBN: 9781617292569
-    * References: [site](http://manning.com/chang/)
+    * Site: http://manning.com/chang/
+
+## Planned
+
+  * **Go: Up and Running**
+    * Author: Alan Harris
+    * Publication Date: April 2015 (est.)
+    * ISBN: 978-1-4493-7025-1
     
 # Chinese
   * **Go语言·云动力**
