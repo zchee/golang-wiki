@@ -822,7 +822,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
   * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and auhtentication API client.
   * [go-villa](https://github.com/daviddengcn/go-villa) - Some miscellaneous wrapper and small algorithms.(wrappers to slices, priority queues, path related apis, a string set type)
-  * [go.bitcoin](https://github.com/GeertJohan/go.bitcoin) - Wrapper for bitcoind daemon API, makes working with bitcoins easy.
+  * [btcrpcclient](https://github.com/btcsuite/btcrpcclient) - A Websocket-enabled Bitcoin JSON-RPC client.
   * [Breaker](https://github.com/matttproud/golang_circuitbreaker) - Breaker enables graceful degraded mode operations by means of wrapping unreliable interservice interface points with circuit breaker primitives.
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
   * [gotenv](https://github.com/subosito/gotenv) - Loads environment variables from ` .env ` file
