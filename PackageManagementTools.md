@@ -60,6 +60,7 @@ Revision Locking creates a dependency file that references specific commits in t
 |Title       |Supports versioned dependencies, using standard Golang imports|
 |Author      |vube.com                      |
 |Categories  |Revision Locking (git, mercurial, bazaar)|
+|Status      |Deprecated as of Feb 25, 2015|
 |            |                              |
 | **dondur** |https://github.com/oguzbilgic/dondur|
 |Title       |Freeze your Go dependencies with ease|
