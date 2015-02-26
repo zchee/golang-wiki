@@ -1135,7 +1135,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
   * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
   * [monkey](https://github.com/realint/monkey) - Embed SpiderMonkey, the Mozilla JavaScript engine, in your Go program.
-  * [go-v8](https://github.com/idada/go-v8) - V8 JavaScript engine bindings for Go
+  * [go-v8](https://github.com/lazytiger/go-v8) - V8 JavaScript engine bindings for Go
   * [gomruby](https://github.com/AlekSi/gomruby) - mruby (mini Ruby) bindings for Go
   * [LispEx](https://github.com/kedebug/LispEx) - A dialect of Lisp extended to support for concurrent programming, written in Go.
 
