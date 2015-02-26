@@ -19,6 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer c.Close()
 	// Set the sender and recipient.
 	c.Mail("sender@example.org")
 	c.Rcpt("recipient@example.net")
