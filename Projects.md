@@ -641,7 +641,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
-  * [go-qt5](https://github.com/salviati/go-qt5) - qt5 bindings for go
+  * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
   * [go.uik](https://github.com/skelterjohn/go.uik) - A UI kit for Go, in Go. (project is closed)
   * [GoQuick](https://gitorious.org/goquick) - Go and Qt Quick experimentation
   * [gothic](https://github.com/nsf/gothic) - Tcl/Tk Go bindings
@@ -651,6 +651,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [iup](https://github.com/grd/iup) - Bindings for [IUP](http://www.tecgraf.puc-rio.br/iup)
   * [mdtwm](https://github.com/ziutek/mdtwm) - Tiling window manager for X
   * [qml](https://github.com/niemeyer/qml) - QML support for the Go language
+  * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
 
 ## Hardware
 
