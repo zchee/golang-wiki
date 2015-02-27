@@ -1094,6 +1094,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [downtest](https://github.com/jmcvetta/downtest) - Automatically run tests for all known downstream consumers of a Go package.
   * [go2xunit](https://bitbucket.org/tebeka/go2xunit) - Convert "go test -v" output to xunit XML output
   * [goautotest](https://github.com/ryanslade/goautotest) - Automatically run unit tests when code changes are made
+  * [goblin](https://github.com/franela/goblin) - Minimal and Beautiful Go testing framework
   * [GoConvey](http://goconvey.co) - Browser-based reporting, uses ` go test `, supports traditional Go tests, clean DSL
   * [gocov](https://github.com/axw/gocov) - Code coverage testing/analysis tool
   * [ginkgo](https://github.com/onsi/ginkgo) - BDD Testing Framework for Go.
