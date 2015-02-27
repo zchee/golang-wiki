@@ -480,6 +480,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GoDoc.org](http://godoc.org/) - GoDoc.org generates documentation on the fly from source on Bitbucket, Github, Google Project Hosting and Launchpad.
   * [Mango](http://code.google.com/p/mango-doc/) - Automatically generate unix man pages from Go sources
   * [godocdown](https://github.com/robertkrimen/godocdown) - Format package documentation (godoc) as GitHub friendly Markdown
+  * [golangdoc](https://github.com/golang-china/golangdoc) - Godoc for Golang, support translate.
   * [redoc](https://github.com/simonz05/redoc) - Commands documentation for Redis
   * [sphinxcontrib-golangdomain](http://pypi.python.org/pypi/sphinxcontrib-golangdomain) - Sphinx domain for Go
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
