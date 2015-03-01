@@ -133,6 +133,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [gich](http://bitbucket.org/jpoirier/gich) - A cross platform which utility written in Go
+  * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
@@ -1343,7 +1344,6 @@ The following entries have not been filed. Please help by putting these in relev
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not
   * [ebml-go](http://code.google.com/p/ebml-go/) - EBML decoder
-  * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Converts any file into manageable Go source code for embedding binary data into a Go program.
   * [go-cron](https://github.com/rk/go-cron) - A small cron job system to handle scheduled tasks, such as optimizing databases or kicking idle users from chat. The cron.go project was renamed to this for ` go get ` compatibility.
   * [go-gmetric](https://github.com/jbuchbinder/go-gmetric) - Ganglia gmetric protocol support
