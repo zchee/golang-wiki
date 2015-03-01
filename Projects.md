@@ -1250,6 +1250,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gocaptcha](https://github.com/GeertJohan/gocaptcha) - gocaptcha provides easy access to the reCaptcha API in go
   * [go-dealmap](https://github.com/ancientlore/go-dealmap) - Go library for accessing TheDealMap's API
   * [go-dropbox](https://github.com/nickoneill/go-dropbox) - API library for dropbox
+  * [go-get-youtube](https://github.com/knadh/go-get-youtube) - A simple library+client for fetching meta data of, and downloading Youtube videos
   * [facebook](https://github.com/huandu/facebook) - Up-to-date facebook graph API client. Handy and flexible
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [go-facebook](https://github.com/Agon/go-facebook) - Go implementations of facebook APIs
