@@ -4,7 +4,7 @@
   * **[BBedit](http://www.barebones.com/products/bbedit/)**: commercial text editor for OS X.
     * Basic Go support available with the module http://pine.barebones.com/extensions/Go.plist.zip
     * [Go.bbpackage](https://github.com/ascarter/go.bbpackage) with clippings, ctags standard library completion, better syntax highlighting, and tools
-  * **[Brackets](http://brackets.io)**:A modern, open source text editor that understands web design.
+  * **[Brackets](http://brackets.io)**: A modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
   * **[Eclipse IDE](http://www.eclipse.org/)**: Very popular open source cross-platform IDE. [GoClipse](http://code.google.com/p/goclipse/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
