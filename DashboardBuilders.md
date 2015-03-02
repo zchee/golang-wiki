@@ -47,6 +47,7 @@ These builders are configured and run manually. The goal is to migrate as many a
 | linux-arm-luitvd | RaspberryPi     | Luit van Drongelen |           |
 | linux-arm-arm5 | QNAP TS-119P, ARMv5 @ 2.0GHz, 512MB | Dave Cheney | GOARM=5   |
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
+| linux-ppc64 | KVM instance on physical 8-core POWER7 pSeries. Chip rev: 2.1 (pvr 004b 0201) | bradfitz, rsc  |           |
 | nacl-arm  | samsung chromebook | rsc       | running chrubuntu |
 | nacl-arm-cheney | same builder as linux-arm-cheney-imx6 | Dave Cheney |           |
 | netbsd-386-minux | KVM             | Shenghou Ma |           |
