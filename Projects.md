@@ -1089,6 +1089,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
+  * [flux](https://github.com/alexanderbartels/flux) - Fluent Regular Expressions in golang
 
 ## Testing
 
