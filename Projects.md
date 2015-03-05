@@ -585,12 +585,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gl](https://github.com/go-gl/gl) - OpenGL bindings using glew
   * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
   * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
+  * [goalsa](https://github.com/cocoonlife/goalsa) - Go bindings for ALSA capture and playback
   * [gocairo](http://bitbucket.org/dethe/gocairo/) - Go wrapper for cairo graphics library
   * [go-cairo](https://github.com/ungerik/go-cairo) - Go wrapper for the cairo graphics library
   * [gocl](https://github.com/rainliu/gocl) - Go OpenCL (gocl) binding
   * [go-csnd6](https://github.com/fggp/go-csnd6) - Go binding to the Csound6 API
   * [go-csperfthread](https://github.com/fggp/go-csperfthread) - Go binding to the CsoundPerformanceThread helper class of the Csound6 API
   * [goexif](https://github.com/rwcarlsen/goexif) - Retrieve EXIF metadata from image files
+  * [goflac](https://github.com/cocoonlife/goflac) - Go bindings for decoding and encoding FLAC audio with libFLAC
   * [go-gd](https://github.com/bolknote/go-gd) - Go bingings for GD
   * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
   * [go-gnuplot](https://bitbucket.org/binet/go-gnuplot) - go bindings for GNUPlot
