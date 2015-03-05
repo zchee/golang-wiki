@@ -46,6 +46,7 @@
   * [Go 1.5 os/fsnotify API](http://goo.gl/MrYxyA)
   * [Simple Multi-Dimensional Slices (Tables)](https://docs.google.com/document/d/1eHm7KqfKP9_s4vR1zToxq-FBazdUQ9ZYi-YhcEtdfR0/edit)
   * [Go execution modes](https://docs.google.com/a/golang.org/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
+  * [Building and distributing Go packages as shared libraries](https://docs.google.com/a/canonical.com/document/d/1PxhXNhsdqwBjteW7poqv4Vf3PhtTmYuQKkOk_JNWeh0/edit#heading=h.9hyi51rp3owq)
   * [NUMA-aware scheduler for Go](https://docs.google.com/document/d/1d3iI2QWURgDIsSR6G2275vMeQ_X7w-qxM2Vp7iGwwuM/pub)
   * [Go 1.5+ "External" Packages](https://docs.google.com/document/d/1CJnU6ZKvsp21B0lQwbJlKFt8Zz4EWscaCRy_EwK8ja8)
 
