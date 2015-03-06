@@ -474,7 +474,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
-  * [Skynet](https://github.com/bketelsen/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
+  * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
 
 ## Documentation
 
