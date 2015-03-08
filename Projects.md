@@ -168,6 +168,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [globalconf](https://github.com/rakyll/globalconf) - Effortlessly persist to and read flag values from an ini config file
   * [goconf](http://code.google.com/p/goconf/) - a configuration file parser
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
+  * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [viper](http://github.com/spf13/viper) - a complete configuration solution supporting YAML, TOML & JSON and integration with command line flags
   * [toml](http://github.com/mojombo/toml) :
     * [go-toml](http://github.com/pelletier/go-toml) - Go library for the TOML language
@@ -249,6 +250,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [skip](https://github.com/glenn-brown/skiplist) - A fast position-addressable ordered map and multimap.
   * [skiplist](https://github.com/huandu/skiplist) - A skip list implementation. Highly customizable and easy to use.
   * [Skiplist](https://github.com/glenn-brown/skiplist) - A fast indexable ordered multimap.
+  * [skiplist](https://godoc.org/github.com/fumin/skiplist) - Skiplist data structure ported from Redis's Sorted Sets.
 
 #### Queues
 
@@ -703,6 +705,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [snowball](https://bitbucket.org/tebeka/snowball) - Snowball stemmer
   * https://github.com/daviddengcn/go-algs/tree/master/maxflow Maxflow (graph-cuts) energy minimization library.
+  * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
 
 
 ## Mathematics
