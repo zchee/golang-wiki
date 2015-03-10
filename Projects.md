@@ -1093,6 +1093,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goskirt](https://github.com/madari/goskirt) - Upskirt markdown library bindings for Go
   * [go-ngram](https://github.com/Lazin/go-ngram) N-gram index for Go
   * [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers
+  * [genex](https://github.com/alixaxel/genex) - Expansion of Regular Expressions
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
   * [flux](https://github.com/alexanderbartels/flux) - Fluent Regular Expressions in golang
