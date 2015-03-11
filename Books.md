@@ -27,6 +27,15 @@ Sorted by publication date.
     * ISBN: 978-1478355823
     * References: [site](http://www.golang-book.com/)
 
+  * **Go Programming Blueprints**
+    * Author: Mat Ryer
+    * Publication Date: January 23, 2015
+    * ISBN: 978-1783988020
+    * Site: https://www.packtpub.com/application-development/go-programming-blueprints
+
+
+## Available without Publication Date 
+
   * **Learning Go** (e-book)
     * Author: Miek Gieben
     * Publication Date: ---
