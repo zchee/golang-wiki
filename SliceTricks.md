@@ -96,8 +96,7 @@ x, a := a[0], a[1:]
 
 **Unshift**
 ```
-// use appropriate type	
-a = append([]string{x}, a...)
+a = append([]T{x}, a...)
 ```
 
 ## Additional Tricks
