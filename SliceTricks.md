@@ -89,6 +89,17 @@ x, a = a[len(a)-1], a[:len(a)-1]
 a = append(a, x)
 ```
 
+**Shift**
+```
+x, a := a[0], a[1:]
+```
+
+**Unshift**
+```
+// use appropriate type	
+a = append([]string{x}, a...)
+```
+
 ## Additional Tricks
 ### Filtering without allocating
 
