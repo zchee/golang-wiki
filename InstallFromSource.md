@@ -23,5 +23,5 @@ If you want to build 32-bit binaries on a 64-bit system you'll need both
 ` glibc-devel.i386 ` and ` glibc-devel.x86_64 ` packages.
 
 On Windows, install ` gcc ` with
-[MinGW](http://www.mingw.org/).
+[TDM-GCC](http://tdm-gcc.tdragon.net/).
 (Make sure you add its ` bin ` subdirectory to your ` PATH `.) Go does not support the Cygwin toolchain.
