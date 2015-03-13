@@ -1,7 +1,7 @@
 # Currently using Go
 
   * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential. 
-    * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](http://code.google.com/p/vitess/) as open source software.
+    * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](https://github.com/youtube/vitess) as open source software.
     * And dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1).  
     * Other known uses include 
       * the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html),
