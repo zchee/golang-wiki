@@ -59,6 +59,7 @@ Here's why: a list of people/organizations tell why they use Go. This is partly 
 - [**Go at Fullstory** by Ian Rose](http://blog.gopheracademy.com/birthday-bash-2014/go-at-fullstory/)
 - [**Go at GettyImage** by Dylan Tomas Meissner](https://twitter.com/ickypop/status/441470245492908032)
 - [**Go at GitHub** by risk danger olson](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
+- [**Go at GitHub**](https://github.com/github/hub/issues/475)
 - [**Go at GOV.UK** by nickstenning and James Stewart](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
 - [**Go at Granify** by Leonid Bugaev](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
 - [**Go at Heroku**](http://www.theregister.co.uk/2011/05/05/google_go/)
