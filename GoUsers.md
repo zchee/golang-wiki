@@ -39,7 +39,7 @@
   * [Disqus](http://disqus.com/) - [blog](http://blog.disqus.com/post/51155103801/trying-out-this-go-thing)
   * [DNSimple](https://dnsimple.com/) - [blog](http://blog.dnsimple.com/a-golang-redirection-service/)
   * [domainr](http://domai.nr/) - [tweet](https://twitter.com/rr/status/368988340848037889)
-  * [dotCloud](http://www.dotcloud.com) - [docker](http://docker.io/) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
+  * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
