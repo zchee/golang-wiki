@@ -143,6 +143,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
   * [redis-view](https://github.com/dreamersdw/redis-view) A tree like tool help you explore data structures in your redis server
+  * [runtemplate](https://github.com/flowonyx/runtemplate) A very simple command-line tool for executing Go templates, useful for use with `go generate`.
   * [sift](https://github.com/svent/sift) - A fast and powerful open source alternative to grep
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
 
