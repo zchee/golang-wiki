@@ -404,6 +404,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tiedot](https://github.com/HouzuoGuo/tiedot) - A NoSQL document database engine using JSON for documents and queries; it can be embedded into your program, or run a stand-alone server using HTTP for an API.
   * [ledisdb](https://github.com/siddontang/ledisdb) - A high performance NoSQL like Redis.
   * [nodb](https://github.com/lunny/nodb) - A pure Go embed Nosql database with kv, list, hash, zset, bitmap, set.
+  * [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics
 
 #### Other
 
