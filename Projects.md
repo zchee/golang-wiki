@@ -362,7 +362,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 #### [RethinkDB](http://www.rethinkdb.com/)
 
-  * [rethinkgo](https://github.com/christopherhesse/rethinkgo) - Basic Go driver for RethinkDB
+  * [GoRethink](https://github.com/dancannon/gorethink) - RethinkDB Driver for Go
 
 #### SQLite
 
