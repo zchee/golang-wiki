@@ -12,6 +12,8 @@ If you have an arm, i386, or amd64, with the Ubuntu Lucid, Maverick,
 Natty, Oneiric, or Precise release, you can easily install Go 1 right
 now as a package by running:
 
+(link to ppa is broken)
+
 ```
    sudo add-apt-repository ppa:gophers/go
    sudo apt-get update
