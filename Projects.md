@@ -146,6 +146,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [runtemplate](https://github.com/flowonyx/runtemplate) - A very simple command-line tool for executing Go templates, useful for use with `go generate`.
   * [sift](https://github.com/svent/sift) - A fast and powerful open source alternative to grep
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
+  * [gister](https://github.com/dutchcoders/gister) - Manage your github gists from the command-line
 
 ## Compression
 
