@@ -23,6 +23,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [golang-users-berlin](http://www.meetup.com/golang-users-berlin/) - Berlin, Germany.
   * [Got-go](http://www.meetup.com/Got-go/) - Gothenburg, Sweden.
   * [Go-User-Group-Hamburg](http://www.meetup.com/Go-User-Group-Hamburg) - Hamburg, Germany.
+  * [Go Lithuania User Group](http://gophers.lt/) - Lithuania, Kaunas.
   * [Go London User Group](http://www.meetup.com/Go-London-User-Group/) - London, UK.
   * [Golang Москва](http://www.meetup.com/Golang-Moscow/) - Moscow, Russia.
   * [Golang Питер](http://www.meetup.com/Golang-Peter/) - Saint Petersburg, Russia.
