@@ -20,6 +20,7 @@ See http://golang.org/s/builderplan
 | linux-amd64-noopt | buildlet VM on GCE | bradfitz  | optimizations and inlining disabled |
 | linux-amd64-race| buildlet VM Docker on GCE | bradfitz  |           |
 | linux-amd64-sid | in Docker on GCE | bradfitz  | Debian sid |
+| linux-arm64-canonical | ARMv8 | @davecheney | Ubuntu 14.04 |
 | linux-ppc64le-canonical | POWER8 little endian | @davecheney | Ubuntu 14.04 |
 | nacl-386  | in Docker on GCE | bradfitz  |           |
 | nacl-amd64p32 | in Docker on GCE | bradfitz  |           |
