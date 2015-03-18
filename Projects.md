@@ -951,6 +951,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-flowrate](https://github.com/mxk/go-flowrate) - Data transfer rate control (monitoring and limiting)
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
   * [SOCKS5 Server](https://code.google.com/p/go-socks5) - Scalable SOCKS5 server with Access Control Lists
+  * [spark](https://github.com/rif/spark) - Emergency web server (for static files)
+  * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via simple http server
 
 #### DNS
   * [dns](https://github.com/miekg/dns) - A DNS library in Go
