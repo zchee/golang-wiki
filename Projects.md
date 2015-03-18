@@ -206,6 +206,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
   * [go.sgr](https://github.com/foize/go.sgr) - Terminal/console colors and text decoration (bold,underlined,etc).
   * [go-web-shell](https://github.com/matiasinsaurralde/go-web-shell) - Remote web shell, implements a net/http server.
+  * [yandex-weather-cli](https://github.com/msoap/yandex-weather-cli) - Command line interface for Yandex weather service
 
 ## Cryptography
 
