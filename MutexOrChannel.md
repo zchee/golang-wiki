@@ -12,11 +12,17 @@ A common Go newbie mistake is to over-use channels and goroutines just because i
 
 As a general guide, though:
 
-| **Channel** | **Mutex**|
-|:------------|:---------|
+| **Channel** | **Mutex** |
+|:------------|:----------|
 | passing ownership of data,<br />distributing units of work,<br /> communicating async results | caches,<br />state |
 
 If you ever find your sync.Mutex locking rules are getting too complex, ask yourself whether using channel(s) might be simpler.
+
+## Wait Group
+
+Another important category is sync.WaitGroup. These allow co-operating goroutines to collectively wait for a threshold event before proceeding independently again. This is useful typically in two cases. Firstly, when 'cleaning up', a sync.WaitGroup can be used to ensure that all goroutines - including the main one - wait before all terminating at once.
+
+The second more general case is of a cyclic algorithm that involves independent work by the goroutines, then waiting on a barrier before proceeding independently. Data might be exchanged at the barrier event. This strategy is the basis of [Bulk Synchronous Parallelism](https://en.wikipedia.org/wiki/Bulk_synchronous_parallel) (BSP).
 
 ## More Info
 
