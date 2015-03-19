@@ -18,15 +18,17 @@ As a general guide, though:
 
 If you ever find your sync.Mutex locking rules are getting too complex, ask yourself whether using channel(s) might be simpler.
 
-## Wait Group
+### Wait Group
 
-Another important category is sync.WaitGroup. These allow co-operating goroutines to collectively wait for a threshold event before proceeding independently again. This is useful typically in two cases.
+Another important synchronisation primitive is sync.WaitGroup. These allow co-operating goroutines to collectively wait for a threshold event before proceeding independently again. This is useful typically in two cases.
 
 Firstly, when 'cleaning up', a sync.WaitGroup can be used to ensure that all goroutines - including the main one - wait before all terminating cleanly.
 
 The second more general case is of a cyclic algorithm that involves a set of goroutines that all work independently for a while, then all wait on a barrier, before proceeding independently again. This pattern might be repeated many times. Data might be exchanged at the barrier event. This strategy is the basis of [Bulk Synchronous Parallelism](https://en.wikipedia.org/wiki/Bulk_synchronous_parallel) (BSP).
 
-## More Info
+Channel communication, mutexes and wait-groups are complementary and can be combined.
+
+### More Info
 
   * Channels in Effective Go: http://golang.org/doc/effective_go.html#channels
   * The sync package: http://golang.org/pkg/sync/
