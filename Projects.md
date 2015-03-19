@@ -659,6 +659,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3, requires GTK version 3.8
   * [go-webkit2](https://sourcegraph.com/github.com/sourcegraph/go-webkit2) - Go bindings for the WebKitGTK+ v2 API (w/headless browser & JavaScript support)
   * [Gowut](https://sites.google.com/site/gowebuitoolkit/) - Gowut (Go Web UI Toolkit) is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go, no platform dependent native code is linked or called.
+  * [GXUI](https://github.com/google/gxui) - A Go cross platform UI library.
   * [iup](https://github.com/grd/iup) - Bindings for [IUP](http://www.tecgraf.puc-rio.br/iup)
   * [mdtwm](https://github.com/ziutek/mdtwm) - Tiling window manager for X
   * [qml](https://github.com/niemeyer/qml) - QML support for the Go language
