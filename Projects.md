@@ -1012,7 +1012,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Taipei-Torrent](https://github.com/jackpal/Taipei-Torrent) - A BitTorrent client
   * [ed2kcrawler](https://github.com/kevinwatt/ed2kcrawler) - eDonkey2000 link crawler
-  * [gobit](https://github.com/jessta/gobit) - Bittorrent Client in Go
   * [gop2p](https://github.com/nacmartin/gop2p) - A simple p2p app to learn Go
   * [wgo](https://github.com/royger/wgo) - A simple BitTorrent client based in part on the Taipei-Torrent and gobit code
   * [DHT](https://github.com/nictuku/dht) - Kademlia DHT node used by Taipei-Torrent, compatible with BitTorrent
