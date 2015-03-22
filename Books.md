@@ -192,3 +192,22 @@ Sorted by publication date.
     * Publication Date: 2013-02-14
     * ISBN: 978-5-94074-854-0
     * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
+
+#Español
+  * **¡Go en Espalol!**
+    * Author: Nacho Pacheco
+    * Publication Date: 2015-03-22
+    * ISBN: ****
+    * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
+
+  * **Aprende Go en Y minutos**
+    * Author: Nacho Pacheco
+    * Publication Date: 2015-02-24
+    * ISBN: ****
+    * Reference: https://www.gitbook.com/book/nachopacheco/aprende-go-en-y-minutos/
+
+  * *Constr­uyendo­ aplic­acione­s Web ­con Go***
+    * Author: Nacho Pacheco
+    * Publication Date: 2015-02-18
+    * ISBN: ****
+    * Reference: https://www.gitbook.com/book/nachopacheco/cawg/
