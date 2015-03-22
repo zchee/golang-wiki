@@ -7,6 +7,7 @@ Go is a great language for CS majors. This page presents some university courses
   * University of Helsinki, Department of Computer Science used to have a course named Introduction to Go, taught by K. Bäckman: http://www.cs.helsinki.fi/courses/582336 in Spring 2010.
   * University of Sofia "St. Kliment Ohridski", Faculty of Mathematics and Informatics has elective course named "Programming with Go", taught by K. Vladimiroff: http://fmi.golang.bg (bulgarian) and their [[public lectures](https://github.com/fmi/go-lectures)] (also in bulgarian)
   * Free University of Berlin (Germany) had a course [Introduction to Go Programming](http://w3.inf.fu-berlin.de/lehre/WS12/go/) in Spring 2013.
+* J.W. Goethe University (Frankfurt/Main, Germany) had a course [Introduction to Go Programming](http://www.sepl.informatik.uni-frankfurt.de/2014-ws/b-ps2/index.de.html) in Spring 2015
 
 # Web
 
