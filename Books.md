@@ -8,18 +8,20 @@ Sorted by publication date.
 
   * **The Way to Go: A Thorough Introduction to the Go Programming Language**
     * Author: Ivo Balbaert
-    * Publication Date: March 8, 2012
+    * Publication Date: March 7, 2012
     * ISBN: 978-1469769165
 
   * **The Go Programming Language Phrasebook**
     * Author: David Chisnall
-    * Publication Date: May 10, 2012
+    * Publication Date: April 30, 2012
     * ISBN: 978-0321817143
+    * Reference: http://www.informit.com/store/go-programming-language-phrasebook-9780321817143
 
   * **Programming in Go: Creating Applications for the 21st Century**
     * Author: Mark Summerfield
-    * Publication Date: May 14, 2012
+    * Publication Date: May 4, 2012
     * ISBN: 978-0321774637
+    * Reference: http://www.informit.com/store/programming-in-go-creating-applications-for-the-21st-9780321774637
 
   * **An Introduction to Programming in Go**
     * Author: Caleb Doxsey
@@ -47,7 +49,6 @@ Sorted by publication date.
     * Publication Date: ---
     * ISBN: ---
     * References: http://jan.newmarch.name/go/
-
 
 ## Early Access
 
