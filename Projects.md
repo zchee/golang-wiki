@@ -821,7 +821,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mimemail](https://github.com/chrneumann/mimemail.git) - Construct plain text MIME messages for use with net/smtp.
   * [mitigation](https://github.com/sarnowski/mitigation) - Package mitigation provides the possibility to prevent damage caused by bugs or exploits.
   * [nma.go](https://github.com/dustin/nma.go) - A NotifyMyAndroid client for go.
-  * [notify](https://github.com/rjeczalik/notify) - The file system notification library on steroids.
+  * [notify](https://github.com/rjeczalik/notify) - File system event notification library with API similar to os/signal.
   * [passwd](https://github.com/willdonnelly/passwd) - A parser for the /etc/passwd file
   * [pool](https://github.com/stefantalpalaru/pool) - A generic worker pool
   * [primegen.go](https://github.com/jbarham/primegen.go) - Sieve of Atkin prime number generator
