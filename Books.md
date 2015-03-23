@@ -238,17 +238,17 @@ Sorted by publication date.
   * **Aprende Go en Y minutos**
     * Author: Nacho Pacheco
     * Publication Date: 2015-02-24
-    * ISBN: ****
+    * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/aprende-go-en-y-minutos/
 
-  * *Constr­uyendo­ aplic­acione­s Web ­con Go***
+  * **Constr­uyendo­ aplic­acione­s Web ­con Go**
     * Author: Nacho Pacheco
     * Publication Date: 2015-02-18
-    * ISBN: ****
+    * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/cawg/
 
   * **¡Go en Espalol!**
     * Author: Nacho Pacheco
     * Publication Date: 2015-03-22
-    * ISBN: ****
+    * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
