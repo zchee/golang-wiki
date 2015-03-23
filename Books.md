@@ -25,13 +25,13 @@ Sorted by publication date.
     * Author: Caleb Doxsey
     * Publication Date: September 3, 2012
     * ISBN: 978-1478355823
-    * References: [site](http://www.golang-book.com/)
+    * Reference: http://www.golang-book.com/
 
   * **Go Programming Blueprints**
     * Author: Mat Ryer
     * Publication Date: January 23, 2015
     * ISBN: 978-1783988020
-    * Site: https://www.packtpub.com/application-development/go-programming-blueprints
+    * Reference: https://www.packtpub.com/application-development/go-programming-blueprints
 
 
 ## Available without Publication Date 
@@ -40,13 +40,13 @@ Sorted by publication date.
     * Author: Miek Gieben
     * Publication Date: ---
     * ISBN: ---
-    * References: [site](http://archive.miek.nl/projects/learninggo/)
+    * Reference: http://archive.miek.nl/projects/learninggo/
 
   * **Network Programming with Go** (e-book)
     * Author: Jan Newmarch
     * Publication Date: ---
     * ISBN: ---
-    * References: [site](http://jan.newmarch.name/go/)
+    * References: http://jan.newmarch.name/go/
 
 
 ## Early Access
@@ -55,14 +55,14 @@ Sorted by publication date.
     * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
     * Publication Date: Summer 2015 (est.)
     * ISBN: 9781617291784
-    * Site: http://www.goinactionbook.com
+    * Reference: http://www.goinactionbook.com
     * Discount Code 40% Off: gocenter
 
   * **Go Web Programming** (MEAP)
     * Author: Sau Sheong Chang
     * Publication Date: Fall 2015 (est.)
     * ISBN: 9781617292569
-    * Site: http://manning.com/chang/
+    * Reference: http://manning.com/chang/
 
 ## Pre-order
 
@@ -70,14 +70,13 @@ Sorted by publication date.
     * Author: Brian W. Kernighan & Alan Donovan
     * Publication Date: August 27, 2015
     * ISBN: 978-0134190440
-    * References: [pre-order](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/)
-
-## Planned
+    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
 
   * **Go: Up and Running**
     * Author: Alan Harris
-    * Publication Date: April 2015 (est.)
+    * Publication Date: June 2015 (est.)
     * ISBN: 978-1-4493-7025-1
+    * Reference: http://shop.oreilly.com/product/0636920030638.do
     
 # Chinese
   * **Go语言·云动力**
@@ -115,13 +114,13 @@ Sorted by publication date.
     * Author: Xing Xing (mikespook)
     * Publication Date: ---
     * ISBN: ---
-    * References: [site](http://www.mikespook.com/learning-go/)
+    * Reference: http://www.mikespook.com/learning-go/
 
   * **Go 学习笔记 - 第三版** (e-book)
     * Author: 雨痕（qyuhen）
     * Publication Date: ---
     * ISBN: ---
-    * References: [site](https://github.com/qyuhen/book)
+    * Reference: https://github.com/qyuhen/book
 
 # Japanese
   * **はじめての「Go言語」**
