@@ -29,12 +29,52 @@ Sorted by publication date.
     * ISBN: 978-1478355823
     * Reference: http://www.golang-book.com/
 
+  * **Mastering Concurrency in Go**
+    * Author: Nathan Kozyra
+    * Publication Date: July 23, 2014
+    * ISBN: 978-1783983483
+    * Reference: https://www.packtpub.com/application-development/mastering-concurrency-go
+
   * **Go Programming Blueprints**
     * Author: Mat Ryer
     * Publication Date: January 23, 2015
     * ISBN: 978-1783988020
     * Reference: https://www.packtpub.com/application-development/go-programming-blueprints
 
+## Early Access
+
+  * **Go In Action**
+    * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
+    * Publication Date: Summer 2015 (est.)
+    * ISBN: 9781617291784
+    * Reference: http://www.goinactionbook.com
+    * Discount Code (40% off): gocenter
+
+  * **Go Web Programming**
+    * Author: Sau Sheong Chang
+    * Publication Date: Fall 2015 (est.)
+    * ISBN: 9781617292569
+    * Reference: http://manning.com/chang/
+
+  * **Go in Practice**
+    * Authors: Matt Butcher and Matt Farina
+    * Publication Date: Fall 2015 (est.)
+    * ISBN: 9781633430075
+    * Reference: http://manning.com/butcher/
+
+## Pre-order
+
+  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
+    * Author: Brian W. Kernighan & Alan Donovan
+    * Publication Date: August 27, 2015
+    * ISBN: 978-0134190440
+    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
+
+  * **Go: Up and Running**
+    * Author: Alan Harris
+    * Publication Date: June 2015 (est.)
+    * ISBN: 978-1-4493-7025-1
+    * Reference: http://shop.oreilly.com/product/0636920030638.do
 
 ## Available without Publication Date 
 
@@ -50,35 +90,36 @@ Sorted by publication date.
     * ISBN: ---
     * References: http://jan.newmarch.name/go/
 
-## Early Access
+  * **Go Bootcamp** (e-book)
+    * Author: Matt Aimonetti
+    * Publication Date: ---
+    * ISBN: ---
+    * References: http://www.golangbootcamp.com/
 
-  * **Go In Action**
-    * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
-    * Publication Date: Summer 2015 (est.)
-    * ISBN: 9781617291784
-    * Reference: http://www.goinactionbook.com
-    * Discount Code 40% Off: gocenter
+  * **A Go Developer's Notebook** (e-book)
+    * Author: Eleanor McHugh
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://leanpub.com/GoNotebook
 
-  * **Go Web Programming** (MEAP)
-    * Author: Sau Sheong Chang
-    * Publication Date: Fall 2015 (est.)
-    * ISBN: 9781617292569
-    * Reference: http://manning.com/chang/
+  * **Go, The Standard Library** (e-book)
+    * Author: Daniel Huckstep
+    * Publication Date: ---
+    * ISBN: ---
+    * References: http://thestandardlibrary.com/go.html
 
-## Pre-order
+  * **Practical Cryptography with Go** (e-book)
+    * Author: Kyle Isom
+    * Publication Date: ---
+    * ISBN: ---
+    * References: http://gokyle.org/book/
 
-  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
-    * Author: Brian W. Kernighan & Alan Donovan
-    * Publication Date: August 27, 2015
-    * ISBN: 978-0134190440
-    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
+  * **The Ultimate Guide to Building Database-Driven Apps with Go** (e-book)
+    * Author: Baron Schwartz
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://vividcortex.com/resources/building-database-driven-apps-with-go/
 
-  * **Go: Up and Running**
-    * Author: Alan Harris
-    * Publication Date: June 2015 (est.)
-    * ISBN: 978-1-4493-7025-1
-    * Reference: http://shop.oreilly.com/product/0636920030638.do
-    
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
