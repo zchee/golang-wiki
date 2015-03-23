@@ -64,17 +64,17 @@ Sorted by publication date.
 
 ## Pre-order
 
-  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
-    * Author: Brian W. Kernighan & Alan Donovan
-    * Publication Date: August 27, 2015
-    * ISBN: 978-0134190440
-    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
-
   * **Go: Up and Running**
     * Author: Alan Harris
     * Publication Date: June 2015 (est.)
     * ISBN: 978-1-4493-7025-1
     * Reference: http://shop.oreilly.com/product/0636920030638.do
+
+  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
+    * Author: Brian W. Kernighan & Alan Donovan
+    * Publication Date: August 27, 2015
+    * ISBN: 978-0134190440
+    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
 
 ## Available without Publication Date 
 
@@ -235,12 +235,6 @@ Sorted by publication date.
     * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
 
 #Español
-  * **¡Go en Espalol!**
-    * Author: Nacho Pacheco
-    * Publication Date: 2015-03-22
-    * ISBN: ****
-    * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
-
   * **Aprende Go en Y minutos**
     * Author: Nacho Pacheco
     * Publication Date: 2015-02-24
@@ -252,3 +246,9 @@ Sorted by publication date.
     * Publication Date: 2015-02-18
     * ISBN: ****
     * Reference: https://www.gitbook.com/book/nachopacheco/cawg/
+
+  * **¡Go en Espalol!**
+    * Author: Nacho Pacheco
+    * Publication Date: 2015-03-22
+    * ISBN: ****
+    * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
