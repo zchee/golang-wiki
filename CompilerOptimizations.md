@@ -18,20 +18,20 @@ Putting a word-sized-or-less non-pointer type in an interface value doesn't allo
 * **gc:** 1.0-1.3, but *not* in 1.4+
 * **gccgo:** never
 
-## string and []byte
+## `string` and `[]byte`
 
-### Map lookup by []byte
+### Map lookup by `[]byte`
 
-For a map m of type map[string]T and []byte b, m[string(b)] doesn't allocate. (the temporary string copy of the byte slice isn't made)
+For a map `m` of type `map[string]T` and `[]byte b`, `m[string(b)]` doesn't allocate. (the temporary string copy of the byte slice isn't made)
 
 * **gc:** 1.4+
 * **gccgo:** ?
 
-### range over []byte(s)
+### `range` over `[]byte`(s)
 
-Avoiding allocating []byte of a string when ranging over the bytes:
+Avoiding allocating `[]byte` of a `string` when ranging over the bytes:
 
-```
+```go
 	s := "foo"
 	for i, c := range []byte(s) {
 		// ...
@@ -57,7 +57,7 @@ Gc compiler does global escape analysis across function and package boundaries. 
 
 ### Function Inlining
 
-Only short and simple functions are inlined. To be inlined a function must contain less than ~40 expressions and does not contain complex things like function calls, loops, labels, closures, panic's, recover's, select's, switch'es, etc.
+Only short and simple functions are inlined. To be inlined a function must contain less than ~40 expressions and does not contain complex things like function calls, loops, labels, closures, `panic`'s, `recover`'s, `select`'s, `switch`'es, etc.
 
 * **gc:** 1.0+
 * **gccgo:** -O1 and above.
@@ -74,7 +74,7 @@ for i := range s {
 }
 ```
 
-are converted into efficient runtime memclr calls. [Issue](golang.org/issue/5373) and [commit](https://golang.org/change/f03c9202c43e0abb130669852082117ca50aa9b1).
+are converted into efficient runtime memclr calls. [Issue](https://github.com/golang/go/issues/5373) and [commit](https://golang.org/change/f03c9202c43e0abb130669852082117ca50aa9b1).
 
 * **gc:** 1.5+
 * **gccgo:** ?
