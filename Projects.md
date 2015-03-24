@@ -707,6 +707,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go\_ml](https://github.com/alonsovidales/go_ml) - Linear Regression, Logistic Regression, Neural Networks, Collaborative Filtering, Gaussian Multivariate Distribution.
   * [bayesian](https://github.com/jbrukh/bayesian) - A naive bayes classifier.
   * [go-galib](https://github.com/thoj/go-galib) - Genetic algorithms.
+  * [golinear](https://github.com/danieldk/golinear) - Linear SVM and logistic regression.
   * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - An efficient native Go clean room implementation of the Porter Stemming algorithm.
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [snowball](https://bitbucket.org/tebeka/snowball) - Snowball stemmer
