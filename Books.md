@@ -120,6 +120,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://vividcortex.com/resources/building-database-driven-apps-with-go/
 
+  * **Building Web Apps with Go** (e-book)
+    * Author: Jeremy Saenz
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details
+
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
