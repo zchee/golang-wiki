@@ -12,7 +12,7 @@ Go supports the following ARM architectural families.
 | ARMv5            | supported  | GOARM=5         |           |
 | ARMv6            | supported  |                 | GOARM=6 is the default value|
 | ARMv7            | supported  | GOARM=7         |           |
-| ARMv8            | work in progress | GOARCH=arm64            | contact aram for details, merged into trunk |
+| ARMv8            | supported in Go 1.5 (merged in tip) | GOARCH=arm64    | Only Linux supported so far |
 
 Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile Go from source on the target machine. In cross compilation situations, it is recommended that you always export an appropriate GOARM value.
 
@@ -334,37 +334,4 @@ Architecture: ARMv8 (64-bit) 8-core, 2.4GHz, 16GB RAM
 
 Operating System: Linux
 
-The linux/arm64 Go port is not functional yet, but you can run the linux/arm port if you add arm64 support to `cmd/dist` with this patch: https://gist.github.com/4ad/c3799da7e486854e6655
-
-```
-$ sudo apt-get install gcc-arm-linux-gnueabihf libc6-dev-armhf-cross
-$ 
-$ cd go/src && CC='arm-linux-gnueabihf-gcc -static' GO_DISTFLAGS=-s GOHOSTARCH=arm GOARM=7 CGO_ENABLED=0 ./make.bash
-$ 
-$ uname -a
-Linux xgene 3.16.0-25-generic #33-Ubuntu SMP Tue Nov 4 12:06:56 UTC 2014 aarch64 aarch64 aarch64 GNU/Linux
-$ go version
-go version devel +6a8045fd9da9 Wed Dec 03 18:33:35 2014 +0100 linux/arm
-$ go env
-GOARCH="arm"
-GOBIN=""
-GOCHAR="5"
-GOEXE=""
-GOHOSTARCH="arm"
-GOHOSTOS="linux"
-GOOS="linux"
-GOPATH="/home/aram"
-GORACE=""
-GOROOT="/home/aram/go"
-GOTOOLDIR="/home/aram/go/pkg/tool/linux_arm"
-CC="arm-linux-gnueabihf-gcc"
-GOGCCFLAGS="-static -fPIC -marm -pthread -fmessage-length=0"
-CXX="g++"
-CGO_ENABLED="1"
-```
-
-A static toolchain is required as arm64 Linux distributions don't ship the necessary 32-bit arm libraries (except in a sysroot). ` GO_DISTFLAGS=-s ` is not enough, ` CC='arm-linux-gnueabihf-gcc -static' ` is required to build a static dist tool.
-
-Alternatively, you can use native (64-bit) binaries for the C tools by leaving gcc alone, and doing just `GOHOSTARCH=arm GOARM=7 CGO_ENABLED=0 ./make.bash`
-
-_-- Aram Hăvărneanu_
+You will need to cross-compile a toolchain using bootstrap.bash. After you copy it to the arm64 system and set `GOROOT_BOOTSTRAP`, you can build go natively.
