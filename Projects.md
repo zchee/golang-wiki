@@ -1264,6 +1264,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [adn](https://github.com/whee/adn/) - Interface to the App.net API
   * [anaconda](https://github.com/ChimeraCoder/anaconda) - Client library for the Twitter 1.1 API
   * [ddg](https://github.com/whee/ddg) - DuckDuckGo API interface
+  * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks API
   * [gobo](https://github.com/huichen/gobo) - Client library for Sina Weibo
   * [gocaptcha](https://github.com/GeertJohan/gocaptcha) - gocaptcha provides easy access to the reCaptcha API in go
   * [go-dealmap](https://github.com/ancientlore/go-dealmap) - Go library for accessing TheDealMap's API
