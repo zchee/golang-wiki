@@ -30,6 +30,7 @@
   * [Cloud Foundry](http://www.cloudfoundry.com) - [blog](http://pivotallabs.com/a-rubyist-learning-go-a-basic-go-program/) [github](https://github.com/cloudfoundry)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
   * [clypd](http://www.clypd.com) - [blog](http://www.clypd.com/getting-to-go/)
+  * [Codeship](http://codeship.com) - [blog](http://blog.codeship.com/creating-fakes-in-go-with-channels/)
   * [Conformal Systems](http://www.conformal.com) - [blog post](https://blog.cyphertite.com/go-at-conformal/) [github](https://github.com/conformal)
   * [CoreOS](https://coreos.com/) - [github](https://github.com/coreos/)
   * [Couchbase](http://www.couchbase.com/) - [github](https://github.com/couchbaselabs)
