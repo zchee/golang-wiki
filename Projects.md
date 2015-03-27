@@ -203,6 +203,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [oh](https://github.com/michaelmacinnis/oh) - A Unix shell written in Go
   * [pty](https://github.com/kr/pty) - obtain pseudo-terminal devices
   * [go-pullbarz](https://github.com/tlorens/go-pullbarz) - Fancy "light bar" menus like in Lotus 123 from the DOS days.  Dependent on go-ibgetkey and go-ansiout.
+  * [cons](https://github.com/rferrante/cons) - A simple package for building interactive console tools.
   * [termbox-go](https://github.com/nsf/termbox-go) - A minimalist alternative to ncurses to build terminal-based user interfaces
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
