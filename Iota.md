@@ -1,6 +1,6 @@
 # Summary
 
-Go's ` iota ` identifier is used in in ` const ` declarations to simplify definitions of incrementing numbers. Because it can be used in expressions, it provides a generality beyond that of simple enumerations.
+Go's ` iota ` identifier is used in ` const ` declarations to simplify definitions of incrementing numbers. Because it can be used in expressions, it provides a generality beyond that of simple enumerations.
 
 The values of iota start at zero within each const block and increment by one each time it is seen.  This can be combined with the constant shorthand (leaving out everything after the constant name) to very concisely define related constants.
 
