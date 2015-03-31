@@ -2,7 +2,7 @@ Setting proxies for source code used by ` go get ` (listed in GoGetTools)
 
 ## git
 ```
-$ git config [--global] http.proxy=http://proxy.example.com:port
+$ git config [--global] http.proxy http://proxy.example.com:port
 ```
 
 ## mercurial
