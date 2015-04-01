@@ -22,6 +22,10 @@ Any port started during a release cycle must be finished (all.bash passing, buil
 
 Because having any port entails a certain maintenance burden on the entire Go development team, not just the port's maintainer, the Go team may refuse a port meeting the above criteria if the port is judged not to reach enough users. This exception is intended to be used rarely, mainly to avoid maintaining ports for toy or hobby operating systems or experimental hardware that is not widely available.
 
+# Other repositories
+
+Although it is not part of the core repository, the x/sys repository should add support for the new port before the release happens because it is the official place to add new system calls.
+
 # First class ports
 
 Some ports are considered "first class". The distinction is mostly about releases and distribution.
