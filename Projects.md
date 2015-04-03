@@ -85,6 +85,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [goxc](https://github.com/laher/goxc) - A build tool with a focus on cross-compiling, packaging, versioning and distribution
   * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions
   * [SCons Go Tools](https://launchpad.net/sconsgo) - A collection of builders that makes it easy to compile Go projects in SCons
+  * [gg](https://github.com/lukess/gg) - A tiny multi golang projects env/make management tool.
 
 ## Caching
 
