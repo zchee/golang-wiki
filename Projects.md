@@ -1079,16 +1079,17 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [columnize](https://code.google.com/p/go-columnize/) - format slice or array into aligned columns
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
-  * [gettext](https://github.com/gosexy/gettext) - Feature complete, cgo
+  * [gettext](https://github.com/gosexy/gettext) - Golang bindings for gettext; Feature complete, cgo
   * [gettext-go](https://github.com/chai2010/gettext-go/) - GNU's gettext support, written in pure Go
   * [go-guess](https://github.com/salviati/go-guess) - Go wrapper for libguess
   * [go-migemo](https://github.com/mattn/go-migemo) - migemo extension for go (Japanese incremental text search)
-  * [goini](https://github.com/glacjay/goini) - A go library to parse INI files.
+  * [goini](https://github.com/glacjay/goini) - A go library to parse INI files
   * [golorem](https://github.com/drhodes/golorem) - lorem ipsum generator
   * [goregen](https://github.com/zach-klippenstein/goregen) - A Go library for generating random strings from regular expressions.
   * [gosphinx](https://github.com/kpumuk/gosphinx) - A Go client interface to the Sphinx standalone full-text search engine
   * [gpKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth–Morris–Pratt algorithm
-  * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character.
+  * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character
+  * [html2text](https://github.com/jaytaylor/html2text) - Golang HTML to plaintext conversion library
   * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents
   * [kview](https://github.com/ziutek/kview) - Simple wrapper for kasia.go templates. It helps to modularize content of a website
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
