@@ -1089,7 +1089,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gosphinx](https://github.com/kpumuk/gosphinx) - A Go client interface to the Sphinx standalone full-text search engine
   * [gpKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth–Morris–Pratt algorithm
   * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character
-  * [html2text](https://github.com/jaytaylor/html2text) - Golang HTML to plaintext conversion library
+  * [html2text](https://github.com/jaytaylor/html2text) - Golang HTML to text conversion library
   * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents
   * [kview](https://github.com/ziutek/kview) - Simple wrapper for kasia.go templates. It helps to modularize content of a website
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
