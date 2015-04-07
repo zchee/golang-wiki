@@ -1313,6 +1313,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-httpclient](https://github.com/mreiferson/go-httpclient) - a Go HTTP client with timeouts
   * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - a packages that reads RSS and Atom feeds
   * [go-rss](https://github.com/ungerik/go-rss) - Simple RSS parser, tested with Wordpress feeds.
+  * [go-rss](https://github.com/KonishchevDmitry/go-rss) - Simple RSS parser and generator
   * [go-twitter](https://github.com/jb55/go-twitter) - another Twitter client
   * [go-twitter-oauth](https://github.com/montsamu/go-twitter-oauth) - a simple Twitter client (supports OAuth)
   * [gohaml](https://github.com/realistschuckle/gohaml) - An implementation of the popular XHTML Abstraction Markup Language using the Go language.
