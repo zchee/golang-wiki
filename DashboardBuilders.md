@@ -73,7 +73,7 @@ These builders are configured and run manually. The goal is to migrate as many a
   1. builder YOUR\_BUILDER\_NAME
 
 # Special notes
-  * Please make sure you've installed root certificates and it's accessible to Go programs. For example, on NetBSD, you will need to install ` security/mozilla-rootcerts `.
+  * Please make sure you've installed root certificates and that it's accessible to Go programs. For example, on NetBSD, you will need to install ` security/mozilla-rootcerts `.
   * If your builder runs Unix, please install ` perl `, as tests for ` go.tools/cmd/vet ` need it.
-  * Use ` screen(1) ` instead of ` tmux(1) ` to host the ` builder ` process, as the later interference with some of the ` os/signal ` tests.
+  * Use ` screen(1) ` instead of ` tmux(1) ` to host the ` builder ` process, as the later interferes with some of the ` os/signal ` tests.
   * Raise ` ulimit `s on Unix: thread count (` -r `), nofiles (` -n `, 1024 should be fine)
