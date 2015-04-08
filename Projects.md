@@ -876,6 +876,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [dmrgo](https://github.com/dgryski/dmrgo) - Library for with Hadoop Streaming map/reduce
   * [doozerconfig](https://github.com/srid/doozerconfig) - Go package for managing json-encoded configuration in Doozer
   * [doozerd](https://github.com/ha/doozerd) - A consistent distributed data store
+  * [endless](https://github.com/fvbock/endless) Zero downtime restarts for go servers (Drop in replacement for http.ListenAndServe/TLS)
   * [eventsource](https://github.com/antage/eventsource) - Server-sent events for net/http server.
   * [gearman-go](https://bitbucket.org/mikespook/gearman-go) - A native implementation for Gearman API with Go.
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
