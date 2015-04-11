@@ -273,8 +273,9 @@ If you find a project in this list that is dead or broken, please either mark it
   * [graphs](https://github.com/thcyron/graphs) - Implementation of various tree, graph and network algorithms
 
 #### Sets
-  * https://github.com/deckarep/golang-set - A full thread-safe and unsafe set implementation for Go.
-  * https://github.com/fatih/set - Set data structure for Go.
+  * [disjoint](https://github.com/spakin/disjoint) - Disjoint sets (union-find algorithm with path compression)
+  * [golang-set](https://github.com/deckarep/golang-set) - A full thread-safe and unsafe set implementation for Go.
+  * [set](https://github.com/fatih/set) - Set data structure for Go
 
 #### Trees
 
@@ -713,7 +714,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - An efficient native Go clean room implementation of the Porter Stemming algorithm.
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [snowball](https://bitbucket.org/tebeka/snowball) - Snowball stemmer
-  * https://github.com/daviddengcn/go-algs/tree/master/maxflow Maxflow (graph-cuts) energy minimization library.
+  * [go-algs/maxflow](https://github.com/daviddengcn/go-algs/tree/master/maxflow) Maxflow (graph-cuts) energy minimization library.
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
 
 
@@ -995,8 +996,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go-fuse](https://github.com/hanwen/go-fuse) - Library to write FUSE filesystems in Go
   * [Go FUSE file system library](http://bazil.org/fuse/) - From-scratch implementation of the kernel-userspace communication protocol based on Russ Cox'.
   * [go-osx-xattr](https://github.com/bitcartel/go-osx-xattr) - Package xattr wraps OS X functions to manipulate the extended attributes of a file, directory and symbolic link.
-  * https://bitbucket.org/kardianos/service/overview - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
-  * https://github.com/measure/os - Metrics library for operating system measurements (Linux/MacOSX)
+  * [service](https://bitbucket.org/kardianos/service/overview) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
+  * [measure/os](https://github.com/measure/os) - Metrics library for operating system measurements (Linux/MacOSX)
 
 ## Other Random Toys, Experiments and Example Code
 
