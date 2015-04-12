@@ -4,11 +4,17 @@
 
 When new programmers start using Go or when old Go programmers start using a new concept, there are some common mistakes that many of them make.  Here is a non-exhaustive list of some frequent mistakes that show up on the mailing lists and in IRC.
 
-# Closures
+# Using goroutines on loop iterator variables 
 
-## Using Closures with Goroutines
+When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code:
+```
+for val := range values {
+	go val.my_method()
+}
+```
 
-When iterating in Go, one might also be tempted to use a closure and goroutine to process data in parallel.  For example, if you wanted to process values coming in from a channel in their own goroutines, you might write the following code:
+or if you wanted to process values coming in from a channel in their own goroutines, you might write something like this, using a closure:
+
 ```
 for val := range values {
 	go func() {
@@ -17,11 +23,12 @@ for val := range values {
 }
 ```
 
+
 If you don't immediately see the problem with the above code, take a second to see if you can figure out what is wrong with it before you keep reading.
 
-The ` val ` variable in the above loop is actually a single variable that takes on the value of each slice element.  Because the closures are all only bound to that one variable, there is a very good chance that when you run this code you will see the last element printed for every iteration instead of each value in sequence, because the goroutines will probably not begin executing until after the loop.
+The ` val ` variable in the above loops is actually a single variable that takes on the value of each slice element. Because the closures are all only bound to that one variable, there is a very good chance that when you run this code you will see the last element printed for every iteration instead of each value in sequence, because the goroutines will probably not begin executing until after the loop.
 
-The proper way to write that loop is:
+The proper way to write that closure loop is:
 ```
 for val := range values {
 	go func(val interface{}) {
