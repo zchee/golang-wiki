@@ -1159,6 +1159,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goll1e](https://github.com/realistschuckle/goll1e) - An LL(1) parser generator for the Go programming language.
   * [golua](https://github.com/afitz/golua) - Go wrapper for LUA's C API
   * [golua-fork](https://github.com/xenith-studios/golua) - A fork of GoLua that works on current releases of Go
+  * [gopher-lua](https://github.com/yuin/gopher-lua) - A Lua 5.1 VM and compiler written in Go
   * [gotcl](http://code.google.com/p/gotcl/) - Tcl interpreter in Go
   * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
   * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
