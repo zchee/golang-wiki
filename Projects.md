@@ -361,7 +361,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Go-Redis](https://github.com/alphazero/Go-Redis) - Client and Connectors for Redis key-value store
   * [godis](https://github.com/simonz05/godis) - Simple client for Redis
-  * [Tideland CGL Redis](http://code.google.com/p/tcgl/) - Powerful Redis client with pub/sub support.
   * [Redigo](https://github.com/garyburd/redigo) - Go client for Redis.
   * [redis](https://github.com/vmihailenco/redis) - Redis client for Go
   * [go-redis](https://github.com/fiorix/go-redis) - Redis client built on the skeleton of gomemcache
