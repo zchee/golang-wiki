@@ -157,14 +157,20 @@ Sorted by publication date.
     * Publication Date: 2013-12-18
     * ISBN: 9787302347231
     * Reference: http://www.tup.com.cn/sub_press/4/book/Showbook.asp?CPBH=054436-01
-
+  
+  * **Go并发编程实战**
+    * Author: 郝林
+    * Publication Date: 2015-01-01
+    * ISBN: 9787115373984
+    * Reference: http://www.ptpress.com.cn/Book.aspx?id=39783
+    
   * **学习 Go 语言** (e-book / Translation)
     * Author: Xing Xing (mikespook)
     * Publication Date: ---
     * ISBN: ---
     * Reference: http://www.mikespook.com/learning-go/
 
-  * **Go 学习笔记 - 第三版** (e-book)
+  * **Go 学习笔记 - 第四版** (e-book)
     * Author: 雨痕（qyuhen）
     * Publication Date: ---
     * ISBN: ---
