@@ -2,6 +2,7 @@
 
 These sites provide indexes and search engines for Go packages:
 
+  * [awesome-go](https://github.com/avelino/awesome-go)
   * [godoc.org](http://godoc.org/)
   * [go-search](http://go-search.org/)
   * [gowalker](http://gowalker.org/)
