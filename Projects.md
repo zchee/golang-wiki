@@ -868,6 +868,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GoSIPs](https://github.com/rainliu/gosips) - SIP (Session Initiation Protocol) Stack in Go
   * [GoRTP](https://github.com/wernerd/GoRTP) - RTP / RTCP stack implementation for Go
   * [QRP](https://github.com/liamzebedee/go-qrp) - QRP is a simple packet-based RPC protocol designed as a simple alternative to Go's rpc, that can run over UDP
+  * [gorpc](https://github.com/valyala/gorpc) - RPC optimized for high load
   * [Rsync](https://github.com/julian-gutierrez-o/rsync) - Rsync algorithm as a Go library
   * [Tonika](http://5ttt.org) - Secure social networking platform
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
