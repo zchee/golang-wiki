@@ -144,6 +144,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
+  * [pjs](http://jcasts.github.io/pjs) - Pretty print and search through JSON data structures fast.
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
   * [redis-view](https://github.com/dreamersdw/redis-view) - A tree like tool help you explore data structures in your redis server
   * [runtemplate](https://github.com/flowonyx/runtemplate) - A very simple command-line tool for executing Go templates, useful for use with `go generate`.
