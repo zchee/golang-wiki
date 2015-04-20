@@ -116,3 +116,14 @@ for _, x := range a {
 	}
 }
 ```
+
+### Reversing
+
+To replace the contents of a slice with the same elements but in reverse order:
+```go
+
+for i := 0; i < len(a)/2; i++ {
+	opp := len(a)-1-i
+	a[i], a[opp] = a[opp], a[i]
+}
+```
