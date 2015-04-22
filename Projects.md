@@ -634,6 +634,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
   * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
+  * [bimg](https://github.com/h2non/bimg) - Go library for fast image resize and transformation using libvips
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
   * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
   * [starfish](https://github.com/gtalent/starfish) - A simple Go graphics and user input library, built on SDL
