@@ -66,13 +66,13 @@ Sorted by publication date.
 
   * **Go: Up and Running**
     * Author: Alan Harris
-    * Publication Date: June 2015 (est.)
+    * Publication Date: August 2015 (est.)
     * ISBN: 978-1-4493-7025-1
     * Reference: http://shop.oreilly.com/product/0636920030638.do
 
   * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
     * Author: Brian W. Kernighan & Alan Donovan
-    * Publication Date: August 27, 2015
+    * Publication Date: August 17, 2015
     * ISBN: 978-0134190440
     * Reference: http://www.informit.com/store/go-programming-language-9780134190440
 
