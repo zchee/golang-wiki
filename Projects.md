@@ -769,7 +769,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gotgo](https://github.com/droundy/gotgo) - A Go preprocessor that provides an implementation of generics
   * [Hranoprovod](https://github.com/aquilax/hranoprovod-go) - Command-line calorie tracking
   * [Space Monkey Monitor](https://github.com/spacemonkeygo/monitor) - A flexible process data collection, monitoring, and instrumentation library for Go
-  * [Tideland CGL Monitoring](http://code.google.com/p/tcgl/) - Flexible monitoring of your application
   * [atexit](https://bitbucket.org/tebeka/atexit) - Simple atexit library
   * [bíogo](http://code.google.com/p/biogo/) - Basic bioinformatics functions for the Go language.
   * [cast](https://github.com/spf13/cast) - Safe and easy casting from one type to another in Go
