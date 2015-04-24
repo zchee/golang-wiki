@@ -200,7 +200,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gocui](https://github.com/jroimartin/gocui) - Minimalist library aimed at creating Console User Interfaces
   * [gocurse](https://github.com/jabb/gocurse) - Go bindings for NCurses
   * [gocurses](https://github.com/tncardoso/gocurses) - NCurses wrapper
-  * [goncurses](http://code.google.com/p/goncurses/) - An ncurses library, including the form, menu and panel extensions
+  * [goncurses](https://github.com/rthornton128/goncurses) - An ncurses library, including the form, menu and panel extensions
   * [gopass](https://code.google.com/p/gopass/) - Allows typing of passwords without echoing to screen
   * [go-ibgetkey](https://github.com/tlorens/go-ibgetkey) - "hot key" type user input package for use in processing keystrokes in command-line applications.
   * [igo](https://bitbucket.org/binet/igo) - A simple interactive Go interpreter built on exp/eval with some readline refinements
@@ -230,7 +230,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [kindi](https://github.com/uwedeportivo/Kindi) - encryption command line tool
   * [openssl](https://github.com/spacemonkeygo/openssl) - openssl bindings for go
   * [otrcat](https://github.com/andrewclausen/otrcat) - a general purpose command-line tool for communicating using the Off-The-Record protocol
-  * [scrypt](https://code.google.com/p/go/source/browse?repo=crypto#hg%2Fscrypt) - Go implementation of Colin Percival's scrypt key derivation function
+  * [scrypt](https://go.googlesource.com/crypto/+/master/scrypt/) - Go implementation of Colin Percival's scrypt key derivation function
   * [simpleaes](https://github.com/tadzik/simpleaes) - AES encryption made easy
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
   * [ssh.go](http://bitbucket.org/taruti/ssh.go) - SSH2 Client library
@@ -285,7 +285,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [b](https://github.com/cznic/b) - Package b implements B+trees with delayed page split/concat and O(1) enumeration. Easy production of source code for B+trees specialized for user defined key and value types is supported by a simple text replace.
   * [btree](https://bitbucket.org/santucco/btree) - Package btree implements persistent B-trees with fixed size keys, http://en.wikipedia.org/wiki/Btree
   * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB
-  * [go-avltree](https://code.google.com/p/go-avltree/) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
+  * [go-avltree](https://github.com/ancientlore/go-avltree) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
   * [go-darts](https://github.com/awsong/go-darts) - Double-ARray Trie System for Go
   * [go-stree](https://github.com/toberndo/go-stree) - A segment tree implementation for range queries on intervals
   * [GoLLRB](https://github.com/petar/GoLLRB) - A Left-Leaning Red-Black (LLRB) implementation of 2-3 balanced binary search trees in Google Go
@@ -341,7 +341,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql) - A lightweight and fast MySQL-Driver for Go's database/sql package
   * [MyMySQL](https://github.com/ziutek/mymysql) - MySQL Client API written entirely in Go.
-  * [vitess](http://code.google.com/p/vitess/) - Scaling MySQL databases for the web
+  * [vitess](https://github.com/youtube/vitess) - Scaling MySQL databases for the web
 
 #### ODBC
 
@@ -419,7 +419,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cabinet](https://bitbucket.org/ww/cabinet) - Kyoto Cabinet bindings for go
   * [cass](https://github.com/araddon/cass) - Cassandra Client Lib
   * [cdb.go](https://github.com/jbarham/cdb.go) - Create and read cdb ("constant database") files
-  * [CodeSearch](http://code.google.com/p/codesearch/) - Index and perform regex searches over large bodies of source code
+  * [CodeSearch](https://github.com/google/codesearch) - Index and perform regex searches over large bodies of source code
   * [couch-go](http://couch-go.googlecode.com) - newer maintained CouchDB database binding
   * [couchgo](https://github.com/lancecarlson/couchgo) - The most feature complete CouchDB Adapter for Go. Modeled after couch.js.
   * [dbxml](https://github.com/pebbe/dbxml) - A basic interface to Oracle Berkeley DB XML
@@ -444,7 +444,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [neoism](https://github.com/jmcvetta/neoism) - Neo4j graph database client, including Cypher and Transactions support.
   * [Optimus Cache Prime](http://patrickmylund.com/projects/ocp/) - Smart cache preloader for websites with XML sitemaps.
   * [riako](https://github.com/jkassemi/riako) - High level utility methods for interacting with Riak databases
-  * [Weed File System](http://code.google.com/p/weed-fs/) - fast distributed key-file store
+  * [Weed File System](https://github.com/chrislusf/seaweedfs) - fast distributed key-file store
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
   * [squirrel](https://github.com/lann/squirrel) - Fluent SQL generation for Go
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
@@ -470,7 +470,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hsandbox](http://labix.org/hsandbox) - Tool for quick experimentation with Go snippets
   * [Livedev](https://github.com/qrtz/livedev) - Livedev is a development proxy server that enables live code reloading.
   * [liccor](https://github.com/gtalent/liccor) - A tool for updating license headers in Go source files
-  * [liteide](http://code.google.com/p/golangide/) - An go auto build tools and qt-based ide for Go
+  * [liteide](https://github.com/visualfc/liteide) - An go auto build tools and qt-based ide for Go
   * [nvm-windows](https://github.com/coreybutler/nvm-windows) - Node.js version manager for Windows
   * [rerun](https://github.com/skelterjohn/rerun) - Rerun watches your binary and all its dependencies so it can rebuild and relaunch when the source changes.
   * [trace](https://bitbucket.org/santucco/trace) - A simple debug tracing
@@ -506,7 +506,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin
   * [go-gedit](http://code.google.com/p/go-gedit3-plugin/) - Google Go language plugin for gedit
   * [Go.bbpackage](https://github.com/ascarter/Go.bbpackage) - BBEdit package for Go development
-  * [goclipse](http://code.google.com/p/goclipse/) - An Eclipse-based IDE for Go.
+  * [goclipse](https://github.com/GoClipse/goclipse) - An Eclipse-based IDE for Go.
   * [godev](https://github.com/sirnewton01/godev) - Web-based IDE for the Go language
   * [godit](https://github.com/nsf/godit) - A microemacs-like text editor written in Go.
   * [gofinder](https://github.com/mpl/gofinder) - (code) search tool for acme
@@ -528,7 +528,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [form](https://github.com/ajg/form) - Complete bidirectional HTML form encoder & decoder (x-www-form-urlencoded) for arbitrary data (package encoding compatible)
   * [Mahonia](http://code.google.com/p/mahonia/source/browse/) - Character-set conversion library in Go
   * [base58](https://github.com/tv42/base58) - Human input-friendly base58 encoding
-  * [bencode-go](http://code.google.com/p/bencode-go/) - Encodeing and decoding the bencode format used by the BitTorrent peer-to-peer file sharing protocol
+  * [bencode-go](https://github.com/jackpal/bencode-go) - Encoding and decoding the bencode format used by the BitTorrent peer-to-peer file sharing protocol
   * [bsonrpc](https://github.com/skelterjohn/bsonrpc) - BSON codec for net/rpc
   * [chardet](https://github.com/saintfish/chardet) - Charset detection library ported from ICU
   * [charmap](https://github.com/disintegration/charmap) - Character encodings in Go
@@ -563,8 +563,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## GIS
 
-  * [go-gdal](https://code.google.com/p/go-gdal/) - Go bindings for GDAL
-  * [go-liblas](https://code.google.com/p/go-liblas/) - Go bindings for libLAS
   * [go-proj-4](https://github.com/pebbe/go-proj-4) - An interface to the Cartographic Projections Library PROJ.4
   * [gogeos](http://paulsmith.github.io/gogeos/) - Go library for spatial data operations and geometric algorithms
   * [lvd.go](http://code.google.com/p/lvd.go) - dense set, byte trie, reed solomon encoding, wgs84 geodesics
@@ -588,7 +586,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, hstogram) in different output formats.
-  * [draw2d](http://code.google.com/p/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
+  * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
   * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
@@ -612,7 +610,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-gtk3](https://github.com/norisatir/go-gtk3) - gtk3 bindings for go
   * [go-heatmap](https://github.com/dustin/go-heatmap) - A toolkit for making heatmaps
   * [GoHM](https://github.com/rainliu/GoHM) - H.265/HEVC HM Video Codec in Go
-  * [goHorde](http://code.google.com/p/gohorde/) - Go Bindings for the Horde3d Rendering engine.
+  * [goHorde](https://bitbucket.org/tshannon/gohorde/src) - Go Bindings for the Horde3d Rendering engine.
   * [GoMacDraw](https://github.com/skelterjohn/gmd) - A mac implementation of go.wde
   * [go-openal](https://github.com/phf/go-openal) - Experimental OpenAL bindings for Go
   * [go-opencl](https://github.com/tones111/go-opencl) - A go wrapper to the OpenCL heterogeneous parallel programming library
@@ -631,7 +629,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
   * [netpbm](https://github.com/spakin/netpbm) - Read and write Netpbm images from Go programs
   * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
-  * [Plotinum](https://code.google.com/p/plotinum) - An API for creating plots
+  * [Plotinum](https://github.com/gonum/plot) - An API for creating plots
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
   * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
@@ -744,8 +742,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.matrix](https://github.com/skelterjohn/go.matrix) - a linear algebra package
   * [gochipmunk](https://github.com/paulcoyle/gochipmunk) - Go bindings to the Chipmunk Physics library.
   * [gocomplex](http://code.google.com/p/gocomplex/) - a complex number library
-  * [godec](http://code.google.com/p/godec/) - multi-precision decimal arithmetic
-  * [gographviz](http://code.google.com/p/gographviz) - Graphviz DOT language parser for Go
+  * [godec](http://godoc.org/speter.net/go/exp/math/dec/inf) - multi-precision decimal arithmetic
+  * [gographviz](https://github.com/awalterschulze/gographviz) - Graphviz DOT language parser for Go
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
   * [gsl](https://bitbucket.org/mingzhi/gsl) - GNU Scientific Library bindings
   * [mathutil](https://github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
@@ -770,7 +768,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Hranoprovod](https://github.com/aquilax/hranoprovod-go) - Command-line calorie tracking
   * [Space Monkey Monitor](https://github.com/spacemonkeygo/monitor) - A flexible process data collection, monitoring, and instrumentation library for Go
   * [atexit](https://bitbucket.org/tebeka/atexit) - Simple atexit library
-  * [bíogo](http://code.google.com/p/biogo/) - Basic bioinformatics functions for the Go language.
+  * [bíogo](https://github.com/biogo/biogo) - Basic bioinformatics functions for the Go language.
   * [cast](https://github.com/spf13/cast) - Safe and easy casting from one type to another in Go
   * [cpu](https://github.com/jpoirier/cpu) - A Go package that reports processor topology
   * [cron](https://github.com/robfig/cron) - A library for running jobs (funcs) on a cron-formatted schedule
