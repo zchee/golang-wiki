@@ -55,6 +55,11 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 | **vendor** |https://github.com/kardianos/vendor|
 |Author     |Daniel Theophanes                   |
 |Categories |Vendoring                     |
+|           |                              |
+| **bunch** |https://github.com/dkulchenko/bunch|
+|Title     |npm-like tool for managing Go dependencies|
+|Author     |Daniil Kulchenko                   |
+|Categories |Vendoring/Bundling/Revision Locking     |
 
 ## Revision Locking
 Revision Locking creates a dependency file that references specific commits in the different version control systems the code is located in. Just like vendoring, the RL tool is used to get, build and install your project. One advantage is that your project repository continues to only contain the specific project code.
