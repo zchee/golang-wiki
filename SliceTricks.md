@@ -38,7 +38,7 @@ a[i], a = a[len(a)-1], a[:len(a)-1]
 copy(a[i:], a[j:])
 for k, n := len(a)-j+i, len(a); k < n; k++ {
 	a[k] = nil // or the zero value of T
-} // for k
+}
 a = a[:len(a)-j+i]
 ```
 
@@ -121,8 +121,7 @@ for _, x := range a {
 
 To replace the contents of a slice with the same elements but in reverse order:
 ```go
-
-for i := 0; i < len(a)/2; i++ {
+for i := len(a)/2-1; i >= 0; i-- {
 	opp := len(a)-1-i
 	a[i], a[opp] = a[opp], a[i]
 }
