@@ -53,6 +53,7 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 Revision Locking creates a dependency file that references specific commits in the different version control systems the code is located in. Just like vendoring, the RL tool is used to get, build and install your project. One advantage is that your project repository continues to only contain the specific project code.
 
 | **dondur** |https://github.com/oguzbilgic/dondur|
+|:-----------|:-----------------------------|
 |Title       |Freeze your Go dependencies with ease|
 |Author      |Oguz Bilgic                   |
 |Categories  |Revision Locking (git, mercurial, bazaar)|
