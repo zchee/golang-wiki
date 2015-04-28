@@ -11,12 +11,6 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Author     |Keith Rarick                  |
 |Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
 |           |                              |
-| **godeps** |https://github.com/dre1080/godeps|
-|Title      |Simple dependency management for Go|
-|Author     |andoooooo                     |
-|Categories |Vendoring                     |
-|Notes      |Requires goven. godeps is a unix shell script.|
-|           |                              |
 | **gom**   |https://github.com/mattn/gom  |
 |Title      |Go Manager - bundle for go    |
 |Author     |Yasuhiro Matsumoto            |
@@ -31,12 +25,6 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Title      |A dependency manager for Go (golang), inspired by Bundler.|
 |Author     |Nitrous.IO                    |
 |Categories |Vendoring, Revision Locking   |
-|           |                              |
-| **goven** |https://github.com/kr/goven   |
-|Title      |Vendor Go packages            |
-|Author     |Keith Rarick                  |
-|Categories |Vendoring                     |
-|Notes      |Now suggests using github.com/tools/godep|
 |           |                              |
 | **third-party** |https://github.com/coreos/third_party.go|
 |Title      |Self contained GOPATH helper  |
