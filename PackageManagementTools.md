@@ -16,11 +16,6 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Author     |Yasuhiro Matsumoto            |
 |Categories |Vendoring/Bundling            |
 |           |                              |
-| **gondler** |https://github.com/rosylilly/gondler|
-|Title      |Bundler for golang            |
-|Author     |Sho Kusano                    |
-|Categories |Vendoring/Bundling/Revision Locking|
-|           |                              |
 | **goop**  |https://github.com/nitrous-io/goop|
 |Title      |A dependency manager for Go (golang), inspired by Bundler.|
 |Author     |Nitrous.IO                    |
@@ -48,6 +43,11 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Title     |npm-like tool for managing Go dependencies|
 |Author     |Daniil Kulchenko                   |
 |Categories |Vendoring/Bundling/Revision Locking     |
+|           |                              |
+| **gondler** |https://github.com/rosylilly/gondler|
+|Title      |Bundler for golang            |
+|Author     |Sho Kusano                    |
+|Categories |Vendoring/Bundling/Revision Locking. Requires Ruby|
 
 ## Revision Locking
 Revision Locking creates a dependency file that references specific commits in the different version control systems the code is located in. Just like vendoring, the RL tool is used to get, build and install your project. One advantage is that your project repository continues to only contain the specific project code.
