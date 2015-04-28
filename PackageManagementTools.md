@@ -126,19 +126,9 @@ Import Proxies act as a man in the middle between the Go tool and the VCS. It pa
 |Author                 |Morten Siebuhr                               |
 |Categories             |Import Proxy (git)                           |
 |                       |                                             |
-| **gopin**             |http://gopin.org                             |
-|Title                  |Tool-less version pinning for Go             |
-|Author                 |Alexander Suma                               |
-|Categories             |Import Proxy (GitHub)                        |
-|                       |                                             |
 | **gopkg.in**          |https://gopkg.in                             |
 |Title                  |Redirect the go tool onto well defined GitHub repositories. Versioning with tags and branches or the repository name.|
 |Author                 |Gustavo Niemeyer                             |
-|Categories             |Import Proxy (GitHub)                        |
-|                       |                                             |
-| **gopkg.cc**          |http://gopkg.cc                              |
-|Title                  |Exposes each branch and tag in a GitHub repository at a separate package path|
-|Author                 |Simon Menke                                  |
 |Categories             |Import Proxy (GitHub)                        |
 
 ## Go Version Managers
