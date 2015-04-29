@@ -928,7 +928,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [npipe](https://github.com/natefinch/npipe) - a pure Go wrapper for Windows named pipes
   * [netutils](https://github.com/timtadh/netutils) - Simple interface for turning TCP Sockets into channels.
   * [opendap](https://github.com/mqu/openldap) - Go wrapper for Openldap
-  * [pusher-http-go](https://github.com/pusher/pusher-http-go) - Go library for interacting with the Pusher HTTP API
+  * [pusher-http-go](https://github.com/pusher/pusher-http-go) - Go library for interacting with the Pusher Realtime API
   * [protorpc](https://github.com/chai2010/protorpc/) - Google Protocol Buffers RPC for Go and C++
   * [remotize](https://github.com/josvazg/remotize) - A remotize package and command that helps remotizing methods without having to chaneg their signatures for rpc
   * [replican-sync](https://github.com/cmars/replican-sync) - An rsync algorithm implementation in Go
