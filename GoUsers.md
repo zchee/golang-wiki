@@ -78,6 +78,7 @@
   * [ngmoco:)](http://ngmoco.com/) - [blog](http://ngenuity.ngmoco.com/2012/01/introducing-falcore-and-timber.html)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
+  * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
   * [Plano Bê](https://www.planobe.com.br) - [podcast](http://www.grokpodcast.com/2013/07/17/episodio-95-golang/)
