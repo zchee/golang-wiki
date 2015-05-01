@@ -5,13 +5,8 @@ The approach [endorsed by the Go project](http://golang.org/doc/faq#get_version)
 ## Vendoring
 Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. All the code your project needs is inside the one project repository. Vendoring also provides a performance enhancement on getting the code because only one url call is required.
 
-| **gigo**  |https://github.com/LyricalSecurity/gigo|
-|:----------|:-----------------------------|
-|Title      |Helps provide go get support for private repositories, pip for golang|
-|Author     |Lyrical Security                  |
-|Categories |Vendoring, Revision Locking   |
-|           |                              |
 | **godep** |https://github.com/tools/godep|
+|:----------|:-----------------------------|
 |Title      |Helps build packages reproducibly by fixing their dependencies|
 |Author     |Keith Rarick                  |
 |Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
@@ -46,12 +41,17 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |           |                                      |
 | **vendor** |https://github.com/kardianos/vendor|
 |Author     |Daniel Theophanes                   |
-|Categories |Vendoring                     |
+|Categories |Vendoring,Import rewrite           |
 |           |                              |
 | **bunch** |https://github.com/dkulchenko/bunch|
 |Title     |npm-like tool for managing Go dependencies|
 |Author     |Daniil Kulchenko                   |
 |Categories |Vendoring/Bundling/Revision Locking     |
+|           |                              |
+| **gigo**  |https://github.com/LyricalSecurity/gigo|
+|Title      |Helps provide go get support for private repositories, pip for golang|
+|Author     |Lyrical Security                  |
+|Categories |Vendoring, Revision Locking   |
 |           |                              |
 | **gondler** |https://github.com/rosylilly/gondler|
 |Title      |Bundler for golang            |
