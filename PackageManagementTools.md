@@ -63,6 +63,11 @@ Revision Locking creates a dependency file that references specific commits in t
 |Author      |Oguz Bilgic                   |
 |Categories  |Revision Locking (git, mercurial, bazaar)|
 |            |                              |
+| **wgo**    |https://github.com/skelterjohn/wgo|
+|Title       |Managed workspaces on top of the go tool|
+|Author      |John Asmuth                   |
+|Categories  |Revision Locking (unknown)    |
+|            |                              |
 | **envie**  |https://github.com/sam-falvo/envie|
 |Title       |Download and manage Go projects and their dependencies|
 |Author      |Samuel A. Falvo II            |
