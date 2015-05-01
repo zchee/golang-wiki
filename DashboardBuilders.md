@@ -1,44 +1,17 @@
 # Introduction
 
-This page lists details of the various builders assigned to the build.golang.org CI system
+Builders that are managed by the coordinator (VMs running on GCE or reverse buildlets, such as the new OS X builders) are listed here:
 
-## New-style Builders
+http://farmer.golang.org/builders
 
-See http://golang.org/s/builderplan
+For design details about the coordinator, see http://golang.org/s/builderplan
+
+Older-style builders are listed below. These builders are configured and run manually. The goal is to migrate as many as possible over to the new system.
 
 | **title** | **description** | **owner** | **notes** |
 |:----------|:----------------|:----------|:----------|
-| linux-386 | buildlet VM on GCE | bradfitz  |           |
-| linux-386-387 | buildlet VM on GCE | bradfitz  | GO386=387 |
-| linux-386-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
-| linux-386-gccgo | in Docker on GCE | cmang | builds gccgo |
-| linux-386-sid | in Docker on GCE | bradfitz  | Debian sid |
-| linux-amd64 | buildlet VM on GCE | bradfitz  |           |
-| linux-amd64-clang | in Docker on GCE | bradfitz  | Debian wheezy + clang 3.5 instead of gcc |
-| linux-amd64-gccgo | in Docker on GCE | cmang | builds gccgo |
-| linux-amd64-nocgo | in Docker on GCE | bradfitz  | cgo disabled |
-| linux-amd64-noopt | buildlet VM on GCE | bradfitz  | optimizations and inlining disabled |
-| linux-amd64-race| buildlet VM Docker on GCE | bradfitz  |           |
-| linux-amd64-sid | in Docker on GCE | bradfitz  | Debian sid |
 | linux-arm64-canonical | ARMv8 | @davecheney | Ubuntu 14.04 |
 | linux-ppc64le-canonical | POWER8 little endian | @davecheney | Ubuntu 14.04 |
-| nacl-386  | in Docker on GCE | bradfitz  |           |
-| nacl-amd64p32 | in Docker on GCE | bradfitz  |           |
-| openbsd-amd64-gce56 | buildlet VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-amd64         |
-| openbsd-386-gce56 | buildlet VM on GCE | bradfitz  | Using buildlet; OpenBSD 5.6; GCE VM is built from script in build/env/openbsd-386         |
-| plan9-386-gcepartial | buildlet VM on GCE | bradfitz  | Using buildlet; Plan 9 from 0intro; GCE VM is built from script in build/env/plan9-386; runs with GOTESTONLY=std (only stdlib tests)         |
-| freebsd-amd64-gce101 | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; GCE VM is built from script in build/env/freebsd-amd64    |
-| freebsd-386-gce101 | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but builds run with GOARCH=386   |
-| freebsd-amd64-race | buildlet VM on GCE | bradfitz  | Using buildlet; FreeBSD 10.1; same VM image as freebsd-amd64-gce101, but runs src/race.bash instead, and n1-highcpu-4 instance type    |
-| windows-386-gce | buildlet VM on GCE| bradfitz  |           |
-| windows-amd64-gce | buildlet VM on GCE | bradfitz  |           |
-| windows-amd64-race | buildlet VM on GCE | bradfitz | Only runs -race tests (./race.bat) |
-## Legacy Builders
-
-These builders are configured and run manually. The goal is to migrate as many as possible over to the new system.
-
-| **title** | **description** | **owner** | **notes** |
-|:----------|:----------------|:----------|:----------|
 | android-arm-crawshaw | Nexus 7 | crawshaw | Builder runs on attached desktop, uses adb |
 | darwin-amd64 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-amd64-cheney | 2011 Mac Mini, 2.4Ghz Core i5 | Dave Cheney | Mac OS X 10.10 XCode 5 |
