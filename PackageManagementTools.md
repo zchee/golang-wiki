@@ -11,6 +11,11 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Author     |Keith Rarick                  |
 |Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
 |           |                              |
+| **gigo**  |https://github.com/LyricalSecurity/gigo|
+|Title      |Helps provide go get support for private repositories, pip for golang|
+|Author     |Lyrical Security                  |
+|Categories |Vendoring, Revision Locking   |
+|           |                              |
 | **gom**   |https://github.com/mattn/gom  |
 |Title      |Go Manager - bundle for go    |
 |Author     |Yasuhiro Matsumoto            |
