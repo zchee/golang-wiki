@@ -134,7 +134,7 @@ Revision Locking creates a dependency file that references specific commits in t
 | **wgo**    |https://github.com/skelterjohn/wgo|
 |Title       |Managed workspaces on top of the go tool|
 |Author      |John Asmuth                   |
-|Categories  |Revision Locking (git, extensible)|
+|Categories  |Revision Locking (git, hg, extensible)|
 
 ## Import Proxies
 Import Proxies act as a man in the middle between the Go tool and the VCS. It parses the data stream while the repository is being cloned.
