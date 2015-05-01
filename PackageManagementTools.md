@@ -40,6 +40,10 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Author     |Matt Jibson                   |
 |Categories |Vendoring                     |
 |           |                              |
+| **prewrite** |https://github.com/dmitris/prewrite|
+|Author     |Dmitry Savintsev                      |
+|Categories |Vendoring                             |
+|           |                                      |
 | **vendor** |https://github.com/kardianos/vendor|
 |Author     |Daniel Theophanes                   |
 |Categories |Vendoring                     |
