@@ -5,16 +5,16 @@ The approach [endorsed by the Go project](http://golang.org/doc/faq#get_version)
 ## Vendoring
 Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. All the code your project needs is inside the one project repository. Vendoring also provides a performance enhancement on getting the code because only one url call is required.
 
-| **godep** |https://github.com/tools/godep|
-|:----------|:-----------------------------|
-|Title      |Helps build packages reproducibly by fixing their dependencies|
-|Author     |Keith Rarick                  |
-|Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
-|           |                              |
 | **gigo**  |https://github.com/LyricalSecurity/gigo|
+|:----------|:-----------------------------|
 |Title      |Helps provide go get support for private repositories, pip for golang|
 |Author     |Lyrical Security                  |
 |Categories |Vendoring, Revision Locking   |
+|           |                              |
+| **godep** |https://github.com/tools/godep|
+|Title      |Helps build packages reproducibly by fixing their dependencies|
+|Author     |Keith Rarick                  |
+|Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
 |           |                              |
 | **gom**   |https://github.com/mattn/gom  |
 |Title      |Go Manager - bundle for go    |
