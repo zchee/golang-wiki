@@ -72,6 +72,11 @@ Revision Locking creates a dependency file that references specific commits in t
 |Author      |Samuel A. Falvo II            |
 |Categories  |Revision Locking (unknown)    |
 |            |                              |
+| **glide**  |https://github.com/Masterminds/glide|
+|Title       |Simplified Go workspace and dependency management.|
+|Author      |Matt Butcher and Matt Farina  |
+|Categories  |Vendoring, Revision Locking (git, mercurial, bzr, svn)    |
+|            |                              |
 | **glock**  |https://github.com/robfig/glock|
 |Title       |Lock dependencies to specific revisions.|
 |Author      |Rob Figueiredo                |
