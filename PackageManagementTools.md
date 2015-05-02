@@ -80,7 +80,7 @@ Requires switching GOPATH for every project.
 | **gobs**   |https://bitbucket.org/vegansk/gobs|
 |Title       |Build system and package manager for go language|
 |Author      |Anatoly Galiulin              |
-|Categories  |Revision Locking (git)        |
+|Categories  |Revision Locking (git). Requires bash, no Windows support.       |
 |            |                              |
 | **godeps** |https://launchpad.net/godeps  |
 |Title       |Print, fetch and update dependencies with care. In production use by Canonical. The first tool with this name!|
