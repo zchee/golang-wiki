@@ -13,7 +13,7 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 | **vendor** |https://github.com/kardianos/vendor|
 |Title      |Copy, re-write, and list dependent package status.|
 |Author     |Daniel Theophanes                   |
-|Categories |Pkg Copy,Import rewrite, record VCS version.           |
+|Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal".      |
 |           |                              |
 | **vendorize** |https://github.com/kisielk/vendorize|
 |Author     |Kamil Kisiel                  |
