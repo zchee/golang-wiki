@@ -67,11 +67,6 @@ Requires switching GOPATH for every project.
 |Author      |Oguz Bilgic                   |
 |Categories  |Revision Locking (git, mercurial, bazaar)|
 |            |                              |
-| **envie**  |https://github.com/sam-falvo/envie|
-|Title       |Download and manage Go projects and their dependencies|
-|Author      |Samuel A. Falvo II            |
-|Categories  |Revision Locking (unknown)    |
-|            |                              |
 | **glide**  |https://github.com/Masterminds/glide|
 |Title       |Simplified Go workspace and dependency management.|
 |Author      |Matt Butcher and Matt Farina  |
@@ -163,3 +158,4 @@ These tools are recorded for completeness, but it is suggested not to use them a
  * https://github.com/VividCortex/johnny-deps
  * https://github.com/moovweb/gvm
  * https://github.com/pote/gpm
+ * https://github.com/sam-falvo/envie
