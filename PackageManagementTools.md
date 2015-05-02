@@ -1,65 +1,65 @@
 This page contains a list of tools for managing Go packages and their dependencies. The tools are divided into categories based on their approach to version management.
 
-The approach [endorsed by the Go project](http://golang.org/doc/faq#get_version) is "vendoring" (described below) and [godep](https://github.com/tools/godep) is a well-maintained tool for managing vendored dependencies.
+The approach endorsed by the Go project is package copy with import path re-writes.
 
-## Vendoring
-Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. All the code your project needs is inside the one project repository. Vendoring also provides a performance enhancement on getting the code because only one url call is required.
+## Pkg copy with import path re-write
+Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. Not GOPATH modifications are required.
+
+| **party** |https://github.com/mjibson/party|
+|:----------|:-----------------------------|
+|Author     |Matt Jibson                   |
+|Categories |Vendoring, Copies into "_third_party". Does not analyze dependencies first. No inspection.|
+|           |                              |
+| **vendor** |https://github.com/kardianos/vendor|
+|Title      |Copy, re-write, and list dependent package status.|
+|Author     |Daniel Theophanes                   |
+|Categories |Pkg Copy,Import rewrite, record VCS version.           |
+|           |                              |
+| **vendorize** |https://github.com/kisielk/vendorize|
+|Author     |Kamil Kisiel                  |
+|Categories |Vendoring. Copies into "3rdparty".                     |
+
+## Pkg copy, build using GOPATH modification, supports fetching specific version
+Copy packages locally. When building modify the GOPATH to reference the local package store. Not only records specific version, but also fetches specific version.
+
+| **gopm**   |https://github.com/GPMGo/gopm |
+|:----------|:-----------------------------|
+|Title       |Tool for search, install, update, share packages in Go|
+|Author      |Am Laher                      |
+|Categories  |Revision Locking (git, mercurial, bazaar). Copies into ".vendor/src".|
+|           |                              |
+| **gom**   |https://github.com/mattn/gom  |
+|Title      |Go Manager - bundle for go    |
+|Author     |Yasuhiro Matsumoto            |
+|Categories |Vendoring/Bundling. Copies into "_vendor/src"          |
+|           |                              |
+| **bunch** |https://github.com/dkulchenko/bunch|
+|Title     |npm-like tool for managing Go dependencies|
+|Author     |Daniil Kulchenko                   |
+|Categories |Vendoring/Bundling/Revision Locking. Copies into ".vendor". Does NOT fully support windows.|
+|           |                              |
+| **goop**  |https://github.com/nitrous-io/goop|
+|Title      |A dependency manager for Go (golang), inspired by Bundler.|
+|Author     |Nitrous.IO                    |
+|Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
+
+## Pkg copy, build using GOPATH  modification
+Copy packages locally. When building modify the GOPATH to reference the local package store.
 
 | **godep** |https://github.com/tools/godep|
 |:----------|:-----------------------------|
 |Title      |Helps build packages reproducibly by fixing their dependencies|
 |Author     |Keith Rarick                  |
-|Categories |Vendoring, Revision Locking (git, mercurial, bazaar)|
+|Categories |Vendoring, Version Recording. Copies into "Godpe/_workspace/src". Using "godep save -r" is not recommended.|
 |           |                              |
-| **gom**   |https://github.com/mattn/gom  |
-|Title      |Go Manager - bundle for go    |
-|Author     |Yasuhiro Matsumoto            |
-|Categories |Vendoring/Bundling            |
-|           |                              |
-| **goop**  |https://github.com/nitrous-io/goop|
-|Title      |A dependency manager for Go (golang), inspired by Bundler.|
-|Author     |Nitrous.IO                    |
-|Categories |Vendoring, Revision Locking   |
-|           |                              |
-| **third-party** |https://github.com/coreos/third_party.go|
-|Title      |Self contained GOPATH helper  |
-|Author     |CoreOS                        |
-|Categories |Vendoring                     |
-|Notes      |CoreOS now uses github.com/tools/godep|
-|           |                              |
-| **vendorize** |https://github.com/kisielk/vendorize|
-|Author     |Kamil Kisiel                  |
-|Categories |Vendoring                     |
-|           |                              |
-| **party** |https://github.com/mjibson/party|
-|Author     |Matt Jibson                   |
-|Categories |Vendoring                     |
-|           |                              |
-| **prewrite** |https://github.com/dmitris/prewrite|
-|Author     |Dmitry Savintsev                      |
-|Categories |Vendoring                             |
-|           |                                      |
-| **vendor** |https://github.com/kardianos/vendor|
-|Author     |Daniel Theophanes                   |
-|Categories |Vendoring,Import rewrite           |
-|           |                              |
-| **bunch** |https://github.com/dkulchenko/bunch|
-|Title     |npm-like tool for managing Go dependencies|
-|Author     |Daniil Kulchenko                   |
-|Categories |Vendoring/Bundling/Revision Locking     |
-|           |                              |
-| **gigo**  |https://github.com/LyricalSecurity/gigo|
-|Title      |Helps provide go get support for private repositories, pip for golang|
-|Author     |Lyrical Security                  |
-|Categories |Vendoring, Revision Locking   |
-|           |                              |
-| **gondler** |https://github.com/rosylilly/gondler|
-|Title      |Bundler for golang            |
-|Author     |Sho Kusano                    |
-|Categories |Vendoring/Bundling/Revision Locking. Requires Ruby|
+| **wgo**    |https://github.com/skelterjohn/wgo|
+|Title       |Managed workspaces on top of the go tool|
+|Author      |John Asmuth                   |
+|Categories  |local GOPATH can be configured.|
 
 ## Revision Locking
-Revision Locking creates a dependency file that references specific commits in the different version control systems the code is located in. Just like vendoring, the RL tool is used to get, build and install your project. One advantage is that your project repository continues to only contain the specific project code.
+Package source control versions are recorded. Versions are updated into the GOPATH package tree.
+Requires switching GOPATH for every project.
 
 | **dondur** |https://github.com/oguzbilgic/dondur|
 |:-----------|:-----------------------------|
@@ -75,7 +75,7 @@ Revision Locking creates a dependency file that references specific commits in t
 | **glide**  |https://github.com/Masterminds/glide|
 |Title       |Simplified Go workspace and dependency management.|
 |Author      |Matt Butcher and Matt Farina  |
-|Categories  |Vendoring, Revision Locking (git, mercurial, bzr, svn)    |
+|Categories  |Revision Locking (git, mercurial, bzr, svn)    |
 |            |                              |
 | **glock**  |https://github.com/robfig/glock|
 |Title       |Lock dependencies to specific revisions.|
@@ -87,15 +87,11 @@ Revision Locking creates a dependency file that references specific commits in t
 |Author      |Anatoly Galiulin              |
 |Categories  |Revision Locking (git)        |
 |            |                              |
-| **godep**  |https://github.com/tools/godep|
-|Title       |Helps build packages reproducibly by fixing their dependencies|
-|Author      |Keith Rarick                  |
-|Categories  |Vendoring, Revision Locking (git, mercurial, bazaar)|
-|            |                              |
 | **godeps** |https://launchpad.net/godeps  |
 |Title       |Print, fetch and update dependencies with care. In production use by Canonical. The first tool with this name!|
 |Author      |Roger Peppe                   |
 |Categories  | Revision Locking (git, mercurial, bzr)|
+|            |                              |
 | **gopack** |https://github.com/d2fn/gopack|
 |Title       |Dependency management for go inspired by rebar|
 |Author      |Dietrich Featherston          |
@@ -105,36 +101,20 @@ Revision Locking creates a dependency file that references specific commits in t
 |Title       |Experimental go-get fork with support for tags and alternative repos|
 |Author      |Go Package Manager            |
 |Categories  |Revision Locking (git)        |
-|            |                              |
-| **gopm**   |https://github.com/GPMGo/gopm |
-|Title       |Tool for search, install, update, share packages in Go|
-|Author      |Am Laher                      |
-|Categories  |Revision Locking (git, mercurial, bazaar)|
-|            |                              |
-| **gpm**    |https://github.com/pote/gpm   |
-|Title       |Barebones dependency manager for Go.|
-|Author      |Pablo Astigarraga             |
-|Categories  |Revision Locking (git, mercurial, bazaar)|
-|            |                              |
-| **johnny deps** |https://github.com/VividCortex/johnny-deps|
-|Title       |Barebones dependency manager for Go|
-|Author      |Baron Schwartz / Gustavo Kristic|
-|Categories  |Revision Locking (git)        |
-|            |                              |
-| **pack**   |https://github.com/theplant/pak|
-|Title       |Simple package management tool for Go|
-|Author      |The Plant                     |
-|Categories  |Revision Locking (git)        |
-|            |                              |
-| **rx**     |http://godoc.org/kylelemons.net/go/rx|
-|Title       |[Automation for dependency management tasks](http://kylelemons.net/blog/2012/04/22-rx-for-go-headaches.article)|
-|Author      |Kyle Lemons                   |
-|Categories  |Revision Locking (git, mercurial)|
-|            |                              |
-| **wgo**    |https://github.com/skelterjohn/wgo|
-|Title       |Managed workspaces on top of the go tool|
-|Author      |John Asmuth                   |
-|Categories  |Revision Locking (git, hg, extensible)|
+|           |                              |
+| **gigo**  |https://github.com/LyricalSecurity/gigo|
+|Title      |Helps provide go get support for private repositories, pip for golang|
+|Author     |Lyrical Security                  |
+|Categories |Vendoring, Revision Locking (git). Does not appear to copy files.  |
+
+
+## Vendor Utilities
+Not full vendor tool, but may still provide value.
+
+| **prewrite** |https://github.com/dmitris/prewrite|
+|:-----------|:-----------------------------|
+|Author     |Dmitry Savintsev                      |
+|Categories |Import re-writer, add or remove specified prefix                             |
 
 ## Import Proxies
 Import Proxies act as a man in the middle between the Go tool and the VCS. It parses the data stream while the repository is being cloned.
@@ -153,26 +133,12 @@ Import Proxies act as a man in the middle between the Go tool and the VCS. It pa
 ## Go Version Managers
 Go Version Managers allow you to have multiple versions of Go installed on your machine. It allows you to switch between those versions.
 
-| **gvm** |https://github.com/moovweb/gvm|
-|:--------|:-----------------------------|
-|Title    |Go Version Manager            |
-|Author   |Josh Bussdieker               |
-|Categories|Go Version Manager           |
-
 | **goenv**  | https://bitbucket.org/ymotongpoo/goenv |
 |:-----------|:---------------------------------------|
 | Title      | Go environment manager                 |
 | Author     | Yoshifumi YAMAGUCHI                    |
 | Categories | Go Version Manager                     |
 
-## Unclassified
-Not able to classify these tools.
-
-| **go-dep** |https://github.com/go-dep/dep|
-|:-----------|:----------------------------|
-|Title       |Go package dependencies with the help of the Go Dependency Format (GDF)|
-|Author      |Marc Rene Arns               |
-|Categories  |Not Sure                     |
 
 ## Client App Test Packages
 Here is a list of packages that authors can use to test their tools against.
@@ -185,3 +151,15 @@ Here is a list of packages that authors can use to test their tools against.
 | **revel-mgo** |https://github.com/goinggo/revel-mgo|
 |Author         |Bill Kennedy                        |
 |Desc           |Sample revel project with mgo support|
+
+## Abandoned Tools
+ * https://github.com/coreos/third_party.go
+ * http://godoc.org/kylelemons.net/go/rx
+ * https://github.com/theplant/pak
+
+## Not Written in Go
+These tools are recorded for completeness, but it is suggested not to use them as they are platform specific.
+ * https://github.com/rosylilly/gondler
+ * https://github.com/VividCortex/johnny-deps
+ * https://github.com/moovweb/gvm
+ * https://github.com/pote/gpm
