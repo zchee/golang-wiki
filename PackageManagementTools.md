@@ -61,13 +61,8 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 Package source control versions are recorded. Versions are updated into the GOPATH package tree.
 Requires switching GOPATH for every project.
 
-| **dondur** |https://github.com/oguzbilgic/dondur|
-|:-----------|:-----------------------------|
-|Title       |Freeze your Go dependencies with ease|
-|Author      |Oguz Bilgic                   |
-|Categories  |Revision Locking (git, mercurial, bazaar)|
-|            |                              |
 | **glide**  |https://github.com/Masterminds/glide|
+|:-----------|:-----------------------------|
 |Title       |Simplified Go workspace and dependency management.|
 |Author      |Matt Butcher and Matt Farina  |
 |Categories  |Revision Locking (git, mercurial, bzr, svn)    |
