@@ -3,7 +3,7 @@ This page contains a list of tools for managing Go packages and their dependenci
 The approach endorsed by the Go project is package copy with import path re-writes.
 
 ## Pkg copy with import path re-write
-Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. Not GOPATH modifications are required.
+Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
 
 | **party** |https://github.com/mjibson/party|
 |:----------|:-----------------------------|
