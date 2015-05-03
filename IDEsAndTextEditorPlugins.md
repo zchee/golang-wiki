@@ -35,6 +35,7 @@
     * A [vim compiler plugin](https://github.com/rjohnsondev/vim-compiler-go) for syntax checking
     * A [vim-godef](https://github.com/dgryski/vim-godef) plugin integrates with the 'godef' tool, above
     * A [vim-go-extra](https://github.com/vim-jp/vim-go-extra) is vim plugin based on misc/vim in go repository. This works fine on windows too!
+  * **[Visual Studio Code](https://code.visualstudio.com/)**: Recently launched in Preview, Visual Studio Code supports GO syntax highlighting out of the box.
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
   * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go.
 
