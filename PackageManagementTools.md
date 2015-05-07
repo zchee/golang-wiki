@@ -50,7 +50,7 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |:----------|:-----------------------------|
 |Title      |Helps build packages reproducibly by fixing their dependencies|
 |Author     |Keith Rarick                  |
-|Categories |Vendoring, Version Recording. Copies into "Godpe/_workspace/src".|
+|Categories |Vendoring, Version Recording. Copies into "Godep/_workspace/src".|
 |           |                              |
 | **wgo**    |https://github.com/skelterjohn/wgo|
 |Title       |Managed workspaces on top of the go tool|
