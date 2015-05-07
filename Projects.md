@@ -1282,6 +1282,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-dropbox](https://github.com/nickoneill/go-dropbox) - API library for dropbox
   * [go-get-youtube](https://github.com/knadh/go-get-youtube) - A simple library+client for fetching meta data of, and downloading Youtube videos
   * [facebook](https://github.com/huandu/facebook) - Up-to-date facebook graph API client. Handy and flexible
+  * [filepicker-go](https://github.com/filepicker/filepicker-go) - Go library for the Filepicker's REST API 
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [go-facebook](https://github.com/Agon/go-facebook) - Go implementations of facebook APIs
   * [go-flickr](https://github.com/mncaudill/go-flickr) - A wrapper for Flickr's API
