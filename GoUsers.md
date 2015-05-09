@@ -130,6 +130,7 @@
   * [Zynga](http://www.zynga.com) - [source (zbase component)](http://code.zynga.com/2013/08/zbase-a-high-performance-elastic-distributed-key-value-store/) [github](https://github.com/zbase)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [Maldive](https://www.maldive.com)
+  * [Qurami](http://www.qurami.com)
 
 
 # Tried Go, but moved away
