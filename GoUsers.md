@@ -59,6 +59,7 @@
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html)
+  * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [Igneous](http://www.igneous.io/)
   * [Intel Germany (Debugger QA Team)](http://www.intel.com) - [source](http://www.reddit.com/r/golang/comments/16qw6x/the_intel_debugger_qa_team_in_germany_ulm_is/)
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
@@ -66,7 +67,7 @@
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
-  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
+  * [Maldive](https://www.maldive.com)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
   * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
@@ -75,6 +76,7 @@
   * [MongoDB](http://www.mongodb.com) - [blog](http://blog.mongodb.org/post/51643994762/go-agent-go)
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
+  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [ngmoco:)](http://ngmoco.com/) - [blog](http://ngenuity.ngmoco.com/2012/01/introducing-falcore-and-timber.html)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
@@ -85,6 +87,7 @@
   * [Plano Bê](https://www.planobe.com.br) - [podcast](http://www.grokpodcast.com/2013/07/17/episodio-95-golang/)
   * [pool.ntp.org](http://pool.ntp.org/) - [blog](http://news.ntppool.org/2012/10/new-dns-server.html) [status](http://dns-status.ntppool.org/)
   * [Poptip](https://poptip.com/) [job posting](https://groups.google.com/d/msg/golang-nuts/cQ0uuLCcQQQ/4nNm_YYh_l4J)
+  * [Qurami](http://www.qurami.com)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
@@ -128,9 +131,6 @@
   * [Viki](http://www.viki.com/) - [github](https://github.com/viki-org/)
   * [VividCortex](https://vividcortex.com/) - [source](https://vividcortex.com/jobs/) [github](https://github.com/VividCortex/)
   * [Zynga](http://www.zynga.com) - [source (zbase component)](http://code.zynga.com/2013/08/zbase-a-high-performance-elastic-distributed-key-value-store/) [github](https://github.com/zbase)
-  * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
-  * [Maldive](https://www.maldive.com)
-  * [Qurami](http://www.qurami.com)
 
 
 # Tried Go, but moved away
