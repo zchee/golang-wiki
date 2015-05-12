@@ -13,7 +13,7 @@ Some of this documentation may be out of date.
 
   * [A Tour of Go](http://go-tour-zh.appspot.com/)
   * [Go 编程语言](http://zh-golang.appspot.com/) - Chinese Translation of tip.golang.org
-  * [golang-china](http://code.google.com/p/golang-china/) - a broad range of Go documentation.
+  * [Go编程语言](https://golang-china.appspot.com/) ([参与翻译](https://github.com/golang-china)) - Go语言文档翻译(QQ群:368836416).
   * [Effective Go and (old) Tutorial](http://code.google.com/p/ac-me/downloads/detail?name=fango.pdf)
 
 ## Czech - Čeština
