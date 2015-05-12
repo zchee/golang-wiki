@@ -640,7 +640,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [starfish](https://github.com/gtalent/starfish) - A simple Go graphics and user input library, built on SDL
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
   * [svgo](https://github.com/ajstarks/svgo) - a library for creating and outputting SVG
-  * [tag](https://githhub.com/dhowden/tag) - a library for reading tag metadata and creating metadata-invariant checksums for audio files: FLAC, all IDv3 variants, and MP4 (ACC, ALAC)
+  * [tag](https://github.com/dhowden/tag) - a library for reading tag metadata and creating metadata-invariant checksums for audio files: FLAC, all IDv3 variants, and MP4 (ACC, ALAC)
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
   * [tiff](https://github.com/chai2010/tiff) - Rich TIFF/BigTIFF/GeoTIFF decoder/encoder for Go.
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
