@@ -107,6 +107,7 @@
   * [Sourcegraph](https://sourcegraph.com) [github](https://github.com/sourcegraph)
   * [Space Monkey](http://www.spacemonkey.com) - [blog](https://www.spacemonkey.com/blog/posts/go-space-monkey)
   * [Splice](http://splice.com) - [tweet](https://twitter.com/mattetti/status/387935640513683456)
+  * [Springer](http://joinit.springer.com) - [tweet](https://twitter.com/quii/status/575647166091370497)
   * [Square](http://www.squareup.com) - [blog](http://corner.squareup.com/2014/05/evaluating-go-frameworks.html)
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
