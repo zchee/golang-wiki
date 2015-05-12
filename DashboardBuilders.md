@@ -28,8 +28,8 @@ Older-style builders are listed below. These builders are configured and run man
 | netbsd-386-minux | KVM             | Shenghou Ma |           |
 | netbsd-amd64-bsiegert | EC2 m1.small VM | Benny Siegert | on Brad's work EC2 account |
 | openbsd-arm | SolidRun CuBox-i4Pro, ARM Cortex A9 R2 792 MHz, 2GB RAM | Joel Sing |           |
-| plan9-386-cnielsen | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs, updated nightly |
-| plan9-amd64-aram | VM              | Nick Owens  | runs 9front |
+| plan9-386-ducolombier | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs, updated nightly |
+| plan9-amd64-mischief | VM              | Nick Owens  | runs 9front |
 | solaris-amd64-smartos | E5-1650 Xeon, 6C/12T | Daniel Malon | runs illumos (smartos zone); dfc, aram have full access |
 | solaris-amd64-solaris11 | VM              | Dave Cheney | runs Solaris 11 |
 
