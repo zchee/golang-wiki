@@ -17,7 +17,7 @@ This page links to resources for learning about server programming in Go. The it
 ## Presentation
 
 - [Package text/template](http://golang.org/pkg/text/template) implements data-driven templates for generating textual output.
-- [Package http/template](http://golang.org/pkg/html/template) implements data-driven templates for generating HTML output safe against code injection.
+- [Package html/template](http://golang.org/pkg/html/template) implements data-driven templates for generating HTML output safe against code injection.
 
 ## Profiling and Performance
 
