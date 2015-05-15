@@ -1002,7 +1002,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go FUSE file system library](http://bazil.org/fuse/) - From-scratch implementation of the kernel-userspace communication protocol based on Russ Cox'.
   * [go-osx-xattr](https://github.com/bitcartel/go-osx-xattr) - Package xattr wraps OS X functions to manipulate the extended attributes of a file, directory and symbolic link.
   * [service](https://bitbucket.org/kardianos/service/overview) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
-  * [inspect/os](https://github.com/square/inspect/os) - Metrics library for operating system measurements (Linux/MacOSX)
+  * [inspect/os](https://github.com/square/inspect) - Metrics library for operating system measurements (Linux/MacOSX)
 
 ## Other Random Toys, Experiments and Example Code
 
@@ -1368,7 +1368,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Unix
   * [unixsums](https://github.com/cxmcc/unixsums) - Legacy Unix checksums: cksum, sum
-  * [inspect](https://github.com/square/inspect/inspect) - Linux and MacOSX systems monitoring and diagnostics
+  * [inspect](https://github.com/square/inspect) - Linux and MacOSX systems monitoring and diagnostics
 
 ## Unsorted; please help!
 
