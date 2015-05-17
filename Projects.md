@@ -960,6 +960,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [httpfstream](https://sourcegraph.com/github.com/sourcegraph/httpfstream/tree) - streaming append and follow of HTTP resources (using WebSockets)
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
   * [zero-downtime-daemon](https://bitbucket.org/PinIdea/zero-downtime-daemon) - Configurable zero downtime daemon (Hot Update) framework for any kind of TCP,HTTP,FCGI services
+  * [zeroupgrade](https://github.com/thcyron/zeroupgrade) - Upgrades network servers with zero downtime
   * [boom](https://github.com/rakyll/boom) - HTTP(s) benchmarking tool, Apache Benchmark replacement
   * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
   * [go-flowrate](https://github.com/mxk/go-flowrate) - Data transfer rate control (monitoring and limiting)
