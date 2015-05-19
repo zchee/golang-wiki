@@ -314,6 +314,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [Gokogiri](https://github.com/moovweb/gokogiri) - A lightweight libxml wrapper library
   * [GoNetCDF](https://bitbucket.org/ctessum/gonetcdf) - A wrapper for the NetCDF file format library
   * [goop](https://github.com/losalamos/goop) - Dynamic object-oriented programming support for Go
+  * [gopart](https://github.com/meirf/gopart)- Type-agnostic partitioning for anything that can be indexed in Go.
   * [goset](https://github.com/fatih/goset) - A simple, thread safe Set implementation
   * [gotoc](https://github.com/dsymonds/gotoc) - A protocol buffer compiler written in Go
   * [govalid](https://github.com/gima/govalid) - Data validation library
