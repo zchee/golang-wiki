@@ -19,6 +19,7 @@ Drivers for Go's sql package include:
   * **ODBC**: https://bitbucket.org/miquella/mgodbc
   * **ODBC**: https://code.google.com/p/odbc
   * **Oracle**: https://github.com/mattn/go-oci8
+  * **Oracle**: https://github.com/ranaian/ora
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
   * **QL**: http://godoc.org/github.com/cznic/ql/driver
   * **SQLite**:  https://github.com/mxk/go-sqlite
