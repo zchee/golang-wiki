@@ -904,6 +904,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gogammu](https://github.com/ziutek/gogammu) - Library for sending and receiving SMS
   * [gonetbench](https://github.com/nu7hatch/gonetbench) - Simple TCP benchmarking tool
   * [gonetcheck](https://github.com/bjdean/gonetcheck) - package for checking general internet access
+  * [goodhosts](https://github.com/lextoumbourou/goodhosts) - Simple hosts file (/etc/hosts) management in Go
   * [gopacket](http://code.google.com/p/gopacket) - Packet encoding/decoding, pcap/pfring/afpacket support, TCP assembly, and more!
   * [gopcap](https://github.com/akrennmair/gopcap) - A simple wrapper around libpcap
   * [goprotobuf](http://code.google.com/p/goprotobuf/) - the Go implementation of Google's Protocol Buffers
