@@ -11,6 +11,7 @@ Older-style builders are listed below. These builders are configured and run man
 | **title** | **description** | **owner** | **notes** |
 |:----------|:----------------|:----------|:----------|
 | linux-arm64-canonical | ARMv8 | @davecheney | Ubuntu 14.04 |
+| linux-arm64-linaro | ARMv8 | @davecheney | Ubuntu 14.04.2 |
 | linux-ppc64le-canonical | POWER8 little endian | @davecheney | Ubuntu 14.04 |
 | android-arm-crawshaw | Nexus 7 | crawshaw | Builder runs on attached desktop, uses adb |
 | darwin-amd64 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
