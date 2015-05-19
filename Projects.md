@@ -1289,6 +1289,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [go-facebook](https://github.com/Agon/go-facebook) - Go implementations of facebook APIs
   * [go-flickr](https://github.com/mncaudill/go-flickr) - A wrapper for Flickr's API
+  * [go-github](https://github.com/google/go-github) - Go library for accessing the GitHub API
   * [go-gravatar](https://github.com/ungerik/go-gravatar) - Wrapper for the Gravatar API
   * [go-libGeoIP](https://github.com/nranchev/go-libGeoIP) - GO Lib GeoIP API for Maxmind
   * [gominatim](https://github.com/grindhold/gominatim) - Go library to access nominatim geocoding services
