@@ -208,11 +208,12 @@ Sorted by publication date.
     * Reference:
 
 # German
-  * **Programmierung in Google Go** (e-book)
+  * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
-    * ISBN: 978-3-8632-4722-5
     * Publication Date: 2010-11
-    * Reference: http://bookshop.pearson.de/main/main.asp?page=bookdetails&productid=181679
+    * ISBN: 978-3-8632-4722-5
+    * Reference (Amazon): http://www.amazon.de/Programmierung-Google-Beispiele-professionelle-Anwendung/dp/3827330092 
+    * Reference (Google Books): https://books.google.de/books?id=E4IL5dT1yLsC&printsec=frontcover&hl=de#v=onepage&q&f=false
 
   * **Systemprogrammierung in Google Go**
     * Author: Frank Müller
