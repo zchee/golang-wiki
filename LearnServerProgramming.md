@@ -64,3 +64,8 @@ This page links to resources for learning about server programming in Go. The it
 
 - Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go) provides a Golang package that makes it easy to consume and manage Microsoft Azure Services.
 - Search packages for [Azure](http://godoc.org/?q=azure)
+
+### Openstack / Rackspace
+
+- Rackspace's [gophercloud](https://github.com/rackspace/gophercloud) is a Golang SDK for working with OpenStack clouds.
+- Search packages for [Openstack](http://godoc.org/?q=openstack) or [Rackspace](http://godoc.org/?q=rackspace)
