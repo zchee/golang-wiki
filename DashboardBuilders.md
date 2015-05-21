@@ -24,9 +24,10 @@ Older-style builders are listed below. These builders are configured and run man
 | linux-arm-arm5 | QNAP TS-119P, ARMv5 @ 2.0GHz, 512MB | Dave Cheney | GOARM=5   |
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
 | linux-ppc64 | KVM instance on physical 8-core POWER7 pSeries. Chip rev: 2.1 (pvr 004b 0201) | bradfitz, rsc  |           |
+| linux-ppc64-minux | Gentoo on PowerMac G5 (dual 2.7GHz ppc970fx) | minux  |           |
 | nacl-arm  | samsung chromebook | rsc       | running chrubuntu |
 | nacl-arm-cheney | same builder as linux-arm-cheney-imx6 | Dave Cheney |           |
-| netbsd-386-minux | KVM             | Shenghou Ma |           |
+| netbsd-386-minux | KVM             | minux |           |
 | netbsd-amd64-bsiegert | EC2 m1.small VM | Benny Siegert | on Brad's work EC2 account |
 | openbsd-arm | SolidRun CuBox-i4Pro, ARM Cortex A9 R2 792 MHz, 2GB RAM | Joel Sing |           |
 | plan9-386-ducolombier | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs, updated nightly |
