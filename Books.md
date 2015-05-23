@@ -41,6 +41,12 @@ Sorted by publication date.
     * ISBN: 978-1783988020
     * Reference: https://www.packtpub.com/application-development/go-programming-blueprints
 
+  * **Level Up Your Web Apps With Go**
+    * Author: Mal Curtis
+    * Publication Date: April, 2015
+    * ISBN: 978-0992461294
+    * Reference: https://learnable.com/books/level-up-your-web-apps-with-go
+
 ## Early Access
 
   * **Go In Action**
