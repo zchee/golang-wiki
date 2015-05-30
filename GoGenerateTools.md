@@ -5,4 +5,5 @@
 * [gostringer](https://godoc.org/github.com/sourcegraph/gostringer) – Implements `fmt.GoStringer` interface for enums.
 * [jsonenums](https://github.com/campoy/jsonenums) – Implements `json.Marshaler` and `json.Unmarshaler` interfaces for enums.
 * [gen-mocks](https://sourcegraph.com/sourcegraph/gen-mocks) – Generate mocks for interfaces. Used in [go-sourcegraph](https://sourcegraph.com/sourcegraph.com/sourcegraph/go-sourcegraph@master/.tree/sourcegraph).
-* [gojson](https://github.com/ChimeraCoder/gojson) Generates go struct definitions from example json documents
+* [gojson](https://github.com/ChimeraCoder/gojson) - Generates go struct definitions from example json documents.
+* [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
