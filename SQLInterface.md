@@ -33,7 +33,7 @@ Exec is used for queries where no rows are returned:
 
 ```
 result, err := db.Exec(
-	"INSERT INTO users (name, age) VALUES (?, ?)",
+	"INSERT INTO users (name, age) VALUES ($1, $2)",
 	"gopher",
 	27,
 )
@@ -46,7 +46,7 @@ the database driver.
 Query is used for retrieval:
 
 ```
-rows, err := db.Query("SELECT name FROM users WHERE age = ?", age)
+rows, err := db.Query("SELECT name FROM users WHERE age = $1", age)
 if err != nil {
 	log.Fatal(err)
 }
@@ -66,7 +66,7 @@ QueryRow is used where only a single row is expected:
 
 ```
 var age int64
-row := db.QueryRow("SELECT age FROM users WHERE name = ?", name)
+row := db.QueryRow("SELECT age FROM users WHERE name = $1", name)
 err := row.Scan(&age)
 ```
 
@@ -74,7 +74,7 @@ Prepared statements can be created with Prepare:
 
 ```
 age := 27
-stmt, err := db.Prepare("SELECT name FROM users WHERE age = ?")
+stmt, err := db.Prepare("SELECT name FROM users WHERE age = $1")
 if err != nil {
 	log.Fatal(err)
 }
@@ -109,7 +109,7 @@ For example, if the name column in the names table is nullable:
 
 ```
 var name NullString
-err := db.QueryRow("SELECT name FROM names WHERE id = ?", id).Scan(&name)
+err := db.QueryRow("SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ...
 if name.Valid {
 	// use name.String
