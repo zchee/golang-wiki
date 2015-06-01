@@ -648,6 +648,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
   * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
   * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
+  * [wg](https://github.com/magsoft-se/wg) - Web Graphics, display real time go graphics in browser, with user input.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
   * [wingo](https://github.com/BurntSushi/wingo) - A fully-featured window manager written in Go.
   * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
