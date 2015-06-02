@@ -18,6 +18,10 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 | **vendorize** |https://github.com/kisielk/vendorize|
 |Author     |Kamil Kisiel                  |
 |Categories |Vendoring. Copies into "3rdparty".                     |
+|           |                              |
+| **nut** |https://github.com/jingweno/nut|
+|Author     |Jingwen Owen Ou                  |
+|Categories |Pkg Copy & Import rewrite. Copies into "vendor".                     |
 
 ## Pkg copy, build using GOPATH modification, supports fetching specific version
 Copy packages locally. When building modify the GOPATH to reference the local package store. Not only records specific version, but also fetches specific version.
