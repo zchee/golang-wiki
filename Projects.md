@@ -710,6 +710,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [graylog-golang](https://github.com/robertkowalski/graylog-golang) - graylog-golang is a full implementation for sending messages in GELF (Graylog Extended Log Format) from Google Go (Golang) to Graylog
   * [rfw](https://github.com/mipearson/rfw) - Rotating file writer - a 'logrotate'-aware file output for use with loggers
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
+  * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
 
 ## Machine Learning
   * [go-pr](https://github.com/daviddengcn/go-pr) - Gaussian classifier.
