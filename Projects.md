@@ -783,6 +783,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [dump](http://code.google.com/p/golang/source/browse/src/pkg/dump/) - An utility that dumps Go variables, similar to PHP's var\_dump
   * [env](https://github.com/darkhelmet/env) - Easily pull environment variables with defaults
   * [epub](https://gitorious.org/go-pkg/epub) - Bindings for libepub to read epub content.
+  * [GoFakeIt](https://github.com/brianvoe/gofakeit) - Fake Data Generator. 65+ different variations and examples for each
   * [faker](https://github.com/manveru/faker) - Generate fake data, names, text, addresses, etc.
   * [fsnotify](https://github.com/howeyc/fsnotify) - File system notifications for Go
   * [functional](https://github.com/tcard/functional) - Functional programming library including a lazy list implementation and some of the most usual functions.
