@@ -1153,6 +1153,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Tideland CGL Asserts](http://code.google.com/p/tcgl/) - Make asserts during testing and inside of your applications
   * [go-assert](http://github.com/daviddengcn/go-assert) - Testing utils for Go.
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
+  * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
 
 ## Virtual Machines and Languages
 
