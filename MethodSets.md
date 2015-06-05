@@ -20,7 +20,7 @@ There are many different cases during which a method set crops up in day-to-day 
 ## Variables
 In general, when you have a variable of a type, you can pretty much call whatever you want on it.  When you combine the two rules above together, the following is valid:
 
-```
+```go
 type List []int
 
 func (l List) Len() int        { return len(l) }
@@ -41,7 +41,7 @@ func main() {
 
 Note that both pointer and value methods can both be called on both pointer and non-pointer values.  To understand why, let's examine the method sets of both types, directly from the spec:
 
-```
+```go
 List
 - Len() int
 
@@ -52,7 +52,7 @@ List
 
 Notice that the method set for ` List ` does not actually contain ` Append(int) ` even though you can see from the above program that you can call the method without a problem.  This is a result of the second spec section above.  It implicitly translates the first line below into the second:
 
-```
+```go
 lst.Append(1)
 (&lst).Append(1)
 ```
@@ -67,14 +67,14 @@ Slice elements are almost identical to variables.  Because they are addressable,
 ## Map Elements
 Map elements are not addressable.  Therefore, the following is an _illegal_ operation:
 
-```
+```go
 lists := map[string]List
 lists["primes"].Append(7) // cannot be rewritten as (&lists["primes"]).Append(7)
 ```
 
 However, the following is still valid (and is the far more common case):
 
-```
+```go
 lists := map[string]*List
 lists["primes"] = new(List)
 lists["primes"].Append(7)
@@ -86,7 +86,7 @@ Thus, both pointer- and value-receiver methods can be called on pointer-element 
 ## Interfaces
 The concrete value stored in an interface is not addressable, in the same way that a map element is not addressable.  Therefore, when you call a method on an interface, it must either have an identical receiver type or it must be directly discernible from the concrete type: pointer- and value-receiver methods can be called with pointers and values respectively, as you would expect.  Value-receiver methods can be called with pointer values because they can be dereferenced first.  Pointer-receiver methods cannot be called with values, however, because the value stored inside an interface has no address.  When assigning a value to an interface, the compiler ensures that all possible interface methods can actually be called on that value, and thus trying to make an improper assignment will fail on compilation.  To extend the earlier example, the following describes what is valid and what is not:
 
-```
+```go
 type List []int
 
 func (l List) Len() int        { return len(l) }
