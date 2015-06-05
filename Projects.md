@@ -1298,7 +1298,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-github](https://github.com/google/go-github) - Go library for accessing the GitHub API
   * [go-gravatar](https://github.com/ungerik/go-gravatar) - Wrapper for the Gravatar API
   * [go-libGeoIP](https://github.com/nranchev/go-libGeoIP) - GO Lib GeoIP API for Maxmind
-  * [gominatim](https://github.com/grindhold/gominatim) - Go library to access nominatim geocoding services
+  * [go-myanimelist](https://github.com/nstratos/go-myanimelist) - Go library for accessing the MyAnimeList API
+  * [go-hummingbird](https://github.com/nstratos/go-hummingbird) - Go library for accessing the Hummingbird.me API
+  * [gominatim](https://github.com/grindhold/gominatim) - Go library to access nominatim geocoding 
+services
   * [gomojo](https://github.com/dotmanish/gomojo) - Instamojo API wrapper
   * [gomwapi](https://github.com/kracekumar/go-mwapi) - Access mediawiki contents like wikipedia, wiktionary in golang
   * [googtrans](https://github.com/bthomson/googtrans) - unofficial go bindings for Google Translate API v2
