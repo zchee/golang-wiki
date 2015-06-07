@@ -870,6 +870,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
 
 ## Networking
+  * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [GoSIPs](https://github.com/rainliu/gosips) - SIP (Session Initiation Protocol) Stack in Go
