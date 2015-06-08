@@ -751,7 +751,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gographviz](https://github.com/awalterschulze/gographviz) - Graphviz DOT language parser for Go
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
   * [gsl](https://bitbucket.org/mingzhi/gsl) - GNU Scientific Library bindings
-  * [mathutil](https://github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
+  * [interval](http://godoc.org/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
+  * [mathutil](http://godoc.org/github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
   * [mt19937\_64](https://github.com/farces/mt19937_64) - Mersenne Twister int64 random source
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
