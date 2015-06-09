@@ -8,7 +8,7 @@ Since the $GOPATH variable can be a list, the rest of this document will use $GO
 
 ## Integrating GOPATH
 
-On OS X or Linux, adding the following expression to PATH will add all $GOPATH/bin directories.
+On OS X or Linux (bash), adding the following expression to PATH will add all $GOPATH/bin directories.
 ```
 ${GOPATH//://bin:}/bin
 ```
