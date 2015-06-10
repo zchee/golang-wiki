@@ -43,3 +43,7 @@ Go is a great language for CS majors. This page presents some university courses
   * Go was used this fall at the University of Tromsø: INF-2202 Concurrent and System Level Programming http://uit.no/studietilbud/emner/emne?p_document_id=330794
 
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
+
+# Commercial Go Training
+
+  * Framework Training run free half-day Go Programming workshops and longer (non-free) Go Programming courses in the UK and on-site worldwide: https://www.frameworktraining.co.uk/go-language-free-training-workshop/ https://www.frameworktraining.co.uk/go-programming-training-course/ 
