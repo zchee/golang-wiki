@@ -261,6 +261,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [skiplist](https://github.com/huandu/skiplist) - A skip list implementation. Highly customizable and easy to use.
   * [Skiplist](https://github.com/glenn-brown/skiplist) - A fast indexable ordered multimap.
   * [skiplist](https://godoc.org/github.com/fumin/skiplist) - Skiplist data structure ported from Redis's Sorted Sets.
+  * [fs2/mmlist](https://github.com/timtadh/fs2#mmlist) - A memory mapped list.
 
 #### Queues
 
@@ -284,6 +285,7 @@ If you find a project in this list that is dead or broken, please either mark it
 #### Trees
 
   * [b](https://github.com/cznic/b) - Package b implements B+trees with delayed page split/concat and O(1) enumeration. Easy production of source code for B+trees specialized for user defined key and value types is supported by a simple text replace.
+  * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file back memory maps. 
   * [btree](https://bitbucket.org/santucco/btree) - Package btree implements persistent B-trees with fixed size keys, http://en.wikipedia.org/wiki/Btree
   * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB
   * [go-avltree](https://github.com/ancientlore/go-avltree) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
