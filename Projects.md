@@ -262,6 +262,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [Skiplist](https://github.com/glenn-brown/skiplist) - A fast indexable ordered multimap.
   * [skiplist](https://godoc.org/github.com/fumin/skiplist) - Skiplist data structure ported from Redis's Sorted Sets.
   * [fs2/mmlist](https://github.com/timtadh/fs2#mmlist) - A memory mapped list.
+  * [stackgo](https://github.com/alediaferia/stackgo) - A fast slice-based stack implementation.
 
 #### Queues
 
