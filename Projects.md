@@ -1096,6 +1096,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [columnize](https://code.google.com/p/go-columnize/) - format slice or array into aligned columns
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
+  * [douceur](https://github.com/aymerick/douceur) - A simple CSS parser and inliner in Go.
   * [gettext](https://github.com/gosexy/gettext) - Golang bindings for gettext; Feature complete, cgo
   * [gettext-go](https://github.com/chai2010/gettext-go/) - GNU's gettext support, written in pure Go
   * [go-guess](https://github.com/salviati/go-guess) - Go wrapper for libguess
