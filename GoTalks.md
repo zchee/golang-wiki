@@ -33,7 +33,8 @@ programs.
 
 ### Go Programming
 
-[[video](http://www.youtube.com/watch?v=jgVhBThJdXc)] [[code](http://talks.golang.org/2010/io/)]
+[[video](http://www.youtube.com/watch?v=jgVhBThJdXc)] 
+[[code](http://talks.golang.org/2010/io/)]
 
 A presentation delivered by Rob Pike and Russ Cox at Google I/O 2010.  It
 illustrates how programming in Go differs from other languages through a set of
@@ -53,7 +54,8 @@ but it's still a good introduction.
 
 ### Writing Web Apps in Go
 
-[[video](http://www.youtube.com/watch?v=-i0hat7pdpk)] [[slides](http://talks.golang.org/2011/Writing_Web_Apps_in_Go.pdf)]
+[[video](http://www.youtube.com/watch?v=-i0hat7pdpk)] 
+[[slides](http://talks.golang.org/2011/Writing_Web_Apps_in_Go.pdf)]
 
 A talk by Rob Pike and Andrew Gerrand presented at Google I/O 2011.
 It walks through the construction and deployment of a simple web application
@@ -61,7 +63,8 @@ and unveils the [Go runtime for App Engine](http://blog.golang.org/2011/05/go-an
 
 ### Real World Go
 
-[[video](http://www.youtube.com/watch?v=7QDVRowyUQA)] [[slides](http://talks.golang.org/2011/Real_World_Go.pdf)]
+[[video](http://www.youtube.com/watch?v=7QDVRowyUQA)] 
+[[slides](http://talks.golang.org/2011/Real_World_Go.pdf)]
 
 A talk by Andrew Gerrand presented at Google I/O Bootcamp 2011.
 It gives a broad overview of Go's type system and concurrency model
@@ -79,11 +82,14 @@ App Engine and renders raytraced that it stores on Google Cloud Storage.
 
 Google I/O, May 2013
 
-[[video](http://www.youtube.com/watch?v=fc25ihfXhbg)] [[slides](http://talks.golang.org/2013/highperf.slide)]
+[[video](http://www.youtube.com/watch?v=fc25ihfXhbg)] 
+[[slides](http://talks.golang.org/2013/highperf.slide)]
 
 ### Practical Go Programming
 
-[[video](http://www.youtube.com/watch?v=2-pPAvqyluI)] [[slides](http://wh3rd.net/practical-go)] [[code](http://github.com/nf/goto)]
+[[video](http://www.youtube.com/watch?v=2-pPAvqyluI)] 
+[[slides](http://wh3rd.net/practical-go)] 
+[[code](http://github.com/nf/goto)]
 
 This talk presents the development of a complete web application in Go.
 It looks at design, storage, concurrency, and scaling issues in detail, using
@@ -112,6 +118,20 @@ Since Go's release in 2009 many companies (besides Google, of course) have used 
 [[slides](http://talks.golang.org/2012/chat.slide)]
 
 One of the Go Programming Language’s key design goals is code adaptability; that it should be easy to take a simple design and build upon it in a clean and natural way. In this talk I describe a simple “chat roulette” server that matches pairs of incoming TCP connections, and then use Go’s concurrency mechanisms, interfaces, and standard library to extend it with a web interface and other features. Although the function of the program changes dramatically, the inherent flexibility of Go allows the original design to remain intact as it grows.
+
+### Implementing a bignum calculator
+
+[[video](https://www.youtube.com/watch?v=PXoG0WX0r_E)]
+[[slides](http://go-talks.appspot.com/github.com/robpike/ivy/talks/ivy.slide)]
+
+Rob Pike describes his interpreter for an APL-like calculator language.
+
+### Go in Go
+
+[[video](https://www.youtube.com/watch?v=cF1zJYkBW4A)]
+[[slides](https://talks.golang.org/2015/gogo.slide)]
+
+Rob Pike speaks on moving the Go toolchain from C to Go
 
 ## Concurrency in Go
 
@@ -149,11 +169,10 @@ A tour, with some background, of the major features of Go, intended for
 an audience new to the language.  The talk was presented at OSCON 2010.
 This talk was also delivered at Sydney University in September 2010.
 
-
-
 ### Go Emerging Languages Conference Talk
 
-[[slides](http://assets.en.oreilly.com/1/event/45/Go%20Presentation.pdf)] [[video](http://confreaks.com/videos/115-elcamp2010-go)]
+[[video](http://confreaks.com/videos/115-elcamp2010-go)]
+[[slides](http://assets.en.oreilly.com/1/event/45/Go%20Presentation.pdf)] 
 
 Rob Pike's Emerging Languages Conference presentation delivered in July 2010.  Talk abstract:
 
@@ -161,6 +180,24 @@ Rob Pike's Emerging Languages Conference presentation delivered in July 2010.  T
 > (such as Erlang) that make concurrency central, yet it has deep roots. The path
 > from Hoare’s 1978 paper to Go provides insight into how and why Go works as it
 > does.
+
+## The State of Go
+
+### June 2014
+
+[[video](https://www.youtube.com/watch?v=0KF44QtoByk)]
+[[slides](https://talks.golang.org/2014/state-of-go.slide)]
+
+### February 2015
+
+[[video](https://www.youtube.com/watch?v=Kd8EqTvW5EQ)]
+[[slides](https://talks.golang.org/2015/state-of-go.slide)]
+
+### May 2015
+
+[[video](https://www.youtube.com/watch?v=S9Bu6fZnLGM)]
+[[slides](https://talks.golang.org/2015/state-of-go-may.slide)]
+
 
 ## Miscellaneous
 
@@ -193,12 +230,19 @@ Google I/0, May 2013
 
 A fireside chat with Andrew Gerrand, Brad Fitzpatrick, David Symonds, Ian Lance Taylor, Nigel Tao, Rob Pike, Robert Griesemer, Sameer Ajmani.
 
+### The State of the Gopher
+
+[[video](https://www.youtube.com/watch?v=4KFTacxqkcQ)]
+[[slides](https://talks.golang.org/2014/state-of-the-gopher.slide)]
+
 # Unofficial
 
 Talks by members of the community.
 
 ### Let's Go, or introduction to Go
 
-[[video (starting at 14:35)](http://live.digicast.ru/view/1582)] [[slides](http://talks.godoc.org/github.com/AlekSi/LetsGo/lets-go.slide)] [[source](https://github.com/AlekSi/LetsGo)]
+[[video (starting at 14:35)](http://live.digicast.ru/view/1582)] 
+[[slides](http://talks.godoc.org/github.com/AlekSi/LetsGo/lets-go.slide)] 
+[[source](https://github.com/AlekSi/LetsGo)]
 
 This talk gives an introduction to Go in Russian.
