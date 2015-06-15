@@ -1113,6 +1113,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
+  * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
   * [rubex](https://github.com/moovweb/rubex) - A simple regular expression library that supports Ruby's regex syntax. It is faster than Regexp.
   * [scanner](http://code.google.com/p/golang/source/browse/src/pkg/scanner) - A text scanner that parses primitive types, analogous to Java's
   * [segment](https://github.com/llimllib/segment) - An implementation of Norvig's recursive word segmentation algorithm
