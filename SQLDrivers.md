@@ -28,5 +28,6 @@ Drivers for Go's sql package include:
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **Couchbase N1QL**: https://github.com/couchbaselabs/go_n1ql
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
+  * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
 
 Drivers marked with a ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test
