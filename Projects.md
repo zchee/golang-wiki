@@ -566,6 +566,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Bampf](https://github.com/gazed/bampf) - Arcade style game based on the Vu 3D engine.
   * [FlappyBird](https://github.com/himanshushekhar/golang-flappybirdclone) - A simple flappy bird clone written in golang.
   * [Pong](https://github.com/LaurenceGA/Pong) - A simple Pong clone written in golang
+  * [Steven](https://github.com/thinkofdeath/steven) - A Minecraft client in Go
 
 ## GIS
 
