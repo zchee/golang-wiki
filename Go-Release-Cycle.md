@@ -5,7 +5,9 @@ The current cycle is to make a major release every six months.
 * Three months of general development.
 * Three months of release testing, known as the "feature freeze".
 
-During the freeze, only bug fixes and doc updates are accepted. New work may be permitted by the core team, but only in truly exceptional cases and only if the work was proposed and approved before the cutoff.
+During the freeze, only bug fixes and doc updates are accepted. Changes that were mailed before the freeze can be submitted if they are reviewed after the freeze.
+
+On occasion new work may be done during the freeze, but only in exceptional circumstances and typically only if the work was proposed and approved before the cutoff. Such changes should be low risk.
 
 The releases fall on Feb 1 and Aug 1, so the schedule is:
 
@@ -18,4 +20,4 @@ One or more release candidates are cut during the freeze for the community to te
 
 ## Minor releases
 
-Minor releases (e.g., 1.5.x) may be issued in the interim to address critical issues. Unlike major releases, only the fixes for the issues that motivated the release will be cherry-picked.
+Minor releases (1.x.y) may be issued between major releases to address critical issues (typically stability or security issues). Only fixes for which there is no workaround (usually the issues that motivated the release) will be cherry-picked for minor releases.
