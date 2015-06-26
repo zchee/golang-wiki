@@ -118,6 +118,7 @@
   * [The Plant](http://theplant.jp) - Developing [Qortex](http://qortex.com), a social productivity application, and backend infrastructure using Go. [source](http://theplant.jp/en/about)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
+  * [Timehop](http://timehop.com/) - [blog](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
   * [TinkerCad](http://tinkercad.com/)
   * [Toggl](http://www.toggl.com) - [blog](http://blog.toggl.com/2012/09/moving-to-go/)
   * [Torbit ](http://www.torbit.com) - [blog](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
