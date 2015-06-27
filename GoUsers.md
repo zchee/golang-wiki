@@ -46,6 +46,7 @@
   * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
+  * [Economist](http://www.economist.com/) - [github](https://github.com/EconomistDigitalSolutions/ramlapi)
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
   * [ErrPlane](http://www.errplane.com) - [blog](http://techcrunch.com/2013/03/18/errplane-performance-monitoring-and-alert-service-for-web-apps/)
   * [Facebook](https://facebook.com) - [github](https://github.com/facebookgo/), [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
