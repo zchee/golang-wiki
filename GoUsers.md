@@ -92,6 +92,7 @@
   * [Qurami](http://www.qurami.com)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
+  * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
   * [Repustate](http://www.repustate.com) - [blog](http://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/2013/04/23/)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
