@@ -18,6 +18,7 @@
   * [Airbrake](http://airbrake.io/) - [blog](http://blog.airbrake.io/status/planned-airbrake-migration-love-go-love-riak/)
   * [Apcera ](http://www.apcera.com) - [blog](http://gigaom.com/2012/09/13/will-go-be-the-new-go-to-programming-language/)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
+  * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
   * [BBC Worldwide](http://www.bbcworldwide.com/) - [source](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
   * [Beachfront Media](http://www.beachfrontmedia.com) [article](http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/)
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
