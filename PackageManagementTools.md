@@ -157,4 +157,3 @@ These tools are recorded for completeness, but it is suggested not to use them a
  * https://github.com/VividCortex/johnny-deps
  * https://github.com/moovweb/gvm
  * https://github.com/pote/gpm
- * https://github.com/sam-falvo/envie
