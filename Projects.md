@@ -268,6 +268,7 @@ If you find a project in this list that is dead or broken, please either mark it
 #### Queues
 
   * [fifo\_queue](https://github.com/yasushi-saito/fifo_queue) - Simple FIFO queue
+  * [heap](https://github.com/golangplus/container/tree/master/heap) - A general heap package without converting elements to `interface{}` and back.
   * [go-priority-queue](https://code.google.com/p/go-priority-queue/) - An easy to use heap implementation with a conventional priority queue interface.
   * [go.fifo](https://github.com/foize/go.fifo) - Simple auto-resizing thread-safe fifo queue.
   * [gopqueue](https://github.com/nu7hatch/gopqueue) - Priority queue at top of container/heap
@@ -1137,6 +1138,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Testing
 
+  * [assert](https://github.com/golangplus/testing/tree/master/assert) - Handy assert package.
   * [assert](https://github.com/chai2010/assert) - Assert for go test.
   * [assert](https://github.com/seanpont/assert) - JUnit-like asserts with excellent error messages
   * [downtest](https://github.com/jmcvetta/downtest) - Automatically run tests for all known downstream consumers of a Go package.
