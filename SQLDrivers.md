@@ -17,7 +17,7 @@ Drivers for Go's sql package include:
   * **DB2**: https://bitbucket.org/phiggins/db2cli
   * **MS ADODB**: https://github.com/mattn/go-adodb
   * **ODBC**: https://bitbucket.org/miquella/mgodbc
-  * **ODBC**: https://code.google.com/p/odbc
+  * **ODBC**: https://github.com/alexbrainman/odbc
   * **Oracle**: https://github.com/mattn/go-oci8
   * **Oracle**: https://github.com/rana/ora
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
