@@ -68,6 +68,12 @@ Sorted by publication date.
     * ISBN: 9781633430075
     * Reference: http://manning.com/butcher/
 
+  * **A Comprehensive Guide to Go Programming**
+    * Authors: Baiju Muthukadan
+    * Publication Date: June 10, 2015
+    * ISBN: ---
+    * Reference: http://golang.muthukadan.net/
+
 ## Pre-order
 
   * **Go: Up and Running**
