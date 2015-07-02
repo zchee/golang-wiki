@@ -582,7 +582,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Go Implementations
 
-  * [Express Go](http://www.unicorn-enterprises.com/express_go.html) - Interpreted Go implementation for Windows
   * [llgo](https://github.com/axw/llgo) - LLVM-based Go compiler, written in Go (work-in-progress)
 
 ## Graphics and Audio
