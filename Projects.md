@@ -26,6 +26,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Cryptography](#cryptography)
 * [Data Processing](#data-processing)
 * [Data Structures](#data-structures)
+* [Date](#date)
 * [Databases and Storage](#databases-and-storage)
 * [Development Tools](#development-tools)
 * [Distributed/Grid Computing](#distributedgrid-computing)
@@ -456,6 +457,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
   * [squirrel](https://github.com/lann/squirrel) - Fluent SQL generation for Go
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
+
+## Date
+  * [go-intervals](https://github.com/TaperBox/go-intervals) - Enhanced functionalities for manipulating date.
 
 ## Development Tools
 
