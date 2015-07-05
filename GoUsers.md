@@ -24,6 +24,7 @@
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
   * [Bitbucket](https://bitbucket.org/) - [source](http://www.reddit.com/r/golang/comments/1pjn0k/bitbucket_hiccup_reveals_go_usage/)
   * [bitly](http://bit.ly) - [github](https://github.com/bitly/nsq) [blog](http://word.bitly.com/post/33232969144/nsq)
+  * [bol.com](http://bol.com) - [github](https://github.com/emicklei/go-restful) [blog](http://ernestmicklei.com/2015/07/04/testing-your-rest-api-in-go-with-forest/)
   * [Booking.com](http://booking.com) - [source](http://www.techworld.com/careers/perl-developers-dispel-doubts-about-codes-longevity-3599357/)
   * [Bowery](http://bowery.io/) - [source](http://bowery.io/blog/posts/2014/09/30/shared-libraries-at-bowery.html)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
