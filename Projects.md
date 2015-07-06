@@ -460,6 +460,8 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Date
   * [go-intervals](https://github.com/TaperBox/go-intervals) - Enhanced functionalities for manipulating date.
+  * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
+
 
 ## Development Tools
 
