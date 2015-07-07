@@ -38,6 +38,6 @@
     * A [vim-go-extra](https://github.com/vim-jp/vim-go-extra) is vim plugin based on misc/vim in go repository. This works fine on windows too!
   * **[Visual Studio Code](https://code.visualstudio.com/)**: Recently launched in Preview, Visual Studio Code supports GO syntax highlighting out of the box.
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
-  * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go.
+  * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go (Windows or Linux with Wine).
 
 Other environments such Xcode and kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://code.google.com/p/go/source/browse/misc/?name=release-branch.go1.3
