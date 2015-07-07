@@ -7,7 +7,7 @@ When new programmers start using Go or when old Go programmers start using a new
 # Using goroutines on loop iterator variables 
 
 When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code:
-```
+```go
 for val := range values {
 	go val.my_method()
 }
@@ -15,7 +15,7 @@ for val := range values {
 
 or if you wanted to process values coming in from a channel in their own goroutines, you might write something like this, using a closure:
 
-```
+```go
 for val := range values {
 	go func() {
 		fmt.Println(val)
@@ -29,7 +29,7 @@ If you don't immediately see the problem with the above code, take a second to s
 The ` val ` variable in the above loops is actually a single variable that takes on the value of each slice element. Because the closures are all only bound to that one variable, there is a very good chance that when you run this code you will see the last element printed for every iteration instead of each value in sequence, because the goroutines will probably not begin executing until after the loop.
 
 The proper way to write that closure loop is:
-```
+```go
 for val := range values {
 	go func(val interface{}) {
 		fmt.Println(val)
@@ -41,7 +41,7 @@ By adding val as a parameter to the closure, ` val ` is evaluated at each iterat
 
 It is also important to note that variables declared within the body of a loop are not shared between iterations, and thus can be used separately in a closure.  The following code uses a common index variable ` i ` to create separate ` val `s, which results in the expected behavior:
 
-```
+```go
 for i := range valslice {
 	val := valslice[i]
 	go func() {
@@ -52,7 +52,7 @@ for i := range valslice {
 
 Note that without executing this closure as a goroutine, the code runs as expected.  The following example prints out the integers between 1 and 10.
 
-```
+```go
 for i := 1; i <= 10; i++ {
 	func() {
 		fmt.Println(i)
