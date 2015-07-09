@@ -73,6 +73,7 @@
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [Maldive](https://www.maldive.com)
+  * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
   * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
