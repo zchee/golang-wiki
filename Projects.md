@@ -459,9 +459,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
 
 ## Date
-  * [go-intervals](https://github.com/TaperBox/go-intervals) - Enhanced functionalities for manipulating date.
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
-
 
 ## Development Tools
 
