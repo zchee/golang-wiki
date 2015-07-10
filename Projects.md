@@ -397,6 +397,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PosgreSQL and SQLite3.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
   * [go-modeldb](https://github.com/jaekwon/go-modeldb) - A simple wrapper around sql.DB for struct support.
+  * [go-store](https://github.com/gosuri/go-store) - Data-store library for Go that provides a set of platform-independent interfaces to persist and retrieve key-value data.
 
 #### Multiple wrappers
 
