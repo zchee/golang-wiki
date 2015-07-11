@@ -538,7 +538,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Encodings and Character Sets
 
-  * [form](https://github.com/ajg/form) - Complete bidirectional HTML form encoder & decoder (x-www-form-urlencoded) for arbitrary data (package encoding compatible)
   * [Mahonia](http://code.google.com/p/mahonia/source/browse/) - Character-set conversion library in Go
   * [base58](https://github.com/tv42/base58) - Human input-friendly base58 encoding
   * [bencode-go](https://github.com/jackpal/bencode-go) - Encoding and decoding the bencode format used by the BitTorrent peer-to-peer file sharing protocol
@@ -1287,6 +1286,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 #### HTML forms
 
+  * [form](https://github.com/ajg/form) - Complete bidirectional HTML form encoder & decoder (x-www-form-urlencoded) for arbitrary data (package encoding compatible)
   * [Go-FORM-it](https://github.com/kirves/go-form-it) - Go library for easy and highly-customizable forms creation and template rendering.
   * [gforms](https://github.com/vmihailenco/gforms) - HTML forms for Go
   * [GoForms](https://github.com/absoludity/goforms) - Form data validation, cleaning and error reporting - a la django.forms
