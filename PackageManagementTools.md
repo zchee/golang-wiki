@@ -60,18 +60,23 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |Title       |Managed workspaces on top of the go tool|
 |Author      |John Asmuth                   |
 |Categories  |local GOPATH can be configured.|
+|           |                              |
+| **glide** |https://github.com/Masterminds/glide|
+|Title      |Project-based workspaces and dependency management|
+|Author     |Matt Butcher and Matt Farina     |
+|Categories |Project workspaces, vendoring, version locking. Manages dependencies in _vendor using a sub-shell|
+|           |                              |
+| **gb** |http://getgb.io/|
+|Title      |Project-based workspaces and dependency management|
+|Author     |Dave Cheney     |
+|Categories |Project-based workspaces, vendoring, version locking. Manages dependencies in /vendor/src|
 
 ## Revision Locking
 Package source control versions are recorded. Versions are updated into the GOPATH package tree.
 Requires switching GOPATH for every project.
 
-| **glide**  |https://github.com/Masterminds/glide|
-|:-----------|:-----------------------------|
-|Title       |Simplified Go workspace and dependency management.|
-|Author      |Matt Butcher and Matt Farina  |
-|Categories  |Revision Locking (git, mercurial, bzr, svn)    |
-|            |                              |
 | **glock**  |https://github.com/robfig/glock|
+|:-----------|:-----------------------------|
 |Title       |Lock dependencies to specific revisions.|
 |Author      |Rob Figueiredo                |
 |Categories  |Revision Locking (git)        |
