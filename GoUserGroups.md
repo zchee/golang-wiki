@@ -1,7 +1,7 @@
 Is your area not listed below? Check out [this list](http://golang.meetup.com/all/) of people from around the world that are interested in Go meetups.
 
 # Africa
-  * [Go Cape Town User Group](http://www.meetup.com/Go-Cape-Town-User-Group) - Cape Town.
+  * [Go Cape Town](http://www.meetup.com/gocapetown/) - Cape Town.
   * [golang-dakar](https://plus.google.com/u/0/communities/116552609416802012105) Dakar (Sénégal)
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
 
