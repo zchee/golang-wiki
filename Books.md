@@ -74,6 +74,12 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: http://golang.muthukadan.net/
 
+  * **Microservices in Go**
+    * Authors: Matthew Campbell
+    * Publication Date: Fall 2015 (est.)
+    * ISBN: ---
+    * Reference: http://microservicesingo.com/
+
 ## Pre-order
 
   * **Go: Up and Running**
