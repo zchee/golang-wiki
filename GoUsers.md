@@ -29,6 +29,7 @@
   * [Bowery](http://bowery.io/) - [source](http://bowery.io/blog/posts/2014/09/30/shared-libraries-at-bowery.html)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
+  * [Clever](https://clever.com/) - [github](https://github.com/clever) [blog](http://engineering.clever.com/)
   * [CloudFlare](http://www.cloudflare.com/) - [blog](http://blog.cloudflare.com/go-at-cloudflare) [article](http://arstechnica.com/information-technology/2013/02/cloudflare-blows-hole-in-laws-of-web-physics-with-go-and-railgun/)
   * [Cloud Foundry](http://www.cloudfoundry.com) - [blog](http://pivotallabs.com/a-rubyist-learning-go-a-basic-go-program/) [github](https://github.com/cloudfoundry)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
