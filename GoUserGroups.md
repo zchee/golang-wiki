@@ -62,6 +62,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Los-Angeles-Gophers](http://www.meetup.com/Los-Angeles-Gophers/) - Los Angeles CA, USA.
   * [Golang Mountain View](http://www.meetup.com/Golang-Mountain-View/) - Mountain View CA, USA.
   * [OC Gophers](http://www.meetup.com/Orange-County-Gophers) - Orange County CA, USA.
+  * [SDGophers](http://www.meetup.com/sdgophers/) — San Diego CA, USA
   * [GoSF](http://www.meetup.com/golangsf/) - San Francisco CA, USA.
   * [GoSV](http://www.meetup.com/GolangSV/) - San Mateo CA, USA.
   * [Denver Go Language User Group](http://www.meetup.com/Denver-Go-Language-User-Group/) - Denver CO, USA.
