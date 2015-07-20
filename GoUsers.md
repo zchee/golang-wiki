@@ -90,6 +90,7 @@
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
+  * [Nexway](http://www.nexway.com)
   * [ngmoco:)](http://ngmoco.com/) - [blog](http://ngenuity.ngmoco.com/2012/01/introducing-falcore-and-timber.html)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
