@@ -53,6 +53,7 @@
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
   * [EMC Cloud Services](http://www.emc.com/campaign/emc-cloud-services/index.htm) - [tweet](https://twitter.com/chadlung/status/622118049500364800)
   * [ErrPlane](http://www.errplane.com) - [blog](http://techcrunch.com/2013/03/18/errplane-performance-monitoring-and-alert-service-for-web-apps/)
+  * [Everything.me](http://everything.me) - [blog](http://geeks.everything.me/2015/05/03/adventures-with-disque/)
   * [Facebook](https://facebook.com) - [github](https://github.com/facebookgo/), [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Factom](http://www.factom.org) - [github](https://github.com/FactomProject)
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
