@@ -9,6 +9,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
     - [Receive operator](https://golang.org/ref/spec#Receive_operator)
     - [Select statements](https://golang.org/ref/spec#Select_statements)
 - Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
+- Read [Fundamentals of Concurrency](https://www.nada.kth.se/~snilsson/concurrency/)
 - Read the [Frequently Asked Questions (FAQ)](http://golang.org/doc/faq), especially
     - [Why build concurrency on the ideas of CSP?](http://golang.org/doc/faq#csp)
     - [Why goroutines instead of threads?](http://golang.org/doc/faq#goroutines)
@@ -20,7 +21,6 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Study [Go by Example](https://gobyexample.com) from [goroutines](https://gobyexample.com/goroutines) through [stateful goroutines](https://gobyexample.com/stateful-goroutines)
 
 ## Intermediate
-- Read [Fundamentals of Concurrency](https://www.nada.kth.se/~snilsson/concurrency/)
 - Watch [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
 - Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating) and do the [codewalk](http://golang.org/doc/codewalk/sharemem/)
 - Read [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
