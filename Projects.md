@@ -1174,15 +1174,15 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Virtual Machines and Languages
 
+  * [agora](https://github.com/PuerkitoBio/agora) - A dynamically typed, garbage collected, embeddable programming language built with Go
+  * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in golang
+  * [forego](https://github.com/unixdj/forego) - Forth virtual machine  
   * [Gelo](http://code.google.com/p/gelo/) - Extensible, embeddable interpreter
   * [GoForth](https://github.com/ArtemTitoulenko/GoForth) - A simple Forth parser
   * [GoLightly](https://github.com/feyeleanor/GoLightly) - A flexible and lightweight virtual machine with runtime-configurable instruction set
   * [Golog](https://github.com/mndrix/golog) - Prolog interpreter in Go
-  * [Minima](https://github.com/opesun/minima) - A language implemented in Go.
-  * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
-  * [forego](https://github.com/unixdj/forego) - Forth virtual machine
   * [go-python](https://github.com/sbinet/go-python) - go bindings for CPython C-API
-  * [GoEmPHP](https://github.com/mikespook/goemphp) - This package is built for Embedding PHP into Go.
+  * [GoEmPHP](https://github.com/mikespook/goemphp) - This package is built for Embedding PHP into Go
   * [goenv](https://github.com/smyrman/goenv) - Create an isolated environment where you install Go packages, binaries, or even C libraries. Very similar to virtualenv for Python.
   * [golemon](https://github.com/nsf/golemon) - A port of the Lemon parser-generator
   * [goll1e](https://github.com/realistschuckle/goll1e) - An LL(1) parser generator for the Go programming language.
@@ -1190,14 +1190,15 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [golua-fork](https://github.com/xenith-studios/golua) - A fork of GoLua that works on current releases of Go
   * [gopher-lua](https://github.com/yuin/gopher-lua) - A Lua 5.1 VM and compiler written in Go
   * [gotcl](http://code.google.com/p/gotcl/) - Tcl interpreter in Go
-  * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
-  * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
-  * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
-  * [monkey](https://github.com/realint/monkey) - Embed SpiderMonkey, the Mozilla JavaScript engine, in your Go program.
   * [go-v8](https://github.com/lazytiger/go-v8) - V8 JavaScript engine bindings for Go
   * [gomruby](https://github.com/AlekSi/gomruby) - mruby (mini Ruby) bindings for Go
   * [LispEx](https://github.com/kedebug/LispEx) - A dialect of Lisp extended to support for concurrent programming, written in Go.
-
+  * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
+  * [Minima](https://github.com/opesun/minima) - A language implemented in Go
+  * [monkey](https://github.com/realint/monkey) - Embed SpiderMonkey, the Mozilla JavaScript engine, in your Go program.  
+  * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
+  * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go 
+  * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
 
 ## Web Applications
 
