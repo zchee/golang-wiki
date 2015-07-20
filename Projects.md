@@ -89,6 +89,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions
   * [SCons Go Tools](https://launchpad.net/sconsgo) - A collection of builders that makes it easy to compile Go projects in SCons
   * [gg](https://github.com/lukess/gg) - A tiny multi golang projects env/make management tool.
+  * [gopei](https://github.com/geosoft1/tools) - Simple Go compiler and LiteIDE installer for Ubuntu that adds many features like github support and presenter.
 
 ## Caching
 
