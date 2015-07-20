@@ -57,6 +57,7 @@
   * [Factom](http://www.factom.org) - [github](https://github.com/FactomProject)
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
   * [Flipboard](http://www.flipboard.com)  - [source (job post)](https://news.ycombinator.com/item?id=6140956)
+  * [General Electric Software](https://www.gesoftware.com/) - [tweet],(https://twitter.com/cemezberci/status/623179382505390080)[jobs](https://xjobs.brassring.com/tgwebhost/jobdetails.aspx?partnerid=54&siteid=5346&jobid=1254417)
   * [Gengo](http://www.gengo.com)  - [blog](http://blog.gengo.com/go-gengo/)
   * [Getty Images](http://www.gettyimages.com) - [tweet](https://twitter.com/TrevorBramble/status/441372661336113152) [tweet](https://twitter.com/ickypop/status/441470245492908032)
   * [GitHub](https://github.com) - [blog post](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
