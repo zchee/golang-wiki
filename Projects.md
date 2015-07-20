@@ -227,6 +227,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [dskipjack](https://github.com/dgryski/dskipjack) - Go implementation of the SKIPJACK encryption algorithm
   * [go-ed25519](https://github.com/tendermint/go-ed25519) - CGO bindings for Floodberry's ed25519-donna.  Fast batch verification.
   * [go-hc128](https://github.com/tomfitzhenry/go-hc128) - Go implementation of HC-128, an eSTREAM stream cipher
+  * [go-jose](https://github.com/square/go-jose) - Go implementation of the JOSE standards
   * [GoSkein](https://github.com/wernerd/Skein3Fish/tree/master/go) - Implementation of Skein hash and Threefisch crypto for Go
   * [keccak](https://github.com/ebfe/keccak) - A keccak (SHA-3) implementation
   * [ketama.go](https://github.com/mncaudill/ketama.go) - libketama-style consistent hashing
