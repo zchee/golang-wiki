@@ -50,11 +50,11 @@ Sorted by publication date.
 ## Early Access
 
   * **Go In Action**
-    * Authors: Brian Ketelsen, Erik St. Martin, and William Kennedy
-    * Publication Date: Summer 2015 (est.)
+    * Authors: William Kennedy with Brian Ketelsen and Erik St. Martin
+    * Publication Date: October 2015
     * ISBN: 9781617291784
     * Reference: http://www.goinactionbook.com
-    * Discount Code (40% off): gocenter
+    * Discount Code (44% off): goiaucf
 
   * **Go Web Programming**
     * Author: Sau Sheong Chang
