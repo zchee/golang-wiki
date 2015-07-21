@@ -138,6 +138,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
+  * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
   * [gich](http://bitbucket.org/jpoirier/gich) - A cross platform which utility written in Go
   * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
