@@ -143,7 +143,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
-  * [gssh](https://github.com/syamp/gssh) - A simple command line utility to run ssh concurrently across many hosts
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
   *  [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
