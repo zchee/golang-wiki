@@ -25,3 +25,18 @@ If you want to build 32-bit binaries on a 64-bit system you'll need both
 On Windows, install ` gcc ` with
 [TDM-GCC](http://tdm-gcc.tdragon.net/).
 (Make sure you add its ` bin ` subdirectory to your ` PATH `.) Go does not support the Cygwin toolchain.
+
+## Easy build from source
+
+Use [dotsoftware](http://g14n.info/dotsoftware/) to build Go from source in few minutes, just copy and paste the following code in your terminal
+
+```
+# get latest .software
+cd
+git clone https://github.com/fibo/.software.git
+# source it in your profile and in current session
+[ -f ~/.bash_profile ] && grep 'source ~/.software/etc/profile' ~/.bash_profile || echo 'source  /.software/etc/profile' >> ~/.bash_profile && source ~/.software/etc/profile
+# build Golang
+.software_install Golang
+# you are done!
+```
