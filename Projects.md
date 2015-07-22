@@ -58,6 +58,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Source Code Management](#source-code-management)
 * [Strings and Text](#strings-and-text)
 * [Testing](#testing)
+* [Validation](#validation)
 * [Virtual Machines and Languages](#virtual-machines-and-languages)
 * [Web Applications](#web-applications)
 * [Web Libraries](#web-libraries)
@@ -1171,6 +1172,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-assert](http://github.com/daviddengcn/go-assert) - Testing utils for Go.
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
   * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
+
+## Validation
+
+  * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation supporting Cross Field and Cross Struct validation
 
 ## Virtual Machines and Languages
 
