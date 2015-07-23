@@ -146,6 +146,7 @@
   * [Twitch](http://www.twitch.tv/) - [blog](http://blog.twitch.tv/2014/04/technically-speaking-group-chat-and-general-chat-engineering/)
   * [Twitter](https://twitter.com) - [blog](https://blog.twitter.com/2015/handling-five-billion-sessions-a-day-in-real-time)
   * [TweetQureet](http://qureet.com) - [blog](http://www.qureet.com/blog/golang-technology-stack/)
+  * [Uber](http://uber.com) - [tweet](https://twitter.com/andygrunwald/status/624166365793001472) [github](https://github.com/uber/go-torch)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
   * [Urlist](http://urli.st/) - [tweet](https://twitter.com/ScintillaLuz/status/364767411750174720)
   * [Viki](http://www.viki.com/) - [github](https://github.com/viki-org/)
