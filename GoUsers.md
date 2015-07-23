@@ -77,6 +77,7 @@
   * [JelloLabs](http://www.jellolabs.com) - [blog](http://www.jellolabs.com/blog/why-golang-is-ready-for-early-stage-startups.html)
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
+  * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
