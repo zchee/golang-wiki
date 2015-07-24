@@ -71,6 +71,7 @@
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
+  * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
   * [Intel Germany (Debugger QA Team)](http://www.intel.com) - [source](http://www.reddit.com/r/golang/comments/16qw6x/the_intel_debugger_qa_team_in_germany_ulm_is/)
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
