@@ -134,7 +134,7 @@
   * [Stretchr](http://stretchr.com/) [github](https://github.com/stretchrcom)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
   * [Tamber](http://www.tamber.com/) - [blog](http://www.tamber.com/posts/ferret.html)
-  * [The Plant](http://theplant.jp) - Developing [Qortex](http://qortex.com), a social productivity application, and backend infrastructure using Go. [source](http://theplant.jp/en/about)
+  * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
   * [Timehop](http://timehop.com/) - [blog](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
