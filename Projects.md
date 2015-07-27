@@ -1175,7 +1175,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Validation
 
-  * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation supporting Cross Field and Cross Struct validation
+  * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
 
 ## Virtual Machines and Languages
 
