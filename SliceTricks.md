@@ -29,7 +29,8 @@ a = a[:i+copy(a[i:], a[i+1:])]
 
 **Delete without preserving order**
 ```go
-a[i], a = a[len(a)-1], a[:len(a)-1]
+a[i] = a[len(a)-1]
+a = a[:len(a)-1]
 
 ```
 **NOTE** If the type of the element is a _pointer_ or a struct with pointer fields, which need to be garbage collected, the above implementations of ` Cut ` and ` Delete ` have a potential _memory leak_ problem: some elements with values are still referenced by slice ` a ` and thus can not be collected. The following code can fix this problem:
