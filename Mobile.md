@@ -29,7 +29,7 @@ $ gomobile init # it might take a few minutes
 
 ## Native applications
 
-TBD
+TODO
 
 ## SDK applications and generating bindings
 
@@ -45,3 +45,5 @@ The disadvantages include the following:
 
 * Only a subset of Go types are currently supported.
 * Language bindings have a performance overhead. Though, depending on your use case, the overhead might not be a bottleneck.
+
+TODO
