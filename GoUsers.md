@@ -137,7 +137,7 @@
   * [Stretchr](http://stretchr.com/) [github](https://github.com/stretchrcom)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
   * [Tamber](http://www.tamber.com/) - [blog](http://www.tamber.com/posts/ferret.html)
-  * [Teamwork](http://teamwork.com/) - [tweet](https://twitter.com/cfdan/status/626099911105347584)
+  * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
