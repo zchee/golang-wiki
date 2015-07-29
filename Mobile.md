@@ -1,5 +1,3 @@
-# Go on Mobile
-
 With Go 1.5, Go will be support mobile platforms (Android and iOS) and
 will provide tools to build mobile applications.
 
