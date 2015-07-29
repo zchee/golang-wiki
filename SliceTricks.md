@@ -29,7 +29,7 @@ a = a[:i+copy(a[i:], a[i+1:])]
 
 **Delete without preserving order**
 ```go
-a[i] = a[len(a)-1]
+a[i] = a[len(a)-1] 
 a = a[:len(a)-1]
 
 ```
