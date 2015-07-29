@@ -33,4 +33,15 @@ TBD
 
 ## SDK applications and generating bindings
 
-TBD
+In this category, we will show you how you can use a Go package in
+your existing Android or iOS application.
+
+The advantages to follow this strategy:
+
+* You can reuse a Go package from a mobile app without making significant changes to your existing application.
+* In cases where you want to share a partial common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
+
+The disadvantages include the following:
+
+* Only a subset of Go types are currently supported.
+* Language bindings have a performance overhead. Though, depending on your use case, the overhead might not be a bottleneck.
