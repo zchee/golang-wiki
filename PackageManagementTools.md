@@ -10,10 +10,10 @@ Vendoring takes the 3rd party source code that is referenced in your project and
 |Author     |Matt Jibson                   |
 |Categories |Vendoring, Copies into "_third_party". Does not analyze dependencies first. No inspection.|
 |           |                              |
-| **vendor** |https://github.com/kardianos/vendor|
+| **govendor** |https://github.com/kardianos/govendor|
 |Title      |Copy, re-write, and list dependent package status.|
 |Author     |Daniel Theophanes                   |
-|Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal".      |
+|Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal" or "vendor".      |
 |           |                              |
 | **vendorize** |https://github.com/kisielk/vendorize|
 |Author     |Kamil Kisiel                  |
