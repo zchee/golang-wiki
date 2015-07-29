@@ -45,5 +45,6 @@ The disadvantages include the following:
 
 * Only a subset of Go types are currently supported.
 * Language bindings have a performance overhead. Though, depending on your use case, the overhead might not be a bottleneck.
+* There are a few limitiations on how the exported APIs should look like due to the limitiations of the target language.
 
 TODO
