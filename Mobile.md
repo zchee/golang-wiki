@@ -29,6 +29,14 @@ $ gomobile init # it might take a few minutes
 
 ## Native applications
 
+Native category includes applications entirely written in Go. Currently, the mobile standard library contains only a handful of packages.
+
+* App control and configuration
+* OpenGL ES 2 bindings
+* Asset management
+* Event management
+* Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors.
+
 TODO
 
 ## SDK applications and generating bindings
@@ -44,7 +52,7 @@ The advantages to follow this strategy:
 The disadvantages include the following:
 
 * Only a subset of Go types are currently supported.
-* Language bindings have a performance overhead. Though, depending on your use case, the overhead might not be a bottleneck.
+* Language bindings have a performance overhead.
 * There are a few limitiations on how the exported APIs should look like due to the limitiations of the target language.
 
 TODO
