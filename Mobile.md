@@ -29,13 +29,15 @@ $ gomobile init # it might take a few minutes
 
 ## Native applications
 
-Native category includes applications entirely written in Go. Currently, the mobile standard library contains only a handful of packages.
+Native category includes applications entirely written in Go. Currently, the
+[golang.org/x/mobile](https://godoc.org/golang.org/x/mobile)
+contains only a small set of packages that focus on:
 
 * App control and configuration
 * OpenGL ES 2 bindings
 * Asset management
 * Event management
-* Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors.
+* Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors
 
 TODO
 
