@@ -346,10 +346,6 @@ Go Version:  1.5Beta1
 
 Special Notes:  Enable a swap partition (<=1GB is fine). Build process is CPU-intensive and may cause the internal 90C temperature threshold to be exceeded - keep the HiKey cool during the build.
 
-As mentioned above, cross-compile the toolchain (e.g. on Ubuntu AMD64) for ARM64 then transfer over the bootstrap tbz file, untar it, and use that as the `GOROOT_BOOTSTRAP` as well as the `GOROOT`:
-```
-$ cd go/src
-$ GOROOT=/path/to/go/bootstrap
-$ GOROOT_BOOTSTRAP=$GOROOT ./all.bash
-```
+As mentioned above, use bootstrap.sh (e.g. on Ubuntu AMD64) for ARM64, then transfer over the bootstrap tbx file, untar it, and use it as GOROOT_BOOTSTRAP.  Check out the Go sources into a separate GOROOT, and build.
+
 _--Andrew Cencini_ (andrew@vapor.io)
