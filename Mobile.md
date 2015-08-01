@@ -1,8 +1,7 @@
 Go mobile subrepository adds support for mobile platforms (Android and iOS) and
 will provide tools to build mobile applications.
 
-There are two strategies you can follow to include Go into
-your mobile stack:
+There are two strategies you can follow to include Go into your mobile stack:
 
 - Writing all-Go native mobile applications.
 - Writing SDK applications by generating bindings from a Go package and invoke them from Java (on Android) and Objective-C (on iOS).
@@ -39,7 +38,46 @@ contains only a small set of packages that focus on:
 * Event management
 * Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors
 
-TODO
+There are various example native applications under [golang.org/x/mobile/example](https://golang.org/x/mobile/example). We will build and deploy the basic example both to an Android and iOS device.
+
+Grab the application.
+
+```
+$ go get -d golang.org/x/mobile/example/basic
+``` 
+
+### Android
+
+Run `gomobile build` to build an Android APK.
+
+```
+$ gomobile build -target=android golang.org/x/mobile/example/basic
+```
+
+Build command will build an APK named basic.apk.
+
+If you have adb command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
+
+```
+$ gomobile install golang.org/x/mobile/example/basic
+```
+
+### iOS
+Run `gomobile build` to build the package as an iOS application.
+
+Note: target=ios requires the host machine running MacOSX.
+
+```
+$ gomobile build -target=ios golang.org/x/mobile/example/basic 
+```
+
+The build command will build an application bundle, named basic.app. You can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool.
+
+Use ios-deploy to push the application to your device.
+
+```
+$ ios-deploy -b bundle.app
+```
 
 ## SDK applications and generating bindings
 
