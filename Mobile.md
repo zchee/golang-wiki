@@ -46,7 +46,7 @@ Grab the application.
 $ go get -d golang.org/x/mobile/example/basic
 ``` 
 
-### Android
+### Building and deploying to Android
 
 Run `gomobile build` to build an Android APK.
 
@@ -62,7 +62,7 @@ If you have adb command installed on your machine, you can use `gomobile install
 $ gomobile install golang.org/x/mobile/example/basic
 ```
 
-### iOS
+### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
 Note: target=ios requires the host machine running MacOSX.
