@@ -109,7 +109,7 @@ TODO
 
 ### Building an deploying to iOS
 
-Note: You need a Mac OS X host machine in order to continue.
+Note: You need a Mac OS X host machine and Xcode in order to continue.
 
 ```
 $ cd $GOPATH/src/golang.org/x/mobile/example/bind
