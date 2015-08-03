@@ -89,10 +89,40 @@ The advantages to follow this strategy:
 * You can reuse a Go package from a mobile app without making significant changes to your existing application.
 * In cases where you want to share a partial common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
 
-The disadvantages include the following:
+Current limitations are listed below.
 
 * Only a subset of Go types are currently supported.
 * Language bindings have a performance overhead.
 * There are a few limitiations on how the exported APIs should look like due to the limitiations of the target language.
 
+We will use the example package under [golang.org/x/mobile/example/bind/hello](https://golang.org/x/mobile/example/bind/hello) to generate bindings and invoke Greetings function from Java and Objective-C.
+
+Grab the example by running the command below.
+
+```
+$ go get -d golang.org/x/mobile/example/bind
+```
+
+### Building and deploying to Android
+
 TODO
+
+### Building an deploying to iOS
+
+Note: You need a Mac OS X host machine in order to continue.
+
+```
+$ cd $GOPATH/src/golang.org/x/mobile/example/bind
+$ gomobile bind -target=ios golang.org/x/mobile/example/bind/hello
+```
+
+Gomobile bind will generate a framework bundle called `hello.framework`. Open the sample XCode project by running the command below.
+
+```
+$ open ios/bind.xcodeproj
+```
+Drag and drop the `hello.framework` bundle to the Xcode project. Your project layout should look like what's shown below.
+
+![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
+
+Build and run it on the simulator or an actual device (Cmd+R). When the application launches and the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `Greetings` functions from the hello package.
