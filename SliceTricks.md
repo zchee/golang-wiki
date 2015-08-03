@@ -49,8 +49,7 @@ copy(a[i:], a[i+1:])
 a[len(a)-1] = nil // or the zero value of T
 a = a[:len(a)-1]
 // or, more simply:
-a[i] = nil
-a = append(a[:i], a[i+1:]...)
+a[len(a)-1], a = nil, append(a[:i], a[i+1:]...)
 ```
 
 > **Delete without preserving order**
