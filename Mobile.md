@@ -1,5 +1,4 @@
-Go mobile subrepository adds support for mobile platforms (Android and iOS) and
-will provide tools to build mobile applications.
+Go mobile subrepository adds support for mobile platforms (Android and iOS) and will provide tools to build mobile applications.
 
 There are two strategies you can follow to include Go into your mobile stack:
 
@@ -44,7 +43,7 @@ Grab the application.
 
 ```
 $ go get -d golang.org/x/mobile/example/basic
-``` 
+```
 
 ### Building and deploying to Android
 
@@ -65,10 +64,10 @@ $ gomobile install golang.org/x/mobile/example/basic
 ### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
-Note: target=ios requires the host machine running MacOSX.
+Note: target=ios requires the host machine running Mac OS X.
 
 ```
-$ gomobile build -target=ios golang.org/x/mobile/example/basic 
+$ gomobile build -target=ios golang.org/x/mobile/example/basic
 ```
 
 The build command will build an application bundle, named basic.app. You can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool.
