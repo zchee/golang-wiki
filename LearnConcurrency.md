@@ -36,3 +36,4 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Read [Go Concurrency Patterns: Context](http://blog.golang.org/context)
 - Study [The Go Memory Model](https://golang.org/ref/mem)
 - Study [Package atomic](https://golang.org/pkg/sync/atomic/)
+- Read [Principles of Designing Go APIs with Channels](https://inconshreveable.com/07-08-2014/principles-of-designing-go-apis-with-channels/)
