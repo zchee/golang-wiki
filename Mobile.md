@@ -125,4 +125,4 @@ Drag and drop the `hello.framework` bundle to the Xcode project. Your project la
 
 ![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
 
-Build and run it on the simulator or an actual device (Cmd+R). When the application launches and the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `Greetings` functions from the hello package.
+Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `Greetings` function from the hello package.
