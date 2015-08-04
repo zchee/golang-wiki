@@ -1161,6 +1161,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Testing
 
+  * [assert](https://github.com/bluesuncorp/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
   * [assert](https://github.com/chai2010/assert) - Assert for go test.
   * [assert](https://github.com/golangplus/testing/tree/master/assert) - Handy assert package.
   * [assert](https://github.com/seanpont/assert) - JUnit-like asserts with excellent error messages
