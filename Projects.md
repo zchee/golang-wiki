@@ -313,7 +313,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [asyncwr](https://github.com/yorhel/asyncwr) - Asynchronous, non-blocking, wrapper for io.Writer
   * [bigendian](https://bitbucket.org/taruti/bigendian) - binary parsing and printing
   * [collections](https://github.com/cosn/collections) - Several common data structures
-  * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table, Sorted Set)
+  * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (ArrayList, SortedList, Set, AVL Tree, Immutable AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table)
   * [deepcopy](http://bitbucket.org/taruti/deepcopy) - Make deep copies of data structures
   * [dgobloom](https://github.com/dgryski/dgobloom) - A Bloom Filter implementation
   * [epochdate](https://github.com/extemporalgenome/epochdate) - Compact dates stored as days since the Unix epoch
