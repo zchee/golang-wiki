@@ -332,7 +332,7 @@ _--T.J. Yang_
 
 Architecture: ARMv8 (64-bit) 8-core, 2.4GHz, 16GB RAM
 
-Operating Systems: Linux, Fedora 22
+Operating Systems: Linux, Fedora 21
 
 You will need to cross-compile a toolchain using bootstrap.bash. After you copy it to the arm64 system and set `GOROOT_BOOTSTRAP`, you can build go natively.
 
