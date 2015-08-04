@@ -109,16 +109,19 @@ If you are using Android Studio, you can use the Gradle plugin to automate this 
 
 1. Launch Android Studio.
 2. File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
+
+![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-import-androidstudio.png)
+
 3. Open hello/build.gradle to edit the absolute path to GOPATH and GO.
 4. Build and deploy the application to the device.
 
-If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set.
+If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set to the SDK path.
 
 ```
 $ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
 ```
 
-The command above will generate an aar that is importable by your IDEs.
+The command above will generate an aar that is importable by your IDE.
 
 ### Building an deploying to iOS
 
