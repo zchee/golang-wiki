@@ -23,6 +23,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Compression](#compression)
 * [Configuration File Parsers](#configuration-file-parsers)
 * [Console User Interface](#console-user-interface)
+* [Continuous Integration](#continuous-integration)
 * [Cryptography](#cryptography)
 * [Databases and Storage](#databases-and-storage)
 * [Data Processing](#data-processing)
@@ -219,6 +220,11 @@ If you find a project in this list that is dead or broken, please either mark it
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
   * [yandex-weather-cli](https://github.com/msoap/yandex-weather-cli) - Command line interface for Yandex weather service
+
+## Continuous Integration
+
+  * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
+  * [overalls](https://github.com/bluesuncorp/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
 ## Cryptography
 
@@ -1445,4 +1451,3 @@ The following entries have not been filed. Please help by putting these in relev
   * [stressdisk](https://github.com/ncw/stressdisk) - Stress test your disks / memory cards / USB sticks before trusting your valuable data to them
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
-
