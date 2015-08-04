@@ -295,8 +295,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [b](https://github.com/cznic/b) - Package b implements B+trees with delayed page split/concat and O(1) enumeration. Easy production of source code for B+trees specialized for user defined key and value types is supported by a simple text replace.
   * [btree](https://bitbucket.org/santucco/btree) - Package btree implements persistent B-trees with fixed size keys, http://en.wikipedia.org/wiki/Btree
-  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB
-  * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file back memory maps. 
+  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB 
   * [go-avltree](https://github.com/ancientlore/go-avltree) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
   * [go-btree](https://github.com/liangx8/tree.git) - Simple balance tree implementation
   * [go-darts](https://github.com/awsong/go-darts) - Double-ARray Trie System for Go
@@ -413,6 +412,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [bolt](https://github.com/boltdb/bolt) - Persistent key/value store inspired by LMDB.
   * [dbm](https://github.com/cznic/exp/tree/master/dbm) - Package dbm (WIP) implements a simple database engine, a hybrid of a hierarchical and/or a key-value one.
+  * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file backed memory maps.
   * [Diskv](https://github.com/peterbourgon/diskv) - Home-grown, disk-backed key-value store
   * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
   * [gkvlite](https://github.com/steveyen/gkvlite) - Pure go, simple, ordered, atomic key-value persistence based on append-only file format.
