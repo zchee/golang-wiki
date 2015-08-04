@@ -75,7 +75,7 @@ The build command will build an application bundle, named basic.app. You can dep
 Use ios-deploy to push the application to your device.
 
 ```
-$ ios-deploy -b bundle.app
+$ ios-deploy -b basic.app
 ```
 
 ## SDK applications and generating bindings
