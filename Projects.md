@@ -256,6 +256,17 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Data Structures
 
+### Collections
+
+  * [collections](https://github.com/cosn/collections) - Several common data structures
+  * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (ArrayList, SortedList, Set, AVL Tree, Immutable AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table)
+  * [ps](https://github.com/mndrix/ps) - Persistent data structures
+
+### Hashtables
+
+  * [gohash](http://code.google.com/p/gohash/) - A simple linked-list hashtable that implements sets and maps
+  * [go-maps](https://github.com/serge-hulne/go-maps) - Go maps generalized to interfaces
+
 ### Lists
 
   * [fs2/mmlist](https://github.com/timtadh/fs2#mmlist) - A memory mapped list.
@@ -289,14 +300,14 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [disjoint](https://github.com/spakin/disjoint) - Disjoint sets (union-find algorithm with path compression)
   * [golang-set](https://github.com/deckarep/golang-set) - A full thread-safe and unsafe set implementation for Go.
+  * [goset](https://github.com/fatih/goset) - A simple, thread safe Set implementation
   * [set](https://github.com/fatih/set) - Set data structure for Go
 
 ### Trees
 
   * [b](https://github.com/cznic/b) - Package b implements B+trees with delayed page split/concat and O(1) enumeration. Easy production of source code for B+trees specialized for user defined key and value types is supported by a simple text replace.
   * [btree](https://bitbucket.org/santucco/btree) - Package btree implements persistent B-trees with fixed size keys, http://en.wikipedia.org/wiki/Btree
-  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB
-  * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file back memory maps. 
+  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB 
   * [go-avltree](https://github.com/ancientlore/go-avltree) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
   * [go-btree](https://github.com/liangx8/tree.git) - Simple balance tree implementation
   * [go-darts](https://github.com/awsong/go-darts) - Double-ARray Trie System for Go
@@ -312,8 +323,6 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [asyncwr](https://github.com/yorhel/asyncwr) - Asynchronous, non-blocking, wrapper for io.Writer
   * [bigendian](https://bitbucket.org/taruti/bigendian) - binary parsing and printing
-  * [collections](https://github.com/cosn/collections) - Several common data structures
-  * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table, Sorted Set)
   * [deepcopy](http://bitbucket.org/taruti/deepcopy) - Make deep copies of data structures
   * [dgobloom](https://github.com/dgryski/dgobloom) - A Bloom Filter implementation
   * [epochdate](https://github.com/extemporalgenome/epochdate) - Compact dates stored as days since the Unix epoch
@@ -321,13 +330,10 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-algs/ed](https://github.com/daviddengcn/go-algs) - Generalized edit-distance implementation
   * [go-algs/maxflow](https://github.com/daviddengcn/go-algs) - An energy minimization tool using max-flow algorithm.
   * [go-extractor](https://github.com/salviati/go-extractor) - Go wrapper for GNU libextractor
-  * [gohash](http://code.google.com/p/gohash/) - A simple linked-list hashtable that implements sets and maps
   * [Gokogiri](https://github.com/moovweb/gokogiri) - A lightweight libxml wrapper library
-  * [go-maps](https://github.com/serge-hulne/go-maps) - Go maps generalized to interfaces
   * [GoNetCDF](https://bitbucket.org/ctessum/gonetcdf) - A wrapper for the NetCDF file format library
   * [goop](https://github.com/losalamos/goop) - Dynamic object-oriented programming support for Go
   * [gopart](https://github.com/meirf/gopart)- Type-agnostic partitioning for anything that can be indexed in Go.
-  * [goset](https://github.com/fatih/goset) - A simple, thread safe Set implementation
   * [gotoc](https://github.com/dsymonds/gotoc) - A protocol buffer compiler written in Go
   * [govalid](https://github.com/gima/govalid) - Data validation library
   * [goxml](https://github.com/jbussdieker/golibxml) - A thin wrapper around libxml2
@@ -336,7 +342,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [jsonv](https://github.com/gima/jsonv) - A JSON validator
   * [libgob](http://code.google.com/p/libgob/) - A low level library for generating gobs from other languages
   * [Picugen](http://patrickmylund.com/projects/picugen/) - A general-purpose hash/checksum digest generator.
-  * [ps](https://github.com/mndrix/ps) - Persistent data structures
   * [tribool](https://github.com/saschpe/tribool) - Ternary (tree-valued) logic for Go
   * [Tuple](https://bitbucket.org/gotamer/tuple) - Tuple is a go type that will hold mixed types / values
   * [vcard](https://bitbucket.org/llg/vcard) - Reading and writing vcard file in go.  Implementation of RFC 2425 (A MIME Content-Type for Directory Information) and RFC 2426 (vCard MIME Directory Profile).
@@ -413,6 +418,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [bolt](https://github.com/boltdb/bolt) - Persistent key/value store inspired by LMDB.
   * [dbm](https://github.com/cznic/exp/tree/master/dbm) - Package dbm (WIP) implements a simple database engine, a hybrid of a hierarchical and/or a key-value one.
+  * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file backed memory maps.
   * [Diskv](https://github.com/peterbourgon/diskv) - Home-grown, disk-backed key-value store
   * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
   * [gkvlite](https://github.com/steveyen/gkvlite) - Pure go, simple, ordered, atomic key-value persistence based on append-only file format.
@@ -1439,3 +1445,4 @@ The following entries have not been filed. Please help by putting these in relev
   * [stressdisk](https://github.com/ncw/stressdisk) - Stress test your disks / memory cards / USB sticks before trusting your valuable data to them
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
+
