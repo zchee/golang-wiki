@@ -1,4 +1,4 @@
-Go mobile subrepository adds support for mobile platforms (Android and iOS) and will provide tools to build mobile applications.
+Go mobile subrepository adds support for mobile platforms (Android and iOS) and provides tools to build mobile applications.
 
 There are two strategies you can follow to include Go into your mobile stack:
 
@@ -10,9 +10,9 @@ these strategies.
 
 ## Tooling
 
-Go Mobile introduces a new tool, gomobile, to help you with the build
-and the binding process. Go get gomobile and initialize it to install
-the required toolchain.
+Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile), 
+to help you with the build and the binding process. 
+Go get gomobile and initialize it to install the required toolchain.
 
 On Mac OSX, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
@@ -55,7 +55,7 @@ $ gomobile build -target=android golang.org/x/mobile/example/basic
 
 Build command will build an APK named basic.apk.
 
-If you have adb command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
+If you have [adb](http://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
 
 ```
 $ gomobile install golang.org/x/mobile/example/basic
@@ -86,13 +86,13 @@ your existing Android or iOS application.
 The advantages to follow this strategy:
 
 * You can reuse a Go package from a mobile app without making significant changes to your existing application.
-* In cases where you want to share a partial common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
+* In cases where you want to share a common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
 
 Current limitations are listed below.
 
-* Only a subset of Go types are currently supported.
+* Only a [subset of Go types](https://godoc.org/golang.org/x/mobile/cmd/gobind) are currently supported.
 * Language bindings have a performance overhead.
-* There are a few limitiations on how the exported APIs should look like due to the limitiations of the target language.
+* There are a few limitations on how the exported APIs should look like due to the limitations of the target language.
 
 We will use the example package under [golang.org/x/mobile/example/bind/hello](https://golang.org/x/mobile/example/bind/hello) to generate bindings and invoke Greetings function from Java and Objective-C.
 
@@ -105,7 +105,7 @@ $ go get -d golang.org/x/mobile/example/bind
 ### Building and deploying to Android
 
 
-If you are using Android Studio, you can use the Gradle plugin to automate this process.
+If you are using Android Studio, you can use the [Gradle plugin](https://plugins.gradle.org/plugin/org.golang.mobile.bind) to automate this process.
 
 * Launch Android Studio.
 * File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
@@ -121,7 +121,7 @@ If you are not using Android Studio, in order to work with bindings for Android,
 $ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
 ```
 
-The command above will generate an aar that is importable by your IDE.
+The command above will generate an [aar](http://tools.android.com/tech-docs/new-build-system/aar-format)  that can be importable by your IDE.
 
 ### Building an deploying to iOS
 
