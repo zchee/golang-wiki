@@ -47,6 +47,12 @@ Sorted by publication date.
     * ISBN: 978-0992461294
     * Reference: https://learnable.com/books/level-up-your-web-apps-with-go
 
+  * **Mastering Go Web Services**
+    * Author: Nathan Kozyra
+    * Publication Date: April, 2015
+    * ISBN: 9781783981304
+    * Reference: https://www.packtpub.com/web-development/mastering-go-web-services
+
 ## Early Access
 
   * **Go In Action**
