@@ -159,6 +159,7 @@
   * [Urlist](http://urli.st/) - [tweet](https://twitter.com/ScintillaLuz/status/364767411750174720)
   * [Viki](http://www.viki.com/) - [github](https://github.com/viki-org/)
   * [VividCortex](https://vividcortex.com/) - [source](https://vividcortex.com/jobs/) [github](https://github.com/VividCortex/)
+  * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [Zynga](http://www.zynga.com) - [source (zbase component)](http://code.zynga.com/2013/08/zbase-a-high-performance-elastic-distributed-key-value-store/) [github](https://github.com/zbase)
 
 
