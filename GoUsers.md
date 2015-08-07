@@ -71,6 +71,7 @@
   * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
+  * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
