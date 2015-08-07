@@ -609,8 +609,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Graphics and Audio
 
-  * [allegro 5](https://github.com/tapir/allegro5) - Go Bindings for Allegro 5 library
-  * [allergro](https://github.com/lasarux/go-spanish/tree/master/allegro) - basic wrapper for the Allegro library
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
   * [baukasten](https://github.com/Agon/baukasten) - A modular game library.
