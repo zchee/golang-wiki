@@ -97,6 +97,7 @@
   * [MongoDB](http://www.mongodb.com) - [blog](http://blog.mongodb.org/post/51643994762/go-agent-go)
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
+  * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Nexway](http://www.nexway.com)
