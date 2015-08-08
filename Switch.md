@@ -162,7 +162,6 @@ func typeName(v interface{}) string {
 	default:
 		return "unknown"
 	}
-	panic("unreachable")
 }
 ```
 
