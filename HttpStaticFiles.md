@@ -1,6 +1,3 @@
-﻿#summary Serving static files with HTTP.
-#labels http
-
 # Serving Static Files with HTTP
 
 The HTTP package provides good support for efficiently serving static files.
