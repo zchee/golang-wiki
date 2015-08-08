@@ -2,7 +2,7 @@
 
 Tips for hacking on Go and having multiple ` $GOROOT ` workspaces...
 
-Sometimes you need to check out multiple copies of the Go tree, perhaps you're working on several core library changes at once and you want to test them independently.  (Although Mercurial supports the kind of lightweight branching that makes it possible to develop multiple changes in one workspace, to avoid confusion, the Go project has disabled this feature to ensure that submitted code follows a strictly linear progression.)
+Sometimes you need to check out multiple copies of the Go tree, perhaps you're working on several core library changes at once and you want to test them independently.
 
 Let's say you've checked the trees out as ` $HOME/go1 `, ` $HOME/go2 `, etc.  (The specific names are not important.)  While you're working in each tree, it's important that you always set ` GOROOT ` to the correct tree or unexpected things will happen, like binaries will be built from sources other than the ones you've just edited.  Such mistakes can be time-consuming to notice, and it's easy to forget to update ` GOPATH ` when you change directories.  The following trick may be helpful.
 
