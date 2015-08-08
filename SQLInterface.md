@@ -23,7 +23,13 @@ Where driver specifies a database driver and dataSourceName
 specifies database-specific connection information
 such as database name and authentication credentials.
 
-Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the Ping function.
+Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the Ping function:
+
+```
+if err := db.Ping(); err != nil {
+  log.Fatal(err)
+}
+```
 
 After use, the database is closed using Close.
 
