@@ -140,7 +140,7 @@ Gomobile bind will generate a framework bundle called `hello.framework`. Open th
 ```
 $ open ios/bind.xcodeproj
 ```
-Drag and drop the `hello.framework` bundle to the Xcode project.
+Drag and drop the `hello.framework` bundle to the Xcode project. Check "Copy items in needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and reruning `gomobile bind` will update the hello.framework.
 
 ![Drag and drop hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-iosdrag.png)
 
