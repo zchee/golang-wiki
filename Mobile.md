@@ -104,6 +104,8 @@ $ go get -d golang.org/x/mobile/example/bind
 
 ### Building and deploying to Android
 
+Note: Currently only ARM devices and ARM emulating AVDs are supported.
+
 If you are using Android Studio, you can use the [Gradle plugin](https://plugins.gradle.org/plugin/org.golang.mobile.bind) to automate this process.
 
 * Launch Android Studio.
