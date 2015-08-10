@@ -8,7 +8,7 @@ There are two strategies you can follow to include Go into your mobile stack:
 This article will contain step-by-step guides to explain how to achieve
 these strategies.
 
-## Tooling
+## Tools
 
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile), 
 to help you with the build and the binding process. 
