@@ -73,6 +73,7 @@
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
+  * [HER](https://weareher.com/)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
