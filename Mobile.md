@@ -116,6 +116,8 @@ If you are using Android Studio, you can use the [Gradle plugin](https://plugins
 * Open hello/build.gradle to edit the absolute path to GOPATH and GO.
 * Build and deploy the application to the device.
 
+The app module contains the main application that invokes the `hello.Greetings`. When application is launched the text view is updated with the string returned value.
+
 If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set to the SDK path.
 
 ```
