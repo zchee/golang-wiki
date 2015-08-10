@@ -64,7 +64,7 @@ $ gomobile install golang.org/x/mobile/example/basic
 ### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
-Note: target=ios requires the host machine running Mac OS X.
+Note: target=ios requires the host machine running Mac OS X. Prior to Xcode 7, you need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/ios/recipes/xcode_help-accounts_preferences/articles/obtain_certificates_and_provisioning_profiles.html) in order to continue.
 
 ```
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
@@ -104,7 +104,6 @@ $ go get -d golang.org/x/mobile/example/bind
 
 ### Building and deploying to Android
 
-
 If you are using Android Studio, you can use the [Gradle plugin](https://plugins.gradle.org/plugin/org.golang.mobile.bind) to automate this process.
 
 * Launch Android Studio.
@@ -125,7 +124,7 @@ The command above will generate an [aar](http://tools.android.com/tech-docs/new-
 
 ### Building an deploying to iOS
 
-Note: You need a Mac OS X host machine and Xcode in order to continue.
+Note: target=ios requires the host machine running Mac OS X.
 
 ```
 $ cd $GOPATH/src/golang.org/x/mobile/example/bind
