@@ -136,7 +136,11 @@ Gomobile bind will generate a framework bundle called `hello.framework`. Open th
 ```
 $ open ios/bind.xcodeproj
 ```
-Drag and drop the `hello.framework` bundle to the Xcode project. Your project layout should look like what's shown below.
+Drag and drop the `hello.framework` bundle to the Xcode project.
+
+![Drag and drop hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-iosdrag.png)
+
+Your project layout should look like what's shown below.
 
 ![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
 
