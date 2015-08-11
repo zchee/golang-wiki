@@ -70,9 +70,17 @@ Note: target=ios requires the host machine running Mac OS X. Prior to Xcode 7, y
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
 ```
 
-The build command will build an application bundle, named basic.app. You can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool.
+The build command will build an application bundle, named basic.app.
 
-Use ios-deploy to push the application to your device.
+You can deploy .app files by dragging and dropping them to the device.
+
+* In Xcode, open Window > Devices.
+* Select the physical device from the left pane.
+* Drag and drop the .app file to "Installed Apps" section.
+
+![Deploying app bundle](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-ios-deploy.png)
+
+Alternatively, you can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool. Use ios-deploy to push the application to your device.
 
 ```
 $ ios-deploy -b basic.app
