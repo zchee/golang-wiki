@@ -17,7 +17,7 @@
   * **[godef](https://code.google.com/p/rog-go/source/browse/exp/cmd/godef/)**: Prints the source location of definitions in Go programs. Integrates with acme and emacs.
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](http://plugins.jetbrains.com/plugin/?idea&id=5047) support available.
+  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) support available.
   * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
   * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE, Go-lang support will be built-in as of version 9 (currently available as a pre-release).
   * **[Komodo Edit](http://komodoide.com/komodo-edit/)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
