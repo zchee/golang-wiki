@@ -289,3 +289,10 @@ Sorted by publication date.
     * Publication Date: 2015-03-22
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
+
+# Korean
+  * **가장 빨리 만나는 Go 언어**
+    * Author: 이재홍
+    * Publication Date: 2015-06-01
+    * ISBN: 978-8-96618-990-8
+    * Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
