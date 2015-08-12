@@ -76,6 +76,7 @@
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [HER](https://weareher.com/)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html)
+  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
