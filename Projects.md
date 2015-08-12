@@ -481,6 +481,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Date
 
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
+  * [date](https://github.com/fxtlabs/date) - A package for working with dates.
 
 ## Development Tools
 
