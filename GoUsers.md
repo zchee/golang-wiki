@@ -15,6 +15,7 @@
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
   * [ActiveState](http://www.activestate.com) - [github](https://github.com/activestate)
   * [adeven](http://www.adeven.com) - [blog](http://big-elephants.com/2012-10/deploying-go-with-capistrano/) [github](https://github.com/adeven)
+  * [AeroFS](https://www.aerofs.com/) - [github](https://github.com/aerofs/gockerize), [blog](https://www.aerofs.com/blog/introducing-gockerize/)
   * [Airbrake](http://airbrake.io/) - [blog](http://blog.airbrake.io/status/planned-airbrake-migration-love-go-love-riak/)
   * [Apcera ](http://www.apcera.com) - [blog](http://gigaom.com/2012/09/13/will-go-be-the-new-go-to-programming-language/)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
