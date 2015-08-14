@@ -24,6 +24,8 @@ Go is a great language for CS majors. This page presents some university courses
 
   * University of Duisburg-Essen (Germany) had a lecture about Go and CSP within their course on [Concurrent systems modelling](http://www.ti.inf.uni-due.de/teaching/ss2014/mod_ns/) in summer 2014. [[Slides](http://www.ti.inf.uni-due.de/fileadmin/public/teaching/mod_ns/folien/SS2014/google-go-2x2.pdf)]
 
+  * University of Stavanger, Norway. We use Go to teach concurrency principles in DAT320 Operating Systems. http://www.uis.no/studies/study-courses/?code=DAT320_1&parentcat=9835
+
 # Distributed Computing
 
   * Distributed Systems course (15-440) at CMU: http://www.cs.cmu.edu/~dga/15-440/F12/index.html (see also http://da-data.blogspot.se/2013/02/teaching-distributed-systems-in-go.html)
@@ -43,6 +45,8 @@ Go is a great language for CS majors. This page presents some university courses
   * Go was used this fall at the University of Tromsø: INF-2202 Concurrent and System Level Programming http://uit.no/studietilbud/emner/emne?p_document_id=330794
 
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
+
+  * University of Stavanger, Norway. We use Go to build a replicated state machine based on Paxos in DAT520 Distributed Systems. http://www.uis.no/studies/study-courses/?code=DAT520_1&parentcat=9835
 
 # Commercial Go Training
 
