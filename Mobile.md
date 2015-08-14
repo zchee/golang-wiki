@@ -107,7 +107,7 @@ We will use the example package under [golang.org/x/mobile/example/bind/hello](h
 Grab the example by running the command below.
 
 ```
-$ go get -d golang.org/x/mobile/example/bind
+$ go get -d golang.org/x/mobile/example/bind/...
 ```
 
 ### Building and deploying to Android
