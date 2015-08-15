@@ -629,7 +629,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
   * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
   * [goalsa](https://github.com/cocoonlife/goalsa) - Go bindings for ALSA capture and playback
-  * [gocairo](http://bitbucket.org/dethe/gocairo/) - Go wrapper for cairo graphics library
   * [go-cairo](https://github.com/ungerik/go-cairo) - Go wrapper for the cairo graphics library
   * [gocl](https://github.com/rainliu/gocl) - Go OpenCL (gocl) binding
   * [go-csnd6](https://github.com/fggp/go-csnd6) - Go binding to the Csound6 API
