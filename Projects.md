@@ -97,6 +97,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [cache2go](https://github.com/muesli/cache2go) - A caching library with expiration capabilities and access counters
   * [go-cache](http://patrickmylund.com/projects/go-cache/) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications
+  * [golibs/cache](https://github.com/SimonWaldherr/golibs/tree/master/cache) - A tiny cache package
   * [gomemcached](https://github.com/dustin/gomemcached) - A memcached server in go
   * [gomemcache](https://github.com/kklis/gomemcache) - a memcached client
   * [go-slab](https://github.com/couchbaselabs/go-slab) - Slab allocator for go.
@@ -294,6 +295,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go.fifo](https://github.com/foize/go.fifo) - Simple auto-resizing thread-safe fifo queue.
   * [gopqueue](https://github.com/nu7hatch/gopqueue) - Priority queue at top of container/heap
   * [go-priority-queue](https://code.google.com/p/go-priority-queue/) - An easy to use heap implementation with a conventional priority queue interface.
+  * [golibs/stack](https://github.com/SimonWaldherr/golibs/tree/master/stack) - A LIFO and ringbuffer package
   * [gringo](https://github.com/textnode/gringo) - A minimalist queue implemented using a stripped-down lock-free ringbuffer
   * [heap](https://github.com/golangplus/container/tree/master/heap) - A general heap package without converting elements to `interface{}` and back.
   * [queued](https://github.com/timtadh/queued) - A simple network queue daemon
@@ -771,6 +773,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gographviz](https://github.com/awalterschulze/gographviz) - Graphviz DOT language parser for Go
   * [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms
   * [go-humanize](https://github.com/dustin/go-humanize) - Formatting numbers for humans.
+  * [golibs/xmath](https://github.com/SimonWaldherr/golibs/tree/master/xmath) - a collection of math functions (mostly mean algorithms)
   * [go-lm](https://github.com/awblocker/go-lm) - Linear models in Go. Provides WLS and regression with t residuals via a cgo -> BLAS/LAPACK interface.
   * [go.mahalanobis](https://github.com/ant0ine/go.mahalanobis) - Naive implementation of the Mahalanobis distance using go.matrix
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
@@ -829,6 +832,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gogobject](https://github.com/nsf/gogobject) - GObject-introspection based bindings generator
   * [go-idn](http://code.google.com/p/go-idn/) - a project to bring IDN support to Go, feature compatible with libidn
   * [GoLCS](https://github.com/makokaka/goalgo/tree/master/algo) - Solve Longest Common Sequence problem in go
+  * [golibs/as](https://github.com/SimonWaldherr/golibs/tree/master/as) - Converting data types
   * [golife](https://github.com/r2p2/golife) - Implementation of Game of Life for command line
   * [go-magic](https://code.google.com/p/go-magic/) - A Go wrapper for libmagic
   * [go-magic](https://github.com/kwilczynski/go-magic) - Simple interface to libmagic for Go Programming Language
