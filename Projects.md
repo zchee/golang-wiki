@@ -1051,6 +1051,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-crazy](https://github.com/droundy/go-crazy) - An experimental source-to-source compiler for go
   * [go-gtk-demo](https://github.com/pebbe/go-gtk-demo) - A demonstration of how to use GTK+ with Go.
   * [go-hashmap](https://github.com/phf/go-hashmap) - A hash table in pure go as an experiment in Go performance
+  * [golang-examples](https://github.com/SimonWaldherr/golang-examples) - A bunch of golang examples
+  * [GolangSortingVisualization](https://github.com/SimonWaldherr/GolangSortingVisualization) - A visualization of various sorting algorithms in Go
+  * [golibs](https://github.com/SimonWaldherr/golibs) - A collection of tiny go packages (and also a test repo for various CI and coverage services)
   * [goplay](https://github.com/timtadh/goplay) - A bunch of random small programs in Go
   * [goroup](https://github.com/gyuho/goroup) - Set Theory
   * [gosequence](https://github.com/gyuho/gosequence) - Slice, Map tricks, Stack, Queue
