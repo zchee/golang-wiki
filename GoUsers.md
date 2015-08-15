@@ -169,6 +169,7 @@
   * [VividCortex](https://vividcortex.com/) - [source](https://vividcortex.com/jobs/) [github](https://github.com/VividCortex/)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
+  * [ZITEC](http://www.zitec.de)
   * [Zynga](http://www.zynga.com) - [source (zbase component)](http://code.zynga.com/2013/08/zbase-a-high-performance-elastic-distributed-key-value-store/) [github](https://github.com/zbase)
 
 
