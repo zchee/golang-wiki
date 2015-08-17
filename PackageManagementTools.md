@@ -1,6 +1,11 @@
 This page contains a list of tools for managing Go packages and their dependencies. The tools are divided into categories based on their approach to version management.
 
-The approach endorsed by the Go project is package copy with import path re-writes.
+## GO15VENDOREXPERIMENT
+
+As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/EOKSoaL5p8wJ), the Go toolchain includes an experimental vendoring flag, `GO15VENDOREXPERIMENT`. This will be part of the go1.5 release and represents the Go team's recommended approach to vendoring dependencies. You can read more about how this environment variable works in [this post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3) by [@freeformz](https://twitter.com/freeformz).
+
+As of 2015-08-17, both [Godep](https://github.com/tools/godep) and [Govendor](https://github.com/kardianos/govendor) support this new flag. 
+
 
 ## Pkg copy with import path re-write
 Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
