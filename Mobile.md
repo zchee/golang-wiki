@@ -157,3 +157,9 @@ Your project layout should look like what's shown below.
 ![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
 
 Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `hello.Greetings` function.
+
+#### iOS Simulator
+
+As of Go 1.5, only darwin/amd64 works on the iOS simulator. To use the simulator, you need to configure Xcode to only try to run 64-bit binaries.
+
+Xcode matches the bit width of the ARM binaries when running on the X86 simulator. That is, if you configure Xcode to build both 32-bit and 64-bit ARM binaries (the default), it will attempt to run 32-bit X86 binaries on the simulator, which will not work with Go today. Modify the Xcode build settings to only build 64-bit ARM binaries, and the simulator will run the amd64 binary.
