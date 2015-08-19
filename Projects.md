@@ -786,6 +786,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mathutil](http://godoc.org/github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
   * [mt19937\_64](https://github.com/farces/mt19937_64) - Mersenne Twister int64 random source
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
+  * [primes](https://github.com/fxtlabs/primes) - Simple functionality for working with prime numbers.
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [statistics](https://github.com/grd/stat) - GNU GSL Statistics (GPLv3)
