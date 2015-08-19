@@ -10,8 +10,10 @@ these strategies.
 
 ## Tools
 
-Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile), 
-to help you with the build and the binding process. 
+Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobile tools.
+
+Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
+to help you with the build and the binding process.
 Go get gomobile and initialize it to install the required toolchain.
 
 On Mac OSX, you will need to have
