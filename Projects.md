@@ -111,6 +111,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Cloud Computing
 
   * [Docker](http://docker.io) - The Linux container runtime. Developed by dotCloud.
+  * [Kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
   * [gocircuit](http://gocircuit.org) - A distributed operating system that sits on top of the traditional OS on multiple machines in a datacenter deployment. It provides a clean and uniform abstraction for treating an entire hardware cluster as a single, monolithic compute resource. Developed by Tumblr.
   * [gosync](https://github.com/brettweavnet/gosync) - A package for syncing data to and from S3.
   * [juju](https://juju.ubuntu.com) - Orchestration tool (deployment, configuration and lifecycle management), developed by Canonical.
