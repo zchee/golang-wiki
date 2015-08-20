@@ -741,6 +741,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [spacelog](https://github.com/spacemonkeygo/spacelog) - Hierarchical, leveled, and structured logging library for Go
   * [syslog](https://github.com/ziutek/syslog) - With this package you can create your own syslog server with your own handlers for different kind of syslog messages
   * [timber](https://github.com/ngmoco/timber) - Configurable Logger for Go
+  * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
 
 ## Machine Learning
 
