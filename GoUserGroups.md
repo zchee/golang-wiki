@@ -96,3 +96,5 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Brasil](http://www.golangbr.org) - Brazil.
   * [Golang Buenos Aires] (http://www.meetup.com/Golang-Meetup-Buenos-Aires) - Argentina.
   * [Golang Medellín] (http://www.meetup.com/Golang-Medellin/) - Colombia.
+  * [Golang Chile] (https://groups.google.com/d/forum/golang-chile) - Chile.
+  * [Golang Panamá] (https://groups.google.com/d/forum/golang-panama) - Panamá.
