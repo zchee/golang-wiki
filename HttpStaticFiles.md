@@ -14,6 +14,6 @@ func main() {
 }
 ```
 
-That example is intentionally short to make a point.  Using panic() to deal with an error is probably too aggressive & would produce too much output.  More typical style would be:
+That example is intentionally short to make a point.  Using `panic()` to deal with an error is probably too aggressive & would produce too much output.
 
-See the [net/http documentation](http://golang.org/pkg/net/http/) and in particular the [FileServer example](http://golang.org/pkg/net/http/#example_FileServer) for more details.
+See [net/http documentation](http://golang.org/pkg/net/http/) and in particular the [FileServer example](http://golang.org/pkg/net/http/#example_FileServer) for a more typical example.
