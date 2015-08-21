@@ -1,4 +1,4 @@
-Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://golang.org/).
+Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://golang.org/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
 Table of Contents
 =================
@@ -59,6 +59,7 @@ Once you have an overview of the language, here are resources you can use to lea
       - [LearnServerProgramming](LearnServerProgramming)
       - [LearnTesting](LearnTesting)
   - Videos, Talks and Presentations
+    - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
     - [Screencasts](Screencasts)
   - [Resources for non-English speakers](NonEnglish)

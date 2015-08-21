@@ -1,6 +1,6 @@
 # Go talks
 
-Check out http://talks.golang.org for presentations for some of the talks.
+Check out http://talks.golang.org for presentations for some of the talks. For a comprehensive, curated and searchable index, try [GopherVids](http://gophervids.appspot.com/) from Damian Gryski.
 
 # Official
 
