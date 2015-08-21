@@ -540,7 +540,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Editors
 
   * [Conception](https://github.com/shurcooL/Conception) - Conception is an experimental research project, meant to become a modern IDE/Language package.  [demo video](http://youtu.be/DNJ7HqlV55k)
-  * [Go.bbpackage](https://github.com/ascarter/Go.bbpackage) - BBEdit package for Go development
+  * [Go-bbpackage](https://github.com/ascarter/Go-bbpackage) - BBEdit package for Go development
   * [goclipse](https://github.com/GoClipse/goclipse) - An Eclipse-based IDE for Go.
   * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin
   * [godev](https://github.com/sirnewton01/godev) - Web-based IDE for the Go language
