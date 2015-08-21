@@ -1129,6 +1129,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [awk](https://github.com/spakin/awk) - Easy AWK-style text processing in Go
   * [binarydist](https://github.com/kr/binarydist/) - Binary diff and patch
   * [Black Friday](https://github.com/russross/blackfriday) - A markdown processor
+  * [codename-generator](https://github.com/jgautheron/codename-generator) - A codename generator meant for naming software releases
   * [columnize](https://code.google.com/p/go-columnize/) - format slice or array into aligned columns
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
