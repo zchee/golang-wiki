@@ -23,6 +23,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
 
 ## Intermediate
 - Watch [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
+- Watch [A Practical Guide to Preventing Deadlocks and Leaks in Go](https://www.youtube.com/watch?t=53&v=3EW1hZ8DVyw)
 - Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating) and do the [codewalk](http://golang.org/doc/codewalk/sharemem/)
 - Read [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
 - Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
