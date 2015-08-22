@@ -95,6 +95,7 @@
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
+  * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
   * [Maldive](https://www.maldive.com)
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
