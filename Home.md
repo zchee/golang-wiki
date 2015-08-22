@@ -82,7 +82,7 @@ Here are some of the places where you can find Gophers online
 - User Groups & Meetups - There are [Go Meetups in many cities](http://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
     - See here for [additional information GoUserGroups](GoUserGroups)
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
-- Looking for companies that are using Go? [The list is long and getting longer](GoUsers)
+- A comprehensive list of companies using Go: [Go Users](GoUsers)
 - Learn more about the [Go Gohper images](Gopher) by Renee French.
 
 ## Using the go toolchain
