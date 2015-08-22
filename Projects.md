@@ -179,6 +179,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Configuration File Parsers
 
   * [awsenv](https://github.com/soniah/awsenv) - a small binary that loads Amazon (AWS) environment variables for a profile
+  * [confl](https://github.com/lytics/confl) - nginx config syntax, lenient, encode/decode, custom marshaling
   * [flagfile](https://github.com/spacemonkeygo/flagfile) - Adds parsing and serialization support to the standard library flag package (adds a --flagfile option)
   * [gcfg](http://code.google.com/p/gcfg/) - read INI-style configuration files into Go structs; supports user-defined types and subsections
   * [globalconf](https://github.com/rakyll/globalconf) - Effortlessly persist to and read flag values from an ini config file
