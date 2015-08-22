@@ -26,7 +26,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
-| GopherCon Denver | 2015-07-07 | Denver, CO | |
+| GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm) [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
 | GopherfestSF | 2015-06-25 | San Francisco, CA | |
 | Go Devroom FOSDEM | 2015-03-04 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
