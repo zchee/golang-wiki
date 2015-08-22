@@ -33,6 +33,6 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon China | 2015-04-25 | Shanghai, China | |
 | London Go Gathering | 2015-02-03 | London, UK | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)|
 | dotGo | 2014-09-10 | | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
-| Go Devroom FOSDEM | 2015-06-30 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
+| Go Devroom FOSDEM | 2014-06-30 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
 | GopherCon Denver | 2014-04-24 | Denver, CO | [videos](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBcD_BiJiDJUcyrb2w3bTulF) |
 | GothamGo | 2014 | NYC, NY | [videos](https://vimeo.com/channels/852217) |
