@@ -26,9 +26,10 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
-| GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm) [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
+| GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm), [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
-| GopherfestSF | 2015-06-25 | San Francisco, CA | |
+| GopherfestSF | 2015-06-25 | San Francisco, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YB55ExLApKU0S8_eN5eaGkU) |
+| GopherCon India | 2015-03-17 | | [videos](https://www.youtube.com/playlist?list=PLxFC1MYuNgJTY3uQ5Ja4F5Sz305nnrBOq) |
 | Go Devroom FOSDEM | 2015-03-04 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
 | GopherCon China | 2015-04-25 | Shanghai, China | |
 | London Go Gathering | 2015-02-03 | London, UK | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)|
