@@ -83,7 +83,7 @@ Here are some of the places where you can find Gophers online
     - See here for [additional information GoUserGroups](GoUserGroups)
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
 - Looking for companies that are using Go? [The list is long and getting longer](GoUsers)
-- Learn more about the [Go Gohper images(Gopher).
+- Learn more about the [Go Gohper images](Gopher) by Renee French.
 
 ## Using the go toolchain
 
