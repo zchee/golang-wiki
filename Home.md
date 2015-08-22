@@ -100,6 +100,7 @@ Here are some of the places where you can find Gophers online
 
 ## Additional Go Programming Wikis
 
+  - [Why Go doesn't Support Generics: A Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/preview) - Start here before you join the debate.
   - Concurrency
     - [Timeouts](Timeouts) - Abandon async calls that take too long
     - [LockOSThread](LockOSThread)
@@ -114,7 +115,6 @@ Here are some of the places where you can find Gophers online
   - [GcToolchainTricks](GcToolchainTricks)
   - [GoForCPPProgrammers](GoForCPPProgrammers)
   - [GoStrings](GoStrings)
-  - [GoVsGenerics](GoVsGenerics)
   - [Hashing](Hashing)
   - [HttpFetch](HttpFetch)
   - [HttpStaticFiles](HttpStaticFiles)
@@ -122,7 +122,6 @@ Here are some of the places where you can find Gophers online
   - [Iota](Iota)
   - [MethodSets](MethodSets)
   - [PanicAndRecover](PanicAndRecover)
-  
   - [Range](Range)
   - [RateLimiting](RateLimiting)
   - [Rationales](Rationales)
