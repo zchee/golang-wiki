@@ -51,6 +51,7 @@
   * [DigitalOcean](http://www.digitalocean.com/) - [blog](http://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/)
   * [Disqus](http://disqus.com/) - [blog](http://blog.disqus.com/post/51155103801/trying-out-this-go-thing)
   * [DNSimple](https://dnsimple.com/) - [blog](http://blog.dnsimple.com/a-golang-redirection-service/)
+  * [DoubleDutch] (https://www.doubledutch.me)
   * [domainr](http://domai.nr/) - [tweet](https://twitter.com/rr/status/368988340848037889)
   * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
