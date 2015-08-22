@@ -29,11 +29,11 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm), [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
 | GopherfestSF | 2015-06-25 | San Francisco, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YB55ExLApKU0S8_eN5eaGkU) |
-| GopherCon India | 2015-03-17 | | [videos](https://www.youtube.com/playlist?list=PLxFC1MYuNgJTY3uQ5Ja4F5Sz305nnrBOq) |
-| Go Devroom FOSDEM | 2015-03-04 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
+| GopherCon India | 2015-03-17 | Bengaluru, India | [videos](https://www.youtube.com/playlist?list=PLxFC1MYuNgJTY3uQ5Ja4F5Sz305nnrBOq) |
+| Go Devroom FOSDEM | 2015-03-04 | Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
 | GopherCon China | 2015-04-25 | Shanghai, China | |
 | London Go Gathering | 2015-02-03 | London, UK | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)|
-| dotGo | 2014-09-10 | | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
-| Go Devroom FOSDEM | 2014-06-30 | | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
+| dotGo | 2014-09-10 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
+| Go Devroom FOSDEM | 2014-06-30 |Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
 | GopherCon Denver | 2014-04-24 | Denver, CO | [videos](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBcD_BiJiDJUcyrb2w3bTulF) |
 | GothamGo | 2014 | NYC, NY | [videos](https://vimeo.com/channels/852217) |

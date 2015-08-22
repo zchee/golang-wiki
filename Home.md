@@ -89,6 +89,7 @@ Here are some of the places where you can find Gophers online
 
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
   - See the wikis below for additional details:
+    - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries.
     - [GoGetTools](GoGetTools)
     - [GoGetProxyConfig](GoGetProxyConfig)
     - [cgo](cgo)
