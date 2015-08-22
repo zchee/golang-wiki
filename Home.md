@@ -99,6 +99,12 @@ Here are some of the places where you can find Gophers online
     - [GoGenerateTools](GoGenerateTools)
 
 ## Additional Go Programming Wikis
+
+  - Concurrency
+    - [Timeouts](Timeouts) - Abandon async calls that take too long
+    - [LockOSThread](LockOSThread)
+    - [MutexOrChannel](MutexOrChannel) - When to use one vs the other
+    - [RaceDetector](RaceDetector) - How to detect and fix race conditions
   - Working with Databases
     - [SQLDrivers](SQLDrivers)
     - [SQLInterface](SQLInterface)
@@ -114,11 +120,9 @@ Here are some of the places where you can find Gophers online
   - [HttpStaticFiles](HttpStaticFiles)
   - [InterfaceSlice](InterfaceSlice)
   - [Iota](Iota)
-  - [LockOSThread](LockOSThread)
   - [MethodSets](MethodSets)
-  - [MutexOrChannel](MutexOrChannel)
   - [PanicAndRecover](PanicAndRecover)
-  - [RaceDetector](RaceDetector)
+  
   - [Range](Range)
   - [RateLimiting](RateLimiting)
   - [Rationales](Rationales)
@@ -128,7 +132,7 @@ Here are some of the places where you can find Gophers online
   - [SliceTricks](SliceTricks)
   - [Switch](Switch)
   - [TableDrivenTests](TableDrivenTests)
-  - [Timeouts](Timeouts)
+  
 
 ## Onlines Services that work with Go
 
