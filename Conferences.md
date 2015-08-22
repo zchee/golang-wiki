@@ -24,9 +24,11 @@ Please keep all items in chronological order.
 
 Please keep all items in reverse chronological order (most recent first)
 
-| Name | Date | Location | Taks & Presentations |
+| Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
 | GopherCon Denver | 2015-07-07 | Denver, CO | |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
 | GopherfestSF | 2015-06-25 | San Francisco, CA | |
 | GopherCon China | 2015-04-25 | Shanghai, China | |
+| GopherCon Denver | 2014 | Denver, CO | [videos](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBcD_BiJiDJUcyrb2w3bTulF) |
+| dotGo | 2014 | | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
