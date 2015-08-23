@@ -1,7 +1,9 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
+  * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
   * [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6), a multi-part video training class.
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
+  * [CodeMentor.io](https://www.codementor.io/go) offers an online Go tutorial.
   * [Ardan Labs Training](https://www.ardanlabs.com/) - Commercial, live instruction for Go programming.
   * [Go By Example](http://gobyexample.com/) provides a series of annotated code snippets.
   * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walkthrough of the language.
