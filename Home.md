@@ -51,13 +51,12 @@ Once you have an overview of the language, here are resources you can use to lea
 
   - [Books](Books) - A list of Go books that have been published (ebook, paper)
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
-  - Classes and Training
-    - [Courses](Courses) - Online classes you can take (free & paid) to learn more about Go.
-    - [Learn](Learn) - Additional resources and tutorials.
-      - [LearnConcurrency](LearnConcurrency)
-      - [LearnErrorHandling](LearnErrorHandling)
-      - [LearnServerProgramming](LearnServerProgramming)
-      - [LearnTesting](LearnTesting)
+  - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
+    - [More on concurrency](LearnConcurrency)
+    - [More on error handline](LearnErrorHandling)
+    - [More on server programming](LearnServerProgramming)
+    - [More on testing](LearnTesting)
+  - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
   - Videos, Talks and Presentations
     - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
