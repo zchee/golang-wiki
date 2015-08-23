@@ -11,6 +11,7 @@ Tools supporting this feature include:
  * [Glide](https://github.com/Masterminds/glide)
  * [godm](https://github.com/hectorj/godm)
  * [vexp](https://github.com/kr/vexp)
+ * [gv](https://github.com/forestgiant/gv)
 
 ## Pkg copy with import path re-write
 Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
