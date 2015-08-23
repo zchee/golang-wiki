@@ -271,6 +271,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [collections](https://github.com/cosn/collections) - Several common data structures
   * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (ArrayList, SortedList, Set, AVL Tree, Immutable AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table)
   * [ps](https://github.com/mndrix/ps) - Persistent data structures
+  * [Tideland golib](https://github.com/tideland/golib) - A collections library
 
 ### Hashtables
 
@@ -486,6 +487,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
+  * [Tideland golib](https://github.com/tideland/golib) - Timex extentions
 
 ## Development Tools
 
@@ -526,6 +528,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
+  * [Tideland golib](https://github.com/tideland/golib) - Includes a map/reduce library
 
 ## Documentation
 
@@ -560,6 +563,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [errors](https://github.com/juju/errors) - The juju/errors package provides an easy way to annotate errors without losing the original error context, and get a stack trace back out of the error for the locations that were recorded.
   * [goerr](https://github.com/goerr/goerr) - Allows to make a separate(modular) and reusable error handlers. Exception-like panic() recover() mechanism using Return(error) and catching err := OR1(..)
   * [Space Monkey errors](https://github.com/spacemonkeygo/errors) - Go's missing errors library - stack capture, error hierarchies, error tags
+  * [Tideland golib](https://github.com/tideland/golib) - Detailed error values
 
 ## Encodings and Character Sets
 
@@ -729,6 +733,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Logging
 
+  * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
   * [factorlog](https://github.com/kdar/factorlog) - Really fast, featureful logging infrastructure (supports colors, verbosity, and many formats)
   * [glog](https://github.com/golang/glog) - Leveled execution logs for Go
   * [go-logging](https://github.com/op/go-logging) - Supports different logging backends like syslog, file and memory. Multiple backends can be utilized with different log levels per backend and logger.
@@ -741,8 +746,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [seelog](https://github.com/cihub/seelog) - Flexible dispatching, filtering, and formatting
   * [spacelog](https://github.com/spacemonkeygo/spacelog) - Hierarchical, leveled, and structured logging library for Go
   * [syslog](https://github.com/ziutek/syslog) - With this package you can create your own syslog server with your own handlers for different kind of syslog messages
+  * [Tideland golib](https://github.com/tideland/golib) - Flexible logging
   * [timber](https://github.com/ngmoco/timber) - Configurable Logger for Go
-  * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
 
 ## Machine Learning
 
@@ -793,6 +798,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [statistics](https://github.com/grd/stat) - GNU GSL Statistics (GPLv3)
+  * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistcal analysis
   * [Units](https://github.com/smyrman/units) - Implements types, units, converter functions and some mathematics for some common physical types. lib
   * [vector](https://github.com/proxypoke/vector) - A small vector lib.
 
@@ -1168,6 +1174,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [strogonoff](https://github.com/jbochi/strogonoff) - Stenography with Go
   * [strutil](https://github.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
+  * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
 
 ## Testing
@@ -1256,6 +1263,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
+  * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
 
