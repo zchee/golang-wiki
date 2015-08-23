@@ -92,9 +92,10 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - Start here for the [official documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories).
     - [Overview with examples](http://icanhazdowntime.org/post/2015-07-09-go-vendor-experiment/) by [@freeformz](https://twitter.com/freeformz).
     - See also [PackageManagementTools](PackageManagementTools) for additional details.
-  - Shared libraries and Go
+  - Shared libraries and Go (buildmode)
     - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries.
     - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
+    - [Sharing Golang Packages to C](http://blog.ralch.com/tutorial/golang-sharing-libraries/) - A tutorial by [@ralch](https://twitter.com/ralch).
   - See the wikis below for additional details:
     - [GoGetTools](GoGetTools)
     - [GoGetProxyConfig](GoGetProxyConfig)
