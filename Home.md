@@ -49,18 +49,18 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
 
 Once you have an overview of the language, here are resources you can use to learn more about the language.
 
-  - [Books](Books) - A list of Go books that have been published (ebook, paper)
-  - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
     - [More on concurrency](LearnConcurrency)
     - [More on error handline](LearnErrorHandling)
     - [More on server programming](LearnServerProgramming)
     - [More on testing](LearnTesting)
-  - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
+  - [Books](Books) - A list of Go books that have been published (ebook, paper)
   - Videos, Talks and Presentations
     - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
     - [Screencasts](Screencasts)
+  - [Articles](Articles) - A collection of articles to help you learn more about Go.
+  - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
   - [Resources for non-English speakers](NonEnglish)
 
 ## The Go Community
