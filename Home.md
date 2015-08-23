@@ -88,8 +88,13 @@ Here are some of the places where you can find Gophers online
 ## Using the go toolchain
 
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
-  - See the wikis below for additional details:
+  - Using the Go 1.5 `GO15VENDOREXPERIMENT`
+    - Start here for the [official documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories).
+    - [Overview with examples](http://icanhazdowntime.org/post/2015-07-09-go-vendor-experiment/) by [@freeformz](https://twitter.com/freeformz).
+  - Shared libraries and Go
     - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries.
+    - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
+  - See the wikis below for additional details:
     - [GoGetTools](GoGetTools)
     - [GoGetProxyConfig](GoGetProxyConfig)
     - [cgo](cgo)
