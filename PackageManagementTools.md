@@ -13,29 +13,9 @@ Tools supporting this feature include:
  * [vexp](https://github.com/kr/vexp)
  * [gv](https://github.com/forestgiant/gv)
 
-## Pkg copy with import path re-write
-Vendoring takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
+## Pkg copy, built using GOPATH modification, supports fetching specific version
 
-| **party** |https://github.com/mjibson/party|
-|:----------|:-----------------------------|
-|Author     |Matt Jibson                   |
-|Categories |Vendoring, Copies into "_third_party". Does not analyze dependencies first. No inspection.|
-|           |                              |
-| **govendor** |https://github.com/kardianos/govendor|
-|Title      |Copy, re-write, and list dependent package status.|
-|Author     |Daniel Theophanes                   |
-|Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal" or "vendor".      |
-|           |                              |
-| **vendorize** |https://github.com/kisielk/vendorize|
-|Author     |Kamil Kisiel                  |
-|Categories |Vendoring. Copies into "3rdparty".                     |
-|           |                              |
-| **nut** |https://github.com/jingweno/nut|
-|Author     |Jingwen Owen Ou                  |
-|Categories |Pkg Copy & Import rewrite. Copies into "vendor".                     |
-
-## Pkg copy, build using GOPATH modification, supports fetching specific version
-Copy packages locally. When building modify the GOPATH to reference the local package store. Not only records specific version, but also fetches specific version.
+Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VENDOREXPERIMENT` to reference the local package store. Not only records specific version, but also fetches specific version.
 
 | **gopm**   |https://github.com/GPMGo/gopm |
 |:----------|:-----------------------------|
@@ -59,6 +39,7 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
 
 ## Pkg copy, build using GOPATH  modification
+
 Copy packages locally. When building modify the GOPATH to reference the local package store.
 
 | **godep** |https://github.com/tools/godep|
@@ -83,6 +64,7 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |Categories |Project-based workspaces, vendoring, version locking. Manages dependencies in /vendor/src|
 
 ## Revision Locking
+
 Package source control versions are recorded. Versions are updated into the GOPATH package tree.
 Requires switching GOPATH for every project.
 
@@ -116,6 +98,28 @@ Requires switching GOPATH for every project.
 |Title      |Helps provide go get support for private repositories, pip for golang|
 |Author     |Lyrical Security                  |
 |Categories |Vendoring, Revision Locking (git). Does not appear to copy files.  |
+
+## Pkg copy with import path re-write (As of Go 1.5, this is no longer the recommended practice)
+
+Vendoring with import path rewriting takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
+
+| **party** |https://github.com/mjibson/party|
+|:----------|:-----------------------------|
+|Author     |Matt Jibson                   |
+|Categories |Vendoring, Copies into "_third_party". Does not analyze dependencies first. No inspection.|
+|           |                              |
+| **govendor** |https://github.com/kardianos/govendor|
+|Title      |Copy, re-write, and list dependent package status.|
+|Author     |Daniel Theophanes                   |
+|Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal" or "vendor".      |
+|           |                              |
+| **vendorize** |https://github.com/kisielk/vendorize|
+|Author     |Kamil Kisiel                  |
+|Categories |Vendoring. Copies into "3rdparty".                     |
+|           |                              |
+| **nut** |https://github.com/jingweno/nut|
+|Author     |Jingwen Owen Ou                  |
+|Categories |Pkg Copy & Import rewrite. Copies into "vendor".                     |
 
 
 ## Vendor Utilities
