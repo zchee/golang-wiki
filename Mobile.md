@@ -8,6 +8,15 @@ There are two strategies you can follow to include Go into your mobile stack:
 This article will contain step-by-step guides to explain how to achieve
 these strategies.
 
+- [Tools](#tools)
+- [Native applications](#native-applications)
+  - [Building and deploying to Android](#building-and-deploying-to-android)
+  - [Building and deploying to iOS](#building-and-deploying-to-ios)
+- [SDK applications](#sdk-applications-and-generating-bindings)
+  - [Building and deploying to Android](#building-and-deploying-to-android-1)
+  - [Building an deploying to iOS](#building-an-deploying-to-ios)
+  - [iOS Simulator](#ios-simulator)
+
 ## Tools
 
 Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobile tools.
