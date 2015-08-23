@@ -6,8 +6,10 @@ These sites provide indexes and search engines for Go packages:
   * [godoc.org](http://godoc.org/)
   * [go-hardware](https://github.com/rakyll/go-hardware)
   * [go-search](http://go-search.org/)
+  * [Go Report Card](http://goreportcard.com/) - Code quality summaries for any Go project.
   * [gowalker](http://gowalker.org/)
   * [Sourcegraph](https://sourcegraph.com/)
+
 
 ## Dead projects
 

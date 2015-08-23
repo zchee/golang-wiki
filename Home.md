@@ -43,6 +43,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
   - [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage the libraries that your appliction depends on.
   - Publishing Go Packages as Open Source
     - Getting ready to publish your package? [Start here.](PackagePublishing)
+    - [The Go Checklist](https://github.com/matttproud/gochecklist) - A comprehensive guide for publishing a project.
     - [How to layout your GitHub repo](GithubCodeLayout) to make it easy to for other Go programmers to use with the `go get` command.
 
 ## Learning more about Go
@@ -50,7 +51,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
 Once you have an overview of the language, here are resources you can use to learn more about the language.
 
   - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
-    - [The Go Bridge Foundry](https://github.com/gobridge) - A memeber of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
+    - [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
     - [More on concurrency](LearnConcurrency)
     - [More on error handline](LearnErrorHandling)
     - [More on server programming](LearnServerProgramming)
@@ -66,7 +67,7 @@ Once you have an overview of the language, here are resources you can use to lea
 
 ## The Go Community
 
-Here are some of the places where you can find Gophers online. To get a sense of what it means to be a member of the Go community, read [Damian Gryski's keynote from the GolankUK 2015 conference](https://medium.com/@dgryski/the-go-community-f0d00e3a19e).
+Here are some of the places where you can find Gophers online. To get a sense of what it means to be a member of the Go community, read [Damian Gryski's keynote from the GolankUK 2015 conference](https://medium.com/@dgryski/the-go-community-f0d00e3a19e) or watch [Andrew Gerrand's closing keynote from GopherCon 2015](https://www.youtube.com/watch?v=0ht89TxZZnk).
 
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
