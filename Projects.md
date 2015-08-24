@@ -97,6 +97,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Caching
 
+  * [cache](https://github.com/chai2010/cache) - LevelDB style LRU cache for Go, support non GC object cache.
   * [cache2go](https://github.com/muesli/cache2go) - A caching library with expiration capabilities and access counters
   * [go-cache](http://patrickmylund.com/projects/go-cache/) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications
   * [golibs/cache](https://github.com/SimonWaldherr/golibs/tree/master/cache) - A tiny cache package
