@@ -8,7 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GolangUK | 2015-08-21 | London, UK | http://golanguk.com |
 | GothamGo | 2015-10-02 | NY, NY | http://gothamgo.com/ |
 | dotGo    | 2015-11-09 | Paris, France | http://www.dotgo.eu/ |
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
@@ -26,6 +25,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GolangUK | 2015-08-21 | London, UK |  |
 | GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm), [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
 | GopherfestSF | 2015-06-25 | San Francisco, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YB55ExLApKU0S8_eN5eaGkU) |
