@@ -45,6 +45,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
     - Getting ready to publish your package? [Start here.](PackagePublishing)
     - [The Go Checklist](https://github.com/matttproud/gochecklist) - A comprehensive guide for publishing a project.
     - [How to layout your GitHub repo](GithubCodeLayout) to make it easy to for other Go programmers to use with the `go get` command.
+    - [Go Package, Go](https://johnsto.co.uk/blog/go-package-go) - A few recommendations for making Go packages easy to use.
 
 ## Learning more about Go
 
