@@ -444,6 +444,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [levigo](https://github.com/jmhodges/levigo) - levigo provides the ability to create and access LevelDB databases.
   * [persival](https://github.com/nu7hatch/persival) - Programatic, persistent, pseudo key-value storage
 
+### Graph Databases
+
+  * [cayley](https://github.com/google/cayley) - 100% Go graph database, inspired by Freebase and the Google Knowledge Graph.
+
 ### NoSQL
 
   * [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics
