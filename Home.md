@@ -116,6 +116,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [MutexOrChannel](MutexOrChannel) - When to use one vs the other
     - [RaceDetector](RaceDetector) - How to detect and fix race conditions
   - Working with Databases
+    - [database/sql](http://go-database-sql.org/) - Online tutorial for working with the database/sql package.
     - [SQLDrivers](SQLDrivers)
     - [SQLInterface](SQLInterface)
   - [Comments](Comments)
