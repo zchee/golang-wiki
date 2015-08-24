@@ -1,6 +1,7 @@
 Here's why: a list of people/organizations tell why they use Go. This is partly redundant with [[GoUsers]]
 
 ## Why Go
+- [**Where and why we use Go** by Jeremey Bingham, Raintank.io](https://blog.raintank.io/where-and-why-we-use-go/)
 - [*Half a decade with Go* by golang.org blog](http://blog.golang.org/5years)
 - [**Why Learn Go** by Rob Pike (YouTube)](https://www.youtube.com/watch?v=FTl0tl9BGdc)
 - [**Go at Google** by Rob Pike (YouTube)](http://www.infoq.com/presentations/Go-Google)
