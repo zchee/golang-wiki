@@ -54,7 +54,7 @@ Once you have an overview of the language, here are resources you can use to lea
   - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
     - [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
     - [More on concurrency](LearnConcurrency)
-    - [More on error handline](LearnErrorHandling)
+    - [More on error handling](LearnErrorHandling)
     - [More on server programming](LearnServerProgramming)
     - [More on testing](LearnTesting)
   - [Books](Books) - A list of Go books that have been published (ebook, paper)
