@@ -1,4 +1,4 @@
-Here's why: a list of people/organizations tell why they use Go. This is partly redundant with [[GoUsers]]
+Here's why: a list of people/organizations tell why they use Go. This is partly redundant with [GoUsers](GoUsers)
 
 ## Why Go
 - [**Where and why we use Go** by Jeremey Bingham, Raintank.io](https://blog.raintank.io/where-and-why-we-use-go/)
