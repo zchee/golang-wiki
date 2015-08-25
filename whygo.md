@@ -1,4 +1,4 @@
-Here's why: a list of people/organizations tell why they use Go. This is partly redundant with [GoUsers](GoUsers)
+Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers)
 
 ## Why Go
 - [**TweetQureet: a full Golang technology stack** by Qureet](http://www.qureet.com/blog/golang-technology-stack/)
