@@ -135,6 +135,7 @@
   * [Repustate](http://www.repustate.com) - [blog](http://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/2013/04/23/)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
+  * [Sajari](https://www.sajari.com) - [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
   * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
