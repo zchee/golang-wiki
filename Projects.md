@@ -1463,6 +1463,9 @@ The following entries have not been filed. Please help by putting these in relev
   * [godebiancontrol](https://github.com/mstap/godebiancontrol) - Golang debian control file parser
   * [go-gmetric](https://github.com/jbuchbinder/go-gmetric) - Ganglia gmetric protocol support
   * [gographviz](http://code.google.com/p/gographviz) - Graphviz DOT language parser for golang
+  * [godotviz](http://github.com/sc0rp1us/godotviz) - Rendering graphics files from "DOT language". Written on golang
+  * [dotviz-server](http://github.com/sc0rp1us/dotviz-server) - WebBased DOT language visualization tool written on go
+
   * [golor](https://github.com/hantuo/golor) - golor is a command line tool for golang source code coloring
   * [go-nat-pmp](http://code.google.com/p/go-nat-pmp/) - A client for the NAT-PMP protocol used in Apple and open-source routers
   * [gopcapreader](http://code.google.com/p/gopcapreader) - Presents realtime pcap data as io.Reader objects
