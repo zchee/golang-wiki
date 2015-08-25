@@ -119,11 +119,13 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [database/sql](http://go-database-sql.org/) - Online tutorial for working with the database/sql package.
     - [SQLDrivers](SQLDrivers)
     - [SQLInterface](SQLInterface)
+  - From other languages
+    - [Go for Java Programmers](https://www.nada.kth.se/~snilsson/go_for_java_programmers/)
+    - [Go for C++ Programmers](GoForCPPProgrammers)
   - [Comments](Comments)
   - [CommonMistakes](CommonMistakes)
   - [Errors](Errors)
   - [GcToolchainTricks](GcToolchainTricks)
-  - [GoForCPPProgrammers](GoForCPPProgrammers)
   - [GoStrings](GoStrings)
   - [Hashing](Hashing)
   - [HttpFetch](HttpFetch)
