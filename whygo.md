@@ -1,7 +1,7 @@
 Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers)
 
 ## Why Go
-- [**The Business Benefits of Building Your Next Project With Go** by Tom Malaroto](https://medium.com/@shift8creative/the-business-benefits-of-building-your-next-project-with-go-ebed4bbc3ed7)
+- [**The Business Benefits of Building Your Next Project With Go** by Tom Maiaroto](https://medium.com/@shift8creative/the-business-benefits-of-building-your-next-project-with-go-ebed4bbc3ed7)
 - [**TweetQureet: a full Golang technology stack** by Qureet](http://www.qureet.com/blog/golang-technology-stack/)
 - [**Where and why we use Go** by Jeremey Bingham, Raintank.io](https://blog.raintank.io/where-and-why-we-use-go/)
 - [*Half a decade with Go* by golang.org blog](http://blog.golang.org/5years)
