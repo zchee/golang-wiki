@@ -1,4 +1,4 @@
-# Training
+A list of providers of training classes for Go programming.
 
 ## Commerical
 
