@@ -1,6 +1,7 @@
 # English
 
 ## General
+
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
@@ -11,6 +12,7 @@
   * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
 
 ## Concurrency / Channels
+
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
@@ -18,6 +20,7 @@
   * [Just muxing about](http://gowithconfidence.tumblr.com/post/31431608488/muxing) _2012-09-12_
   * [applied mux()ing: a LimitBuffer](http://gowithconfidence.tumblr.com/post/31797884887/limit-buffers) _2012-09-18_
   * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
+  * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_
 
 ## Interfaces / OOP
   * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
