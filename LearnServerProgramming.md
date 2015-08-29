@@ -8,6 +8,37 @@ This page links to resources for learning about server programming in Go - both 
 - Code [A Tour of Go: Web Servers](http://tour.golang.org/methods/13) and [HTTP Handlers](http://tour.golang.org/methods/14)
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 
+### Middleware 
+
+A topic you will see discussed frequently is "middleware". If you're not familiar with that term, we suggest you start out by reading a few of these articles:
+
+* [Writing Handsome Golang Middleware](http://laicos.com/writing-handsome-golang-middleware/) _2015-05-05_
+* [Middleware in Go: Best practices and examples](https://www.nicolasmerouze.com/middlewares-golang-best-practices-examples/) _2014-11-13_
+* [Making and Using HTTP Middleware](http://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
+* [Writing HTTP Middleware in Go](https://justinas.org/writing-http-middleware-in-go/) _2013-10-09_
+
+
+## Toolkits and Frameworks
+
+Before you decide to adopt a third party web framework or toolkit, keep in mind that the Go standard library provides all of the tools you need to build a sophisticated, modern web application. Keeping with Go's preference for simplicity and composability over complexity and magic, we suggest you [see how far the standard library can take you](http://golang.org/doc/articles/wiki/).
+
+If you decide you need a bit more infrastructure, start by looking at some of the toolkits and libraries available.
+
+### Toolikits & Libraries & Microframeworks
+
+* [Gorilla Toolkit](http://www.gorillatoolkit.org/)
+* [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni) 
+* [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
+* [Goji Web Microframework](https://goji.io/)
+* [Go Craft Middleware](https://github.com/gocraft/web)
+
+### Frameworks
+
+* [GinGonic](https://gin-gonic.github.io/gin/)
+* [Revel Web Framework](https://revel.github.io/)
+* [BeeGo Framework](http://beego.me/)
+
+
 ## Communication
 
 - [Package net/http](http://golang.org/pkg/net/http) provides HTTP client and server implementations.
