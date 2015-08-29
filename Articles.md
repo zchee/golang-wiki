@@ -1,7 +1,23 @@
 
 Please keep all entries in reverse chronological order (most recent first)
 
-## Indexes
+Table of Contents
+=================
+
+* [Indexes](#article-indexes)
+* [General](#general)
+* [Concurrency / Channels](#concurrency--channels)
+* [Web Development](#web-development)
+* [Mobile Applications](#mobile-applications)
+* [Interfaces / OOP](#interfaces--oop)
+* [Misc](#misc)
+* [Chinese](#chinese)
+* [Czech](#czech)
+* [German](#german)
+* [Japanese](#japanese)
+* [Korean](#korean)
+
+## Article Indexes
 
   * [Colleciton of #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
