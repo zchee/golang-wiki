@@ -159,11 +159,7 @@ If you're looking for services that support Go, here's a list to get you started
     - [Google Cloud Platform and App Engine for Go](https://cloud.google.com/appengine/docs/go/)
     - [Heroku](https://github.com/heroku/heroku-buildpack-go)
     - See here for [information on additional providers](ProviderIntegration)
-  - Continuous Integration and Continuous Deployment - Go is well supported by most CI/CD framworks
-    - [Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/Go+Plugin)
-    - [Travis](http://docs.travis-ci.com/user/languages/go/)
-    - [Werker](http://devcenter.wercker.com/quickstarts/building/golang.html)
-    - More information [is available here](HostedContinuousIntegration)
+  - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD framworks
   - Monitoring/Logging
     - [DeferPanic](http://deferpanic.com) - Dedicated Go application performance monitoring.
   - Package and Dependency Management
