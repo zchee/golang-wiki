@@ -5,6 +5,7 @@ Please keep all entries in reverse chronological order (most recent first)
 
   * [Colleciton of #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
+  * [Slideshare Collection of #golang presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=golang&ud=any&ft=all&lang=**&sort=) _latest_
   * [Short Go tutorials on SocketLoop](https://www.socketloop.com/tagsearch/golang) _latest_
 
 
@@ -33,6 +34,22 @@ Please keep all entries in reverse chronological order (most recent first)
   * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
   * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_
 
+## Web Development
+
+Start by reading the [overview of server programming](LearnServerProgramming) documentation first. 
+
+  * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
+  * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
+  * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
+  * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
+  * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
+
+## Mobile Applications
+
+Start by reading the [overview of mobile development](Mobile) documentation first.
+
+* [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+
 ## Interfaces / OOP
   * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
   * [How to use interfaces in Go](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go) _2012-10-01_
@@ -40,12 +57,6 @@ Please keep all entries in reverse chronological order (most recent first)
   * [It is ridiculously easy to refactor Go](http://www.onebigfluke.com/2013/01/it-is-ridiculously-easy-to-refactor-go.html) _2013-01-27_
   * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
 
-## Web Development
-  * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
-  * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
-  * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
-  * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
-  * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
 
 ## Misc
   * [Zero Downtime upgrades of TCP servers in Go](http://blog.nella.org/?p=879) _2012-05-29_
