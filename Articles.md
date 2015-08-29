@@ -1,9 +1,14 @@
 
 Please keep all entries in reverse chronological order (most recent first)
 
+## Indexes
+
+  * [Colleciton of #golang posts on Medium](https://medium.com/tag/golang) _latest_
+  * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
+
+
 ## General
 
-  * [View all #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
