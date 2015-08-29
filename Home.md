@@ -52,10 +52,10 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
 Once you have an overview of the language, here are resources you can use to learn more.
 
   - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
+    - [Server programming](LearnServerProgramming) - Building web, mobile, and API servers.
     - [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
     - [More on concurrency](LearnConcurrency)
     - [More on error handling](LearnErrorHandling)
-    - [More on server programming](LearnServerProgramming)
     - [More on testing](LearnTesting)
   - [Books](Books) - A list of Go books that have been published (ebook, paper)
   - Videos, Talks and Presentations
