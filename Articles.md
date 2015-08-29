@@ -3,6 +3,9 @@
 ## General
 
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
+  * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
+  * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
+  * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js) _2012-09-14_
@@ -30,6 +33,8 @@
   * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
 
 ## Web Development
+  * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
+  * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
   * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
   * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
   * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
