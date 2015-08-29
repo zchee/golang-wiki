@@ -1,7 +1,9 @@
-# English
+
+Please keep all entries in reverse chronological order (most recent first)
 
 ## General
 
+  * [View all #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
@@ -55,7 +57,7 @@
   * [Go Reflection Codex](http://jimmyfrasche.github.io/go-reflection-codex/)
 
 
-# Chinese
+## Chinese
   * [How to write Go code](http://chenxiaoyu.org/2012/03/14/howto-write-golang-code.html)
   * [Test Go module](http://chenxiaoyu.org/2012/12/07/golang-module-test-benchmark.html)
   * [Build web application with golang](https://github.com/astaxie/build-web-application-with-golang)
@@ -74,7 +76,7 @@
   * [Ready? Go! 上篇：大道至简](http://monnand.me/p/ready-go-1/zhCN/)
   * [Ready? Go! 下篇：多核并起](http://monnand.me/p/ready-go-2/zhCN/)
 
-# Czech
+## Czech
   * [Google Go - 1st birthday](http://www.abclinuxu.cz/clanky/google-go-1.-narozeniny)
   * [Google Go - what we find in the kit](http://www.abclinuxu.cz/clanky/google-go-co-najdeme-ve-stavebnici)
   * [Google Go - advanced topics](http://www.abclinuxu.cz/clanky/google-go-pokrocilejsi-temata)
@@ -84,12 +86,12 @@
   * [Google Go - The Laws of Reflection](http://www.abclinuxu.cz/clanky/google-go-pravidla-reflexe)
   * [Google Go - 2nd birthday](http://www.abclinuxu.cz/clanky/google-go-2.-narozeniny)
 
-# German
+## German
   * [Go Cheat Sheet - Kurzreferenz für GoLang](http://www.weltchecker.de/go-cheat-sheet-kurzreferenz-fur-golang/) _2011-02-25_
   * [Programmiersprachen im Multicore Zeitalter - Google GO und Nebenläuﬁgkeit](http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf) ` [PDF] ` _2012-02-02_
   * [A list of German press articles about Go](http://www.hweidner.de/redmine/projects/pub/wiki/Golang_Presse)
 
-# Japanese
+## Japanese
   * [WindowsでGo言語のまとめ](http://esten.wankuma.com/)
   * [Websocketを使ってみた with Go言語](http://u.hinoichi.net/2012/12/14/websocket%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F-with-go%E8%A8%80%E8%AA%9E/)
   * [方向のあるチャネルを試す@Go言語](http://u.hinoichi.net/2012/12/29/%E6%96%B9%E5%90%91%E3%81%AE%E3%81%82%E3%82%8B%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E8%A9%A6%E3%81%99-go%E8%A8%80%E8%AA%9E/)
@@ -111,7 +113,7 @@
   * [Ubuntu 12.04にgolangを”ソースから”インストールする。](http://takashi-yokoyama.blogspot.jp/2012/07/ubuntu-1204golang.html)
   * [GAE/Gで時間のチェック（Datastore編）](http://takashi-yokoyama.blogspot.jp/2012/06/gaegdatastore.html)
 
-# Korean
+## Korean
   * [Go for Java Programmer](http://goo.gl/8zjRwt)
   * [The Go Programming Language](http://www.slideshare.net/golanger/abou-go)
   * [You can read Go code](http://goo.gl/vUeSzl)
@@ -119,7 +121,7 @@
   * [Go character encoding](http://www.slideshare.net/suapapa/go-character-encoding)
   * [Using Google API in Go](http://www.slideshare.net/golanger/using-google-api-in-go)
   * [Go로 Git 들여다보기](http://goo.gl/nCDV3I)
-  * [Go: 90% 완벽?!, 100% of the time 슬라이드 번역 ] (http://100coding.com/go/slide)
-  * [Go 동시성 패턴 advanced 영상 번역] (http://www.youtube.com/watch?v=4g2skln42eo)
-  * [Go + Revel + Gorp 간단 게시판 만들기] (http://100coding.com/go/tutorial/1)
-  * [Go + Revel + Gorm 으로 만드는 블로그] (https://github.com/jaehue/goblog/wiki/Hello-World)
+  * [Go: 90% 완벽?!, 100% of the time 슬라이드 번역 ](http://100coding.com/go/slide)
+  * [Go 동시성 패턴 advanced 영상 번역](http://www.youtube.com/watch?v=4g2skln42eo)
+  * [Go + Revel + Gorp 간단 게시판 만들기](http://100coding.com/go/tutorial/1)
+  * [Go + Revel + Gorm 으로 만드는 블로그](https://github.com/jaehue/goblog/wiki/Hello-World)
