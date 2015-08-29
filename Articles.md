@@ -5,6 +5,7 @@ Please keep all entries in reverse chronological order (most recent first)
 
   * [Colleciton of #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
+  * [Short Go tutorials on SocketLoop](https://www.socketloop.com/tagsearch/golang) _latest_
 
 
 ## General

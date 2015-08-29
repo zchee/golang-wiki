@@ -1,10 +1,11 @@
-This page links to resources for learning about server programming in Go. The items are organized into sections by topic.
+This page links to resources for learning about server programming in Go - both web services and mobile backends. The items are organized into sections by topic.
 
 ## Getting Started
 
+- Read [Writing Web Applications with the Go standard library](http://golang.org/doc/articles/wiki/)
+- Read [Building Web Applications in Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits.
+- Read [Build a Web Application With Go](https://github.com/astaxie/build-web-application-with-golang) from the author of the [BeeGo web framework](http://beego.me/)
 - Code [A Tour of Go: Web Servers](http://tour.golang.org/methods/13) and [HTTP Handlers](http://tour.golang.org/methods/14)
-- Read [Writing Web Applications](http://golang.org/doc/articles/wiki/)
-- Read [LearnConcurrency](LearnConcurrency)
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 
 ## Communication
