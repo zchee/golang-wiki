@@ -37,6 +37,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Editors](#editors)
 * [Encodings and Character Sets](#encodings-and-character-sets)
 * [Error handling](#error-handling)
+* [File Systems](#file-systems)
 * [Games](#games)
 * [GIS](#gis)
 * [Go Implementations](#go-implementations)
@@ -596,6 +597,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [nnz](https://sourcegraph.com/github.com/sourcegraph/go-nnz) - String and Int primitives that serialize to JSON and SQL null
   * [storable](https://github.com/kdar/storable) - Write perl storable data
   * [TNetstring](https://github.com/edsrzf/tnetstring-go) - tnetstrings (tagged Netstrings)
+
+## File Systems
+
+  * [go.fs](https://github.com/daaku/go.fs) - A virutal file system abstraction layer.
 
 ## Games
 

@@ -27,6 +27,7 @@ Table of Contents
 
 ## General
 
+  * [Golang Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) _2015-08-30_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
