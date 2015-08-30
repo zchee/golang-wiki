@@ -37,6 +37,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
       - If you need additional tips on using [$GOPATH, go here](GOPATH).
     - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
   - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
+  - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring.
   - Finding Go Libraries & Tools
     - Start by searching [godoc.org](http://godoc.org)
     - Then check this list of [Go open source projects](Projects) for additional search tools and curated lists.
