@@ -76,10 +76,6 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Misc
   * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
-  * [Zero Downtime upgrades of TCP servers in Go](http://blog.nella.org/?p=879) _2012-05-29_
-  * [Using the Go Regexp Package](http://blog.kamilkisiel.net/blog/2012/07/05/using-the-go-regexp-package/) _2012-07-05_
-  * [Function Call by Name in Golang](http://www.mikespook.com/2012/07/function-call-by-name-in-golang/) _2012-07-05_
-  * [An introduction to cross compilation with Go](http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go) _2012-09-08_
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_
   * [Function Types in Go (golang)](http://jordanorelli.tumblr.com/post/42369331748/function-types-in-go-golang) _2013-02-05_
@@ -88,6 +84,10 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Optimizing Real World Go](http://bpowers.github.com/weblog/2013/01/05/optimizing-real-world-go/) _2013-01-05_
   * [Methods as Objects in Go](http://ernestmicklei.com/2012/11/26/methods-as-objects-in-go/) _2012-12-26_
   * [Applying The Clean Architecture to Go applications](http://manuel.kiessling.net/2012/09/28/applying-the-clean-architecture-to-go-applications/) _2012-09-08_
+  * [An introduction to cross compilation with Go](http://dave.cheney.net/2012/09/08/an-introduction-to-cross-compilation-with-go) _2012-09-08_
+  * [Function Call by Name in Golang](http://www.mikespook.com/2012/07/function-call-by-name-in-golang/) _2012-07-05_
+  * [Using the Go Regexp Package](http://blog.kamilkisiel.net/blog/2012/07/05/using-the-go-regexp-package/) _2012-07-05_
+  * [Zero Downtime upgrades of TCP servers in Go](http://blog.nella.org/?p=879) _2012-05-29_
   * [Go Reflection Codex](http://jimmyfrasche.github.io/go-reflection-codex/)
 
 
