@@ -33,6 +33,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 
 ## Advanced
+- Read [Advanced Go Concurrency Patterns](http://blog.golang.org/advanced-go-concurrency-patterns)
 - Watch [Advanced Go Concurrency Patterns](http://talks.golang.org/2013/advconc.slide#1)
 - Read [Go Concurrency Patterns: Context](http://blog.golang.org/context)
 - Study [The Go Memory Model](https://golang.org/ref/mem)

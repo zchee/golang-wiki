@@ -75,6 +75,8 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 
 ## Misc
+
+  * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
   * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_

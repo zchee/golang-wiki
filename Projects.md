@@ -328,6 +328,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-darts](https://github.com/awsong/go-darts) - Double-ARray Trie System for Go
   * [GoLLRB](https://github.com/petar/GoLLRB) - A Left-Leaning Red-Black (LLRB) implementation of 2-3 balanced binary search trees in Google Go
   * [go-stree](https://github.com/toberndo/go-stree) - A segment tree implementation for range queries on intervals
+  * [go-radix](https://github.com/armon/go-radix), [go-radix-immutable](https://github.com/hashicorp/go-immutable-radix) - Radix tree implementations.
   * [gotree](https://github.com/gyuho/gotree) - Tree Visualization, Algorithms
   * [gtreap](https://github.com/steveyen/gtreap) - Persistent treap implementation.
   * [rbtree](https://github.com/yasushi-saito/rbtree) - Yet another red-black tree implementation, with a C++ STL-like API
