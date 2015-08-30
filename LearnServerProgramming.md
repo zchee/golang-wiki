@@ -31,6 +31,8 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 * [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
 * [Goji Web Microframework](https://goji.io/)
 * [Go Craft Middleware](https://github.com/gocraft/web)
+* [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
+* [Kite Micro-service framework](https://github.com/koding/kite)
 
 ### Frameworks
 
