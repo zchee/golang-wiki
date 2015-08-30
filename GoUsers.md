@@ -25,6 +25,7 @@
   * [Axioms](http://axioms.io) - [blog](http://axioms.io/zen/2014-11-06-swift-go/)
   * [BBC Worldwide](http://www.bbcworldwide.com/) - [source](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
   * [Beachfront Media](http://www.beachfrontmedia.com) [article](http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/)
+  * [Beehively](http://beehively.com) - [Presentation](https://speakerdeck.com/nexneo/joy-of-single-purpose-services-in-go)
   * [Beme](http://beme.com) - [job post](http://beme.com/jobs.html#product-engineer)
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
   * [Big Commerce](https://www.bigcommerce.com/) - [blog](http://bigeng.io/post/125792679618/what-keeps-us-going), [github](https://github.com/bigcommerce)
