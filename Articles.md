@@ -19,7 +19,7 @@ Table of Contents
 
 ## Article Indexes
 
-  * [Colleciton of #golang posts on Medium](https://medium.com/tag/golang) _latest_
+  * [Collection of #golang posts on Medium](https://medium.com/tag/golang) _latest_
   * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
   * [Slideshare Collection of #golang presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=golang&ud=any&ft=all&lang=**&sort=) _latest_
   * [Short Go tutorials on SocketLoop](https://www.socketloop.com/tagsearch/golang) _latest_
