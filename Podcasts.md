@@ -4,6 +4,7 @@
 * [Dave Cheney's Resources for Go Programmers](http://dave.cheney.net/resources-for-new-go-programmers)
 * [The Golang Weekly](http://golangweekly.com/)
 * [Alex Edward's Blog](http://www.alexedwards.net/blog/category/golang)
+* [GoLang Tutorials](http://golangtutorials.blogspot.com/)
 
 
 
