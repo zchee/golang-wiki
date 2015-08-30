@@ -146,7 +146,7 @@ Sorted by publication date.
 
   * **How do I Write and Deploy Simple Web Apps with Go?** (e-book)
     * Author: Satish Talim
-    * Publication Date: Jan 5, 2015
+    * Publication Date: ---
     * ISBN: ---
     * References: https://leanpub.com/howdoibuildawebappwithgo
 
