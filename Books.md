@@ -144,7 +144,7 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details
 
-  * **How Do I Write And Deploy Simple Web Apps With Go?** (e-book)
+  * **How do I Write and Deploy Simple Web Apps with Go?** (e-book)
     * Author: Satish Talim
     * Publication Date: Jan 5, 2015
     * ISBN: ---
