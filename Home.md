@@ -66,7 +66,7 @@ Once you have an overview of the language, here are resources you can use to lea
     - [Podcasts](Podcasts) - Episodes featuring Go
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
-  - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
+  - [University Courses](Courses) - A list of CS programs and classes using Go.    
   - [Resources for non-English speakers](NonEnglish)
 
 ## The Go Community
