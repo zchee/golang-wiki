@@ -6,12 +6,13 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [CodeMentor.io](https://www.codementor.io/go) offers an online Go tutorial.
   * [Ardan Labs Training](https://www.ardanlabs.com/) - Commercial, live instruction for Go programming.
   * [Go By Example](http://gobyexample.com/) provides a series of annotated code snippets.
-  * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walkthrough of the language.
+  * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walk-through of the language.
   * [Free Go Language Workshop](https://www.frameworktraining.co.uk/go-language-free-training-workshop/) Framework Training is running regular free BYOD workshops in London, UK
   * [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
   * [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
   * [Golang Challenge](http://golang-challenge.com/) - Monthly code competions to improve your Go skills. 
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf)
+
 
 
 Learning resources for specific topics:

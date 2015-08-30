@@ -22,7 +22,7 @@ Table of Contents
   - [Effective Go](https://golang.org/doc/effective_go.html) will help you learn how to write idiomatic Go code.
   - [Go standard library documentation](https://golang.org/pkg/) to familiarize yourself with the standard library.
   - [Use the Go Playground](http://play.golang.org) to test out Go programs in your browser.
-  - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success tories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
+  - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
 
 ##  Working with Go
 
@@ -40,7 +40,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
   - Finding Go Libraries & Tools
     - Start by searching [godoc.org](http://godoc.org)
     - Then check this list of [Go open source projects](Projects) for additional search tools and curated lists.
-  - [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage the libraries that your appliction depends on.
+  - [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage the libraries that your application depends on.
   - Publishing Go Packages as Open Source
     - Getting ready to publish your package? [Start here.](PackagePublishing)
     - [The Go Checklist](https://github.com/matttproud/gochecklist) - A comprehensive guide for publishing a project.
@@ -66,7 +66,7 @@ Once you have an overview of the language, here are resources you can use to lea
     - [Blogs and Podcasts](Podcasts) - Go programming blogs and episdoes.
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
-  - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
+  - [University Courses](Courses) - A list of CS programs and classes using Go.    
   - [Resources for non-English speakers](NonEnglish)
 
 ## The Go Community
@@ -76,7 +76,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
     - Before you post, [check to see if it's already been answered](http://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
-  - For discussios about the core Go open source project, join [golang-dev](https://groups.google.com/forum/#!forum/golang-dev).
+  - For discussions about the core Go open source project, join [golang-dev](https://groups.google.com/forum/#!forum/golang-dev).
   - To get just our release announcements, join [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
 - Chat, discussion and other forums
   - We have a [Gophers Slack Channel](http://gophers.slack.com/). Requires you to [request membership here](http://blog.gopheracademy.com/gophers-slack-community/)
@@ -88,7 +88,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - See here for [additional information GoUserGroups](GoUserGroups)
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
 - A comprehensive list of companies using Go: [Go Users](GoUsers)
-- Learn more about the [Go Gohper images](Gopher) by Renee French.
+- Learn more about the [Go Gopher images](Gopher) by Renee French.
 
 ## Using the go toolchain
 
