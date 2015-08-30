@@ -63,7 +63,7 @@ Once you have an overview of the language, here are resources you can use to lea
     - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
     - [Screencasts](Screencasts)
-    - [Podcasts](Podcasts) - Episdoes featuring Go
+    - [Blogs and Podcasts](Podcasts) - Go programming blogs and episdoes.
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
   - [Universtiry Courses](Courses) - A list of CS programs and classes using Go.    
