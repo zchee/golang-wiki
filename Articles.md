@@ -6,6 +6,7 @@ Table of Contents
 
 * [Indexes](#article-indexes)
 * [General](#general)
+* [Pointers/References](#pointers-and-references)
 * [Concurrency / Channels](#concurrency--channels)
 * [Web Development](#web-development)
 * [Mobile Applications](#mobile-applications)
@@ -39,6 +40,11 @@ Table of Contents
   * [What I Love About Go](http://npf.io/2013/01/what-i-love-about-go) _2013-01-25_
   * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
   * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
+
+## Pointers and References 
+
+  * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
+  * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
 
 ## Concurrency / Channels
 
@@ -78,7 +84,6 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 ## Misc
 
   * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
-  * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_
   * [Function Types in Go (golang)](http://jordanorelli.tumblr.com/post/42369331748/function-types-in-go-golang) _2013-02-05_
