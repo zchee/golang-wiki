@@ -84,7 +84,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - For IRC fans there is #go-nuts on irc.freenode.net which is [indexed here](https://botbot.me/freenode/go-nuts/).
   - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
-  - We've also got a landing page on [Stack Overvflow](http://stackoverflow.com/tags/go) for Go Q&A.
+  - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
 - User Groups & Meetups - There are [Go Meetups in many cities](http://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
     - See here for [additional information GoUserGroups](GoUserGroups)
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
@@ -154,12 +154,12 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [TableDrivenTests](TableDrivenTests)
   
 
-## Onlines Services that work with Go
+## Online Services that work with Go
 
 If you're looking for services that support Go, here's a list to get you started.
 
   - Cloud Computing - Go is well supported on most cloud service providers.
-    - [Amazone Web Services](https://github.com/aws/aws-sdk-go)
+    - [Amazon Web Services](https://github.com/aws/aws-sdk-go)
     - [Azure](https://github.com/Azure/azure-sdk-for-go)
     - [Digital Ocean](https://github.com/digitalocean/godo)
     - [Google Cloud Platform and App Engine for Go](https://cloud.google.com/appengine/docs/go/)
@@ -190,7 +190,7 @@ If you're looking for services that support Go, here's a list to get you started
     - Read more about our [code review practices](CodeReview)
     - If you're commenting on code under review, please read [these guidelines](CodeReviewComments)
   - Issues
-    - Bug reports and feature requests should be filed using the [Github issue tracker](https://github.com/golang/go/issues)
+    - Bug reports and feature requests should be filed using the [GitHub issue tracker](https://github.com/golang/go/issues)
     - Want to understand how we [handle issues that are reported?](HandlingIssues)
   - Project Dashboards
     - [Go Builds Dashboard info](DashboardBuilders)
