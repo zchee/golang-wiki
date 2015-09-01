@@ -64,7 +64,7 @@ Once you have an overview of the language, here are resources you can use to lea
     - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
     - [Screencasts](Screencasts)
-    - [Blogs and Podcasts](Podcasts) - Go programming blogs and episdoes.
+    - [Blogs and Podcasts](Podcasts) - Go programming blogs and episodes.
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
   - [University Courses](Courses) - A list of CS programs and classes using Go.    
@@ -165,7 +165,7 @@ If you're looking for services that support Go, here's a list to get you started
     - [Google Cloud Platform and App Engine for Go](https://cloud.google.com/appengine/docs/go/)
     - [Heroku](https://github.com/heroku/heroku-buildpack-go)
     - See here for [information on additional providers](ProviderIntegration)
-  - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD framworks
+  - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD frameworks
   - Monitoring/Logging
     - [DeferPanic](http://deferpanic.com) - Dedicated Go application performance monitoring.
   - Package and Dependency Management
