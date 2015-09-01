@@ -17,6 +17,11 @@ Tools supporting this feature include:
 
 Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VENDOREXPERIMENT` to reference the local package store. Not only records specific version, but also fetches specific version.
 
+| **glide** |https://github.com/Masterminds/glide|
+|Title      |Lightweight Vendor Package Manager|
+|Author     |Matt Butcher and Matt Farina     |
+|Categories |Retrieve and manage packages in your `vendor/` directory using the `GO15VENDOREXPERIMENT`. |
+|           |                              |
 | **gopm**   |https://github.com/GPMGo/gopm |
 |:----------|:-----------------------------|
 |Title       |Tool for search, install, update, share packages in Go|
@@ -52,11 +57,6 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |Title       |Managed workspaces on top of the go tool|
 |Author      |John Asmuth                   |
 |Categories  |local GOPATH can be configured.|
-|           |                              |
-| **glide** |https://github.com/Masterminds/glide|
-|Title      |Project-based workspaces and dependency management|
-|Author     |Matt Butcher and Matt Farina     |
-|Categories |Project workspaces, vendoring, version locking. Manages dependencies in _vendor using a sub-shell|
 |           |                              |
 | **gb** |http://getgb.io/|
 |Title      |Project-based workspaces and dependency management|
