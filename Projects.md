@@ -35,6 +35,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Distributed/Grid Computing](#distributedgrid-computing)
 * [Documentation](#documentation)
 * [Editors](#editors)
+* [Email](#email)
 * [Encodings and Character Sets](#encodings-and-character-sets)
 * [Error handling](#error-handling)
 * [File Systems](#file-systems)
@@ -566,6 +567,16 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ViGo](https://github.com/kisielk/vigo) - A vim-like text editor.
   * [Wide](https://github.com/b3log/wide) - A Web-based IDE for Teams using Golang.
 
+## Email
+
+  * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
+  * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
+  * [Gomail](https://github.com/go-gomail/gomail) - A simple and efficient package to send emails.
+  * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
+  * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
+  * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
+  * [mimemail](https://github.com/chrneumann/mimemail.git) - Construct plain text MIME messages for use with net/smtp.
+
 ## Error handling
 
   * [errgo](https://github.com/juju/errgo) - Error tracing and annotation.
@@ -881,7 +892,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-selenium](https://github.com/sourcegraph/go-selenium) - Selenium WebDriver client for Go
   * [go-semvar](http://code.google.com/p/go-semver/) - Semantic versions (see http:/semver.org)
   * [go-serial](https://github.com/mikepb/go-serial) - Go binding to libserialport for serial port functionality (cgo).
-  * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
   * [goST](https://bitbucket.org/pseudomind/gost) - A steam properties (steam table) library written for Go. This was designed as a native go equivalent to XSteam.
   * [go-systemd](https://github.com/3M3RY/go-systemd) - Utility functions for interacting with the systemd init system
   * [go-taskstats](https://github.com/salviati/go-taskstats) - Go interface for Linux taskstats
@@ -893,7 +903,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-villa](https://github.com/daviddengcn/go-villa) - Some miscellaneous wrapper and small algorithms.(wrappers to slices, priority queues, path related apis, a string set type)
   * [Hranoprovod](https://github.com/aquilax/hranoprovod-go) - Command-line calorie tracking
   * [lineup](https://github.com/jdp/lineup) - A minimalistic message queue server
-  * [mimemail](https://github.com/chrneumann/mimemail.git) - Construct plain text MIME messages for use with net/smtp.
   * [mitigation](https://github.com/sarnowski/mitigation) - Package mitigation provides the possibility to prevent damage caused by bugs or exploits.
   * [nma.go](https://github.com/dustin/nma.go) - A NotifyMyAndroid client for go.
   * [notify](https://github.com/rjeczalik/notify) - File system event notification library with API similar to os/signal.
@@ -942,7 +951,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gearman-go](https://bitbucket.org/mikespook/gearman-go) - A native implementation for Gearman API with Go.
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
   * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io)
-  * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
   * [go9](http://code.google.com/p/go9) - an implementation of the 9P distributed file system protocol
   * [go9p](http://code.google.com/p/go9p/) - 9p protocol implementation in Go
   * [goagain](https://github.com/rcrowley/goagain) - zero-downtime restarts in Go
@@ -959,7 +967,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-imap](https://github.com/martine/go-imap) - IMAP client library
   * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
   * [golang\_protobuf\_extensions](https://github.com/matttproud/golang_protobuf_extensions) - Protocol Buffer extensions to support streaming message encoding and decoding.
-  * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
   * [gonetbench](https://github.com/nu7hatch/gonetbench) - Simple TCP benchmarking tool
   * [gonetcheck](https://github.com/bjdean/gonetcheck) - package for checking general internet access
   * [go-nntp](https://github.com/dustin/go-nntp) - An NNTP client and server library for go
@@ -986,7 +993,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
   * [Hprose](https://github.com/hprose/hprose-go) - Hprose is a High Performance Remote Object Service Engine.
   * [httpfstream](https://sourcegraph.com/github.com/sourcegraph/httpfstream/tree) - streaming append and follow of HTTP resources (using WebSockets)
-  * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
   * [ipaddress](https://github.com/llimllib/ipaddress) - Convenient ip address functions: ip -> int, int -> ip, and IPNet broadcast address
   * [ipaddr](https://github.com/mikioh/ipaddr) - basic functions for the manipulation of IP address prefixes and subsequent addresses as described in RFC 4632 and RFC 4291.
   * [iris-go](https://github.com/karalabe/iris-go) - Go binding for the Iris decentralized messaging framework.
@@ -1177,7 +1183,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents
   * [kview](https://github.com/ziutek/kview) - Simple wrapper for kasia.go templates. It helps to modularize content of a website
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
-  * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
   * [NTemplate](https://github.com/yohcop/ntemplate.go) - Nested Templates
   * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go
