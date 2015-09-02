@@ -1259,6 +1259,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Web Applications
 
+  * [Caddy](https://caddyserver.com) - A fast, capable, general-purpose HTTP/2 web server that's easy to use
   * [Digestw](https://github.com/mocchira/digestw) - A Web Application - Twitter's Timeline Digest
   * [fourohfourfound](https://github.com/whee/fourohfourfound/) - A fallback HTTP server that may redirect requests with runtime configurable redirections
   * [freegeoip](https://github.com/fiorix/freegeoip) - IP geolocation web service (web server of freegeoip.net)
