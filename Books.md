@@ -29,6 +29,12 @@ Sorted by publication date.
     * ISBN: 978-1478355823
     * Reference: http://www.golang-book.com/
 
+  * **Go Bootcamp: Everything you need to get started with Go (FREE)**
+    * Author: Matt Aimonetti
+    * Publication Date: March 2014
+    * ISBN: none: free ebook/PDF/online version
+    * Reference: http://www.golangbootcamp.com/
+
   * **Mastering Concurrency in Go**
     * Author: Nathan Kozyra
     * Publication Date: July 23, 2014
