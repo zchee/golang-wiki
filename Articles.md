@@ -28,10 +28,12 @@ Table of Contents
 
 ## General
 
+
   * [Best Practices for a new Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) _2015-09-01_
   * [Golang Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) _2015-08-30_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
+  * [Things I learned teaching Go - Francesc Campoy](https://medium.com/@francesc/dotgo-things-i-learned-teaching-go-e999f33298cf) _2014-11-24_  
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
   * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
