@@ -575,7 +575,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
   * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
-  * [mimemail](https://github.com/chrneumann/mimemail.git) - Construct plain text MIME messages for use with net/smtp.
 
 ## Error handling
 
