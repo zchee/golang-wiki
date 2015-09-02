@@ -39,8 +39,8 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
   - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
   - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring.
   - Finding Go Libraries & Tools
-    - Start by searching [godoc.org](http://godoc.org)
-    - Then check this list of [Go open source projects](Projects) for additional search tools and curated lists.
+    - Start here: [Go open source projects](Projects).
+    - Search for Go packages: [godoc.org](http://godoc.org)
   - [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage the libraries that your application depends on.
   - Publishing Go Packages as Open Source
     - Getting ready to publish your package? [Start here.](PackagePublishing)
