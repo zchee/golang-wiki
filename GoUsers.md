@@ -126,6 +126,7 @@
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
+  * [Pinshape](https://pinshape.com/) - [job](https://twitter.com/MusicHackFest/status/639219466262454272)
   * [Plano Bê](https://www.planobe.com.br) - [podcast](http://www.grokpodcast.com/2013/07/17/episodio-95-golang/)
   * [pool.ntp.org](http://pool.ntp.org/) - [blog](http://news.ntppool.org/2012/10/new-dns-server.html) [status](http://dns-status.ntppool.org/)
   * [Poptip](https://poptip.com/) - [blog](http://thenewstack.io/from-node-js-to-go-why-one-startup-made-the-switch/), [job posting](https://groups.google.com/d/msg/golang-nuts/cQ0uuLCcQQQ/4nNm_YYh_l4J)
