@@ -911,6 +911,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [procfile](https://github.com/hecticjeff/procfile) - A Procfile parser
   * [Prometheus Instrumentation/Metrics Client](https://github.com/prometheus/client_golang) - This is a whitebox instrumentation framework for servers written in Go.  It exposes programmatically-generated metrics automatically for use in the Prometheus time series collection and post-processing environment.
   * [randat](https://github.com/extemporalgenome/randat) - Devel tool for generating random bytestrings and encoding files in code-friendly forms
+  * [recycler](https://github.com/timtadh/recycler) - A more flexible object recycling system than sync.Pool. Provides constructors and destructors for the objects as well as control over the length the free.
   * [replaykit](https://github.com/dustin/replaykit) - A library for replaying time series data.
   * [selenium](https://bitbucket.org/tebeka/selenium/src) - Selenium client
   * [serial](https://github.com/ziutek/serial) - Serial ports API (pure Go)
