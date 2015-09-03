@@ -133,6 +133,7 @@
   * [Public Good Corp](https://publicgood.com/) - [meetup](http://www.meetup.com/ChicaGoLang/events/222224696/)
   * [Qurami](http://www.qurami.com)
   * [Rackspace](http://www.rackspace.com) - [github](https://github.com/rackspace/rack)
+  * [Raintank](http://www.raintank.io/) - [blog](https://blog.raintank.io/where-and-why-we-use-go/)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
