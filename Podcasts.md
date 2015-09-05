@@ -1,15 +1,3 @@
-## Go Blogs
-
-* [The official Go Blog](https://blog.golang.org) - For in depth posts by the Go team
-* [Dave Cheney's Resources for Go Programmers](http://dave.cheney.net/resources-for-new-go-programmers)
-* [The Golang Weekly](http://golangweekly.com/)
-* [Alex Edward's Blog](http://www.alexedwards.net/blog/category/golang)
-* [GoLang Tutorials](http://golangtutorials.blogspot.com/)
-
-
-
-## Podcasts/Episodes
-
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
 
 * [The Golang Show (Russian)](http://golangshow.com/)

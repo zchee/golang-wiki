@@ -61,11 +61,12 @@ Once you have an overview of the language, here are resources you can use to lea
     - [More on testing](LearnTesting)
     - [More on mobile - Android and iOS](Mobile)
   - [Books](Books) - A list of Go books that have been published (ebook, paper)
+  - [Blogs](Blogs) - Blogs about Go
+    - [Podcasts](Podcasts) - Podcasts and episodes featuring Go
   - Videos, Talks and Presentations
     - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
     - [Screencasts](Screencasts)
-    - [Blogs and Podcasts](Podcasts) - Go programming blogs and episodes.
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
   - [University Courses](Courses) - A list of CS programs and classes using Go.    
