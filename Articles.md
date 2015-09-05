@@ -7,6 +7,7 @@ Table of Contents
 * [Indexes](#article-indexes)
 * [General](#general)
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
+* [Performance and Profiling](#performance-and-profiling)
 * [Concurrency / Channels](#concurrency--channels)
 * [Web Development](#web-development)
 * [Mobile Applications](#mobile-applications)
@@ -50,6 +51,14 @@ Table of Contents
   * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
   * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
 
+## Performance and Profiling
+
+  * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_
+  * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
+  * [Debugging performance issues in Go programs - Intel](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs) _2014-05-10_
+  * [How to write benchmarks in Go](http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) _2013-06-30_
+  * [Profiling Go Programs - Go blog](http://blog.golang.org/profiling-go-programs) _2011-06-24_
+
 ## Concurrency / Channels
 
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
@@ -63,7 +72,7 @@ Table of Contents
 
 ## Web Development
 
-Start by reading the [overview of server programming](LearnServerProgramming) documentation first. 
+Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
   * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
