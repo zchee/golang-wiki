@@ -14,10 +14,11 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Golang Challenge](http://golang-challenge.com/) - Monthly code competions to improve your Go skills. 
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf)
 
-
-
 Learning resources for specific topics:
   * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
   * [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
   * [LearnTesting](LearnTesting) links to resources about testing in Go.
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
+
+Testing:
+[known bad link](http://photos.buberel.org/foobar98)
