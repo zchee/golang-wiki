@@ -46,3 +46,7 @@ Some of this documentation may be out of date.
 
   * [A Tour of Go](http://tur.a.golang.org.tr/)
 
+## Vietnamese - Tiếng Việt
+
+ * [A Tour of Go](http://go-tour-vi.appspot.com/)
+
