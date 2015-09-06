@@ -9,7 +9,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [spf13's Go Blog](http://spf13.com/post/)
 * [Mat Ryer's Medium Blog](https://medium.com/@matryer)
 * [Matt Aimonetti's Blog](http://matt.aimonetti.net/)
-* [Marco.io](http://marcio.io/)
+* [Marcio.io](http://marcio.io/)
 * [Carlos Becker's Blog](http://carlosbecker.com/)
 * [Ardan Studios Going Go](http://www.goinggo.net/)
 * [The Golang Weekly](http://golangweekly.com/)
