@@ -324,7 +324,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [b](https://github.com/cznic/b) - Package b implements B+trees with delayed page split/concat and O(1) enumeration. Easy production of source code for B+trees specialized for user defined key and value types is supported by a simple text replace.
   * [btree](https://bitbucket.org/santucco/btree) - Package btree implements persistent B-trees with fixed size keys, http://en.wikipedia.org/wiki/Btree
-  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB 
+  * [btree](https://github.com/google/btree) - In-memory (not persistent) B-tree implementation, similar API to GoLLRB
   * [go-avltree](https://github.com/ancientlore/go-avltree) - AVL tree (Adel'son-Vel'skii & Landis) with indexing added
   * [go-btree](https://github.com/liangx8/tree.git) - Simple balance tree implementation
   * [go-darts](https://github.com/awsong/go-darts) - Double-ARray Trie System for Go
@@ -378,6 +378,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql) - A lightweight and fast MySQL-Driver for Go's database/sql package
   * [MyMySQL](https://github.com/ziutek/mymysql) - MySQL Client API written entirely in Go.
+  * [TiDB](https://github.com/pingcap/tidb) - MySQL compatible distributed database modeled after Google's F1 design.
   * [vitess](https://github.com/youtube/vitess) - Scaling MySQL databases for the web
 
 ### ODBC
@@ -785,7 +786,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [snowball](https://bitbucket.org/tebeka/snowball) - Snowball stemmer
- 
+
 
 ## Mathematics
 
@@ -1124,7 +1125,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
   * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator.
 
-## Security 
+## Security
 
   * [hyperfox](https://github.com/xiam/hyperfox) - a security tool for proxying and recording HTTP and HTTPs communications on a LAN
   * [webseclab](https://github.com/yahoo/webseclab) - a sample set of web security test cases and a toolkit to construct new ones
@@ -1259,7 +1260,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Minima](https://github.com/opesun/minima) - A language implemented in Go
   * [monkey](https://github.com/realint/monkey) - Embed SpiderMonkey, the Mozilla JavaScript engine, in your Go program.  
   * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
-  * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go 
+  * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
   * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
 
 ## Web Applications
@@ -1369,7 +1370,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [anaconda](https://github.com/ChimeraCoder/anaconda) - Client library for the Twitter 1.1 API
   * [ddg](https://github.com/whee/ddg) - DuckDuckGo API interface
   * [facebook](https://github.com/huandu/facebook) - Up-to-date facebook graph API client. Handy and flexible
-  * [filepicker-go](https://github.com/filepicker/filepicker-go) - Go library for the Filepicker's REST API 
+  * [filepicker-go](https://github.com/filepicker/filepicker-go) - Go library for the Filepicker's REST API
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks API
   * [gobo](https://github.com/huichen/gobo) - Client library for Sina Weibo
