@@ -8,7 +8,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
   * [Dave Cheney's Resources for Go Programmers](http://dave.cheney.net/resources-for-new-go-programmers)
 * [spf13's Go Blog](http://spf13.com/post/)
 * [Mat Ryer's Medium Blog](https://medium.com/@matryer)
-* [Matt Aimonetti's Blog])http://matt.aimonetti.net/)
+* [Matt Aimonetti's Blog](http://matt.aimonetti.net/)
 * [Marco.io](http://marcio.io/)
 * [Carlos Becker's Blog](http://carlosbecker.com/)
 * [Ardan Studios Going Go](http://www.goinggo.net/)
