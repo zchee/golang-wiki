@@ -16,4 +16,3 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Alex Edward's Golang Posts](http://www.alexedwards.net/blog/category/golang)
 * [GoLang Tutorials](http://golangtutorials.blogspot.com/)
 * [Mathias Lafeldt's Blog](https://mlafeldt.github.io/)
-* 
