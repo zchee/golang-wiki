@@ -302,3 +302,12 @@ Sorted by publication date.
     * Publication Date: 2015-06-01
     * ISBN: 978-8-96618-990-8
     * Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
+
+
+# Indonesia
+  * **Bahasa Pemrograman Go**
+    * Author: Sajarwo Anggai 
+    * Publication Date: October 21, 2013
+    * ISBN: ---
+    * Reference: https://sajarwo87.wordpress.com/2013/10/21/buku-bahasa-pemrograman-go/
+ 
