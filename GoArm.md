@@ -124,6 +124,8 @@ Successfuly built default branch, going to write fan control daemon for this dev
 
 ### Raspberry Pi
 
+* [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+
 Architecture: ARM1176JZFS, with floating point, running at 700Mhz
 
 Operating System: Debian Wheezy beta distribution (http://www.raspberrypi.org/archives/1435) reported as:
