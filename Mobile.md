@@ -145,7 +145,7 @@ $ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
 
 The command above will generate an [aar](http://tools.android.com/tech-docs/new-build-system/aar-format)  that can be importable by your IDE.
 
-### Building an deploying to iOS
+### Building and deploying to iOS
 
 Note: target=ios requires the host machine running Mac OS X.
 
