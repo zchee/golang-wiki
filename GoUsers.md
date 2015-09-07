@@ -1,6 +1,6 @@
 # Currently using Go
 
-  * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential. 
+  * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential.
     * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](https://github.com/youtube/vitess) as open source software [1](https://www.youtube.com/watch?v=5yDO-tmIoXY), [2](https://www.youtube.com/watch?v=qATTTSg6zXk), [3](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
     * dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1)
     * [Flywheel: Google's Data Compression Proxy for the Mobile Web](http://research.google.com/pubs/pub43447.html), [blog post on the rewrite](http://matt-welsh.blogspot.co.uk/2013/08/rewriting-large-production-system-in-go.html)
@@ -51,7 +51,7 @@
   * [Couchbase](http://www.couchbase.com/) - [github](https://github.com/couchbaselabs)
   * [Crashlytics](http://try.crashlytics.com/) - [tweet](https://twitter.com/brianhatfield/status/360866306276327424)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
-  * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/) 
+  * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/)
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
   * [Datadog](https://www.datadoghq.com) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
   * [DeferPanic](https://deferpanic.com) - [github](https://github.com/deferpanic)
@@ -104,6 +104,7 @@
   * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
+  * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
   * [Maldive](https://www.maldive.com)
@@ -180,7 +181,7 @@
   * [Transloadit](https://transloadit.com) - [blog](https://transloadit.com/blog/2014/11/releasing-our-new-go-sdk/)
   * [Tumblr ](http://www.tumblr.com) - [github](https://github.com/tumblr/gocircuit) [source](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/qelU5Lrq-uA)
   * [TurboBytes](http://turbobytes.com) - [github](https://github.com/turbobytes?utf8=%E2%9C%93&query=+only%3Asources+), [tweet](https://twitter.com/sajal/status/626287855111835648?s=09)
-  * [TV4 (Swedish TV station)](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/) 
+  * [TV4 (Swedish TV station)](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
   * [Twitch](http://www.twitch.tv/) - [blog](http://blog.twitch.tv/2014/04/technically-speaking-group-chat-and-general-chat-engineering/)
   * [Twitter](https://twitter.com) - [blog](https://blog.twitter.com/2015/handling-five-billion-sessions-a-day-in-real-time)
   * [TweetQureet](http://qureet.com) - [blog](http://www.qureet.com/blog/golang-technology-stack/)
