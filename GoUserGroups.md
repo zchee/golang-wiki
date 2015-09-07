@@ -20,7 +20,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
 # Europe
 
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
-  * [golang-users-berlin](http://www.meetup.com/golang-users-berlin/) - Berlin, Germany.
+  * [GDG Berlin Golang](http://www.meetup.com/golang-users-berlin/) - Berlin, Germany.
   * [Go-User-Group-Hamburg](http://www.meetup.com/Go-User-Group-Hamburg) - Hamburg, Germany.
   * [Go Lithuania User Group](http://gophers.lt/) - Lithuania, Kaunas.
   * [Go London User Group](http://www.meetup.com/Go-London-User-Group/) - London, UK.
