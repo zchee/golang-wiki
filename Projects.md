@@ -762,6 +762,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [factorlog](https://github.com/kdar/factorlog) - Really fast, featureful logging infrastructure (supports colors, verbosity, and many formats)
   * [glog](https://github.com/golang/glog) - Leveled execution logs for Go
   * [go-logging](https://github.com/op/go-logging) - Supports different logging backends like syslog, file and memory. Multiple backends can be utilized with different log levels per backend and logger.
+  * [gomol](https://www.github.com/aphistic/gomol) - A multi-output logging library designed for outputs that support additional metadata with log messages.
   * [graylog-golang](https://github.com/robertkowalski/graylog-golang) - graylog-golang is a full implementation for sending messages in GELF (Graylog Extended Log Format) from Google Go (Golang) to Graylog
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
