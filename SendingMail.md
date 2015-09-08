@@ -1,6 +1,8 @@
 # Sending Mail
 
-See also: http://golang.org/pkg/net/smtp/
+See also:
+* [net/smtp](http://golang.org/pkg/net/smtp/)
+* [Email packages](https://github.com/golang/go/wiki/Projects#email)
 
 Streaming the body:
 
