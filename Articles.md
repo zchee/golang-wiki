@@ -95,6 +95,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Go Object Oriented Design](http://nathany.com/good) _2013-01-14_
   * [It is ridiculously easy to refactor Go](http://www.onebigfluke.com/2013/01/it-is-ridiculously-easy-to-refactor-go.html) _2013-01-27_
   * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
+  * [Interfaces in Go - Russ Cox](http://research.swtch.com/interfaces) _2009-12-01_
 
 
 ## Misc
