@@ -70,6 +70,7 @@
   * [Everything.me](http://everything.me) - [blog](http://geeks.everything.me/2015/05/03/adventures-with-disque/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)
   * [Facebook](https://facebook.com) - [github](https://github.com/facebookgo/), [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
+  * [FINSECTECH](http://www.finsectech.com) - [Cybersecurity Management](http://core.finsectech.com)
   * [Factom](http://www.factom.org) - [github](https://github.com/FactomProject)
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
   * [Flipboard](http://www.flipboard.com)  - [source (job post)](https://news.ycombinator.com/item?id=6140956)
