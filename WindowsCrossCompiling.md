@@ -2,6 +2,12 @@
 
 I use linux/386, but, I suspect, this procedure will apply to other host platforms as well.
 
+Preparation (if needed):
+```sh
+sudo apt-get install gcc
+export go env GOROOT
+```
+
 First step is to build host version of go:
 
 ```sh
