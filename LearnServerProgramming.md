@@ -85,6 +85,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 - Read [Google Cloud Platform: Go Runtime Environment](https://cloud.google.com/appengine/docs/go/)
 - Watch [Go and the Google Cloud Platform](http://blog.golang.org/go-and-google-cloud-platform)
 - Read [Go on App Engine: tools, tests, and concurrency](http://blog.golang.org/appengine-dec2013)
+- Get [Google Cloud Platform Go Libraries](http://godoc.org/google.golang.org/cloud)
 - Read [Deploying Go servers with Docker](http://blog.golang.org/docker)
 - Search packages for [Google Cloud](http://godoc.org/?q=google+cloud) or [gcloud](http://godoc.org/?q=gcloud)
 - Search packages for [App Engine](http://godoc.org/?q=appengine) or [GAE](http://godoc.org/?q=gae)
