@@ -11,8 +11,8 @@ export go env GOROOT
 First step is to build host version of go:
 
 ```sh
-$ cd $GOROOT/src
-$ ./make.bash
+cd $GOROOT/src
+sudo -E GOOS=windows GOARCH=386 PATH=$PATH ./make.bash
 ```
 
 Next you need to build the rest of go compilers and linkers. I have small program to do that:
