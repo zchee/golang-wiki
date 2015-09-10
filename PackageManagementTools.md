@@ -45,11 +45,10 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Author     |Nitrous.IO                    |
 |Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
 |           |   
-| **govend** |https://github.com/gophersaurus/govend|
-|:----------|:-----------------------------|
-|Title      |A Simple Tool To Vendor Dependencies|
-|Author     |Jack Spirou                   |
-|Categories |Vendor and lock revisions of packages in `vendor/` via the `GO15VENDOREXPERIMENT`. |
+| **govend** |https://github.com/gophersaurus/govend |
+|Title       |A Simple Tool To Vendor Dependencies   |
+|Author      |Jack Spirou                            |
+|Categories  |Vendor and lock revisions of packages in `vendor/` via the `GO15VENDOREXPERIMENT`. |
 
 ## Pkg copy, build using GOPATH  modification
 
