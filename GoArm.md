@@ -363,3 +363,5 @@ Go Version: 1.5
 The Scaleway C1 Server is a dedicated ARM server with 2GiB RAM using a SAN for storage.
 
 I used the following guide: [Building Go 1.5 on the Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+
+_--Laurent Debacker
