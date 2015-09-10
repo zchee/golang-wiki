@@ -351,3 +351,15 @@ Special Notes:  Enable a swap partition (<=1GB is fine). Build process is CPU-in
 As mentioned above, use bootstrap.sh (e.g. on Ubuntu AMD64) for ARM64, then transfer over the bootstrap tbx file, untar it, and use it as GOROOT_BOOTSTRAP.  Check out the Go sources into a separate GOROOT, and build.
 
 _--Andrew Cencini_ (andrew@vapor.io)
+
+## Scaleway C1 Server
+
+Architecture: armv7l
+
+Operating System: Debian 8.2 (armhf)
+
+Go Version: 1.5
+
+The Scaleway C1 Server is a dedicated ARM server with 2GiB RAM using a SAN for storage.
+
+I used the following guide: [Building Go 1.5 on the Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
