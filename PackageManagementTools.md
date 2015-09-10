@@ -13,6 +13,7 @@ Tools supporting this feature include:
  * [godm](https://github.com/hectorj/godm)
  * [vexp](https://github.com/kr/vexp)
  * [gv](https://github.com/forestgiant/gv)
+ * [govend](https://github.com/gophersaurus/govend)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
@@ -43,6 +44,12 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Title      |A dependency manager for Go (golang), inspired by Bundler.|
 |Author     |Nitrous.IO                    |
 |Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
+|           |   
+| **govend** |https://github.com/gophersaurus/govend|
+|:----------|:-----------------------------|
+|Title      |A Simple Tool To Vendor Dependencies|
+|Author     |Jack Spirou                   |
+|Categories |Vendor and lock revisions of packages in `vendor/` via the `GO15VENDOREXPERIMENT`. |
 
 ## Pkg copy, build using GOPATH  modification
 
