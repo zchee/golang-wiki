@@ -156,6 +156,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://leanpub.com/howdoibuildawebappwithgo
 
+  * **Learn Go** (e-book)
+    * Author: Gyu-ho Lee
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://github.com/gyuho/learn#contents
+
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）

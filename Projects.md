@@ -348,6 +348,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-algs/ed](https://github.com/daviddengcn/go-algs) - Generalized edit-distance implementation
   * [go-algs/maxflow](https://github.com/daviddengcn/go-algs) - An energy minimization tool using max-flow algorithm.
   * [go-extractor](https://github.com/salviati/go-extractor) - Go wrapper for GNU libextractor
+  * [gocrud](https://github.com/manishrjain/gocrud) - Framework for working with arbitrary depth data structures.
   * [Gokogiri](https://github.com/moovweb/gokogiri) - A lightweight libxml wrapper library
   * [GoNetCDF](https://bitbucket.org/ctessum/gonetcdf) - A wrapper for the NetCDF file format library
   * [goop](https://github.com/losalamos/goop) - Dynamic object-oriented programming support for Go
@@ -537,6 +538,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Distributed/Grid Computing
 
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
+  * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
   * [Tideland golib](https://github.com/tideland/golib) - Includes a map/reduce library
