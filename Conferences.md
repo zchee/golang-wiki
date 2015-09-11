@@ -26,7 +26,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
 | Yapcasia | 2015-08-22 | Tokyo, JP | [bradfitz](http://yapcasia.org/2015/talk/show/6bde6c69-187a-11e5-aca1-525412004261) |
-| GolangUK | 2015-08-21 | London, UK |  |
+| GolangUK | 2015-08-21 | London, UK | [videos](https://www.youtube.com/channel/UC9ZNrGdT2aAdrNbX78lbNlQ/) |
 | GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm), [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
 | GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
 | GopherfestSF | 2015-06-25 | San Francisco, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YB55ExLApKU0S8_eN5eaGkU) |
