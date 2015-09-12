@@ -2,7 +2,7 @@ An overview of tools that will help improve your Go code
 
 ## All-in-one
 
-  -[gometalinter](https://github.com/alecthomas/gometalinter) - Automates the installation, configuration and application of `gofmt`, `golint`, `govet` and several other code validation tools.
+  - [gometalinter](https://github.com/alecthomas/gometalinter) - Automates the installation, configuration and application of `gofmt`, `golint`, `govet` and several other code validation tools.
 
 ## Code Formatting
 
