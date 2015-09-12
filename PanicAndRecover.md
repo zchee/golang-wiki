@@ -8,7 +8,7 @@ The ` panic ` and ` recover ` functions behave similarly to exceptions and try/c
 
 By convention, no explicit panic() should be allowed to cross a package boundary.  Indicating error conditions to callers should be done by returning error value.  Within a package, however, especially if there are deeply nested calls to non-exported functions, it can be useful (and improve readability) to use panic to indicate error conditions which should be translated into error for the calling function.  Below is an admittedly contrived example of a way in which a nested function and an exported function may interact via this panic-on-error relationship.
 
-```
+```go
 // A ParseError indicates an error in converting a word into an integer.
 type ParseError struct {
 	Index int    // The index into the space-separated list of words.
@@ -54,7 +54,7 @@ func fields2numbers(fields []string) (numbers []int) {
 ```
 
 To demonstrate the behavior, consider the following main function:
-```
+```go
 func main() {
 	var examples = []string{
 		"1 2 3 4 5",
