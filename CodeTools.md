@@ -1,5 +1,9 @@
 An overview of tools that will help improve your Go code
 
+## All-in-one
+
+  -[gometalinter](https://github.com/alecthomas/gometalinter) - Automates the installation, configuration and application of `gofmt`, `golint`, `govet` and several other code validation tools.
+
 ## Code Formatting
 
   - [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
@@ -18,3 +22,8 @@ An overview of tools that will help improve your Go code
 ## Navigation
 
   - [go oracle - user manual](http://golang.org/s/oracle-user-manual) - A tool for understanding Go code
+  - [Pythia](https://github.com/fzipp/pythia) - A browser-based UI for the Go Oracle.
+
+## Visualization
+
+  - [godegraph](github.com/kisielk/godepgraph) - A tool for generating dependency graphs of Go code.

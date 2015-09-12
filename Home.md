@@ -33,12 +33,13 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
     -  If you prefer to install from source, [read this first](https://golang.org/doc/install/source).
       - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
     - Windows user? [Install and configure Go, Git and Atom for Windows](https://github.com/abourget/getting-started-with-golang)
+    - Mac user? [How I start - Go](https://howistart.org/posts/go/1) - A step-by-step guide to installing Go and building your first web service.
     - Having installation problems? [InstallTroubleShooting](InstallTroubleShooting)
     - Make sure you have your [$GOPATH environment variable set correctly](https://golang.org/doc/install/source#gopath)
       - If you need additional tips on using [$GOPATH, go here](GOPATH).
     - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
   - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
-  - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring.
+  - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring, navigation and visualization.
   - Finding Go Libraries & Tools
     - Start here: [Go open source projects](Projects).
     - Search for Go packages: [godoc.org](http://godoc.org)
