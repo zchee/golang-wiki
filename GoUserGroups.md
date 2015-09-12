@@ -52,6 +52,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [GolangVan meetup](http://www.meetup.com/golangvan/) - Vancouver BC, Canada.
   * [GolangVan](http://golangvan.org/) - Vancouver BC, Canada.
   * [GoTO](http://www.meetup.com/go-toronto) - Toronto ON, Canada.
+  * [Ottawa Go](http://www.meetup.com/Ottawa-Go-Meetup/) - Ottawa ON, Canada.
 
 ## Mexico
 
