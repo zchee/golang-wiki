@@ -125,6 +125,7 @@
   * [Nexway](http://www.nexway.com)
   * [ngmoco:)](http://ngmoco.com/) - [blog](http://ngenuity.ngmoco.com/2012/01/introducing-falcore-and-timber.html)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
+  * [Odoscope](http://www.odoscope.com) - [twitter](https://twitter.com/odoscope/status/642383738249322496), [job](http://www.odoscope.com/career-at-odoscope/developer-vacancy/)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)

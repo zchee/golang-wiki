@@ -520,6 +520,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goweb](https://bitbucket.org/santucco/goweb) - Literate programming tools for Go based on CWEB by Donald Knuth and Silvio Levy.
   * [hopwatch](https://github.com/emicklei/hopwatch) - simple debugger for Go
   * [hsandbox](http://labix.org/hsandbox) - Tool for quick experimentation with Go snippets
+  * [Inject](https://github.com/facebookgo/inject) - Library for dependency injection in Golang (from Facebook)
   * [liccor](https://github.com/gtalent/liccor) - A tool for updating license headers in Go source files
   * [liteide](https://github.com/visualfc/liteide) - An go auto build tools and qt-based ide for Go
   * [Livedev](https://github.com/qrtz/livedev) - Livedev is a development proxy server that enables live code reloading.
@@ -1291,6 +1292,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
+  * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
 

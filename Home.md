@@ -30,8 +30,9 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
 
   - Install and Setup your Environment
     - Start here: [Official Installation Documentation](https://golang.org/doc/install)
-    -  If you prefer to install from source, [read this first](https://golang.org/doc/install/source). 
+    -  If you prefer to install from source, [read this first](https://golang.org/doc/install/source).
       - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
+    - Windows user? [Install and configure Go, Git and Atom for Windows](https://github.com/abourget/getting-started-with-golang)
     - Having installation problems? [InstallTroubleShooting](InstallTroubleShooting)
     - Make sure you have your [$GOPATH environment variable set correctly](https://golang.org/doc/install/source#gopath)
       - If you need additional tips on using [$GOPATH, go here](GOPATH).
@@ -106,6 +107,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [Sharing Golang Packages to C](http://blog.ralch.com/tutorial/golang-sharing-libraries/) - A tutorial by [@ralch](https://twitter.com/ralch).
     - [Calling Go libraries from Python](https://blog.filippo.io/building-python-modules-with-go-1-5/) - by Filippo Valsorda
     - [Calling Go libraries from Ruby](http://c7.se/go-and-ruby-ffi/) - by Peter Hellberg
+    - [Build a Ruby Gem with a Go native extension](http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree) - by @jondot
   - See the wikis below for additional details:
     - [GoGetTools](GoGetTools)
     - [GoGetProxyConfig](GoGetProxyConfig)
@@ -154,7 +156,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [SliceTricks](SliceTricks)
   - [Switch](Switch)
   - [TableDrivenTests](TableDrivenTests)
-  
+
 
 ## Online Services that work with Go
 
@@ -188,7 +190,7 @@ If you're looking for services that support Go, here's a list to get you started
     -  An archive of [design documents is also available](DesignDocuments)
   - Go releases happen on ~6 month intervals. [See here for more information](Go-Release-Cycle)
   - Want to know more about how the [Go source sub-repositories are structured?](SubRepositories)
-  - The Go project requires that all code be reviewed before it is submitted. 
+  - The Go project requires that all code be reviewed before it is submitted.
     - Read more about our [code review practices](CodeReview)
     - If you're commenting on code under review, please read [these guidelines](CodeReviewComments)
   - Issues
