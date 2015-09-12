@@ -11,11 +11,13 @@ An overview of tools that will help improve your Go code
   - [goimports](https://github.com/bradfitz/goimports) - Format code and fix your import statements
   - [Formatting Go Code with gofmt](http://golangtutorials.blogspot.com/2011/06/formatting-go-code-with-gofmt.html)
 
-## Code generation
+## Code generation, Templating and Generics
 
   - [json-to-go](https://mholt.github.io/json-to-go/) - Generate Go structs from JSON.
   - [Go gen](http://clipperhouse.github.io/gen/) - Type-driven code generation (generics)
   - [gojson](https://github.com/ChimeraCoder/gojson) - Another Go struct generator.
+  - [gonerics.io](http://bouk.co/blog/idiomatic-generics-in-go/) - Idiomatic Generics in Go
+  - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go
 
 ## Refactoring
   - [Refactoring with go fmt](http://spf13.com/post/go-fmt/)
