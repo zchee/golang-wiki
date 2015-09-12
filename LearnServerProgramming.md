@@ -7,8 +7,9 @@ This page links to resources for learning about server programming in Go - both 
 - Read [Build a Web Application With Go](https://github.com/astaxie/build-web-application-with-golang) from the author of the [BeeGo web framework](http://beego.me/)
 - Code [A Tour of Go: Web Servers](http://tour.golang.org/methods/13) and [HTTP Handlers](http://tour.golang.org/methods/14)
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
+- Download a [full working 3-tier application example](https://github.com/sourcegraph/thesrc) from the Sourcegraph Team.
 
-### Middleware 
+### Middleware
 
 A topic you will see discussed frequently is "middleware". If you're not familiar with that term, we suggest you start out by reading a few of these articles:
 
@@ -28,7 +29,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 ### Toolikits & Libraries & Microframeworks
 
 * [Gorilla Toolkit](http://www.gorillatoolkit.org/)
-* [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni) 
+* [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni)
 * [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
 * [Goji Web Microframework](https://goji.io/)
 * [Go Craft Middleware](https://github.com/gocraft/web)
@@ -82,6 +83,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Google Cloud Platform
 
+- Read [Go, Cloud Endpoints and App Engine, Part 1](https://medium.com/google-cloud/go-cloud-endpoints-and-app-engine-19d290dafda3), [Part 2](https://medium.com/@IndianGuru/go-cloud-endpoints-and-app-engine-e3413c01c484)
 - Read [Google Cloud Platform: Go Runtime Environment](https://cloud.google.com/appengine/docs/go/)
 - Watch [Go and the Google Cloud Platform](http://blog.golang.org/go-and-google-cloud-platform)
 - Read [Go on App Engine: tools, tests, and concurrency](http://blog.golang.org/appengine-dec2013)
