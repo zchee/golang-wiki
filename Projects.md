@@ -49,6 +49,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Logging](#logging)
 * [Machine Learning](#machine-learning)
 * [Mathematics](#mathematics)
+* [Microservices](#microserices)
 * [Miscellaneous](#miscellaneous)
 * [Music](#music)
 * [Networking](#networking)
@@ -834,6 +835,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Units](https://github.com/smyrman/units) - Implements types, units, converter functions and some mathematics for some common physical types. lib
   * [vector](https://github.com/proxypoke/vector) - A small vector lib.
 
+## Microservices
+
+  * [gokit](https://github.com/go-kit/kit) - The Go Kit microservice framework (and [author interview](http://www.infoq.com/news/2015/09/microservices-with-go-kit)).
+
 ## Miscellaneous
 
   * [atexit](https://bitbucket.org/tebeka/atexit) - Simple atexit library
@@ -1034,6 +1039,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tcpmeter](https://code.google.com/p/tcpmeter) - A TCP throughput measuring tool
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
   * [Tonika](http://5ttt.org) - Secure social networking platform
+  * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
   * [uritemplates](https://github.com/jtacoma/uritemplates) - A level 4 implementation of URI Templates (RFC 6570)

@@ -86,7 +86,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 Start by reading the [overview of mobile development](Mobile) documentation first.
 
-* [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+  * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
 
 ## Interfaces / OOP
 
