@@ -57,7 +57,6 @@ Once you have an overview of the language, here are resources you can use to lea
   - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
     - [Best Practices for a New Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) - Insights from Go community members.
     - [Server programming](LearnServerProgramming) - Building web, mobile, and API servers.
-    - [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to underrepresented communities.
     - [More on concurrency](LearnConcurrency)
     - [More on error handling](LearnErrorHandling)
     - [More on testing](LearnTesting)
