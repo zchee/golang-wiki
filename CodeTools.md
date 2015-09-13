@@ -44,7 +44,7 @@ An overview of tools that will help improve your Go code
 ### Articles
 
   - [Go Inspection Tools](http://blog.ralch.com/tutorial/golang-tools-inspection/) - An overview of tools for Go code inspection.
-  -
+  
 ### Tools
 
   - [DeferCheck, StructCheck, VarCheck](https://github.com/opennota/check/) - A suite of tools for checking your code.
