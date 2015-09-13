@@ -130,7 +130,7 @@ Place these source files under _$GOPATH/src/ccallbacks/_. Compile and run with:
 ```console
 $ gcc -c clibrary.c
 $ ar cru libclibrary.a clibrary.o
-$ go build ccallbacks
+$ go build
 $ ./ccallbacks
 Go.main(): calling C function with callback to us
 C.some_c_func(): calling callback with arg = 2
