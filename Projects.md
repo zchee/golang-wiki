@@ -429,6 +429,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-store](https://github.com/gosuri/go-store) - Data-store library for Go that provides a set of platform-independent interfaces to persist and retrieve key-value data.
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PosgreSQL and SQLite3.
+  * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
 
 ### Multiple wrappers

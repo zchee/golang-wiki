@@ -18,6 +18,7 @@ An overview of tools that will help improve your Go code
   - [gojson](https://github.com/ChimeraCoder/gojson) - Another Go struct generator.
   - [gonerics.io](http://bouk.co/blog/idiomatic-generics-in-go/) - Idiomatic Generics in Go
   - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go
+  - [sqlgen](https://github.com/drone/sqlgen) - Generate Go code for SQL interactions.
 
 ## Refactoring
   - [Refactoring with go fmt](http://spf13.com/post/go-fmt/)
