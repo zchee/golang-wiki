@@ -1080,7 +1080,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-xmpp](https://github.com/mattn/go-xmpp) - XMPP client library
   * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
-  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go. 
+  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go 
   * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
 
 ## Operating System Interfaces
