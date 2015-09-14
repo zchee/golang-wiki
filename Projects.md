@@ -1099,8 +1099,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GolangSortingVisualization](https://github.com/SimonWaldherr/GolangSortingVisualization) - A visualization of various sorting algorithms in Go
   * [golibs](https://github.com/SimonWaldherr/golibs) - A collection of tiny go packages (and also a test repo for various CI and coverage services)
   * [goplay](https://github.com/timtadh/goplay) - A bunch of random small programs in Go
-  * [goroup](https://github.com/gyuho/goroup) - Set Theory
-  * [gosequence](https://github.com/gyuho/gosequence) - Slice, Map tricks, Stack, Queue
   * [lifegame-on-golang](https://github.com/horiuchi/lifegame-on-golang) - Game of Life in Go
   * [linear](https://github.com/tychofreeman/Linear) - Playing around with the linear algebra
   * [project euler in go](https://github.com/yyyc514/project_euler_in_go) - Solutions to Project Euler in Go also
@@ -1268,7 +1266,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [LispEx](https://github.com/kedebug/LispEx) - A dialect of Lisp extended to support for concurrent programming, written in Go.
   * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
   * [Minima](https://github.com/opesun/minima) - A language implemented in Go
-  * [monkey](https://github.com/realint/monkey) - Embed SpiderMonkey, the Mozilla JavaScript engine, in your Go program.  
   * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
   * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
   * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
@@ -1387,7 +1384,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gocaptcha](https://github.com/GeertJohan/gocaptcha) - gocaptcha provides easy access to the reCaptcha API in go
   * [go-dealmap](https://github.com/ancientlore/go-dealmap) - Go library for accessing TheDealMap's API
   * [go-dropbox](https://github.com/nickoneill/go-dropbox) - API library for dropbox
-  * [go-facebook](https://github.com/Agon/go-facebook) - Go implementations of facebook APIs
   * [go-flickr](https://github.com/mncaudill/go-flickr) - A wrapper for Flickr's API
   * [go-get-youtube](https://github.com/knadh/go-get-youtube) - A simple library+client for fetching meta data of, and downloading Youtube videos
   * [go-github](https://github.com/google/go-github) - Go library for accessing the GitHub API
@@ -1407,7 +1403,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-tripit](https://github.com/ancientlore/go-tripit) - Go API library for the TripIt web services
   * [GoTwilio](https://github.com/sfreiberg/gotwilio) - Twilio library for Go (golang). Very basic at the moment
   * [gravatar](https://github.com/ftrvxmtrx/gravatar) - Gravatar image/profile API library
-  * [justintv](https://github.com/Agon/justintv) - Justin.tv REST API with oauth
   * [postmark](https://github.com/gcmurphy/postmark) - Access postmark API from Go
   * [reddit.go](https://github.com/tadzik/reddit.go) - Client library for Reddit API
   * [shorturl](https://github.com/subosito/shorturl) - Generic implementation for interacting with various URL shortening services
