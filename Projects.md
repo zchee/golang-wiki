@@ -1334,6 +1334,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [falcore](https://github.com/fitstar/falcore) - Modular HTTP server framework
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
+  * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
   * [go-fastweb](http://code.google.com/p/go-fastweb/) - aims to be a simple, small and clean MVC framework for go
   * [goku](https://github.com/QLeelulu/goku) - a Web Mvc Framework for Go, mostly like ASP.NET MVC.
@@ -1457,6 +1458,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rest.go (forked)](https://github.com/Kissaki/rest.go) - forked rest.go for improvements and REST consistency
   * [robotstxt](https://github.com/temoto/robotstxt-go) - The robots.txt exclusion protocol implementation. Allows to parse and query robots.txt file.
   * [seshcookie](https://github.com/bpowers/seshcookie) -  A web session library inspired by Beaker
+  * [soy](https://github.com/robfig/soy) - A Go implementation for Soy templates (Google Closure templates). High performance and i18n.
   * [user\_agent](https://github.com/mssola/user_agent) - An HTTP User-Agent parser
   * [webdriver](https://bitbucket.org/tebeka/selenium/src) - WebDriver (Selenium) client
   * [webtestutil](https://github.com/chlu/webtestutil) - Web and HTTP functional testing utilities. Includes Gorilla testing support.
