@@ -16,4 +16,8 @@ A number of Platform-as-a-Service ([PaaS](http://en.wikipedia.org/wiki/Platform_
 | [Heroku](http://www.heroku.com) | https://github.com/kr/heroku-buildpack-go | http://mmcgrana.github.com/2012/09/getting-started-with-go-on-heroku.html |
 | [OpenShift](http://openshift.redhat.com) | https://github.com/gcmurphy/golang-openshift |                  |
 | [Stackato](http://www.activestate.com/stackato) | https://github.com/kr/heroku-buildpack-go | http://docs.stackato.com/user/deploy/languages/go.html |
+<<<<<<< Updated upstream
 | [Tsuru](http://www.tsuru.io/) |            | http://docs.tsuru.io/en/latest/apps/quickstart/go.html |
+=======
+| [Tsuru](http://www.tsuru.io/) |            | http://docs.tsuru.io/en/stable/using/go.html |
+>>>>>>> Stashed changes
