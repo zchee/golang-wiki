@@ -9,7 +9,7 @@ Table of Contents
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Performance and Profiling](#performance-and-profiling)
 * [Concurrency / Channels](#concurrency--channels)
-* [Web Development](#web-development)
+* [Web & API Development](#web-development)
 * [Mobile Applications](#mobile-applications)
 * [Interfaces / OOP](#interfaces--oop)
 * [Misc](#misc)
@@ -76,6 +76,7 @@ Table of Contents
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
   * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
   * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
@@ -107,7 +108,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_
   * [Function Types in Go (golang)](http://jordanorelli.tumblr.com/post/42369331748/function-types-in-go-golang) _2013-02-05_
   * [I2C Programming in Go](http://www.gmcbay.com/2013/01/i2c-programming-in-go/) _2013-01-12_
-  * [Go-spew: A Journey into Dumping Go Data Structures](https://blog.cyphertite.com/go-spew-a-journey-into-dumping-go-data-structures/) _2013-01-09_
+  * [Go-spew: A Journey into Dumping Go Data Structures](http://blog.cyphertite.com/go-spew-a-journey-into-dumping-go-data-structures/) _2013-01-09_
   * [Optimizing Real World Go](http://bpowers.github.com/weblog/2013/01/05/optimizing-real-world-go/) _2013-01-05_
   * [Methods as Objects in Go](http://ernestmicklei.com/2012/11/26/methods-as-objects-in-go/) _2012-12-26_
   * [Applying The Clean Architecture to Go applications](http://manuel.kiessling.net/2012/09/28/applying-the-clean-architecture-to-go-applications/) _2012-09-08_
@@ -154,19 +155,6 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Japanese
   * [WindowsでGo言語のまとめ](http://esten.wankuma.com/)
-  * [Websocketを使ってみた with Go言語](http://u.hinoichi.net/2012/12/14/websocket%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F-with-go%E8%A8%80%E8%AA%9E/)
-  * [方向のあるチャネルを試す@Go言語](http://u.hinoichi.net/2012/12/29/%E6%96%B9%E5%90%91%E3%81%AE%E3%81%82%E3%82%8B%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E8%A9%A6%E3%81%99-go%E8%A8%80%E8%AA%9E/)
-  * [Go言語のチャネルを使った簡単なサンプル -タイムアウト処理-](http://u.hinoichi.net/2012/12/26/go%E8%A8%80%E8%AA%9E%E3%81%AE%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%B0%A1%E5%8D%98%E3%81%AA%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB-%E3%82%BF%E3%82%A4%E3%83%A0/)
-  * [Go Playgroundでランダムを試す](http://u.hinoichi.net/2012/12/25/go-playground%E3%81%A7%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%92%E8%A9%A6%E3%81%99/)
-  * [golang and FastCGI](http://u.hinoichi.net/2012/07/11/golang-and-fastcgi/)
-  * [goweb-msgpack](http://u.hinoichi.net/2012/08/06/goweb-msgpack/)
-  * [GAE/Gで単体テスト](http://u.hinoichi.net/2012/08/17/gaeg%E3%81%A7%E5%8D%98%E4%BD%93%E3%83%86%E3%82%B9%E3%83%88/)
-  * [Go言語のコードカバレッジツール](http://u.hinoichi.net/2012/09/06/go%E8%A8%80%E8%AA%9E%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AB%E3%83%90%E3%83%AC%E3%83%83%E3%82%B8%E3%83%84%E3%83%BC%E3%83%AB/)
-  * [Go言語でWebアプリを作るときに便利なライブラリ＆ツール](http://u.hinoichi.net/2012/09/11/go%E8%A8%80%E8%AA%9E%E3%81%A7web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E4%BE%BF%E5%88%A9%E3%81%AA%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/)
-  * [Gowebでクロスドメインリクエスト](http://u.hinoichi.net/2012/09/24/goweb%E3%81%A7%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/)
-  * [Go言語のhttpサーバ上で外部ファイルとしてJavascriptとかCSSを使う](http://u.hinoichi.net/2012/05/21/go%E8%A8%80%E8%AA%9E%E3%81%AEhttp%E3%82%B5%E3%83%BC%E3%83%90%E4%B8%8A%E3%81%A7%E5%A4%96%E9%83%A8%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6javascript%E3%81%A8%E3%81%8Bcss%E3%82%92/)
-  * [Go言語のテンプレートエンジンでHTMLのコメントを出す](http://u.hinoichi.net/2012/05/07/go%E8%A8%80%E8%AA%9E%E3%81%AE%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7html%E3%81%AE%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E5%87%BA/)
-  * [Channel API for Golang](http://u.hinoichi.net/2012/02/23/channel-api-for-golang/)
   * [Go言語で jQuery ライクな操作が出来る goquery を試した。](http://mattn.kaoriya.net/software/lang/go/20120914184828.htm)
   * [Go言語向けの ORM、gorp がなかなか良い](http://mattn.kaoriya.net/software/lang/go/20120914222828.htm)
   * [GAE/GでGoogle Cloud Storageを利用するには（１）](http://takashi-yokoyama.blogspot.jp/2012/08/gaeggoogle-cloud-storage.html)

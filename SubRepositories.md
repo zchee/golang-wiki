@@ -14,8 +14,6 @@ Install them with "go get".
   * [[docs](http://godoc.org/golang.org/x/text)] [[source](https://code.google.com/p/go/source/browse/?repo=text)] ` golang.org/x/text ` — packages for working with text.
 
   * [[docs](http://godoc.org/golang.org/x/blog)] [[source](https://code.google.com/p/go/source/browse/?repo=blog)] ` golang.org/x/blog ` — the content and server program for [blog.golang.org](http://blog.golang.org).
-  * [[docs](http://godoc.org/golang.org/x/talks)] [[source](https://code.google.com/p/go/source/browse/?repo=talks)] ` golang.org/x/talks ` — the content and server program for [talks.golang.org](http://talks.golang.org).
-
 
 
   * [[docs](http://godoc.org/golang.org/x/codereview)] [[source](https://code.google.com/p/go/source/browse/?repo=codereview)] ` golang.org/x/codereview ` — tools for code review.

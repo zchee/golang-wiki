@@ -728,7 +728,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
   * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
-  * [GoQuick](https://gitorious.org/goquick) - Go and Qt Quick experimentation
   * [gothic](https://github.com/nsf/gothic) - Tcl/Tk Go bindings
   * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3, requires GTK version 3.8
   * [go.uik](https://github.com/skelterjohn/go.uik) - A UI kit for Go, in Go. (project is closed)
@@ -839,6 +838,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Microservices
 
   * [gokit](https://github.com/go-kit/kit) - The Go Kit microservice framework (and [author interview](http://www.infoq.com/news/2015/09/microservices-with-go-kit)).
+  * [kite](https://github.com/koding/kite) - RPC server and client framework.
 
 ## Miscellaneous
 
@@ -1039,7 +1039,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tcp](https://github.com/mikioh/tcp) - TCP-level socket options that allow manipulation of TCP connection facilities.
   * [tcpmeter](https://code.google.com/p/tcpmeter) - A TCP throughput measuring tool
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
-  * [Tonika](http://5ttt.org) - Secure social networking platform
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
@@ -1076,7 +1075,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goirc](https://github.com/fluffle/goirc/) - event-based stateful IRC client framework
   * [go-irc](https://github.com/husio/go-irc) - Simple IRC client library
   * [gorobot](https://github.com/aimxhaisse/gorobot) - a modular IRC bot
-  * [GoTY](http://logik.li/projects/goty) - "Go Troll Yourself", minimalist client IRC library
   * [go-xmpp](https://github.com/mattn/go-xmpp) - XMPP client library
   * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
@@ -1241,7 +1239,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
   * [testflight](https://github.com/drewolson/testflight) - Painless http testing in Go
   * [Testify](https://github.com/stretchrcom/testify) - A set of packages that provide many tools for testifying that your code will behave as you intend.
-  * [Tideland CGL Asserts](http://code.google.com/p/tcgl/) - Make asserts during testing and inside of your applications
   * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
 
 ## Validation
@@ -1360,7 +1357,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Revel](http://robfig.github.com/revel/) - High productivity web framework modeled on Play! Framework
   * [sawsij](https://bitbucket.org/jaybill/sawsij/src) - Provides a small, opinionated web framework.
   * [Tango](https://github.com/lunny/tango) - Micro-kernel & pluggable web framework for Go
-  * [Tideland CGL Web](http://code.google.com/p/tcgl/) - Package for RESTful web applications
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard
   * [trinity](https://github.com/cihub/trinity) -  MVC framework
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps

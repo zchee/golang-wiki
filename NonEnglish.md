@@ -26,9 +26,6 @@ Some of this documentation may be out of date.
 
 ## German - Deutsch
 
-  * [Eine Anleitung zum Programmieren in Go](http://bitloeffel.de/DOC/golang/go_tutorial_de.html) - the (old) Go Tutorial.
-  * [Wirkungsvoll Go programmieren](http://bitloeffel.de/DOC/golang/effective_go_de.html) - Effective Go.
-  * [Wie man Go-Kode schreibt](http://bitloeffel.de/DOC/golang/code_de.html) - How to Write Go Code.
   * [Deutschsprachige Go Themenseite - German Go resource page](http://www.hweidner.de/golang)
 
 ## Japanese - 日本語
@@ -49,4 +46,3 @@ Some of this documentation may be out of date.
 ## Vietnamese - Tiếng Việt
 
  * [A Tour of Go](http://go-tour-vi.appspot.com/)
-

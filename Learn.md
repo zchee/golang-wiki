@@ -19,6 +19,3 @@ Learning resources for specific topics:
   * [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
   * [LearnTesting](LearnTesting) links to resources about testing in Go.
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
-
-Testing:
-[known bad link](http://photos.buberel.org/foobar98)

@@ -7,11 +7,11 @@ A number of Platform-as-a-Service ([PaaS](http://en.wikipedia.org/wiki/Platform_
 | PaaS | Repository | Quickstart Guide |
 |:-----|:-----------|:-----------------|
 | [Google App Engine](http://developers.google.com/appengine/) | https://github.com/GoogleCloudPlatform/appengine-plus-go | https://developers.google.com/appengine/training/go-plus-appengine/ |
-| [Azure](http://www.sazure.com/) | https://github.com/wadewegner/azure-website-go-builder | http://www.wadewegner.com/2015/01/creating-a-go-site-extension-and-resource-template-for-azure/ |
+| [Azure](http://www.azure.com/) | https://github.com/wadewegner/azure-website-go-builder | http://www.wadewegner.com/2015/01/creating-a-go-site-extension-and-resource-template-for-azure/ |
 | [IBM BlueMix](http://www.ibm.com/bluemix) |            | http://www.ibm.com/developerworks/cloud/library/cl-bluemix-go-app/ |
 | [CloudBees](http://www.cloudbees.com) | https://github.com/CloudBees-community/golang-clickstart |                  |
 | [Cloud Foundry](http://www.cloudfoundry.com/) | https://github.com/kr/heroku-buildpack-go | http://catdevrandom.me/blog/2013/05/16/buildpacks-in-cloud-foundry-v2/ |
-| [dotCloud](http://www.dotcloud.com) | https://github.com/kencochrane/golang-on-dotcloud | http://blog.dotcloud.com/go-on-dotcloud |
+| [dotCloud](http://www.dotcloud.com) | https://github.com/kencochrane/golang-on-dotcloud |  |
 | [AWS Elastic Beanstalk](https://aws.amazon.com/en/elasticbeanstalk/) | https://github.com/sqs/go-elasticbeanstalk |                  |
 | [Heroku](http://www.heroku.com) | https://github.com/kr/heroku-buildpack-go | http://mmcgrana.github.com/2012/09/getting-started-with-go-on-heroku.html |
 | [OpenShift](http://openshift.redhat.com) | https://github.com/gcmurphy/golang-openshift |                  |

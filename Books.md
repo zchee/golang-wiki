@@ -100,7 +100,7 @@ Sorted by publication date.
     * ISBN: 978-0134190440
     * Reference: http://www.informit.com/store/go-programming-language-9780134190440
 
-## Available without Publication Date 
+## Available without Publication Date
 
   * **Learning Go** (e-book)
     * Author: Miek Gieben
@@ -187,19 +187,13 @@ Sorted by publication date.
     * Publication Date: 2013-08
     * ISBN: 978-7-115-31790-2
     * Reference: http://www.ptpress.com.cn/Book.aspx?id=35714
-
-  * **Go语言程序设计 (21世纪高等学校规划教材·计算机科学与技术)**
-    * Author: 王鹏
-    * Publication Date: 2013-12-18
-    * ISBN: 9787302347231
-    * Reference: http://www.tup.com.cn/sub_press/4/book/Showbook.asp?CPBH=054436-01
   
   * **Go并发编程实战**
     * Author: 郝林
     * Publication Date: 2015-01-01
     * ISBN: 9787115373984
     * Reference: http://www.ptpress.com.cn/Book.aspx?id=39783
-    
+
   * **学习 Go 语言** (e-book / Translation)
     * Author: Xing Xing (mikespook)
     * Publication Date: ---
@@ -248,7 +242,7 @@ Sorted by publication date.
     * Authors: Rainer Feike and Steffen Blass
     * Publication Date: 2010-11
     * ISBN: 978-3-8632-4722-5
-    * Reference (Amazon): http://www.amazon.de/Programmierung-Google-Beispiele-professionelle-Anwendung/dp/3827330092 
+    * Reference (Amazon): http://www.amazon.de/Programmierung-Google-Beispiele-professionelle-Anwendung/dp/3827330092
     * Reference (Google Books): https://books.google.de/books?id=E4IL5dT1yLsC&printsec=frontcover&hl=de#v=onepage&q&f=false
 
   * **Systemprogrammierung in Google Go**
@@ -312,8 +306,7 @@ Sorted by publication date.
 
 # Indonesia
   * **Bahasa Pemrograman Go**
-    * Author: Sajarwo Anggai 
+    * Author: Sajarwo Anggai
     * Publication Date: October 21, 2013
     * ISBN: ---
     * Reference: https://sajarwo87.wordpress.com/2013/10/21/buku-bahasa-pemrograman-go/
- 

@@ -73,13 +73,11 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Louisville Golang](http://www.meetup.com/Louisville-Golang-Meetup/) - Louisville KY, USA.
   * [Go Boston](https://plus.google.com/u/0/communities/103337146295481792015) - Boston MA, USA.
   * [GoMN](http://www.meetup.com/golangmn/) - Minneapolis MN, USA.
-  * [Davidson Golang](http://www.meetup.com/Davidson-Golang/events/167980892/) - Davidson NC, USA.
   * [NYC Go Developers Meetup](http://www.meetup.com/nycgolang/) - New York NY, USA.
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
   * [GoPDX](http://groups.google.com/group/go-pdx) - Portland OR, USA.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
   * [GoLancaster](http://www.meetup.com/GoLancaster/) - Lancaster PA, USA.
-  * [Go Steel Programmers](http://meetup.go-steel-programmers.org/) - Pittsburgh PA, USA.
   * [ATX-Golang](http://www.meetup.com/atxgolang/) - Austin TX, USA.
   * [GoDFW](http://www.meetup.com/GoCowboys/) - Dallas TX, USA.
   * [Golang Houston](http://www.meetup.com/Golang-Houston/) - Houston TX, USA.
