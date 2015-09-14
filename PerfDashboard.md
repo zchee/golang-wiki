@@ -1,6 +1,6 @@
 # Introduction
 
-[Performance Dashboard](http://build.golang.org/perf) does continuous monitoring of performance characteristics of the Go implementation. It notifies codereview threads about any significant changes caused by the commit, allows to see performance changes caused by [recent commits](http://build.golang.org/perf), allows to investigate changes [in detail](http://build.golang.org/perfdetail?commit=fb3d6c1631c3f3141f33a01afb4c0a23ef0ea2cf&commit0=82f48826c6c79a3d5697d5e06cac8451f3dc3c7f&kind=builder&builder=linux-amd64-perf&benchmark=http) as well as shows [graphical representation](http://build.golang.org/perfgraph) of performance dynamics.
+[Performance Dashboard](http://build.golang.org/perf) does continuous monitoring of performance characteristics of the Go implementation. It notifies codereview threads about any significant changes caused by the commit, allows to see performance changes caused by [recent commits](http://build.golang.org/perf), allows to investigate changes [in detail](http://build.golang.org/perfdetail?commit=fb3d6c1631c3f3141f33a01afb4c0a23ef0ea2cf&commit0=82f48826c6c79a3d5697d5e06cac8451f3dc3c7f&kind=builder&builder=linux-amd64-perf&benchmark=http) .
 
 # Builders
 
@@ -59,13 +59,3 @@ Columns:
   * The rest describe commit.
 
 You can click on any positive/negative delta to see details about the change.
-
-# Perf Graphs View
-
-The [view](http://build.golang.org/perfgraph) shows dynamics of performance metrics in graphical form.
-
-On the left pane you select one or more builders, benchmarks, metrics, GOMAXPROCS values as well as commit range, and click Refresh to update the graph.
-
-If you hover over the graph, you see information about the commit and metric values. You can zoom in/out by scrolling (mouse wheel), and see older/newer commits by dragging the graph. Right mouse click on the graph resets view to initial.
-
-All lines are normalized to their starting point. The first point is always 1.0, and the rest are relative to the first point.

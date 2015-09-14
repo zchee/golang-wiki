@@ -32,8 +32,6 @@ Go is a great language for CS majors. This page presents some university courses
 
   * 6.824 Distributed Systems at MIT is using Go in its labs: http://pdos.csail.mit.edu/6.824/.
 
-  * Design of Agent-based Systems at University of Jyväskylä: [TIES433](http://users.jyu.fi/~miselico/teaching/TIES433/2013/)
-
   * CSE 223B, Spring 2014: Distributed Computing and Systems at UC San Diego http://cseweb.ucsd.edu/classes/sp14/cse223B-a/index.html
 
   * Dixie State University teaches Go in an introductory course to programming languages and later on in distributed systems.
@@ -47,4 +45,3 @@ Go is a great language for CS majors. This page presents some university courses
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
 
   * University of Stavanger, Norway. We use Go to build a replicated state machine based on Paxos in DAT520 Distributed Systems. http://www.uis.no/studies/study-courses/?code=DAT520_1&parentcat=9835
-

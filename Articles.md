@@ -107,7 +107,6 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_
   * [Function Types in Go (golang)](http://jordanorelli.tumblr.com/post/42369331748/function-types-in-go-golang) _2013-02-05_
-  * [I2C Programming in Go](http://www.gmcbay.com/2013/01/i2c-programming-in-go/) _2013-01-12_
   * [Go-spew: A Journey into Dumping Go Data Structures](http://blog.cyphertite.com/go-spew-a-journey-into-dumping-go-data-structures/) _2013-01-09_
   * [Optimizing Real World Go](http://bpowers.github.com/weblog/2013/01/05/optimizing-real-world-go/) _2013-01-05_
   * [Methods as Objects in Go](http://ernestmicklei.com/2012/11/26/methods-as-objects-in-go/) _2012-12-26_

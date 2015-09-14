@@ -1078,7 +1078,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-xmpp](https://github.com/mattn/go-xmpp) - XMPP client library
   * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
-  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go 
+  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go
   * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
 
 ## Operating System Interfaces
@@ -1334,7 +1334,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [falcore](https://github.com/fitstar/falcore) - Modular HTTP server framework
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
-  * [GEP](https://geps.daviddengcn.com/) - A simple web framework similar to JSP. Writing dynamic pages knowing only Go and HTML(or Markdown)
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
   * [go-fastweb](http://code.google.com/p/go-fastweb/) - aims to be a simple, small and clean MVC framework for go
   * [goku](https://github.com/QLeelulu/goku) - a Web Mvc Framework for Go, mostly like ASP.NET MVC.

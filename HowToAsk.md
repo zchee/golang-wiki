@@ -108,6 +108,5 @@ Summary:<br>
 
 <h1>More tips</h1>
 
-</li><li><a href='http://msmvps.com/blogs/jon_skeet/archive/2010/08/29/writing-the-perfect-question.aspx'>Writing the perfect question</a>
 </li><li><a href='http://www.catb.org/esr/faqs/smart-questions.html'>Smart questions</a>
 </li><li><a href='http://www.sscce.org/'>Short, Self Contained, Correct (Compilable), Example</a>
