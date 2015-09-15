@@ -1,6 +1,6 @@
 # Introduction
 
-Go is fully supported on linux/arm. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux, Go is also experimentally supported on FreeBSD, and NetBSD. There is a also unofficial port to [Darwin (iOS)](https://bitbucket.org/minux/goios).
+Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, and NetBSD.
 
 # Supported architectures
 
@@ -12,7 +12,7 @@ Go supports the following ARM architectural families.
 | ARMv5            | supported  | GOARM=5         |           |
 | ARMv6            | supported  |                 | GOARM=6 is the default value|
 | ARMv7            | supported  | GOARM=7         |           |
-| ARMv8            | supported in Go 1.5 (merged in tip) | GOARCH=arm64    | Only Linux supported so far |
+| ARMv8            | supported in Go 1.5 (merged in tip) | GOARCH=arm64    |  |
 
 Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile Go from source on the target machine. In cross compilation situations, it is recommended that you always export an appropriate GOARM value.
 
