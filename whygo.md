@@ -1,4 +1,4 @@
-Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers)
+Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stores](SuccessStories).
 
 ## Why Go
 - [Iron.io: How We Went from 30 Servers to 2 with Go](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html)
