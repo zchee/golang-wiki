@@ -1,6 +1,8 @@
 Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stores](SuccessStories).
 
 ## Why Go
+
+- [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
 - [Iron.io: How We Went from 30 Servers to 2 with Go](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html)
 - [Behind the Scenes: Big Data at Torbit](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
 - [Juju at Canonical](http://www.reddit.com/r/programming/comments/18atce/juju_canonical_109k_lines_of_go_code/)

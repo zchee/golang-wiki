@@ -52,6 +52,7 @@ Table of Contents
   * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
   * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
   * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
+  * [Learning Go Types](http://www.laktek.com/2012/01/27/learning-go-types/) _2012-01-27_
 
 ## Performance and Profiling
 
@@ -76,6 +77,7 @@ Table of Contents
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [Deploy a golang photo archive tool to the cloud on IBM BlueMix](http://www.ibm.com/developerworks/cloud/library/cl-golang-photo-archive-bluemix/index.html) _2015-06-05_
   * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
   * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_

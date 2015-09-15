@@ -1,6 +1,8 @@
 # Go success stories from around the web
 
+  * [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
   * [From Python to Go: Migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
+  * [Our Experience with Golang](https://www.scriptrock.com/blog/our-experience-with-golang)
   * [The Reliability of Go](http://andrewwdeane.blogspot.de/2013/05/the-reliability-of-go.html)
   * [A Go Redirection Service](http://blog.dnsimple.com/a-golang-redirection-service/)
   * [pool.ntp.org DNS server in Go](http://news.ntppool.org/2012/10/new-dns-server.html)
