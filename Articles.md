@@ -92,6 +92,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 ## Interfaces / OOP
 
   * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
+  * [Loose Copuling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_
   * [Interface Types in Go](https://medium.com/@rakyll/interface-pollution-in-go-7d58bccec275) _2014-10-18_
   * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
   * [How to use interfaces in Go](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go) _2012-10-01_
