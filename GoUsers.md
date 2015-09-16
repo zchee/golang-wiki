@@ -149,6 +149,7 @@
   * [SendHub](https://www.sendhub.com/) - [source (shipbuilder PaaS)](http://shipbuilder.io/)
   * [Shopify](http://www.shopify.com) [tweet](https://twitter.com/burkelibbey/status/312328030670450688)
   * [Showyou](http://www.showyou.com) [source](https://plus.google.com/101522949595361604155/posts/8n4CSePMwgV)
+  * [SignalFx](https://signalfx.com/) - [blog](http://blog.signalfx.com/why-the-signalfx-metric-proxy-is-written-in-go)
   * [SmartyStreets](http://smartystreets.com) [source](http://mwholt.com/autocomplete#technical)
   * [SmugMug](http://www.smugmug.com/) - [blog](http://sorcery.smugmug.com/2012/04/06/deriving-json-types-in-go/)
   * [Skimlinks](http://www.skimlinks.com) [blog](https://speakerdeck.com/rjohnsondev/go-at-skimlinks)
