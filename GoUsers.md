@@ -191,6 +191,7 @@
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
   * [Viki](http://www.viki.com/) - [github](https://github.com/viki-org/)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
+  * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Yahoo](http://yahoo.com) - [github](https://github.com/yahoo/webseclab)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
