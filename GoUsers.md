@@ -173,7 +173,7 @@
   * [Tapjoy](http://home.tapjoy.com/) - [blog](http://basho.com/posts/technical/built-on-riak-dynamiq-by-tapjoy/), [github](https://github.com/Tapjoy/dynamiq)
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
   * [Techequity Technologies](http://www.techequity.in/)
-  * [TF2Stadium](http://tf2stadium.com) - [github.com](https://github.com/TF2Stadium) [blog](http://blog.tf2stadium.com/how-it-works-basics/)
+  * [TF2Stadium](http://tf2stadium.com) - [github](https://github.com/TF2Stadium), [blog](http://blog.tf2stadium.com/how-it-works-basics/)
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
