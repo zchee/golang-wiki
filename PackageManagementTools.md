@@ -6,14 +6,14 @@ As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/E
 
 Tools supporting this feature include:
 
- * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
  * [Godep](https://github.com/tools/godep)
  * [Govendor](https://github.com/kardianos/govendor)
- * [Glide](https://github.com/Masterminds/glide)
  * [godm](https://github.com/hectorj/godm)
  * [vexp](https://github.com/kr/vexp)
  * [gv](https://github.com/forestgiant/gv)
+ * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
  * [govend](https://github.com/gophersaurus/govend)
+ * [Glide](https://github.com/Masterminds/glide)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
