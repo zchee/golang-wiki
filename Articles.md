@@ -9,7 +9,8 @@ Table of Contents
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Performance and Profiling](#performance-and-profiling)
 * [Concurrency / Channels](#concurrency--channels)
-* [Web & API Development](#web-development)
+* [Web & API Development](#web-and-api-development)
+* [Containers & Docker](#containers-and-docker)
 * [Mobile Applications](#mobile-applications)
 * [Interfaces / OOP](#interfaces--oop)
 * [Misc](#misc)
@@ -34,7 +35,6 @@ Table of Contents
   * [Golang Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) _2015-08-30_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
   * [Defer Fun](https://blog.klauspost.com/defer-fun/) _2015-07-25_
-  * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Things I learned teaching Go - Francesc Campoy](https://medium.com/@francesc/dotgo-things-i-learned-teaching-go-e999f33298cf) _2014-11-24_  
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
   * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
@@ -74,7 +74,7 @@ Table of Contents
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
 
-## Web Development
+## Web & API Development
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
@@ -85,6 +85,11 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
   * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
   * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
+
+## Containers & Docker
+
+  * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
+  * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
 
 ## Mobile Applications
 
@@ -109,6 +114,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Misc
 
+  * [Build Slack Slash Commands with Go](http://www.programmableweb.com/news/how-to-use-slack-api-to-build-slash-commands-powered-google-app-engine-and-go/how-to/2015/09/16) _2015-09-15_
   * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
   * [Go & Assembly](http://www.doxsey.net/blog/go-and-assembly) _2013-02-05_
