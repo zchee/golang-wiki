@@ -30,7 +30,6 @@ Table of Contents
 
 ## General
 
-
   * [Best Practices for a new Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) _2015-09-01_
   * [Golang Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) _2015-08-30_
   * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
@@ -79,6 +78,7 @@ Table of Contents
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [Go Resiliency Patterns](https://github.com/eapache/go-resiliency) _2015-09-01_
   * [Deploy a golang photo archive tool to the cloud on IBM BlueMix](http://www.ibm.com/developerworks/cloud/library/cl-golang-photo-archive-bluemix/index.html) _2015-06-05_
   * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
