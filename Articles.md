@@ -13,6 +13,7 @@ Table of Contents
 * [Containers & Docker](#containers--docker)
 * [Mobile Applications](#mobile-applications)
 * [Interfaces / OOP](#interfaces--oop)
+* [Security](#security)
 * [Misc](#misc)
 * [Chinese](#chinese)
 * [Czech](#czech)
@@ -112,6 +113,9 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
   * [Interfaces in Go - Russ Cox](http://research.swtch.com/interfaces) _2009-12-01_
 
+## Security
+
+  * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _205-09-19_
 
 ## Misc
 
