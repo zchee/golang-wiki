@@ -56,6 +56,7 @@ Table of Contents
 
 ## Performance and Profiling
 
+  * [Answering your own (performance) questions in Go](http://www.sanarias.com/blog/915LearningtoansweryourownquestionsinGo) _2015-09-15_
   * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_
   * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
   * [Debugging performance issues in Go programs - Intel](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs) _2014-05-10_

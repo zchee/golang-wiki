@@ -57,6 +57,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Other Random Toys, Experiments and Example Code](#other-random-toys-experiments-and-example-code)
 * [P2P and File Sharing](#p2p-and-file-sharing)
 * [Programming](#programming)
+* [RPC](#rpc)
 * [Scanner and Parser Generators](#scanner-and-parser-generators)
 * [Security](#security)
 * [Simulation Modeling](#simulation-modeling)
@@ -67,6 +68,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Unix](#unix)
 * [Unsorted](#unsorted-please-help)
 * [Validation](#validation)
+* [Version Contro](#version-control)
 * [Virtual Machines and Languages](#virtual-machines-and-languages)
 * [Web Applications](#web-applications)
 * [Web Libraries](#web-libraries)
@@ -375,6 +377,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### MongoDB
 
   * [mgo](http://labix.org/mgo) - Rich MongoDB driver for Go
+  * [rocks-stata](https://github.com/facebookgo/rocks-strata) - MongoDB Backup Utility
 
 ### MySQL
 
@@ -1125,6 +1128,11 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-parse](https://github.com/vito/go-parse) - a Parsec-like parsing library
   * [Shuffle](https://github.com/earthboundkid/shuffle) - Implementation of the Fisher–Yates shuffle (or Knuth shuffle) in Go.
 
+## RPC
+
+  * [gowsdl](https://github.com/hooklift/gowsdl) - WSDL code generation
+  * [gRPC](https://grpc.io) - Google's multi-language RPC framework with Go support
+
 ## Scanner and Parser Generators
 
   * [ebnf2y](http://github.com/cznic/ebnf2y) - Utility for converting EBNF grammars into yacc compatible skeleton .y files.
@@ -1246,6 +1254,11 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
 
+## Version Control
+
+  * [git (in go)](https://github.com/dskinner/git) - Minimal working git client in Go
+  * [gogs](http://gogs.io/) - Self-hosting Git Server in Go
+
 ## Virtual Machines and Languages
 
   * [agora](https://github.com/PuerkitoBio/agora) - A dynamically typed, garbage collected, embeddable programming language built with Go
@@ -1352,13 +1365,15 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gowut](http://code.google.com/p/gowut) - Go Web UI Toolkit is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go.
   * [HttpRouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
   * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
-  * [Martini](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go
+  * [Martini **deprecated**](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go
+  * [Negroni](https://github.com/codegangsta/negroni) - Idiomatic middleare for Go
   * [restclient](https://github.com/jmcvetta/restclient) - Client library for interacting with RESTful APIs.
   * [Revel](http://robfig.github.com/revel/) - High productivity web framework modeled on Play! Framework
   * [sawsij](https://bitbucket.org/jaybill/sawsij/src) - Provides a small, opinionated web framework.
   * [Tango](https://github.com/lunny/tango) - Micro-kernel & pluggable web framework for Go
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard
   * [trinity](https://github.com/cihub/trinity) -  MVC framework
+  * [Utron](https://github.com/gernest/utron) - MVC Framework
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
   * [wfdr](https://github.com/crazy2be/wfdr) - Simple web framework designed for and written in go. Works with other languages as well, but not as well.
   * [xweb](https://github.com/go-xweb/xweb) - A web framework for Go. Just like Struts for Java.
