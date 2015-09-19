@@ -46,7 +46,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [GUIs and Widget Toolkits](#guis-and-widget-toolkits)
 * [Hardware](#hardware)
 * [Language and Linguistics](#language-and-linguistics)
-* [Logging](#logging)
+* [Logging & Monitoring](#logging-and-monitoring)
 * [Machine Learning](#machine-learning)
 * [Mathematics](#mathematics)
 * [Microservices](#microserices)
@@ -761,7 +761,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sego](https://github.com/huichen/sego) - Chinese language segmenter.
   * [textcat](https://github.com/pebbe/textcat) - N-gram based text categorization, with support for utf-8 and raw text
 
-## Logging
+## Logging and Monitoring
 
   * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
   * [factorlog](https://github.com/kdar/factorlog) - Really fast, featureful logging infrastructure (supports colors, verbosity, and many formats)
@@ -772,6 +772,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
+  * [MailJet Live Event Dashboard](https://github.com/arnaudbreton/mailjet-live-event-dashboard) - API monitoring in real time.
   * [rfw](https://github.com/mipearson/rfw) - Rotating file writer - a 'logrotate'-aware file output for use with loggers
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
   * [seelog](https://github.com/cihub/seelog) - Flexible dispatching, filtering, and formatting

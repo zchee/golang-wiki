@@ -36,6 +36,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 * [Go Craft Middleware](https://github.com/gocraft/web)
 * [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
 * [Kite Micro-service framework](https://github.com/koding/kite)
+* [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
 
 ### Frameworks
 

@@ -90,8 +90,9 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 Start by reading the [overview of mobile development](Mobile) documentation first.
 
+  * [Go Mobile: Next generation of mobile apps](https://www.linkedin.com/pulse/go-mobile-next-generation-apps-daniele-baroncelli) _2015-09-18_
+  * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo) _2015-09-17_
   * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
-  * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo)
 
 ## Interfaces / OOP
 
