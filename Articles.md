@@ -64,14 +64,15 @@ Table of Contents
 
 ## Concurrency / Channels
 
-  * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
-  * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
-  * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
-  * [Stacked channels](http://gowithconfidence.tumblr.com/post/31426832143/stacked-channels) _2012-09-12_
-  * [Just muxing about](http://gowithconfidence.tumblr.com/post/31431608488/muxing) _2012-09-12_
-  * [applied mux()ing: a LimitBuffer](http://gowithconfidence.tumblr.com/post/31797884887/limit-buffers) _2012-09-18_
-  * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
+  * [Golang Pearl: Thread-safe writes and double checked locking in Go](http://blog.launchdarkly.com/golang-pearl-thread-safe-writes-and-double-checked-locking-in-go/) _2015-07-21_
   * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_
+  * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
+  * [applied mux()ing: a LimitBuffer](http://gowithconfidence.tumblr.com/post/31797884887/limit-buffers) _2012-09-18_
+  * [Just muxing about](http://gowithconfidence.tumblr.com/post/31431608488/muxing) _2012-09-12_
+  * [Stacked channels](http://gowithconfidence.tumblr.com/post/31426832143/stacked-channels) _2012-09-12_
+  * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
+  * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
+  * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
 
 ## Web Development
 
@@ -90,6 +91,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 Start by reading the [overview of mobile development](Mobile) documentation first.
 
   * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+  * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo)
 
 ## Interfaces / OOP
 
