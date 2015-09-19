@@ -41,7 +41,7 @@ Older-style builders are listed below. These builders are configured and run man
 # Builder Requirements
   * internet connection (at least be able to access Google and http://build.golang.org)
   * preferably with two or more (V)CPUs, as at least one test (` sync/atomic ` requires ` runtime.NumCPU() > 1 ` to test more completely)
-  * at least 512MiB of memory
+  * at least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
 # Restrictions
   * The combination of Ubuntu 11.10 or 12.04 OMAP4 kernel and pandaboard (ES) have proven unstable as builders. See [issue 4305](https://code.google.com/p/go/issues/detail?id=4305). Make sure you have updated to the latest available 12.04.2 release.
