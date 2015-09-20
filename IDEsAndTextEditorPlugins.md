@@ -19,7 +19,7 @@
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
   * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) support available.
   * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
-  * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE, Go-lang support will be built-in as of version 9 (currently available as a pre-release).
+  * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE with built-in Go support
   * **[Komodo Edit](http://komodoide.com/komodo-edit/)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
   * **[Lime Text](http://limetext.org/)**: Developed in Go, aims to be a Free and open-source software alternative to Sublime Text. Not quite ready yet but welcoming contributions to the progress. https://github.com/limetext/lime
   * **[LiteIDE](https://github.com/visualfc/liteide)**: A simple, open source and cross-platform Go IDE

@@ -313,7 +313,6 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ### Graphs
 
-  * [goraph](https://github.com/gyuho/goraph) - Graph Visualization, Algorithms
   * [graphs](https://github.com/thcyron/graphs) - Implementation of various tree, graph and network algorithms
 
 ### Sets
@@ -334,7 +333,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [GoLLRB](https://github.com/petar/GoLLRB) - A Left-Leaning Red-Black (LLRB) implementation of 2-3 balanced binary search trees in Google Go
   * [go-stree](https://github.com/toberndo/go-stree) - A segment tree implementation for range queries on intervals
   * [go-radix](https://github.com/armon/go-radix), [go-radix-immutable](https://github.com/hashicorp/go-immutable-radix) - Radix tree implementations.
-  * [gotree](https://github.com/gyuho/gotree) - Tree Visualization, Algorithms
   * [gtreap](https://github.com/steveyen/gtreap) - Persistent treap implementation.
   * [rbtree](https://github.com/yasushi-saito/rbtree) - Yet another red-black tree implementation, with a C++ STL-like API
   * [rtreego](https://github.com/dhconnelly/rtreego) - an R-Tree library
@@ -484,7 +482,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-rexster-client](https://github.com/sqs/go-rexster-client) - Go client for the [Rexster graph server](https://github.com/tinkerpop/rexster/wiki) (part of the [TinkerPop](http://www.tinkerpop.com/) suite of graph DB tools)
   * [goriak](https://bitbucket.org/lateefj/goriak/overview) - Database driver for riak database (project homepage is now on bitbucket.org)
   * [goriakpbc](https://github.com/tpjg/goriakpbc) - Riak driver using Riak's protobuf interface
-  * [go-sphinx](https://github.com/yunge/gosphinx) - A sphinx client package for Go, for full text search.
   * [gotyrant](https://github.com/patrickxb/gotyrant) - A Go wrapper for tokyo tyrant
   * [go-wikiparse](https://github.com/dustin/go-wikiparse) - mediawiki dump parser for working with wikipedia data
   * [hdfs](https://github.com/zyxar/hdfs) - go bindings for libhdfs
@@ -654,7 +651,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
-  * [baukasten](https://github.com/Agon/baukasten) - A modular game library.
   * [bimg](https://github.com/h2non/bimg) - Small Go library for fast image resize and transformation using libvips
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
@@ -756,7 +752,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gocha](https://github.com/gyuho/gocha) - CHILDES data analyzing tool
   * [go-language](https://github.com/matiasinsaurralde/go-language) - A simple language detector using letter frequency data.
   * [goling](https://github.com/gyuho/goling) - String Similarity(Cosine Similarity, Levenshtein Distance), Spell Check, Segmentation
-  * [gomata](https://github.com/gyuho/gomata) - Automata Theory, Computational Linguistics
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
@@ -823,7 +818,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
   * [go\_matrix\_cuda](https://godoc.org/github.com/alonsovidales/go_matrix_cuda) - GPU-Accelerated Linear Algebra Libraries based in CUDA
   * [go.matrix](https://github.com/skelterjohn/go.matrix) - a linear algebra package
-  * [goris](https://github.com/gyuho/goris) - Timeseries database.
   * [go-symexpr](https://github.com/verdverm/go-symexpr) - Symbolic math as an AST with derivatives, simplification, and non-linear regression
   * [gsl](https://bitbucket.org/mingzhi/gsl) - GNU Scientific Library bindings
   * [interval](http://godoc.org/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
@@ -908,7 +902,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-semvar](http://code.google.com/p/go-semver/) - Semantic versions (see http:/semver.org)
   * [go-serial](https://github.com/mikepb/go-serial) - Go binding to libserialport for serial port functionality (cgo).
   * [goST](https://bitbucket.org/pseudomind/gost) - A steam properties (steam table) library written for Go. This was designed as a native go equivalent to XSteam.
-  * [go-systemd](https://github.com/3M3RY/go-systemd) - Utility functions for interacting with the systemd init system
   * [go-taskstats](https://github.com/salviati/go-taskstats) - Go interface for Linux taskstats
   * [gotenv](https://github.com/subosito/gotenv) - Loads environment variables from ` .env ` file
   * [Gotgo](https://github.com/droundy/gotgo) - A Go preprocessor that provides an implementation of generics
@@ -929,7 +922,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [randat](https://github.com/extemporalgenome/randat) - Devel tool for generating random bytestrings and encoding files in code-friendly forms
   * [recycler](https://github.com/timtadh/recycler) - A more flexible object recycling system than sync.Pool. Provides constructors and destructors for the objects as well as control over the length the free.
   * [replaykit](https://github.com/dustin/replaykit) - A library for replaying time series data.
-  * [selenium](https://bitbucket.org/tebeka/selenium/src) - Selenium client
   * [serial](https://github.com/ziutek/serial) - Serial ports API (pure Go)
   * [sio](https://github.com/schleibinger/sio) - Package sio lets you access old serial junk. It's a go-gettable fork and modification of dustin's rs232 package.
   * [Space Monkey Monitor](https://github.com/spacemonkeygo/monitor) - A flexible process data collection, monitoring, and instrumentation library for Go
