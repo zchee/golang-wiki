@@ -56,6 +56,7 @@
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/)
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
+  * [Dailymotion](http://www.dailymotion.com) - [github](https://github.com/dailymotion)
   * [Datadog](https://www.datadoghq.com) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
   * [DeferPanic](https://deferpanic.com) - [github](https://github.com/deferpanic)
   * [DigitalOcean](http://www.digitalocean.com/) - [blog](http://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/)
