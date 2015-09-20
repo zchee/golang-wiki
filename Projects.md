@@ -644,7 +644,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.geojson](https://github.com/paulmach/go.geojson) - Marshalling and Unmarshalling of GeoJSON objects
   * [gogeos](http://paulsmith.github.io/gogeos/) - Go library for spatial data operations and geometric algorithms
   * [go-proj-4](https://github.com/pebbe/go-proj-4) - An interface to the Cartographic Projections Library PROJ.4
-  * [lvd.go](http://code.google.com/p/lvd.go) - dense set, byte trie, reed solomon encoding, wgs84 geodesics
   * [polyline](https://github.com/twpayne/gopolyline) - Google Maps polyline encoding and decoding
 
 ## Go Implementations
