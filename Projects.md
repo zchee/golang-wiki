@@ -1200,6 +1200,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
   * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
   * [rubex](https://github.com/moovweb/rubex) - A simple regular expression library that supports Ruby's regex syntax. It is faster than Regexp.
+  * [sanitize](https://github.com/kennygrant/sanitize) - Package sanitize provides functions for sanitizing html and text. 
   * [scanner](http://code.google.com/p/golang/source/browse/src/pkg/scanner) - A text scanner that parses primitive types, analogous to Java's
   * [segment](https://github.com/llimllib/segment) - An implementation of Norvig's recursive word segmentation algorithm
   * [sprig](https://github.com/Masterminds/sprig) - Template functions for Go templates.
@@ -1282,6 +1283,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Caddy](https://caddyserver.com) - A fast, capable, general-purpose HTTP/2 web server that's easy to use
   * [Digestw](https://github.com/mocchira/digestw) - A Web Application - Twitter's Timeline Digest
   * [fourohfourfound](https://github.com/whee/fourohfourfound/) - A fallback HTTP server that may redirect requests with runtime configurable redirections
+  * [Fragmenta](http://fragmenta.eu/) - A CMS built in Go
   * [freegeoip](https://github.com/fiorix/freegeoip) - IP geolocation web service (web server of freegeoip.net)
   * [goals-calendar](https://github.com/nono/goals-calendar) - A web-based Seinfeld calendar implemented in Go
   * [goblog](https://github.com/begoon/begoon.github.com) - A static blog engine
