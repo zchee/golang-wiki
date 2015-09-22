@@ -140,13 +140,8 @@ Not full vendor tool, but may still provide value.
 ## Import Proxies
 Import Proxies act as a man in the middle between the Go tool and the VCS. It parses the data stream while the repository is being cloned.
 
-| **git-version-proxy** |https://github.com/msiebuhr/git-version-proxy|
-|:----------------------|:--------------------------------------------|
-|Title                  |A HTTP Git proxy that only exposes certain versions|
-|Author                 |Morten Siebuhr                               |
-|Categories             |Import Proxy (git)                           |
-|                       |                                             |
 | **gopkg.in**          |https://gopkg.in                             |
+|:----------------------|:--------------------------------------------|
 |Title                  |Redirect the go tool onto well defined GitHub repositories. Versioning with tags and branches or the repository name.|
 |Author                 |Gustavo Niemeyer                             |
 |Categories             |Import Proxy (GitHub)                        |
@@ -177,6 +172,7 @@ Here is a list of packages that authors can use to test their tools against.
  * https://github.com/coreos/third_party.go
  * http://godoc.org/kylelemons.net/go/rx
  * https://github.com/theplant/pak
+ * https://github.com/msiebuhr/git-version-proxy
 
 ## Not Written in Go
 These tools are recorded for completeness, but it is suggested not to use them as they are platform specific.
