@@ -41,6 +41,12 @@ Sorted by publication date.
     * ISBN: 978-1783983483
     * Reference: https://www.packtpub.com/application-development/mastering-concurrency-go
 
+  * **The Little Go Book**
+    * Author: Karl Seguin
+    * Publication Date: October 2014
+    * ISBN: none: free ebook/PDF/online version
+    * Reference: http://openmymind.net/The-Little-Go-Book/
+    
   * **Go Programming Blueprints**
     * Author: Mat Ryer
     * Publication Date: January 23, 2015
@@ -187,7 +193,7 @@ Sorted by publication date.
     * Publication Date: 2013-08
     * ISBN: 978-7-115-31790-2
     * Reference: http://www.ptpress.com.cn/Book.aspx?id=35714
-  
+
   * **Go并发编程实战**
     * Author: 郝林
     * Publication Date: 2015-01-01
