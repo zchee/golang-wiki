@@ -1,7 +1,7 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
+  * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
   * [Learn Go in an Hour - Video](https://www.youtube.com/watch?v=CF9S4QZuV30) _2015-02-15_
-  * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
   * [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6), a multi-part video training class.
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
   * [Ardan Labs Training](https://www.ardanlabs.com/) - Commercial, live instruction for Go programming.
@@ -14,6 +14,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
   * [Golang Challenge](http://golang-challenge.com/) - Monthly code competions to improve your Go skills.
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf)
+  * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
 
 Learning resources for specific topics:
   * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.

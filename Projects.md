@@ -1200,7 +1200,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
   * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
   * [rubex](https://github.com/moovweb/rubex) - A simple regular expression library that supports Ruby's regex syntax. It is faster than Regexp.
-  * [sanitize](https://github.com/kennygrant/sanitize) - Package sanitize provides functions for sanitizing html and text. 
+  * [sanitize](https://github.com/kennygrant/sanitize) - Package sanitize provides functions for sanitizing html and text.
   * [scanner](http://code.google.com/p/golang/source/browse/src/pkg/scanner) - A text scanner that parses primitive types, analogous to Java's
   * [segment](https://github.com/llimllib/segment) - An implementation of Norvig's recursive word segmentation algorithm
   * [sprig](https://github.com/Masterminds/sprig) - Template functions for Go templates.
@@ -1236,6 +1236,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
   * [Nitro](https://github.com/spf13/nitro) - A quick and simple profiler For Go
+  * [muxy](https://github.com/mefellows/muxy) - Simulating real-world distributed system failures.
   * [terst](https://github.com/robertkrimen/terst) - A terse, easy-to-use testing library for Go
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
   * [testflight](https://github.com/drewolson/testflight) - Painless http testing in Go
@@ -1414,6 +1415,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-tripit](https://github.com/ancientlore/go-tripit) - Go API library for the TripIt web services
   * [GoTwilio](https://github.com/sfreiberg/gotwilio) - Twilio library for Go (golang). Very basic at the moment
   * [gravatar](https://github.com/ftrvxmtrx/gravatar) - Gravatar image/profile API library
+  * [jsonapi](https://github.com/shwoodard/jsonapi) - Generate JSON API from Go structs
   * [postmark](https://github.com/gcmurphy/postmark) - Access postmark API from Go
   * [reddit.go](https://github.com/tadzik/reddit.go) - Client library for Reddit API
   * [shorturl](https://github.com/subosito/shorturl) - Generic implementation for interacting with various URL shortening services
