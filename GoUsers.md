@@ -49,6 +49,7 @@
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
   * [clypd](http://www.clypd.com) - [blog](http://www.clypd.com/getting-to-go/)
   * [Codeship](http://codeship.com) - [blog](http://blog.codeship.com/creating-fakes-in-go-with-channels/)
+  * [Comcast](http://corporate.comcast.com/) - [github](https://github.com/comcast)
   * [Conformal Systems](http://www.conformal.com) - [github](https://github.com/conformal)
   * [Copper.IO](http://copper.io) - [blog](https://blog.copper.io/building-a-scaleable-app-that-can-actually-scale/)
   * [CoreOS](https://coreos.com/) - [github](https://github.com/coreos/), [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-coreos/)
