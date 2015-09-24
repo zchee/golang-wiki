@@ -1002,7 +1002,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Hprose](https://github.com/hprose/hprose-go) - Hprose is a High Performance Remote Object Service Engine.
   * [httpfstream](https://sourcegraph.com/github.com/sourcegraph/httpfstream/tree) - streaming append and follow of HTTP resources (using WebSockets)
   * [ipaddress](https://github.com/llimllib/ipaddress) - Convenient ip address functions: ip -> int, int -> ip, and IPNet broadcast address
-  * [ipaddr](https://github.com/mikioh/ipaddr) - basic functions for the manipulation of IP address prefixes and subsequent addresses as described in RFC 4632 and RFC 4291.
   * [iris-go](https://github.com/karalabe/iris-go) - Go binding for the Iris decentralized messaging framework.
   * [iris](http://iris.karalabe.com) - Peer-to-peer messaging for back-end decentralization.
   * [kafka.go](https://github.com/jdamick/kafka.go) - Producer & Consumer for the Kafka messaging system
@@ -1032,7 +1031,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stompngo\_examples](https://github.com/gmallard/stompngo_examples) - Examples for stompngo.
   * [stompngo](https://github.com/gmallard/stompngo) - A Stomp 1.1 Compliant Client
   * [tcp\_fallback](https://github.com/Memset/tcp_fallback) - A TCP proxy implementing a simple fallback mechanism.
-  * [tcp](https://github.com/mikioh/tcp) - TCP-level socket options that allow manipulation of TCP connection facilities.
   * [tcpmeter](https://code.google.com/p/tcpmeter) - A TCP throughput measuring tool
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
