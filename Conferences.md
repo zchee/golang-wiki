@@ -11,8 +11,9 @@ Please keep all items in chronological order.
 | GothamGo | 2015-10-02 | NY, NY | http://gothamgo.com/ |
 | dotGo    | 2015-11-09 | Paris, France | http://www.dotgo.eu/ |
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
-| GoCon Tokyo | 2015-??-?? | Tokyo, Japan | http://gocon.connpass.com | 
-| GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in | 
+| GoCon Tokyo | 2015-??-?? | Tokyo, Japan | http://gocon.connpass.com |
+| FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
+| GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in |
 | GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 
