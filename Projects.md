@@ -236,7 +236,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Continuous Integration
 
   * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
-  * [overalls](https://github.com/bluesuncorp/overalls) - Multi-Package go project coverprofile for tools like goveralls
+  * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
 ## Cryptography
 
@@ -1211,7 +1211,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Testing
 
-  * [assert](https://github.com/bluesuncorp/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
+  * [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
   * [assert](https://github.com/chai2010/assert) - Assert for go test.
   * [assert](https://github.com/golangplus/testing/tree/master/assert) - Handy assert package.
   * [assert](https://github.com/seanpont/assert) - JUnit-like asserts with excellent error messages
@@ -1243,7 +1243,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Validation
 
-  * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
+  * [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
 
 ## Version Control
 
