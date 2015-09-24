@@ -968,6 +968,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [go-dbus](https://github.com/norisatir/go-dbus) - A library to connect to the D-bus messaging system
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
+  * [go-smpp](https://github.com/fiorix/go-smpp) - SMPP 3.4 protocol implementation
   * [go-flowrate](https://github.com/mxk/go-flowrate) - Data transfer rate control (monitoring and limiting)
   * [gogammu](https://github.com/ziutek/gogammu) - Library for sending and receiving SMS
   * [gogoprotobuf](http://code.google.com/p/gogoprotobuf/) - another Go implementation of Protocol Buffers, but with extensions and code generation plugins.
