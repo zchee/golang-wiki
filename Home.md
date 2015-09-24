@@ -9,7 +9,7 @@ Table of Contents
 + [The Go Community](#the-go-community)
 + [Using the go toolchain](#using-the-go-toolchain)
 + [Additional Go Programming Wikis](#additional-go-programming-wikis)
-+ [Onlines Services that work with Go](#onlines-services-that-work-with-go)
++ [Online Services that work with Go](#online-services-that-work-with-go)
 + [Troubleshooting Go Programs in Production](#troubleshooting-go-programs-in-production)
 + [Contributing to the Go Project](#contributing-to-the-go-project)
 + [Platform Specific Information](#platform-specific-information)
