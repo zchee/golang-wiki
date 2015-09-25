@@ -6,14 +6,16 @@ Table of Contents
 
 * [Indexes](#article-indexes)
 * [General](#general)
-* [Pointers/References/Memory](#pointers-references-and-memory-management)
-* [Performance and Profiling](#performance-and-profiling)
 * [Concurrency / Channels](#concurrency--channels)
-* [Web & API Development](#web--api-development)
 * [Containers & Docker](#containers--docker)
-* [Mobile Applications](#mobile-applications)
+* [Cross Platform Development](#cross-platform-development)
 * [Interfaces / OOP](#interfaces--oop)
+* [Mobile Applications](#mobile-applications)
+* [Performance and Profiling](#performance-and-profiling)
+* [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Security](#security)
+* [Web & API Development](#web--api-development)
+
 * [Misc](#misc)
 * [Chinese](#chinese)
 * [Czech](#czech)
@@ -74,6 +76,10 @@ Table of Contents
   * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
+
+## Cross Platform Development
+
+  * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
 
 ## Web & API Development
 

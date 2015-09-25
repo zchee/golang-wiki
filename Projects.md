@@ -266,6 +266,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Data Processing
 
+  * [automi](https://github.com/vladimirvivien/automi) - Compose process and integration flows on Go channels
   * [gostatsd](https://github.com/kisielk/gostatsd) - Statsd server and library.
   * [Heka](https://github.com/mozilla-services/heka) - Real time data and log file processing engine.
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
@@ -431,6 +432,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PosgreSQL and SQLite3.
   * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
+  * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
 
 ### Multiple wrappers
@@ -582,6 +584,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
   * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
+  * [MailHog](https://github.com/mailhog/MailHog) - Email testing service, inspired by MailCatcher.
 
 ## Error handling
 
@@ -1036,6 +1039,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
+  * [traefix](https://github.com/emilevauge/traefik) - Modern, reverse proxy in Go
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
   * [uritemplates](https://github.com/jtacoma/uritemplates) - A level 4 implementation of URI Templates (RFC 6570)
   * [VDED](https://github.com/jbuchbinder/vded) - Vector Delta Engine Daemon - track deltas in ever-increasing values (written in Go)
