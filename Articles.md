@@ -57,6 +57,7 @@ Table of Contents
 
 ## Performance and Profiling
 
+  * [Golang Performance Tips](https://joshrendek.com/2015/09/golang-performance-tips/) _2015-09-20_
   * [Answering your own (performance) questions in Go](http://www.sanarias.com/blog/915LearningtoansweryourownquestionsinGo) _2015-09-15_
   * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_
   * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
@@ -109,6 +110,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Interfaces / OOP
 
+  * [Composition with Go](http://www.goinggo.net/2015/09/composition-with-go.html) _2015-09-13_
   * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
   * [Loose Copuling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_
   * [Interface Types in Go](https://medium.com/@rakyll/interface-pollution-in-go-7d58bccec275) _2014-10-18_
