@@ -995,6 +995,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorpc](https://github.com/valyala/gorpc) - RPC optimized for high load
   * [GoRTP](https://github.com/wernerd/GoRTP) - RTP / RTCP stack implementation for Go
   * [GoSIPs](https://github.com/rainliu/gosips) - SIP (Session Initiation Protocol) Stack in Go
+  * [mqtt](https://github.com/rainliu/mqtt) - MQTT stack in Go
   * [gosndfile](https://github.com/mkb218/gosndfile) - Go binding for libsndfile
   * [gosnmp](https://github.com/soniah/gosnmp) - an SNMP library written in GoLang.
   * [go-socket.io](https://github.com/madari/go-socket.io) - A Socket.IO backend implementation written in Go
