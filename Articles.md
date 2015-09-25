@@ -84,6 +84,7 @@ Table of Contents
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [HTTP Session Handling on Heroku](https://devcenter.heroku.com/articles/go-sessions) _2015-09-09_
   * [Go Resiliency Patterns](https://github.com/eapache/go-resiliency) _2015-09-01_
   * [Deploy a golang photo archive tool to the cloud on IBM BlueMix](http://www.ibm.com/developerworks/cloud/library/cl-golang-photo-archive-bluemix/index.html) _2015-06-05_
   * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
