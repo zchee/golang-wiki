@@ -172,6 +172,7 @@
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
   * [Streetspotr](http://streetspotr.com) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
+  * [SumoLogic](https://www.sumologic.com/) - [github](https://github.com/SumoLogic/sumoshell)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
   * [Tamber](http://www.tamber.com/) - [blog](http://www.tamber.com/posts/ferret.html)
   * [Tapglue](https://www.tapglue.com/)
