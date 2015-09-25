@@ -15,7 +15,6 @@ Table of Contents
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Security](#security)
 * [Web & API Development](#web--api-development)
-
 * [Misc](#misc)
 * [Chinese](#chinese)
 * [Czech](#czech)
