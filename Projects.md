@@ -1138,6 +1138,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goyacc](http://github.com/cznic/goyacc) - Goyacc is a version of yacc generating Go parsers.
   * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
   * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator.
+  * [yy](http://github.com/cznic/yy) - yacc to yacc compiler.
 
 ## Security
 
