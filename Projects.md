@@ -1101,6 +1101,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goplay](https://github.com/timtadh/goplay) - A bunch of random small programs in Go
   * [lifegame-on-golang](https://github.com/horiuchi/lifegame-on-golang) - Game of Life in Go
   * [linear](https://github.com/tychofreeman/Linear) - Playing around with the linear algebra
+  * [pl0](http://github.com/cznic/pl0) - PL/0 front end, compiler and VM. .
   * [project euler in go](https://github.com/yyyc514/project_euler_in_go) - Solutions to Project Euler in Go also
   * [shadergo](https://github.com/gyuque/shadergo) - shader test using Go
   * [travisci-golang-example](https://github.com/atotto/travisci-golang-example) - Travis-CI example for Go
