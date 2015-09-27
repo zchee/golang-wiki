@@ -1,6 +1,7 @@
 # Currently using Go
 
   * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential.
+    * [Kubernetes](http://kubernetes.io/)
     * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](https://github.com/youtube/vitess) as open source software [1](https://www.youtube.com/watch?v=5yDO-tmIoXY), [2](https://www.youtube.com/watch?v=qATTTSg6zXk), [3](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
     * dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1)
     * [Flywheel: Google's Data Compression Proxy for the Mobile Web](http://research.google.com/pubs/pub43447.html), [blog post on the rewrite](http://matt-welsh.blogspot.co.uk/2013/08/rewriting-large-production-system-in-go.html)
