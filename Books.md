@@ -296,7 +296,7 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/cawg/
 
-  * **¡Go en Espalol!**
+  * **¡Go en Español!**
     * Author: Nacho Pacheco
     * Publication Date: 2015-03-22
     * ISBN: ---
