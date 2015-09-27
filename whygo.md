@@ -2,6 +2,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 
 ## Why Go
 
+- [Sorry Ruby, I think I've fallen for Go](https://medium.com/@voxxit/sorry-ruby-i-think-i-ve-fallen-for-go-2e92ce1b356) _2015-09-26_
 - [Google Go: Why Google's programming language can rival Java in the Enterprise - Techworld](http://www.techworld.com/apps/why-googles-go-programming-language-could-rival-java-in-enterprise-3626140/) _2015-09-25_
 - [Moving to Three Languages](http://www.jaredwray.com/2015/09/15/moving-to-three-languages/) _2015-09-15_
 - [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)

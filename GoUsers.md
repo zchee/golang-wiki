@@ -116,7 +116,7 @@
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
   * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
-  * [MediaMath](https://mediamath.com) - [github](https://github.com/MediaMath/grim)
+  * [MediaMath](https://mediamath.com) - [github](https://github.com/MediaMath/grim), [youtube](https://youtu.be/eDRoaxXerOM)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
   * [Modcloth](http://www.modcloth.com) - [github](https://github.com/modcloth-labs)
