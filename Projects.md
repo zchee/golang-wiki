@@ -1331,6 +1331,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [OAuth Consumer](https://github.com/mrjones/oauth) - OAuth 1.0 consumer implementation
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
+  * [goha](https://github.com/FeNoMeNa/goha) - Basic and Digest HTTP Authentication for Go http client
+
 
 ### DOM handling
 
