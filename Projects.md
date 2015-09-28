@@ -1050,6 +1050,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [zmq2](https://github.com/pebbe/zmq2) - A Go interface to ZeroMQ (zmq, 0MQ) version 2.
   * [zmq3](https://github.com/pebbe/zmq3) - A Go interface to ZeroMQ (zmq, 0MQ) version 3.
   * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ (zmq, 0MQ) version 4.
+  * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
 
 ### DNS
 
@@ -1332,7 +1333,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
   * [goha](https://github.com/FeNoMeNa/goha) - Basic and Digest HTTP Authentication for Go http client
-
 
 ### DOM handling
 
