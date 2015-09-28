@@ -77,17 +77,18 @@ Once you have an overview of the language, here are resources you can use to lea
 
 Here are some of the places where you can find Gophers online. To get a sense of what it means to be a member of the Go community, read [Damian Gryski's keynote from the GolankUK 2015 conference](https://medium.com/@dgryski/the-go-community-f0d00e3a19e) or watch [Andrew Gerrand's closing keynote from GopherCon 2015](https://www.youtube.com/watch?v=0ht89TxZZnk).
 
+
+- Where Gophers hangout online:
+  - [The Go Forum](https://forum.golangbridge.org/) - An all-purpose discussion forum for the Go community.
+  - [Gophers Slack Channel](http://gophers.slack.com/) - For real-time chat ([request membership](http://blog.gopheracademy.com/gophers-slack-community/)).
+  - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
+  - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
+  - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
     - Before you post, [check to see if it's already been answered](http://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
   - For discussions about the core Go open source project, join [golang-dev](https://groups.google.com/forum/#!forum/golang-dev).
   - To get just our release announcements, join [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
-- Chat, discussion and other forums
-  - We have a [Gophers Slack Channel](http://gophers.slack.com/). Requires you to [request membership here](http://blog.gopheracademy.com/gophers-slack-community/)
-  - For IRC fans there is #go-nuts on irc.freenode.net which is [indexed here](https://botbot.me/freenode/go-nuts/).
-  - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
-  - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
-  - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
 - User Groups & Meetups - There are [Go Meetups in many cities](http://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
     - [Women Who Go](http://www.womenwhogo.org/)
     - See here for [additional information GoUserGroups](GoUserGroups)
