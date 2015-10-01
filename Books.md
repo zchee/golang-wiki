@@ -310,7 +310,7 @@ Sorted by publication date.
     * Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
 
 
-# Indonesia
+# Indonesian
   * **Bahasa Pemrograman Go**
     * Author: Sajarwo Anggai
     * Publication Date: October 21, 2013
