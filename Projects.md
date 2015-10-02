@@ -578,6 +578,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Email
 
+  * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client including a built-in mail queue backed by on-disk storage.
   * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
   * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
   * [Gomail](https://github.com/go-gomail/gomail) - A simple and efficient package to send emails.
