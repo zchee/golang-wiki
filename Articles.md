@@ -13,6 +13,7 @@ Table of Contents
 * [Mobile Applications](#mobile-applications)
 * [Performance and Profiling](#performance-and-profiling)
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
+* [Reflection](#reflection)
 * [Security](#security)
 * [Web & API Development](#web--api-development)
 * [Misc](#misc)
@@ -47,24 +48,6 @@ Table of Contents
   * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
   * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
 
-## Pointers, References and Memory Management
-
-  * [Equality and Type Aliases](https://akutz.wordpress.com/2015/09/02/golang-equality-and-type-aliases/) _2015-09-02_
-  * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
-  * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
-  * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
-  * [Learning Go Types](http://www.laktek.com/2012/01/27/learning-go-types/) _2012-01-27_
-
-## Performance and Profiling
-
-  * [Golang Performance Tips](https://joshrendek.com/2015/09/golang-performance-tips/) _2015-09-20_
-  * [Answering your own (performance) questions in Go](http://www.sanarias.com/blog/915LearningtoansweryourownquestionsinGo) _2015-09-15_
-  * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_
-  * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
-  * [Debugging performance issues in Go programs - Intel](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs) _2014-05-10_
-  * [How to write benchmarks in Go](http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) _2013-06-30_
-  * [Profiling Go Programs - Go blog](http://blog.golang.org/profiling-go-programs) _2011-06-24_
-
 ## Concurrency / Channels
 
   * [Golang Pearl: Thread-safe writes and double checked locking in Go](http://blog.launchdarkly.com/golang-pearl-thread-safe-writes-and-double-checked-locking-in-go/) _2015-07-21_
@@ -77,9 +60,62 @@ Table of Contents
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
 
+## Containers & Docker
+
+  * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
+  * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
+
 ## Cross Platform Development
 
   * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
+
+## Interfaces / OOP
+
+  * [Composition with Go](http://www.goinggo.net/2015/09/composition-with-go.html) _2015-09-13_
+  * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
+  * [Loose Copuling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_
+  * [Interface Types in Go](https://medium.com/@rakyll/interface-pollution-in-go-7d58bccec275) _2014-10-18_
+  * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
+  * [How to use interfaces in Go](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go) _2012-10-01_
+  * [Go Object Oriented Design](http://nathany.com/good) _2013-01-14_
+  * [It is ridiculously easy to refactor Go](http://www.onebigfluke.com/2013/01/it-is-ridiculously-easy-to-refactor-go.html) _2013-01-27_
+  * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
+  * [Interfaces in Go - Russ Cox](http://research.swtch.com/interfaces) _2009-12-01_
+
+
+## Mobile Applications
+
+Start by reading the [overview of mobile development](Mobile) documentation first.
+
+  * [Go Mobile: Next generation of mobile apps](https://www.linkedin.com/pulse/go-mobile-next-generation-apps-daniele-baroncelli) _2015-09-18_
+  * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo) _2015-09-17_
+  * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+
+## Performance and Profiling
+
+  * [Golang Performance Tips](https://joshrendek.com/2015/09/golang-performance-tips/) _2015-09-20_
+  * [Answering your own (performance) questions in Go](http://www.sanarias.com/blog/915LearningtoansweryourownquestionsinGo) _2015-09-15_
+  * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_
+  * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
+  * [Debugging performance issues in Go programs - Intel](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs) _2014-05-10_
+  * [How to write benchmarks in Go](http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) _2013-06-30_
+  * [Profiling Go Programs - Go blog](http://blog.golang.org/profiling-go-programs) _2011-06-24_
+
+## Pointers, References and Memory Management
+
+  * [Equality and Type Aliases](https://akutz.wordpress.com/2015/09/02/golang-equality-and-type-aliases/) _2015-09-02_
+  * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
+  * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
+  * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
+  * [Learning Go Types](http://www.laktek.com/2012/01/27/learning-go-types/) _2012-01-27_
+
+## Reflection
+
+  * [Go Reflection Index](https://jimmyfrasche.github.io/go-reflection-codex/) by Jimmy Frasche
+
+## Security
+
+  * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _205-09-19_
 
 ## Web & API Development
 
@@ -95,35 +131,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
   * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
 
-## Containers & Docker
-
-  * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
-  * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
-
-## Mobile Applications
-
-Start by reading the [overview of mobile development](Mobile) documentation first.
-
-  * [Go Mobile: Next generation of mobile apps](https://www.linkedin.com/pulse/go-mobile-next-generation-apps-daniele-baroncelli) _2015-09-18_
-  * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo) _2015-09-17_
-  * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
-
-## Interfaces / OOP
-
-  * [Composition with Go](http://www.goinggo.net/2015/09/composition-with-go.html) _2015-09-13_
-  * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
-  * [Loose Copuling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_
-  * [Interface Types in Go](https://medium.com/@rakyll/interface-pollution-in-go-7d58bccec275) _2014-10-18_
-  * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
-  * [How to use interfaces in Go](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go) _2012-10-01_
-  * [Go Object Oriented Design](http://nathany.com/good) _2013-01-14_
-  * [It is ridiculously easy to refactor Go](http://www.onebigfluke.com/2013/01/it-is-ridiculously-easy-to-refactor-go.html) _2013-01-27_
-  * [Functional Iteration in Go](http://hackthology.com/functional-iteration-in-go.html) _2013-12-13_
-  * [Interfaces in Go - Russ Cox](http://research.swtch.com/interfaces) _2009-12-01_
-
-## Security
-
-  * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _205-09-19_
 
 ## Misc
 
