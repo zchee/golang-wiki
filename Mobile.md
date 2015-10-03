@@ -169,6 +169,14 @@ Your project layout should look like what's shown below.
 
 Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `hello.Greetings` function.
 
+Note that you can also invoke `GoHelloGreetings` from Swift by importing Hello.
+
+```
+@import Hello
+// ...
+let msg = Hello.GoHelloGreetings("gopher")
+```
+
 #### iOS Simulator
 
 As of Go 1.5, only darwin/amd64 works on the iOS simulator. To use the simulator, you need to configure Xcode to only try to run 64-bit binaries.
