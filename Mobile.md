@@ -154,18 +154,18 @@ $ cd $GOPATH/src/golang.org/x/mobile/example/bind
 $ gomobile bind -target=ios golang.org/x/mobile/example/bind/hello
 ```
 
-Gomobile bind will generate a framework bundle called `hello.framework`. Open the sample XCode project by running the command below.
+Gomobile bind will generate a framework bundle called `Hello.framework`. Open the sample XCode project by running the command below.
 
 ```
 $ open ios/bind.xcodeproj
 ```
-Drag and drop the `hello.framework` bundle to the Xcode project. Check "Copy items in needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and reruning `gomobile bind` will update the hello.framework.
+Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy items in needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and reruning `gomobile bind` will update the hello.framework.
 
-![Drag and drop hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-iosdrag.png)
+![Drag and drop Hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-iosdrag.png)
 
 Your project layout should look like what's shown below.
 
-![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
+![Xcode project layout with Hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
 
 Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `hello.Greetings` function.
 
