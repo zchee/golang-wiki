@@ -62,6 +62,7 @@ Table of Contents
 
 ## Containers & Docker
 
+  * [Deploying a Go app to a minimal Docker container](http://www.giantflyingsaucer.com/blog/?p=5720) _2015-10-01_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
 
@@ -93,6 +94,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Performance and Profiling
 
+  * [A Pattern for Optimizing Go](http://blog.signalfx.com/a-pattern-for-optimizing-go) _2015-09-24_
   * [Golang Performance Tips](https://joshrendek.com/2015/09/golang-performance-tips/) _2015-09-20_
   * [Answering your own (performance) questions in Go](http://www.sanarias.com/blog/915LearningtoansweryourownquestionsinGo) _2015-09-15_
   * [Concise Guide to profiling go programs](https://medium.com/@tjholowaychuk/profiling-golang-851db2d9ae24) _2014-08-09_

@@ -184,6 +184,7 @@
   * [Techequity Technologies](http://www.techequity.in/)
   * [TF2Stadium](http://tf2stadium.com) - [github](https://github.com/TF2Stadium), [blog](http://blog.tf2stadium.com/how-it-works-basics/)
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
+  * [Thisissoon](http://thisissoon.com/) - [github](https://github.com/thisissoon/yam)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
   * [Timehop](http://timehop.com/) - [blog](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
