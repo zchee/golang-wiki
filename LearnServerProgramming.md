@@ -38,6 +38,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 * [Kite Micro-service framework](https://github.com/koding/kite)
 * [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
 * [YAM - Yet Another Mux](https://github.com/thisissoon/yam)
+* [Bone - Fast HTTP Router](http://go-zoo.github.io/bone/)
 
 ### Frameworks
 
