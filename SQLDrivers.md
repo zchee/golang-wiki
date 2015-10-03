@@ -24,6 +24,7 @@ Drivers for Go's sql package include:
   * **QL**: http://godoc.org/github.com/cznic/ql/driver
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
+  * **Postgres** (pure Go): https://github.com/jackc/pgx
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
   * **SQLite**: https://github.com/mattn/go-sqlite3 ` [*] `
   * **SQLite**:  https://github.com/mxk/go-sqlite
