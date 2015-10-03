@@ -6,7 +6,7 @@ For asking questions, see:
 
 * [The golang-nuts mailing list](https://groups.google.com/d/forum/golang-nuts)
 
-* [The Go Forum](https://forum.golangbridge.org/) -- web-based forum
+* [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
 * **Slack**. See the [Gophers Slack channel announcement blog post](http://blog.gopheracademy.com/gophers-slack-community/) for invite instructions
 
