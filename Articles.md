@@ -63,6 +63,7 @@ Table of Contents
 ## Containers & Docker
 
   * [Deploying a Go app to a minimal Docker container](http://www.giantflyingsaucer.com/blog/?p=5720) _2015-10-01_
+  * [Fetching a remote configuration using Docker and Consul](http://www.giantflyingsaucer.com/blog/?p=5701) _2015-09-30_
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
 
