@@ -1183,6 +1183,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
   * [douceur](https://github.com/aymerick/douceur) - A simple CSS parser and inliner in Go.
+  * [dsv](https://github.com/shuLhan/dsv) - A library for working with delimited separated value (DSV).
   * [flux](https://github.com/alexanderbartels/flux) - Fluent Regular Expressions in golang
   * [genex](https://github.com/alixaxel/genex) - Expansion of Regular Expressions
   * [gettext-go](https://github.com/chai2010/gettext-go/) - GNU's gettext support, written in pure Go
