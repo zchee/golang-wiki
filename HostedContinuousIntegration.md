@@ -8,5 +8,5 @@ A number of hosted continuous integration platforms have support for Go
 | [drone.io](http://drone.io/) | [docs](http://docs.drone.io/golang.html) | [open-source version](https://github.com/drone/drone) |
 | [Jenkins](https://jenkins-ci.org/) | [docs](https://wiki.jenkins-ci.org/display/JENKINS/Go+Plugin) | |
 | [Magnum CI](https://magnum-ci.com/) | [docs](https://magnum-ci.com/docs/go) |       |
-| [Travis CI](http://travis-ci.org) | [docs](http://docs.travis-ci.com/user/languages/go/) | [howto](http://loads.pickle.me.uk/2015/08/22/easy-peasy-github-releases-for-go-projects-using-travis/)     |
-| [Wercker](http://wercker.com/) | [docs](http://devcenter.wercker.com/quickstarts/building/golang.html) |       |
+| [Travis CI](http://travis-ci.org) | [docs](http://docs.travis-ci.com/user/languages/go/) |  [howto](http://loads.pickle.me.uk/2015/08/22/easy-peasy-github-releases-for-go-projects-using-travis/), [go-client-api](https://github.com/AbletonAG/go-travis)     |
+| [Wercker](http://wercker.com/) | [docs](http://devcenter.wercker.com/quickstarts/building/golang.html) |    |   |
