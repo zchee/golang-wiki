@@ -10,7 +10,7 @@ Before any code relating to a port can be added to the main Go repository, the f
 
   * At least one developer must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
 
-  * A developer must be named (and agree) to maintain the builder, the machine trying each hg revision and providing data for http://build.golang.org.
+  * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for http://build.golang.org.
 
   * The builder must already be running (and failing, because the code is not yet in the main repository).
 
