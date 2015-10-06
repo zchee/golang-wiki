@@ -4,7 +4,7 @@ Spec: http://golang.org/doc/go_spec.html#For_statements
 
 ## Summary
 
-A range clause provides a way to iterate over a array, slice, string, map, or channel.
+A range clause provides a way to iterate over an array, slice, string, map, or channel.
 
 ## Example
 
