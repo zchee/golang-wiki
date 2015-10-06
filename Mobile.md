@@ -25,7 +25,7 @@ Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomo
 to help you with the build and the binding process.
 Go get gomobile and initialize it to install the required toolchain.
 
-On Mac OSX, you will need to have
+On OS X, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
 installed.
 
@@ -75,7 +75,7 @@ $ gomobile install golang.org/x/mobile/example/basic
 ### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
-Note: target=ios requires the host machine running Mac OS X. Prior to Xcode 7, you need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/ios/recipes/xcode_help-accounts_preferences/articles/obtain_certificates_and_provisioning_profiles.html) in order to continue.
+Note: target=ios requires the host machine running OS X. Prior to Xcode 7, you need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/ios/recipes/xcode_help-accounts_preferences/articles/obtain_certificates_and_provisioning_profiles.html) in order to continue.
 
 ```
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
@@ -147,7 +147,7 @@ The command above will generate an [aar](http://tools.android.com/tech-docs/new-
 
 ### Building and deploying to iOS
 
-Note: target=ios requires the host machine running Mac OS X.
+Note: target=ios requires the host machine running OS X.
 
 ```
 $ cd $GOPATH/src/golang.org/x/mobile/example/bind
