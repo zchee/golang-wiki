@@ -46,3 +46,7 @@ Some of this documentation may be out of date.
 ## Vietnamese - Tiếng Việt
 
  * [A Tour of Go](http://go-tour-vi.appspot.com/)
+
+## Uzbek — Ўзбекча
+
+ * [A Tour of Go](http://go-tour-uz.appspot.com/)
