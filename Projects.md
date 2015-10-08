@@ -68,7 +68,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Unix](#unix)
 * [Unsorted](#unsorted-please-help)
 * [Validation](#validation)
-* [Version Contro](#version-control)
+* [Version Control](#version-control)
 * [Virtual Machines and Languages](#virtual-machines-and-languages)
 * [Web Applications](#web-applications)
 * [Web Libraries](#web-libraries)
