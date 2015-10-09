@@ -267,7 +267,7 @@ Sorted by publication date.
     * Author: Frank Müller
     * Publication Date: 2011-01
     * ISBN: 978-3-89864-712-0
-    * Reference: http://dpunkt.de/buecher/3449/systemprogrammierung-in-google-go.html
+    * Reference: http://dpunkt.de/buecher/3762/-systemprogrammierung-in-google-go.html
 
   * **Nichtsequentielle Programmierung mit Go 1** (2nd edition) (available as print and e-book)
     * Author: Christian Maurer
