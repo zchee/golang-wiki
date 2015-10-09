@@ -12,7 +12,6 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [Go at bitly](http://word.bitly.com/post/29550171827/go-go-gadget)
 - [NSQ: realtime distributed message processing at scale](http://word.bitly.com/post/33232969144/nsq)
 - [CloudFlare blows hole in laws of Web physics with Go and Railgun](http://arstechnica.com/information-technology/2013/02/cloudflare-blows-hole-in-laws-of-web-physics-with-go-and-railgun/)
-- [Go as an alternative to Node.js for Very Fast Servers](http://techblog.safaribooksonline.com/2013/02/22/go-as-an-alternative-to-node-js-for-very-fast-servers/)
 - [Why I Like Go](https://gist.github.com/freeformz/4746274)
 - [dl.google.com now served by Go](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0)
 - [Google's Go Programming Language Grows Up: Now What?](http://www.readwriteweb.com/cloud/2012/03/googles-go-programming-languag.php)

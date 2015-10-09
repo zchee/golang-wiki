@@ -198,7 +198,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [GAE/Gで時間のチェック（Datastore編）](http://takashi-yokoyama.blogspot.jp/2012/06/gaegdatastore.html)
 
 ## Korean
-  * [Go for Java Programmer](http://goo.gl/8zjRwt)
   * [The Go Programming Language](http://www.slideshare.net/golanger/abou-go)
   * [You can read Go code](http://goo.gl/vUeSzl)
   * [Go channel tutorial](http://www.jaehoon.io/2014/12/golang-channels-tutorial.html)

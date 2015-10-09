@@ -1488,7 +1488,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [seshcookie](https://github.com/bpowers/seshcookie) -  A web session library inspired by Beaker
   * [soy](https://github.com/robfig/soy) - A Go implementation for Soy templates (Google Closure templates). High performance and i18n.
   * [user\_agent](https://github.com/mssola/user_agent) - An HTTP User-Agent parser
-  * [webdriver](https://bitbucket.org/tebeka/selenium/src) - WebDriver (Selenium) client
   * [webtestutil](https://github.com/chlu/webtestutil) - Web and HTTP functional testing utilities. Includes Gorilla testing support.
 
 ## Windows
