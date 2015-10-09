@@ -102,9 +102,9 @@ Sorted by publication date.
 
   * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
     * Author: Brian W. Kernighan & Alan Donovan
-    * Publication Date: November 13, 2015
+    * Publication Date: October 30, 2015
     * ISBN: 978-0134190440
-    * Reference: http://www.informit.com/store/go-programming-language-9780134190440
+    * Reference: http://www.gopl.io/
 
 ## Available without Publication Date
 
