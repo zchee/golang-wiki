@@ -173,6 +173,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://leanpub.com/howdoibuildawebappwithgo
 
+  * **Test-driven development with Go** (e-book)
+    * Author: Yigal Duppen
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://leanpub.com/golang-tdd
+
   * **Learn Go** (e-book)
     * Author: Gyu-ho Lee
     * Publication Date: ---
