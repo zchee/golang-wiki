@@ -106,6 +106,12 @@ Sorted by publication date.
     * ISBN: 978-0134190440
     * Reference: http://www.gopl.io/
 
+  * **Introduction to Programming in Go**
+    * Author: Caleb Doxsey
+    * Publication Date: January 2016
+    * ISBN: 978-1491941959
+    * Reference: http://shop.oreilly.com/product/0636920046516.do
+
 ## Available without Publication Date
 
   * **Learning Go** (e-book)
