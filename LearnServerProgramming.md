@@ -35,6 +35,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 * [Goji Web Microframework](https://goji.io/)
 * [Go Craft Middleware](https://github.com/gocraft/web)
 * [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
+* [limiter](https://github.com/ulule/limiter) - Simple rate-limiting middleware for Go
 * [Kite Micro-service framework](https://github.com/koding/kite)
 * [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
 * [YAM - Yet Another Mux](https://github.com/thisissoon/yam)
@@ -42,10 +43,12 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Frameworks
 
-* [GinGonic](https://gin-gonic.github.io/gin/)
-* [Revel Web Framework](https://revel.github.io/)
 * [BeeGo Framework](http://beego.me/)
 * [Frodo](https://github.com/kn9ts/frodo) - Go mini web framework inspired by Laravel(php), Slim(php) and ExpressJS(node.js)
+* [GinGonic](https://gin-gonic.github.io/gin/)
+* [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
+* [Revel Web Framework](https://revel.github.io/)
+* [Ringo](https://github.com/jjyr/ringo) - Lighweight MVC web framework inspired by Rails, Gin.
 * [Utron](https://github.com/gernest/utron) - Lightweight MVC framework for web applications.
 
 ## Communication

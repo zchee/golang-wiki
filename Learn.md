@@ -1,6 +1,7 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
   * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
+  * [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
   * [Learn Go in an Hour - Video](https://www.youtube.com/watch?v=CF9S4QZuV30) _2015-02-15_
   * [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6), a multi-part video training class.
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
@@ -8,6 +9,8 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video learning path for Go programming.
   * [Go By Example](http://gobyexample.com/) provides a series of annotated code snippets.
   * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walk-through of the language.
+  * [Workshop-Go](https://github.com/sendwithus/workshop-go) - Startup Slam Go Workshop - examples and slides.
+  * [Go Fragments](http://www.gofragments.net/) - A collection of annotated Go code examples.
   * [50 Shades of Go: Traps, Gotchas, Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
   * [Free Go Language Workshop](https://www.frameworktraining.co.uk/go-language-free-training-workshop/) Framework Training is running regular free BYOD workshops in London, UK
   * [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.

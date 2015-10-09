@@ -5,6 +5,7 @@ These sites provide indexes and search engines for Go packages:
   * [awesome-go](https://github.com/avelino/awesome-go) - A community curated list of high-quality resources.
   * [godoc.org](http://godoc.org/) - A documentation browser for any Go open source package.
   * [go-hardware](https://github.com/rakyll/go-hardware) - Curated list of resources for using Go on non-standard hardware.
+  * [gopm.io](http://gopm.io/) - Download Go pacakges by version
   * [go-search](http://go-search.org/) - Search engine dedicated to Go projects and source.
   * [Go Report Card](http://goreportcard.com/) - Code quality summaries for any Go project.
   * [gowalker](http://gowalker.org/) - API documentation generator and search.
@@ -250,6 +251,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-ed25519](https://github.com/tendermint/go-ed25519) - CGO bindings for Floodberry's ed25519-donna.  Fast batch verification.
   * [go-hc128](https://github.com/tomfitzhenry/go-hc128) - Go implementation of HC-128, an eSTREAM stream cipher
   * [go-jose](https://github.com/square/go-jose) - Go implementation of the JOSE standards
+  * [go-minilock](https://github.com/cathalgarvey/go-minilock) - Go implementation of the minilock file encryption system.
   * [GoSkein](https://github.com/wernerd/Skein3Fish/tree/master/go) - Implementation of Skein hash and Threefisch crypto for Go
   * [keccak](https://github.com/ebfe/keccak) - A keccak (SHA-3) implementation
   * [ketama.go](https://github.com/mncaudill/ketama.go) - libketama-style consistent hashing
@@ -457,6 +459,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Graph Databases
 
   * [cayley](https://github.com/google/cayley) - 100% Go graph database, inspired by Freebase and the Google Knowledge Graph.
+  * [go-gremlin](https://github.com/go-gremlin/gremlin) - A Go client for the Apache TinkerTop Graph analytics framework (Gremlin server).
 
 ### NoSQL
 
@@ -492,6 +495,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mongofixtures](https://github.com/OwlyCode/mongofixtures) - A Go quick and dirty utility for cleaning MongoDB collections and loading fixtures into them.
   * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in Go
   * [neoism](https://github.com/jmcvetta/neoism) - Neo4j graph database client, including Cypher and Transactions support.
+  * [null](https://github.com/guregu/null) - Package for handling null values in SQL
   * [Optimus Cache Prime](http://patrickmylund.com/projects/ocp/) - Smart cache preloader for websites with XML sitemaps.
   * [pravasan](https://pravasan.github.io/pravasan) - Simple Migration Tool (like rake db:migrate with more flexibility)
   * [riako](https://github.com/jkassemi/riako) - High level utility methods for interacting with Riak databases
@@ -529,6 +533,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [liccor](https://github.com/gtalent/liccor) - A tool for updating license headers in Go source files
   * [liteide](https://github.com/visualfc/liteide) - An go auto build tools and qt-based ide for Go
   * [Livedev](https://github.com/qrtz/livedev) - Livedev is a development proxy server that enables live code reloading.
+   * [Martian](https://github.com/google/martian) - HTTP proxy designed for use in E2E testing.
   * [nvm-windows](https://github.com/coreybutler/nvm-windows) - Node.js version manager for Windows
   * [rerun](https://github.com/skelterjohn/rerun) - Rerun watches your binary and all its dependencies so it can rebuild and relaunch when the source changes.
   * [syntaxhighlighter](https://github.com/sourcegraph/syntaxhighlight) - language-independent code syntax highlighting library
@@ -967,7 +972,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [gobeanstalk](https://github.com/iwanbk/gobeanstalk) - Go Beanstalkd client library
   * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
-  * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/) 
+  * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/)
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [go-dbus](https://github.com/norisatir/go-dbus) - A library to connect to the D-bus messaging system
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
@@ -1310,6 +1315,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [kurz.go](https://github.com/fs111/kurz.go) - a url shortener based on web.go and redis
   * [Monsti](https://github.com/chrneumann/monsti) - Resource friendly flat file CMS for private and small business sites.
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
+  * [Peach](http://peachdocs.org/) - A web server for multi-language, real-time synced and searchable documentation.
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
@@ -1354,6 +1360,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
   * [go-fastweb](http://code.google.com/p/go-fastweb/) - aims to be a simple, small and clean MVC framework for go
+  * [resty](https://github.com/go-resty/resty)- REST client library inspired by Ruby rest-client.
   * [goku](https://github.com/QLeelulu/goku) - a Web Mvc Framework for Go, mostly like ASP.NET MVC.
   * [Golanger](https://github.com/golangers/framework) - Golanger Web Framework is a lightweight framework for writing web applications in Go.
   * [Goldorak.Go](https://github.com/nono/Goldorak.Go) - a web miniframework built using mustache.go, web.go and Go-Redis
@@ -1368,11 +1375,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-webproject](http://go-webproject.appspot.com) - Modular web application framework and app server
   * [Gowut](http://code.google.com/p/gowut) - Go Web UI Toolkit is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go.
   * [HttpRouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
+  * [limiter](https://github.com/ulule/limiter) - Simple rate limter middleware for Go
+  * [Macaron](https://github.com/Unknwon/macaron) - Modular web framework in Go
   * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
   * [Martini **deprecated**](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go
   * [Negroni](https://github.com/codegangsta/negroni) - Idiomatic middleare for Go
   * [restclient](https://github.com/jmcvetta/restclient) - Client library for interacting with RESTful APIs.
   * [Revel](http://robfig.github.com/revel/) - High productivity web framework modeled on Play! Framework
+  * [Ringo](https://github.com/jjyr/ringo) - Lighweight MVC web framework inspired by Rails, Gin.
   * [sawsij](https://bitbucket.org/jaybill/sawsij/src) - Provides a small, opinionated web framework.
   * [Tango](https://github.com/lunny/tango) - Micro-kernel & pluggable web framework for Go
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard

@@ -50,6 +50,7 @@ Table of Contents
 
 ## Concurrency / Channels
 
+  * [3 Trivial Concurrency Exercises for the Confused Newbie Gopher](http://whipperstacker.com/2015/10/05/3-trivial-concurrency-exercises-for-the-confused-newbie-gopher/) _2015-10-05_
   * [Golang Pearl: Thread-safe writes and double checked locking in Go](http://blog.launchdarkly.com/golang-pearl-thread-safe-writes-and-double-checked-locking-in-go/) _2015-07-21_
   * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_
   * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
