@@ -174,6 +174,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://github.com/gyuho/learn#contents
 
+  * **Learn Golang the Hard Way** (e-book)
+    * Author: Laszlo Csontos
+    * Publication Date: ---
+    * ISBN: ---
+    * References: http://www.learngolangthehardway.org/
+
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
