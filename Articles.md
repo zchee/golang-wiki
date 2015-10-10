@@ -9,6 +9,7 @@ Table of Contents
 * [Concurrency / Channels](#concurrency--channels)
 * [Containers & Docker](#containers--docker)
 * [Cross Platform Development](#cross-platform-development)
+* [Error Handling](#error-handling)
 * [Interfaces / OOP](#interfaces--oop)
 * [Mobile Applications](#mobile-applications)
 * [Performance and Profiling](#performance-and-profiling)
@@ -71,6 +72,10 @@ Table of Contents
 ## Cross Platform Development
 
   * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
+
+## Error Handling
+
+  * [Returning Errors](https://npf.io/2015/10/errors/) _2015-10-10_
 
 ## Interfaces / OOP
 

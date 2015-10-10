@@ -521,6 +521,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [godiff](https://github.com/spcau/godiff) - diff file comparison tool with colour html output
   * [gonew](https://github.com/bmatsuo/gonew) - A tool to create new Go projects
   * [go-play](https://code.google.com/p/go-play) - A HTML5 web interface for experimenting with Go code. Like http://golang.org/doc/play but runs on your computer
+  * [gore](https://github.com/motemen/gore) - A Go REPL. Featured with line editing, code completion, and more
   * [gorun](https://wiki.ubuntu.com/gorun) - Enables Go source files to be used as scripts.
   * [go-spew](https://github.com/davecgh/go-spew) - Implements a deep pretty printer for Go data structures to aid in debugging
   * [goven](https://github.com/kr/goven) - Easily copy code from another project into yours
