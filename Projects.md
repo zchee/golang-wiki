@@ -1509,7 +1509,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Unsorted; please help!
 
 The following entries have not been filed. Please help by putting these in relevant categories.
-
+* [GoBot](https://github.com/SaturnsVoid/GoBot) - PoC Go HTTP Botnet
   * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not
   * [ebml-go](http://code.google.com/p/ebml-go/) - EBML decoder
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Converts any file into manageable Go source code for embedding binary data into a Go program.
