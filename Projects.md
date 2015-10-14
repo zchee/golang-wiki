@@ -549,7 +549,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Distributed/Grid Computing
 
-  * [celeriac](https://github.com/svcavallar/celeriac) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
+  * [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
