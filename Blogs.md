@@ -9,6 +9,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Dave Cheney's Blog](http://dave.cheney.net)
   * [Dave Cheney's Resources for Go Programmers](http://dave.cheney.net/resources-for-new-go-programmers)
 * [spf13's Go Blog](http://spf13.com/post/)
+* [Katrina Owen's Blog](http://whipperstacker.com/)
 * [Mat Ryer's Medium Blog](https://medium.com/@matryer)
 * [Matt Aimonetti's Blog](http://matt.aimonetti.net/)
 * [Marcio.io](http://marcio.io/)
