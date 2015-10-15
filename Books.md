@@ -107,7 +107,7 @@ Sorted by publication date.
     * Author: Nathan Youngman
     * Publication Date: Spring 2016 (estimated)
     * ISBN: 9781617293092
-    * Reference: https://www.manning.com/books/learn-go
+    * Reference: [https://www.manning.com/books/learn-go](https://manning.com/books/learn-go?a_aid=nathany&a_bid=53f68821)
 
 ## Pre-order
 
