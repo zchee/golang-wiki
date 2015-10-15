@@ -800,7 +800,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [snowball](https://bitbucket.org/tebeka/snowball) - Snowball stemmer
-
+  * [go-mind](https://github.com/stevenmiller888/go-mind) - A neural network library built in Go
 
 ## Mathematics
 
