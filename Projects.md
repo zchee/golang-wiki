@@ -837,6 +837,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [roger](https://github.com/senseyeio/roger) - A Go client for the RServer, allowing you to invoke R programs from Go.
+  * [stats](https://github.com/montanaflynn/stats) - A statistics package with common functions missing from the Golang standard library.
   * [statistics](https://github.com/grd/stat) - GNU GSL Statistics (GPLv3)
   * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistcal analysis
   * [Units](https://github.com/smyrman/units) - Implements types, units, converter functions and some mathematics for some common physical types. lib
