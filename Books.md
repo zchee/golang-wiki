@@ -103,6 +103,12 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: http://microservicesingo.com/
 
+  * **Learn Go**
+    * Author: Nathan Youngman
+    * Publication Date: Spring 2016 (estimated)
+    * ISBN: 9781617293092
+    * Reference: https://www.manning.com/books/learn-go
+
 ## Pre-order
 
   * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
