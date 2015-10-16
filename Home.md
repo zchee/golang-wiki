@@ -82,6 +82,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - Where Gophers hangout online:
   - [The Go Forum](https://forum.golangbridge.org/) - An all-purpose discussion forum for the Go community.
   - [Gophers Slack Channel](http://gophers.slack.com/) - For real-time chat ([request membership](http://blog.gopheracademy.com/gophers-slack-community/)).
+  - [Golang News](http://golangnews.com) - For curated links about Go Programming.
   - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
   - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
