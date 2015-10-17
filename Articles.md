@@ -40,6 +40,7 @@ Table of Contents
   * [Defer Fun](https://blog.klauspost.com/defer-fun/) _2015-07-25_
   * [Things I learned teaching Go - Francesc Campoy](https://medium.com/@francesc/dotgo-things-i-learned-teaching-go-e999f33298cf) _2014-11-24_  
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
+  * [Functional Options for Friendly APIs](http://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis) _2014-10-17_
   * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
@@ -51,6 +52,7 @@ Table of Contents
 
 ## Concurrency / Channels
 
+  * [Exploting Powerful Cloud Services with Go](https://medium.com/@sathishvj/exploiting-your-powerful-cloud-servers-with-go-lang-s-concurrency-eae5f4c7526) _2015-10-11_
   * [3 Trivial Concurrency Exercises for the Confused Newbie Gopher](http://whipperstacker.com/2015/10/05/3-trivial-concurrency-exercises-for-the-confused-newbie-gopher/) _2015-10-05_
   * [Golang Pearl: Thread-safe writes and double checked locking in Go](http://blog.launchdarkly.com/golang-pearl-thread-safe-writes-and-double-checked-locking-in-go/) _2015-07-21_
   * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_

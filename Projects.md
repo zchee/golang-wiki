@@ -553,6 +553,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
+  * [manogs](https://github.com/gdamore/mangos) - An implementation of the Scalable Protocols based on [nanomsg](http://nanomsg.org/)
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
   * [Tideland golib](https://github.com/tideland/golib) - Includes a map/reduce library
 
@@ -1510,7 +1511,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Unsorted; please help!
 
 The following entries have not been filed. Please help by putting these in relevant categories.
-* [GoBot](https://github.com/SaturnsVoid/GoBot) - PoC Go HTTP Botnet
+  * [GoBot](https://github.com/SaturnsVoid/GoBot) - PoC Go HTTP Botnet
   * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not
   * [ebml-go](http://code.google.com/p/ebml-go/) - EBML decoder
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Converts any file into manageable Go source code for embedding binary data into a Go program.

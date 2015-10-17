@@ -2,9 +2,11 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 
 ## Why Go
 
+
 - [Sorry Ruby, I think I've fallen for Go](https://medium.com/@voxxit/sorry-ruby-i-think-i-ve-fallen-for-go-2e92ce1b356) _2015-09-26_
 - [Google Go: Why Google's programming language can rival Java in the Enterprise - Techworld](http://www.techworld.com/apps/why-googles-go-programming-language-could-rival-java-in-enterprise-3626140/) _2015-09-25_
 - [Moving to Three Languages](http://www.jaredwray.com/2015/09/15/moving-to-three-languages/) _2015-09-15_
+- [Warming up to Go](http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html) _2015-08-28_
 - [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
 - [Iron.io: How We Went from 30 Servers to 2 with Go](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html)
 - [Behind the Scenes: Big Data at Torbit](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
