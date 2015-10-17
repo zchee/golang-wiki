@@ -553,7 +553,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
-  * [manogs](https://github.com/gdamore/mangos) - An implementation of the Scalable Protocols based on [nanomsg](http://nanomsg.org/)
+  * [mangos](https://github.com/gdamore/mangos) - An implementation of the Scalable Protocols based on [nanomsg](http://nanomsg.org/)
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
   * [Tideland golib](https://github.com/tideland/golib) - Includes a map/reduce library
 
