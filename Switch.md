@@ -134,7 +134,22 @@ default:
 	error()
 }
 ```
+However, you can work around this by using a 'labeled' `fallthrough`:
 
+```
+switch {
+case f():
+	if g() {
+		goto nextCase // Works now!
+	}
+	h()
+    break
+nextCase:
+    fallthrough
+default:
+	error()
+}
+```
 ## Multiple cases
 
 If you want to use multiple values in the same case, use a comma-separated list.
