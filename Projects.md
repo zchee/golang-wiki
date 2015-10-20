@@ -657,7 +657,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Go Implementations
 
-  * [llgo](https://github.com/axw/llgo) - LLVM-based Go compiler, written in Go (work-in-progress)
+  * [llgo](http://llvm.org/klaus/llgo) - LLVM-based Go compiler, written in Go
 
 ## Graphics and Audio
 
