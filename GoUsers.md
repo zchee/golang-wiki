@@ -172,6 +172,7 @@
   * [Splice](http://splice.com) - [tweet](https://twitter.com/mattetti/status/387935640513683456), [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-shaped-splice-engineering-culture/), [blog](https://blog.splice.com/golang-improved-simplicity-reduced-maintenance/)
   * [Springer](http://joinit.springer.com) - [tweet](https://twitter.com/quii/status/575647166091370497)
   * [Square](http://www.squareup.com) - [blog](http://corner.squareup.com/2014/05/evaluating-go-frameworks.html)
+  * [StackEngine](http://www.stackengine.com) - [blog](http://stackengine.com/golang-with-circleci/)
   * [Stack Exchange](http://stackexchange.com/) - [blog](http://blog.stackoverflow.com/2014/11/announcing-bosun-our-new-open-source-monitoring-alerting-system/), [github](https://github.com/bosun-monitor/bosun), [website](http://bosun.org/)
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
