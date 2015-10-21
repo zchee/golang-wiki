@@ -89,7 +89,6 @@
   * [Gengo](http://www.gengo.com)  - [blog](http://blog.gengo.com/go-gengo/)
   * [Getty Images](http://www.gettyimages.com) - [tweet](https://twitter.com/TrevorBramble/status/441372661336113152) [tweet](https://twitter.com/ickypop/status/441470245492908032)
   * [GitHub](https://github.com) - [blog post](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
-  * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru/)
   * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
@@ -218,6 +217,7 @@
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
 
 ## Brazil
+  * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru/)
   * [Hotel Urbano](http://www.hotelurbano.com)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
 
