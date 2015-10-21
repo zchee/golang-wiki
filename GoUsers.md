@@ -1,5 +1,7 @@
 # Currently using Go
 
+## United States
+
   * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential.
     * [Kubernetes](http://kubernetes.io/)
     * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](https://github.com/youtube/vitess) as open source software [1](https://www.youtube.com/watch?v=5yDO-tmIoXY), [2](https://www.youtube.com/watch?v=qATTTSg6zXk), [3](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
@@ -216,6 +218,7 @@
   * [ZITEC](http://www.zitec.de)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
 
+## Brazil
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
