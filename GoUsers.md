@@ -219,8 +219,10 @@
   * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
 
+
 ## Brazil
-  * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru/)
+  * [GissOnline](http://www.gissonline.com.br)
+  * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Hotel Urbano](http://www.hotelurbano.com)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Nic.br](http://www.nic.br)
