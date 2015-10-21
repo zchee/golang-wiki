@@ -89,14 +89,12 @@
   * [Gengo](http://www.gengo.com)  - [blog](http://blog.gengo.com/go-gengo/)
   * [Getty Images](http://www.gettyimages.com) - [tweet](https://twitter.com/TrevorBramble/status/441372661336113152) [tweet](https://twitter.com/ickypop/status/441470245492908032)
   * [GitHub](https://github.com) - [blog post](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
-  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [HER](https://weareher.com/)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
-  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
@@ -132,7 +130,6 @@
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
-  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Nexway](http://www.nexway.com)
   * [Ninchat](https://ninchat.com/) - [twitter](https://twitter.com/timosavola/status/555993344766390272)
@@ -215,6 +212,11 @@
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [ZITEC](http://www.zitec.de)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
+
+## United Kingdom
+  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
+  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
+  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
 
 ## Brazil
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru/)
