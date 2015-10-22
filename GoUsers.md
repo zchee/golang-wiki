@@ -229,6 +229,7 @@
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
+  * [CodeIgnition](http://codeignition.co/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Josh Software](http://www.joshsoftware.com/)
   * [JusTickets - built with Go](https://www.justickets.in/cities)
