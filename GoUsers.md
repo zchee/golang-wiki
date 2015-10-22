@@ -136,6 +136,7 @@
   * [Odoscope](http://www.odoscope.com) - [twitter](https://twitter.com/odoscope/status/642383738249322496), [job](http://www.odoscope.com/career-at-odoscope/developer-vacancy/)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
+  * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
