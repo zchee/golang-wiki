@@ -229,6 +229,7 @@
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
+  * [C42 Engineering](http://c42.in/)
   * [CodeIgnition](http://codeignition.co/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah](http://fastah.blackbuck.mobi/)
