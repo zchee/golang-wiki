@@ -1287,6 +1287,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [golua](https://github.com/afitz/golua) - Go wrapper for LUA's C API
   * [gomruby](https://github.com/AlekSi/gomruby) - mruby (mini Ruby) bindings for Go
   * [gopher-lua](https://github.com/yuin/gopher-lua) - A Lua 5.1 VM and compiler written in Go
+  * [go-php](https://github.com/deuill/go-php) - PHP bindings for Go
   * [go-python](https://github.com/sbinet/go-python) - go bindings for CPython C-API
   * [gotcl](http://code.google.com/p/gotcl/) - Tcl interpreter in Go
   * [go-v8](https://github.com/lazytiger/go-v8) - V8 JavaScript engine bindings for Go
