@@ -241,6 +241,7 @@
   * [Siminars](http://siminars.com)
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
+  * [Thoughtworks](https://thoughtworks.com/)
   * [Qwinix](https://www.qwinixtech.com/)
 
 # Tried Go, but moved away
