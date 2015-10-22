@@ -239,6 +239,7 @@
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
   * [Siminars](http://siminars.com)
   * [SoStronk](https://www.sostronk.com/)
+  * [Synerzip](http://synerzip.com/)
   * [Qwinix](https://www.qwinixtech.com/)
 
 # Tried Go, but moved away
