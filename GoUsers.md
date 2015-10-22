@@ -63,6 +63,7 @@
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
   * [Dailymotion](http://www.dailymotion.com) - [github](https://github.com/dailymotion)
   * [Datadog](https://www.datadoghq.com) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
+  * [Datascale](http://datascale.io)
   * [DeferPanic](https://deferpanic.com) - [github](https://github.com/deferpanic)
   * [DigitalOcean](http://www.digitalocean.com/) - [blog](http://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/)
   * [Disqus](http://disqus.com/) - [blog](http://blog.disqus.com/post/51155103801/trying-out-this-go-thing), [blog](http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html)
@@ -230,6 +231,7 @@
 
 ## India
   * [SoStronk](https://www.sostronk.com/)
+  * [Siminars](http://siminars.com)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
