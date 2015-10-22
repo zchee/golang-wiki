@@ -228,6 +228,7 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
 
 ## India
+  * [Adori Labs](http://www.adorilabs.com/)
   * [Betacraft](http://www.betacraft.co/)
   * [C42 Engineering](http://c42.in/)
   * [CodeIgnition](http://codeignition.co/)
