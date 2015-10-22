@@ -106,7 +106,6 @@
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
   * [JelloLabs](http://www.jellolabs.com)
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
-  * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Karma](http://www.yourkarma.com) - [blog](https://blog.yourkarma.com/how-we-use-mqtt-at-karma)
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
@@ -229,9 +228,13 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
 
 ## India
+  * [Betacraft](http://www.betacraft.co/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
+  * [Josh Software](http://www.joshsoftware.com/)
+  * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Siminars](http://siminars.com)
   * [SoStronk](https://www.sostronk.com/)
+  * [Qwinix](https://www.qwinixtech.com/)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
