@@ -77,7 +77,6 @@
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
   * [EMC Cloud Services](http://www.emc.com/campaign/emc-cloud-services/index.htm) - [tweet](https://twitter.com/chadlung/status/622118049500364800)
   * [Everything.me](http://everything.me) - [blog](http://geeks.everything.me/2015/05/03/adventures-with-disque/)
-  * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)
   * [Facebook](https://facebook.com) - [github](https://github.com/facebookgo/), [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Factom](http://www.factom.org) - [github](https://github.com/FactomProject)
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
@@ -230,8 +229,9 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
 
 ## India
-  * [SoStronk](https://www.sostronk.com/)
+  * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Siminars](http://siminars.com)
+  * [SoStronk](https://www.sostronk.com/)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
