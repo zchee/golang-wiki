@@ -236,6 +236,7 @@
   * [Company 0](https://www.companyzero.com/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah](http://fastah.blackbuck.mobi/)
+  * [Gloop](http://gloop.io/)
   * [Josh Software](http://www.joshsoftware.com/)
   * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Kayako](http://www.kayako.com/)
