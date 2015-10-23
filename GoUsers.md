@@ -244,7 +244,7 @@
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
   * [Techequity Technologies](http://www.techequity.in/)
-  * [Thoughtworks](https://thoughtworks.com/)
+  * [ThoughtWorks](https://thoughtworks.com/)
   * [Qwinix](https://www.qwinixtech.com/)
 
 # Tried Go, but moved away
