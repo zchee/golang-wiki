@@ -246,6 +246,7 @@
   * [Techequity Technologies](http://www.techequity.in/)
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Qwinix](https://www.qwinixtech.com/)
+  * [Jabong](http://www.jabong.com)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
