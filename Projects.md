@@ -618,6 +618,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-msgpack](https://github.com/ugorji/go-msgpack) - Comprehensive MsgPack library for Go, with pack/unpack and net/rpc codec support (DEPRECATED in favor of [codec](https://github.com/ugorji/go/tree/master/codec#readme) )
   * [gopack](https://github.com/joshlf13/gopack) - Bit-packing for Go
   * [go-simplejson](https://github.com/bitly/go-simplejson) - a Go package to interact with arbitrary JSON
+  * [go-wire](https://github.com/tendermint/go-wire) - Binary and JSON codec for structures and more
   * [go-xdr](https://github.com/davecgh/go-xdr) - Pure Go implementation of the data representation portion of the External Data Representation (XDR) standard protocol as specified in RFC 4506 (obsoletes RFC 1832 and RFC 1014).
   * [iconv-go](https://github.com/djimenez/iconv-go) - iconv wrapper with Reader and Writer
   * [magicmime](https://github.com/rakyll/magicmime) -- Mime-type detection with Go bindings for libmagic
