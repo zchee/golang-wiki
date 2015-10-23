@@ -18,6 +18,7 @@
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
   * [ActiveState](http://www.activestate.com) - [github](https://github.com/activestate)
   * [adeven](http://www.adeven.com) - [blog](http://big-elephants.com/2012-10/deploying-go-with-capistrano/)
+  * [Adori Labs](http://www.adorilabs.com/)
   * [AeroFS](https://www.aerofs.com/) - [github](https://github.com/aerofs/gockerize), [blog](https://www.aerofs.com/blog/introducing-gockerize/)
   * [Aerospike](http://www.aerospike.com) - [blog](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
   * [Airbrake](http://airbrake.io/)
@@ -228,7 +229,6 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
 
 ## India
-  * [Adori Labs](http://www.adorilabs.com/)
   * [Betacraft](http://www.betacraft.co/)
   * [C42 Engineering](http://c42.in/)
   * [CodeIgnition](http://codeignition.co/)
