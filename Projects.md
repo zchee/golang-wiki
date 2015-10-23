@@ -1126,6 +1126,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-p2p](https://github.com/tendermint/go-p2p/) - P2P module for blockchains and more
   * [GoTella](https://github.com/sourabhdesai/gotella/) - A Go implementation of the Gnutella Protocol
   * [Taipei-Torrent](https://github.com/jackpal/Taipei-Torrent) - A BitTorrent client
+  * [Tendermint](https://github.com/tendermint/tendermint) - P2P Byzantine-Fault-Tolerant consensus & blockchain stack
   * [wgo](https://github.com/royger/wgo) - A simple BitTorrent client based in part on the Taipei-Torrent and gobit code
 
 ## Programming
