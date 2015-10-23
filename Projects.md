@@ -1122,10 +1122,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [DHT](https://github.com/nictuku/dht) - Kademlia DHT node used by Taipei-Torrent, compatible with BitTorrent
   * [ed2kcrawler](https://github.com/kevinwatt/ed2kcrawler) - eDonkey2000 link crawler
   * [gop2p](https://github.com/nacmartin/gop2p) - A simple p2p app to learn Go
+  * [go-p2p](https://github.com/tendermint/go-p2p/) - P2P module for blockchains and more
   * [GoTella](https://github.com/sourabhdesai/gotella/) - A Go implementation of the Gnutella Protocol
   * [Taipei-Torrent](https://github.com/jackpal/Taipei-Torrent) - A BitTorrent client
   * [wgo](https://github.com/royger/wgo) - A simple BitTorrent client based in part on the Taipei-Torrent and gobit code
-  * [go-p2p](https://github.com/tendermint/go-p2p/) - P2P module for blockchains and more
 
 ## Programming
 
