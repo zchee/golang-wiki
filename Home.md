@@ -176,6 +176,7 @@ If you're looking for services that support Go, here's a list to get you started
   - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD frameworks
   - Monitoring/Logging
     - [DeferPanic](http://deferpanic.com) - Dedicated Go application performance monitoring.
+    - [OpsDash](https://www.opsdash.com/) - Go-based cluster monitoring platform.
   - Package and Dependency Management
     - [Gopkg.in](http://labix.org/gopkg.in) is a source for stable Go libraries, provided by Gustavo Niemeyer.
     - [Stable Lib](https://stablelib.com/) is a service that provides stable Go packages with long-term support.

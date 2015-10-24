@@ -1397,6 +1397,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard
   * [trinity](https://github.com/cihub/trinity) -  MVC framework
   * [Utron](https://github.com/gernest/utron) - MVC Framework
+  * [VioletEar](https://github.com/nbari/violetear) - HTTP router
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
   * [wfdr](https://github.com/crazy2be/wfdr) - Simple web framework designed for and written in go. Works with other languages as well, but not as well.
   * [xweb](https://github.com/go-xweb/xweb) - A web framework for Go. Just like Struts for Java.
