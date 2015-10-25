@@ -23,6 +23,7 @@
   * [Aerospike](http://www.aerospike.com) - [blog](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
   * [Airbrake](http://airbrake.io/)
   * [Apcera ](http://www.apcera.com) - [blog](http://gigaom.com/2012/09/13/will-go-be-the-new-go-to-programming-language/)
+  * [Appbase](https://appbase.io/)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
