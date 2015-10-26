@@ -1369,7 +1369,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
   * [go-fastweb](http://code.google.com/p/go-fastweb/) - aims to be a simple, small and clean MVC framework for go
-  * [resty](https://github.com/go-resty/resty)- REST client library inspired by Ruby rest-client.
   * [goku](https://github.com/QLeelulu/goku) - a Web Mvc Framework for Go, mostly like ASP.NET MVC.
   * [Golanger](https://github.com/golangers/framework) - Golanger Web Framework is a lightweight framework for writing web applications in Go.
   * [Goldorak.Go](https://github.com/nono/Goldorak.Go) - a web miniframework built using mustache.go, web.go and Go-Redis
@@ -1390,6 +1389,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Martini **deprecated**](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go
   * [Negroni](https://github.com/codegangsta/negroni) - Idiomatic middleare for Go
   * [restclient](https://github.com/jmcvetta/restclient) - Client library for interacting with RESTful APIs.
+  * [resty](https://github.com/go-resty/resty) - REST client library inspired by Ruby rest-client.
   * [Revel](http://robfig.github.com/revel/) - High productivity web framework modeled on Play! Framework
   * [Ringo](https://github.com/jjyr/ringo) - Lighweight MVC web framework inspired by Rails, Gin.
   * [sawsij](https://bitbucket.org/jaybill/sawsij/src) - Provides a small, opinionated web framework.
