@@ -1367,6 +1367,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
   * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
+  * [Goal](https://github.com/colegion/goal) - A toolkit for high productivity web development in Go language built around the concept of code generation.
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
   * [go-fastweb](http://code.google.com/p/go-fastweb/) - aims to be a simple, small and clean MVC framework for go
   * [goku](https://github.com/QLeelulu/goku) - a Web Mvc Framework for Go, mostly like ASP.NET MVC.
