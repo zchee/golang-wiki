@@ -146,6 +146,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [pflag](https://github.com/ogier/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
   * [subcommands](https://github.com/maruel/subcommands) - A concurrent, unit tested, subcommand library
   * [uggo](https://github.com/laher/uggo) - Yet another option parser offering gnu-like option parsing. This one wraps (embeds) flagset. It also offers rudimentary pipe-detection (commands like ls behave differently when being piped to).
+  * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
 
 ## Command-line Tools
 
