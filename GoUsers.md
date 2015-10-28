@@ -63,7 +63,7 @@
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/)
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
-  * [Dailymotion](http://www.dailymotion.com) - [github](https://github.com/dailymotion)
+  * [Dailymotion](http://www.dailymotion.com) - [github](https://github.com/dailymotion), [blog](http://engineering.dailymotion.com/our-way-to-go/)
   * [Datadog](https://www.datadoghq.com) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
   * [Datascale](http://datascale.io)
   * [DeferPanic](https://deferpanic.com) - [github](https://github.com/deferpanic)
