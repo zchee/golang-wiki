@@ -255,6 +255,9 @@
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
 
+## Germany
+  * [Bürkert](https://www.burkert.com/en/)
+
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
   * [Braintree Payments](http://braintreepayments.com) - [blog](https://www.braintreepayments.com/braintrust/gotchas-irritants-and-warts-in-go-web-development)
