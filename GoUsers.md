@@ -208,7 +208,6 @@
   * [Ulele](https://en.ulule.com/) - [tweet](https://twitter.com/thoas/status/638355320071409664)
   * [Umbel](http://umbel.com) - [tweet](https://twitter.com/findmjob/status/624255179227967488)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
-  * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VerveMobile](http://www.vervemobile.com/)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
