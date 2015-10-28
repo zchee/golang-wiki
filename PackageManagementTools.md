@@ -1,4 +1,4 @@
-This page contains a list of tools for managing Go packages and their dependencies. The tools are divided into categories based on their approach to version management.
+This page contains a list of tools for managing Go packages and their dependencies (vendoring). The tools are divided into categories based on their approach to version management.
 
 ## GO15VENDOREXPERIMENT
 
