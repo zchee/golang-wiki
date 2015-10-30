@@ -172,6 +172,7 @@ If you're looking for services that support Go, here's a list to get you started
     - [Digital Ocean](https://github.com/digitalocean/godo)
     - [Google Cloud Platform for Go](https://cloud.google.com/go)
     - [Heroku](https://github.com/heroku/heroku-buildpack-go)
+    - [IBM Bluemix](https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/)
     - See here for [information on additional providers](ProviderIntegration)
   - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD frameworks
   - Monitoring/Logging
