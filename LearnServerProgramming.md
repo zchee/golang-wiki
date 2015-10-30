@@ -27,7 +27,7 @@ Before you decide to adopt a third party web framework or toolkit, keep in mind 
 
 If you decide you need a bit more infrastructure, start by looking at some of the toolkits and libraries available.
 
-### Toolikits & Libraries & Microframeworks
+### Toolkits & Libraries & Microframeworks
 
 * [Gorilla Toolkit](http://www.gorillatoolkit.org/)
 * [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni)
