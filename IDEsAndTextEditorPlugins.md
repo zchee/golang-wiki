@@ -30,7 +30,7 @@
     * The GOnpp plugin (available **via Notepad++'s built-in Plugin Manager**) provides code completion (requires gocode), function calltips, goimports integration, and keyboard shortcuts for common go commands. [[sources](https://github.com/tike/GOnpp), [binaries](http://sourceforge.net/projects/gonpp/files/)].
     * [GoAutocomplete](https://github.com/steve-perkins/GoAutocomplete) is another code completion plugin.
   * **[Sublime Text](http://www.sublimetext.com/)**: Commercial text editor. [Plugin collection with IDE-like features available](https://github.com/DisposaBoy/GoSublime).
-  * **[Textadept](http://foicica.com/textadept/) **:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
+  * **[Textadept](http://foicica.com/textadept/)**:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
   * **[TextMate](http://macromates.com/)**: Commercial text editor for OS X. [Source code available](https://github.com/textmate/textmate) under the GPLv3. [Bundle for Go available](https://github.com/AlanQuatermain/go-tmbundle).
   * **[TextWrangler](http://www.barebones.com/products/textwrangler/)**: free _little brother_ of BBedit. Both the Go module and Go.bbpackage for BBedit work for TextWrangler as well.
   * **[Vim](http://www.vim.org/)**: Vi Improved. There are a number of plugins available that make editing Go code easier.
