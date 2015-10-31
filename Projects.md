@@ -172,7 +172,8 @@ If you find a project in this list that is dead or broken, please either mark it
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
 
 ## Compression
-
+  
+  * [compress](https://github.com/klauspost/compress) - Faster drop in replacements for gzip, zip, zlib, deflate
   * [dgolzo](https://github.com/dgryski/dgolzo) - LZO bindings
   * [dictzip](https://github.com/pebbe/dictzip) - A reader and writer for files in the random access ` dictzip ` format
   * [fast-archiver](https://github.com/replicon/fast-archiver) - Alternative archiving tool with fast performance for huge numbers of small files
@@ -182,6 +183,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-sevenzip](https://github.com/salviati/go-sevenzip) - Package sevenzip implements access to 7-zip archives (wraps C interface of LZMA SDK)
   * [go-zip](https://github.com/hailiang/go-zip) - A wrapper around C library libzip, providing ability to modify existing ZIP archives.
   * [lzma](http://code.google.com/p/lzma/) - compress/lzma package for Go
+  * [pgzip](https://github.com/klauspost/pgzip) - Multicore gzip, compatible with the standard library
   * [snappy-go](http://code.google.com/p/snappy-go/) - Google's Snappy compression algorithm in Go
   * [yenc](https://github.com/chrisfarms/yenc) - yenc decoder package
   * [zappy](https://github.com/cznic/zappy) - Package zappy implements the zappy block-based compression format. It aims for a combination of good speed and reasonable compression.
