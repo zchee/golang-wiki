@@ -13,6 +13,7 @@
     * [GoFlyMake](https://github.com/dougm/goflymake) Flymake-style syntax checking for Go
     * [go-errcheck.el](https://github.com/dominikh/go-errcheck.el) Errcheck integration for Emacs
   * **[Gedit](http://projects.gnome.org/gedit/)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
+  * **[Geany](http://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://code.google.com/p/rog-go/source/browse/exp/cmd/godef/)**: Prints the source location of definitions in Go programs. Integrates with acme and emacs.
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
