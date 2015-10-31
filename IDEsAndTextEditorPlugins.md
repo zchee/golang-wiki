@@ -19,6 +19,7 @@
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
   * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) support available.
   * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
+  * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE with built-in Go support
   * **[Komodo Edit](http://komodoide.com/komodo-edit/)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
   * **[Lime Text](http://limetext.org/)**: Developed in Go, aims to be a Free and open-source software alternative to Sublime Text. Not quite ready yet but welcoming contributions to the progress. https://github.com/limetext/lime
@@ -41,6 +42,6 @@
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
   * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go (Windows or Linux with Wine).
   * **[Wide](https://github.com/b3log/wide)**: A <b>W</b>eb-based <b>IDE</b> for Teams using Go programming language/Golang.
-  * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
+  
 
 Other environments such as Xcode and Kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://code.google.com/p/go/source/browse/misc/?name=release-branch.go1.3
