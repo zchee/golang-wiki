@@ -81,6 +81,7 @@ Table of Contents
 
 ## Interfaces / OOP
 
+  * [Generics in Golang with Code Generation](http://blog.ralch.com/tutorial/golang-code-generation-and-generics/) _2015-10-18_
   * [Composition with Go](http://www.goinggo.net/2015/09/composition-with-go.html) _2015-09-13_
   * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
   * [Loose Copuling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_

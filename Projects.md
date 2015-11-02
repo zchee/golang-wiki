@@ -1309,6 +1309,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Caddy](https://caddyserver.com) - A fast, capable, general-purpose HTTP/2 web server that's easy to use
   * [Digestw](https://github.com/mocchira/digestw) - A Web Application - Twitter's Timeline Digest
+  * [fabio](https://github.com/eBay/fabio) - A fast zero-conf load balancing HTTP router for microservices.
   * [fourohfourfound](https://github.com/whee/fourohfourfound/) - A fallback HTTP server that may redirect requests with runtime configurable redirections
   * [Fragmenta](http://fragmenta.eu/) - A CMS built in Go
   * [freegeoip](https://github.com/fiorix/freegeoip) - IP geolocation web service (web server of freegeoip.net)
