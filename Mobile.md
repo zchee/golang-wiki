@@ -111,7 +111,7 @@ Current limitations are listed below.
 
 * Only a [subset of Go types](https://godoc.org/golang.org/x/mobile/cmd/gobind) are currently supported.
 * Language bindings have a performance overhead.
-* There are a few limitations on how the exported APIs should look like due to the limitations of the target language.
+* There are a few limitations on how the exported APIs should look due to the limitations of the target language.
 
 We will use the example package under [golang.org/x/mobile/example/bind/hello](https://golang.org/x/mobile/example/bind/hello) to generate bindings and invoke Greetings function from Java and Objective-C.
 
