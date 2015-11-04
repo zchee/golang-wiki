@@ -100,3 +100,4 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Medellín] (http://www.meetup.com/Golang-Medellin/) - Colombia.
   * [Golang Chile] (https://groups.google.com/d/forum/golang-chile) - Chile.
   * [Golang Panamá] (https://groups.google.com/d/forum/golang-panama) - Panamá.
+  * [Golang Lima] ( http://www.meetup.com/es/Golang-Peru/ ) - Perú
