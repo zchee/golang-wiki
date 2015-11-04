@@ -7,3 +7,4 @@ A collection of podcast episodes that cover Go programming. Please keep items in
 * [Interview with CC4CS talking about Security in Go](https://go.unicorn.tv/podcasts/interview-with-cc4cs-talking-about-security-in-go) _2015-03-06_
 * [Golang Best Practices](https://go.unicorn.tv/podcasts/golang-best-practices) _2014-09-08_
 * [An Introduction to the Go Programming Language with Andrew Gerrand](http://hanselminutes.com/416/an-introduction-to-the-go-programming-language-with-andrew-gerrand) _2014-03-28_
+* [FLOSS Weekly #284: The Go Language (guest)](https://twit.tv/shows/floss-weekly/episodes/284) _2014-02-19_
