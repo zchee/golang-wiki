@@ -20,7 +20,7 @@ Please do NOT reply code review via email, as the message [will not be relayed t
 
 # Work in progress
 
-If you have changes that aren't ready to be reviewed, you can put a giant "NOT FOR REVIEW" as the second line of the CL description, so that people who see it know not to look any further. Don't make it the first line, since then it will become the subject for the entire review, even after you've changed the description.
+If you have changes that aren't ready to be reviewed, you can put a giant "DO NOT REVIEW" as the second line of the CL description, so that people who see it know not to look any further. Don't make it the first line, since then it will become the subject for the entire review, even after you've changed the description.
 
 If don't need Gerrit's features, but just want to backup your work, share work between multiple clients, or have a staging UI to examine your changes, you can use a regular git remote.
 
