@@ -70,14 +70,14 @@ Sorted by publication date.
     * ISBN: 9781783981304
     * Reference: https://www.packtpub.com/web-development/mastering-go-web-services
 
-## Early Access
-
   * **Go In Action**
     * Authors: William Kennedy with Brian Ketelsen and Erik St. Martin
-    * Publication Date: October 2015
+    * Publication Date: November, 2015
     * ISBN: 9781617291784
-    * Reference: http://www.goinactionbook.com
+    * Reference: https://www.manning.com/books/go-in-action
     * Discount Code (44% off): goiaucf
+
+## Early Access
 
   * **Go Web Programming**
     * Author: Sau Sheong Chang
