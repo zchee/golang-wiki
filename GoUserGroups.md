@@ -89,10 +89,10 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
 
 # Oceania
+  * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
   * [golang-sydney](http://www.meetup.com/golang-syd/) - Sydney, Australia.
   * [golang-nz](http://groups.google.com/group/golang-nz) - New Zealand.
   * [Melbourne-Go-Nuts](http://www.meetup.com/Melbourne-Go-Nuts) - Melbourne, Australia.
-  * https://plus.google.com/u/1/communities/114036877112593565975 - Canberra, Australia.
 
 # South America
   * [Golang Brasil](http://www.golangbr.org) - Brazil.
@@ -100,4 +100,4 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Medellín](http://www.meetup.com/Golang-Medellin/) - Colombia.
   * [Golang Chile](https://groups.google.com/d/forum/golang-chile) - Chile.
   * [Golang Panamá](https://groups.google.com/d/forum/golang-panama) - Panamá.
-  * [Golang Lima]( http://www.meetup.com/es/Golang-Peru/ ) - Perú
+  * [Golang Lima](http://www.meetup.com/es/Golang-Peru/) - Perú
