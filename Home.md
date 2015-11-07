@@ -92,6 +92,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - For discussions about the core Go open source project, join [golang-dev](https://groups.google.com/forum/#!forum/golang-dev).
   - To get just our release announcements, join [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
 - User Groups & Meetups - There are [Go Meetups in many cities](http://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
+    - [GoBridge](http://golangbridge.org) - Volunteers helping underrepresented communities to teach technical skills and to foster diversity in Go.
     - [Women Who Go](http://www.womenwhogo.org/)
     - See here for [additional information GoUserGroups](GoUserGroups)
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
