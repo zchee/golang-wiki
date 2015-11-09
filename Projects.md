@@ -482,6 +482,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [couch-go](http://couch-go.googlecode.com) - newer maintained CouchDB database binding
   * [couchgo](https://github.com/lancecarlson/couchgo) - The most feature complete CouchDB Adapter for Go. Modeled after couch.js.
   * [dbxml](https://github.com/pebbe/dbxml) - A basic interface to Oracle Berkeley DB XML
+  * [drive](https://github.com/odeke-em/drive) - A Google drive command line client
   * [Event Horizon](https://github.com/looplab/eventhorizon) - Toolkit for Command Query Responsibility Segregation and Event Sourcing (CQRS/ES)
   * [go-db-oracle](https://code.google.com/p/go-db-oracle/) - GO interface to Oracle DB
   * [gographite](https://github.com/amir/gographite) - statsd server in go (for feeding data to graphite)
@@ -853,6 +854,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [gokit](https://github.com/go-kit/kit) - The Go Kit microservice framework (and [author interview](http://www.infoq.com/news/2015/09/microservices-with-go-kit)).
   * [kite](https://github.com/koding/kite) - RPC server and client framework.
+  * [micro](https://github.com/myodc/go-micro) - Protobuf3 and Consul based microservices framework.
 
 ## Miscellaneous
 
@@ -1346,13 +1348,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GOAuth](https://github.com/hokapoka/goauth) - OAuth Consumer
   * [go-http-auth](https://github.com/abbot/go-http-auth) - HTTP Basic and HTTP Digest authentication
   * [Go-OAuth](https://github.com/garyburd/go-oauth) - OAuth 1.0 client
+  * [goha](https://github.com/FeNoMeNa/goha) - Basic and Digest HTTP Authentication for Go http client
+  * [hero](https://github.com/gernest/hero) - OAuth server implementation - be an OAuth provider with Go
   * [httpauth-go](https://bitbucket.org/rj/httpauth-go) - Package httpauth provides utilities to support HTTP authentication policies. Support for both the basic authentication scheme and the digest authentication scheme are provided.
   * [httpauth](https://github.com/apexskier/httpauth) - HTTP session (cookie) based authentication and authorization
   * [oauth1a](https://github.com/kurrik/oauth1a) - OAuth 1.0 client library
   * [OAuth Consumer](https://github.com/mrjones/oauth) - OAuth 1.0 consumer implementation
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
-  * [goha](https://github.com/FeNoMeNa/goha) - Basic and Digest HTTP Authentication for Go http client
 
 ### DOM handling
 
