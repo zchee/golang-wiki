@@ -1,4 +1,4 @@
-Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stores](SuccessStories).
+Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stories](SuccessStories).
 
 ## Why Go
 
