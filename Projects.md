@@ -814,12 +814,13 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Go
   * [blas](https://github.com/ziutek/blas) - Go implementation of BLAS (Basic Linear Algebra Subprograms)
   * [cartconvert](https://github.com/the42/cartconvert) - cartography functions for the Go programming language
-  * [Cvx](https://github.com/hrautila/cvx) - Convex optimization  package, port of CVXOPT python package
+  * [clp](https://github.com/losalamos/clp) - Go bindings for the COIN-OR Linear Programming (CLP) library
+  * [Cvx](https://github.com/hrautila/cvx) - Convex optimization package, port of CVXOPT python package
   * [dice](https://github.com/tonio-ramirez/dice) - Dice rolling library
   * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
-  * [fixed](https://github.com/klkblake/fixed) - A fixed point (Q32.32 format) math library.
-  * [geom](https://github.com/skelterjohn/geom) - 2d geometry.
-  * [gochipmunk](https://github.com/paulcoyle/gochipmunk) - Go bindings to the Chipmunk Physics library.
+  * [fixed](https://github.com/klkblake/fixed) - A fixed point (Q32.32 format) math library
+  * [geom](https://github.com/skelterjohn/geom) - 2d geometry
+  * [gochipmunk](https://github.com/paulcoyle/gochipmunk) - Go bindings to the Chipmunk Physics library
   * [gocomplex](http://code.google.com/p/gocomplex/) - a complex number library
   * [godec](http://godoc.org/speter.net/go/exp/math/dec/inf) - multi-precision decimal arithmetic
   * [gofd](https://bitbucket.org/gofd/gofd) - concurrent finite domain constraint solver.
