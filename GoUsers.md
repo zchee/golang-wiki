@@ -143,6 +143,7 @@
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
+  * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
   * [Pinshape](https://pinshape.com/) - [job](https://twitter.com/MusicHackFest/status/639219466262454272)
   * [pool.ntp.org](http://pool.ntp.org/) - [blog](http://news.ntppool.org/2012/10/new-dns-server.html) [status](http://dns-status.ntppool.org/)
