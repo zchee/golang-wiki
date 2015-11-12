@@ -9,6 +9,7 @@ Please keep all items in chronological order.
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
+| Golab | 2015-12-15 | Florence, Italy | http://www.golab.io |
 | GoCon Tokyo | 2015-??-?? | Tokyo, Japan | http://gocon.connpass.com |
 | Gopher Gala | 2016-01-22 | Earth | http://gophergala.com/ |
 | FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
