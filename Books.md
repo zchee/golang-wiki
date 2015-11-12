@@ -77,6 +77,13 @@ Sorted by publication date.
     * Reference: https://www.manning.com/books/go-in-action
     * Discount Code (44% off): goiaucf
 
+  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
+    * Author: Alan A.A. Donovan and Brian Kernighan
+    * Publication Date: November, 2015
+    * ISBN: 978-0134190440
+    * Reference: http://www.gopl.io/
+
+
 ## Early Access
 
   * **Go Web Programming**
@@ -110,12 +117,6 @@ Sorted by publication date.
     * Reference: [https://www.manning.com/books/learn-go](https://manning.com/books/learn-go?a_aid=nathany&a_bid=53f68821)
 
 ## Pre-order
-
-  * **The Go Programming Language (Addison-Wesley Professional Computing Series)**
-    * Author: Brian W. Kernighan & Alan Donovan
-    * Publication Date: October 30, 2015
-    * ISBN: 978-0134190440
-    * Reference: http://www.gopl.io/
 
   * **Introduction to Programming in Go**
     * Author: Caleb Doxsey
