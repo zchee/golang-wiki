@@ -44,8 +44,9 @@ As a result, if (from your repository project) you import a package that is in t
 
 ## Tips and tricks
 
-### Third-party Packages
-It is useful to have two GOPATH entries. One for a location for 3rd party goinstalled packages, and the second for your own projects. List the 3rd party GOPATH first, so that goinstall will use it as a default destination. Then you can work in the second GOPATH directory and have all your packages be importable by using the "go" command, goinstall, or a GOPATH-aware 3rd party build tool like [gb](http://code.google.com/p/go-gb).
+### Use a single GOPATH
+
+Even though the GOPATH may be a list of directories, it is generally correct and sufficient to use a single GOPATH for all Go code on your machine.  Since all packages retrieved with "go get" have a unique URL (and thus a unique path on disk), having more than one GOPATH is almost never necessary when building with the Go tool.
 
 ## FAQ
 ### Why won't ` $GOPATH/src/cmd/mycmd/*.go ` build?
