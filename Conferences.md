@@ -15,6 +15,7 @@ Please keep all items in chronological order.
 | FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
 | GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in |
 | GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
+| GopherCon China | 2016-04-16 | Beijing, China | |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 
