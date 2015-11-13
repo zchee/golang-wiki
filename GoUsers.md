@@ -27,6 +27,7 @@
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
+  * [Awake Networks](http://www.awakenetworks.com)
   * [Axioms](http://axioms.io) - [blog](http://axioms.io/zen/2014-11-06-swift-go/)
   * [Basecamp](https://basecamp.com/) - [blog](https://signalvnoise.com/posts/3897-go-at-basecamp)
   * [BBC Worldwide](http://www.bbcworldwide.com/) - [source](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
