@@ -2,6 +2,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 
 ## Why Go
 
+- [For Better or For Worse](http://jmoiron.net/blog/for-better-or-for-worse/) _2015-11-12_
 - [Six reasons why I love Go](http://jbu.io/2015/10/28/six-reasons-why-i-love-go/) _2015-10-28_
 - [CERN: Python vs Go for Data Access Service (PDF)](https://indico.cern.ch/event/449425/session/1/contribution/6/attachments/1168560/1685802/DAS_python_vs_go.pdf) _2015-10-18_
 - [Sorry Ruby, I think I've fallen for Go](https://medium.com/@voxxit/sorry-ruby-i-think-i-ve-fallen-for-go-2e92ce1b356) _2015-09-26_
@@ -25,7 +26,6 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [@tobi](http://twitter.com/tobi): ["I have now completed two projects in Go. I predict that it's going to be the dominant language for server work."](https://twitter.com/tobi/status/245873677483274240)
 - [@derekcollison](http://twitter.com/derekcollison): ["Prediction: Go will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months."](https://twitter.com/derekcollison/status/245522124666716160)
 - [Will Go be the new go-to programming language?](http://gigaom.com/cloud/will-go-be-the-new-go-to-programming-language/)
-- [PARALLELISM FOR THE WIN!](http://areyoufuckingcoding.me/2012/08/16/parallelism-for-the-win/)
 - [Go is boring](http://aeronotix.pl/blog/go-is-boring)
 - [Dr. Dobb's: Why Not Go?](http://www.drdobbs.com/open-source/why-not-go/240005062)
 - [Google I/O 2012: Go in production](http://www.youtube.com/watch?v=kKQLhGZVN4A)

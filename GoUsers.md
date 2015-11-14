@@ -238,7 +238,7 @@
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
-  * [BookMyShow] (http://www.bookmyshow.com/)
+  * [BookMyShow](http://www.bookmyshow.com/)
   * [C42 Engineering](http://c42.in/)
   * [CodeIgnition](http://codeignition.co/)
   * [Company 0](https://www.companyzero.com/)
