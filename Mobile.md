@@ -65,6 +65,7 @@ $ gomobile build -target=android golang.org/x/mobile/example/basic
 ```
 
 Build command will build an APK named basic.apk.
+if an AndroidManifest.xml is defined in the package directory, it is added to the APK output. Otherwise, a default manifest is generated.
 
 If you have [adb](http://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
 
