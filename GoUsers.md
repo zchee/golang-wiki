@@ -226,6 +226,7 @@
   * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
   * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
+  * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
 
 
 ## Brazil
