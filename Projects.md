@@ -43,6 +43,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Games](#games)
 * [GIS](#gis)
 * [Go Implementations](#go-implementations)
+* [Goroutines](#goroutines)
 * [Graphics and Audio](#graphics-and-audio)
 * [GUIs and Widget Toolkits](#guis-and-widget-toolkits)
 * [Hardware](#hardware)
@@ -58,6 +59,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Other Random Toys, Experiments and Example Code](#other-random-toys-experiments-and-example-code)
 * [P2P and File Sharing](#p2p-and-file-sharing)
 * [Programming](#programming)
+* [Resource Embedding](#resource-embedding)
 * [RPC](#rpc)
 * [Scanner and Parser Generators](#scanner-and-parser-generators)
 * [Security](#security)
@@ -665,6 +667,12 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [llgo](http://llvm.org/klaus/llgo) - LLVM-based Go compiler, written in Go
 
+## Goroutines
+
+  * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
+  * [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
+  * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
+
 ## Graphics and Audio
 
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
@@ -879,6 +887,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fsnotify](https://github.com/howeyc/fsnotify) - File system notifications for Go
   * [functional](https://github.com/tcard/functional) - Functional programming library including a lazy list implementation and some of the most usual functions.
   * [GCSE](http://go-search.org/) - Go code search engine. [source](https://github.com/daviddengcn/gcse)
+  * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
   * [go-amiando](https://github.com/ungerik/go-amiando) - Wrapper for the Amiando event management API
   * [go-bit](http://code.google.com/p/go-bit/) - An efficient and comprehensive bitset implementation with utility bit functions.
   * [go-bitops](https://github.com/cmchao/go-bitops) - common bit operations for 32/64 bit integer
@@ -944,6 +953,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [serial](https://github.com/ziutek/serial) - Serial ports API (pure Go)
   * [sio](https://github.com/schleibinger/sio) - Package sio lets you access old serial junk. It's a go-gettable fork and modification of dustin's rs232 package.
   * [Space Monkey Monitor](https://github.com/spacemonkeygo/monitor) - A flexible process data collection, monitoring, and instrumentation library for Go
+  * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
   * [symutils](https://github.com/salviati/symutils) - Various tools and libraries to handle symbolic links
   * [twitterfetcher](https://bitbucket.org/georgebaev/twitterfetcher) - A tool to make Twitter API requests using the [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
   * [udis86](https://github.com/jroimartin/udis86) - Go bindings for libudis86
@@ -1143,6 +1153,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-intset](https://github.com/phf/go-intset) - a library to work with bounded sets of integers, including multiple alternative implementations
   * [go-parse](https://github.com/vito/go-parse) - a Parsec-like parsing library
   * [Shuffle](https://github.com/earthboundkid/shuffle) - Implementation of the Fisher–Yates shuffle (or Knuth shuffle) in Go.
+
+## Resource Embedding
+
+  * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
+  * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
+  * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
+  * [statics](https://github.com/go-playground/statics) - Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks.
+  * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 
 ## RPC
 
