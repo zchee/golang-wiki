@@ -262,6 +262,7 @@
 
 ## Southeast Asia
   * [GrabTaxi](http://www.grabtaxi.com/)
+  * [Tokopedia](https://www.tokopedia.com/)
 
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
