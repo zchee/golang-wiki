@@ -148,6 +148,7 @@
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
   * [Pinshape](https://pinshape.com/) - [job](https://twitter.com/MusicHackFest/status/639219466262454272)
+  * [Pivotal](https://pivotal.io/) - [Cloud Foundry](https://github.com/cloudfoundry) and [Cloud Foundry Incubator](https://github.com/cloudfoundry-incubator)
   * [pool.ntp.org](http://pool.ntp.org/) - [blog](http://news.ntppool.org/2012/10/new-dns-server.html) [status](http://dns-status.ntppool.org/)
   * [Poptip](https://poptip.com/) - [blog](http://thenewstack.io/from-node-js-to-go-why-one-startup-made-the-switch/), [job posting](https://groups.google.com/d/msg/golang-nuts/cQ0uuLCcQQQ/4nNm_YYh_l4J)
   * [Public Good Corp](https://publicgood.com/) - [meetup](http://www.meetup.com/ChicaGoLang/events/222224696/)
