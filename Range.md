@@ -8,7 +8,7 @@ A range clause provides a way to iterate over an array, slice, string, map, or c
 
 ## Example
 
-```
+```go
 for k, v := range myMap {
 	log.Printf("key=%v, value=%v", k, v)
 }
@@ -37,7 +37,7 @@ If only one value is used on the left of a range expression, it is the 1st value
 
 When iterating over a slice or map of values, one might try this:
 
-```
+```go
 items := make([]map[int]int, 10)
 for _, item := range items {
 	item = make(map[int]int, 1) // Oops! item is only a copy of the slice element.
@@ -47,7 +47,7 @@ for _, item := range items {
 
 The ` make ` and assignment look like they might work, but the value property of ` range ` (stored here as ` item `) is a _copy_ of the value from ` items `, not a pointer to the value in ` items `. The following will work:
 
-```
+```go
 items := make([]map[int]int, 10)
 for i := range items {
 	items[i] = make(map[int]int, 1)
