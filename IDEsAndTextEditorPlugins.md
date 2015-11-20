@@ -8,7 +8,7 @@
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
 
   * **[Codebox IDE](https://www.codebox.io/)**: open source cross-platform IDE, runs on desktop (Linux or OS X] and in the cloud with Go [support](https://www.codebox.io/stack/go)
-  * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE now includes [full Go support](https://codeenv.com/env/run/21/).
+  * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE now includes [full Go support](https://codeenv.com/env/codeenv/7/go/).
   * **[Eclipse IDE](http://www.eclipse.org/)**: Very popular open source cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
