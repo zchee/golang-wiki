@@ -49,7 +49,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Hardware](#hardware)
 * [Language and Linguistics](#language-and-linguistics)
 * [Logging & Monitoring](#logging-and-monitoring)
-* [Machine Learning](#machine-learning)
+* [Machine Learning & AI](#machine-learning)
 * [Mathematics](#mathematics)
 * [Microservices](#microserices)
 * [Miscellaneous](#miscellaneous)
@@ -237,6 +237,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [termbox-go](https://github.com/nsf/termbox-go) - A minimalist alternative to ncurses to build terminal-based user interfaces
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
+  * [uilive](https://github.com/gosuri/uilive) - uilive is a go library for updating terminal output in realtime
   * [yandex-weather-cli](https://github.com/msoap/yandex-weather-cli) - Command line interface for Yandex weather service
 
 ## Continuous Integration
@@ -405,6 +406,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pgsql.go](https://github.com/jbarham/pgsql.go) - PostgreSQL high-level client library wrapper
   * [pgx](https://github.com/JackC/pgx) - Go PostgreSQL driver that is compatible with database/sql and has native interface for more performance and features
   * [pq](https://github.com/lib/pq) - Pure Go PostgreSQL driver for database/sql
+  * [yoke](https://github.com/nanopack/yoke) - Postgres high-availability cluster with auto-failover and automated cluster recovery
 
 ### QL
 
@@ -639,6 +641,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## File Systems
 
   * [go.fs](https://github.com/daaku/go.fs) - A virutal file system abstraction layer.
+  * [poller](https://github.com/npat-efault/poller) - Package poller is a file-descriptor multiplexer. It allows concurent Read and Write operations from and to multiple file-descriptors.
 
 ## Games
 
@@ -798,6 +801,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
   * [seelog](https://github.com/cihub/seelog) - Flexible dispatching, filtering, and formatting
   * [spacelog](https://github.com/spacemonkeygo/spacelog) - Hierarchical, leveled, and structured logging library for Go
+  * [statsgod](https://github.com/acquia/statsgod) - A rewrite of StatsD in Go.
   * [syslog](https://github.com/ziutek/syslog) - With this package you can create your own syslog server with your own handlers for different kind of syslog messages
   * [Tideland golib](https://github.com/tideland/golib) - Flexible logging
   * [timber](https://github.com/ngmoco/timber) - Configurable Logger for Go
@@ -806,6 +810,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [bayesian](https://github.com/jbrukh/bayesian) - A naive bayes classifier.
   * [ctw](https://github.com/fumin/ctw) - Context Tree Weighting and Rissanen-Langdon Arithmetic Coding
+  * [evo](https://github.com/cbarrick/evo) - a framework for implementing evolutionary algorithms in Go.
   * [go-algs/maxflow](https://github.com/daviddengcn/go-algs/tree/master/maxflow) Maxflow (graph-cuts) energy minimization library.
   * [go-galib](https://github.com/thoj/go-galib) - Genetic algorithms.
   * [golinear](https://github.com/danieldk/golinear) - Linear SVM and logistic regression.
@@ -862,8 +867,8 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Microservices
 
   * [gokit](https://github.com/go-kit/kit) - The Go Kit microservice framework (and [author interview](http://www.infoq.com/news/2015/09/microservices-with-go-kit)).
+  * [go-micro](https://github.com/micro/go-micro) - Go Micro is a microservices library which provides the fundamental building blocks for writing fault tolerant distributed systems at scale.
   * [kite](https://github.com/koding/kite) - RPC server and client framework.
-  * [micro](https://github.com/myodc/go-micro) - Protobuf3 and Consul based microservices framework.
 
 ## Miscellaneous
 
@@ -1031,6 +1036,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gozmq](https://github.com/alecthomas/gozmq) - Go Bindings for 0mq (zeromq/zmq)
   * [Grumble](https://github.com/mkrautz/grumble) - Mumble (VoIP) server implementation
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
+  * [HomeControl](https://github.com/brutella/hc) - an implementation of Apple's HomeKit Accessory Protocol (HAP)
   * [Hprose](https://github.com/hprose/hprose-go) - Hprose is a High Performance Remote Object Service Engine.
   * [httpfstream](https://sourcegraph.com/github.com/sourcegraph/httpfstream/tree) - streaming append and follow of HTTP resources (using WebSockets)
   * [ipaddress](https://github.com/llimllib/ipaddress) - Convenient ip address functions: ip -> int, int -> ip, and IPNet broadcast address
@@ -1389,6 +1395,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [arasu](https://github.com/arasuresearch/arasu) - A Lightning Fast Web Framework written in Go & Dart
   * [Beego](http://beego.me/) - Beego is an open source version of the scalable, non-blocking web framework.
   * [browserspeak](https://github.com/xyproto/browserspeak) - Generate HTML templates, CSS or SVG without writing `<` or `>`
+  * [httpcoala](https://github.com/goware/httpcoala) - Library for request coalescing - handy for reverse proxies. 
   * [falcore](https://github.com/fitstar/falcore) - Modular HTTP server framework
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
