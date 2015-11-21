@@ -1,4 +1,4 @@
-## Podcasts shows
+## Podcast shows
 * [The Go Show](http://goshow.fm/) - A partnership between GoBridge and The Changelog — for the Go community, by the Go community.
 * [The Golang Show (Russian)](http://golangshow.com/)
 
