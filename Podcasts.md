@@ -1,6 +1,6 @@
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
 
-* [The Go Show](http://goshow.fm/)
+* [The Go Show](http://goshow.fm/) - A partnership between GoBridge and The Changelog — for the Go community, by the Go community.
 * [The Golang Show (Russian)](http://golangshow.com/)
 * [Go on the Web](http://thewebplatform.libsyn.com/55-go-on-the-web) _2015-08-05_
 * [Fatherhood with Andrew Gerrand](http://beatsryetypes.com/episodes/2015/05/18/episode-16-fatherhood-with-andrew-gerrand.html) _2015-05-15_
