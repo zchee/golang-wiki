@@ -225,12 +225,6 @@
   * [ZITEC](http://www.zitec.de)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
 
-## United Kingdom
-  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
-  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
-  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
-  * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
-
 
 ## Brazil
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
@@ -239,6 +233,13 @@
   * [Hotel Urbano](http://www.hotelurbano.com)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
+
+## Canada
+
+  * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
+
+## Germany
+  * [Bürkert](https://www.burkert.com/en/)
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
@@ -261,15 +262,18 @@
   * [Techequity Technologies](http://www.techequity.in/)
   * [ThoughtWorks](https://thoughtworks.com/)
 
-## Southeast Asia
-  * [GrabTaxi](http://www.grabtaxi.com/)
-  * [Tokopedia](https://www.tokopedia.com/)
-
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
 
-## Germany
-  * [Bürkert](https://www.burkert.com/en/)
+## United Kingdom
+  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
+  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
+  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
+  * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
+
+## Southeast Asia
+  * [GrabTaxi](http://www.grabtaxi.com/)
+  * [Tokopedia](https://www.tokopedia.com/)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
