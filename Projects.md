@@ -24,6 +24,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Command-line Option Parsers](#command-line-option-parsers)
 * [Command-line Tools](#command-line-tools)
 * [Compression](#compression)
+* [Concurrency and Goroutines](#concurrency-and-goroutines)
 * [Configuration File Parsers](#configuration-file-parsers)
 * [Console User Interface](#console-user-interface)
 * [Continuous Integration](#continuous-integration)
@@ -43,7 +44,6 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Games](#games)
 * [GIS](#gis)
 * [Go Implementations](#go-implementations)
-* [Goroutines](#goroutines)
 * [Graphics and Audio](#graphics-and-audio)
 * [GUIs and Widget Toolkits](#guis-and-widget-toolkits)
 * [Hardware](#hardware)
@@ -189,6 +189,13 @@ If you find a project in this list that is dead or broken, please either mark it
   * [snappy-go](http://code.google.com/p/snappy-go/) - Google's Snappy compression algorithm in Go
   * [yenc](https://github.com/chrisfarms/yenc) - yenc decoder package
   * [zappy](https://github.com/cznic/zappy) - Package zappy implements the zappy block-based compression format. It aims for a combination of good speed and reasonable compression.
+
+
+## Concurrency and Goroutines
+
+  * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
+  * [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
+  * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool.
 
 ## Configuration File Parsers
 
@@ -670,11 +677,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [llgo](http://llvm.org/klaus/llgo) - LLVM-based Go compiler, written in Go
 
-## Goroutines
-
-  * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
-  * [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
-  * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
 
 ## Graphics and Audio
 
