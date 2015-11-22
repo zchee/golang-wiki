@@ -649,6 +649,8 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [go.fs](https://github.com/daaku/go.fs) - A virutal file system abstraction layer.
   * [poller](https://github.com/npat-efault/poller) - Package poller is a file-descriptor multiplexer. It allows concurent Read and Write operations from and to multiple file-descriptors.
+  * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
+
 
 ## Games
 
@@ -1168,7 +1170,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
   * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
   * [statics](https://github.com/go-playground/statics) - Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks.
-  * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 
 ## RPC
 
