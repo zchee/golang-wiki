@@ -14,7 +14,7 @@ these strategies.
   - [Building and deploying to iOS](#building-and-deploying-to-ios)
 - [SDK applications](#sdk-applications-and-generating-bindings)
   - [Building and deploying to Android](#building-and-deploying-to-android-1)
-  - [Building an deploying to iOS](#building-an-deploying-to-ios)
+  - [Building an deploying to iOS](#building-and-deploying-to-ios)
   - [iOS Simulator](#ios-simulator)
 
 ## Tools
