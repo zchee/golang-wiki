@@ -18,7 +18,8 @@ Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile 
 
 # Supported operating systems
 
-Go supports ARM on Linux. You must be running an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as ` armel ` for softfloat (compatible with ARMv5) or ` armhf ` for hardware floating point (ARMv6 and above).
+* ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
+* ARM on Darwin.
 
 # Recommended Go version
 
