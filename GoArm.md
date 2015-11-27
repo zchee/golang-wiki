@@ -14,7 +14,7 @@ Go supports the following ARM architectural families.
 | ARMv7            | supported  | GOARM=7         |           |
 | ARMv8            | supported  | GOARCH=arm64    |  |
 
-Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile Go from source on the target machine. In cross compilation situations, it is recommended that you always export an appropriate GOARM value.
+Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile the program from source on the target machine. In cross compilation situations, it is recommended that you always set an appropriate GOARM value.
 
 # Supported operating systems
 
