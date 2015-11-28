@@ -10,7 +10,7 @@ Go supports the following ARM architectural families.
 |:-----------------|:-----------|:----------------|
 | ARMv4 and below  | sorry, not supported | n/a   |
 | ARMv5            | supported  | GOARM=5         |
-| ARMv6            | supported  |                 |
+| ARMv6            | supported  | GOARM=6         |
 | ARMv7            | supported  | GOARM=7         |
 | ARMv8            | supported  | GOARCH=arm64    |
 
