@@ -128,6 +128,7 @@
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
   * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
   * [MediaMath](https://mediamath.com) - [github](https://github.com/MediaMath/grim), [youtube](https://youtu.be/eDRoaxXerOM)
+  * [Mesosphere](https://mesosphere.com) - [github](https://github.com/mesosphere)
   * [Metasearch](https://www.meta.sc/) - [twitter](https://twitter.com/AndyHaskell2013/status/651528742330855424)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
   * [Modcloth](http://www.modcloth.com) - [github](https://github.com/modcloth-labs)
