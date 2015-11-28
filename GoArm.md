@@ -20,6 +20,7 @@ Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile 
 
 * ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
 * ARM on Darwin.
+* ARM on FreeBSD and OpenBSD.
 
 # Recommended Go version
 
