@@ -16,6 +16,7 @@ Table of Contents
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Reflection](#reflection)
 * [Security](#security)
+* [Testing](#testing)
 * [Web & API Development](#web--api-development)
 * [Misc](#misc)
 * [Chinese](#chinese)
@@ -76,6 +77,7 @@ Table of Contents
 
 ## Cross Platform Development
 
+  * [Releasing cross-platform Go binaries using Goxc and BinTray in 5 minutes](http://jbu.io/2015/11/29/releasing-cross-platform-go-binaries-using-goxc-and-bintray-in-5-minutes/) _2015-11-29_
   * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
 
 ## Error Handling
@@ -107,6 +109,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Performance and Profiling
 
+  * [How to Optimize Garbage Collection in Go](http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/) _2015-11-23_
   * [Golang Escape Analysis](http://www.agardner.me/golang/garbage/collection/gc/escape/analysis/2015/10/18/go-escape-analysis.html) _2015-10-18_
   * [A Pattern for Optimizing Go](http://blog.signalfx.com/a-pattern-for-optimizing-go) _2015-09-24_
   * [Golang Performance Tips](https://joshrendek.com/2015/09/golang-performance-tips/) _2015-09-20_
@@ -131,7 +134,12 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Security
 
-  * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _205-09-19_
+  * [Mutual TLS authentication in Go](http://www.levigross.com/2015/11/21/mutual-tls-authentication-in-go/) _2015-11-21_
+  * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _2015-09-19_
+
+## Testing
+
+  * [Upgrade Your Appengine Tests with Testify](http://csfortheslothful.blogspot.com/2015/11/upgrade-your-appengine-tests-with.html) _2015_11_21_
 
 ## Web & API Development
 
