@@ -7,7 +7,7 @@ Given a table of test cases, the actual test simply iterates through all table e
 
 Here is a good example from the testing code for the ` fmt ` package ( http://golang.org/pkg/fmt/ ):
 
-```
+```go
 var flagtests = []struct {
 	in  string
 	out string
