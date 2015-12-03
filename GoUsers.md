@@ -79,6 +79,7 @@
   * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
+  * [eBay](http://www.ebay.com/) - [github](https://github.com/eBay/fabio), [meetup](http://www.meetup.com/golang-amsterdam/events/222001978/)
   * [Economist](http://www.economist.com/) - [github](https://github.com/EconomistDigitalSolutions/ramlapi)
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
   * [EMC Cloud Services](http://www.emc.com/campaign/emc-cloud-services/index.htm) - [tweet](https://twitter.com/chadlung/status/622118049500364800)
