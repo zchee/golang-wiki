@@ -139,12 +139,14 @@
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
+  * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Nexway](http://www.nexway.com)
   * [Ninchat](https://ninchat.com/) - [twitter](https://twitter.com/timosavola/status/555993344766390272)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Odoscope](http://www.odoscope.com) - [twitter](https://twitter.com/odoscope/status/642383738249322496), [job](http://www.odoscope.com/career-at-odoscope/developer-vacancy/)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
+  * [Opendoor](https://www.opendoor.com/) - [HN](https://news.ycombinator.com/item?id=10657348)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
@@ -167,14 +169,17 @@
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
   * [Repustate](http://www.repustate.com)
+  * [ReviewTrackers](http://www.reviewtrackers.com/) - [HN](https://news.ycombinator.com/item?id=10660780)
   * [Room for More](https://roomformore.com)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
+  * [Sagan Systems](http://sagansystems.com/) - [HN](https://news.ycombinator.com/item?id=10659830)
   * [Sajari](https://www.sajari.com) - [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
   * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
   * [SendHub](https://www.sendhub.com/) - [source (shipbuilder PaaS)](http://shipbuilder.io/)
+  * [SessionM](https://www.sessionm.com) - [HN](https://news.ycombinator.com/item?id=10659861)
   * [Shopify](http://www.shopify.com) [tweet](https://twitter.com/burkelibbey/status/312328030670450688)
   * [Showyou](http://www.showyou.com) [source](https://plus.google.com/101522949595361604155/posts/8n4CSePMwgV)
   * [Shutterfly](http://www.shutterfly.com)
@@ -195,6 +200,7 @@
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
   * [Streetspotr](http://streetspotr.com) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [SumoLogic](https://www.sumologic.com/) - [github](https://github.com/SumoLogic/sumoshell)
+  * [SuperHuman](http://superhuman.com/) - [HN](https://news.ycombinator.com/item?id=10660225)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
   * [Tamber](http://www.tamber.com/) - [blog](http://www.tamber.com/posts/ferret.html)
   * [Tapglue](https://www.tapglue.com/)
@@ -243,10 +249,12 @@
 
 ## Canada
 
+  * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
+  * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
@@ -280,6 +288,7 @@
 
 ## Southeast Asia
   * [GrabTaxi](http://www.grabtaxi.com/)
+  * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
 
 # Tried Go, but moved away
