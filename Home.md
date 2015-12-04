@@ -193,7 +193,7 @@ If you're looking for services that support Go, here's a list to get you started
 
 ## Troubleshooting Go Programs in Production
 
-  - Understand the performance of you Go apps using the [pprof package](http://blog.golang.org/profiling-go-programs)
+  - Understand the performance of your Go apps using the [pprof package](http://blog.golang.org/profiling-go-programs)
   - Heap Dumps
     - [heapdump13](heapdump13)
     - [heapdump14](heapdump14)
