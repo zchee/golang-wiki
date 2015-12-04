@@ -84,6 +84,7 @@ Table of Contents
 ## Error Handling
 
   * [Returning Errors](https://npf.io/2015/10/errors/) _2015-10-10_
+  * [Inspecting Errors](http://dave.cheney.net/2014/12/24/inspecting-errors) _2014-12-24_
 
 ## Interfaces / OOP
 
