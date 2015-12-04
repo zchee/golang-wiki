@@ -245,28 +245,7 @@ C arrays are typically either null-terminated or have a length kept elsewhere.
 Go provides the following function to make a new Go byte slice from a C array:
   * ` func C.GoBytes(cArray unsafe.Pointer, length C.int) []byte `
 
-To create a Go slice backed by a C array (without copying the original data), one needs to acquire this length at runtime and use ` reflect.SliceHeader `.
-
-```go
-import "C"
-import "unsafe"
-...
-	var theCArray *C.YourType = C.getTheArray()
-	length := int(C.getTheArrayLength())
-	hdr := reflect.SliceHeader{
-		Data: uintptr(unsafe.Pointer(theCArray)),
-		Len:  length,
-		Cap:  length,
-	}
-	goSlice := *(*[]C.YourType)(unsafe.Pointer(&hdr))
-        // now goSlice is a Go slice backed by the C array
-```
-
-It is important to keep in mind that the Go garbage collector will not interact with this data, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
-
-Another simpler solution is casting the pointer to a pointer to a very big array and then
-slice it to the length that you want (also remember to set the cap if you're using Go 1.2
-or later), for example (see http://play.golang.org/p/XuC0xqtAIC for a runnable example):
+To create a Go slice backed by a C array (without copying the original data), one needs to acquire this length at runtime and use a type conversion to a pointer to a very big array and then slice it to the length that you want (also remember to set the cap if you're using Go 1.2 or later), for example (see http://play.golang.org/p/XuC0xqtAIC for a runnable example):
 
 ```go
 import "C"
@@ -276,6 +255,8 @@ import "unsafe"
         length := C.getTheArrayLength()
         slice := (*[1 << 30]C.YourType)(unsafe.Pointer(theCArray))[:length:length]
 ```
+
+It is important to keep in mind that the Go garbage collector will not interact with this data, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
 
 ## Common Pitfalls
 ### Struct Alignment Issues
