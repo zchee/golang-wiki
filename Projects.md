@@ -984,7 +984,9 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Networking
 
   * [apiproxy](https://sourcegraph.com/github.com/sourcegraph/apiproxy/tree) - proxy for HTTP/REST APIs with configurable cache timeouts
+ * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
   * [boom](https://github.com/rakyll/boom) - HTTP(s) benchmarking tool, Apache Benchmark replacement
+  * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
   * [circle](https://github.com/losalamos/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
   * [createsend-go](https://sourcegraph.com/github.com/sourcegraph/createsend-go/tree) - API client for [Monitor http://www.campaignmonitor.com](wiki/Campaign) (email campaign service)
