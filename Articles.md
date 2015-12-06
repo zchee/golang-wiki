@@ -43,6 +43,7 @@ Table of Contents
   * [Defer Fun](https://blog.klauspost.com/defer-fun/) _2015-07-25_
   * [Things I learned teaching Go - Francesc Campoy](https://medium.com/@francesc/dotgo-things-i-learned-teaching-go-e999f33298cf) _2014-11-24_  
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
+  * [Structuring Applications in Go](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.kj6eym1u4) _2014-06-06_
   * [Functional Options for Friendly APIs](http://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis) _2014-10-17_
   * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_

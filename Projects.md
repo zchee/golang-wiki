@@ -117,6 +117,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [memcached-bench](https://github.com/valyala/ybc/tree/master/apps/go/memcached-bench) - Benchmark tool for memcache servers
   * [memcached](https://github.com/valyala/ybc/tree/master/apps/go/memcached) - Fast memcache server, which supports persistence and cache sizes exceeding available RAM
   * [memcache](https://github.com/smallfish/memcache) - go memcached client, forked from YouTube Vitess
+  * [rend](https://github.com/Netflix/rend) - A memcahced proxy that manages data chunking and L1/L2 caches
   * [YBC bindings](https://github.com/valyala/ybc/tree/master/bindings/go/ybc) - Bindings for YBC library providing API for fast in-process blob cache
 
 ## Cloud Computing
@@ -570,6 +571,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
   * [mangos](https://github.com/gdamore/mangos) - An implementation of the Scalable Protocols based on [nanomsg](http://nanomsg.org/)
+  * [redsync](https://github.com/hjr265/redsync.go) - Redis-based distributed mutual exclusion lock implementation
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
   * [Tideland golib](https://github.com/tideland/golib) - Includes a map/reduce library
 
@@ -995,6 +997,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [doozerd](https://github.com/ha/doozerd) - A consistent distributed data store
   * [endless](https://github.com/fvbock/endless) Zero downtime restarts for go servers (Drop in replacement for http.ListenAndServe/TLS)
   * [eventsource](https://github.com/antage/eventsource) - Server-sent events for net/http server.
+  * [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
   * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
   * [gearman-go](https://bitbucket.org/mikespook/gearman-go) - A native implementation for Gearman API with Go.
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
@@ -1192,8 +1195,10 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Security
 
+  * [acme](https://github.com/hlandau/acme) - ACME certificate acquisition tool
   * [gryffin](https://github.com/yahoo/gryffin) - A large scale security scanner by Yahoo!
   * [hyperfox](https://github.com/xiam/hyperfox) - a security tool for proxying and recording HTTP and HTTPs communications on a LAN
+  * [lego](https://github.com/xenolf/lego) - Let's Encrypt client and ACME library
   * [webseclab](https://github.com/yahoo/webseclab) - a sample set of web security test cases and a toolkit to construct new ones
 
 ## Simulation Modeling
@@ -1308,6 +1313,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [git (in go)](https://github.com/dskinner/git) - Minimal working git client in Go
   * [gogs](http://gogs.io/) - Self-hosting Git Server in Go
+  * [semver](https://github.com/blang/semver) - Semantic Versioning (SemVer) library
 
 ## Virtual Machines and Languages
 
