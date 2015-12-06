@@ -649,6 +649,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## File Systems
 
+  * [afero](https://github.com/spf13/afero) - A File Sytem abstraction system for Go
   * [go.fs](https://github.com/daaku/go.fs) - A virutal file system abstraction layer.
   * [poller](https://github.com/npat-efault/poller) - Package poller is a file-descriptor multiplexer. It allows concurent Read and Write operations from and to multiple file-descriptors.
   * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.

@@ -142,6 +142,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Testing
 
+  * [Debugging Go Programs with Delve](https://blog.gopheracademy.com/advent-2015/debugging-with-delve/) _2015-12-03_
   * [Upgrade Your Appengine Tests with Testify](http://csfortheslothful.blogspot.com/2015/11/upgrade-your-appengine-tests-with.html) _2015_11_21_
 
 ## Web & API Development
