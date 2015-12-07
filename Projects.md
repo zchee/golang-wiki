@@ -1374,6 +1374,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
+  * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
 
 ## Web Libraries
 
