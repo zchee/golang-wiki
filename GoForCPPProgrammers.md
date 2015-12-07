@@ -179,7 +179,7 @@ Go code uses very few semicolons in practice.  Technically, all Go
 statements are terminated by a semicolon.  However, Go treats the end
 of a non-blank line as a semicolon unless the line is clearly
 incomplete (the exact rules are
-in <a href='go_spec.html#Semicolons'>the language specification</a>).
+in <a href='https://golang.org/ref/spec#Semicolons'>the language specification</a>).
 A consequence of this is that in some cases Go does not permit you to
 use a line break.  For example, you may not write
 ```
