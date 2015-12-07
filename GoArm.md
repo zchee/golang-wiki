@@ -287,6 +287,314 @@ ok  	github.com/feyeleanor/gospeed	417.296s
 
 _-- anthony starks_
 
+## Raspberry Pi Zero
+
+Architecture: 1 GHz ARM1176JZF-S, running at 700Mhz; 512MB RAM
+
+Operating System: Raspbian Jessie
+
+```
+$ go version
+go version devel +5c24832 Sat Dec 5 00:10:40 2015 +0000 linux/arm
+
+$ go test -timeout 20m -v -bench=Benchmark -run=X
+PASS
+BenchmarkAppend                        3000000         518 ns/op
+BenchmarkAppendGrowByte                     20    95720661 ns/op
+BenchmarkAppendGrowString                    1  2232033275 ns/op
+BenchmarkAppend1Byte                  20000000          99.0 ns/op
+BenchmarkAppend4Bytes                 10000000         120 ns/op
+BenchmarkAppend7Bytes                 10000000         155 ns/op
+BenchmarkAppend8Bytes                 10000000         132 ns/op
+BenchmarkAppend15Bytes                10000000         162 ns/op
+BenchmarkAppend16Bytes                10000000         134 ns/op
+BenchmarkAppend32Bytes                10000000         121 ns/op
+BenchmarkAppendStr1Byte               20000000          97.0 ns/op
+BenchmarkAppendStr4Bytes              10000000         118 ns/op
+BenchmarkAppendStr8Bytes              10000000         129 ns/op
+BenchmarkAppendStr16Bytes             10000000         132 ns/op
+BenchmarkAppendStr32Bytes             10000000         121 ns/op
+BenchmarkAppendSpecialCase             2000000         791 ns/op
+BenchmarkCopy1Byte                    10000000         132 ns/op     7.54 MB/s
+BenchmarkCopy2Byte                    10000000         144 ns/op    13.81 MB/s
+BenchmarkCopy4Byte                    10000000         153 ns/op    26.12 MB/s
+BenchmarkCopy8Byte                    10000000         164 ns/op    48.51 MB/s
+BenchmarkCopy12Byte                   10000000         162 ns/op    74.03 MB/s
+BenchmarkCopy16Byte                   10000000         167 ns/op    95.63 MB/s
+BenchmarkCopy32Byte                   10000000         155 ns/op   205.20 MB/s
+BenchmarkCopy128Byte                  10000000         192 ns/op   664.06 MB/s
+BenchmarkCopy1024Byte                  2000000         689 ns/op  1484.28 MB/s
+BenchmarkCopy1String                  10000000         120 ns/op     8.27 MB/s
+BenchmarkCopy2String                  10000000         134 ns/op    14.85 MB/s
+BenchmarkCopy4String                  10000000         142 ns/op    28.01 MB/s
+BenchmarkCopy8String                  10000000         154 ns/op    51.81 MB/s
+BenchmarkCopy12String                 10000000         151 ns/op    79.01 MB/s
+BenchmarkCopy16String                 10000000         157 ns/op   101.82 MB/s
+BenchmarkCopy32String                 10000000         145 ns/op   219.52 MB/s
+BenchmarkCopy128String                10000000         182 ns/op   700.88 MB/s
+BenchmarkCopy1024String                2000000         976 ns/op  1048.87 MB/s
+BenchmarkChanNonblocking               5000000         246 ns/op
+BenchmarkSelectUncontended              500000        3610 ns/op
+BenchmarkSelectSyncContended            100000       18957 ns/op
+BenchmarkSelectAsyncContended           500000        3614 ns/op
+BenchmarkSelectNonblock                2000000         814 ns/op
+BenchmarkChanUncontended                 10000      135820 ns/op
+BenchmarkChanContended                   10000      133122 ns/op
+BenchmarkChanSync                       200000        5870 ns/op
+BenchmarkChanProdCons0                  200000        5899 ns/op
+BenchmarkChanProdCons10                 500000        2138 ns/op
+BenchmarkChanProdCons100               1000000        1557 ns/op
+BenchmarkChanProdConsWork0              200000        8948 ns/op
+BenchmarkChanProdConsWork10             300000        5043 ns/op
+BenchmarkChanProdConsWork100            300000        4498 ns/op
+BenchmarkSelectProdCons                 200000       10818 ns/op
+BenchmarkChanCreation                   500000        3187 ns/op
+BenchmarkChanSem                       1000000        1266 ns/op
+BenchmarkChanPopular                       100    14315946 ns/op
+BenchmarkCallClosure                  30000000          50.0 ns/op
+BenchmarkCallClosure1                 30000000          56.3 ns/op
+BenchmarkCallClosure2                  3000000         512 ns/op
+BenchmarkCallClosure3                  3000000         503 ns/op
+BenchmarkCallClosure4                  3000000         512 ns/op
+BenchmarkComplex128DivNormal           2000000         735 ns/op
+BenchmarkComplex128DivNisNaN            200000        6001 ns/op
+BenchmarkComplex128DivDisNaN            200000        5992 ns/op
+BenchmarkComplex128DivNisInf           5000000         390 ns/op
+BenchmarkComplex128DivDisInf           5000000         375 ns/op
+BenchmarkSetTypePtr                   10000000         119 ns/op    33.43 MB/s
+BenchmarkSetTypePtr8                  10000000         227 ns/op   140.89 MB/s
+BenchmarkSetTypePtr16                  5000000         285 ns/op   224.30 MB/s
+BenchmarkSetTypePtr32                  5000000         388 ns/op   329.65 MB/s
+BenchmarkSetTypePtr64                  3000000         591 ns/op   432.77 MB/s
+BenchmarkSetTypePtr126                 1000000        1021 ns/op   493.46 MB/s
+BenchmarkSetTypePtr128                 1000000        1003 ns/op   510.46 MB/s
+BenchmarkSetTypePtrSlice                200000        7427 ns/op   551.43 MB/s
+BenchmarkSetTypeNode1                 10000000         217 ns/op    55.20 MB/s
+BenchmarkSetTypeNode1Slice             1000000        1284 ns/op   299.03 MB/s
+BenchmarkSetTypeNode8                  5000000         277 ns/op   144.17 MB/s
+BenchmarkSetTypeNode8Slice              500000        2825 ns/op   453.02 MB/s
+BenchmarkSetTypeNode64                 2000000         661 ns/op   398.89 MB/s
+BenchmarkSetTypeNode64Slice             100000       15531 ns/op   543.92 MB/s
+BenchmarkSetTypeNode64Dead             5000000         382 ns/op   689.66 MB/s
+BenchmarkSetTypeNode64DeadSlice         100000       13252 ns/op   637.46 MB/s
+BenchmarkSetTypeNode124                1000000        1017 ns/op   495.27 MB/s
+BenchmarkSetTypeNode124Slice             50000       28139 ns/op   573.14 MB/s
+BenchmarkSetTypeNode126                2000000        1001 ns/op   511.10 MB/s
+BenchmarkSetTypeNode126Slice             50000       26535 ns/op   617.43 MB/s
+BenchmarkSetTypeNode128                1000000        1087 ns/op   478.22 MB/s
+BenchmarkSetTypeNode128Slice             50000       29166 ns/op   570.52 MB/s
+BenchmarkSetTypeNode130                1000000        1067 ns/op   494.83 MB/s
+BenchmarkSetTypeNode130Slice             50000       29691 ns/op   569.04 MB/s
+BenchmarkSetTypeNode1024                200000        7155 ns/op   573.51 MB/s
+BenchmarkSetTypeNode1024Slice             5000      224292 ns/op   585.52 MB/s
+BenchmarkAllocation                       2000      957094 ns/op
+BenchmarkHash5                         5000000         349 ns/op    14.29 MB/s
+BenchmarkHash16                        3000000         436 ns/op    36.66 MB/s
+BenchmarkHash64                        1000000        1007 ns/op    63.49 MB/s
+BenchmarkHash1024                       200000       11267 ns/op    90.88 MB/s
+BenchmarkHash65536                        2000      797741 ns/op    82.15 MB/s
+BenchmarkEqEfaceConcrete              20000000         111 ns/op
+BenchmarkEqIfaceConcrete              20000000         106 ns/op
+BenchmarkNeEfaceConcrete              20000000         111 ns/op
+BenchmarkNeIfaceConcrete              20000000         106 ns/op
+BenchmarkConvT2ESmall                  3000000         561 ns/op
+BenchmarkConvT2EUintptr                2000000         599 ns/op
+BenchmarkConvT2ELarge                  2000000         767 ns/op
+BenchmarkConvT2ISmall                  2000000         724 ns/op
+BenchmarkConvT2IUintptr                2000000         750 ns/op
+BenchmarkConvT2ILarge                  2000000         907 ns/op
+BenchmarkConvI2E                      20000000          76.7 ns/op
+BenchmarkConvI2I                       3000000         425 ns/op
+BenchmarkAssertE2T                    10000000         176 ns/op
+BenchmarkAssertE2TLarge               10000000         189 ns/op
+BenchmarkAssertE2I                     3000000         455 ns/op
+BenchmarkAssertI2T                    10000000         176 ns/op
+BenchmarkAssertI2I                     3000000         451 ns/op
+BenchmarkAssertI2E                    20000000         109 ns/op
+BenchmarkAssertE2E                    30000000          40.7 ns/op
+BenchmarkAssertE2T2                   10000000         180 ns/op
+BenchmarkAssertE2T2Blank              50000000          22.8 ns/op
+BenchmarkAssertI2E2                   20000000         117 ns/op
+BenchmarkAssertI2E2Blank              100000000         21.7 ns/op
+BenchmarkAssertE2E2                   10000000         231 ns/op
+BenchmarkAssertE2E2Blank              100000000         21.8 ns/op
+BenchmarkMalloc8                       3000000         507 ns/op
+BenchmarkMalloc16                      2000000         848 ns/op
+BenchmarkMallocTypeInfo8               2000000        1012 ns/op
+BenchmarkMallocTypeInfo16              1000000        1168 ns/op
+BenchmarkMallocLargeStruct              500000        4823 ns/op
+BenchmarkGoroutineSelect                    20    76172338 ns/op
+BenchmarkGoroutineBlocking                  20    63469806 ns/op
+BenchmarkGoroutineForRange                  20    64107650 ns/op
+BenchmarkGoroutineIdle                      20    60844381 ns/op
+BenchmarkMapPop100                        3000      409498 ns/op
+BenchmarkMapPop1000                        200     7783817 ns/op
+BenchmarkMapPop10000                        10   170736704 ns/op
+BenchmarkHashStringSpeed               3000000         541 ns/op
+BenchmarkHashBytesSpeed                1000000        1157 ns/op
+BenchmarkHashInt32Speed                5000000         371 ns/op
+BenchmarkHashInt64Speed                3000000         427 ns/op
+BenchmarkHashStringArraySpeed          1000000        1417 ns/op
+BenchmarkMegMap                        3000000         404 ns/op
+BenchmarkMegOneMap                     5000000         346 ns/op
+BenchmarkMegEqMap                          100    16663414 ns/op
+BenchmarkMegEmptyMap                  10000000         160 ns/op
+BenchmarkSmallStrMap                   3000000         415 ns/op
+BenchmarkMapStringKeysEight_16         3000000         417 ns/op
+BenchmarkMapStringKeysEight_32         3000000         420 ns/op
+BenchmarkMapStringKeysEight_64         3000000         420 ns/op
+BenchmarkMapStringKeysEight_1M         3000000         419 ns/op
+BenchmarkIntMap                       10000000         220 ns/op
+BenchmarkRepeatedLookupStrMapKey32     1000000        1015 ns/op
+BenchmarkRepeatedLookupStrMapKey1M         100    15652033 ns/op
+BenchmarkNewEmptyMap                   1000000        1395 ns/op         0 B/op        0 allocs/op
+BenchmarkNewSmallMap                    300000        3368 ns/op         0 B/op        0 allocs/op
+BenchmarkMapIter                        500000        2947 ns/op
+BenchmarkMapIterEmpty                 20000000         163 ns/op
+BenchmarkSameLengthMap                10000000         133 ns/op
+BenchmarkBigKeyMap                     2000000         899 ns/op
+BenchmarkBigValMap                     2000000         922 ns/op
+BenchmarkSmallKeyMap                   3000000         402 ns/op
+BenchmarkComplexAlgMap                 1000000        2003 ns/op
+BenchmarkMemmove0                     20000000          61.4 ns/op
+BenchmarkMemmove1                     20000000          76.6 ns/op    13.05 MB/s
+BenchmarkMemmove2                     20000000          86.3 ns/op    23.18 MB/s
+BenchmarkMemmove3                     20000000          83.7 ns/op    35.83 MB/s
+BenchmarkMemmove4                     20000000          88.0 ns/op    45.48 MB/s
+BenchmarkMemmove5                     20000000         110 ns/op    45.37 MB/s
+BenchmarkMemmove6                     20000000         115 ns/op    51.99 MB/s
+BenchmarkMemmove7                     10000000         123 ns/op    56.89 MB/s
+BenchmarkMemmove8                     20000000          99.5 ns/op    80.44 MB/s
+BenchmarkMemmove9                     20000000         112 ns/op    79.76 MB/s
+BenchmarkMemmove10                    10000000         125 ns/op    79.48 MB/s
+BenchmarkMemmove11                    10000000         125 ns/op    87.84 MB/s
+BenchmarkMemmove12                    20000000          96.9 ns/op   123.87 MB/s
+BenchmarkMemmove13                    20000000         110 ns/op   117.83 MB/s
+BenchmarkMemmove14                    10000000         123 ns/op   113.65 MB/s
+BenchmarkMemmove15                    10000000         122 ns/op   122.30 MB/s
+BenchmarkMemmove16                    20000000         101 ns/op   156.89 MB/s
+BenchmarkMemmove32                    20000000          90.8 ns/op   352.44 MB/s
+BenchmarkMemmove64                    20000000         108 ns/op   588.34 MB/s
+BenchmarkMemmove128                   10000000         127 ns/op  1001.83 MB/s
+BenchmarkMemmove256                   10000000         178 ns/op  1436.19 MB/s
+BenchmarkMemmove512                    5000000         326 ns/op  1569.07 MB/s
+BenchmarkMemmove1024                   2000000         631 ns/op  1620.84 MB/s
+BenchmarkMemmove2048                   1000000        1251 ns/op  1636.60 MB/s
+BenchmarkMemmove4096                    500000        2499 ns/op  1638.97 MB/s
+BenchmarkMemmoveUnaligned0            20000000          72.5 ns/op
+BenchmarkMemmoveUnaligned1            20000000          87.8 ns/op    11.39 MB/s
+BenchmarkMemmoveUnaligned2            20000000          99.4 ns/op    20.12 MB/s
+BenchmarkMemmoveUnaligned3            20000000          96.9 ns/op    30.96 MB/s
+BenchmarkMemmoveUnaligned4            10000000         135 ns/op    29.44 MB/s
+BenchmarkMemmoveUnaligned5            10000000         147 ns/op    33.90 MB/s
+BenchmarkMemmoveUnaligned6            10000000         146 ns/op    41.09 MB/s
+BenchmarkMemmoveUnaligned7            10000000         151 ns/op    46.27 MB/s
+BenchmarkMemmoveUnaligned8            10000000         156 ns/op    51.22 MB/s
+BenchmarkMemmoveUnaligned9            10000000         161 ns/op    55.82 MB/s
+BenchmarkMemmoveUnaligned10           10000000         166 ns/op    60.09 MB/s
+BenchmarkMemmoveUnaligned11           10000000         171 ns/op    64.17 MB/s
+BenchmarkMemmoveUnaligned12           10000000         177 ns/op    67.79 MB/s
+BenchmarkMemmoveUnaligned13           10000000         181 ns/op    71.60 MB/s
+BenchmarkMemmoveUnaligned14           10000000         189 ns/op    74.03 MB/s
+BenchmarkMemmoveUnaligned15           10000000         196 ns/op    76.30 MB/s
+BenchmarkMemmoveUnaligned16           10000000         200 ns/op    79.91 MB/s
+BenchmarkMemmoveUnaligned32           10000000         221 ns/op   144.64 MB/s
+BenchmarkMemmoveUnaligned64            5000000         290 ns/op   220.16 MB/s
+BenchmarkMemmoveUnaligned128           3000000         413 ns/op   309.84 MB/s
+BenchmarkMemmoveUnaligned256           2000000         766 ns/op   334.16 MB/s
+BenchmarkMemmoveUnaligned512           2000000         925 ns/op   553.13 MB/s
+BenchmarkMemmoveUnaligned1024           500000        2747 ns/op   372.66 MB/s
+BenchmarkMemmoveUnaligned2048           500000        3180 ns/op   643.85 MB/s
+BenchmarkMemmoveUnaligned4096           200000        6206 ns/op   659.99 MB/s
+BenchmarkMemclr5                      20000000         105 ns/op    47.53 MB/s
+BenchmarkMemclr16                     20000000         110 ns/op   144.77 MB/s
+BenchmarkMemclr64                     10000000         125 ns/op   511.58 MB/s
+BenchmarkMemclr256                    10000000         182 ns/op  1402.34 MB/s
+BenchmarkMemclr4096                     500000        2489 ns/op  1645.22 MB/s
+BenchmarkMemclr65536                     50000       39883 ns/op  1643.18 MB/s
+BenchmarkMemclr1M                         2000      636812 ns/op  1646.60 MB/s
+BenchmarkMemclr4M                          500     2549362 ns/op  1645.24 MB/s
+BenchmarkMemclr8M                          300     5162451 ns/op  1624.93 MB/s
+BenchmarkMemclr16M                         200    10300878 ns/op  1628.72 MB/s
+BenchmarkMemclr64M                          30    42801198 ns/op  1567.92 MB/s
+BenchmarkGoMemclr5                    20000000          73.5 ns/op    67.99 MB/s
+BenchmarkGoMemclr16                   20000000          85.9 ns/op   186.24 MB/s
+BenchmarkGoMemclr64                   20000000          87.8 ns/op   729.24 MB/s
+BenchmarkGoMemclr256                  10000000         160 ns/op  1591.97 MB/s
+BenchmarkClearFat8                    100000000         15.6 ns/op
+BenchmarkClearFat12                   100000000         27.5 ns/op
+BenchmarkClearFat16                   100000000         32.4 ns/op
+BenchmarkClearFat24                   50000000          57.0 ns/op
+BenchmarkClearFat32                   50000000          80.5 ns/op
+BenchmarkClearFat40                   30000000          77.5 ns/op
+BenchmarkClearFat48                   30000000         105 ns/op
+BenchmarkClearFat56                   20000000          87.1 ns/op
+BenchmarkClearFat64                   20000000         137 ns/op
+BenchmarkClearFat128                  20000000         278 ns/op
+BenchmarkClearFat256                   5000000         537 ns/op
+BenchmarkClearFat512                   2000000        1293 ns/op
+BenchmarkClearFat1024                  1000000        2545 ns/op
+BenchmarkCopyFat8                     100000000         12.2 ns/op
+BenchmarkCopyFat12                    100000000         20.3 ns/op
+BenchmarkCopyFat16                    100000000         34.3 ns/op
+BenchmarkCopyFat24                    50000000          27.7 ns/op
+BenchmarkCopyFat32                    50000000          25.4 ns/op
+BenchmarkCopyFat64                    20000000         135 ns/op
+BenchmarkCopyFat128                   10000000         299 ns/op
+BenchmarkCopyFat256                    2000000         571 ns/op
+BenchmarkCopyFat512                    1000000        1218 ns/op
+BenchmarkCopyFat1024                    500000        2665 ns/op
+BenchmarkFinalizer                          50    20313669 ns/op
+BenchmarkFinalizerRun                    30000       49987 ns/op
+BenchmarkSyscall                       1000000        1625 ns/op
+BenchmarkSyscallWork                    500000        2668 ns/op
+BenchmarkSyscallExcess                 1000000        1613 ns/op
+BenchmarkSyscallExcessWork              500000        2658 ns/op
+BenchmarkPingPongHog                    100000       20539 ns/op
+BenchmarkStackGrowth                     50000       28473 ns/op
+BenchmarkStackGrowthDeep                   500     2845263 ns/op
+BenchmarkCreateGoroutines               300000        4297 ns/op
+BenchmarkCreateGoroutinesParallel       300000        4300 ns/op
+BenchmarkCreateGoroutinesCapture         50000       33218 ns/op        16 B/op        1 allocs/op
+BenchmarkClosureCall                  30000000          55.1 ns/op
+BenchmarkMatmult                      10000000         196 ns/op
+BenchmarkIfaceCmp100                    500000        2672 ns/op
+BenchmarkIfaceCmpNil100                 500000        2982 ns/op
+BenchmarkDefer                         1000000        1819 ns/op
+BenchmarkDefer10                       1000000        1478 ns/op
+BenchmarkDeferMany                      500000        3464 ns/op
+BenchmarkStackCopy                           1  3714828065 ns/op
+BenchmarkCompareStringEqual           10000000         160 ns/op
+BenchmarkCompareStringIdentical       30000000          54.1 ns/op
+BenchmarkCompareStringSameLength      20000000         111 ns/op
+BenchmarkCompareStringDifferentLength 100000000         16.3 ns/op
+BenchmarkCompareStringBigUnaligned         100    16695582 ns/op    62.81 MB/s
+BenchmarkCompareStringBig                  100    17208318 ns/op    60.93 MB/s
+BenchmarkRuneIterate                    300000        5159 ns/op
+BenchmarkRuneIterate2                   300000        5158 ns/op
+BenchmarkUint32Div7                   10000000         144 ns/op
+BenchmarkUint32Div37                  10000000         144 ns/op
+BenchmarkUint32Div123                 10000000         144 ns/op
+BenchmarkUint32Div763                 10000000         148 ns/op
+BenchmarkUint32Div1247                10000000         144 ns/op
+BenchmarkUint32Div9305                10000000         144 ns/op
+BenchmarkUint32Div13307               10000000         144 ns/op
+BenchmarkUint32Div52513               10000000         144 ns/op
+BenchmarkUint32Div60978747            10000000         131 ns/op
+BenchmarkUint32Div106956295           10000000         131 ns/op
+BenchmarkUint32Mod7                   10000000         144 ns/op
+BenchmarkUint32Mod37                  10000000         144 ns/op
+BenchmarkUint32Mod123                 10000000         144 ns/op
+BenchmarkUint32Mod763                 10000000         144 ns/op
+BenchmarkUint32Mod1247                10000000         144 ns/op
+BenchmarkUint32Mod9305                10000000         144 ns/op
+BenchmarkUint32Mod13307               10000000         144 ns/op
+BenchmarkUint32Mod52513               10000000         144 ns/op
+BenchmarkUint32Mod60978747            10000000         131 ns/op
+BenchmarkUint32Mod106956295           10000000         131 ns/op
+ok    runtime 566.969s
+```
+
 ## ODROID-X
 
 Architecture: ARMv7 quad-core Cortex-A9 (Samsung Exynos 4412 1.4GHz), 1GB RAM, Mali graphics (untested).
