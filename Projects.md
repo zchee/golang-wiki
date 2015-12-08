@@ -671,12 +671,13 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## GIS
 
-  * [geom](https://github.com/twpayne/gogeom) - Open Geo Consortium-style geometries with native Go GeoJSON, WKB, and WKT encoding and decoding (work-in-progress)
+  * [go-geom](https://github.com/twpayne/go-geom) - Efficient Open Geo Consortium-style geometries with native Go GeoJSON and WKB encoding and decoding (work-in-progress)
   * [go.geo](https://github.com/paulmach/go.geo) - Geometry/geography library targeted at online mapping
   * [go.geojson](https://github.com/paulmach/go.geojson) - Marshalling and Unmarshalling of GeoJSON objects
   * [gogeos](http://paulsmith.github.io/gogeos/) - Go library for spatial data operations and geometric algorithms
   * [go-proj-4](https://github.com/pebbe/go-proj-4) - An interface to the Cartographic Projections Library PROJ.4
-  * [polyline](https://github.com/twpayne/gopolyline) - Google Maps polyline encoding and decoding
+  * [go-kml](https://github.com/twpayne/go-kml) - Google Earth KML generation
+  * [go-polyline](https://github.com/twpayne/go-polyline) - Google Maps polyline encoding and decoding
 
 ## Go Implementations
 
