@@ -120,7 +120,6 @@
   * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
   * [Kochava](https://www.kochava.com/)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
-  * [Koho](https://www.koho.ca/)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
@@ -252,6 +251,7 @@
 ## Canada
 
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
+  * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
 ## Germany
