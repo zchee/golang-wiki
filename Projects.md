@@ -245,7 +245,9 @@ If you find a project in this list that is dead or broken, please either mark it
   * [termbox-go](https://github.com/nsf/termbox-go) - A minimalist alternative to ncurses to build terminal-based user interfaces
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
-  * [uilive](https://github.com/gosuri/uilive) - uilive is a go library for updating terminal output in realtime
+  * [uilive](https://github.com/gosuri/uilive) - uilive is a go library for updating terminal output in realtime.
+  * [uiprogress](https://github.com/gosuri/uiprogress) - A library to render progress bars in terminal applications.
+  * [uitable](https://github.com/gosuri/uitable) - A library to improve readability in terminal apps using tabular data.
   * [yandex-weather-cli](https://github.com/msoap/yandex-weather-cli) - Command line interface for Yandex weather service
 
 ## Continuous Integration
