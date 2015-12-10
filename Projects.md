@@ -245,7 +245,9 @@ If you find a project in this list that is dead or broken, please either mark it
   * [termbox-go](https://github.com/nsf/termbox-go) - A minimalist alternative to ncurses to build terminal-based user interfaces
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
-  * [uilive](https://github.com/gosuri/uilive) - uilive is a go library for updating terminal output in realtime
+  * [uilive](https://github.com/gosuri/uilive) - uilive is a go library for updating terminal output in realtime.
+  * [uiprogress](https://github.com/gosuri/uiprogress) - A library to render progress bars in terminal applications.
+  * [uitable](https://github.com/gosuri/uitable) - A library to improve readability in terminal apps using tabular data.
   * [yandex-weather-cli](https://github.com/msoap/yandex-weather-cli) - Command line interface for Yandex weather service
 
 ## Continuous Integration
@@ -671,12 +673,13 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## GIS
 
-  * [geom](https://github.com/twpayne/gogeom) - Open Geo Consortium-style geometries with native Go GeoJSON, WKB, and WKT encoding and decoding (work-in-progress)
+  * [go-geom](https://github.com/twpayne/go-geom) - Efficient Open Geo Consortium-style geometries with native Go GeoJSON and WKB encoding and decoding (work-in-progress)
   * [go.geo](https://github.com/paulmach/go.geo) - Geometry/geography library targeted at online mapping
   * [go.geojson](https://github.com/paulmach/go.geojson) - Marshalling and Unmarshalling of GeoJSON objects
   * [gogeos](http://paulsmith.github.io/gogeos/) - Go library for spatial data operations and geometric algorithms
   * [go-proj-4](https://github.com/pebbe/go-proj-4) - An interface to the Cartographic Projections Library PROJ.4
-  * [polyline](https://github.com/twpayne/gopolyline) - Google Maps polyline encoding and decoding
+  * [go-kml](https://github.com/twpayne/go-kml) - Google Earth KML generation
+  * [go-polyline](https://github.com/twpayne/go-polyline) - Google Maps polyline encoding and decoding
 
 ## Go Implementations
 
@@ -1374,6 +1377,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
+  * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
 
 ## Web Libraries
 

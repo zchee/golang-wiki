@@ -7,6 +7,7 @@
     * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](https://github.com/youtube/vitess) as open source software [1](https://www.youtube.com/watch?v=5yDO-tmIoXY), [2](https://www.youtube.com/watch?v=qATTTSg6zXk), [3](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
     * dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1)
     * [Flywheel: Google's Data Compression Proxy for the Mobile Web](http://research.google.com/pubs/pub43447.html), [blog post on the rewrite](http://matt-welsh.blogspot.co.uk/2013/08/rewriting-large-production-system-in-go.html)
+    * [A lot of scripts that earlier were written in Sawzall](http://www.unofficialgoogledatascience.com/2015/12/replacing-sawzall-case-study-in-domain.html)
     * Other known uses include
       * the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html),
       * the [Santa Tracker (2012)](https://www.youtube.com/watch?v=fc25ihfXhbg),
@@ -110,7 +111,7 @@
   * [Imgur](http://imgur.com/) - [github](https://github.com/Imgur/mandible/)
   * [InfluxDB](https://influxdb.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/why-influxdb-uses-go/)
   * [Instela](https://tr.instela.com)
-  * [Intel Germany (Debugger QA Team)](http://www.intel.com) - [source](http://www.reddit.com/r/golang/comments/16qw6x/the_intel_debugger_qa_team_in_germany_ulm_is/)
+  * [Intel](http://www.intel.com) - [qa job](http://www.reddit.com/r/golang/comments/16qw6x/the_intel_debugger_qa_team_in_germany_ulm_is/) [snap telemetry framework](https://github.com/intelsdi-x/snap)
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
   * [JelloLabs](http://www.jellolabs.com)
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
@@ -199,7 +200,6 @@
   * [Stack Exchange](http://stackexchange.com/) - [blog](http://blog.stackoverflow.com/2014/11/announcing-bosun-our-new-open-source-monitoring-alerting-system/), [github](https://github.com/bosun-monitor/bosun), [website](http://bosun.org/)
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
-  * [Streetspotr](http://streetspotr.com) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [SumoLogic](https://www.sumologic.com/) - [github](https://github.com/SumoLogic/sumoshell)
   * [SuperHuman](http://superhuman.com/) - [HN](https://news.ycombinator.com/item?id=10660225)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
@@ -251,11 +251,13 @@
 ## Canada
 
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
+  * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
+  * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
 
 ## India
   * [Betacraft](http://www.betacraft.co/)

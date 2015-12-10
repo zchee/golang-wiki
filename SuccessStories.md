@@ -33,5 +33,6 @@
   * [I/O BootCamp 2011: Real World Go](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Go at Heroku](http://blog.golang.org/2011/04/go-at-heroku.html)
   * [Go at Basecamp](https://signalvnoise.com/posts/3897-go-at-basecamp)
+  * [Go at Streetspotr](https://thcyron.de/2015/go-at-streetspotr.html)
 
 See also [[GoUsers]].
