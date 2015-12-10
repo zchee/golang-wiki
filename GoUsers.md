@@ -255,6 +255,10 @@
   * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
+## China
+   
+  * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
