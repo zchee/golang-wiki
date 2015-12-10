@@ -23,6 +23,7 @@
   * [Adori Labs](http://www.adorilabs.com/)
   * [AeroFS](https://www.aerofs.com/) - [github](https://github.com/aerofs/gockerize), [blog](https://www.aerofs.com/blog/introducing-gockerize/)
   * [Aerospike](http://www.aerospike.com) - [blog](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
+  * [AgileBits — 1Password for Teams](https://teams.1password.com)
   * [Airbrake](http://airbrake.io/)
   * [Apcera ](http://www.apcera.com) - [blog](http://gigaom.com/2012/09/13/will-go-be-the-new-go-to-programming-language/)
   * [Appbase](https://appbase.io/)
