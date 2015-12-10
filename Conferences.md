@@ -10,7 +10,6 @@ Please keep all items in chronological order.
 |-------|-----------|----------|------------|
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
 | Golab | 2015-12-15 | Florence, Italy | http://www.golab.io |
-| GoCon Tokyo | 2015-??-?? | Tokyo, Japan | http://gocon.connpass.com |
 | Gopher Gala | 2016-01-22 | Earth | http://gophergala.com/ |
 | FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
 | GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in |
@@ -25,6 +24,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GoCon Tokyo | 2015-12-06 | Tokyo, Japan | http://gocon.connpass.com |
 | dotGo    | 2015-11-09 | Paris, France | |
 | GothamGo | 2015-10-02 | NY, NY | [videos](https://www.youtube.com/playlist?list=PLeGxIOPLk9ELh9tsPZMzau6CzMjfMzp9-) |
 | Yapcasia | 2015-08-22 | Tokyo, JP | [bradfitz](http://yapcasia.org/2015/talk/show/6bde6c69-187a-11e5-aca1-525412004261) |
