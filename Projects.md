@@ -207,7 +207,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [globalconf](https://github.com/rakyll/globalconf) - Effortlessly persist to and read flag values from an ini config file
   * [goconf](http://code.google.com/p/goconf/) - a configuration file parser
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
-  * [propoerties](https://github.com/magiconair/properties) - Library for reading and writing properties files
+  * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
     * [go-toml-config](http://github.com/stvp/go-toml-config) - TOML-based config for Go
@@ -812,6 +812,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rfw](https://github.com/mipearson/rfw) - Rotating file writer - a 'logrotate'-aware file output for use with loggers
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
   * [seelog](https://github.com/cihub/seelog) - Flexible dispatching, filtering, and formatting
+  * [snap](https://github.com/intelsdi-x/snap) - Telemetry framework
   * [spacelog](https://github.com/spacemonkeygo/spacelog) - Hierarchical, leveled, and structured logging library for Go
   * [statsgod](https://github.com/acquia/statsgod) - A rewrite of StatsD in Go.
   * [syslog](https://github.com/ziutek/syslog) - With this package you can create your own syslog server with your own handlers for different kind of syslog messages
