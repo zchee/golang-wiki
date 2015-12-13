@@ -35,6 +35,7 @@ Table of Contents
 
 ## General
 
+  * [Go Proverbs, Illustrated](http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/) _2015-12-04_
   * [A whirlwind tour of Go’s runtime environment variables](http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables) _2015-11-29_
   * [Idiomatic Doc Comments: Document your function, not your function signature](http://whipperstacker.com/2015/10/14/idiomatic-doc-comments-document-your-function-not-your-function-signature/) _2015-10_14_
   * [Best Practices for a new Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) _2015-09-01_
@@ -142,6 +143,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Testing
 
+  * [Integration testing in Go using Docker](https://divan.github.io/posts/integration_testing/) _2015-12-07_
   * [Debugging Go Programs with Delve](https://blog.gopheracademy.com/advent-2015/debugging-with-delve/) _2015-12-03_
   * [Upgrade Your Appengine Tests with Testify](http://csfortheslothful.blogspot.com/2015/11/upgrade-your-appengine-tests-with.html) _2015_11_21_
 
@@ -149,6 +151,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [goa: Untangling Microservices](https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/) _2015-12-07_
   * [A Weekend with Go, Beego and React](http://foreman-shlomizadok.rhcloud.com/2015/11/03/a-weekend-with-go-lang-beego-react/) _2015-11-03_
   * [HTTP Session Handling on Heroku](https://devcenter.heroku.com/articles/go-sessions) _2015-09-09_
   * [Go Resiliency Patterns](https://github.com/eapache/go-resiliency) _2015-09-01_

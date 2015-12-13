@@ -207,6 +207,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [globalconf](https://github.com/rakyll/globalconf) - Effortlessly persist to and read flag values from an ini config file
   * [goconf](http://code.google.com/p/goconf/) - a configuration file parser
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
+  * [propoerties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
     * [go-toml-config](http://github.com/stvp/go-toml-config) - TOML-based config for Go
@@ -287,6 +288,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [automi](https://github.com/vladimirvivien/automi) - Compose process and integration flows on Go channels
   * [gostatsd](https://github.com/kisielk/gostatsd) - Statsd server and library.
   * [Heka](https://github.com/mozilla-services/heka) - Real time data and log file processing engine.
+  * [Kapacitor](https://github.com/influxdb/kapacitor) - Framework for processing, monitoring and alterting on timeseries data.
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
   * [regommend](https://github.com/muesli/regommend) - Recommendation engine.
   * [rrd](https://github.com/ziutek/rrd) - Bindings for rrdtool.
