@@ -151,10 +151,12 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
 
+  * [Preventing Cross-Site Request Forgery in Go](https://elithrar.github.io/article/preventing-csrf-attacks-in-go/) _2015-12-14_
   * [goa: Untangling Microservices](https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/) _2015-12-07_
   * [A Weekend with Go, Beego and React](http://foreman-shlomizadok.rhcloud.com/2015/11/03/a-weekend-with-go-lang-beego-react/) _2015-11-03_
   * [HTTP Session Handling on Heroku](https://devcenter.heroku.com/articles/go-sessions) _2015-09-09_
   * [Go Resiliency Patterns](https://github.com/eapache/go-resiliency) _2015-09-01_
+  * [http.Handler and Error Handling in Go](https://elithrar.github.io/article/http-handler-error-handling-revisited/) _2015-07-02_
   * [Deploy a golang photo archive tool to the cloud on IBM BlueMix](http://www.ibm.com/developerworks/cloud/library/cl-golang-photo-archive-bluemix/index.html) _2015-06-05_
   * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
