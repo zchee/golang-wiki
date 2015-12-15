@@ -118,7 +118,7 @@ Sorted by publication date.
 
 ## Pre-order
 
-  * **Introduction to Programming in Go**
+  * **Introducing Go**
     * Author: Caleb Doxsey
     * Publication Date: January 2016
     * ISBN: 978-1491941959
