@@ -268,9 +268,6 @@
 ## Russia
 * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
 
-## United Kingdom
-* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
-
 ## India
   * [Betacraft](http://www.betacraft.co/)
   * [BookMyShow](http://www.bookmyshow.com/)
@@ -300,6 +297,7 @@
   * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
+  * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
 
 ## Southeast Asia
   * [GrabTaxi](http://www.grabtaxi.com/)
