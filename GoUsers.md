@@ -303,6 +303,8 @@
   * [GrabTaxi](http://www.grabtaxi.com/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
+  * [DTAC](http://www.dtac.co.th/)
+  * [AIS](http://www.ais.co.th/)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
