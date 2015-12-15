@@ -303,6 +303,8 @@
   * [GrabTaxi](http://www.grabtaxi.com/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
+  
+## Thailand
   * [DTAC](http://www.dtac.co.th/)
   * [AIS](http://www.ais.co.th/)
 
