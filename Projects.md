@@ -734,6 +734,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.wde](https://github.com/skelterjohn/go.wde) - A windowing/drawing/event interface
   * [goxscr](http://goxscr.googlecode.com) - Go rewrites of xscreensaver ports
   * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer
+  * [gumble](https://github.com/layeh/gumble) - Client library for the [Mumble](http://mumble.info) VoIP protocol
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
   * [imaginary](https://github.com/h2non/imaginary) - Simple and fast HTTP microservice for image resizing and manipulation
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
