@@ -266,7 +266,10 @@
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
 
 ## Russia
-* [Badoo] (https://github.com/badoo/thunder) 
+* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
+
+## United Kingdom
+* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
