@@ -188,7 +188,7 @@
   * [Showyou](http://www.showyou.com) [source](https://plus.google.com/101522949595361604155/posts/8n4CSePMwgV)
   * [Shutterfly](http://www.shutterfly.com)
   * [SignalFx](https://signalfx.com/) - [blog](http://blog.signalfx.com/why-the-signalfx-metric-proxy-is-written-in-go)
-  * [SmartyStreets](http://smartystreets.com) [source](http://mwholt.com/autocomplete#technical)
+  * [SmartyStreets](http://smartystreets.com)
   * [SmugMug](http://www.smugmug.com/) - [blog](http://sorcery.smugmug.com/2012/04/06/deriving-json-types-in-go/)
   * [Skimlinks](http://www.skimlinks.com) [blog](https://speakerdeck.com/rjohnsondev/go-at-skimlinks)
   * [SoundCloud](http://soundcloud.com) - [blog](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
