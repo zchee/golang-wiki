@@ -66,6 +66,7 @@
   * [CoreOS](https://coreos.com/) - [github](https://github.com/coreos/), [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-coreos/)
   * [Couchbase](http://www.couchbase.com/) - [github](https://github.com/couchbaselabs)
   * [Crashlytics](http://try.crashlytics.com/) - [tweet](https://twitter.com/brianhatfield/status/360866306276327424)
+  * [Crowdstrike](http://www.crowdstrike.com/) - [blog](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/)
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
