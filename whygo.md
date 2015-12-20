@@ -2,6 +2,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 
 ## Why Go
 
+- [Moving a team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/) _2015-12-19_
 - [For Better or For Worse](http://jmoiron.net/blog/for-better-or-for-worse/) _2015-11-12_
 - [Six reasons why I love Go](http://jbu.io/2015/10/28/six-reasons-why-i-love-go/) _2015-10-28_
 - [CERN: Python vs Go for Data Access Service (PDF)](https://indico.cern.ch/event/449425/session/1/contribution/6/attachments/1168560/1685802/DAS_python_vs_go.pdf) _2015-10-18_
