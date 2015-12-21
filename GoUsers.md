@@ -127,6 +127,7 @@
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
+  * [Luckie &amp; Company](http://luckie.com)
   * [Maldive](https://www.maldive.com)
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
