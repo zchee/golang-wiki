@@ -263,6 +263,9 @@
    
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
 
+## Korea (South)
+  * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
+
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
