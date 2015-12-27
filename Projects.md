@@ -525,6 +525,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [riako](https://github.com/jkassemi/riako) - High level utility methods for interacting with Riak databases
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
   * [squirrel](https://github.com/lann/squirrel) - Fluent SQL generation for Go
+  * [Sublevel](https://github.com/fiatjaf/sublevel) - Separate sections of the same LevelDB
   * [Weed File System](https://github.com/chrislusf/seaweedfs) - fast distributed key-file store
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
 
