@@ -365,7 +365,6 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ### Other
 
-  * [asyncwr](https://github.com/yorhel/asyncwr) - Asynchronous, non-blocking, wrapper for io.Writer
   * [bigendian](https://bitbucket.org/taruti/bigendian) - binary parsing and printing
   * [deepcopy](http://bitbucket.org/taruti/deepcopy) - Make deep copies of data structures
   * [dgobloom](https://github.com/dgryski/dgobloom) - A Bloom Filter implementation
