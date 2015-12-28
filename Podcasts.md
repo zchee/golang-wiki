@@ -1,6 +1,6 @@
 ## Podcast shows
-* [The Go Show](http://goshow.fm/) - A partnership between GoBridge and The Changelog — for the Go community, by the Go community.
-* [The Golang Show (Russian)](http://golangshow.com/)
+* [Golang Show](http://golangshow.com/) – Weekly podcast since June 2015, in Russian language.
+* [Go Time](http://gotime.fm) - A partnership between GoBridge and The Changelog — for the Go community, by the Go community. Coming soon.
 
 ## Podcast episodes
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
