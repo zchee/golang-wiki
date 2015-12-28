@@ -156,6 +156,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Command-line Tools
 
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
+  * [project](https://github.com/nildev/project) - Very simple CLI tool to setup new projects from boilerplate templates.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
