@@ -1,6 +1,7 @@
 Heap dump format for other versions:
 
-  * [[heapdump13]]
+  * Go 1.3: [[heapdump13]]
+  * Go 1.5 and later: [[heapdump15]]
 
 # Introduction
 
