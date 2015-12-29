@@ -60,7 +60,7 @@ The size of the contents string is the size of the containing sizeclass, not the
   * uvarint: address of type descriptor
   * uvarint: size of an object of this type
   * string: name of type
-  * bool: whether the data field of an interface containing a value of this type is a pointer
+  * bool: whether the data field of an interface containing a value of this type is a pointer (for Go 1.5 and later, always true)
 
 # goroutine (G)
 
