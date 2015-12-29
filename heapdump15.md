@@ -17,7 +17,7 @@ The rest of the file is a sequence of records.  Records can be of several differ
   * uvarint - a 64-bit unsigned integer encoded as in encoding/binary.{Put,Read}Uvarint
   * string - a uvarint-encoded length followed by that many bytes of data
   * bool - a uvarint-encoded 0 for false or 1 for true
-  * fieldlist - a description of the pointer-bearing portions of a memory region.  It consists of repeated pairs of uvarints encoding a field kind and a field offset, followed by and end-of-list marker.  The possible kinds are 1=Ptr, 2=Iface, and 3=Eface.  0=Eol is the end of list marker.  The end of list marker does not have a corresponding offset.
+  * fieldlist - a description of the pointer-bearing portions of a memory region.  It consists of repeated pairs of uvarints encoding a field kind and a field offset, followed by and end-of-list marker.  The only possible kind is 1=Ptr. Earlier versions of the heap dump could contain 2=Iface and 3=Eface, but the runtime no longer tracks that information, so it is not present in the dump. Interface values appear as a pair of pointers. 0=Eol is the end of list marker. The end of list marker does not have a corresponding offset.
 
 Each record starts with a uvarint-encoded integer describing the type of the record:
   * 0 = EOF
