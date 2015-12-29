@@ -7,8 +7,6 @@ Heap dump format for other versions:
 
 Go 1.5 has a runtime/debug.WriteHeapDump function that writes all objects in the heap plus additional info (roots, goroutines, finalizers, etc.) to a file.  The format of this file is specified here.
 
-XXX WORK IN PROGRESS XXX
-
 # Details
 
 The file starts with the bytes of the string "go1.5 heap dump\n".
