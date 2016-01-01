@@ -156,7 +156,6 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Command-line Tools
 
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
-  * [project](https://github.com/nildev/project) - Very simple CLI tool to setup new projects from boilerplate templates.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
@@ -167,10 +166,11 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
-  *  [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
+  * [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
   * [pjs](http://jcasts.github.io/pjs) - Pretty print and search through JSON data structures fast.
+  * [project](https://github.com/nildev/project) - Very simple CLI tool to setup new projects from boilerplate templates.
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
   * [redis-view](https://github.com/dreamersdw/redis-view) - A tree like tool help you explore data structures in your redis server
   * [restic](https://github.com/restic/restic) - A fast, efficient and secure backup program
