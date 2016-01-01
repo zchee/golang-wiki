@@ -83,6 +83,11 @@ Sorted by publication date.
     * ISBN: 978-0134190440
     * Reference: http://www.gopl.io/
 
+* **Web Development with Go: Building Scalable Web Apps and RESTful Services**
+    * Author: Shiju Varghese
+    * Publication Date: December, 2015
+    * ISBN: 978-1484210536
+    * Reference: http://www.amazon.com/Web-Development-Go-Building-Scalable/dp/1484210530/
 
 ## Early Access
 
