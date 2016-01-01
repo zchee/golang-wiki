@@ -316,6 +316,7 @@
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
+  * [Geckoboard](https://www.geckoboard.com)
 
 ## Southeast Asia
   * [GrabTaxi](http://www.grabtaxi.com/)
