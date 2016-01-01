@@ -81,6 +81,7 @@
   * [DoubleDutch](https://www.doubledutch.me)
   * [domainr](http://domai.nr/) - [tweet](https://twitter.com/rr/status/368988340848037889)
   * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides](http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
+  * [DramaFever](https://www.dramafever.com/) - [github](https://github.com/DramaFever)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
   * [eBay](http://www.ebay.com/) - [github](https://github.com/eBay/fabio), [meetup](http://www.meetup.com/golang-amsterdam/events/222001978/)
