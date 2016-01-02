@@ -325,6 +325,9 @@
   * [GrabTaxi](http://www.grabtaxi.com/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
+
+## Switzerland
+  * [Perron2 GmbH](http://www.perron2.ch)
   
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
