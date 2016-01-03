@@ -52,7 +52,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Logging & Monitoring](#logging-and-monitoring)
 * [Machine Learning & AI](#machine-learning)
 * [Mathematics](#mathematics)
-* [Microservices](#microserices)
+* [Microservices](#microservices)
 * [Miscellaneous](#miscellaneous)
 * [Music](#music)
 * [Networking](#networking)
