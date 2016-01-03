@@ -25,12 +25,9 @@ First you have to build your cross-compiling version of GCC. This is complex pro
 
 You can use the [ewxb\_gcc\_cross-compiler\_builder](https://github.com/erikw/ewxb_gcc_cross-compiler_builder) script as a starting point. Don't expect that script to work out of the box, but rather as a hint to which steps you're likely to take when building your x-toolchain.
 
-If you're lucky enough and want a version of GCC that is not bleeding edge (which you might want to have the latest Go features) you can use a cross-compiler builder to ease the configuration e.g. [crosstool-NG](http://crosstool-ng.org/) that lets you configure GCC with a simple TUI menu. You might have to manually patch the source of _crosstool-NG_ and add go to the languages to include. In crosstool-ng-` <ver> `/scripts/build/cc/gcc.sh modify like this:
+If you're lucky enough and want a version of GCC that is not bleeding edge (which you might want to have the latest Go features) you can use a cross-compiler builder to ease the configuration e.g. [crosstool-NG](http://crosstool-ng.org/) that lets you configure GCC with a simple TUI menu.
 
-```
-   -	--enable-languages="${lang_list}"
-   +	--enable-languages="go,${lang_list}"
-```
+Newer versions of crosstool-NG can build the go language by enabling ```CT_EXPERIMENTAL``` and ```CT_CC_SUPPORT_GOLANG```. This will automatically add ```go``` to ```--enable-languages```.
 
 ### Symlink
 You should now have a bin directory with files with names like "` <target `>-gcc", "` <target `>-gnu-gccgo" etc. Because the go build tool does not allow you to specify file-names of the compilers to use (only statically supports the strings 'gc' and 'gccgo') it will look in your $PATH envvar for the first file named 'gccgo' and 'gcc'. You will therefore have to add this directory as an overlay by setting it to be the first one in $PATH when you want to use the cross-compiler and not your normal gcc binary on your system. Since the go tool looks for a binary named _gccgo_ you'll have to make some symlinks for the tools you want it to find.
