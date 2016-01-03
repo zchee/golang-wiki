@@ -249,6 +249,7 @@
   * [Yahoo](http://yahoo.com) - [github](https://github.com/yahoo/webseclab)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [ZITEC](http://www.zitec.de)
+  * [Zumba](https://www.zumba.com) - [github](https://github.com/zumba)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
 
 
