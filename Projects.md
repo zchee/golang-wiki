@@ -674,6 +674,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gongo](https://github.com/skybrian/Gongo) - A program written in Go that plays Go
   * [gospeccy](https://github.com/remogatto/gospeccy) - A ZX Spectrum 48k Emulator
   * [Ludo Game](http://ludo.abiosoft.net) - Ludo Board game powered by Go on Appengine
+  * [pinkman](https://github.com/jubalh/pinkman) - command line based chess interface to UCI compatible chess engines
   * [Pong](https://github.com/LaurenceGA/Pong) - A simple Pong clone written in golang
   * [Steven](https://github.com/thinkofdeath/steven) - A Minecraft client in Go
 
