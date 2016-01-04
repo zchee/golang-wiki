@@ -178,6 +178,7 @@
   * [RapidLoop](https://www.rapidloop.com/) - [product](https://www.opsdash.com/)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
+  * [ReelDx](https://reeldx.com/) - [medvid.io](https://medvid.io), [twitter](https://twitter.com/andrewreeldx)
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
   * [Repustate](http://www.repustate.com)
