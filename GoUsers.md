@@ -328,13 +328,13 @@
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
   * [Geckoboard](https://www.geckoboard.com)
 
+## Slovenia
+  * [Visionect d.o.o.](http://www.visionect.com)
+
 ## Southeast Asia
   * [GrabTaxi](http://www.grabtaxi.com/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
-
-## Slovenia
-  * [Visionect d.o.o.](http://www.visionect.com)
 
 ## Switzerland
   * [Perron2 GmbH](http://www.perron2.ch)
