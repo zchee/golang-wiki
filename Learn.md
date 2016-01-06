@@ -25,3 +25,6 @@ Learning resources for specific topics:
   * [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
   * [LearnTesting](LearnTesting) links to resources about testing in Go.
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
+
+Further reading:
+  * [Newspaper](http://www.newspaper.io) is a topic based newsfeed for slack. Built on Go
