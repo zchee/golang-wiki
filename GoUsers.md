@@ -354,6 +354,7 @@
 
 ## Spain
   * [jobandtalent](https://www.jobandtalent.com)
+  * [alea soluciones](https://github.com/aleasoluciones/)
 
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
