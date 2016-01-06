@@ -320,6 +320,9 @@
 ## Morocco
   * [Avito](http://www.avito.ma)
 
+## Poland
+ * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
+
 ## United Kingdom
   * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
   * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
@@ -327,6 +330,7 @@
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
   * [Geckoboard](https://www.geckoboard.com)
+
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
@@ -341,6 +345,7 @@
 
 ## Switzerland
   * [Perron2 GmbH](http://www.perron2.ch)
+
   
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
