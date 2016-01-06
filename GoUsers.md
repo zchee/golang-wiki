@@ -340,12 +340,16 @@
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
 
+## Spain
+  * [alea soluciones](https://github.com/aleasoluciones/)
+  * [Cabify](https://cabify.com/) - [github](https://github.com/cabify/), [twitter](https://twitter.com/cabifydev)
+  * [jobandtalent](https://www.jobandtalent.com)
+
 ## Sweden
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
 
 ## Switzerland
   * [Perron2 GmbH](http://www.perron2.ch)
-
   
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
@@ -357,16 +361,11 @@
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
 
-## Spain
-  * [alea soluciones](https://github.com/aleasoluciones/)
-  * [jobandtalent](https://www.jobandtalent.com)
-
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
   * [Braintree Payments](http://braintreepayments.com) - [blog](https://www.braintreepayments.com/braintrust/gotchas-irritants-and-warts-in-go-web-development)
-
 
 See also [Success Stories](SuccessStories)
