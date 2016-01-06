@@ -353,8 +353,8 @@
   * [DATA-DOG](https://github.com/DATA-DOG)
 
 ## Spain
-  * [jobandtalent](https://www.jobandtalent.com)
   * [alea soluciones](https://github.com/aleasoluciones/)
+  * [jobandtalent](https://www.jobandtalent.com)
 
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
