@@ -344,6 +344,7 @@
   * [alea soluciones](https://github.com/aleasoluciones/)
   * [Cabify](https://cabify.com/) - [github](https://github.com/cabify/), [twitter](https://twitter.com/cabifydev)
   * [jobandtalent](https://www.jobandtalent.com)
+  * [Ximdex](http://www.ximdex.com)
 
 ## Sweden
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
