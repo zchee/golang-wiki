@@ -87,7 +87,7 @@ Sorted by publication date.
     * Author: Shiju Varghese
     * Publication Date: December, 2015
     * ISBN: 978-1484210536
-    * Reference: http://www.amazon.com/Web-Development-Go-Building-Scalable/dp/1484210530/
+    * Reference: http://www.apress.com/9781484210536
 
 ## Early Access
 
