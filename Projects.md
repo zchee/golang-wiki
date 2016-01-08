@@ -790,6 +790,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.hid](https://github.com/GeertJohan/go.hid) - Provides communication with USB Human Interface Devices.
   * [gortlsdr](https://github.com/jpoirier/gortlsdr) - A librtlsdr wrapper, which turns certain USB DVB-T dongles into a low-cost, general purpose software-defined radio receiver.
   * [hwio](https://github.com/mrmorphic/hwio) - Hardware I/O library for SoC boards including BeagleBone Black and Raspberry Pi.
+  * [stressdisk](https://github.com/ncw/stressdisk) - Stress test your disks / memory cards / USB sticks before trusting your valuable data to them
 
 ## Language and Linguistics
 
@@ -1600,6 +1601,5 @@ The following entries have not been filed. Please help by putting these in relev
   * [netstat-nat](https://github.com/dominikh/netstat-nat) - Display NAT entries on Linux systems
   * [seed](https://github.com/tv42/seed) - Easily seed PRNGs with some entropy
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
-  * [stressdisk](https://github.com/ncw/stressdisk) - Stress test your disks / memory cards / USB sticks before trusting your valuable data to them
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
