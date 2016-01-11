@@ -243,6 +243,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-pullbarz](https://github.com/tlorens/go-pullbarz) - Fancy "light bar" menus like in Lotus 123 from the DOS days.  Dependent on go-ibgetkey and go-ansiout.
   * [go.sgr](https://github.com/foize/go.sgr) - Terminal/console colors and text decoration (bold,underlined,etc).
   * [go-stfl](https://github.com/akrennmair/go-stfl) - a thin wrapper around STFL, an ncurses-based widget toolkit
+  * [goterminal](https://github.com/apoorvam/goterminal) - A go library that lets you write and then re-write the text on terminal, to update progress. It works on Windows too!
   * [go-web-shell](https://github.com/matiasinsaurralde/go-web-shell) - Remote web shell, implements a net/http server.
   * [igo](https://bitbucket.org/binet/igo) - A simple interactive Go interpreter built on exp/eval with some readline refinements
   * [oh](https://github.com/michaelmacinnis/oh) - A Unix shell written in Go
