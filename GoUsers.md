@@ -117,6 +117,7 @@
   * [Instela](https://tr.instela.com)
   * [Intel](http://www.intel.com) - [qa job](http://www.reddit.com/r/golang/comments/16qw6x/the_intel_debugger_qa_team_in_germany_ulm_is/) [snap telemetry framework](https://github.com/intelsdi-x/snap)
   * [identakid.com] (http://identakid.com)
+  * [ISDC - InsideSales.com] (http://insidesales.com)
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
   * [JelloLabs](http://www.jellolabs.com)
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
