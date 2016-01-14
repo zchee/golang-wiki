@@ -10,7 +10,7 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
-  * **Couchbase N1QL**: https://github.com/couchbaselabs/go_n1ql
+  * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2**: https://bitbucket.org/phiggins/db2cli
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **MS ADODB**: https://github.com/mattn/go-adodb
