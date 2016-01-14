@@ -69,23 +69,3 @@ operator:*:2:5::0:0:System &:/operator:/sbin/nologin
 ## After
 operator:*:2:5:staff:0:0:System &:/operator:/sbin/nologin
 ```
-
-## Under KVM
-
-If under KVM on Lucid, you don't need to disable ` mpbios `, but the OpenBSD kernel spins at takes nearly 100% CPU if you don't.  So, see:
-
-http://scie.nti.st/2009/10/4/running-openbsd-4-5-in-kvm-on-ubuntu-linux-9-04
-
-Nutshell:
-
-```
-# config -ef /bsd
-OpenBSD 4.5 (GENERIC) #2052: Sat Feb 28 14:55:24 MST 2009
-    deraadt@amd64.openbsd.org:/usr/src/sys/arch/amd64/compile/GENERIC
-Enter 'help' for information
-ukc> disable mpbios
- 54 mpbios0 disabled
-ukc> quit
-Saving modified kernel.
-#
-```
