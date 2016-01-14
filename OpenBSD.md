@@ -23,7 +23,7 @@ Required:
 
   * ulimits (` /etc/login.conf `)
 
-Edit the /etc/login.conf so that the staff class has the proper
+Edit `/etc/login.conf` so that the staff class has the proper
 settings. The following is a working example of the staff class:
 ```
 staff:\
