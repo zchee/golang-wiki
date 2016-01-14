@@ -43,9 +43,9 @@ If the database file `/etc/login.conf.db` exists, you need to rebuild it with:
 # cap_mkdb /etc/login.conf
 ```
 
-Add the login class to the user you would like to have build go
+Ensure that the user you intend to build Go with is in the `staff` login class:
 ```
-# vipw
+# usermod -L staff your_username_here
 ```
 
 Look for the 5th element which is the login class, this is blank by
