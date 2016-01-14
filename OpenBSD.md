@@ -43,12 +43,6 @@ If the database file `/etc/login.conf.db` exists, you need to rebuild it with:
 # cap_mkdb /etc/login.conf
 ```
 
-```
-ulimit -n 512
-ulimit -p 512
-ulimit -d 2036792
-```
-
 Add the login class to the user you would like to have build go
 ```
 # vipw
