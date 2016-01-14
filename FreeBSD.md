@@ -8,8 +8,8 @@ Required:
 
 | **Kernel version** | **Min. version**    | **Max. version**    |
 |:-------------------|:--------------------|:--------------------|
-| 11-CURRENT         | go1.3 w/ issue 7849 | go1.5 w/ issue 7849 |
-| 10-STABLE          | go1.3               | go1.5               |
-| 9-STABLE           | go1                 | go1.5               |
-| 8-STABLE           | go1                 | go1.5               |
+| 11-CURRENT         | go1.3 w/ issue 7849 | go1.6 w/ issue 7849 |
+| 10-STABLE          | go1.3               | go1.6               |
+| 9-STABLE           | go1                 | go1.6               |
+| 8-STABLE           | go1                 | go1.6               |
 | 7-STABLE (EOL)     | go1                 | go1.1               |
