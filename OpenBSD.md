@@ -20,7 +20,6 @@ Required:
 | 5.8                | go1.4.1          | go1.6 |
 | 5.7                | go1.4.1          | go1.6 |
 | 5.6                | go1.4.1          | go1.6 |
-| 5.5                | go1.3            | go1.6 |
 
   * ulimits (` /etc/login.conf `)
 
