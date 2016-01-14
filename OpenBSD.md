@@ -38,7 +38,7 @@ staff:\
        :tc=default:
 ```
 
-After editing the login.conf you'll need to rebuild the database with:
+If the database file `/etc/login.conf.db` exists, you need to rebuild it with:
 ```
 # cap_mkdb /etc/login.conf
 ```
