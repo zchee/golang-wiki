@@ -47,14 +47,3 @@ Ensure that the user you intend to build Go with is in the `staff` login class:
 ```
 # usermod -L staff your_username_here
 ```
-
-Look for the 5th element which is the login class, this is blank by
-users added by useradd. In the following example the user operator
-would be added to the staff class
-```
-## Before
-operator:*:2:5::0:0:System &:/operator:/sbin/nologin
-
-## After
-operator:*:2:5:staff:0:0:System &:/operator:/sbin/nologin
-```
