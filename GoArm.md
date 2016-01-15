@@ -290,6 +290,8 @@ _-- anthony starks_
 
 ## Raspberry Pi 2
 
+* [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+
 ```
 go version
 go version devel +07f9c25 Wed Dec 9 21:25:05 2015 +0000 linux/arm
