@@ -38,6 +38,16 @@ tmpfs /tmp tmpfs nodev,nosuid,mode=1777 0 0
 ## Swap
 Building Go from source requires at least 256mb of RAM. Running the tests requires at least 256mb of memory and at least 512mb of swap space.
 
+## Test failures due to resource starvation
+The runtime tests create many native operating system threads which at the default of 8mb per thread can exhaust an ARM system with 32bit user mode address space (especially on multicore ARM systems such as the Raspberry PI 2). To prevent the runtime test from failing you may need lower the thread stack limit:
+
+```sh
+% ulimit -s 1024     # set the thread stack limit to 1mb
+% ulimit -s          # check that it worked
+1024
+```
+See [Dave Cheney's blog post about building Go on Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi) for details.
+
 ## Build failures due to lack of memory
 The Go tool will try to keep all your cpu cores busy when installing packages (during make.bash),
 this is normally preferable on PCs where memory is abundant.
