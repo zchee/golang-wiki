@@ -112,6 +112,7 @@
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
   * [Imagefly](http://imagefly.io/)
+  * [Imgix](https://www.imgix.com) - [StackShare](http://stackshare.io/imgix/how-imgix-built-a-stack-to-serve-100-000-images-per-second), [job posting](https://www.imgix.com/jobs#752d046c-c795-47ea-9f90-117d761a557e)
   * [Imgur](http://imgur.com/) - [github](https://github.com/Imgur/mandible/)
   * [InfluxDB](https://influxdb.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/why-influxdb-uses-go/)
   * [Instela](https://tr.instela.com)
