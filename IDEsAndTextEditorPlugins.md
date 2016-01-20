@@ -20,7 +20,7 @@
   * **[godef](https://code.google.com/p/rog-go/source/browse/exp/cmd/godef/)**: Prints the source location of definitions in Go programs. Integrates with acme and emacs.
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Plugin for Go](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) support available.
+  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Open-Source plugin for Go](https://plugins.jetbrains.com/plugin/?id=5047) support available. All derivative platforms of IntelliJ (PyCharm, PhpStorm et al.) are supported. Nightly / alpha builds available at [plugin repository](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
   * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE with built-in Go support
