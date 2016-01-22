@@ -43,7 +43,7 @@ It'll ruin the surprise, but only a little. Being realistic, even without the di
 
 If you're a meetup organiser, Feb 17th would be great, but your participation is more important than being able to organise your group for exactly the 17th.
 
-### What'll happen if Go 1.6 isn't our by the 17th?
+### What'll happen if Go 1.6 isn't out by the 17th?
 Well ... at least we'll have each other. 
 
 The feature set of Go 1.6 isn't going to change in the next few weeks. If Go 1.6 ships after the 17th, it will be a little anticlimatic that we jumped the gun, but not a big deal.
