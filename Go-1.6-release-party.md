@@ -16,6 +16,7 @@ Don't forget to add your details :point_down: right here.
 Here is a list of the groups who are participating.
 - [Sydney Go users' group](http://www.meetup.com/golang-syd/events/228276309/)
 - [Go-Miami](http://www.meetup.com/Go-Miami/events/228280324/)
+- [San Diego Gophers](http://www.meetup.com/sdgophers/events/228129827/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 
