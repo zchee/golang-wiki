@@ -1,13 +1,13 @@
 Whoa there, this page is still in draft. Check back in a few hours for all the details.
 ***
 ### What's happening?
-To celebrate the release of Go 1.6 we're having a release party on February the 17th, 2016. 
+To celebrate the release of Go 1.6 we're having a world wide release party on February the 17th, 2016. 
 
 #### Hang on, did you say Go 1.6 ships on the 17th of February?
-Nope! Go 1.6 ships when it's ready. With that said, things are looking pretty good for a mid Feb release, so using the power of software estimation a date was plucked from the aether that happened to coincide with meetups already in the works.
+Nope! Go 1.6 ships when it's ready. With that said, things are looking pretty good for a mid Feb release. Using the power of software estimation, a date was plucked from the aether that happened to coincide with several meetups that were already in the works.
 
-### Sound's awesome, how can you get involved?
-- If you host a Go user group or meetup, schedule a meetup on the 17th of Feb and celebrate. 
+### Sounds awesome, how can you get involved?
+- If you host a Go user group or meetup, schedule a meetup on the 17th of Feb and celebrate with Gophers around the world.
 - If you're a member of a Go user group or meetup, pester your organiser and let them know you'd like to participate.
 
 After the event post a photo, make a video, write a blog post, scribble on your facebook wall, or tweet something pity. Let's see how big we can make the celebration.
@@ -28,13 +28,15 @@ _Please help by expanding this section so meetup organisers can share these deta
 
 - [Go 1.6 release notes (draft)](http://tip.golang.org/doc/go1.6)
 - HTTP/2.
-  Go 1.6's `net/http` package supports HTTP/2 for both the Client and Server out of the box.
+  Go 1.6's `net/http` package supports [HTTP/2](https://http2.golang.org/) for both the client and server out of the box.
   [Here is a video of @bradfitz giving an overview of Go 1.6's HTTP/2 support](https://www.youtube.com/watch?v=gukAZO1fqZQ).
 - Garbage Collector improvements.
   Go 1.6 focused heavily on improvements to the low latency collector shipped in Go 1.5.
-  Rick Hudson gave a [presentation at GopherCon 2015](https://www.youtube.com/watch?v=aiv1JOfMjm0) describing the low latency collector delivered in Go 1.5, and gave hints to the improvements e  . Rick recently [recorded an interview with InfoQ](http://www.infoq.com/interviews/hudson-go-gc) which focused on 1.6 in more detail.
+  Rick Hudson gave a [presentation at GopherCon 2015](https://www.youtube.com/watch?v=aiv1JOfMjm0) describing the low latency collector delivered in Go 1.5, and gave hints to the improvements being worked on for 1.6.
+  Rick recently [recorded an interview with InfoQ](http://www.infoq.com/interviews/hudson-go-gc) which focused on 1.6 in more detail.
 - GOVENDOREXPERIMENT became the default.
-  Go 1.5 added experimental support for a mechanism of including the source of your package's dependencies in the package itself, colloquially known as _vendoring_.
+  Go 1.5 added experimental support for a mechanism of including the source of your package's dependencies in the package itself, colloquially known as _vendoring_. This feature was opt-in during Go 1.5
+  Go 1.6 makes the vendor support the default, and it's likely that packages will start to use it soon.
 
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
 
@@ -46,7 +48,7 @@ If you're a meetup organiser, Feb 17th would be great, but your participation is
 ### What'll happen if Go 1.6 isn't our by the 17th?
 Well ... at least we'll have each other. 
 
-The feature set of Go 1.6 is fixed and isn't going to change in the next few weeks. Even if Go 1.6 ships after the 17th, it will be a little anticlimatic that we jumped the gun, but not a big deal.
+The feature set of Go 1.6 isn't going to change in the next few weeks. If Go 1.6 ships after the 17th, it will be a little anticlimatic that we jumped the gun, but not a big deal.
 
 ### Who's organising this?
 Well, if you run a Go meetup, you are. It can't be a worldwide release party without meetups around the globe.
