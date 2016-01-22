@@ -49,7 +49,11 @@ _Please help by expanding this section so meetup organisers can share these deta
  `"23<45"` 
 
 - New supported platforms.
-  Go 1.6 adds experimental ports to Linux on 64-bit MIPS (linux/mips64 and linux/mips64le). Go 1.6 also adds an experimental port to Android on 32-bit x86 (android/386). 64-bit PowerPC (linux/ppc64le), Go 1.6 now supports cgo with external linking and is roughly feature complete.
+  Go 1.6 adds experimental ports to Linux on 64-bit MIPS (linux/mips64 and linux/mips64le). Note that this is 64 bit MIPS, not the older 32 bit MIPS commonly found in routers.
+
+  64-bit PowerPC (linux/ppc64le), Go 1.6 now supports cgo with external linking and is roughly feature complete.
+
+  Go 1.6 also adds an experimental port to Android on 32-bit x86 (android/386). 
 
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
 
