@@ -21,14 +21,20 @@ Here is a list of the groups who are participating.
 _If your group is not listed here yet? Edit the page and add yourself._
 
 ### What happens in a release party?
-Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years! 
+Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
+A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6 and the upcoming changes in 1.7.
 
-This section 
+_Please help by expanding this section so meetup organisers can share these details with their groups._
 
-[ TODO ] Add links to go 1.6 release notes
-[ TODO ] Add details about Go 1.6 features
-[ TODO ] Add links to Rick Hudson's GC presentations (Gophercon 2015, InfoQ)
-[ TODO ] Add links to cgo pointers document.
+- [Go 1.6 release notes (draft)](http://tip.golang.org/doc/go1.6)
+- HTTP/2.
+  Go 1.6's `net/http` package supports HTTP/2 for both the Client and Server out of the box.
+  [Here is a video of @bradfitz giving an overview of Go 1.6's HTTP/2 support](https://www.youtube.com/watch?v=gukAZO1fqZQ).
+- Garbage Collector improvements.
+  Go 1.6 focused heavily on improvements to the low latency collector shipped in Go 1.5.
+  Rick Hudson gave a [presentation at GopherCon 2015](https://www.youtube.com/watch?v=aiv1JOfMjm0) describing the low latency collector delivered in Go 1.5, and gave hints to the improvements e  . Rick recently [recorded an interview with InfoQ](http://www.infoq.com/interviews/hudson-go-gc) which focused on 1.6 in more detail.
+- GOVENDOREXPERIMENT became the default.
+  Go 1.5 added experimental support for a mechanism of including the source of your package's dependencies in the package itself, colloquially known as _vendoring_.
 
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
 
