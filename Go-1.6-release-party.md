@@ -28,9 +28,12 @@ _If your group is not listed here yet? Edit the page and add yourself._
 
 # What happens in a release party?
 
-Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years! This is an opportunity to 
+Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years! 
 
 [ TODO ] Add links to go 1.6 release notes
+[ TODO ] Add details about Go 1.6 features
+[ TODO ] Add links to Rick Hudson's GC presentations (Gophercon 2015, InfoQ)
+[ TODO ] Add links to cgo pointers document.
 
 # What'll happen if Go 1.6 comes out early?
 
