@@ -61,6 +61,8 @@ _Please help by expanding this section so meetup organisers can share these deta
 
   Go 1.6 also adds an experimental port to Android on 32-bit x86 (android/386). 
 
+[ TODO ] Build a .present slide deck for meetup organisers.
+
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
 
 ### What'll happen if Go 1.6 comes out early?
