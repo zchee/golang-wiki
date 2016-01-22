@@ -1,5 +1,3 @@
-Whoa there, this page is still in draft. Check back in a few hours for all the details.
-***
 ### What's happening?
 To celebrate the release of Go 1.6 we're having a world wide release party on February the 17th, 2016. 
 
@@ -10,7 +8,7 @@ Nope! Go 1.6 ships when it's ready. With that said, things are looking pretty go
 - If you host a Go user group or meetup, schedule a meetup on the 17th of Feb and celebrate with Gophers around the world.
 - If you're a member of a Go user group or meetup, pester your organiser and let them know you'd like to participate.
 
-After the event post a photo, make a video, write a blog post, scribble on your facebook wall, or tweet something pity. Let's see how big we can make the celebration.
+After the event post a photo, make a video, write a blog post, scribble on your Facebook wall, or tweet something pity. Let's see how big we can make the celebration.
 
 Don't forget to add your details :point_down: right here.
 
@@ -18,7 +16,7 @@ Don't forget to add your details :point_down: right here.
 Here is a list of the groups who are participating.
 - [Sydney Go users' group](http://www.meetup.com/golang-syd/events/228276309/)
 
-_If your group is not listed here yet? Edit the page and add yourself._
+_If your group is not listed here yet, edit the page and add yourself._
 
 ### What happens in a release party?
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
