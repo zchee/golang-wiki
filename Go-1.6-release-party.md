@@ -20,7 +20,7 @@ _If your group is not listed here yet, edit the page and add yourself._
 
 ### What happens in a release party?
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
-A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6 and the upcoming changes in 1.7.
+A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6.
 
 _Please help by expanding this section so meetup organisers can share these details with their groups._
 
@@ -38,6 +38,18 @@ _Please help by expanding this section so meetup organisers can share these deta
 
   Go 1.5 added experimental support for a mechanism of including the source of your package's dependencies in the package itself, colloquially known as _vendoring_. This feature was opt-in during Go 1.5.
   Go 1.6 makes the vendor support the default, and it's likely that packages will start to use it soon.
+
+- `text/template` changes.
+  A long requested ability to [trim whitespace in templates](http://tip.golang.org/pkg/text/template/#hdr-Text_and_spaces) has arrived. This template 
+
+ `"{{23 -}} < {{- 45}}"`
+
+ will produce this output
+
+ `"23<45"` 
+
+- New supported platforms.
+  Go 1.6 adds experimental ports to Linux on 64-bit MIPS (linux/mips64 and linux/mips64le). Go 1.6 also adds an experimental port to Android on 32-bit x86 (android/386). 64-bit PowerPC (linux/ppc64le), Go 1.6 now supports cgo with external linking and is roughly feature complete.
 
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
 
