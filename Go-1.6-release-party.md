@@ -48,7 +48,13 @@ _Please help by expanding this section so meetup organisers can share these deta
 
  `"23<45"` 
 
-- New supported platforms.
+- cgo changes
+
+  cgo continues to get stricter about sharing data between Go and C. http://tip.golang.org/cmd/cgo/#hdr-Passing_pointers
+
+  Ian Lance Taylor has put a lot of work into making signal handling more sane. 
+
+- More supported platforms.
   Go 1.6 adds experimental ports to Linux on 64-bit MIPS (linux/mips64 and linux/mips64le). Note that this is 64 bit MIPS, not the older 32 bit MIPS commonly found in routers.
 
   64-bit PowerPC (linux/ppc64le), Go 1.6 now supports cgo with external linking and is roughly feature complete.
