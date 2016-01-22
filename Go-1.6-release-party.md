@@ -81,6 +81,8 @@ Well, if you run a Go meetup, you are. It can't be a worldwide release party wit
 #### No, seriously, who's organising this?
 Here are the organisers so far:
 - [Dave Cheney](mailto://dave@cheney.net) - @davecheney
+- [Carlisia Campos](mailto://carlisia@golangbridge.org) - @carlisia
+
 
 _Want to help? Edit this page and add yourself_
 
