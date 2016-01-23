@@ -25,6 +25,18 @@ _If your group is not listed here yet, edit the page and add yourself._
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
 A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6.
 
+
+#### Go 1.6 slide deck
+Here a Go 1.6 presentation slide deck from the Go Sydney users' group. Feel free to use this for your meetup.
+
+[talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide](http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide)
+
+_Source_: https://github.com/davecheney/gosyd/blob/master/go1.6.slide
+
+_Please send PR's with corrections/additions_
+
+#### Go 1.6 new and noteworthy
+
 _Please help by expanding this section so meetup organisers can share these details with their groups._
 
 - [Go 1.6 release notes (draft)](http://tip.golang.org/doc/go1.6)
@@ -65,15 +77,6 @@ _Please help by expanding this section so meetup organisers can share these deta
   Go 1.6 also adds an experimental port to Android on 32-bit x86 (android/386). 
 
 _Did you contribute to Go 1.6 and your contribution is not listed here? Edit this page and add some details about what you did._
-
-#### Go 1.6 slide deck
-Here a Go 1.6 presentation slide deck from the Go Sydney users' group. Feel free to use this for your meetup.
-
-[talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide](http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide)
-
-_Source_: https://github.com/davecheney/gosyd/blob/master/go1.6.slide
-
-_Please send PR's with corrections/additions_
 
 ### What'll happen if Go 1.6 comes out early?
 It'll ruin the surprise, but only a little. Being realistic, even without the difficulty of timezones it's impossible to run every meetup at exactly the same time. As mentioned above, Feb 17 is an arbitrary date.
