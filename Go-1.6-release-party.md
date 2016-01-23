@@ -76,7 +76,7 @@ If you're a meetup organiser, Feb 17th would be great, but your participation is
 ### What'll happen if Go 1.6 isn't out by the 17th?
 Well ... at least we'll have each other. 
 
-The feature set of Go 1.6 isn't going to change in the next few weeks. If Go 1.6 ships after the 17th, it will be a little anticlimatic that we jumped the gun, but not a big deal.
+The feature set of Go 1.6 isn't going to change in the next few weeks. If Go 1.6 ships after the 17th, it will be a little anticlimactic that we jumped the gun, but it's not a big deal.
 
 ### Who's organising this?
 Well, if you run a Go meetup, you are. It can't be a worldwide release party without meetups around the globe.
@@ -85,7 +85,6 @@ Well, if you run a Go meetup, you are. It can't be a worldwide release party wit
 Here are the organisers so far:
 - [Dave Cheney](mailto://dave@cheney.net) - @davecheney
 - [Carlisia Campos](mailto://carlisia@golangbridge.org) - @carlisia
-
 
 _Want to help? Edit this page and add yourself_
 
