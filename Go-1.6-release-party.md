@@ -8,7 +8,7 @@ Nope! Go 1.6 ships when it's ready. With that said, things are looking pretty go
 - If you host a Go user group or meetup, schedule a meetup on the 17th of Feb and celebrate with Gophers around the world.
 - If you're a member of a Go user group or meetup, pester your organiser and let them know you'd like to participate.
 
-After the event post a photo, make a video, write a blog post, scribble on your Facebook wall, or tweet something pity. Let's see how big we can make the celebration.
+After the event post a photo, make a video, write a blog post, scribble on your Facebook wall, or tweet something pithy. Let's see how big we can make the celebration.
 
 Don't forget to add your details :point_down: right here.
 
