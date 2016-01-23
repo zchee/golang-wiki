@@ -20,6 +20,7 @@ Here is a list of the groups who are participating.
 - [PDX Go](http://www.meetup.com/PDX-Go/events/228220792/)
 
 _If your group is not listed here yet, edit the page and add yourself._
+_Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
 
 ### What happens in a release party?
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
