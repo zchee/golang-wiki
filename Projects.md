@@ -906,6 +906,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [dbus-go](http://code.google.com/p/dbus-go/) - D-Bus Go library
   * [desktop](https://bitbucket.org/tebeka/desktop) - Open file/uri with default application (cross platform)
   * [devboard](https://launchpad.net/devboard) - Kanban board application based on Simple-Khanban
+  * [dioder-api](https://github.com/piLights/Dioder-API) - An API to IKEA dioder LED-strips
   * [dump](http://code.google.com/p/golang/source/browse/src/pkg/dump/) - An utility that dumps Go variables, similar to PHP's var\_dump
   * [env](https://github.com/darkhelmet/env) - Easily pull environment variables with defaults
   * [epub](https://gitorious.org/go-pkg/epub) - Bindings for libepub to read epub content.
