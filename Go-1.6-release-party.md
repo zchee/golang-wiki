@@ -18,6 +18,7 @@ Here is a list of the groups who are participating.
 - [Go-Miami](http://www.meetup.com/Go-Miami/events/228280324/)
 - [San Diego Gophers](http://www.meetup.com/sdgophers/events/228129827/)
 - [PDX Go](http://www.meetup.com/PDX-Go/events/228220792/)
+- [GopherConIndia](http://www.gophercon.in/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
