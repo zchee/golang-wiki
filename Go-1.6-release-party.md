@@ -21,6 +21,7 @@ Here is a list of the groups who are participating.
 - [GopherConIndia](http://www.gophercon.in/)
 - [Ukrainian Golang User Groups](http://www.meetup.com/uagolang/events/228343484/)
 - [Lviv Golang Group](http://www.meetup.com/Lviv-Golang-Group/events/228344940/)
+- [Edmonton Go](https://edmontongo.org/) (Feb 22)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
