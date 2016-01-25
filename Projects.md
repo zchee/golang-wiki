@@ -679,6 +679,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pinkman](https://github.com/jubalh/pinkman) - command line based chess interface to UCI compatible chess engines
   * [Pong](https://github.com/LaurenceGA/Pong) - A simple Pong clone written in golang
   * [Steven](https://github.com/thinkofdeath/steven) - A Minecraft client in Go
+  * [WolfenGo](https://github.com/gdm85/wolfengo) - A Wolfenstein3D clone in Go, using OpenGL 2.1
 
 ## GIS
 
