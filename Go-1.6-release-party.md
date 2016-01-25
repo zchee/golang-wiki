@@ -19,6 +19,8 @@ Here is a list of the groups who are participating.
 - [San Diego Gophers](http://www.meetup.com/sdgophers/events/228129827/)
 - [PDX Go](http://www.meetup.com/PDX-Go/events/228220792/)
 - [GopherConIndia](http://www.gophercon.in/)
+- [Ukrainian Golang User Groups](http://www.meetup.com/uagolang/events/228343484/)
+- [Lviv Golang Group](http://www.meetup.com/Lviv-Golang-Group/events/228344940/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
