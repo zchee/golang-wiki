@@ -1,6 +1,8 @@
-# Use [winstrap](https://github.com/golang/winstrap)
+# The Automatic Way: [winstrap](https://github.com/golang/winstrap)
 
-Download the latest version of winstrap.exe from the [winstrap](https://github.com/golang/winstrap) page and run it.
+The winstrap tool is used by the Go project to turn a fresh Windows VM image into a Windows builder. It installs all necessary dependencies. It's sometimes out of date, though, as it's only updated when we need to update the Windows base image for the [Go continuous build](https://build.golang.org/).
+
+To use winstrap, sownload the latest version of winstrap.exe from the [winstrap](https://github.com/golang/winstrap) page and run it.
 
 It will download some installers to your desktop, which you should run. Just click through; all the defaults are fine.
 
@@ -9,15 +11,9 @@ Then it will check out Go and place it in c:\Users\%USER%\goroot and build it.
 That's it.
 
 
----
+# The Manual Way
 
-Older (deprecated?) instructions follow.
-
-
----
-
-
-# Install MinGW/MSYS
+## Install MinGW/MSYS
 
 Download and save the latest version of the automated MinGW installer executable (` exe `) file from SourceForge.
 
@@ -49,37 +45,18 @@ The installation loads the package installation catalogues and downloads and ins
 
 The MSYS terminal window may be opened by opening and running the ` C:\MinGW\msys\1.0\msys.bat ` batch file.
 
-# Build
+## Build
 
 ```
-hg clone https://code.google.com/p/go/
+git clone https://go.googlesource.com/go
 cd go\src
 all.bat
 ```
 
-# 64-bit Notes
+## 64-bit Notes
 
   1. Ensure you are able to compile a working 32-bit Go first.
   1. Grab the latest zip from http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/ and extract it over the MinGW directory, so that for example the .exe files end up in the same location as the 32-bit ones.
   1. Replace ` gcc.exe ` and ` ar.exe ` with their 64-bit counterparts.
   1. Set ` GOARCH=amd64 ` and away you go!
 
-# Alternative Strategy
-
-Install http://tdm-gcc.tdragon.net/
-
-Install Python 2.x.
-
-Install Mercurial for Python 2.x.
-
-Make a "godev.bat" file on your desktop with:
-
-```
-set GOROOT=c:\go
-set GOPATH=c:\you\gopath
-set PATH=%PATH%;%GOROOT%\bin;C:\Python27;C:\Python27\Scripts
-cd %GOROOT%\src
-CMD
-```
-
-Then double-click and type "all.bat".  The codereview extension should work too (test with "hg pq")
