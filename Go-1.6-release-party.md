@@ -24,6 +24,7 @@ Here is a list of the groups who are participating.
 - [Edmonton Go](https://edmontongo.org/) (Feb 22)
 - [Software Craftsmanship Toulouse](http://www.meetup.com/fr-FR/Software-Craftsmanship-Toulouse/events/228285655/)
 - [Polish GLUG Meetup](http://www.meetup.com/GoLang-User-Group-Wroclaw/events/228369658/)
+- [Google Developer Group Gigcity](http://www.meetup.com/GDG-Gigcity/events/228373161/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
