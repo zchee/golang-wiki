@@ -337,6 +337,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gringo](https://github.com/textnode/gringo) - A minimalist queue implemented using a stripped-down lock-free ringbuffer
   * [heap](https://github.com/golangplus/container/tree/master/heap) - A general heap package without converting elements to `interface{}` and back.
   * [queued](https://github.com/timtadh/queued) - A simple network queue daemon
+  * [queue] (https://github.com/kavehmz/queue) - A queue manager on top of Redis
 
 ### Graphs
 
