@@ -754,6 +754,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
   * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
+  * [RiGO](https://github.com/mae-global/rigo) - RenderMan Interface implementation in Go. 
   * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
   * [starfish](https://github.com/gtalent/starfish) - A simple Go graphics and user input library, built on SDL
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
