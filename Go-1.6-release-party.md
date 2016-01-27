@@ -28,6 +28,7 @@ Here is a list of the groups who are participating.
 - [Golang Vietnam](https://www.facebook.com/events/1651152271814093/) (Feb 23)
 - [Gophers Katowice](http://www.meetup.com/Gophers-Katowice/events/228375778/)
 - [GoSF](http://www.meetup.com/golangsf/events/226090306/)
+- [Boston Golang](http://www.meetup.com/Boston-Go-lang-User-Group/events/228398963/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
