@@ -30,6 +30,7 @@ Here is a list of the groups who are participating.
 - [GoSF](http://www.meetup.com/golangsf/events/226090306/)
 - [Boston Golang](http://www.meetup.com/Boston-Go-lang-User-Group/events/228398963/)
 - [Go-Tampa](http://www.meetup.com/Go-Tampa/events/227365472/)
+- [Atlanta](http://www.meetup.com/Go-Users-Group-Atlanta/events/228336134/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
