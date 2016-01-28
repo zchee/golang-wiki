@@ -33,7 +33,7 @@ We avoid Mondays to give the Go team a work day before to prepare for the cut,
 and we avoid Fridays to give the Go team a work day after in case the cut runs
 into unexpected problems.
 
-### January 15 / July 15: Planning for release begins.
+#### January 15 / July 15: Planning for release begins.
 
 Planning of major work for upcoming release cycle is announced
 on [golang-dev](https://groups.google.com/group/golang-dev).
@@ -43,7 +43,7 @@ Examples:
 [Go 1.5](https://groups.google.com/d/msg/golang-dev/2ZUi792oztM/GNsw1i76LhsJ),
 [Go 1.6](https://groups.google.com/d/msg/golang-dev/vNboccLL95c/XOD3vHKOCQAJ).
 
-### February 1 / August 1: Release work begins.
+#### February 1 / August 1: Release work begins.
 
 This milestone is delayed if the previous release has not yet been issued,
 but note that later milestones are not delayed.
@@ -55,7 +55,7 @@ ordinary release work.
 It is not appropriate to leave all bug fixes for the release freeze.
 See the [history](#history) section for more discussion.
 
-### May 1 / November 1: Release freeze begins.
+#### May 1 / November 1: Release freeze begins.
 
 This milestone begins the second half of the release cycle, the release freeze.
 The release freeze applies to the entire main repository
@@ -88,7 +88,7 @@ should have been fixed or explictly postponed (either to the next
 release or indefinitely). There should be few known bugs left,
 perhaps only the ones that have proven too elusive to chase down.
 
-### June 1 / December 1: Beta 1 issued.
+#### June 1 / December 1: Beta 1 issued.
 
 A beta release is meant to encourage testing to discover new bugs.
 Issuing a beta is an indication that the Go team has fixed nearly all the
@@ -115,7 +115,7 @@ Organizations can run integration or other tests against a beta
 or even use it in a canary setting, but they should be discouraged from
 deploying the beta for unrestricted production usage.
 
-### July 1 / January 1: Release candidate 1 issued.
+#### July 1 / January 1: Release candidate 1 issued.
 
 A release candidate is meant to be as close as possible to the actual release bits.
 Issuing a release candidate is an indication that the Go team has high confidence
@@ -153,7 +153,7 @@ The calm period between a release candidate and the final release
 is a good time for additional testing or for discussing the next release
 (see the January 15 milestone above).
 
-### August 1 / February 1: Release issued.
+#### August 1 / February 1: Release issued.
 
 Finally, the release itself!
 
