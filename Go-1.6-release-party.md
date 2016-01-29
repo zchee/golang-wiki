@@ -25,6 +25,7 @@ Here is a list of the groups who are participating.
 - [Software Craftsmanship Toulouse](http://www.meetup.com/fr-FR/Software-Craftsmanship-Toulouse/events/228285655/)
 - [Polish GLUG Meetup](http://www.meetup.com/GoLang-User-Group-Wroclaw/events/228369658/)
 - [Google Developer Group Gigcity](http://www.meetup.com/GDG-Gigcity/events/228373161/)
+- [Golang Montréal](https://golangmontreal.org)
 - [Golang Vietnam](https://www.facebook.com/events/1651152271814093/) (Feb 23)
 - [Gophers Katowice](http://www.meetup.com/Gophers-Katowice/events/228375778/)
 - [GoSF](http://www.meetup.com/golangsf/events/226090306/)
