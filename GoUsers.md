@@ -321,7 +321,7 @@
   * [Kikojas](http://www.kikojas.com) -- Kikojas is a LBS, focusing on local businesses of the whole country of Iran
 
 ## Italy
-  * [Trenìt!](http://www.trenit.info) -- Most popular mobile app for Italian trains schedules
+  * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
   
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
