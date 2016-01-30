@@ -40,6 +40,7 @@ Here is a list of the groups who are participating.
 - [Central Jersey Tech Meetup](http://www.meetup.com/Central-Jersey-Tech-Meetup/events/228461491/)
 - [Kansas City Golang Meetup](http://www.meetup.com/Kansas-City-Go-lang-Meetup/events/228467750/)
 - [Mexico City Gophers](http://www.meetup.com/GophersMX/events/228478343/)
+- [Women Who Go London](http://www.meetup.com/Women-Who-Go-London/events/228254901/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
