@@ -1204,6 +1204,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Scanner and Parser Generators
 
   * [ebnf2y](http://github.com/cznic/ebnf2y) - Utility for converting EBNF grammars into yacc compatible skeleton .y files.
+  * [flexgo](https://github.com/pebbe/flexgo) - A version of flex that can produce Go code.
   * [fsm](http://github.com/cznic/fsm) - FSM (NFA, DFA) utilities.
   * [gocc](http://code.google.com/p/gocc/) - Go Compiler Compiler
   * [golex](http://github.com/cznic/golex) - Lex/flex like fast (DFA) scanners generator.
