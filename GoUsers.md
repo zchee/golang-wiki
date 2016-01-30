@@ -267,33 +267,21 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
 
-
-
 ## Canada
-
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
-## Colombia
-
-  * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
-
-## China
-   
+## China   
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
 
-## Korea (South)
-  * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
+## Colombia
+  * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
-
-## Russia
-* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
-* [ITooLabs](http://itoolabs.com)
 
 ## India
   * [Betacraft](http://www.betacraft.co/)
@@ -322,6 +310,12 @@
 
 ## Italy
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
+
+## Korea (South)
+  * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
+
+## Lithuania
+  * [DATA-DOG](https://github.com/DATA-DOG)
   
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
@@ -329,18 +323,15 @@
 ## Morocco
   * [Avito](http://www.avito.ma)
 
+## Netherlands
+  * [localsensor](http://localsensor.com/)
+
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
 
-## United Kingdom
-  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
-  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
-  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
-  * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
-  * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
-  * [Geckoboard](https://www.geckoboard.com)
-  * [Sainsbury's](http://www.sainsburys.co.uk)
-
+## Russia
+* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
+* [ITooLabs](http://itoolabs.com)
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
@@ -371,14 +362,18 @@
 ## Turkey
   * [GramGames](http://gram.gs/)
 
-## The Netherlands
-  * [localsensor](http://localsensor.com/)
-
-## Lithuania
-  * [DATA-DOG](https://github.com/DATA-DOG)
-
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
+
+## United Kingdom
+  * [GOV.UK](http://www.gov.uk) - [slides](https://speakerdeck.com/nickstenning/http-building-a-new-router-for-gov-dot-uk) [github](https://github.com/alphagov/router) [blog](https://gdstechnology.blog.gov.uk/2013/12/05/building-a-new-router-for-gov-uk/)
+  * [HM Treasury, UK.gov](http://hm-treasury.gov.uk/) - [github](https://github.com/guidance-guarantee-programme/)
+  * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
+  * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
+  * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
+  * [Geckoboard](https://www.geckoboard.com)
+  * [Sainsbury's](http://www.sainsburys.co.uk)
+
 
 # Tried Go, but moved away
   * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
