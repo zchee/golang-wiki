@@ -38,6 +38,7 @@ Here is a list of the groups who are participating.
 - [Go Maryland](http://www.meetup.com/Go-Maryland/events/228445301/) (February 18)
 - [Orange County Gophers](http://www.meetup.com/Orange-County-Gophers/events/228458630/)
 - [Central Jersey Tech Meetup](http://www.meetup.com/Central-Jersey-Tech-Meetup/events/228461491/)
+- [Kansas City Golang Meetup](http://www.meetup.com/Kansas-City-Go-lang-Meetup/events/228467750/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
