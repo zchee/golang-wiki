@@ -14,6 +14,7 @@ Tools supporting this feature include:
  * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
  * [govend](https://github.com/gophersaurus/govend)
  * [Glide](https://github.com/Masterminds/glide)
+ * [Vendetta](https://github.com/dpw/vendetta)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
