@@ -325,6 +325,12 @@ Sorted by publication date.
     * ISBN: 978-5-94074-854-0
     * Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
 
+  * **Язык программирования Go**
+    * Author: Алан А. А. Донован, Брайан У. Керниган
+    * Publication Date: 2016-03-30
+    * ISBN: 978-5-8459-2051-5
+    * Reference: http://www.williamspublishing.com/Books/978-5-8459-2051-5.html
+
 #Español
   * **Aprende Go en Y minutos**
     * Author: Nacho Pacheco
