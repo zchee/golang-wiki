@@ -338,7 +338,7 @@
   * [Visionect d.o.o.](http://www.visionect.com)
 
 ## Southeast Asia
-  * [GrabTaxi](http://www.grabtaxi.com/)
+  * [Grab](http://www.grab.co/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
 
