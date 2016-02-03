@@ -23,6 +23,7 @@ Here is a list of the groups who are participating.
 - [Lviv Golang Group](http://www.meetup.com/Lviv-Golang-Group/events/228344940/)
 - [Edmonton Go](https://edmontongo.org/) (Feb 22)
 - [Software Craftsmanship Toulouse](http://www.meetup.com/fr-FR/Software-Craftsmanship-Toulouse/events/228285655/)
+- [Golang Paris](http://www.meetup.com/fr-FR/Golang-Paris/events/228563347/)
 - [Polish GLUG Meetup](http://www.meetup.com/GoLang-User-Group-Wroclaw/events/228369658/)
 - [Google Developer Group Gigcity](http://www.meetup.com/GDG-Gigcity/events/228373161/)
 - [Golang Montréal](https://golangmontreal.org) (Feb 22nd)
