@@ -32,6 +32,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Питер](http://www.meetup.com/Golang-Peter/) - Saint Petersburg, Russia.
   * [Munich Gophers](http://www.meetup.com/Munich-Gophers-Go-User-Group/) - Munich, Germany
   * [Golang Paris](http://www.meetup.com/Golang-Paris) - Paris, France.
+  * [Golang Rennes](http://www.meetup.com/Golang-Rennes/) - Rennes, France.
   * [golang-pl](https://groups.google.com/forum/?fromgroups#!forum/golang-pl) - Poland.
   * [Gophers Katowice](http://www.meetup.com/Gophers-Katowice) - Katowice, Poland.
   * [Golang Warsaw](http://www.meetup.com/Golang-Warsaw) - Warsaw, Poland.
