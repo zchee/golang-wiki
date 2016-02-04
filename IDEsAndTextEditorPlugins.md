@@ -49,4 +49,4 @@
   * **[Wide](https://github.com/b3log/wide)**: A <b>W</b>eb-based <b>IDE</b> for Teams using Go programming language/Golang.
   
 
-Other environments such as Xcode and Kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://code.google.com/p/go/source/browse/misc/?name=release-branch.go1.3
+Other environments such as Xcode and Kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://github.com/golang/go/tree/release-branch.go1.3/misc
