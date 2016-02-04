@@ -46,6 +46,7 @@ Here is a list of the groups who are participating.
 - [Go User Group Hamburg](http://www.meetup.com/Go-User-Group-Hamburg/events/228370048/)
 - [Golang Brasil - São Paulo](http://www.meetup.com/golangbr/events/228525183/) (Saturday, February 20)
 - [Zürich Gophers - Switzerland](http://www.meetup.com/Zurich-Gophers/events/228578365/)
+- [Golang Reston](http://www.meetup.com/Golang-Reston/events/228252844/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
