@@ -536,6 +536,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
+  * [date](https://github.com/rickb777/date) - For working with dates, date ranges, time spans, and time-of-day.
   * [Tideland golib](https://github.com/tideland/golib) - Timex extentions
 
 ## Development Tools
