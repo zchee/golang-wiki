@@ -48,6 +48,7 @@ Here is a list of the groups who are participating.
 - [Zürich Gophers - Switzerland](http://www.meetup.com/Zurich-Gophers/events/228578365/)
 - [Golang Reston](http://www.meetup.com/Golang-Reston/events/228252844/)
 - [GoMAD](http://www.meetup.com/go-mad/events/228591957/)
+- [GoCon](http://gocon.connpass.com/event/26572/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
