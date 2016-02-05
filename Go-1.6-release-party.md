@@ -35,7 +35,7 @@ Here is a list of the groups who are participating.
 - [Atlanta](http://www.meetup.com/Go-Users-Group-Atlanta/events/228336134/)
 - [GoAKL](http://www.meetup.com/Go-AKL/events/228436705/)
 - [Golang Barcelona](http://www.meetup.com/es-ES/Golang-Barcelona/events/228438675/)
-- [Golang Singapore](http://www.meetup.com/golangsg/events/228148961/)
+- [Golang Singapore](http://www.meetup.com/golangsg/events/228148961/) (February 18)
 - [Go Maryland](http://www.meetup.com/Go-Maryland/events/228445301/) (February 18)
 - [Orange County Gophers](http://www.meetup.com/Orange-County-Gophers/events/228458630/)
 - [Central Jersey Tech Meetup](http://www.meetup.com/Central-Jersey-Tech-Meetup/events/228461491/)
