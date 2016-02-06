@@ -64,7 +64,7 @@ As always, if you get stuck, or need help, please [contact the organisers direct
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://gophersinvite.herokuapp.com/).
 
 ##### Mailing list
-_Coming real soon_
+We have set up a [google groups mailing list](https://groups.google.com/forum/#!forum/go-meetup-organisers) for meetup organisers to ask questions. At the moment the list is focused on the event on the 17th, hopefully if that goes well the mailing list will become a useful resource in the future.
 
 ### What happens in a release party?
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
