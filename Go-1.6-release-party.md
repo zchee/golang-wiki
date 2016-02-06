@@ -54,10 +54,21 @@ Here is a list of the groups who are participating.
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
 
+### Stay in touch
+
+Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, discuss it online, and keep up to date. 
+
+As always, if you get stuck, or need help, please [contact the organisers directly](https://github.com/golang/go/wiki/Go-1.6-release-party#no-seriously-whos-organising-this), we're here to help.
+
+##### Slack Channel
+We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://gophersinvite.herokuapp.com/).
+
+##### Mailing list
+_Coming real soon_
+
 ### What happens in a release party?
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
 A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6.
-
 
 #### Go 1.6 slide deck
 Here a Go 1.6 presentation slide deck from the Go Sydney users' group. Feel free to use this for your meetup.
