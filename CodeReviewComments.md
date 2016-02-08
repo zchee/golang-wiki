@@ -8,7 +8,7 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 **Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
-* [goimports](#goimports)
+* [gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
 * [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
@@ -31,9 +31,9 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 * [Useful Test Failures](#useful-test-failures)
 * [Variable Names](#variable-names)
 
-## goimports
+## gofmt
 
-Run [goimports](https://github.com/bradfitz/goimports) on your code to automatically fix the majority of mechanical style issues as per `gofmt` (which almost all Go code uses) but also fixes unnecessary imports. As a result the import ordering can be slightly different after goimports so it helps us if you use it. You can configure your editor to run goimports on save, for example with GoSublime for Sublime Text or go-plus for Atom - this is recommended. The rest of this document addresses non-mechanical style points.
+Run [gofmt](http://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
 An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
