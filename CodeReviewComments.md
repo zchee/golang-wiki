@@ -35,6 +35,8 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 Run [goimports](https://github.com/bradfitz/goimports) on your code to automatically fix the majority of mechanical style issues as per `gofmt` (which almost all Go code uses) but also fixes unnecessary imports. As a result the import ordering can be slightly different after goimports so it helps us if you use it. You can configure your editor to run goimports on save, for example with GoSublime for Sublime Text or go-plus for Atom - this is recommended. The rest of this document addresses non-mechanical style points.
 
+An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
+
 ## Comment Sentences
 
 See http://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
