@@ -168,6 +168,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
   * [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
+  * [ltst](https://github.com/marcelpuyat/ltst) - View the latest news of your choosing right in your terminal
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
   * [pjs](http://jcasts.github.io/pjs) - Pretty print and search through JSON data structures fast.
