@@ -1280,6 +1280,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [kview](https://github.com/ziutek/kview) - Simple wrapper for kasia.go templates. It helps to modularize content of a website
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
   * [NTemplate](https://github.com/yohcop/ntemplate.go) - Nested Templates
+  * [parse](https://github.com/rymis/parse) - PEG parser that uses reflection to define grammar
   * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
