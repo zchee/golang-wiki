@@ -53,6 +53,7 @@ Here is a list of the groups who are participating.
 - [GDG Golang Berlin](http://www.meetup.com/golang-users-berlin/events/228632499/)
 - [ATX Golang](http://www.meetup.com/atxgolang/events/226396146/)
 - [GoCon Tokyo](http://gocon.connpass.com/event/26572/)
+- [Golang Italian Hackers, at Develer](https://www.eventbrite.it/e/biglietti-go-16-release-party-21450150979)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
