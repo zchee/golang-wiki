@@ -50,7 +50,7 @@ Here is a list of the groups who are participating.
 - [Golang Reston](http://www.meetup.com/Golang-Reston/events/228252844/)
 - [GoMAD](http://www.meetup.com/go-mad/events/228591957/)
 - [GoCon](http://gocon.connpass.com/event/26572/)
-- [GDG Golang Berlin](http://www.meetup.com/golang-users-berlin/events/228632499/)
+- [GDG Golang Berlin](http://www.meetup.com/golang-users-berlin/events/228632499/) (Feb 17)
 - [ATX Golang](http://www.meetup.com/atxgolang/events/226396146/)
 - [GoCon Tokyo](http://gocon.connpass.com/event/26572/)
 - [Golang Italian Hackers, at Develer](https://www.eventbrite.it/e/biglietti-go-16-release-party-21450150979)
