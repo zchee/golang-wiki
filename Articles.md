@@ -70,7 +70,7 @@ Table of Contents
   * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
- * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
+  * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
 
 ## Containers & Docker
 
