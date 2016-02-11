@@ -280,7 +280,7 @@
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
 
 ## France
-  * [Digikong](https://digikong.io)
+  * [Digikong](http://digikong.io)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
