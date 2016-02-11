@@ -57,6 +57,7 @@ Table of Contents
 
 ## Concurrency / Channels
 
+  * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
   * [Very basic concurrency for beginners in Go](https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.n831uhdiq) _2015-11-18_
   * [Exploting Powerful Cloud Services with Go](https://medium.com/@sathishvj/exploiting-your-powerful-cloud-servers-with-go-lang-s-concurrency-eae5f4c7526) _2015-10-11_
   * [3 Trivial Concurrency Exercises for the Confused Newbie Gopher](http://whipperstacker.com/2015/10/05/3-trivial-concurrency-exercises-for-the-confused-newbie-gopher/) _2015-10-05_
@@ -70,7 +71,6 @@ Table of Contents
   * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
-  * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
 
 ## Containers & Docker
 
