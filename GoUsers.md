@@ -279,6 +279,9 @@
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
 
+## France
+  * [Digikong](https://digikong.io)
+
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
