@@ -260,7 +260,7 @@
 
 
 ## Australia
-  * [DGraph Labs](https://github.com/dgraph-io/dgraph)
+  * [DGraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
 
 
 ## Brazil
