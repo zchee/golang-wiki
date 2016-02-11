@@ -21,6 +21,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [GoLang Tutorials](http://golangtutorials.blogspot.com/)
 * [Mathias Lafeldt's Blog](https://mlafeldt.github.io/)
 * [Marcelo Magallon's Blog](http://blog.ksub.org/bytes/)
+* [Mina Andrawos's Blog Go's section](http://www.minaandrawos.com/category/golang-2/)
 
 ## Portuguese
 
