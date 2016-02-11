@@ -350,6 +350,7 @@
   * [Cabify](https://cabify.com/) - [github](https://github.com/cabify/), [twitter](https://twitter.com/cabifydev)
   * [jobandtalent](https://www.jobandtalent.com)
   * [Ximdex](http://www.ximdex.com)
+  * [puzzlopia](http://www.puzzlopia.com) - [github](https://github.com/puzzlopia/puzzle-solvers)
 
 ## Sweden
   * [Min Doktor](https://mindoktor.se/)
