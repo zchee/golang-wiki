@@ -259,6 +259,10 @@
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
 
 
+## Australia
+  * [DGraph Labs](https://github.com/dgraph-io/dgraph)
+
+
 ## Brazil
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [GissOnline](http://www.gissonline.com.br)
