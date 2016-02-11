@@ -54,7 +54,7 @@ Here is a list of the groups who are participating.
 - [ATX Golang](http://www.meetup.com/atxgolang/events/226396146/)
 - [GoCon Tokyo](http://gocon.connpass.com/event/26572/)
 - [Golang Italian Hackers, at Develer](https://www.eventbrite.it/e/biglietti-go-16-release-party-21450150979)
-- [Go London User Group](http://www.meetup.com/Go-London-User-Group/)
+- [Go London User Group](http://www.meetup.com/Go-London-User-Group/events/228371135/)
 - [Seattle Go Programmers](http://www.meetup.com/golang/events/228465356/)
 
 _If your group is not listed here yet, edit the page and add yourself._
