@@ -76,7 +76,10 @@ We have set up a [google groups mailing list](https://groups.google.com/forum/#!
 Go 1.6 is the 7th release of the language which has been open source since November 10th, 2009 -- that's 6.5 years since the project was open sourced and nearly 4 years since the 1.0 release.
 A lot has changed in the language since 1.0, so this is a great opportunity to discuss the improvements landing 1.6.
 
-#### Go 1.6 slide deck
+#### Resources
+
+Francesc Campoy presented his _State of Go_ talk at FOSDEM, which includes details of the upcoming Go 1.6 release. [His slide are available online](https://talks.golang.org/2016/state-of-go.slide#1).
+
 Here a Go 1.6 presentation slide deck from the Go Sydney users' group. Feel free to use this for your meetup.
 
 [talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide](http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide)
