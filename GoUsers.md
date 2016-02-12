@@ -104,6 +104,7 @@
   * [Getty Images](http://www.gettyimages.com) - [tweet](https://twitter.com/TrevorBramble/status/441372661336113152) [tweet](https://twitter.com/ickypop/status/441470245492908032)
   * [GitHub](https://github.com) - [blog post](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
+  * [Grovo](https://grovo.com)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
