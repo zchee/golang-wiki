@@ -90,6 +90,7 @@ You can deploy .app files by dragging and dropping them to the device.
 * In Xcode, open Window > Devices.
 * Select the physical device from the left pane.
 * Drag and drop the .app file to "Installed Apps" section.
+* Check the "Copy items if needed" option
 
 ![Deploying app bundle](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-ios-deploy.png)
 
