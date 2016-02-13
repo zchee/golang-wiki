@@ -56,6 +56,7 @@ Here is a list of the groups who are participating.
 - [Golang Italian Hackers, at Develer](https://www.eventbrite.it/e/biglietti-go-16-release-party-21450150979)
 - [Go London User Group](http://www.meetup.com/Go-London-User-Group/events/228371135/)
 - [Seattle Go Programmers](http://www.meetup.com/golang/events/228465356/)
+- [Vilnius Golang](http://www.meetup.com/Vilnius-Golang/events/228751719/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
