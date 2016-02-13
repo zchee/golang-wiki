@@ -271,6 +271,7 @@
   * [Hotel Urbano](http://www.hotelurbano.com)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
+  * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
 
 ## Canada
