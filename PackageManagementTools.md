@@ -26,9 +26,9 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Author     |Matt Butcher and Matt Farina     |
 |Categories |Retrieve and manage packages in your `vendor/` directory using the `GO15VENDOREXPERIMENT`. |
 |           |                              |
-| **gopm**   |https://github.com/GPMGo/gopm |
-|Title       |Tool for search, install, update, share packages in Go|
-|Author      |Am Laher                      |
+| **gopm**   |https://github.com/gpmgo/gopm |
+|Title       |Package manage and build tool in Go|
+|Author      |Jiahua Chen                     |
 |Categories  |Revision Locking (git, mercurial, bazaar). Copies into ".vendor/src".|
 |           |                              |
 | **gom**   |https://github.com/mattn/gom  |
