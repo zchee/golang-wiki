@@ -58,7 +58,7 @@ Here is a list of the groups who are participating.
 - [Seattle Go Programmers](http://www.meetup.com/golang/events/228465356/)
 - [Vilnius Golang](http://www.meetup.com/Vilnius-Golang/events/228751719/)
 - [Go DC](http://www.meetup.com/Golang-DC/events/228378173/)
-- [GDG Korea Golang](https://plus.google.com/u/0/events/cku5socs07a6o3oihdqu3dfvhf70) (Feb 22)
+- [GDG Korea Golang](https://plus.google.com/u/0/events/cku5socs07a6o3oihqu3dfvhf70) (Feb 22)
 - [Golang ZG, Zagreb Croatia] (http://www.meetup.com/Golang-ZG/events/228863217/)
 - [Gophers-ir Iran/Tehran] (https://evand.ir/events/gophers-16) (February 18)
 - [Golang Brazil - Porto Alegre](https://www.facebook.com/events/980566935370382/) (February 17)
