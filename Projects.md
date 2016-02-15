@@ -1615,3 +1615,4 @@ The following entries have not been filed. Please help by putting these in relev
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
+  * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
