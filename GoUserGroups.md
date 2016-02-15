@@ -36,6 +36,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [golang-pl](https://groups.google.com/forum/?fromgroups#!forum/golang-pl) - Poland.
   * [Gophers Katowice](http://www.meetup.com/Gophers-Katowice) - Katowice, Poland.
   * [Golang Warsaw](http://www.meetup.com/Golang-Warsaw) - Warsaw, Poland.
+  * [G.L.U.G. Wroclaw](http://www.meetup.com/GoLang-User-Group-Wroclaw/) - Wroclaw, Poland
   * [Go-Stockholm](http://www.meetup.com/Go-Stockholm/) - Stockholm, Sweden.
   * [GolangIT](http://golangit.github.io/) - Italy.
   * [Go-Turkey](https://plus.google.com/communities/101920753066440157216) - Turkey.
