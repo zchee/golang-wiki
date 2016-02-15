@@ -58,6 +58,7 @@ Here is a list of the groups who are participating.
 - [Seattle Go Programmers](http://www.meetup.com/golang/events/228465356/)
 - [Vilnius Golang](http://www.meetup.com/Vilnius-Golang/events/228751719/)
 - [Go DC](http://www.meetup.com/Golang-DC/events/228378173/)
+- [GDG Korea Golang](https://plus.google.com/u/0/events/cku5socs07a6o3oihqu3dfvhf70/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
