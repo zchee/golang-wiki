@@ -1,7 +1,7 @@
 # Rate Limiting
 
 To limit the rate of operations per unit time, use a [time.Ticker](http://golang.org/pkg/time/#NewTicker).
-This works well for rates up to 10s per second.
+This works well for rates up to tens of operations per second.
 For higher rates, prefer a token bucket rate limiter (search godoc.org for
 [rate limit](http://godoc.org/?q=rate+limit)).
 
