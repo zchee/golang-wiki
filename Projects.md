@@ -681,6 +681,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Ludo Game](http://ludo.abiosoft.net) - Ludo Board game powered by Go on Appengine
   * [pinkman](https://github.com/jubalh/pinkman) - command line based chess interface to UCI compatible chess engines
   * [Pong](https://github.com/LaurenceGA/Pong) - A simple Pong clone written in golang
+  * [pong-command](https://github.com/kurehajime/pong-command) - Joke command,ping-like pong.
   * [Steven](https://github.com/thinkofdeath/steven) - A Minecraft client in Go
   * [WolfenGo](https://github.com/gdm85/wolfengo) - A Wolfenstein3D clone in Go, using OpenGL 2.1
 
