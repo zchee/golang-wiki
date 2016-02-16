@@ -64,6 +64,7 @@ Here is a list of the groups who are participating.
 - [Golang Brazil - Porto Alegre](https://www.facebook.com/events/980566935370382/) (February 17)
 - [Seattle Go Programmers] (http://www.meetup.com/golang/events/228465356/) (Wed February 17)
 - [Go Cape Town] (http://www.meetup.com/gocapetown/events/228874257/)
+- [Austin Go Language User Group](http://www.meetup.com/atxgolang/) (Wed February 17)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
