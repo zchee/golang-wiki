@@ -12,7 +12,7 @@ Tools supporting this feature include:
  * [vexp](https://github.com/kr/vexp)
  * [gv](https://github.com/forestgiant/gv)
  * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
- * [govend](https://github.com/gophersaurus/govend)
+ * [govend](https://github.com/govend/govend)
  * [Glide](https://github.com/Masterminds/glide)
  * [Vendetta](https://github.com/dpw/vendetta)
 
@@ -46,7 +46,7 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Author     |Nitrous.IO                    |
 |Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
 |           |   
-| **govend** |https://github.com/gophersaurus/govend |
+| **govend** |https://github.com/govend/govend |
 |Title       |A simple tool to vendor dependencies   |
 |Author      |Jack Spirou                            |
 |Categories  |Vendor and lock revisions of packages in `vendor/` via the `GO15VENDOREXPERIMENT`. |
