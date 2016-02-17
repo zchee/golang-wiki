@@ -240,7 +240,7 @@ Sorted by publication date.
     * Translator: chai2010, Xargin, CrazySssst, foreversmart
     * Publication Date: 2006-02-01
     * ISBN: ---
-    * Reference: http://golang-china.github.io/gopl-zh/
+    * Reference: https://bitbucket.org/golang-china/gopl-zh
 
   * **学习 Go 语言** (e-book / Translation)
     * Author: Xing Xing (mikespook)
