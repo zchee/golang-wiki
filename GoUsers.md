@@ -339,6 +339,9 @@
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
 
+## Portugal
+  * [AppGeneration](http://appgeneration.com/)
+
 ## Russia
 * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
 * [ITooLabs](http://itoolabs.com)
