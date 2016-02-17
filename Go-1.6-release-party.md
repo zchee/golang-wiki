@@ -65,6 +65,7 @@ Here is a list of the groups who are participating.
 - [Seattle Go Programmers] (http://www.meetup.com/golang/events/228465356/) (Wed February 17)
 - [Go Cape Town] (http://www.meetup.com/gocapetown/events/228874257/)
 - [Golang Hong Kong] (http://www.meetup.com/GolangHK/events/228551636/)
+- [Golang Lima] (http://www.meetup.com/es-ES/Golang-Peru/events/228643682/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
