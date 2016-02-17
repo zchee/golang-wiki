@@ -193,7 +193,6 @@
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
   * [Sagan Systems](http://sagansystems.com/) - [HN](https://news.ycombinator.com/item?id=10659830)
-  * [Sajari](https://www.sajari.com) - [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
   * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
@@ -262,7 +261,7 @@
 
 ## Australia
   * [DGraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
-
+  * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
 
 ## Brazil
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
