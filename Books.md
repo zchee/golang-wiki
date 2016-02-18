@@ -203,6 +203,13 @@ Sorted by publication date.
     * ISBN: ---
     * References: http://www.learngolangthehardway.org/
 
+  * **Web apps in Go, the anti textbook** (e-book)
+    * Author: Suraj Patil
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook
+
+
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
