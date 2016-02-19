@@ -251,7 +251,7 @@ The name of a method's receiver should be a reflection of its identity; often a 
 
 ## Receiver Type
 
-Choosing whether to use a value or pointer receiver on methods can be difficult, especially to new Go programmers.  If in doubt, use a pointer, but there are times when a value receiver makes sense, usually for reasons of efficiency, such as for small unchanging structs or values of basic type. Some rules of thumb:
+Choosing whether to use a value or pointer receiver on methods can be difficult, especially to new Go programmers.  If in doubt, use a pointer, but there are times when a value receiver makes sense, usually for reasons of efficiency, such as for small unchanging structs or values of basic type. Some useful guidelines:
 
   * If the receiver is a map, func or chan, don't use a pointer to it.
   * If the receiver is a slice and the method doesn't reslice or reallocate the slice, don't use a pointer to it.
