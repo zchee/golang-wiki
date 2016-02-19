@@ -648,6 +648,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [codec-msgpack-binc](https://github.com/ugorji/go/tree/master/codec#readme) High Performance and Feature-Rich Idiomatic Go Library providing encode/decode support for multiple binary serialization formats: [msgpack](http://www.msgpack.org)
   * [gobson](http://labix.org/gobson) - BSON (de)serializer
   * [go-charset](http://code.google.com/p/go-charset/) - Conversion between character sets. Native Go.
+  * [go.enmime](https://github.com/jhillyerd/go.enmime) - MIME email parser library for Go (native)
   * [go-msgpack](https://github.com/ugorji/go-msgpack) - Comprehensive MsgPack library for Go, with pack/unpack and net/rpc codec support (DEPRECATED in favor of [codec](https://github.com/ugorji/go/tree/master/codec#readme) )
   * [gopack](https://github.com/joshlf13/gopack) - Bit-packing for Go
   * [go-simplejson](https://github.com/bitly/go-simplejson) - a Go package to interact with arbitrary JSON
