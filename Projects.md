@@ -401,6 +401,9 @@ If you find a project in this list that is dead or broken, please either mark it
 
 See also [[SQLDrivers page|SQLDrivers]].
 
+### CockroachDB
+  * [cockroachdb](https://github.com/cockroachdb/cockroach) - A Scalable, Survivable, Strongly-Consistent SQL Database
+
 ### MongoDB
 
   * [mgo](http://labix.org/mgo) - Rich MongoDB driver for Go
