@@ -887,6 +887,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mt19937\_64](https://github.com/farces/mt19937_64) - Mersenne Twister int64 random source
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
   * [primes](https://github.com/fxtlabs/primes) - Simple functionality for working with prime numbers.
+  * [prime](https://github.com/kavehmz/prime) - Go version of Segmented Sieve and non Segmented sieve to produce prime numbers
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [roger](https://github.com/senseyeio/roger) - A Go client for the RServer, allowing you to invoke R programs from Go.
