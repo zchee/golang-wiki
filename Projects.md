@@ -1080,6 +1080,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [iris-go](https://github.com/karalabe/iris-go) - Go binding for the Iris decentralized messaging framework.
   * [iris](http://iris.karalabe.com) - Peer-to-peer messaging for back-end decentralization.
   * [kafka.go](https://github.com/jdamick/kafka.go) - Producer & Consumer for the Kafka messaging system
+  * [lcvpn](https://github.com/kanocz/lcvpn) - Decentralized VPN implementation
   * [ldap](https://github.com/mmitton/ldap) - Basic LDAP v3 functionality for the GO programming language.
   * [mbxchan](https://bitbucket.org/levarnon/mbx) - An easy communication between distributed Go applications using standard Go channels and remote procedure calls.
   * [nagiosplugin](https://github.com/fractalcat/nagiosplugin) - package for writing Nagios/monitoring plugins
