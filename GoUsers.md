@@ -287,6 +287,7 @@
 
 ## France
   * [Digikong](http://digikong.io)
+  * [Rive](http://app.rive.world)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
