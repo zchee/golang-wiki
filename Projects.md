@@ -1578,6 +1578,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [user\_agent](https://github.com/mssola/user_agent) - An HTTP User-Agent parser
   * [webtestutil](https://github.com/chlu/webtestutil) - Web and HTTP functional testing utilities. Includes Gorilla testing support.
   * [aop](https://github.com/gogap/aop) - Aspect Oriented Programming For Go.
+  * [yt2pod](https://github.com/frou/yt2pod) - Daemon that monitors YouTube channels and publishes audio podcasts of them
 
 ## Windows
 
