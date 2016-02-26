@@ -3,10 +3,11 @@ This page links to resources for learning about server programming in Go - both 
 ## Getting Started
 
 - Read [Writing Web Applications with the Go standard library](http://golang.org/doc/articles/wiki/)
-- Read [Building Web Applications in Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits.
-- Read [Build a Web Application With Go](https://github.com/astaxie/build-web-application-with-golang) from the author of the [BeeGo web framework](http://beego.me/)
-- Read [Building Your Own Web Framework in Go](https://www.nicolasmerouze.com/build-web-framework-golang/) a 5-part series.
 - Code [A Tour of Go: Web Servers](http://tour.golang.org/methods/13) and [HTTP Handlers](http://tour.golang.org/methods/14)
+- Read [Build a Web Application With Go](https://github.com/astaxie/build-web-application-with-golang) from the author of the [BeeGo web framework](http://beego.me/)
+- Read [Webapps in Go the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
+- Read [Building Web Applications in Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits. First learn the absolute basics before going to this book.
+- Read [Building Your Own Web Framework in Go](https://www.nicolasmerouze.com/build-web-framework-golang/) a 5-part series.
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
 - Download a [full working 3-tier application example](https://github.com/sourcegraph/thesrc) from the Sourcegraph Team.
 
