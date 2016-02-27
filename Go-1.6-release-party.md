@@ -1,3 +1,8 @@
+### Party recap on tweets
+
+Missed or missing the party? Here is a flashback for you: https://storify.com/gobridge/go-16v-world-release-party
+
+----
 ### What's happening?
 To celebrate the release of Go 1.6 we're organising a world wide release party on February the 17th, 2016. 
 
