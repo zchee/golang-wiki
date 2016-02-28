@@ -45,3 +45,5 @@ Go is a great language for CS majors. This page presents some university courses
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
 
   * University of Stavanger, Norway. We use Go to build a replicated state machine based on Paxos in DAT520 Distributed Systems. http://www.uis.no/studies/study-courses/?code=DAT520_1&parentcat=9835
+
+  * Moscow State University, Russia. Go is used in graduate course on "Selected Topics in Distributed Systems Engineering"
