@@ -30,7 +30,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Console User Interface](#console-user-interface)
 * [Continuous Integration](#continuous-integration)
 * [Cryptography](#cryptography)
-* [Databases and Storage](#databases-and-storage)
+* [Databases](#databases)
 * [Data Processing](#data-processing)
 * [Data Structures](#data-structures)
 * [Date](#date)
@@ -67,6 +67,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Simulation Modeling](#simulation-modeling)
 * [Sorting](#sorting)
 * [Source Code Management](#source-code-management)
+* [Storage](#storage)
 * [Strings and Text](#strings-and-text)
 * [Testing](#testing)
 * [Unix](#unix)
@@ -397,7 +398,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [x2j](https://github.com/clbanning/x2j) - Unmarshal XML doc into `map[string]interface{}` or JSON
   * [xlsx](https://github.com/tealeg/xlsx) - A library to help with extracting data from Microsoft Office Excel XLSX files.
 
-## Databases and Storage
+## Databases
 
 See also [[SQLDrivers page|SQLDrivers]].
 
@@ -1254,6 +1255,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hggofmt](http://bitbucket.org/ede/hggofmt/) - A Mercurial/hg extension with a hook to
   * [nut](https://github.com/AlekSi/nut) - Nut is a tool to manage versioned Go source code packages, called "nuts".
   * [vcstool](https://github.com/wjwwood/vcstool) - VCS abstraction tool
+
+## Storage
+
+  * [Minio](https://minio.io/) - Object Storage compatible with Amazon S3 API
 
 ## Strings and Text
 
