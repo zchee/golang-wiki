@@ -1200,7 +1200,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Shuffle](https://github.com/earthboundkid/shuffle) - Implementation of the Fisher–Yates shuffle (or Knuth shuffle) in Go.
 
 ## Resource Embedding
-
+  * [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
   * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
   * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
