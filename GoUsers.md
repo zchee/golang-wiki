@@ -364,6 +364,7 @@
   * [puzzlopia](http://www.puzzlopia.com) - [github](https://github.com/puzzlopia/puzzle-solvers)
 
 ## Sweden
+  * [Kiliaro](https://kiliaro.com/)
   * [Min Doktor](https://mindoktor.se/)
   * [Slagkryssaren] (https://slagkryssaren.com/)
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
