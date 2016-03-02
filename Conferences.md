@@ -15,6 +15,7 @@ Please keep all items in chronological order.
 | GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
 | GopherCon China | 2016-04-16 | Beijing, China | |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
+| Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 
 ## Archives
