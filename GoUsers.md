@@ -346,7 +346,6 @@
   * [AppGeneration](http://appgeneration.com/)
 
 ## Russia
-* [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
 * [ITooLabs](http://itoolabs.com)
 
 ## Slovenia
