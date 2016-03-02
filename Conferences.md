@@ -8,9 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| Golab | 2015-12-15 | Florence, Italy | http://www.golab.io |
-| Gopher Gala | 2016-01-22 | Earth | http://gophergala.com/ |
-| FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
 | GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in |
 | GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
 | GopherCon China | 2016-04-16 | Beijing, China | |
@@ -24,6 +21,9 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| FOSDEM | 2016-01-30 | Brussels, Belgium | https://fosdem.org/2016/ |
+| Gopher Gala | 2016-01-22 | Earth | http://gophergala.com/ |
+| Golab | 2015-12-15 | Florence, Italy | http://www.golab.io |
 | GoCon Tokyo | 2015-12-06 | Tokyo, Japan | http://gocon.connpass.com |
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
 | dotGo    | 2015-11-09 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMWwKlp9xoYX4mlNDdkCOfsUG_40WCMCX) |
