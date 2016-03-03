@@ -68,14 +68,14 @@ Slice elements are almost identical to variables.  Because they are addressable,
 Map elements are not addressable.  Therefore, the following is an _illegal_ operation:
 
 ```go
-lists := map[string]List
+lists := map[string]List{}
 lists["primes"].Append(7) // cannot be rewritten as (&lists["primes"]).Append(7)
 ```
 
 However, the following is still valid (and is the far more common case):
 
 ```go
-lists := map[string]*List
+lists := map[string]*List{}
 lists["primes"] = new(List)
 lists["primes"].Append(7)
 count := lists["primes"].Len() // can be rewritten as (*lists["primes"]).Len()
