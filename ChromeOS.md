@@ -1,8 +1,8 @@
 # Introduction
-This tutorial will show you how to install/build/run go on chrome OS. I have tested this using a chrome book Pixel however i do not have any other types of chrome books. However this should work as long as you install the corresponding Linux package for your processor.
+This tutorial will show you how to install/build/run go on chrome OS. I have tested this using a Chromebook Pixel, however I do not have any other types of Chromebooks. However, this should work as long as you install the corresponding Linux package for your processor.
 
 # Requirements
-Your chrome book must be in developer mode for this to work. Also please note this has only been tested on a 64gb LTE Pixel however it should work on other chrome books
+Your Chromebook must be in developer mode for this to work. Also please note this has only been tested on a 64gb LTE Pixel, however it should work on other Chromebooks
 
 # Install Go
 First download the latest version of Go for Linux-amd64 from the [Go Downloads page](http://golang.org/dl/) after that open a shell by hitting (Crtl+alt+t) and typing in "shell" then hit enter. Then extract it using the following command.
