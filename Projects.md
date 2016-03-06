@@ -6,6 +6,7 @@ These sites provide indexes and search engines for Go packages:
   * [godoc.org](http://godoc.org/) - A documentation browser for any Go open source package.
   * [go-hardware](https://github.com/rakyll/go-hardware) - Curated list of resources for using Go on non-standard hardware.
   * [Golang Data Science](http://www.mjhall.org/golang-data-science-libraries/) - Curated list of data science libraries for Go.
+  * [go-patterns](https://github.com/tmrts/go-patterns) - A curated list of Go patterns and idioms.
   * [gopm.io](http://gopm.io/) - Download Go packages by version
   * [go-search](http://go-search.org/) - Search engine dedicated to Go projects and source.
   * [Go Report Card](http://goreportcard.com/) - Code quality summaries for any Go project.
