@@ -49,7 +49,7 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 | **govend** |https://github.com/govend/govend |
 |Title       |A simple tool to vendor Go package dependencies. It's like `go get` for vendoring.   |
 |Author      |Jack Spirou                            |
-|Categories  | Vendor and lock revisions of packages recursively into "vendor" with `go get` commands/flags. Supports Go 1.5+ and Windows. Does not alter `$GOPATH` and works with normal `go` commands/tooling. |
+|Categories  | Vendor and lock revisions of packages recursively into the "vendor" directory with `go get` commands/flags. Supports Go 1.5+ and Windows. Does not alter `$GOPATH` and works with normal `go` commands/tooling. |
 
 ## Pkg copy, build using GOPATH  modification
 
