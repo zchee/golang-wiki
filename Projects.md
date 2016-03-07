@@ -998,6 +998,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [symutils](https://github.com/salviati/symutils) - Various tools and libraries to handle symbolic links
   * [twitterfetcher](https://bitbucket.org/georgebaev/twitterfetcher) - A tool to make Twitter API requests using the [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
   * [udis86](https://github.com/jroimartin/udis86) - Go bindings for libudis86
+  * [ugo](https://github.com/alxrm/ugo) - underscore.js like toolbox for Go
   * [Vboxgo](https://github.com/th4t/vboxgo) - user-like access to VirtualBox VMs from Go.
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
