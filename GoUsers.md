@@ -390,6 +390,7 @@
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
   * [Geckoboard](https://www.geckoboard.com)
+  * [Restorepoint](http://www.restorepoint.com)
   * [Sainsbury's](http://www.sainsburys.co.uk)
 
 
