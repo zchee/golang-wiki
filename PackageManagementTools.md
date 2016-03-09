@@ -30,7 +30,6 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Categories |Vendoring, Version/Commit locking, Pruning unimported code, Using package forks. Does not support Windows. |
 |           |                              |
 | **glide** |https://github.com/Masterminds/glide|
-|:----------|:-----------------------------|
 |Title      |Lightweight Vendor Package Manager|
 |Author     |Matt Butcher and Matt Farina     |
 |Categories |Retrieve and manage packages in your `vendor/` directory using the `GO15VENDOREXPERIMENT`. |
