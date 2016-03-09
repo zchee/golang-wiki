@@ -4,6 +4,8 @@ This page contains a list of tools for managing Go packages and their dependenci
 
 As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/EOKSoaL5p8wJ), the Go toolchain includes an experimental vendoring flag, `GO15VENDOREXPERIMENT`. This is now part of the Go 1.5 release and represents the Go team's recommended approach to vendoring dependencies. You can read more about how this environment variable works in the [Go 1.5 documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories) and the [original design document](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/view). For a more detailed explanation, check out [this post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3) by [@freeformz](https://twitter.com/freeformz) or [this short explainer](http://engineeredweb.com/blog/2015/go-1.5-vendor-handling/) from Engineered Web.
 
+Go 1.6 release makes this behaviour the default, so you no longer need to have `GO15VENDOREXPERIMENT` set. 
+
 Tools supporting this feature include:
 
  * [Godep](https://github.com/tools/godep)
@@ -15,11 +17,18 @@ Tools supporting this feature include:
  * [govend](https://github.com/govend/govend)
  * [Glide](https://github.com/Masterminds/glide)
  * [Vendetta](https://github.com/dpw/vendetta)
+ * [trash](https://github.com/rancher/trash)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
 Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VENDOREXPERIMENT` to reference the local package store. Not only records specific version, but also fetches specific version.
 
+| **trash** |https://github.com/rancher/trash|
+|:----------|:-----------------------------|
+|Title      |Minimalistic Go vendored code manager|
+|Author     |Ivan Mikushin, Darren Shepherd     |
+|Categories |Vendoring, Version/Commit locking, Pruning unimported code, Using package forks. Does not support Windows. |
+|           |                              |
 | **glide** |https://github.com/Masterminds/glide|
 |:----------|:-----------------------------|
 |Title      |Lightweight Vendor Package Manager|
