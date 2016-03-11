@@ -281,6 +281,9 @@
   * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
 
+## Croatia
+  * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
+
 ## China   
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
 
