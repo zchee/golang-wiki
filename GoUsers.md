@@ -331,7 +331,7 @@
   * [EyeSight](http://eyesight-tech.com) 
   * [ironSource](http://www.ironsrc.com) 
   * [Protected Media](http://www.protected.media) 
-  * [TechedUp](www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
+  * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
   * [Yodas](https://yodas.com) 
 
 ## Italy
