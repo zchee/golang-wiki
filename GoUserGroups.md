@@ -49,6 +49,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Ljubljana](http://www.meetup.com/Slovenian-Go-lang-User-Group/) - Ljubljana, Slovenia
   * [Go Euregio](https://plus.google.com/communities/116272759718686417490) - Maastricht, Netherlands; Liège/Hasselt, Belgium; Aachen, Germany
   * [Ukrainian Golang User Group](http://www.meetup.com/uagolang/) - Kyiv, Ukraine
+  * [L'viv Golang Group](http://www.meetup.com/Lviv-Golang-Group/) - L'viv, Ukraine
 
 # North America
 
