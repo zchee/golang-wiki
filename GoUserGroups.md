@@ -11,7 +11,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
   * [GDG Korea Golang](https://plus.google.com/u/0/communities/115721275599816202991) - Korea.
-  * [Golang VN](https://plus.google.com/communities/104475612935018972341) - Vietnam
+  * [Golang Vietnam](https://www.facebook.com/golang.org.vn) - [github](https://github.com/golang-vietnam) -  Vietnam 🇻🇳
   * [Golang Taiwan](http://golang.tw) - Taiwan.
   * [Golang India](https://plus.google.com/communities/102083447604771785504) - Bangalore, India.
   * [Golang Pune](https://plus.google.com/communities/103673348666338246281) - Pune, India.
