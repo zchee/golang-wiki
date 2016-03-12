@@ -101,6 +101,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [golang-sydney](http://www.meetup.com/golang-syd/) - Sydney, Australia.
   * [golang-nz](http://groups.google.com/group/golang-nz) - New Zealand.
   * [Melbourne-Go-Nuts](http://www.meetup.com/Melbourne-Go-Nuts) - Melbourne, Australia.
+  * [Brisbane Gophers](http://www.meetup.com/Brisbane-Golang-Meetup/) - Brisbane, Australia.
 
 # South America
   * [Golang Brasil](http://www.golangbr.org) - Brazil.
