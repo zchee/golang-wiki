@@ -26,7 +26,7 @@ Older-style builders are listed below. These builders are configured and run man
 | linux-ppc64 | KVM instance on physical 8-core POWER7 pSeries. Chip rev: 2.1 (pvr 004b 0201) | bradfitz, rsc  |           |
 | linux-ppc64-minux | Gentoo on PowerMac G5 (dual 2.7GHz ppc970fx) | minux  |           |
 | linux-mips64le-cherry | Gentoo on Loongson 2F 800MHz, 1GB DDR2 | cherry | builds sharded on three machines |
-| linux-mips64le-stitch | Cavium Octeon II CN6880, 32-core @ 2GHz, 8GB RAM | Ed Swierk | Debian sid, no FPU |
+| linux-mips64le-stitch | Cavium Octeon II CN6880, 32-core @ 1GHz, 8GB RAM | Ed Swierk | Debian sid, no FPU |
 | linux-mips64-minux | Gentoo on EdgeRouter Lite, 500MHz dual core MIPS64r2, 512MB | minux |           |    
 | nacl-arm  | samsung chromebook | rsc       | running chrubuntu |
 | nacl-arm-cheney | same builder as linux-arm-cheney-imx6 | Dave Cheney |           |
