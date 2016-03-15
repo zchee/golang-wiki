@@ -252,6 +252,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [igo](https://bitbucket.org/binet/igo) - A simple interactive Go interpreter built on exp/eval with some readline refinements
   * [oh](https://github.com/michaelmacinnis/oh) - A Unix shell written in Go
   * [pty](https://github.com/kr/pty) - obtain pseudo-terminal devices
+  * [readline](https://github.com/chzyer/readline) - A pure go implementation for GNU-Readline kind library
   * [termbox-go](https://github.com/nsf/termbox-go) - A minimalist alternative to ncurses to build terminal-based user interfaces
   * [termios](http://bitbucket.org/taruti/termios) - Terminal support
   * [termon](http://termon.googlecode.com/) - Easy terminal-control-interface for Go.
