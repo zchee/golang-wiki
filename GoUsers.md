@@ -374,6 +374,7 @@
 
 ## Spain
   * [alea soluciones](https://github.com/aleasoluciones/)
+  * [Bugfender](https://bugfender.com/)
   * [Cabify](https://cabify.com/) - [github](https://github.com/cabify/), [twitter](https://twitter.com/cabifydev)
   * [jobandtalent](https://www.jobandtalent.com)
   * [Ximdex](http://www.ximdex.com)
