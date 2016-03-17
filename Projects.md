@@ -894,6 +894,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
   * [primes](https://github.com/fxtlabs/primes) - Simple functionality for working with prime numbers.
   * [prime](https://github.com/kavehmz/prime) - Go version of Segmented Sieve and non Segmented sieve to produce prime numbers
+  * [primegen.go](https://github.com/jbarham/primegen.go) - Sieve of Atkin prime number generator
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [roger](https://github.com/senseyeio/roger) - A Go client for the RServer, allowing you to invoke R programs from Go.
@@ -989,7 +990,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [notify](https://github.com/rjeczalik/notify) - File system event notification library with API similar to os/signal.
   * [passwd](https://github.com/willdonnelly/passwd) - A parser for the /etc/passwd file
   * [pool](https://github.com/stefantalpalaru/pool) - A generic worker pool
-  * [primegen.go](https://github.com/jbarham/primegen.go) - Sieve of Atkin prime number generator
   * [procfile](https://github.com/hecticjeff/procfile) - A Procfile parser
   * [Prometheus Instrumentation/Metrics Client](https://github.com/prometheus/client_golang) - This is a whitebox instrumentation framework for servers written in Go.  It exposes programmatically-generated metrics automatically for use in the Prometheus time series collection and post-processing environment.
   * [randat](https://github.com/extemporalgenome/randat) - Devel tool for generating random bytestrings and encoding files in code-friendly forms
