@@ -1,6 +1,6 @@
 # Switch
 
-Spec: http://golang.org/doc/go_spec.html#Switch_statements
+Spec: https://golang.org/ref/spec#Switch_statements
 
 Go's ` switch ` statements are pretty neat. For one thing, you don't need to break at the end of each case.
 
