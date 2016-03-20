@@ -4,6 +4,10 @@ When contributing to the Go issue tracker, please **do not** make comments like 
 
 or
 
+> :+1: 
+
+or
+
 > Me too.
 
 or
