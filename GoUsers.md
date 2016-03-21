@@ -263,7 +263,8 @@
 
 
 ## Australia
-  * [DGraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
+  * [Atlassian](http://atlassian.com/)
+  * [Graph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
 
 ## Brazil
@@ -414,7 +415,6 @@
 
 
 # Tried Go, but moved away
-  * [Atlassian](http://atlassian.com/) - [using](http://www.youtube.com/watch?v=7QDVRowyUQA) [not using](http://news.ycombinator.com/item?id=4159654), but  [bitbucket is experimenting with Go again](https://twitter.com/nperson/status/395553183201628160/photo/1)
   * [Braintree Payments](http://braintreepayments.com) - [blog](https://www.braintreepayments.com/braintrust/gotchas-irritants-and-warts-in-go-web-development)
 
 See also [Success Stories](SuccessStories)
