@@ -284,11 +284,11 @@
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [ThinkSquare](https://www.thinksquare.io)
 
-## Croatia
-  * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
-
 ## China   
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+
+## Croatia
+  * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
 
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
