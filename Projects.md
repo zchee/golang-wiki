@@ -1344,6 +1344,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Pegomock](https://github.com/petergtz/pegomock) - a mocking framework based on [golang/mock](https://github.com/golang/mock), but uses a DSL closely related to [Mockito](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html).
   * [terst](https://github.com/robertkrimen/terst) - A terse, easy-to-use testing library for Go
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
+  * [testfixtures](https://github.com/go-testfixtures/testfixtures) - Rails' like test fixtures for testing database driven apps.
   * [testflight](https://github.com/drewolson/testflight) - Painless http testing in Go
   * [Testify](https://github.com/stretchrcom/testify) - A set of packages that provide many tools for testifying that your code will behave as you intend.
   * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
