@@ -11,6 +11,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 # C++
 
 * [dl.google.com](https://talks.golang.org/2013/oscon-dl.slide#1) by Brad Fitzpatrick
+* [Flywheel: Google's mobile image compression proxy](http://matt-welsh.blogspot.nl/2013/08/rewriting-large-production-system-in-go.html)
 
 # Ruby
 
