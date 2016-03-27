@@ -8,5 +8,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 
 # C++
 
+* [dl.google.com](https://talks.golang.org/2013/oscon-dl.slide#1) by Brad Fitzpatrick
+
 # Java
 
