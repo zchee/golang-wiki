@@ -1070,12 +1070,27 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goprotobuf](http://code.google.com/p/goprotobuf/) - the Go implementation of Google's Protocol Buffers
   * [protorpc](https://github.com/chai2010/protorpc/) - Google Protocol Buffers RPC for Go and C++
 
-## rsync
+### rsync
   * [replican-sync](https://github.com/cmars/replican-sync) - An rsync algorithm implementation in Go
   * [Rsync](https://github.com/julian-gutierrez-o/rsync) - Rsync algorithm as a Go library
 
+### Telnet
+  * [telnet](https://github.com/reiver/go-telnet) - Package telnet provides TELNET and TELNETS client and server implementations, for the Go programming language, in a style similar to the "net/http" library (that is part of the Go standard library) including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
+  * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
+  * [telnets](https://github.com/reiver/telnets) - A client for the TELNETS (secure TELNET) protocol.
+
 ### VNC
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
+
+### Websockets
+  * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
+
+### ZeroMQ
+  * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/)
+  * [gozmq](https://github.com/alecthomas/gozmq) - Go Bindings for 0mq (zeromq/zmq)
+  * [zmq2](https://github.com/pebbe/zmq2) - A Go interface to ZeroMQ (zmq, 0MQ) version 2.
+  * [zmq3](https://github.com/pebbe/zmq3) - A Go interface to ZeroMQ (zmq, 0MQ) version 3.
+  * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ (zmq, 0MQ) version 4.
 
 ### Misc Networking
  * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
@@ -1094,7 +1109,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goagain](https://github.com/rcrowley/goagain) - zero-downtime restarts in Go
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [gobeanstalk](https://github.com/iwanbk/gobeanstalk) - Go Beanstalkd client library
-  * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/)
   * [go-dbus](https://github.com/norisatir/go-dbus) - A library to connect to the D-bus messaging system
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
   * [go-smpp](https://github.com/fiorix/go-smpp) - SMPP 3.4 protocol implementation
@@ -1108,7 +1122,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gopcap](https://github.com/akrennmair/gopcap) - A simple wrapper around libpcap
   * [goq](https://github.com/anandkunal/goq) - A persistent message queue written in Go.
   * [goradius](https://github.com/kirves/goradius) - A Radius client written in Go
-  * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
   * [go-router](http://code.google.com/p/go-router/) - implementation of remote channel communication
   * [go-rpcgen](https://github.com/kylelemons/go-rpcgen) - ProtoBuf RPC binding generator for net/rpc and AppEngine
   * [gorpc](https://github.com/valyala/gorpc) - RPC optimized for high load
@@ -1120,7 +1133,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-socket.io](https://github.com/madari/go-socket.io) - A Socket.IO backend implementation written in Go
   * [gosocks](https://github.com/hailiang/gosocks) - A SOCKS (SOCKS4, SOCKS4A and SOCKS5) proxy client library in Go.
   * [go-sslterminator](https://github.com/cmpxchg16/go-sslterminator) - SSL terminator proxy
-  * [gozmq](https://github.com/alecthomas/gozmq) - Go Bindings for 0mq (zeromq/zmq)
   * [Grumble](https://github.com/mkrautz/grumble) - Mumble (VoIP) server implementation
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
   * [HomeControl](https://github.com/brutella/hc) - an implementation of Apple's HomeKit Accessory Protocol (HAP)
@@ -1155,9 +1167,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stompngo](https://github.com/gmallard/stompngo) - A Stomp 1.1 Compliant Client
   * [tcp\_fallback](https://github.com/Memset/tcp_fallback) - A TCP proxy implementing a simple fallback mechanism.
   * [tcpmeter](https://github.com/9nut/tcpmeter) - A TCP throughput measuring tool
-  * [telnet](https://github.com/reiver/go-telnet) - Package telnet provides TELNET and TELNETS client and server implementations, for the Go programming language, in a style similar to the "net/http" library (that is part of the Go standard library) including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
-  * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
-  * [telnets](https://github.com/reiver/telnets) - A client for the TELNETS (secure TELNET) protocol.
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
   * [traefix](https://github.com/emilevauge/traefik) - Modern, reverse proxy in Go
@@ -1167,9 +1176,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
   * [zero-downtime-daemon](https://bitbucket.org/PinIdea/zero-downtime-daemon) - Configurable zero downtime daemon (Hot Update) framework for any kind of TCP,HTTP,FCGI services
   * [zeroupgrade](https://github.com/thcyron/zeroupgrade) - Upgrades network servers with zero downtime
-  * [zmq2](https://github.com/pebbe/zmq2) - A Go interface to ZeroMQ (zmq, 0MQ) version 2.
-  * [zmq3](https://github.com/pebbe/zmq3) - A Go interface to ZeroMQ (zmq, 0MQ) version 3.
-  * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ (zmq, 0MQ) version 4.
   * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
 
 ## Operating System Interfaces
