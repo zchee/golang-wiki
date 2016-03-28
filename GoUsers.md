@@ -333,6 +333,7 @@
   * [Elastifile Ltd](http://elastifile.com) 
   * [EyeSight](http://eyesight-tech.com) 
   * [ironSource](http://www.ironsrc.com) 
+  * [JFrog](https://www.jfrog.com/) - [github](https://github.com/JFrogDev/jfrog-cli-go)
   * [Protected Media](http://www.protected.media) 
   * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
   * [Yodas](https://yodas.com) 
