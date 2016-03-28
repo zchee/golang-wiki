@@ -57,6 +57,19 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Miscellaneous](#miscellaneous)
 * [Music](#music)
 * [Networking](#networking)
+** [DNS](#dns)
+** [FTP](#ftp)
+** [HTTP](#http)
+** [IMAP](#imap)
+** [Instant Messaging](#instant-messaging)
+** [NNTP](#nntp)
+** [Protocol Buffers](#protocol-buffers)
+** [rsync](#rsync)
+** [Telnet](#telnet)
+** [VNC](#vnc)
+** [Websockets](#websockets)
+** [ZeroMQ](#zeromq)
+** [Misc Networking](#misc-networking)
 * [Operating System Interfaces](#operating-system-interfaces)
 * [Other Random Toys, Experiments and Example Code](#other-random-toys-experiments-and-example-code)
 * [P2P and File Sharing](#p2p-and-file-sharing)
@@ -1084,6 +1097,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### Websockets
   * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
+  * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
 
 ### ZeroMQ
   * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/)
@@ -1093,7 +1107,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ (zmq, 0MQ) version 4.
 
 ### Misc Networking
- * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
+  * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
   * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
   * [circle](https://github.com/losalamos/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
@@ -1173,7 +1187,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
   * [uritemplates](https://github.com/jtacoma/uritemplates) - A level 4 implementation of URI Templates (RFC 6570)
   * [VDED](https://github.com/jbuchbinder/vded) - Vector Delta Engine Daemon - track deltas in ever-increasing values (written in Go)
-  * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
   * [zero-downtime-daemon](https://bitbucket.org/PinIdea/zero-downtime-daemon) - Configurable zero downtime daemon (Hot Update) framework for any kind of TCP,HTTP,FCGI services
   * [zeroupgrade](https://github.com/thcyron/zeroupgrade) - Upgrades network servers with zero downtime
   * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
