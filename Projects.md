@@ -1020,6 +1020,21 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Networking
 
+### DNS
+  * [bitz](https://github.com/nictuku/bitz) - BitMessage client node and library
+  * [dns](https://github.com/miekg/dns) - A DNS library in Go
+  * [dnsimple](https://github.com/pearkes/dnsimple) - an interface to the DNSimple API
+  * [dyndnscd](https://github.com/akrennmair/dyndnscd) - a configurable dyndns client
+  * [GeoDNS](https://github.com/abh/geodns) - geo-aware authoritative DNS server
+  * [grong](https://github.com/bortzmeyer/grong) - Small authoritative DNS name server
+  * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
+
+### FTP
+  * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
+  * [ftp](https://bitbucket.org/zombiezen/ftp/) - Package ftp provides a minimal FTP client as defined in RFC 959
+  * [ftps](https://github.com/webguerilla/ftps) - An implementation of the FTPS protocol
+  * [goftp](https://github.com/jlaffaye/) - A FTP client library
+
 ### HTTP
   * [apiproxy](https://sourcegraph.com/github.com/sourcegraph/apiproxy/tree) - proxy for HTTP/REST APIs with configurable cache timeouts
   * [boom](https://github.com/rakyll/boom) - HTTP(s) benchmarking tool, Apache Benchmark replacement
@@ -1028,13 +1043,36 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
   * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
+  * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
 
 ### IMAP
   * [go-imap](https://github.com/martine/go-imap) - IMAP client library
   * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
 
+### Instant Messaging
+  * [gobir](http://code.google.com/p/kylelemons/source/browse?repo=gobir) - Extensible IRC bot with channel administration, seen support, and go documentation querying
+  * [goexmpp](http://code.google.com/p/goexmpp/) - XMPP client implementation
+  * [goirc](https://github.com/fluffle/goirc/) - event-based stateful IRC client framework
+  * [go-irc](https://github.com/husio/go-irc) - Simple IRC client library
+  * [gorobot](https://github.com/aimxhaisse/gorobot) - a modular IRC bot
+  * [go-xmpp](https://github.com/mattn/go-xmpp) - XMPP client library
+  * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
+  * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
+  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go
+  * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
+
 ### NNTP
   * [go-nntp](https://github.com/dustin/go-nntp) - An NNTP client and server library for go
+
+### Protocol Buffers
+  * [gogoprotobuf](http://code.google.com/p/gogoprotobuf/) - another Go implementation of Protocol Buffers, but with extensions and code generation plugins.
+  * [golang\_protobuf\_extensions](https://github.com/matttproud/golang_protobuf_extensions) - Protocol Buffer extensions to support streaming message encoding and decoding.
+  * [goprotobuf](http://code.google.com/p/goprotobuf/) - the Go implementation of Google's Protocol Buffers
+  * [protorpc](https://github.com/chai2010/protorpc/) - Google Protocol Buffers RPC for Go and C++
+
+## rsync
+  * [replican-sync](https://github.com/cmars/replican-sync) - An rsync algorithm implementation in Go
+  * [Rsync](https://github.com/julian-gutierrez-o/rsync) - Rsync algorithm as a Go library
 
 ### VNC
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
@@ -1062,16 +1100,12 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-smpp](https://github.com/fiorix/go-smpp) - SMPP 3.4 protocol implementation
   * [go-flowrate](https://github.com/mxk/go-flowrate) - Data transfer rate control (monitoring and limiting)
   * [gogammu](https://github.com/ziutek/gogammu) - Library for sending and receiving SMS
-  * [gogoprotobuf](http://code.google.com/p/gogoprotobuf/) - another Go implementation of Protocol Buffers, but with extensions and code generation plugins.
   * [go-icap](http://code.google.com/p/go-icap/) - ICAP (Internet Content Adaptation Protocol) server library
-  * [golang\_protobuf\_extensions](https://github.com/matttproud/golang_protobuf_extensions) - Protocol Buffer extensions to support streaming message encoding and decoding.
   * [gonetbench](https://github.com/nu7hatch/gonetbench) - Simple TCP benchmarking tool
   * [gonetcheck](https://github.com/bjdean/gonetcheck) - package for checking general internet access
   * [goodhosts](https://github.com/lextoumbourou/goodhosts) - Simple hosts file (/etc/hosts) management in Go
   * [gopacket](http://code.google.com/p/gopacket) - Packet encoding/decoding, pcap/pfring/afpacket support, TCP assembly, and more!
   * [gopcap](https://github.com/akrennmair/gopcap) - A simple wrapper around libpcap
-  * [goprotobuf](http://code.google.com/p/goprotobuf/) - the Go implementation of Google's Protocol Buffers
-  * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
   * [goq](https://github.com/anandkunal/goq) - A persistent message queue written in Go.
   * [goradius](https://github.com/kirves/goradius) - A Radius client written in Go
   * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
@@ -1105,14 +1139,11 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [netutils](https://github.com/timtadh/netutils) - Simple interface for turning TCP Sockets into channels.
   * [npipe](https://github.com/natefinch/npipe) - a pure Go wrapper for Windows named pipes
   * [opendap](https://github.com/mqu/openldap) - Go wrapper for Openldap
-  * [protorpc](https://github.com/chai2010/protorpc/) - Google Protocol Buffers RPC for Go and C++
   * [pusher-http-go](https://github.com/pusher/pusher-http-go) - Go library for interacting with the Pusher Realtime API
   * [QRP](https://github.com/liamzebedee/go-qrp) - QRP is a simple packet-based RPC protocol designed as a simple alternative to Go's rpc, that can run over UDP
   * [remotize](https://github.com/josvazg/remotize) - A remotize package and command that helps remotizing methods without having to chaneg their signatures for rpc
-  * [replican-sync](https://github.com/cmars/replican-sync) - An rsync algorithm implementation in Go
   * [rs232](https://github.com/dustin/rs232.go) - Serial interface for those of us who still have modems (or arduinos)
   * [rss](https://github.com/SlyMarbo/rss) - RSS parsing library.
-  * [Rsync](https://github.com/julian-gutierrez-o/rsync) - Rsync algorithm as a Go library
   * [seamless](https://bitbucket.org/tebeka/seamless) - Reverse TCP Proxy with HTTP management API
   * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via simple http server
   * [sockjs-go](https://github.com/fzzy/sockjs-go) - Implements server side counterpart for the SockJS-client browser library.
@@ -1140,36 +1171,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [zmq3](https://github.com/pebbe/zmq3) - A Go interface to ZeroMQ (zmq, 0MQ) version 3.
   * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ (zmq, 0MQ) version 4.
   * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
-
-### DNS
-
-  * [bitz](https://github.com/nictuku/bitz) - BitMessage client node and library
-  * [dns](https://github.com/miekg/dns) - A DNS library in Go
-  * [dnsimple](https://github.com/pearkes/dnsimple) - an interface to the DNSimple API
-  * [dyndnscd](https://github.com/akrennmair/dyndnscd) - a configurable dyndns client
-  * [GeoDNS](https://github.com/abh/geodns) - geo-aware authoritative DNS server
-  * [grong](https://github.com/bortzmeyer/grong) - Small authoritative DNS name server
-  * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
-
-### FTP
-
-  * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
-  * [ftp](https://bitbucket.org/zombiezen/ftp/) - Package ftp provides a minimal FTP client as defined in RFC 959
-  * [ftps](https://github.com/webguerilla/ftps) - An implementation of the FTPS protocol
-  * [goftp](https://github.com/jlaffaye/) - A FTP client library
-
-### Instant Messaging
-
-  * [gobir](http://code.google.com/p/kylelemons/source/browse?repo=gobir) - Extensible IRC bot with channel administration, seen support, and go documentation querying
-  * [goexmpp](http://code.google.com/p/goexmpp/) - XMPP client implementation
-  * [goirc](https://github.com/fluffle/goirc/) - event-based stateful IRC client framework
-  * [go-irc](https://github.com/husio/go-irc) - Simple IRC client library
-  * [gorobot](https://github.com/aimxhaisse/gorobot) - a modular IRC bot
-  * [go-xmpp](https://github.com/mattn/go-xmpp) - XMPP client library
-  * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
-  * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
-  * [sirius](https://github.com/ortuman/sirius) - A fast and ultra-lightweight chat server written in Go
-  * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
 
 ## Operating System Interfaces
 
