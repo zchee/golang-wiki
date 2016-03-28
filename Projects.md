@@ -1115,6 +1115,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stompngo](https://github.com/gmallard/stompngo) - A Stomp 1.1 Compliant Client
   * [tcp\_fallback](https://github.com/Memset/tcp_fallback) - A TCP proxy implementing a simple fallback mechanism.
   * [tcpmeter](https://github.com/9nut/tcpmeter) - A TCP throughput measuring tool
+  * [telnet](https://github.com/reiver/go-telnet) - Package telnet provides TELNET and TELNETS client and server implementations, for the Go programming language, in a style similar to the "net/http" library (that is part of the Go standard library) including support for "middleware"; TELNETS is secure TELNET, with the TELNET protocol over a secured TLS (or SSL) connection.
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
   * [telnets](https://github.com/reiver/telnets) - A client for the TELNETS (secure TELNET) protocol.
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
