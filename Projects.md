@@ -1020,9 +1020,27 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Networking
 
+### HTTP
   * [apiproxy](https://sourcegraph.com/github.com/sourcegraph/apiproxy/tree) - proxy for HTTP/REST APIs with configurable cache timeouts
- * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
   * [boom](https://github.com/rakyll/boom) - HTTP(s) benchmarking tool, Apache Benchmark replacement
+  * [eventsource](https://github.com/antage/eventsource) - Server-sent events for net/http server.
+  * [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
+  * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
+  * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
+  * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
+
+### IMAP
+  * [go-imap](https://github.com/martine/go-imap) - IMAP client library
+  * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
+
+### NNTP
+  * [go-nntp](https://github.com/dustin/go-nntp) - An NNTP client and server library for go
+
+### VNC
+  * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
+
+### Misc Networking
+ * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
   * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
   * [circle](https://github.com/losalamos/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
@@ -1031,20 +1049,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [doozerconfig](https://github.com/srid/doozerconfig) - Go package for managing json-encoded configuration in Doozer
   * [doozerd](https://github.com/ha/doozerd) - A consistent distributed data store
   * [endless](https://github.com/fvbock/endless) Zero downtime restarts for go servers (Drop in replacement for http.ListenAndServe/TLS)
-  * [eventsource](https://github.com/antage/eventsource) - Server-sent events for net/http server.
-  * [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
-  * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
   * [gearman-go](https://bitbucket.org/mikespook/gearman-go) - A native implementation for Gearman API with Go.
-  * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
   * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io)
   * [go9](http://code.google.com/p/go9) - an implementation of the 9P distributed file system protocol
   * [go9p](http://code.google.com/p/go9p/) - 9p protocol implementation in Go
   * [goagain](https://github.com/rcrowley/goagain) - zero-downtime restarts in Go
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [gobeanstalk](https://github.com/iwanbk/gobeanstalk) - Go Beanstalkd client library
-  * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
   * [goczmq](https://github.com/zeromq/goczmq) - Wrapper for the CZMQv3 interface - [blog post](http://taotetek.github.io/oldschool.systems/post/goczmq1/)
-  * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [go-dbus](https://github.com/norisatir/go-dbus) - A library to connect to the D-bus messaging system
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
   * [go-smpp](https://github.com/fiorix/go-smpp) - SMPP 3.4 protocol implementation
@@ -1052,12 +1064,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gogammu](https://github.com/ziutek/gogammu) - Library for sending and receiving SMS
   * [gogoprotobuf](http://code.google.com/p/gogoprotobuf/) - another Go implementation of Protocol Buffers, but with extensions and code generation plugins.
   * [go-icap](http://code.google.com/p/go-icap/) - ICAP (Internet Content Adaptation Protocol) server library
-  * [go-imap](https://github.com/martine/go-imap) - IMAP client library
-  * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
   * [golang\_protobuf\_extensions](https://github.com/matttproud/golang_protobuf_extensions) - Protocol Buffer extensions to support streaming message encoding and decoding.
   * [gonetbench](https://github.com/nu7hatch/gonetbench) - Simple TCP benchmarking tool
   * [gonetcheck](https://github.com/bjdean/gonetcheck) - package for checking general internet access
-  * [go-nntp](https://github.com/dustin/go-nntp) - An NNTP client and server library for go
   * [goodhosts](https://github.com/lextoumbourou/goodhosts) - Simple hosts file (/etc/hosts) management in Go
   * [gopacket](http://code.google.com/p/gopacket) - Packet encoding/decoding, pcap/pfring/afpacket support, TCP assembly, and more!
   * [gopcap](https://github.com/akrennmair/gopcap) - A simple wrapper around libpcap
