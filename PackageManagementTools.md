@@ -19,6 +19,7 @@ Tools supporting this feature include:
  * [Vendetta](https://github.com/dpw/vendetta)
  * [trash](https://github.com/rancher/trash)
  * [gsv](https://github.com/toxeus/gsv)
+ * [gom](https://github.com/mattn/gom)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
