@@ -1116,6 +1116,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tcp\_fallback](https://github.com/Memset/tcp_fallback) - A TCP proxy implementing a simple fallback mechanism.
   * [tcpmeter](https://github.com/9nut/tcpmeter) - A TCP throughput measuring tool
   * [telnet](https://github.com/ziutek/telnet) - A simple interface for interacting with Telnet connection
+  * [telnets](https://github.com/reiver/telnets) - A client for the TELNETS (secure TELNET) protocol.
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
   * [traefix](https://github.com/emilevauge/traefik) - Modern, reverse proxy in Go
