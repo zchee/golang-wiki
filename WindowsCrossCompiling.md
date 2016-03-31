@@ -1,5 +1,28 @@
 # Building windows go programs on linux
 
+## Go version >= 1.5
+
+Since Go version 1.5 cross-compiling has become very easy. Try it out with the code below. More can be found at this blog post by [Dave Cheney][1].
+
+[1]: http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5
+
+```go
+$ cat hello.go
+package main
+
+import "fmt"
+
+func main() {
+        fmt.Printf("Hello\n")
+}
+$ GOOS=windows GOARCH=386 go build -o hello.exe hello.go
+```
+
+You can now run `hello.exe` on a Windows machine near you.
+
+
+## Older Go version (<1.5)
+
 I use linux/386, but, I suspect, this procedure will apply to other host platforms as well.
 
 Preparation (if needed):
