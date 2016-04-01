@@ -111,7 +111,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
   - Using the Go 1.5 `GO15VENDOREXPERIMENT`
     - Start here for the [official documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories).
-    - [Overview with examples](http://icanhazdowntime.org/post/2015-07-09-go-vendor-experiment/) by [@freeformz](https://twitter.com/freeformz).
+(https://twitter.com/freeformz).
     - See also [PackageManagementTools](PackageManagementTools) for additional details.
   - Shared libraries and Go (buildmode)
     - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries from Go and Python.
