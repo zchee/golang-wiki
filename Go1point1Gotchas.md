@@ -112,4 +112,4 @@ It's posssible that a "go" package might be introduced in a future Go release,
 making your "go" package unusable.
 
 Please read [How to write Go code](http://golang.org/doc/code.html) for more
-details about importh paths.
+details about import paths.
