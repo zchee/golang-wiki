@@ -34,7 +34,7 @@ Older-style builders are listed below. These builders are configured and run man
 | netbsd-amd64-bsiegert | EC2 m1.small VM | Benny Siegert | on Brad's work EC2 account |
 | openbsd-arm | SolidRun CuBox-i4Pro, ARM Cortex A9 R2 792 MHz, 2GB RAM | Joel Sing |           |
 | plan9-386-ducolombier | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | David du Colombier | Plan 9 from Bell Labs |
-| plan9-arm | Raspberry Pi 2 Model B | David du Colombier | Plan 9 from Bell Labs |
+| plan9-arm | Raspberry Pi 3 Model B | David du Colombier | Plan 9 from Bell Labs |
 | plan9-amd64-9front | VM | David du Colombier | 9front |
 | solaris-amd64-smartos | E5-1650 Xeon, 6C/12T | Daniel Malon | runs illumos (smartos zone); dfc, aram have full access |
 | solaris-amd64-solaris11 | VM              | Dave Cheney | runs Solaris 11 |
