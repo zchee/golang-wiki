@@ -1314,6 +1314,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gettext](https://github.com/gosexy/gettext) - Golang bindings for gettext; Feature complete, cgo
   * [go-colortext](https://github.com/daviddengcn/go-colortext) - Change the color of the text and background in the console, working both in Windows and other systems.
   * [go-guess](https://github.com/salviati/go-guess) - Go wrapper for libguess
+  * [goagrep](https://github.com/schollz/goagrep) - fast fuzzy string matching using precomputation
   * [goini](https://github.com/glacjay/goini) - A go library to parse INI files
   * [golorem](https://github.com/drhodes/golorem) - lorem ipsum generator
   * [go-migemo](https://github.com/mattn/go-migemo) - migemo extension for go (Japanese incremental text search)
