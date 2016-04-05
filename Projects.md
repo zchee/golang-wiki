@@ -1585,6 +1585,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [captcha](https://github.com/dchest/captcha) - Image and audio captcha generator and server
   * [gaerecords](https://github.com/matryer/gae-records) - Lightweight wrapper around appengine/datastore providing Active Record and DBO style management of data
   * [get2ch-go](https://github.com/tanaton/get2ch-go) - a library to access the 2channel Japanese web bulletin board
+  * [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go
   * [go-gzip-file-server](https://github.com/joaodasilva/go-gzip-file-server) - A net.http.Handler similar to FileServer that serves gzipped content
   * [gohaml](https://github.com/realistschuckle/gohaml) - An implementation of the popular XHTML Abstraction Markup Language using the Go language.
   * [go-httpclient](https://github.com/mreiferson/go-httpclient) - a Go HTTP client with timeouts
