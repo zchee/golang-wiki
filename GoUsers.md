@@ -295,6 +295,7 @@
 
 ## France
   * [Digikong](http://digikong.io)
+  * [Objenious](http://www.objenious.com)
   * [Rive](http://app.rive.world)
 
 ## Germany
