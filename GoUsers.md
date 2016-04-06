@@ -253,6 +253,7 @@
   * [Weave](http://www.getweave.com)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Wikia](http://www.wikia.com)
+  * [Wireless Registry](http://www.wirelessregistry.com) - [github](https://github.com/wirelessregistry)
   * [Workiva](https://www.workiva.com/) - [github](https://github.com/workiva/go-datastructures)
   * [Yahoo](http://yahoo.com) - [github](https://github.com/yahoo/webseclab)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
