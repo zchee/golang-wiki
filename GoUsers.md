@@ -312,6 +312,7 @@
   * [Company 0](https://www.companyzero.com/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah](http://fastah.blackbuck.mobi/)
+  * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
   * [Jabong](http://www.jabong.com)
   * [Josh Software](http://www.joshsoftware.com/)
