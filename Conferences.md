@@ -8,8 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GopherCon India | 2016-02-19 | Bengaluru, India | http://gophercon.in |
-| GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
 | GopherCon China | 2016-04-16 | Beijing, China | http://www.gopherchina.org |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
@@ -21,11 +19,13 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
+| GopherCon India | 2016-02-19 | Bengaluru, India | [videos](https://www.youtube.com/watch?v=4Dr8FXs9aJM&list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA) |
 | FOSDEM | 2016-01-30 | Brussels, Belgium |  |
 | Gopher Gala | 2016-01-22 | Earth |  |
 | Golab | 2015-12-15 | Florence, Italy |  |
 | GoCon Tokyo | 2015-12-06 | Tokyo, Japan |  |
-| GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [meetup.com](http://www.meetup.com/golangsf/events/223166840/) |
+| GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YALxdnGgvgwxTSmANOvyAo9) |
 | dotGo    | 2015-11-09 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMWwKlp9xoYX4mlNDdkCOfsUG_40WCMCX) |
 | GothamGo | 2015-10-02 | NY, NY | [videos](https://www.youtube.com/playlist?list=PLeGxIOPLk9ELh9tsPZMzau6CzMjfMzp9-) |
 | Yapcasia | 2015-08-22 | Tokyo, JP | [bradfitz](http://yapcasia.org/2015/talk/show/6bde6c69-187a-11e5-aca1-525412004261) |
