@@ -1,15 +1,15 @@
 # IDEs and Plugins for Go
 
-  * **[Atom](http://www.atom.io)**: javascript-based editor from GitHub.  Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
+  * **[Atom](http://www.atom.io)**: JavaScript-based editor from GitHub. Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
   * **[BBedit](http://www.barebones.com/products/bbedit/)**: commercial text editor for OS X.
     * Basic Go support available with the module http://pine.barebones.com/extensions/Go.plist.zip
     * [Go-bbpackage](https://github.com/ascarter/go-bbpackage) with clippings, ctags standard library completion, better syntax highlighting, and tools
-  * **[Brackets](http://brackets.io)**: A modern, open source text editor that understands web design.
+  * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
 
-  * **[Codebox IDE](https://www.codebox.io/)**: open source cross-platform IDE, runs on desktop (Linux or OS X) and in the cloud with Go [support](https://www.codebox.io/stack/go)
+  * **[Codebox IDE](https://www.codebox.io/)**: open-source cross-platform IDE, runs on desktop (Linux or OS X) and in the cloud with Go [support](https://www.codebox.io/stack/go)
   * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE now includes [full Go support](https://codeenv.com/env/codeenv/7/go/).
-  * **[Eclipse IDE](http://www.eclipse.org/)**: Very popular open source cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
+  * **[Eclipse IDE](http://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
     * [GoFlyMake](https://github.com/dougm/goflymake) Flymake-style syntax checking for Go
@@ -21,7 +21,7 @@
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
   * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Open-Source plugin for Go](https://plugins.jetbrains.com/plugin/?id=5047) support available. All derivative platforms of IntelliJ (PyCharm, PhpStorm et al.) are supported. Nightly / alpha builds available at [plugin repository](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
-  * **[jEdit](http://www.jedit.org/)**: Open source cross-platform text editor. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
+  * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](http://komodoide.com/go/)** Powerful cross-platform IDE with built-in Go support
   * **[Komodo Edit](http://komodoide.com/komodo-edit/)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
