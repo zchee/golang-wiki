@@ -298,6 +298,7 @@
   * [Digikong](http://digikong.io)
   * [Objenious](http://www.objenious.com)
   * [Rive](http://app.rive.world)
+  * [Batch.com](https://batch.com)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
