@@ -6,15 +6,15 @@ Go is fully supported on Linux and Darwin. Any Go program that you can compile f
 
 Go supports the following ARM architectural families.
 
-| **Architecture** | **Status** | **GOARM value** |
-|:-----------------|:-----------|:----------------|
-| ARMv4 and below  | sorry, not supported | n/a   |
-| ARMv5            | supported  | GOARM=5         |
-| ARMv6            | supported  | GOARM=6         |
-| ARMv7            | supported  | GOARM=7         |
-| ARMv8            | supported  | GOARCH=arm64    |
+| **Architecture** | **Status** | **GOARM value** | **GOARCH value** |
+|:-----------------|:-----------|:----------------|:-----------------|
+| ARMv4 and below  | sorry, not supported | n/a   | n/a              |
+| ARMv5            | supported  | GOARM=5         | GOARCH=arm       |
+| ARMv6            | supported  | GOARM=6         | GOARCH=arm       |
+| ARMv7            | supported  | GOARM=7         | GOARCH=arm       |
+| ARMv8            | supported  | n/a             | GOARCH=arm64     |
 
-Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile the program from source on the target machine. In cross compilation situations, it is recommended that you always set an appropriate GOARM value.
+Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile the program from source on the target machine. In cross compilation situations, it is recommended that you always set an appropriate GOARM value along with GOARCH.
 
 # Supported operating systems
 
