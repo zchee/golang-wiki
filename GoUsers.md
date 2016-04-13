@@ -364,6 +364,7 @@
 ## Netherlands
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
+  * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
 
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
