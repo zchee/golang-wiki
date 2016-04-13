@@ -832,6 +832,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
+  * [plural](https://github.com/rickb777/plural) - No-fuss plurals for both countable and continuous ranges of values.
   * [sego](https://github.com/huichen/sego) - Chinese language segmenter.
   * [textcat](https://github.com/pebbe/textcat) - N-gram based text categorization, with support for utf-8 and raw text
 
