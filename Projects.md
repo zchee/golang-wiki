@@ -1333,7 +1333,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [NTemplate](https://github.com/yohcop/ntemplate.go) - Nested Templates
   * [parse](https://github.com/rymis/parse) - PEG parser that uses reflection to define grammar
   * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
-  * [plural](https://github.com/rickb777/plural) - No-fuss plurals for both countable and continuous ranges of values.
+  * [plural](https://github.com/rickb777/plural) - No-fuss plurals for formatting both countable and continuous ranges of values.
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
   * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
