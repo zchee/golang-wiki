@@ -133,7 +133,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [memcached-bench](https://github.com/valyala/ybc/tree/master/apps/go/memcached-bench) - Benchmark tool for memcache servers
   * [memcached](https://github.com/valyala/ybc/tree/master/apps/go/memcached) - Fast memcache server, which supports persistence and cache sizes exceeding available RAM
   * [memcache](https://github.com/smallfish/memcache) - go memcached client, forked from YouTube Vitess
-  * [rend](https://github.com/Netflix/rend) - A memcahced proxy that manages data chunking and L1/L2 caches
+  * [rend](https://github.com/Netflix/rend) - A memcached proxy that manages data chunking and L1/L2 caches
   * [YBC bindings](https://github.com/valyala/ybc/tree/master/bindings/go/ybc) - Bindings for YBC library providing API for fast in-process blob cache
 
 ## Cloud Computing
@@ -245,7 +245,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Console User Interface
 
-  * [ansi](https://github.com/mgutz/ansi) - Easily create ansi escape code strings and closures to fomat, color console output
+  * [ansi](https://github.com/mgutz/ansi) - Easily create ansi escape code strings and closures to format, color console output
   * [ansiterm](https://github.com/hotei/ansiterm) - pkg to drive text-only consoles that respond to ANSI escape sequences
   * [cons](https://github.com/rferrante/cons) - A simple package for building interactive console tools.
   * [gnureadline](https://code.google.com/p/go-gnureadline) - GNU Readline bindings
@@ -312,7 +312,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [automi](https://github.com/vladimirvivien/automi) - Compose process and integration flows on Go channels
   * [gostatsd](https://github.com/kisielk/gostatsd) - Statsd server and library.
   * [Heka](https://github.com/mozilla-services/heka) - Real time data and log file processing engine.
-  * [Kapacitor](https://github.com/influxdb/kapacitor) - Framework for processing, monitoring and alterting on timeseries data.
+  * [Kapacitor](https://github.com/influxdb/kapacitor) - Framework for processing, monitoring and alerting on timeseries data.
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
   * [regommend](https://github.com/muesli/regommend) - Recommendation engine.
   * [rrd](https://github.com/ziutek/rrd) - Bindings for rrdtool.
@@ -405,7 +405,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [govalid](https://github.com/gima/govalid) - Data validation library
   * [goxml](https://github.com/jbussdieker/golibxml) - A thin wrapper around libxml2
   * [hyperloglog](https://github.com/clarkduvall/hyperloglog) - An implementation of the HyperLogLog and HyperLogLog++ algorithms for estimating cardinality of sets using constant memory.
-  * [itertools](https://github.com/xchapter7x/goutil) - Provides generic iteratable generator function along with functionality similar to the itertools python package.
+  * [itertools](https://github.com/xchapter7x/goutil) - Provides generic iterable generator function along with functionality similar to the itertools python package.
   * [jsonv](https://github.com/gima/jsonv) - A JSON validator
   * [libgob](http://code.google.com/p/libgob/) - A low level library for generating gobs from other languages
   * [Picugen](http://patrickmylund.com/projects/picugen/) - A general-purpose hash/checksum digest generator.
@@ -480,7 +480,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorp](https://github.com/coopernurse/gorp) - SQL mapper for Go
   * [go-store](https://github.com/gosuri/go-store) - Data-store library for Go that provides a set of platform-independent interfaces to persist and retrieve key-value data.
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
-  * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PosgreSQL and SQLite3.
+  * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PostgreSQL and SQLite3.
   * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
   * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
@@ -559,7 +559,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
   * [date](https://github.com/rickb777/date) - For working with dates, date ranges, time spans, and time-of-day.
-  * [Tideland golib](https://github.com/tideland/golib) - Timex extentions
+  * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
 
 ## Development Tools
 
@@ -730,7 +730,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bimg](https://github.com/h2non/bimg) - Small Go library for fast image resize and transformation using libvips
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
-  * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, hstogram) in different output formats.
+  * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, histogram) in different output formats.
   * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
