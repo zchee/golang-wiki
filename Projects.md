@@ -558,7 +558,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
-  * [date](https://github.com/rickb777/date) - For working with dates, date ranges, time spans, and time-of-day.
+  * [date](https://github.com/rickb777/date) - For dates, date ranges, time spans, periods, and time-of-day.
   * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
 
 ## Development Tools
@@ -832,7 +832,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
-  * [plural](https://github.com/rickb777/plural) - No-fuss plurals for both countable and continuous ranges of values.
   * [sego](https://github.com/huichen/sego) - Chinese language segmenter.
   * [textcat](https://github.com/pebbe/textcat) - N-gram based text categorization, with support for utf-8 and raw text
 
@@ -1334,6 +1333,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [NTemplate](https://github.com/yohcop/ntemplate.go) - Nested Templates
   * [parse](https://github.com/rymis/parse) - PEG parser that uses reflection to define grammar
   * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
+  * [plural](https://github.com/rickb777/plural) - No-fuss plurals for both countable and continuous ranges of values.
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go
   * [pretty.go](https://github.com/kr/pretty.go) - Pretty-printing for go values
   * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
