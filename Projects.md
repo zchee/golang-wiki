@@ -212,7 +212,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [snappy-go](http://code.google.com/p/snappy-go/) - Google's Snappy compression algorithm in Go
   * [yenc](https://github.com/chrisfarms/yenc) - yenc decoder package
   * [zappy](https://github.com/cznic/zappy) - Package zappy implements the zappy block-based compression format. It aims for a combination of good speed and reasonable compression.
-
+  * [ppmd-go](https://github.com/zwb-ict/ppmd-go) - Golang bindings for the LZMA SDK library. (Only binded PPMD) 
 
 ## Concurrency and Goroutines
 
