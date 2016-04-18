@@ -604,6 +604,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
   * [locker](https://github.com/jagregory/locker) - A distributed lock service built on top of [etcd](https://github.com/coreos/etcd).
+   * [dlock](https://github.com/temoto/dlock) - A native Go distributed lock manager (client and server) using gRPC.
   * [mangos](https://github.com/gdamore/mangos) - An implementation of the Scalable Protocols based on [nanomsg](http://nanomsg.org/)
   * [redsync](https://github.com/hjr265/redsync.go) - Redis-based distributed mutual exclusion lock implementation
   * [Skynet](https://github.com/skynetservices/skynet) - Skynet is distributed mesh of processes designed for highly scalable API type service provision.
