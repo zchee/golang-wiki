@@ -103,6 +103,8 @@ GOROOT_BOOTSTRAP=/tmp/go-plan9-386-bootstrap
 
 A [binary package](https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz) for plan9/386 is available.
 
+This binary package is used to bootstrap Go on the plan9/386 builder.
+
 ```
 cd /tmp
 hget -o gobootstrap-plan9-386.tar.gz https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz
