@@ -99,6 +99,24 @@ You'll be able to use this installation of Go to bootstrap future Go releases, b
 GOROOT_BOOTSTRAP=/tmp/go-plan9-386-bootstrap
 ```
 
+## Bootstraping from binaries
+
+A [binary package](https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz) for plan9/386 is available.
+
+```
+cd /tmp
+hget -o gobootstrap-plan9-386.tar.gz https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz
+mkdir gobootstrap-plan9-386
+cd  gobootstrap-plan9-386
+tar xzf ../gobootstrap-plan9-386.tar.gz
+```
+
+You'll be able to use this binary package of Go to bootstrap Go, by setting the `GOROOT_BOOTSTRAP` environment variable:
+
+```
+GOROOT_BOOTSTRAP=/tmp/gobootstrap-plan9-386
+```
+
 # Git
 
 Git is not available on Plan 9. However a [Git wrapper](http://9legacy.org/9legacy/tools/git) is available as a simple rc script. It includes everything you need to use the [go](https://golang.org/cmd/go) tool.
