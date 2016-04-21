@@ -9,6 +9,7 @@ Please keep all items in chronological order.
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
 | GopherCon China | 2016-04-16 | Beijing, China | http://www.gopherchina.org |
+| GoCon Japan | 2016-04-23 | Tokyo, Japan | http://gocon.connpass.com/event/27521/ |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
