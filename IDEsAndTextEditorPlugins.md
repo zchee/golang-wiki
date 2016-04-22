@@ -35,7 +35,7 @@
   * **[Textadept](http://foicica.com/textadept/)**:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
   * **[TextMate](http://macromates.com/)**: Commercial text editor for OS X. [Source code available](https://github.com/textmate/textmate) under the GPLv3. [Bundle for Go available](https://github.com/syscrusher/golang.tmbundle).
   * **[TextWrangler](http://www.barebones.com/products/textwrangler/)**: free _little brother_ of BBedit. Both the Go module and Go.bbpackage for BBedit work for TextWrangler as well.
-  * **[Vim](http://www.vim.org/)**: Vi Improved. There are a number of plugins available that make editing Go code easier.
+  * **[Vim](http://www.vim.org/)** & **[Neovim](https://neovim.io/)**: Vi Improved. There are a number of plugins available that make editing Go code easier.
     * The [vim-go](https://github.com/fatih/vim-go) plugin includes misc/vim and has many other new improvements.
     * The [Syntastic](https://github.com/scrooloose/syntastic) plugin gives instant feedback on compile errors
     * The [tagbar](https://github.com/majutsushi/tagbar) plugin uses Gotags, above, to show an outline of the current file
