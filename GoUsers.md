@@ -271,6 +271,9 @@
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
 
+## Austria
+  * [Gatherer](http://www.gathererapp.com/)
+
 ## Brazil
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
