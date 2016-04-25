@@ -17,7 +17,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Golang Pune](https://plus.google.com/communities/103673348666338246281) - Pune, India.
   * [Golang Israel](http://www.meetup.com/Go-Israel) - Israel.
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - Singapore.
-  * [GoJakarta](http://www.metup.com/GoJakarta) - Jakarta, Indonesia.
+  * [GoJakarta](http://www.meetup.com/GoJakarta) - Jakarta, Indonesia.
 
 # Europe
 
