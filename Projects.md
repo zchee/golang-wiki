@@ -195,6 +195,8 @@ If you find a project in this list that is dead or broken, please either mark it
   * [runtemplate](https://github.com/flowonyx/runtemplate) - A very simple command-line tool for executing Go templates, useful for use with `go generate`.
   * [sift](https://github.com/svent/sift) - A fast and powerful open source alternative to `grep`
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
+  * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
+  * [wmenu](https://github.com/dixonwille/wmenu) - An easy to use menu structure for cli applications that prompts users to make choices.
 
 ## Compression
   
