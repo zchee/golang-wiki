@@ -148,6 +148,11 @@ Not full vendor tool, but may still provide value.
 |Author     |Dmitry Savintsev                      |
 |Categories |Import re-writer, add or remove specified prefix                             |
 
+| **git freeze** |https://github.com/nicerobot/git-freeze|
+|:-----------|:-----------------------------|
+|Author     |Robert Nix (nicerobot)                    |
+|Categories |Easy Go vendoring via git submodule                            |
+
 ## Import Proxies
 Import Proxies act as a man in the middle between the Go tool and the VCS. It parses the data stream while the repository is being cloned.
 
