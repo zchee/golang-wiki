@@ -292,6 +292,12 @@ Sorted by publication date.
     * ISBN: 978-4863541177
     * Reference:
 
+  * **Go言語によるWebアプリケーション開発**
+    * Author: Mat Ryer (著)、鵜飼 文敏 (監訳)、牧野 聡 (訳)
+    * Publication Date: 2016-01
+    * ISBN: 978-4-87311-752-2
+    * Reference: http://www.oreilly.co.jp/books/9784873117522/
+
 # German
   * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
