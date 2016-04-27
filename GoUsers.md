@@ -142,6 +142,7 @@
   * [LogPacker](https://logpacker.com/) - [website](https://logpacker.com)
   * [Lovoo](https://lovoo.com/) - [github](https://github.com/lovoo)
   * [Luckie &amp; Company](http://luckie.com)
+  * [Magic Leap](http://www.magicleap.com) - [twitter](https://twitter.com/MrGossett/status/724926614065270786)
   * [Maldive](https://www.maldive.com)
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
