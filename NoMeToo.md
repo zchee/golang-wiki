@@ -20,7 +20,7 @@ or
 
 Such comments do not help fix issues. In fact, they make it harder by cluttering the discussion. The project admins will delete such comments as a matter of procedure (please don't be offended if we delete yours).
 
-Instead of commenting, you may [add a :+1: reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) to the comment or issue.
+Instead of commenting, you may [add a :+1: reaction](https://help.github.com/articles/about-discussions-in-issues-and-pull-requests/#reacting-to-ideas-in-issues-and-pull-requests) to the comment or issue.
 
 Of course, **please do comment** if your "me too" comment includes information that might help resolve the issue. This includes reports like this:
 
