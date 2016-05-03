@@ -80,6 +80,11 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 |Title      |Project-based workspaces and dependency management|
 |Author     |Dave Cheney     |
 |Categories |Project-based workspaces, vendoring, version locking. Manages dependencies in /vendor/src|
+|           |                              |
+| **goat** |https://github.com/mediocregopher/goat |
+|Title      |Simple go dependency manager |
+|Author     |Brian Picciano     |
+|Categories |Project-based workspaces and vendoring |
 
 ## Revision Locking
 
