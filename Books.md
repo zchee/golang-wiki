@@ -245,7 +245,7 @@ Sorted by publication date.
   * **Go语言圣经（中文版）(The Go Programming Language)**
     * Author: Alan A. A. Donovan, Brian W. Kernighan
     * Translator: chai2010, Xargin, CrazySssst, foreversmart
-    * Publication Date: 2006-02-01
+    * Publication Date: 2016-02-01
     * ISBN: ---
     * Reference: https://github.com/golang-china/gopl-zh
 
