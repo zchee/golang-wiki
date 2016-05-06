@@ -171,6 +171,7 @@
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
   * [Opendoor](https://www.opendoor.com/) - [HN](https://news.ycombinator.com/item?id=10657348)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
+  * [Ottemo](https://ottemo.io) - Managed Commerce Platform written in golang
   * [Outdoorsy](https://www.outdoorsy.co)
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
