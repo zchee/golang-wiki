@@ -294,6 +294,7 @@
   * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [ThinkSquare](https://www.thinksquare.io)
+  * [Wattpad](https://www.wattpad.com/)
 
 ## China   
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
