@@ -1379,6 +1379,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
+  * [httpexpect](https://github.com/gavv/httpexpect) - Package that helps to write nice tests for your HTTP API
   * [Nitro](https://github.com/spf13/nitro) - A quick and simple profiler For Go
   * [muxy](https://github.com/mefellows/muxy) - Simulating real-world distributed system failures.
   * [Pegomock](https://github.com/petergtz/pegomock) - a mocking framework based on [golang/mock](https://github.com/golang/mock), but uses a DSL closely related to [Mockito](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html).
