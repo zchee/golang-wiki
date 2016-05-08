@@ -364,6 +364,9 @@
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
+
+## Mexico
+  * [Segundamano](https://www.segundamano.mx/)
   
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
