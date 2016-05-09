@@ -48,8 +48,6 @@ a = a[:len(a)-j+i]
 copy(a[i:], a[i+1:])
 a[len(a)-1] = nil // or the zero value of T
 a = a[:len(a)-1]
-// or, more simply:
-a, a[len(a)-1] = append(a[:i], a[i+1:]...), nil
 ```
 
 > **Delete without preserving order**
