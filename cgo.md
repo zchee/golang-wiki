@@ -20,7 +20,7 @@ package cgoexample
 #include <stdlib.h>
 
 void myprint(char* s) {
-	printf("%s", s);
+	printf("%s\n", s);
 }
 */
 import "C"
