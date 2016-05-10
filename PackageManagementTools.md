@@ -8,6 +8,7 @@ Go 1.6 release makes this behaviour the default, so you no longer need to have `
 
 Tools supporting this feature include:
 
+ * [manul](https://github.com/kovetskiy/manul) - Vendor packages using git submodules.
  * [Godep](https://github.com/tools/godep)
  * [Govendor](https://github.com/kardianos/govendor)
  * [godm](https://github.com/hectorj/godm)
