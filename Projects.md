@@ -1463,7 +1463,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Web Libraries
 
 ### Authentication
-
+  * [goth](https://github.com/markbates/goth) - Package goth provides a simple, clean, and idiomatic way to write authentication packages for Go web applications
   * [authcookie](https://github.com/dchest/authcookie) - Package authcookie implements creation and verification of signed authentication cookies.
   * [dgoogauth](https://github.com/dgryski/dgoogauth) - Go port of Google's Authenticator library for one-time passwords
   * [goauth](https://github.com/alloy-d/goauth) - A library for header-based OAuth over HTTP or HTTPS.
