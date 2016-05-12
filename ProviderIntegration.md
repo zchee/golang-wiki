@@ -17,4 +17,4 @@ A number of Platform-as-a-Service ([PaaS](http://en.wikipedia.org/wiki/Platform_
 | [OpenShift](http://openshift.redhat.com) | https://github.com/gcmurphy/golang-openshift |                  |
 | [Stackato](http://www.activestate.com/stackato) | https://github.com/kr/heroku-buildpack-go | http://docs.stackato.com/user/deploy/languages/go.html |
 | [Tsuru](http://www.tsuru.io/) |            | http://docs.tsuru.io/en/latest/apps/quickstart/go.html |
-| [Cocaine](http://tech.yandex.com/cocaine/) | http://github.com/cocaine https://github.com/3Hren/cocaine-core https://github.com/3Hren/cocaine-plugins           | https://github.com/cocaine/cocaine-vagrant and https://github.com/3Hren/cocaine-core |
+| [Cocaine](http://tech.yandex.com/cocaine/) | http://github.com/cocaine https://github.com/3Hren/cocaine-core https://github.com/3Hren/cocaine-plugins https://github.com/cocaine/cocaine-framework-go          | https://github.com/cocaine/cocaine-vagrant and https://github.com/3Hren/cocaine-core |
