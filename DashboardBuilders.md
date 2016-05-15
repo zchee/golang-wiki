@@ -20,7 +20,7 @@ Older-style builders are listed below. These builders are configured and run man
 | darwin-386 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-386-cheney | 2011 Mac Mini, 2.4Ghz Core i5  | Dave Cheney | Mac OS X 10.10 XCode 5 |
 | dragonfly-amd64 | ?               | Justin Sherrill | ?         |
-| freebsd-arm-paulzhol | Cubiboard2 is only 1Gb RAM dual-core Cortex-A7 (Allwiner A20) | Yuval Pavel Zholkover | FreeBSD 11 r297692 |
+| freebsd-arm-paulzhol | Cubiboard2 1Gb RAM dual-core Cortex-A7 (Allwiner A20) | Yuval Pavel Zholkover | FreeBSD 11 r299674 with NODEBUG kernel (w/o INVARIANTS, WITNESS, DEADLKRES) |
 | linux-arm-luitvd | RaspberryPi     | Luit van Drongelen |           |
 | linux-arm-arm5 | QNAP TS-119P, ARMv5 @ 2.0GHz, 512MB | Dave Cheney | GOARM=5   |
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
