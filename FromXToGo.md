@@ -8,6 +8,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 # Node
 
 * [Digg](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f#.yw5lk8t25)
+* [Uber](https://www.infoq.com/articles/podcast-matt-ranney) (audio)
 
 # C++
 
