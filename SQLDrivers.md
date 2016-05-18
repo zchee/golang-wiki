@@ -10,6 +10,7 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
+  * **Apache Phoenix/Avatica**: https://github.com/Boostport/avatica
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2**: https://bitbucket.org/phiggins/db2cli
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
