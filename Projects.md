@@ -486,6 +486,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
   * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
+  * [reform](https://github.com/AlekSi/reform) - A better ORM for Go, based on non-empty interfaces and code generation.
 
 ### Multiple wrappers
 
