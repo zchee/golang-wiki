@@ -1127,8 +1127,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [endless](https://github.com/fvbock/endless) Zero downtime restarts for go servers (Drop in replacement for http.ListenAndServe/TLS)
   * [gearman-go](https://bitbucket.org/mikespook/gearman-go) - A native implementation for Gearman API with Go.
   * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io)
-  * [go9](http://code.google.com/p/go9) - an implementation of the 9P distributed file system protocol
-  * [go9p](http://code.google.com/p/go9p/) - 9p protocol implementation in Go
   * [goagain](https://github.com/rcrowley/goagain) - zero-downtime restarts in Go
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [gobeanstalk](https://github.com/iwanbk/gobeanstalk) - Go Beanstalkd client library
@@ -1145,7 +1143,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gopcap](https://github.com/akrennmair/gopcap) - A simple wrapper around libpcap
   * [goq](https://github.com/anandkunal/goq) - A persistent message queue written in Go.
   * [goradius](https://github.com/kirves/goradius) - A Radius client written in Go
-  * [go-router](http://code.google.com/p/go-router/) - implementation of remote channel communication
   * [go-rpcgen](https://github.com/kylelemons/go-rpcgen) - ProtoBuf RPC binding generator for net/rpc and AppEngine
   * [gorpc](https://github.com/valyala/gorpc) - RPC optimized for high load
   * [GoRTP](https://github.com/wernerd/GoRTP) - RTP / RTCP stack implementation for Go
