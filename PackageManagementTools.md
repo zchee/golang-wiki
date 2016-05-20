@@ -96,7 +96,7 @@ Requires switching GOPATH for every project.
 |:-----------|:-----------------------------|
 |Title       |Lock dependencies to specific revisions.|
 |Author      |Rob Figueiredo                |
-|Categories  |Revision Locking (git)        |
+|Categories  |Revision Locking (git, mercurial, bzr, svn)        |
 |            |                              |
 | **gobs**   |https://bitbucket.org/vegansk/gobs|
 |Title       |Build system and package manager for go language|
