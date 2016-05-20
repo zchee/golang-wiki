@@ -1203,7 +1203,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Go-fuse](https://github.com/hanwen/go-fuse) - Library to write FUSE filesystems in Go
   * [go-osx-xattr](https://github.com/bitcartel/go-osx-xattr) - Package xattr wraps OS X functions to manipulate the extended attributes of a file, directory and symbolic link.
   * [inspect/os](https://github.com/square/inspect) - Metrics library for operating system measurements (Linux/MacOSX)
-  * [service](https://bitbucket.org/kardianos/service/overview) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
+  * [service](https://github.com/kardianos/service) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
 
 ## Other Random Toys, Experiments and Example Code
 
