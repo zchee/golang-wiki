@@ -353,6 +353,7 @@
   * [Protected Media](http://www.protected.media) 
   * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
   * [Yodas](https://yodas.com) 
+  * [Rimoto](http://www.rimoto.com/)
 
 ## Italy
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
