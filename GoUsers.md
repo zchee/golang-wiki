@@ -130,6 +130,7 @@
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
   * [JelloLabs](http://www.jellolabs.com)
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
+  * [Jive](http://www.jivesoftware.com) - [github](https://github.com/jivesoftware)
   * [Karma](http://www.yourkarma.com) - [blog](https://blog.yourkarma.com/how-we-use-mqtt-at-karma)
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
