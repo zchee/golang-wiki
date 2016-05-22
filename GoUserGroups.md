@@ -96,7 +96,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [GoDFW](http://www.meetup.com/GoCowboys/) - Dallas TX, USA.
   * [Golang Houston](http://www.meetup.com/Golang-Houston/) - Houston TX, USA.
   * [Utah Gophers](http://www.meetup.com/utahgophers/) - Salt Lake City UT, USA.
-  * [Golang-DC](http://www.meetup.com/Golang-DC/) - Arglinton VA, USA.
+  * [Golang-DC](http://www.meetup.com/Golang-DC/) - Arlington VA, USA.
   * [Seattle Go Programmers](http://www.meetup.com/golang/) - Seattle WA, USA.
   * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
   * [Las Vegas Go Meetup](http://www.meetup.com/Las-Vegas-Go-Meetup/) - Las Vegas NV, USA.
