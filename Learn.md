@@ -17,7 +17,6 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf) *links are broken*
   * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
-  * [Outlearn.com](https://www.outlearn.com/search?filter=path&q=golang) - Learning Paths for Go.
 
 Learning resources for specific topics:
   * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
