@@ -380,6 +380,6 @@ Sorted by publication date.
 
   * **Dasar Pemrograman Golang**
     * Author: Noval Agung Prayogo
-    * Publication Date: April 13, 2015
+    * Publication Date: Oktober 30, 2015
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/novalagung/dasarpemrogramangolang/
