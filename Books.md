@@ -377,3 +377,9 @@ Sorted by publication date.
     * Publication Date: October 21, 2013
     * ISBN: ---
     * Reference: https://sajarwo87.wordpress.com/2013/10/21/buku-bahasa-pemrograman-go/
+
+  * **Dasar Pemrograman Golang**
+    * Author: Noval Agung Prayogo
+    * Publication Date: April 13, 2015
+    * ISBN: ---
+    * Reference: https://www.gitbook.com/book/novalagung/dasarpemrogramangolang/
