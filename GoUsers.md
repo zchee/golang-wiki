@@ -161,7 +161,7 @@
   * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
-  * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend)
+  * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend), [blog](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)
   * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Newspaper](http://www.newspaper.io/) - [source](https://angel.co/newspaperio)
