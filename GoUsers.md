@@ -16,6 +16,7 @@
       * [Jam With Chrome](http://www.jamwithchrome.com/technology),
       * the [CubeSlam Chrome Experiment](https://code.google.com/p/cubeslam/),
       * Google Helpouts,
+      * [Doorman, Global Distributed Client Side Rate Limiting](https://github.com/youtube/doorman)
       * and the [pprof command line tool](https://codereview.appspot.com/153750043/).
   * [6Wunderkinder](http://www.6wunderkinder.com/) - [video](https://www.youtube.com/watch?v=sVpMc0hwqps)
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
