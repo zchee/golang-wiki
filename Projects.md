@@ -562,6 +562,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
   * [date](https://github.com/rickb777/date) - For dates, date ranges, time spans, periods, and time-of-day.
+  * [gostrftime](https://github.com/cactus/gostrftime) - strftime(3) like formatting for time.Time
+  * [tai64](https://github.com/cactus/tai64) - tai64 and tai64n parsing and formatting
   * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
 
 ## Development Tools
