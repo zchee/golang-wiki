@@ -1153,6 +1153,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-socket.io](https://github.com/madari/go-socket.io) - A Socket.IO backend implementation written in Go
   * [gosocks](https://github.com/hailiang/gosocks) - A SOCKS (SOCKS4, SOCKS4A and SOCKS5) proxy client library in Go.
   * [go-sslterminator](https://github.com/cmpxchg16/go-sslterminator) - SSL terminator proxy
+  * [go-statsd-client](https://github.com/cactus/go-statsd-client) - Go statsd client library
   * [Grumble](https://github.com/mkrautz/grumble) - Mumble (VoIP) server implementation
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
   * [HomeControl](https://github.com/brutella/hc) - an implementation of Apple's HomeKit Accessory Protocol (HAP)
