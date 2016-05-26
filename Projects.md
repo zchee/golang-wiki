@@ -1462,6 +1462,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
   * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
+  * [Freyr](https://github.com/serdmanczyk/Freyr) - Server for storing and serving readings from plant environment sensors.  Integrates Golang API with ReactJS web app; uses Docker for testing/deployment.
 
 ## Web Libraries
 
