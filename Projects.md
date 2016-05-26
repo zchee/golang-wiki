@@ -857,6 +857,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
   * [MailJet Live Event Dashboard](https://github.com/arnaudbreton/mailjet-live-event-dashboard) - API monitoring in real time.
+  * [Prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time-series database.
   * [rfw](https://github.com/mipearson/rfw) - Rotating file writer - a 'logrotate'-aware file output for use with loggers
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
   * [seelog](https://github.com/cihub/seelog) - Flexible dispatching, filtering, and formatting
