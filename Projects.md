@@ -1132,6 +1132,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goagain](https://github.com/rcrowley/goagain) - zero-downtime restarts in Go
   * [Go Ajax](https://github.com/jeffreybolle/goajax) - Go Ajax is a JSON-RPC implementation designed to create AJAX powered websites.
   * [gobeanstalk](https://github.com/iwanbk/gobeanstalk) - Go Beanstalkd client library
+  * [go-camo](https://github.com/cactus/go-camo] - Go http image proxy (camo clone) to route images through SSL
   * [go-dbus](https://github.com/norisatir/go-dbus) - A library to connect to the D-bus messaging system
   * [go-diameter](https://github.com/fiorix/go-diameter) - Diameter stack and Base Protocol (RFC 6733)
   * [go-smpp](https://github.com/fiorix/go-smpp) - SMPP 3.4 protocol implementation
