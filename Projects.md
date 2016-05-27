@@ -1262,15 +1262,16 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Scanner and Parser Generators
 
   * [ebnf2y](http://github.com/cznic/ebnf2y) - Utility for converting EBNF grammars into yacc compatible skeleton .y files.
-  * [flexgo](https://github.com/pebbe/flexgo) - A version of flex that can produce Go code.
-  * [fsm](http://github.com/cznic/fsm) - FSM (NFA, DFA) utilities.
   * [gocc](http://code.google.com/p/gocc/) - Go Compiler Compiler
   * [golex](http://github.com/cznic/golex) - Lex/flex like fast (DFA) scanners generator.
   * [gopp](http://github.com/skelterjohn/gopp) - Go Parser Parser
   * [goyacc](http://github.com/cznic/goyacc) - Goyacc is a version of yacc generating Go parsers.
-  * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
   * [y](http://github.com/cznic/y) - Package y converts .y (yacc) source files to data suitable for a parser generator.
   * [yy](http://github.com/cznic/yy) - yacc to yacc compiler.
+  * [flexgo](https://github.com/pebbe/flexgo) - A version of flex that can produce Go code.
+  * [fsm](http://github.com/cznic/fsm) - FSM (NFA, DFA) utilities.
+  * [Ragel](http://www.complang.org/ragel/) - State Machine Compiler
+  * [lexmachine](https://github.com/timtadh/lexmachine) - Lexical Analysis Framework for Golang
 
 ## Security
 
