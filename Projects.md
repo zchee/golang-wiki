@@ -1053,6 +1053,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GeoDNS](https://github.com/abh/geodns) - geo-aware authoritative DNS server
   * [grong](https://github.com/bortzmeyer/grong) - Small authoritative DNS name server
   * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
+  * [hostsfile](https://github.com/jaytaylor/go-hostsfile) - /etc/hostsfile reverse lookup IP => names
 
 ### FTP
   * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
