@@ -89,6 +89,12 @@ Sorted by publication date.
     * ISBN: 978-1484210536
     * Reference: http://www.apress.com/9781484210536
 
+* **Learning Go Web Development**
+    * Author: Nathan Kozyra
+    * Publication Date: April, 2016
+    * ISBN: 978-1785282317
+    * Reference: https://www.packtpub.com/web-development/learning-go-web-development 
+
 ## Early Access
 
   * **Go Web Programming**
