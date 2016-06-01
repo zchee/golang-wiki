@@ -304,6 +304,12 @@ Sorted by publication date.
     * ISBN: 978-4-87311-752-2
     * Reference: http://www.oreilly.co.jp/books/9784873117522/
 
+  * **プログラミング言語Go**
+    * Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Yoshiki Shibata
+    * Publication Date: 20 June 2016
+    * ISBN: 978-4-62130-025-1
+    * Reference: http://www.gopl.io/translations.html
+
 # German
   * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
@@ -376,6 +382,11 @@ Sorted by publication date.
     * ISBN: 978-8-96618-990-8
     * Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
 
+  * **The Go Programming Language**
+    * Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Seung Lee
+    * Publication Date: June 2016
+    * ISBN: 978-0-13419-044-0
+    * Reference: http://www.acornpub.co.kr/book/go-programming
 
 # Indonesian
   * **Bahasa Pemrograman Go**
