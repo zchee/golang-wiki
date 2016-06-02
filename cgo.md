@@ -79,45 +79,67 @@ void ACFunction() {
 
 ### Function variables
 
-The following code shows an example of invoking a Go callback from C code. Go passes the function variable to the CGo code by calling ` CallMyFunction() `. ` CallMyFunction() ` invokes the callback by sending it back into the Go code, with the desired parameters, for unpacking and calling.
+The following code shows an example of invoking a Go callback from C code. Because of the [pointer passing rules](https://golang.org/cmd/cgo/#hdr-Passing_pointers) Go code can not pass a function value directly to C.  Instead it is necessary to use an indirection. This example uses a registry with a mutex, but there are many other ways to map from a value that can be passed to C to a Go function.
 
 ```go
 package gocallback
 
 import (
 	"fmt"
-	"unsafe"
+	"sync"
 )
 
 /*
-extern void go_callback_int(void* foo, int p1);
+extern void go_callback_int(int foo, int p1);
 
 // normally you will have to define function or variables
 // in another separate C file to avoid the multiple definition
 // errors, however, using "static inline" is a nice workaround
 // for simple functions like this one.
-static inline void CallMyFunction(void* pfoo) {
-	go_callback_int(pfoo, 5);
+static inline void CallMyFunction(int foo) {
+	go_callback_int(foo, 5);
 }
 */
 import "C"
 
 //export go_callback_int
-func go_callback_int(pfoo unsafe.Pointer, p1 C.int) {
-	foo := *(*func(C.int))(pfoo)
-	foo(p1)
+func go_callback_int(foo C.int, p1 C.int) {
+	fn := lookup(int(foo))
+	fn(p1)
 }
 
 func MyCallback(x C.int) {
 	fmt.Println("callback with", x)
 }
 
-// we store it in a global variable so that the garbage collector
-// doesn't clean up the memory for any temporary variables created.
-var MyCallbackFunc = MyCallback
-
 func Example() {
-	C.CallMyFunction(unsafe.Pointer(&MyCallbackFunc))
+	i := register(MyCallback)
+	C.CallMyFunction(C.int(i))
+	unregister(i)
+}
+
+var mu sync.Mutex
+var index int
+var fns = make(map[int]func(C.int))
+
+func register(fn func(C.int)) int {
+	mu.Lock()
+	defer mu.Unlock()
+	index++
+	fns[index] = fn
+	return index
+}
+
+func lookup(i int) func(C.int) {
+	mu.Lock()
+	defer mu.Unlock()
+	return fns[i]
+}
+
+func unregister(i int) {
+	mu.Lock()
+	defer mu.Unlock()
+	delete(fns, i)
 }
 ```
 
