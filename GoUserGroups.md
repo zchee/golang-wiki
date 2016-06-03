@@ -53,8 +53,8 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [L'viv Golang Group](http://www.meetup.com/Lviv-Golang-Group/) - L'viv, Ukraine
   * [Go SXB, Go!](http://www.meetup.com/fr-FR/Go-SXB-Go/) - Strasbourg, France
   * [Hannover Gophers Meetup](http://www.meetup.com/de-DE/Hannover-Gophers-Meetup/) - Hannover, Germany
-  * [Golang Nürnberg]http://www.meetup.com/de-DE/Golang-Nuernberg/ - Nürnberg, Germany
-  * [Helsinki Gophers]http://www.meetup.com/Helsinki-Gophers/ - Helsinki, Finland
+  * [Golang Nürnberg](http://www.meetup.com/de-DE/Golang-Nuernberg/) - Nürnberg, Germany
+  * [Helsinki Gophers](http://www.meetup.com/Helsinki-Gophers/) - Helsinki, Finland
 
 # North America
 
