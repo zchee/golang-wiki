@@ -16,6 +16,9 @@ This page lists academic and industry research papers about Go or using Go as th
   - [pdf](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)
   - [code](https://github.com/efficient/epaxos)
   - [Experience with ePaxos: Systems Research using Go](https://da-data.blogspot.com/2013/10/experience-with-epaxos-systems-research.html)
+- Research Problems of Implementing Go
+  - https://talks.golang.org/2014/research.slide  (rsc)
+  - https://talks.golang.org/2014/research2.slide (dvyukov)
 
 ## 2015
 
