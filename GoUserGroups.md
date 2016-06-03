@@ -103,6 +103,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Seattle Go Programmers](http://www.meetup.com/golang/) - Seattle WA, USA.
   * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
   * [Las Vegas Go Meetup](http://www.meetup.com/Las-Vegas-Go-Meetup/) - Las Vegas NV, USA.
+  * [Ann Arbor Gophers](http://www.meetup.com/Ann-Arbor-Gophers/) - Ann Arbor MI, USA
 
 # Oceania
   * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
