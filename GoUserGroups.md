@@ -32,6 +32,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Go Wales User Group](http://golang.cymru/) - Wales, UK.
   * [Golang Москва](http://www.meetup.com/Golang-Moscow/) - Moscow, Russia.
   * [Golang Питер](http://www.meetup.com/Golang-Peter/) - Saint Petersburg, Russia.
+  * [Chisinau Golang Meetup](http://www.meetup.com/Chisinau-Golang-Meetup/) - Chisinau, Moldova
   * [Munich Gophers](http://www.meetup.com/Munich-Gophers-Go-User-Group/) - Munich, Germany
   * [Golang Paris](http://www.meetup.com/Golang-Paris) - Paris, France.
   * [Golang Rennes](http://www.meetup.com/Golang-Rennes/) - Rennes, France.
