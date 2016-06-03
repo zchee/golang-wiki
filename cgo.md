@@ -126,6 +126,9 @@ func register(fn func(C.int)) int {
 	mu.Lock()
 	defer mu.Unlock()
 	index++
+	for fns[index] != nil {
+		index++
+	}
 	fns[index] = fn
 	return index
 }
