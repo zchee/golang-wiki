@@ -27,6 +27,8 @@ This page lists academic and industry research papers about Go or using Go as th
 - Research Problems of Implementing Go
   - https://talks.golang.org/2014/research.slide  (rsc)
   - https://talks.golang.org/2014/research2.slide (dvyukov)
+- bíogo: a simple high-performance bioinformatics toolkit for the Go language (D. Kortschak, D. Adelson)
+  - [pdf](http://biorxiv.org/content/early/2014/05/12/005033)
 
 ## 2015
 
