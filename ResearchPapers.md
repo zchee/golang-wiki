@@ -51,3 +51,7 @@ This page lists academic and industry research papers about Go or using Go as th
 - A Small-Step Semantics of a Concurrent Calculus with Goroutines and Deferred Functions ( Martin Steffen )
   - [springer link] (http://link.springer.com/chapter/10.1007%2F978-3-319-30734-3_26)
   - [pdf] (https://heim.ifi.uio.no/msteffen/download/15/semantics-goroutinesdefer.pdf)
+
+- Butterfield, Ellis H., "Fog Computing with Go: A Comparative Study" (2016). CMC Senior Theses. Paper 1348.
+  - http://scholarship.claremont.edu/cmc_theses/1348
+
