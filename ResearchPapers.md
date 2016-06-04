@@ -45,3 +45,7 @@ This page lists academic and industry research papers about Go or using Go as th
 - Static Deadlock Detection for Concurrent Go by Global Session Graph Synthesis (Ng, Yoshida)
   - [pdf](http://www.doc.ic.ac.uk/~cn06/pub/2016/dingo/main.pdf)
   - [code](https://github.com/nickng/dingo-hunter)
+
+- A Small-Step Semantics of a Concurrent Calculus with Goroutines and Deferred Functions ( Martin Steffen )
+  - [springer link] (http://link.springer.com/chapter/10.1007%2F978-3-319-30734-3_26)
+  - [pdf] (https://heim.ifi.uio.no/msteffen/download/15/semantics-goroutinesdefer.pdf)
