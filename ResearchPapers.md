@@ -35,6 +35,8 @@ This page lists academic and industry research papers about Go or using Go as th
 - Flywheel: Google's Data Compression Proxy for the Mobile Web (Agababov, Buettner, Chudnovsky, Cogan, Greenstein, McDaniel, Piatek, Scott, Welsh, Yin)
   - [pdf](http://research.google.com/pubs/pub43447.html)
   - [Rewriting a large production system in Go](http://matt-welsh.blogspot.com/2013/08/rewriting-large-production-system-in-go.html)
+- A Machine Learning Strategy to Assist Turbulence Model Development
+  - http://arc.aiaa.org/doi/abs/10.2514/6.2015-1287
 
 ## 2016
 - Privacy, Discovery, and Authentication for the Internet of Things (Wu, Taly, Shankar, Boneh)
