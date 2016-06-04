@@ -414,7 +414,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [tribool](https://github.com/saschpe/tribool) - Ternary (tree-valued) logic for Go
   * [Tuple](https://bitbucket.org/gotamer/tuple) - Tuple is a go type that will hold mixed types / values
   * [vcard](https://bitbucket.org/llg/vcard) - Reading and writing vcard file in go.  Implementation of RFC 2425 (A MIME Content-Type for Directory Information) and RFC 2426 (vCard MIME Directory Profile).
-  * [x2j](https://github.com/clbanning/x2j) - Unmarshal XML doc into `map[string]interface{}` or JSON
+  * [mxj](https://github.com/clbanning/mxj) - Marshal/Unmarshal XML doc from/to `map[string]interface{}` or JSON
   * [xlsx](https://github.com/tealeg/xlsx) - A library to help with extracting data from Microsoft Office Excel XLSX files.
 
 ## Databases
