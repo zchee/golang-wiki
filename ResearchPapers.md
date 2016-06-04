@@ -59,3 +59,5 @@ This page lists academic and industry research papers about Go or using Go as th
 - Butterfield, Ellis H., "Fog Computing with Go: A Comparative Study" (2016). CMC Senior Theses. Paper 1348.
   - http://scholarship.claremont.edu/cmc_theses/1348
 
+- An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style (Harshal Sheth, Aashish Welling) 
+  - [arXiv:1603.05636 cs.OS] ( http://arxiv.org/abs/1603.05636 )
