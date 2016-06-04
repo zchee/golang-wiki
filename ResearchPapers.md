@@ -40,6 +40,10 @@ This page lists academic and industry research papers about Go or using Go as th
 - A Machine Learning Strategy to Assist Turbulence Model Development (Brendan Tracey, Karthik Duraisamy, Juan J. Alonso)
   - http://arc.aiaa.org/doi/abs/10.2514/6.2015-1287
 
+-  Implementing an intelligent version of the classical sliding-puzzle game for unix terminals using Golang's concurrency primitives ( Pravendra Singh )
+ - [arxiv] ( http://arxiv.org/abs/1503.08345 )
+
+
 ## 2016
 - Privacy, Discovery, and Authentication for the Internet of Things (Wu, Taly, Shankar, Boneh)
   - [arxiv](https://arxiv.org/abs/1604.06959)
