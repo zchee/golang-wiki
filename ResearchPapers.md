@@ -1,8 +1,16 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
+## 2011
+- ng: What next-generation languages can teach us about HENP frameworks in the manycore era (S. Binet)
+  - [pdf](http://iopscience.iop.org/article/10.1088/1742-6596/331/4/042002)
+
 ## 2012
 - Time Warp on the Go (D'Angelo, Ferretti, Marzolla)
   - [arxiv](https://arxiv.org/abs/1206.2772)
+- Can Go address the multicore issues of today and the manycore problems of tomorrow? (S. Binet)
+  - [pdf](http://iopscience.iop.org/article/10.1088/1742-6596/368/1/012017)
+- GoCxx: a tool to easily leverage C++ legacy code for multicore-friendly Go libraries and frameworks (S. Binet)
+  - [pdf](http://iopscience.iop.org/article/10.1088/1742-6596/396/5/052012)
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
