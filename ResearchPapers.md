@@ -18,6 +18,9 @@ This page lists academic and industry research papers about Go or using Go as th
 - The Buffered π-Calculus: A Model for Concurrent Languages (Deng, Zhang, Deng, Zhong)
   - [arxiv:1212.6183 cs.LO](https://arxiv.org/abs/1212.6183)
 
+- Analysis of the Go runtime scheduler (Neil Deshpande,Erica Sponsler,Nathaniel Weiss)
+ - [pdf](http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
   - [pdf](https://docs.google.com/file/d/0B6tFaBl5qV_gNmpRTnJkcEo4a2M/edit)
