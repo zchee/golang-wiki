@@ -344,6 +344,9 @@
   * [Techequity Technologies](http://www.techequity.in/)
   * [ThoughtWorks](https://thoughtworks.com/)
 
+## Indonesia
+  * [President University](http://presuniv.com)
+
 ## Iran
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
