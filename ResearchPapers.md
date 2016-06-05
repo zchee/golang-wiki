@@ -53,9 +53,10 @@ This page lists academic and industry research papers about Go or using Go as th
 - Keeping Authorities "Honest or Bust" with Decentralized Witness Cosigning (Syta, Tamas, Visher, Wolinsky, Jovanovic, Gasser, Gailly, Khoffi, Ford)
   - [arxiv:1503.08768 cs.CR](https://arxiv.org/abs/1503.08768)
   - [code](https://github.com/dedis/cothority), [code](https://github.com/dedis/cosi)
-
 - Message Passing for Programming Languages and Operating Systems (Martynas Pumputis ) Master’s Thesis
  - [pdf](http://e-collection.library.ethz.ch/eserv/eth:48404/eth-48404-01.pdf)
+- Type inference for Go (Emin Gigovic, Philip Malmros )
+ - [pdf](http://fileadmin.cs.lth.se/cs/Education/EDAN70/CompilerProjects/2015/Reports/GigovicMalmros.pdf)
 
 ## 2016
 - Privacy, Discovery, and Authentication for the Internet of Things (Wu, Taly, Shankar, Boneh)
