@@ -30,6 +30,8 @@ This page lists academic and industry research papers about Go or using Go as th
  - [pdf](https://2013.asiabsdcon.org/papers/abc2013-P7A-paper.pdf)  
 - Benchmarking Usability and Performance of Multicore Languages ( Sebastian Nanz, Scott West, Kaue Soares da Silveira, Bertrand Meyer)
  - [arXiv:1302.2837 cs.DC](https://arxiv.org/abs/1302.2837)
+- Examining the Expert Gap in Parallel Programming (Sebastian Nanz, Scott West, Kaue Soares da Silveira)
+ - [pdf](http://se.inf.ethz.ch/people/west/expert-gap-europar-2013.pdf)
 
 ## 2014
 - A Study of Successive Over-relaxation Method Parallelization Over Modern HPC Languages (Mittal)
