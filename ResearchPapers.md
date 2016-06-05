@@ -54,6 +54,9 @@ This page lists academic and industry research papers about Go or using Go as th
   - [arxiv:1503.08768 cs.CR](https://arxiv.org/abs/1503.08768)
   - [code](https://github.com/dedis/cothority), [code](https://github.com/dedis/cosi)
 
+- Message Passing for Programming Languages and Operating Systems (Martynas Pumputis ) Master’s Thesis
+ - [pdf](http://e-collection.library.ethz.ch/eserv/eth:48404/eth-48404-01.pdf)
+
 ## 2016
 - Privacy, Discovery, and Authentication for the Internet of Things (Wu, Taly, Shankar, Boneh)
   - [arxiv](https://arxiv.org/abs/1604.06959)
