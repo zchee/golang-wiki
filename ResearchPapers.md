@@ -25,6 +25,9 @@ This page lists academic and industry research papers about Go or using Go as th
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
   - [pdf](https://docs.google.com/file/d/0B6tFaBl5qV_gNmpRTnJkcEo4a2M/edit)
   - [code](https://github.com/wetherbeei/gopar)
+- SCTP in Go ( Olivier Van Acker )
+ - Keywords: Stream Control Transmission Protocol (SCTP); Transmission Control Protocol (TCP); Go; Networking;
+ - [pdf](https://2013.asiabsdcon.org/papers/abc2013-P7A-paper.pdf)  
 
 ## 2014
 - A Study of Successive Over-relaxation Method Parallelization Over Modern HPC Languages (Mittal)
