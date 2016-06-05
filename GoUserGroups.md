@@ -56,7 +56,8 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Hannover Gophers Meetup](http://www.meetup.com/de-DE/Hannover-Gophers-Meetup/) - Hannover, Germany
   * [Golang Nürnberg](http://www.meetup.com/de-DE/Golang-Nuernberg/) - Nürnberg, Germany
   * [Helsinki Gophers](http://www.meetup.com/Helsinki-Gophers/) - Helsinki, Finland
-  * [Golang Cologne](http://www.meetup.com/Golang-Cologne/) - Cologne/Bonn, Germany 
+  * [Golang Cologne](http://www.meetup.com/Golang-Cologne/) - Cologne/Bonn, Germany
+  * [Golang Vilnius](http://www.meetup.com/Vilnius-Golang/) - Vilnius, Lithuania
 
 # North America
 
