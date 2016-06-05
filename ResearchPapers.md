@@ -39,6 +39,7 @@ This page lists academic and industry research papers about Go or using Go as th
 ## 2014
 - A Study of Successive Over-relaxation Method Parallelization Over Modern HPC Languages (Mittal)
   - [arxiv:1401.0763 cs.DC](https://arxiv.org/abs/1401.0763)
+  - [code](https://github.com/sparsh0mittal/sor_serial_parallel_codes)
 - There Is More Consensus in Egalitarian Parliaments (Moraru, Andersen, Kaminsky)
   - [pdf](https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf)
   - [code](https://github.com/efficient/epaxos)
