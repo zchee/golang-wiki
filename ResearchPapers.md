@@ -7,6 +7,9 @@ This page lists academic and industry research papers about Go or using Go as th
 ## 2011
 - ng: What next-generation languages can teach us about HENP frameworks in the manycore era (S. Binet)
   - [pdf](http://iopscience.iop.org/article/10.1088/1742-6596/331/4/042002)
+- Serving Web Content with Dynamic Process Networks in Go (James Whitehead II)
+ - [DOI: 10.3233/978-1-60750-774-1-209](http://dx.doi.org/10.3233/978-1-60750-774-1-209)
+ - [pdf] (http://www.cs.ox.ac.uk/people/jim.whitehead/cpa2011-draft.pdf)
 
 ## 2012
 - Time Warp on the Go (D'Angelo, Ferretti, Marzolla)
