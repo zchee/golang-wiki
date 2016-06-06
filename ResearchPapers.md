@@ -16,8 +16,6 @@ This page lists academic and industry research papers about Go or using Go as th
   - [arXiv:1603.05636 cs.OS] ( http://arxiv.org/abs/1603.05636 )
 - PAS-MC: Privacy-preserving Analytics Stream for the Mobile Cloud (Joy, Gerla)
   - [arXiv:1604.04892 cs.CR](https://arxiv.org/abs/1604.04892)## 2010
-- GoHotDraw: Evaluating the Go Programming Language with Design Patterns (Schmager, Cameron, Noble)
-  - [pdf](http://www.doc.ic.ac.uk/~ncameron/papers/schmager_plateau10.pdf)
 
 ## 2015
 - Blade: A Data Center Garbage Collector (Terei, Levy)
@@ -83,3 +81,8 @@ This page lists academic and industry research papers about Go or using Go as th
 - Serving Web Content with Dynamic Process Networks in Go (James Whitehead II)
  - [DOI: 10.3233/978-1-60750-774-1-209](http://dx.doi.org/10.3233/978-1-60750-774-1-209)
  - [pdf] (http://www.cs.ox.ac.uk/people/jim.whitehead/cpa2011-draft.pdf)
+
+## 2010
+- GoHotDraw: Evaluating the Go Programming Language with Design Patterns (Schmager, Cameron, Noble)
+  - [pdf](http://www.doc.ic.ac.uk/~ncameron/papers/schmager_plateau10.pdf)
+
