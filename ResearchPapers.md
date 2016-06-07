@@ -15,7 +15,10 @@ This page lists academic and industry research papers about Go or using Go as th
 - An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style (Harshal Sheth, Aashish Welling) 
   - [arXiv:1603.05636 cs.OS] ( http://arxiv.org/abs/1603.05636 )
 - PAS-MC: Privacy-preserving Analytics Stream for the Mobile Cloud (Joy, Gerla)
-  - [arXiv:1604.04892 cs.CR](https://arxiv.org/abs/1604.04892)## 2010
+  - [arXiv:1604.04892 cs.CR](https://arxiv.org/abs/1604.04892)
+- Developing an Ethereum Blockchain Application (Triantafyllidis)
+  - [pdf](https://homepages.staff.os3.nl/~delaat/rp/2015-2016/p53/report.pdf)
+
 
 ## 2015
 - Blade: A Data Center Garbage Collector (Terei, Levy)
@@ -34,6 +37,8 @@ This page lists academic and industry research papers about Go or using Go as th
  - [pdf](http://e-collection.library.ethz.ch/eserv/eth:48404/eth-48404-01.pdf)
 - Type inference for Go (Emin Gigovic, Philip Malmros )
  - [pdf](http://fileadmin.cs.lth.se/cs/Education/EDAN70/CompilerProjects/2015/Reports/GigovicMalmros.pdf)
+- Open-Source, Platform-Independent Library and Online Scripting Environment for Accessing Thermo Scientific RAW Files. (Kelchtermans, Silva, Argentini, Staes, Vandenbussche, Laukens, Valkenborg, Martens)
+  - https://www.ncbi.nlm.nih.gov/pubmed/26477298
 
 ## 2014
 - A Study of Successive Over-relaxation Method Parallelization Over Modern HPC Languages (Mittal)
@@ -48,6 +53,14 @@ This page lists academic and industry research papers about Go or using Go as th
   - https://talks.golang.org/2014/research2.slide (dvyukov)
 - bíogo: a simple high-performance bioinformatics toolkit for the Go language (D. Kortschak, D. Adelson)
   - [pdf](http://biorxiv.org/content/early/2014/05/12/005033)
+- P2S: A Fault-Tolerant Publish/Subscribe Infrastructure (Chang, Duan, Meling, Peisert, Zhang)
+  - [pdf](http://cs.unc.edu/~haibin/p2s.pdf)
+- Generating a Google Go framework from an Uppaal model (Dekker)
+  - [pdf](https://www.cs.ru.nl/bachelorscripties/2014/Jip_Dekker___4122100___Generating_Google_Go_framework_from_Uppaal_models.pdf)
+- Using the Go Programming Language in Practice (Westrup, Pettersson)
+  - [pdf](http://users.student.lth.se/dt09ew6/files/thesis.pdf)
+
+
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
@@ -60,6 +73,10 @@ This page lists academic and industry research papers about Go or using Go as th
  - [arXiv:1302.2837 cs.DC](https://arxiv.org/abs/1302.2837)
 - Examining the Expert Gap in Parallel Programming (Sebastian Nanz, Scott West, Kaue Soares da Silveira)
  - [pdf](http://se.inf.ethz.ch/people/west/expert-gap-europar-2013.pdf)
+- Acropolis: aggregated client request ordering by Paxos (Jothen)
+ - https://brage.bibsys.no/xmlui//handle/11250/181825
+- Implementation and experimental evaluation of live replacement and reconfiguration (Lea)
+  - https://brage.bibsys.no/xmlui//handle/11250/181813
 
 ## 2012
 - Time Warp on the Go (D'Angelo, Ferretti, Marzolla)
@@ -74,6 +91,11 @@ This page lists academic and industry research papers about Go or using Go as th
  - [pdf](http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
 - A Comparative Study of Programming Models for Concurrency ( Kaue Soares da Silveira) – Porto Alegre: COMGRAD CIC UFRGS, 2012.  Final Report (Bachelor)
  - [pdf](ftp://ftp.inf.ufrgs.br/pub/geyer/Alunos/KaueSilveira/TG-ComparacaoLinguagensConcorrencia-kaue_soares_da_silveira.pdf)
+- Debian Code Search (Stapelberg)
+  - [pdf](https://codesearch.debian.net/research/bsc-thesis.pdf)
+- Go’s Concurrency Constructs on the SCC (Prell, Rauber)
+  - [pdf](https://hal.inria.fr/file/index/docid/718924/filename/MARC6_Gos-Concurrency-Constructs-on-the-SCC.pdf)
+
 
 ## 2011
 - ng: What next-generation languages can teach us about HENP frameworks in the manycore era (S. Binet)
