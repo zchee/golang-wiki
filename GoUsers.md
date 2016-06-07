@@ -461,8 +461,4 @@
   * [Ryanair](http://www.ryanair.com) - [source](https://youtu.be/CWCHT3GClMM?t=15m)
   * [Belua] (https://www.belua.com)
 
-
-# Tried Go, but moved away
-  * [Braintree Payments](http://braintreepayments.com) - [blog](https://www.braintreepayments.com/braintrust/gotchas-irritants-and-warts-in-go-web-development)
-
 See also [Success Stories](SuccessStories)
