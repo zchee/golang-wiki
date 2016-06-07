@@ -200,6 +200,7 @@
   * [Remember The Milk](https://www.rememberthemilk.com/)
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
+  * [Replicated] (https://www.replicated.com)
   * [Repustate](http://www.repustate.com)
   * [ReviewTrackers](http://www.reviewtrackers.com/) - [HN](https://news.ycombinator.com/item?id=10660780)
   * [Room for More](https://roomformore.com)
