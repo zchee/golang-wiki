@@ -239,6 +239,7 @@
   * [Tapglue](https://www.tapglue.com/)
   * [Tapjoy](http://home.tapjoy.com/) - [blog](http://basho.com/posts/technical/built-on-riak-dynamiq-by-tapjoy/), [github](https://github.com/Tapjoy/dynamiq)
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
+  * [Teespring](https://teespring.com/)
   * [TF2Stadium](http://tf2stadium.com) - [github](https://github.com/TF2Stadium), [blog](http://blog.tf2stadium.com/how-it-works-basics/)
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thisissoon](http://thisissoon.com/) - [github](https://github.com/thisissoon/yam)
