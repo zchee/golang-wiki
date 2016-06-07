@@ -247,6 +247,7 @@
   * [TinkerCad](http://tinkercad.com/)
   * [Toggl](http://www.toggl.com) - [blog](http://blog.toggl.com/2012/09/moving-to-go/)
   * [Torbit ](http://www.torbit.com) - [blog](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
+  * [Total Care Auto](http://www.totalcareauto.com/)
   * [Transloadit](https://transloadit.com) - [blog](https://transloadit.com/blog/2014/11/releasing-our-new-go-sdk/)
   * [Treetop Commons, NobleHour](http://www.treetopcommons.com/#intro) - [tweet](https://twitter.com/aimeelevens/status/664124807286427648)
   * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
