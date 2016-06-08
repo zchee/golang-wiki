@@ -357,6 +357,7 @@
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
   * [Techequity Technologies](http://www.techequity.in/)
+  * [Testbook](http://testbook.com/)
   * [ThoughtWorks](https://thoughtworks.com/)
 
 ## Indonesia
