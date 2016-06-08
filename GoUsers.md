@@ -274,6 +274,7 @@
   * [Wireless Registry](http://www.wirelessregistry.com) - [github](https://github.com/wirelessregistry)
   * [Workiva](https://www.workiva.com/) - [github](https://github.com/workiva/go-datastructures)
   * [Yahoo](http://yahoo.com) - [github](https://github.com/yahoo/webseclab)
+  * [Yandex](http://yandex.ru) - [blog](https://habrahabr.ru/company/yandex/blog/237985)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [Zalando](http://tech.zalando.com/) - [github](https://github.com/zalando) 
   * [ZITEC](http://www.zitec.de)
