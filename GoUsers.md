@@ -57,6 +57,7 @@
   * [botvs.com](http://botvs.com)
   * [Booking.com](http://booking.com) - [source](http://www.techworld.com/careers/perl-developers-dispel-doubts-about-codes-longevity-3599357/)
   * [Bread Finance](https://www.getbread.com)
+  * [Brightcove](https://brightcove.com)
   * [BuySellAds](https://buysellads.com)
   * [Byndr](http://www.byndr.org)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA), [email](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
