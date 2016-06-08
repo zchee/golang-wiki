@@ -367,6 +367,9 @@
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
   * [Kikojas](http://www.kikojas.com) -- Kikojas is a LBS, focusing on local businesses of the whole country of Iran
 
+## Ireland
+  * [Intercom](http://intercom.io/)
+ 
 ## Israel
   * [BigPanda](http://bigpanda.io) 
   * [Dragontail Systems](http://www.dragontailsystems.com) 
