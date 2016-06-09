@@ -912,6 +912,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
   * [go\_matrix\_cuda](https://godoc.org/github.com/alonsovidales/go_matrix_cuda) - GPU-Accelerated Linear Algebra Libraries based in CUDA
   * [go.matrix](https://github.com/skelterjohn/go.matrix) - a linear algebra package
+  * [gonum](https://github.com/gonum) - Scientific packages (linear algebra, BLAS, LAPACK, differentiation, plots, linear programming, statistics, ...)
   * [go-symexpr](https://github.com/verdverm/go-symexpr) - Symbolic math as an AST with derivatives, simplification, and non-linear regression
   * [gsl](https://bitbucket.org/mingzhi/gsl) - GNU Scientific Library bindings
   * [interval](http://godoc.org/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
