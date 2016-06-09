@@ -1242,7 +1242,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Programming
 
-  * [go-clang](http://bitbucket.org/binet/go-clang) - cgo bindings to the C-API of libclang
+  * [go-clang](http://github.com/go-clang) - cgo bindings to the C-API of libclang
   * [godeferred](https://github.com/mattn/godeferred) - port of jsdeferred: http://cho45.stfuawsc.com/jsdeferred/
   * [go-galib](https://github.com/thoj/go-galib) - a library of Genetic Algorithms
   * [go-intset](https://github.com/phf/go-intset) - a library to work with bounded sets of integers, including multiple alternative implementations
