@@ -225,6 +225,7 @@
   * [SmugMug](http://www.smugmug.com/) - [blog](http://sorcery.smugmug.com/2012/04/06/deriving-json-types-in-go/)
   * [Skimlinks](http://www.skimlinks.com) [blog](https://speakerdeck.com/rjohnsondev/go-at-skimlinks)
   * [SoundCloud](http://soundcloud.com) - [blog](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
+  * [SoundHound] (http://soundhound.com)
   * [Sourcegraph](https://sourcegraph.com) - [talk](http://www.youtube.com/watch?v=-DpKaoPz8l8), [github](https://github.com/sourcegraph)
   * [Space Monkey](http://www.spacemonkey.com) - [blog](https://www.spacemonkey.com/blog/posts/go-space-monkey)
   * [SpaceX](http://www.spacex.com/) - [reddit](https://www.reddit.com/r/golang/comments/3pu3nl/spacex_is_using_go_for_its_telemetry_system/)
