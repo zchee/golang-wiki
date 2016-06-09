@@ -103,6 +103,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Utah Gophers](http://www.meetup.com/utahgophers/) - Salt Lake City UT, USA.
   * [Golang-DC](http://www.meetup.com/Golang-DC/) - Arlington VA, USA.
   * [Seattle Go Programmers](http://www.meetup.com/golang/) - Seattle WA, USA.
+  * [Go Charlotte Meetup](http://www.meetup.com/golangclt/) - Charlotte NC, USA
   * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
   * [Las Vegas Go Meetup](http://www.meetup.com/Las-Vegas-Go-Meetup/) - Las Vegas NV, USA.
   * [Ann Arbor Gophers](http://www.meetup.com/Ann-Arbor-Gophers/) - Ann Arbor MI, USA
