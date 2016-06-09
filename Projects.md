@@ -759,7 +759,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goflac](https://github.com/cocoonlife/goflac) - Go bindings for decoding and encoding FLAC audio with libFLAC
   * [go-gd](https://github.com/bolknote/go-gd) - Go bingings for GD
   * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
-  * [go-gnuplot](https://bitbucket.org/binet/go-gnuplot) - go bindings for GNUPlot
+  * [go-gnuplot](https://github.com/sbinet/go-gnuplot) - go bindings for Gnuplot
   * [go-gtk3](https://github.com/norisatir/go-gtk3) - gtk3 bindings for go
   * [go-heatmap](https://github.com/dustin/go-heatmap) - A toolkit for making heatmaps
   * [GoHM](https://github.com/rainliu/GoHM) - H.265/HEVC HM Video Codec in Go
