@@ -12,3 +12,4 @@ Read [this article](http://blog.golang.org/gopher) for more details.
 * [go gopher vector](https://github.com/keygx/Go-gopher-Vector)
 * [gopher gala](http://www.gophergala.com/)
 * [gophericons](https://github.com/hackraft/gophericons)
+* [gophers by Egon Elbre](https://github.com/egonelbre/gophers)
