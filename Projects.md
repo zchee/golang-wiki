@@ -654,7 +654,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
   * [MailHog](https://github.com/mailhog/MailHog) - Email testing service, inspired by MailCatcher.
-  * [MailSlurper](http://mailslurper.com) - A handy SMTP mail server useful for local and team application development. Slurp mail into oblivion!
+  * [MailSlurper](https://github.com/mailslurper/mailslurper) - A handy SMTP mail server useful for local and team application development. Slurp mail into oblivion!
 
 ## Error handling
 
