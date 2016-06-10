@@ -18,7 +18,9 @@ This page lists academic and industry research papers about Go or using Go as th
   - [arXiv:1604.04892 cs.CR](https://arxiv.org/abs/1604.04892)
 - Developing an Ethereum Blockchain Application (Triantafyllidis)
   - [pdf](https://homepages.staff.os3.nl/~delaat/rp/2015-2016/p53/report.pdf)
-
+- Identifying and characterizing Sybils in the Tor network (Winter, Ensafi, Loesing, and Feamster)
+  - [pdf] (https://nymity.ch/sybilhunting/pdf/sybilhunting.pdf)
+  - [code] (https://github.com/NullHypothesis/sybilhunter)
 
 ## 2015
 - Blade: A Data Center Garbage Collector (Terei, Levy)
