@@ -58,6 +58,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [Helsinki Gophers](http://www.meetup.com/Helsinki-Gophers/) - Helsinki, Finland
   * [Golang Cologne](http://www.meetup.com/Golang-Cologne/) - Cologne/Bonn, Germany
   * [Golang Vilnius](http://www.meetup.com/Vilnius-Golang/) - Vilnius, Lithuania
+  * [Meetup Surrey](http://www.meetup.com/Surrey-Go-User-Group-Meetup/) - Surrey, UK
 
 # North America
 
