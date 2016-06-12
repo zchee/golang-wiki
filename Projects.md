@@ -1389,6 +1389,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
   * [httpexpect](https://github.com/gavv/httpexpect) - Package that helps to write nice tests for your HTTP API
   * [Nitro](https://github.com/spf13/nitro) - A quick and simple profiler For Go
+  * [mspec](https://github.com/eduncan911/mspec) - BDD framework that frees you to Stub and Spec your code first with natural BDD language.
   * [muxy](https://github.com/mefellows/muxy) - Simulating real-world distributed system failures.
   * [Pegomock](https://github.com/petergtz/pegomock) - a mocking framework based on [golang/mock](https://github.com/golang/mock), but uses a DSL closely related to [Mockito](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html).
   * [terst](https://github.com/robertkrimen/terst) - A terse, easy-to-use testing library for Go
