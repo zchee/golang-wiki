@@ -4,7 +4,7 @@ Spec: https://golang.org/ref/spec#Switch_statements
 
 Go's ` switch ` statements are pretty neat. For one thing, you don't need to break at the end of each case.
 
-```
+```go
 switch c {
 case '&':
 	esc = "&amp;"
@@ -27,7 +27,7 @@ default:
 
 Switches work on values of any type.
 
-```
+```go
 switch syscall.OS {
 case "windows":
 	sd = &sysDir{
@@ -63,7 +63,7 @@ default:
 
 In fact, you don't need to switch on anything at all. A switch with no value means "switch true", making it a cleaner version of an if-else chain, as in this example from Effective Go:
 
-```
+```go
 func unhex(c byte) byte {
 	switch {
 	case '0' <= c && c <= '9':
@@ -81,7 +81,7 @@ func unhex(c byte) byte {
 
 Go's ` switch ` statements ` break ` implicitly, but ` break ` is still useful:
 
-```
+```go
 command := ReadCommand()
 argv := strings.Fields(command)
 switch argv[0] {
@@ -102,7 +102,7 @@ default:
 
 To fall through to a subsequent case, use the ` fallthrough ` keyword:
 
-```
+```go
 // Unpack 4 bytes into uint32 to repack into base 85 5-byte.
 var v uint32
 switch len(src) {
@@ -123,7 +123,7 @@ case 1:
 
 The 'fallthrough' must be the last thing in the case; you can't write something like
 
-```
+```go
 switch {
 case f():
 	if g() {
@@ -136,7 +136,7 @@ default:
 ```
 However, you can work around this by using a 'labeled' `fallthrough`:
 
-```
+```go
 switch {
 case f():
 	if g() {
@@ -154,7 +154,7 @@ default:
 
 If you want to use multiple values in the same case, use a comma-separated list.
 
-```
+```go
 func letterOp(code int) bool {
 	switch chars[code].category {
 	case "Lu", "Ll", "Lt", "Lm", "Lo":
@@ -167,7 +167,7 @@ func letterOp(code int) bool {
 
 With a type switch you can switch on the type of an interface value (only):
 
-```
+```go
 func typeName(v interface{}) string {
 	switch v.(type) {
 	case int:
@@ -182,7 +182,7 @@ func typeName(v interface{}) string {
 
 You can also declare a variable and it will have the type of each ` case `:
 
-```
+```go
 func do(v interface{}) string {
 	switch u := v.(type) {
 	case int:
