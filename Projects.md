@@ -1594,7 +1594,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [reddit.go](https://github.com/tadzik/reddit.go) - Client library for Reddit API
   * [shorturl](https://github.com/subosito/shorturl) - Generic implementation for interacting with various URL shortening services
   * [Stack on Go](https://github.com/laktek/Stack-on-Go) - Go wrapper for Stack Exchange API
-  * [stripe](https://github.com/stripe/stripe-go) - Official Stripe client library
+  * [stripe](https://github.com/stripe/stripe-go) - Official Stripe client library 
+  * [SocialSharesCount](https://github.com/gssumesh/socialsharescount) - Wrapper API on multiple social websites to get URL share statistics
   * [twilio](https://github.com/subosito/twilio) - Simple Twilio API wrapper
   * [twittergo](https://github.com/kurrik/twittergo) - Client library for Twitter's API
 
