@@ -388,6 +388,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [rbtree](https://github.com/yasushi-saito/rbtree) - Yet another red-black tree implementation, with a C++ STL-like API
   * [rtreego](https://github.com/dhconnelly/rtreego) - an R-Tree library
   * [triego](https://github.com/alediaferia/triego) - Simple trie implementation for storing words
+  * [prefixmap](https://github.com/alediaferia/prefixmap) - Simple trie-based prefix-map for string-based keys
 
 ### Other
 
