@@ -43,6 +43,8 @@ This page lists academic and industry research papers about Go or using Go as th
   - https://www.ncbi.nlm.nih.gov/pubmed/26477298
 
 ## 2014
+- PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
+  - http://onlinelibrary.wiley.com/doi/10.1002/etep.1999/full
 - A Study of Successive Over-relaxation Method Parallelization Over Modern HPC Languages (Mittal)
   - [arxiv:1401.0763 cs.DC](https://arxiv.org/abs/1401.0763)
   - [code](https://github.com/sparsh0mittal/sor_serial_parallel_codes)
