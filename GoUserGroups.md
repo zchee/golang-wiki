@@ -72,6 +72,7 @@ Is your area not listed below? Check out [this list](http://golang.meetup.com/al
   * [GolangVan](http://golangvan.org/) - Vancouver BC, Canada.
   * [GoTO](http://www.meetup.com/go-toronto) - Toronto ON, Canada.
   * [Ottawa Go](http://www.meetup.com/Ottawa-Go-Meetup/) - Ottawa ON, Canada.
+  * [KW Go Developers](http://www.meetup.com/Golang-KW/) - Waterloo, ON, Canada.
 
 ## Mexico
 
