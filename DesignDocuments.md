@@ -5,7 +5,7 @@
 
 # Go 1.2
 
-  * [xml.Marshaler and Umarshaler](http://golang.org/s/go12xml)
+  * [xml.Marshaler and Unmarshaler](http://golang.org/s/go12xml)
   * [encoding.TextMarshaler and Unmarshaler](http://golang.org/s/go12encoding)
   * [Runtime Symbol Table Format](http://golang.org/s/go12symtab)
   * [Field Selectors and Nil Checks](http://golang.org/s/go12nil)
