@@ -1,4 +1,5 @@
 # Go 1.1
+  * [Scalable Scheduler](https://docs.google.com/document/d/1TTj4T2JO42uD5ID9e89oa0sLKhJYD0Y_kqxDv3I3XMw)
   * [net/http/cookiejar](https://groups.google.com/d/msg/golang-dev/ygDB3nbir00/rouknDcuyakJ)
   * [Function Calls](https://docs.google.com/document/d/1bMwCey-gmqZVTpRax-ESeVuZGmjwbocYs1iHplK-cjo/pub)
 
