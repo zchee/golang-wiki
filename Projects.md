@@ -177,6 +177,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
+  * [enumeration](https://bitbucket.org/rickb777/enumeration) - Easy enumeration code generation.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
   * [gich](http://bitbucket.org/jpoirier/gich) - A cross platform which utility written in Go
   * [gister](https://github.com/dutchcoders/gister) - Manage your github gists from the command-line
