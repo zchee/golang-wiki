@@ -41,6 +41,8 @@ This page lists academic and industry research papers about Go or using Go as th
  - [pdf](http://fileadmin.cs.lth.se/cs/Education/EDAN70/CompilerProjects/2015/Reports/GigovicMalmros.pdf)
 - Open-Source, Platform-Independent Library and Online Scripting Environment for Accessing Thermo Scientific RAW Files. (Kelchtermans, Silva, Argentini, Staes, Vandenbussche, Laukens, Valkenborg, Martens)
   - https://www.ncbi.nlm.nih.gov/pubmed/26477298
+- Evaluation of performance and productivity metrics of potential programming languages in the HPC environment ( Bachelor Thesis ; Florian Wilkens ) -  ( Go, Rust, C, OpenStreetMap )
+ - [github-code](https://github.com/MrFloya/thesis-ba) , [pdf](https://github.com/MrFloya/thesis-ba/raw/master/tex/thesis.pdf)
 
 ## 2014
 - PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
