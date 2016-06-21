@@ -20,6 +20,7 @@
       * and the [pprof command line tool](https://codereview.appspot.com/153750043/).
   * [6Wunderkinder](http://www.6wunderkinder.com/) - [video](https://www.youtube.com/watch?v=sVpMc0hwqps)
   * [99designs](http://www.99designs.com) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rmxBZszJUCcJ)
+  * [Abot](https://www.itsabot.org) - [github](https://github.com/itsabot/abot)
   * [ActiveState](http://www.activestate.com) - [github](https://github.com/activestate)
   * [Acquia](https://www.acquia.com) - [blog](https://dev.acquia.com/blog/open-sourcing-statsgod-a-statsd-implementation-in-go/16/11/2015/8171)
   * [adeven](http://www.adeven.com) - [blog](http://big-elephants.com/2012-10/deploying-go-with-capistrano/)
