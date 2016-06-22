@@ -48,8 +48,9 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 * [GinGonic](https://gin-gonic.github.io/gin/)
 * [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
 * [Revel Web Framework](https://revel.github.io/)
-* [Ringo](https://github.com/jjyr/ringo) - Lighweight MVC web framework inspired by Rails, Gin.
+* [Ringo](https://github.com/jjyr/ringo) - Lightweight MVC web framework inspired by Rails, Gin.
 * [Utron](https://github.com/gernest/utron) - Lightweight MVC framework for web applications.
+* [Iris](https://github.com/kataras/iris/) - Fast MVC framework for web applications.
 
 ## Communication
 
