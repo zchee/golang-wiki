@@ -21,6 +21,8 @@ This page lists academic and industry research papers about Go or using Go as th
 - Identifying and characterizing Sybils in the Tor network (Winter, Ensafi, Loesing, and Feamster)
   - [pdf] (https://nymity.ch/sybilhunting/pdf/sybilhunting.pdf)
   - [code] (https://github.com/NullHypothesis/sybilhunter)
+- A Distributed Implementation of the Graph Database System: DGraph
+  - [pdf](https://www.dropbox.com/s/7h4ytak39r2pdun/Ashwin_Thesis.pdf?dl=0)
 
 ## 2015
 - Blade: A Data Center Garbage Collector (Terei, Levy)
