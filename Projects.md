@@ -196,6 +196,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [redis-view](https://github.com/dreamersdw/redis-view) - A tree like tool help you explore data structures in your redis server
   * [restic](https://github.com/restic/restic) - A fast, efficient and secure backup program
   * [runtemplate](https://github.com/flowonyx/runtemplate) - A very simple command-line tool for executing Go templates, useful for use with `go generate`.
+  * [runtemplate](https://github.com/rickb777/runtemplate) - A simple tool for executing Go templates to support generating Go code for your types.
   * [sift](https://github.com/svent/sift) - A fast and powerful open source alternative to `grep`
   * [tecla](https://github.com/michaelmacinnis/tecla) - Command-line editing library
   * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
