@@ -862,6 +862,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
   * [MailJet Live Event Dashboard](https://github.com/arnaudbreton/mailjet-live-event-dashboard) - API monitoring in real time.
+  * [monkit](https://github.com/spacemonkeygo/monkit) - A flexible process data collection, metrics, monitoring, instrumentation, and tracing library for Go
   * [Prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time-series database.
   * [rfw](https://github.com/mipearson/rfw) - Rotating file writer - a 'logrotate'-aware file output for use with loggers
   * [sd](https://github.com/aletheia7/sd) - Writes to the systemd journal, supports user defined systemd journal fields
@@ -1028,7 +1029,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [replaykit](https://github.com/dustin/replaykit) - A library for replaying time series data.
   * [serial](https://github.com/ziutek/serial) - Serial ports API (pure Go)
   * [sio](https://github.com/schleibinger/sio) - Package sio lets you access old serial junk. It's a go-gettable fork and modification of dustin's rs232 package.
-  * [Space Monkey Monitor](https://github.com/spacemonkeygo/monitor) - A flexible process data collection, monitoring, and instrumentation library for Go
   * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
   * [symutils](https://github.com/salviati/symutils) - Various tools and libraries to handle symbolic links
   * [twitterfetcher](https://bitbucket.org/georgebaev/twitterfetcher) - A tool to make Twitter API requests using the [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
