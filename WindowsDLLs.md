@@ -2,7 +2,7 @@
 
 There are a few ways to call "C" code from inside Go
 
-First way: Dynamically load a dll, then call a method on it. You can call the method via "syscallXX" (the XX is number of parameters, but if it has few than that, like if you need seven parameter, then syscall9 will still work, you just tell it the number of arguments is 7).  This way also works with Linux shared libraries, as well, if you're targeting linux:
+First way: Dynamically load a dll, then call a method on it. You can call the method via "syscallXX" (the XX is number of parameters, but if it has few than that, like if you need seven parameter, then syscall9 will still work, you just tell it the number of arguments is 7).
 
 A sample program that calls Windows DLLs from Go:
 
