@@ -95,7 +95,6 @@
   * [GoMN](http://www.meetup.com/golangmn/) - Minneapolis MN, USA.
   * [NYC Go Developers Meetup](http://www.meetup.com/nycgolang/) - New York NY, USA.
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
-  * [GoPDX](http://groups.google.com/group/go-pdx) - Portland OR, USA.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
   * [GoLangPhoenix](http://www.meetup.com/Golang-Phoenix/) - Phoenix AZ, USA.
   * [GoLancaster](http://www.meetup.com/GoLancaster/) - Lancaster PA, USA.
