@@ -1,4 +1,3 @@
-Is your area not listed below? Check out [this list](http://golang.meetup.com/all/) of people from around the world that are interested in Go meetups.
 
 # Africa
   * [Go Egypt](https://web.facebook.com/groups/563213043835298/) - Cairo, Egypt.
