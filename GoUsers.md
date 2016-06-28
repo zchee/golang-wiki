@@ -43,7 +43,7 @@
   * [Awake Networks](http://www.awakenetworks.com)
   * [Axioms](http://axioms.io) - [blog](http://axioms.io/zen/2014-11-06-swift-go/)
   * [Basecamp](https://basecamp.com/) - [blog](https://signalvnoise.com/posts/3897-go-at-basecamp)
-  * [BBC](http://www.bbc.co,uk) - [source](https://github.com/bbc/mozart-api-common)
+  * [BBC](http://www.bbc.co.uk) - [source](https://github.com/bbc/mozart-api-common)
   * [BBC Worldwide](http://www.bbcworldwide.com/) - [source](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
   * [Beachfront Media](http://www.beachfrontmedia.com) [article](http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/)
   * [Beam](https://beam.pro) - [github](https://github.com/WatchBeam)
