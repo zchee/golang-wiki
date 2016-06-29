@@ -88,6 +88,8 @@ This page lists academic and industry research papers about Go or using Go as th
  - https://brage.bibsys.no/xmlui//handle/11250/181825
 - Implementation and experimental evaluation of live replacement and reconfiguration (Lea)
   - https://brage.bibsys.no/xmlui//handle/11250/181813
+- Exploiting Parallelism in Coalgebraic Logic Programming (Komendantskaya, Schmidt, Heras)
+  - https://arxiv.org/abs/1312.4454
 
 ## 2012
 - Time Warp on the Go (D'Angelo, Ferretti, Marzolla)
