@@ -97,6 +97,7 @@
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
   * [GoLangPhoenix](http://www.meetup.com/Golang-Phoenix/) - Phoenix AZ, USA.
+  * [PDX-Go](http://www.meetup.com/PDX-Go/) - Portland, OR, USA.
   * [GoLancaster](http://www.meetup.com/GoLancaster/) - Lancaster PA, USA.
   * [ATX-Golang](http://www.meetup.com/atxgolang/) - Austin TX, USA.
   * [GoDFW](http://www.meetup.com/GoCowboys/) - Dallas TX, USA.
