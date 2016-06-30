@@ -1391,7 +1391,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
-  * [httpexpect](https://github.com/gavv/httpexpect) - Package that helps to write nice tests for your HTTP API
+  * [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing
   * [Nitro](https://github.com/spf13/nitro) - A quick and simple profiler For Go
   * [mspec](https://github.com/eduncan911/mspec) - BDD framework that frees you to Stub and Spec your code first with natural BDD language.
   * [muxy](https://github.com/mefellows/muxy) - Simulating real-world distributed system failures.
