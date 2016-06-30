@@ -382,13 +382,20 @@
   * [Dragontail Systems](http://www.dragontailsystems.com) 
   * [Elastifile Ltd](http://elastifile.com) 
   * [EyeSight](http://eyesight-tech.com) 
+  * [Gett](http://gett.com/) 
   * [ironSource](http://www.ironsrc.com) 
   * [JFrog](https://www.jfrog.com/) - [github](https://github.com/JFrogDev/jfrog-cli-go)
+  * [Nexar](https://www.getnexar.com/)
+  * [PushApps](https://www.pushapps.mobi/) 
   * [Protected Media](http://www.protected.media) 
-  * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
-  * [Yodas](https://yodas.com) 
   * [Rimoto](http://www.rimoto.com/)
+  * [Rounds](http://www.rounds.com)
+  * [StreamRail](https://www.streamrail.com/)
   * [Surge Media](https://surge.media)
+  * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
+  * [uponit](https://uponit.com/) 
+  * [Yodas](https://yodas.com) 
+  * [Yotpo](https://www.yotpo.com/) 
 
 ## Italy
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
