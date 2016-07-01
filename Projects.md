@@ -852,6 +852,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
   * [cue](https://github.com/bobziuchkovski/cue) - Fast and flexible contextual logger.  Supports output to file, syslog, structured syslog, stdout/stderr, socket, Loggly, Honeybadger, Opbeat, Rollbar, and Sentry.
+  * [epazote](https://github.com/nbari/epazote) - Automated Microservices Supervisor.
   * [factorlog](https://github.com/kdar/factorlog) - Really fast, featureful logging infrastructure (supports colors, verbosity, and many formats)
   * [vlog](https://github.com/better0332/vlog) - Leveled log on std log for Go
   * [glog](https://github.com/golang/glog) - Leveled execution logs for Go
