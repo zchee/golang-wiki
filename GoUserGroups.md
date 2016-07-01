@@ -1,5 +1,6 @@
 
 # Africa
+  * [Go Buea](https://meetup.com/Docker-Buea) - Buea, Cameroon
   * [Go Egypt](https://web.facebook.com/groups/563213043835298/) - Cairo, Egypt.
   * [Go Cape Town](http://www.meetup.com/gocapetown/) - Cape Town.
   * [golang-dakar](https://plus.google.com/u/0/communities/116552609416802012105) Dakar (Sénégal)
