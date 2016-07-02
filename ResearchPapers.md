@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Static Trace-Based Deadlock Analysis for Synchronous Mini-Go ( Kai Stadtmüller, Martin Sulzmann, and Peter Thiemann ) 
+  - [pdf] (http://www.home.hs-karlsruhe.de/~suma0002/publications/TraceBasedDeadlockAnalysisMiniGo.pdf)
+  - [code] (https://github.com/KaiSta/gopherlyzer) -  first beta implementation : gopherlyzer
 - Continuous Query-Based Syndication: Distributed, Expressive Messaging for the IoT( Gabriel Fierro, Erik Krogen ) 
   - [pdf](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-S16/projects/reports/project1_report.pdf), [motivation](https://github.com/gtfierro/cs262-project/blob/master/Motivation.md)
   - [code](https://github.com/gtfierro/cs262-project) ( Go and Python implementation )
