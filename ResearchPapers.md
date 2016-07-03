@@ -73,8 +73,8 @@ This page lists academic and industry research papers about Go or using Go as th
   - [pdf](https://www.cs.ru.nl/bachelorscripties/2014/Jip_Dekker___4122100___Generating_Google_Go_framework_from_Uppaal_models.pdf)
 - Using the Go Programming Language in Practice (Westrup, Pettersson)
   - [pdf](http://users.student.lth.se/dt09ew6/files/thesis.pdf)
-
-
+- A Language Support for Exhaustive Fault-Injection in Message-Passing System Models (Suzuki, Watanabe)
+  - [arXiv:1411.3793 cs.SE](https://arxiv.org/abs/1411.3793)
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
