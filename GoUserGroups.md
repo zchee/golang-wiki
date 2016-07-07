@@ -103,7 +103,7 @@
   * [ATX-Golang](http://www.meetup.com/atxgolang/) - Austin TX, USA.
   * [GoDFW](http://www.meetup.com/GoCowboys/) - Dallas TX, USA.
   * [Golang Houston](http://www.meetup.com/Golang-Houston/) - Houston TX, USA.
-  * [Utah Gophers](http://www.meetup.com/utahgophers/) - Salt Lake City UT, USA.
+  * [Utah Golang (#UTGO)](http://www.meetup.com/utahgophers/) - Salt Lake City UT, USA.
   * [Golang-DC](http://www.meetup.com/Golang-DC/) - Arlington VA, USA.
   * [Seattle Go Programmers](http://www.meetup.com/golang/) - Seattle WA, USA.
   * [Go Charlotte Meetup](http://www.meetup.com/golangclt/) - Charlotte NC, USA
