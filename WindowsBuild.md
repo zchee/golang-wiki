@@ -2,7 +2,7 @@
 
 The winstrap tool is used by the Go project to turn a fresh Windows VM image into a Windows builder. It installs all necessary dependencies. It's sometimes out of date, though, as it's only updated when we need to update the Windows base image for the [Go continuous build](https://build.golang.org/).
 
-To use winstrap, sownload the latest version of winstrap.exe from the [winstrap](https://github.com/golang/winstrap) page and run it.
+To use winstrap, download the latest version of winstrap.exe from the [winstrap](https://github.com/golang/winstrap) page and run it.
 
 It will download some installers to your desktop, which you should run. Just click through; all the defaults are fine.
 
