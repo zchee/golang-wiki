@@ -1,6 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Parametric Polymorphism in the Go Programming Language (Matthew Allen) University of Texas, 
+Turing Scholars honors thesis 
+ - [pdf] (http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2231.pdf)
+ - [code] (https://github.com/Matt343/llgo) ( LLGO based ) 
 - Static Trace-Based Deadlock Analysis for Synchronous Mini-Go ( Kai Stadtmüller, Martin Sulzmann, and Peter Thiemann ) 
   - [pdf] (http://www.home.hs-karlsruhe.de/~suma0002/publications/TraceBasedDeadlockAnalysisMiniGo.pdf)
   - [code] (https://github.com/KaiSta/gopherlyzer) -  first beta implementation : gopherlyzer
