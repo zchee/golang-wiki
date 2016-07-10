@@ -4,7 +4,7 @@ The HTTP package provides good support for efficiently serving static files.
 
 This is a complete Go webserver serving static files:
 
-```
+```go
 package main
 
 import "net/http"
