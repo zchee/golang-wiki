@@ -309,6 +309,7 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
+  * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
