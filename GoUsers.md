@@ -211,7 +211,6 @@
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
   * [Replicated] (https://www.replicated.com)
   * [Repustate](http://www.repustate.com)
-  * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
   * [ReviewTrackers](http://www.reviewtrackers.com/) - [HN](https://news.ycombinator.com/item?id=10660780)
   * [Room for More](https://roomformore.com)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
@@ -312,6 +311,7 @@
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
+  * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
