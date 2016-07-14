@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Software Engineering with PSF and Go (Erik van der Schaaf) Thesis, University of Amsterdam
+ - [pdf](https://esc.fnwi.uva.nl/thesis/centraal/files/f1899376590.pdf)
 - Parametric Polymorphism in the Go Programming Language (Matthew Allen) University of Texas, 
 Turing Scholars honors thesis 
  - [pdf] (http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2231.pdf)
