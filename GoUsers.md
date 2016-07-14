@@ -60,6 +60,7 @@
   * [botvs.com](http://botvs.com)
   * [Booking.com](http://booking.com) - [source](http://www.techworld.com/careers/perl-developers-dispel-doubts-about-codes-longevity-3599357/)
   * [Bread Finance](https://www.getbread.com)
+  * [Bridgevine](https://bridgevine.com/) - [github](https://github.com/Bridgevine)
   * [Brightcove](https://brightcove.com)
   * [BuySellAds](https://buysellads.com)
   * [Byndr](http://www.byndr.org)
