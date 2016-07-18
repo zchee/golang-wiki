@@ -28,7 +28,7 @@ This talk gives an introduction to Go, followed by a tour of some real programs 
 
 [[video](http://www.youtube.com/watch?v=2KmHtgtEZ1s)]
 
-Get a feel for the language and its standard libraries and tools in thissession, where we go through installing Go and writing some simple but useful
+Get a feel for the language and its standard libraries and tools in this session, where we go through installing Go and writing some simple but useful
 programs.
 
 ### Go Programming
