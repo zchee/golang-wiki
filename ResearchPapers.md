@@ -37,6 +37,9 @@ Turing Scholars honors thesis
   - [pdf](https://www.dropbox.com/s/7h4ytak39r2pdun/Ashwin_Thesis.pdf?dl=0)
 
 ## 2015
+- Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
+  - [pdf](http://dbis.eprints.uni-ulm.de/1334/1/ma_final_hartmann.pdf)
+  - [github.com/tinzenite](https://github.com/tinzenite)
 - Blade: A Data Center Garbage Collector (Terei, Levy)
   - [arxiv:1504.02578 cs.DC](https://arxiv.org/abs/1504.02578)
 - Flywheel: Google's Data Compression Proxy for the Mobile Web (Agababov, Buettner, Chudnovsky, Cogan, Greenstein, McDaniel, Piatek, Scott, Welsh, Yin)
