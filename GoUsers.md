@@ -432,7 +432,9 @@
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
+  * [Nextail](https://www.nextail.nl/)
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
+  * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
 
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
