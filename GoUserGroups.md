@@ -92,7 +92,7 @@
   * [Go-Users-Group-Atlanta](http://www.meetup.com/Go-Users-Group-Atlanta/) - Atlanta GA, USA.
   * [chicagolang](http://groups.google.com/group/chicagolang) - Chicago IL, USA.
   * [Louisville Golang](http://www.meetup.com/Louisville-Golang-Meetup/) - Louisville KY, USA.
-  * [Go Boston](https://plus.google.com/u/0/communities/103337146295481792015) - Boston MA, USA.
+  * [Boston Golang](http://bostongolang.org) - Boston MA, USA.
   * [GoMN](http://www.meetup.com/golangmn/) - Minneapolis MN, USA.
   * [NYC Go Developers Meetup](http://www.meetup.com/nycgolang/) - New York NY, USA.
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
