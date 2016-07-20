@@ -110,6 +110,7 @@
   * [Triangle Golang](http://www.meetup.com/Triangle-Golang-Meetup/) - Raleigh NC, USA.
   * [Las Vegas Go Meetup](http://www.meetup.com/Las-Vegas-Go-Meetup/) - Las Vegas NV, USA.
   * [Ann Arbor Gophers](http://www.meetup.com/Ann-Arbor-Gophers/) - Ann Arbor MI, USA
+  * [Baltimore Metro Area Golang](http://baltimoregolang.org) - Baltimore MD, USA
 
 # Oceania
   * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
