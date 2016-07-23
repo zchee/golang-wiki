@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Reimagining the Programming Experience ( Mehrdad Afshari , dissertation) GoClr
+ - [pdf](https://mehrdad.afshari.me/publications/dissertation.pdf)
 - MapReduce vs. Pipelining Counting Triangles (Edelmira Pasarella, Maria-Esther Vidal,and Cristina Zoltan) 
  - [pdf](http://ceur-ws.org/Vol-1644/paper33.pdf)
 - Software Engineering with PSF and Go (Erik van der Schaaf) Thesis, University of Amsterdam
