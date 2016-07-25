@@ -150,6 +150,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [ShipBuilder](http://shipbuilder.io) - ShipBuilder is a minimalist open source platform as a service, developed by Jay Taylor.
   * [swift](https://github.com/ncw/swift) - Go language interface to Swift / Openstack Object Storage / Rackspace cloud files
   * [Tsuru](http://www.tsuru.io/) - Tsuru is an open source polyglot cloud computing platform as a service (PaaS), developed by Globo.com.
+* [aws-sdk-go](https://github.com/aws/aws-sdk-go) - AWS SDK for the Go programming language.
 
 ## Command-line Option Parsers
 
