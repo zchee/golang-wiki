@@ -318,6 +318,7 @@
   * [Coderockr](http://coderockr.com)
   * [Planrockr](http://planrockr.com)
   * [Compufácil](http://compufacil.com.br)
+  * [Moip Pagamentos](https://www.moip.com.br)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
