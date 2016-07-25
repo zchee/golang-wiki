@@ -315,6 +315,9 @@
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
+  * [Coderockr](http://coderockr.com)
+  * [Planrockr](http://planrockr.com)
+  * [Compufácil](http://compufacil.com.br)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
