@@ -309,6 +309,7 @@
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Hotel Urbano](http://www.hotelurbano.com)
+  * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
