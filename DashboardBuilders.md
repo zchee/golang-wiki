@@ -56,5 +56,4 @@ Older-style builders are listed below. These builders are configured and run man
 # Special notes
   * Please make sure you've installed root certificates and that it's accessible to Go programs. For example, on NetBSD, you will need to install ` security/mozilla-rootcerts `.
   * If your builder runs Unix, please install ` perl `, as tests for ` go.tools/cmd/vet ` need it.
-  * Use ` screen(1) ` instead of ` tmux(1) ` to host the ` builder ` process, as the later interferes with some of the ` os/signal ` tests.
   * Raise ` ulimit `s on Unix: thread count (` -r `), nofiles (` -n `, 1024 should be fine)
