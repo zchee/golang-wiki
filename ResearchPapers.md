@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Architecture of the Hyperledger Blockchain Fabric (Christian Cachin)
+ - [pdf](https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf)
+ - [code]( https://github.com/hyperledger/fabric/)
 - Reimagining the Programming Experience ( Mehrdad Afshari , dissertation) GoClr
  - [pdf](https://mehrdad.afshari.me/publications/dissertation.pdf)
 - MapReduce vs. Pipelining Counting Triangles (Edelmira Pasarella, Maria-Esther Vidal,and Cristina Zoltan) 
