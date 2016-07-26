@@ -3,7 +3,7 @@ A number of hosted continuous integration platforms have support for Go
 | Provider | Documentation | Notes |
 |:---------|:--------------|:------|
 | [AppVeyor](http://www.appveyor.com/) | [docs](https://bitbucket.org/appveyor/test-go) | Windows |
-| [CircleCI](https://circleci.com/) | | [howto-1](http://stackengine.com/golang-with-circleci/) [howto-2](https://medium.com/@jgautheron/publish-your-golang-binaries-in-github-with-circleci-e0b64cb21bf8)     |
+| [CircleCI](https://circleci.com/) | [docs](https://circleci.com/docs/language-go/)| [howto-1](http://stackengine.com/golang-with-circleci/) [howto-2](https://medium.com/@jgautheron/publish-your-golang-binaries-in-github-with-circleci-e0b64cb21bf8)     |
 | [Codeship](http://codeship.io) | [docs](https://www.codeship.io/documentation/languages-and-frameworks/go/) |       |
 | [drone.io](http://drone.io/) | [docs](http://docs.drone.io/golang.html) | [open-source version](https://github.com/drone/drone) |
 | [Jenkins](https://jenkins-ci.org/) | [docs](https://wiki.jenkins-ci.org/display/JENKINS/Go+Plugin) | |
