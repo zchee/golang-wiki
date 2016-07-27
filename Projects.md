@@ -1429,6 +1429,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GoLightly](https://github.com/feyeleanor/GoLightly) - A flexible and lightweight virtual machine with runtime-configurable instruction set
   * [goll1e](https://github.com/realistschuckle/goll1e) - An LL(1) parser generator for the Go programming language.
   * [Golog](https://github.com/mndrix/golog) - Prolog interpreter in Go
+  * [go-lua](https://github.com/Shopify/go-lua) - Shopify's lua interpreter
   * [golua](https://github.com/aarzilli/golua) - A fork of GoLua that works on current releases of Go
   * [gomruby](https://github.com/AlekSi/gomruby) - mruby (mini Ruby) bindings for Go
   * [gopher-lua](https://github.com/yuin/gopher-lua) - A Lua 5.1 VM and compiler written in Go
