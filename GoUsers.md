@@ -352,6 +352,7 @@
   * [Bürkert](https://www.burkert.com/en/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
+  * [Sixt](https://www.sixt.com)
 
 ## Hungary
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
