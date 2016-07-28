@@ -443,6 +443,9 @@
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
   * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
 
+## New Zealand
+  * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
+
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
