@@ -321,6 +321,7 @@
   * [Planrockr](http://planrockr.com)
   * [Compufácil](http://compufacil.com.br)
   * [Moip Pagamentos](https://www.moip.com.br)
+  * [Walmart](http://www.walmart.com.br)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
