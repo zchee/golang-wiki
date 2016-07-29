@@ -16,7 +16,7 @@ Tools supporting this feature include:
  * [gv](https://github.com/forestgiant/gv)
  * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
  * [govend](https://github.com/govend/govend)
- * [Glide](https://github.com/Masterminds/glide)
+ * [Glide](https://github.com/Masterminds/glide) - Manage packages like composer, npm, bundler, or other languages.
  * [Vendetta](https://github.com/dpw/vendetta)
  * [trash](https://github.com/rancher/trash)
  * [gsv](https://github.com/toxeus/gsv)
