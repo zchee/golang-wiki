@@ -8,10 +8,10 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
+| GopherCon Denver | 2017-07-12 | Denver, CO | http://gophercon.com |
 
 ## Archives
 
@@ -19,12 +19,13 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | Gopherfest | 2016-05-16 | San Francisco, USA | http://www.gopherfest.org/ |
 | GoCon Japan | 2016-04-23 | Tokyo, Japan | http://gocon.connpass.com/event/27521/ |
 | GopherCon China | 2016-04-16 | Beijing, China | http://www.gopherchina.org |
 | GopherCon Dubai | 2016-02-23 | Dubai, UAE | http://www.gophercon.ae |
 | GopherCon India | 2016-02-19 | Bengaluru, India | [videos](https://www.youtube.com/watch?v=4Dr8FXs9aJM&list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA) |
-| FOSDEM | 2016-01-30 | Brussels, Belgium |  |
+| FOSDEM | 2016-01-30 | Brussels, Belgium | https://video.fosdem.org/2016/h1302/ |
 | Gopher Gala | 2016-01-22 | Earth |  |
 | Golab | 2015-12-15 | Florence, Italy |  |
 | GoCon Tokyo | 2015-12-06 | Tokyo, Japan |  |
