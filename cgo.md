@@ -209,6 +209,7 @@ package main
 int callOnMeGo_cgo(int in)
 {
 	printf("C.callOnMeGo_cgo(): called with arg = %d\n", in);
+	int callOnMeGo(int);
 	return callOnMeGo(in);
 }
 */
