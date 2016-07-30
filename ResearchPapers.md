@@ -1,6 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- A novel algorithm for detecting multiple covariance and clustering of biological sequences
+( Wei Shen & Yan Li)   ( Coevolution, Computational models ) 
+ - http://www.nature.com/articles/srep30425 , doi:10.1038/srep30425
+ - Algorithm implementation (golang - only binary ) : http://yanlilab.github.io/fastcov/
 - Architecture of the Hyperledger Blockchain Fabric (Christian Cachin)
  - [pdf](https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf)
  - [code]( https://github.com/hyperledger/fabric/)
