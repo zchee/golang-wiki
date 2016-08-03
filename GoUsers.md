@@ -491,8 +491,9 @@
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
-  * [Perron2 GmbH](http://www.perron2.ch)
   * [Centralway Numbrs AG] (https://www.centralway.com/en/)
+  * [Perron2 GmbH](http://www.perron2.ch)
+  * [Proton Technologies AG] (https://protonmail.com)
   
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
