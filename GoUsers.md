@@ -126,6 +126,7 @@
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
+  * [HyperDev](https://hyperdev.com/) - [blog post](http://stackshare.io/hyperdev/the-hyperdev-tech-stack-powering-over-1m-containers)
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
   * [Imagefly](http://imagefly.io/)
