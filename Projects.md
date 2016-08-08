@@ -236,6 +236,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gcfg](http://code.google.com/p/gcfg/) - read INI-style configuration files into Go structs; supports user-defined types and subsections
   * [globalconf](https://github.com/rakyll/globalconf) - Effortlessly persist to and read flag values from an ini config file
   * [goconf](http://code.google.com/p/goconf/) - a configuration file parser
+  * [hjson](https://github.com/laktak/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
   * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
