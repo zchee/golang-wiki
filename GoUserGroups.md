@@ -24,6 +24,7 @@
 
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
   * [Belarus](http://gophers.by/) - Belarus.
+  * [Barcelona](http://golangbcn.org) - Barcelona, Catalunya, Spain.
   * [Brno Golang](http://www.meetup.com/Golang-Brno/) - Brno, the Czech Republic
   * [Cambridge Gophers](http://www.meetup.com/Cambridge-Gophers/) - Cambridge, UK
   * [GDG Berlin Golang](http://www.meetup.com/golang-users-berlin/) - Berlin, Germany.
