@@ -38,6 +38,7 @@
   * [Munich Gophers](http://www.meetup.com/Munich-Gophers-Go-User-Group/) - Munich, Germany
   * [Golang Paris](http://www.meetup.com/Golang-Paris) - Paris, France.
   * [Golang Rennes](http://www.meetup.com/Golang-Rennes/) - Rennes, France.
+  * [Golang Lyon](http://www.meetup.com/fr-FR/Golang-Lyon/) - Lyon, France.
   * [golang-pl](https://groups.google.com/forum/?fromgroups#!forum/golang-pl) - Poland.
   * [Gophers Katowice](http://www.meetup.com/Gophers-Katowice) - Katowice, Poland.
   * [Golang Warsaw](http://www.meetup.com/Golang-Warsaw) - Warsaw, Poland.
