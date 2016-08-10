@@ -15,6 +15,7 @@
   * [Golang Vietnam](https://www.facebook.com/golang.org.vn) - [github](https://github.com/golang-vietnam) -  Vietnam 🇻🇳
   * [Golang Taiwan](http://golang.tw) - Taiwan.
   * [Golang India](https://plus.google.com/communities/102083447604771785504) - Bangalore, India.
+  * [Golang Chennai](http://www.meetup.com/Chennai-golang-Meetup/) - Chennai, India
   * [Golang Pune](https://plus.google.com/communities/103673348666338246281) - Pune, India.
   * [Golang Israel](http://www.meetup.com/Go-Israel) - Israel.
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - [Meetup](http://www.meetup.com/golangsg/) - Singapore.
