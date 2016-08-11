@@ -743,6 +743,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
+  * [bild](https://github.com/anthonynsimon/bild) - A collection of image processing algorithms in pure Go
   * [bimg](https://github.com/h2non/bimg) - Small Go library for fast image resize and transformation using libvips
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
