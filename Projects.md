@@ -172,6 +172,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [uggo](https://github.com/laher/uggo) - Yet another option parser offering gnu-like option parsing. This one wraps (embeds) flagset. It also offers rudimentary pipe-detection (commands like ls behave differently when being piped to).
   * [writ](https://github.com/ziuchkovski/writ) - A flexible option parser with thorough test coverage.  It's meant to "just work" and stay out of the way.
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
+  * [cmdline](https://github.com/galdor/cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
 
 ## Command-line Tools
 
