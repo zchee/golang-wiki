@@ -5,7 +5,7 @@ Contents
 + [Working with Go](./#working-with-go)
 + [Learning more about Go](./#learning-more-about-go)
 + [The Go Community](./#the-go-community)
-+ [Using the go toolchain](./#using-the-go-toolchain)
++ [Using the Go toolchain](./#using-the-go-toolchain)
 + [Additional Go Programming Wikis](./#additional-go-programming-wikis)
 + [Online Services that work with Go](./#online-services-that-work-with-go)
 + [Troubleshooting Go Programs in Production](./#troubleshooting-go-programs-in-production)
