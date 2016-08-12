@@ -358,6 +358,10 @@
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
 
+
+## Hong Kong
+  * [PassKit](https://passkit.com/) - [github](https://github.com/PassKit)
+
 ## Hungary
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
 
