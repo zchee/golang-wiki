@@ -326,6 +326,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
   * [regommend](https://github.com/muesli/regommend) - Recommendation engine.
   * [rrd](https://github.com/ziutek/rrd) - Bindings for rrdtool.
+  * [XConv](https://github.com/howcrazy/xconv) - Convert any value between types (base type, struct, array, slice, map, etc.)
 
 ## Data Structures
 
