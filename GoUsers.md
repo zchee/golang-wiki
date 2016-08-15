@@ -38,6 +38,7 @@
   * [Arista Networks](http://www.arista.com/en/) - [twitter](https://twitter.com/tsunanet/status/665998079724621825)
   * [Ardan Studios/Labs](http://www.ardanstudios.com) - [twitter](https://twitter.com/ardanlab)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
+  * [Ascendant Compliance Manager](https://www.ascendantcompliancemanager.com/) - Batch process millions of security trades per day.
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
   * [Awake Networks](http://www.awakenetworks.com)
