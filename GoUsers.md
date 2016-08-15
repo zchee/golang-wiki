@@ -171,7 +171,7 @@
   * [Moovweb](http://www.moovweb.com) - [github](https://github.com/moovweb) [source](https://groups.google.com/forum/#!topic/golang-nuts/MeiTNnGhLg8/discussion)
   * [MongoDB](http://www.mongodb.com) - [blog](http://blog.mongodb.org/post/51643994762/go-agent-go)
   * [Monsoon Commerce](https://www.monsooncommerce.com/) - [blog](https://www.monsooncommerce.com/2015/10/open-source-go-uptime/)
-  * [Mozilla Services](https://github.com/mozilla-services) - [github](https://github.com/mozilla-services/heka) [blog](https://blog.mozilla.org/services/2013/04/30/introducing-heka/)
+  * [Mozilla](https://go.mozilla.org) - [github](https://github.com/search?o=desc&q=org%3Amozilla+org%3Amozilla-services+org%3Amozilla-it+language%3AGo&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
   * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend), [blog](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)
