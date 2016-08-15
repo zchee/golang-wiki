@@ -112,7 +112,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [GG](http://www.manatlan.com/page/gg) - A build tool for Go in Go
   * [godag](http://code.google.com/p/godag/) - A frontend to the Go compiler collection
   * [goenv](https://bitbucket.org/ymotongpoo/goenv) - goenv provides Go version and Go workspace management tools
-  * [gopei](https://github.com/geosoft1/tools) - Simple Go compiler and LiteIDE installer for Ubuntu that adds many features like github support and presenter.
+  * [gopei](https://github.com/geosoft1/tools) - Simple Go compiler and LiteIDE installer for Unix/Linux that adds many features like github support and presenter.
   * [go-pkg-config](https://github.com/psilva261/go-pkg-config) - lightweight clone of pkg-config
   * [goscons](https://github.com/alberts/goscons) - Another set of SCons builders for Go
   * [gotgo](https://github.com/droundy/gotgo) - An experimental preprocessor to implement 'generics'
