@@ -353,6 +353,7 @@
   * [Objenious](http://www.objenious.com)
   * [Rive](http://app.rive.world)
   * [Batch.com](https://batch.com)
+  * [IRI France](http://www.iri-labs.com)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
