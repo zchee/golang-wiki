@@ -682,6 +682,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [chardet](https://github.com/saintfish/chardet) - Charset detection library ported from ICU
   * [charmap](https://github.com/disintegration/charmap) - Character encodings in Go
   * [codec-msgpack-binc](https://github.com/ugorji/go/tree/master/codec#readme) High Performance and Feature-Rich Idiomatic Go Library providing encode/decode support for multiple binary serialization formats: [msgpack](http://www.msgpack.org)
+  * [colfer](https://github.com/pascaldekloe/colfer) - high-performance binary codec
   * [gobson](http://labix.org/gobson) - BSON (de)serializer
   * [go-charset](http://code.google.com/p/go-charset/) - Conversion between character sets. Native Go.
   * [go.enmime](https://github.com/jhillyerd/go.enmime) - MIME email parser library for Go (native)
