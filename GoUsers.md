@@ -245,6 +245,7 @@
   * [Stack Exchange](http://stackexchange.com/) - [blog](http://blog.stackoverflow.com/2014/11/announcing-bosun-our-new-open-source-monitoring-alerting-system/), [github](https://github.com/bosun-monitor/bosun), [website](http://bosun.org/)
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
+  * [StorReduce](http://storreduce.com)
   * [SumoLogic](https://www.sumologic.com/) - [github](https://github.com/SumoLogic/sumoshell)
   * [SuperHuman](http://superhuman.com/) - [HN](https://news.ycombinator.com/item?id=10660225)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
