@@ -323,6 +323,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gostatsd](https://github.com/kisielk/gostatsd) - Statsd server and library.
   * [Heka](https://github.com/mozilla-services/heka) - Real time data and log file processing engine.
   * [Kapacitor](https://github.com/influxdb/kapacitor) - Framework for processing, monitoring and alerting on timeseries data.
+  * [pipe](https://github.com/lennon-guan/pipe) - Several functional programming supporting in golang (Map/Reduce/Filter)
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
   * [regommend](https://github.com/muesli/regommend) - Recommendation engine.
   * [rrd](https://github.com/ziutek/rrd) - Bindings for rrdtool.
