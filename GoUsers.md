@@ -294,6 +294,7 @@
   * [Yandex](http://yandex.ru) - [blog](https://habrahabr.ru/company/yandex/blog/237985)
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [Zalando](http://tech.zalando.com/) - [github](https://github.com/zalando) 
+  * [Zenoss] (http://www.zenoss.com/) - [github](https://github.com/control-center/serviced)
   * [ZITEC](http://www.zitec.de)
   * [Zumba](https://www.zumba.com) - [github](https://github.com/zumba)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
