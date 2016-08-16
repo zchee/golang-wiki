@@ -911,6 +911,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
   * [fixed](https://github.com/klkblake/fixed) - A fixed point (Q32.32 format) math library
   * [geom](https://github.com/skelterjohn/geom) - 2d geometry
+  * [gini](https://github.com/irifrance/gini) - SAT Solver/Boolean Logic Tools
   * [gochipmunk](https://github.com/paulcoyle/gochipmunk) - Go bindings to the Chipmunk Physics library
   * [gocomplex](http://code.google.com/p/gocomplex/) - a complex number library
   * [godec](http://godoc.org/speter.net/go/exp/math/dec/inf) - multi-precision decimal arithmetic
