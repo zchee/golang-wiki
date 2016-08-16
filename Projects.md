@@ -1311,6 +1311,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Source Code Management
 
+  * [Gitfile](https://github.com/bradurani/Gitfile) - A lightweight package manager for installing git repos
   * [go-deps](https://github.com/sourcegraph/go-deps) - Analyzes and recursively installs Go package deps (library functionality similar to ` go get `)
   * [go-diff](https://github.com/daviddengcn/go-diff) - A diff command for go languange showing semantic differences of two go source files.
   * [gogitver](https://github.com/aletheia7/gogitver) - Embeds a git tag (version string) into your application
