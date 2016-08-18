@@ -488,6 +488,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### ORM
 
   * [beedb](https://github.com/astaxie/beedb) - beedb is an ORM for Go. It lets you map Go structs to tables in a database
+  * [FilterXorm](https://github.com/howcrazy/filterxorm) - Build conditions for xorm project.
   * [go-modeldb](https://github.com/jaekwon/go-modeldb) - A simple wrapper around sql.DB for struct support.
   * [gorm](https://github.com/jinzhu/gorm) - An ORM library for Go, aims for developer friendly
   * [gorp](https://github.com/coopernurse/gorp) - SQL mapper for Go
