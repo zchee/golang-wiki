@@ -111,8 +111,8 @@ func main() {
 	var MB_YESNOCANCEL = 0x00000003
 
 	ret, _, _ := proc.Call(0,
-		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("Done Title"))),
 		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("This test is Done."))),
+		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("Done Title"))),
 		uintptr(MB_YESNOCANCEL))
 	fmt.Printf("Return: %d\n", ret)
 
