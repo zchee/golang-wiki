@@ -95,6 +95,8 @@ Turing Scholars honors thesis
   - [pdf](http://users.student.lth.se/dt09ew6/files/thesis.pdf)
 - A Language Support for Exhaustive Fault-Injection in Message-Passing System Models (Suzuki, Watanabe)
   - [arXiv:1411.3793 cs.SE](https://arxiv.org/abs/1411.3793)
+- Big Learning with Bayesian Methods
+  - [arXiv:1411.6370 cs.LG](https://arxiv.org/abs/1411.6370)
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
