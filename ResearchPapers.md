@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- A Productivity Checker for Logic Programming (E. Komendantskaya, P. Johann, M. Schmidt )
+  - [arXiv:1608.04415 cs.PL](https://arxiv.org/abs/1608.04415) 
 - A novel algorithm for detecting multiple covariance and clustering of biological sequences
 ( Wei Shen & Yan Li)   ( Coevolution, Computational models ) 
  - http://www.nature.com/articles/srep30425 , doi:10.1038/srep30425
