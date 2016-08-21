@@ -1479,6 +1479,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
   * [Peach](http://peachdocs.org/) - A web server for multi-language, real-time synced and searchable documentation.
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
+  * [serve-files](https://github.com/rickb777/servefiles) - Far-future and gzip wrapper around the standard net/http server.
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
   * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
