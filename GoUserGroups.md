@@ -79,6 +79,7 @@
   * [GoTO](http://www.meetup.com/go-toronto) - Toronto ON, Canada.
   * [Ottawa Go](http://www.meetup.com/Ottawa-Go-Meetup/) - Ottawa ON, Canada.
   * [KW Go Developers](http://www.meetup.com/Golang-KW/) - Waterloo, ON, Canada.
+  * [Golang Montréal](https://golangmontreal.org/) - Montréal, QC
 
 ## Mexico
 
