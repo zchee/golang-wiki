@@ -50,6 +50,7 @@
   * [GolangIT](http://golangit.github.io/) - Italy.
   * [Go-Turkey](https://plus.google.com/communities/101920753066440157216) - Turkey.
   * [Go Graz](http://gograz.org) - Graz, Austria
+  * [Meetup Belgium](http://www.meetup.com/Golang-Belgium/) - Belgium
   * [Meetup Lausanne](http://www.meetup.com/Lausanne-golang-Meetup) - Lausanne, Switzerland
   * [Meetup Zurich](http://www.meetup.com/Zurich-Gophers/) - Zurich, Switzerland
   * [Meetup Frankfurt](http://www.meetup.com/Frankfurt-Gophers-Meetup/) - Frankfurt am Main, Germany
