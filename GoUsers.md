@@ -179,7 +179,6 @@
   * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Newspaper](http://www.newspaper.io/) - [source](https://angel.co/newspaperio)
-  * [New Relic](https://newrelic.com)
   * [Nexway](http://www.nexway.com)
   * [Ninchat](https://ninchat.com/) - [twitter](https://twitter.com/timosavola/status/555993344766390272)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
