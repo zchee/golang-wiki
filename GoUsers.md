@@ -1,4 +1,4 @@
-# Companies currently using Go throughout the world
+# Companies currently using Go throughout the worl
 
 ## United States
 
