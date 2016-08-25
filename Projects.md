@@ -119,6 +119,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gows](https://github.com/ascarter/gows) - Go workspace manager
   * [goxc](https://github.com/laher/goxc) - A build tool with a focus on cross-compiling, packaging, versioning and distribution
   * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions
+  * [Realize](https://github.com/tockins/realize) - A Go build system with file watchers, output streams and live reload. Run, build and watch file changes with custom paths.
   * [SCons Go Tools](https://launchpad.net/sconsgo) - A collection of builders that makes it easy to compile Go projects in SCons
 
 ## Caching
