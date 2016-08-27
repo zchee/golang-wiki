@@ -1517,6 +1517,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### Frameworks and Toolkits
 
+  * [Air](https://github.com/sheng/air) - An ideal RESTful web framework for Go.
   * [alien](https://github.com/gernest/alien) - A lightweight and fast http router
   * [app.go](https://github.com/georgenava/appgo) - Web framework for google app engine
   * [arasu](https://github.com/arasuresearch/arasu) - A Lightning Fast Web Framework written in Go & Dart
