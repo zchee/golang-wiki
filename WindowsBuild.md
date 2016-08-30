@@ -1,4 +1,4 @@
-# The Automatic Way: [winstrap](https://github.com/golang/winstrap)
+# The Automatic (but unsupported) Way: [winstrap](https://github.com/golang/winstrap)
 
 The winstrap tool is used by the Go project to turn a fresh Windows VM image into a Windows builder. It installs all necessary dependencies. It's sometimes out of date, though, as it's only updated when we need to update the Windows base image for the [Go continuous build](https://build.golang.org/).
 
@@ -10,6 +10,7 @@ Then it will check out Go and place it in c:\Users\%USER%\goroot and build it.
 
 That's it.
 
+Note however that winstrap is not supported. It's considered an internal tool used for occasional setup of new Windows builder images and is not actively maintained until we need it ourselves.
 
 # The Manual Way
 
