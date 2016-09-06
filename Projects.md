@@ -871,6 +871,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gomol](https://www.github.com/aphistic/gomol) - A multi-output logging library designed for outputs that support additional metadata with log messages.
   * [graylog-golang](https://github.com/robertkowalski/graylog-golang) - graylog-golang is a full implementation for sending messages in GELF (Graylog Extended Log Format) from Google Go (Golang) to Graylog
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
+  * [immortal](https://immortal.run) - A *nix cross-platform (OS agnostic) supervisor
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
   * [MailJet Live Event Dashboard](https://github.com/arnaudbreton/mailjet-live-event-dashboard) - API monitoring in real time.
