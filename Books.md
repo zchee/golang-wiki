@@ -135,6 +135,12 @@ Sorted by publication date.
     * ISBN: 978-1491941959
     * Reference: http://shop.oreilly.com/product/0636920046516.do
 
+  * **Learning Go programming**
+    * Author: Vladimir Vivien
+    * Publication Date: September 2016
+    * ISBN: 978-1784395438
+    * Reference: https://www.packtpub.com/application-development/learning-go-programming
+
 ## Available without Publication Date
 
   * **Learning Go** (e-book)
