@@ -21,5 +21,5 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Publication Date: August 2016
     * ISBN:978-1787123496
 
-[[video](https://www.packtpub.com/application-development/go-building-web-applications)]
+[[Course](https://www.packtpub.com/application-development/go-building-web-applications)]
 
