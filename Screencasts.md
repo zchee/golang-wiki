@@ -14,3 +14,12 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * ISBN:978-1784397982
 
 [[video](https://www.packtpub.com/web-development/go-web-development-video/)]
+
+ 
+  * **Go: Building Web Applications **
+    * Authors: Nathan Kozyra, Mat Ryer
+    * Publication Date: August 2016
+    * ISBN:978-1787123496
+
+[[video](https://www.packtpub.com/application-development/go-building-web-applications)]
+
