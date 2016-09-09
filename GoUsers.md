@@ -288,6 +288,7 @@
   * [VerveMobile](http://www.vervemobile.com/)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
+  * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
   * [Weave](http://www.getweave.com)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Wikia](http://www.wikia.com)
