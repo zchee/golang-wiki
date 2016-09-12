@@ -5,7 +5,7 @@
 
 ## Podcast episodes
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
-* [Little chat about Go Lang](https://soundcloud.com/shipit-rd/capycast-2-golang) (_in portuguese_) _2016-03-27_
+* [Little chat about Go Lang](https://soundcloud.com/rdshipit/capycast-2-golang) (_in portuguese_) _2016-03-27_
 * [Programming in Go with Michael Van Sickle](https://www.dotnetrocks.com/?show=1203) _2015-10-13_
 * [Go on the Web](http://thewebplatform.libsyn.com/55-go-on-the-web) _2015-08-05_
 * [Fatherhood with Andrew Gerrand](http://beatsryetypes.com/episodes/2015/05/18/episode-16-fatherhood-with-andrew-gerrand.html) _2015-05-15_
