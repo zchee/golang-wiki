@@ -334,6 +334,7 @@
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Walmart](http://www.walmart.com.br)
+  * [Yahoo!](http://yahoo.com) - [github](https://github.com/search?utf8=%E2%9C%93&q=user%3Ayahoo+language%3Ago)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
