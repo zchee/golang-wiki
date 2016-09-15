@@ -364,6 +364,7 @@
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
+  * [Fraugster](https://fraugster.com/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
