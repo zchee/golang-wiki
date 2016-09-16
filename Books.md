@@ -316,6 +316,12 @@ Sorted by publication date.
     * ISBN: 978-4-62130-025-1
     * Reference: http://www.gopl.io/translations.html
 
+  * **みんなのGo言語**
+    * Authors: 松木雅幸, mattn, 藤原俊一郎, 中島大一, 牧 大輔, 鈴木健太
+    * Publication Date: 9 Sep 2016
+    * ISBN: 978-4774183923
+    * Reference: http://www.amazon.co.jp/exec/obidos/ASIN/477418392X/
+
 # German
   * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
