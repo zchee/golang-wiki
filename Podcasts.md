@@ -1,6 +1,6 @@
 ## Podcast shows
 * [Golang Show](http://golangshow.com/) – Weekly podcast since June 2015, in Russian language.
-* [Go Time](http://gotime.fm) - A partnership between GoBridge and The Changelog — for the Go community, by the Go community.
+* [Go Time](http://gotime.fm) - Erik St. Martin, Carlisia Campos, Brian Ketelsen, recorded weekly and streamed live at 3PM EST at http://changelog.com/live
 * [Go Gab](https://www.briefs.fm/go-gab) - A podcast about everything Go. Episodes are short: about 3 minutes each.
 
 ## Podcast episodes
