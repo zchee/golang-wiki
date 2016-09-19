@@ -191,6 +191,7 @@
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
+  * [Packet](https://www.packet.net/) - [github](https://github.com/packethost)
   * [Pagoda Box/Nanopack](https://pagodabox.io/) - [github](https://github.com/nanopack/yoke)
   * [Pantheon](https://pantheon.io/) - [blog](https://pantheon.io/blog/improving-performance-and-reliability-edge-golang-overhaul)
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
