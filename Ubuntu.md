@@ -3,9 +3,9 @@
 The `golang` Debian package may have already made its way into your Ubuntu distribution. Try this:
 
 ```
-$ sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
-$ sudo apt-get update
-$ sudo apt-get install golang
+sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
+sudo apt-get update
+sudo apt-get install golang
 ```
 
 Note there is golang in Ubuntu but it is not up to date. An up-to-date version may be found at 
