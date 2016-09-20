@@ -55,3 +55,7 @@ Go is a great language for CS majors. This page presents some university courses
 # Networking
 
   * Computer Networking (COS 461) at Princeton: http://www.cs.princeton.edu/courses/archive/spring16/cos461/  (See Assignment 1 https://github.com/PrincetonUniversity/COS461-Spring2016/tree/master/notebook/assignment1 and Assignment 4 http://www.cs.princeton.edu/courses/archive/spring16/cos461/assignments/.
+
+# Compiler Design
+
+  * Compiler Design (CS712/CS812) at the University of New Hampshire: http://www.cs.unh.edu/~cs712/. In Fall 2016 we are compiling a subset of Go to LLVM code.
