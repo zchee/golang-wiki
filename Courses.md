@@ -47,3 +47,7 @@ Go is a great language for CS majors. This page presents some university courses
   * University of Stavanger, Norway. We use Go to build a replicated state machine based on Paxos in DAT520 Distributed Systems. http://www.uis.no/studies/study-courses/?code=DAT520_1&parentcat=9835
 
   * Moscow State University, Russia. Go is used in graduate course on "Selected Topics in Distributed Systems Engineering"
+
+# Networking
+
+  * Computer Networking (COS 461) at Princeton: http://www.cs.princeton.edu/courses/archive/spring16/cos461/  (See Assignment 1 https://github.com/PrincetonUniversity/COS461-Spring2016/tree/master/notebook/assignment1 and Assignment 4 http://www.cs.princeton.edu/courses/archive/spring16/cos461/assignments/.
