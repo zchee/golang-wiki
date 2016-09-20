@@ -28,6 +28,8 @@ Go is a great language for CS majors. This page presents some university courses
 
 # Distributed Computing
 
+  * Distributed Computer Systems (CS 138) at Brown: http://cs.brown.edu/courses/cs138/s16/syllabus.html
+
   * Distributed Systems course (COS 418) at Princeton: https://www.cs.princeton.edu/courses/archive/fall16/cos418/
 
   * Distributed Systems course (15-440) at CMU: http://www.cs.cmu.edu/~dga/15-440/F12/index.html (see also http://da-data.blogspot.se/2013/02/teaching-distributed-systems-in-go.html)
