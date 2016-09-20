@@ -62,5 +62,5 @@ Go is a great language for CS majors. This page presents some university courses
 
   * Compiler Design (CS712/CS812) at the University of New Hampshire: http://www.cs.unh.edu/~cs712/. In Fall 2016 we are compiling a subset of Go to LLVM code.
 
-  * Introduction to Compilers (6197) at Rey Juan Carlos University of Madrid: http://lsub.org/comp. Students write a compiler in Go that implements a language for drawing graphics.
+  * Introduction to Compilers (6197, Spanish) at Rey Juan Carlos University of Madrid: http://lsub.org/comp. Students write a compiler in Go that implements a language for drawing graphics.
 
