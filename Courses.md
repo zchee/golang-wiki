@@ -50,6 +50,8 @@ Go is a great language for CS majors. This page presents some university courses
 
   * Moscow State University, Russia. Go is used in graduate course on "Selected Topics in Distributed Systems Engineering"
 
+  * D7024E - Mobile and Distributed Computing Systems at Luleå University of Technology. Go is used to implement the DHT algorithm Chord and create a data replication system. http://www.ltu.se/edu/course/D70/D7024E/D7024E-Mobila-och-distribuerade-datorsystem-1.67844?l=en&kursView=kursplan
+
 # Networking
 
   * Computer Networking (COS 461) at Princeton: http://www.cs.princeton.edu/courses/archive/spring16/cos461/  (See Assignment 1 https://github.com/PrincetonUniversity/COS461-Spring2016/tree/master/notebook/assignment1 and Assignment 4 http://www.cs.princeton.edu/courses/archive/spring16/cos461/assignments/.
