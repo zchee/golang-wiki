@@ -26,6 +26,8 @@ Go is a great language for CS majors. This page presents some university courses
 
   * University of Stavanger, Norway. We use Go to teach concurrency principles in DAT320 Operating Systems. http://www.uis.no/studies/study-courses/?code=DAT320_1&parentcat=9835
 
+  * University of Tromsø, Norway. [Concurrent and Data-Intensive Programming (INF-2200)](https://uit-inf-2202-f16.github.io/). 
+
 # Distributed Computing
 
   * Distributed Computer Systems (CS 138) at Brown: http://cs.brown.edu/courses/cs138/s16/syllabus.html
@@ -44,8 +46,6 @@ Go is a great language for CS majors. This page presents some university courses
 
   * KTH Stockholm uses Go to teach concurrency: http://www.nada.kth.se/~snilsson/concurrency/
 
-  * Go was used this fall at the University of Tromsø: INF-2202 Concurrent and System Level Programming http://uit.no/studietilbud/emner/emne?p_document_id=330794
-
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
 
   * University of Stavanger, Norway. We use Go to build a replicated state machine based on Paxos in DAT520 Distributed Systems. http://www.uis.no/studies/study-courses/?code=DAT520_1&parentcat=9835
@@ -53,6 +53,8 @@ Go is a great language for CS majors. This page presents some university courses
   * Moscow State University, Russia. Go is used in graduate course on "Selected Topics in Distributed Systems Engineering"
 
   * D7024E - Mobile and Distributed Computing Systems at Luleå University of Technology. Go is used to implement the DHT algorithm Chord and create a data replication system. http://www.ltu.se/edu/course/D70/D7024E/D7024E-Mobila-och-distribuerade-datorsystem-1.67844?l=en&kursView=kursplan
+
+  * University of Tromsø, Norway. [Distributed Systems Fundamentals (INF-3200)](https://uit.no/education/courses/course?p_document_id=291961) and [Advanced Distributed Systems (INF-3203)](https://uit.no/education/courses/course?p_document_id=292883). 
 
 # Networking
 
