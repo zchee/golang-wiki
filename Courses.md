@@ -64,3 +64,6 @@ Go is a great language for CS majors. This page presents some university courses
 
   * Introduction to Compilers (6197, Spanish) at Rey Juan Carlos University of Madrid: http://lsub.org/comp. Students write a compiler in Go that implements a language for drawing graphics.
 
+# Security
+
+  * [Computer Systems Security](https://cs.brown.edu/courses/cs166/) (CS166) At Brown University. In particular, the final [Dropbox Project](https://cs.brown.edu/courses/cs166/files/assignments/dropbox.pdf).
