@@ -1338,6 +1338,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Black Friday](https://github.com/russross/blackfriday) - A markdown processor
   * [codename-generator](https://github.com/jgautheron/codename-generator) - A codename generator meant for naming software releases
   * [columnize](https://code.google.com/p/go-columnize/) - format slice or array into aligned columns
+  * [csvplus](https://github.com/maxim2266/csvplus) - Extends the standard Go [encoding/csv](https://golang.org/pkg/encoding/csv/) package with fluent interface, lazy stream operations, indices and joins.
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
   * [douceur](https://github.com/aymerick/douceur) - A simple CSS parser and inliner in Go.
