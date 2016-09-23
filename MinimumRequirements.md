@@ -58,7 +58,7 @@ See https://golang.org/doc/install/source#environment
 
 ### arm64
 
-??
+All ARMv8-A processors.
 
 ### ppc64 (big endian)
 
