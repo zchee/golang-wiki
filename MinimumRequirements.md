@@ -4,9 +4,9 @@
 
 ### Linux
 
-Kernel version 2.6.23 or later.
+Kernel version 2.6.23 or later. [_This depends on architecture though, we need to have specific builder for this._]
 
-We don't support CentOS 5. Kernel is too old.
+We don't support CentOS 5. Kernel is too old (2.6.18).
 
 ### Windows
 
