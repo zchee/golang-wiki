@@ -14,3 +14,4 @@ Commercial providers of Go training
 ## Classroom and In-Person
 
 * [Ardan Labs](https://www.ardanlabs.com/) - Offering customized on-site live training classes.
+* [Brian Ketelsen](https://www.brianketelsen.com/) - In-person, remote, and online training classes for individuals and companies.
