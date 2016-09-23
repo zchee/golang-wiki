@@ -4,7 +4,7 @@
 
 ### Linux
 
-Kernel kernel ????+
+Kernel version 2.6.23 or later.
 
 We don't support CentOS 5. Kernel is too old.
 
