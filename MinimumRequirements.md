@@ -26,7 +26,7 @@ OS X 10.6 is explicitly unsupported. See https://github.com/golang/go/issues/951
 
 ### OpenBSD
 
-The latest released version only.
+The current officially supported -stable versions only.
 
 ### DragonFly
 
@@ -34,7 +34,7 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 ### FreeBSD
 
-???
+FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8.
 
 ## Architectures
 
