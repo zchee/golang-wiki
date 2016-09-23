@@ -219,7 +219,7 @@ If you're looking for services that support Go, here's a list to get you started
 
 ## Platform Specific Information
 
-  - See [MinimumRequirements] for minimum platform requirements of current Go ports.
+  - See [MinimumRequirements](MinimumRequirements) for minimum platform requirements of current Go ports.
   - Considering porting Go to a new platform? [Read our porting policy first](PortingPolicy)
   - [Mobile](Mobile)
   - [Ubuntu](Ubuntu)
