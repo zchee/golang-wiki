@@ -60,7 +60,9 @@ See https://golang.org/doc/install/source#environment
 
 PPC 970 or newer.
 
-### ppc64le (big endian)
+### ppc64le (little endian)
+
+POWER8+
 
 ### s390x
 
