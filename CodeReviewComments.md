@@ -4,7 +4,7 @@ This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
 This is a laundry list of common mistakes, not a style guide.
 
-You can view this as a supplement to http://golang.org/doc/effective_go.html.
+You can view this as a supplement to https://golang.org/doc/effective_go.html.
 
 **Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
@@ -33,13 +33,13 @@ You can view this as a supplement to http://golang.org/doc/effective_go.html.
 
 ## gofmt
 
-Run [gofmt](http://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
+Run [gofmt](https://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
 An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
 ## Comment Sentences
 
-See http://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
+See https://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
 
 ```go
 // A Request represents a request to run a command.
@@ -66,11 +66,11 @@ The former avoids allocating memory if the slice is never appended to.
 
 ## Doc Comments
 
-All top-level, exported names should have doc comments, as should non-trivial unexported type or function declarations. See http://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
+All top-level, exported names should have doc comments, as should non-trivial unexported type or function declarations. See https://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
 
 ## Don't Panic
 
-See http://golang.org/doc/effective_go.html#errors. Don't use panic for normal error handling. Use error and multiple return values.
+See https://golang.org/doc/effective_go.html#errors. Don't use panic for normal error handling. Use error and multiple return values.
 
 ## Error Strings
 
@@ -78,7 +78,7 @@ Error strings should not be capitalized (unless beginning with proper nouns or a
 
 ## Handle Errors
 
-See http://golang.org/doc/effective_go.html#errors. Do not discard errors using `_` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
+See https://golang.org/doc/effective_go.html#errors. Do not discard errors using `_` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
 
 ## Imports
 
@@ -177,7 +177,7 @@ Comments are typically wrapped before no more than 80 characters, not because it
 
 ## Mixed Caps
 
-See http://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
+See https://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
 
 ## Named Result Parameters
 
@@ -235,11 +235,11 @@ output such as HTML.
 package template
 ```
 
-See http://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
+See https://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
 
 ## Package Names
 
-All references to names in your package will be done using the package name, so you can omit that name from the identifiers. For example, if you are in package chubby, you don't need type ChubbyFile, which clients will write as chubby.ChubbyFile. Instead, name the type File, which clients will write as chubby.File. See http://golang.org/doc/effective_go.html#package-names for more.
+All references to names in your package will be done using the package name, so you can omit that name from the identifiers. For example, if you are in package chubby, you don't need type ChubbyFile, which clients will write as chubby.ChubbyFile. Instead, name the type File, which clients will write as chubby.File. See https://golang.org/doc/effective_go.html#package-names for more.
 
 ## Pass Values
 
