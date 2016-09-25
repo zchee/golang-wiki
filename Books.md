@@ -221,7 +221,6 @@ Sorted by publication date.
     * ISBN: ---
     * References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook
 
-
 # Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
@@ -412,3 +411,7 @@ Sorted by publication date.
     * Publication Date: Oktober 30, 2015
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/novalagung/dasarpemrogramangolang/
+
+# Looking for contributors
+
+[Add Go books here that are looking for writers, editors, Gopher illustrators, and translators.]
