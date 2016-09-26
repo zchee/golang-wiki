@@ -66,11 +66,13 @@ All ARMv8-A processors.
 
 ### ppc64 (big endian)
 
-PPC 970 or newer.
+"Big-endian 64-bit PowerPC (linux/ppc64) only requires the POWER5 architecture." (from 
+https://golang.org/doc/go1.7#ports)
 
 ### ppc64le (little endian)
 
-POWER8+
+"The experimental port to Linux on little-endian 64-bit PowerPC (linux/ppc64le) now requires the POWER8 architecture or later." (from 
+https://golang.org/doc/go1.7#ports)
 
 ### mips64 (big endian)
 
