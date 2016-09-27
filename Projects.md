@@ -1067,6 +1067,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### DNS
   * [bitz](https://github.com/nictuku/bitz) - BitMessage client node and library
+  * [dingo](https://github.com/pforemski/dingo) - A DNS client in Go that supports Google DNS over HTTPS
   * [dns](https://github.com/miekg/dns) - A DNS library in Go
   * [dnsimple](https://github.com/pearkes/dnsimple) - an interface to the DNSimple API
   * [dyndnscd](https://github.com/akrennmair/dyndnscd) - a configurable dyndns client
