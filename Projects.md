@@ -1531,6 +1531,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [httpcoala](https://github.com/goware/httpcoala) - Library for request coalescing - handy for reverse proxies. 
   * [falcore](https://github.com/fitstar/falcore) - Modular HTTP server framework
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
+  * [florest](https://github.com/jabong/florest-core) - High-performance workflow based REST API framework
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
   * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
   * [Goal](https://github.com/colegion/goal) - A toolkit for high productivity web development in Go language built around the concept of code generation.
