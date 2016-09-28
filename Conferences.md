@@ -8,7 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | GopherCon Brasil | 2016-11-04-05 | Florianopolis, Brazil | https://2016.gopherconbr.org/en/ |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
@@ -20,6 +19,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
 | Gopherfest | 2016-05-16 | San Francisco, USA | http://www.gopherfest.org/ |
 | GoCon Japan | 2016-04-23 | Tokyo, Japan | http://gocon.connpass.com/event/27521/ |
