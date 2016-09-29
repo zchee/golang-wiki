@@ -233,6 +233,7 @@ If you're looking for services that support Go, here's a list to get you started
   - [NetBSD](NetBSD)
   - [OpenBSD](OpenBSD)
   - [FreeBSD](FreeBSD)
+  - [DragonFly BSD](DragonFly BSD)
   - [NativeClient](NativeClient)
 
 ## Release Specific Information
