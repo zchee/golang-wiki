@@ -230,11 +230,12 @@ If you're looking for services that support Go, here's a list to get you started
     - [WindowsSupport](WindowsSupport)
   - [GoArm](GoArm)
   - [ChromeOS](ChromeOS)
+  - [DragonFly BSD](DragonFly BSD)
+  - [FreeBSD](FreeBSD)
+  - [NativeClient](NativeClient)
   - [NetBSD](NetBSD)
   - [OpenBSD](OpenBSD)
-  - [FreeBSD](FreeBSD)
-  - [DragonFly BSD](DragonFly BSD)
-  - [NativeClient](NativeClient)
+  - [Solaris](Solaris)
 
 ## Release Specific Information
 
