@@ -14,16 +14,17 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 
 | **Kernel version** | **Architectures** | **Min. version** | **Max. version** |
 |:-------------------|:------------------|:-----------------|:-----------------|
-| 6.0                | amd64, 386        | go1.4.1 _*_      | go1.7            |
+| 6.0                | amd64, 386        | go1.4.1 _*_ _**_ | go1.7            |
 | 6.0                | arm               | go1.5            | go1.7            |
-| 5.9                | amd64, 386        | go1.4.1 _*_      | go1.7            |
+| 5.9                | amd64, 386        | go1.4.1 _*_ _**_ | go1.7            |
 | 5.9                | arm               | go1.5            | go1.7            |
-| 5.8                | amd64, 386        | go1.4.1 _*_      | go1.7            |
-| 5.7                | amd64, 386        | go1.4.1 _*_      | go1.7            |
-| 5.6                | amd64, 386        | go1.4.1 _*_      | go1.7            |
-| 5.5                | amd64, 386        | go1.3            | go1.7            |
+| 5.8                | amd64, 386        | go1.4.1 _*_ _**_ | go1.7            |
+| 5.7                | amd64, 386        | go1.4.1 _*_ _**_ | go1.7            |
+| 5.6                | amd64, 386        | go1.4.1 _*_ _**_ | go1.7            |
+| 5.5                | amd64, 386        | go1.3 _*_        | go1.7            |
 | 5.0 through 5.4    | amd64, 386        | go1              | go1.2            |
-_*_ If you want to run Go 1.3 or 1.4 on OpenBSD 5.6 or above, see http://golang.org/issue/9102.
+_*_ Go 1.5 or above is recommended.
+_**_ If you want to run Go 1.3 or 1.4 on OpenBSD 5.6 or above, see http://golang.org/issue/9102.
 
 ## ulimits (` /etc/login.conf `)
 
