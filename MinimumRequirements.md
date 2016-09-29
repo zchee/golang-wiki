@@ -18,11 +18,11 @@ We run builders testing Go on Windows Server 2008 R2 Datacenter Edition. That is
 
 macOS Sierra (10.12) requires Go 1.7. We have not yet (as of 2016-09-23) backported the time system call fixes to any earlier Go versions. See https://github.com/golang/go/issues/16352.
 
-Go only supports OS X 10.8 (Snow Leopard) or newer. We only have builders for 10.8, 10.10, and 10.11 as of 2016-09-23.
+Go only supports OS X 10.8 (Mountain Lion) or newer. We only have builders for 10.8, 10.10, and 10.11 as of 2016-09-23.
 
-Go tip doesn't compile OS X 10.7 but binaries MAY work there. Maybe. No builders, no promises. We don't recommend it.
+Go tip doesn't compile OS X 10.7 (Lion) but binaries MAY work there. Maybe. No builders, no promises. We don't recommend it.
 
-OS X 10.6 is explicitly unsupported. See https://github.com/golang/go/issues/9511
+OS X 10.6 (Snow Leopard) is explicitly unsupported. See https://github.com/golang/go/issues/9511
 
 ### OpenBSD
 
