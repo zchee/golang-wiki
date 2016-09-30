@@ -540,5 +540,6 @@
   * [Belua] (https://www.belua.com)
   * [Intern Avenue] (https://www.internavenue.com/)
   * [Pusher](https://pusher.com) - [github](https://github.com/pusher) [blog](https://blog.pusher.com)
+  * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
 
 See also [Success Stories](SuccessStories)
