@@ -25,6 +25,7 @@
   * [Will Go be the new go-to programming language?](http://gigaom.com/cloud/will-go-be-the-new-go-to-programming-language/)
   * [Dr. Dobb's: Why Not Go?](http://www.drdobbs.com/open-source/why-not-go/240005062)
   * [Google I/O 2012: Go in production](http://www.youtube.com/watch?v=kKQLhGZVN4A)
+  * [Go at Cockroach Labs](https://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/), [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
   * [Go at Novartis](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Go at the BBC](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
   * [Go at SoundCloud](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
