@@ -73,7 +73,7 @@
   * [Cloud Foundry](http://www.cloudfoundry.com) - [blog](http://pivotallabs.com/a-rubyist-learning-go-a-basic-go-program/) [github](https://github.com/cloudfoundry)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio/)
   * [clypd](http://www.clypd.com) - [blog](http://www.clypd.com/getting-to-go/)
-  * [Cockroach Labs](http://www.cockroachlabs.com/) - [blog](http://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/)
+  * [Cockroach Labs](http://www.cockroachlabs.com/) - [blog](http://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/) [github](https://github.com/cockroachdb/)
   * [Codeship](http://codeship.com) - [blog](http://blog.codeship.com/creating-fakes-in-go-with-channels/)
   * [Comcast](http://corporate.comcast.com/) - [github](https://github.com/comcast)
   * [Conformal Systems](http://www.conformal.com) - [github](https://github.com/conformal)
