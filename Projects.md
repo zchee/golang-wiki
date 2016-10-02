@@ -896,6 +896,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-galib](https://github.com/thoj/go-galib) - Genetic algorithms.
   * [golinear](https://github.com/danieldk/golinear) - Linear SVM and logistic regression.
   * [go\_ml](https://github.com/alonsovidales/go_ml) - Linear Regression, Logistic Regression, Neural Networks, Collaborative Filtering, Gaussian Multivariate Distribution.
+  * [gorgonia](https://github.com/chewxy/gorgonia) - Neural network primitives library (like Theano or Tensorflow but for Go)
   * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - An efficient native Go clean room implementation of the Porter Stemming algorithm.
   * [go-pr](https://github.com/daviddengcn/go-pr) - Gaussian classifier.
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
