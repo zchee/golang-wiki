@@ -37,5 +37,6 @@
   * [Go at Heroku](http://blog.golang.org/2011/04/go-at-heroku.html)
   * [Go at Basecamp](https://signalvnoise.com/posts/3897-go-at-basecamp)
   * [Go at Streetspotr](https://thcyron.de/2015/go-at-streetspotr.html)
+  * [Confession From A Go Programer](https://zeta.si/page/Confession-From-A-Go-Programer)
 
 See also [[GoUsers]].
