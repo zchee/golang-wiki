@@ -1,35 +1,75 @@
 This document explains how we handle issue triage and scheduling in [the Go project's issue tracker](http://golang.org/issue).
 
-# New issues
+# Issue States
 
-All new issues are created with status "New" and no other labels.
+Any issue must be in one of the following five states. Project contributors move issues from one state to another by doing things. The intent behind these explicit states is to describe the (minimum) next steps required to bring the issue to resolution. Issues may move between states in any order, as dictated by the needs of the particular issue.
 
-When an issue is changed from "New" to "Accepted" (or any open state):
-  * Mark it with a Release-**label (see below).
-  * Add a sentence that describes the rationale for the label.**
+New
+- The issue has been filed.
+- May not be correctly formatted (title, etc).
+- To transition from this state, someone must clean up the issue report and optionally cc people who might best investigate or fix it.
 
-If you're a committer creating an issue, you can change it from “New” to “Accepted” while filing the issue, but if you do, be sure to add a Release-**label and a rationale.**
+Needs Investigation
+- Is correctly formatted (the title has a path prefix, and the body describes the issue).
+- Has the label `NeedsInvestigation`.
+- May have the label `WaitingForInfo` if the investigator is waiting for more information from someone (e.g., the issue reporter).
+- To transition from this state, someone must examine it and confirm that it is a valid issue and not a duplicate of an existing issue.
 
-# Release Labels
+Needs Decision
+- The issue is real, but we're not sure what action to take. Feedback is required from experts, contributors, and/or the community before a fix can be made.
+- Note that the majority of issues will never transition to this state, as most of the time the decision is an obvious "Yes, this should be fixed."
+- Has the label `NeedsDecision`.
+- Has a milestone.
+- May have the label `Blocked` if forward progress cannot be made pending the resolution of another issue or the release of a future version of Go (an accompanying comment should explain the blockage).
+- May have the label `WaitingForInfo`.
+- To transition from this state, someone must decide how the issue is to be resolved.
+- If the decision is complicated, the issue may be given a `Proposal` label and the issue remains in this state until the proposal process is complete.
 
-Any issue planned for a specific release (or explicitly not planned for a release) must have one of these labels:
+Needs Fix
+- The path to resolution is known, but the work has not been done.
+- Has the label `NeedsFix`.
+- Has a milestone.
+- May have the labels `Blocked` or `WaitingForInfo`.
+- To transition from this state, someone must do the work to fix the issue.
 
-  * Release-Go1.3 - must be addressed (and probably fixed) for Go 1.3
-  * Release-Go1.3Maybe - would be nice if it were addressed for Go 1.3
-  * Release-Go1.4 - will be re-examined for the next release
-  * Release-None - no plan to fix in any specific release
+Fixed
+- The issue is resolved. No further attention is required.
+- Is closed.
 
-# Dashboards
+Issues move from one state to another where appropriate. For example, a contributor may file an issue, assign it to themselves, and immediately apply the `NeedsFix` label. Or, an issue may go from `NeedsDecision` to `NeedsFix`, only to later move back to `NeedsDecision` as complexities arise.
 
-  * [Status-New](http://research.swtch.com/dashboard/Status-New)
+An issue may be closed at any time, with a comment to indicate the reason for closure ("fixed by …", "duplicate of …", "working as intended", etc).
 
-  * [Release-Go1.3](http://research.swtch.com/dashboard/Go1.3)
-  * [Release-Go1.4](http://research.swtch.com/dashboard/Go1.4)
-  * [Release-None](http://research.swtch.com/dashboard/Release-None)
+At any state (except New) the issue may be assigned to someone.
+Unassigned issues are considered available for anyone to address.
 
-# Nominating an issue
+# Milestones
+Milestones describe the timeline for issue resolution.
 
-If you're not a committer and you would like an issue to be addressed in Go 1.3, please:
-  * Leave a comment on the issue explaining why,
-  * Include the hashtag "#go13" in the comment.
-Committers were periodically look at the issues with #go13 comments and adjust their status accordingly.
+- Go1.x.yEarly
+
+    Must be fixed first for release 1.x.y, either because the issue is complicated and the fix needs time to bake, or because the issue is high priority.
+
+- Go1.x.y
+
+    Must be fixed for release 1.x.y.
+- Go1.x.yMaybe
+
+    Might be fixed for release 1.x.y.
+- Proposal
+
+    Is a proposal and does not pertain to a specific release.
+- Soon
+
+    Should be fixed soon, but is not included in or needed by a release.
+- Unplanned
+
+    Might be fixed at some point, but nobody is planning to do it.
+- Unreleased
+
+    Is not included in or needed by a release.
+- Go2
+
+    Deferred until Go 2.
+
+Additional milestones may be used to manage specific project work.
