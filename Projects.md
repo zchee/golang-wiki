@@ -1233,6 +1233,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-osx-xattr](https://github.com/bitcartel/go-osx-xattr) - Package xattr wraps OS X functions to manipulate the extended attributes of a file, directory and symbolic link.
   * [inspect/os](https://github.com/square/inspect) - Metrics library for operating system measurements (Linux/MacOSX)
   * [service](https://github.com/kardianos/service) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
+  * [go-nbd](https://github.com/akmistry/go-nbd) - Library to write block devices for Linux in Go.
 
 ## Other Random Toys, Experiments and Example Code
 
