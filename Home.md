@@ -236,6 +236,7 @@ If you're looking for services that support Go, here's a list to get you started
   - [NativeClient](NativeClient)
   - [NetBSD](NetBSD)
   - [OpenBSD](OpenBSD)
+  - [Plan 9](Plan9)
   - [Solaris](Solaris)
 
 ## Release Specific Information
