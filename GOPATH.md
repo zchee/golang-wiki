@@ -46,7 +46,7 @@ As a result, if (from your repository project) you import a package that is in t
 
 ### Use a single GOPATH
 
-Even though the GOPATH may be a list of directories, it is generally correct and sufficient to use a single GOPATH for all Go code on your machine.  Since all packages retrieved with "go get" have a unique URL (and thus a unique path on disk), having more than one GOPATH is almost never necessary when building with the Go tool.
+Even though the GOPATH may be a list of directories, it is generally sufficient to use a single GOPATH for all Go code on your machine.  Since all packages retrieved with "go get" have a unique URL (and thus a unique path on disk), having more than one GOPATH is almost never necessary when building with the Go tool.
 
 ## FAQ
 ### Why won't ` $GOPATH/src/cmd/mycmd/*.go ` build?
