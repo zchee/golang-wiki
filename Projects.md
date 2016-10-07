@@ -428,6 +428,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [vcard](https://bitbucket.org/llg/vcard) - Reading and writing vcard file in go.  Implementation of RFC 2425 (A MIME Content-Type for Directory Information) and RFC 2426 (vCard MIME Directory Profile).
   * [mxj](https://github.com/clbanning/mxj) - Marshal/Unmarshal XML doc from/to `map[string]interface{}` or JSON
   * [xlsx](https://github.com/tealeg/xlsx) - A library to help with extracting data from Microsoft Office Excel XLSX files.
+  * [simple-sstable](https://github.com/akmistry/simple-sstable) - A simple, no-frills SSTable format and implementation in Go.
 
 ## Databases
 
