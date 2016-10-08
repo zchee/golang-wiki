@@ -21,7 +21,7 @@ Table of Contents
 + [Contributing to the Go Project](#contributing-to-the-go-project)
 + [Platform Specific Information](#platform-specific-information)
 + [Release Specific Information](#release-specific-information)
-
++ [Questions](Questions)
 
 ## Getting started with Go
 
