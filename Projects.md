@@ -1099,6 +1099,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
 
 ### Instant Messaging
+  * [hanu](https://github.com/sbstjn/hanu) - Framework for writing Slack bots
   * [gobir](http://code.google.com/p/kylelemons/source/browse?repo=gobir) - Extensible IRC bot with channel administration, seen support, and go documentation querying
   * [goexmpp](http://code.google.com/p/goexmpp/) - XMPP client implementation
   * [goirc](https://github.com/fluffle/goirc/) - event-based stateful IRC client framework
