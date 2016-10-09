@@ -12,4 +12,6 @@ For asking questions, see:
 
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/go) with questions tagged "go"
 
+* **IRC** channel #go-nuts on Freenode
+
 If we closed your question on Github, we apologize. Please ask the question on one of the above forums.
