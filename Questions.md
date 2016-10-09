@@ -8,7 +8,7 @@ For asking questions, see:
 
 * [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
-* **Slack**. See the [Gophers Slack channel announcement blog post](http://blog.gopheracademy.com/gophers-slack-community/) for invite instructions
+* [Gophers Slack](https://invite.slack.golangbridge.org/)
 
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/go) with questions tagged "go"
 
