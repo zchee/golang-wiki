@@ -1,6 +1,6 @@
 # Asking Questions
 
-Unlike many projects on Github, the Go project does not use its bug tracker for general discussion or asking questions. We only use our bug tracker for tracking bugs and tracking proposals going through the [Proposal Process](https://golang.org/s/proposal-process).
+Unlike many projects on GitHub, the Go project does not use its bug tracker for general discussion or asking questions. We only use our bug tracker for tracking bugs and tracking proposals going through the [Proposal Process](https://golang.org/s/proposal-process).
 
 For asking questions, see:
 
@@ -14,4 +14,4 @@ For asking questions, see:
 
 * **IRC** channel #go-nuts on Freenode
 
-If we closed your question on Github, we apologize. Please ask the question on one of the above forums.
+If we closed your question on GitHub, we apologize. Please ask the question on one of the above forums.
