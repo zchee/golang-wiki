@@ -206,7 +206,6 @@
   * [Pressly](https://www.pressly.com) - [github](https://github.com/pressly), [product](https://www.pressly.com)
   * [Pronovix](http://pronovix.com) - [blog](http://pronovix.com/blog/walkhub-walkthrough-microservice-written-go-no-longer-drupal-distribution), [github](https://github.com/Pronovix), [product](http://pronovix.com/walkhub)
   * [Public Good Corp](https://publicgood.com/) - [meetup](http://www.meetup.com/ChicaGoLang/events/222224696/)
-  * [Qurami](http://www.qurami.com)
   * [Rackspace](http://www.rackspace.com) - [github](https://github.com/rackspace/rack)
   * [Raintank](http://www.raintank.io/) - [blog](https://blog.raintank.io/where-and-why-we-use-go/)
   * [Rakuten Marketing](http://marketing.rakuten.com)
@@ -438,8 +437,9 @@
   * [Yotpo](https://www.yotpo.com/) 
 
 ## Italy
-  * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
   * [Hastega](http://www.hastega.it) - ([github](https://github.com/tockins/realize)) -- Go build system for dev with file watchers and live reload. Run, build and watch file changes with custom paths
+  * [Qurami](http://www.qurami.com) - [github](https://github.com/qurami)
+  * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
 
 ## Japan
   * [eureka](https://eure.jp)
