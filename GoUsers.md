@@ -474,6 +474,8 @@
 ## Poland
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
+ * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
+ * [Husar Labs](http://www.husarlabs.com) - software development company
 
 ## Portugal
   * [AppGeneration](http://appgeneration.com/)
