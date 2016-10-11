@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
+  - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
+  - [10.1007/978-3-319-47166-2_30](http://link.springer.com/chapter/10.1007/978-3-319-47166-2_30) 
 - A Productivity Checker for Logic Programming (E. Komendantskaya, P. Johann, M. Schmidt )
   - [arXiv:1608.04415 cs.PL](https://arxiv.org/abs/1608.04415) 
   - project page: http://www.macs.hw.ac.uk/~ek19/CoALP/
