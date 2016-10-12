@@ -127,6 +127,12 @@ Sorted by publication date.
     * ISBN: 9781617293092
     * Reference: [https://www.manning.com/books/learn-go](https://manning.com/books/learn-go?a_aid=nathany&a_bid=53f68821)
 
+  * **Web Development with Go: Learn to Create Real World Web Applications using Go**
+    * Author: Jonathan Calhoun
+    * Publication Date: Winter 2016 (estimated)
+    * ISBN: --
+    * Reference: [http://usegolang.com](http://usegolang.com)
+
 ## Pre-order
 
   * **Introducing Go**
