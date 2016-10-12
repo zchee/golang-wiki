@@ -23,3 +23,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 
 [[Course](https://www.packtpub.com/application-development/go-building-web-applications)]
 
+
+  * **The Go Programming Language Guide - Code Like a Pro [Video]**
+    * Author: Eduonix
+    * Publication Date: September 23, 2016
+    * ISBN:978-1787128385
+
+[[video](https://www.packtpub.com/application-development/go-programming-language-guide-code-pro-video)]
+
