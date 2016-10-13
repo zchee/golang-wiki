@@ -114,6 +114,7 @@
   * [Fullstory](https://www.fullstory.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-fullstory/)
   * [Gatherer](http://gathererapp.com/) - [twitter](https://twitter.com/codepushr/status/653880049343537153)
   * [Gamegos](https://github.com/gamegos)
+  * [Gemfury](https://gemfury.com)
   * [General Electric Software](https://www.gesoftware.com/) - [tweet](https://twitter.com/cemezberci/status/623179382505390080), [jobs](https://xjobs.brassring.com/tgwebhost/jobdetails.aspx?partnerid=54&siteid=5346&jobid=1254417)
   * [Gengo](http://www.gengo.com)  - [blog](http://blog.gengo.com/go-gengo/)
   * [Getty Images](http://www.gettyimages.com) - [tweet](https://twitter.com/TrevorBramble/status/441372661336113152) [tweet](https://twitter.com/ickypop/status/441470245492908032)
