@@ -23,11 +23,10 @@ Using the GVM for installation and compile natively.
 ## compile native
 http://www.hostingadvice.com/how-to/install-golang-on-ubuntu/
 
-## How to uninstall from the apt manager Uninstall just golang-go
+## How to uninstall from the apt manager Uninstall just golang-go from [Universe](http://installion.co.uk/ubuntu/vivid/universe/index.html)
 
 ### This will remove just the golang-go package itself.
 `sudo apt-get remove golang-go`
-
 
 ### Uninstall golang-go and its dependencies
 `sudo apt-get remove --auto-remove golang-go`
