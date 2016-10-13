@@ -19,4 +19,18 @@ That is all you need to get `go` working on your system. (You can use `go env GO
 See http://blog.labix.org/2013/06/15/in-flight-deb-packages-of-go
 
 Using the GVM for installation and compile natively.
+
+## compile native
 http://www.hostingadvice.com/how-to/install-golang-on-ubuntu/
+
+## How to uninstall from the apt manager Uninstall just golang-go
+
+### This will remove just the golang-go package itself.
+`sudo apt-get remove golang-go`
+
+
+### Uninstall golang-go and its dependencies
+`sudo apt-get remove --auto-remove golang-go`
+
+### Purging your config/data too
+`sudo apt-get purge golang-go` or `sudo apt-get purge --auto-remove golang-go`
