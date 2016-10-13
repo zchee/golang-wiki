@@ -66,7 +66,7 @@ When the cross-compiler is build you should test that it works, both for a simpl
 
 ### Gotchas
 
-If you haven't compiled a shared object of the go library, _libgo_, for your target you might want to compile your Go programs statically, just like _gc_ does, to include all what is needed to run your program. Do this by adding the _-static_ switch to gccgo. If you're unsure how your produced ELF file is liked, inspect it with _readelf -d `<elf>`_ or _objdump -T `<elf>`_.
+If you haven't compiled a shared object of the go library, _libgo_, for your target you might want to compile your Go programs statically, just like _gc_ does, to include all what is needed to run your program. Do this by adding the _-static_ switch to gccgo. If you're unsure how your produced ELF file is linked, inspect it with _readelf -d `<elf>`_ or _objdump -T `<elf>`_.
 
 
 ## Build a cross-gccgo aware version of the Go tool
