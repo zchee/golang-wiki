@@ -33,3 +33,6 @@ http://www.hostingadvice.com/how-to/install-golang-on-ubuntu/
 
 ### Purging your config/data too
 `sudo apt-get purge golang-go` or `sudo apt-get purge --auto-remove golang-go`
+
+### install for 1.7.1
+check this out. http://www.itzgeek.com/how-tos/linux/centos-how-tos/install-go-1-7-ubuntu-16-04-14-04-centos-7-fedora-24.html
