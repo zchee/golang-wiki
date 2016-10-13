@@ -17,3 +17,6 @@ That is all you need to get `go` working on your system. (You can use `go env GO
 ## If that didn't work
 
 See http://blog.labix.org/2013/06/15/in-flight-deb-packages-of-go
+
+Using the GVM for installation and compile natively.
+http://www.hostingadvice.com/how-to/install-golang-on-ubuntu/
