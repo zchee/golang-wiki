@@ -41,6 +41,9 @@ check this out. http://www.itzgeek.com/how-tos/linux/centos-how-tos/install-go-1
 ### extract the package
 `sudo tar -zxvf  go1.7.1.linux-amd64.tar.gz -C /usr/local/`
 ### Added by Go Path
+
 `echo 'export GOROOT=/usr/local/go' >> ~/.bashrc`
+
 `echo 'export GOPATH=$HOME/go' >> ~/.bashrc`
+
 `echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc`
