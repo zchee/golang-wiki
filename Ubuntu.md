@@ -36,3 +36,11 @@ http://www.hostingadvice.com/how-to/install-golang-on-ubuntu/
 
 ### install for 1.7.1
 check this out. http://www.itzgeek.com/how-tos/linux/centos-how-tos/install-go-1-7-ubuntu-16-04-14-04-centos-7-fedora-24.html
+### Download the package
+`wget https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz`
+### extract the package
+`sudo tar -zxvf  go1.7.1.linux-amd64.tar.gz -C /usr/local/`
+### Added by Go Path
+`echo 'export GOROOT=/usr/local/go' >> ~/.bashrc`
+`echo 'export GOPATH=$HOME/go' >> ~/.bashrc`
+`echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc`
