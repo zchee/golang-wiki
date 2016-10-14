@@ -53,11 +53,11 @@ and so on.
 
 ## Declaring Empty Slices
 
-When declaring a slice, prefer
+When declaring a slice, use
 ```go
 var t []string
 ```
-to
+rather than
 ```go
 t := []string{}
 ```
