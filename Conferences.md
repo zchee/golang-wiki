@@ -11,6 +11,7 @@ Please keep all items in chronological order.
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | GopherCon Brasil | 2016-11-04-05 | Florianopolis, Brazil | https://2016.gopherconbr.org/en/ |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
+| GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | GopherCon Denver | 2017-07-12 | Denver, CO | http://gophercon.com |
 
 ## Archives
