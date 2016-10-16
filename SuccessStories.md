@@ -15,7 +15,7 @@
   * [Why I Like Go](https://gist.github.com/freeformz/4746274)
   * [Why I Program in Go](http://tech.t9i.in/2013/01/why-program-in-go/)
   * [dl.google.com now served by Go](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0)
-  * [Google's Go Programming Language Grows Up: Now What?](http://www.readwriteweb.com/cloud/2012/03/googles-go-programming-languag.php)
+  * [Google's Go Programming Language Grows Up: Now What?](http://readwrite.com/2012/03/29/googles-go-programming-languag/)
   * [Moving to Go](http://blog.toggl.com/2012/09/moving-to-go/)
   * [Rob Pike: Why Learn Go?](http://www.youtube.com/watch?v=FTl0tl9BGdc)
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js)
