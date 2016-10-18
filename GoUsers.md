@@ -222,6 +222,7 @@
   * [ReverbNation](https://www.reverbnation.com)
   * [ReviewTrackers](http://www.reviewtrackers.com/) - [HN](https://news.ycombinator.com/item?id=10660780)
   * [Revolving Cow](https://revolvingcow.com)
+  * [Riot Games](http://www.riotgames.com/) - [talk](https://www.youtube.com/watch?v=L1-oLdnoigQ)
   * [Room for More](https://roomformore.com)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
