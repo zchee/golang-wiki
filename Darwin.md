@@ -12,4 +12,4 @@
 | 11                 | amd64, 386             | go1 _*_          | go1.7            |
 | 10                 | amd64, 386             | go1              | go1.4            |
 _*_ Go 1.5 or above is recommended.
-_**_ See #16272 and #16570
+_**_ See https://github.com/golang/go/issues/16570
