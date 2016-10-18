@@ -29,6 +29,10 @@ A fix to the pread system call is required, so pread will not update the channel
 
 * [9-pread-offset](http://9legacy.org/9legacy/patch/9-pread-offset.diff)
 
+The TCP connection control file must handle the "close" message to be able close a TCP connection gracefully, while waking up the readers:
+
+* [9-tcp-close](http://9legacy.org/9legacy/patch/9-tcp-close.diff)
+
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/magic/webls?dir=/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
 # Installation
