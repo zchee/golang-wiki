@@ -1,12 +1,12 @@
 # Go on DragonFly BSD
 
-| **Kernel version**  | **Architectures** | **Min. version** | **Max. version** |
-|:--------------------|:------------------|:-----------------|:-----------------|
-| 4.6                 | amd64             | go1.8            | go1.8            |
-| 4.4.4 or above      | amd64             | go1.8            | go1.8            |
-| 4.4 through 4.4.3   | amd64             | go1.3 _*_        | go1.7            |
-| 4.2 (EOL)           | amd64             | go1.3 _*_        | go1.7            |
-| 4.0 (EOL)           | amd64             | go1.3 _*_        | go1.7            |
-| 3.8 (EOL)           | amd64             | go1.3 _*_        | go1.7            |
-| 3.6 (EOL)           | amd64, 386        | go1.3            | go1.4            |
+| **Kernel version**  | **Architectures** | **Initial support version** | **Final support version** |
+|:--------------------|:------------------|:----------------------------|:--------------------------|
+| 4.6                 | amd64             | Go 1.8                      |                           |
+| 4.4.4 or above      | amd64             | Go 1.8                      |                           |
+| 4.4 through 4.4.3   | amd64             | Go 1.3 _*_                  |                           |
+| 4.2 (EOL)           | amd64             | Go 1.3 _*_                  |                           |
+| 4.0 (EOL)           | amd64             | Go 1.3 _*_                  |                           |
+| 3.8 (EOL)           | amd64             | Go 1.3 _*_                  |                           |
+| 3.6 (EOL)           | amd64, 386        | Go 1.3                      | Go 1.4.3                  |
 _*_ Go 1.5 or above is recommended.
