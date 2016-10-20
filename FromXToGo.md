@@ -1,6 +1,7 @@
 This page links to blog posts and videos discussing moving a code base to Go from some other language.
 
 # Python
+* [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
 * [Rackspace: Making OpenStack-Powered Rackspace Cloud Files Buzz With Hummingbird](https://blog.rackspace.com/making-openstack-powered-rackspace-cloud-files-buzz-with-hummingbird/)
 * [Repustate: From Python to Go: migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
 * [Spacemonkey: Python to Go] (https://www.spacemonkey.com/blog/posts/go-space-monkey)
