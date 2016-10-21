@@ -411,6 +411,16 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/novalagung/dasarpemrogramangolang/
 
+# Italian
+  * **Programmare in Linguaggio Go**
+    * Author: Renato Mite
+    * Publication Date: 9 Oct 2016
+    * ISBN: ---
+    * Reference (Amazon): https://www.amazon.it/dp/B01M2URIVX
+    * Reference (Google Books): https://play.google.com/store/books/details/Renato_Mite_Programmare_in_Linguaggio_Go?id=4Ag6DQAAQBAJ
+    * Reference (Kobo Books): https://store.kobobooks.com/it-it/ebook/programmare-in-linguaggio-go
+    * Repository: https://github.com/rmite/gobook
+
 # Looking for contributors
 
 [Add Go books here that are looking for writers, editors, Gopher illustrators, and translators.]
