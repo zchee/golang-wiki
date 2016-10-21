@@ -38,5 +38,6 @@
   * [Go at Basecamp](https://signalvnoise.com/posts/3897-go-at-basecamp)
   * [Go at Streetspotr](https://thcyron.de/2015/go-at-streetspotr.html)
   * [Confession From A Go Programer](https://zeta.si/page/Confession-From-A-Go-Programer)
+  * [Why we chose Go over C for updating embedded Linux devices](https://mender.io/blog/why-did-we-choose-golang-over-c)
 
 See also [[GoUsers]].
