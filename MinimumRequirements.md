@@ -8,6 +8,8 @@ Kernel version 2.6.23 or later. [_This depends on architecture though, we need t
 
 We don't support CentOS 5. Kernel is too old (2.6.18).
 
+For little-endian MIPS64, kernel version 4.1 is known to fail, and 4.8 works. 
+
 ### Windows
 
 Windows XP or higher. But we don't currently (2016-09-23) have a Windows XP running. That is https://github.com/golang/go/issues/10267
