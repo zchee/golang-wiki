@@ -474,6 +474,7 @@
   * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
 
 ## Poland
+ * [allegro](http://allegro.pl) - [blog](http://allegro.tech) - biggest polish e-commerce platform
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
