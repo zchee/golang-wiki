@@ -654,6 +654,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-gedit](http://code.google.com/p/go-gedit3-plugin/) - Google Go language plugin for gedit
   * [golab](https://github.com/mb0/lab) - go local application builder - a web-based Go ide
   * [Google Go for Idea](http://plugins.intellij.net/plugin/?idea&id=5047) - Google Go language plugin for Intellij IDEA
+  * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor.
   * [tabby](https://github.com/mikhailt/tabby) - Source code editor
   * [ViGo](https://github.com/kisielk/vigo) - A vim-like text editor.
   * [Wide](https://github.com/b3log/wide) - A Web-based IDE for Teams using Golang.
