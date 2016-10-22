@@ -239,7 +239,7 @@ See https://golang.org/doc/effective_go.html#commentary for more information abo
 
 ## Package Names
 
-All references to names in your package will be done using the package name, so you can omit that name from the identifiers. For example, if you are in package chubby, you don't need type ChubbyFile, which clients will write as chubby.ChubbyFile. Instead, name the type File, which clients will write as chubby.File. See https://golang.org/doc/effective_go.html#package-names for more.
+All references to names in your package will be done using the package name, so you can omit that name from the identifiers. For example, if you are in package chubby, you don't need to type ChubbyFile, which clients will write as chubby.ChubbyFile. Instead, name the type File, which clients will write as chubby.File. See https://golang.org/doc/effective_go.html#package-names for more.
 
 ## Pass Values
 
