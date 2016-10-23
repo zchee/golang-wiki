@@ -42,7 +42,7 @@ An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/go
 See https://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
 
 ```go
-// A Request represents a request to run a command.
+// Request represents a request to run a command.
 type Request struct { ...
 
 // Encode writes the JSON encoding of req to w.
