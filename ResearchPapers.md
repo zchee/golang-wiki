@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Fencing off Go: Liveness and Safety for Channel-based Programming (Julien Lange, Nicholas Ng, Bernardo Toninho, Nobuko Yoshida)  Imperial College London, UK
+  - [pdf](http://www.doc.ic.ac.uk/~bparente/fencing.pdf)
+
 - Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
   - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
   - [10.1007/978-3-319-47166-2_30](http://link.springer.com/chapter/10.1007/978-3-319-47166-2_30) 
