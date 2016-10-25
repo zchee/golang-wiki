@@ -188,6 +188,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
+  * [GoNote](https://github.com/exaroth/gonote) - Command line SimpleNote client.
   * [Grozilla](https://github.com/prashant-agarwala/grozilla) - File downloader utility with resume capability.
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
   * [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
