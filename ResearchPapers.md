@@ -2,7 +2,7 @@ This page lists academic and industry research papers about Go or using Go as th
 
 ## 2016
 - Fencing off Go: Liveness and Safety for Channel-based Programming (Julien Lange, Nicholas Ng, Bernardo Toninho, Nobuko Yoshida)  44th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2017)
-  - [pdf](http://www.doc.ic.ac.uk/~bparente/fencing.pdf)
+  - [pdf](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/main.pdf) , [POPL 2017](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/)
   - [github:dingo-hunter](https://github.com/nickng/dingo-hunter) Static analyser for finding Deadlocks in Go
 - Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
   - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
