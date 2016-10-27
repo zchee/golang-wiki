@@ -71,8 +71,8 @@ followed by the type. Unlike in C++, the syntax for a type does not match
 the way in which the variable is used. Type declarations may be read
 easily from left to right.  (` var v1 int ` → "Variable ` v1 ` is an ` int `.")
 
-```
-Go                           C++
+```go
+//Go                      C++
 var v1 int                // int v1;
 var v2 string             // const std::string v2;  (approximately)
 var v3 [10]int            // int v3[10];
@@ -94,7 +94,7 @@ the <a href='#Interfaces'>discussion of interfaces</a>.
 You can also use a keyword followed by a series of declarations in
 parentheses.
 
-```
+```go
 var (
 	i int
 	m float64
@@ -104,7 +104,7 @@ var (
 When declaring a function, you must either provide a name for each parameter
 or not provide a name for any parameter.  (That is, C++ permits ` void f(int i, int); `, but Go does not permit the analogous ` func f(i int, int) `.)  However, for convenience, in Go you may group several names with the same type:
 
-```
+```go
 func f(i, j, k int, s, t string)
 ```
 
@@ -113,7 +113,7 @@ specifying the type is permitted but not required.  When the type is
 not specified, the type of the variable is the type of the
 initialization expression.
 
-```
+```go
 var v = *p
 ```
 
@@ -127,19 +127,19 @@ uninitialized variables in Go.
 Within a function, a short declaration syntax is available with
 ` := ` .
 
-```
+```go
 v1 := v2 // C++11: auto v1 = v2;
 ```
 
 This is equivalent to
 
-```
+```go
 var v1 = v2 // C++11: auto v1 = v2;
 ```
 
 Go permits multiple assignments, which are done in parallel.  That is, first all of the values on the right-hand side are computed, and then these values are assigned to the variables on the left-hand side.
 
-```
+```go
 i, j = j, i // Swap i and j.
 ```
 
@@ -147,14 +147,14 @@ Functions may have multiple return values, indicated by a list in
 parentheses.  The returned values can be stored by assignment
 to a list of variables.
 
-```
+```go
 func f() (i int, j int) { ... }
 v1, v2 = f()
 ```
 
 Multiple return values are Go's primary mechanism for error handling:
 
-```
+```go
 result, ok := g()
 if !ok {
   // Something bad happened.
@@ -166,7 +166,7 @@ if !ok {
 
 or, more tersely,
 
-```
+```go
 if result, ok := g(); !ok {
   // Something bad happened.
   return nil
@@ -182,7 +182,7 @@ incomplete (the exact rules are
 in <a href='https://golang.org/ref/spec#Semicolons'>the language specification</a>).
 A consequence of this is that in some cases Go does not permit you to
 use a line break.  For example, you may not write
-```
+```go
 func g()
 {                  // INVALID
 }
@@ -190,7 +190,7 @@ func g()
 A semicolon will be inserted after ` g() `, causing it to be
 a function declaration rather than a function definition.  Similarly,
 you may not write
-```
+```go
 if x {
 }
 else {             // INVALID
@@ -217,7 +217,7 @@ of ` -> `.
 Thus, syntactically speaking, a structure and a pointer to a structure
 are used in the same way.
 
-```
+```go
 type myStruct struct{ i int }
 var v9 myStruct  // v9 has structure type
 var p9 *myStruct // p9 is a pointer to a structure
@@ -229,7 +229,7 @@ statement, or the expressions of a ` for ` statement, or the value of a
 ` switch ` statement.  On the other hand, it does require curly braces
 around the body of an ` if ` or ` for ` statement.
 
-```
+```go
 if a < b { f() }             // Valid
 if (a < b) { f() }           // Valid (condition is a parenthesized expression)
 if (a < b) f()               // INVALID
@@ -253,7 +253,7 @@ through.  You can
 make them fall through using the ` fallthrough ` keyword.  This applies
 even to adjacent cases.
 
-```
+```go
 switch i {
 case 0: // empty case body
 case 1:
@@ -263,7 +263,7 @@ case 1:
 
 But a ` case ` can have multiple values.
 
-```
+```go
 switch i {
 case 0, 1:
 	f() // f is called if i == 0 || i == 1.
@@ -276,7 +276,7 @@ that supports the equality comparison operator, such as strings or
 pointers, can be used--and if the ` switch `
 value is omitted it defaults to ` true `.
 
-```
+```go
 switch {
 case i < 0:
 	f1()
@@ -289,7 +289,7 @@ case i > 0:
 
 The ` defer ` statement may be used to call a function after the function containing the ` defer ` statement returns.  ` defer ` often takes the place of a destructor in C++ but is associated with the calling code, not any particular class or object.
 
-```
+```go
 fd := open("filename")
 defer close(fd) // fd will be closed when this function returns.
 ```
@@ -337,7 +337,7 @@ is used within a context that
 requires a typed value. This permits constants to be used relatively
 freely without requiring general implicit type conversion.
 
-```
+```go
 var a uint
 f(a + 1) // untyped numeric constant "1" becomes typed as uint
 ```
@@ -346,7 +346,7 @@ The language does not impose any limits on the size of an untyped
 numeric constant or constant expression. A limit is only applied when
 a constant is used where a type is required.
 
-```
+```go
 const huge = 1 << 100
 f(huge >> 98)
 ```
@@ -357,7 +357,7 @@ series of increasing
 value.  When an initialization expression is omitted for a ` const `,
 it reuses the preceding expression.
 
-```
+```go
 const (
 	red   = iota // red == 0
 	blue         // blue == 1
@@ -373,7 +373,7 @@ Go is far more strongly typed than C++.  In particular, there is no implicit typ
 
 Both C++ and Go support type aliases (` typedef ` in C++, ` type ` in Go).  However, unlike C++, Go treats these as different types.  Hence, the following is valid in C++:
 
-```
+```C++
 // C++
 typedef double position;
 typedef double velocity;
@@ -386,7 +386,7 @@ pos += vel;
 
 but the equivalent is invalid in Go without an explicit type conversion:
 
-```
+```go
 type position float64
 type velocity float64
 
@@ -460,7 +460,7 @@ never yields a dangling pointer.  If the program takes the address of
 a variable, it will be allocated on the heap if necessary.  So these
 functions are equivalent:
 
-```
+```go
 type S { I int }
 
 func f1() *S {
@@ -480,7 +480,7 @@ func f3() *S {
 
 In contrast, it is not safe in C++ to return a pointer to a local variable:
 
-```
+```C++
 // C++
 S* f2() {
   S s;
@@ -528,7 +528,7 @@ A method looks like an ordinary function definition, except that it
 has a <em>receiver</em>.  The receiver is similar to
 the ` this ` pointer in a C++ class method.
 
-```
+```go
 type myType struct{ i int }
 
 func (p *myType) Get() int { return p.i }
@@ -544,7 +544,7 @@ not the old type.
 You may define methods on a builtin type by declaring a new named type
 derived from it.  The new type is distinct from the builtin type.
 
-```
+```go
 type myInteger int
 
 func (p myInteger) Get() int { return int(p) } // Conversion required.
@@ -558,7 +558,7 @@ var v myInteger
 
 Given this interface:
 
-```
+```go
 type myInterface interface {
 	Get() int
 	Set(i int)
@@ -567,7 +567,7 @@ type myInterface interface {
 
 we can make ` myType ` satisfy the interface by adding
 
-```
+```go
 func (p *myType) Set(i int) { p.i = i }
 ```
 
@@ -575,7 +575,7 @@ Now any function which takes ` myInterface ` as a parameter
 will accept a
 variable of type ` *myType `.
 
-```
+```go
 func GetAndSet(x myInterface) {}
 func f1() {
 	var p myType
@@ -592,7 +592,7 @@ inherit from ` myInterface `.  A type may satisfy multiple interfaces.
 An anonymous field may be used to implement something much like a C++ child
 class.
 
-```
+```go
 type myChildType struct {
 	myType
 	j int
@@ -604,7 +604,7 @@ func (p *myChildType) Get() int { p.j++; return p.myType.Get() }
 This effectively implements ` myChildType ` as a child of
 ` myType `.
 
-```
+```go
 func f2() {
 	var p myChildType
 	GetAndSet(&p)
@@ -633,7 +633,7 @@ at run time, like C++ ` dynamic_cast `.  Unlike
 ` dynamic_cast `, there does
 not need to be any declared relationship between the two interfaces.
 
-```
+```go
 type myPrintInterface interface {
 	Print()
 }
@@ -652,7 +652,7 @@ Because the conversion is dynamic, it may be used to implement generic
 programming similar to templates in C++.  This is done by
 manipulating values of the minimal interface.
 
-```
+```go
 type Any interface{}
 ```
 
@@ -663,7 +663,7 @@ than static, there is no equivalent of the way that a C++ template may
 inline the relevant operations.  The operations are fully type-checked
 at run time, but all operations will involve a function call.
 
-```
+```go
 type Iterator interface {
 	Get() Any
 	Set(v Any)
@@ -681,7 +681,7 @@ FAQ</a>.
 
 In C++ versions prior to C++11, the most common way to create a function with hidden state is to use a "functor"—a class that overloads ` operator() ` to make instances look like functions.  For example, the following code defines a ` my_transform ` function (a simplified version of the STL's ` std::transform `) that applies a given unary operator (` op `) to each element of an array (` in `), storing the result in another array (` out `).  To implement a prefix sum (i.e., {` x[0] `, ` x[0]+x[1] `, ` x[0]+x[1]+x[2] `, …}) the code creates a functor (` MyFunctor `) that keeps track of the running total (` total `) and passes an instance of this functor to ` my_transform `.
 
-```
+```C++
 // C++
 #include <iostream>
 #include <cstddef>
@@ -722,7 +722,7 @@ int main (void)
 
 C++11 adds anonymous ("lambda") functions, which can be stored in variables and passed to functions.  They can optionally serve as closures, meaning they can reference state from parent scopes.  This feature greatly simplifies ` my_transform `:
 
-```
+```C++
 // C++11
 #include <iostream>
 #include <cstddef>
@@ -756,7 +756,7 @@ int main (void)
 
 A typical Go version of ` my_transform ` looks a lot like the C++11 version:
 
-```
+```go
 package main
 
 import "fmt"
@@ -788,7 +788,7 @@ In Go, functions are always full closures, the equivalent of ` [&] ` in C++11.  
 
 Like C++11's ` std::thread `, Go permits starting new threads of execution that run concurrently in a shared address space.  These are called _goroutines_ and are spawned using the ` go ` statement.  While typical ` std::thread ` implementations launch heavyweight, operating-system threads, goroutines are implemented as lightweight, user-level threads that are multiplexed among multiple operating-system threads.  Consequently, goroutines are (intended to be) cheap and can be used liberally throughout a program.
 
-```
+```go
 func server(i int) {
 	for {
 		fmt.Print(i)
@@ -805,7 +805,7 @@ function is equivalent to a C++ ` while (true) ` loop.)
 Function literals (which Go implements as closures)
 can be useful with the ` go ` statement.
 
-```
+```go
 var g int
 go func(i int) {
 	s := 0
@@ -832,7 +832,7 @@ Because they are so widely used in Go programs, channels are (intended to be) ef
 Here is an example of using a manager function to control access to a
 single value.
 
-```
+```go
 type Cmd struct { Get bool; Val int }
 func Manager(ch chan Cmd) {
 	val := 0
@@ -851,7 +851,7 @@ from the manager might receive a request from another goroutine
 instead.
 A solution is to pass in a channel.
 
-```
+```go
 type Cmd2 struct { Get bool; Val int; Ch chan<- int }
 func Manager2(ch <-chan Cmd2) {
 	val := 0
@@ -865,7 +865,7 @@ func Manager2(ch <-chan Cmd2) {
 
 To use ` Manager2 `, given a channel to it:
 
-```
+```go
 func f4(ch chan<- Cmd2) int {
 	myCh := make(chan int)
 	c := Cmd2{true, 0, myCh} // Composite literal syntax.
