@@ -95,13 +95,13 @@ Sorted by publication date.
     * ISBN: 978-1785282317
     * Reference: https://www.packtpub.com/web-development/learning-go-web-development
 
-  * **Go Web Programming**
+* **Go Web Programming**
     * Author: Sau Sheong Chang
     * Publication Date: July 22, 2016
     * ISBN: 9781617292569
     * Reference: http://manning.com/chang/
 
-  * **Go in Practice**
+* **Go in Practice**
     * Authors: Matt Butcher and Matt Farina
     * Publication Date: October 1, 2016
     * ISBN: 9781633430075
