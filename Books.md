@@ -93,33 +93,27 @@ Sorted by publication date.
     * Author: Nathan Kozyra
     * Publication Date: April, 2016
     * ISBN: 978-1785282317
-    * Reference: https://www.packtpub.com/web-development/learning-go-web-development 
-
-## Early Access
+    * Reference: https://www.packtpub.com/web-development/learning-go-web-development
 
   * **Go Web Programming**
     * Author: Sau Sheong Chang
-    * Publication Date: Fall 2015 (est.)
+    * Publication Date: July 22, 2016
     * ISBN: 9781617292569
     * Reference: http://manning.com/chang/
 
   * **Go in Practice**
     * Authors: Matt Butcher and Matt Farina
-    * Publication Date: Fall 2015 (est.)
+    * Publication Date: October 1, 2016
     * ISBN: 9781633430075
     * Reference: http://manning.com/butcher/
+
+## Early Access
 
   * **A Comprehensive Guide to Go Programming**
     * Authors: Baiju Muthukadan
     * Publication Date: June 10, 2015
     * ISBN: ---
     * Reference: http://golang.muthukadan.net/
-
-  * **Microservices in Go**
-    * Authors: Matthew Campbell
-    * Publication Date: Fall 2015 (est.)
-    * ISBN: ---
-    * Reference: http://microservicesingo.com/
 
   * **Learn Go**
     * Author: Nathan Youngman
@@ -183,7 +177,7 @@ Sorted by publication date.
     * Author: Kyle Isom
     * Publication Date: ---
     * ISBN: ---
-    * References: http://gokyle.org/book/
+    * References: https://leanpub.com/gocrypto
 
   * **The Ultimate Guide to Building Database-Driven Apps with Go** (e-book)
     * Author: Baron Schwartz
@@ -226,6 +220,15 @@ Sorted by publication date.
     * Publication Date: ---
     * ISBN: ---
     * References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook
+
+## Cancelled or Status Indeterminable
+
+  * **Microservices in Go**
+    * Authors: Matthew Campbell
+    * Publication Date: Fall 2015 (est.)
+    * ISBN: ---
+    * Reference: http://microservicesingo.com/
+    * Status: [Cancelled per O'Reilly Employee](http://support.oreilly.com/oreilly/topics/availability-of-microservices-in-go-use-go-to-build-scalable-backends-by-matthew-campbell)
 
 # Chinese
   * **Go语言·云动力**
