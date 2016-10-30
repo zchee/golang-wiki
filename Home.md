@@ -233,6 +233,7 @@ If you're looking for services that support Go, here's a list to get you started
   - [Darwin](Darwin)
   - [DragonFly BSD](DragonFly BSD)
   - [FreeBSD](FreeBSD)
+  - [Linux](Linux)
   - [NativeClient](NativeClient)
   - [NetBSD](NetBSD)
   - [OpenBSD](OpenBSD)
