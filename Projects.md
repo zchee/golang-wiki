@@ -735,6 +735,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## GIS
 
+  * [geojson](https://github.com/kpawlik/geojson) - Go package to quick and easy create json data in geojson format. [description](http://kpawlik.github.io/geojson)
   * [go-geom](https://github.com/twpayne/go-geom) - Efficient Open Geo Consortium-style geometries with native Go GeoJSON and WKB encoding and decoding (work-in-progress)
   * [go.geo](https://github.com/paulmach/go.geo) - Geometry/geography library targeted at online mapping
   * [go.geojson](https://github.com/paulmach/go.geojson) - Marshalling and Unmarshalling of GeoJSON objects
