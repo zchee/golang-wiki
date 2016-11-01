@@ -11,7 +11,7 @@ a = append(a, b...)
 ```go
 b = make([]T, len(a))
 copy(b, a)
-// or
+// or, if a is not the empty slice,
 b = append([]T(nil), a...)
 ```
 
