@@ -170,6 +170,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 ## Misc
 
+  * [Go-powered Open Source IoT Integration Framework "Flogo"](http://www.kai-waehner.de/blog/2016/11/03/open-source-project-flogo-overview/) _2016-11-07_
   * [Build Slack Slash Commands with Go](http://www.programmableweb.com/news/how-to-use-slack-api-to-build-slash-commands-powered-google-app-engine-and-go/how-to/2015/09/16) _2015-09-15_
   * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
   * [State machines in Go (#golang)](http://denis.papathanasiou.org/?p=1190) _2013-02-10_
