@@ -1,10 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
-- Fencing off Go: Liveness and Safety for Channel-based Programming (Julien Lange, Nicholas Ng, Bernardo Toninho, Nobuko Yoshida)  44th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2017)
-  - [pdf](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/main.pdf) , [POPL 2017](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/)
-  - [arXiv:1610.08843 cs.PL](https://arxiv.org/abs/1610.08843)
-  - [github:dingo-hunter](https://github.com/nickng/dingo-hunter) Static analyser for finding Deadlocks in Go
+- Fencing off Go: Liveness and Safety for Channel-based Programming (Julien Lange, Nicholas Ng, Bernardo Toninho, Nobuko Yoshida) 44th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2017)
+  - [pdf](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/),  [long version](https://arxiv.org/abs/1610.08843), [www](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/)
+  - Tool - [Type inference and safety checker](http://mrg.doc.ic.ac.uk/tools/gong) 
 - Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
   - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
   - [10.1007/978-3-319-47166-2_30](http://link.springer.com/chapter/10.1007/978-3-319-47166-2_30) 
