@@ -1138,6 +1138,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Websockets
   * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
   * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
+  * [wst](https://github.com/jthestupidkid/wst) - A dead simple WebSocket tester
   * [ws-cli](https://github.com/kseo/ws-cli) - WebSocket command line client
 
 ### ZeroMQ
