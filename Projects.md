@@ -671,6 +671,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
   * [MailHog](https://github.com/mailhog/MailHog) - Email testing service, inspired by MailCatcher.
   * [MailSlurper](https://github.com/mailslurper/mailslurper) - A handy SMTP mail server useful for local and team application development. Slurp mail into oblivion!
+  * [chasquid](https://blitiri.com.ar/p/chasquid) - SMTP server written in Go.
 
 ## Error handling
 
