@@ -12,6 +12,7 @@ Please keep all items in chronological order.
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
 |-------|-----------|----------|------------|
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
+| GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ |
 | GopherCon Denver | 2017-07-12 | Denver, CO | http://gophercon.com |
 
 ## Archives
