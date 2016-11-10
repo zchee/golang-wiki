@@ -411,6 +411,16 @@
 
 ## Indonesia
   * [President University](http://presuniv.com)
+  * [Tokopedia](http://tokopedia.com)
+  * [Matahari Mall](http://mataharimall.com)
+  * [Bukalapak](http://bukalapak.com)
+  * [Midtrans Payment Gateway](http://midtrans.com)
+  * [Zelos](http://zelos.id)
+  * [Rimbun Job Agency](http://www.rimbunjob.com)
+  * [Kelir.tv](http://kelir.tv)
+  * [Lazada](http://www.lazada.co.id)
+  * [Raydar](http://goraydar.com)
+  * [RedtreeMobile](http://redtreemobile.com)
 
 ## Iran
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
