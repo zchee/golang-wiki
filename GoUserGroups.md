@@ -71,6 +71,8 @@
   * [Golang Cologne](http://www.meetup.com/Golang-Cologne/) - Cologne/Bonn, Germany
   * [Golang Vilnius](http://www.meetup.com/Vilnius-Golang/) - Vilnius, Lithuania
   * [Meetup Surrey](http://www.meetup.com/Surrey-Go-User-Group-Meetup/) - Surrey, UK
+  * [Golang Zagreb](https://www.meetup.com/Golang-ZG/) - Zagreb, Croatia
+
 
 # North America
 
