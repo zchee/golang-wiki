@@ -21,6 +21,7 @@
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - [Meetup](http://www.meetup.com/golangsg/) - Singapore.
   * [GoJakarta](http://www.meetup.com/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
+  * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
 
 # Europe
 
