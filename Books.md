@@ -107,6 +107,12 @@ Sorted by publication date.
     * ISBN: 9781633430075
     * Reference: http://manning.com/butcher/
 
+* **Go Programming Blueprints - Second Edition**
+    * Author: Mat Ryer
+    * Publication Date: October 2016
+    * ISBN: 978-1786468949
+    * Reference: https://www.packtpub.com/application-development/go-programming-blueprints-second-edition
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
