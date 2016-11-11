@@ -136,7 +136,7 @@
   * [Brisbane Gophers](http://www.meetup.com/Brisbane-Golang-Meetup/) - Brisbane, Australia.
 
 # South America
-  * [Golang Brasil](http://www.golangbr.org) - Brazil.
+  * [Golang Brasil](https://www.meetup.com/pt-BR/golangbr/) - Brazil.
   * [Golang Argentina](http://www.meetup.com/es-ES/Golang-Argentina/) - Argentina.
   * [Golang Medellín](http://www.meetup.com/Golang-Medellin/) - Colombia.
   * [Golang Chile](https://groups.google.com/d/forum/golang-chile) - Chile.
