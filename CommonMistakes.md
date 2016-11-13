@@ -10,10 +10,10 @@ When new programmers start using Go or when old Go programmers start using a new
 
 # Using goroutines on loop iterator variables 
 
-When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code (TODO: What is wrong with example from the following code?):
+When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code:
 ```go
 for val := range values {
-	go val.my_method()
+	go val.MyMethod()
 }
 ```
 
