@@ -37,6 +37,10 @@ A fix to Fossil is required to increment Qid.vers after a wstat, so a truncate f
 
 * [fossil-wstat-qid](http://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
 
+You will need support for SHA-2 signatures in X.509 certificates, so you could download sources from repositories hosted on GoogleSource, GitHub and so on.
+
+* [libsec-x509-sha2](http://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
+
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/magic/webls?dir=/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
 # Installation
