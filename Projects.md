@@ -764,6 +764,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
   * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
+  * [gltf](https://github.com/sturfeeinc/glTF) - library for marshaling and unmarshaling glTF
   * [glfw 3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3 library
   * [glfw](https://github.com/go-gl/glfw) - bindings to the multi-platform library for opening a window, creating an OpenGL context and managing input
   * [glh](https://github.com/go-gl/glh) - OpenGL helper functions to manage text, textures, framebuffers and more
