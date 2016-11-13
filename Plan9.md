@@ -35,7 +35,7 @@ The TCP connection control file must handle the "close" message to be able close
 
 A fix to Fossil is required to increment Qid.vers after a wstat, so a truncate followed by an read will return the content of the new file instead of the cached content.
 
-* [fossil-wstat-qid](http://www.9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
+* [fossil-wstat-qid](http://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
 
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/magic/webls?dir=/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
