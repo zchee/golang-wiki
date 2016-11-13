@@ -147,8 +147,6 @@ The Plan 9 port of Go is considered experimental and is still a work-in-progress
 
 Many issues are currently open on the [Go issue tracker](https://golang.org/issues) with the [OS-Plan9](https://github.com/golang/go/issues?q=is%3Aopen+is%3Aissue+label%3AOS-Plan9) label.
 
-The most important issue is probably the lack of support for asynchronous cancellable I/O ([issue 11932](https://golang.org/issue/11932)). An experimental implementation has been tried in [CL 3231](https://golang.org/cl/3231), but getting rid of the remaining race conditions would likely require runtime support.
-
 # Help
 
 The Plan 9 port of Go is a community-driven port. Any help to improve the Go port on Plan 9 would be highly appreciated.
