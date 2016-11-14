@@ -148,6 +148,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gosync](https://github.com/brettweavnet/gosync) - A package for syncing data to and from S3.
   * [juju](https://juju.ubuntu.com) - Orchestration tool (deployment, configuration and lifecycle management), developed by Canonical.
   * [mgmt](https://github.com/purpleidea/mgmt/) - Next Generation Configuration Management tool (parallel, event driven, distributed system) developed by [@purpleidea](https://twitter.com/#!/purpleidea), (a Red Hat employee) and the mgmt community.
+  * [rclone](http://rclone.org/) - "rsync for cloud storage" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files
   * [ShipBuilder](http://shipbuilder.io) - ShipBuilder is a minimalist open source platform as a service, developed by Jay Taylor.
   * [swift](https://github.com/ncw/swift) - Go language interface to Swift / Openstack Object Storage / Rackspace cloud files
   * [Tsuru](http://www.tsuru.io/) - Tsuru is an open source polyglot cloud computing platform as a service (PaaS), developed by Globo.com.
