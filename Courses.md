@@ -9,6 +9,10 @@ Go is a great language for CS majors. This page presents some university courses
   * Free University of Berlin (Germany) had a course [Introduction to Go Programming](http://w3.inf.fu-berlin.de/lehre/WS12/go/) in Spring 2013.
   * J.W. Goethe University (Frankfurt/Main, Germany) had a course [Introduction to Go Programming](http://www.sepl.informatik.uni-frankfurt.de/2014-ws/b-ps2/index.de.html) in Spring 2015 (in german)
 
+# Programming Concepts
+
+   * President University (Cikarang, West Java, Indonesia) had a course [Programming Concepts](http://president.ac.id/study/undergraduate/school-of-computer-science/information-technology) for every junior students (using C, Go and Javascript).
+
 # Web
 
   * CS 4830: Science and Engineering of the WWW taught by Ryanne Dolan at University of Missouri: http://4830.ryannedolan.info/
