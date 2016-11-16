@@ -475,9 +475,7 @@
   * [eureka](https://eure.jp)
 
 ## Kazakhstan
-  * [Kolesa](http://kolesa.kz) - microservices for classified ads websites and mobile apps backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
-  * 
-  * 
+  * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
 
 ## Korea (South)
   * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
