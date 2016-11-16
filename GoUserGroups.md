@@ -88,6 +88,14 @@
   * [KW Go Developers](http://www.meetup.com/Golang-KW/) - Waterloo, ON, Canada.
   * [Golang Montréal](https://golangmontreal.org/) - Montréal, QC
 
+## Dominican Republic
+
+  * [Golang Dominicana](https://www.facebook.com/groups/golangdominicana) - República Dominicana.
+
+## Latin AMERICA
+
+  * [Golang-ES](https://www.facebook.com/groups/goenespanol) - Golang en Español.
+
 ## Mexico
 
   * [golangmx](http://golang.mx/) - Mexico City, Mexico.
