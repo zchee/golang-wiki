@@ -22,7 +22,7 @@ macOS Sierra (10.12) requires Go 1.7.1. We have not yet (as of 2016-09-23) backp
 
 Go only supports OS X 10.8 (Mountain Lion) or newer. We only have builders for 10.8, 10.10, and 10.11 as of 2016-09-23.
 
-Go tip doesn't compile OS X 10.7 (Lion) but binaries MAY work there. Maybe. No builders, no promises. We don't recommend it.
+Go tip doesn't compile on OS X 10.7 (Lion) but binaries MAY work there. Maybe. No builders, no promises. We don't recommend it.
 
 OS X 10.6 (Snow Leopard) is explicitly unsupported. See https://github.com/golang/go/issues/9511
 
