@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Therapeutic target discovery using Boolean network attractors: updates from kali ( Arnaud Poret ) ( Quantitative Biology > Molecular Networks) 
+  - [arXiv:1611.03144v1 q-bio.MN](https://arxiv.org/abs/1611.03144v1)
+  - [github.com/arnaudporet/kali](https://github.com/arnaudporet/kali) [Go 100.0%]
 - Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
   - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
   - [10.1007/978-3-319-47166-2_30](http://link.springer.com/chapter/10.1007/978-3-319-47166-2_30) 
