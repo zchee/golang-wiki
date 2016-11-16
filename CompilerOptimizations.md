@@ -32,10 +32,10 @@ For a map `m` of type `map[string]T` and `[]byte b`, `m[string(b)]` doesn't allo
 Avoiding allocating `[]byte` of a `string` when ranging over the bytes:
 
 ```go
-	s := "foo"
-	for i, c := range []byte(s) {
-		// ...
-	}
+s := "foo"
+for i, c := range []byte(s) {
+	// ...
+}
 ```
 
 * **gc:** 1.5+ (CL 3790)
