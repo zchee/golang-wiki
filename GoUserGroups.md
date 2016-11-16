@@ -92,7 +92,7 @@
 
   * [Golang Dominicana](https://www.facebook.com/groups/golangdominicana) - República Dominicana.
 
-## Latin AMERICA
+## Latin America
 
   * [Golang-ES](https://www.facebook.com/groups/goenespanol) - Golang en Español.
 
