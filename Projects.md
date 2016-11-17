@@ -789,6 +789,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GoMacDraw](https://github.com/skelterjohn/gmd) - A mac implementation of go.wde
   * [go-openal](https://github.com/phf/go-openal) - Experimental OpenAL bindings for Go
   * [go-opencl](https://github.com/tones111/go-opencl) - A go wrapper to the OpenCL heterogeneous parallel programming library
+  * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV / 2.x API in gocv / 1.x API in opencv
   * [Go-OpenGL](https://github.com/banthar/Go-OpenGL) - Go bindings for OpenGL
   * [Goop](https://github.com/peterbourgon/goop) - Audio synthesizer engine
   * [goray](http://goray.sourceforge.net/) - Raytracer written in Go, based on Yafaray
