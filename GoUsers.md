@@ -298,6 +298,7 @@
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
   * [Weave](http://www.getweave.com)
+  * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Wikia](http://www.wikia.com)
   * [Wireless Registry](http://www.wirelessregistry.com) - [github](https://github.com/wirelessregistry)
