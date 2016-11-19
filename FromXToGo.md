@@ -11,6 +11,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Digg](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f#.yw5lk8t25)
 * [Uber](https://www.infoq.com/articles/podcast-matt-ranney) (audio)
 * [Apex/TJ Holowaychuk](https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b#.3hjxf6pbp)
+* [ScaleDrone](http://blog.scaledrone.com/posts/nodejs-to-go)
 
 # C++
 
