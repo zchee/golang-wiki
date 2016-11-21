@@ -31,3 +31,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 
 # PHP
 * [Switching from PHP to Go (read comments section)](https://www.reddit.com/r/golang/comments/3wfnru/switching_from_php_to_go/)
+
+# Perl
+* [Perl to Go]
+(http://tech.tokopedia.com/blog/perl-to-go)
