@@ -80,6 +80,8 @@ Turing Scholars honors thesis
   - https://www.ncbi.nlm.nih.gov/pubmed/26477298
 - Evaluation of performance and productivity metrics of potential programming languages in the HPC environment ( Bachelor Thesis ; Florian Wilkens ) -  ( Go, Rust, C, OpenStreetMap )
  - [github-code](https://github.com/MrFloya/thesis-ba) , [pdf](https://github.com/MrFloya/thesis-ba/raw/master/tex/thesis.pdf)
+- Concurrent Processing of Text Corpus Queries (Rábara, Rychlý)
+  - https://www.sketchengine.co.uk/wp-content/uploads/Concurrent_Processing_2015.pdf
 
 ## 2014
 - PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
