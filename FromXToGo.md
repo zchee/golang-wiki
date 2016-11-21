@@ -5,6 +5,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Rackspace: Making OpenStack-Powered Rackspace Cloud Files Buzz With Hummingbird](https://blog.rackspace.com/making-openstack-powered-rackspace-cloud-files-buzz-with-hummingbird/)
 * [Repustate: From Python to Go: migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
 * [Spacemonkey: Python to Go] (https://www.spacemonkey.com/blog/posts/go-space-monkey)
+* [Why I went from Python to Go (and not node.js)] (http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs)
 
 # Node
 
@@ -12,6 +13,11 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Uber](https://www.infoq.com/articles/podcast-matt-ranney) (audio)
 * [Apex/TJ Holowaychuk](https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b#.3hjxf6pbp)
 * [ScaleDrone](http://blog.scaledrone.com/posts/nodejs-to-go)
+* [From Node.js To Go, Why One Startup Made The Switch](http://thenewstack.io/from-node-js-to-go-why-one-startup-made-the-switch/)
+* [Why did Koding switch from Node.js to Go?](https://www.quora.com/Why-did-Koding-switch-from-Node-js-to-Go)
+* [Letting Go of Node.js](http://blog.davebalmer.com/letting-go-of-node-js/)
+* [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
+* [Interview with Steve Kaliski, CTO of Bowery - The tech stack that powers Bowery, Moving from Node.js to Go lang and more](https://hashnode.com/post/interview-with-steve-kaliski-cto-of-bowery-the-tech-stack-that-powers-bowery-moving-from-nodejs-to-go-lang-and-more-ciibz8dmn001lj3xt468g5k78)
 
 # C++
 
