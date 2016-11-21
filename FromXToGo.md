@@ -24,6 +24,8 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Iron.io: How We Went from 30 Servers to 2: Go](https://www.iron.io/how-we-went-from-30-servers-to-2-go/)
 * [Parse: How We Moved Our API From Ruby to Go and Saved Our Sanity](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
 * [Timehop: Why Timehop Chose Go to Replace Our Rails App](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
+* [Scout App: FROM RUBY TO GO: A REWRITE FOR THE FUTURE](http://blog.scoutapp.com/articles/2014/09/25/from-ruby-to-go-a-rewrite-for-the-future)
+* [Steven Yue: From Ruby's Grape to Martini in Go for Building Web API Server](http://stevenyue.com/blogs/from-rubys-grape-to-martini-in-go-for-building-web-api-server/)
 
 # Java
 
@@ -32,6 +34,10 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 
 # PHP
 * [Switching from PHP to Go (read comments section)](https://www.reddit.com/r/golang/comments/3wfnru/switching_from_php_to_go/)
+* [A Journey into Microservices](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/)
+* [ARDUINO WEB ARCHITECTURE, BACK TO THE FUTURE](https://blog.arduino.cc/2015/04/16/arduino-web-architecture-back-to-the-future/)
+* [Why I switched from PHP to Go](http://codepushr.com/why-i-switched-from-php-to-go/)
+* [Marco switched to GoLang from PHP and Saved Money, why not you ?!](http://phpmagazine.net/2015/02/marco-switched-to-golang-from-php-and-saved-money-why-not-you.html)
 
 # Perl
 * [Perl to Go]
