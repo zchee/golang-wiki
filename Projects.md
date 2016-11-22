@@ -317,6 +317,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [siphash](https://github.com/dchest/siphash) - SipHash: a fast short-input pseudorandom function
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
   * [ssh.go](http://bitbucket.org/taruti/ssh.go) - SSH2 Client library
+  * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys
   * [tiger](https://github.com/cxmcc/tiger) - Tiger cryptographic hashing algorithm
   * [whirlpool](https://github.com/jzelinskie/whirlpool) - whirlpool cryptographic hashing algorithm
 
@@ -871,7 +872,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [colog](https://github.com/comail/colog) - CoLog is a prefix-based leveled execution log for Go
   * [cue](https://github.com/bobziuchkovski/cue) - Fast and flexible contextual logger.  Supports output to file, syslog, structured syslog, stdout/stderr, socket, Loggly, Honeybadger, Opbeat, Rollbar, and Sentry.
-  * [epazote](https://github.com/nbari/epazote) - Automated Microservices Supervisor.
+  * [epazote](https://github.com/epazote/epazote/) - Automated Microservices Supervisor.
   * [factorlog](https://github.com/kdar/factorlog) - Really fast, featureful logging infrastructure (supports colors, verbosity, and many formats)
   * [vlog](https://github.com/better0332/vlog) - Leveled log on std log for Go
   * [glog](https://github.com/golang/glog) - Leveled execution logs for Go
@@ -1580,7 +1581,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard
   * [trinity](https://github.com/cihub/trinity) -  MVC framework
   * [Utron](https://github.com/gernest/utron) - MVC Framework
-  * [VioletEar](https://github.com/nbari/violetear) - HTTP router
+  * [Violetear](https://github.com/nbari/violetear) - HTTP router
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
   * [wfdr](https://github.com/crazy2be/wfdr) - Simple web framework designed for and written in go. Works with other languages as well, but not as well.
   * [xweb](https://github.com/go-xweb/xweb) - A web framework for Go. Just like Struts for Java.
