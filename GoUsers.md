@@ -432,6 +432,7 @@
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
+  * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
   * [President University](http://presuniv.com)
   * [Qasico Teknologi Indonesia](https://qasico.com)
   * [RajaMall Energia Syakha Tech](http://www.lokerindonesia.com/teknologi-informasi/programmer/lowongan-programmer-di-bandung.html)
@@ -442,7 +443,6 @@
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
   * [Tokopedia](http://tokopedia.com)
   * [Zelos](http://zelos.id)
-  * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
 
 ## Iran
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
