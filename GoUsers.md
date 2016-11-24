@@ -326,7 +326,7 @@
   * [Gatherer](http://www.gathererapp.com/)
 
 ## Bangladesh
-  * [Telenor Health](https://www.mytonic.com) USSD server
+  * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
 
 ## Brazil
   * [Beauty Date](http://www.beautydate.com.br)
