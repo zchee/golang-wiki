@@ -424,6 +424,7 @@
 
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
+  * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
   * [Codemi Learning Management System](http://codemi.co.id)
   * [GO-JEK](https://www.go-jek.com)
@@ -436,6 +437,7 @@
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
+  * [Nodeflux](https://www.nodeflux.io/)
   * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
   * [President University](http://presuniv.com)
   * [Qasico Teknologi Indonesia](https://qasico.com)
