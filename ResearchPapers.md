@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Formal verification of concurrency in go (Anuchit Prasertsang, Denduang Pradubsuwun)
+  - [DOI: 10.1109/JCSSE.2016.7748882](http://dx.doi.org/10.1109/JCSSE.2016.7748882)
 - Therapeutic target discovery using Boolean network attractors: updates from kali ( Arnaud Poret ) ( Quantitative Biology > Molecular Networks) 
   - [arXiv:1611.03144v1 q-bio.MN](https://arxiv.org/abs/1611.03144v1)
   - [github.com/arnaudporet/kali](https://github.com/arnaudporet/kali) [Go 100.0%]
