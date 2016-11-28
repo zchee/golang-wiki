@@ -352,6 +352,7 @@
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
+  * [Be-Mobile](http://www.be-mobile.com/)
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
