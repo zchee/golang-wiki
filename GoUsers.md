@@ -409,6 +409,7 @@
   * [Fastah](http://fastah.blackbuck.mobi/)
   * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
+  * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
   * [Josh Software](http://www.joshsoftware.com/)
   * [JusTickets - built with Go](https://www.justickets.in/cities)
