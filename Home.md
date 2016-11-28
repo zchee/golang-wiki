@@ -30,6 +30,7 @@ Table of Contents
   - [Go standard library documentation](https://golang.org/pkg/) to familiarize yourself with the standard library.
   - [Use the Go Playground](http://play.golang.org) to test out Go programs in your browser.
   - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
+  - Read about the companies which have [switched from other languages to Go](https://github.com/golang/go/wiki/FromXToGo).
 
 ##  Working with Go
 
