@@ -89,7 +89,7 @@ Sorted by publication date.
     * ISBN: 978-1484210536
     * Reference: http://www.apress.com/9781484210536
 
-  * **Write webapps in Go without using a framework** (Free e-book)
+* **Write webapps in Go without using a framework** (Free e-book)
     * Author: Suraj Patil
     * Publication Date: October 2016
     * ISBN: NA since book is self published on http://leanpub.com
