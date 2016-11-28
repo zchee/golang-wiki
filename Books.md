@@ -89,6 +89,12 @@ Sorted by publication date.
     * ISBN: 978-1484210536
     * Reference: http://www.apress.com/9781484210536
 
+  * **Write webapps in Go without using a framework** (Free e-book)
+    * Author: Suraj Patil
+    * Publication Date: October 2016
+    * ISBN: NA since book is self published on http://leanpub.com
+    * References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook, https://leanpub.com/antitextbookGo/
+
 * **Learning Go Web Development**
     * Author: Nathan Kozyra
     * Publication Date: April, 2016
@@ -221,11 +227,6 @@ Sorted by publication date.
     * ISBN: ---
     * References: http://www.learngolangthehardway.org/
 
-  * **Web apps in Go, the anti textbook** (e-book)
-    * Author: Suraj Patil
-    * Publication Date: ---
-    * ISBN: ---
-    * References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook
 
 ## Cancelled or Status Indeterminable
 
