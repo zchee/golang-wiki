@@ -539,7 +539,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Other
 
   * [cabinet](https://bitbucket.org/ww/cabinet) - Kyoto Cabinet bindings for go
-  * [camilistore](https://github.com/camlistore/camlistore) - Personal distributed storage system for life.
+  * [camlistore](https://github.com/camlistore/camlistore) - Personal distributed storage system for life.
   * [cass](https://github.com/araddon/cass) - Cassandra Client Lib
   * [cdb.go](https://github.com/jbarham/cdb.go) - Create and read cdb ("constant database") files
   * [go-clickhouse](https://github.com/roistat/go-clickhouse) - Connector to Yandex Clickhouse (column-oriented database)
