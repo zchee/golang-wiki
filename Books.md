@@ -119,6 +119,12 @@ Sorted by publication date.
     * ISBN: 978-1786468949
     * Reference: https://www.packtpub.com/application-development/go-programming-blueprints-second-edition
 
+* **Go Recipes**
+    * Author: Shiju Varghese
+    * Publication Date: November 2016
+    * ISBN: 978-1-4842-1188-5
+    * Reference: http://www.apress.com/us/book/9781484211892
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
