@@ -9,7 +9,7 @@
 | 14                 | iOS 7, iOS 8               | arm, arm64             | Go 1.5        |          |
 | 13                 | OS X Mavericks 10.9        | amd64, 386             | Go 1 _*_      |          |
 | 12                 | OS X Mountain Lion 10.8    | amd64, 386             | Go 1 _*_      |          |
-| 11                 | OS X Lion 10.7             | amd64, 386             | Go 1 _*_      | Go 1.7.3 |
+| 11                 | OS X Lion 10.7             | amd64, 386             | Go 1 _*_      | Go 1.7.4 |
 | 10                 | Mac OS X Snow Leopard 10.6 | amd64, 386             | Go 1          | Go 1.4.3 |
 _*_ Go 1.5 or above is recommended.
 _**_ See https://github.com/golang/go/issues/16570.
