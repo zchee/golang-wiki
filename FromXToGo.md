@@ -50,3 +50,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 # Perl
 * [Perl to Go]
 (http://tech.tokopedia.com/blog/perl-to-go)
+
+# Haskell
+* [Golang’s Real-time GC in Theory and Practice]
+(https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
