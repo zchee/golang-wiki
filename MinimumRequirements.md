@@ -87,3 +87,7 @@ MIPS III or higher in little endian mode. Builders are using Loongson 2E/2F.
 ### s390x
 
 z196+
+
+### mips (big endian) and mipsle (little endian)
+
+MIPS32r1, with FPU or kernel FPU emulation
