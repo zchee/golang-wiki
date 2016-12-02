@@ -8,5 +8,5 @@
 | 4.2 (EOL)           | amd64             | Go 1.3 _*_                  | Go 1.7.4                  |
 | 4.0 (EOL)           | amd64             | Go 1.3 _*_                  | Go 1.7.4                  |
 | 3.8 (EOL)           | amd64             | Go 1.3 _*_                  | Go 1.7.4                  |
-| 3.6 (EOL)           | amd64, 386        | Go 1.3                      | Go 1.4.4                  |
+| 3.6 (EOL)           | amd64, 386        | Go 1.3                      | Go 1.4.3                  |
 _*_ Go 1.5 or above is recommended.
