@@ -24,6 +24,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 
 * [dl.google.com](https://talks.golang.org/2013/oscon-dl.slide#1) by Brad Fitzpatrick
 * [Flywheel: Google's mobile image compression proxy](http://matt-welsh.blogspot.nl/2013/08/rewriting-large-production-system-in-go.html)
+* [Fulfilling a Pikedream: the ups of downs of porting 50k lines of C++ to Go](https://togototo.wordpress.com/2015/03/07/fulfilling-a-pikedream-the-ups-of-downs-of-porting-50k-lines-of-c-to-go/)
 
 # Ruby
 
@@ -35,6 +36,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Steven Yue: From Ruby's Grape to Martini in Go for Building Web API Server](http://stevenyue.com/blogs/from-rubys-grape-to-martini-in-go-for-building-web-api-server/)
 * [Soundcloud: Go at Soundcloud](https://developers.soundcloud.com/blog/go-at-soundcloud)
 * [My impressions of Go](http://blog.bensigelman.org/post/56158760736/golang-impressions)
+* [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
 
 # Java
 * [A journey from C and JAVA to GOLANG](https://rbock44.wordpress.com/2015/03/30/c-java-golang/)
