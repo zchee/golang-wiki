@@ -508,6 +508,9 @@
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
 
+## Moldova
+  * [Emphatic Spark](http://emphaticspark.com/)
+
 ## Morocco
   * [Avito](http://www.avito.ma)
 
