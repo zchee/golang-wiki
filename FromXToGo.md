@@ -34,6 +34,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Scout App: FROM RUBY TO GO: A REWRITE FOR THE FUTURE](http://blog.scoutapp.com/articles/2014/09/25/from-ruby-to-go-a-rewrite-for-the-future)
 * [Steven Yue: From Ruby's Grape to Martini in Go for Building Web API Server](http://stevenyue.com/blogs/from-rubys-grape-to-martini-in-go-for-building-web-api-server/)
 * [Soundcloud: Go at Soundcloud](https://developers.soundcloud.com/blog/go-at-soundcloud)
+* [My impressions of Go](http://blog.bensigelman.org/post/56158760736/golang-impressions)
 
 # Java
 * [A journey from C and JAVA to GOLANG](https://rbock44.wordpress.com/2015/03/30/c-java-golang/)
