@@ -36,6 +36,10 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Soundcloud: Go at Soundcloud](https://developers.soundcloud.com/blog/go-at-soundcloud)
 
 # Java
+* [A journey from C and JAVA to GOLANG](https://rbock44.wordpress.com/2015/03/30/c-java-golang/)
+
+# .NET
+* [Why I Left the .NET Framework](http://blog.jonathanoliver.com/why-i-left-dot-net/)
 
 # Scala
 * [CrowdStrike: Moving a Team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
