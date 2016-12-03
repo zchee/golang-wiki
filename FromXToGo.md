@@ -38,6 +38,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 
 # Java
 * [A journey from C and JAVA to GOLANG](https://rbock44.wordpress.com/2015/03/30/c-java-golang/)
+* [Why one developer switched from Java to Google Go](http://www.javaworld.com/article/2459212/scripting-jvm-languages/why-one-developer-switched-from-java-to-google-go.html)
 
 # .NET
 * [Why I Left the .NET Framework](http://blog.jonathanoliver.com/why-i-left-dot-net/)
