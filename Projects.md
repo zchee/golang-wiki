@@ -187,6 +187,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gister](https://github.com/dutchcoders/gister) - Manage your github gists from the command-line
   * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
+  * [godocdoc](https://github.com/kevinburke/godocdoc) - Start godoc and open it in your browser to the project in the current directory.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
   * [GoNote](https://github.com/exaroth/gonote) - Command line SimpleNote client.
@@ -821,6 +822,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tag](https://github.com/dhowden/tag) - a library for reading tag metadata and creating metadata-invariant checksums for audio files: FLAC, all IDv3 variants, and MP4 (ACC, ALAC)
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
   * [tiff](https://github.com/chai2010/tiff) - Rich TIFF/BigTIFF/GeoTIFF decoder/encoder for Go.
+  * [twilio-go](https://github.com/kevinburke/twilio-go) - Go client for the Twilio API.
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
   * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
   * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
@@ -1102,6 +1104,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
+  * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
 
 ### IMAP
   * [go-imap](https://github.com/martine/go-imap) - IMAP client library
@@ -1509,6 +1512,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
   * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
   * [Freyr](https://github.com/serdmanczyk/Freyr) - Server for storing and serving readings from plant environment sensors.  Integrates Golang API with ReactJS web app; uses Docker for testing/deployment.
+  * [Rickover](https://github.com/Shyp/rickover) - Job queue with a HTTP API, backed by Postgres
 
 ## Web Libraries
 
