@@ -16,7 +16,10 @@ Go is a great language for CS majors. This page presents some university courses
 # Web
 
   * CS 4830: Science and Engineering of the WWW taught by Ryanne Dolan at University of Missouri: http://4830.ryannedolan.info/
-
+  * CSCI 130: Web Programming taught by Todd McLeod at California Statue University Fresno
+  * CSCI 194: Adv. Web Programming taught by Todd McLeod at California Statue University Fresno
+  * CIT 90: Data Drive Websites taught by Todd McLeod at Fresno City College
+  * CIT 94: Server Side Scripting taught by Todd McLeod at Fresno City College
 
 # Concurrency
 
