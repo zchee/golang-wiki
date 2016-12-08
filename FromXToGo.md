@@ -45,9 +45,6 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 # .NET
 * [Why I Left the .NET Framework](http://blog.jonathanoliver.com/why-i-left-dot-net/)
 
-# Scala
-* [CrowdStrike: Moving a Team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
-
 # PHP
 * [Switching from PHP to Go (read comments section)](https://www.reddit.com/r/golang/comments/3wfnru/switching_from_php_to_go/)
 * [A Journey into Microservices](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/)
