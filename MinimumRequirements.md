@@ -28,7 +28,7 @@ OS X 10.6 (Snow Leopard) is explicitly unsupported. See https://github.com/golan
 
 ### OpenBSD
 
-The current officially supported -stable versions only.
+The current officially supported -stable versions only. See https://golang.org/wiki/OpenBSD for details.
 
 ### DragonFly
 
