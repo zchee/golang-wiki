@@ -491,6 +491,7 @@
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
 
 ## Japan
+  * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [eureka](https://eure.jp)
 
 ## Kazakhstan
