@@ -385,6 +385,7 @@
   * [Rive](http://app.rive.world)
   * [Batch.com](https://batch.com)
   * [IRI France](http://www.iri-labs.com)
+  * [Teads.tv](http://teads.tv/)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
