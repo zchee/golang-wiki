@@ -1201,7 +1201,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
   * [HomeControl](https://github.com/brutella/hc) - an implementation of Apple's HomeKit Accessory Protocol (HAP)
   * [Hprose](https://github.com/hprose/hprose-go) - Hprose is a High Performance Remote Object Service Engine.
-  * [httpfstream](https://sourcegraph.com/github.com/sourcegraph/httpfstream/tree) - streaming append and follow of HTTP resources (using WebSockets)
+  * [httpfstream](https://github.com/sourcegraph/httpfstream) - streaming append and follow of HTTP resources (using WebSockets)
   * [ipaddress](https://github.com/llimllib/ipaddress) - Convenient ip address functions: ip -> int, int -> ip, and IPNet broadcast address
   * [iris-go](https://github.com/karalabe/iris-go) - Go binding for the Iris decentralized messaging framework.
   * [iris](http://iris.karalabe.com) - Peer-to-peer messaging for back-end decentralization.
