@@ -9,10 +9,12 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](http://www.youtube.com/watch?v=XCsL89YtqCs)]
 
 
+
   * **Go for Web Development [Video]**
     * Author: Larry Price
     * Publication Date: December 29, 2015
     * ISBN:978-1784397982
+
 [[video](https://www.packtpub.com/web-development/go-web-development-video/)]
 
  
@@ -20,6 +22,7 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Authors: Nathan Kozyra, Mat Ryer
     * Publication Date: August 2016
     * ISBN:978-1787123496
+
 [[Course](https://www.packtpub.com/application-development/go-building-web-applications)]
 
 
@@ -27,6 +30,7 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Author: Eduonix
     * Publication Date: September 23, 2016
     * ISBN:978-1787128385
+
 [[video](https://www.packtpub.com/application-development/go-programming-language-guide-code-pro-video)]
 
 
@@ -34,4 +38,5 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Authors: Ben Tranter & Rostislav Dzinko
     * Publication Date: November 14, 2016
     * ISBN:978-1786460103
+
 [[video](https://www.packtpub.com/application-development/go-projects-video)]
