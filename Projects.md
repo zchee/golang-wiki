@@ -1214,6 +1214,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [netsnail](https://github.com/purex01/netsnail) - A low-bandwidth simulator
   * [netutils](https://github.com/timtadh/netutils) - Simple interface for turning TCP Sockets into channels.
   * [npipe](https://github.com/natefinch/npipe) - a pure Go wrapper for Windows named pipes
+  * [norm](https://github.com/aletheia7/norm) - reliable UDP using multicast and unicast sockets
   * [opendap](https://github.com/mqu/openldap) - Go wrapper for Openldap
   * [pusher-http-go](https://github.com/pusher/pusher-http-go) - Go library for interacting with the Pusher Realtime API
   * [QRP](https://github.com/liamzebedee/go-qrp) - QRP is a simple packet-based RPC protocol designed as a simple alternative to Go's rpc, that can run over UDP
