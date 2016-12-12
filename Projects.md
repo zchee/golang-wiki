@@ -1285,6 +1285,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-galib](https://github.com/thoj/go-galib) - a library of Genetic Algorithms
   * [go-intset](https://github.com/phf/go-intset) - a library to work with bounded sets of integers, including multiple alternative implementations
   * [go-parse](https://github.com/vito/go-parse) - a Parsec-like parsing library
+  * [sh](https://github.com/mvdan/sh) - a shell/bash parser and formatter
   * [Shuffle](https://github.com/earthboundkid/shuffle) - Implementation of the Fisher–Yates shuffle (or Knuth shuffle) in Go.
 
 ## Resource Embedding
@@ -1403,6 +1404,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
   * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
+  * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 ## Testing
 
