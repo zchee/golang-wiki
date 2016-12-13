@@ -1,5 +1,7 @@
 # Building windows go programs on linux
 
+See [here](https://golang.org/doc/install/source#environment) for available `GOOS` and `GOARCH` values.
+
 ## Go version >= 1.5
 
 Since Go version 1.5 cross-compiling has become very easy. Try it out with the code below. More can be found at this blog post by [Dave Cheney][1].
