@@ -9,7 +9,6 @@ This page lists academic and industry research papers about Go or using Go as th
   - [arXiv:1611.03144v1 q-bio.MN](https://arxiv.org/abs/1611.03144v1)
   - [github.com/arnaudporet/kali](https://github.com/arnaudporet/kali) [Go 100.0%]
 - Information Flow Analysis for Go ( Eric Bodden, Ka I. Pun, Martin Steffen, Volker Stolz, Anna-Katharina Wickert)
-  - [pdf](https://heim.ifi.uio.no/msteffen/download/16/flowanalysisgo.pdf)
   - [10.1007/978-3-319-47166-2_30](http://link.springer.com/chapter/10.1007/978-3-319-47166-2_30) 
 - A Productivity Checker for Logic Programming (E. Komendantskaya, P. Johann, M. Schmidt )
   - [arXiv:1608.04415 cs.PL](https://arxiv.org/abs/1608.04415) 
@@ -45,7 +44,6 @@ Turing Scholars honors thesis
   - [code](https://github.com/nickng/dingo-hunter)
 - A Small-Step Semantics of a Concurrent Calculus with Goroutines and Deferred Functions ( Martin Steffen )
   - [springer link] (http://link.springer.com/chapter/10.1007%2F978-3-319-30734-3_26)
-  - [pdf] (https://heim.ifi.uio.no/msteffen/download/16/semantics-goroutinesdefer.pdf)
 - Butterfield, Ellis H., "Fog Computing with Go: A Comparative Study" (2016). CMC Senior Theses. Paper 1348.
   - http://scholarship.claremont.edu/cmc_theses/1348
 - An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style (Harshal Sheth, Aashish Welling) 
