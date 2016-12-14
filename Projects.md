@@ -140,6 +140,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [YBC bindings](https://github.com/valyala/ybc/tree/master/bindings/go/ybc) - Bindings for YBC library providing API for fast in-process blob cache
 
 ## Cloud Computing
+
   * [Docker](http://docker.io) - The Linux container runtime. Developed by dotCloud.
   * [Enduro/X ASG] (https://github.com/endurox-dev/endurox-go) Application Server for Go. Provides application server and middleware facilities for distributed transaction processing. Supports microservices based application architecture. Developed by ATR Baltic.
   * [Kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
@@ -667,6 +668,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client including a built-in mail queue backed by on-disk storage.
   * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
+  * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
   * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
   * [Gomail](https://github.com/go-gomail/gomail) - A simple and efficient package to send emails.
   * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
