@@ -1645,6 +1645,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [SocialSharesCount](https://github.com/gssumesh/socialsharescount) - Wrapper API on multiple social websites to get URL share statistics
   * [twilio](https://github.com/subosito/twilio) - Simple Twilio API wrapper
   * [twittergo](https://github.com/kurrik/twittergo) - Client library for Twitter's API
+  * [cloudcomb-go-sdk](https://github.com/bingohuang/cloudcomb-go-sdk) - Go client library for  [CloudComb](http://c.163.com)
 
 ### Other
 
