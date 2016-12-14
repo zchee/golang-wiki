@@ -668,7 +668,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client including a built-in mail queue backed by on-disk storage.
   * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
-  * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
   * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
   * [Gomail](https://github.com/go-gomail/gomail) - A simple and efficient package to send emails.
   * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
@@ -1109,6 +1108,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
 
 ### IMAP
+  * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
   * [go-imap](https://github.com/martine/go-imap) - IMAP client library
   * [go-imap](https://github.com/mxk/go-imap) - Implementation of IMAP4rev1 client, as described in RFC 3501
 
