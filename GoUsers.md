@@ -379,6 +379,9 @@
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
 
+## Denmark
+  * [SYBO Games](http://sybogames.com)
+
 ## France
   * [Digikong](http://digikong.io)
   * [Objenious](http://www.objenious.com)
