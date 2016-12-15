@@ -349,6 +349,7 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Planrockr](http://planrockr.com)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
+  * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
