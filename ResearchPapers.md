@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Scalable Byzantine Consensus via Hardware-assisted Secret Sharing (Jian Liu, Wenting Li, Ghassan O. Karame, N. Asokan) 
+ - [arXiv:1612.04997 cs.CR](https://arxiv.org/abs/1612.04997) ;   _"... Our implementation is based on Golang ..."_  ; [pdf](https://arxiv.org/pdf/1612.04997v1.pdf) 
 - Fast and Reliable Byzantine Fault Tolerance (Eric Scott Freeman) Master's thesis in Computer science
  - [link](http://hdl.handle.net/11250/2413908), [pdf]( https://brage.bibsys.no/xmlui/bitstream/handle/11250/2413908/Freeman_Eric.pdf?sequence=1)
 - Formal verification of concurrency in go (Anuchit Prasertsang, Denduang Pradubsuwun)
