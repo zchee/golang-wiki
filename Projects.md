@@ -570,6 +570,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [neoism](https://github.com/jmcvetta/neoism) - Neo4j graph database client, including Cypher and Transactions support.
   * [null](https://github.com/guregu/null) - Package for handling null values in SQL
   * [Optimus Cache Prime](http://patrickmylund.com/projects/ocp/) - Smart cache preloader for websites with XML sitemaps.
+  * [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
   * [pravasan](https://pravasan.github.io/pravasan) - Simple Migration Tool (like rake db:migrate with more flexibility)
   * [riako](https://github.com/jkassemi/riako) - High level utility methods for interacting with Riak databases
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
