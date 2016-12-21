@@ -223,6 +223,7 @@
   * [RapidLoop](https://www.rapidloop.com/) - [product](https://www.opsdash.com/)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
+  * [Reddit](https://reddit.com) - [AMA post](https://www.reddit.com/r/sysadmin/comments/3h0o7u/were_reddits_ops_team_aua/cu3f88n/)
   * [ReelDx](https://reeldx.com/) - [medvid.io](https://medvid.io), [twitter](https://twitter.com/andrewreeldx)
   * [Remember The Milk](https://www.rememberthemilk.com/)
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
