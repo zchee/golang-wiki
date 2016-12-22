@@ -1,6 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 
 ## 2016
+- Cyber Security Exercise Modeling & Tracking (Joonas Greis) Bachelor’s thesis
+ - [pdf](https://www.theseus.fi/bitstream/handle/10024/120054/Thesis_rellu.pdf) _"... RESTful API was written with Golang using Go-Json-Rest package ..."_
 - Scalable Byzantine Consensus via Hardware-assisted Secret Sharing (Jian Liu, Wenting Li, Ghassan O. Karame, N. Asokan) 
  - [arXiv:1612.04997 cs.CR](https://arxiv.org/abs/1612.04997) ;   _"... Our implementation is based on Golang ..."_  ; [pdf](https://arxiv.org/pdf/1612.04997v1.pdf) 
 - Fast and Reliable Byzantine Fault Tolerance (Eric Scott Freeman) Master's thesis in Computer science
