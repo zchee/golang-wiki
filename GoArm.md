@@ -1,6 +1,6 @@
 # Introduction
 
-Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, and NetBSD.
+Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, OpenBSD and NetBSD.
 
 # Supported architectures
 
@@ -20,7 +20,7 @@ Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile 
 
 * ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
 * ARM on Darwin.
-* ARM on FreeBSD and OpenBSD.
+* ARM on FreeBSD and OpenBSD, NetBSD: ARMv6K or above is required.
 
 # Recommended Go version
 
