@@ -234,6 +234,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
   * [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
   * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool.
+  * [worker](https://github.com/duzy/worker) - An easy and lightweight concurrent job framework.
 
 ## Configuration File Parsers
 
