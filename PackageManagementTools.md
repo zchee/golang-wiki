@@ -17,7 +17,7 @@ Tools supporting this feature include:
  * [vexp](https://github.com/kr/vexp)
  * [gv](https://github.com/forestgiant/gv)
  * [gvt](https://github.com/FiloSottile/gvt) - Recursively retrieve and vendor packages.
- * [govend](https://github.com/govend/govend)
+ * [govend](https://github.com/govend/govend) - Manage dependencies like `go get` but for `/vendor`.  
  * [Glide](https://github.com/Masterminds/glide) - Manage packages like composer, npm, bundler, or other languages.
  * [Vendetta](https://github.com/dpw/vendetta)
  * [trash](https://github.com/rancher/trash)
