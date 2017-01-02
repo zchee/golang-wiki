@@ -509,6 +509,7 @@
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Souzoh](https://www.souzoh.com/jp/)
       * [メルカリ アッテ](https://www.mercariatte.com/jp/)
+  * [Kayac](https://www.kayac.com/) - [github](https://github.com/kayac)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
