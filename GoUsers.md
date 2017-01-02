@@ -502,6 +502,7 @@
 ## Japan
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [eureka](https://eure.jp)
+  * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [HDE Inc](https://www.hde.co.jp/en/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
