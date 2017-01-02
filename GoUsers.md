@@ -502,6 +502,7 @@
 ## Japan
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [eureka](https://eure.jp)
+  * [HDE Inc](https://www.hde.co.jp/en/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
