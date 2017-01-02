@@ -503,6 +503,8 @@
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [eureka](https://eure.jp)
   * [HDE Inc](https://www.hde.co.jp/en/)
+  * [Hatena](http://hatenacorp.jp/)
+      * [Mackerel](https://mackerel.io) Monitoring as a Service - [github](https://github.com/mackerelio)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
