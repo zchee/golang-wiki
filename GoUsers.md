@@ -509,6 +509,8 @@
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
+  * [Preferred Networks](https://www.preferred-networks.jp/en/)
+      * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
   * [Sakura Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
       * [Sakura IoT Platform β](https://iot.sakura.ad.jp/)
