@@ -506,6 +506,7 @@
   * [HDE Inc](https://www.hde.co.jp/en/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
+  * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Sakura Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
@@ -513,7 +514,6 @@
       * [Sakura IoT Platform β](https://iot.sakura.ad.jp/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [メルカリ アッテ](https://www.mercariatte.com/jp/)
-  * [Kayac](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
 
 ## Kazakhstan
