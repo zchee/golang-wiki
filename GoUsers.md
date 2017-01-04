@@ -516,7 +516,7 @@
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
       * [Sakura IoT Platform β](https://iot.sakura.ad.jp/)
   * [Souzoh](https://www.souzoh.com/jp/)
-      * [メルカリ アッテ](https://www.mercariatte.com/jp/)
+      * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
 
 ## Kazakhstan
