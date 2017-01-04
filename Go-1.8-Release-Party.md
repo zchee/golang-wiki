@@ -32,7 +32,7 @@ We have a channel for the [release party](https://gophers.slack.com/messages/go-
 We have set up a [mailing list for meetup organisers](https://groups.google.com/forum/#!forum/go-meetup-organisers) to ask questions.
 
 ### What happens in a release party?
-As with the previous [Go 1.6](https://github.com/golang/go/wiki/Go-1.8-release-party) and Go 1.7 release parties, this is a great opportunity to spread the word about the improvements landing 1.8, and the plans for the 1.9 development cycle.
+As with the previous [Go 1.6](https://github.com/golang/go/wiki/Go-1.6-release-party) and Go 1.7 release parties, this is a great opportunity to spread the word about the improvements landing 1.8, and the plans for the 1.9 development cycle.
 
 #### Resources
 
