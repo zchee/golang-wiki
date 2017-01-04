@@ -518,6 +518,7 @@
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
+  * [Intelligence](http://www.inte.co.jp/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
