@@ -14,7 +14,8 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
-- Nobody so far, be the first to add your meetup page.
+
+- Halifax, Nova Scotia, Canada: Feb 16 7pm at Volta Labs. Contact [@danp](https://twitter.com/danp128) for more info.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
