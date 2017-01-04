@@ -520,7 +520,7 @@
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
-      * [CLOUDSIGN](https://www.cloudsign.jp/)
+      * [CloudSign](https://www.cloudsign.jp/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
