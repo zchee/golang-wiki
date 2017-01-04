@@ -36,7 +36,7 @@ As with the previous [Go 1.6](https://github.com/golang/go/wiki/Go-1.8-release-p
 
 #### Resources
 
-*LINK TO SLIDE DECK WHEN AVAILABLE*
+A sample slide deck that you can use is [available here](https://talks.godoc.org/github.com/davecheney/go-1.8-release-party/presentation.slide#1) ([source](https://github.com/davecheney/go-1.8-release-party))
 
 _Please send PR's with corrections/additions_
 
