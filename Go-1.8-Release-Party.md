@@ -60,7 +60,7 @@ Well, if you run a Go meetup, you are. It can't be a worldwide release party wit
 #### No, seriously, who's organising this?
 Here are the organisers so far:
 - [Dave Cheney](mailto://dave@cheney.net) - @davecheney
-- [João Henrique Machado Silva](mailto://joaoh82@gmail.com) - @joaoh82
+- [João Henrique Machado Silva](mailto://joaoh82@gmail.com) - [@joaoh82](https://twitter.com/joaoh82)
 
 _Want to help? Edit this page and add yourself_
 
