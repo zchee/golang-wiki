@@ -25,3 +25,9 @@ Rejected, see discussion in https://github.com/golang/go/issues/17058
 ### Add vet warning for unused function arguments
 
 Rejected, see https://github.com/golang/go/issues/7892#issuecomment-66094282
+
+### Make go get more verbose / add a progress bar
+
+Rejected, see
+https://github.com/golang/go/issues/17959
+https://github.com/golang/go/issues/18388#issuecomment-268315634
