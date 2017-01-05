@@ -18,3 +18,10 @@ See https://github.com/golang/go/issues/11344#issuecomment-117862884
 
 TODO
 
+### Add mechanism to silence vet warnings
+
+Rejected, see discussion in https://github.com/golang/go/issues/17058
+
+### Add vet warning for unused function arguments
+
+Rejected, see https://github.com/golang/go/issues/7892#issuecomment-66094282
