@@ -521,6 +521,8 @@
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
+  * [HEARTBEATS](https://heartbeats.jp/)
+      * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
