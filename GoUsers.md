@@ -501,6 +501,7 @@
 
 ## Japan
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
+  * [DeNA Co.,Ltd.](https://dena.com)
   * [eureka](https://eure.jp)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [HDE Inc](https://www.hde.co.jp/en/)
