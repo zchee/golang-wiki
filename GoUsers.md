@@ -162,6 +162,7 @@
   * [Leader](http://leader.io)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
+  * [LINE](https://linecorp.com/)
   * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
   * [LogPacker](https://logpacker.com/) - [website](https://logpacker.com)
   * [Lovoo](https://lovoo.com/) - [github](https://github.com/lovoo)
