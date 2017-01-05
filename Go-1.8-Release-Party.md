@@ -15,6 +15,7 @@ Don't forget to add your meetup's details :point_down: right here.
 #### Who's involved?
 Here is a list of the groups who are participating.
 
+- Washington DC: Feb 16 7pm at MakeOffices Dupont. View the [meetup](https://www.meetup.com/Golang-DC/events/236696696/) for details.
 - Halifax, Nova Scotia, Canada: Feb 16 7pm at Volta Labs. Contact [@danp](https://twitter.com/danp128) for more info.
 - Belo Horizonte, MG, Brazil: Feb 16 7pm at The Plant. Contact [@joaoh82](https://twitter.com/joaoh82) for more info or go to [Go Belo Horizonte](https://www.meetup.com/go-belo-horizonte/)
 - [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at TBD, see [event page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
