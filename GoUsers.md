@@ -236,6 +236,7 @@
   * [Riot Games](http://www.riotgames.com/) - [talk](https://www.youtube.com/watch?v=2s5l9ErNL3s)
   * [Room for More](https://roomformore.com)
   * [Rounds](http://www.rounds.com) - [blog](http://www.rounds.com/blog/joys-affordable-concurrency/)
+  * [RueBaRue](http://www.ruebarue.com)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
   * [Sagan Systems](http://sagansystems.com/) - [HN](https://news.ycombinator.com/item?id=10659830)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
