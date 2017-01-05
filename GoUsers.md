@@ -162,7 +162,6 @@
   * [Leader](http://leader.io)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
-  * [LINE](https://linecorp.com/)
   * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
   * [LogPacker](https://logpacker.com/) - [website](https://logpacker.com)
   * [Lovoo](https://lovoo.com/) - [github](https://github.com/lovoo)
@@ -509,6 +508,7 @@
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
   * [Intelligence](http://www.inte.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
+  * [LINE](https://linecorp.com/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
