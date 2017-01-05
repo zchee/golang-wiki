@@ -23,6 +23,7 @@ Here is a list of the groups who are participating.
 - Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
 - PDXGo: Feb 16 6:30 pm at ESRI. View the [meetup](https://www.meetup.com/PDX-Go/events/236702058/) for details.
 - [@DenverGophers](https://twitter.com/DenverGophers) Feb 16 6:00pm at Comcast Viper. View the [meetup](http://bit.ly/denver-1-8-release-party) or contact [@apriendeau](https://twitter.com/apriendeau) for more info.
+- [@MinneapolisGo](https://twitter.com/MinneapolisGo) Feb 16 6:00pm at Agosta. View the [meetup](https://www.meetup.com/Minneapolis-Ultimate-Golang/events/236698705/) or contact [@corylanou](https://twitter.com/corylanou) for more info.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
