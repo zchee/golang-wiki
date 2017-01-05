@@ -17,7 +17,7 @@ Here is a list of the groups who are participating.
 
 - Halifax, Nova Scotia, Canada: Feb 16 7pm at Volta Labs. Contact [@danp](https://twitter.com/danp128) for more info.
 - Belo Horizonte, MG, Brazil: Feb 16 7pm at The Plant. Contact [@joaoh82](https://twitter.com/joaoh82) for more info or go to [Go Belo Horizonte](https://www.meetup.com/go-belo-horizonte/)
-- Golang Paris, France, Feb 16 7pm at TBD, see [event page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
+- [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at TBD, see [event page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
 
