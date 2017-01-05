@@ -21,6 +21,7 @@ Here is a list of the groups who are participating.
 - [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at TBD, see [event page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
+- PDXGo: Fed 16 6:30 pm at ESRI. View the [meetup](https://www.meetup.com/PDX-Go/events/236702058/) for details.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
