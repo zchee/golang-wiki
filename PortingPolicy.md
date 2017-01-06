@@ -40,6 +40,17 @@ A first class port has these properties:
 
 Graduating a port to "first class" is at the discretion of the Go team at Google.
 
+The current first class ports are:
+
+* linux/amd64
+* linux/386
+* linux/arm
+* darwin/amd64
+* windows/amd64
+* windows/386
+
+We distribute binaries for other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
+
 # Removing a port
 
 If a builder for a particular port starts failing, the code should be corrected as soon as possible; otherwise future regressions cannot be detected, and the amount of work required to bring the builder back to "ok" compounds.
