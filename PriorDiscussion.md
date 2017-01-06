@@ -18,6 +18,11 @@ See https://github.com/golang/go/issues/11344#issuecomment-117862884
 
 TODO
 
+### Add explicit int-to-bool conversions
+
+Rejected, see 
+https://github.com/golang/go/issues/9367#issuecomment-143128337
+
 ### Add mechanism to silence vet warnings
 
 Rejected, see discussion in https://github.com/golang/go/issues/17058
@@ -41,3 +46,4 @@ https://github.com/golang/go/issues/16225
 
 Rejected, see
 https://github.com/golang/go/issues/15507
+
