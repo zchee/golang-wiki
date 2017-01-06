@@ -1,4 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
+## 2017
+- Fencing off Go: Liveness and Safety for Channel-based Programming (J. Lange, N. Ng, B. Toninho, N. Yoshida), POPL 2017
+  - [doi: 10.1145/3009837.3009847](http://dl.acm.org/citation.cfm?id=3009847)
+  - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
 
 ## 2016
 - Cyber Security Exercise Modeling & Tracking (Joonas Greis) Bachelor’s thesis
