@@ -91,3 +91,19 @@ make
 
 **Drawback** of this issue is that it seems incompatible to cgo, so only use it when you don't
 use cgo, at least for now. I (minux) is working on figuring out why they're incompatible.
+
+# Including build information in the executable
+
+The gc toolchain linker, [cmd/link](https://golang.org/cmd/link), provides a `-X` option that may be used to record arbitrary information in a Go string variable at link time. The format is `-X importpath.name=val`.  Here `importpath` is the name used in an import statement for the package (or `main` for the main package), `name` is the name of the string variable defined in the package, and `val` is the string you want to set that variable to. When using the go tool, use its `-ldflags` option to pass the `-X` option to the linker.
+
+Let's suppose this file is part of the package `company/buildinfo`:
+
+```
+package buildinfo
+
+var BuildTime string
+```
+
+You can build the program using this package using `go build -ldflags="-X 'company/buildinfo=$(date)'"` to record the build time in the string.  (The use of `$(date)` assumes you are using a Unix-style shell.)
+
+The string variable must exist, and it must be a variable, not a constant.  There is no warning for using the wrong name in the `-X` option.  You can often find the name to use by running `go tool nm` on the program, but that will fail if the package name has any non-ASCII characters, or a `"` or `%` character.
