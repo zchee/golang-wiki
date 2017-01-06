@@ -25,3 +25,10 @@ Find bugs that are in state WaitingForReply (https://github.com/golang/go/labels
 
 Review the format of commit messages and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
 
+## Pending CLs: ask about tests
+
+If a new CL arrives without a test, but could/should have a test, ask if they could add a test. Or suggest how.
+
+## Pending CLs: run TryBots
+
+If you have access (see https://golang.org/wiki/GerritAccess) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
