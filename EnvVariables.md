@@ -15,9 +15,21 @@ Edit your `.bash_profile` to add the following line:
 export GOPATH=$HOME/work
 ```
 
-Then, source your `~/.bash_profile`.
+Save and exit your editor. Then, source your `~/.bash_profile`.
 ```bash
 $ source ~/.bash_profile
+```
+
+### Zsh
+
+Edit `~/.zshrc` file to add the following line:
+
+```bash
+export GOPATH=$HOME/work
+```
+Save and exit your editor. Then, source your `~/.zshrc`.
+```bash
+$ source ~/.zshrc
 ```
 
 ### Windows
