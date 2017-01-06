@@ -2,6 +2,8 @@
 
 There are two types of Gerrit access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Gerrit code review process for some time before requesting access.
 
+(For Github access, see https://golang.org/wiki/GithubAccess)
+
 ## Approver Access ("approvers")
 
 Approver access gives you power to +2 CLs and submit them. Only +2 things that you're very confident in, and generally only in a directory (or package) that you normally "own", unless it's trivial and obviously correct.
