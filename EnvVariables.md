@@ -34,5 +34,4 @@ but we'll use `C:\work` in this example.
 * Type `C:\work` into the "Variable value" field.
 * Click OK.
 
-## Setting PATH
 
