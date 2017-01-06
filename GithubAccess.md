@@ -21,3 +21,7 @@ Please do not edit any field you're not confident about. Feel free to ask for se
 ## Requesting Access
 
 To request either of the access types above, email bradfitz (at golang) and state which access you want (its URL), and state your Github username.
+
+## Once you have access
+
+Go help garden! See See https://golang.org/wiki/Gardening.
