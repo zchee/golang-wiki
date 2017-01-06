@@ -2,6 +2,8 @@
 
 This page contains guides to set Go related environment variables on various operating systems.
 
+**Note:** Please do not delete/rename titles as they could have been linked from the Go documentation and tools.
+
 ## GOPATH
 
 ### Unix systems
