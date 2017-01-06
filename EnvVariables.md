@@ -20,7 +20,7 @@ Save and exit your editor. Then, source your `~/.bash_profile`.
 $ source ~/.bash_profile
 ```
 
-### Zsh
+#### Zsh
 
 Edit `~/.zshrc` file to add the following line:
 
