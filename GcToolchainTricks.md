@@ -1,20 +1,16 @@
-_**Update: the Plan 9 C compilers are going away in future releases of Go (scheduled in Go 1.5), so some of the tricks below that use them are deprecated.**_
-
 # Introduction
 This page documents some less well-known (perhaps advanced) tricks for the ` gc ` toolchain (and the Go tool).
 
 # C code without ` cgo `
-### Use the bundled Plan 9 C Compiler ` 6c `
-Dave Cheney has written an excellent blog post about this: http://dave.cheney.net/2013/09/07/how-to-include-c-code-in-your-go-package
 
 ### Use ` syso ` file to embed arbitrary self-contained C code
 Basically, you write your assembly language in GNU as(1) format, but make sure
-all the interface functions are using Go's ABI (everything on stack, etc., please read [Go 1.2 Assembler Introduction](http://golang.org/doc/asm) for more details).
+all the interface functions are using Go's ABI (everything on stack, etc., please read [Go 1.2 Assembler Introduction](https://golang.org/doc/asm) for more details).
 
 The most important step is compiling that file to file.syso (` gcc -c -O3 -o file.syso file.S `),
 and put the resulting syso in the package source directory.
 And then, suppose your assembly function is named Func, you need one stub
-Plan 9 assembly file to call it:
+[cmd/asm](https://golang.org/cmd/asm) assembly file to call it:
 ```
 TEXT ·Func(SB),$0-8 // please set the correct parameter size (8) here
 	JMP Func(SB)
