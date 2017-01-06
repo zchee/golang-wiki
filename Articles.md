@@ -34,8 +34,8 @@ Table of Contents
 
 
 ## General
-
-  * [Go tooling essentials](https://rakyll.org/go-tool-flags/) _2016_09_25_
+  * [Debugging code generation in Go](https://rakyll.org/codegen/) _2016-10-15_
+  * [Go tooling essentials](https://rakyll.org/go-tool-flags/) _2016-09-25_
   * [Go from PHP engineer's perspective](http://sobit.me/2016/02/25/go-from-php-engineers-perspective/) _2016-02-25_
   * [Go Proverbs, Illustrated](http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/) _2015-12-04_
   * [A whirlwind tour of Go’s runtime environment variables](http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables) _2015-11-29_
@@ -59,6 +59,7 @@ Table of Contents
 
 ## Concurrency / Channels
 
+  * [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/) _2016-10-25_
   * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
   * [Very basic concurrency for beginners in Go](https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.n831uhdiq) _2015-11-18_
   * [Exploting Powerful Cloud Services with Go](https://medium.com/@sathishvj/exploiting-your-powerful-cloud-servers-with-go-lang-s-concurrency-eae5f4c7526) _2015-10-11_
@@ -82,9 +83,10 @@ Table of Contents
   * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
 
 ## Cross Platform Development
-
   * [Releasing cross-platform Go binaries using Goxc and BinTray in 5 minutes](http://jbu.io/2015/11/29/releasing-cross-platform-go-binaries-using-goxc-and-bintray-in-5-minutes/) _2015-11-29_
+  * [Calling Go from Swift](https://rakyll.org/swift/) _2015-10-3_
   * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
+  * [Go cross compilation](https://rakyll.org/cross-compilation/) _2015-09-8_
 
 ## Error Handling
 
