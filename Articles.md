@@ -117,7 +117,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
 
 ## Performance and Profiling
-
+  * [Mutex profile](https://rakyll.org/mutexprofile/) _2016-12-19_
   * [How to Optimize Garbage Collection in Go](http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/) _2015-11-23_
   * [Golang Escape Analysis](http://www.agardner.me/golang/garbage/collection/gc/escape/analysis/2015/10/18/go-escape-analysis.html) _2015-10-18_
   * [A Pattern for Optimizing Go](http://blog.signalfx.com/a-pattern-for-optimizing-go) _2015-09-24_
