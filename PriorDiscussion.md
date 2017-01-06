@@ -36,3 +36,8 @@ https://github.com/golang/go/issues/18388#issuecomment-268315634
 
 Rejected, see
 https://github.com/golang/go/issues/16225
+
+### Support symlinks in go toolchain / environment variables
+
+Rejected, see
+https://github.com/golang/go/issues/15507
