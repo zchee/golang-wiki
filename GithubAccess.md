@@ -2,6 +2,8 @@
 
 There are two types of Github access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Github & Gerrit review process for some time before requesting access. See https://golang.org/wiki/Gardening.
 
+(For Gerrit access, see https://golang.org/wiki/GerritAccess)
+
 ## Assignees
 
 The "go-assignees" group is a read-only group granting no special access, other than it allows the users inthe group to be assigned issues.
