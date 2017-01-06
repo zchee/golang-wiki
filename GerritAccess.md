@@ -19,3 +19,7 @@ To request this access, reference https://go-review.googlesource.com/#/admin/gro
 # Requesting Access
 
 To get request either of the access types above, email bradfitz (at golang) and state which access you want (its name and group URL), and state your Gerrit email address.
+
+## Once you have access
+
+Go help garden! See See https://golang.org/wiki/Gardening.
