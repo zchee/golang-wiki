@@ -1,6 +1,6 @@
 # Environment Variables
 
-This page contains guides to set Go environment variables on various operating systems.
+This page contains guides to set Go related environment variables on various operating systems.
 
 ## GOPATH
 
