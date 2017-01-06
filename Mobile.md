@@ -19,7 +19,7 @@ these strategies.
 
 ## Tools
 
-Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobile tools.
+Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobile tools. (Or at least Go 1.7.4 if using macOS Sierra)
 
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
