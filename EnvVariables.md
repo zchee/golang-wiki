@@ -6,7 +6,7 @@ This page contains guides to set Go environment variables on various operating s
 
 ### Unix systems
 
-`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/work`.
+`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/work`. Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set GOPATH=$HOME.
 
 #### Bash
 
@@ -36,6 +36,7 @@ $ source ~/.zshrc
 
 Your workspace can be located wherever you like,
 but we'll use `C:\work` in this example.
+Note that `GOPATH` must not be the same path as your Go installation.
 
 * Create folder at `C:\work`.
 * Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
