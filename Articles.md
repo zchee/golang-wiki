@@ -35,6 +35,7 @@ Table of Contents
 
 ## General
 
+  * [Go tooling essentials](https://rakyll.org/go-tool-flags/) _2016_09_25_
   * [Go from PHP engineer's perspective](http://sobit.me/2016/02/25/go-from-php-engineers-perspective/) _2016-02-25_
   * [Go Proverbs, Illustrated](http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/) _2015-12-04_
   * [A whirlwind tour of Go’s runtime environment variables](http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables) _2015-11-29_
