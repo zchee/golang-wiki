@@ -29,9 +29,13 @@ While triaging the bug:
 
 Find bugs that are in state WaitingForReply (https://github.com/golang/go/labels/WaitingForInfo) and ping them, remove the label when replies arrive, or close the bugs if a reply never arrived.
 
-### Pending CLs
+### Pending CLs: get them +1'd
 
 Review the format of commit messages and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
+
+Once it has a +1, the owner of that area can give it a +2.
+
+Read a +1 as meaning "triaged", or "not obviously wrong". If it has tests, is formatted properly (references a bug number, probably), and is ready for more review, give it a +1.
 
 ### Pending CLs: ask about tests
 
