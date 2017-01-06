@@ -31,3 +31,8 @@ Rejected, see https://github.com/golang/go/issues/7892#issuecomment-66094282
 Rejected, see
 https://github.com/golang/go/issues/17959
 https://github.com/golang/go/issues/18388#issuecomment-268315634
+
+### Shorten error handling / return sugar
+
+Rejected, see
+https://github.com/golang/go/issues/16225
