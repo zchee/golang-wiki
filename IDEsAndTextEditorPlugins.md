@@ -6,9 +6,10 @@
     * [Go-bbpackage](https://github.com/ascarter/go-bbpackage) with clippings, ctags standard library completion, better syntax highlighting, and tools
   * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
-
+  * **[Cloud9](https://c9.io/)**: Cloud9 cloud-based IDE provides out-of-the-box support for the Go language via the terminal (https://community.c9.io/t/writing-a-go-app/1725).
   * **[Codebox IDE](https://www.codebox.io/)**: open-source cross-platform IDE, runs on desktop (Linux or OS X) and in the cloud with Go [support](https://www.codebox.io/stack/go)
   * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE now includes [full Go support](https://codeenv.com/env/codeenv/7/go/).
+
   * **[Eclipse IDE](http://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
