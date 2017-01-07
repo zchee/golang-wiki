@@ -14,7 +14,7 @@ See http://golang.org/wiki/GerritAccess and http://golang.org/wiki/GithubAccess
 
 ## Gardening Tasks
 
-NB: Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](https://github.com/golang/go/wiki/HandlingIssues#issue-states).
+Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](https://github.com/golang/go/wiki/HandlingIssues#issue-states).
 
 ### Triage new bugs
 
