@@ -296,7 +296,7 @@
   * [Twitch](http://www.twitch.tv/) - [blog](http://blog.twitch.tv/2014/04/technically-speaking-group-chat-and-general-chat-engineering/)
   * [Twitter](https://twitter.com) - [blog](https://blog.twitter.com/2015/handling-five-billion-sessions-a-day-in-real-time)
   * [TweetQureet](http://qureet.com) - [blog](http://www.qureet.com/blog/golang-technology-stack/)
-  * [Uber](http://uber.com) - [blog](https://eng.uber.com/go-geofence/) [github](https://github.com/uber?language=go)
+  * [Uber](http://uber.com) - [blog](https://eng.uber.com/go-geofence/) [github](https://github.com/uber?language=go) [tweet](https://twitter.com/conormyhrvold/status/816345560143642624)
   * [Ulele](https://en.ulule.com/) - [tweet](https://twitter.com/thoas/status/638355320071409664)
   * [Umbel](http://umbel.com) - [tweet](https://twitter.com/findmjob/status/624255179227967488)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
