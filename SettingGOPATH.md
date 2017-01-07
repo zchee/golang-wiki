@@ -1,3 +1,8 @@
+- [Unix systems](#unix-systems)
+  * [Bash](#bash)
+  * [Zsh](#zsh)
+- [Windows](#windows)
+
 # Unix systems
 
 `GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/work`. Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set GOPATH=$HOME.
