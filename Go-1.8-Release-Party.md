@@ -29,6 +29,7 @@ Here is a list of the groups who are participating.
 - Wroclaw, Poland: Feb 16 7pm at Kuznicza 10. View the [meetup](https://www.meetup.com/GoLang-User-Group-Wroclaw/events/236727341/) or contact [@viru](https://github.com/viru/) for more details.
 - Stockholm, Sweden: Feb 21 6pm at TBD. View the [meetup](https://www.meetup.com/Go-Stockholm/events/236748141/) or contact [@marcusolsson](https://twitter.com/marcusolsson/) for more details.
 - New York, NY: Feb 16 at 7PM at TBD. Will announce the event on [meetup](https://www.meetup.com/golanguagenewyork/). Contact [@wikiwalk](https://twitter.com/wikiwalk) for more details. 
+- Madrid, Spain: Feb 16 at 7:30PM at source{d}, The event will be announced on [meetup](https://www.meetup.com/go-mad/). Contact [@mcuadros_](https://twitter.com/mcuadros_) for more details. 
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
