@@ -14,6 +14,8 @@ See http://golang.org/wiki/GerritAccess and http://golang.org/wiki/GithubAccess
 
 ## Gardening Tasks
 
+NB: Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](https://github.com/golang/go/wiki/HandlingIssues#issue-states).
+
 ### Triage new bugs
 
 Look at the untriaged bugs. For Go, we use the presence of a Milestone field to mean that the bug has been triaged. To search for un-milestoned issues, use https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Amilestone
