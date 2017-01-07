@@ -27,6 +27,7 @@ Here is a list of the groups who are participating.
 - [@MinneapolisGo](https://twitter.com/MinneapolisGo) Feb 16 6:00pm at Agosta. View the [meetup](https://www.meetup.com/Minneapolis-Ultimate-Golang/events/236698705/) or contact [@corylanou](https://twitter.com/corylanou) for more info.
 - Amsterdam, the Netherlands: Feb 16 6pm at [Wercker](http://www.wercker.com). View the [meetup](https://www.meetup.com/golang-amsterdam/events/236723017/) for more details and RSVP.
 - Wroclaw, Poland: Feb 16 7pm at Kuznicza 10. View the [meetup](https://www.meetup.com/GoLang-User-Group-Wroclaw/events/236727341/) or contact [@viru](https://github.com/viru/) for more details.
+- Stockholm, Sweden: Feb 21 6pm at TBD. View the [meetup](https://www.meetup.com/Go-Stockholm/events/236748141/) or contact [@marcusolsson](https://twitter.com/marcusolsson/) for more details.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
