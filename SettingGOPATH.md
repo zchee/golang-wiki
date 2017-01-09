@@ -1,4 +1,4 @@
-The GOPATH environment variable specifies the location of your workspace. By default it is `$HOME\go` on Unix systems and `%USERPROFILE%\go` on Windows. If you want to use a custom location as your workspace, you can set the GOPATH env variable. This page explains how to set this variable on various platforms.
+The GOPATH environment variable specifies the location of your workspace. By default it is `$HOME/go` on Unix systems and `%USERPROFILE%\go` on Windows. If you want to use a custom location as your workspace, you can set the GOPATH env variable. This page explains how to set this variable on various platforms.
 
 
 - [Unix systems](#unix-systems)
