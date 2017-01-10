@@ -33,6 +33,7 @@ Here is a list of the groups who are participating.
 - Murcia, Spain: Feb 16 at 7:00PM at CEEIM. Will announce the event on [meetup](https://www.meetup.com/Gophers-Murcia/). Contact [@ANPez](https://twitter.com/ANPez) for more details. 
 - Taipei, Taiwan: Feb 16 at 7:30PM place still TBC. Will announce the event on [meetup](http://golang.kktix.cc/). Contact [@kkdai](https://twitter.com/Evan_Lin) for more details. 
 - Budapest, Hungary: Feb 16 at 7:00PM at [Prezi House if Ideas](https://www.google.com/maps?f=q&hl=en&q=1065+Hajós+street+35.,+Budapest,+hu). RSVP on the [meetup page](https://www.meetup.com/go-budapest/events/236811843/). For details please contact the organizer: [@gulyasm](https://twitter.com/gulyasm)
+- Reston, VA: Feb 16 at 6:45PM at Comcast. See more details and RSVP on the [meetup page](https://www.meetup.com/Golang-Reston/events/236807731/).
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
