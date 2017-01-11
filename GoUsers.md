@@ -527,6 +527,7 @@
       * [CloudSign](https://www.cloudsign.jp/)
   * [HEARTBEATS](https://heartbeats.jp/)
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
+  * [VOYAGE GROUP](https://voyagegroup.com/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
