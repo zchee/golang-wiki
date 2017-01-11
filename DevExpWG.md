@@ -20,3 +20,21 @@ Revamp the existing docs and tools.
 * Participate in user-facing Go proposals to give usability feedback.
 * Encourage readable and idiomatic APIs. Be the voice of best practices in API design.
 * Contribute with technical writing on the Go blog to fill the gaps in communication.
+
+## Roles
+
+The group has a variety of roles with specific responsibilities.
+
+### Leads
+* All responsibilities of members
+* +2 reviews
+* Reaching consensus if there is no obvious answer
+
+### Members
+* All responsibilities of participants
+* Doing the first CL and proposal reviews
+* Setting high-level goals and establishing larger scale projects.
+
+### Participants
+* Creating CLs and proposals
+* Participating in discussions.
