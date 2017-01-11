@@ -10,6 +10,9 @@ Developer Experience Working Group is a team trying to make the Go programming l
 
 ## People
 
+## Channels
+* Gophers Slack #devexp ([invitation](https://invite.slack.golangbridge.org/))
+
 ## Responsibilities and Activities
 * Identify the barriers for newcomers and remove them to make Go succeed as a mainstream programming language.
 Revamp the existing docs and tools.
