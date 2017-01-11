@@ -17,3 +17,5 @@ Revamp the existing docs and tools.
 * Write proposals to promote ease of use and 
 * Encourage readable and idiomatic APIs. Be the voice of best practices in API design.
 * Contribute with technical writing on the Go blog to fill the gaps in communication.
+
+## Projects
