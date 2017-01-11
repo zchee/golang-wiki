@@ -23,7 +23,7 @@ Revamp the existing docs and tools.
 
 ## Roles
 
-The group has a variety of roles with specific responsibilities.
+The group has a variety of roles with specific responsibilities. Although it is not a hard requirement, all contributors are expected to have background and technical expertise in one or more of these fields: API design, developer tooling, readability, programming language design and education, and technical writing.
 
 ### Leads
 * All responsibilities of members
