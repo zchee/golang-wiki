@@ -511,6 +511,7 @@
   * [Intelligence](http://www.inte.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [LINE](https://linecorp.com/)
+  * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
