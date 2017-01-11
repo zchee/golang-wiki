@@ -29,6 +29,7 @@ The group has a variety of roles with specific responsibilities.
 * All responsibilities of members
 * +2 reviews
 * Reaching consensus if there is no obvious answer
+* Organizing meetings and handling paperwork
 
 ### Members
 * All responsibilities of participants
