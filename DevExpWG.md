@@ -4,6 +4,9 @@ Developer Experience Working Group is a team trying to make the Go programming l
 
 ## Goals
 
+* Make Go a preferred language in industry and education.
+
+
 ## People
 
 ## Responsibilities and Activities
