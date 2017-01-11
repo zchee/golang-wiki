@@ -33,8 +33,9 @@ The group has a variety of roles with specific responsibilities.
 ### Members
 * All responsibilities of participants
 * Doing the first CL and proposal reviews
-* Setting high-level goals and establishing larger scale projects.
+* Setting high-level goals and establishing long-term milestones
 
 ### Participants
+Participants don't have to commit to any long-term plans, they work as much as they want on gradual improvements and contribute to the discussion.
 * Creating CLs and proposals
-* Participating in discussions.
+* Participating in discussions
