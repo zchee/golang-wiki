@@ -7,6 +7,7 @@ Developer Experience Working Group is a team trying to make the Go programming l
 * Make Go a preferred language in industry and education.
 * Help the language graduate to a mainstream language by enabling the early majority mainstream developers.
 
+
 ## People
 
 ## Responsibilities and Activities
