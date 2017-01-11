@@ -37,7 +37,7 @@ Here is a list of the groups who are participating.
 - Reston, VA: Feb 16 at 6:45PM at Comcast. See more details and RSVP on the [meetup page](https://www.meetup.com/Golang-Reston/events/236807731/).
 - Lille, France: Feb 16 at 6:45PM place TBC. Meetup to be announced on [meetup page](https://www.meetup.com/GDG-Lille/events/236825262).
 - Hamburg, Germany: Feb 16 at 7PM place at [loodse](https://loodse.com/en/). [Meetup page](https://www.meetup.com/Go-User-Group-Hamburg/events/236813440/).
-- Okayama, Japan: Feb 16 7pm at Kurashiki Coffee Shop. See an [event page](https://connpass.com/event/48433/) or contant [@qt_luigi](https://github.com/qt-luigi) for more info.
+- Okayama, Japan: Feb 16 7pm at Kurashiki Coffee Shop. See an [event page](https://connpass.com/event/48433/) or contant [@qt_luigi](https://twitter.com/qt_luigi) for more info.
 
 
 _If your group is not listed here yet, edit the page and add yourself._
