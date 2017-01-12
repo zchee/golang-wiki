@@ -1,6 +1,6 @@
 # Developer Experience Working Group
 
-Developer Experience Working Group is a team trying to make the Go programming language, libraries and tools more pleasant to use. The team primarily works on the Go project, even though its responsibilities and activities may involve contributing to the ecosystem-wide impactful projects. The group covers a highly specialized field of expertise that is not always well-covered by the core team.
+Developer Experience Working Group is a team trying to make the Go programming language, libraries and tools more pleasant to use. The team primarily works on the Go project, even though its responsibilities and activities may involve contributing to the ecosystem-wide impactful projects. The group is aimed to cover a highly specialized field of expertise that is not always well-covered by the core team.
 
 ## Goals
 
