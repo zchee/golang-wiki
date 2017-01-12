@@ -18,7 +18,7 @@ TBD. We are still outreaching to individuals at this point. If you are intereste
 ## Responsibilities and Activities
 * Identify the barriers for newcomers and remove them to make Go succeed as a mainstream programming language.
 Revamp the existing docs and tools.
-* Systematically collect feedback from the Go users to improve friction points in standard library, tools, docs, language and the ecosystem tools. The group may run UX studies.
+* Systematically collect feedback from the Go users to improve friction points in standard library, tools, docs, language and the ecosystem. The group may also run UX studies.
 * Help identifying the critical missing libraries/tools from the ecosystem.
 * At each release cycle, review new standard library APIs to give feedback about usability, self-explanation and documentation.
 * Participate in user-facing Go proposals to give usability feedback.
