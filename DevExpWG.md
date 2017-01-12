@@ -10,6 +10,8 @@ Developer Experience Working Group is a team trying to make the Go programming l
 
 ## People
 
+TBD. We are still outreaching to individuals at this point. If you are interested to get involved, send an email to jbd@golang.org. 
+
 ## Channels
 * Gophers Slack channel: [#devexp](https://gophers.slack.com/archives/devexp) ([invitation](https://invite.slack.golangbridge.org/))
 
