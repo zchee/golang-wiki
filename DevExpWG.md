@@ -31,7 +31,6 @@ The group has a variety of roles with specific responsibilities. Although it is 
 
 ### Leads
 * All responsibilities of members
-* +2 reviews
 * Ensuring contributors are sufficiently productive and not blocked
 * Reaching consensus if there is no obvious answer
 * Organizing meetings and handling paperwork
