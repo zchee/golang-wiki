@@ -30,12 +30,14 @@ Revamp the existing docs and tools.
 The group has a variety of roles with specific responsibilities. Although it is not a hard requirement, all contributors are expected to have background and technical expertise in one or more of these fields: API design, developer tooling, readability, programming language design and education, and technical writing.
 
 ### Leads
+We are expecting this role to require 15 hours of commitment each week.
 * All responsibilities of the members
 * Ensuring contributors are sufficiently productive and not blocked
 * Reaching consensus if there is no obvious answer
 * Organizing meetings and handling paperwork
 
 ### Members
+We are expecting this role to require 10 hours of commitment each week.
 * All responsibilities of the participants
 * Doing the first CL and proposal reviews
 * Setting high-level goals and establishing long-term milestones
