@@ -41,7 +41,7 @@ Here is a list of the groups who are participating.
 - Toronto, Canada: Firkin on King, See [event page](https://www.meetup.com/go-toronto/events/236855730/)
 - Seattle, WA: Feb 16 at 6PM at Uber, See [event page](https://www.meetup.com/golang/events/236803478/)
 - Vancouver, BC: Feb 16 at 6PM at [Hootsuite](http://hootsuite.com), See [event page](https://www.meetup.com/golangvan/)
-
+- San Francisco, CA: Feb 16 at 6:30PM, venue TBD. See [event page](https://www.meetup.com/golangsf/events/236673793/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
