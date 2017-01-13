@@ -559,6 +559,7 @@
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
+  * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
 
 ## New Zealand
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
