@@ -828,6 +828,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [twilio-go](https://github.com/kevinburke/twilio-go) - Go client for the Twilio API.
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
   * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
+  * [vulkan](https://github.com/vulkan-go/vulkan) - Golang Bindings for Vulkan API.
   * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
   * [wg](https://github.com/magsoft-se/wg) - Web Graphics, display real time go graphics in browser, with user input.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
