@@ -127,6 +127,7 @@
   * [GitHub](https://github.com) - [blog post](http://techno-weenie.net/2013/11/2/key-value-logs-in-go/)
   * [GlobalSign](https://www.globalsign.com)
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
+  * [GrayMeta, Inc.](https://www.graymeta.com)
   * [Grovo](https://grovo.com)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
