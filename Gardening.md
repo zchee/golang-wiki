@@ -26,6 +26,7 @@ While triaging the bug:
 * is it a Question rather than a bug? Close it and reply with something like "For questions about Go, see https://golang.org/wiki/Questions." 
 * is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation"
 * is it in a subrepo? Set the milestone to "Unreleased". Unless it's a subrepo that goes into a release, like godoc or http2.
+* if it is a regression and you can reproduce it, use git bisect to find the bad commit.
 
 ### WaitingForReply
 
