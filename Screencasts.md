@@ -40,3 +40,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * ISBN:978-1786460103
 
 [[video](https://www.packtpub.com/application-development/go-projects-video)]
+
+
+  * **Build webapps in Go without using a framework [Video]**
+    * Authors: Suraj Patil
+    * Publication Date: December 2016
+
+[[Course](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4)]
+
