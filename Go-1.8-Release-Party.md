@@ -32,7 +32,7 @@ Here is a list of the groups who are participating.
 - New York, NY: Feb 16 at 7PM at TBD. Will announce the event on [meetup](https://www.meetup.com/golanguagenewyork/). Contact [@wikiwalk](https://twitter.com/wikiwalk) for more details. 
 - Madrid, Spain: Feb 16 at 7:30PM at source{d}, The event will be announced on [meetup](https://www.meetup.com/go-mad/). Contact [@mcuadros_](https://twitter.com/mcuadros_) for more details. 
 - Murcia, Spain: Feb 16 at 7:00PM at CEEIM. Will announce the event on [meetup](https://www.meetup.com/Gophers-Murcia/). Contact [@ANPez](https://twitter.com/ANPez) for more details. 
-- Taipei, Taiwan: Feb 16 at 7:30PM in [Dcard](https://www.dcard.tw). Will announce the event on [meetup](http://golang.kktix.cc/). Contact [@kkdai](https://twitter.com/Evan_Lin) for more details. 
+- Taipei, Taiwan: Feb 16 at 7:30PM at [Dcard](https://www.dcard.tw). Will announce the event on [meetup](http://golang.kktix.cc/). Contact [@kkdai](https://twitter.com/Evan_Lin) for more details. 
 - Budapest, Hungary: Feb 16 at 7:00PM at [Prezi House if Ideas](https://www.google.com/maps?f=q&hl=en&q=1065+Hajós+street+35.,+Budapest,+hu). RSVP on the [meetup page](https://www.meetup.com/go-budapest/events/236811843/). For details please contact the organizer: [@gulyasm](https://twitter.com/gulyasm)
 - Reston, VA: Feb 16 at 6:45PM at Comcast. See more details and RSVP on the [meetup page](https://www.meetup.com/Golang-Reston/events/236807731/).
 - Lille, France: Feb 16 at 6:45PM place TBC. Meetup to be announced on [meetup page](https://www.meetup.com/GDG-Lille/events/236825262).
