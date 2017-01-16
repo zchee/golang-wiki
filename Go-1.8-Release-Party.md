@@ -10,6 +10,8 @@ Nope! Go 1.8 is in good shape to ship in early February, but no firm release dat
 
 After the event post a photo, make a video, write a blog post, scribble on your Facebook wall, or tweet something pithy. Let's see how big we can make the celebration.
 
+Spread the word using hashtag [#GoReleaseParty](https://twitter.com/hashtag/goreleaseparty)
+
 Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
