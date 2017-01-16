@@ -42,6 +42,7 @@ Here is a list of the groups who are participating.
 - Seattle, WA: Feb 16 at 6PM at Uber, See [event page](https://www.meetup.com/golang/events/236803478/)
 - Vancouver, BC: Feb 16 at 6PM at [Hootsuite](http://hootsuite.com), See [event page](https://www.meetup.com/golangvan/)
 - San Francisco, CA: Feb 16 at 6:30PM, venue TBD. See [event page](https://www.meetup.com/golangsf/events/236673793/)
+- Copenhagen, Denmark: Feb 16th at 6PM, at Vivino. See [event page](https://www.meetup.com/Go-Cph/events/233646078/) or contact [@phr0e](https://twitter.com/phr0e) or [@CphGophers](https://twitter.com/CphGophers)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
