@@ -47,3 +47,10 @@ https://github.com/golang/go/issues/16225
 Rejected, see
 https://github.com/golang/go/issues/15507
 
+### Make unused imports/variables a warning, not an error
+
+Rejected.
+
+### Add warnings to the Go compilers
+
+Rejected.
