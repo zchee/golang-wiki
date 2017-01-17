@@ -51,6 +51,6 @@ https://github.com/golang/go/issues/15507
 
 Rejected.
 
-### Add warnings to the Go compilers
+### Add warnings to the Go compiler
 
 Rejected.
