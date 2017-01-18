@@ -37,7 +37,7 @@ Here is a list of the groups who are participating.
 - Taipei, Taiwan: Feb 16 at 7:30PM at [Dcard](https://www.dcard.tw). Will announce the event on [meetup](http://golang.kktix.cc/). Contact [@kkdai](https://twitter.com/Evan_Lin) for more details. 
 - Budapest, Hungary: Feb 16 at 7:00PM at [Prezi House if Ideas](https://www.google.com/maps?f=q&hl=en&q=1065+Hajós+street+35.,+Budapest,+hu). RSVP on the [meetup page](https://www.meetup.com/go-budapest/events/236811843/). For details please contact the organizer: [@gulyasm](https://twitter.com/gulyasm)
 - Reston, VA: Feb 16 at 6:45PM at Comcast. See more details and RSVP on the [meetup page](https://www.meetup.com/Golang-Reston/events/236807731/).
-- Lille, France: Feb 16 at 6:45PM place TBC. Meetup to be announced on [meetup page](https://www.meetup.com/GDG-Lille/events/236825262).
+- Lille, France: Feb 16 at 6:45PM at [Epitech Lille](https://goo.gl/maps/C6H7CjZWrFv). [Meetup page](https://www.meetup.com/GDG-Lille/events/236825262).
 - Hamburg, Germany: Feb 16 at 7PM place at [loodse](https://loodse.com/en/). [Meetup page](https://www.meetup.com/Go-User-Group-Hamburg/events/236813440/).
 - Okayama, Japan: Feb 16 7pm at Kurashiki Coffee Shop. See an [event page](https://connpass.com/event/48433/) or contact [@qt_luigi](https://twitter.com/qt_luigi) for more info.
 - Phoenix, AZ: Feb 16 at 6:30PM, venue TBD. See [event page](https://www.meetup.com/Golang-Phoenix/events/236891853/) or contact [@golangPhoenix](https://twitter.com/golangPhoenix)
