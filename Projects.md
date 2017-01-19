@@ -420,7 +420,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gocrud](https://github.com/manishrjain/gocrud) - Framework for working with arbitrary depth data structures.
   * [Gokogiri](https://github.com/moovweb/gokogiri) - A lightweight libxml wrapper library
   * [GoNetCDF](https://bitbucket.org/ctessum/gonetcdf) - A wrapper for the NetCDF file format library
-  * [goop](https://github.com/losalamos/goop) - Dynamic object-oriented programming support for Go
+  * [goop](https://github.com/lanl/goop) - Dynamic object-oriented programming support for Go
   * [gopart](https://github.com/meirf/gopart)- Type-agnostic partitioning for anything that can be indexed in Go.
   * [gotoc](https://github.com/dsymonds/gotoc) - A protocol buffer compiler written in Go
   * [govalid](https://github.com/gima/govalid) - Data validation library
@@ -926,7 +926,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Go
   * [blas](https://github.com/ziutek/blas) - Go implementation of BLAS (Basic Linear Algebra Subprograms)
   * [cartconvert](https://github.com/the42/cartconvert) - cartography functions for the Go programming language
-  * [clp](https://github.com/losalamos/clp) - Go bindings for the COIN-OR Linear Programming (CLP) library
+  * [clp](https://github.com/lanl/clp) - Go bindings for the COIN-OR Linear Programming (CLP) library
   * [Cvx](https://github.com/hrautila/cvx) - Convex optimization package, port of CVXOPT python package
   * [dice](https://github.com/tonio-ramirez/dice) - Dice rolling library
   * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
@@ -1025,7 +1025,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goneuro](https://github.com/jbrukh/goneuro) - Go driver for NeuroSky devices.
   * [goNI488](https://github.com/jpoirier/goNI488) - A Go wrapper around National Instruments NI488.2 General Purpose Interface Bus (GPIB) driver.
   * [go-osx-plist](https://github.com/kballard/go-osx-plist) - CoreFoundation Property List support for Go
-  * [go-papi](https://github.com/losalamos/go-papi) - Go interface to the PAPI performance API
+  * [go-papi](https://github.com/lanl/go-papi) - Go interface to the PAPI performance API
   * [go.pcsclite](https://github.com/ebfe/go.pcsclite) - Go wrapper for pcsc-lite
   * [Go-PhysicsFS](https://github.com/DeedleFake/Go-PhysicsFS) - Go bindings for the PhysicsFS archive-access abstraction library.
   * [go.pipeline](https://github.com/songgao/go.pipeline) - Library that emulates Unix pipelines
@@ -1167,7 +1167,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
   * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
-  * [circle](https://github.com/losalamos/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
+  * [circle](https://github.com/lanl/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
   * [createsend-go](https://sourcegraph.com/github.com/sourcegraph/createsend-go/tree) - API client for [Monitor http://www.campaignmonitor.com](wiki/Campaign) (email campaign service)
   * [dmrgo](https://github.com/dgryski/dmrgo) - Library for with Hadoop Streaming map/reduce
   * [doozerconfig](https://github.com/srid/doozerconfig) - Go package for managing json-encoded configuration in Doozer
