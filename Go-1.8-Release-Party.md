@@ -49,6 +49,7 @@ Here is a list of the groups who are participating.
 - Leeds, England, UK: Feb 16th at 6PM, at Infinity Works's offices. See [event page](https://www.eventbrite.co.uk/e/go-18-release-party-tickets-31217190457)
 - Zurich, CH, Feb 23rd at 6:30PM at Unic AG offices in Altstetten. See [event page](https://www.meetup.com/Zurich-Gophers/events/236745236/)
 - Framingham, Ma - Feb 16th 7pm - See [event page](https://www.meetup.com/Framingham-Golang-Meetup/events/236999473/)
+- Tokyo, Japan - Feb 16th 7pm - See https://gocon.connpass.com/event/48281/
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
