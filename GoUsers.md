@@ -307,6 +307,7 @@
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
   * [Weave](http://www.getweave.com)
+  * [Weaveworks](http://weave.works)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Wikia](http://www.wikia.com)
@@ -405,7 +406,7 @@
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
-
+  * [Weaveworks](http://weave.works)
 
 ## Hong Kong
   * [PassKit](https://passkit.com/) - [github](https://github.com/PassKit)
@@ -648,4 +649,6 @@
   * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
   * [Fortifi](http://fortifi.uk) - [github](https://github.com/fortifi)
   * [Monzo](https://monzo.com/) - [github](https://github.com/monzo), [blog](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
+  * [Weaveworks](http://weave.works)
+
 See also [Success Stories](SuccessStories)
