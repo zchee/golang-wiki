@@ -651,5 +651,6 @@
   * [Fortifi](http://fortifi.uk) - [github](https://github.com/fortifi)
   * [Monzo](https://monzo.com/) - [github](https://github.com/monzo), [blog](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
   * [Weaveworks](http://weave.works)
+  * [StorageOS](http://storageos.com)
 
 See also [Success Stories](SuccessStories)
