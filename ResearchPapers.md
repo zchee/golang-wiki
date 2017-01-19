@@ -1,5 +1,7 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Towards Practical Default-On Multi-Core Record/Replay ( Ali José Mashtizadeh, Tal Garfinkel, David Terei, David Mazières, Mendel Rosenblum)  draft ,  ASPLOS 2017
+  - [Draft – Accepted at ASPLOS 2017 - PDF](http://mashtizadeh.org/papers/asplos17-castor-draft.pdf) _"...Castor currently supports applications written in C, C++, and Go on FreeBSD...., ...  For Go, we evaluate, Caddy ... "_
 - Comparing MapReduce and Pipeline Implementations for Counting Triangles ( Edelmira Pasarella, Maria-Esther Vidal, Cristina Zoltan)
   - [arXiv:1701.03318 cs.DC](https://arxiv.org/abs/1701.03318)
   - [pdf](https://arxiv.org/pdf/1701.03318.pdf) _"... an ad-hoc version of MapReduce are implemented in the language Go ..."_
