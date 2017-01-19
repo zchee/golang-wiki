@@ -1,5 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Comparing MapReduce and Pipeline Implementations for Counting Triangles ( Edelmira Pasarella, Maria-Esther Vidal, Cristina Zoltan)
+  - [arXiv:1701.03318 cs.DC](https://arxiv.org/abs/1701.03318)
+  - [pdf](https://arxiv.org/pdf/1701.03318.pdf) _"... an ad-hoc version of MapReduce are implemented in the language Go ..."_
 - Fencing off Go: Liveness and Safety for Channel-based Programming (J. Lange, N. Ng, B. Toninho, N. Yoshida), POPL 2017
   - [doi: 10.1145/3009837.3009847](http://dl.acm.org/citation.cfm?id=3009847)
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
