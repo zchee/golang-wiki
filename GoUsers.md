@@ -300,7 +300,7 @@
   * [Uber](http://uber.com) - [blog](https://eng.uber.com/go-geofence/) [github](https://github.com/uber?language=go) [tweet](https://twitter.com/conormyhrvold/status/816345560143642624)
   * [Ulele](https://en.ulule.com/) - [tweet](https://twitter.com/thoas/status/638355320071409664)
   * [Umbel](http://umbel.com) - [tweet](https://twitter.com/findmjob/status/624255179227967488)
-  * [Upskill](https://upskill.io) [github](https://github.com/APXLabs)
+  * [Upskill](https://upskill.io) - [github](https://github.com/APXLabs)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
   * [Vertamedia](https://vertamedia.com/) - [github](https://github.com/Vertamedia)
   * [VerveMobile](http://www.vervemobile.com/)
