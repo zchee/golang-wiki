@@ -812,6 +812,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
   * [netpbm](https://github.com/spakin/netpbm) - Read and write Netpbm images from Go programs
   * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
+  * [osmesa](https://github.com/go-gl/osmesa) - Go bindings for osmesa.
   * [Plotinum](https://github.com/gonum/plot) - An API for creating plots
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
