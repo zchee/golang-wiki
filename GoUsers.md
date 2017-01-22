@@ -280,7 +280,7 @@
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thisissoon](http://thisissoon.com/) - [github](https://github.com/thisissoon/yam)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
-  * [thoughtbot](https://thoughtbot.com/services/go) - [blog](https://robots.thoughtbot.com/tags/go) - consulting company of designers and developers that creates great products for web and mobile.
+  * [thoughtbot](https://thoughtbot.com/services/go) - [blog](https://robots.thoughtbot.com/tags/go) [github](https://github.com/thoughtbot)
   * [Thumbtack](http://thumbtack.com) - [Go Hercule blog post](http://www.thumbtack.com/engineering/go-hercule/)
   * [TIBCO](http://www.tibco.com)
   * [Timehop](http://timehop.com/) - [blog](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
