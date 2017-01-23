@@ -39,5 +39,6 @@
   * [Go at Streetspotr](https://thcyron.de/2015/go-at-streetspotr.html)
   * [Confession From A Go Programer](https://zeta.si/page/Confession-From-A-Go-Programer)
   * [Why we chose Go over C for updating embedded Linux devices](https://mender.io/blog/why-did-we-choose-golang-over-c)
+  * [List of Tech Migrations](http://kokizzu.blogspot.com/2016/12/list-of-tech-migrations.html)
 
 See also [[GoUsers]].
