@@ -55,6 +55,7 @@ Here is a list of the groups who are participating.
 - Philadelphia, PA - Feb 16th 6PM, at Sidecar. See [Meetup page](https://www.meetup.com/GoLangPhilly/events/236965685/) or contact [@golangphilly](https://twitter.com/golangphilly)
 - Milan, Italy - Feb 16th 6.30pm, at Ibuildings' offices. For info tweet to [@kmox83](https://twitter.com/kmox83) or [@mavimo](https://twitter.com/mavimo) - See the [event page](https://www.meetup.com/Golang-Milano/)
 - Singapore - Feb 16th 7.30pm, at Singapore Power office. See the [Meetup page](https://www.meetup.com/golangsg/events/236725569/) or tweet to [@golangSG](https://twitter.com/golangSG)
+ - Minsk, Belarus - Feb 16th 7.00pm at Juno. Details will follow up.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
