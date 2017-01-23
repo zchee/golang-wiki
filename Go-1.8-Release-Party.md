@@ -54,6 +54,7 @@ Here is a list of the groups who are participating.
 - San Diego, CA @ ScouRED - Feb 16th 6pm - See [event page](https://www.meetup.com/sdgophers/events/236202461/), contact [@carlisia](https://twitter.com/carlisia)
 - Philadelphia, PA - Feb 16th 6PM, at Sidecar. See [Meetup page](https://www.meetup.com/GoLangPhilly/events/236965685/) or contact [@golangphilly](https://twitter.com/golangphilly)
 - Milan, Italy - Feb 16th 6.30pm, at Ibuildings' offices. For info tweet to [@kmox83](https://twitter.com/kmox83) or [@mavimo](https://twitter.com/mavimo) - See the [event page](https://www.meetup.com/Golang-Milano/)
+- Singapore - Feb 16th 7.30pm, at Singapore Power office. See the [Meetup page](https://www.meetup.com/golangsg/events/236725569/) or tweet to [@golangSG](https://twitter.com/golangSG)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
