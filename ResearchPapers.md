@@ -10,6 +10,8 @@ This page lists academic and industry research papers about Go or using Go as th
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
 
 ## 2016
+- Parallelization of the corpus manager’s time-consuming operations (Bc. Radoslav Rábara ) Master's Thesis, Masaryk University
+  - [pdf](http://www.itspy.cz/wp-content/uploads/2016/11/IT_SPY_2016_paper_60.pdf) ; Keywords: Manatee, text corpora, Go, text compression, compression of integers, time-consuming operations, parallelization, MapReduce, Glow, distributed computing, data format, cluster, scalability
 - Cyber Security Exercise Modeling & Tracking (Joonas Greis) Bachelor’s thesis
  - [pdf](https://www.theseus.fi/bitstream/handle/10024/120054/Thesis_rellu.pdf) _"... RESTful API was written with Golang using Go-Json-Rest package ..."_
 - Scalable Byzantine Consensus via Hardware-assisted Secret Sharing (Jian Liu, Wenting Li, Ghassan O. Karame, N. Asokan) 
