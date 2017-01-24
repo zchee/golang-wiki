@@ -381,6 +381,7 @@
 ## China   
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+  * [Yeeuu](https://www.yeeuu.com/)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
