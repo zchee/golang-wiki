@@ -60,6 +60,7 @@ Here is a list of the groups who are participating.
 - Cardiff (Wales UK) - Feb 15th 18:00 at Tramshed Cardiff. See the [Meetup page](https://www.meetup.com/Cardiff-Go-Meetup/events/237158460/) or tweet to [@cdfgolang](https://twitter.com/cdfgolang)
 - Minsk, Belarus - Feb 16th 7.00pm at Juno. Details will follow up.
 - Bangor (Wales UK) - Feb 16th 7:00 PM hosted by [NorthWalesTech](http://northwales.technology/). See the [Meetup page](https://www.meetup.com/NorthWalesTech/events/236961582/)
+
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
 
