@@ -11,6 +11,7 @@ Please keep all items in chronological order.
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ |
+| GopherChina 2017 | 2017-04-15 ~ 2017-04-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 
 ## Archives
