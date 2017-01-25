@@ -24,6 +24,14 @@ both ` (*T).String ` and ` P.String `.
 
 Go doesn't allow receiver's base type to be interfaces, because interfaces already have methods. (TODO)
 
+### Select with closed channel
+
+[Issue #11344](https://github.com/golang/go/issues/11344).
+
+### Send to closed channel
+
+[Issue #18511](https://github.com/golang/go/issues/18511).
+
 # Memory Model
 
 # Standard Library
