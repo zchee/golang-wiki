@@ -28,9 +28,9 @@ While triaging the bug:
 * is it in a subrepo? Set the milestone to "Unreleased". Unless it's a subrepo that goes into a release, like godoc or http2.
 * if it is a regression and you can reproduce it, use git bisect to find the bad commit (optional but very helpful).
 
-### WaitingForReply
+### WaitingForInfo
 
-Find bugs that are in state WaitingForReply (https://github.com/golang/go/labels/WaitingForInfo) and ping them, remove the label when replies arrive, or close the bugs if a reply never arrived.
+Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/WaitingForInfo) and ping them, remove the label when replies arrive, or close the bugs if a reply never arrived.
 
 ### Pending CLs
 
