@@ -25,8 +25,9 @@ List entries can be added by anyone who creates a public package where a new tag
 List entries can be removed when the links to the package documentation stops working or the author(s) of that package requests it.
 
 ## List of Well Known Struct Tags
-Tag | Documentation
-----|-----
-xml | https://godoc.org/encoding/xml
-json | https://godoc.org/encoding/json
-asn1 | https://godoc.org/encoding/asn1
+Tag    | Documentation
+-------|-----
+xml    | https://godoc.org/encoding/xml
+json   | https://godoc.org/encoding/json
+asn1   | https://godoc.org/encoding/asn1
+reform | https://godoc.org/gopkg.in/reform.v1
