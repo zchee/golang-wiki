@@ -8,10 +8,9 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ |
-| GopherChina 2017 | 2017-04-15 ~ 2017-04-16 | Shanghai | http://www.bagevent.com/event/357764 |
+| GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 
 ## Archives
@@ -20,6 +19,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
 |GopherCon Brasil | 2016-11-04-05 | Florianopolis, Brazil | https://2016.gopherconbr.org/en/ |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
@@ -32,8 +32,8 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon India | 2016-02-19 | Bengaluru, India | [videos](https://www.youtube.com/watch?v=4Dr8FXs9aJM&list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA) |
 | FOSDEM | 2016-01-30 | Brussels, Belgium | https://video.fosdem.org/2016/h1302/ |
 | Gopher Gala | 2016-01-22 | Earth |  |
-|------|------------|----------|----------------|
-| Golab | 2015-12-15 | Florence, Italy |  |
+| | **2015** | | |
+| GoLab | 2015-12-15 | Florence, Italy | http://golab.io |
 | GoCon Tokyo | 2015-12-06 | Tokyo, Japan |  |
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YALxdnGgvgwxTSmANOvyAo9) |
 | dotGo    | 2015-11-09 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMWwKlp9xoYX4mlNDdkCOfsUG_40WCMCX) |
@@ -47,7 +47,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Go Devroom FOSDEM | 2015-03-04 | Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
 | Gopher China | 2015-04-25 | Shanghai, China | |
 | London Go Gathering | 2015-02-03 | London, UK | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)|
-|------|------------|----------|----------------|
+| | **2014** | | |
 | GothamGo | 2014-11-15 | NYC, NY | [videos](https://vimeo.com/channels/852217) |
 | dotGo | 2014-09-10 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
 | Go Devroom FOSDEM | 2014-06-30 |Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
