@@ -2,6 +2,10 @@ This page contains a list of tools for managing Go packages and their dependenci
 
 To see popularity of these tools, click [here](https://github.com/blindpirate/report-of-go-package-management-tool).
 
+## dep tool
+
+[dep](https://github.com/golang/dep), *official* dependency tool, is being implemented.
+
 ## GO15VENDOREXPERIMENT
 
 As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/EOKSoaL5p8wJ), the Go toolchain includes an experimental vendoring flag, `GO15VENDOREXPERIMENT`. This is now part of the Go 1.5 release and represents the Go team's recommended approach to vendoring dependencies. You can read more about how this environment variable works in the [Go 1.5 documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories) and the [original design document](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/view). For a more detailed explanation, check out [this post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3) by [@freeformz](https://twitter.com/freeformz) or [this short explainer](http://engineeredweb.com/blog/2015/go-1.5-vendor-handling/) from Engineered Web.
@@ -10,6 +14,7 @@ Go 1.6 release makes this behaviour the default, so you no longer need to have `
 
 Tools supporting this feature include:
 
+ * [dep](https://github.com/golang/dep)
  * [manul](https://github.com/kovetskiy/manul) - Vendor packages using git submodules.
  * [Godep](https://github.com/tools/godep)
  * [Govendor](https://github.com/kardianos/govendor)
