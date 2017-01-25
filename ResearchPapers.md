@@ -125,6 +125,9 @@ Turing Scholars honors thesis
   - [arXiv:1411.3793 cs.SE](https://arxiv.org/abs/1411.3793)
 - Big Learning with Bayesian Methods
   - [arXiv:1411.6370 cs.LG](https://arxiv.org/abs/1411.6370)
+- Be General and Don't Give Up Consistency in Geo-Replicated Transactional Systems
+  - [PDF](http://hyflow.org/pubs/opodis14-alvin.pdf)
+  - Project page: [Hyflow](http://www.hyflow.org/hyflow-go/index.html)
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
