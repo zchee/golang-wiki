@@ -63,7 +63,7 @@ willing to use, please refer to ` taskset(1) ` manual for details.
 # Known issues
 
 ## Lack of floating point hardware on ARMv5
-The major issue with ARMv5 is the lack of floating point support in common ARMv5 harware<sup>†</sup>. When compiled with the GOARM=5 environment variable, the 5l linker will insert a call to ` _sfloat ` before any block of floating point instructions to branch into the floating point emulator. This means that binaries produced with a Go installation that was compiled with soft float support will work on all supported architectures, but builds compiled without soft floating point support will not work on ARMv5.
+The major issue with ARMv5 is the lack of floating point support in common ARMv5 hardware<sup>†</sup>. When compiled with the GOARM=5 environment variable, the 5l linker will insert a call to ` _sfloat ` before any block of floating point instructions to branch into the floating point emulator. This means that binaries produced with a Go installation that was compiled with soft float support will work on all supported architectures, but builds compiled without soft floating point support will not work on ARMv5.
 
 <sup>†</sup> This isn't strictly true, there exist ARMv5 implementations which have VFP1 floating point. However the compiler doesn't support VFP1 yet.
 
