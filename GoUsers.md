@@ -262,7 +262,7 @@
   * [Square](http://www.squareup.com) - [blog](http://corner.squareup.com/2014/05/evaluating-go-frameworks.html)
   * [StackEngine](http://www.stackengine.com) - [blog](http://stackengine.com/golang-with-circleci/)
   * [Stack Exchange](http://stackexchange.com/) - [blog](http://blog.stackoverflow.com/2014/11/announcing-bosun-our-new-open-source-monitoring-alerting-system/), [github](https://github.com/bosun-monitor/bosun), [website](http://bosun.org/)
-  *8 [Staffjoy](https://www.staffjoy.com) - [blog](https://blog.staffjoy.com/staffjoys-v2-architecture-9d2fcb4015fd)
+  * [Staffjoy](https://www.staffjoy.com) - [blog](https://blog.staffjoy.com/staffjoys-v2-architecture-9d2fcb4015fd)
   * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
   * [SteelSeries](http://www.steelseries.com) - [blog](http://techblog.steelseries.com/golisp/index.html)
