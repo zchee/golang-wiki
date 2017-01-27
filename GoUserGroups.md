@@ -36,6 +36,7 @@
   * [Go Lithuania User Group](http://gophers.lt/) - Lithuania, Kaunas.
   * [Go London User Group](http://www.meetup.com/Go-London-User-Group/) - London, UK.
   * [ManGo The Manchester Go User Group](http://mango.computer/) - Manchester, UK.
+  * [Go Valhalla](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) - Valencia, Spain. 🇻🇳
   * [GoMAD](https://www.meetup.com/go-mad/) - Madrid, Spain 
   * [Go Wales User Group](http://golang.cymru/) - Wales, UK.
   * [Golang Москва](http://www.meetup.com/Golang-Moscow/) - Moscow, Russia.
