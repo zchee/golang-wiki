@@ -61,6 +61,7 @@ Here is a list of the groups who are participating.
 - Minsk, Belarus - Feb 16th 7.00pm at Juno. Details will follow up.
 - Bangor (Wales UK) - Feb 16th 7:00 PM hosted by [NorthWalesTech](http://northwales.technology/). See the [Meetup page](https://www.meetup.com/NorthWalesTech/events/236961582/)
 - Odessa, Ukraine - Feb 25th 10:00am at VertaMedia. See the [meetup page](http://vmes.vertamedia.com/).
+- Valencia, Spain - Feb 18th 19:00pm at Oh my Game Bar. Visit the [Telegram group](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) or visit our [twitter](https://twitter.com/golangvalencia).
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
