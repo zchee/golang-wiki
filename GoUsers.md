@@ -386,6 +386,7 @@
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
+  * [Rentlio](https://rentl.io) - [github](htttps://github.com/rentlio)
 
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
