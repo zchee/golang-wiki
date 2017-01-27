@@ -92,7 +92,7 @@ You can deploy .app files by dragging and dropping them to the device.
 * Drag and drop the .app file to "Installed Apps" section.
 * Check the "Copy items if needed" option
 
-![Deploying app bundle](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-ios-deploy.png)
+![Deploying app bundle](http://i.imgur.com/fRbQ0EQ.png)
 
 Alternatively, you can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool. Use ios-deploy to push the application to your device.
 
@@ -133,7 +133,7 @@ If you are using Android Studio, you can use the [Gradle plugin](https://plugins
 * Launch Android Studio.
 * File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
 
-![Xcode project layout with hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-import-androidstudio.png)
+![Android Studio](http://i.imgur.com/RhNCnnH.png)
 
 * Open hello/build.gradle to edit the absolute path to GOPATH and GO.
 * Build and deploy the application to the device.
@@ -164,11 +164,13 @@ $ open ios/bind.xcodeproj
 ```
 Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy items if needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and rerunning `gomobile bind` will update the hello.framework.
 
-![Drag and drop Hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-iosdrag.png)
+
+
+![Drag and drop Hello.framework](http://i.imgur.com/u88CxN9.png)
 
 Your project layout should look like what's shown below.
 
-![Xcode project layout with Hello.framework](https://googledrive.com/host/0ByfSjdPVs9MZbkhjeUhMYzRTeEE/gowiki/gomobile-bind-ios.png)
+![Xcode project layout with Hello.framework](http://i.imgur.com/JhcSKwC.png)
 
 Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `hello.Greetings` function.
 
