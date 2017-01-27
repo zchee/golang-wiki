@@ -65,6 +65,7 @@
   * [Bread Finance](https://www.getbread.com)
   * [Bridgevine](https://bridgevine.com/) - [github](https://github.com/Bridgevine)
   * [Brightcove](https://brightcove.com)
+  * [Bringhub](https://bringhub.com)
   * [BuySellAds](https://buysellads.com)
   * [BuzzFeed](https://buzzfeed.com) - [talk](https://go-talks.appspot.com/github.com/jonmorehouse/gateway-golang-talk/main.slide#1)
   * [Byndr](http://www.byndr.org)
