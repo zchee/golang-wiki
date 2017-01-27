@@ -110,7 +110,7 @@ Requires switching GOPATH for every project.
 |Author      |Anatoly Galiulin              |
 |Categories  |Revision Locking (git). Requires bash, no Windows support.       |
 |            |                              |
-| **godeps** |https://launchpad.net/godeps  |
+| **godeps** |https://github.com/rogpeppe/godeps  |
 |Title       |Print, fetch and update dependencies with care. In production use by Canonical. The first tool with this name!|
 |Author      |Roger Peppe                   |
 |Categories  | Revision Locking (git, mercurial, bzr)|
