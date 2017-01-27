@@ -588,6 +588,7 @@
 
 ## Portugal
   * [AppGeneration](http://appgeneration.com/)
+  * [Uniplaces](http://uniplaces.com/)
 
 ## Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
