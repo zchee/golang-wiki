@@ -324,6 +324,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys
   * [tiger](https://github.com/cxmcc/tiger) - Tiger cryptographic hashing algorithm
   * [whirlpool](https://github.com/jzelinskie/whirlpool) - whirlpool cryptographic hashing algorithm
+  * [go-lioness](https://github.com/applied-mixnetworks/go-lioness) - Lioness wide-block cipher using Chacha20 and Blake2b
 
 ## Data Processing
 
