@@ -325,6 +325,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [tiger](https://github.com/cxmcc/tiger) - Tiger cryptographic hashing algorithm
   * [whirlpool](https://github.com/jzelinskie/whirlpool) - whirlpool cryptographic hashing algorithm
   * [go-lioness](https://github.com/applied-mixnetworks/go-lioness) - Lioness wide-block cipher using Chacha20 and Blake2b
+  * [go-sphinxmixcrypto](https://github.com/applied-mixnetworks/go-sphinxmixcrypto) - Sphinx mix network cryptographic packet format operations
 
 ## Data Processing
 
