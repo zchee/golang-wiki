@@ -6,3 +6,4 @@ This page links to resources about testing in Go.
 - Read [Where is my favorite helper function for testing?](http://golang.org/doc/faq#testing_framework)
 - Watch [Testing Techniques](https://talks.golang.org/2014/testing.slide#1)
 - Read [TableDrivenTests](TableDrivenTests)
+- Read [Using Subtests and Sub-benchmarks](https://blog.golang.org/subtests)
