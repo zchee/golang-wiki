@@ -35,6 +35,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [Pass Values](#pass-values)
 * [Receiver Names](#receiver-names)
 * [Receiver Type](#receiver-type)
+* [Synchronous Functions](#synchronous-functions)
 * [Useful Test Failures](#useful-test-failures)
 * [Variable Names](#variable-names)
 
@@ -527,6 +528,14 @@ Choosing whether to use a value or pointer receiver on methods can be difficult,
   * If the receiver is a struct, array or slice and any of its elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention more clear to the reader.
   * If the receiver is a small array or struct that is naturally a value type (for instance, something like the time.Time type), with no mutable fields and no pointers, or is just a simple basic type such as int or string, a value receiver makes sense.  A value receiver can reduce the amount of garbage that can be generated; if a value is passed to a value method, an on-stack copy can be used instead of allocating on the heap. (The compiler tries to be smart about avoiding this allocation, but it can't always succeed.) Don't choose a value receiver type for this reason without profiling first.
   * Finally, when in doubt, use a pointer receiver.
+
+## Synchronous Functions
+
+Prefer synchronous functions - functions which return their results directly or finish any callbacks or channel ops before returning - over asynchronous ones.
+
+Synchronous functions keep goroutines localized within a call, making it easier to reason about their lifetimes and avoid leaks and data races. They're also easier to test: the caller can pass an input and check the output without the need for polling or synchronization.
+
+If callers need more concurrency, they can add it easily by calling the function from a separate goroutine. But it is quite difficult - sometimes impossible - to remove unnecessary concurrency at the caller side.
 
 ## Useful Test Failures
 
