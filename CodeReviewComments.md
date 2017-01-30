@@ -12,6 +12,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
 * [Copying](#copying)
+* [CryptoRand](#cryptorand)
 * [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
@@ -110,6 +111,33 @@ t := []string{}
 ```
 
 The former avoids allocating memory if the slice is never appended to.
+
+## CryptoRand
+
+Do not use package `math/rand` to generate keys, even throwaway ones.
+Unseeded, the generator is completely predictable. Seeded with `time.Nanoseconds()`,
+there are just a few bits of entropy. Instead, use `crypto/rand`'s Reader,
+and if you need text, print to hexadecimal or base64:
+
+``` go
+import (
+    "crypto/rand"
+    // "encoding/base64"
+    // "encoding/hex"
+    "fmt"
+)
+
+func Key() string {
+    buf := make([]byte, 16)
+    _, err := rand.Read(buf)
+    if err != nil {
+        panic(err)  // out of randomness, should never happen
+    }
+    return fmt.Sprintf("%x", buf)
+    // or hex.EncodeToString(buf)
+    // or base64.StdEncoding.EncodeToString(buf)
+}
+```
 
 ## Doc Comments
 
