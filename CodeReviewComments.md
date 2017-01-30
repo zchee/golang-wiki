@@ -11,6 +11,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
+* [Copying](#copying)
 * [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
@@ -85,6 +86,17 @@ in the receiver, in globals, or, if it truly belongs there, in a Context value.
 Contexts are immutable, so it's fine to pass the same ctx to multiple
 calls that share the same deadline, cancellation signal, credentials,
 parent trace, etc.
+
+## Copying
+
+To avoid unexpected aliasing, be careful when copying a struct from another package.
+For example, the bytes.Buffer type contains a `[]byte` slice and, as an optimization
+for small strings, a small byte array to which the slice may refer. If you copy a `Buffer`,
+the slice in the copy may alias the array in the original, causing subsequent method
+calls to have surprising effects.
+
+In general, do not copy a value of type `T` if its methods are associated with the
+pointer type, `*T`.
 
 ## Declaring Empty Slices
 
