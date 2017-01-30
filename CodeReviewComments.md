@@ -467,6 +467,27 @@ output such as HTML.
 package template
 ```
 
+Other styles of comment are fine after the binary name (and it may be capitalized if it comes first).
+For example,
+
+```
+// Binary seedgen ...
+// Command seedgen ...
+// Program seedgen ...
+// The seedgen command ...
+// The seedgen program ...
+// Seedgen ..
+```
+
+These are examples, and sensible variants of these are acceptable.
+
+Note that starting the sentence with a lower-case word is not among the
+acceptable options for package comments, as these are publicly-visible and
+should be written in proper English, including capitalizing the first word
+of the sentence. When the binary name is the first word, capitalizing it is
+required even though it does not strictly match the spelling of the
+command-line invocation.
+
 See https://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
 
 ## Package Names
