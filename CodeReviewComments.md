@@ -415,7 +415,6 @@ Consider what it will look like in godoc.  Named result parameters like:
 
 ```go
 func (n *Node) Parent1() (node *Node)
-
 func (n *Node) Parent2() (node *Node, err error)
 ```
 
@@ -423,11 +422,15 @@ will stutter in godoc; better to use:
 
 ```go
 func (n *Node) Parent1() *Node
-
 func (n *Node) Parent2() (*Node, error)
 ```
 
-On the other hand, if a function returns two or three parameters of the same type, or if the meaning of a result isn't clear from context, adding names may be useful. For example:
+On the other hand, if a function returns two or three parameters of the same type, 
+or if the meaning of a result isn't clear from context, adding names may be useful
+in some contexts. Don't name result parameters just to avoid declaring a var inside
+the function; that trades off a minor implementation brevity at the cost of
+unnecessary API verbosity.
+
 
 ```go
 func (f *Foo) Location() (float64, float64, error)
@@ -441,9 +444,14 @@ is less clear than:
 func (f *Foo) Location() (lat, long float64, err error)
 ```
 
-Naked returns are okay if the function is a handful of lines. Once it's a medium-sized function, be explicit with your return values. Corollary: it's not worth it to name result parameters just because it enables you to use naked returns. Clarity of docs is always more important than saving a line or two in your function.
+Naked returns are okay if the function is a handful of lines. Once it's a medium
+sized function, be explicit with your return values. Corollary: it's not worth it
+to name result parameters just because it enables you to use naked returns.
+Clarity of docs is always more important than saving a line or two in your function.
 
-Finally, in some cases you need to name a result parameter in order to change it in a deferred closure.  That is always okay.
+Finally, in some cases you need to name a result parameter in order to change
+it in a deferred closure. That is always OK.
+
 
 ## Naked Returns
 
