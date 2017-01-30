@@ -12,7 +12,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
 * [Copying](#copying)
-* [CryptoRand](#cryptorand)
+* [Crypto Rand](#cryptorand)
 * [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
@@ -114,7 +114,7 @@ t := []string{}
 
 The former avoids allocating memory if the slice is never appended to.
 
-## CryptoRand
+## Crypto Rand
 
 Do not use package `math/rand` to generate keys, even throwaway ones.
 Unseeded, the generator is completely predictable. Seeded with `time.Nanoseconds()`,
