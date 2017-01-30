@@ -182,7 +182,13 @@ See https://golang.org/doc/effective_go.html#errors. Do not discard errors using
 
 ## Imports
 
-Imports are organized in groups, with blank lines between them.  The standard library packages are in the first group.
+Avoid renaming imports except to avoid a name collision; good package names
+should not require renaming. In the event of collision, prefer to rename the most
+local or project-specific import.
+
+
+Imports are organized in groups, with blank lines between them.
+The standard library packages are always in the first group.
 
 ```go
 package main
