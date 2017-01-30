@@ -8,7 +8,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 
 **Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
-* [gofmt](#gofmt)
+* [Gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
 * [Copying](#copying)
@@ -38,7 +38,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [Useful Test Failures](#useful-test-failures)
 * [Variable Names](#variable-names)
 
-## gofmt
+## Gofmt
 
 Run [gofmt](https://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
