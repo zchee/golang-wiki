@@ -276,7 +276,7 @@ handle them differently from other values.
 Some standard library functions, like those in package "strings",
 return in-band error values. This greatly simplifies string-manipulation
 code at the cost of requiring more diligence from the programmer.
-In general, Google Go code should return additional values for errors.
+In general, Go code should return additional values for errors.
 
 ## Indent Error Flow
 
