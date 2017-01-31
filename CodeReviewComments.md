@@ -12,7 +12,7 @@ You can view this as a supplement to https://golang.org/doc/effective_go.html.
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
 * [Copying](#copying)
-* [Crypto Rand](#cryptorand)
+* [Crypto Rand](#crypto-rand)
 * [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
