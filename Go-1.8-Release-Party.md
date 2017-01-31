@@ -62,6 +62,7 @@ Here is a list of the groups who are participating.
 - Bangor (Wales UK) - Feb 16th 7:00 PM hosted by [NorthWalesTech](http://northwales.technology/). See the [Meetup page](https://www.meetup.com/NorthWalesTech/events/236961582/)
 - Odessa, Ukraine - Feb 25th 10:00am at VertaMedia. See the [meetup page](http://vmes.vertamedia.com/).
 - Valencia, Spain - Feb 18th 19:00pm at Oh my Game Bar. Visit the [Telegram group](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) or visit our [twitter](https://twitter.com/golangvalencia).
+- Austin, TX (USA) - Feb 16th 6:30 PM (GMT-6) visit the [Austin Go Language User Group](https://www.meetup.com/atxgolang/events/237329768/) Meetup page for details
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
