@@ -32,6 +32,16 @@ While triaging the bug:
 
 Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/WaitingForInfo) and ping them, remove the label when replies arrive, or close the bugs if a reply never arrived.
 
+### "Unplanned" bugs"
+
+We used to use the Github Milestone "Unplanned" to mean we're not planning on working something this cycle, but might sometime in the future. That became a blackhole of issues we never saw again, so we've stopped using "Unplanned", yet many still exist:
+
+https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3AUnplanned%20-label%3AGo2%20%20-label%3AExpertNeeded%20-label%3AThinking
+
+(That query excludes ExpertNeeded, Go2, and Thinking bugs.)
+
+Go through the Unplanned list and either see if they can be closed, or retarget them to "Go1.XMaybe" where X is the next release. At least then we'll look at them again before bumping them to "Go1.(X+1)Maybe" or closing.
+
 ### Pending CLs
 
 Review the format of commit messages and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
