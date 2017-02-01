@@ -53,21 +53,31 @@ Milestones describe the timeline for issue resolution.
 - Go1.x.y
 
     Must be fixed for release 1.x.y.
+
 - Go1.x.yMaybe
 
     Might be fixed for release 1.x.y.
+
 - Proposal
 
     Is a proposal and does not pertain to a specific release.
+
 - Soon
 
     Should be fixed soon, but is not included in or needed by a release.
+
 - Unplanned
 
     Might be fixed at some point, but nobody is planning to do it.
+
 - Unreleased
 
     Is not included in or needed by a release.
+
+- Gccgo
+
+    For gccgo issues.
+
 - Go2
 
     Deferred until Go 2.
