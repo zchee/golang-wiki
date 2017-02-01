@@ -65,6 +65,7 @@ Here is a list of the groups who are participating.
 - Austin, TX (USA) - Feb 16th 6:30 PM (GMT-6) visit the [Austin Go Language User Group](https://www.meetup.com/atxgolang/events/237329768/) Meetup page for details
 - Hyderabad, India - Feb 16th 6:30 PM visit the [Hyderabad Gophers](https://www.meetup.com/Hyderabad-Gophers/events/237360939/) Meetup page for details or contact [@itsbalamurali](https://twitter.com/itsbalamurali), [@gouthamve](https://twitter.com/putadent) for more details.
 - Edmonton, AB (Canada) - Feb 27th 6:30 PM visit [Edmonton Go](https://edmontongo.org/) and RSVP via the [meetup page](https://www.meetup.com/startupedmonton/events/jptkwlywdbkc/).
+- Dallas, TX - Feb 16th 7:00 PM visit [GoDFW](https://www.meetup.com/GolangDFW/) and RSVP via the [meetup page](https://www.meetup.com/GolangDFW/events/237369419/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
