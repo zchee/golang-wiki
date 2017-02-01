@@ -11,6 +11,7 @@ Please keep all items in chronological order.
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ |
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
+| GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 
 ## Archives
