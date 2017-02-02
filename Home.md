@@ -110,17 +110,17 @@ Here are some of the places where you can find Gophers online. To get a sense of
 ## Using the go toolchain
 
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
-  - Using the Go 1.5 `GO15VENDOREXPERIMENT`
-    - Start here for the [official documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories).
-(https://twitter.com/freeformz).
-    - See also [PackageManagementTools](PackageManagementTools) for additional details.
+  - Start here for to learn about [vendoring](https://golang.org/cmd/go/#hdr-Vendor_Directories).
+  - See also [PackageManagementTools](PackageManagementTools) for package management tools.
+  - [Cross Compilation](https://rakyll.org/cross-compilation/)
   - Shared libraries and Go (buildmode)
     - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries from Go and Python.
-    - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
-    - [Sharing Golang Packages to C](http://blog.ralch.com/tutorial/golang-sharing-libraries/) - A tutorial by [@ralch](https://twitter.com/ralch).
+    - [Sharing Go Packages with C](http://blog.ralch.com/tutorial/golang-sharing-libraries/) - by [@ralch](https://twitter.com/ralch).
     - [Calling Go libraries from Python](https://blog.filippo.io/building-python-modules-with-go-1-5/) - by Filippo Valsorda
     - [Calling Go libraries from Ruby](http://c7.se/go-and-ruby-ffi/) - by Peter Hellberg
+    - [Calling Go libraries from Swift](https://rakyll.org/swift/) - by Jaana Burcu Dogan
     - [Build a Ruby Gem with a Go native extension](http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree) - by @jondot
+    - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
   - See the wikis below for additional details:
     - [GoGetTools](GoGetTools)
     - [GoGetProxyConfig](GoGetProxyConfig)
@@ -129,7 +129,8 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [GccgoCrossCompilation](GccgoCrossCompilation)
     - [GcToolchainTricks](GcToolchainTricks)
     - [GoGenerateTools](GoGenerateTools)
-
+    - [Go Tooling Essentials](https://rakyll.org/go-tool-flags/) - by Jaana Burcu Dogan
+    
 ## Additional Go Programming Wikis
 
   - [Why Go doesn't Support Generics: A Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/preview) - Start here before you join the debate.
