@@ -25,7 +25,7 @@ Here is a list of the groups who are participating.
 - Belo Horizonte, MG, Brazil: Feb 16 7pm at The Plant. Contact [@joaoh82](https://twitter.com/joaoh82) for more info or go to [Go Belo Horizonte](https://www.meetup.com/go-belo-horizonte/)
 - Florianólis, SC, Brazil: Feb 16 7pm at Neoway Business Solutions. Contact [@ricardolonga](https://twitter.com/ricardolonga) for more info or go to [Floripa Gophers](https://www.meetup.com/Floripa-Gophers/events/236729070/)
 - São Paulo, Brazil: Feb 16 7pm at TBD. Contact [@vdemario](https://twitter.com/vdemario) for more info or check the [meetup page](https://www.meetup.com/golangbr/)
-- [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at TBD, see [event page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
+- [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at [Deezer](www.deezer.com/features), see [meetup page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
 - PDXGo: Feb 16 6:30 pm at ESRI. View the [meetup](https://www.meetup.com/PDX-Go/events/236702058/) for details.
