@@ -469,6 +469,7 @@
   * [RebelWorks](http://www.rebelworks.io)
   * [RedtreeMobile](http://redtreemobile.com)
   * [Rimbun Job Agency](http://www.rimbunjob.com)
+  * [Sale Stock](https://www.salestockindonesia.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
   * [Tokopedia](http://tokopedia.com)
   * [Zelos](http://zelos.id)
