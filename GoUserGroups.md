@@ -25,6 +25,7 @@
 
 # Europe
 
+  * [Gophers Aachen](https://www.meetup.com/Gophers-Aachen/) - Aachen, Germany.
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
   * [Belarus](http://gophers.by/) - Belarus.
   * [Barcelona](http://golangbcn.org) - Barcelona, Catalunya, Spain.
