@@ -9,6 +9,7 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](http://www.youtube.com/watch?v=XCsL89YtqCs)]
 
 
+***
 
   * **Go for Web Development [Video]**
     * Author: Larry Price
@@ -18,6 +19,8 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/web-development/go-web-development-video/)]
 
  
+***
+
   * **Go: Building Web Applications**
     * Authors: Nathan Kozyra, Mat Ryer
     * Publication Date: August 2016
