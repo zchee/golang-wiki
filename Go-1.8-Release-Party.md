@@ -17,6 +17,7 @@ Don't forget to add your meetup's details :point_down: right here.
 #### Who's involved?
 Here is a list of the groups who are participating.
 
+- Aachen, Germany: Feb 16 7pm, [view the meetup](https://www.meetup.com/Gophers-Aachen/events/237423932/)
 - Bengaluru, India - Feb 16th 7.00pm at [Gojek] (https://twitter.com/GojekTech) office. Contact [@rbharshetty] (https://twitter.com/rBharshetty) or view the [meetup] (https://www.meetup.com/Golang-Bangalore/events/237156123/) for details
 - Munich, Germany: Feb 15 7pm at Stylight. Contact [@lc0d3r](https://twitter.com/lc0d3r), [@munich_gophers](https://twitter.com/munich_gophers) or view the [meetup](https://www.meetup.com/Munich-Gophers-Go-User-Group/events/236962991/) for details.
 - Washington DC: Feb 16 7pm at MakeOffices Dupont. View the [meetup](https://www.meetup.com/Golang-DC/events/236696696/) for details.
