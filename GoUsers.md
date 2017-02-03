@@ -354,6 +354,7 @@
   * [Moip Pagamentos](https://www.moip.com.br)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
+  * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
   * [Planrockr](http://planrockr.com)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
   * [ServiceNet](http://www.servicenet.com.br)
