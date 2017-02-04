@@ -1,4 +1,4 @@
-Go mobile subrepository adds support for mobile platforms (Android and iOS) and provides tools to build mobile applications.
+The Go mobile subrepository adds support for mobile platforms (Android and iOS) and provides tools to build mobile applications.
 
 There are two strategies you can follow to include Go into your mobile stack:
 
@@ -38,7 +38,7 @@ $ gomobile init # it might take a few minutes
 
 ## Native applications
 
-Native category includes applications entirely written in Go. Currently, the
+The native category includes applications entirely written in Go. Currently, the
 [golang.org/x/mobile](https://godoc.org/golang.org/x/mobile)
 contains only a small set of packages that focus on:
 
@@ -68,7 +68,7 @@ Build command will build an APK named basic.apk.
 
 If an AndroidManifest.xml is defined in the package directory, it is added to the APK output. Otherwise, a default manifest is generated.
 
-If you have [adb](http://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
+If you have the [adb](http://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
 
 ```
 $ gomobile install golang.org/x/mobile/example/basic
@@ -83,7 +83,7 @@ Note: target=ios requires the host machine running OS X. You need to obtain a [s
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
 ```
 
-The build command will build an application bundle, named basic.app.
+The build command will build an application bundle, named `basic.app`.
 
 You can deploy .app files by dragging and dropping them to the device.
 
@@ -105,7 +105,7 @@ $ ios-deploy -b basic.app
 In this category, we will show you how you can use a Go package in
 your existing Android or iOS application.
 
-The advantages to follow this strategy:
+The advantages to following this strategy:
 
 * You can reuse a Go package from a mobile app without making significant changes to your existing application.
 * In cases where you want to share a common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
@@ -150,7 +150,7 @@ The command above will generate an [aar](http://tools.android.com/tech-docs/new-
 
 ### Building and deploying to iOS
 
-Note: target=ios requires the host machine running OS X.
+Note: target=ios requires the host machine to be running OS X.
 
 ```
 $ cd $GOPATH/src/golang.org/x/mobile/example/bind
