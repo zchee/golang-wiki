@@ -96,6 +96,8 @@ _Please send PR's with corrections/additions_
 
 [Here's a link to the _draft_ Go 1.8 release notes](http://beta.golang.org/doc/go1.8).
 
+[Here's a link](https://talks.golang.org/2017/state-of-go.slide/) to the talk by Francesc Campoy: The State of Go (February 2017).
+
 ### What'll happen if Go 1.8 comes out before the 16th?
 This is likely to happen, but many meetups have a January date scheduled and don't want to hold two meetups so close together. The 16th is an arbitrary date that a quorum of meetups could find that didn't conflict with their existing schedules. 
 
