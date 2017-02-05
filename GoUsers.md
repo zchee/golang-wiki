@@ -638,6 +638,7 @@
 
 ## Turkey
   * [GramGames](http://gram.gs/)
+  * [Insider](http://useinsider.com/)
 
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
