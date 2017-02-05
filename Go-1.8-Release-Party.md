@@ -16,7 +16,7 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
-- Tehran, Iran: Feb 16 5pm , at [Clickyab] (https://clickyab.com) office. Visit [event page](https://goo.gl/XgQ02E).
+- Tehran, Iran: Feb 16 5pm , at [Clickyab] (https://clickyab.com) office. Visit [event page](https://goo.gl/XgQ02E).Contact [@fzerorubigd](https://twitter.com/fzerorubigd) for more info.
 - Florence area, Italy: Feb 16 6pm CET, at Develer SRL. Visit [event page](https://www.eventbrite.it/e/biglietti-go-18-release-party-31564433069?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing) for more detail or contact [@golab_conf](https://twitter.com/golab_conf).
 - Aachen, Germany: Feb 16 7pm, [view the meetup](https://www.meetup.com/Gophers-Aachen/events/237423932/)
 - Bengaluru, India - Feb 16th 7.00pm at [Gojek] (https://twitter.com/GojekTech) office. Contact [@rbharshetty] (https://twitter.com/rBharshetty) or view the [meetup] (https://www.meetup.com/Golang-Bangalore/events/237156123/) for details
