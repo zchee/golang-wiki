@@ -382,6 +382,12 @@ Sorted by publication date.
     * ISBN: 978-5-8459-2051-5
     * Reference: http://www.williamspublishing.com/Books/978-5-8459-2051-5.html
 
+  * **Go на практике**
+    * Author: Батчер М., Фарина М.
+    * Publication Date: 2017-01
+    * ISBN: 978-5-97060-477-9
+    * Reference: http://dmkpress.com/catalog/computer/programming/978-5-97060-477-9/
+
 #Español
   * **Aprende Go en Y minutos**
     * Author: Nacho Pacheco
