@@ -68,7 +68,9 @@ Here is a list of the groups who are participating.
 - Hyderabad, India - Feb 16th 6:30 PM visit the [Hyderabad Gophers](https://www.meetup.com/Hyderabad-Gophers/events/237360939/) Meetup page for details or contact [@itsbalamurali](https://twitter.com/itsbalamurali), [@gouthamve](https://twitter.com/putadent) for more details.
 - Edmonton, AB (Canada) - Feb 27th 6:30 PM visit [Edmonton Go](https://edmontongo.org/) and RSVP via the [meetup page](https://www.meetup.com/startupedmonton/events/jptkwlywdbkc/).
 - Dallas, TX - Feb 16th 7:00 PM visit [GoDFW](https://www.meetup.com/GolangDFW/) and RSVP via the [meetup page](https://www.meetup.com/GolangDFW/events/237369419/)
-- Trójmiasto (Gdańsk-Sopot-Gdynia), Poland - Feb 13th 6:00 PM visit [GUGT](https://www.meetup.com/Golang-User-Group-Trojmiasto/) and RSVP via the [meetup page](https://www.meetup.com/Golang-User-Group-Trojmiasto/events/237271455/)
+- Trójmiasto (Gdańsk-Sopot-Gdynia), Poland - Feb 13th 6:00 PM visit [GUGT](https://www.meetup.com/Golang-User-Group-Trojmiasto/) and RSVP via the [meetup page](https://www.meetup.com/Golang-User-Group-Trojmiasto/events/237271455/)  
+- Istanbul, Turkey - Feb 16th 7:00 PM at [Insider](http://useinsider.com/?utm_source=Github&utm_campaign=Go%201.8%20Release%20Party). RSVP via the [eventbrite page](https://www.eventbrite.com/e/insider-go-18-release-party-tickets-31826925190)  
+
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
