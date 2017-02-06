@@ -349,6 +349,7 @@
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Hotel Urbano](http://www.hotelurbano.com)
+  * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Moip Pagamentos](https://www.moip.com.br)
