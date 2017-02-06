@@ -69,7 +69,7 @@ Here is a list of the groups who are participating.
 - Edmonton, AB (Canada) - Feb 27th 6:30 PM visit [Edmonton Go](https://edmontongo.org/) and RSVP via the [meetup page](https://www.meetup.com/startupedmonton/events/jptkwlywdbkc/).
 - Dallas, TX - Feb 16th 7:00 PM visit [GoDFW](https://www.meetup.com/GolangDFW/) and RSVP via the [meetup page](https://www.meetup.com/GolangDFW/events/237369419/)
 - Trójmiasto (Gdańsk-Sopot-Gdynia), Poland - Feb 13th 6:00 PM visit [GUGT](https://www.meetup.com/Golang-User-Group-Trojmiasto/) and RSVP via the [meetup page](https://www.meetup.com/Golang-User-Group-Trojmiasto/events/237271455/)  
-- Istanbul, Turkey - Feb 16th 7:00 PM at [Insider](http://useinsider.com/?utm_source=Github&utm_campaign=Go%201.8%20Release%20Party). RSVP via the [eventbrite page](https://www.eventbrite.com/e/insider-go-18-release-party-tickets-31826925190)  
+- Istanbul, Turkey - Feb 16th 7:00 PM at [Insider](http://useinsider.com/?utm_source=Github&utm_campaign=Go%201.8%20Release%20Party). RSVP via the [eventbrite page](https://www.eventbrite.com/e/insider-go-18-release-party-tickets-31826925190).  
 
 
 _If your group is not listed here yet, edit the page and add yourself._
