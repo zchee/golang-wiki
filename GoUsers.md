@@ -404,6 +404,7 @@
   * [Batch.com](https://batch.com)
   * [IRI France](http://www.iri-labs.com)
   * [Teads.tv](http://teads.tv/)
+  * [Algolia](https://algolia.com)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
