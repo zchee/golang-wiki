@@ -70,7 +70,8 @@ Here is a list of the groups who are participating.
 - Edmonton, AB (Canada) - Feb 27th 6:30 PM visit [Edmonton Go](https://edmontongo.org/) and RSVP via the [meetup page](https://www.meetup.com/startupedmonton/events/jptkwlywdbkc/).
 - Dallas, TX - Feb 16th 7:00 PM visit [GoDFW](https://www.meetup.com/GolangDFW/) and RSVP via the [meetup page](https://www.meetup.com/GolangDFW/events/237369419/)
 - Trójmiasto (Gdańsk-Sopot-Gdynia), Poland - Feb 13th 6:00 PM visit [GUGT](https://www.meetup.com/Golang-User-Group-Trojmiasto/) and RSVP via the [meetup page](https://www.meetup.com/Golang-User-Group-Trojmiasto/events/237271455/)  
-- Istanbul, Turkey - Feb 16th 7:00 PM at [Insider](http://useinsider.com/?utm_source=Github&utm_campaign=Go%201.8%20Release%20Party). RSVP via the [eventbrite page](https://www.eventbrite.com/e/insider-go-18-release-party-tickets-31826925190).  
+- Istanbul, Turkey - Feb 16th 7:00 PM at [Insider](http://useinsider.com/?utm_source=Github&utm_campaign=Go%201.8%20Release%20Party). RSVP via the [eventbrite page](https://www.eventbrite.com/e/insider-go-18-release-party-tickets-31826925190).
+- Strasbourg, France - Feb 16th 6:30 PM at [La Plage Digitale](http://www.alsacedigitale.org/). RSVP via the [meetup page](https://goo.gl/R1A8Mg).
 
 
 _If your group is not listed here yet, edit the page and add yourself._
@@ -81,7 +82,7 @@ _Organisers, once you've added your group, consider tweeting out a link to the p
 Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, and keep up to date. 
 
 As always, if you get stuck, or need help, please [contact the organisers directly](https://github.com/golang/go/wiki/Go-1.8-release-party#no-seriously-whos-organising-this), we're here to help.
-
+.
 ##### Slack Channel
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://invite.slack.golangbridge.org/).
 
