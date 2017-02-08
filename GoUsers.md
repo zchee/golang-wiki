@@ -362,6 +362,7 @@
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
+  * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
   * [Walmart](http://www.walmart.com.br)
 
 ## Belgium
