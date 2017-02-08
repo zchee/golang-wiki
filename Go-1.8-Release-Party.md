@@ -16,6 +16,7 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
+- Mexico City, Mexico: Feb 16 7:00pm at Palo-IT, view the [meetup](https://www.meetup.com/GophersMX/events/237559318/) for details.
 - Helsinki, Finland: Feb 16 5:30pm, [view the meetup](https://www.meetup.com/Helsinki-Gophers/events/237504573/)
 - Tehran, Iran: Feb 16 5pm , at [Clickyab] (https://clickyab.com) office. Visit [event page](https://goo.gl/XgQ02E) for more info or contact [@fzerorubigd](https://twitter.com/fzerorubigd).
 - Florence area, Italy: Feb 16 6pm CET, at Develer SRL. Visit [event page](https://www.eventbrite.it/e/biglietti-go-18-release-party-31564433069?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing) for more detail or contact [@golab_conf](https://twitter.com/golab_conf).
