@@ -54,3 +54,7 @@ Rejected.
 ### Add warnings to the Go compiler
 
 Rejected.
+
+### Weak references
+
+Unlikely to be added. See discussion at https://groups.google.com/forum/#!topic/golang-nuts/PYWxjT2v6ps, and https://groups.google.com/forum/?pli=1#!topic/golang-nuts/MMWXRANh0-g which points out that `sync.Pool` is a specific form of weak reference.
