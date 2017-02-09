@@ -6,7 +6,11 @@ There are two types of Gerrit access described here, with different powers & res
 
 ## Approver Access ("approvers")
 
-Approver access gives you power to +2 CLs and submit them. Only +2 things that you're very confident in, and generally only in a directory (or package) that you normally "own", unless it's trivial and obviously correct.
+Approver access gives you power to +2 CLs and submit them.
+
+Rules for voting +2 on changes: only +2 things that you're very confident in, and generally only in a directory (or package) that you normally "own", unless it's trivial and obviously correct.
+
+Rules for submitting changes: if a change touches an area that you own, you can submit any changes after a +2. But elsewhere only submit your own changes after receiving a +2 from the owner of that area.
 
 To request this access, reference https://go-review.googlesource.com/#/admin/groups/1005 in your email. See below.
 
