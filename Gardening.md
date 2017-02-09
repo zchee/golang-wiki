@@ -34,11 +34,12 @@ See https://golang.org/wiki/HandlingIssues for how we use Github's issue metadat
 
 Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/WaitingForInfo) and ping them, remove the label when replies arrive, or close the bugs if a reply never arrived.
 
-### "Unplanned" bugs"
+### "Unplanned" bugs
 
 "Unplanned" issues have a habit of being neglected. Check out old ones and see if they're easily fixable (and can be moved to a Go1.n or Go 1.nMaybe milestone), or should be closed.
 
 These are the Unplanned bugs sorted by age, most stale ones first: https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3AUnplanned%20sort%3Aupdated-asc%20-label%3AGo2%20-label%3ALanguageChange
+
 ### Pending CLs
 
 Review the format of commit messages and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
