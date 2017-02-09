@@ -77,6 +77,7 @@ Here is a list of the groups who are participating.
 - Waterloo, Canada - Feb 16 7:00 PM at the Lion's Brewery at the [Heuther Hotel](http://www.huetherhotel.com/).  RSVP via the [meetup page](https://www.meetup.com/Golang-KW/events/237554495/).
 - Republic of Korea - Feb 16  8:00 Pm at GangNam 2nd TOZ. See the [meetup page]
 (https://www.facebook.com/groups/golangko/).
+- Dublin, Ireland - Feb 16 6:30 PM at Arista Networks. [Meetup](https://www.meetup.com/Dublin-Go-Meetup/events/237589126/) details.
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
