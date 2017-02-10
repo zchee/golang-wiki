@@ -3,7 +3,7 @@
 ## United States
 
   * [Google](http://google.com/) - the core Go team work at Google. Most uses of Go at Google are confidential.
-    * [Kubernetes](http://kubernetes.io/)
+    * [Kubernetes](http://kubernetes.io/)nethe
     * The [YouTube](http://youtube.com/) team have released their [MySQL scaling infrastructure](http://vitess.io/) as open source software [1](https://www.youtube.com/watch?v=5yDO-tmIoXY), [2](https://www.youtube.com/watch?v=qATTTSg6zXk), [3](https://www.youtube.com/watch?v=midJ6b1LkA0&sns=gp)
     * dl.google.com is written in Go: [mailing list discussion](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/BNUNbKSypE0) / [OSCON slides](http://talks.golang.org/2013/oscon-dl.slide#1)
     * [Flywheel: Google's Data Compression Proxy for the Mobile Web](http://research.google.com/pubs/pub43447.html), [blog post on the rewrite](http://matt-welsh.blogspot.co.uk/2013/08/rewriting-large-production-system-in-go.html)
@@ -571,6 +571,7 @@
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
   * [Nextail](https://www.nextail.nl/)
+  * [Pocket Media](http://www.pocketmedia.mobi/) - [company website](http://www.pocketmedia.mobi/), [github](github.com/pocketbrain/)
   * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
