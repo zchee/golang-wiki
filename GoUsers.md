@@ -53,6 +53,7 @@
   * [Beehively](http://beehively.com) - [Presentation](https://speakerdeck.com/nexneo/joy-of-single-purpose-services-in-go)
   * [Beme](http://beme.com) - [job post](http://beme.com/jobs.html#product-engineer)
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
+  * [Benzinga](https://www.benzinga.com) - [pro](https://pro.benzinga.com/), [jobs](http://jobs.benzinga.com/)
   * [BigCommerce](https://www.bigcommerce.com/) - [blog](http://www.bigeng.io/what-keeps-us-going/), [github](https://github.com/bigcommerce)
   * [Bitbucket](https://bitbucket.org/) - [source](http://www.reddit.com/r/golang/comments/1pjn0k/bitbucket_hiccup_reveals_go_usage/)
   * [bitly](http://bit.ly) - [github](https://github.com/bitly/nsq) [blog](http://word.bitly.com/post/33232969144/nsq)
