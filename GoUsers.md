@@ -471,6 +471,7 @@
   * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
   * [President University](http://presuniv.com)
   * [Qasico Teknologi Indonesia](https://qasico.com)
+  * [Qiscus](https://www.qiscus.com)
   * [RajaMall Energia Syakha Tech](http://www.lokerindonesia.com/teknologi-informasi/programmer/lowongan-programmer-di-bandung.html)
   * [Raydar](http://goraydar.com)
   * [RebelWorks](http://www.rebelworks.io)
