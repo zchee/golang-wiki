@@ -40,6 +40,10 @@ Some of this documentation may be out of date.
   * [golang-korea](http://code.google.com/p/golang-korea) - Go documentation and news.
   * [golang-kr wiki](http://github.com/golang-kr/golang-doc/wiki) - Korean Translation of golang.org/doc
 
+## Russian - русский язык
+
+  * [Effective Go](https://github.com/Konstantin8105/Effective_Go_RU/blob/master/README.md)
+
 ## Turkish - Türkçe
 
   * [A Tour of Go](http://tur.a.golang.org.tr/)
