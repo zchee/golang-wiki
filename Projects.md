@@ -141,6 +141,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Cloud Computing
 
+  * [LXD](https://github.com/lxc/lxd) Daemon based on liblxc offering a REST API to manage containers
   * [Docker](http://docker.io) - The Linux container runtime. Developed by dotCloud.
   * [Enduro/X ASG] (https://github.com/endurox-dev/endurox-go) Application Server for Go. Provides application server and middleware facilities for distributed transaction processing. Supports microservices based application architecture. Developed by ATR Baltic.
   * [Kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
