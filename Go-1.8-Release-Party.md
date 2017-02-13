@@ -63,7 +63,7 @@ Here is a list of the groups who are participating.
 - Milan, Italy - Feb 16th 6.30pm, at Ibuildings' offices. For info tweet to [@kmox83](https://twitter.com/kmox83) or [@mavimo](https://twitter.com/mavimo) - See the [event page](https://www.meetup.com/Golang-Milano/)
 - Singapore - Feb 16th 7.30pm, at Singapore Power office. See the [Meetup page](https://www.meetup.com/golangsg/events/236725569/) or tweet to [@golangSG](https://twitter.com/golangSG)
 - Cardiff (Wales UK) - Feb 15th 18:00 at Tramshed Cardiff. See the [Meetup page](https://www.meetup.com/Cardiff-Go-Meetup/events/237158460/) or tweet to [@cdfgolang](https://twitter.com/cdfgolang)
-- Minsk, Belarus - Feb 16th 7.00pm at Juno. Details will follow up.
+- Minsk, Belarus - Feb 16th 7.00pm at Juno. [Meetup] (https://www.meetup.com/JunoCrew-meetups/events/237671824/) [Registration here:](https://goo.gl/forms/Fw07rIouWDyMiT5e2)
 - Bangor (Wales UK) - Feb 16th 7:00 PM hosted by [NorthWalesTech](http://northwales.technology/). See the [Meetup page](https://www.meetup.com/NorthWalesTech/events/236961582/) or tweet to [@northwalestech](https://twitter.com/northwalestech)
 - Odessa, Ukraine - Feb 25th 10:00am at VertaMedia. See the [meetup page](http://vmes.vertamedia.com/).
 - Valencia, Spain - Feb 18th 19:00pm at Oh my Game Bar. Visit the [Telegram group](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) or visit our [twitter](https://twitter.com/golangvalencia).
