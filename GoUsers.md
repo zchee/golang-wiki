@@ -492,6 +492,7 @@
   * [Intercom](http://intercom.io/)
  
 ## Israel
+  * [Stratoscale](http://www.stratoscale.com) - [github](https://github.com/Stratoscale)
   * [353Solutions](http://353solutions.com) 
   * [BigPanda](http://bigpanda.io) 
   * [Dragontail Systems](http://www.dragontailsystems.com) 
