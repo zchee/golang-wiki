@@ -13,7 +13,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Digg](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f#.yw5lk8t25)
 * [Uber](https://www.infoq.com/articles/podcast-matt-ranney) (audio)
 * [Apex/TJ Holowaychuk](https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b#.3hjxf6pbp)
-* [ScaleDrone](http://blog.scaledrone.com/posts/nodejs-to-go)
+* [ScaleDrone migrated all websocket servers from Node.js to Go](http://blog.scaledrone.com/posts/nodejs-to-go)
 * [From Node.js To Go, Why One Startup Made The Switch](http://thenewstack.io/from-node-js-to-go-why-one-startup-made-the-switch/)
 * [Why did Koding switch from Node.js to Go?](https://www.quora.com/Why-did-Koding-switch-from-Node-js-to-Go)
 * [Letting Go of Node.js](http://blog.davebalmer.com/letting-go-of-node-js/)
