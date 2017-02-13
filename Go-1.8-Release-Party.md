@@ -16,6 +16,7 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
+- Orlando, FL: Feb 16 7:00PM, Location TBD, [Orlando Gophers](https://www.meetup.com/OrlandoGophers/)
 - Mexico City, Mexico: Feb 16 7:00pm at Palo-IT, view the [meetup](https://www.meetup.com/GophersMX/events/237559318/) for details.
 - Helsinki, Finland: Feb 16 5:30pm, [view the meetup](https://www.meetup.com/Helsinki-Gophers/events/237504573/)
 - Tehran, Iran: Feb 16 5pm , at [Clickyab] (https://clickyab.com) office. Visit [event page](https://goo.gl/XgQ02E) for more info or contact [@fzerorubigd](https://twitter.com/fzerorubigd).
