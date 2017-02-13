@@ -80,6 +80,7 @@ Here is a list of the groups who are participating.
 - Dublin, Ireland - Feb 16 6:30 PM at Arista Networks. [Meetup](https://www.meetup.com/Dublin-Go-Meetup/events/237589126/) details.
 - Berlin, Germany - Feb 28 7:00 PM at Amazon. RSVP at [Meetup](https://www.meetup.com/golang-users-berlin/events/237611330/).
 - Portland, OR - Feb 16 6:30 PM at Esri R&D Center. RSVP at [Meetup](https://www.meetup.com/PDX-Go/events/236702058/).
+- Lyon, France - Fev 16 7 PM at OVH. RSVP at [Meetup](https://www.meetup.com/Golang-Lyon/events/237073142/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
