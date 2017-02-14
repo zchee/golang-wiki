@@ -49,7 +49,7 @@ Here is a list of the groups who are participating.
 - Lille, France: Feb 16 at 6:45PM at [Epitech Lille](https://goo.gl/maps/C6H7CjZWrFv). [Meetup page](https://www.meetup.com/GDG-Lille/events/236825262).
 - Hamburg, Germany: Feb 16 at 7PM place at [loodse](https://loodse.com/en/). [Meetup page](https://www.meetup.com/Go-User-Group-Hamburg/events/236813440/).
 - Okayama, Japan: Feb 16 7pm at Kurashiki Coffee Shop. See an [event page](https://connpass.com/event/48433/) or contact [@qt_luigi](https://twitter.com/qt_luigi) for more info.
-- Phoenix, AZ: Feb 16 at 6:30PM, venue TBD. See [event page](https://www.meetup.com/Golang-Phoenix/events/236891853/) or contact [@golangPhoenix](https://twitter.com/golangPhoenix)
+- Phoenix, AZ: Feb 16 at 6:30PM, at [Brightcove](https://www.brightcove.com), Scottsdale. See [event page](https://www.meetup.com/Golang-Phoenix/events/236891853/) or contact [@golangPhoenix](https://twitter.com/golangPhoenix)
 - Toronto, Canada: Firkin on King, See [event page](https://www.meetup.com/go-toronto/events/236855730/)
 - Seattle, WA: Feb 16 at 6PM at Uber, See [event page](https://www.meetup.com/golang/events/236803478/)
 - Vancouver, BC, Canada: Feb 16 at 6PM at [Hootsuite](http://hootsuite.com), See [event page](https://www.meetup.com/golangvan/events/236807698/)
