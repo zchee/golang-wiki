@@ -84,6 +84,7 @@ Here is a list of the groups who are participating.
 - Lyon, France - Fev 16 7 PM at OVH. RSVP at [Meetup](https://www.meetup.com/Golang-Lyon/events/237073142/)
 - New York - Fev 16 7:00 PM at [Nulab](http://nulab-inc.com/). RSVP at [Meetup](https://www.meetup.com/Bowery-Go/events/237620656/)
 - Dresden, Germany - Feb 16th 6:30PM at [LOVOO](https://www.lovoo.com). RVSP at http://doodle.com/poll/s2bw6eu4ywhqg9ut
+- London, UK - Feb 15th 6:30PM at Skills Matter Code Node RSVP at [Meetup](https://www.meetup.com/Go-London-User-Group/events/236963108/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
