@@ -33,6 +33,12 @@ Tools supporting this feature include:
 
 Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VENDOREXPERIMENT` to reference the local package store. Not only records specific version, but also fetches specific version.
 
+| **gogradle** |https://github.com/blindpirate/gogradle|
+|:----------|:-----------------------------|
+|Title      |A Full-featured Build Tool for Golang|
+|Author     |Bo Zhang    |
+|Categories |Project-scoped dependencies, Go version management, Vendoring, Version/Commit locking, Transitive dependency, Automatic build. Support All platforms |
+
 | **trash** |https://github.com/rancher/trash|
 |:----------|:-----------------------------|
 |Title      |Minimalistic Go vendored code manager|
