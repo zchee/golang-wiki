@@ -58,6 +58,7 @@ Here is a list of the groups who are participating.
 - Leeds, England, UK: Feb 16th at 6PM, at White Cloth Gallery in Leeds (LS1 4HT). See [event page](https://www.eventbrite.co.uk/e/go-18-release-party-tickets-31217190457)
 - Zurich, CH, Feb 23rd at 6:30PM at Unic AG offices in Altstetten. See [event page](https://www.meetup.com/Zurich-Gophers/events/236745236/)
 - Framingham, Ma - Feb 16th 7pm - See [event page](https://www.meetup.com/Framingham-Golang-Meetup/events/236999473/)
+- Cambridge, Ma - Feb 16th 6:30pm, at the Google Office in Cambridge - See [event page](https://www.meetup.com/Boston-Go-lang-User-Group/events/237190202/), contact [@bostongolang](https://twitter.com/bostongolang)
 - Tokyo, Japan - Feb 16th 7pm - See https://gocon.connpass.com/event/48281/
 - San Diego, CA @ ScouRED - Feb 16th 6pm - See [event page](https://www.meetup.com/sdgophers/events/236202461/), contact [@carlisia](https://twitter.com/carlisia)
 - Philadelphia, PA - Feb 16th 6PM, at Sidecar. See [Meetup page](https://www.meetup.com/GoLangPhilly/events/236965685/) or contact [@golangphilly](https://twitter.com/golangphilly)
