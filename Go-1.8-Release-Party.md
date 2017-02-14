@@ -55,7 +55,7 @@ Here is a list of the groups who are participating.
 - Vancouver, BC, Canada: Feb 16 at 6PM at [Hootsuite](http://hootsuite.com), See [event page](https://www.meetup.com/golangvan/events/236807698/)
 - San Francisco, CA: Feb 16 at 6:30PM, venue TBD. See [event page](https://www.meetup.com/golangsf/events/236673793/)
 - Copenhagen, Denmark: Feb 16th at 6PM, at Vivino. See [event page](https://www.meetup.com/Go-Cph/events/233646078/) or contact [@phr0e](https://twitter.com/phr0e) or [@CphGophers](https://twitter.com/CphGophers)
-- Leeds, England, UK: Feb 16th at 6PM, at Infinity Works's offices. See [event page](https://www.eventbrite.co.uk/e/go-18-release-party-tickets-31217190457)
+- Leeds, England, UK: Feb 16th at 6PM, at White Cloth Gallery in Leeds (LS1 4HT). See [event page](https://www.eventbrite.co.uk/e/go-18-release-party-tickets-31217190457)
 - Zurich, CH, Feb 23rd at 6:30PM at Unic AG offices in Altstetten. See [event page](https://www.meetup.com/Zurich-Gophers/events/236745236/)
 - Framingham, Ma - Feb 16th 7pm - See [event page](https://www.meetup.com/Framingham-Golang-Meetup/events/236999473/)
 - Tokyo, Japan - Feb 16th 7pm - See https://gocon.connpass.com/event/48281/
