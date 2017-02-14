@@ -87,6 +87,7 @@ Here is a list of the groups who are participating.
 - London, UK - Feb 15th 6:30PM at Skills Matter Code Node RSVP at [Meetup](https://www.meetup.com/Go-London-User-Group/events/236963108/)
 - Auckland, NZ - Feb 15th 6:00PM at Vend, RSVP at [Meetup](https://www.meetup.com/Go-AKL/events/237547913/)
 - 🇻🇳 Saigon, Vietnam - Feb 21 7:00 PM, RSVP at our [Facebook Event page](https://www.facebook.com/events/386900578337910/)
+- Brno, CZ - Feb 28th 7:00PM. RSVP via the [meetup event page](https://www.meetup.com/Golang-Brno/events/237697083/).
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
