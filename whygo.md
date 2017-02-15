@@ -3,6 +3,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 ## Why Go
 
 - [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html) _2017-01-15_
+- [Why should you learn Go](https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65#.qu6he77fy) _2017-01-08_
 - [Moving a team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/) _2015-12-19_
 - [For Better or For Worse](http://jmoiron.net/blog/for-better-or-for-worse/) _2015-11-12_
 - [Six reasons why I love Go](http://jbu.io/2015/10/28/six-reasons-why-i-love-go/) _2015-10-28_
