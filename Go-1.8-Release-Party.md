@@ -68,7 +68,7 @@ Here is a list of the groups who are participating.
 - Minsk, Belarus - Feb 16th 7.00pm at Juno. [Meetup Page ->] (https://www.meetup.com/JunoCrew-meetups/events/237671824/) [Registration here ->](https://goo.gl/forms/Fw07rIouWDyMiT5e2)
 - Bangor (Wales UK) - Feb 16th 7:00 PM hosted by [NorthWalesTech](http://northwales.technology/). See the [Meetup page](https://www.meetup.com/NorthWalesTech/events/236961582/) or tweet to [@northwalestech](https://twitter.com/northwalestech)
 - Odessa, Ukraine - Feb 25th 10:00am at VertaMedia. See the [meetup page](http://vmes.vertamedia.com/).
-- Valencia, Spain - Feb 18th 19:00pm at Oh my Game Bar. Visit the [Telegram group](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) or visit our [twitter](https://twitter.com/golangvalencia).
+- Valencia, Spain - Feb 18th 17:00pm at Oh my Game Bar. Visit the [Telegram group](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) or visit our [twitter](https://twitter.com/golangvalencia).
 - Austin, TX (USA) - Feb 16th 6:30 PM (GMT-6) visit the [Austin Go Language User Group](https://www.meetup.com/atxgolang/events/237329768/) Meetup page for details
 - Hyderabad, India - Feb 16th 6:30 PM visit the [Hyderabad Gophers](https://www.meetup.com/Hyderabad-Gophers/events/237360939/) Meetup page for details or contact [@itsbalamurali](https://twitter.com/itsbalamurali), [@gouthamve](https://twitter.com/putadent) for more details.
 - Edmonton, AB (Canada) - Feb 27th 6:30 PM visit [Edmonton Go](https://edmontongo.org/) and RSVP via the [meetup page](https://www.meetup.com/startupedmonton/events/jptkwlywdbkc/).
