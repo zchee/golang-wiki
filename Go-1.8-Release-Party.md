@@ -26,7 +26,7 @@ Here is a list of the groups who are participating.
 - Munich, Germany: Feb 15 7pm at Stylight. Contact [@lc0d3r](https://twitter.com/lc0d3r), [@munich_gophers](https://twitter.com/munich_gophers) or view the [meetup](https://www.meetup.com/Munich-Gophers-Go-User-Group/events/236962991/) for details.
 - Washington DC: Feb 16 7pm at MakeOffices Dupont. View the [Golang meetup](https://www.meetup.com/Golang-DC/events/236696696/) and [GDG-DC] (https://www.meetup.com/gdg-dc) [Meetup] (https://www.meetup.com/gdg-dc/events/237677174/) for details.
 - Columbia, MD: Feb 16 5:30pm at Tier 1 Consulting Group. See [event page](https://www.meetup.com/Go-Maryland/events/237121509/)
-- Halifax, Nova Scotia, Canada: Feb 16 7pm at Volta Labs. Contact [@danp](https://twitter.com/danp128) for more info.
+- Halifax, Nova Scotia, Canada **Postponed due to weather, will be rescheduled** Contact [@danp](https://twitter.com/danp128) for more info.
 - Belo Horizonte, MG, Brazil: Feb 16 7pm at The Plant. Contact [@joaoh82](https://twitter.com/joaoh82) for more info or go to [Go Belo Horizonte](https://www.meetup.com/go-belo-horizonte/)
 - Florianólis, SC, Brazil: Feb 16 7pm at Neoway Business Solutions. Contact [@ricardolonga](https://twitter.com/ricardolonga) for more info or go to [Floripa Gophers](https://www.meetup.com/Floripa-Gophers/events/236729070/)
 - São Paulo, Brazil: Feb 16 7pm at TBD. Contact [@vdemario](https://twitter.com/vdemario) for more info or check the [meetup page](https://www.meetup.com/golangbr/)
