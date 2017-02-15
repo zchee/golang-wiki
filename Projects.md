@@ -1351,6 +1351,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-deps](https://github.com/sourcegraph/go-deps) - Analyzes and recursively installs Go package deps (library functionality similar to ` go get `)
   * [go-diff](https://github.com/daviddengcn/go-diff) - A diff command for go languange showing semantic differences of two go source files.
   * [gogitver](https://github.com/aletheia7/gogitver) - Embeds a git tag (version string) into your application
+  * [go-many-git](https://github.com/abrochard/go-many-git) - Manage and run commands across multiple git repositories
   * [go-pkgs](https://github.com/sourcegraph/go-pkgs) - Finds all matching packages in all of the GOPATH trees (library functionality similar to ` go list all `)
   * [go-vcs](https://github.com/sourcegraph/go-vcs) - clone and check out revs of VCS repositories (git and hg support)
   * [go-vcsurl](https://github.com/sourcegraph/go-vcsurl) - Lenient VCS repository URL parsing library
