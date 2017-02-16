@@ -16,6 +16,7 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
+- Buenos Aires, Argentina: Feb 16 7:00 pm. Location: MercadoLibre's Head Quarters. (https://www.meetup.com/es-ES/Golang-Argentina/)
 - Orlando, FL: Feb 16 7:00PM, Location TBD, [Orlando Gophers](https://www.meetup.com/OrlandoGophers/)
 - Mexico City, Mexico: Feb 16 7:00pm at Palo-IT, view the [meetup](https://www.meetup.com/GophersMX/events/237559318/) for details.
 - Helsinki, Finland: Feb 16 5:30pm, [view the meetup](https://www.meetup.com/Helsinki-Gophers/events/237504573/)
