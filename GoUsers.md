@@ -408,6 +408,7 @@
   * [IRI France](http://www.iri-labs.com)
   * [Teads.tv](http://teads.tv/)
   * [Algolia](https://algolia.com)
+  * [Zenly](https://zen.ly/)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
