@@ -16,6 +16,10 @@ See http://golang.org/wiki/GerritAccess and http://golang.org/wiki/GithubAccess
 
 Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](https://github.com/golang/go/wiki/HandlingIssues#issue-states).
 
+### Fix red
+
+Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag people. The build dashboard should never be red, even occasionally. If the tree is red, people can't work effectively because TryBots and such will just report failures, masking other problems.
+
 ### Triage new bugs
 
 Look at the untriaged bugs. For Go, we use the presence of a Milestone field to mean that the bug has been triaged. To search for un-milestoned issues, use https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Amilestone
