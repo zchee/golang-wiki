@@ -35,7 +35,6 @@ Here is a list of the groups who are participating.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Moscow, Russia: Feb 16 7pm. [Meetup group](https://www.meetup.com/Golang-Moscow/events/237132934/).
 - Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
-- PDXGo: Feb 16 6:30 pm at ESRI. View the [meetup](https://www.meetup.com/PDX-Go/events/236702058/) for details.
 - [@DenverGophers](https://twitter.com/DenverGophers) Feb 16 6:00pm at Comcast Viper. View the [meetup](http://bit.ly/denver-1-8-release-party) or contact [@apriendeau](https://twitter.com/apriendeau) for more info.
 - [@MinneapolisGo](https://twitter.com/MinneapolisGo) Feb 16 6:00pm at Agosto. View the [meetup](https://www.meetup.com/Minneapolis-Ultimate-Golang/events/236698705/) or contact [@corylanou](https://twitter.com/corylanou) for more info.
 - Amsterdam, the Netherlands: Feb 16 6pm at [Wercker](http://www.wercker.com). View the [meetup](https://www.meetup.com/golang-amsterdam/events/236723017/) for more details and RSVP.
@@ -82,7 +81,7 @@ Here is a list of the groups who are participating.
 (https://www.facebook.com/groups/golangko/).
 - Dublin, Ireland - Feb 16 6:30 PM at Arista Networks. [Meetup](https://www.meetup.com/Dublin-Go-Meetup/events/237589126/) details.
 - Berlin, Germany - Feb 28 7:00 PM at Amazon. RSVP at [Meetup](https://www.meetup.com/golang-users-berlin/events/237611330/).
-- Portland, OR - Feb 16 6:30 PM at Esri R&D Center. RSVP at [Meetup](https://www.meetup.com/PDX-Go/events/236702058/).
+- Portland, OR (pdxgo) - Feb 16 6:30 PM at Esri R&D Center. RSVP at [Meetup](https://www.meetup.com/PDX-Go/events/236702058/).
 - Lyon, France - Fev 16 7 PM at OVH. RSVP at [Meetup](https://www.meetup.com/Golang-Lyon/events/237073142/)
 - New York - Fev 16 7:00 PM at [Nulab](http://nulab-inc.com/). RSVP at [Meetup](https://www.meetup.com/Bowery-Go/events/237620656/)
 - Dresden, Germany - Feb 16th 6:30PM at [LOVOO](https://www.lovoo.com). RVSP at http://doodle.com/poll/s2bw6eu4ywhqg9ut
