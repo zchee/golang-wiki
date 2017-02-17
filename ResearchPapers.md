@@ -151,6 +151,9 @@ Turing Scholars honors thesis
   - https://brage.bibsys.no/xmlui//handle/11250/181813
 - Exploiting Parallelism in Coalgebraic Logic Programming (Komendantskaya, Schmidt, Heras)
   - https://arxiv.org/abs/1312.4454
+- Parallel Pattern Discovery (Egon Elbre), Master's Thesis, University of Tartu
+  - [pdf](http://egonelbre.github.io/spexs2/Thesis.pdf)
+  - [code](https://github.com/egonelbre/spexs2)
 
 ## 2012
 - Time Warp on the Go (D'Angelo, Ferretti, Marzolla)
