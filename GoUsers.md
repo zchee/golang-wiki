@@ -409,7 +409,7 @@
   * [Teads.tv](http://teads.tv/)
   * [Algolia](https://algolia.com)
   * [Zenly](https://zen.ly/)
-  * [Equisense](http://equisense.com/en/)
+  * [Equisense](https://www.equisense.com/en/)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
