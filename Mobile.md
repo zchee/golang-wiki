@@ -146,7 +146,7 @@ If you are not using Android Studio, in order to work with bindings for Android,
 $ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
 ```
 
-The command above will generate an [aar](http://tools.android.com/tech-docs/new-build-system/aar-format)  that can be importable by your IDE.
+The command above will generate an [aar](https://developer.android.com/studio/projects/android-library.html)  that can be importable by your IDE.
 
 ### Building and deploying to iOS
 
