@@ -34,7 +34,7 @@ Here is a list of the groups who are participating.
 - [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at [Deezer](www.deezer.com/features), see [meetup page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Moscow, Russia: Feb 16 7pm. [Meetup group](https://www.meetup.com/Golang-Moscow/events/237132934/).
-- Novosibirsk, Russia: Feb 16 7pm at Academpark. Contact [@lkalneus](https://twitter.com/lkalneus) for more info. Also join [Go Nsk group](https://www.meetup.com/golangnsk/)
+- Novosibirsk, Russia: Feb 19 11am NOVT. Contact [@lkalneus](https://twitter.com/lkalneus) for more info.  [Live stream](https://www.youtube.com/watch?v=r1KBpBpEinA)
 - [@DenverGophers](https://twitter.com/DenverGophers) Feb 16 6:00pm at Comcast Viper. View the [meetup](http://bit.ly/denver-1-8-release-party) or contact [@apriendeau](https://twitter.com/apriendeau) for more info.
 - [@MinneapolisGo](https://twitter.com/MinneapolisGo) Feb 16 6:00pm at Agosto. View the [meetup](https://www.meetup.com/Minneapolis-Ultimate-Golang/events/236698705/) or contact [@corylanou](https://twitter.com/corylanou) for more info.
 - Amsterdam, the Netherlands: Feb 16 6pm at [Wercker](http://www.wercker.com). View the [meetup](https://www.meetup.com/golang-amsterdam/events/236723017/) for more details and RSVP.
