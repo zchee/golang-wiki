@@ -94,6 +94,7 @@ Here is a list of the groups who are participating.
 - Boise, ID (USA) - Feb 16th 6:00PM (MST). RSVP via the [meetup event page](https://www.meetup.com/Boise-Go-lang-Meetup/events/237412184/).
 - Cape Town, South Africa - Feb 16th 6:30PM (SAST). RSVP via the [meetup event page](https://www.meetup.com/gocapetown/events/237398240/) or get in touch with [@clvnb](https://twitter.com/clvnb)
 - Lviv, Ukraine - Feb 24th 6:30PM (EET). RSVP via the [meetup event page](https://www.meetup.com/Lviv-Golang-Group/events/237729679/)
+- Brest, France - Feb 21th 6:30PM. See the [Meetup page](https://www.meetup.com/fr-FR/FinistJUG/events/237468708/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
