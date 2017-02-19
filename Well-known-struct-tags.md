@@ -31,4 +31,6 @@ xml       | https://godoc.org/encoding/xml
 json      | https://godoc.org/encoding/json
 asn1      | https://godoc.org/encoding/asn1
 reform    | https://godoc.org/gopkg.in/reform.v1
+bigquery  | https://godoc.org/cloud.google.com/go/bigquery
 datastore | https://godoc.org/cloud.google.com/go/datastore
+spanner   | https://godoc.org/cloud.google.com/go/spanner
