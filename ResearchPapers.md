@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Idiomatic and Reproducible Software Builds using Containers for Reliable Computing (Jonas Weber) Master’s Thesis
+ - [arXiv:1702.02999v1 cs.SE 9 Feb 2017](https://arxiv.org/abs/1702.02999), [pdf](https://arxiv.org/pdf/1702.02999.pdf)
+ - [github.com/thriqon/thesis-supplement](https://github.com/thriqon/thesis-supplement)
+
 - Structured I/O streams in Clive: a toolbox approach for wide area network computing ( Francisco J. Ballesteros )
  - [DOI: 10.1186/s13174-016-0054-8 OPEN ACCESS](http://jisajournal.springeropen.com/articles/10.1186/s13174-016-0054-8)  _" ... Clive is a system written in Go ..."_
  - [Clive related research](http://lsub.org/ls/research.html) 
