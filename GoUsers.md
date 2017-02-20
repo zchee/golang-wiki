@@ -599,6 +599,7 @@
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
  * [Husar Labs](http://www.husarlabs.com) - software development company
+ * [RnDity](http://rndity.com) - software and hardware development company
 
 ## Portugal
   * [AppGeneration](http://appgeneration.com/)
