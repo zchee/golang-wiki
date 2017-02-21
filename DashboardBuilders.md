@@ -12,7 +12,7 @@ Older-style builders are listed below. These builders are configured and run man
 |:----------|:----------------|:----------|:----------|
 | linux-arm64-canonical | ARMv8 | @davecheney | Ubuntu 14.04 |
 | linux-arm64-linaro | ARMv8 | @davecheney | Ubuntu 14.04.2 |
-| linux-ppc64le-canonical | POWER8 little endian | @davecheney | Ubuntu 14.04 |
+| linux-ppc64le-canonical | POWER8E little endian | @davecheney | Ubuntu 14.04 |
 | android-arm-crawshaw | Nexus 7 | crawshaw | Builder runs on attached desktop, uses adb |
 | darwin-amd64 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-amd64-cheney | 2011 Mac Mini, 2.4Ghz Core i5 | Dave Cheney | Mac OS X 10.10 XCode 5 |
@@ -24,7 +24,7 @@ Older-style builders are listed below. These builders are configured and run man
 | linux-arm-luitvd | RaspberryPi     | Luit van Drongelen |           |
 | linux-arm-arm5 | QNAP TS-119P, ARMv5 @ 2.0GHz, 512MB | Dave Cheney | GOARM=5   |
 | linux-arm-cheney-imx6 | Solidrun Cubox-i, quad core Cortex-A9 ~ 1Ghz, 2Gb ram | Dave Cheney | Runs arch linux, iMX6 boards need 3.10.x or above to pass the build reliably |
-| linux-ppc64 | KVM instance on physical 8-core POWER7 pSeries. Chip rev: 2.1 (pvr 004b 0201) | bradfitz, rsc  |           |
+| linux-ppc64 | Power8E big endian | bradfitz, rsc  |           |
 | linux-ppc64-minux | Gentoo on PowerMac G5 (dual 2.7GHz ppc970fx) | minux  | Disabled, Go doesn't support ppc970 anymore          |
 | linux-mips64le-cherry | Gentoo on Loongson 2F 800MHz, 1GB DDR2 | cherry | builds sharded on three machines |
 | linux-mips64le-stitch | Cavium Octeon II CN6880, 32-core @ 1GHz, 8GB RAM | Ed Swierk | Debian sid, no FPU |
