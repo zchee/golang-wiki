@@ -19,9 +19,11 @@ This page lists academic and industry research papers about Go or using Go as th
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
 
 ## 2016
+- Flower :  Workflow management and heat-aware scheduling for modern cloud infrastructures (Robert Carosi,
+Boris Mattijssen) bachelor thesis,
+ - [abstract](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c),  [pdf](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c/datastream/OBJ/view), Keywords: container, workflow, virtualization, scheduling, flower, kubernetes
 - Implementing a web-based bookingsystem using Go ( Vu, Phi-Long )  Independent thesis Basic level 
  - [abstract](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1070267&dswid=784), [pdf](http://www.diva-portal.org/smash/get/diva2:1070267/FULLTEXT01.pdf) ; Keywords: Booking System, Go, Golang, REST, XSS, XSRF
-
 - Parallelization of the corpus manager’s time-consuming operations (Bc. Radoslav Rábara ) Master's Thesis, Masaryk University
   - [pdf](http://www.itspy.cz/wp-content/uploads/2016/11/IT_SPY_2016_paper_60.pdf) ; Keywords: Manatee, text corpora, Go, text compression, compression of integers, time-consuming operations, parallelization, MapReduce, Glow, distributed computing, data format, cluster, scalability
 - Cyber Security Exercise Modeling & Tracking (Joonas Greis) Bachelor’s thesis
