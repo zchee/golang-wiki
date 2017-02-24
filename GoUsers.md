@@ -459,6 +459,7 @@
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
   * [Codemi Learning Management System](http://codemi.co.id)
+  * [EACIIT](http://eaciit.com)
   * [GO-JEK](https://www.go-jek.com)
   * [Ice House Corp](https://www.icehousecorp.com)
   * [HappyFresh Indonesia](https://www.happyfresh.id)
