@@ -54,6 +54,7 @@
   * [G.L.U.G. Wroclaw](http://www.meetup.com/GoLang-User-Group-Wroclaw/) - Wroclaw, Poland
   * [Golang User Group Trójmiasto](https://www.meetup.com/Golang-User-Group-Trojmiasto/) - Gdańsk/Gdynia/Sopot, Poland
   * [Go-Stockholm](http://www.meetup.com/Go-Stockholm/) - Stockholm, Sweden.
+  * [Go-Uppsala](http://www.meetup.com/Go-Uppsala/) - Uppsala, Sweden.
   * [golang-greece](https://groups.google.com/forum/#!forum/golang-greece) - Greece
   * [GolangIT](http://golangit.github.io/) - Italy.
   * [Go-Turkey](https://plus.google.com/communities/101920753066440157216) - Turkey.
