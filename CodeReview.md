@@ -6,6 +6,7 @@ There are several terms code reviews may use that you should become familiar wit
 
   * ` LGTM ` — looks good to me
   * ` SGTM ` — sounds good to me
+  * ` PTAL ` — please take a look
   * ` s/foo/bar/ ` — please replace ` foo ` with ` bar `; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage).
   * ` s/foo/bar/g ` — please replace ` foo ` with ` bar ` throughout your entire change
   * `R=foo` — these messages are directives for the [Go release dashboard](https://swtch.com/godash/). 
