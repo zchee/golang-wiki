@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- NucAmino: a nucleotide to amino acid alignment optimized for virus gene sequences ( Philip L. Tzou, Xiaoqiu Huang, Robert W. Shafer ) BMC Bioinformatics (2017) 18: 138. 
+ - [DOI: 10.1186/s12859-017-1555-6](https://link.springer.com/article/10.1186/s12859-017-1555-6) _"... NucAmino is written in the computer language Go ..."_
+ - [github.com/hivdb/NucAmino](https://github.com/hivdb/NucAmino) ( Go 94.4% )
+ - Keywords: Sequence alignment, Viruses, HIV-1, Drug resistance, Open source
 - Idiomatic and Reproducible Software Builds using Containers for Reliable Computing (Jonas Weber) Master’s Thesis
  - [arXiv:1702.02999v1 cs.SE 9 Feb 2017](https://arxiv.org/abs/1702.02999), [pdf](https://arxiv.org/pdf/1702.02999.pdf)
  - [github.com/thriqon/thesis-supplement](https://github.com/thriqon/thesis-supplement)
