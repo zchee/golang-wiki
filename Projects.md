@@ -186,6 +186,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [enumeration](https://bitbucket.org/rickb777/enumeration) - Easy enumeration code generation.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
   * [gich](http://bitbucket.org/jpoirier/gich) - A cross platform which utility written in Go
+  * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git
   * [gister](https://github.com/dutchcoders/gister) - Manage your github gists from the command-line
   * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
