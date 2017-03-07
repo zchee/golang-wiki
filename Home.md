@@ -180,6 +180,7 @@ If you're looking for services that support Go, here's a list to get you started
     - [Amazon Web Services](https://github.com/aws/aws-sdk-go)
     - [Azure](https://github.com/Azure/azure-sdk-for-go)
     - [Digital Ocean](https://github.com/digitalocean/godo)
+    - [GE Predix](https://github.com/geaviation/goboot-starter)
     - [Google Cloud Platform for Go](https://cloud.google.com/go)
     - [Heroku](https://github.com/heroku/heroku-buildpack-go)
     - [IBM Bluemix](https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/)
