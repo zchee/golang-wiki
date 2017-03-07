@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Method of auto-configuration for corporate proxies (Andrés Abelardo Villarroel Acosta, Carlos Enrique Montenegro Marín, Paulo Alonso Gaona García, Yuri Vanessa Nieto Acevedo) Ingeniería solidaria, 2017 
+ - https://revistas.ucc.edu.co/index.php/in/article/view/1723
+ - https://github.com/andresvia/udpac
+ - Keywords: Proxy Auto-configuration (PAC), Web Proxy Auto-Discovery Protocol (WPAD), Dynamic Host Configuration Protocol (DHCP), Standard Time.
 - NucAmino: a nucleotide to amino acid alignment optimized for virus gene sequences ( Philip L. Tzou, Xiaoqiu Huang, Robert W. Shafer ) BMC Bioinformatics (2017) 18: 138. 
  - [DOI: 10.1186/s12859-017-1555-6](https://link.springer.com/article/10.1186/s12859-017-1555-6) _"... NucAmino is written in the computer language Go ..."_
  - [github.com/hivdb/NucAmino](https://github.com/hivdb/NucAmino) ( Go 94.4% )
