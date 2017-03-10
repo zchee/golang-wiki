@@ -1485,6 +1485,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-php](https://github.com/deuill/go-php) - PHP bindings for Go
   * [go-python](https://github.com/sbinet/go-python) - go bindings for CPython C-API
   * [gotcl](http://code.google.com/p/gotcl/) - Tcl interpreter in Go
+  * [v8](https://github.com/augustoroman/v8) - V8 JavaScript engine bindings for Go (supports V8 builds at least up to 5.8.244)
   * [go-v8](https://github.com/lazytiger/go-v8) - V8 JavaScript engine bindings for Go
   * [LispEx](https://github.com/kedebug/LispEx) - A dialect of Lisp extended to support for concurrent programming, written in Go.
   * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
