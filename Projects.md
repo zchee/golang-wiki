@@ -1332,6 +1332,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gryffin](https://github.com/yahoo/gryffin) - A large scale security scanner by Yahoo!
   * [hyperfox](https://github.com/xiam/hyperfox) - a security tool for proxying and recording HTTP and HTTPs communications on a LAN
   * [lego](https://github.com/xenolf/lego) - Let's Encrypt client and ACME library
+  * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys
   * [webseclab](https://github.com/yahoo/webseclab) - a sample set of web security test cases and a toolkit to construct new ones
 
 ## Simulation Modeling
