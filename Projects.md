@@ -894,6 +894,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
   * [immortal](https://immortal.run) - A *nix cross-platform (OS agnostic) supervisor
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
+  * [logger](https://github.com/weatherglass/pkg/tree/master/logger) - Go logging with buffered output and multiple writers
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
   * [MailJet Live Event Dashboard](https://github.com/arnaudbreton/mailjet-live-event-dashboard) - API monitoring in real time.
   * [monkit](https://github.com/spacemonkeygo/monkit) - A flexible process data collection, metrics, monitoring, instrumentation, and tracing library for Go
