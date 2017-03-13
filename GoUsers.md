@@ -622,6 +622,7 @@
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
   * [Tokopedia](https://www.tokopedia.com/)
   * [Pocketmath](http://www.pocketmath.com/)
+  * [Singapore Power](https://www.spgroup.com.sg/)
   * 🇻🇳 [Dwarves Foundation](http://www.dwarvesf.com) - [github](https://github.com/dwarvesf)
 
 ## Spain
