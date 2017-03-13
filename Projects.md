@@ -959,7 +959,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [interval](http://godoc.org/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
   * [mathutil](http://godoc.org/github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
   * [mt19937\_64](https://github.com/farces/mt19937_64) - Mersenne Twister int64 random source
-  * [permutation](https://godoc.org/github.com/weatherglass/pkg/permutation) - Package permutation generates permutations of the indices of a slice
+  * [permutation](https://github.com/weatherglass/pkg/tree/master/permutation) - Package permutation generates permutations of the indices of a slice
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
   * [primes](https://github.com/fxtlabs/primes) - Simple functionality for working with prime numbers.
   * [prime](https://github.com/kavehmz/prime) - Go version of Segmented Sieve and non Segmented sieve to produce prime numbers
