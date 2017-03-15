@@ -131,6 +131,12 @@ Sorted by publication date.
     * ISBN: 978-1-4842-1188-5
     * Reference: http://www.apress.com/us/book/9781484211892
 
+* **Go Design Patterns**
+    * Author: Mario Castro Contreras
+    * Publication Date: February 2017
+    * ISBN: 978-1786466204
+    * Reference: https://www.packtpub.com/application-development/go-design-patterns
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
