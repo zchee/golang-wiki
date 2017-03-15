@@ -94,7 +94,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
   - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
-  - Matrix enthusiasts are invited to join [#golanguage:matrix.org](https://riot.im/app/#/room/#golanguage:matrix.org).
+  - Matrix enthusiasts are invited to join [#Go:matrix.org](https://riot.im/app/#/room/#Go:matrix.org).
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
     - Before you post, [check to see if it's already been answered](http://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
