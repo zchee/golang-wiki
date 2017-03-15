@@ -61,6 +61,6 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Publication Date: February 24, 2017
     * ISBN:978-1787125476
 
-[[video](https://www.packtpub.com/application-development/getting-started-cloud-native-go)
+[[video]](https://www.packtpub.com/application-development/getting-started-cloud-native-go)
 
 ***
