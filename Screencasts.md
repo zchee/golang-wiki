@@ -56,3 +56,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/mastering-go-programming-video)]
 
 ***
+  * **Getting started with Cloud Native Go [Video]**
+    * Author: Mario-Leander Reimer
+    * Publication Date: February 24, 2017
+    * ISBN:978-1787125476
+
+[[video](https://www.packtpub.com/application-development/getting-started-cloud-native-go)
+
+***
