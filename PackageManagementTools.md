@@ -199,7 +199,7 @@ Here is a list of packages that authors can use to test their tools against.
 |Author         |Bill Kennedy                        |
 |Desc           |Sample Application For Using the Beego web framework with MGO|
 |               | |
-| **revel-mgo** |https://github.com/goinggo/revel-mgo|
+| **revel-mgo** |https://github.com/goinggo/revel-mgo |
 |Author         |Bill Kennedy                        |
 |Desc           |Sample revel project with mgo support|
 
