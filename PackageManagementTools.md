@@ -79,18 +79,18 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 
 Copy packages locally. When building modify the GOPATH to reference the local package store.
 
-| **godep** |https://github.com/tools/godep|
+| **godep** |https://github.com/tools/godep  |
 |:----------|:-----------------------------|
 |Title      |Helps build packages reproducibly by fixing their dependencies|
 |Author     |Keith Rarick                  |
 |Categories |Vendoring, Version Recording. Copies into "Godep/_workspace/src".|
 |           |                              |
-| **wgo**    |https://github.com/skelterjohn/wgo|
+| **wgo**    |https://github.com/skelterjohn/wgo  |
 |Title       |Managed workspaces on top of the go tool|
 |Author      |John Asmuth                   |
 |Categories  |local GOPATH can be configured.|
 |           |                              |
-| **gb** |http://getgb.io/|
+| **gb** |http://getgb.io/  |
 |Title      |Project-based workspaces and dependency management|
 |Author     |Dave Cheney     |
 |Categories |Project-based workspaces, vendoring, version locking. Manages dependencies in /vendor/src|
@@ -105,13 +105,13 @@ Copy packages locally. When building modify the GOPATH to reference the local pa
 Package source control versions are recorded. Versions are updated into the GOPATH package tree.
 Requires switching GOPATH for every project.
 
-| **glock**  |https://github.com/robfig/glock|
+| **glock**  |https://github.com/robfig/glock  |
 |:-----------|:-----------------------------|
 |Title       |Lock dependencies to specific revisions.|
 |Author      |Rob Figueiredo                |
 |Categories  |Revision Locking (git, mercurial, bzr, svn)        |
 |            |                              |
-| **gobs**   |https://bitbucket.org/vegansk/gobs|
+| **gobs**   |https://bitbucket.org/vegansk/gobs  |
 |Title       |Build system and package manager for go language|
 |Author      |Anatoly Galiulin              |
 |Categories  |Revision Locking (git). Requires bash, no Windows support.       |
@@ -121,17 +121,17 @@ Requires switching GOPATH for every project.
 |Author      |Roger Peppe                   |
 |Categories  | Revision Locking (git, mercurial, bzr)|
 |            |                              |
-| **gopack** |https://github.com/d2fn/gopack|
+| **gopack** |https://github.com/d2fn/gopack  |
 |Title       |Dependency management for go inspired by rebar|
 |Author      |Dietrich Featherston          |
 |Categories  |Revision Locking (git)        |
 |            |                              |
-| **gopin**  |https://github.com/laher/gopin|
+| **gopin**  |https://github.com/laher/gopin  |
 |Title       |Experimental go-get fork with support for tags and alternative repos|
 |Author      |Go Package Manager            |
 |Categories  |Revision Locking (git)        |
 |           |                              |
-| **gigo**  |https://github.com/LyricalSecurity/gigo|
+| **gigo**  |https://github.com/LyricalSecurity/gigo  |
 |Title      |Helps provide go get support for private repositories, pip for golang|
 |Author     |Lyrical Security                  |
 |Categories |Vendoring, Revision Locking (git). Does not appear to copy files.  |
@@ -140,21 +140,21 @@ Requires switching GOPATH for every project.
 
 Vendoring with import path rewriting takes the 3rd party source code that is referenced in your project and makes a copy of that code inside a new folder within the project. It re-writes the import paths so there is a single copy of all packages. GOPATH is not modified at any time.
 
-| **party** |https://github.com/mjibson/party|
+| **party** |https://github.com/mjibson/party  |
 |:----------|:-----------------------------|
 |Author     |Matt Jibson                   |
 |Categories |Vendoring, Copies into "_third_party". Does not analyze dependencies first. No inspection.|
 |           |                              |
-| **govendor** |https://github.com/kardianos/govendor|
+| **govendor** |https://github.com/kardianos/govendor  |
 |Title      |Copy, re-write, and list dependent package status.|
 |Author     |Daniel Theophanes                   |
 |Categories |Pkg Copy,Import rewrite, record VCS version. Copies into "internal" or "vendor".      |
 |           |                              |
-| **vendorize** |https://github.com/kisielk/vendorize|
+| **vendorize** |https://github.com/kisielk/vendorize  |
 |Author     |Kamil Kisiel                  |
 |Categories |Vendoring. Copies into "3rdparty".                     |
 |           |                              |
-| **nut** |https://github.com/jingweno/nut|
+| **nut** |https://github.com/jingweno/nut  |
 |Author     |Jingwen Owen Ou                  |
 |Categories |Pkg Copy & Import rewrite. Copies into "vendor".                     |
 
@@ -162,12 +162,12 @@ Vendoring with import path rewriting takes the 3rd party source code that is ref
 ## Vendor Utilities
 Not full vendor tool, but may still provide value.
 
-| **prewrite** |https://github.com/dmitris/prewrite|
+| **prewrite** |https://github.com/dmitris/prewrite  |
 |:-----------|:-----------------------------|
 |Author     |Dmitry Savintsev                      |
 |Categories |Import re-writer, add or remove specified prefix                             |
 
-| **git freeze** |https://github.com/nicerobot/git-freeze|
+| **git freeze** |https://github.com/nicerobot/git-freeze  |
 |:-----------|:-----------------------------|
 |Author     |Robert Nix (nicerobot)                    |
 |Categories |Easy Go vendoring via git submodule                            |
@@ -194,7 +194,7 @@ Go Version Managers allow you to have multiple versions of Go installed on your 
 ## Client App Test Packages
 Here is a list of packages that authors can use to test their tools against.
 
-| **beego-mgo** |https://github.com/goinggo/beego-mgo|
+| **beego-mgo** |https://github.com/goinggo/beego-mgo  |
 |:--------------|:-----------------------------------|
 |Author         |Bill Kennedy                        |
 |Desc           |Sample Application For Using the Beego web framework with MGO|
