@@ -33,19 +33,19 @@ Tools supporting this feature include:
 
 Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VENDOREXPERIMENT` to reference the local package store. Not only records specific version, but also fetches specific version.
 
-| **gogradle** |https://github.com/blindpirate/gogradle|
+| **gogradle** |https://github.com/blindpirate/gogradle |
 |:----------|:-----------------------------|
 |Title      |A Full-featured Build Tool for Golang|
 |Author     |Bo Zhang    |
 |Categories |Project-scoped dependencies, Go version management, Vendoring, Version/Commit locking, Transitive dependency, Automatic build. Support All platforms |
 
-| **trash** |https://github.com/rancher/trash|
+| **trash** |https://github.com/rancher/trash |
 |:----------|:-----------------------------|
 |Title      |Minimalistic Go vendored code manager|
 |Author     |Ivan Mikushin, Darren Shepherd     |
 |Categories |Vendoring, Version/Commit locking, Pruning unimported code, Using package forks. Does not support Windows. |
 |           |                              |
-| **glide** |https://github.com/Masterminds/glide|
+| **glide** |https://github.com/Masterminds/glide |
 |Title      |Lightweight Vendor Package Manager|
 |Author     |Matt Butcher and Matt Farina     |
 |Categories |Retrieve and manage packages in your `vendor/` directory using the `GO15VENDOREXPERIMENT`. |
@@ -60,12 +60,12 @@ Copy packages locally. When building modify the GOPATH or use the GO 1.5 `GO15VE
 |Author     |Yasuhiro Matsumoto            |
 |Categories |Vendoring/Bundling. Copies into "_vendor/src"          |
 |           |                              |
-| **bunch** |https://github.com/dkulchenko/bunch|
+| **bunch** |https://github.com/dkulchenko/bunch |
 |Title     |npm-like tool for managing Go dependencies|
 |Author     |Daniil Kulchenko                   |
 |Categories |Vendoring/Bundling/Revision Locking. Copies into ".vendor". Does NOT fully support windows.|
 |           |                              |
-| **goop**  |https://github.com/nitrous-io/goop|
+| **goop**  |https://github.com/nitrous-io/goop |
 |Title      |A dependency manager for Go (golang), inspired by Bundler.|
 |Author     |Nitrous.IO                    |
 |Categories |Vendoring, Revision Locking. Copies into ".vendor/src". Does NOT fully support windows.   |
