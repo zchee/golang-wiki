@@ -8,9 +8,9 @@ To see popularity of these tools, click [here](https://github.com/blindpirate/re
 
 ## GO15VENDOREXPERIMENT
 
-As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/EOKSoaL5p8wJ), the Go toolchain includes an experimental vendoring flag, `GO15VENDOREXPERIMENT`. This is now part of the Go 1.5 release and represents the Go team's recommended approach to vendoring dependencies. You can read more about how this environment variable works in the [Go 1.5 documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories) and the [original design document](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/view). For a more detailed explanation, check out [this post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3) by [@freeformz](https://twitter.com/freeformz) or [this short explainer](http://engineeredweb.com/blog/2015/go-1.5-vendor-handling/) from Engineered Web.
+As of [June 19th, 2015](https://groups.google.com/d/msg/golang-dev/74zjMON9glU/EOKSoaL5p8wJ), the Go toolchain included an experimental vendoring flag, `GO15VENDOREXPERIMENT`. This was part of the Go 1.5 release and represented the Go team's recommended approach to vendoring dependencies. You can read more about how this environment variable worked in the [Go 1.5 documentation](https://golang.org/cmd/go/#hdr-Vendor_Directories) and the [original design document](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/view). For a more detailed explanation, check out [this post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3) by [@freeformz](https://twitter.com/freeformz) or [this short explainer](http://engineeredweb.com/blog/2015/go-1.5-vendor-handling/) from Engineered Web.
 
-Go 1.6 release makes this behaviour the default, so you no longer need to have `GO15VENDOREXPERIMENT` set. Go 1.7 makes this a standard feature and removes support for this flag.
+The Go 1.6 release made this behaviour the default, so you no longer need to have `GO15VENDOREXPERIMENT` set. Go 1.7 maked this a standard feature and removed support for the flag.
 
 Tools supporting this feature include:
 
