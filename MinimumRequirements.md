@@ -48,11 +48,16 @@ illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
 
 ## Architectures
 
-### x86
+### amd64
+
+All 64-bit x86 processors.
+
+### 386
 
 See https://golang.org/doc/install/source#environment
 
-Set GO386=387 or GO386=sse2 for older processors.
+* GO386=387: run on any Pentium or later processor.
+* GO386=sse2: run on any processor with at least SSE2 (the default).
 
 ### arm
 
