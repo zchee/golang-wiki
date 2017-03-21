@@ -155,6 +155,7 @@
 
 # South America
   * [Golang Brasil](https://www.meetup.com/pt-BR/golangbr/) - Brazil.
+  * [Golang Rio de Janeiro](https://www.meetup.com/pt-BR/Gophers-Rio) - Rio de Janeiro, Brazil.
   * [Golang Argentina](http://www.meetup.com/es-ES/Golang-Argentina/) - Argentina.
   * [Golang Medellín](http://www.meetup.com/Golang-Medellin/) - Colombia.
   * [Golang Chile](https://groups.google.com/d/forum/golang-chile) - Chile.
