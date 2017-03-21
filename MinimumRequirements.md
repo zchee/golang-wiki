@@ -56,7 +56,7 @@ All 64-bit x86 processors.
 
 See https://golang.org/doc/install/source#environment
 
-* GO386=387: run on any Pentium or later processor.
+* GO386=387: run on any Pentium MMX or later processor.
 * GO386=sse2: run on any processor with at least SSE2 (the default).
 
 ### arm
