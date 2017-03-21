@@ -2,12 +2,12 @@ Since the introduction of the ` append ` built-in, most of the functionality of 
 
 Here are the vector methods and their slice-manipulation analogues:
 
-**AppendVector**
+#### AppendVector
 ```go
 a = append(a, b...)
 ```
 
-**Copy**
+#### Copy
 ```go
 b = make([]T, len(a))
 copy(b, a)
@@ -15,19 +15,19 @@ copy(b, a)
 b = append([]T(nil), a...)
 ```
 
-**Cut**
+#### Cut
 ```go
 a = append(a[:i], a[j:]...)
 ```
 
-**Delete**
+#### Delete
 ```go
 a = append(a[:i], a[i+1:]...)
 // or
 a = a[:i+copy(a[i:], a[i+1:])]
 ```
 
-**Delete without preserving order**
+#### Delete without preserving order
 ```go
 a[i] = a[len(a)-1] 
 a = a[:len(a)-1]
@@ -57,17 +57,17 @@ a[len(a)-1] = nil
 a = a[:len(a)-1]
 ```
 
-**Expand**
+#### Expand
 ```go
 a = append(a[:i], append(make([]T, j), a[i:]...)...)
 ```
 
-**Extend**
+#### Extend
 ```go
 a = append(a, make([]T, j)...)
 ```
 
-**Insert**
+#### Insert
 ```go
 a = append(a[:i], append([]T{x}, a[i:]...)...)
 ```
@@ -79,27 +79,27 @@ copy(s[i+1:], s[i:])
 s[i] = x
 ```
 
-**InsertVector**
+#### InsertVector
 ```go
 a = append(a[:i], append(b, a[i:]...)...)
 ```
 
-**Pop**
+#### Pop
 ```go
 x, a = a[len(a)-1], a[:len(a)-1]
 ```
 
-**Push**
+#### Push
 ```go
 a = append(a, x)
 ```
 
-**Shift**
+#### Shift
 ```go
 x, a := a[0], a[1:]
 ```
 
-**Unshift**
+#### Unshift
 ```go
 a = append([]T{x}, a...)
 ```
