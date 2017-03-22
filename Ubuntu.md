@@ -1,14 +1,10 @@
-There were reported quality issues with this page.
-
-Deleted for now.
-
 Try:
 
 ```
 $ apt-get install golang-go
 ```
 
-Or
+... but if that's too old for you, try:
 
 ```
 $ apt-get install golang-1.8-go
