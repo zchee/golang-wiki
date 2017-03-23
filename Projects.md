@@ -536,6 +536,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Graph Databases
 
   * [cayley](https://github.com/google/cayley) - 100% Go graph database, inspired by Freebase and the Google Knowledge Graph.
+  * [Dgraph](https://github.com/dgraph-io/dgraph) - Fast, Distributed Graph DB with a GraphQL-like API.
   * [go-gremlin](https://github.com/go-gremlin/gremlin) - A Go client for the Apache TinkerTop Graph analytics framework (Gremlin server).
 
 ### NoSQL
