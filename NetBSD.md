@@ -6,7 +6,8 @@
 | 6.1                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 6.0                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 5.0                | amd64, 386        | Go 1                        | Go 1.2.2                  |
- _*_ Go 1.5 or above is recommended.
+
+_*_ Go 1.5 or above is recommended.
 
 # Preparing NetBSD for Go
   * install NetBSD 6.0 (remember to install pkgsrc in the last step)
