@@ -104,6 +104,6 @@ package buildinfo
 var BuildTime string
 ```
 
-You can build the program using this package using `go build -ldflags="-X 'company/buildinfo=$(date)'"` to record the build time in the string.  (The use of `$(date)` assumes you are using a Unix-style shell.)
+You can build the program using this package using `go build -ldflags="-X 'company/buildinfo.BuildTime=$(date)'"` to record the build time in the string.  (The use of `$(date)` assumes you are using a Unix-style shell.)
 
 The string variable must exist, and it must be a variable, not a constant.  There is no warning for using the wrong name in the `-X` option.  You can often find the name to use by running `go tool nm` on the program, but that will fail if the package name has any non-ASCII characters, or a `"` or `%` character.
