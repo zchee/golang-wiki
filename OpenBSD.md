@@ -20,6 +20,7 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 | 5.6 through 5.8    | amd64, 386        | Go 1.4.1 _*_                | Go 1.7.5                  |
 | 5.5                | amd64, 386        | Go 1.3 _*_                  | Go 1.7.5                  |
 | 5.0 through 5.4    | amd64, 386        | Go 1                        | Go 1.2.2                  |
+
 _*_ Go 1.5 or above is recommended.
 
 ## ulimits (` /etc/login.conf `)
