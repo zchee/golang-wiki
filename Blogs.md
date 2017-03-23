@@ -13,7 +13,6 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Mat Ryer's Medium Blog](https://medium.com/@matryer)
 * [Matt Aimonetti's Blog](http://matt.aimonetti.net/)
 * [Marcio.io](http://marcio.io/)
-* [whizdumb](http://whizdumb.me/)
 * [Carlos Becker's Blog](http://carlosbecker.com/)
 * [Ardan Studios Going Go](http://www.goinggo.net/)
 * [The Golang Weekly](http://golangweekly.com/)
