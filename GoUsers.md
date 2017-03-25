@@ -534,6 +534,7 @@
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
   * [Intelligence](http://www.inte.co.jp/)
+  * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [LINE](https://linecorp.com/)
   * [mediba](http://www.mediba.jp/)
