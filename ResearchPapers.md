@@ -1,22 +1,22 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
 - Method of auto-configuration for corporate proxies (Andrés Abelardo Villarroel Acosta, Carlos Enrique Montenegro Marín, Paulo Alonso Gaona García, Yuri Vanessa Nieto Acevedo) Ingeniería solidaria, 2017 
- - https://revistas.ucc.edu.co/index.php/in/article/view/1723
- - https://github.com/andresvia/udpac
- - Keywords: Proxy Auto-configuration (PAC), Web Proxy Auto-Discovery Protocol (WPAD), Dynamic Host Configuration Protocol (DHCP), Standard Time.
+  - https://revistas.ucc.edu.co/index.php/in/article/view/1723
+  - https://github.com/andresvia/udpac
+  - Keywords: Proxy Auto-configuration (PAC), Web Proxy Auto-Discovery Protocol (WPAD), Dynamic Host Configuration Protocol (DHCP), Standard Time.
 - NucAmino: a nucleotide to amino acid alignment optimized for virus gene sequences ( Philip L. Tzou, Xiaoqiu Huang, Robert W. Shafer ) BMC Bioinformatics (2017) 18: 138. 
- - [DOI: 10.1186/s12859-017-1555-6](https://link.springer.com/article/10.1186/s12859-017-1555-6) _"... NucAmino is written in the computer language Go ..."_
- - [github.com/hivdb/NucAmino](https://github.com/hivdb/NucAmino) ( Go 94.4% )
- - Keywords: Sequence alignment, Viruses, HIV-1, Drug resistance, Open source
+  - [DOI: 10.1186/s12859-017-1555-6](https://link.springer.com/article/10.1186/s12859-017-1555-6) _"... NucAmino is written in the computer language Go ..."_
+  - [github.com/hivdb/NucAmino](https://github.com/hivdb/NucAmino) ( Go 94.4% )
+  - Keywords: Sequence alignment, Viruses, HIV-1, Drug resistance, Open source
 - Idiomatic and Reproducible Software Builds using Containers for Reliable Computing (Jonas Weber) Master’s Thesis
- - [arXiv:1702.02999v1 cs.SE 9 Feb 2017](https://arxiv.org/abs/1702.02999), [pdf](https://arxiv.org/pdf/1702.02999.pdf)
- - [github.com/thriqon/thesis-supplement](https://github.com/thriqon/thesis-supplement)
+  - [arXiv:1702.02999v1 cs.SE 9 Feb 2017](https://arxiv.org/abs/1702.02999), [pdf](https://arxiv.org/pdf/1702.02999.pdf)
+  - [github.com/thriqon/thesis-supplement](https://github.com/thriqon/thesis-supplement)
 
 - Structured I/O streams in Clive: a toolbox approach for wide area network computing ( Francisco J. Ballesteros )
- - [DOI: 10.1186/s13174-016-0054-8 OPEN ACCESS](http://jisajournal.springeropen.com/articles/10.1186/s13174-016-0054-8)  _" ... Clive is a system written in Go ..."_
- - [Clive related research](http://lsub.org/ls/research.html) 
- - [Clive source](http://lsub.org/ls/clive.html) _"...Clive is an operating system designed to work in distributed and cloud computing environments. ..."_
- - Keywords: Streams, Input/Output, Operating system, Distributed systems, Cloud computing 
+  - [DOI: 10.1186/s13174-016-0054-8 OPEN ACCESS](http://jisajournal.springeropen.com/articles/10.1186/s13174-016-0054-8)  _" ... Clive is a system written in Go ..."_
+  - [Clive related research](http://lsub.org/ls/research.html) 
+  - [Clive source](http://lsub.org/ls/clive.html) _"...Clive is an operating system designed to work in distributed and cloud computing environments. ..."_
+  - Keywords: Streams, Input/Output, Operating system, Distributed systems, Cloud computing 
 - Towards Practical Default-On Multi-Core Record/Replay ( Ali José Mashtizadeh, Tal Garfinkel, David Terei, David Mazières, Mendel Rosenblum)  draft ,  ASPLOS 2017
   - [Draft – Accepted at ASPLOS 2017 - PDF](http://mashtizadeh.org/papers/asplos17-castor-draft.pdf) _"...Castor currently supports applications written in C, C++, and Go on FreeBSD...., ...  For Go, we evaluate, Caddy ... "_
 - Comparing MapReduce and Pipeline Implementations for Counting Triangles ( Edelmira Pasarella, Maria-Esther Vidal, Cristina Zoltan)
@@ -29,17 +29,17 @@ This page lists academic and industry research papers about Go or using Go as th
 ## 2016
 - Flower :  Workflow management and heat-aware scheduling for modern cloud infrastructures (Robert Carosi,
 Boris Mattijssen) bachelor thesis,
- - [abstract](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c),  [pdf](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c/datastream/OBJ/view), Keywords: container, workflow, virtualization, scheduling, flower, kubernetes
+  - [abstract](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c),  [pdf](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c/datastream/OBJ/view), Keywords: container, workflow, virtualization, scheduling, flower, kubernetes
 - Implementing a web-based bookingsystem using Go ( Vu, Phi-Long )  Independent thesis Basic level 
- - [abstract](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1070267&dswid=784), [pdf](http://www.diva-portal.org/smash/get/diva2:1070267/FULLTEXT01.pdf) ; Keywords: Booking System, Go, Golang, REST, XSS, XSRF
+  - [abstract](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1070267&dswid=784), [pdf](http://www.diva-portal.org/smash/get/diva2:1070267/FULLTEXT01.pdf) ; Keywords: Booking System, Go, Golang, REST, XSS, XSRF
 - Parallelization of the corpus manager’s time-consuming operations (Bc. Radoslav Rábara ) Master's Thesis, Masaryk University
   - [pdf](http://www.itspy.cz/wp-content/uploads/2016/11/IT_SPY_2016_paper_60.pdf) ; Keywords: Manatee, text corpora, Go, text compression, compression of integers, time-consuming operations, parallelization, MapReduce, Glow, distributed computing, data format, cluster, scalability
 - Cyber Security Exercise Modeling & Tracking (Joonas Greis) Bachelor’s thesis
- - [pdf](https://www.theseus.fi/bitstream/handle/10024/120054/Thesis_rellu.pdf) _"... RESTful API was written with Golang using Go-Json-Rest package ..."_
+  - [pdf](https://www.theseus.fi/bitstream/handle/10024/120054/Thesis_rellu.pdf) _"... RESTful API was written with Golang using Go-Json-Rest package ..."_
 - Scalable Byzantine Consensus via Hardware-assisted Secret Sharing (Jian Liu, Wenting Li, Ghassan O. Karame, N. Asokan) 
- - [arXiv:1612.04997 cs.CR](https://arxiv.org/abs/1612.04997) ;   _"... Our implementation is based on Golang ..."_  ; [pdf](https://arxiv.org/pdf/1612.04997v1.pdf) 
+  - [arXiv:1612.04997 cs.CR](https://arxiv.org/abs/1612.04997) ;   _"... Our implementation is based on Golang ..."_  ; [pdf](https://arxiv.org/pdf/1612.04997v1.pdf) 
 - Fast and Reliable Byzantine Fault Tolerance (Eric Scott Freeman) Master's thesis in Computer science
- - [link](http://hdl.handle.net/11250/2413908), [pdf]( https://brage.bibsys.no/xmlui/bitstream/handle/11250/2413908/Freeman_Eric.pdf?sequence=1)
+  - [link](http://hdl.handle.net/11250/2413908), [pdf]( https://brage.bibsys.no/xmlui/bitstream/handle/11250/2413908/Freeman_Eric.pdf?sequence=1)
 - Formal verification of concurrency in go (Anuchit Prasertsang, Denduang Pradubsuwun)
   - [DOI: 10.1109/JCSSE.2016.7748882](http://dx.doi.org/10.1109/JCSSE.2016.7748882)
 - Therapeutic target discovery using Boolean network attractors: updates from kali ( Arnaud Poret ) ( Quantitative Biology > Molecular Networks) 
@@ -52,24 +52,24 @@ Boris Mattijssen) bachelor thesis,
   - project page: http://www.macs.hw.ac.uk/~ek19/CoALP/
 - A novel algorithm for detecting multiple covariance and clustering of biological sequences
 ( Wei Shen & Yan Li)   ( Coevolution, Computational models ) 
- - http://www.nature.com/articles/srep30425 , doi:10.1038/srep30425
- - Algorithm implementation (golang - only binary ) : http://yanlilab.github.io/fastcov/
+  - http://www.nature.com/articles/srep30425 , doi:10.1038/srep30425
+  - Algorithm implementation (golang - only binary ) : http://yanlilab.github.io/fastcov/
 - Architecture of the Hyperledger Blockchain Fabric (Christian Cachin)
- - [pdf](https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf)
- - [code]( https://github.com/hyperledger/fabric/)
+  - [pdf](https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf)
+  - [code]( https://github.com/hyperledger/fabric/)
 - Reimagining the Programming Experience ( Mehrdad Afshari , dissertation) GoClr
- - [pdf](https://mehrdad.afshari.me/publications/dissertation.pdf)
+  - [pdf](https://mehrdad.afshari.me/publications/dissertation.pdf)
 - MapReduce vs. Pipelining Counting Triangles (Edelmira Pasarella, Maria-Esther Vidal,and Cristina Zoltan) 
- - [pdf](http://ceur-ws.org/Vol-1644/paper33.pdf)
+  - [pdf](http://ceur-ws.org/Vol-1644/paper33.pdf)
 - Software Engineering with PSF and Go (Erik van der Schaaf) Thesis, University of Amsterdam
- - [pdf](https://esc.fnwi.uva.nl/thesis/centraal/files/f1899376590.pdf)
+  - [pdf](https://esc.fnwi.uva.nl/thesis/centraal/files/f1899376590.pdf)
 - Parametric Polymorphism in the Go Programming Language (Matthew Allen) University of Texas, 
 Turing Scholars honors thesis 
- - [pdf] (http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2231.pdf)
- - [code] (https://github.com/Matt343/llgo) ( LLGO based ) 
+  - [pdf](http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2231.pdf)
+  - [code](https://github.com/Matt343/llgo) ( LLGO based ) 
 - Static Trace-Based Deadlock Analysis for Synchronous Mini-Go ( Kai Stadtmüller, Martin Sulzmann, and Peter Thiemann ) 
-  - [pdf] (http://www.home.hs-karlsruhe.de/~suma0002/publications/TraceBasedDeadlockAnalysisMiniGo.pdf)
-  - [code] (https://github.com/KaiSta/gopherlyzer) -  first beta implementation : gopherlyzer
+  - [pdf](http://www.home.hs-karlsruhe.de/~suma0002/publications/TraceBasedDeadlockAnalysisMiniGo.pdf)
+  - [code](https://github.com/KaiSta/gopherlyzer) -  first beta implementation : gopherlyzer
 - Continuous Query-Based Syndication: Distributed, Expressive Messaging for the IoT( Gabriel Fierro, Erik Krogen ) 
   - [pdf](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-S16/projects/reports/project1_report.pdf), [motivation](https://github.com/gtfierro/cs262-project/blob/master/Motivation.md)
   - [code](https://github.com/gtfierro/cs262-project) ( Go and Python implementation )
@@ -80,18 +80,18 @@ Turing Scholars honors thesis
   - [pdf](http://www.doc.ic.ac.uk/~cn06/pub/2016/dingo/main.pdf)
   - [code](https://github.com/nickng/dingo-hunter)
 - A Small-Step Semantics of a Concurrent Calculus with Goroutines and Deferred Functions ( Martin Steffen )
-  - [springer link] (http://link.springer.com/chapter/10.1007%2F978-3-319-30734-3_26)
+  - [springer link](http://link.springer.com/chapter/10.1007%2F978-3-319-30734-3_26)
 - Butterfield, Ellis H., "Fog Computing with Go: A Comparative Study" (2016). CMC Senior Theses. Paper 1348.
   - http://scholarship.claremont.edu/cmc_theses/1348
 - An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style (Harshal Sheth, Aashish Welling) 
-  - [arXiv:1603.05636 cs.OS] ( http://arxiv.org/abs/1603.05636 )
+  - [arXiv:1603.05636 cs.OS](http://arxiv.org/abs/1603.05636 )
 - PAS-MC: Privacy-preserving Analytics Stream for the Mobile Cloud (Joy, Gerla)
   - [arXiv:1604.04892 cs.CR](https://arxiv.org/abs/1604.04892)
 - Developing an Ethereum Blockchain Application (Triantafyllidis)
   - [pdf](https://homepages.staff.os3.nl/~delaat/rp/2015-2016/p53/report.pdf)
 - Identifying and characterizing Sybils in the Tor network (Winter, Ensafi, Loesing, and Feamster)
-  - [pdf] (https://nymity.ch/sybilhunting/pdf/sybilhunting.pdf)
-  - [code] (https://github.com/NullHypothesis/sybilhunter)
+  - [pdf](https://nymity.ch/sybilhunting/pdf/sybilhunting.pdf)
+  - [code](https://github.com/NullHypothesis/sybilhunter)
 - A Distributed Implementation of the Graph Database System: DGraph
   - [pdf](https://www.dropbox.com/s/7h4ytak39r2pdun/Ashwin_Thesis.pdf?dl=0)
 
@@ -107,18 +107,18 @@ Turing Scholars honors thesis
 - A Machine Learning Strategy to Assist Turbulence Model Development (Brendan Tracey, Karthik Duraisamy, Juan J. Alonso)
   - http://arc.aiaa.org/doi/abs/10.2514/6.2015-1287
 -  Implementing an intelligent version of the classical sliding-puzzle game for unix terminals using Golang's concurrency primitives ( Pravendra Singh )
- - [arxiv:1503.08345 cs.AI] ( http://arxiv.org/abs/1503.08345 )
+   - [arxiv:1503.08345 cs.AI](http://arxiv.org/abs/1503.08345 )
 - Keeping Authorities "Honest or Bust" with Decentralized Witness Cosigning (Syta, Tamas, Visher, Wolinsky, Jovanovic, Gasser, Gailly, Khoffi, Ford)
-  - [arxiv:1503.08768 cs.CR](https://arxiv.org/abs/1503.08768)
-  - [code](https://github.com/dedis/cothority), [code](https://github.com/dedis/cosi)
+   - [arxiv:1503.08768 cs.CR](https://arxiv.org/abs/1503.08768)
+   - [code](https://github.com/dedis/cothority), [code](https://github.com/dedis/cosi)
 - Message Passing for Programming Languages and Operating Systems (Martynas Pumputis ) Master’s Thesis
- - [pdf](http://e-collection.library.ethz.ch/eserv/eth:48404/eth-48404-01.pdf)
+   - [pdf](http://e-collection.library.ethz.ch/eserv/eth:48404/eth-48404-01.pdf)
 - Type inference for Go (Emin Gigovic, Philip Malmros )
- - [pdf](http://fileadmin.cs.lth.se/cs/Education/EDAN70/CompilerProjects/2015/Reports/GigovicMalmros.pdf)
+   - [pdf](http://fileadmin.cs.lth.se/cs/Education/EDAN70/CompilerProjects/2015/Reports/GigovicMalmros.pdf)
 - Open-Source, Platform-Independent Library and Online Scripting Environment for Accessing Thermo Scientific RAW Files. (Kelchtermans, Silva, Argentini, Staes, Vandenbussche, Laukens, Valkenborg, Martens)
   - https://www.ncbi.nlm.nih.gov/pubmed/26477298
 - Evaluation of performance and productivity metrics of potential programming languages in the HPC environment ( Bachelor Thesis ; Florian Wilkens ) -  ( Go, Rust, C, OpenStreetMap )
- - [github-code](https://github.com/MrFloya/thesis-ba) , [pdf](https://github.com/MrFloya/thesis-ba/raw/master/tex/thesis.pdf)
+  - [github-code](https://github.com/MrFloya/thesis-ba) , [pdf](https://github.com/MrFloya/thesis-ba/raw/master/tex/thesis.pdf)
 - Concurrent Processing of Text Corpus Queries (Rábara, Rychlý)
   - https://www.sketchengine.co.uk/wp-content/uploads/Concurrent_Processing_2015.pdf
 
@@ -156,14 +156,14 @@ Turing Scholars honors thesis
   - [pdf](https://docs.google.com/file/d/0B6tFaBl5qV_gNmpRTnJkcEo4a2M/edit)
   - [code](https://github.com/wetherbeei/gopar)
 - SCTP in Go ( Olivier Van Acker )
- - Keywords: Stream Control Transmission Protocol (SCTP); Transmission Control Protocol (TCP); Go; Networking;
- - [pdf](https://2013.asiabsdcon.org/papers/abc2013-P7A-paper.pdf)  
+  - Keywords: Stream Control Transmission Protocol (SCTP); Transmission Control Protocol (TCP); Go; Networking;
+  - [pdf](https://2013.asiabsdcon.org/papers/abc2013-P7A-paper.pdf)  
 - Benchmarking Usability and Performance of Multicore Languages ( Sebastian Nanz, Scott West, Kaue Soares da Silveira, Bertrand Meyer)
- - [arXiv:1302.2837 cs.DC](https://arxiv.org/abs/1302.2837)
+  - [arXiv:1302.2837 cs.DC](https://arxiv.org/abs/1302.2837)
 - Examining the Expert Gap in Parallel Programming (Sebastian Nanz, Scott West, Kaue Soares da Silveira)
- - [pdf](http://se.inf.ethz.ch/people/west/expert-gap-europar-2013.pdf)
+  - [pdf](http://se.inf.ethz.ch/people/west/expert-gap-europar-2013.pdf)
 - Acropolis: aggregated client request ordering by Paxos (Jothen)
- - https://brage.bibsys.no/xmlui//handle/11250/181825
+  - https://brage.bibsys.no/xmlui//handle/11250/181825
 - Implementation and experimental evaluation of live replacement and reconfiguration (Lea)
   - https://brage.bibsys.no/xmlui//handle/11250/181813
 - Exploiting Parallelism in Coalgebraic Logic Programming (Komendantskaya, Schmidt, Heras)
@@ -182,9 +182,9 @@ Turing Scholars honors thesis
 - The Buffered π-Calculus: A Model for Concurrent Languages (Deng, Zhang, Deng, Zhong)
   - [arxiv:1212.6183 cs.LO](https://arxiv.org/abs/1212.6183)
 - Analysis of the Go runtime scheduler (Neil Deshpande,Erica Sponsler,Nathaniel Weiss)
- - [pdf](http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+  - [pdf](http://www1.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
 - A Comparative Study of Programming Models for Concurrency ( Kaue Soares da Silveira) – Porto Alegre: COMGRAD CIC UFRGS, 2012.  Final Report (Bachelor)
- - [pdf](ftp://ftp.inf.ufrgs.br/pub/geyer/Alunos/KaueSilveira/TG-ComparacaoLinguagensConcorrencia-kaue_soares_da_silveira.pdf)
+  - [pdf](ftp://ftp.inf.ufrgs.br/pub/geyer/Alunos/KaueSilveira/TG-ComparacaoLinguagensConcorrencia-kaue_soares_da_silveira.pdf)
 - Debian Code Search (Stapelberg)
   - [pdf](https://codesearch.debian.net/research/bsc-thesis.pdf)
 - Go’s Concurrency Constructs on the SCC (Prell, Rauber)
@@ -195,8 +195,8 @@ Turing Scholars honors thesis
 - ng: What next-generation languages can teach us about HENP frameworks in the manycore era (S. Binet)
   - [pdf](http://iopscience.iop.org/article/10.1088/1742-6596/331/4/042002)
 - Serving Web Content with Dynamic Process Networks in Go (James Whitehead II)
- - [DOI: 10.3233/978-1-60750-774-1-209](http://dx.doi.org/10.3233/978-1-60750-774-1-209)
- - [pdf] (http://www.cs.ox.ac.uk/people/jim.whitehead/cpa2011-draft.pdf)
+  - [DOI: 10.3233/978-1-60750-774-1-209](http://dx.doi.org/10.3233/978-1-60750-774-1-209)
+  - [pdf](http://www.cs.ox.ac.uk/people/jim.whitehead/cpa2011-draft.pdf)
 
 ## 2010
 - GoHotDraw: Evaluating the Go Programming Language with Design Patterns (Schmager, Cameron, Noble)
