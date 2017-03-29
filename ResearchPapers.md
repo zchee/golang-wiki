@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Performance testing of open-source HTTP web frameworks in an API (Michael A.P. Domingues) DSIE’17
+  - https://paginas.fe.up.pt/~prodei/dsie17/DSIE17_Proceedings.pdf#page=18
+  - Keywords: Revel, Gin and Echo, Performance testing, API, Web frameworks, Apache benchmark
+
 - Method of auto-configuration for corporate proxies (Andrés Abelardo Villarroel Acosta, Carlos Enrique Montenegro Marín, Paulo Alonso Gaona García, Yuri Vanessa Nieto Acevedo) Ingeniería solidaria, 2017 
   - https://revistas.ucc.edu.co/index.php/in/article/view/1723
   - https://github.com/andresvia/udpac
