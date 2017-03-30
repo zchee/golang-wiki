@@ -198,3 +198,26 @@ do(21) == "42"
 do("bitrab") == "rabbit"
 do(3.142) == "unknown"
 ```
+
+## Noop case
+
+Sometimes it useful to have cases that require no action. This can look confusing, because it can appear that both the noop case and the subsequent case have the same action, but isn't so.
+
+```go
+func pluralEnding(n int) string {
+	ending := ""
+
+	switch n {
+	case 1:
+	default:
+		ending = "s"
+	}
+
+	return ending
+}
+
+fmt.Sprintf("foo%s\n", pluralEnding(1))  == "foo"
+fmt.Sprintf("bar%s\n", pluralEnding(2))  == "bars"
+
+```
+ 
