@@ -975,6 +975,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistcal analysis
   * [Units](https://github.com/smyrman/units) - Implements types, units, converter functions and some mathematics for some common physical types. lib
   * [vector](https://github.com/proxypoke/vector) - A small vector lib.
+  * [humanize](https://bitbucket.org/dchapes/humanize) - formats large numbers into human readable small numbers
 
 ## Microservices
 
@@ -1102,6 +1103,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
   * [hostsfile](https://github.com/jaytaylor/go-hostsfile) - /etc/hostsfile reverse lookup IP => names
   * [dnss](https://github.com/albertito/dnss) - DNS secure proxy, supports DNS over HTTPS and GRPC
+  * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not.
 
 ### FTP
   * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
@@ -1119,6 +1121,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
+  * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
 
 ### IMAP
   * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
@@ -1256,6 +1259,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [zero-downtime-daemon](https://bitbucket.org/PinIdea/zero-downtime-daemon) - Configurable zero downtime daemon (Hot Update) framework for any kind of TCP,HTTP,FCGI services
   * [zeroupgrade](https://github.com/thcyron/zeroupgrade) - Upgrades network servers with zero downtime
   * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
+  * [netstat-nat](https://github.com/dominikh/netstat-nat) - Display NAT entries on Linux systems
+  * [go-nat-pmp](http://code.google.com/p/go-nat-pmp/) - A client for the NAT-PMP protocol used in Apple and open-source routers
+  * [humanize-bytes](https://github.com/tv42/humanize-bytes) - Command-line utilities to convert "MiB" etc to raw numbers, and back
 
 ## Operating System Interfaces
 
@@ -1462,6 +1468,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Validation
 
   * [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
+  * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
 
 ## Version Control
 
@@ -1731,7 +1738,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 The following entries have not been filed. Please help by putting these in relevant categories.
   * [GoBot](https://github.com/SaturnsVoid/GoBot) - PoC Go HTTP Botnet
-  * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not
   * [ebml-go](http://code.google.com/p/ebml-go/) - EBML decoder
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Converts any file into manageable Go source code for embedding binary data into a Go program.
   * [goconsistenthash](https://github.com/caglar10ur/goconsistenthash) - Consistent hashing library (based on http://www.lexemetech.com/2007/11/consistent-hashing.html)
@@ -1742,18 +1748,12 @@ The following entries have not been filed. Please help by putting these in relev
   * [godotviz](http://github.com/sc0rp1us/godotviz) - Rendering graphics files from "DOT language". Written in golang
   * [dotviz-server](http://github.com/sc0rp1us/dotviz-server) - WebBased DOT language visualization tool written in go
   * [golor](https://github.com/hantuo/golor) - golor is a command line tool for golang source code coloring
-  * [go-nat-pmp](http://code.google.com/p/go-nat-pmp/) - A client for the NAT-PMP protocol used in Apple and open-source routers
   * [gopcapreader](http://code.google.com/p/gopcapreader) - Presents realtime pcap data as io.Reader objects
   * [go.psl](https://github.com/ebfe/go.psl) - Go regdom-libs/public suffix list
-  * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
   * [go-webfinger](https://github.com/ant0ine/go-webfinger) - Simple Client Implementation of WebFinger
   * [httptail](https://github.com/smallfish/httptail) - tools push stdout/stderr to http chunked
-  * [humanize-bytes](https://github.com/tv42/humanize-bytes) - Command-line utilities to convert "MiB" etc to raw numbers, and back
-  * [humanize](https://bitbucket.org/dchapes/humanize) - formats large numbers into human readable small numbers
   * [img-LinuxFr.org](https://github.com/nono/img-LinuxFr.org) - A reverse-proxy cache for external images used on LinuxFr.org
-  * [netstat-nat](https://github.com/dominikh/netstat-nat) - Display NAT entries on Linux systems
   * [seed](https://github.com/tv42/seed) - Easily seed PRNGs with some entropy
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
-  * [validation](https://github.com/kdar/validation) - Simple independent struct/key-value validation
   * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
