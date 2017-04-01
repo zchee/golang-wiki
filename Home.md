@@ -1,6 +1,6 @@
 Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://golang.org/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
-##Contributing##
+## Contributing ##
 
 * This wiki is open to editing by any member of the Go community with a Github account. 
 * If you would like to add a new page, please first open an issue in the [Go issue tracker](https://github.com/golang/go/issues) with the prefix 'wiki' to propose the addition. Clearly state why the content does not fit into any of the existing pages.
