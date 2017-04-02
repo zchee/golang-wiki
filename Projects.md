@@ -1422,6 +1422,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [segment](https://github.com/llimllib/segment) - An implementation of Norvig's recursive word segmentation algorithm
   * [sprig](https://github.com/Masterminds/sprig) - Template functions for Go templates.
   * [strftime](https://bitbucket.org/tebeka/strftime) - strftime implementation
+  * [strit](https://github.com/maxim2266/strit) - Package strit introduces a new type of string iterator, as well as a number of iterator constructors, wrappers and combinators.
   * [strogonoff](https://github.com/jbochi/strogonoff) - Stenography with Go
   * [strutil](https://github.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
