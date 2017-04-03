@@ -310,6 +310,7 @@
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
+  * [Vungle](http://www.vungle.com) - [shared libs, OpenRTB, VAST, etc](https://github.com/Vungle/vungo)
   * [Weave](http://www.getweave.com)
   * [Weaveworks](http://weave.works)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
