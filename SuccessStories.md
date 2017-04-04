@@ -40,5 +40,6 @@
   * [Confession From A Go Programer](https://zeta.si/page/Confession-From-A-Go-Programer)
   * [Why we chose Go over C for updating embedded Linux devices](https://mender.io/blog/why-did-we-choose-golang-over-c)
   * [List of Tech Migrations](http://kokizzu.blogspot.com/2016/12/list-of-tech-migrations.html)
+  * [Making the move from Scala to Go, and why we’re not going back](https://movio.co/blog/migrate-Scala-to-Go/)
 
 See also [[GoUsers]].
