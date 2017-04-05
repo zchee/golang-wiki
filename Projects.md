@@ -159,6 +159,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Command-line Option Parsers
 
   * [argcfg](http://code.google.com/p/goargcfg/) - Use reflection to populate fields in a struct from command line arguments
+  * [autoflags](https://github.com/artyom/autoflags) - Populate go command line app flags from config struct
   * [cobra](http://github.com/spf13/cobra) - A commander for modern go CLI interactions supporting commands & POSIX/GNU flags
   * [command](https://github.com/rakyll/command) - Add subcommands to your CLI, provides help and usage guide.
   * [docopt.go](https://github.com/docopt/docopt.go) - An implementation of docopt in the Go programming language.
