@@ -146,7 +146,7 @@
   * [Imgur](http://imgur.com/) - [github](https://github.com/Imgur/mandible/)
   * [InfluxData](https://influxdata.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/why-influxdb-uses-go/) [github](https://github.com/influxdata)
   * [Instela](https://tr.instela.com)
-  * [Intel](http://www.intel.com) - [snap telemetry framework](https://github.com/intelsdi-x/snap), [caio cloud orchestration](https://github.com/01org/ciao)
+  * [Intel](http://www.intel.com) - [snap telemetry framework](https://github.com/intelsdi-x/snap), [ciao cloud orchestration](https://github.com/01org/ciao)
   * [identakid.com](http://identakid.com)
   * [Ionic Security](https://www.ionic.com/about/careers)
   * [ISDC - InsideSales.com](http://insidesales.com)
