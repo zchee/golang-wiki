@@ -1,10 +1,13 @@
-# Introduction
+## Coordinator-managed builders
 
 Builders that are managed by the coordinator (VMs running on GCE or reverse buildlets, such as the new OS X builders) are listed here:
 
 http://farmer.golang.org/builders
 
 For design details about the coordinator, see http://golang.org/s/builderplan
+
+
+## Old-style builders
 
 Older-style builders are listed below. These builders are configured and run manually. The goal is to migrate as many as possible over to the new system.
 
