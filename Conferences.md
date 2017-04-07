@@ -8,7 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ |
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
@@ -19,6 +18,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ 
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
