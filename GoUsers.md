@@ -623,7 +623,7 @@
   * [Visionect d.o.o.](http://www.visionect.com)
 
 ## South Africa
-  * [Luno](http://www.luno.com)
+  * [Luno](http://www.luno.com) - [github](https://github.com/luno)
 
 ## Southeast Asia
   * [Grab](http://www.grab.co/)
