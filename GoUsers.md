@@ -622,6 +622,9 @@
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
 
+## South Africa
+  * [Luno](http://www.luno.com)
+
 ## Southeast Asia
   * [Grab](http://www.grab.co/)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
