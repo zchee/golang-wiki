@@ -31,6 +31,9 @@ This page lists academic and industry research papers about Go or using Go as th
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
 
 ## 2016
+- The Case for Reconfiguration without Consensus: Comparing Algorithms for Atomic Storage (Leander Jehl, Hein Meling) 
+  - [pdf](http://drops.dagstuhl.de/opus/volltexte/2017/7100/pdf/LIPIcs-OPODIS-2016-31.pdf) 
+  - [github.com/relab/smartmerge](https://github.com/relab/smartmerge) implemented in golang
 - Flower :  Workflow management and heat-aware scheduling for modern cloud infrastructures (Robert Carosi,
 Boris Mattijssen) bachelor thesis,
   - [abstract](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c),  [pdf](http://repository.tudelft.nl/islandora/object/uuid:fd1a2aea-84d0-42cc-8043-23a182748f8c/datastream/OBJ/view), Keywords: container, workflow, virtualization, scheduling, flower, kubernetes
