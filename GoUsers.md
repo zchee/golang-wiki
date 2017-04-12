@@ -668,6 +668,7 @@
   * [ElifTech](http://www.eliftech.com)
 
 ## United Kingdom
+  * [A1comms](https://www.a1comms.com/)
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
   * [Belua](https://www.belua.com)
   * [Fortifi](http://fortifi.uk) - [github](https://github.com/fortifi)
