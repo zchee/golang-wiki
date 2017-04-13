@@ -120,6 +120,7 @@
   * [Flipboard](http://www.flipboard.com)  - [source (job post)](https://news.ycombinator.com/item?id=6140956)
   * [FLXOne](http://flxone.com) - [blog](https://medium.com/@robin.verlangen/billions-of-request-per-day-meet-go-1-5-362bfefa0911)
   * [Fullstory](https://www.fullstory.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-fullstory/)
+  * [Gaikai (Playstation NOW)](https://gaikai.com/)
   * [Gatherer](http://gathererapp.com/) - [twitter](https://twitter.com/codepushr/status/653880049343537153)
   * [Gamegos](https://github.com/gamegos)
   * [Gemfury](https://gemfury.com)
