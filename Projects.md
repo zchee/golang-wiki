@@ -1604,7 +1604,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Macaron](https://github.com/Unknwon/macaron) - Modular web framework in Go
   * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
   * [Martini **deprecated**](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go
-  * [Negroni](https://github.com/codegangsta/negroni) - Idiomatic middleare for Go
+  * [Negroni](https://github.com/codegangsta/negroni) - Idiomatic middleware for Go
   * [restclient](https://github.com/jmcvetta/restclient) - Client library for interacting with RESTful APIs.
   * [resty](https://github.com/go-resty/resty) - REST client library inspired by Ruby rest-client.
   * [Revel](http://robfig.github.com/revel/) - High productivity web framework modeled on Play! Framework
