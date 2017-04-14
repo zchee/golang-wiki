@@ -1340,6 +1340,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Security
 
   * [acme](https://github.com/hlandau/acme) - ACME certificate acquisition tool
+  * [casbin](https://github.com/hsluoyz/casbin) - An authorization library that supports access control models like MAC, RBAC, ABAC
   * [gryffin](https://github.com/yahoo/gryffin) - A large scale security scanner by Yahoo!
   * [hyperfox](https://github.com/xiam/hyperfox) - a security tool for proxying and recording HTTP and HTTPs communications on a LAN
   * [lego](https://github.com/xenolf/lego) - Let's Encrypt client and ACME library
