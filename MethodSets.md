@@ -1,4 +1,13 @@
-(TODO: Add table of contents.)
+Table of Contents
+=================
+
++ [Introduction](#introduction)
++ [The Spec](#the-spec)
++ [Usage](#usage)
+  + [Variables](#variables)
+  + [Slice Elements](#slice-elements)
+  + [Map Elements](#map-elements)
+  + [Interfaces](#interfaces)
 
 # Introduction
 
