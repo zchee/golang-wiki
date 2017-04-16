@@ -1,4 +1,9 @@
-(TODO: Add table of contents.)
+Table of Contents
+=================
+
++ [Panic](#panic)
++ [Usage in a Package](#usage-in-a-package)
++ [References](#references)
 
 # Panic
 
