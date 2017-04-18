@@ -28,7 +28,7 @@ Tools supporting this feature include:
  * [trash](https://github.com/rancher/trash)
  * [gsv](https://github.com/toxeus/gsv)
  * [gom](https://github.com/mattn/gom)
- * [Rubigo](https://github.com/yaa110/rubigo)
+ * [Rubigo](https://github.com/yaa110/rubigo) - Golang vendor utility and package manager
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
