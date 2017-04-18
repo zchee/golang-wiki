@@ -28,6 +28,7 @@ Tools supporting this feature include:
  * [trash](https://github.com/rancher/trash)
  * [gsv](https://github.com/toxeus/gsv)
  * [gom](https://github.com/mattn/gom)
+ * [Rubigo](https://github.com/yaa110/rubigo)
 
 ## Pkg copy, built using GOPATH modification, supports fetching specific version
 
@@ -216,3 +217,4 @@ These tools are recorded for completeness, but it is suggested not to use them a
  * https://github.com/moovweb/gvm
  * https://github.com/pote/gpm
  * https://github.com/brettlangdon/git-vendor
+ * https://github.com/yaa110/rubigo
