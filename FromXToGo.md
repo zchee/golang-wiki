@@ -57,6 +57,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [ARDUINO WEB ARCHITECTURE, BACK TO THE FUTURE](https://blog.arduino.cc/2015/04/16/arduino-web-architecture-back-to-the-future/)
 * [Why I switched from PHP to Go](http://codepushr.com/why-i-switched-from-php-to-go/)
 * [Marco switched to GoLang from PHP and Saved Money, why not you ?!](http://phpmagazine.net/2015/02/marco-switched-to-golang-from-php-and-saved-money-why-not-you.html)
+* [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
 
 # Perl
 * [Perl to Go]
