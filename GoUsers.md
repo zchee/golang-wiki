@@ -95,6 +95,7 @@
   * [Datascale](http://datascale.io)
   * [DeferPanic](https://deferpanic.com) - [github](https://github.com/deferpanic)
   * [Dell](https://www.dell.com)
+  * [Diggernaut](https://www.diggernaut.com) - Data mining and extraction service
   * [DigitalOcean](http://www.digitalocean.com/) - [blog](http://www.digitalocean.com/company/blog/get-your-development-team-started-with-go/)
   * [Disqus](http://disqus.com/) - [blog](http://blog.disqus.com/post/51155103801/trying-out-this-go-thing), [blog](http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html)
   * [DNSimple](https://dnsimple.com/) - [blog](http://blog.dnsimple.com/a-golang-redirection-service/)
