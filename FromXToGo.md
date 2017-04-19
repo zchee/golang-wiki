@@ -4,9 +4,9 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
 * [Rackspace: Making OpenStack-Powered Rackspace Cloud Files Buzz With Hummingbird](https://blog.rackspace.com/making-openstack-powered-rackspace-cloud-files-buzz-with-hummingbird/)
 * [Repustate: From Python to Go: migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
-* [Spacemonkey: Python to Go] (https://www.spacemonkey.com/blog/posts/go-space-monkey)
-* [Why I went from Python to Go (and not node.js)] (http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs)
-* [How to Convince Your Company to Go With Golang] (https://sendgrid.com/blog/convince-company-go-golang/)
+* [Spacemonkey: Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey)
+* [Why I went from Python to Go (and not node.js)](http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs)
+* [How to Convince Your Company to Go With Golang](https://sendgrid.com/blog/convince-company-go-golang/)
 * [5 Reasons Why We switched from Python To Go](https://medium.com/@tigranbs/5-reasons-why-we-switched-from-python-to-go-4414d5f42690)
 
 # Node
@@ -60,9 +60,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
 
 # Perl
-* [Perl to Go]
-(http://tech.tokopedia.com/blog/perl-to-go)
+* [Perl to Go](http://tech.tokopedia.com/blog/perl-to-go)
 
 # Haskell
-* [Golang’s Real-time GC in Theory and Practice]
-(https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
+* [Golang’s Real-time GC in Theory and Practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
