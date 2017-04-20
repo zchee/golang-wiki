@@ -853,7 +853,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
   * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
   * [gothic](https://github.com/nsf/gothic) - Tcl/Tk Go bindings
-  * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3, requires GTK version 3.8
+  * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3, requires GTK version 3.8
   * [go.uik](https://github.com/skelterjohn/go.uik) - A UI kit for Go, in Go. (project is closed)
   * [go-webkit2](https://sourcegraph.com/github.com/sourcegraph/go-webkit2) - Go bindings for the WebKitGTK+ v2 API (w/headless browser & JavaScript support)
   * [Gowut](https://sites.google.com/site/gowebuitoolkit/) - Gowut (Go Web UI Toolkit) is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go, no platform dependent native code is linked or called.
