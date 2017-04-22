@@ -4,7 +4,7 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 
 | **OpenBSD release** | **golang in ports** |
 |:--------------------|:--------------------|
-| 6.1 (Apr 11, 2017   | go-1.8              |
+| 6.1 (Apr 11, 2017)  | go-1.8              |
 | 6.0 (Sep 1, 2016)   | go-1.6.3            |
 | 5.9 (Mar 29, 2016)  | go-1.5.4            |
 | 5.8 (Oct 18, 2015)  | go-1.4.2            |
