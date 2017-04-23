@@ -991,7 +991,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Breaker](https://github.com/matttproud/golang_circuitbreaker) - Breaker enables graceful degraded mode operations by means of wrapping unreliable interservice interface points with circuit breaker primitives.
   * [btcrpcclient](https://github.com/btcsuite/btcrpcclient) - A Websocket-enabled Bitcoin JSON-RPC client.
   * [cast](https://github.com/spf13/cast) - Safe and easy casting from one type to another in Go
-  * [CGRates](https://github.com/rif/cgrates) - Rating system designed to be used in telecom carriers world
+  * [CGRates](https://github.com/cgrates/cgrates) - Rating system designed to be used in telecom carriers world
   * [cpu](https://github.com/jpoirier/cpu) - A Go package that reports processor topology
   * [cron](https://github.com/robfig/cron) - A library for running jobs (funcs) on a cron-formatted schedule
   * [daemonigo](https://github.com/tyranron/daemonigo) - A simple library to daemonize Go applications.
