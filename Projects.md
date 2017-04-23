@@ -1750,6 +1750,7 @@ The following entries have not been filed. Please help by putting these in relev
   * [gographviz](http://code.google.com/p/gographviz) - Graphviz DOT language parser for golang
   * [godotviz](http://github.com/sc0rp1us/godotviz) - Rendering graphics files from "DOT language". Written in golang
   * [dotviz-server](http://github.com/sc0rp1us/dotviz-server) - WebBased DOT language visualization tool written in go
+  * [goseq](https://github.com/lmika/goseq) - command line tool, written in Go, for creating sequence diagrams using a text-based description language.
   * [golor](https://github.com/hantuo/golor) - golor is a command line tool for golang source code coloring
   * [gopcapreader](http://code.google.com/p/gopcapreader) - Presents realtime pcap data as io.Reader objects
   * [go.psl](https://github.com/ebfe/go.psl) - Go regdom-libs/public suffix list
