@@ -199,7 +199,7 @@ A minor release is issued to address one or more critical problem
 for which there is no workaround (typically related to stability or security).
 The only code changes included in the release are the fixes for the specific 
 critical problems.
-Important documentation-only changes may also be included as well,
+Important documentation-only changes and safe test updates (such as disabling tests), may also be included as well,
 but nothing more.
 
 Minor releases to address non-security problems for Go 1.x stop once Go 1.x+1 is released.
