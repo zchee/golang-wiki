@@ -15,7 +15,7 @@ The GOPATH environment variable specifies the location of your workspace. By def
 Edit your `.bash_profile` to add the following line:
 ```bash
 export GOPATH=$HOME/work
-export GOBIN=$HOME/work/bin
+export GOBIN=$HOME/work/bin /*Set the GOBIN path to generate a binary file when run "go install"*/
 ```
 
 Save and exit your editor. Then, source your `~/.bash_profile`.
