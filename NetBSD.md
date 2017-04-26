@@ -2,6 +2,7 @@
 
 | **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
 |:-------------------|:------------------|:----------------------------|:--------------------------|
+| 7.1                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 7.0                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 6.1                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 6.0                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
