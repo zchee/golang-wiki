@@ -471,6 +471,7 @@
   * [Ice House Corp](https://www.icehousecorp.com)
   * [HappyFresh Indonesia](https://www.happyfresh.id)
   * [Kelir.tv](http://kelir.tv)
+  * [Korina](http://sewamobilsolo.net)
   * [Kudo](https://kudo.co.id)
   * [Lazada](http://www.lazada.co.id)
   * [LionJobs](http://lionjobs.com)
