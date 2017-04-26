@@ -467,6 +467,7 @@
   * [Codemi Learning Management System](http://codemi.co.id)
   * [EACIIT](http://eaciit.com)
   * [GO-JEK](https://www.go-jek.com)
+  * [Guteninc](http://guteninc.com)
   * [Ice House Corp](https://www.icehousecorp.com)
   * [HappyFresh Indonesia](https://www.happyfresh.id)
   * [Kelir.tv](http://kelir.tv)
