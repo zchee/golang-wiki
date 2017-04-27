@@ -2,7 +2,7 @@
 
 ## Operating Systems
 
-### Linux
+### [Linux](Linux)
 
 Kernel version 2.6.23 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
 
@@ -16,7 +16,7 @@ Windows XP (w/ Service Pack 2) or higher. But we don't currently (2016-09-23) ha
 
 We run builders testing Go on Windows Server 2008 R2 Datacenter Edition. That is basically Windows 7 or above.
 
-### macOS (née OS X, aka Darwin)
+### [macOS (née OS X, aka Darwin)](Darwin)
 
 macOS Sierra (10.12) requires Go 1.7.1. We have not yet (as of 2016-09-23) backported the time system call fixes to any earlier Go versions. See https://github.com/golang/go/issues/16352.
 
@@ -26,23 +26,23 @@ Go tip doesn't compile on OS X 10.7 (Lion) but binaries MAY work there. Maybe. N
 
 OS X 10.6 (Snow Leopard) is explicitly unsupported. See https://github.com/golang/go/issues/9511
 
-### OpenBSD
+### [OpenBSD](OpenBSD)
 
 The current officially supported -stable versions only. See https://golang.org/wiki/OpenBSD for details.
 
-### DragonFly
+### [DragonFly BSD](DragonFly-BSD)
 
 Generally only the latest release version only. We have a builder, but it's not the most stable of our ports.
 
-### FreeBSD
+### [FreeBSD](FreeBSD)
 
-FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8. We only run builders testing FreeBSD 9.3 and 10.1.
+FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8. We only run builders testing FreeBSD 10.1 and 11.0.
 
 ### Native Client
 
 pepper_39 or newer.
 
-### Solaris
+### [Solaris](Solaris)
 
 illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+. 
 
