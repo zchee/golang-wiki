@@ -4,19 +4,26 @@ Be sure to familiarize yourself with the [code review process](http://golang.org
 
 There are several terms code reviews may use that you should become familiar with.
 
-  * ` LGTM ` — looks good to me
-  * ` SGTM ` — sounds good to me
-  * ` PTAL ` — please take a look
-  * ` s/foo/bar/ ` — please replace ` foo ` with ` bar `; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage).
-  * ` s/foo/bar/g ` — please replace ` foo ` with ` bar ` throughout your entire change
-  * `R=foo` — these messages are directives for the [Go release dashboard](https://swtch.com/godash/). 
+* ` LGTM ` — looks good to me
+* ` SGTM ` — sounds good to me
+* ` PTAL ` — please take a look
+* ` s/foo/bar/ ` — please replace ` foo ` with ` bar `; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage)
+* ` s/foo/bar/g ` — please replace ` foo ` with ` bar ` throughout your entire change
+
+# CL Directives
+
+* `R=foo` — assign a reviewer within the [Go CL dashboard](https://swtch.com/godash/)
+* `RELNOTE=yes` or `RELNOTE=<subject>` — tag for release notes; scraped by the [relnotes](https://golang.org/x/build/cmd/relnotes) tool
+* `DO NOT SUBMIT` (in the commit message) — block submission; see the "Work in progress" section below
+* `Updates #1234` or `Fixes #1234` (in the commit message) — link the CL from the GitHub issue and optionally close the issue after the CL is merged
 
 # Email
 
 Messages from a code review are typically sent to three places:
-  * the reviewers, if any
-  * the golang-codereviews group
-  * the owner
+
+* the reviewers, if any
+* the golang-codereviews group
+* the owner
 
 Please do NOT reply code review via email, as the message [will not be relayed to Gerrit](https://code.google.com/p/gerrit/issues/detail?id=228). Always click on the link and post reply in Gerrit.
 
