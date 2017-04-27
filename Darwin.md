@@ -13,4 +13,4 @@
 | 10                 | Mac OS X Snow Leopard 10.6 | amd64, 386             | Go 1          | Go 1.4.3 |
 
 _*_ Go 1.5 or above is recommended.
-_**_ See https://github.com/golang/go/issues/16570.
+_**_ See https://github.com/golang/go/issues/16570 and https://github.com/golang/go/issues/19772.
