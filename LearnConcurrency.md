@@ -2,7 +2,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
 
 ## Beginner
 - Read [Effective Go: Concurrency](https://golang.org/doc/effective_go.html#concurrency)
-- Watch [Rob Pike Talk] (https://vimeo.com/49718712)
+- Watch [Rob Pike Talk](https://vimeo.com/49718712/)
 - Study [The Go Programming Language Specification](https://golang.org/ref/spec), especially
     - [Go statements](https://golang.org/ref/spec#Go_statements)
     - [Channel types](https://golang.org/ref/spec#Channel_types)
