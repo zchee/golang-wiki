@@ -143,7 +143,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [LXD](https://github.com/lxc/lxd) Daemon based on liblxc offering a REST API to manage containers
   * [Docker](http://docker.io) - The Linux container runtime. Developed by dotCloud.
-  * [Enduro/X ASG] (https://github.com/endurox-dev/endurox-go) Application Server for Go. Provides application server and middleware facilities for distributed transaction processing. Supports microservices based application architecture. Developed by ATR Baltic.
+  * [Enduro/X ASG](https://github.com/endurox-dev/endurox-go) Application Server for Go. Provides application server and middleware facilities for distributed transaction processing. Supports microservices based application architecture. Developed by ATR Baltic.
   * [Kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
   * [flamingo](https://github.com/tmrts/flamingo) - A Lightweight Cloud Instance Contextualizer.
   * [gocircuit](http://gocircuit.org) - A distributed operating system that sits on top of the traditional OS on multiple machines in a datacenter deployment. It provides a clean and uniform abstraction for treating an entire hardware cluster as a single, monolithic compute resource. Developed by Tumblr.
