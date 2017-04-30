@@ -15,7 +15,6 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Free Go Language Workshop](https://www.frameworktraining.co.uk/go-language-free-training-workshop/) Framework Training is running regular free BYOD workshops in London, UK
   * [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
   * [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
-  * [Golang for beginners](http://golanguz.blogspot.com) - Tons of go code for beginners.
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf) (*links are broken*, use the archived links from the wayback machine. [Day 1][wbday1], [Day 2][wbday2], [Day 3][wbday3])
   * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
 
