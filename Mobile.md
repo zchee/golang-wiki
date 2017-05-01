@@ -126,7 +126,7 @@ $ go get -d golang.org/x/mobile/example/bind/...
 
 ### Building and deploying to Android
 
-Note: Currently only ARM devices and ARM emulating AVDs are supported.
+Note: Go Mobile runs on the same architectures as Go, which currently means ARM, ARM64, 386 and amd64 devices and emulators. Notably, Android on MIPS devices is not yet supported.
 
 If you are using Android Studio, you can use the [Gradle plugin](https://plugins.gradle.org/plugin/org.golang.mobile.bind) to automate this process.
 
