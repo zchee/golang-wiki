@@ -468,6 +468,7 @@
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
   * [GO-JEK](https://www.go-jek.com)
+  * [Graboards](https://graboards.com/)
   * [Guteninc](http://guteninc.com)
   * [Ice House Corp](https://www.icehousecorp.com)
   * [HappyFresh Indonesia](https://www.happyfresh.id)
