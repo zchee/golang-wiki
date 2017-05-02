@@ -213,6 +213,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
   * [wmenu](https://github.com/dixonwille/wmenu) - An easy to use menu structure for cli applications that prompts users to make choices.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
+  * [JayDiff](https://github.com/yazgazan/jaydiff) - A JSON diff utility written in Go.
 
 ## Compression
   
