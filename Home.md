@@ -95,7 +95,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
   - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
   - Matrix enthusiasts are invited to join [#Go:matrix.org](https://riot.im/app/#/room/#Go:matrix.org).
-  - Discord users are welcome at [Discord Gophers](https://discord.gg/VF92f7M) server. 
+  - Discord users are welcome at the [Discord Gophers](https://discord.gg/VF92f7M) server. 
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
     - Before you post, [check to see if it's already been answered](http://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
