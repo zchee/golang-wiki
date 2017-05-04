@@ -64,3 +64,19 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/getting-started-cloud-native-go)]
 
 ***
+  * **Introduction to Go Classical Patterns [Video]**
+    * Author: Mario Castro Contreras
+    * Publication Date: April 27, 2017
+    * ISBN:978-1788398039
+
+[[video](https://www.packtpub.com/application-development/introduction-go-classical-patterns-video)]
+
+***
+  * **Go Essentials for Full Stack Web Development [Video]**
+    * Author: Kamesh Balasubramanian
+    * Publication Date: April 30, 2017
+    * ISBN:978-1787280946
+
+[[video](https://www.packtpub.com/web-development/go-essentials-full-stack-web-development-video)]
+
+***
