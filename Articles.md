@@ -42,7 +42,7 @@ Table of Contents
   * [Idiomatic Doc Comments: Document your function, not your function signature](http://whipperstacker.com/2015/10/14/idiomatic-doc-comments-document-your-function-not-your-function-signature/) _2015-10_14_
   * [Best Practices for a new Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) _2015-09-01_
   * [Golang Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) _2015-08-30_
-  * [Working with Files in Go](http://devdungeon.com/content/working-files-go) _2015-08-23_
+  * [Working with Files in Go](http://www.devdungeon.com/content/working-files-go) _2015-08-23_
   * [Defer Fun](https://blog.klauspost.com/defer-fun/) _2015-07-25_
   * [Things I learned teaching Go - Francesc Campoy](https://medium.com/@francesc/dotgo-things-i-learned-teaching-go-e999f33298cf) _2014-11-24_  
   * [Understanding Go Packages](http://thenewstack.io/understanding-golang-packages/) _2014-11-01_
