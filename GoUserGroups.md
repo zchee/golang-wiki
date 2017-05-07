@@ -115,7 +115,9 @@
   * [SDGophers](http://www.meetup.com/sdgophers/) — San Diego CA, USA
   * [GoSF](http://www.meetup.com/golangsf/) - San Francisco CA, USA.
   * [GoSV](http://www.meetup.com/GolangSV/) - San Mateo CA, USA.
+  * [Boulder Gophers](https://www.meetup.com/Boulder-Gophers/) - Boulder CO, USA.
   * [Denver Go Language User Group](http://www.meetup.com/Denver-Go-Language-User-Group/) - Denver CO, USA.
+  * [DTC Go Meetup](https://www.meetup.com/Denver-Go-Programming-Language-Meetup/) - Denver Tech Center CO, USA.
   * [Go-Miami](http://www.meetup.com/Go-Miami/) - Miami FL, USA.
   * [Orlando Gophers](https://www.meetup.com/OrlandoGophers/) - Orlando FL, USA
   * [Go-Users-Group-Atlanta](http://www.meetup.com/Go-Users-Group-Atlanta/) - Atlanta GA, USA.
