@@ -435,7 +435,7 @@
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
 
 ## India
-  * [AirCTO] (https://aircto.com)
+  * [AirCTO](https://aircto.com)
   * [Betacraft](http://www.betacraft.co/)
   * [BookMyShow](http://www.bookmyshow.com/)
   * [C42 Engineering](http://c42.in/)
