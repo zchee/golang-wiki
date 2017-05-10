@@ -435,6 +435,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [itertools](https://github.com/xchapter7x/goutil) - Provides generic iterable generator function along with functionality similar to the itertools python package.
   * [jsonv](https://github.com/gima/jsonv) - A JSON validator
   * [libgob](http://code.google.com/p/libgob/) - A low level library for generating gobs from other languages
+  * [ofxgo](https://github.com/aclindsa/ofxgo) - A library for querying OFX servers and/or parsing the responses (and example command-line client).
   * [Picugen](http://patrickmylund.com/projects/picugen/) - A general-purpose hash/checksum digest generator.
   * [tribool](https://github.com/saschpe/tribool) - Ternary (tree-valued) logic for Go
   * [Tuple](https://bitbucket.org/gotamer/tuple) - Tuple is a go type that will hold mixed types / values
