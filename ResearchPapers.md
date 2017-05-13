@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Feasibility of reusable continuous thrust spacecraft for cargo resupply missions to Mars (C. B. Rabotin) thesis
+  - [pdf](http://hanspeterschaub.info/Papers/grads/ChristopherRabotin.pdf)
+  - [github.com/ChristopherRabotin/smd](https://github.com/ChristopherRabotin/smd) Space Mission Design - A SPICE-enhanced continuous thrust interplanetary mission propagator and vizualizer
+  - Keywords: space-mission interplanetary-missions celestial-bodies astrodynamics orbit propagation spice
 - Performance testing of open-source HTTP web frameworks in an API (Michael A.P. Domingues) DSIE’17
   - https://paginas.fe.up.pt/~prodei/dsie17/DSIE17_Proceedings.pdf#page=18
   - Keywords: Revel, Gin and Echo, Performance testing, API, Web frameworks, Apache benchmark
