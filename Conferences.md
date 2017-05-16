@@ -12,6 +12,7 @@ Please keep all items in chronological order.
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 | Golang UK | 2017-08-16-18 | London, UK | https://golanguk.com |
+| GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://gopherconbr.org |
 
 ## Archives
 
@@ -23,7 +24,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
-|GopherCon Brasil | 2016-11-04-05 | Florianopolis, Brazil | https://2016.gopherconbr.org/en/ |
+|GopherCon Brasil | 2016-11-04-05 | Florianópolis, Brazil | https://2016.gopherconbr.org/en/ |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
