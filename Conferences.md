@@ -12,7 +12,7 @@ Please keep all items in chronological order.
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 | Golang UK | 2017-08-16-18 | London, UK | https://golanguk.com |
-| GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://gopherconbr.org |
+| GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
 
 ## Archives
 
