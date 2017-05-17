@@ -38,6 +38,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Soundcloud: Go at Soundcloud](https://developers.soundcloud.com/blog/go-at-soundcloud)
 * [My impressions of Go](http://blog.bensigelman.org/post/56158760736/golang-impressions)
 * [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
+* [Rewriting our web analytics tracking infrastructure in Go](https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/)
 
 # Java
 * [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html)
