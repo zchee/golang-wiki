@@ -1,4 +1,4 @@
-The GOPATH environment variable specifies the location of your workspace. By default it is `$HOME/go` on Unix systems and `%USERPROFILE%\go` on Windows. If you want to use a custom location as your workspace, you can set the GOPATH env variable. This page explains how to set this variable on various platforms.
+The GOPATH environment variable specifies the location of your workspace. If no GOPATH is set, it is assumed to be `$HOME/go` on Unix systems and `%USERPROFILE%\go` on Windows. If you want to use a custom location as your workspace, you can set the GOPATH environment variable. This page explains how to set this variable on various platforms.
 
 
 - [Unix systems](#unix-systems)
@@ -12,7 +12,7 @@ The GOPATH environment variable specifies the location of your workspace. By def
 
 ## Bash
 
-Edit your `.bash_profile` to add the following line:
+Edit your `~/.bash_profile` to add the following line:
 ```bash
 export GOPATH=$HOME/work
 ```
@@ -22,14 +22,14 @@ Save and exit your editor. Then, source your `~/.bash_profile`.
 $ source ~/.bash_profile
 ```
 
-> Note: Set the GOBIN path to generate a binary file when run "go install"
+> Note: Set the GOBIN path to generate a binary file when `go install` is run.
 > ```bash
 > export GOBIN=$HOME/work/bin
 > ```
 
 ## Zsh
 
-Edit `~/.zshrc` file to add the following line:
+Edit your `~/.zshrc` file to add the following line:
 
 ```bash
 export GOPATH=$HOME/work
