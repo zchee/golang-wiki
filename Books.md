@@ -145,11 +145,11 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: http://golang.muthukadan.net/
 
-  * **Learn Go**
+  * **Get Programming with Go**
     * Author: Nathan Youngman
-    * Publication Date: Spring 2016 (estimated)
+    * Publication Date: Fall 2017 (estimated)
     * ISBN: 9781617293092
-    * Reference: [https://www.manning.com/books/learn-go](https://manning.com/books/learn-go?a_aid=nathany&a_bid=53f68821)
+    * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
 
   * **Web Development with Go: Learn to Create Real World Web Applications using Go**
     * Author: Jonathan Calhoun
