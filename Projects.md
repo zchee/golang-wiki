@@ -385,6 +385,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ### Graphs
 
+  * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms
   * [graphs](https://github.com/thcyron/graphs) - Implementation of various tree, graph and network algorithms
 
 ### Sets
