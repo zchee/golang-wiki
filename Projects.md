@@ -1256,7 +1256,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tcpmeter](https://github.com/9nut/tcpmeter) - A TCP throughput measuring tool
   * [toxiproxy](https://github.com/shopify/toxiproxy) - Framework for simulating network conditions.
   * [traceroute](https://github.com/aeden/traceroute) - A traceroute implementation
-  * [traefix](https://github.com/emilevauge/traefik) - Modern, reverse proxy in Go
+  * [traefik](https://github.com/emilevauge/traefik) - Modern, reverse proxy in Go
   * [Uniqush](http://uniqush.org/) - A free and open source software which provides a unified push service for server-side notification to apps on mobile devices.
   * [uritemplates](https://github.com/jtacoma/uritemplates) - A level 4 implementation of URI Templates (RFC 6570)
   * [VDED](https://github.com/jbuchbinder/vded) - Vector Delta Engine Daemon - track deltas in ever-increasing values (written in Go)
