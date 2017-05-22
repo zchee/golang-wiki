@@ -8,12 +8,18 @@ Developer Experience Working Group is a team trying to make the Go programming l
 * Helping the language graduate to a mainstream language by enabling the early majority developers.
 * Helping Go to succeed in organizations with opinionated infrastructure and tooling.
 
-## People
+## Projects
+Ongoing projects, feel free to reach out to the project lead if you want to collaborate:
 
-TBD. We are still outreaching to individuals at this point. If you are interested to get involved, send an email to jbd@golang.org. 
+- Improvements to the Go installation experience (Chris Broadfoot <cbro@golang.org>)
+- Guides on tooling and developer environments (editors and IDEs) (Jaana B. Dogan <jbd@golang.org>)
+- Running user studies to systematically analyze and measure friction points (Chris Broadfoot <cbro@golang.org>, Katrina Owen <katrina.owen@gmail.com>, Steve Francia <sfrancia@google.com>)
+- Improvements to the Go Tour and Go Playground (Chris Broadfoot <cbro@golang.org>, Steve Francia <sfrancia@google.com>)
+- Better guidelines to help new users and visual aids for golang.org (Jaana B. Dogan <jbd@golang.org>)
 
 ## Channels
-* Gophers Slack channel: [#devexp](https://gophers.slack.com/archives/devexp) ([invitation](https://invite.slack.golangbridge.org/))
+* Mailing list: [golang-devexp](https://groups.google.com/forum/#!forum/golang-devexp)
+* Gophers Slack channel if you need synchronous help: [#devexp](https://gophers.slack.com/archives/devexp) ([invitation](https://invite.slack.golangbridge.org/))
 
 ## Responsibilities and Activities
 * Identify the barriers for newcomers and remove them to make Go succeed as a mainstream programming language.
