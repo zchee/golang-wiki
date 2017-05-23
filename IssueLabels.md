@@ -13,5 +13,6 @@ The meanings of our the our [labels in the issue tracker](https://github.com/gol
 * **NeedsInvestigation** - See https://github.com/golang/go/wiki/HandlingIssues
 * **Performance** - involving performance optimization (no functionality changes).
 * **Proposal-** - see https://github.com/golang/proposal
+* **WaitingForInfo** - issue is not actionable because of missing required information, which needs to be provided.
 
 TODO: finish the rest
