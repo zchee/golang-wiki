@@ -11,6 +11,7 @@ The meanings of our the our [labels in the issue tracker](https://github.com/gol
 * **NeedsFix** - See https://github.com/golang/go/wiki/HandlingIssues
 * **NeedsDecision** - See https://github.com/golang/go/wiki/HandlingIssues
 * **NeedsInvestigation** - See https://github.com/golang/go/wiki/HandlingIssues
+* **Performance** - involving performance optimization (no functionality changes).
 * **Proposal-** - see https://github.com/golang/proposal
 
 TODO: finish the rest
