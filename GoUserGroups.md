@@ -77,6 +77,7 @@
   * [Meetup Surrey](http://www.meetup.com/Surrey-Go-User-Group-Meetup/) - Surrey, UK
   * [Golang Zagreb](https://www.meetup.com/Golang-ZG/) - Zagreb, Croatia
   * [Meetup Edinburgh](https://www.meetup.com/Edinburgh-Golang-meetup/) - Edinburgh, UK
+  * [Münster Gophers](https://www.meetup.com/de-DE/Munster-Gophers/) - Münster, Germany
 
 
 # North America
