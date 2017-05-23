@@ -4,6 +4,7 @@ The meanings of our the our [labels in the issue tracker](https://github.com/gol
 
 * **Builders** - something involving the Go continuous build/test system.
 * **DevExp** - issues involving Developer Experience Working Group's participation.
+* **Documentation** - issues involving documentation text only (no code).
 * **Go2** - can't be done until a hypothetical Go 2
 * **GoCommand** - impacts the `cmd/go` tool
 * **HelpWanted** - we would like help on this issue. This label is used haphazardly. In general we want help on all issues.
