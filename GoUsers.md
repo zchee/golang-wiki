@@ -675,6 +675,7 @@
   * [AIS](http://www.ais.co.th/)  
   * [DTAC](http://www.dtac.co.th/)
   * [Insightera](https://www.insightera.co.th/)
+  * [TRUE](http://truemoveh.truecorp.co.th/)
 
 ## Turkey
   * [GramGames](http://gram.gs/)
