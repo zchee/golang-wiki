@@ -1575,6 +1575,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Cascadia](http://code.google.com/p/cascadia) - CSS selector library
   * [GoQuery](https://github.com/PuerkitoBio/goquery) - jQuery-like DOM manipulation library, using Go's experimental HTML package.
+  * [goq](https://github.com/andrewstuart/goq) - jQuery-like declarative struct tag scraping and unmarshaling based on GoQuery.
   * [html-query](https://github.com/hailiang/html-query) - A fluent and functional approach to querying HTML.
   * [HTML Transform](http://code.google.com/p/go-html-transform/) - A CSS selector based html scraping and transformation library
 
