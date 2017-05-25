@@ -464,6 +464,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [MyMySQL](https://github.com/ziutek/mymysql) - MySQL Client API written entirely in Go.
   * [TiDB](https://github.com/pingcap/tidb) - MySQL compatible distributed database modeled after Google's F1 design.
   * [vitess](https://github.com/youtube/vitess) - Scaling MySQL databases for the web
+  * [mysqlsuperdump](https://github.com/hgfischer/mysqlsuperdump) - Generate partial and filtered dumps of MySQL databases
 
 ### ODBC
 
@@ -1567,6 +1568,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [OAuth Consumer](https://github.com/mrjones/oauth) - OAuth 1.0 consumer implementation
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
+  * [go-otp](https://github.com/hgfischer/go-otp) - Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+
 
 ### DOM handling
 
