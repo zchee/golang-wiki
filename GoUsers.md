@@ -676,6 +676,7 @@
   * [DTAC](http://www.dtac.co.th/)
   * [Insightera](https://www.insightera.co.th/)
   * [TRUE](http://truemoveh.truecorp.co.th/)
+  * [Tencent Thailand](https://developers.tencent.co.th/)
 
 ## Turkey
   * [GramGames](http://gram.gs/)
