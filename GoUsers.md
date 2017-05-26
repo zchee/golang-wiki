@@ -446,6 +446,7 @@
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
   * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
+  * [Go-jek](https://github.com/gojek-engineering)
   * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
   * [Josh Software](http://www.joshsoftware.com/)
