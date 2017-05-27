@@ -26,6 +26,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 ## Portuguese
 
 * [Eduardo Nunes Pereira](https://medium.com/@eduardonunespereira)
+* [Gopher Brasil](http://gopher.net.br)
 
 ## Spanish
 * [Golang Argentina](https://golang.com.ar)
