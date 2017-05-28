@@ -33,14 +33,14 @@ $GOPATH/bin/B
 ## Repository Integration and Creating "go gettable" Projects
 When fetching a package the go tool looks at the package's import path to discover a URL. For instance, if you attempt to
 ```
-go get code.google.com/p/gomatrix/matrix
+go get github.com/go-kit/kit
 ```
-the go tool will get the source from the project hosted at http://code.google.com/p/gomatrix/. It will clone the repository to
+the go tool will get the source from the project hosted at https://github.com/go-kit/kit/. It will clone the repository to
 ```
-$GOPATH/src/code.google.com/p/gomatrix
+$GOPATH/src/github.com/go-kit/kit
 ```
 
-As a result, if (from your repository project) you import a package that is in the same repository, you need to use its "full" import path - the place "go get" puts it. In this example, if something else wants to import the "matrix" package, it should import "code.google.com/p/gomatrix/matrix" rather than "matrix".
+As a result, if (from your repository project) you import a package that is in the same repository, you need to use its "full" import path - the place "go get" puts it. In this example, if something else wants to import the "kit" package, it should import "github.com/go-kit/kit" rather than "kit".
 
 ## Tips and tricks
 
