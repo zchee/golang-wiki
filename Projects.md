@@ -1649,13 +1649,13 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [filepicker-go](https://github.com/filepicker/filepicker-go) - Go library for the Filepicker's REST API
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks API
+  * [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3
   * [gobo](https://github.com/huichen/gobo) - Client library for Sina Weibo
   * [gocaptcha](https://github.com/GeertJohan/gocaptcha) - gocaptcha provides easy access to the reCaptcha API in go
   * [go-dealmap](https://github.com/ancientlore/go-dealmap) - Go library for accessing TheDealMap's API
   * [go-dropbox](https://github.com/nickoneill/go-dropbox) - API library for dropbox
   * [go-flickr](https://github.com/mncaudill/go-flickr) - A wrapper for Flickr's API
   * [go-get-youtube](https://github.com/knadh/go-get-youtube) - A simple library+client for fetching meta data of, and downloading Youtube videos
-  * [go-github](https://github.com/google/go-github) - Go library for accessing the GitHub API
   * [go-gravatar](https://github.com/ungerik/go-gravatar) - Wrapper for the Gravatar API
   * [go-hummingbird](https://github.com/nstratos/go-hummingbird) - Go library for accessing the Hummingbird.me API
   * [go-libGeoIP](https://github.com/nranchev/go-libGeoIP) - GO Lib GeoIP API for Maxmind
