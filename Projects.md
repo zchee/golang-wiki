@@ -1650,6 +1650,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [firebase](https://github.com/cosn/firebase) - Client library for the Firebase REST API
   * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks API
   * [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3
+  * [githubql](https://github.com/shurcooL/githubql) - Go library for accessing the GitHub GraphQL API v4
   * [gobo](https://github.com/huichen/gobo) - Client library for Sina Weibo
   * [gocaptcha](https://github.com/GeertJohan/gocaptcha) - gocaptcha provides easy access to the reCaptcha API in go
   * [go-dealmap](https://github.com/ancientlore/go-dealmap) - Go library for accessing TheDealMap's API
