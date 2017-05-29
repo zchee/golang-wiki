@@ -148,6 +148,8 @@ $ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
 
 The command above will generate an [aar](https://developer.android.com/studio/projects/android-library.html)  that can be importable by your IDE.
 
+Alternatively, if you are not familiar with android development, and you do not wish to set up all the required environment (Android SDK, Gradle, etc), you can use this [Dockerfile](https://github.com/mpl/go4droid/blob/master/Dockerfile) to build the application in [docker](https://www.docker.com/) instead.
+
 ### Building and deploying to iOS
 
 Note: target=ios requires the host machine to be running OS X.
