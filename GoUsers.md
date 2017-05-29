@@ -686,7 +686,7 @@
   * [GramGames](http://gram.gs/)
   * [Insider](http://useinsider.com/)
   * [Mos Teknoloji](http://www.mosteknoloji.com)
-  * [Peak Games](https://www.peakgames.net/)
+  * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
 
 ## Ukraine
   * [ElifTech](http://www.eliftech.com)
