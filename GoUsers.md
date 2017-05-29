@@ -89,6 +89,7 @@
   * [Crowdstrike](http://www.crowdstrike.com/) - [blog](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
   * [Cupcake](https://cupcake.io) - [tweet](https://jonathan.cupcake.is/posts/QweOXcW6rmbdj16aXlEdNA) [github](https://github.com/cupcake)
   * [CURT Manufacturing](https://www.curtmfg.com) - [github](https://github.com/curt-labs/)
+  * [Cycle.io](https://cycle.io)
   * [CustomerIO](http://www.customer.io) - [tweet](https://twitter.com/jrallison/status/365560974251540481)
   * [Dailymotion](http://www.dailymotion.com) - [github](https://github.com/dailymotion), [blog](http://engineering.dailymotion.com/our-way-to-go/)
   * [Datadog](https://www.datadoghq.com) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-at-datadog/)
