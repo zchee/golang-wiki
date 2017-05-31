@@ -458,7 +458,7 @@
   * [Qwinix](https://www.qwinixtech.com/)
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
   * [Siminars](http://siminars.com)
-  * [Singulerp] (https://singulerp.com)
+  * [Singulerp](https://singulerp.com)
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
   * [Techequity Technologies](http://www.techequity.in/)
