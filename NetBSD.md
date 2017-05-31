@@ -1,12 +1,10 @@
 # Go on NetBSD
 
-| **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
-|:-------------------|:------------------|:----------------------------|:--------------------------|
-| 7.1                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
-| 7.0                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
-| 6.1                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
-| 6.0                | amd64, arm, 386   | Go 1.3 _*_                  |                           |
-| 5.0                | amd64, 386        | Go 1                        | Go 1.2.2                  |
+| **Kernel version**    | **Architectures** | **Initial support version** | **Final support version** |
+|:----------------------|:------------------|:----------------------------|:--------------------------|
+| 7.0 or above          | amd64, arm, 386   | Go 1.3 _*_                  |                           |
+| 6.0 through 6.1       | amd64, arm, 386   | Go 1.3 _*_                  |                           |
+| 5.0 through 5.2 (EOL) | amd64, 386        | Go 1                        | Go 1.2.2                  |
 
 _*_ Go 1.5 or above is recommended.
 
