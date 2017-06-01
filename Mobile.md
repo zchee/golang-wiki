@@ -77,7 +77,7 @@ $ gomobile install golang.org/x/mobile/example/basic
 ### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
-Note: target=ios requires the host machine running OS X. You need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/ios/recipes/xcode_help-accounts_preferences/articles/obtain_certificates_and_provisioning_profiles.html) in order to continue.
+Note: target=ios requires the host machine running OS X. You need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in order to continue.
 
 ```
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
