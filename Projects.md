@@ -1078,6 +1078,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sio](https://github.com/schleibinger/sio) - Package sio lets you access old serial junk. It's a go-gettable fork and modification of dustin's rs232 package.
   * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
   * [symutils](https://github.com/salviati/symutils) - Various tools and libraries to handle symbolic links
+  * [toktok](https://github.com/muesli/toktok) - Creates and resolves unique, typo & error-resilient, human-readable tokens
   * [twitterfetcher](https://bitbucket.org/georgebaev/twitterfetcher) - A tool to make Twitter API requests using the [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
   * [udis86](https://github.com/jroimartin/udis86) - Go bindings for libudis86
   * [ugo](https://github.com/alxrm/ugo) - underscore.js like toolbox for Go
