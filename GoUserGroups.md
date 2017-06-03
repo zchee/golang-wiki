@@ -1,7 +1,3 @@
-
-# Turkey
-  * [Golang Türkiye](https://www.facebook.com/groups/GolangTurkiye) - Istanbul, Turkey.
-
 # Africa
   * [Golang Buea](https://meetup.com/Docker-Buea) - Buea, Cameroon
   * [Go Egypt](https://web.facebook.com/groups/563213043835298/) - Cairo, Egypt.
@@ -28,6 +24,7 @@
 
 # Europe
 
+  * [Golang Türkiye](https://www.facebook.com/groups/GolangTurkiye) - Istanbul, Turkey.
   * [Gophers Aachen](https://www.meetup.com/Gophers-Aachen/) - Aachen, Germany.
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
   * [Belarus](http://gophers.by/) - Belarus.
