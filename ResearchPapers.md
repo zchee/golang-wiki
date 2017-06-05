@@ -105,6 +105,8 @@ Turing Scholars honors thesis
   - [code](https://github.com/NullHypothesis/sybilhunter)
 - A Distributed Implementation of the Graph Database System: DGraph
   - [pdf](https://www.dropbox.com/s/7h4ytak39r2pdun/Ashwin_Thesis.pdf?dl=0)
+- Browsix: Bridging the Gap Between Unix and the Browser (Powers, Vilk, Berger)
+  - https://arxiv.org/abs/1611.07862
 
 ## 2015
 - Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
