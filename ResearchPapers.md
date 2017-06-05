@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Towards Omnia: a Monitoring Factory for Quality-Aware DevOps (Marco Miglierina, Damian A. Tamburri)
+  - [doi.org/10.1145/3053600.3053629](https://doi.org/10.1145/3053600.3053629) ICPE '17 Companion
+  - [github.com/mmiglier/omnia](https://github.com/mmiglier/omnia) (Go: 52.8% )
+  - Keywords: Monitoring, Monitoring Management, Monitoring Factory, Monitoring Interface, Monitoring Infrastructure as Code, Monitoring Configuration as Code
 - Copy-on-Reference File Mechanism Extends Scope of Dynamic Reconfiguration (Jeremy Krach) thesis
   - [pdf](http://honors.cs.umd.edu/uploads/thesis/file/189/Krach_Jeremy_Thesis.pdf)
   - [github.com/krockpot/lazyfs](https://github.com/krockpot/lazyfs) _"Lazy file retrieval for process migration."_
