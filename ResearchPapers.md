@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- An event model for phylogenetic biogeography using explicitly geographical ranges (J. Salvador Arias)
+  - http://onlinelibrary.wiley.com/doi/10.1111/jbi.13024/full
+  - Computer implementation (EVS written in Go) : [github.com/js-arias/evs](https://github.com/js-arias/evs) _"Evs is a tool for phylogenetic biogeography.
+"_
 - Feasibility of reusable continuous thrust spacecraft for cargo resupply missions to Mars (C. B. Rabotin) thesis
   - [pdf](http://hanspeterschaub.info/Papers/grads/ChristopherRabotin.pdf)
   - [github.com/ChristopherRabotin/smd](https://github.com/ChristopherRabotin/smd) Space Mission Design - A SPICE-enhanced continuous thrust interplanetary mission propagator and vizualizer
