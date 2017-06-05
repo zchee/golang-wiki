@@ -1,5 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Copy-on-Reference File Mechanism Extends Scope of Dynamic Reconfiguration (Jeremy Krach) thesis
+  - [pdf](http://honors.cs.umd.edu/uploads/thesis/file/189/Krach_Jeremy_Thesis.pdf)
+  - [github.com/krockpot/lazyfs](https://github.com/krockpot/lazyfs) _"Lazy file retrieval for process migration."_
 - An event model for phylogenetic biogeography using explicitly geographical ranges (J. Salvador Arias)
   - http://onlinelibrary.wiley.com/doi/10.1111/jbi.13024/full
   - Computer implementation (EVS written in Go) : [github.com/js-arias/evs](https://github.com/js-arias/evs) _"Evs is a tool for phylogenetic biogeography.
