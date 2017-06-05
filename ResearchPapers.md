@@ -165,6 +165,9 @@ Turing Scholars honors thesis
 - Be General and Don't Give Up Consistency in Geo-Replicated Transactional Systems
   - [PDF](http://hyflow.org/pubs/opodis14-alvin.pdf)
   - Project page: [Hyflow](http://www.hyflow.org/hyflow-go/index.html)
+- The design and verification of Mumax3 (Vansteenkiste, Leliaert, Dvornik, Garcia-Sanchez, Van Waeyenberge)
+  - https://arxiv.org/abs/1406.7635
+  - https://github.com/mumax/3
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
