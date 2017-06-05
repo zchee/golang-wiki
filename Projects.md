@@ -1382,6 +1382,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Minio](https://minio.io/) - Object Storage compatible with Amazon S3 API
   * [libStorage](https://github.com/emccode/libstorage) - an open source, platform agnostic, storage provisioning and orchestration framework, model, and API
+  * [OpenEBS](https://openebs.io) - Containerized, Open source block storage for your containers,integrated tightly into K8S and other environments and based on distributed block storage and containerization of storage control
 
 ## Strings and Text
 
