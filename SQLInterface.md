@@ -15,7 +15,7 @@ The documentation below assumes a driver has been imported.
 
 Open is used to create a database handle:
 
-```
+```go
 db, err := sql.Open(driver, dataSourceName)
 ```
 
@@ -25,7 +25,7 @@ such as database name and authentication credentials.
 
 Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the Ping function:
 
-```
+```go
 if err := db.Ping(); err != nil {
   log.Fatal(err)
 }
@@ -37,7 +37,7 @@ After use, the database is closed using Close.
 
 Exec is used for queries where no rows are returned:
 
-```
+```go
 result, err := db.Exec(
 	"INSERT INTO users (name, age) VALUES ($1, $2)",
 	"gopher",
@@ -51,7 +51,7 @@ the database driver.
 
 Query is used for retrieval:
 
-```
+```go
 rows, err := db.Query("SELECT name FROM users WHERE age = $1", age)
 if err != nil {
 	log.Fatal(err)
@@ -70,7 +70,7 @@ if err := rows.Err(); err != nil {
 
 QueryRow is used where only a single row is expected:
 
-```
+```go
 var age int64
 row := db.QueryRow("SELECT age FROM users WHERE name = $1", name)
 err := row.Scan(&age)
@@ -78,7 +78,7 @@ err := row.Scan(&age)
 
 Prepared statements can be created with Prepare:
 
-```
+```go
 age := 27
 stmt, err := db.Prepare("SELECT name FROM users WHERE age = $1")
 if err != nil {
@@ -95,7 +95,7 @@ statement should be closed with Close.
 
 Transactions are started with Begin:
 
-```
+```go
 tx, err := db.Begin()
 if err != nil {
 	log.Fatal(err)
@@ -113,7 +113,7 @@ If a database column is nullable, one of the types supporting null values should
 
 For example, if the name column in the names table is nullable:
 
-```
+```go
 var name NullString
 err := db.QueryRow("SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ...
