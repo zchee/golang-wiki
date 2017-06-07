@@ -10,6 +10,13 @@ $ sudo apt-get install golang-go
 $ sudo apt-get install golang-1.8-go
 ```
 
+Using snaps also works quite well:
+
+```
+# This will give you go 1.8
+$ snap install --classic go
+```
+
 Or use Go's official (non-Deb) downloads:
 
 https://golang.org/dl/
