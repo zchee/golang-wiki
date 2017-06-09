@@ -109,6 +109,6 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Publication Date: May 31, 2017
     * ISBN:978-1788290494
 
-[[video](https://www.packtpub.com/application-development/go-building-7-real-world-projects)]
+[[course](https://www.packtpub.com/application-development/go-building-7-real-world-projects)]
 
 ***
