@@ -1,5 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Estimating Mixture Entropy with Pairwise Distances (Artemy Kolchinsky, Brendan D. Tracey)
+  - [arXiv](https://arxiv.org/abs/1706.02419)
+  - [godoc](https://godoc.org/github.com/btracey/mixent)
 - Towards Omnia: a Monitoring Factory for Quality-Aware DevOps (Marco Miglierina, Damian A. Tamburri)
   - [doi.org/10.1145/3053600.3053629](https://doi.org/10.1145/3053600.3053629) ICPE '17 Companion
   - [github.com/mmiglier/omnia](https://github.com/mmiglier/omnia) (Go: 52.8% )
