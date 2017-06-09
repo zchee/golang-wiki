@@ -80,3 +80,35 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/web-development/go-essentials-full-stack-web-development-video)]
 
 ***
+  * **Go Behavioral Patterns [Video]**
+    * Author: Mario Castro Contreras
+    * Publication Date: May 27, 2017
+    * ISBN:978-1788397377
+
+[[video](https://www.packtpub.com/application-development/go-behavioral-patterns-video)]
+
+***
+  * **Go Concurrency [Video]**
+    * Author: Mario Castro Contreras
+    * Publication Date: May 30, 2017
+    * ISBN:978-1788394161
+
+[[video](https://www.packtpub.com/application-development/go-concurrency-video)]
+
+***
+  * **Advanced Cloud Native Go [Video]**
+    * Author: Mario-Leander Reimer
+    * Publication Date: May 31, 2017
+    * ISBN:978-1787286238
+
+[[video](https://www.packtpub.com/application-development/advanced-cloud-native-go-video)]
+
+***
+  * **Go: Building 7 Real-World Projects [Video]**
+    * Author:  Ben Tranter, Rostislav Dzinko and Mat Ryer
+    * Publication Date: May 31, 2017
+    * ISBN:978-1788290494
+
+[[video](https://www.packtpub.com/application-development/go-building-7-real-world-projects)]
+
+***
