@@ -51,6 +51,8 @@ This page lists academic and industry research papers about Go or using Go as th
   - https://arxiv.org/abs/1701.04929
 
 ## 2016
+- Atom: Horizontally Scaling Strong Anonymity (Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, Bryan Ford)
+  - [arXiv:1612.07841 cs.CR](https://arxiv.org/abs/1612.07841) _"...We implemented an Atom prototype in Go in approximately 3,500 lines of code, ..."_
 - The Case for Reconfiguration without Consensus: Comparing Algorithms for Atomic Storage (Leander Jehl, Hein Meling) 
   - [pdf](http://drops.dagstuhl.de/opus/volltexte/2017/7100/pdf/LIPIcs-OPODIS-2016-31.pdf) 
   - [github.com/relab/smartmerge](https://github.com/relab/smartmerge) implemented in golang
