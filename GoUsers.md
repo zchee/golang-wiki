@@ -465,6 +465,7 @@
   * [Testbook](http://testbook.com/)
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
+  * [Zerodha](https://kite.zerodha.com/)
 
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
