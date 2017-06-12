@@ -34,3 +34,4 @@ reform    | https://godoc.org/gopkg.in/reform.v1
 bigquery  | https://godoc.org/cloud.google.com/go/bigquery
 datastore | https://godoc.org/cloud.google.com/go/datastore
 spanner   | https://godoc.org/cloud.google.com/go/spanner
+bson      | https://godoc.org/labix.org/v2/mgo/bson
