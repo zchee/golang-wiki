@@ -1,5 +1,8 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Let's Go: a Data-Driven Multi-Threading Support (Alberto Scionti,Somnath Mazumdar) CF'17 Proceedings of the Computing Frontiers Conference 
+  - [doi.org/10.1145/3075564.3075596](https://doi.org/10.1145/3075564.3075596)  _"... This paper proposes a first attempt to map goroutines on a data-driven based PXM. ..."_
+  - Keywords:  Data-driven, Programming language, Multi-threading
 - Estimating Mixture Entropy with Pairwise Distances (Artemy Kolchinsky, Brendan D. Tracey)
   - [arXiv](https://arxiv.org/abs/1706.02419)
   - [godoc](https://godoc.org/github.com/btracey/mixent)
