@@ -24,6 +24,7 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ 
 | Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
+| | **2016** | | |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
 |GopherCon Brasil | 2016-11-04-05 | Florianópolis, Brazil | https://2016.gopherconbr.org/en/ |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
