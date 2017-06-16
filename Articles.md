@@ -100,7 +100,6 @@ Table of Contents
   * [Sorting Inventory Items in Go - the sort.Interface](http://adampresley.com/2015/09/06/sorting-inventory-items-in-go.html) _2015-09-06_
   * [Loose Coupling in Go Lang](https://blog.8thlight.com/javier-saldana/2015/02/06/loose-coupling-in-go-lang.html) _2015-02-06_
   * [Interface Types in Go](https://medium.com/@rakyll/interface-pollution-in-go-7d58bccec275) _2014-10-18_
-  * [no methods on interfaces](http://gowithconfidence.tumblr.com/post/31735316104/interface-methods) _2012-09-17_
   * [How to use interfaces in Go](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go) _2012-10-01_
   * [Go Object Oriented Design](http://nathany.com/good) _2013-01-14_
   * [It is ridiculously easy to refactor Go](http://www.onebigfluke.com/2013/01/it-is-ridiculously-easy-to-refactor-go.html) _2013-01-27_
