@@ -11,7 +11,7 @@ Diagnostics solutions can be categorized into the following groups:
 
 * **Runtime stats**: Collection and analysis of runtime stats provide a high-level overview of the health of Go programs. Spikes and dips in these values helps us to identify changes in throughput, utilization, and performance.
 
-* **Debugging**: Debugging allows us to pause Go programs and examine its execution. Program state and flow can be verified with debugging.
+* **Debugging**: Debugging allows us intercept the execution flow of Go programs. Program state and flow can be verified and modified with debugging.
 
 * **Concurrency**: Concurrency diagnostics tools specialize in addressing concurrency-related verification and sanity check.
 
