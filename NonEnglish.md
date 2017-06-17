@@ -43,6 +43,7 @@ Some of this documentation may be out of date.
 ## Russian - русский язык
 
   * [Effective Go](https://github.com/Konstantin8105/Effective_Go_RU/blob/master/README.md)
+  * [Contribution Guide](https://github.com/Konstantin8105/Contribution_Guide_RU)
 
 ## Spanish - español
   * [Video course: Go Course from 0 to 100](https://www.youtube.com/watch?v=7SIIyt5-XK0&list=PLl_hIu4u7P64MEJpR3eVwQ1l_FtJq4a5g)
