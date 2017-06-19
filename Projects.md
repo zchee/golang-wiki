@@ -1415,6 +1415,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gpKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth–Morris–Pratt algorithm
   * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character
   * [html2text](https://github.com/jaytaylor/html2text) - Golang HTML to text conversion library
+  * [intern](https://github.com/spakin/intern) - Map strings to symbols for constant-time comparisons
   * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents
   * [kview](https://github.com/ziutek/kview) - Simple wrapper for kasia.go templates. It helps to modularize content of a website
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
