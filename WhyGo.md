@@ -72,7 +72,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [*Why I Program in Go* by Tahir Hashmi](http://tech.t9i.in/2013/01/why-program-in-go/)
 - [*DNS Server in Go* by Ask Bjørn Hansen](http://news.ntppool.org/2012/10/new-dns-server.html)
 - [*Fixing Server bottlenecks with Go and Nginx* by Ismael Celis](https://www.new-bamboo.co.uk/blog/2014/11/18/fixing-server-bottlenecks-with-go-and-nginx/)
-- [*Go and Switft* by Scott Rosenberg](https://medium.com/backchannel/my-computer-language-is-better-than-yours-58d9c9523644)
+- [*Go and Swift* by Scott Rosenberg](https://medium.com/backchannel/my-computer-language-is-better-than-yours-58d9c9523644)
 - [*Features I Like about Go* by Abhi Yerra](https://medium.com/on-being-a-code-monkey/things-i-like-about-go-e026762be8ac)
 - [**Go at Apcera** by Derek Collison](https://www.hakkalabs.co/articles/why-we-use-go)
 
