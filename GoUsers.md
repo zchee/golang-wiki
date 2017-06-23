@@ -458,6 +458,7 @@
   * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Kayako](http://www.kayako.com/)
   * [Propebbles](http://www.propebbles.com/)
+  * [Qwentic](https://www.qwentic.com) - A Golang specialized software development company
   * [Qwinix](https://www.qwinixtech.com/)
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
   * [Siminars](http://siminars.com)
