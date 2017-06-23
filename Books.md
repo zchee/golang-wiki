@@ -165,6 +165,12 @@ Sorted by publication date.
     * ISBN: 978-1491941959
     * Reference: http://shop.oreilly.com/product/0636920046516.do
 
+  * **Black Hat Go**
+    * Author: Tom Steele, Chris Patten, and Dan Kottmann
+    * Publication Date: March 2018
+    * ISBN: 978-1-59327-865-6
+    * Reference: https://www.nostarch.com/blackhatgo
+
 ## Available without Publication Date
 
   * **Learning Go** (e-book)
