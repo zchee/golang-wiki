@@ -10,6 +10,7 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
+  * **Apache Ignite/GridGain**: https://github.com/amsokol/go-ignite-client
   * **Apache Phoenix/Avatica**: https://github.com/Boostport/avatica
   * **ClickHouse**: https://github.com/kshvakov/clickhouse
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
