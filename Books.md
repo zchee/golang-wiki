@@ -89,6 +89,12 @@ Sorted by publication date.
     * ISBN: 978-1484210536
     * Reference: http://www.apress.com/9781484210536
 
+* **Introducing Go**
+    * Author: Caleb Doxsey
+    * Publication Date: January 2016
+    * ISBN: 978-1491941959
+    * Reference: http://shop.oreilly.com/product/0636920046516.do
+
 * **Write webapps in Go without using a framework** (Free e-book)
     * Author: Suraj Patil
     * Publication Date: October 2016
@@ -158,12 +164,6 @@ Sorted by publication date.
     * Reference: [http://usegolang.com](http://usegolang.com)
 
 ## Pre-order
-
-  * **Introducing Go**
-    * Author: Caleb Doxsey
-    * Publication Date: January 2016
-    * ISBN: 978-1491941959
-    * Reference: http://shop.oreilly.com/product/0636920046516.do
 
   * **Black Hat Go**
     * Author: Tom Steele, Chris Patten, and Dan Kottmann
