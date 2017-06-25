@@ -165,6 +165,12 @@ Sorted by publication date.
 
 ## Pre-order
 
+  * **Go Systems Programming**
+    * Author: Mihalis Tsoukalos
+    * Publication Date: October 2017
+    * ISBN: 9781787125643
+    * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
+
   * **Black Hat Go**
     * Author: Tom Steele, Chris Patten, and Dan Kottmann
     * Publication Date: March 2018
