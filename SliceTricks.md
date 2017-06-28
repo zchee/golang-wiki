@@ -101,7 +101,7 @@ a = append(a, x)
 
 #### Push Back
 ```go
-a = append([]typeOfA{ x }, a...)
+a = append([]T{ x }, a...)
 ```
 
 #### Shift
