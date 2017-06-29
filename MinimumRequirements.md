@@ -38,6 +38,10 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8. We only run builders testing FreeBSD 10.1 and 11.0.
 
+### [NetBSD](NetBSD)
+
+There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 7.1. It's currently not recommended to run Go on NetBSD, though it might work. See https://tip.golang.org/doc/go1.9#known_issues and https://github.com/golang/go/issues/20852
+
 ### [Native Client](NativeClient)
 
 pepper_39 or newer.
