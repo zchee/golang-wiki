@@ -121,6 +121,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions
   * [Realize](https://github.com/tockins/realize) - A Go build system with file watchers, output streams and live reload. Run, build and watch file changes with custom paths.
   * [SCons Go Tools](https://launchpad.net/sconsgo) - A collection of builders that makes it easy to compile Go projects in SCons
+  * [Task](https://github.com/go-task/task) - A task runner / simple alternative to Make
 
 ## Caching
 
