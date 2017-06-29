@@ -1,5 +1,7 @@
 # Go on NetBSD
 
+Go on NetBSD is not stable as of Go 1.8/Go 1.9. See https://tip.golang.org/doc/go1.9#known_issues and https://github.com/golang/go/issues/20852
+
 | **Kernel version**    | **Architectures** | **Initial support version** | **Final support version** |
 |:----------------------|:------------------|:----------------------------|:--------------------------|
 | 7.0 or above          | amd64, arm, 386   | Go 1.3 _*_                  |                           |
