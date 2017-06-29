@@ -36,7 +36,7 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 ### [FreeBSD](FreeBSD)
 
-FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8. We only run builders testing FreeBSD 10.1 and 11.0.
+FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we might need something newer than 8. FreeBSD 9.1 reportedly does not work. We only run builders testing FreeBSD 9.3, FreeBSD 10.1 and 11.0.
 
 ### [NetBSD](NetBSD)
 
