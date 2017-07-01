@@ -72,6 +72,7 @@
   * [Byndr](http://www.byndr.org)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA), [email](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
+  * [Channel](https://www.getchannel.co)
   * [Clearblade](http://clearblade.com/) - [github](https://github.com/ClearBlade/Go-SDK)
   * [Clever](https://clever.com/) - [github](https://github.com/clever) [blog](http://engineering.clever.com/)
   * [CloudFlare](http://www.cloudflare.com/) - [blog](http://blog.cloudflare.com/go-at-cloudflare) [article](http://arstechnica.com/information-technology/2013/02/cloudflare-blows-hole-in-laws-of-web-physics-with-go-and-railgun/)
