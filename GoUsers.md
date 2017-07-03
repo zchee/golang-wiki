@@ -605,6 +605,7 @@
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
+  * [Nerdalize](https://www.nerdalize.com/) - [github](https://github.com/nerdalize)
   * [Nextail](https://www.nextail.nl/)
   * [Pocket Media](http://www.pocketmedia.mobi/) - [company website](http://www.pocketmedia.mobi/), [github](github.com/pocketbrain/)
   * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
