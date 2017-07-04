@@ -9,6 +9,7 @@ Go is a great language for CS majors. This page presents some university courses
   * Free University of Berlin (Germany) had a course [Introduction to Go Programming](http://w3.inf.fu-berlin.de/lehre/WS12/go/) in Spring 2013.
   * J.W. Goethe University (Frankfurt/Main, Germany) had a course [Introduction to Go Programming](http://www.sepl.informatik.uni-frankfurt.de/2014-ws/b-ps2/index.de.html) in Spring 2015 (in german)
   * University of Pennsylvania had a course on [Go Programming](https://www.seas.upenn.edu/~cis193/) in Spring 2017.
+  * SUNY Potsdam (Potsdam, NY) "Selected languages course with Go", taught by Dr. Brian C. Ladd (Associate Professor of Computer Science). First class in Spring 2017
 
 # Programming Concepts
 
