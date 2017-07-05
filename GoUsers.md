@@ -619,6 +619,7 @@
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
   * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
   * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
+  * [Spalk](http://spalk.co)
 
 ## Philippines
   * [ULAPPH](http://www.ulapph.com)
