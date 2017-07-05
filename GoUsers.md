@@ -399,6 +399,7 @@
  
 ## China   
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
+  * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
   * [Yeeuu](https://www.yeeuu.com/)
 
