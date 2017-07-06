@@ -44,11 +44,9 @@ Older-style builders are listed below. These builders are configured and run man
   * The combination of Ubuntu 11.10 or 12.04 OMAP4 kernel and pandaboard (ES) have proven unstable as builders. See [issue 4305](https://code.google.com/p/go/issues/detail?id=4305). Make sure you have updated to the latest available 12.04.2 release.
 
 # How to set up a builder
-  1. obtain a hash from Go team members, and put that in ` ~/.gobuildkey `
-  1. go get golang.org/x/build/cmd/builder
-  1. builder YOUR\_BUILDER\_NAME
-
-# Special notes
-  * Please make sure you've installed root certificates and that it's accessible to Go programs. For example, on NetBSD, you will need to install ` security/mozilla-rootcerts `.
-  * If your builder runs Unix, please install ` perl `, as tests for ` go.tools/cmd/vet ` need it.
-  * Raise ` ulimit `s on Unix: thread count (` -r `), nofiles (` -n `, 1024 should be fine)
+  1. talk to golang-dev@ to get a builder host type & hash (they can get one from e.g. https://build-dot-golang-org.appspot.com/key?builder=host-foo-bar), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to be env var `$GO_BUILD_KEY_PATH`.
+  1. go get golang.org/x/build/cmd/buildlet
+  1. Run the buildlet in a loop or under systemd: `while true; do buildlet -coordinator=farmer.golang.org -reverse-type=host-foo-bar -reboot=false; done`
+  1. Verify you can see the host registered at https://farmer.golang.org/#pools in the "Reverse pool machine detail" section and "Reverse pool summary".
+  1. Add a builder type to https://github.com/golang/build/blob/master/dashboard/builders.go (see the `addBuilder` lines). Run tests. Send the CL.
+  1. Have golang-dev deploy it.
