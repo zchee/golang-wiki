@@ -136,6 +136,11 @@ Requires switching GOPATH for every project.
 |Title      |Helps provide go get support for private repositories, pip for golang|
 |Author     |Lyrical Security                  |
 |Categories |Vendoring, Revision Locking (git). Does not appear to copy files.  |
+|           |                                                                   |
+| **gorepoman**  |https://github.com/fullstorydev/gorepoman                     |
+|Title      |Super powered `go get` for managing revisions in a monorepo        |
+|Author     |FullStory                                                          |
+|Categories |Revision Locking (git). Does not alter `$GOPATH` and works with normal `go` commands/tooling. IDE friendly. Easy to reconcile local changes, submit changes upstream. |
 
 ## Pkg copy with import path re-write (As of Go 1.5, this is no longer the recommended practice)
 
