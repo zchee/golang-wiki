@@ -143,6 +143,18 @@ Sorted by publication date.
     * ISBN: 978-1786466204
     * Reference: https://www.packtpub.com/application-development/go-design-patterns
 
+* **Go Cookbook**
+    * Author: Aaron Torres
+    * Publication Date: June 2017
+    * ISBN: 978-1783286836
+    * Reference: https://www.packtpub.com/application-development/go-cookbook
+
+* **Go: Design Patterns for Real-World Projects**
+    * Authors: Vladimir Vivien, Mario Castro Contreras, Mat Ryer
+    * Publication Date: June 2017
+    * ISBN: 978-1788390552
+    * Reference: https://www.packtpub.com/application-development/go-design-patterns-real-world-projects
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
