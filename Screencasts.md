@@ -112,3 +112,19 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[course](https://www.packtpub.com/application-development/go-building-7-real-world-projects)]
 
 ***
+  * **Modern Golang Programming [Video]**
+    * Author:  Mina Andrawos
+    * Publication Date: June 23, 2017
+    * ISBN:978-1787125254
+
+[[video](https://www.packtpub.com/web-development/modern-golang-programming-video)]
+
+***
+  * **Back-End Web Development using Go [Video]**
+    * Author:  Kamesh Balasubramanian
+    * Publication Date: June 30, 2017
+    * ISBN:978-1788392761
+
+[[video](https://www.packtpub.com/web-development/back-end-web-development-using-go-video)]
+
+***
