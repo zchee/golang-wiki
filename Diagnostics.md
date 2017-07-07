@@ -64,7 +64,7 @@ Flame graphs offer visualization to spot the most expensive code-paths:
 
 **Am I restricted to the built-in profiles?**
 
-Additionally to what is provided by the runtime, Go users can create their custom profiles via [pprof.Profile](https://golang.org/pkg/runtime/pprof/#Profile) and use the existing tools to examine them.
+No. Additionally to what is provided by the runtime, Go users can create their custom profiles via [pprof.Profile](https://golang.org/pkg/runtime/pprof/#Profile) and use the existing tools to examine them.
 
 **Can I identify whether a specific user/request is responsible for the cost?**
 
