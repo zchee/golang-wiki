@@ -72,8 +72,10 @@ Go will soon allow users to attach [context-scoped labels](https://github.com/go
 
 
 **Can I serve the profiler handlers (/debug/proof/…) on a different path and port?**
-Yes! net/http/pprof package registers its handlers to the default mux by default. But, you can also register them yourself by using the handlers exported from the package.
-For example, the following example will serve the pprof.Profile handler on :7777 at /pprof/profile:
+
+Yes! `net/http/pprof` package registers its handlers to the default mux by default. But, you can also register them yourself by using the handlers exported from the package.
+
+For example, the following example will serve the `pprof.Profile` handler on :7777 at /pprof/profile:
 
 ```
 mux := http.NewServeMux()
