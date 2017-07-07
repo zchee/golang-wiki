@@ -68,7 +68,7 @@ No. Additionally to what is provided by the runtime, Go users can create their c
 
 **Can I identify whether a specific user/request is responsible for the cost?**
 
-With 1.9, Go allows users to attach [context-scoped labels](https://github.com/golang/proposal/blob/master/design/17280-profile-labels.md) to pprof records. Once profiler labels are available, it will be possible to attach user IDs, request URLs, RPC names, etc. to profiling data which later may be examined by labels. See an end-to-end [tutorial](https://rakyll.org/profiler-labels/).
+With 1.9, Go allows users to attach [context-scoped labels](https://github.com/golang/proposal/blob/master/design/17280-profile-labels.md) to pprof records. Once profiler labels are available, it will be possible to attach user IDs, request URLs, RPC names, etc. to profiling data which later may be examined by labels. See an [end-to-end tutorial](https://rakyll.org/profiler-labels/).
 
 
 **Can I serve the profiler handlers (/debug/proof/…) on a different path and port?**
