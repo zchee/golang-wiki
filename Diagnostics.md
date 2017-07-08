@@ -1,5 +1,6 @@
 # Diagnostics
 
+*Note: This guide will be move to golang.org once completed.*
 
 The Go ecosystem provides a large suite of APIs and tools to diagnose logical and performance problems in Go programs. This document summarizes the available tools and helps Go users to pick the right tool for their specific problem.
 
