@@ -40,7 +40,7 @@ FreeBSD 8 and up according to https://golang.org/doc/install, but I suspect we m
 
 ### [NetBSD](NetBSD)
 
-There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 7.1. It's currently not recommended to run Go on NetBSD, though it might work. See https://tip.golang.org/doc/go1.9#known_issues and https://github.com/golang/go/issues/20852
+There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 7.1. There is a reported fix in NetBSD 7.1.1 but it's unverified as of 2017-07-10, as we're not running builders again yet.  See https://tip.golang.org/doc/go1.9#known_issues and https://github.com/golang/go/issues/20852
 
 ### [Native Client](NativeClient)
 
