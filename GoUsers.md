@@ -414,15 +414,16 @@
   * [SYBO Games](http://sybogames.com)
 
 ## France
+  * [Algolia](https://algolia.com)
+  * [Batch.com](https://batch.com)
+  * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
+  * [Equisense](https://www.equisense.com/en/)
+  * [IRI France](http://www.iri-labs.com)
   * [Objenious](http://www.objenious.com)
   * [Rive](http://app.rive.world)
-  * [Batch.com](https://batch.com)
-  * [IRI France](http://www.iri-labs.com)
   * [Teads.tv](http://teads.tv/)
-  * [Algolia](https://algolia.com)
   * [Zenly](https://zen.ly/)
-  * [Equisense](https://www.equisense.com/en/)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
