@@ -18,6 +18,10 @@ Add new sections as appropriate.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Jon Calhoun, “[Pitfalls of context values and how to avoid or mitigate them in Go](https://www.calhoun.io/pitfalls-of-context-values-and-how-to-avoid-or-mitigate-them/),” February 2017.
 
+## Documentation
+
+  - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)"
+
 ## Diagnostics and Debugging
 
   - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," July 2016.
