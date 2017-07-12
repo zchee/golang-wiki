@@ -19,7 +19,7 @@ Add new sections as appropriate.
 
 ## Documentation
 
-  - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)"
+  - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)", May 2017.
 
 ## Diagnostics and Debugging
 
