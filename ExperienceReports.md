@@ -20,7 +20,7 @@ Add new sections as appropriate.
 
 ## Diagnostics and Debugging
 
-  - Entries here.
+  - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," July 2016.
 
 ## Error Handling
 
