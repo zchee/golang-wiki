@@ -2,7 +2,8 @@
 
 This page collects experience reports about problems with Go that might inform our design of solutions to those problems.
 
-The best experience reports tell how Go is working for you, and more importantly not working for you, using real examples, concrete detail, and real experience. Please write these reports about the problems most significant to you, post them on your own blog or on Medium, and then link them here.
+The best experience reports tell _what we wanted to do, what we actually did, why that wasn’t great,
+illustrated by real, concrete examples, ideally from production use._ Please write these reports about the problems most significant to you, post them on your own blog or on Medium, and then link them here.
 
 If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://golang.org/issue/new).
 
