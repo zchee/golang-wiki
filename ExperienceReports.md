@@ -25,7 +25,6 @@ Add new sections as appropriate.
 
 ## Diagnostics and Debugging
 
-  - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," July 2016.
   - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", July 2017.
 
 ## Error Handling
@@ -70,7 +69,7 @@ Add new sections as appropriate.
 
 ## Performance
 
-  - Entries here.
+  - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," July 2016.
 
 ## Time 
 
