@@ -2,8 +2,8 @@
 
 This page collects experience reports about problems with Go that might inform our design of solutions to those problems.
 
-The best experience reports tell _what we wanted to do, what we actually did, why that wasn’t great,
-illustrated by real, concrete examples, ideally from production use._ Please write these reports about the problems most significant to you, post them on your own blog or on Medium, and then link them here.
+__The best experience reports tell: what we wanted to do, what we actually did, why that wasn’t great,
+illustrated by real, concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog or on Medium, and then link them here.
 
 If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://golang.org/issue/new).
 
@@ -17,6 +17,10 @@ Add new sections as appropriate.
 
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Jon Calhoun, “[Pitfalls of context values and how to avoid or mitigate them in Go](https://www.calhoun.io/pitfalls-of-context-values-and-how-to-avoid-or-mitigate-them/),” February 2017.
+
+## Diagnostics and Debugging
+
+  - Entries here.
 
 ## Error Handling
 
@@ -57,6 +61,10 @@ Add new sections as appropriate.
   - BugReplay.com, “[How to use Google Cloud's Free Structured Logging Service With Golang](http://blog.bugreplay.com/post/150086459149/how-to-use-google-clouds-free-structured-logging),” September 2016.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Logmatic, “[Our Guide to a Golang Logs World](https://logmatic.io/blog/our-guide-to-a-golang-logs-world/),” March 2017.
+
+## Performance
+
+  - Entries here.
 
 ## Time 
 
