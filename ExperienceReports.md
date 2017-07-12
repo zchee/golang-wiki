@@ -25,7 +25,7 @@ Add new sections as appropriate.
 
 ## Diagnostics and Debugging
 
-  - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", July 2017.
+  - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", it would be nice if I didn't need so much Unix glue to run and print these. July 2017.
 
 ## Error Handling
 
