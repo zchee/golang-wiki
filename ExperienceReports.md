@@ -79,7 +79,7 @@ Add new sections as appropriate.
 
 ## Performance
 
-  - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," July 2016.
+  - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," trying to explain to the average developer how to use tools like pprof, maybe this could be easier. July 2016.
 
 ## Time 
 
