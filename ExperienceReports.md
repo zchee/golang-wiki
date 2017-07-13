@@ -23,6 +23,7 @@ Add new sections as appropriate.
   - [Logging](#logging)
   - [Performance](#performance)
   - [Time](#time)
+  - [Dependencies](#dependencies)
 
 ## Context
 
@@ -85,3 +86,7 @@ Add new sections as appropriate.
 ## Time 
 
   - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
+
+## Dependencies
+
+  - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
