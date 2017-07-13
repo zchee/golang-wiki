@@ -1,5 +1,3 @@
-# Experience Reports
-
 This page collects experience reports about problems with Go that might inform our design of solutions to those problems. These reports should focus on the _problems_: they should not focus on and need not propose solutions. To propose solutions, see the [proposal process](https://golang.org/s/proposal). 
 
 We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://golang.org/help/](https://golang.org/help/) for resources.)
@@ -13,6 +11,16 @@ Within a section, please keep articles sorted chronologically.
 It's helpful to include a one-phrase summary of the point of each article.
 
 Add new sections as appropriate.
+
+  - [Context](#context)
+  - [Documentation](#documentation)
+  - [Diagnostics and Debugging](#diagnostics-and-debugging)
+  - [Error Handling](#error-handling)
+  - [Generics](#generics)
+  - [Large-Scale Software Development](#large-scale-software-development)
+  - [Logging](#logging)
+  - [Performance](#performance)
+  - [Time](#time)
 
 ## Context
 
