@@ -12,6 +12,8 @@ It's helpful to include a one-phrase summary of the point of each article.
 
 Add new sections as appropriate.
 
+**Table of Contents**
+
   - [Context](#context)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
