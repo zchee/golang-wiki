@@ -80,6 +80,7 @@ Add new sections as appropriate.
 ## Performance
 
   - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," trying to explain to the average developer how to use tools like pprof, maybe this could be easier. July 2016.
+  - Nathan Kerr, "[Concurrency Slower?](https://pocketgophers.com/concurrency-slower/)", shows how to use Go's testing, benchmarking, and profiling tools to improve the performance of a concurrent implementation of a function. April 2017.
 
 ## Time 
 
