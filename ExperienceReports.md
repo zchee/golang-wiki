@@ -6,7 +6,7 @@ __The best experience reports tell: (1) what we wanted to do, (2) what we actual
 
 If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://golang.org/issue/new).
 
-Please keep the overall page themselves sorted alphabetically by section (Error Handling before Logging, and so on).
+Please keep the overall page sorted alphabetically by section (Error Handling before Logging, and so on).
 Within a section, please keep articles sorted chronologically.
 It's helpful to include a one-phrase summary of the point of each article.
 
