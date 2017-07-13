@@ -2,7 +2,7 @@ This page collects experience reports about problems with Go that might inform o
 
 We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://golang.org/help/](https://golang.org/help/) for resources.)
 
-__The best experience reports tell: (1) what we wanted to do, (2) what we actually did, and (3) why that wasn’t great, illustrating those by real concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog, or on Medium, or as a [Github Gist](https://gist.github.com/) (use a `.md` extension for Markdown), or as a publicly-readable Google doc, and then link them here. (Talk videos or slides are also welcome, although they are not as convenient for us to digest.)
+__The best experience reports tell: (1) what you wanted to do, (2) what you actually did, and (3) why that wasn’t great, illustrating those by real concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog, or on Medium, or as a [Github Gist](https://gist.github.com/) (use a `.md` extension for Markdown), or as a publicly-readable Google doc, and then link them here. (Talk videos or slides are also welcome, although they are not as convenient for us to digest.)
 
 If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://golang.org/issue/new).
 
