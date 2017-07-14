@@ -61,6 +61,7 @@ Add new sections as appropriate.
     documenting the overhead of sorting using sort.Interface instead of specialized code.
   - Jon Calhoun, “[Using code generation to survive without generics in Go](https://dev.to/joncalhoun/using-code-generation-to-survive-without-generics-in-go),” May 2017.
   - Jon Bodner, “[Closures are the Generics for Go](https://medium.com/capital-one-developers/closures-are-the-generics-for-go-cb32021fb5b5),” June 2017.
+  - Andrew Stock, "[Why I miss generics in Go](https://medium.com/@watchforstock/why-i-miss-generics-in-go-9aef810a1bef)," June 2017
 
 ## Large-Scale Software Development
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
