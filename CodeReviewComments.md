@@ -485,16 +485,35 @@ output such as HTML.
 package template
 ```
 
-Other styles of comment are fine after the binary name (and it may be capitalized if it comes first).
-For example,
+For "package main" commands, other styles of comment are fine after the binary name (and it may be capitalized if it comes first), For example, for a `package main` in the directory `seedgen` you could write:
 
 ``` go
 // Binary seedgen ...
+package main
+```
+or
+```
 // Command seedgen ...
+package main
+```
+or
+```
 // Program seedgen ...
+package main
+```
+or
 // The seedgen command ...
+package main
+```
+or
+```
 // The seedgen program ...
+package main
+```
+or
+```
 // Seedgen ..
+package main
 ```
 
 These are examples, and sensible variants of these are acceptable.
