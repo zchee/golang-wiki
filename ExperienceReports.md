@@ -30,13 +30,17 @@ Add new sections as appropriate.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Jon Calhoun, “[Pitfalls of context values and how to avoid or mitigate them in Go](https://www.calhoun.io/pitfalls-of-context-values-and-how-to-avoid-or-mitigate-them/),” February 2017.
 
-## Documentation
+## Dependencies
 
-  - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)", May 2017.
+  - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
 
 ## Diagnostics and Debugging
 
   - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", it would be nice if I didn't need so much Unix glue to run and print these. July 2017.
+
+## Documentation
+
+  - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)", May 2017.
 
 ## Error Handling
 
@@ -88,7 +92,3 @@ Add new sections as appropriate.
 ## Time 
 
   - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
-
-## Dependencies
-
-  - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
