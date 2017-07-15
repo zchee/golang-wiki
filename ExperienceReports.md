@@ -14,6 +14,7 @@ Add new sections as appropriate.
 
 **Table of Contents**
 
+  - [API](#api)
   - [Context](#context)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
@@ -24,6 +25,10 @@ Add new sections as appropriate.
   - [Performance](#performance)
   - [Time](#time)
   - [Dependencies](#dependencies)
+
+## API
+
+  - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
 
 ## Context
 
