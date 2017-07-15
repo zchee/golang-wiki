@@ -15,6 +15,7 @@ Add new sections as appropriate.
 **Table of Contents**
 
   - [Context](#context)
+  - [Dependencies](#dependencies)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
   - [Error Handling](#error-handling)
@@ -24,7 +25,6 @@ Add new sections as appropriate.
   - [Performance](#performance)
   - [Time](#time)
   - [Type System](#type-system)
-  - [Dependencies](#dependencies)
 
 ## Context
 
