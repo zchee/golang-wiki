@@ -14,7 +14,6 @@ Add new sections as appropriate.
 
 **Table of Contents**
 
-  - [API](#api)
   - [Context](#context)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
@@ -24,11 +23,8 @@ Add new sections as appropriate.
   - [Logging](#logging)
   - [Performance](#performance)
   - [Time](#time)
+  - [Type System](#type-system)
   - [Dependencies](#dependencies)
-
-## API
-
-  - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
 
 ## Context
 
@@ -97,3 +93,7 @@ Add new sections as appropriate.
 ## Time 
 
   - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
+
+## Type System
+
+  - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
