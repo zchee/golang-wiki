@@ -492,26 +492,27 @@ For "package main" commands, other styles of comment are fine after the binary n
 package main
 ```
 or
-```
+```go
 // Command seedgen ...
 package main
 ```
 or
-```
+```go
 // Program seedgen ...
 package main
 ```
 or
+```go
 // The seedgen command ...
 package main
 ```
 or
-```
+```go
 // The seedgen program ...
 package main
 ```
 or
-```
+```go
 // Seedgen ..
 package main
 ```
