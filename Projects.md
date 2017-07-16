@@ -1734,6 +1734,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pusher.go](https://github.com/madari/pusher.go) - HTTP Server Push module for the standard http package
   * [rest2go](https://github.com/Kissaki/rest2go) - Based on rest.go, forked for improvements and REST consistency
   * [rest.go (forked)](https://github.com/Kissaki/rest.go) - forked rest.go for improvements and REST consistency
+  * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
   * [robotstxt](https://github.com/temoto/robotstxt-go) - The robots.txt exclusion protocol implementation. Allows to parse and query robots.txt file.
   * [seshcookie](https://github.com/bpowers/seshcookie) -  A web session library inspired by Beaker
   * [soy](https://github.com/robfig/soy) - A Go implementation for Soy templates (Google Closure templates). High performance and i18n.
