@@ -19,7 +19,7 @@ Please keep all items in chronological order.
 Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | Attendance |
-|------|------------|----------|----------------|----------------|
+|------|------------|----------|----------------|------------|
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com | ~ 1500 |
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | Capital Go Language Conference | 2017-04-24-25 | Washington, DC | http://www.capitalgolang.com/ |
