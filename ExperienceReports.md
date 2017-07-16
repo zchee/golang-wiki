@@ -68,6 +68,7 @@ Add new sections as appropriate.
   - Jon Bodner, “[Closures are the Generics for Go](https://medium.com/capital-one-developers/closures-are-the-generics-for-go-cb32021fb5b5),” June 2017.
   - Andrew Stock, "[Why I miss generics in Go](https://medium.com/@watchforstock/why-i-miss-generics-in-go-9aef810a1bef)," June 2017
   - Kevin Burke, "[Code example with lots of interface casts](https://gist.github.com/kevinburke/a10aed6d8d07ecd5efe658b21cd168c1)," requires a lot of boilerplate/casts.
+  - Ian Lance Taylor, "[The append function](https://www.airs.com/blog/archives/559), July 2017.
 
 ## Large-Scale Software Development
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
