@@ -20,7 +20,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | Attendance |
 |------|------------|----------|----------------|------------|
-| GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com | ~ 1500 |
+| GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com | 1500 |
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
 | Capital Go Language Conference | 2017-04-24-25 | Washington, DC | http://www.capitalgolang.com/ |
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
@@ -32,7 +32,7 @@ Please keep all items in reverse chronological order (most recent first)
 |GopherCon Brasil | 2016-11-04-05 | Florianópolis, Brazil | https://2016.gopherconbr.org/en/ |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
-| GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com | ~700 |
+| GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com | 700 |
 | Gopherfest | 2016-05-16 | San Francisco, USA | http://www.gopherfest.org/ |
 | GoCon Japan | 2016-04-23 | Tokyo, Japan | http://gocon.connpass.com/event/27521/ |
 | Gopher China | 2016-04-16 | Beijing, China | http://www.gopherchina.org |
