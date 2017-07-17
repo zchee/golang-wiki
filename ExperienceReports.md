@@ -20,6 +20,7 @@ Add new sections as appropriate.
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
   - [Error Handling](#error-handling)
   - [Generics](#generics)
+  - [Immutability](#immutability)
   - [Large-Scale Software Development](#large-scale-software-development)
   - [Logging](#logging)
   - [Performance](#performance)
@@ -70,6 +71,10 @@ Add new sections as appropriate.
   - Kevin Burke, "[Code example with lots of interface casts](https://gist.github.com/kevinburke/a10aed6d8d07ecd5efe658b21cd168c1)," requires a lot of boilerplate/casts.
   - Ian Lance Taylor, "[The append function](https://www.airs.com/blog/archives/559)," July 2017.
   - DeedleFake, "[The Problem with Interfaces](https://deedlefake.com/2017/07/the-problem-with-interfaces/)", July 2017.
+  - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
+
+## Immutability
+  - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
 
 ## Large-Scale Software Development
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
