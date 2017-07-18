@@ -60,7 +60,7 @@ Add new sections as appropriate.
 
 ## File System
 
-  - Chris Lewis, "[Non-Local File Systems Should Be Supported]"(https://gist.github.com/cflewis/87843028576459b0f6ebf55f1b200891), July 2017.
+  - Chris Lewis, “[Non-Local File Systems Should Be Supported](https://gist.github.com/cflewis/87843028576459b0f6ebf55f1b200891),” July 2017.
 
 ## Generics
 
