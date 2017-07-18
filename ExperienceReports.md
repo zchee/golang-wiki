@@ -58,6 +58,10 @@ Add new sections as appropriate.
   - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
     about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
 
+## File System
+
+  - Chris Lewis, "[Non-Local File Systems Should Be Supported]"(https://gist.github.com/cflewis/87843028576459b0f6ebf55f1b200891), July 2017.
+
 ## Generics
 
   - Bouke van der Bijl, “[Idiomatic Generics in Go](https://web.archive.org/web/20141001043016/http://bouk.co/blog/idiomatic-generics-in-go/),” September 2014.
