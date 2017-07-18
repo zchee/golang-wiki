@@ -569,6 +569,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-db-oracle](https://code.google.com/p/go-db-oracle/) - GO interface to Oracle DB
   * [gographite](https://github.com/amir/gographite) - statsd server in go (for feeding data to graphite)
   * [gokabinet](https://github.com/fsouza/gokabinet) - Go bindings for Kyoto Cabinet DBM implementation
+  * [go-model](https://github.com/jeevatkm/go-model) - Robust & Easy to use struct mapper and utility methods for Go
   * [go-notify](https://github.com/lenormf/go-notify) - GO bindings for the libnotify
   * [goprotodb](http://launchpad.net/goprotodb) - A binding to Berkeley DB storing records encoded as Protocol Buffers.
   * [go-rexster-client](https://github.com/sqs/go-rexster-client) - Go client for the [Rexster graph server](https://github.com/tinkerpop/rexster/wiki) (part of the [TinkerPop](http://www.tinkerpop.com/) suite of graph DB tools)
