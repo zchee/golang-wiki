@@ -101,6 +101,10 @@ Add new sections as appropriate.
   - Kevin Burke, "[Real Life Go Benchmarking](https://kev.inburke.com/kevin/real-life-go-benchmarking/)," trying to explain to the average developer how to use tools like pprof, maybe this could be easier. July 2016.
   - Nathan Kerr, "[Concurrency Slower?](https://pocketgophers.com/concurrency-slower/)", shows how to use Go's testing, benchmarking, and profiling tools to improve the performance of a concurrent implementation of a function. April 2017.
 
+## Porting
+  - Shannon Pekary, "[Why GOPP](https://github.com/spekary/gopp/blob/master/Why.md)," an attempt to create 
+a 'class' keyword that simply makes a struct to also be an interface to make porting code from object-oriented languages much easier."
+
 ## Time 
 
   - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
