@@ -104,7 +104,7 @@ Add new sections as appropriate.
 
 ## Porting
   - Shannon Pekary, "[Why GOPP](https://github.com/spekary/gopp/blob/master/Why.md)," an attempt to create 
-a 'class' keyword that simply makes a struct to also be an interface to make porting code from object-oriented languages much easier."
+a 'class' keyword that simply makes a struct to also be an interface to make porting code from object-oriented languages much easier.
 
 ## Time 
 
