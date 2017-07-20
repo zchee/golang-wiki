@@ -591,6 +591,9 @@
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
 
+## Malaysia
+  * [MHub](https://mhub.my)
+
 ## Mexico
   * [Segundamano](https://www.segundamano.mx/)
   
