@@ -27,7 +27,7 @@ Add new sections as appropriate.
   - [Porting](#porting)
   - [Time](#time)
   - [Type System](#type-system)
-  - [Shorthand declaration](#Shorthand-declaration)
+  - [Shorthand declaration](#shorthand-declaration)
 
 ## Context
 
