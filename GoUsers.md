@@ -490,6 +490,7 @@
   * [Kelir.tv](http://kelir.tv)
   * [Korina](http://sewamobilsolo.net)
   * [Kudo](https://kudo.co.id)
+  * [Kurio](https://kurio.co.id)
   * [Lazada](http://www.lazada.co.id)
   * [LionJobs](http://lionjobs.com)
   * [Matahari Mall](http://mataharimall.com)
