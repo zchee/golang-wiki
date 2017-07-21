@@ -34,6 +34,10 @@ Add new sections as appropriate.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Jon Calhoun, “[Pitfalls of context values and how to avoid or mitigate them in Go](https://www.calhoun.io/pitfalls-of-context-values-and-how-to-avoid-or-mitigate-them/),” February 2017.
 
+## Declarations
+
+  - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
+
 ## Dependencies
 
   - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
@@ -114,7 +118,3 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Type System
 
   - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
-
-## Shorthand declaration
-
-  - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
