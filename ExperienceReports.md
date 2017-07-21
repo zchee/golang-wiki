@@ -116,4 +116,4 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 
 ## Shorthand declaration `:=`
 
-  - Christophe Meessen, "[](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
+  - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
