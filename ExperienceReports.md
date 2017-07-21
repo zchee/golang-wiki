@@ -113,3 +113,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Type System
 
   - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
+
+## Shorthand declaration `:=`
+
+  - Christophe Meessen, "[](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
