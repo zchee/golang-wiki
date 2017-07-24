@@ -26,4 +26,4 @@ To get request either of the access types above, email the golang-dev googlegrou
 
 ## Once you have access
 
-Go help garden! See See https://golang.org/wiki/Gardening.
+Go help garden! See https://golang.org/wiki/Gardening.
