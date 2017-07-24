@@ -8,7 +8,7 @@ For asking questions, see:
 
 * [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
-* [Gophers Slack](https://gophers.slack.com), Use the [invite app](https://invite.slack.golangbridge.org/) for access.
+* [Gophers Slack](https://gophers.slack.com), use the [invite app](https://invite.slack.golangbridge.org/) for access
 
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/go) with questions tagged "go"
 
