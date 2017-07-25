@@ -19,6 +19,7 @@ Add new sections as appropriate.
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
   - [Error Handling](#error-handling)
+  - [File System](#file-system)
   - [Generics](#generics)
   - [Immutability](#immutability)
   - [Large-Scale Software Development](#large-scale-software-development)
