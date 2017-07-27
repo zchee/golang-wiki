@@ -345,6 +345,9 @@ If you find a project in this list that is dead or broken, please either mark it
   * [regommend](https://github.com/muesli/regommend) - Recommendation engine.
   * [rrd](https://github.com/ziutek/rrd) - Bindings for rrdtool.
   * [XConv](https://github.com/howcrazy/xconv) - Convert any value between types (base type, struct, array, slice, map, etc.)
+  * [ratchet](https://github.com/dailyburn/ratchet) - A library for performing data pipeline / ETL tasks in Go.
+  * [Glow](https://github.com/chrislusf/glow) - Glow is an easy-to-use distributed computation system, similar to Hadoop Map Reduce, Spark, Flink, Storm.
+  * [Gleam](https://github.com/chrislusf/gleam) - Fast, efficient, and scalable distributed map/reduce system, DAG execution, in memory or on disk, runs standalone or distributedly.
 
 ## Data Structures
 
