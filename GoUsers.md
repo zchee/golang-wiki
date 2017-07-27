@@ -622,6 +622,7 @@
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
   * [Yonego](https://www.bambelo.com/)
+  * [MessageBird](https://www.messagebird.com/)
 
 ## New Zealand
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
