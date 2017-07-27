@@ -16,7 +16,7 @@ Older-style builders are listed below. These builders are configured and run man
 | android-arm-crawshaw | Nexus 7 | crawshaw | Builder runs on attached desktop, uses adb |
 | darwin-amd64 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
 | darwin-386 | 2011 Mac Mini, 2.4Ghz Core i5 | adg       | Mac OS X 10.6 (10K549) |
-| dragonfly-amd64 | ?               | Justin Sherrill | ?         |
+| dragonfly-amd64 | ?               | @fupjack  Justin Sherrill | ?         |
 | freebsd-arm-paulzhol | Cubiboard2 1Gb RAM dual-core Cortex-A7 (Allwiner A20) | Yuval Pavel Zholkover | FreeBSD 11 r299674 with NODEBUG kernel (w/o INVARIANTS, WITNESS, DEADLKRES) |
 | linux-arm-luitvd | RaspberryPi     | Luit van Drongelen |           |
 | linux-ppc64 | Power8E big endian | bradfitz, rsc  |           |
