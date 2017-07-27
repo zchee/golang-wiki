@@ -596,6 +596,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Sublevel](https://github.com/fiatjaf/sublevel) - Separate sections of the same LevelDB
   * [Weed File System](https://github.com/chrislusf/seaweedfs) - fast distributed key-file store
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
+  * [remapper](https://github.com/plandem/remapper) - library to convert/map data from one type to another
 
 ## Date
 
