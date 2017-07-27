@@ -353,6 +353,7 @@
   * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
 
 ## Brazil
+  * [AStar](http://www.astarlabs.com)  - [github](https://github.com/astarlabs)
   * [Beauty Date](http://www.beautydate.com.br)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [Coderockr](http://coderockr.com)
