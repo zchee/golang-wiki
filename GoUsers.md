@@ -375,6 +375,7 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
   * [Pagar.me](https://pagar.me)
+  * [PagSeguro](https://pagseguro.uol.com.br)
   * [Planrockr](http://planrockr.com)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
   * [ServiceNet](http://www.servicenet.com.br)
