@@ -353,6 +353,7 @@
   * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
 
 ## Brazil
+  * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
   * [AStar](http://www.astarlabs.com)  - [github](https://github.com/astarlabs)
   * [Beauty Date](http://www.beautydate.com.br)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
@@ -368,6 +369,7 @@
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
+  * [Mercado Livre](http://www.mercadolivre.com.br/) - [github](https://github.com/mercadolibre/)
   * [Moip Pagamentos](https://www.moip.com.br)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
