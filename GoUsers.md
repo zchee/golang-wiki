@@ -733,5 +733,6 @@
   * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
   * [Weaveworks](http://weave.works)
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
+  * [YouView TV Ltd](http://www.youview.com)
 
 See also [Success Stories](SuccessStories)
