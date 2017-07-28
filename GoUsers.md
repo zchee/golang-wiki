@@ -360,6 +360,7 @@
   * [Coderockr](http://coderockr.com)
   * [Compufácil](http://compufacil.com.br)
   * [Dropadev](http://dropadev.com) 
+  * [Easy Carros](https://easycarros.com)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [Freelas](https://www.freelas.io) - [github](https://github.com/freel4s/)
   * [GissOnline](http://www.gissonline.com.br)
