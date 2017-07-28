@@ -359,6 +359,7 @@
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [Coderockr](http://coderockr.com)
   * [Compufácil](http://compufacil.com.br)
+  * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
