@@ -83,6 +83,7 @@ Add new sections as appropriate.
   - Ian Lance Taylor, "[The append function](https://www.airs.com/blog/archives/559)," July 2017.
   - DeedleFake, "[The Problem with Interfaces](https://deedlefake.com/2017/07/the-problem-with-interfaces/)", July 2017.
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
+  - Juan Álvarez, "[Generics on Go's stdlib](https://medium.com/@shixzie/generics-on-gos-stdlib-10de52fe824d)", July 2017.
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
