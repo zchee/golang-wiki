@@ -14,7 +14,7 @@ Older-style builders are listed below. These builders are configured and run man
 | **title** | **description** | **owner** | **notes** |
 |:----------|:----------------|:----------|:----------|
 | dragonfly-amd64 | ?               | @fupjack - Justin Sherrill | ?         |
-| freebsd-arm-paulzhol | Cubiboard2 1Gb RAM dual-core Cortex-A7 (Allwiner A20) | @paulzhol - Yuval Pavel Zholkover | FreeBSD 11 r299674 with NODEBUG kernel (w/o INVARIANTS, WITNESS, DEADLKRES) |
+| freebsd-arm-paulzhol | Cubiboard2 1Gb RAM dual-core Cortex-A7 (Allwiner A20) | @paulzhol - Yuval Pavel Zholkover | FreeBSD 11.1-RELEASE |
 | nacl-arm-cheney | Raspberry Pi 3 | @davecheney |           |
 | openbsd-arm | SolidRun CuBox-i4Pro, ARM Cortex A9 R2 792 MHz, 2GB RAM | @4a6f656c - Joel Sing |           |
 | plan9-386-ducolombier | Intel Core 2 Quad Q8200 2.33 GHz, 6GB | @0intro - David du Colombier | Plan 9 from Bell Labs |
