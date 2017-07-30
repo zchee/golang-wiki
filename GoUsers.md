@@ -657,6 +657,7 @@
 
 ## Portugal
   * [AppGeneration](http://appgeneration.com/)
+  * [Lmit](http://lmit.pt/)
   * [Uniplaces](http://uniplaces.com/)
 
 ## Romania
