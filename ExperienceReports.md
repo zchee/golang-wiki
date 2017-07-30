@@ -41,6 +41,7 @@ Add new sections as appropriate.
 
 ## Dependencies
 
+  - John Doe, "[Forks, import paths, and `go get`](https://gist.github.com/johnAnonDoe/2071b8811300c6c08ac21cc8da9fa4d3)", July 2017.
   - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
 
 ## Diagnostics and Debugging
