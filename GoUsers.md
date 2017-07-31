@@ -370,7 +370,7 @@
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
-  * [Koli](https://www.koli.com.br) - [github](https://github.com/kolihub)
+  * [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
   * [Loggi](https://www.loggi.com) - [github](https://github.com/loggi)
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
