@@ -589,7 +589,7 @@
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
-      * [Sakura IoT Platform β](https://iot.sakura.ad.jp/)
+      * [sakura.io](https://sakura.io/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
