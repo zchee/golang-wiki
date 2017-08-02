@@ -387,6 +387,7 @@
   * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [Stone Pagamentos](http://www.stone.com.br) - [github](https://github.com/stone-pagamentos/)
+  * [Studio Sol](https://www.studiosol.com.br) - [github](https://github.com/StudioSol)
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
