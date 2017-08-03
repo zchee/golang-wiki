@@ -444,6 +444,7 @@
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
+  * [eGym](https://www.egym.de/)
   * [Fraugster](https://fraugster.com/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
