@@ -89,7 +89,7 @@ of the object being declared.  The keyword is one of ` var `,
 ` const `, or ` type `.  Method declarations are a minor
 exception in that
 the receiver appears before the name of the object being declared; see
-the <a href='#Interfaces'>discussion of interfaces</a>.
+the <a href='#interfaces'>discussion of interfaces</a>.
 
 You can also use a keyword followed by a series of declarations in
 parentheses.
