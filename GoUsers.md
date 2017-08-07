@@ -544,6 +544,7 @@
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
  
 ## Israel
+  * [Aqua Security](https://www.aquasec.com)
   * [Stratoscale](http://www.stratoscale.com) - [github](https://github.com/Stratoscale)
   * [353Solutions](http://353solutions.com) 
   * [BigPanda](http://bigpanda.io) 
