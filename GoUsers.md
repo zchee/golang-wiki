@@ -544,9 +544,8 @@
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
  
 ## Israel
-  * [Aqua Security](https://www.aquasec.com)
-  * [Stratoscale](http://www.stratoscale.com) - [github](https://github.com/Stratoscale)
   * [353Solutions](http://353solutions.com) 
+  * [Aqua Security](https://www.aquasec.com)
   * [BigPanda](http://bigpanda.io) 
   * [Dragontail Systems](http://www.dragontailsystems.com) 
   * [Elastifile Ltd](http://elastifile.com) 
@@ -561,6 +560,7 @@
   * [Protected Media](http://www.protected.media) 
   * [Rimoto](http://www.rimoto.com/)
   * [Rounds](http://www.rounds.com)
+  * [Stratoscale](http://www.stratoscale.com) - [github](https://github.com/Stratoscale)
   * [StreamRail](https://www.streamrail.com/)
   * [Surge Media](https://surge.media)
   * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
