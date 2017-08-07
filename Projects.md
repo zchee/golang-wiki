@@ -1229,6 +1229,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gosocks](https://github.com/hailiang/gosocks) - A SOCKS (SOCKS4, SOCKS4A and SOCKS5) proxy client library in Go.
   * [go-sslterminator](https://github.com/cmpxchg16/go-sslterminator) - SSL terminator proxy
   * [go-statsd-client](https://github.com/cactus/go-statsd-client) - Go statsd client library
+  * [Gollum](https://github.com/trivago/gollum) - A n:m multiplexer that gathers messages from different sources and broadcasts them to a set of destinations.
   * [Grumble](https://github.com/mkrautz/grumble) - Mumble (VoIP) server implementation
   * [handlersocket-go](https://github.com/bketelsen/handlersocket-go) - Go native library to connect to HandlerSocket interface of InnoDB tables
   * [HomeControl](https://github.com/brutella/hc) - an implementation of Apple's HomeKit Accessory Protocol (HAP)
