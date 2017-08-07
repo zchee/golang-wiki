@@ -232,6 +232,7 @@
   * [Rackspace](http://www.rackspace.com) - [github](https://github.com/rackspace/rack)
   * [Raintank](http://www.raintank.io/) - [blog](https://blog.raintank.io/where-and-why-we-use-go/)
   * [Rakuten Marketing](http://marketing.rakuten.com)
+  * [Recime](https://recime.io)
   * [RapidLoop](https://www.rapidloop.com/) - [product](https://www.opsdash.com/)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
