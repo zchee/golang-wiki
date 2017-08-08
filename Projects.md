@@ -1136,6 +1136,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
+  * [stress](https://github.com/wenjiax/stress) - Replacement of ApacheBench(ab), support for transactional requests, support for command line and package references to HTTP stress testing tool.
 
 ### IMAP
   * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
