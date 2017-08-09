@@ -40,7 +40,7 @@ Add new sections as appropriate.
 ## Declarations
 
   - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
-  - Brian Will, "[Go's := syntax is error-prone with multiple target variables](https://gist.github.com/BrianWill/671ce51e6ef6a9f0caa27272a9a0637f)"
+  - Brian Will, "[Go's := syntax is error-prone with multiple target variables](https://gist.github.com/BrianWill/671ce51e6ef6a9f0caa27272a9a0637f)", August 2017.
 
 ## Dependencies
 
