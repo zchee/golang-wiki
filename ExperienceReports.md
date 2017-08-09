@@ -88,6 +88,7 @@ Add new sections as appropriate.
   - DeedleFake, "[The Problem with Interfaces](https://deedlefake.com/2017/07/the-problem-with-interfaces/)", July 2017.
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
   - Juan Álvarez, "[Generics on Go's stdlib](https://medium.com/@shixzie/generics-on-gos-stdlib-10de52fe824d)", July 2017.
+  - David Chase, "[A use case for Go Generics in a Go Compiler](https://dr2chase.wordpress.com/2017/08/09/a-use-case-for-go-generics-in-a-go-compiler/)", August 2017
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
