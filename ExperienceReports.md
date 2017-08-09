@@ -28,6 +28,7 @@ Add new sections as appropriate.
   - [Porting](#porting)
   - [Time](#time)
   - [Type System](#type-system)
+  - [Typed nils](#typed-nils)
   - [Shorthand declaration](#shorthand-declaration)
 
 ## Context
@@ -127,3 +128,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
   - Leigh McCulloch, "[Go Experience Report: Pointers](https://leighmcculloch.com/go-experience-reports/pointers.html)", July 2017, about pointers being used for both transferring ownership and indicating a lack of value.
   - Jack Lindamood, "[Interface wrapping method erasure](https://medium.com/@cep21/interface-wrapping-method-erasure-c523b3549912)", July 2017, about the loss of information due to type wrappers
 - Sam Whited, “[The Case for interface{}](https://blog.samwhited.com/2017/08/the-case-for-interface/)”, Aug 2017, two examples of using interface and why one is bad (but necessary) and one is good.
+
+## Typed nils
+ 
+  - David Cheney, "[Typed nils in Go 2](https://dave.cheney.net/2017/08/09/typed-nils-in-go-2)", August 2017.
