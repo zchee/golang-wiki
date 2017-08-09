@@ -15,6 +15,7 @@ Add new sections as appropriate.
 **Table of Contents**
 
   - [Context](#context)
+  - [Declarations](#declarations)
   - [Dependencies](#dependencies)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
@@ -29,7 +30,6 @@ Add new sections as appropriate.
   - [Time](#time)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
-  - [Shorthand declaration](#shorthand-declaration)
 
 ## Context
 
