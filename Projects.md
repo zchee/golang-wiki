@@ -1543,6 +1543,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gocrawl](https://github.com/PuerkitoBio/gocrawl) - A polite, slim and concurrent web crawler.
   * [goflash](https://sourceforge.net/p/goflash/home/Home/) - Flash player implementation in Go language
   * [gogallery](http://code.google.com/p/gogallery/) - simple web server with an emphasis on easily browsing images
+  * [gojekyll](https://github.com/osteele/gojekyll) - A golang clone of the Jekyll static site generator
   * [goof](https://github.com/stone/goof) - A simple http server to exchange files over http (upload/download)
   * [gopages](http://code.google.com/p/gopages/) - A php-like web framework that allows embedding Go code in web pages
   * [go\_spider](https://github.com/hu17889/go_spider) - A flexible ,modularization and concurrent web crawler framework.
