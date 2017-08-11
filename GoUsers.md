@@ -664,6 +664,7 @@
  * [RnDity](http://rndity.com) - software and hardware development company
 
 ## Portugal
+  * [OLX](https://www.joinolx.com/)
   * [AppGeneration](http://appgeneration.com/)
   * [Lmit](http://lmit.pt/)
   * [Uniplaces](http://uniplaces.com/)
