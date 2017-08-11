@@ -605,6 +605,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [date](https://github.com/rickb777/date) - For dates, date ranges, time spans, periods, and time-of-day.
   * [gostrftime](https://github.com/cactus/gostrftime) - strftime(3) like formatting for time.Time
   * [tai64](https://github.com/cactus/tai64) - tai64 and tai64n parsing and formatting
+  * [tuesday](https://github.com/osteele/tuesday) - Flags and conversions that are compatible with Ruby's `Time.strftime`
   * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
 
 ## Development Tools
