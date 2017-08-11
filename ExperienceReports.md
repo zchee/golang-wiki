@@ -19,6 +19,7 @@ Add new sections as appropriate.
   - [Dependencies](#dependencies)
   - [Documentation](#documentation)
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
+  - [Education and Teaching](#education-and-teaching)
   - [Error Handling](#error-handling)
   - [File System](#file-system)
   - [Generics](#generics)
@@ -50,6 +51,10 @@ Add new sections as appropriate.
 ## Diagnostics and Debugging
 
   - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", it would be nice if I didn't need so much Unix glue to run and print these. July 2017.
+
+## Education and Teaching
+
+  - Carl Kingsford and Phillip Compeau, "[Go 2.0 for Teaching](http://www.monogrammedchalk.com/go-2-for-teaching/)". Experience using Go in an introductory programming course.
 
 ## Documentation
 
