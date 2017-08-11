@@ -525,10 +525,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
   * [reform](https://github.com/AlekSi/reform) - A better ORM for Go, based on non-empty interfaces and code generation.
 
-### Multiple wrappers
-
-  * [gosexy/db](http://gosexy.org/db) - an abstraction of wrappers for popular third party SQL and No-SQL database drivers.
-
 ### Key-Value-Stores
 
   * [bolt](https://github.com/boltdb/bolt) - Persistent key/value store inspired by LMDB.
