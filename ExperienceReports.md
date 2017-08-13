@@ -28,6 +28,7 @@ Add new sections as appropriate.
   - [Logging](#logging)
   - [Performance](#performance)
   - [Porting](#porting)
+  - [Slices](#slices)
   - [Time](#time)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
@@ -123,6 +124,9 @@ Add new sections as appropriate.
 ## Porting
   - Shannon Pekary, "[Why GOPP](https://github.com/spekary/gopp/blob/master/Why.md)," an attempt to create 
 a 'class' keyword that simply makes a struct to also be an interface to make porting code from object-oriented languages much easier.
+
+## Slices
+  - Richard Warburton, "[Should Go 2.0 support slice comparison?](https://gist.github.com/krolaw/3205a3139d423b0c39e24b98c923b1a1)," an argument to treat slices as structs for equality comparison, ignoring backing arrays.
 
 ## Time 
 
