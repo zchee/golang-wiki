@@ -14,6 +14,7 @@ Add new sections as appropriate.
 
 **Table of Contents**
 
+  - [Concurrency](#concurrency)
   - [Context](#context)
   - [Declarations](#declarations)
   - [Dependencies](#dependencies)
@@ -32,6 +33,10 @@ Add new sections as appropriate.
   - [Time](#time)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
+
+## Concurrency
+
+  - Sergey Kamardin, “[A Million WebSockets and Go](https://medium.freecodecamp.org/million-websockets-and-go-cc58418460bb),” August 2017, about the memory overhead of blocked read/write goroutines.
 
 ## Context
 
