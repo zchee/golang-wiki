@@ -633,7 +633,7 @@
   * [Avito](http://www.avito.ma)
 
 ## Netherlands
-  * [Housing Anywhere] - (https://housinganywhere.com/)
+  * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
