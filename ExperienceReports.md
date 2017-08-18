@@ -145,6 +145,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
   - Leigh McCulloch, "[Go Experience Report: Pointers](https://leighmcculloch.com/go-experience-reports/pointers.html)", July 2017, about pointers being used for both transferring ownership and indicating a lack of value.
   - Jack Lindamood, "[Interface wrapping method erasure](https://medium.com/@cep21/interface-wrapping-method-erasure-c523b3549912)", July 2017, about the loss of information due to type wrappers
 - Sam Whited, “[The Case for interface{}](https://blog.samwhited.com/2017/08/the-case-for-interface/)”, Aug 2017, two examples of using interface and why one is bad (but necessary) and one is good.
+- James Frasché, "[Sum types experience report](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325)", Aug 2017, issues caused by inability to restrict to a closed set of types
 
 ## Typed nils
  
