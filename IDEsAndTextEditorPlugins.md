@@ -11,6 +11,8 @@
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
     * [GoFlyMake](https://github.com/dougm/goflymake) Flymake-style syntax checking for Go
     * [go-errcheck.el](https://github.com/dominikh/go-errcheck.el) Errcheck integration for Emacs
+    * [flycheck-metalinter](https://github.com/favadi/flycheck-gometalinter) Flycheck integration for go-metalinter utility
+    * [go-playground](https://github.com/grafov/go-playground) Local playground inside Emacs
   * **[Gedit](http://projects.gnome.org/gedit/)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
   * **[Geany](http://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
