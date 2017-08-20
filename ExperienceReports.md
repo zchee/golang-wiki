@@ -43,7 +43,8 @@ Add new sections as appropriate.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Jon Calhoun, “[Pitfalls of context values and how to avoid or mitigate them in Go](https://www.calhoun.io/pitfalls-of-context-values-and-how-to-avoid-or-mitigate-them/),” February 2017.
   - Michal Štrba, "[Context should go away for Go 2](https://faiface.github.io/post/context-should-go-away-go2/)," August 2017
-  - Axel Wagner, "[Why context.Value matters and how to improve it](https://blog.merovius.de/2017/08/14/why-context-value-matters-and-how-to-improve-it.html)," August 2017
+  - Axel Wagner, "[Why context.Value matters and how to improve it](https://blog.merovius.de/2017/08/14/why-context-value-matters-and-how-to-improve-it.html)," August 2017.
+  - Dave Cheney, "[Context isn't for cancellation](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)," August 2017.
 
 ## Declarations
 
