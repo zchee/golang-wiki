@@ -124,6 +124,7 @@ Add new sections as appropriate.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
   - Logmatic, “[Our Guide to a Golang Logs World](https://logmatic.io/blog/our-guide-to-a-golang-logs-world/),” March 2017.
   - Chris Hines, Peter Bourgon, “[Proposal: standard Logger interface](https://docs.google.com/document/d/1shW9DZJXOeGbG9Mr9Us9MiaPqmlcVatD_D8lrOXRNMU/edit?usp=drive_web),“ February 2017, problems related to stdlib logger, especially in the context of libraries, and one proposed solution.
+  - Sindre Myren, "[There is nothing Goish about log.Fatal](https://medium.com/@smyrman/there-is-nothing-goish-about-log-fatal-4ab24ae5ba7)" August 2017, how poorly log.Fatal plays with defer, and a simple pattern for delaing with it in Go 1.x and Go 2.x.
 
 ## Performance
 
