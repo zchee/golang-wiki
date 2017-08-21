@@ -663,6 +663,7 @@
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
  * [Husar Labs](http://www.husarlabs.com) - software development company
  * [RnDity](http://rndity.com) - software and hardware development company
+ * [Grey Wizard](https://greywizard.com) - cybersecurity company
 
 ## Portugal
   * [OLX](https://www.joinolx.com/)
