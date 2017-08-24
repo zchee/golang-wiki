@@ -385,6 +385,7 @@
   * [Pagar.me](https://pagar.me)
   * [PagSeguro](https://pagseguro.uol.com.br)
   * [Planrockr](http://planrockr.com)
+  * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
   * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
