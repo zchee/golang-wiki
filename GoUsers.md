@@ -720,6 +720,7 @@
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
   * [DTAC](http://www.dtac.co.th/)
+  * [Donuts Bangkok](http://www.donuts-bkk.com/)  
   * [Insightera](https://www.insightera.co.th/)
   * [TRUE](http://truemoveh.truecorp.co.th/)
   * [Tencent Thailand](https://developers.tencent.co.th/)
