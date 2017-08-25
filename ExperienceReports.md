@@ -103,6 +103,7 @@ Add new sections as appropriate.
   - Juan Álvarez, "[Generics on Go's stdlib](https://medium.com/@shixzie/generics-on-gos-stdlib-10de52fe824d)", July 2017.
   - David Chase, "[A use case for Go Generics in a Go Compiler](https://dr2chase.wordpress.com/2017/08/09/a-use-case-for-go-generics-in-a-go-compiler/)", August 2017
   - Varun Kumar, "[Generics - I Wish You Were Here...](https://varunksaini.com/blog/use-case-for-generics/)", August 2017
+  - Sameer Ajmani, "[Go Experience Report for Generics: Google metrics API](https://medium.com/@sameer_74231/go-experience-report-for-generics-google-metrics-api-b019d597aaa4)", August 2017
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
