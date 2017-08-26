@@ -370,6 +370,7 @@
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Hotel Urbano](http://www.hotelurbano.com)
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
+  * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
   * [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
