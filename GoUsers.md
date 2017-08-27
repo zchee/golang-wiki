@@ -433,6 +433,7 @@
 
 ## Denmark
   * [SYBO Games](http://sybogames.com)
+  * [Vivino](https://www.vivino.com)
 
 ## France
   * [Algolia](https://algolia.com)
