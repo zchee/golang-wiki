@@ -115,6 +115,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gopei](https://github.com/geosoft1/tools) - Simple Go compiler and LiteIDE installer for Unix/Linux that adds many features like github support and presenter.
   * [go-pkg-config](https://github.com/psilva261/go-pkg-config) - lightweight clone of pkg-config
   * [goscons](https://github.com/alberts/goscons) - Another set of SCons builders for Go
+  * [go-server](https://github.com/cheikhshift/Gopher-Sauce) - Agile server framework.
   * [gotgo](https://github.com/droundy/gotgo) - An experimental preprocessor to implement 'generics'
   * [gows](https://github.com/ascarter/gows) - Go workspace manager
   * [goxc](https://github.com/laher/goxc) - A build tool with a focus on cross-compiling, packaging, versioning and distribution
