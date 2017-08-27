@@ -755,6 +755,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Pong](https://github.com/LaurenceGA/Pong) - A simple Pong clone written in golang
   * [pong-command](https://github.com/kurehajime/pong-command) - Joke command,ping-like pong.
   * [Steven](https://github.com/thinkofdeath/steven) - A Minecraft client in Go
+  * [ukodus](https://github.com/9nut/ukodus) - Sudoku solver in Go
   * [WolfenGo](https://github.com/gdm85/wolfengo) - A Wolfenstein3D clone in Go, using OpenGL 2.1
 
 ## GIS
