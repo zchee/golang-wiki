@@ -4,7 +4,7 @@ To see popularity of these tools, click [here](https://github.com/blindpirate/re
 
 ## dep tool
 
-[dep](https://github.com/golang/dep), will be the *official* dependency tool. It is currently being implemented, in pre-alpha state and should be used with caution as "Lots of functionality is knowingly missing or broken".
+[dep](https://github.com/golang/dep), is an *official* experiment for the dependency tool. It is currently being implemented, in pre-alpha state and should be used with caution as "Lots of functionality is knowingly missing or broken".
 
 ## GO15VENDOREXPERIMENT
 
