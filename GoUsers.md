@@ -271,6 +271,7 @@
   * [Sourcegraph](https://sourcegraph.com) - [talk](http://www.youtube.com/watch?v=-DpKaoPz8l8), [github](https://github.com/sourcegraph)
   * [Space Monkey](http://www.spacemonkey.com) - [blog](https://www.spacemonkey.com/blog/posts/go-space-monkey)
   * [SpaceX](http://www.spacex.com/) - [reddit](https://www.reddit.com/r/golang/comments/3pu3nl/spacex_is_using_go_for_its_telemetry_system/)
+  * [Sphere Software](https://sphereinc.com) - [github](https://github.com/spheresoftware)
   * [Splice](http://splice.com) - [tweet](https://twitter.com/mattetti/status/387935640513683456), [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-shaped-splice-engineering-culture/), [blog](https://blog.splice.com/golang-improved-simplicity-reduced-maintenance/)
   * [Springer](http://joinit.springer.com) - [tweet](https://twitter.com/quii/status/575647166091370497)
   * [Square](http://www.squareup.com) - [blog](http://corner.squareup.com/2014/05/evaluating-go-frameworks.html)
