@@ -14,7 +14,7 @@ Information for each benchmark includes (or should include):
  - a regexp for the benchmark suite excluding individual benchmarks that might be noisy, long-running, or redundant
  - (ideally) a contact person for questions about the benchmarks 
 
- | short name | notes | github path | benchmark regexp | contact |
+ | short name | notes | go get path | benchmark regexp | contact |
  | ---------- | ----- | ----------- | ---------------- | ------- |
  | ethereum_bitutil | | `github.com/ethereum/go-ethereum/common/bitutil` | `Benchmark(BaseTest2KB\|FastTest2KB\|Encoding4KBVerySparse)` | |
  | ethereum_storage | | `github.com/ethereum/go-ethereum/swarm/storage` | `BenchmarkJoin_8` | |
