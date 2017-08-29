@@ -1,4 +1,4 @@
-These are (some) benchmarks with the following desirable properties:
+These are benchmarks collected from the community used to measure the effects of changes to the Go core (compiler, runtime, and libraries). They should have the following properties:
 
  - they matter; someone cares, perhaps in a dollars-and-cents way, that they run well
  - they are go-gettable and don't require customized steps for building the benchmark
