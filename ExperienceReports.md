@@ -110,6 +110,9 @@ Add new sections as appropriate.
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
  - Sindre Myren "[Go 2.0: Retain simplicity by trading features](https://medium.com/@smyrman/go-2-0-retain-simplicity-by-trading-features-b310b60862ea)" July 2017
 
+## Inter Process Communication (RPC)
+  - Pablo R. Larraondo "[A Go interprocess communication model](https://gist.github.com/prl900/a7aaa41707e2236592da5e78d8a10dc9)," August 2017
+
 ## Large-Scale Software Development
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
 
