@@ -2,6 +2,7 @@ These are benchmarks collected from the community used to measure the effects of
 
  - they matter; someone cares, perhaps in a dollars-and-cents way, that they run well
  - they are go-gettable and don't require customized steps for building the benchmark
+ - they run under `go test -bench ...`
  - they run relatively quickly, ideally a single "run" takes less than a second (there should perhaps be a separate set of longer-running benchmarks)
  - their timings are not gratuitously noisy
  - they run cleanly in a restricted environment, such as a Docker or rkt container
