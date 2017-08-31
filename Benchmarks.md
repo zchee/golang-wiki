@@ -28,9 +28,9 @@ Information for each benchmark includes (or should include):
  | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
  | spexs2 | | `github.com/egonelbre/spexs2/_benchmark/` | `BenchmarkRun/10k/1` | |
  | minio | | `github.com/minio/minio/cmd` | `BenchmarkGetObject5MbFS` | |
- | gonum_blas_native | | `github.com/gonum/blas/native` | `Benchmark(DasumMediumUnitaryInc\|Dnrm2MediumPosInc)` | |
- | gonum_lapack_native | | `github.com/gonum/lapack/native` | `BenchmarkDgeev/Circulant10` | |
- | gonum_matrix_mat64 | | `github.com/gonum/matrix/mat64` | `Benchmark(MulWorkspaceDense1000Hundredth\|ScaleVec10000Inc20)` | |
+ | gonum_blas_native | | `gonum.org/v1/gonum/blas/gonum` | `Benchmark(DasumMediumUnitaryInc\|Dnrm2MediumPosInc)` | |
+ | gonum_lapack_native | | `gonum.org/v1/gonum/lapack/gonum` | `BenchmarkDgeev/Circulant10` | |
+ | gonum_mat | | `gonum.org/v1/gonum/mat` | `Benchmark(MulWorkspaceDense1000Hundredth\|ScaleVec10000Inc20)` | |
  | semver | | `github.com/Masterminds/semver` | `BenchmarkValidateVersionTildeFail` | |
  | hugo_helpers | | `github.com/gohugoio/hugo/helpers` | `Benchmark(StripHTML\|ReaderContains)` | |
  | hugo_hugolib | | `github.com/gohugoio/hugo/hugolib` | `BenchmarkParsePage` | |
