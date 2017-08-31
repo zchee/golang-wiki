@@ -32,6 +32,7 @@ Add new sections as appropriate.
   - [Porting](#porting)
   - [Slices](#slices)
   - [Time](#time)
+  - [Tooling](#tooling)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
 
@@ -147,6 +148,10 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Time 
 
   - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
+
+## Tooling
+
+  - Jonathan Ingram, “[gofmt is not opinionated enough](https://gist.github.com/jonathaningram/2b62022844348f3407518dd3a180ef42)”, August 2017, about ongoing debates between developers regarding code style because `gofmt` is not opinionated enough.
 
 ## Type System
 
