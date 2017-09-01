@@ -892,6 +892,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
+  * [nlp](https://github.com/james-bowman/nlp) - Go Natural Language Processing library supporting LSA (Latent Semantic Analysis).
   * [sego](https://github.com/huichen/sego) - Chinese language segmenter.
   * [textcat](https://github.com/pebbe/textcat) - N-gram based text categorization, with support for utf-8 and raw text
 
@@ -982,6 +983,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pso-go](https://github.com/tenntenn/pso-go) - A library of PSO (Particle Swarm Optimization) for Go.
   * [rand](https://bitbucket.org/MaVo159/rand) - 64-bit version of the math/rand package with Mersenne twister support.
   * [roger](https://github.com/senseyeio/roger) - A Go client for the RServer, allowing you to invoke R programs from Go.
+  * [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with [gonum](https://github.com/gonum/gonum/mat) matrix libraries.
   * [stats](https://github.com/montanaflynn/stats) - A statistics package with common functions missing from the Golang standard library.
   * [statistics](https://github.com/grd/stat) - GNU GSL Statistics (GPLv3)
   * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistcal analysis
