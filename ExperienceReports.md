@@ -31,6 +31,7 @@ Add new sections as appropriate.
   - [Performance](#performance)
   - [Porting](#porting)
   - [Slices](#slices)
+  - [Syntax](#syntax)
   - [Time](#time)
   - [Tooling](#tooling)
   - [Type System](#type-system)
@@ -84,6 +85,7 @@ Add new sections as appropriate.
     showing a bug related to error handling and defer in Bleve search.
   - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
     about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
+  - André Hänsel, "[If Ⅰ were to make my own Go…](https://blog.creations.de/?p=223)", August 2017
 
 ## File System
 
@@ -144,6 +146,9 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 
 ## Slices
   - Richard Warburton, "[Should Go 2.0 support slice comparison?](https://gist.github.com/krolaw/3205a3139d423b0c39e24b98c923b1a1)," an argument to treat slices as structs for equality comparison, ignoring backing arrays.
+
+## Syntax
+  - André Hänsel, "[If Ⅰ were to make my own Go…](https://blog.creations.de/?p=223)", August 2017
 
 ## Time 
 
