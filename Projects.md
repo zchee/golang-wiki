@@ -590,6 +590,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pravasan](https://pravasan.github.io/pravasan) - Simple Migration Tool (like rake db:migrate with more flexibility)
   * [riako](https://github.com/jkassemi/riako) - High level utility methods for interacting with Riak databases
   * [sqlbuilder](https://github.com/thcyron/sqlbuilder) - SQL query builder with row mapping
+  * [sqlf](https://github.com/keegancsmith/sqlf) - Create parameterized SQL statements in Go, sprintf style
   * [squirrel](https://github.com/lann/squirrel) - Fluent SQL generation for Go
   * [Sublevel](https://github.com/fiatjaf/sublevel) - Separate sections of the same LevelDB
   * [Weed File System](https://github.com/chrislusf/seaweedfs) - fast distributed key-file store
