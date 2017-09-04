@@ -457,6 +457,7 @@
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [loodse](https://loodse.com/)
+  * [Spreadshirt](https://spreadshirt.com)
   * [SoundCloud](https://soundcloud.com) - [blog](https://developers.soundcloud.com/blog/go-at-soundcloud)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
