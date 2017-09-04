@@ -603,6 +603,7 @@
       * [sakura.io](https://sakura.io/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
+  * [Speee inc](http://speee.jp/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
