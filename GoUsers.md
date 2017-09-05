@@ -581,21 +581,27 @@
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
 
 ## Japan
-  * [Gunosy Inc.](https://gunosy.co.jp/)
+  * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
+      * [CloudSign](https://www.cloudsign.jp/)
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [DeNA Co.,Ltd.](https://dena.com)
   * [eureka](https://eure.jp)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
-  * [HDE Inc](https://www.hde.co.jp/en/)
+  * [Gunosy Inc.](https://gunosy.co.jp/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
+  * [HDE Inc](https://www.hde.co.jp/en/)
+  * [HEARTBEATS](https://heartbeats.jp/)
+      * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [Intelligence](http://www.inte.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
+  * [Kyash Inc](https://kyash.co/en/)
   * [LINE](https://linecorp.com/)
   * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
+  * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
@@ -605,13 +611,7 @@
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](http://speee.jp/)
-  * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
-  * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
-      * [CloudSign](https://www.cloudsign.jp/)
-  * [HEARTBEATS](https://heartbeats.jp/)
-      * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [VOYAGE GROUP](https://voyagegroup.com/)
-  * [Kyash Inc](https://kyash.co/en/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
