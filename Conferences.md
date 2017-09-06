@@ -11,6 +11,7 @@ Please keep all items in chronological order.
 | GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
 | dotGo | 2017-11-06 | Paris, France | https://www.dotgo.eu |
 | GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
+| GopherCon India 2018 | 2018-03-9-10 | Pune, India | http://www.gophercon.in/ |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
 
 ## Archives
