@@ -219,6 +219,7 @@
   * [Partner Fusion](http://www.partnerfusion.com)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
   * [pet.io](http://pet.io)
+  * [Pilosa](https://www.pilosa.com/) - [github](https://github.com/pilosa)
   * [Pinshape](https://pinshape.com/) - [job](https://twitter.com/MusicHackFest/status/639219466262454272)
   * [Pinterest](https://www.pinterest.com/) - [github](https://github.com/pinterest)
   * [Pivotal](https://pivotal.io/) - [Cloud Foundry](https://github.com/cloudfoundry) and [Cloud Foundry Incubator](https://github.com/cloudfoundry-incubator)
