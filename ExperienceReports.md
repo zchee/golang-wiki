@@ -168,7 +168,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Sam Whited, “[The Case for interface{}](https://blog.samwhited.com/2017/08/the-case-for-interface/)”, Aug 2017, two examples of using interface and why one is bad (but necessary) and one is good.
 - James Frasché, "[Sum types experience report](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325)", Aug 2017, issues caused by inability to restrict to a closed set of types
 - Robin Eklind, "[Specific use cases. In response to James Frasché's 'Sum types experience report'](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325#gistcomment-2181410)", Aug 2017, issues caused by inability to restrict to a closed set of types
-- Rick Branson, "['Implicit Pointers = Explicitly Bad'](https://docs.google.com/document/d/1va7f4YvExK4mNBmMt2RMg1SNSHyljc8ARVp2ATKtBwU/edit?usp=sharing)", Sep 2017, issues encountered with parameters/variables with interface types as implicit references
+- Rick Branson, "[Implicit Pointers = Explicitly Bad](https://docs.google.com/document/d/1va7f4YvExK4mNBmMt2RMg1SNSHyljc8ARVp2ATKtBwU/edit?usp=sharing)", Sep 2017, issues encountered with parameters/variables with interface types as implicit references
 
 ## Typed nils
  
