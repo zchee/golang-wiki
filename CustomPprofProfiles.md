@@ -1,5 +1,6 @@
 Originally published at https://rakyll.org/custom-profiles/.
 
+----
 
 Go provides several pprof profiles out of thet box to gather
 profiling data from Go programs.
