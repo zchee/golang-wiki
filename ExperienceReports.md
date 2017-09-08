@@ -147,7 +147,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 
 ## Slices
   - Richard Warburton, "[Should Go 2.0 support slice comparison?](https://gist.github.com/krolaw/3205a3139d423b0c39e24b98c923b1a1)," an argument to treat slices as structs for equality comparison, ignoring backing arrays.
-  - Gary Bernhardt, "[Deduplicating a slice is too cumbersome](https://gist.github.com/kevinburke/ad20587e6694acb9251f7d7e25c77078)," a 10-line function in your source code vs. e.g. Ruby's `uniq` function.
+  - "[Deduplicating a slice is too cumbersome](https://gist.github.com/kevinburke/ad20587e6694acb9251f7d7e25c77078)," a 10-line function in your source code vs. e.g. Ruby's `uniq` function.
 
 ## Syntax
   - André Hänsel, "[If Ⅰ were to make my own Go…](https://blog.creations.de/?p=223)", August 2017
