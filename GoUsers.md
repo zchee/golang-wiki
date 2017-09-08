@@ -444,6 +444,7 @@
   * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
   * [Equisense](https://www.equisense.com/en/)
+  * [Fabriks](https://fabriks.net)
   * [IRI France](http://www.iri-labs.com)
   * [Objenious](http://www.objenious.com)
   * [Rive](http://app.rive.world)
