@@ -526,6 +526,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
   * [reform](https://github.com/AlekSi/reform) - A better ORM for Go, based on non-empty interfaces and code generation.
+  * [go-queryset](https://github.com/jirfag/go-queryset) - 100% type-safe ORM for Go with code generation and MySQL, PostgreSQL, Sqlite3, SQL Server support.
 
 ### Key-Value-Stores
 
