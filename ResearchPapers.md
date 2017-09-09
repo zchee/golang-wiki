@@ -52,6 +52,8 @@ This page lists academic and industry research papers about Go or using Go as th
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/gong/), [code](https://github.com/nickng/gong)
 - Design and Implementation of Concurrent C0 (Willsey, Prabhu, Pfenning)
   - https://arxiv.org/abs/1701.04929
+- Automated Identification of Security Issues from Commit Messages and Bug Reports (Yagin Zhou, Asankhaya Sharma), FSE 2017
+  - [doi: 10.1145/3106237.3117771](http://dl.acm.org/citation.cfm?doid=3106237.3117771)
 
 ## 2016
 - Atom: Horizontally Scaling Strong Anonymity (Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, Bryan Ford)
