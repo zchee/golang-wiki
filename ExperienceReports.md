@@ -110,6 +110,7 @@ Add new sections as appropriate.
   - David Chase, "[A use case for Go Generics in a Go Compiler](https://dr2chase.wordpress.com/2017/08/09/a-use-case-for-go-generics-in-a-go-compiler/)", August 2017
   - Varun Kumar, "[Generics - I Wish You Were Here...](https://varunksaini.com/blog/use-case-for-generics/)", August 2017
   - Sameer Ajmani, "[Go Experience Report for Generics: Google metrics API](https://medium.com/@sameer_74231/go-experience-report-for-generics-google-metrics-api-b019d597aaa4)", August 2017
+  - Chewxy, "Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
@@ -170,6 +171,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - James Frasché, "[Sum types experience report](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325)", Aug 2017, issues caused by inability to restrict to a closed set of types
 - Robin Eklind, "[Specific use cases. In response to James Frasché's 'Sum types experience report'](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325#gistcomment-2181410)", Aug 2017, issues caused by inability to restrict to a closed set of types
 - Rick Branson, "[Implicit Pointers = Explicitly Bad](https://docs.google.com/document/d/1va7f4YvExK4mNBmMt2RMg1SNSHyljc8ARVp2ATKtBwU/edit?usp=sharing)", Sep 2017, issues encountered with parameters/variables with interface types as implicit references
+- Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/), September 2017, issues regarding discussion of a type system in Go
 
 ## Typed nils
  
