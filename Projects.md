@@ -220,7 +220,8 @@ If you find a project in this list that is dead or broken, please either mark it
   * [JayDiff](https://github.com/yazgazan/jaydiff) - A JSON diff utility written in Go.
 
 ## Compression
-  
+ 
+  * [brotli](https://github.com/google/brotli/tree/master/go/cbrotli) - go bindings for Brotli algorithm.
   * [compress](https://github.com/klauspost/compress) - Faster drop in replacements for gzip, zip, zlib, deflate
   * [dgolzo](https://github.com/dgryski/dgolzo) - LZO bindings
   * [dictzip](https://github.com/pebbe/dictzip) - A reader and writer for files in the random access ` dictzip ` format
