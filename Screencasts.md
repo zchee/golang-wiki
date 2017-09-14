@@ -128,3 +128,19 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/web-development/back-end-web-development-using-go-video)]
 
 ***
+  * **Getting started with Go Programming Language**
+    * Author:  Matthew Spaulding
+    * Publication Date: August 2017
+    * ISBN: 978-1788471855
+
+[[course]( https://www.packtpub.com/networking-and-servers/getting-started-go-programming-language-integrated-course)]
+
+***
+  * **Beginner Solutions in Go – The Basics, Clients, and Servers [Video]**
+    * Author:  Aaron Torres
+    * Publication Date: August 2017
+    * ISBN: 978-1788629089
+
+[[video]( https://www.packtpub.com/application-development/beginner-solutions-go-%E2%80%93-basics-clients-and-servers-video)]
+
+***
