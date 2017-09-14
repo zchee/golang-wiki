@@ -155,7 +155,7 @@ Sorted by publication date.
     * ISBN: 978-1788390552
     * Reference: https://www.packtpub.com/application-development/go-design-patterns-real-world-projects
 
-* ** Building Microservices with Go**
+* **Building Microservices with Go**
     * Author: Nic Jackson
     * Publication Date: July 2017
     * ISBN: 978-1786468666
