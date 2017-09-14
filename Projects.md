@@ -1481,6 +1481,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gospecify](https://github.com/stesla/gospecify) - another BDD framework
   * [go-stat](https://github.com/mreiferson/go-stat) - performant instrumentation/profiling for Go
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
+  * [gotestyourself](https://github.com/gotestyourself/gotestyourself) - a collection of packages for writing readable tests
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
   * [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing
