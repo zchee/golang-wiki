@@ -7,6 +7,8 @@ $ sudo apt-get install golang-go
 ... but if that's too old for you, try:
 
 ```
+$ sudo add-apt-repository ppa:gophers/archive
+$ sudo apt update
 $ sudo apt-get install golang-1.8-go
 ```
 
