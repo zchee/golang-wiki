@@ -12,8 +12,8 @@ Drivers for Go's sql package include:
 
   * **Apache Ignite/GridGain**: https://github.com/amsokol/go-ignite-client
   * **Apache Phoenix/Avatica**: https://github.com/Boostport/avatica
-  * **ClickHouse**: https://github.com/kshvakov/clickhouse (uses [native TCP interface](https://clickhouse.yandex/docs/en/interfaces/tcp.html))
-  * **ClickHouse**: https://github.com/mailru/go-clickhouse (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html))
+  * **ClickHouse** (uses [native TCP interface](https://clickhouse.yandex/docs/en/interfaces/tcp.html)): https://github.com/kshvakov/clickhouse
+  * **ClickHouse** (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html)): https://github.com/mailru/go-clickhouse
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2**: https://bitbucket.org/phiggins/db2cli
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
