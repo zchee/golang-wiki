@@ -650,6 +650,7 @@
   * [Avito](http://www.avito.ma)
 
 ## Netherlands
+  * [BloomReach](https://www.bloomreach.com)
   * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [localsensor](http://localsensor.com/)
@@ -662,7 +663,6 @@
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
   * [Yonego](https://www.bambelo.com/)
-  * [BloomReach](https://www.bloomreach.com)
 
 ## New Zealand
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
