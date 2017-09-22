@@ -17,25 +17,36 @@ Information for each benchmark includes (or should include):
 
  | short name | notes | go get path | benchmark regexp | contact |
  | ---------- | ----- | ----------- | ---------------- | ------- |
+  | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
  | ethereum_bitutil | | `github.com/ethereum/go-ethereum/common/bitutil` | `Benchmark(BaseTest2KB\|FastTest2KB\|Encoding4KBVerySparse)` | |
- | ethereum_storage | | `github.com/ethereum/go-ethereum/swarm/storage` | `BenchmarkJoin_8` | |
- | ethereum_ethash | | `github.com/ethereum/go-ethereum/consensus/ethash` | `BenchmarkHashimotoLight` | |
  | ethereum_core | | `github.com/ethereum/go-ethereum/core` | `BenchmarkChainRead_full_10k` | |
- | ethereum_sha3 | | `github.com/ethereum/go-ethereum/crypto/sha3` | `BenchmarkSha3_224_MTU` | |
- | ethereum_ecies | | `github.com/ethereum/go-ethereum/crypto/ecies` | `BenchmarkGenSharedKeyP256` | |
  | ethereum_corevm | | `github.com/ethereum/go-ethereum/core/vm` | `BenchmarkOpDiv128` | |
- | ethereum_trie | | `github.com/ethereum/go-ethereum/trie` | `Benchmark` | |
- | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
- | spexs2 | | `github.com/egonelbre/spexs2/_benchmark/` | `BenchmarkRun/10k/1` | |
- | minio | | `github.com/minio/minio/cmd` | `BenchmarkGetObject5MbFS` | |
+ | ethereum_ecies | | `github.com/ethereum/go-ethereum/crypto/ecies` | `BenchmarkGenSharedKeyP256` | |
+ | ethereum_ethash | | `github.com/ethereum/go-ethereum/consensus/ethash` | `BenchmarkHashimotoLight` | |
+ | ethereum_sha3 | | `github.com/ethereum/go-ethereum/crypto/sha3` | `BenchmarkSha3_224_MTU` | |
+ | ethereum_storage | | `github.com/ethereum/go-ethereum/swarm/storage` | `BenchmarkJoin_8` | |
  | gonum_blas_native | | `gonum.org/v1/gonum/blas/gonum` | `Benchmark(DasumMediumUnitaryInc\|Dnrm2MediumPosInc)` | |
+ | gonum_community | | `gonum.org/v1/gonum/graph/community/` | `BenchmarkLouvainDirectedMultiplex` | |
  | gonum_lapack_native | | `gonum.org/v1/gonum/lapack/gonum` | `BenchmarkDgeev/Circulant10` | |
  | gonum_mat | | `gonum.org/v1/gonum/mat` | `Benchmark(MulWorkspaceDense1000Hundredth\|ScaleVec10000Inc20)` | |
- | semver | | `github.com/Masterminds/semver` | `BenchmarkValidateVersionTildeFail` | |
+ | gonum_path | | `gonum.org/v1/gonum/graph/path/` | `Benchmark(AStarUndirectedmallWorld_10_2_2_2_Heur\|Dominators/nested_if_n256)` | |
+ | gonum_topo | | `gonum.org/v1/gonum/graph/topo/` | `Benchmark(TarjanSCCGnp_1000_half\|TarjanSCCGnp_10_tenth)` | |
+ | gonum_traverse | | `gonum.org/v1/gonum/graph/traverse/` | `BenchmarkWalkAllBreadthFirstGnp_(10\|1000)_tenth` | |
  | hugo_helpers | | `github.com/gohugoio/hugo/helpers` | `Benchmark(StripHTML\|ReaderContains)` | |
  | hugo_hugolib | | `github.com/gohugoio/hugo/hugolib` | `BenchmarkParsePage` | |
  | hugo_hugolib_sitebuilding | | `github.com/gohugoio/hugo/hugolib` | `BenchmarkSiteBuilding/YAML,num_pages=10,num_tags=10,tags_per_page=20,shortcodes,render-12` | |
  | k8s_api | | `k8s.io/kubernetes/pkg/api` | `BenchmarkEncodeCodecFromInternalProtobuf` | |
  | k8s_schedulercache | | `k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache` | `BenchmarkList1kNodes30kPods` | |
- | uber_zap | needs thinning | `github.com/uber-go/zap/benchmarks` | `Benchmark` | |
- | uuid | needs thinning | `github.com/satori/go.uuid/` | `Benchmark` | |
+ | minio | | `github.com/minio/minio/cmd` | `BenchmarkGetObject5MbFS` | |
+ | semver | | `github.com/Masterminds/semver` | `BenchmarkValidateVersionTildeFail` | |
+ | spexs2 | | `github.com/egonelbre/spexs2/_benchmark/` | `BenchmarkRun/10k/1` | |
+ | uuid | | `github.com/satori/go.uuid/` | `Benchmark(NewV5\|MarshalToString)` | |
+
+A few have been proposed but have so far failed to make the cut (for fetch, build, or noise problems):
+
+ | short name | notes | go get path | benchmark regexp | contact |
+ | ---------- | ----- | ----------- | ---------------- | ------- |
+ | ethereum_trie | | `github.com/ethereum/go-ethereum/trie` | `Benchmark` | |
+ | ethereum_whisperv5 | | `github.com/ethereum/go-ethereum/whisper/whisperv5` | `Benchmark` | |
+ | kanzi | | `github.com/flanglet/kanzi/go/src/kanzi/benchmark` | `Benchmark` | |
+ | uber_zap | | `github.com/uber-go/zap/benchmarks` | `Benchmark` | |
