@@ -172,6 +172,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Robin Eklind, "[Specific use cases. In response to James Frasché's 'Sum types experience report'](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325#gistcomment-2181410)", Aug 2017, issues caused by inability to restrict to a closed set of types
 - Rick Branson, "[Implicit Pointers = Explicitly Bad](https://docs.google.com/document/d/1va7f4YvExK4mNBmMt2RMg1SNSHyljc8ARVp2ATKtBwU/edit?usp=sharing)", Sep 2017, issues encountered with parameters/variables with interface types as implicit references
 - Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017, issues regarding discussion of a type system in Go
+- Walter Schulze, "[Generic functions cannot be passed as values](https://gist.github.com/awalterschulze/e3999f8cfa29b246c35a651a2be4d121)", September 2017
 
 ## Typed nils
  
