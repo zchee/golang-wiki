@@ -1564,7 +1564,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
   * [Peach](http://peachdocs.org/) - A web server for multi-language, real-time synced and searchable documentation.
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
-  * [securecookie](https://github.com/chmike/securecookie) - Encode and Decode secure cookies.
   * [serve-files](https://github.com/rickb777/servefiles) - Far-future and gzip wrapper around the standard net/http server.
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
@@ -1592,6 +1591,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [oauth1a](https://github.com/kurrik/oauth1a) - OAuth 1.0 client library
   * [OAuth Consumer](https://github.com/mrjones/oauth) - OAuth 1.0 consumer implementation
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
+  * [securecookie](https://github.com/chmike/securecookie) - Encode and Decode secure cookies
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
   * [go-otp](https://github.com/hgfischer/go-otp) - Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
 
