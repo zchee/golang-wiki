@@ -162,7 +162,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [A Journey into Microservices - Part 1](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/), [Part 2](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-2/), [Part 3](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-3/) _2015-03_09_
   * [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-01-01_
   * [Building a Web Server in Go](http://thenewstack.io/building-a-web-server-in-go/) _2014-09-01_
-  * [Auth and Sessions](http://shadynasty.biz/blog/2012/09/05/auth-and-sessions/) _2012-09-05_
   * [Painless Web Handlers in Go](http://shadynasty.biz/blog/2012/08/07/painless-web-handlers-in-go/) _2012-08-07_
   * [Implementing Chat with WebSockets](http://gary.beagledreams.com/page/go-websocket-chat.html) _2012-03-22_
 
