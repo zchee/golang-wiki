@@ -6,7 +6,7 @@ Sometimes an application needs to save internal state or perform some cleanup ac
 
 The following code demonstrates a program that waits for an interrupt signal and removes a temporary file when it occurs.
 
-```
+```go
 package main
 
 import (
