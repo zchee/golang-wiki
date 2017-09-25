@@ -129,7 +129,6 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
   * [Equality and Type Aliases](https://akutz.wordpress.com/2015/09/02/golang-equality-and-type-aliases/) _2015-09-02_
   * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
-  * [An introduction to pointers for Go programmers not coming from C family languages](http://andlabs.lostsig.com/blog/2014/06/30/85/an-introduction-to-pointers-for-go-programmers-not-coming-from-c-family-languages) _2014-06-30_
   * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
   * [Learning Go Types](http://www.laktek.com/2012/01/27/learning-go-types/) _2012-01-27_
 
