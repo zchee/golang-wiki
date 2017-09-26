@@ -671,8 +671,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
 
 ## Editors
-
+  * [A](https://github.com/as/a) - A graphical text and binary editor based on Acme
   * [Conception](https://github.com/shurcooL/Conception) - Conception is an experimental research project, meant to become a modern IDE/Language package.  [demo video](http://youtu.be/DNJ7HqlV55k)
+  * [de](https://github.com/driusan/de) - A modal graphical editor with Acme and vi features
   * [Go-bbpackage](https://github.com/ascarter/Go-bbpackage) - BBEdit package for Go development
   * [goclipse](https://github.com/GoClipse/goclipse) - An Eclipse-based IDE for Go.
   * [Go conTEXT](http://www.tc33.org/go/go-programming-highlighter-for-context-editor/) - Highlighter plugin
@@ -683,6 +684,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [golab](https://github.com/mb0/lab) - go local application builder - a web-based Go ide
   * [Google Go for Idea](http://plugins.intellij.net/plugin/?idea&id=5047) - Google Go language plugin for Intellij IDEA
   * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor.
+  * [T](https://github.com/eaburns/T) - An Acme/Sam like text editor
   * [tabby](https://github.com/mikhailt/tabby) - Source code editor
   * [ViGo](https://github.com/kisielk/vigo) - A vim-like text editor.
   * [Wide](https://github.com/b3log/wide) - A Web-based IDE for Teams using Golang.
