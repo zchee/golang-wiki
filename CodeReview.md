@@ -13,7 +13,7 @@ There are several terms code reviews may use that you should become familiar wit
 # CL Directives
 
 * `R=foo` — assign a reviewer within the [Go CL dashboard](https://swtch.com/godash/)
-* `RELNOTE=yes` or `RELNOTE=<subject>` — tag for release notes; scraped by the [relnotes](https://golang.org/x/build/cmd/relnotes) tool
+* `RELNOTE=yes` or `RELNOTE=<subject>` — tag for release notes; scraped by the [relnote](https://golang.org/x/build/cmd/relnote) tool
 * `DO NOT SUBMIT` (in the commit message) — block submission; see the "Work in progress" section below
 * `Updates #1234` or `Fixes #1234` (in the commit message) — link the CL from the GitHub issue and optionally close the issue after the CL is merged
 
