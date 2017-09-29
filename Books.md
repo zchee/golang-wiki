@@ -167,6 +167,12 @@ Sorted by publication date.
     * ISBN: 978-1785882104
     * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go
 
+* **Go Systems Programming**
+    * Author: Mihalis Tsoukalos
+    * Publication Date: September 2017
+    * ISBN: 978-1787125643
+    * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
