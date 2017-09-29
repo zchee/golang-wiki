@@ -28,7 +28,7 @@ _*_ Go 1.5 or above is recommended.
 
 ## Longterm support
 
-Go aims to support the two most recent OpenBSD releases.
+Go aims to support the two most recent OpenBSD releases, because OpenBSD officially supports only the two most recent releases, and makes a best-effort attempt to maintain ABI support in consecutive releases.
 
 ## ulimits (` /etc/login.conf `)
 
