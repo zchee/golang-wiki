@@ -161,6 +161,12 @@ Sorted by publication date.
     * ISBN: 978-1786468666
     * Reference: https://www.packtpub.com/application-development/building-microservices-go
 
+* **Machine Learning With Go**
+    * Author: Daniel Whitenack
+    * Publication Date: September 2017
+    * ISBN: 978-1785882104
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
