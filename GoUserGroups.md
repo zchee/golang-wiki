@@ -23,7 +23,8 @@
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
 
 # Europe
-
+  
+  * [Athens Gophers](https://www.meetup.com/Athens-Gophers/) - Athens, Greece.
   * [Golang Türkiye](https://www.facebook.com/groups/GolangTurkiye) - Istanbul, Turkey.
   * [Gophers Aachen](https://www.meetup.com/Gophers-Aachen/) - Aachen, Germany.
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
