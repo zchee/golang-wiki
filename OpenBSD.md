@@ -26,6 +26,10 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 
 _*_ Go 1.5 or above is recommended.
 
+## Longterm support
+
+Go aims to support the two most recent OpenBSD releases.
+
 ## ulimits (` /etc/login.conf `)
 
 Edit `/etc/login.conf` so that the staff class has the proper
