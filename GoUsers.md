@@ -455,7 +455,6 @@
   * [Rive](http://app.rive.world)
   * [Teads.tv](http://teads.tv/)
   * [Zenly](https://zen.ly/)
-  * [Jideon](https://jideon.com/)
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
