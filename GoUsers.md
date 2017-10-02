@@ -288,6 +288,7 @@
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
   * [SteelSeries](http://www.steelseries.com) - [blog](http://techblog.steelseries.com/golisp/index.html)
   * [StorReduce](http://storreduce.com)
+  * [Stream](https://getstream.io) - [github](https://github.com/getstream/)
   * [SumoLogic](https://www.sumologic.com/) - [github](https://github.com/SumoLogic/sumoshell)
   * [SuperHuman](http://superhuman.com/) - [HN](https://news.ycombinator.com/item?id=10660225)
   * [SyndicatePro](http://syndicatepro.com/) - [source](https://groups.google.com/d/msg/golang-nuts/eeAmkzaRt-w/rHpoRAGeLD8J)
