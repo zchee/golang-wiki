@@ -17,7 +17,7 @@ $ sudo apt-get install golang-1.8-go
 Using snaps also works quite well:
 
 ```
-# This will give you go 1.8
+# This will give you the latest version of go
 $ snap install --classic go
 ```
 
