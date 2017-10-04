@@ -880,6 +880,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mdtwm](https://github.com/ziutek/mdtwm) - Tiling window manager for X
   * [qml](https://github.com/niemeyer/qml) - QML support for the Go language
   * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
+  * [webview](https://github.com/zserge/webview) - Tiny cross-platform web UI library. Uses WebKit (Gtk/Cocoa) and MSHTML (Windows)
 
 ## Hardware
 
