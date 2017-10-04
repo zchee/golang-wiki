@@ -144,3 +144,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video]( https://www.packtpub.com/application-development/beginner-solutions-go-%E2%80%93-basics-clients-and-servers-video)]
 
 ***
+  * **Front-End Web Development using Go (Video)**
+    * Author: Kamesh Balasubramanian
+    * Publication Date: September 2017
+    * ISBN: 978-1788398916
+
+[[video](https://www.packtpub.com/web-development/front-end-web-development-using-go-video)]
+
+***
