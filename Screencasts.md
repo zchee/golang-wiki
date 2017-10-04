@@ -152,3 +152,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/web-development/front-end-web-development-using-go-video)]
 
 ***
+  * **Advanced Solutions in Go – Testing and Distributed Systems**
+    * Author: Aaron Torres
+    * Publication Date: September 2017
+    * ISBN: 978-1788627887
+        
+[[video](https://www.packtpub.com/application-development/advanced-solutions-go-%E2%80%93-testing-and-distributed-systems-video)]
+
+***
