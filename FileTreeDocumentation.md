@@ -8,7 +8,22 @@ The Go project itself contains a number of subdirectories. This document will pr
 - [doc](#doc)
 - [lib](#lib)
 - [misc](#misc)
+    - [android](#miscandroid)
+    - [arm](#miscarm)
+    - [cgo](#misccgo)
+    - [chrome](#miscchrome)
+    - [git](#miscgit)
+    - [ios](#miscios)
+    - [linkcheck](#misclinkcheck)
+    - [nacl](#miscnacl)
+    - [sortac](#miscsortac)
+    - [swig](#miscswig)
+    - [tour](#misctour)
+    - [trace](#misctrace)
 - [pkg](#pkg)
+    - [include](#pkginclude)
+    - [obj](#pkgobj)
+    - [tool](#pkgtool)
 - [src](#src)
 - [test](#test)
 
@@ -34,7 +49,37 @@ The `lib` directory contains a single subdirectory `lib/time` which contains a c
 
 ## misc
 
+### misc/android
+
+### misc/arm
+
+### misc/cgo
+
+### misc/chrome
+
+### misc/git
+
+### misc/ios
+
+### misc/linkcheck
+
+### misc/nacl
+
+### misc/sortac
+
+### misc/swig
+
+### misc/tour
+
+### misc/trace
+
 ## pkg
+
+### pkg/include
+
+### pkg/obj
+
+### pkg/tool
 
 ## src
 
