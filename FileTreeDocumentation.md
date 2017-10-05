@@ -55,31 +55,53 @@ The `lib` directory contains a single subdirectory `lib/time` which contains a c
 
 ### misc/cgo
 
+The `misc/cgo` directory contains tests and examples of cgo.
+
 ### misc/chrome
 
+The `misc/chrome` directory contains a Chrome extension for Go contributors.
+
 ### misc/git
+
+The `misc/git` directory contains a pre-commit hook to ensure that go files have been run through gofmt.
 
 ### misc/ios
 
 ### misc/linkcheck
 
+The `misc/linkcheck` directory contains a program for ensuring there are no missing links in the godoc website.
+
 ### misc/nacl
+
+The `misc/nacl` directory contains Go's integration with nacl, which is used by [the Go playground](https://play.golang.org).
 
 ### misc/sortac
 
+The `misc/sortac` directory contains a utility for sorting the `AUTHORS` and `CONTRIBUTORS` files.
+
 ### misc/swig
+
+The `misc/swig` directory contains examples of using Go with [SWIG](https://github.com/swig/swig).
 
 ### misc/tour
 
+The `misc/tour` directory contains the resources and source code for the [Go tour](https://tour.golang.org).
+
 ### misc/trace
 
+The `misc/trace` directory contains a generated file used by `go tool trace`.
+
 ## pkg
+
+The `pkg` directory contains platform-specific build artifacts. It will always contain the following:
 
 ### pkg/include
 
 ### pkg/obj
 
 ### pkg/tool
+
+The `pkg/tool` directory contains the platform-specific tool chain exposed by the `go tool` command.
 
 ## src
 
