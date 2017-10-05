@@ -33,6 +33,8 @@ We avoid Mondays to give the Go team a work day before to prepare for the cut,
 and we avoid Fridays to give the Go team a work day after in case the cut runs
 into unexpected problems.
 
+![](images/release-cycle.png)
+
 #### January 15 / July 15: Planning for release begins.
 
 Planning of major work for upcoming release cycle is announced
