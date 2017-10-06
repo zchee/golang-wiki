@@ -1,11 +1,11 @@
 # Introduction
 
-A common use case is to create a reusable library and an application that consumes it, and host both on Github.  We will illustrate this with a trivial application called "` uselessd `" that consumes a likewise trivial library called "` useless `".
+A common use case is to create a reusable library and an application that consumes it, and host both on GitHub.  We will illustrate this with a trivial application called "` uselessd `" that consumes a likewise trivial library called "` useless `".
 
 
 # Code Layout
 
-The app and both libraries live on Github, each in its own repository.  ` $GOPATH ` is the root of the _project_ - each of your Github repos will be checked out several folders below ` $GOPATH `.
+The app and both libraries live on GitHub, each in its own repository.  ` $GOPATH ` is the root of the _project_ - each of your GitHub repos will be checked out several folders below ` $GOPATH `.
 
 Your code layout would look like this:
 
@@ -41,7 +41,7 @@ Both Go and Eclipse use the term "workspace", but they use it to mean something 
 
 # Setup the Workspace
 
-Let's assume we are starting from scratch.  Initialize the two new repositories on Github, using the "Initialize this repository with a README" option so your repos can be cloned immediately.  Then setup the project like this:
+Let's assume we are starting from scratch.  Initialize the two new repositories on GitHub, using the "Initialize this repository with a README" option so your repos can be cloned immediately.  Then setup the project like this:
 
 ```sh
 cd ~/workspace # Standard location for Eclipse workspace
@@ -98,7 +98,7 @@ Your project will probably depend on some existing packages.  The application ab
 
 See the output of "` go help packages `" for a full explanation of the "` ... `" syntax.
 
-All dependencies will be installed alongside your code under "` $GOPATH/src `".  All Github reposities checked out by "` go get `" will be use the read-only ` https:// ` repository by default.  To push changes back to github from one of these repositories, change the "` origin/master `" ref in ` .git/config ` to match the SSH repository from Github.
+All dependencies will be installed alongside your code under "` $GOPATH/src `".  All GitHub reposities checked out by "` go get `" will be use the read-only ` https:// ` repository by default.  To push changes back to github from one of these repositories, change the "` origin/master `" ref in ` .git/config ` to match the SSH repository from GitHub.
 
 # Build
 
