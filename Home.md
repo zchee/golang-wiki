@@ -2,7 +2,7 @@ Welcome to the Go wiki, a collection of information about the [Go Programming La
 
 ## Contributing ##
 
-* This wiki is open to editing by any member of the Go community with a Github account. 
+* This wiki is open to editing by any member of the Go community with a GitHub account. 
 * If you would like to add a new page, please first open an issue in the [Go issue tracker](https://github.com/golang/go/issues) with the prefix 'wiki' to propose the addition. Clearly state why the content does not fit into any of the existing pages.
 * Because renaming of pages in the wiki can break external links, please open an issue before renaming or removing any wiki page.
 
@@ -56,7 +56,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
   - Publishing Go Packages as Open Source
     - Getting ready to publish your package? [Start here.](PackagePublishing)
     - [The Go Checklist](https://github.com/matttproud/gochecklist) - A comprehensive guide for publishing a project.
-    - [How to layout your GitHub repo](GithubCodeLayout) to make it easy to for other Go programmers to use with the `go get` command.
+    - [How to layout your GitHub repo](GitHubCodeLayout) to make it easy to for other Go programmers to use with the `go get` command.
     - [Go Package, Go](https://johnsto.co.uk/blog/go-package-go) - A few recommendations for making Go packages easy to use.
 
 ## Learning more about Go
