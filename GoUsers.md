@@ -372,6 +372,7 @@
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
+  * [Emprego Ligado](https://empregoligado.com.br/#/)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [Freelas](https://www.freelas.io) - [github](https://github.com/freel4s/)
   * [GissOnline](http://www.gissonline.com.br)
