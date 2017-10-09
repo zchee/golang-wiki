@@ -2,7 +2,7 @@
 
 Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It is marked as i386- and amd64- only.  See [`ports/lang/go`](http://ports.su/lang/go) for details.
 
-| **OpenBSD release** | **golang in ports** |
+| **OpenBSD release** | **Go in ports** |
 |:--------------------|:--------------------|
 | 6.1 (Apr 11, 2017)  | go-1.8              |
 | 6.0 (Sep 1, 2016)   | go-1.6.3            |
