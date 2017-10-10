@@ -86,12 +86,12 @@ a = append(a[:i], append(b, a[i:]...)...)
 
 #### Pop
 ```go
-x, a = a[len(a)-1], a[:len(a)-1]
+x, a = a[0], a[1:]
 ```
 
 #### Pop Back
 ```go
-x, a = a[0], a[1:]
+x, a = a[len(a)-1], a[:len(a)-1]
 ```
 
 #### Push
