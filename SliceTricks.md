@@ -99,7 +99,7 @@ x, a = a[len(a)-1], a[:len(a)-1]
 a = append(a, x)
 ```
 
-#### Push Back
+#### Push Front
 ```go
 a = append([]T{ x }, a...)
 ```
