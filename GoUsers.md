@@ -750,6 +750,7 @@
   * [Insightera](https://www.insightera.co.th/)
   * [TRUE](http://truemoveh.truecorp.co.th/)
   * [Tencent Thailand](https://developers.tencent.co.th/)
+  * [KBTG](http://www.kbtg.tech)
 
 ## Turkey
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
