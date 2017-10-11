@@ -175,7 +175,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017, issues regarding discussion of a type system in Go
 - Walter Schulze, "[Generic functions cannot be passed as values](https://gist.github.com/awalterschulze/e3999f8cfa29b246c35a651a2be4d121)", September 2017
 - Walter, Schulze, "[For Sum Types: Multiple return parameters are overrated](https://gist.github.com/awalterschulze/ceb5d695e6e116234dff5079c3a4f7e3)", September 2017
-- Nicolas, Boulay "[Sum type not always the best choice](https://gist.github.com/nicolasboulay/a8ee4a65e8c2cc110c20e6d24e838e86), October 2017
+- Nicolas, Boulay "[Sum type not always the best choice (Typed tagless-final interpretations)](https://gist.github.com/nicolasboulay/a8ee4a65e8c2cc110c20e6d24e838e86), October 2017
 ## Typed nils
  
   - David Cheney, "[Typed nils in Go 2](https://dave.cheney.net/2017/08/09/typed-nils-in-go-2)", August 2017.
