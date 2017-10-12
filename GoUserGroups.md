@@ -149,7 +149,6 @@
   * [Ann Arbor Gophers](http://www.meetup.com/Ann-Arbor-Gophers/) - Ann Arbor MI, USA
   * [Baltimore Metro Area Golang](http://baltimoregolang.org) - Baltimore MD, USA
   * [Nashville Gophers](https://nashgo.org) - Nashville TN, USA
-  * [St Louis Go Meetup] (https://www.meetup.com/Saint-Louis-Go-Meetup/) - St Louis, MO, USA.
 
 # Oceania
   * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
