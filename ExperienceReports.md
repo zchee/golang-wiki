@@ -112,6 +112,9 @@ Add new sections as appropriate.
   - Sameer Ajmani, "[Go Experience Report for Generics: Google metrics API](https://medium.com/@sameer_74231/go-experience-report-for-generics-google-metrics-api-b019d597aaa4)", August 2017
   - Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017, discusses the lack of generics and how it affects building high performance multidimensional arrays for different data types (having to resort to a lot of pointer ugliness, and manually keeping track of type and runtime type checking)
  - qwerty2501,"[A problem runtime error due to lack of Generics](https://gist.github.com/qwerty2501/8839af87946571943a6c4f623c6124e2)",October 2017
+ - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try 
+code generation to avoid this [protoc-gen-gokit][https://github.com/AmandaCameron/protoc-gen-gokit], but it looks like
+a complex solution for the problem.
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
