@@ -113,7 +113,7 @@ Add new sections as appropriate.
   - Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017, discusses the lack of generics and how it affects building high performance multidimensional arrays for different data types (having to resort to a lot of pointer ugliness, and manually keeping track of type and runtime type checking)
  - qwerty2501,"[A problem runtime error due to lack of Generics](https://gist.github.com/qwerty2501/8839af87946571943a6c4f623c6124e2)",October 2017
  - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try 
-code generation to avoid this [protoc-gen-gokit][https://github.com/AmandaCameron/protoc-gen-gokit], but it looks like
+code generation to avoid this [protoc-gen-gokit](https://github.com/AmandaCameron/protoc-gen-gokit), but it looks like
 a complex solution for the problem.
 
 ## Immutability
