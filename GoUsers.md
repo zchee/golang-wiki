@@ -211,6 +211,7 @@
   * [Opendoor](https://www.opendoor.com/) - [HN](https://news.ycombinator.com/item?id=10657348)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
   * [Oracle](https://www.oracle.com/us/assets/wercker-faq-3680198.pdf) - Wercker is a Automation platform for Kubernetes & Microservice Deployments
+  * [orijtech](https://orijtech.com/) - [github](https://github.com/orijtech/)
   * [Ottemo](https://ottemo.io) - Managed Commerce Platform written in golang
   * [Outdoorsy](https://www.outdoorsy.co)
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
@@ -416,7 +417,6 @@
 ## Canada
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Koho](https://www.koho.ca/)
-  * [orijtech](https://orijtech.com/) - [github](https://github.com/orijtech/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [ThinkSquare](https://www.thinksquare.io)
   * [Wattpad](https://www.wattpad.com/)
