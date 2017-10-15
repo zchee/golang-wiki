@@ -309,7 +309,7 @@ if err != nil {
 // normal code
 ```
 
-If the if statement has an initialization statement that, such as:
+If the `if` statement has an initialization statement, such as:
 
 ```go
 if x, err := f(); err != nil {
