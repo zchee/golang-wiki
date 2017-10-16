@@ -1023,6 +1023,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [devboard](https://launchpad.net/devboard) - Kanban board application based on Simple-Khanban
   * [dioder-api](https://github.com/piLights/Dioder-API) - An API to IKEA dioder LED-strips
   * [dump](http://code.google.com/p/golang/source/browse/src/pkg/dump/) - An utility that dumps Go variables, similar to PHP's var\_dump
+  * [elPrep](https://github.com/ExaScience/elprep) - A high-performance tool for preparing sequence alignment/map files in DNA sequencing pipelines
   * [env](https://github.com/darkhelmet/env) - Easily pull environment variables with defaults
   * [epub](https://gitorious.org/go-pkg/epub) - Bindings for libepub to read epub content.
   * [EventBus](https://github.com/asaskevich/EventBus) - Lightweight event bus with async compatibility for Go .
@@ -1085,6 +1086,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mitigation](https://github.com/sarnowski/mitigation) - Package mitigation provides the possibility to prevent damage caused by bugs or exploits.
   * [nma.go](https://github.com/dustin/nma.go) - A NotifyMyAndroid client for go.
   * [notify](https://github.com/rjeczalik/notify) - File system event notification library with API similar to os/signal.
+  * [pargo](https://github.com/ExaScience/pargo) - A library for parallel programming in Go.
   * [passwd](https://github.com/willdonnelly/passwd) - A parser for the /etc/passwd file
   * [pool](https://github.com/stefantalpalaru/pool) - A generic worker pool
   * [procfile](https://github.com/hecticjeff/procfile) - A Procfile parser
