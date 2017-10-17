@@ -615,6 +615,7 @@
   * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
+  * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [OPTiM Corporation](https://www.optim.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
