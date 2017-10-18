@@ -16,7 +16,7 @@ Install them with "go get".
   * [[docs](https://godoc.org/golang.org/x/blog)] [[source](https://go.googlesource.com/blog)] ` golang.org/x/blog ` — the content and server program for [blog.golang.org](http://blog.golang.org).
 
 
-  * [[docs](https://godoc.org/golang.org/x/review)] [[source](https://go.googlesource.com/review)] ` golang.org/x/codereview ` — tools for code review.
+  * [[docs](https://godoc.org/golang.org/x/review)] [[source](https://go.googlesource.com/review)] ` golang.org/x/review ` — tools for code review.
   * [[docs](https://godoc.org/golang.org/x/benchmarks)] [[source](https://go.googlesource.com/benchmarks)] ` golang.org/x/benchmarks `
 
   * [[docs](https://godoc.org/golang.org/x/exp)] [[source](https://go.googlesource.com/exp)] ` golang.org/x/exp ` — experimental code (handle with care).
