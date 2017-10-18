@@ -1150,6 +1150,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
   * [stress](https://github.com/wenjiax/stress) - Replacement of ApacheBench(ab), support for transactional requests, support for command line and package references to HTTP stress testing tool.
+  * [sling](https://github.com/dghubble/sling) - A Go HTTP client library for creating and sending API requests.
 
 ### IMAP
   * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
