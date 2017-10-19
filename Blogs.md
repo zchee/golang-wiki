@@ -23,6 +23,8 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Mina Andrawos's Golang Posts](http://www.minaandrawos.com/category/golang-2/)
 * [Aliaksandr Pliutau's Golang Blog](http://pliutau.com/)
 * [Johan Brandhorst's Golang Blog](https://jbrandhorst.com)
+* [Christoph Berger's Applied Go Blog](https://appliedgo.net)
+* [Jon Calhoun's Blog](https://calhoun.io)
 
 ## Portuguese
 
