@@ -30,7 +30,7 @@ The binary for a command whose source is in ` $GOPATH/src/A/B ` is
 $GOPATH/bin/B
 ```
 
-## Repository Integration and Creating "go gettable" Projects
+## Repository integration and creating "go gettable" projects
 When fetching a package the go tool looks at the package's import path to discover a URL. For instance, if you attempt to
 ```
 go get github.com/go-kit/kit
