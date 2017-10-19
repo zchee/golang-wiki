@@ -18,6 +18,8 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf) (*links are broken*, use the archived links from the wayback machine. [Day 1][wbday1], [Day 2][wbday2], [Day 3][wbday3])
   * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
 * [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
+* [Master Go](https://appliedgo.com/p/mastergo/) - A paid online video course on Go for developers
+* [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
