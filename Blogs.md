@@ -24,7 +24,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Aliaksandr Pliutau's Golang Blog](http://pliutau.com/)
 * [Johan Brandhorst's Golang Blog](https://jbrandhorst.com)
 * [Christoph Berger's Applied Go Blog](https://appliedgo.net)
-* [Jon Calhoun's Blog](https://calhoun.io)
+* [Jon Calhoun's Blog](https://www.calhoun.io/)
 
 ## Portuguese
 
