@@ -115,6 +115,7 @@ Add new sections as appropriate.
  - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try 
 code generation to avoid this [#70](https://github.com/go-kit/kit/issues/70) [#308](https://github.com/go-kit/kit/pull/308) [protoc-gen-gokit](https://github.com/AmandaCameron/protoc-gen-gokit) , but it looks like
 a complex solution for the problem. 
+- Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf", paper about module description for generics.
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
