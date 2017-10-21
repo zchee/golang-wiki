@@ -523,6 +523,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorp](https://github.com/coopernurse/gorp) - SQL mapper for Go
   * [go-store](https://github.com/gosuri/go-store) - Data-store library for Go that provides a set of platform-independent interfaces to persist and retrieve key-value data.
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
+  * [lore](https://github.com/abrahambotros/lore) - Simple and lightweight pseudo-ORM/pseudo-struct-mapping environment for Go.
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PostgreSQL and SQLite3.
   * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
   * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
