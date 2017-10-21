@@ -677,6 +677,7 @@
   * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
   * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
   * [Spalk](http://spalk.co)
+  * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/)
 
 ## Philippines
   * [ULAPPH](http://www.ulapph.com)
