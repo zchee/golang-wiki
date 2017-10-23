@@ -20,8 +20,7 @@ Using snaps also works quite well:
 # This will give you the latest version of go
 $ snap install --classic go
 ```
-> restart required to get command recognized  
-> modify your path to include package binaries: `export PATH="$PATH:$HOME/go/bin"` 
+> restart required to get command recognized
 
 Or use Go's official (non-Deb) downloads:
 
