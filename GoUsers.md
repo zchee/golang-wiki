@@ -444,6 +444,9 @@
   * [SYBO Games](http://sybogames.com)
   * [Vivino](https://www.vivino.com)
 
+## Estonia
+  * [Wallester](https://wallester.eu)
+
 ## France
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
