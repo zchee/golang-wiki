@@ -478,6 +478,7 @@
 
 ## Hong Kong
   * [PassKit](https://passkit.com/) - [github](https://github.com/PassKit)
+  * [Lalamove](https://github.com/lalamove)
 
 ## Hungary
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
