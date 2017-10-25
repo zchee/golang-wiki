@@ -5,7 +5,7 @@
 
 ## Podcast episodes
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
-* [The Go Language](https://hipsters.tech/linguagem-go-hipsters-67/) (_in portuguese_) _2017-10-24_
+* [The Go Language - Hipsters #67](https://hipsters.tech/linguagem-go-hipsters-67/) (_in portuguese_) _2017-10-24_
 * [Little chat about Go Lang](https://soundcloud.com/rdshipit/capycast-2-golang) (_in portuguese_) _2016-03-27_
 * [Programming in Go with Michael Van Sickle](https://www.dotnetrocks.com/?show=1203) _2015-10-13_
 * [Go on the Web](http://thewebplatform.libsyn.com/55-go-on-the-web) _2015-08-05_
@@ -15,3 +15,4 @@ A collection of podcast episodes that cover Go programming. Please keep items in
 * [Golang Best Practices](https://go.unicorn.tv/podcasts/golang-best-practices) _2014-09-08_
 * [An Introduction to the Go Programming Language with Andrew Gerrand](http://hanselminutes.com/416/an-introduction-to-the-go-programming-language-with-andrew-gerrand) _2014-03-28_
 * [FLOSS Weekly #284: The Go Language](https://twit.tv/shows/floss-weekly/episodes/284) _2014-02-19_
+* [Series: The Go Language - GrokPodcast](http://www.grokpodcast.com/series/a-linguagem-go/) (_in portuguese_) _2013-07-17_
