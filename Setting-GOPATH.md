@@ -48,7 +48,7 @@ Note that `GOPATH` must not be the same path as your Go installation.
 * Create folder at `C:\work`.
 * Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
 * From the menu on the left, select the "Advanced systems settings".
-* Click the "Environment Variables button at the bottom.
+* Click the "Environment Variables" button at the bottom.
 * Click "New" from the "User variables" section.
 * Type `GOPATH` into the "Variable name" field.
 * Type `C:\work` into the "Variable value" field.
