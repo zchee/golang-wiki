@@ -182,6 +182,7 @@
   * [Maldive](https://www.maldive.com)
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
   * [Mattel](http://play.mattel.com/) - Mattel uses go on its backend for APIs and IOT data processing.
+  * [Mattermost](https://about.mattermost.com/) - [github](https://github.com/mattermost) - Open source, private cloud Slack-alternative
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
   * [Medium](https://medium.com) - [blog](https://medium.com/medium-eng/how-medium-goes-social-b7dbefa6d413)
   * [MediaMath](https://mediamath.com) - [github](https://github.com/MediaMath/grim), [youtube](https://youtu.be/eDRoaxXerOM)
