@@ -10,4 +10,4 @@
 | 7-STABLE (EOL)     | amd64, 386        | Go 1                        | Go 1.1.2                  |
 
 _*_ Go 1.5 or above is recommended.
-_**_ 12-CURRENT contains a few breaking changes on syscall/ABI, as in, [ino64](https://svnweb.freebsd.org/base?view=revision&revision=318736).
+_**_ See https://golang.org/issues/22447.
