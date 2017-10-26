@@ -165,7 +165,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Tooling
 
   - Jonathan Ingram, “[gofmt is not opinionated enough](https://gist.github.com/jonathaningram/2b62022844348f3407518dd3a180ef42)”, August 2017, about ongoing debates between developers regarding code style because `gofmt` is not opinionated enough.
-  - Jean-Laurent de Morlhon, "[Pourquoi Maurice ne doit surtout pas coder en GO] (https://www.youtube.com/watch?v=LIFZPzupwgs), talk about Go from a java developper perspective ("go dep" is not enough,...), slides are in english.
+  - Jean-Laurent de Morlhon, "[Pourquoi Maurice ne doit surtout pas coder en GO](https://www.youtube.com/watch?v=LIFZPzupwgs), talk about Go from a java developper perspective ("go dep" is not enough,...), slides are in english.
 
 ## Type System
 
