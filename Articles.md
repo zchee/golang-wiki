@@ -60,7 +60,7 @@ Table of Contents
 ## Concurrency / Channels
 
   * [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/) _2016-10-25_
-  * [Concurrency in Go] (http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
+  * [Concurrency in Go](http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
   * [Very basic concurrency for beginners in Go](https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.n831uhdiq) _2015-11-18_
   * [Exploting Powerful Cloud Services with Go](https://medium.com/@sathishvj/exploiting-your-powerful-cloud-servers-with-go-lang-s-concurrency-eae5f4c7526) _2015-10-11_
   * [3 Trivial Concurrency Exercises for the Confused Newbie Gopher](http://whipperstacker.com/2015/10/05/3-trivial-concurrency-exercises-for-the-confused-newbie-gopher/) _2015-10-05_
