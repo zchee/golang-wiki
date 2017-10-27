@@ -21,9 +21,7 @@
   * [GoJakarta](http://www.meetup.com/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
-
-Middle East
-* [iran-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
+  * [Iran-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
 
 # Europe
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
