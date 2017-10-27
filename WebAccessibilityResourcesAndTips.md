@@ -31,6 +31,7 @@ Chrome has some quite useful built in a11y tools, but you need to enable them by
 - [High Contrast](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph) This extension is used by people with special contrast needs. It's a good idea to run a page through each filter (and test any hover/focus states) to make sure that everything is still visible.
 - [Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc) This is the best static auditor. The extension will ask you to register for a newsletter on first use, but you do not have to—just skip it.
 - [Spectrum](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb) Simulates various kinds of color blindness to make sure nothing on the page becomes invisible or hard to distinguish when read by a user with that specific medical condition. (For some reason this does not seem to work immediately after installation but it will after a few retries).
+- [Funkify](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg) An easy to use disability simulator.
 
 # Further Reading
 - http://a11yproject.com/
