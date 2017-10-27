@@ -14,6 +14,7 @@ Commercial providers of Go training
 ## Classroom and In-Person
 
 * [Ardan Labs](https://www.ardanlabs.com/) - Offering customized on-site live training classes.
+* [Boss Sauce Creative](https://bosssauce.it/services/training) - Personalized or track-based Go training for teams.
 * [Brian Ketelsen](https://www.brianketelsen.com/) - In-person, remote, and online training classes for individuals and companies.
 * [Gopher Guides](https://www.gopherguides.com/) - Customized In-person, remote, and online training classes.  Training for Developers by Developers.  Lead Instructors: [Mark Bates](http://www.gopherguides.com/team/mark.bates), [Cory LaNou](http://www.gopherguides.com/team/cory.lanou)
 * [Web Development in Go](http://goblimey.com/courses/go.for.oo.devs.html) - three days, 26th-28th June 2017, London.
