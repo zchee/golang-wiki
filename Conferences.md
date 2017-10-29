@@ -8,7 +8,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
 | dotGo | 2017-11-06 | Paris, France | https://www.dotgo.eu |
 | GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
 | GopherCon India 2018 | 2018-03-9-10 | Pune, India | http://www.gophercon.in/ |
@@ -20,6 +19,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
 | Golang UK | 2017-08-16-18 | London, UK | https://golanguk.com |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
 | GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
