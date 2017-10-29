@@ -709,6 +709,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hierr](https://github.com/reconquest/hierr-go) - Nesting errors in hierarchy.
   * [errgo](https://github.com/juju/errgo) - Error tracing and annotation.
   * [errors](https://github.com/juju/errors) - The juju/errors package provides an easy way to annotate errors without losing the original error context, and get a stack trace back out of the error for the locations that were recorded.
+  * [errors](https://github.com/aletheia7/errors) - errors augments and error with a file and line number.
   * [goerr](https://github.com/goerr/goerr) - Allows to make a separate(modular) and reusable error handlers. Exception-like panic() recover() mechanism using Return(error) and catching err := OR1(..)
   * [panicparse](https://github.com/maruel/panicparse/) - Parse panics with style.
   * [Space Monkey errors](https://github.com/spacemonkeygo/errors) - Go's missing errors library - stack capture, error hierarchies, error tags
