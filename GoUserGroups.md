@@ -108,7 +108,6 @@
 
 ## Mexico
 
-  * [golangmx](http://golang.mx/) - Mexico City, Mexico.
   * [Golang Monterrey](http://www.meetup.com/Golang-MTY/) - Monterrey, Mexico
 
 ## United States
