@@ -143,3 +143,13 @@ for left, right := 0, len(a)-1; left < right; left, right = left+1, right-1 {
 	a[left], a[right] = a[right], a[left]
 }
 ```
+
+### Shuffling
+
+Fisher–Yates algorithm:
+```go
+for i := len(a) - 1; i > 0; i-- {
+    j := rand.Intn(i + 1)
+    a[i], a[j] = a[j], a[i]
+}
+```
