@@ -19,7 +19,7 @@ export GOPATH=$HOME/work
 
 Save and exit your editor. Then, source your `~/.bash_profile`.
 ```bash
-$ source ~/.bash_profile
+source ~/.bash_profile
 ```
 
 > Note: Set the GOBIN path to generate a binary file when `go install` is run.
