@@ -366,6 +366,7 @@
 
 ## Brazil
   * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
+  * [Acesso](http://acesso.io/) - [github](https://github.com/acesso-io)
   * [AStar](http://www.astarlabs.com)  - [github](https://github.com/astarlabs)
   * [Astrolink](http://www.astrolink.com.br) - [github](https://github.com/astrolink)
   * [Beauty Date](http://www.beautydate.com.br)
