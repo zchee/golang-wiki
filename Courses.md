@@ -37,6 +37,8 @@ Go is a great language for CS majors. This page presents some university courses
 
   * University of Tromsø, Norway. [Concurrent and Data-Intensive Programming (INF-2200)](https://uit-inf-2202-f16.github.io/). 
 
+  * University of Victoria (Canada) used Go in the section on Concurrency as a part of [Programming Languages (CSC 330)](https://heat.csc.uvic.ca/coview/course/2017091/CSC330)
+
 # Distributed Computing
 
   * Distributed Computer Systems (CS 138) at Brown: http://cs.brown.edu/courses/cs138/s16/syllabus.html
