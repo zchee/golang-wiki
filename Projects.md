@@ -1629,6 +1629,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
   * [florest](https://github.com/jabong/florest-core) - High-performance workflow based REST API framework in Go
   * [forgery](http://goforgery.appspot.com/) - A clone of the superb Node.js web framework Express.
+  * [gramework](https://github.com/gramework/gramework) - The *truly* fastest web framework for Go. Battle tested, highly effective baseline for your web apps.
   * [Gin Web Framework](https://github.com/gin-gonic/gin) - Martini-like API and httprouter gives it good performance.
   * [Goal](https://github.com/colegion/goal) - A toolkit for high productivity web development in Go language built around the concept of code generation.
   * [Go-Blog](https://github.com/matt-west/go-blog) - Blog framework written in Go
