@@ -46,17 +46,9 @@ Unassigned issues are considered available for anyone to address.
 # Milestones
 Milestones describe the timeline for issue resolution.
 
-- Go1.x.yEarly
-
-    Must be fixed first for release 1.x.y, either because the issue is complicated and the fix needs time to bake, or because the issue is high priority.
-
 - Go1.x.y
 
-    Must be fixed for release 1.x.y.
-
-- Go1.x.yMaybe
-
-    Might be fixed for release 1.x.y.
+    Must be fixed for release 1.x.y, or explicitly postponed to a later release.
 
 - Proposal
 
