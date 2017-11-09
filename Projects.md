@@ -952,6 +952,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [go-mind](https://github.com/stevenmiller888/go-mind) - A neural network library built in Go
   * [Anna](https://github.com/xh3b4sd/anna) - Artificial Neural Network Aspiration, aims to be self-learning and self-improving software.
+  * [Dialex](https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go) - Dialex is a smart pipe that unscrambles text and makes it machine-readable.
 
 ## Mathematics
 
