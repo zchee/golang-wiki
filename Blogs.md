@@ -25,6 +25,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Johan Brandhorst's Golang Blog](https://jbrandhorst.com)
 * [Christoph Berger's Applied Go Blog](https://appliedgo.net)
 * [Jon Calhoun's Blog](https://www.calhoun.io/)
+* [Inanc Gumus's Learn Go Programming Blog](https://blog.learngoprogramming.com)
 
 ## Portuguese
 
