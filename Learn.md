@@ -20,6 +20,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 * [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
 * [Master Go](https://appliedgo.com/p/mastergo/) - A paid online video course on Go for developers
 * [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
+* [Learn Go Programming](https://blog.learngoprogramming.com) - Weekly visual and concise tutorials for programming in Go.
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
