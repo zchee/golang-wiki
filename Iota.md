@@ -32,6 +32,10 @@ const (
 )
 ```
 
+Weekday enum example - How iota is calculated - From [Learn Go Programming Blog](https://blog.learngoprogramming.com):
+
+![How iota works](https://cdn-images-1.medium.com/max/2000/1*sfAHT3zk-WjxSDRIDMpdaA.gif)
+
 # Articles
 
 * [Ultimate Visual Guide to Go Enums and Iota](https://blog.learngoprogramming.com/golang-const-type-enums-iota-bc4befd096d3) _2017-10-09_
