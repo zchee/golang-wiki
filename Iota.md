@@ -31,3 +31,7 @@ const (
 	YB
 )
 ```
+
+# Articles
+
+* [Ultimate Visual Guide to Go Enums and Iota](https://blog.learngoprogramming.com/golang-const-type-enums-iota-bc4befd096d3) _2017-10-09_
