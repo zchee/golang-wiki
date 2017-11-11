@@ -56,6 +56,15 @@ Table of Contents
   * [What I Love About Go](http://npf.io/2013/01/what-i-love-about-go) _2013-01-25_
   * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
   * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
+  * [About Go Language — An Overview](https://blog.learngoprogramming.com/about-go-language-an-overview-f0bee143597c) _2017-09-20_
+  * [Introduction to Go Packages](https://blog.learngoprogramming.com/definitive-guide-to-go-packages-focus-on-the-fundamentals-to-empower-your-skills-d14aae7cd321) _2017-09-26_
+  * [Learn Go Variables](https://blog.learngoprogramming.com/learn-go-lang-variables-visual-tutorial-and-ebook-9a061d29babe) _2017-10-04_
+  * [Learn Go Constants](https://blog.learngoprogramming.com/learn-golang-typed-untyped-constants-70b4df443b61) _2017-10-10_
+  * [Ultimate Visual Guide to Go Enums](https://blog.learngoprogramming.com/golang-const-type-enums-iota-
+bc4befd096d3) _2017-10-19_
+  * [Go Funcs-Baby Gopher's Visual Guide](https://blog.learngoprogramming.com/golang-funcs-params-named-result-values-types-pass-by-value-67f4374d9c0a) _2017-10-27_
+  * [Ultimate Guide to Go Variadic Functions](https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085) _2017-11-02_
+  * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-10-09_
 
 ## Concurrency / Channels
 
@@ -79,7 +88,7 @@ Table of Contents
   * [Joining the Docker Ship and Go](http://thenewstack.io/make-a-restful-json-api-go/) _2015-07-01_
   * [Building Minimal Docker Images for Go](http://blog.codeship.com/building-minimal-docker-containers-for-go-applications/) _2015-04-23_
 
-## Cross Platform Development
+## Cross-Platform Development
   * [Releasing cross-platform Go binaries using Goxc and BinTray in 5 minutes](http://jbu.io/2015/11/29/releasing-cross-platform-go-binaries-using-goxc-and-bintray-in-5-minutes/) _2015-11-29_
   * [Calling Go from Swift](https://rakyll.org/swift/) _2015-10-3_
   * [On Go, portability, and system interfaces](http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html) _2015-09-22_
