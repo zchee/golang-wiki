@@ -1,1 +1,0 @@
-Please see [Setting GOPATH](https://github.com/golang/go/wiki/Setting-GOPATH)
