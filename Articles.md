@@ -34,6 +34,14 @@ Table of Contents
 
 
 ## General
+  * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-10-09_
+  * [Ultimate Guide to Go Variadic Functions](https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085) _2017-11-02_
+  * [Go Funcs-Baby Gopher's Visual Guide](https://blog.learngoprogramming.com/golang-funcs-params-named-result-values-types-pass-by-value-67f4374d9c0a) _2017-10-27_
+  * [Ultimate Visual Guide to Go Enums](https://blog.learngoprogramming.com/golang-const-type-enums-iota-bc4befd096d3) _2017-10-19_
+  * [Learn Go Constants](https://blog.learngoprogramming.com/learn-golang-typed-untyped-constants-70b4df443b61) _2017-10-10_
+  * [Learn Go Variables](https://blog.learngoprogramming.com/learn-go-lang-variables-visual-tutorial-and-ebook-9a061d29babe) _2017-10-04_
+  * [Introduction to Go Packages](https://blog.learngoprogramming.com/definitive-guide-to-go-packages-focus-on-the-fundamentals-to-empower-your-skills-d14aae7cd321) _2017-09-26_
+  * [About Go Language — An Overview](https://blog.learngoprogramming.com/about-go-language-an-overview-f0bee143597c) _2017-09-20_
   * [Debugging code generation in Go](https://rakyll.org/codegen/) _2016-10-15_
   * [Go tooling essentials](https://rakyll.org/go-tool-flags/) _2016-09-25_
   * [Go from PHP engineer's perspective](http://sobit.me/2016/02/25/go-from-php-engineers-perspective/) _2016-02-25_
@@ -49,21 +57,13 @@ Table of Contents
   * [Structuring Applications in Go](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.kj6eym1u4) _2014-06-06_
   * [Functional Options for Friendly APIs](http://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis) _2014-10-17_
   * [Go Programming for Beginners](http://thenewstack.io/the-new-stack-intros-go-programming-for-beginners/) _2014-10-01_
+  * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
+  * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
+  * [What I Love About Go](http://npf.io/2013/01/what-i-love-about-go) _2013-01-25_
+  * [Why I program in Go](http://tech.t9i.in/2013/01/why-program-in-go/) _2013-01-05_
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js) _2012-09-14_
-  * [Why I program in Go](http://tech.t9i.in/2013/01/why-program-in-go/) _2013-01-05_
-  * [What I Love About Go](http://npf.io/2013/01/what-i-love-about-go) _2013-01-25_
-  * [Google Go: The Good, the Bad, and the Meh](http://blog.carlsensei.com/post/42828735125) _2013-02-10_
-  * [Switching from Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey) _2014-04-21_
-  * [About Go Language — An Overview](https://blog.learngoprogramming.com/about-go-language-an-overview-f0bee143597c) _2017-09-20_
-  * [Introduction to Go Packages](https://blog.learngoprogramming.com/definitive-guide-to-go-packages-focus-on-the-fundamentals-to-empower-your-skills-d14aae7cd321) _2017-09-26_
-  * [Learn Go Variables](https://blog.learngoprogramming.com/learn-go-lang-variables-visual-tutorial-and-ebook-9a061d29babe) _2017-10-04_
-  * [Learn Go Constants](https://blog.learngoprogramming.com/learn-golang-typed-untyped-constants-70b4df443b61) _2017-10-10_
-  * [Ultimate Visual Guide to Go Enums](https://blog.learngoprogramming.com/golang-const-type-enums-iota-bc4befd096d3) _2017-10-19_
-  * [Go Funcs-Baby Gopher's Visual Guide](https://blog.learngoprogramming.com/golang-funcs-params-named-result-values-types-pass-by-value-67f4374d9c0a) _2017-10-27_
-  * [Ultimate Guide to Go Variadic Functions](https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085) _2017-11-02_
-  * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-10-09_
 
 ## Concurrency / Channels
 
