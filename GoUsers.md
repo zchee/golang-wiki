@@ -697,8 +697,10 @@
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
  * [Husar Labs](http://www.husarlabs.com) - software development company
- * [RnDity](http://rndity.com) - software and hardware development company
+ * [RnDity](https://rndity.com) - software and hardware development company
  * [Grey Wizard](https://greywizard.com) - cybersecurity company
+ * [podioom](http://podioom.net) - With podioom we create bonds that support those who care and who want to stay in shape! 
+ * [beFOGG](http://befogg.mobi) - platform that will take tourism to the next level
 
 ## Portugal
   * [OLX](https://www.joinolx.com/)
