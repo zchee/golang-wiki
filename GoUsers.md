@@ -511,6 +511,7 @@
   * [Qwentic](http://www.qwentic.com) - A Golang specialized software development company
   * [Qwinix](https://www.qwinixtech.com/)
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
+  * [Saltside Technologies AB](http://www.saltside.se/)
   * [Siminars](http://siminars.com)
   * [Singulerp](https://singulerp.com)
   * [SoStronk](https://www.sostronk.com/)
