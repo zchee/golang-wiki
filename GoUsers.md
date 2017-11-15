@@ -595,7 +595,7 @@
   * [Yotpo](https://www.yotpo.com/) 
 
 ## Italy
-  * [Hastega](http://www.hastega.it) - ([github](https://github.com/tockins/realize)) -- Realize, the Go tool for speed up and improve the developers workflow
+  * [Realize](http://www.gorealize.com) - ([github](https://github.com/tockins/realize)) -- The Golang Task Runner
   * [Qurami](http://www.qurami.com) - [github](https://github.com/qurami)
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/photo.php?fbid=907728379283787)) -- Most popular mobile app for Italian trains schedules
 
