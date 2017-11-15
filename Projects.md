@@ -1619,6 +1619,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Frameworks and Toolkits
 
   * [aah](https://aahframework.org) - A scalable, performant, rapid development Web framework for Go.
+  * [Aero](https://github.com/aerogo/aero) - Fast and secure web server for Go.
   * [Air](https://github.com/sheng/air) - An ideal RESTful web framework for Go.
   * [alien](https://github.com/gernest/alien) - A lightweight and fast http router
   * [app.go](https://github.com/georgenava/appgo) - Web framework for google app engine
