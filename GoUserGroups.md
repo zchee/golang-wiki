@@ -7,6 +7,9 @@
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
 
 # Asia
+- Persia - Iran
+  * [Iran-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
+  * [Iran-gommunity](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
 
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
@@ -21,7 +24,6 @@
   * [GoJakarta](http://www.meetup.com/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
-  * [Iran-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
 
 # Europe
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
