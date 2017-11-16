@@ -7,10 +7,8 @@
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
 
 # Asia
-- Persia - Iran
-  * [Iran-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
-  * [Iran-gommunity](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
-
+  * [Iran(Persia)-golang](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran 
+  * [Iran(Persia)-gommunity](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
   * [GDG Korea Golang](https://plus.google.com/u/0/communities/115721275599816202991) - Korea.
