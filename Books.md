@@ -173,6 +173,13 @@ Sorted by publication date.
     * ISBN: 978-1787125643
     * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
 
+* **Web Development with Go: Learn to Create Real World Web Applications using Go**
+  * Author: Jonathan Calhoun
+  * Publication Date: June 2017
+  * ISBN: N/A (self published)
+  * Reference: [http://usegolang.com](http://usegolang.com)
+
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
@@ -186,12 +193,6 @@ Sorted by publication date.
     * Publication Date: Fall 2017 (estimated)
     * ISBN: 9781617293092
     * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
-
-  * **Web Development with Go: Learn to Create Real World Web Applications using Go**
-    * Author: Jonathan Calhoun
-    * Publication Date: Winter 2016 (estimated)
-    * ISBN: --
-    * Reference: [http://usegolang.com](http://usegolang.com)
 
   * **Go Systems Programming**
     * Author: Mihalis Tsoukalos
