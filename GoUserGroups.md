@@ -11,7 +11,7 @@
   * [goiran slack Iran](https://join.slack.com/t/goiran/shared_invite/enQtMjczOTMwNzY3NjM2LWQyNzMwM2QwOTBjMTBmZjZiNmRhODlmNTg2OGRiOTE0ZGQ1MmUyYzU1ZDY5MTBkOGY4NTU2NmUzYWNiZWVlYzY) - Iran
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
   * [gommunity Iran](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
-  * [golang Iran](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran
+  * [golang Iran](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Esfahan-Iran
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
