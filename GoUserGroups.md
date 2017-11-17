@@ -8,7 +8,7 @@
 
 # Asia
 - Persia
-  * [goslack Iran](...) - Iran
+  * [goiran Iran](https://goiran.slack.com) - Iran
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
   * [gommunity Iran](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
   * [golang Iran](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Iran
