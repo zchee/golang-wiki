@@ -14,6 +14,7 @@ Add new sections as appropriate.
 
 **Table of Contents**
 
+  - [App and Game Development](#app-and-game-development)
   - [Concurrency](#concurrency)
   - [Context](#context)
   - [Declarations](#declarations)
@@ -36,6 +37,10 @@ Add new sections as appropriate.
   - [Tooling](#tooling)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
+
+## App and Game Development
+
+  - Paul Ruest, "[Go Library Support for Apps and Games](https://gazed.github.io/goApps.html)", November 2017
 
 ## Concurrency
 
