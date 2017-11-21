@@ -161,6 +161,7 @@
   * [golang-nz](http://groups.google.com/group/golang-nz) - New Zealand.
   * [Melbourne-Go-Nuts](http://www.meetup.com/Melbourne-Go-Nuts) - Melbourne, Australia.
   * [Brisbane Gophers](http://www.meetup.com/Brisbane-Golang-Meetup/) - Brisbane, Australia.
+  * [Honolulu/Oahu Go Users](https://plus.google.com/communities/103024089946238586108)
 
 # South America
   * [Golang Brasil](https://www.meetup.com/pt-BR/golangbr/) - Brazil.
