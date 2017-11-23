@@ -349,6 +349,7 @@
 
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/) - Finding partners to practise speaking in English (Globally).
+  * [Tural Asgar](http://www.turalasgar.pro/) - Tural Asgar's personal blog.
 
 ## Australia
   * [Atlassian](http://atlassian.com/)
