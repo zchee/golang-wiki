@@ -52,7 +52,6 @@ An overview of tools that will help improve your Go code
   - [errcheck](https://github.com/kisielk/errcheck) - Ensure you check your error conditions.
   - [go vet](http://golang.org/cmd/vet/) - Read this first on how to use the `go vet` command.
   - [SafeSQL](https://github.com/stripe/safesql) - Protect against unsafe SQL in your code.
-  -
 
 ## Navigation
 
