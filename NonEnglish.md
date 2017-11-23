@@ -37,7 +37,6 @@ Some of this documentation may be out of date.
 ## Korean - 한국어
 
   * [A Tour of Go](http://go-tour-kr.appspot.com)
-  * [golang-korea](http://code.google.com/p/golang-korea) - Go documentation and news.
   * [golang-kr wiki](http://github.com/golang-kr/golang-doc/wiki) - Korean Translation of golang.org/doc
 
 ## Russian - русский язык
