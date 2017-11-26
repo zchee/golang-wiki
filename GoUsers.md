@@ -346,6 +346,7 @@
   * [ZITEC](http://www.zitec.de)
   * [Zumba](https://www.zumba.com) - [github](https://github.com/zumba)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
+  * [Tipe](https://tipe.io) - [github](https://github.com/tipeio)
 
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/) - Finding partners to practise speaking in English (Globally).
