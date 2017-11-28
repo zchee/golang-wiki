@@ -99,6 +99,7 @@ Add new sections as appropriate.
 
 ## Generics
 
+  - “[Summary of Go Generics Discussions (living document)](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit).”
   - Bouke van der Bijl, “[Idiomatic Generics in Go](https://web.archive.org/web/20141001043016/http://bouk.co/blog/idiomatic-generics-in-go/),” September 2014.
   - Craig Weber, “[Living without generics in Go](https://web.archive.org/web/20141227092139/http://www.weberc2.com/posts/2014/12/12/living-without-generics.txt),” December 2014.
   - Shashank Sharma, “[Poor man's generics in Golang (Go)](https://codeblog.shank.in/poor-mans-generics-in-golang/),” May 2016.
