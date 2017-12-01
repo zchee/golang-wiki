@@ -527,6 +527,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
   * [lore](https://github.com/abrahambotros/lore) - Simple and lightweight pseudo-ORM/pseudo-struct-mapping environment for Go.
   * [qbs](https://github.com/coocood/qbs) - Query By Struct. Supports MySQL, PostgreSQL and SQLite3.
+  * [sqlboiler](https://github.com/volatiletech/sqlboiler) - Database-first ORM via code generation.
   * [sqlgen](https://github.com/drone/sqlgen) - Go code generation for SQL interaction.
   * [structable](https://github.com/Masterminds/structable) - Struct-to-table database mapper.
   * [xorm](https://github.com/go-xorm/xorm) - Simple and Powerful ORM for Go.
