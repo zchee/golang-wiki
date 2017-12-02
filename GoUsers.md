@@ -499,7 +499,7 @@
   * [Company 0](https://www.companyzero.com/)
   * [Ducument.com Project Management Tool](https://ducument.com)
   * [CoderCV.com Freelancer Marketplace](https://codercv.com)
-  * [Examattitude](https://examattitude.com/)
+  * [Exam attitude](https://examattitude.com/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
   * [GeekTrust](http://geektrust.in/)
