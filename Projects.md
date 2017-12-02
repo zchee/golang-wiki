@@ -491,6 +491,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pgx](https://github.com/JackC/pgx) - Go PostgreSQL driver that is compatible with database/sql and has native interface for more performance and features
   * [pq](https://github.com/lib/pq) - Pure Go PostgreSQL driver for database/sql
   * [yoke](https://github.com/nanopack/yoke) - Postgres high-availability cluster with auto-failover and automated cluster recovery
+  * [kallax](https://github.com/src-d/go-kallax) - PostgreSQL typesafe ORM
 
 ### QL
 
