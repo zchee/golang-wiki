@@ -16,6 +16,7 @@ Add new sections as appropriate.
 
   - [App and Game Development](#app-and-game-development)
   - [Concurrency](#concurrency)
+  - [Casting](#casting)
   - [Context](#context)
   - [Declarations](#declarations)
   - [Dependencies](#dependencies)
@@ -41,6 +42,9 @@ Add new sections as appropriate.
 ## App and Game Development
 
   - Paul Ruest, "[Go Library Support for Apps and Games](https://gazed.github.io/goApps.html)", November 2017
+
+## Casting
+  - Richard Warburton, "[Should Go Casting be permitted when underlying data structures are the same?](https://gist.github.com/krolaw/f010ab0966fd379725ecc48e8bbcac1c)", December 2017
 
 ## Concurrency
 
