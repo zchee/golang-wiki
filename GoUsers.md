@@ -425,6 +425,7 @@
   * [Tencent Thailand](https://developers.tencent.co.th/)
   * [TRUE](http://truemoveh.truecorp.co.th/)
   * [Zanroo](https://www.zanroo.com/)
+  * [SPRINT3r](http://sprint3r.com/)
 
 ## Turkey
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
