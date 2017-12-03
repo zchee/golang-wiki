@@ -415,6 +415,7 @@
   * [Ricardo](https://www.ricardo.ch/)
   
 ## Thailand
+  * [Appsynth Asia](https://appsynth.net/)
   * [AIS](http://www.ais.co.th/)  
   * [Computerlogy](https://computerlogy.com/)
   * [DTAC](http://www.dtac.co.th/)
