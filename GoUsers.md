@@ -416,12 +416,15 @@
   
 ## Thailand
   * [AIS](http://www.ais.co.th/)  
+  * [Computerlogy](https://computerlogy.com/)
   * [DTAC](http://www.dtac.co.th/)
   * [Donuts Bangkok](http://www.donuts-bkk.com/)  
   * [Insightera](https://www.insightera.co.th/)
-  * [TRUE](http://truemoveh.truecorp.co.th/)
-  * [Tencent Thailand](https://developers.tencent.co.th/)
   * [KBTG](http://www.kbtg.tech)
+  * [ThothZocial](https://thothzocial.com/)
+  * [Tencent Thailand](https://developers.tencent.co.th/)
+  * [TRUE](http://truemoveh.truecorp.co.th/)
+  * [Zanroo](https://www.zanroo.com/)
 
 ## Turkey
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
