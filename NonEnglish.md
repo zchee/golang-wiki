@@ -49,7 +49,7 @@ Some of this documentation may be out of date.
 
 ## Turkish - Türkçe
 
-  * [A Tour of Go](http://tur.a.golang.org.tr/)
+  * [A Tour of Go](https://go-tour-turkish.appspot.com)
 
 ## Vietnamese - Tiếng Việt
 
