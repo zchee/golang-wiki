@@ -62,6 +62,7 @@
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
+  * [VivaReal](http://www.vivareal.com.br) - [github](https://github.com/VivaReal)
   * [Walmart](http://www.walmart.com.br)
 
 ## Belgium
