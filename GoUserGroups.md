@@ -12,6 +12,7 @@
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
   * [gommunity Iran](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
   * [golang Iran](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Esfahan-Iran
+  * [Iran Go Users Group](https://irangug.org) - Iran
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
