@@ -112,6 +112,7 @@
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
   * [Fabriks](https://fabriks.net)
+  * [Heetch](https://heetch.com) - [github](https://github.com/heetch)
   * [IoThings](https://iothings.fr)
   * [IRI France](http://www.iri-labs.com)
   * [Objenious](http://www.objenious.com)
