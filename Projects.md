@@ -266,6 +266,7 @@ If you find a project in this list that is dead or broken, please either mark it
     * [toml-go](http://github.com/laurent22/toml-go) - An easy-to-use Go parser for the Toml format
     * [toml](http://github.com/BurntSushi/toml) - TOML parser for Go with reflection
     * [tom-toml](https://github.com/achun/tom-toml) - TOML parser for Go, support comments/formatter/apply.
+  * [uConfig](https://github.com/omeid/uconfig) - an unopinionated, extendable and plugable configuration management. Supports YAML, TOML, JSON, Env vars, K8s DAPI, et al.
   * [viper](http://github.com/spf13/viper) - a complete configuration solution supporting YAML, TOML & JSON and integration with command line flags
   * yaml:
     * [yaml](http://github.com/go-yaml/yaml) - YAML support for the Go language, by Canonical
