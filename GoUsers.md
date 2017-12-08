@@ -294,6 +294,7 @@
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
+  * [Fringe81](http://www.fringe81.com/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
