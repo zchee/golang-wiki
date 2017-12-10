@@ -389,6 +389,7 @@
   * [Pocketmath](http://www.pocketmath.com/)
   * [Singapore Power](https://www.spgroup.com.sg/)
   * [Tokopedia](https://www.tokopedia.com/)
+  * [TablePlus](https://https://tableplus.io/)
 
 ## Spain
   * [alea soluciones](https://github.com/aleasoluciones/)
