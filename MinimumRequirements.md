@@ -12,9 +12,7 @@ For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](h
 
 ### Windows
 
-Windows XP (w/ Service Pack 2) or higher. But we don't currently (2016-09-23) have a Windows XP running. That is https://github.com/golang/go/issues/10267
-
-We run builders testing Go on Windows Server 2008 R2 Datacenter Edition. That is basically Windows 7 or above.
+Windows XP (w/ Service Pack 3) or higher. We also test Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8, and Windows 10.
 
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
