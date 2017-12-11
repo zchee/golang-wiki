@@ -90,6 +90,7 @@
   * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
   * [Yeeuu](https://www.yeeuu.com/)
+  * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
