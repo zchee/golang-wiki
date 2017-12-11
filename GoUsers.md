@@ -265,7 +265,7 @@
   * [DeNA Co.,Ltd.](https://dena.com)
   * [eureka](https://eure.jp)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
-  * [Flatt](https://flatt.tv/)
+  * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [Gunosy Inc.](https://gunosy.co.jp/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
