@@ -9,6 +9,7 @@ Please keep all items in chronological order.
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
 | GopherCon India 2018 | 2018-03-9-10 | Pune, India | http://www.gophercon.in/ |
+| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
 
 ## Archives
