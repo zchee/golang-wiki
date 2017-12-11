@@ -22,7 +22,7 @@ To request this access, reference https://go-review.googlesource.com/#/admin/gro
 
 # Requesting Access
 
-To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://github.com/golang/go/wiki/GerritAccess) and list and state which access you want (its name and group URL), and state your Gerrit email address.
+To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://golang.org/wiki/GerritAccess) and list and state which access you want (its name and group URL), and state your Gerrit email address.
 
 ## Once you have access
 
