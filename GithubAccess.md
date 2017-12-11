@@ -20,7 +20,7 @@ Please do not edit any field you're not confident about. Feel free to ask for se
 
 ## Requesting Access
 
-To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://github.com/golang/go/wiki/GerritAccess) and list and state which access you want (its name and group URL).
+To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://golang.org/wiki/GithubAccess) and list and state which access you want (its name and group URL).
 
 ## Once you have access
 
