@@ -179,11 +179,11 @@ Sorted by publication date.
   * ISBN: N/A (self published)
   * Reference: [http://usegolang.com](http://usegolang.com)
 
-  * **Learning Functional Programming in Go**
-    * Author: Lex Sheehan
-    * Publication Date: November 2017
-    * ISBN: 978-1787281394
-    * Reference: https://www.packtpub.com/application-development/learning-functional-programming-go
+* **Learning Functional Programming in Go**
+  * Author: Lex Sheehan
+  * Publication Date: November 2017
+  * ISBN: 978-1787281394
+  * Reference: https://www.packtpub.com/application-development/learning-functional-programming-go
 
 
 ## Early Access
