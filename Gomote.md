@@ -90,3 +90,12 @@ $ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' user-bradfi
 $ tar -C ~/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
 $ gomote run -e 'GOPATH=c:/workdir/gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
 ```
+
+### Subrepos on Unix
+
+Testing golang.org/x/sys/unix on $MOTE
+
+```
+$ tar -C $GOPATH/src/ -zc golang.org/x/sys/unix | gomote puttar -dir=gopath/src $MOTE
+$ gomote run -e 'GOPATH=/tmp/workdir/gopath' $MOTE go/bin/go test -v golang.org/x/sys/unix
+```
