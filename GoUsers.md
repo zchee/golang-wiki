@@ -73,6 +73,7 @@
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
 
 ## Canada
+  * [Apex](https://apex.sh/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Koho](https://www.koho.ca/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
