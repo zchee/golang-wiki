@@ -470,6 +470,7 @@
   * [Weaveworks](http://weave.works)
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [YouView TV Ltd](http://www.youview.com)
+  * [Ernest.io](http://ernest.io)
 
 ## United States
 
