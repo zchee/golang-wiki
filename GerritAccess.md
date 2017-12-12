@@ -12,13 +12,13 @@ Rules for voting +2 on changes: only +2 things that you're very confident in, an
 
 Rules for submitting changes: if a change touches an area that you own, you can submit any changes after a +2. But elsewhere only submit your own changes after receiving a +2 from the owner of that area.
 
-To request this access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your email. See below.
+To request this access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
 ## Trybot Access ("may-start-trybots")
 
 Trybot access lets you kick off a trybot run, testing a CL in Gerrit against the most common builders. The Trybots run in a somewhat-secure and somewhat-isolated environment, but they're not perfectly security hardened. You must skim the CL for anything malicious before starting Trybots.
 
-To request this access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your email. See below
+To request this access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See below.
 
 # Requesting Access
 
