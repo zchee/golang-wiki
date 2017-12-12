@@ -16,7 +16,7 @@
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
-  * [GDG Korea Golang](https://plus.google.com/u/0/communities/115721275599816202991) - Korea.
+  * [Golang Korea](https://www.facebook.com/groups/golangko/about/) - Korea.
   * [Golang Vietnam](https://www.facebook.com/golang.org.vn) - [github](https://github.com/golang-vietnam) -  Vietnam
   * [Golang Taiwan](http://golang.tw) - Taiwan.
   * [Golang India](https://plus.google.com/communities/102083447604771785504) - Bangalore, India.
