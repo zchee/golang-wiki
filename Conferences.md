@@ -8,9 +8,11 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| GopherCon India 2018 | 2018-03-9-10 | Pune, India | http://www.gophercon.in/ |
+| Go Devroom FOSDEM | 2017-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
+| GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
+| dotGo | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
 
 ## Archives
 
@@ -28,11 +30,11 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | GoCon Tokyo | 2017-03-25 | Tokyo, Japan |https://gocon.connpass.com/event/52441/ |
 | GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ 
-| Go Devroom FOSDEM | 2017-02-05 |Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
+| Go Devroom FOSDEM | 2017-02-05 | Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | | **2016** | | | |
 | GothamGo | 2016-11-18 | New York, USA | http://gothamgo.com/ |
-|GopherCon Brasil | 2016-11-04-05 | Florianópolis, Brazil | https://2016.gopherconbr.org/en/ |
+| GopherCon Brasil | 2016-11-04-05 | Florianópolis, Brazil | https://2016.gopherconbr.org/en/ |
 | dotGo | 2016-10-10 | Paris, France | http://2016.dotgo.eu |
 | Golang UK | 2016-08-18 | London, UK | http://golanguk.com |
 | GopherCon Denver | 2016-07-11 | Denver, CO | http://gophercon.com |
