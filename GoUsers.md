@@ -127,7 +127,7 @@
   * [Fraugster](https://fraugster.com/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
-  * [HolidaCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog](http://techblog.holidaycheck.com/)
+  * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog](http://techblog.holidaycheck.com/)
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [loodse](https://loodse.com/)
