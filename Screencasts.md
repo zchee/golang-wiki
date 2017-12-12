@@ -160,3 +160,12 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/advanced-solutions-go-%E2%80%93-testing-and-distributed-systems-video)]
 
 ***
+  * **Go Standard Library Solutions (Video)**
+    * Author: Johnny Boursiquot
+    * Publication Date: November 2017
+    * ISBN: 978-1788474160
+    * Reference: https://www.packtpub.com/application-development/go-standard-library-solutions-video
+    
+[[video](https://www.packtpub.com/application-development/go-standard-library-solutions-video)]
+
+***
