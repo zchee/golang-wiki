@@ -8,7 +8,7 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website |
 |-------|-----------|----------|------------|
-| Go Devroom FOSDEM | 2017-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
+| Go Devroom FOSDEM | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
