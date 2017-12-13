@@ -359,6 +359,7 @@
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
+ * [HolidayCheck](https://www.holidaycheck.pl/)
  * [Husar Labs](http://www.husarlabs.com) - software development company
  * [RnDity](https://rndity.com) - software and hardware development company
  * [Grey Wizard](https://greywizard.com) - cybersecurity company
@@ -420,6 +421,7 @@
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
   * [Centralway Numbrs AG](https://www.centralway.com/en/)
+  * [HolidayCheck](https://www.holidaycheck.ch/)
   * [Perron2 GmbH](http://www.perron2.ch)
   * [Proton Technologies AG](https://protonmail.com)
   * [Ricardo](https://www.ricardo.ch/)
