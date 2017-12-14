@@ -719,6 +719,7 @@
   * [Pronovix](http://pronovix.com) - [blog](http://pronovix.com/blog/walkhub-walkthrough-microservice-written-go-no-longer-drupal-distribution), [github](https://github.com/Pronovix), [product](http://pronovix.com/walkhub)
   * [Public Good Corp](https://publicgood.com/) - [meetup](http://www.meetup.com/ChicaGoLang/events/222224696/)
   * [Rackspace](http://www.rackspace.com) - [github](https://github.com/rackspace/rack)
+  * [RailsCarma](https://www.railscarma.com)
   * [Raintank](http://www.raintank.io/) - [blog](https://blog.raintank.io/where-and-why-we-use-go/)
   * [Rakuten Marketing](http://marketing.rakuten.com)
   * [Recime](https://recime.io)
