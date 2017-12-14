@@ -31,7 +31,7 @@ go func() {
       case throttle <- t:
       default:
     }
-  }  // exits after tick.Stop()
+  }  // does not exit after tick.Stop()
 }()
 for req := range requests {
   <-throttle  // rate limit our Service.Method RPCs
