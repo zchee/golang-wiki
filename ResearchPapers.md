@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2017
+- Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
+  - [DOI: 10.1109/TRPMS.2017.2780447](https://doi.org/10.1109/TRPMS.2017.2780447)
+  - Monitoring system + parts of the DAQ in Go
+  - Keywords: Detectors, Particle beams, Protons, Ions, Plasmas, Structural beams, Monitoring
 - Let's Go: a Data-Driven Multi-Threading Support (Alberto Scionti,Somnath Mazumdar) CF'17 Proceedings of the Computing Frontiers Conference 
   - [doi.org/10.1145/3075564.3075596](https://doi.org/10.1145/3075564.3075596)  _"... This paper proposes a first attempt to map goroutines on a data-driven based PXM. ..."_
   - Keywords:  Data-driven, Programming language, Multi-threading
