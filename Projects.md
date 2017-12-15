@@ -910,6 +910,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
   * [nlp](https://github.com/james-bowman/nlp) - Go Natural Language Processing library supporting LSA (Latent Semantic Analysis).
   * [sego](https://github.com/huichen/sego) - Chinese language segmenter.
+  * [snowball](https://github.com/kljensen/snowball) - Snowball stemmers for multiple languages
   * [textcat](https://github.com/pebbe/textcat) - N-gram based text categorization, with support for utf-8 and raw text
 
 ## Logging and Monitoring
