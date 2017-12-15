@@ -148,6 +148,7 @@
 
 ## India
   * [AirCTO](https://aircto.com)
+  * [AmberStudent](https://amberstudent.com)
   * [Betacraft](http://www.betacraft.co/)
   * [BookMyShow](http://www.bookmyshow.com/)
   * [C42 Engineering](http://c42.in/)
