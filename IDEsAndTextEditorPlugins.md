@@ -17,10 +17,10 @@
   * **[Geany](http://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://github.com/rogpeppe/godef)**: Prints the source location of definitions in Go programs. Integrates with acme, emacs, vim and SublimeText.
-  * **[GoLand](https://www.jetbrains.com/go/)**: Jetbrains Golang IDE 
+  * **[GoLand](https://www.jetbrains.com/go/)**: Jetbrains Golang IDE (commercial) 
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE, [free Community Edition available](http://www.jetbrains.com/idea/download/index.html). [Open-Source plugin for Go](https://plugins.jetbrains.com/plugin/?id=5047) support available. All derivative platforms of IntelliJ (PyCharm, PhpStorm et al.) are supported. Nightly / alpha builds available at [plugin repository](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
+  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE. 
   * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](https://www.activestate.com/komodo-ide)** Powerful cross-platform IDE with built-in Go support
