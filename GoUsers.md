@@ -6,7 +6,7 @@
 
 ## Australia
   * [Atlassian](http://atlassian.com/)
-  * [BCZ] (http://bcz.com/) - Human captcha verification with spam protection.
+  * [BCZ](http://bcz.com/) - Human captcha verification with spam protection.
   * [Buildkite](https://buildkite.com/) - [github](https://github.com/buildkite/agent)
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
