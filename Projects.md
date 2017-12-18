@@ -1141,6 +1141,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hostsfile](https://github.com/jaytaylor/go-hostsfile) - /etc/hostsfile reverse lookup IP => names
   * [dnss](https://github.com/albertito/dnss) - DNS secure proxy, supports DNS over HTTPS and GRPC
   * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not.
+  * [dns](https://github.com/benburkert/dns) - client and server implementations in Go
 
 ### FTP
   * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
