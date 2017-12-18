@@ -6,6 +6,7 @@
 
 ## Australia
   * [Atlassian](http://atlassian.com/)
+  * [BCZ] (http://bcz.com/) - Human captcha verification with spam protection.
   * [Buildkite](https://buildkite.com/) - [github](https://github.com/buildkite/agent)
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
@@ -384,6 +385,9 @@
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
+
+## Singapore
+* [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
