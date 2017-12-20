@@ -1,1 +1,0 @@
-See https://github.com/golang/go/wiki#contributing. If you have a question, please take a look at https://github.com/golang/go/wiki/Questions and don't use WiKi for such purpose.
