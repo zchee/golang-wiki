@@ -1,5 +1,1 @@
-we have a lot of video self-hosted on subdomain like this : https://dl.3dmaxfarsi.ir/video.mp4
-
-i tried yoast seo video plugin for wordpress, but it can not detect my self-hosted videos!
-
-Anybody have any Idea?
+See https://github.com/golang/go/wiki#contributing. If you have a question, please take a look at https://github.com/golang/go/wiki/Questions and don't use WiKi for such purpose.
