@@ -126,12 +126,12 @@ Add new sections as appropriate.
 code generation to avoid this [#70](https://github.com/go-kit/kit/issues/70) [#308](https://github.com/go-kit/kit/pull/308) [protoc-gen-gokit](https://github.com/AmandaCameron/protoc-gen-gokit) , but it looks like
 a complex solution for the problem. 
  - Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
- - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is set of statically type safe, immutable/persistent, collections. November 2017
+ - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
  - Sindre Myren "[Go 2.0: Retain simplicity by trading features](https://medium.com/@smyrman/go-2-0-retain-simplicity-by-trading-features-b310b60862ea)" July 2017
- - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is set of statically type safe, immutable/persistent, collections. November 2017
+ - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
 
 ## Inter Process Communication
   - Pablo R. Larraondo "[A Go interprocess communication model](https://gist.github.com/prl900/a7aaa41707e2236592da5e78d8a10dc9)," August 2017
