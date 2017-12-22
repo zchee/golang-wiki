@@ -459,6 +459,7 @@
 
 
 ## Ukraine
+  * [Agilites](https://agilites.com)
   * [ElifTech](http://www.eliftech.com)
 
 ## United Kingdom
