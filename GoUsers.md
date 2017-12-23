@@ -96,6 +96,7 @@
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
   * [OPPO](https://www.oppo.com)
   * [MegaEase](http://www.megaease.com/)
+  * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
