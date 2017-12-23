@@ -93,6 +93,7 @@
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
+  * [OPPO](https://www.oppo.com)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
