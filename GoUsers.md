@@ -97,6 +97,7 @@
   * [OPPO](https://www.oppo.com)
   * [MegaEase](http://www.megaease.com/)
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
+  * [ByteDance](https://www.bytedance.com)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
