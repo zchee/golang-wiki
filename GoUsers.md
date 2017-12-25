@@ -98,6 +98,7 @@
   * [MegaEase](http://www.megaease.com/)
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [ByteDance](https://www.bytedance.com)
+  * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
