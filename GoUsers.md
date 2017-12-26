@@ -101,7 +101,7 @@
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
   * [EasyAR](https://www.easyar.com/)
   * [Feiyu](http://www.feiyu.com/)
-
+  * [Kidswant](https://www.haiziwang.com/)
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
