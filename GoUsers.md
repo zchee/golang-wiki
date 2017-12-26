@@ -99,6 +99,7 @@
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [ByteDance](https://www.bytedance.com)
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
+  * [EasyAR](https://www.easyar.com/)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
