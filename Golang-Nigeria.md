@@ -1,1 +1,0 @@
-It's better to add a new entry into the existing https://github.com/golang/go/wiki/GoUserGroups.
