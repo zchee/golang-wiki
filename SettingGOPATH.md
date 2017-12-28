@@ -53,3 +53,8 @@ Note that `GOPATH` must not be the same path as your Go installation.
 * Type `GOPATH` into the "Variable name" field.
 * Type `C:\work` into the "Variable value" field.
 * Click OK.
+
+## Windows 10
+There is a faster way to edit `Environment Variables` with search
+* Left click on "Search" and type `env` or `environment`. select `Edit environment variables for your account`
+* and follow step above
