@@ -31,9 +31,9 @@ Drivers for Go's sql package include:
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
   * **Postgres** (pure Go): https://github.com/jackc/pgx
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
-  * **SQLite**: https://github.com/mattn/go-sqlite3 ` [*] `
-  * **SQLite**: https://github.com/gwenn/gosqlite - Supports SQLite dynamic data typing
-  * **SQLite**:  https://github.com/mxk/go-sqlite
+  * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
+  * **SQLite** (uses cgo): https://github.com/gwenn/gosqlite - Supports SQLite dynamic data typing
+  * **SQLite** (uses cgo):  https://github.com/mxk/go-sqlite
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
   * **Vitess**: https://godoc.org/github.com/youtube/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
