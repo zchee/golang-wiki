@@ -103,6 +103,7 @@
   * [Feiyu](http://www.feiyu.com/)
   * [Kidswant](https://www.haiziwang.com/)
   * [Xunlei](http://www.xunlei.com/)
+  * [FutureBots](http://www.futurebots.cn/)
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
