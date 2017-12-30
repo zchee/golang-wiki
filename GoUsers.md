@@ -779,6 +779,7 @@
   * [Showyou](http://www.showyou.com) [source](https://plus.google.com/101522949595361604155/posts/8n4CSePMwgV)
   * [Shutterfly](http://www.shutterfly.com)
   * [SignalFx](https://signalfx.com/) - [blog](http://blog.signalfx.com/why-the-signalfx-metric-proxy-is-written-in-go)
+  * [Slack](https://slack.com) - [blog](https://slack.engineering/scaling-slacks-job-queue-687222e9d100)
   * [SmartyStreets](http://smartystreets.com) - [github](https://github.com/smartystreets), [blog](https://smartystreets.com/blog)
   * [SmugMug](http://www.smugmug.com/) - [blog](http://sorcery.smugmug.com/2012/04/06/deriving-json-types-in-go/)
   * [Skimlinks](http://www.skimlinks.com) [blog](https://speakerdeck.com/rjohnsondev/go-at-skimlinks)
