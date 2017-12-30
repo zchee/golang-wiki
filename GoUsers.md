@@ -87,23 +87,24 @@
   * [Prey](https://preyproject.com) - [blog](https://preyproject.com/blog) - [github](https://github.com/prey)
   * [Webdox](http://www.webdox.cl)
  
-## China   
+## China
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
-  * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
-  * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
-  * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
-  * [Yeeuu](https://www.yeeuu.com/)
-  * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
-  * [OPPO](https://www.oppo.com)
-  * [MegaEase](http://www.megaease.com/)
-  * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [ByteDance](https://www.bytedance.com)
-  * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
+  * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [EasyAR](https://www.easyar.com/)
   * [Feiyu](http://www.feiyu.com/)
-  * [Kidswant](https://www.haiziwang.com/)
-  * [Xunlei](http://www.xunlei.com/)
   * [FutureBots](http://www.futurebots.cn/)
+  * [Kidswant](https://www.haiziwang.com/)
+  * [MegaEase](http://www.megaease.com/)
+  * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
+  * [OPPO](https://www.oppo.com)
+  * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+  * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
+  * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
+  * [Xunlei](http://www.xunlei.com/)
+  * [Yeeuu](https://www.yeeuu.com/)
+  * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
+
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
@@ -770,7 +771,8 @@
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [SecurityScorecard](https://securityscorecard.com/) - [github](https://github.com/securityscorecard) [blog](http://blog.securityscorecard.com)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
-  * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
+  * [SendGrid](http://sendgrid.comel of the Go Gopher mascot. We ￼ Go.
+/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
   * [SendHub](https://www.sendhub.com/) - [source (shipbuilder PaaS)](http://shipbuilder.io/)
   * [SessionM](https://www.sessionm.com) - [HN](https://news.ycombinator.com/item?id=10659861)
   * [Shopify](http://www.shopify.com) [tweet](https://twitter.com/burkelibbey/status/312328030670450688)
