@@ -11,6 +11,7 @@ Commercial providers of Go training
 * [Pluralsight.com](http://www.pluralsight.com/tag/golang) - Offers 5 classes at beginner and advanced levels.
 * [Master Go](https://appliedgo.com/p/mastergo/) - A paid online video course on Go for developers
 * [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
+* [Golang tutorial](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
 
 ## Classroom and In-Person
 
