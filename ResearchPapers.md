@@ -1,4 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
+## 2018
+- A Static Verification Framework for Message Passing in Go using Behavioural Types (J. Lange, N. Ng, B. Toninho, N. Yoshida)
+  - [accepted draft](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf) at [ICSE 2018](https://www.icse2018.org/track/icse-2018-Technical-Papers)
+  - [Tool page](http://mrg.doc.ic.ac.uk/tools/godel-checker/), sources: [godel-checker](https://bitbucket.org/MobilityReadingGroup/godel-checker) and [Go frontend](https://github.com/nickng/gospal)
+
 ## 2017
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
   - [DOI: 10.1109/TRPMS.2017.2780447](https://doi.org/10.1109/TRPMS.2017.2780447)
