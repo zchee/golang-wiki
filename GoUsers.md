@@ -461,7 +461,7 @@
 
 ## Turkey
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
-  * [AKM Yazılım](http://www.akmyazilim.com/) - [github](https://github.com/akmyazilim))
+  * [AKM Yazılım](http://www.akmyazilim.com/) - [github](https://github.com/akmyazilim)
   * [GramGames](http://gram.gs/)
   * [Insider](http://useinsider.com/)
   * [MaestroPanel](https://www.maestropanel.com/) - [github](https://github.com/maestropanel)
