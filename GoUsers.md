@@ -699,7 +699,7 @@
   * [Mesosphere](https://mesosphere.com) - [github](https://github.com/mesosphere)
   * [Meta Search](https://www.meta.sc/) - [twitter](https://twitter.com/AndyHaskell2013/status/651528742330855424)
   * [Microcosm](http://www.microco.sm) - [slides](https://speakerdeck.com/mattcottingham/building-an-api-with-go-at-microco-dot-sm)
-* [Mindbowser](http://mindbowser.com/)
+  * [Mindbowser](http://mindbowser.com/)
   * [Minio](https://minio.io/) - [github](https://github.com/minio/minio) [blog](https://github.com/minio/minio)- Object Storage compatible with Amazon S3 API
   * [Modcloth](http://www.modcloth.com) - [github](https://github.com/modcloth-labs)
   * [Moovweb](http://www.moovweb.com) - [github](https://github.com/moovweb) [source](https://groups.google.com/forum/#!topic/golang-nuts/MeiTNnGhLg8/discussion)
