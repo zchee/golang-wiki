@@ -104,6 +104,7 @@
   * [Xunlei](http://www.xunlei.com/)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
+  * [KLOOK](https://www.klook.com/)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
