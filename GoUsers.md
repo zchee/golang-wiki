@@ -180,6 +180,7 @@
   * [Josh Software](http://www.joshsoftware.com/)
   * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Kayako](http://www.kayako.com/)
+  * [Mindbowser](http://mindbowser.com/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Propebbles](http://www.propebbles.com/)
   * [Qwentic](http://www.qwentic.com) - A Golang specialized software development company
