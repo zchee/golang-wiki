@@ -8,13 +8,13 @@ The GOPATH environment variable specifies the location of your workspace. If no 
 
 # Unix systems
 
-`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/work`. Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set GOPATH=$HOME.
+`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/go` (since Go 1.8, it's a default `GOPATH` on Unix-like systems). Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set GOPATH=$HOME.
 
 ## Bash
 
 Edit your `~/.bash_profile` to add the following line:
 ```bash
-export GOPATH=$HOME/work
+export GOPATH=$HOME/go
 ```
 
 Save and exit your editor. Then, source your `~/.bash_profile`.
@@ -24,7 +24,7 @@ source ~/.bash_profile
 
 > Note: Set the GOBIN path to generate a binary file when `go install` is run.
 > ```bash
-> export GOBIN=$HOME/work/bin
+> export GOBIN=$HOME/go/bin
 > ```
 
 ## Zsh
@@ -32,7 +32,7 @@ source ~/.bash_profile
 Edit your `~/.zshrc` file to add the following line:
 
 ```bash
-export GOPATH=$HOME/work
+export GOPATH=$HOME/go
 ```
 Save and exit your editor. Then, source your `~/.zshrc`.
 ```bash
@@ -42,16 +42,16 @@ $ source ~/.zshrc
 # Windows
 
 Your workspace can be located wherever you like,
-but we'll use `C:\work` in this example.
+but we'll use `C:\go` in this example.
 Note that `GOPATH` must not be the same path as your Go installation.
 
-* Create folder at `C:\work`.
+* Create folder at `C:\go`.
 * Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
 * From the menu on the left, select the "Advanced systems settings".
 * Click the "Environment Variables" button at the bottom.
 * Click "New" from the "User variables" section.
 * Type `GOPATH` into the "Variable name" field.
-* Type `C:\work` into the "Variable value" field.
+* Type `C:\go` into the "Variable value" field.
 * Click OK.
 
 ## Windows 10
