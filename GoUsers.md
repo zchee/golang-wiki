@@ -106,6 +106,7 @@
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
   * [KLOOK](https://www.klook.com/)
   * [iDCOS](http://www.idcos.com/)
+    - [CloudBoot](http://www.idcos.com/products/cloudboot)
 
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
