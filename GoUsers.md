@@ -93,6 +93,7 @@
   * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [EasyAR](https://www.easyar.com/)
   * [Feiyu](http://www.feiyu.com/)
+  * [FunPlus](http://www.funplus.com/en/) - We Create Leading Innovative and Fun Experiences Worldwide
   * [FutureBots](http://www.futurebots.cn/)
   * [Kidswant](https://www.haiziwang.com/)
   * [MegaEase](http://www.megaease.com/)
