@@ -15,6 +15,12 @@ if err != nil {
 }
 // the code then continues to use result which is invalid.
 ```
+or
+```
+result, _ := somefunction()
+// code uses result which might be invalid
+```
+You should make sure it is clear that your code is correctly handling all error conditions before asking for help.
 
 Further reading:
 - [Error handling and Go][0] 
