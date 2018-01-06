@@ -25,7 +25,7 @@ You should make sure it is clear that your code is correctly handling all error 
 Further reading:
 - [Error handling and Go][0] 
 
-### Check that your code is free of data races
+### Check that your code is free from data races
 
 Unexpected runtime panics are often caused by data races in your program. If your program contains a data race you need to address the race before asking for help.
 
