@@ -43,9 +43,8 @@ Further reading:
 The best way to get help is to show 
 
 1. **What you did what you did, ideally with a small complete, stand-alone, example.** 
-  If you ran a command, show the command that you ran. If your program failed, provide the source of the program that filed.
-2. **What you expected to happen.** If you expected the command to complete successfully, say that.**
-  If you expected the program to produce a particular output, give an example of the output you expected.
+  If you ran a command, show the command that you ran. If your program failed, provide the source of the program that failed. If the program is too large, or you cannot share the source, instead provide a self contained, runnable example, that demonstrates the problem.
+2. **What you expected to happen.** If you expected the command to complete successfully, say that. If you expected the program to produce a particular output, give an example of the output you expected.
 3. **What happened instead.**
   If the command failed, include the full output of the failure, not just a single line that you though was the cause. If the program failed to produce the expected output, include what it did output.
 
