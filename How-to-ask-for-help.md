@@ -8,7 +8,7 @@ Before asking for help, please check that you've addressed the following common 
 
 Always check all errors. It is common to see problems reported with panics due to nil panics due to code line this
 ```
-result, err := someFunction()
+result, err := somefunction()
 if err != nil {
       log.Println("oops an error happened", err)
       // return is missing here
