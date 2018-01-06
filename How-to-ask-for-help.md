@@ -6,7 +6,7 @@ Before asking for help, please check that you've addressed the following common 
 
 ### Always check all errors
 
-Always check all errors. It is common to see problems reported with panics due to nil panics due to code line this
+Always check all errors. It is common to see problems reported due to nil panics due to code like this
 ```
 result, err := somefunction()
 if err != nil {
