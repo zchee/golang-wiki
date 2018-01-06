@@ -1,4 +1,4 @@
-This page gives some hints on how to successfully ask for help in the various Go support forums.
+This page gives some hints on how to successfully ask for help in the various [Go support forums][3].
 
 ## Before you ask your question
 
@@ -58,3 +58,4 @@ The best way to get help is to show
 [0]: https://blog.golang.org/error-handling-and-go
 [1]: https://blog.golang.org/race-detector
 [2]: https://play.golang.org
+[3]: https://github.com/golang/go/wiki/questions
