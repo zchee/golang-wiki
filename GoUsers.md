@@ -434,6 +434,7 @@
   * [Schibsted](http://www.schibsted.com/)
   * [Mediasmart.io](http://mediasmart.io) - [twitter](https://twitter.com/mediasmart_mb) 
   * [Mavrix](https://mavrix.es) - [github](https://github.com/betit/orion-go-sdk)  
+  * [Typeform](https://www.typeform.com/)
 
 ## Sweden
   * [Kiliaro](https://kiliaro.com/)
