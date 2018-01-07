@@ -1162,6 +1162,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
   * [stress](https://github.com/wenjiax/stress) - Replacement of ApacheBench(ab), support for transactional requests, support for command line and package references to HTTP stress testing tool.
   * [sling](https://github.com/dghubble/sling) - A Go HTTP client library for creating and sending API requests.
+  * [httptail](https://github.com/smallfish/httptail) - tools push stdout/stderr to http chunked
 
 ### IMAP
   * [go-imap](https://github.com/emersion/go-imap) - An IMAP library for clients and servers.
@@ -1813,7 +1814,6 @@ The following entries have not been filed. Please help by putting these in relev
   * [gopcapreader](http://code.google.com/p/gopcapreader) - Presents realtime pcap data as io.Reader objects
   * [go.psl](https://github.com/ebfe/go.psl) - Go regdom-libs/public suffix list
   * [go-webfinger](https://github.com/ant0ine/go-webfinger) - Simple Client Implementation of WebFinger
-  * [httptail](https://github.com/smallfish/httptail) - tools push stdout/stderr to http chunked
   * [img-LinuxFr.org](https://github.com/nono/img-LinuxFr.org) - A reverse-proxy cache for external images used on LinuxFr.org
   * [seed](https://github.com/tv42/seed) - Easily seed PRNGs with some entropy
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
