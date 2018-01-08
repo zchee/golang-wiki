@@ -101,6 +101,7 @@
   * [OPPO](https://www.oppo.com)
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
+  * [TiDB](https://www.pingcap.com/en/) - [tweet: Golang in TiDB](https://twitter.com/PingCAP/status/940503487086858240) - [github](https://github.com/pingcap/tidb) - TiDB is a distributed HTAP database compatible with the MySQL protocol
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
   * [Xunlei](http://www.xunlei.com/)
   * [Yeeuu](https://www.yeeuu.com/)
