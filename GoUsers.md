@@ -686,6 +686,7 @@
   * [Kochava](https://www.kochava.com/)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
+  * [Laserlike](https://www.laserlike.com/)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [Linc Global](https://www.letslinc.com/)
