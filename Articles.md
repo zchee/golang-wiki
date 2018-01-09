@@ -210,8 +210,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [The Go Tool (Translation)](http://www.mikespook.com/2012/02/%E7%BF%BB%E8%AF%91go-%E5%B7%A5%E5%85%B7/)
   * [Less is exponentially more (Translation)](http://www.mikespook.com/2012/06/%E7%BF%BB%E8%AF%91%E5%B0%91%E6%98%AF%E6%8C%87%E6%95%B0%E7%BA%A7%E7%9A%84%E5%A4%9A/)
   * [Zero Downtime upgrades of TCP servers in Go (Translation)](http://www.mikespook.com/2012/05/%E7%BF%BB%E8%AF%91%E7%94%A8-go-%E5%AE%9E%E7%8E%B0%E9%9B%B6%E5%81%9C%E6%9C%BA%E5%8D%87%E7%BA%A7-tcp-%E6%9C%8D%E5%8A%A1/)
-  * [Ready? Go! 上篇：大道至简](http://monnand.me/p/ready-go-1/zhCN/)
-  * [Ready? Go! 下篇：多核并起](http://monnand.me/p/ready-go-2/zhCN/)
 
 ## Czech
   * [Google Go - 1st birthday](http://www.abclinuxu.cz/clanky/google-go-1.-narozeniny)
