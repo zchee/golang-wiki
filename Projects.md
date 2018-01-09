@@ -98,6 +98,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [go-fits](https://github.com/siravan/fits) - FITS (Flexible Image Transport System) format image and data reader
   * [astrogo/fitsio](https://github.com/astrogo/fitsio) - Pure Go FITS (Flexible Image Transport System) format image and data reader/writer
+  * [cosmo](https://github.com/wmwv/cosmo) - Cosmological distance and time calculations for common cosmologies (Friedmann-Lemaître-Robertson-Walker metric).
   * [gonova](https://github.com/pebbe/gonova) - A wrapper for libnova -- Celestial Mechanics, Astrometry and Astrodynamics Library
   * [meeus](https://github.com/soniakeys/meeus) - Implementation of "Astronomical Algorithms" by Jean Meeus
   * [novas](https://github.com/pebbe/novas) - Interface to the Naval Observatory Vector Astrometry Software (NOVAS)
