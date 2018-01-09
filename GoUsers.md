@@ -374,7 +374,6 @@
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/)
 
 ## Philippines
-  * [ULAPPH](http://www.ulapph.com)
   * [EngageSPARK](https://www.engagespark.com)
 
 ## Poland
