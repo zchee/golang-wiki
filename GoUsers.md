@@ -89,6 +89,7 @@
  
 ## China
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
+  * [BaishanCloud](https://en.baishancloud.com/)
   * [ByteDance](https://www.bytedance.com)
   * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [EasyAR](https://www.easyar.com/)
