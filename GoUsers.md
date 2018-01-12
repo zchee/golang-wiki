@@ -190,7 +190,7 @@
   * [Mindbowser](http://mindbowser.com/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Propebbles](http://www.propebbles.com/)
-  * [Qube Cinema] (https://www.qubecinema.com/)
+  * [Qube Cinema](https://www.qubecinema.com/)
   * [Qwentic](http://www.qwentic.com) - A Golang specialized software development company
   * [Qwinix](https://www.qwinixtech.com/)
   * [Rapyuta Robotics](https://www.rapyuta-robotics.com/)
