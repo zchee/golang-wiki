@@ -504,6 +504,15 @@ Sorted by publication date.
     * Reference (Kobo Books): https://store.kobobooks.com/it-it/ebook/programmare-in-linguaggio-go
     * Repository: https://github.com/rmite/gobook
 
+# Polish
+
+  * **Język Go. Poznaj i programuj**
+    * Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Lech Lachowski
+    * Publication Date: July 2016
+    * ISBN: 978-83-283-2467-1
+    * Reference: https://helion.pl/ksiazki/jezyk-go-poznaj-i-programuj-alan-a-a-donovan-brian-w-kernighan,jgopop.htm
+
+
 # Looking for contributors
 
 [Add Go books here that are looking for writers, editors, Gopher illustrators, and translators.]
