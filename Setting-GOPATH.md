@@ -1,1 +1,0 @@
-See http://golang.org/issue/23422.
