@@ -194,6 +194,7 @@
   * [Qwentic](http://www.qwentic.com) - A Golang specialized software development company
   * [Qwinix](https://www.qwinixtech.com/)
   * [Rapyuta Robotics](https://www.rapyuta-robotics.com/)
+  * [Razorpay](https://razorpay.com/)
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
   * [Saltside Technologies AB](http://www.saltside.se/)
   * [Siminars](http://siminars.com)
