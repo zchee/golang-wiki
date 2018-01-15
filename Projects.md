@@ -617,6 +617,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tai64](https://github.com/cactus/tai64) - tai64 and tai64n parsing and formatting
   * [tuesday](https://github.com/osteele/tuesday) - A Strftime implementation that's compatible with Ruby's `Time.strftime`
   * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
+  * [hijri](https://https://github.com/younisshah/hijri) - A small helper library to convert a Hijri date to a Gregorian date according to Ummul Qura calendar.
 
 ## Development Tools
 
