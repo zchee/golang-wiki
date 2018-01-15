@@ -454,6 +454,9 @@
   * [Perron2 GmbH](http://www.perron2.ch)
   * [Proton Technologies AG](https://protonmail.com)
   * [Ricardo](https://www.ricardo.ch/)
+
+## Taiwan
+  * [QNAP Systems, Inc.](https://www.qnap.com)
   
 ## Thailand
   * [Appsynth Asia](https://appsynth.net/)
