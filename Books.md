@@ -206,6 +206,18 @@ Sorted by publication date.
     * ISBN: 9781787125643
     * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
 
+  * **Cloud Native programming with Golang**
+    * Author: Mina Andrawos, Martin Helmich
+    * Publication Date: December 2017
+    * ISBN: 978-1787125988
+    * Reference: https://www.packtpub.com/application-development/cloud-native-programming-golang
+
+  * **Isomorphic Go**
+    * Author: Kamesh Balasubramanian
+    * Publication Date: December 2017
+    * ISBN: 978-1788394185
+    * Reference: https://www.packtpub.com/web-development/isomorphic-go
+
 ## Pre-order
 
   * **Black Hat Go**
