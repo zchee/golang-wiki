@@ -13,6 +13,7 @@ Please keep all items in chronological order.
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en |
 | GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
+| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en |
 | dotGo | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
 
 ## Archives
