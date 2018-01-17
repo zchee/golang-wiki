@@ -14,6 +14,7 @@ Please keep all items in chronological order.
 | GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is |
 | GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
 | GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en |
+| GoLab | 2018-10-22-23 | Florence, Italy | http://golab.io |
 | dotGo | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
 
 ## Archives
