@@ -185,17 +185,17 @@ Sorted by publication date.
   * ISBN: 978-1787281394
   * Reference: https://www.packtpub.com/application-development/learning-functional-programming-go
 
-  * **Cloud Native programming with Golang**
-    * Author: Mina Andrawos, Martin Helmich
-    * Publication Date: December 2017
-    * ISBN: 978-1787125988
-    * Reference: https://www.packtpub.com/application-development/cloud-native-programming-golang
+* **Cloud Native programming with Golang**
+  * Author: Mina Andrawos, Martin Helmich
+  * Publication Date: December 2017
+  * ISBN: 978-1787125988
+  * Reference: https://www.packtpub.com/application-development/cloud-native-programming-golang
 
-  * **Isomorphic Go**
-    * Author: Kamesh Balasubramanian
-    * Publication Date: December 2017
-    * ISBN: 978-1788394185
-    * Reference: https://www.packtpub.com/web-development/isomorphic-go
+* **Isomorphic Go**
+  * Author: Kamesh Balasubramanian
+  * Publication Date: December 2017
+  * ISBN: 978-1788394185
+  * Reference: https://www.packtpub.com/web-development/isomorphic-go
 
 ## Early Access
 
