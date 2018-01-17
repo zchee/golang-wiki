@@ -105,6 +105,7 @@
   * [TiDB](https://www.pingcap.com/en/) - [tweet: Golang in TiDB](https://twitter.com/PingCAP/status/940503487086858240) - [github](https://github.com/pingcap/tidb) - TiDB is a distributed HTAP database compatible with the MySQL protocol
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
   * [Xunlei](http://www.xunlei.com/)
+  * [Xiaoying](https://www.xiaoying.com/)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
   * [KLOOK](https://www.klook.com/)
