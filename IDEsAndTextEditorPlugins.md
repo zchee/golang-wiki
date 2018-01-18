@@ -1,27 +1,27 @@
 # IDEs and Plugins for Go
 
-  * **[Atom](http://www.atom.io)**: JavaScript-based editor from GitHub. Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
-  * **[BBedit](http://www.barebones.com/products/bbedit/)**: commercial text editor for OS X.
-    * Basic Go support available with the module http://pine.barebones.com/extensions/Go.plist.zip
+  * **[Atom](https://atom.io/)**: JavaScript-based editor from GitHub. Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
+  * **[BBedit](https://www.barebones.com/products/bbedit/)**: commercial text editor for macOS.
+    * Basic Go support available with the [module](https://www.barebones.com/products/bbedit/)
     * [Go-bbpackage](https://github.com/ascarter/go-bbpackage) with clippings, ctags standard library completion, better syntax highlighting, and tools
   * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
-  * **[Eclipse IDE](http://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
+  * **[Eclipse IDE](https://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
     * [GoFlyMake](https://github.com/dougm/goflymake) Flymake-style syntax checking for Go
     * [go-errcheck.el](https://github.com/dominikh/go-errcheck.el) Errcheck integration for Emacs
     * [flycheck-metalinter](https://github.com/favadi/flycheck-gometalinter) Flycheck integration for go-metalinter utility
     * [go-playground](https://github.com/grafov/go-playground) Local playground inside Emacs
-  * **[Gedit](http://projects.gnome.org/gedit/)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
-  * **[Geany](http://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
+  * **[Gedit](https://wiki.gnome.org/Apps/Gedit)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
+  * **[Geany](https://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://github.com/rogpeppe/godef)**: Prints the source location of definitions in Go programs. Integrates with acme, emacs, vim and SublimeText.
   * **[GoLand](https://www.jetbrains.com/go/)**: Jetbrains Golang IDE (commercial) 
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](http://www.jetbrains.com/idea/)**: Commercial cross-platform IDE. 
-  * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](http://code.google.com/p/go-stuff/source/browse/editors/jEdit/go.xml).
+  * **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**: Commercial cross-platform IDE. 
+  * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](https://code.google.com/archive/p/go-stuff/source/default/source).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](https://www.activestate.com/komodo-ide)** Powerful cross-platform IDE with built-in Go support
   * **[Komodo Edit](https://www.activestate.com/komodo-edit)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
@@ -35,7 +35,7 @@
     * [GoSublime](https://github.com/DisposaBoy/GoSublime) is a plugin collection with IDE-like features available.
     * [Golang Build](https://github.com/golang/sublime-build) is the official Sublime Text package for Go build system integration.
   * **[Textadept](http://foicica.com/textadept/)**:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
-  * **[TextMate](http://macromates.com/)**: Commercial text editor for OS X. [Source code available](https://github.com/textmate/textmate) under the GPLv3. [Bundle for Go available](https://github.com/syscrusher/golang.tmbundle).
+  * **[TextMate](http://macromates.com/)**: Commercial text editor for macOS. [Source code available](https://github.com/textmate/textmate) under the GPLv3. [Bundle for Go available](https://github.com/syscrusher/golang.tmbundle).
   * **[TextWrangler](http://www.barebones.com/products/textwrangler/)**: free _little brother_ of BBedit. Both the Go module and Go.bbpackage for BBedit work for TextWrangler as well.
   * **[Vim](http://www.vim.org/)** & **[Neovim](https://neovim.io/)**: Vi Improved. There are a number of plugins available that make editing Go code easier.
     * The [vim-go](https://github.com/fatih/vim-go) plugin includes misc/vim and has many other new improvements.
