@@ -7,6 +7,8 @@
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
 
 # Asia
+- Iraq
+* [Go language Developers in Iraq](https://www.facebook.com/groups/go.iraq/) - Iraq
 - Persia
   * [goiran slack Iran](https://join.slack.com/t/goiran/shared_invite/enQtMjczOTMwNzY3NjM2LWQyNzMwM2QwOTBjMTBmZjZiNmRhODlmNTg2OGRiOTE0ZGQ1MmUyYzU1ZDY5MTBkOGY4NTU2NmUzYWNiZWVlYzY) - Iran
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
