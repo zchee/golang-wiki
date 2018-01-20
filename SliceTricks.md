@@ -84,9 +84,9 @@ s[i] = x
 a = append(a[:i], append(b, a[i:]...)...)
 ```
 
-#### Pop
+#### Pop (Shift)
 ```go
-x, a = a[len(a)-1:], a[:len(a)-1]
+x, a = a[0], a[1:]
 ```
 
 #### Pop Back
