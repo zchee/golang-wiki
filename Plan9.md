@@ -43,6 +43,8 @@ You will need support for SHA-2 signatures in X.509 certificates, so you could d
 
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/magic/webls?dir=/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
+CA certificates for `crypto/x509` package needs to be installed at `/sys/lib/tls/ca.pem`. You can download it from `https://curl.haxx.se/ca/cacert.pem` or copy from another system.
+
 # Installation
 
 Since Go is written in Go, you may want to bootstrap Go with Go 1.4.3, which is the latest release of Go written in C.
