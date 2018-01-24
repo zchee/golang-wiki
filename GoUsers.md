@@ -140,6 +140,7 @@
   * [IoThings](https://iothings.fr)
   * [IRI France](http://www.iri-labs.com)
   * [Objenious](http://www.objenious.com)
+  * [ProcessOne](https://www.process-one.net)
   * [Rive](http://app.rive.world)
   * [Teads.tv](http://teads.tv/)
   * [Zenly](https://zen.ly/)
