@@ -467,6 +467,10 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### CockroachDB
   * [cockroachdb](https://github.com/cockroachdb/cockroach) - A Scalable, Survivable, Strongly-Consistent SQL Database
 
+### Hazelcast IMDG
+
+  * [hazelcast-go-client](https://github.com/hazelcast/hazelcast-go-client) Hazelcast Go Client
+
 ### MongoDB
 
   * [mgo](http://labix.org/mgo) - Rich MongoDB driver for Go
