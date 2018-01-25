@@ -1343,6 +1343,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Taipei-Torrent](https://github.com/jackpal/Taipei-Torrent) - A BitTorrent client
   * [Tendermint](https://github.com/tendermint/tendermint) - P2P Byzantine-Fault-Tolerant consensus & blockchain stack
   * [wgo](https://github.com/royger/wgo) - A simple BitTorrent client based in part on the Taipei-Torrent and gobit code
+  * [DHT](https://github.com/shiyanhui/dht) - BitTorrent DHT Protocol && DHT Spider.
 
 ## Programming
 
