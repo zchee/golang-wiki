@@ -127,7 +127,6 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Caching
 
-  * [Hazelcast IMDG Go Client](https://github.com/hazelcast/hazelcast-go-client) - The official Go client implementation for [Hazelcast IMDG](hazelcast.org), the open source in-memory data grid.
   * [cache](https://github.com/chai2010/cache) - LevelDB style LRU cache for Go, support non GC object cache.
   * [cache2go](https://github.com/muesli/cache2go) - Concurrency-safe caching library with expiration capabilities and access counters
   * [go-cache](http://patrickmylund.com/projects/go-cache/) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications
@@ -469,7 +468,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cockroachdb](https://github.com/cockroachdb/cockroach) - A Scalable, Survivable, Strongly-Consistent SQL Database
 
 ### Hazelcast IMDG
-  * [Hazelcast IMDG Go Client](https://github.com/hazelcast/hazelcast-go-client) - The official Go client implementation for [Hazelcast IMDG](hazelcast.org), the open source in-memory data grid.
+  * [Hazelcast IMDG Go Client](https://github.com/hazelcast/hazelcast-go-client) - The official Go client implementation for [Hazelcast IMDG](http://hazelcast.org), the open source in-memory data grid.
 
 ### MongoDB
 
@@ -543,7 +542,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### Key-Value-Stores
 
-  * [Hazelcast IMDG Go Client](https://github.com/hazelcast/hazelcast-go-client) - The official Go client implementation for [Hazelcast IMDG](hazelcast.org), the open source in-memory data grid.
   * [bolt](https://github.com/boltdb/bolt) - Persistent key/value store inspired by LMDB.
   * [dbm](https://github.com/cznic/exp/tree/master/dbm) - Package dbm (WIP) implements a simple database engine, a hybrid of a hierarchical and/or a key-value one.
   * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file backed memory maps.
@@ -665,7 +663,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Distributed/Grid Computing
 
-  * [Hazelcast IMDG Go Client](https://github.com/hazelcast/hazelcast-go-client) - The official Go client implementation for [Hazelcast IMDG](hazelcast.org), the open source in-memory data grid.
   * [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
   * [donut](https://github.com/dforsyth/donut) - A library for building clustered services in Go
   * [libchan](https://github.com/docker/libchan) - Go-like channels over the network
