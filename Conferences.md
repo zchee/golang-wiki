@@ -6,16 +6,19 @@
 Please keep all items in chronological order.
 
 
-| Name |  Date | Location | Website |
+| Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| Go Devroom FOSDEM | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
-| GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
-| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en |
-| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is |
-| GopherCon Denver | 2018-08-27-30 | Denver, CO | http://gophercon.com |
-| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en |
-| GoLab | 2018-10-22-23 | Florence, Italy | http://golab.io |
-| dotGo | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
+| Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
+| GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/<br>CFP closed |
+| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en | |
+| GoSF 2018 | 2018-03-23 | San Francisco, USA | https://www.meetup.com/golangsf/<br>CFP https://www.papercall.io/gosf | 
+| GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2018 |
+| GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/<br>CFP https://www.papercall.io/gopherconsg-2018 |
+| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is<br>CFP https://www.papercall.io/gophercon-iceland | 
+| GopherCon Denver 2019 | 2018-08-27-30 | Denver, CO | http://gophercon.com<br>CFP https://www.papercall.io/gophercon2018 |
+| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en|
+| GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io |
+| dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
 
 ## Archives
 
