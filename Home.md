@@ -147,7 +147,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [SQLDrivers](SQLDrivers)
     - [SQLInterface](SQLInterface)
   - From other languages
-    - [Go for Java Programmers](https://www.nada.kth.se/~snilsson/go_for_java_programmers/)
+    - [Go for Java Programmers](http://yourbasic.org/golang/go-java-tutorial/)
     - [Go for C++ Programmers](GoForCPPProgrammers)
   - Strings
     - [GoStrings](GoStrings)
