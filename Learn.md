@@ -23,7 +23,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 * [Learn Go Programming](https://blog.learngoprogramming.com) - Weekly visual and concise tutorials for programming in Go.
 * [Gophercises](https://gophercises.com/) - coding exercises for budding gophers
 * [Crowdsourced List Of Golang Tutorials](https://onlinecourses.guru/submit/edit/topic/learn-go) - Golang tutorials crowd sourced by programmers.
-
+* [Algorithms to Go](http://yourbasic.org/) - Texts about algorithms and Go, with plenty of code examples.
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
