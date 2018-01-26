@@ -25,7 +25,7 @@ Go is a great language for CS majors. This page presents some university courses
 
 # Concurrency
 
-  * Go is being used at the end of a yearlong freshman computer science class at KTH: http://www.nada.kth.se/~snilsson/concurrency/.
+  * Go is being used at the end of a yearlong freshman computer science class at KTH: http://yourbasic.org/golang/concurrent-programming/
 
   * Go, Concurrent and Systems Programming from Rochester Institute of Technology: http://www.cs.rit.edu/~ats/go-2011-2/index.xml
 
