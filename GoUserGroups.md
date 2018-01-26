@@ -58,6 +58,7 @@
   * [Golang Paris](http://www.meetup.com/Golang-Paris) - Paris, France.
   * [Golang Rennes](http://www.meetup.com/Golang-Rennes/) - Rennes, France.
   * [Golang Lyon](http://www.meetup.com/fr-FR/Golang-Lyon/) - Lyon, France.
+  * [Golang Lille](http://www.meetup.com/Golang-Lille) - Lille, France.
   * [golang-pl](https://groups.google.com/forum/?fromgroups#!forum/golang-pl) - Poland.
   * [Gophers Katowice](http://www.meetup.com/Gophers-Katowice) - Katowice, Poland.
   * [Golang Warsaw](http://www.meetup.com/Golang-Warsaw) - Warsaw, Poland.
