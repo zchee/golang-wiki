@@ -610,6 +610,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [whisper-go](https://github.com/kisielk/whisper-go) - library for working with whisper databases
   * [remapper](https://github.com/plandem/remapper) - library to convert/map data from one type to another
   * [xo](https://github.com/xo/xo) - CLI to generate idiomatic Go code for databases
+  * [go-batcher](https://github.com/yyh1102/go-batcher() - Simply create and use batch handler in Go
 
 ## Date
 
