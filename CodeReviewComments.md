@@ -333,7 +333,7 @@ if err != nil {
 
 ## Initialisms
 
-Words in names that are initialisms or acronyms (e.g. "URL" or "NATO") have a consistent case. For example, "URL" should appear as "URL" or "url" (as in "urlPony", or "URLPony"), never as "Url". Here's an example: ServeHTTP not ServeHttp.
+Words in names that are initialisms or acronyms (e.g. "URL" or "NATO") have a consistent case. For example, "URL" should appear as "URL" or "url" (as in "urlPony", or "URLPony"), never as "Url". As an example: ServeHTTP not ServeHttp. For identifiers with multiple initialized "words", use for example "xmlHTTPRequest" or "XMLHTTPRequest".
 
 This rule also applies to "ID" when it is short for "identifier," so write "appID" instead of "appId".
 
@@ -418,6 +418,8 @@ boundaries are, not to start counting lines.
 ## Mixed Caps
 
 See https://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
+
+Also see [Initialisms](https://github.com/golang/go/wiki/CodeReviewComments#initialisms).
 
 ## Named Result Parameters
 
