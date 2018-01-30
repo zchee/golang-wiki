@@ -17,7 +17,7 @@ Information for each benchmark includes (or should include):
 
  | short name | notes | go get path | benchmark regexp | contact |
  | ---------- | ----- | ----------- | ---------------- | ------- |
-  | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
+ | capnproto2 | | `zombiezen.com/go/capnproto2/` | `Benchmark(TextMovementBetweenSegments\|Growth_MultiSegment)` | |
  | ethereum_bitutil | | `github.com/ethereum/go-ethereum/common/bitutil` | `Benchmark(BaseTest2KB\|FastTest2KB\|Encoding4KBVerySparse)` | |
  | ethereum_core | | `github.com/ethereum/go-ethereum/core` | `BenchmarkChainRead_full_10k` | |
  | ethereum_corevm | | `github.com/ethereum/go-ethereum/core/vm` | `BenchmarkOpDiv128` | |
@@ -35,18 +35,21 @@ Information for each benchmark includes (or should include):
  | hugo_helpers | | `github.com/gohugoio/hugo/helpers` | `Benchmark(StripHTML\|ReaderContains)` | |
  | hugo_hugolib | | `github.com/gohugoio/hugo/hugolib` | `BenchmarkParsePage` | |
  | hugo_hugolib_sitebuilding | | `github.com/gohugoio/hugo/hugolib` | `BenchmarkSiteBuilding/YAML,num_pages=10,num_tags=10,tags_per_page=20,shortcodes,render-12` | |
- | k8s_api | | `k8s.io/kubernetes/pkg/api` | `BenchmarkEncodeCodecFromInternalProtobuf` | |
- | k8s_schedulercache | | `k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache` | `BenchmarkList1kNodes30kPods` | |
+ | k8s_api | | `k8s.io/kubernetes/pkg/api/testing` | `BenchmarkEncodeCodecFromInternalProtobuf` | |
  | minio | | `github.com/minio/minio/cmd` | `BenchmarkGetObject5MbFS` | |
  | semver | | `github.com/Masterminds/semver` | `BenchmarkValidateVersionTildeFail` | |
  | spexs2 | | `github.com/egonelbre/spexs2/_benchmark/` | `BenchmarkRun/10k/1` | |
  | uuid | | `github.com/satori/go.uuid/` | `Benchmark(NewV5\|MarshalToString)` | |
 
+There is a [benchmark runner](https://github.com/dr2chase/bent) that automates downloading, building, and running these benchmarks under various (user-defined) configurations.  Benchmarking noise on Linux can be somewhat reduced with [perflock](https://github.com/aclements/perflock).
+
 A few have been proposed but have so far failed to make the cut (for fetch, build, or noise problems):
 
  | short name | notes | go get path | benchmark regexp | contact |
  | ---------- | ----- | ----------- | ---------------- | ------- |
+ | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
  | ethereum_trie | | `github.com/ethereum/go-ethereum/trie` | `Benchmark` | |
  | ethereum_whisperv5 | | `github.com/ethereum/go-ethereum/whisper/whisperv5` | `Benchmark` | |
+ | k8s_schedulercache | | `k8s.io/kubernetes/plugin/pkg/scheduler/schedulercache` | `Benchmark` | |
  | kanzi | | `github.com/flanglet/kanzi/go/src/kanzi/benchmark` | `Benchmark` | |
  | uber_zap | | `github.com/uber-go/zap/benchmarks` | `Benchmark` | |
