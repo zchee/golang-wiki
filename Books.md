@@ -161,6 +161,12 @@ Sorted by publication date.
     * ISBN: 978-1786468666
     * Reference: https://www.packtpub.com/application-development/building-microservices-go
 
+* **Concurrency in Go**
+    * Author: Katherine Cox-Buday
+    * Publication Date: August 2017
+    * ISBN: 978-1491941195
+    * Reference: http://shop.oreilly.com/product/0636920046189.do
+
 * **Machine Learning With Go**
     * Author: Daniel Whitenack
     * Publication Date: September 2017
