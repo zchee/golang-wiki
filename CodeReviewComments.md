@@ -213,8 +213,8 @@ import (
 	"appengine/foo"
 	"appengine/user"
 
-	"code.google.com/p/x/y"
-	"github.com/foo/bar"
+        "github.com/foo/bar"
+	"rsc.io/goversion/version"
 )
 ```
 
