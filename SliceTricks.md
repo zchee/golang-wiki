@@ -84,7 +84,7 @@ s[i] = x
 a = append(a[:i], append(b, a[i:]...)...)
 ```
 
-#### Pop (Shift)
+#### Pop/Shift
 ```go
 x, a = a[0], a[1:]
 ```
@@ -99,17 +99,7 @@ x, a = a[len(a)-1], a[:len(a)-1]
 a = append(a, x)
 ```
 
-#### Push Front
-```go
-a = append([]T{ x }, a...)
-```
-
-#### Shift
-```go
-x, a := a[0], a[1:]
-```
-
-#### Unshift
+#### Push Front/Unshift
 ```go
 a = append([]T{x}, a...)
 ```
