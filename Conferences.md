@@ -1,14 +1,11 @@
 # Go Conferences and Major Events
 
-
 ## Upcoming
 
 Please keep all items in chronological order.
 
-
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/<br>CFP closed |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en | |
 | GoSF 2018 | 2018-03-23 | San Francisco, USA | https://www.meetup.com/golangsf/<br>CFP https://www.papercall.io/gosf | 
@@ -26,6 +23,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
+| | **2017** | | | |
 | GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
 | dotGo | 2017-11-06 | Paris, France | https://www.dotgo.eu |
 | GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
