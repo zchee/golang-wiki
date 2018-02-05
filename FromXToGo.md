@@ -8,6 +8,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Why I went from Python to Go (and not node.js)](http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs)
 * [How to Convince Your Company to Go With Golang](https://sendgrid.com/blog/convince-company-go-golang/)
 * [5 Reasons Why We switched from Python To Go](https://medium.com/@tigranbs/5-reasons-why-we-switched-from-python-to-go-4414d5f42690)
+* [Stream: Why we switched from Python to Go](https://getstream.io/blog/switched-python-go)
 
 # Node
 
