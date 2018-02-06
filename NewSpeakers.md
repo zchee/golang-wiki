@@ -24,5 +24,6 @@ and answer other questions about the overall speaking process.
 Feel free to contact any of us directly.
 
 - Russ Cox, rsc@golang.org, [@_rsc](https://twitter.com/_rsc)
+- Steve Francia, spf@golang.org, [@spf13](https://twitter.com/spf13)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
