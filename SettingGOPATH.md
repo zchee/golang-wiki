@@ -39,6 +39,21 @@ Save and exit your editor. Then, source your `~/.zshrc`.
 $ source ~/.zshrc
 ```
 
+## fish
+
+```bash
+set -x -U GOPATH $HOME/go
+```
+> The `-x` is used to specify that this variable should be exported
+> and the `-U` makes this a universal variable, available to all sessions and
+> persistent
+
+To set the GOBIN path:
+
+```bash
+set -x -U GOBIN $GOPATH/bin
+```
+
 # Windows
 
 Your workspace can be located wherever you like,
