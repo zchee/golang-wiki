@@ -27,5 +27,6 @@ Feel free to contact any of us directly.
 - Steve Francia, spf@golang.org, [@spf13](https://twitter.com/spf13)
 - William Kennedy, bill@ardanlabs.com, [@goinggodotnet](https://twitter.com/goinggodotnet)
 - Cassandra Salisbury, cls@golang.org [@cassandraoid](https://twitter.com/cassandraoid)
+- Ashley McNamara, ashmc@microsoft.com, [@ashleymcnamara](twitter.com/ashleymcnamara)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
