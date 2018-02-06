@@ -26,7 +26,7 @@ Feel free to contact any of us directly.
 - Russ Cox, rsc@golang.org, [@_rsc](https://twitter.com/_rsc)
 - Steve Francia, spf@golang.org, [@spf13](https://twitter.com/spf13)
 - William Kennedy, bill@ardanlabs.com, [@goinggodotnet](https://twitter.com/goinggodotnet)
-- Cassandra Salisbury, cls@golang.org [@cassandraoid](https://twitter.com/cassandraoid)
+- Cassandra Salisbury, cassandra@golangbridge.org [@cassandraoid](https://twitter.com/cassandraoid)
 - Ashley McNamara, ashmc@microsoft.com, [@ashleymcnamara](twitter.com/ashleymcnamara)
 - Brian Ketelsen, bjk@microsoft.com, [@bketelsen](twitter.com/bketelsen)
 - Natalie Pistunovich natalie@gobridge.com, [@nataliepis](https://twitter.com/nataliepis)
