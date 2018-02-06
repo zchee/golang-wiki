@@ -212,6 +212,7 @@
 
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
+  * [Amartha] (https://amartha.com/id_ID/)
   * [Bildeco](https://bildeco.com)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
