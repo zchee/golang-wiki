@@ -212,6 +212,7 @@
 
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
+  * [Bildeco](https://bildeco.com)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
   * [Codemi Learning Management System](http://codemi.co.id)
