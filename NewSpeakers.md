@@ -29,5 +29,6 @@ Feel free to contact any of us directly.
 - Cassandra Salisbury, cls@golang.org [@cassandraoid](https://twitter.com/cassandraoid)
 - Ashley McNamara, ashmc@microsoft.com, [@ashleymcnamara](twitter.com/ashleymcnamara)
 - Brian Ketelsen, bjk@microsoft.com, [@bketelsen](twitter.com/bketelsen)
+- Natalie Pistunovich natalie@gobridge.com, [@nataliepis](https://twitter.com/nataliepis)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
