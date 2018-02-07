@@ -214,6 +214,7 @@
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bildeco](https://bildeco.com)
+  * [Brankas](https://brank.as)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
   * [Codemi Learning Management System](http://codemi.co.id)
