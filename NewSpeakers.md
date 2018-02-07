@@ -13,8 +13,15 @@ and you need not be a Go expert to give a great talk.
 All that you need to be is excited about sharing something
 you've observed or learned about using Go.
 
-Elsewhere on the wiki, we maintain a list of [upcoming conferences](Conferences), including links to CFPs,
-along with past conferences, including talk videos.
+Here are some good blog posts with tips for writing conference talk proposals:
+
+- “[How to write a successful conference proposal](https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal)” by Dave Cheney
+- “[How to write a successful conference proposal](https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32)” by Karolina Szczur
+- “[Is your conference proposal good enough?](http://rckbt.me/2014/01/conference-proposals/)” by Raquel Vélez (rockbot)
+- “[What your conference proposal is missing](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)” by Sarah Mei
+
+Elsewhere on the wiki, we maintain a list of [upcoming conferences](Conferences) with links to CFPs.
+The same page also lists past conferences with links to talk videos.
 
 ## Contact Us
 
@@ -26,7 +33,7 @@ Feel free to contact any of us directly.
 - Russ Cox, rsc@golang.org, [@_rsc](https://twitter.com/_rsc)
 - Steve Francia, spf@golang.org, [@spf13](https://twitter.com/spf13)
 - William Kennedy, bill@ardanlabs.com, [@goinggodotnet](https://twitter.com/goinggodotnet)
-- Cassandra Salisbury, cassandra@golangbridge.org [@cassandraoid](https://twitter.com/cassandraoid)
+- Cassandra Salisbury, cassandra@golangbridge.org, [@cassandraoid](https://twitter.com/cassandraoid)
 - Ashley McNamara, ashmc@microsoft.com, [@ashleymcnamara](twitter.com/ashleymcnamara)
 - Brian Ketelsen, bjk@microsoft.com, [@bketelsen](twitter.com/bketelsen)
 - Natalie Pistunovich natalie@golangbridge.org, [@nataliepis](https://twitter.com/nataliepis)
