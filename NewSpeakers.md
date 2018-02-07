@@ -30,5 +30,6 @@ Feel free to contact any of us directly.
 - Ashley McNamara, ashmc@microsoft.com, [@ashleymcnamara](twitter.com/ashleymcnamara)
 - Brian Ketelsen, bjk@microsoft.com, [@bketelsen](twitter.com/bketelsen)
 - Natalie Pistunovich natalie@golangbridge.org, [@nataliepis](https://twitter.com/nataliepis)
+- Erik St. Martin, erikstm@microsoft.com, [@erikstmartin](twitter.com/erikstmartin)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
