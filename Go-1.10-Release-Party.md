@@ -19,6 +19,7 @@ Here is a list of the groups who are participating.
 - Copenhagen, Denmark: Feb 15 7:00 pm at Maersk. [View the meetup](https://www.meetup.com/Go-Cph/events/242615767/)
 - Minsk, Belarus: Feb 15 7:00 pm at SPACE. [View the event](https://www.facebook.com/events/202545833823265/)
 - Tokyo, Japan: Feb 20 7:00 pm at Google Tokyo. [View the event](https://gocon.connpass.com/event/78128/)
+- Reston, VA, USA: Feb 21 6:45 pm at Comcast. [View the meetup](https://www.meetup.com/Golang-Reston/events/246828702/)
 - San Francisco, CA: Feb 21 6:00 pm at Cloudflare [View the event](https://www.meetup.com/golangsf/events/245472050/)
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
