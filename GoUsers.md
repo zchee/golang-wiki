@@ -220,6 +220,7 @@
   * [Brankas](https://brank.as)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
+  * [CICIL.CO.ID](https://cicil.co.id)
   * [Codemi Learning Management System](http://codemi.co.id)
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
