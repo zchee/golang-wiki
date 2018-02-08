@@ -1,4 +1,4 @@
-GerritBot is a tool used for importing GitHub Pull Requests (PRs) into Gerrit for code review.
+GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review.
 
 ## Workflow
 
@@ -8,6 +8,10 @@ GerritBot is a tool used for importing GitHub Pull Requests (PRs) into Gerrit fo
 + The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
 + Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
 + Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
+
+## Feedback
+
+Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) and use the `x/build/cmd/gerritbot:` prefix in the title.
 
 ## Frequently Asked Questions
 
@@ -26,3 +30,10 @@ It uses the title and description of the PR to construct the commit message for 
 ### I need a Google account to sign up for Gerrit? Why can't I sign in using my GitHub account?
 
 This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you you already need a Google account to sign our CLA, a requirement for us to accept your contribution in the first place.
+
+## I'd like to add a feature/fix a bug
+
++ If the feature/bug is non-trivial, please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) first
++ The code is located at x/build/cmd/gerritbot
+  ([GitHub](https://github.com/golang/build/tree/master/cmd/gerritbot),
+  [Gerrit](https://go.googlesource.com/build/+/master/cmd/gerritbot/))
