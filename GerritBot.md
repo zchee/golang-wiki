@@ -1,5 +1,13 @@
 GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review.
 
+Table of Contents
+=================
+
++ [Workflow](#workflow)
++ [Feedback and Bug Reports](#feedback-and-bug-reports)
++ [Frequently Asked Questions](#frequently-asked-questions)
++ [I'd like to add a feature/fix a bug](#id-like-to-add-a-featurefix-a-bug)
+
 ## Workflow
 
 + A user can upload a PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
@@ -9,7 +17,7 @@ GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](
 + Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
 + Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
 
-## Feedback
+## Feedback and Bug Reports
 
 Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) and use the `x/build/cmd/gerritbot:` prefix in the title.
 
