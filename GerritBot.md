@@ -37,7 +37,7 @@ It uses the title and description of the PR to construct the commit message for 
 
 ### I need a Google account to sign up for Gerrit? Why can't I sign in using my GitHub account?
 
-This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you you already need a Google account to sign our CLA, a requirement for us to accept your contribution in the first place.
+This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you already need a Google account to sign our CLA, a requirement for us to accept your contribution in the first place.
 
 ## I'd like to add a feature/fix a bug
 
