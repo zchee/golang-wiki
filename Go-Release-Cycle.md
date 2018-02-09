@@ -197,7 +197,7 @@ Note that if a release is delayed, so is work on the next release.
 
 ## Release Maintenance
 
-A minor release is issued to address one or more critical problem
+A minor release is issued to address one or more critical problems
 for which there is no workaround (typically related to stability or security).
 The only code changes included in the release are the fixes for the specific 
 critical problems.
