@@ -14,6 +14,9 @@ Notably,
 * the part after the colon uses the verb tense + phrase that completes the blank in, *"This change modifies Go to ___________"*
 * lowercase verb after the colon
 * no trailing period
+* keep the subject (first line) as short as possible. ideally under 76 characters or shorter.
+* keep the body wrapped too, also max 76, unless it's really needed (ASCII art, table, or long link)
+* no Markdown
 
 If it's not a complete fix and more is coming, use:
 
@@ -32,3 +35,6 @@ cipher/rot13: add new super secure cipher
 
 Fixes golang/go#1234
 ````
+
+Notably, the first line subject should **not** contain the `x/crypto/` prefix. We only do that for the issue tracker.
+
