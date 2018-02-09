@@ -28,6 +28,7 @@ Here is a list of the groups who are participating.
 - Zagreb, Croatia: Feb 26 6:00 pm at MaMa. [View the meetup](https://www.meetup.com/Golang-ZG/events/247644001/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
 - Joinville, Brazil: Feb 27 7:00 pm at ContaAzul. [View the meetup](https://www.meetup.com/Joinville-Go-Meetup/events/247548485/)
+- Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
