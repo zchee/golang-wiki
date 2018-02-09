@@ -25,6 +25,7 @@ Here is a list of the groups who are participating.
 - Reston, VA, USA: Feb 21 6:45 pm at Comcast. [View the meetup](https://www.meetup.com/Golang-Reston/events/246828702/)
 - San Francisco, CA: Feb 21 6:00 pm at Cloudflare [View the event](https://www.meetup.com/golangsf/events/245472050/)
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
+- Zagreb, Croatia: Feb 26 6:00 pm at MaMa. [View the meetup](https://www.meetup.com/Golang-ZG/events/247644001/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
 - Joinville, Brazil: Feb 27 7:00 pm at ContaAzul. [View the meetup](https://www.meetup.com/Joinville-Go-Meetup/events/247548485/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
