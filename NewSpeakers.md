@@ -40,5 +40,6 @@ Feel free to contact any of us directly.
 - Erik St. Martin, erikstm@microsoft.com, [@erikstmartin](https://twitter.com/erikstmartin)
 - Francesc Campoy, campoy@golang.org, [@francesc](https://twitter.com/francesc)
 - Sameer Ajmani, sameer@google.com, [@Sajma](https://twitter.com/Sajma)
+- Florin Pățan, florinpatan@gmail.com, [@dlsniper](https://twitter.com/dlsniper)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
