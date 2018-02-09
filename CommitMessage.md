@@ -1,6 +1,6 @@
 # Commit messages
 
-Commit messages for Go repos should be formatted as follows:
+Commit messages, also known as CL (changelist) descriptions, for Go repos should be formatted as follows:
 
 ```
 net/http: frob the quux before blarfing
@@ -37,4 +37,9 @@ Fixes golang/go#1234
 ````
 
 Notably, the first line subject should **not** contain the `x/crypto/` prefix. We only do that for the issue tracker.
+
+# Non-normative references
+
+- [Please heed my plea and write good CL descriptions for Go—and for any other project you work on.](https://groups.google.com/d/msg/golang-dev/6M4dmZWpFaI/SyU5Sl4zZLYJ)
+- [The CL description is a public document that explains to the future what has been done and why.](https://groups.google.com/d/msg/golang-dev/s07ZUR8ZDHo/i-rIsknbAwAJ)
 
