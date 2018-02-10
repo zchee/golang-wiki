@@ -52,7 +52,7 @@ As with the previous [Go 1.6](https://github.com/golang/go/wiki/Go-1.6-release-p
 
 #### Resources
 
-A sample slide deck that you can use is [available here](https://talks.godoc.org/github.com/davecheney/go-1.8-release-party/presentation.slide#1) ([source](https://github.com/davecheney/go-1.8-release-party))
+You can use the slide deck that the Go London User Group in London will use. It's [available here](https://talks.godoc.org/github.com/dlsniper/talks/2018/go-1.10-release-party/presentation.slide#1) ([source](https://github.com/dlsniper/talks/tree/master/2018/go-1.10-release-party))
 
 _Please send PR's with corrections/additions_
 
@@ -71,8 +71,9 @@ Well, if you run a Go meetup, you are. It can't be a worldwide release party wit
 #### No, seriously, who's organising this?
 Here are the organisers so far:
 - [Natalie Pistunovich](mailto://natalie.pistunovich@gmail.com) - [@NataliePis](https://twitter.com/nataliepis)
-- [Dave Cheney](mailto://dave@cheney.net) - @davecheney
+- [Dave Cheney](mailto://dave@cheney.net) - [@davecheney](https://twitter.com/davecheney)
 - [João Henrique Machado Silva](mailto://joaoh82@gmail.com) - [@joaoh82](https://twitter.com/joaoh82)
+- [Florin Pățan](mailto://florinpatan@gmail.com) - [@dlsniper](https://twitter.com/dlsniper)
 
 _Want to help? Edit this page and add yourself_
 
