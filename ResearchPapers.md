@@ -139,6 +139,8 @@ Turing Scholars honors thesis
   - [pdf](https://www.dropbox.com/s/7h4ytak39r2pdun/Ashwin_Thesis.pdf?dl=0)
 - Browsix: Bridging the Gap Between Unix and the Browser (Powers, Vilk, Berger)
   - https://arxiv.org/abs/1611.07862
+- Verification of Goroutines using Why3 (Schoolderman)
+  - https://www.ru.nl/publish/pages/769526/marc_schoolderman.pdf
 
 ## 2015
 - Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
