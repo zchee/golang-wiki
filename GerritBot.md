@@ -39,6 +39,10 @@ It uses the title and description of the PR to construct the commit message for 
 
 This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you already need a Google account to sign our CLA, a requirement for us to accept your contribution in the first place.
 
+### I left a reply to a comment in Gerrit but no one but me can see it
+
+Replies to comments in Gerrit are first saved as drafts and need to be published via the “Reply” button. This is to prevent multiple emails per review “session” and is similar to the [pending review workflow](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) in GitHub.
+
 ## I'd like to add a feature/fix a bug
 
 + If the feature/bug is non-trivial, please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) first
