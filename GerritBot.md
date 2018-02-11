@@ -41,7 +41,7 @@ This is a limitation of the infrastructure that runs our Gerrit instances and is
 
 ### I left a reply to a comment in Gerrit but no one but me can see it
 
-Replies to comments in Gerrit are first saved as drafts and need to be published via the “Reply” button. This is to prevent multiple emails per review “session” and is similar to the [pending review workflow](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) in GitHub.
+Replies to comments on code in Gerrit are first saved as drafts and need to be published via the “Reply” button. This is to prevent multiple emails per review “session” and is similar to the [pending review workflow](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) in GitHub. If you see a number next to the “Reply” text in the button, this means you have pending drafts to publish.
 
 ## I'd like to add a feature/fix a bug
 
