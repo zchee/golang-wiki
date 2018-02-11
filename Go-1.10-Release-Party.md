@@ -21,6 +21,7 @@ Here is a list of the groups who are participating.
 - London, UK: Feb 15 6:30 pm at Shazam. [View the meetup](https://www.meetup.com/Go-London-User-Group/events/247343552/)
 - Paris, France: Feb 15 7:15 pm at Mobiskill. [View the meetup](https://www.meetup.com/Golang-Paris/events/247526552)
 - Orlando, FL, United States: Feb 19 7:00 PM at Familab. [View the meetup](https://www.meetup.com/OrlanGo/)
+- Jakarta, Indonesia: Feb 20 7:00pm at Hacktiv8. [View the event](https://www.meetup.com/GoJakarta/events/247559760/)
 - Tokyo, Japan: Feb 20 7:00 pm at Google Tokyo. [View the event](https://gocon.connpass.com/event/78128/)
 - Reston, VA, USA: Feb 21 6:45 pm at Comcast. [View the meetup](https://www.meetup.com/Golang-Reston/events/246828702/)
 - San Francisco, CA: Feb 21 6:00 pm at Cloudflare [View the event](https://www.meetup.com/golangsf/events/245472050/)
