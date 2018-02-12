@@ -25,6 +25,7 @@ Here is a list of the groups who are participating.
 - Tokyo, Japan: Feb 20 7:00 pm at Google Tokyo. [View the event](https://gocon.connpass.com/event/78128/)
 - Reston, VA, USA: Feb 21 6:45 pm at Comcast. [View the meetup](https://www.meetup.com/Golang-Reston/events/246828702/)
 - San Francisco, CA: Feb 21 6:00 pm at Cloudflare [View the event](https://www.meetup.com/golangsf/events/245472050/)
+- Phoenix, AZ, United States: Feb 22 6:30 PM at Galvanize. [View the meetup](https://www.meetup.com/Golang-Phoenix/events/247751393/)
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
 - Okayama, Japan: Feb 23 7:00 pm at Okayama Aoe, Kurashiki Coffee. [View the event](https://connpass.com/event/79528/)
 - Bengaluru, India: Feb 24 10:00 am at OpenEBS Office Space. [View the meetup](https://www.meetup.com/Golang-Bangalore/events/247344493/)
