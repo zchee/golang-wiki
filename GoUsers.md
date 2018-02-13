@@ -502,6 +502,9 @@
 ## Ukraine
   * [Agilites](https://agilites.com)
   * [ElifTech](http://www.eliftech.com)
+  * [iLighten](https://ilighten.com/)
+  * [QArea](https://qarea.com/)
+  * [Diligences](https://diligences.com/)
 
 ## United Kingdom
   * [A1comms](https://www.a1comms.com/)
