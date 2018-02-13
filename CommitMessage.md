@@ -43,3 +43,9 @@ Notably, the first line subject should **not** contain the `x/crypto/` prefix. W
 - [Please heed my plea and write good CL descriptions for Go—and for any other project you work on.](https://groups.google.com/d/msg/golang-dev/6M4dmZWpFaI/SyU5Sl4zZLYJ)
 - [The CL description is a public document that explains to the future what has been done and why.](https://groups.google.com/d/msg/golang-dev/s07ZUR8ZDHo/i-rIsknbAwAJ)
 
+# GitHub Pull Requests
+
+If you're using GitHub Pull Requests, your commit message is constructed by GerritBot based on your
+PR's title & description. See https://github.com/golang/go/wiki/GerritBot#how-does-gerritbot-determine-the-final-commit-message
+
+If somebody asks you to modify your commit message, you'll need to modify your PR.
