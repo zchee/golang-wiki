@@ -35,7 +35,7 @@ Here is a list of the groups who are participating.
 - Brisbane, Australia: Feb 28 6:00 pm at Jumbo Interactive. [View the meetup](https://www.meetup.com/Brisbane-Golang-Meetup/events/247337741/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
-- Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup)(https://www.meetup.com/Golang-KW/events/247770215/)
+- Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup](https://www.meetup.com/Golang-KW/events/247770215/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
