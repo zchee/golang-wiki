@@ -3,7 +3,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 # Python
 * [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
 * [Rackspace: Making OpenStack-Powered Rackspace Cloud Files Buzz With Hummingbird](https://blog.rackspace.com/making-openstack-powered-rackspace-cloud-files-buzz-with-hummingbird/)
-* [Repustate: From Python to Go: migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
+* [Repustate: From Python to Go: migrating our entire API](https://www.repustate.com/blog/migrating-entire-api-go-python/)
 * [Spacemonkey: Python to Go](https://www.spacemonkey.com/blog/posts/go-space-monkey)
 * [Why I went from Python to Go (and not node.js)](http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs)
 * [How to Convince Your Company to Go With Golang](https://sendgrid.com/blog/convince-company-go-golang/)
