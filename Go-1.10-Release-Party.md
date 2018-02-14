@@ -39,6 +39,7 @@ Here is a list of the groups who are participating.
 - Chicago, IL: Feb 28 6:00pm at Enova. [View the meetup](https://www.meetup.com/Women-Who-Go-Chicago/events/247802512/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
+- Lodz, Poland: Feb 22 6:00 pm at Co/Walk HUB [View the meetup](https://www.meetup.com/Golang-Lodz/events/247802682/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
