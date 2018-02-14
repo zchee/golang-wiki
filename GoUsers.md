@@ -486,6 +486,7 @@
   * [Zanroo](https://www.zanroo.com/)
 
 ## Turkey
+  * [Optimum Yazılım](https://optimumyazilim.com/)
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
   * [AKM Yazılım](http://www.akmyazilim.com/) - [github](https://github.com/akmyazilim)
   * [GramGames](http://gram.gs/)
