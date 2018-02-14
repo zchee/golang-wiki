@@ -27,6 +27,7 @@ Here is a list of the groups who are participating.
 - San Francisco, CA: Feb 21 6:00 pm at Cloudflare [View the event](https://www.meetup.com/golangsf/events/245472050/)
 - Phoenix, AZ, United States: Feb 22 6:30 PM at Galvanize. [View the meetup](https://www.meetup.com/Golang-Phoenix/events/247751393/)
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
+- Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup](https://www.meetup.com/Golang-KW/events/247770215/)
 - Okayama, Japan: Feb 23 7:00 pm at Okayama Aoe, Kurashiki Coffee. [View the event](https://connpass.com/event/79528/)
 - Bengaluru, India: Feb 24 10:00 am at OpenEBS Office Space. [View the meetup](https://www.meetup.com/Golang-Bangalore/events/247344493/)
 - Moscow, Russia: Feb 24 11:30 am at Badoo. [View the meetup](https://golang-moscow.timepad.ru/event/663880/)
@@ -36,7 +37,6 @@ Here is a list of the groups who are participating.
 - Brisbane, Australia: Feb 28 6:00 pm at Jumbo Interactive. [View the meetup](https://www.meetup.com/Brisbane-Golang-Meetup/events/247337741/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
-- Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup](https://www.meetup.com/Golang-KW/events/247770215/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
