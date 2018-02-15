@@ -228,11 +228,10 @@ If you're looking for services that support Go, here's a list to get you started
   - Considering porting Go to a new platform? [Read our porting policy first](PortingPolicy)
   - [Mobile](Mobile)
   - [Ubuntu](Ubuntu)
-  - Windows
+  - [Windows](Windows)
     - [WindowsBuild](WindowsBuild)
     - [WindowsCrossCompiling](WindowsCrossCompiling)
     - [WindowsDLLs](WindowsDLLs)
-    - [WindowsSupport](WindowsSupport)
   - [GoArm](GoArm)
   - [ChromeOS](ChromeOS)
   - [Darwin](Darwin)
