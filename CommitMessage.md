@@ -17,6 +17,7 @@ Notably,
 * keep the subject (first line) as short as possible. ideally under 76 characters or shorter.
 * keep the body wrapped too, also max 76, unless it's really needed (ASCII art, table, or long link)
 * no Markdown
+* we **do not** use `Signed-off-by` lines in Go. Please don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
 
 If it's not a complete fix and more is coming, use:
 
