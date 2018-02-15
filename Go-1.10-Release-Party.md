@@ -28,6 +28,7 @@ Here is a list of the groups who are participating.
 - Phoenix, AZ, United States: Feb 22 6:30 PM at Galvanize. [View the meetup](https://www.meetup.com/Golang-Phoenix/events/247751393/)
 - Warsaw, Poland: Feb 22 7:00 pm at Kawiarnia Crux [View the meetup](https://www.meetup.com/pl-PL/Golang-Warsaw/events/247732050/)
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
+- Aachen, Germany: Feb 22 7:00pm at hosting.de. [View the meetup](https://www.meetup.com/Gophers-Aachen/events/247739398/)
 - Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup](https://www.meetup.com/Golang-KW/events/247770215/)
 - Okayama, Japan: Feb 23 7:00 pm at Okayama Aoe, Kurashiki Coffee. [View the event](https://connpass.com/event/79528/)
 - İzmir, Turkey: Feb 23 7:30 pm at Drunken Duck [View the event](https://www.facebook.com/events/144640862880347/)
