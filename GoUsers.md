@@ -30,6 +30,7 @@
   * [Beauty Date](http://www.beautydate.com.br)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [Coderockr](http://coderockr.com)
+  * [ContaAzul](https://contaazul.com/)
   * [Compufácil](http://compufacil.com.br)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Dropadev](http://dropadev.com) 
