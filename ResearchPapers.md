@@ -1,5 +1,11 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
+- "Revisiting the Vector Space Model: Sparse Weighted Nearest-Neighbor Method for Extreme Multi-Label Classification." (Tatsuhiro Aoshima, Kei Kobayashi, Mihoko Minami)  [arXiv:1802.03938](https://arxiv.org/abs/1802.03938) stat.ML,
+  - [PDF:arXiv:1802.03938-stat.ML](https://arxiv.org/pdf/1802.03938.pdf)
+  - [github.com/hiro4bbh/sticker ](https://github.com/hiro4bbh/sticker)  _"...We have published
+our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
+  - keywords: sticker, machine-learning, classification
+
 - A Static Verification Framework for Message Passing in Go using Behavioural Types (J. Lange, N. Ng, B. Toninho, N. Yoshida)
   - [accepted draft](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf) at [ICSE 2018](https://www.icse2018.org/track/icse-2018-Technical-Papers)
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/godel-checker/), sources: [godel-checker](https://bitbucket.org/MobilityReadingGroup/godel-checker) and [Go frontend](https://github.com/nickng/gospal)
