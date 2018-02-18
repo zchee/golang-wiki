@@ -414,6 +414,13 @@ Sorted by publication date.
     * ISBN: 978-4774183923
     * Reference: http://www.amazon.co.jp/exec/obidos/ASIN/477418392X/
 
+# French
+  * **Programmer en Go - Pourquoi ? Comment ?**
+    * Author: Rudy Rigot
+    * Publication Date: 24 Jan 2018
+    * ISBN: 978-2-8227-0660-5
+    * Reference: https://www.d-booker.fr/go-bases/499-programmer-en-go-pourquoi-comment.html
+
 # German
   * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
