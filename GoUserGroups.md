@@ -26,7 +26,7 @@
   * [Golang Pune](https://plus.google.com/communities/103673348666338246281) - Pune, India.
   * [Golang Israel](http://www.meetup.com/Go-Israel) - Israel.
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - [Meetup](http://www.meetup.com/golangsg/) - Singapore.
-  * [GoJakarta](http://www.meetup.com/GoJakarta) - Jakarta, Indonesia.
+  * [GoJakarta](https://gophers.id/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
 
