@@ -25,7 +25,7 @@ The same page also lists past conferences with links to talk videos.
 
 Right now, these conferences are looking for new speakers:
 
-- [GothamGo, New York](https://www.papercall.io/gothamgo2018), April 27, 2018. Proposals due February 20.
+- [GothamGo, New York](https://www.papercall.io/gothamgo2018), April 27, 2018. Proposals due February 23.
 - [GopherCon Singapore](https://www.papercall.io/gopherconsg-2018), May 4, 2018. Proposals due February 28.
 - [GopherCon Iceland](https://www.papercall.io/gophercon-iceland), June 1-2, 2018. Proposals due March 3.
 - [GopherCon, Denver](https://www.papercall.io/gophercon2018), August 28-29, 2018. Proposals due March 15.
