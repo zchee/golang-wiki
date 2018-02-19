@@ -39,6 +39,7 @@ Here is a list of the groups who are participating.
 - Yoshkar-Ola, Russia: Feb 24 14:00 am at iSpring. [View the meetup](https://golang-yoshar-ola.timepad.ru/event/667643/)
 - Zagreb, Croatia: Feb 26 6:00 pm at MaMa. [View the meetup](https://www.meetup.com/Golang-ZG/events/247644001/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
+- Baltimore, MD: Feb 27 06:30pm at ZeroFOX. [View the meetup](https://www.meetup.com/BaltimoreGolang/events/247958575/)
 - Joinville, Brazil: Feb 27 7:00 pm at ContaAzul. [View the meetup](https://www.meetup.com/Joinville-Go-Meetup/events/247548485/)
 - Brisbane, Australia: Feb 28 6:00 pm at Jumbo Interactive. [View the meetup](https://www.meetup.com/Brisbane-Golang-Meetup/events/247337741/)
 - Frankfurt, Germany: Feb 28 6:30 pm at SANID GmbH, [View the meetup](https://www.meetup.com/gophers-frm/events/247776234/)
