@@ -203,6 +203,12 @@ Sorted by publication date.
   * ISBN: 978-1788394185
   * Reference: https://www.packtpub.com/web-development/isomorphic-go
 
+* **Security with Go**
+  * Author: John Daniel Leon
+  * Publication Date: January 2018
+  * ISBN: 978-1788627917
+  * Reference: https://www.amazon.com/dp/1788627911
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
