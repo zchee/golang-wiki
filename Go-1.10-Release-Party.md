@@ -32,6 +32,7 @@ Here is a list of the groups who are participating.
 - Santiago, Chile: Feb 22 7:00 pm at Mercado Libre Chile. [View the meetup](https://www.meetup.com/golang-chile/events/247511315/)
 - Aachen, Germany: Feb 22 7:00pm at hosting.de. [View the meetup](https://www.meetup.com/Gophers-Aachen/events/247739398/)
 - Waterloo, Canada: Feb 22 7:00pm at the Lion Brewery in the Heuther Hotel. [View the meetup](https://www.meetup.com/Golang-KW/events/247770215/)
+- Lodz, Poland: Feb 22 6:00 pm at Co/Walk HUB [View the meetup](https://www.meetup.com/Golang-Lodz/events/247802682/)
 - İzmir, Turkey: Feb 23 7:30 pm at Drunken Duck [View the event](https://www.facebook.com/events/144640862880347/)
 - Milan, Italy: Feb 23 8:00 pm at Venini42 [View the event](https://www.meetup.com/it-IT/Golang-Milano/events/247741405/)
 - Bengaluru, India: Feb 24 10:00 am at OpenEBS Office Space. [View the meetup](https://www.meetup.com/Golang-Bangalore/events/247344493/)
@@ -45,9 +46,9 @@ Here is a list of the groups who are participating.
 - Brisbane, Australia: Feb 28 6:00 pm at Jumbo Interactive. [View the meetup](https://www.meetup.com/Brisbane-Golang-Meetup/events/247337741/)
 - Frankfurt, Germany: Feb 28 6:30 pm at SANID GmbH, [View the meetup](https://www.meetup.com/gophers-frm/events/247776234/)
 - Chicago, IL: Feb 28 6:00pm at Enova. [View the meetup](https://www.meetup.com/Women-Who-Go-Chicago/events/247802512/)
+- Fort Lauderdale, FL: Mar 1 6:30 pm at Microsoft, [View the meetup](https://www.meetup.com/Go-Miami/events/247987413/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
-- Lodz, Poland: Feb 22 6:00 pm at Co/Walk HUB [View the meetup](https://www.meetup.com/Golang-Lodz/events/247802682/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
