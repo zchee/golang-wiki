@@ -4,7 +4,8 @@ Go on NetBSD is not stable as of Go 1.8/Go 1.9. See https://tip.golang.org/doc/g
 
 | **Kernel version**    | **Architectures** | **Initial support version** | **Final support version** |
 |:----------------------|:------------------|:----------------------------|:--------------------------|
-| 7.0 or above          | amd64, arm, 386   | Go 1.3 _*_                  |                           |
+| 8.0 or above          | amd64, arm, 386   |                             |                           |
+| 7.0                   | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 6.0 through 6.1       | amd64, arm, 386   | Go 1.3 _*_                  |                           |
 | 5.0 through 5.2 (EOL) | amd64, 386        | Go 1                        | Go 1.2.2                  |
 
