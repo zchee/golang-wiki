@@ -22,7 +22,7 @@ Go only supports OS X 10.8 (Mountain Lion) or newer. We only have builders for 1
 
 ### [OpenBSD](OpenBSD)
 
-The current officially supported -stable versions only. See https://golang.org/wiki/OpenBSD for details.
+The current officially supported -stable versions only.
 
 ### [DragonFly BSD](DragonFly-BSD)
 
@@ -30,7 +30,7 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 ### [FreeBSD](FreeBSD)
 
-FreeBSD 10 and up according to https://golang.org/doc/install.
+FreeBSD 10 or higher, but FreeBSD 12-CURRENT is [not supported](https://github.com/golang/go/issues/22447).
 We only run builders testing FreeBSD 10.3 and 11.1.
 
 ### [NetBSD](NetBSD)
