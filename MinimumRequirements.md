@@ -16,9 +16,8 @@ Windows XP (w/ Service Pack 3) or higher. We also test Windows Server 2008 R2, 2
 
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
-macOS Sierra (10.12) requires Go 1.7.1. We have not yet (as of 2016-09-23) backported the time system call fixes to any earlier Go versions. See https://github.com/golang/go/issues/16352.
-
-Go only supports OS X 10.8 (Mountain Lion) or newer. We only have builders for 10.10, and 10.11 as of 2018-02-16.
+macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
+Go only supports OS X 10.8 Mountain Lion or newer. We only have builders for 10.10, and 10.11 as of 2018-02-16.
 
 ### [OpenBSD](OpenBSD)
 
