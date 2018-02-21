@@ -57,7 +57,7 @@ type Request struct { ...
 func Encode(w io.Writer, req *Request) { ...
 ```
 
-and so on. Note that there are other symbols except a period that can be a valid end of sentence (at least !, ?). Apart from there are many tools (like easyjson:json and golint's MATCH) that use comments to mark types and methods. These all does this rule a hard to formalize.
+and so on. Note that there are other symbols except a period that can be a valid end of sentence (at least !, ?). Apart from there are many tools that use comments to mark types and methods (like easyjson:json and golint's MATCH). It makes this rule a hard to formalize.
 
 ## Contexts
 
