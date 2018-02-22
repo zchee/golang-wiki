@@ -9,6 +9,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [How to Convince Your Company to Go With Golang](https://sendgrid.com/blog/convince-company-go-golang/)
 * [5 Reasons Why We switched from Python To Go](https://medium.com/@tigranbs/5-reasons-why-we-switched-from-python-to-go-4414d5f42690)
 * [Stream: Why we switched from Python to Go](https://getstream.io/blog/switched-python-go)
+* [Code Migration in Production: Rewriting the Sharding Layer of Uber’s Schemaless Datastore](https://eng.uber.com/schemaless-rewrite/)
 
 # Node
 
