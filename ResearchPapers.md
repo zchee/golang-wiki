@@ -1,5 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
+- "Inferring and Asserting Distributed System Invariants" (Stewart Grant, Hendrik Cech, Ivan Beschastnikh) ICSE 2018 Technical Papers
+  - [pdf](https://www.cs.ubc.ca/~bestchai/papers/dinv-icse18.pdf)
+  - [bitbucket.org/bestchai/dinv/](https://bitbucket.org/bestchai/dinv/) _"DInv is a distributed system data invariant detector"_  ; _"DInv is written in go lang"_ 
+
 - "Revisiting the Vector Space Model: Sparse Weighted Nearest-Neighbor Method for Extreme Multi-Label Classification." (Tatsuhiro Aoshima, Kei Kobayashi, Mihoko Minami)  [arXiv:1802.03938](https://arxiv.org/abs/1802.03938) stat.ML,
   - [PDF:arXiv:1802.03938-stat.ML](https://arxiv.org/pdf/1802.03938.pdf)
   - [github.com/hiro4bbh/sticker ](https://github.com/hiro4bbh/sticker)  _"...We have published
