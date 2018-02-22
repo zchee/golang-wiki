@@ -40,6 +40,7 @@ Here is a list of the groups who are participating.
 - Moscow, Russia: Feb 24 11:30 am at Badoo. [View the meetup](https://golang-moscow.timepad.ru/event/663880/)
 - Yoshkar-Ola, Russia: Feb 24 14:00 am at iSpring. [View the meetup](https://golang-yoshar-ola.timepad.ru/event/667643/)
 - Zagreb, Croatia: Feb 26 6:00 pm at MaMa. [View the meetup](https://www.meetup.com/Golang-ZG/events/247644001/)
+- Edmonton, Canada: Feb 26 6:30 pm at Startup Edmonton [View the meetup](https://www.meetup.com/startupedmonton/events/247825453/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
 - Stockholm, Sweden: Feb 27 17:30 at Betalo. [View the meetup](https://www.meetup.com/Go-Stockholm/events/247955211/)
 - Baltimore, MD: Feb 27 06:30pm at ZeroFOX. [View the meetup](https://www.meetup.com/BaltimoreGolang/events/247958575/)
