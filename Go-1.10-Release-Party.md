@@ -16,6 +16,7 @@ Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
 Here is a list of the groups who are participating.
+- Madrid, Spain: Feb 8 7:30 pm at [source{d}](https://sourced.tech). [View the event](https://www.meetup.com/go-mad/events/247296417/)
 - Copenhagen, Denmark: Feb 15 7:00 pm at Maersk. [View the meetup](https://www.meetup.com/Go-Cph/events/242615767/)
 - Minsk, Belarus: Feb 15 7:00 pm at SPACE. [View the event](https://www.facebook.com/events/202545833823265/)
 - London, UK: Feb 15 6:30 pm at Shazam. [View the meetup](https://www.meetup.com/Go-London-User-Group/events/247343552/)
