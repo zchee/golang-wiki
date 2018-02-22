@@ -10,6 +10,8 @@ We don't support CentOS 5. The kernel is too old (2.6.18).
 
 For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](https://golang.org/issue/16848). 
 
+If you are using tinyconfig (e.g. make tinyconfig) for embedded systems, you will also almost certainly enable printk in the kernel as well as a console; we will not include those generic options here. For Go, you must also enable CONFIG_FUTEX.
+
 ### [Windows](Windows)
 
 Windows XP (w/ Service Pack 3) or higher. We also test Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8, and Windows 10.
