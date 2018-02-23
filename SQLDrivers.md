@@ -29,7 +29,7 @@ Drivers for Go's sql package include:
   * **QL**: http://godoc.org/github.com/cznic/ql/driver
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
-  * **Postgres** (pure Go): https://github.com/jackc/pgx
+  * **Postgres** (pure Go): https://github.com/jackc/pgx ` [**] `
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
   * **Snowflake** (pure Go): https://github.com/snowflakedb/gosnowflake
   * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
@@ -39,4 +39,5 @@ Drivers for Go's sql package include:
   * **Vitess**: https://godoc.org/github.com/youtube/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
 
-Drivers marked with a ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test
+Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.  
+Drivers marked with ` [**] ` pass the compatibility test suite but are not currently included in it.
