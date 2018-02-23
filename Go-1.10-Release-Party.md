@@ -2,7 +2,7 @@
 To celebrate the release of Go 1.10 we're to organising a world wide release party during the month of February 2018 🎉 
 
 #### So what is the release date?
-According to the [Go Docs](https://tip.golang.org/doc/go1.10): Go 1.10 is expected to be released in February 2018.
+Go 1.10 was released on February 16.
 
 ### Sounds awesome, how can you get involved?
 - If you host a Go user group or meetup, schedule a meetup during February, and celebrate with Gophers around the world.
