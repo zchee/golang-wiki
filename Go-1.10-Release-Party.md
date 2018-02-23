@@ -38,7 +38,7 @@ Here is a list of the groups who are participating.
 - Milan, Italy: Feb 23 8:00 pm at Venini42 [View the event](https://www.meetup.com/it-IT/Golang-Milano/events/247741405/)
 - Bengaluru, India: Feb 24 10:00 am at OpenEBS Office Space. [View the meetup](https://www.meetup.com/Golang-Bangalore/events/247344493/)
 - Moscow, Russia: Feb 24 11:30 am at Badoo. [View the meetup](https://golang-moscow.timepad.ru/event/663880/)
-- Yoshkar-Ola, Russia: Feb 24 14:00 am at iSpring. [View the meetup](https://golang-yoshar-ola.timepad.ru/event/667643/)
+- Yoshkar-Ola, Russia: Feb 24 2:00 pm at iSpring. [View the meetup](https://golang-yoshar-ola.timepad.ru/event/667643/)
 - Zagreb, Croatia: Feb 26 6:00 pm at MaMa. [View the meetup](https://www.meetup.com/Golang-ZG/events/247644001/)
 - Edmonton, Canada: Feb 26 6:30 pm at Startup Edmonton [View the meetup](https://www.meetup.com/startupedmonton/events/247825453/)
 - Berlin, Germany: Feb 26 7:00 pm at n26. [View the meetup](https://www.meetup.com/golang-users-berlin/events/247289781/)
