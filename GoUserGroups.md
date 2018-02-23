@@ -90,6 +90,7 @@
   * [Meetup Edinburgh](https://www.meetup.com/Edinburgh-Golang-meetup/) - Edinburgh, UK
   * [Münster Gophers](https://www.meetup.com/de-DE/Munster-Gophers/) - Münster, Germany
   * [Vienna.go - Vienna Go User Group](https://www.meetup.com/Vienna-go-Vienna-Go-User-Group/events/242583645/) - Vienna, Austria
+  * [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/) - Sofia, Bulgaria 🇧🇬 
 
 # North America
 
