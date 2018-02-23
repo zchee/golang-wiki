@@ -20,7 +20,7 @@ To keep this simple just create a folder called "gocode" in your downloads folde
 Either type the following into your shell each session or if you want it to be persistent between sessions add it to your "~/.bashrc" file. The last line remounts your user folder so that you can run your go code other wise you would get permission errors.
 ```
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=~/Downloads/gocode
+export GOPATH=~/Downloads/go
 export PATH=$PATH:$GOPATH/bin
 sudo mount -i -o remount,exec /home/chronos/user/
 ```
