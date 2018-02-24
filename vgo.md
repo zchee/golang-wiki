@@ -35,7 +35,8 @@ These are threads that have been created from the initial reference manifest for
 ### Blog posts
 
 - [Thoughts on vgo and dep](https://sdboyer.io/blog/vgo-and-dep/)
-- [Semantic Import Versioning in the wild](http://blog.ezyang.com/2018/02/semantic-import-versioning-in-the-wild/) (blogpost).
+- [Exploring vgo](https://www.calhoun.io/exploring-vgo/)
+- [Semantic Import Versioning in the wild](http://blog.ezyang.com/2018/02/semantic-import-versioning-in-the-wild/) (blogpost)
 
 ***
 
