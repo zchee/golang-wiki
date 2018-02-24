@@ -1,4 +1,4 @@
-GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review. It was created because the Go team does all its reviews in Gerrit, but we'd like to allow a more common workflow for contributing code via Github PRs.
+GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review. It was created because the Go team does all its reviews in Gerrit, but we'd like to allow a more common workflow for contributing code via GitHub PRs.
 
 Table of Contents
 =================
