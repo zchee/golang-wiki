@@ -17,6 +17,8 @@ The **reference implementation**: [https://go.googlesource.com/vgo/](https://go.
 
 The **[Go issue tracker](https://golang.org/issues)** will be used to track bugs / feature requests for vgo. The issues will need to start with ` x/vgo ` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
 
+***
+
 ### Current state
 
 Currently vgo is in active development / prototype phase. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it, and contribute to it.
@@ -24,6 +26,8 @@ Currently vgo is in active development / prototype phase. It has some rough edge
 For any production workloads, use [dep](https://github.com/golang/dep), or migrate to it if you have not done so already.
 
 vgo will be merged in the Go tree and replace dep at a later date.
+
+***
 
 ### Comment Threads
 
