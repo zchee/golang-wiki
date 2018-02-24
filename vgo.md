@@ -10,9 +10,9 @@
 
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
-### Initial reference manifesto
+### Initial reference paper
 
-The initial manifesto can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
+The initial paper can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
 
 ### Comment Threads
 
