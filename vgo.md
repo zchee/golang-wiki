@@ -19,7 +19,7 @@ The **[Go issue tracker](https://golang.org/issues)** will be used to track bugs
 
 ### Current state
 
-Currently vgo is in active development / prototype phase. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it.
+Currently vgo is in active development / prototype phase. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it, and contribute to it.
 
 For any production workloads, use [dep](https://github.com/golang/dep), or migrate to it if you have not done so already.
 
