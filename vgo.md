@@ -50,7 +50,7 @@ These are threads that have been created from the initial reference manifest for
 
 ### Videos
 
-[Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) With Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
+- [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) With Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
 
 ***
 
