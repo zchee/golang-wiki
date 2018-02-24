@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Initial manifest](#initial-reference-manifest)
+* [Initial manifest](#initial-reference-manifesto)
 * [Comment Threads](#comment-threads)
 * [Blog posts](#blog-posts)
 * [Videos](#videos)
@@ -10,9 +10,9 @@
 
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
-### Initial reference manifest
+### Initial reference manifesto
 
-The initial manifest can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
+The initial manifesto can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
 
 ### Comment Threads
 
@@ -40,8 +40,7 @@ These are threads that have been created from the initial reference manifest for
 
 ### Questions
 
-| Questions | Answers |
+| Question | Answer |
 | ------------- | ------------- |
 | Hitting GitHub API rate limits? | Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955) |
 | How does vgo handles dependencies of older, discarded versions [https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033) | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
-
