@@ -1,5 +1,3 @@
-# VGO
-
 ## Table of Contents
 
 * [Initial reference paper](#initial-reference-paper)
