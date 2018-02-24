@@ -1,6 +1,6 @@
 ## Table of Contents
 
-* [Initial reference paper](#initial-reference-paper)
+* [Initial paper](#initial-paper)
 * [Comment Threads](#comment-threads)
 * [Blog posts](#blog-posts)
 * [Videos](#videos)
@@ -8,11 +8,11 @@
 
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
-### Initial reference paper
+### Initial paper
 
-**The initial paper** can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
+The **initial paper** can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
 
-The **reference implementation** is done here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
+The **reference implementation**: [https://go.googlesource.com/vgo/](https://go.googlesource.com/vgo/) and mirrored on Github here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
 
 The **[Go issue tracker](https://golang.org/issues)** will be used to track bugs / feature requests for vgo. The issues will need to start with ` x/vgo ` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
 
