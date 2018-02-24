@@ -2,7 +2,8 @@
 
 ## Table of Contents
 
-* [Initial manifest](#initial-reference-manifesto)
+* [Initial reference paper](#initial-reference-paper)
+* [Issue tracker](#issue-tracker)
 * [Comment Threads](#comment-threads)
 * [Blog posts](#blog-posts)
 * [Videos](#videos)
@@ -13,6 +14,12 @@ This document collects thoughts and notes about vgo from the Gophers [#vgo](http
 ### Initial reference paper
 
 The initial paper can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
+
+The reference implementation is done here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
+
+### Issue tracker
+
+The [Go issue tracker](https://golang.org/issues) will be used to track bugs / feature requests for vgo. The issues will need to start with ` x/vgo ` for now. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
 
 ### Comment Threads
 
