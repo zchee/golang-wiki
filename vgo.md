@@ -1,6 +1,7 @@
 ## Table of Contents
 
 * [Initial paper](#initial-paper)
+* [Current state](#current-state)
 * [Comment Threads](#comment-threads)
 * [Blog posts](#blog-posts)
 * [Videos](#videos)
