@@ -1,10 +1,20 @@
 # VGO
 
+## Table of Contents
+
+* [Initial manifest](#initial-reference-manifest)
+* [Comment Threads](#comment-threads)
+* [Blog posts](#blog-posts)
+* [Videos](#videos)
+* [Questions](#questions)
+
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
-**Initial reference manifest:** [https://research.swtch.com/vgo](https://research.swtch.com/vgo)
+### Initial reference manifest
 
-### Comment threads
+The initial manifest can be read here [https://research.swtch.com/vgo](https://research.swtch.com/vgo).
+
+### Comment Threads
 
 These are threads that have been created from the initial reference manifest for vgo:
 
@@ -13,19 +23,25 @@ These are threads that have been created from the initial reference manifest for
 - **HackerNews posts:** https://news.ycombinator.com/from?site=swtch.com
 - **Reddit:** https://www.reddit.com/domain/research.swtch.com/
 
+***
+
 ### Blog posts
 
 - [Thoughts on vgo and dep](https://sdboyer.io/blog/vgo-and-dep/)
 - [Semantic Import Versioning in the wild](http://blog.ezyang.com/2018/02/semantic-import-versioning-in-the-wild/) (blogpost).
 
+***
+
 ### Videos
 
 [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) With Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
 
-### Questions:
+***
 
--Q: Hitting GitHub API rate limits? 
-  - A: Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955)
-- Q: How does vgo handles dependencies of older, discarded versions [https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)
-  - A: [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection)
+### Questions
+
+| Questions | Answers |
+| ------------- | ------------- |
+| Hitting GitHub API rate limits? | Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955) |
+| How does vgo handles dependencies of older, discarded versions [https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033) | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
 
