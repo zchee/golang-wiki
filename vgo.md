@@ -24,7 +24,8 @@ These are threads that have been created from the initial reference manifest for
 
 ### Questions:
 
-- Q: how vgo handles dependencies of older, discarded versions: [https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)
-  - A: [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection)
 -Q: Hitting GitHub API rate limits? 
-  - Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955)
+  - A: Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955)
+- Q: How does vgo handles dependencies of older, discarded versions [https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)
+  - A: [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection)
+
