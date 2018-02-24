@@ -790,6 +790,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-proj-4](https://github.com/pebbe/go-proj-4) - An interface to the Cartographic Projections Library PROJ.4
   * [go-kml](https://github.com/twpayne/go-kml) - Google Earth KML generation
   * [go-polyline](https://github.com/twpayne/go-polyline) - Google Maps polyline encoding and decoding
+  * [orb](https://github.com/paulmach/orb) - 2d geometry manipulation (length, area, polygon contains, etc.) with geojson, wkb, mvt support
+  * [osm](https://github.com/paulmach/osm) - General purpose library for reading, writing and working with OpenStreetMap data
   * [UTM](https://github.com/im7mortal/UTM) - Bidirectional UTM-WGS84 converter
 
 ## Go Implementations
