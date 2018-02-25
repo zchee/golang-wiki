@@ -526,6 +526,7 @@
   * [Monzo](https://monzo.com/) - [github](https://github.com/monzo), [blog](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
   * [Pusher](https://pusher.com) - [github](https://github.com/pusher) [blog](https://blog.pusher.com)
+  * [Ravelin](https://www.ravelin.com/)
   * [Restorepoint](http://www.restorepoint.com)
   * [Ryanair](http://www.ryanair.com) - [source](https://youtu.be/CWCHT3GClMM?t=15m)
   * [Sainsbury's](http://www.sainsburys.co.uk)
