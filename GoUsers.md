@@ -136,6 +136,7 @@
 ## France
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
+  * [Containo.us](https://containo.us/)
   * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
