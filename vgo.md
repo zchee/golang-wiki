@@ -59,4 +59,5 @@ These are threads that have been created from the initial reference manifest for
 | Question | Answer |
 | ------------- | ------------- |
 | Hitting GitHub API rate limits? | Create a token and add it to .netrc, see [related issue](https://golang.org/issues/23955) |
-| How does vgo handles dependencies of older, discarded versions [link](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033) | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
+| How does vgo handles dependencies of older, discarded versions [link](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)? | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
+| Why are major versions in import paths? | https://groups.google.com/forum/#!topic/golang-dev/Plc42fslQEk |
