@@ -15,7 +15,7 @@ The **initial paper** can be read here [https://research.swtch.com/vgo](https://
 
 The **reference implementation**: [https://go.googlesource.com/vgo/](https://go.googlesource.com/vgo/) and mirrored on Github here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
 
-The **[Go issue tracker](https://golang.org/issues)** is used to track bugs / feature requests for vgo. The issues need to start with ` x/vgo ` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
+The **[Go issue tracker](https://golang.org/issues)** is used to track bugs / feature requests for vgo. The issue titles need to start with `x/vgo` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
 
 ***
 
