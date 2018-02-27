@@ -490,19 +490,17 @@
   * [Zanroo](https://www.zanroo.com/)
 
 ## Turkey
-  * [Optimum Yazılım](https://optimumyazilim.com/)
-  * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
   * [AKM Yazılım](http://www.akmyazilim.com/) - [github](https://github.com/akmyazilim)
   * [GramGames](http://gram.gs/)
   * [Insider](http://useinsider.com/)
   * [MaestroPanel](https://www.maestropanel.com/) - [github](https://github.com/maestropanel)
+  * [Mentornity, Inc.](https://mentornity.com/) - Backend API
   * [Metglobal](http://www.metglobal.com) - [github](https://github.com/metglobal)
   * [Mos Teknoloji](http://www.mosteknoloji.com)
+  * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
-  * [Mentornity, Inc.](https://mentornity.com/) - Backend API
-
-
+  * [Optimum Yazılım](https://optimumyazilim.com/)
 
 ## Ukraine
   * [Agilites](https://agilites.com)
