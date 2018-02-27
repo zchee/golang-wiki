@@ -498,9 +498,10 @@
   * [Metglobal](http://www.metglobal.com) - [github](https://github.com/metglobal)
   * [Mos Teknoloji](http://www.mosteknoloji.com)
   * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
+  * [Optimum Yazılım](https://optimumyazilim.com/)
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
-  * [Optimum Yazılım](https://optimumyazilim.com/)
+
 
 ## Ukraine
   * [Agilites](https://agilites.com)
