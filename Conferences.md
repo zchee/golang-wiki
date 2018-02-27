@@ -8,6 +8,7 @@ Please keep all items in chronological order.
 |-------|-----------|----------|------------|
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/<br>CFP closed |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>CFP closed | 
+| GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2018 |
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/<br>CFP https://www.papercall.io/gopherconsg-2018 |
 | GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is<br>CFP https://www.papercall.io/gophercon-iceland | 
