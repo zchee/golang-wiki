@@ -178,7 +178,7 @@ Build and run it on the simulator or an actual device (Cmd+R). When the applicat
 
 Note that you can also invoke `GoHelloGreetings` from Swift by importing Hello.
 
-```
+```swift
 @import Hello
 // ...
 let msg = Hello.GoHelloGreetings("gopher")
