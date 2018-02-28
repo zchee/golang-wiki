@@ -51,7 +51,8 @@ These are threads that have been created from the initial reference manifest for
 
 ### Videos
 
-- [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) With Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
+- [Using vgo for Go Dependency Management](https://www.gophersnacks.com/programs/using-vgo-for-go-dependency-management) by Brian Ketelsen
+- [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) with Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
 
 ***
 
