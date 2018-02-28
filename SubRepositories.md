@@ -1,6 +1,6 @@
 These packages are part of the Go Project but outside the main Go tree.
 
-They are developed under looser [compatibility requirements](http://golang.org/doc/go1compat.html) than the Go core.
+They are developed under looser [compatibility requirements](http://golang.org/doc/go1compat.html) than the Go core.  In general, they will support the previous two releases and tip.
 
 Install them with "go get".
 
