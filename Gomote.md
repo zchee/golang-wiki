@@ -99,3 +99,8 @@ Testing golang.org/x/sys/unix on $MOTE
 $ tar -C $GOPATH/src/ -zc golang.org/x/sys/unix | gomote puttar -dir=gopath/src $MOTE
 $ gomote run -e 'GOPATH=/tmp/workdir/gopath' $MOTE go/bin/go test -v golang.org/x/sys/unix
 ```
+
+## About Buildlets
+
+http://farmer.golang.org/builders lists information about how each buildlet is deployed and configured.
+The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
