@@ -4,7 +4,7 @@ This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
 This is a laundry list of common mistakes, not a style guide.
 
-You can view this as a supplement to https://golang.org/doc/effective_go.html.
+You can view this as a supplement to [Effective Go](https://golang.org/doc/effective_go.html).
 
 **Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
