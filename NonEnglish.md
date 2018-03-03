@@ -31,7 +31,7 @@ Some of this documentation may be out of date.
 ## Japanese - 日本語
 
   * [A Tour of Go](http://go-tour-jp.appspot.com/)
-  * [golang.jp](http://golang.jp/) - Go documentation and news.
+  * [CodeReviewComments](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
 
 
 ## Korean - 한국어
