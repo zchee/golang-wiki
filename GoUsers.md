@@ -96,29 +96,30 @@
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
   * [BaishanCloud](https://en.baishancloud.com/)
   * [ByteDance](https://www.bytedance.com)
+  * [Ciprun](http://www.ciprun.com)
   * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [EasyAR](https://www.easyar.com/)
   * [Feiyu](http://www.feiyu.com/)
   * [FunPlus](http://www.funplus.com/en/) - We Create Leading Innovative and Fun Experiences Worldwide
   * [FutureBots](http://www.futurebots.cn/)
+  * [iDCOS](http://www.idcos.com/)
+    - [CloudBoot](http://www.idcos.com/products/cloudboot)
   * [Kidswant](https://www.haiziwang.com/)
+  * [KLOOK](https://www.klook.com/)
   * [MegaEase](http://www.megaease.com/)
+  * [Mili](https://5imili.github.io)
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
   * [OPPO](https://www.oppo.com)
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [TiDB](https://www.pingcap.com/en/) - [tweet: Golang in TiDB](https://twitter.com/PingCAP/status/940503487086858240) - [github](https://github.com/pingcap/tidb) - TiDB is a distributed HTAP database compatible with the MySQL protocol
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
-  * [Xunlei](http://www.xunlei.com/)
   * [Xiaoying](https://www.xiaoying.com/)
+  * [Xunlei](http://www.xunlei.com/)
+  * [YeePay](http://www.yeepay.com)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
-  * [KLOOK](https://www.klook.com/)
-  * [iDCOS](http://www.idcos.com/)
-    - [CloudBoot](http://www.idcos.com/products/cloudboot)
-  * [YeePay](http://www.yeepay.com)
-  * [Ciprun](http://www.ciprun.com)
-  * [Mili](https://5imili.github.io)
+
 ## Croatia
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
