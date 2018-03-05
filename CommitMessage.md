@@ -16,6 +16,7 @@ Notably,
 * no trailing period
 * keep the subject (first line) as short as possible. ideally under 76 characters or shorter.
 * keep the body wrapped too, also max 76, unless it's really needed (ASCII art, table, or long link)
+* the Fixes/Updates line should be after the body with a blank newline separating the two
 * no Markdown
 * we **do not** use `Signed-off-by` lines in Go. Please don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
 
