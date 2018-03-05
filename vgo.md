@@ -25,7 +25,7 @@ Currently vgo is in active development / prototype phase. It has some rough edge
 
 For any production workloads, use [dep](https://github.com/golang/dep), or migrate to it if you have not done so already.
 
-vgo will be merged in the Go tree and replace dep at a later date.
+vgo will be merged in the Go tree and replace dep at a later date, assuming the proposal is accepted.
 
 ***
 
