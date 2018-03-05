@@ -83,12 +83,12 @@
   * [Apex](https://apex.sh/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Koho](https://www.koho.ca/)
+  * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
+  * [Sendwithus](https://sendwithus.com)
   * [ThinkSquare](https://www.thinksquare.io)
   * [Wattpad](https://www.wattpad.com/)
   * [500px](https://500px.com) - [blog](https://developers.500px.com/how-500px-serves-up-over-500tb-of-high-res-photos-fa81a376c594#.35tz2wtg2) - [github](https://github.com/500px)
-  * [Manifold](https://manifold.co)
-  * [Sendwithus](https://sendwithus.com)
 
 ## Chile
   * [Prey](https://preyproject.com) - [blog](https://preyproject.com/blog) - [github](https://github.com/prey)
