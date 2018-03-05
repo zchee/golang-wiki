@@ -82,6 +82,7 @@
   * [ActiveState](https://activestate.com) - [blog](https://www.activestate.com/blog/2018/03/reproducible-builds-introducing-predictability-your-pipeline) - [github](https://github.com/ActiveState)
   * [Apex](https://apex.sh/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
+  * [Hootsuite](https://hootsuite.com/)
   * [Koho](https://www.koho.ca/)
   * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
