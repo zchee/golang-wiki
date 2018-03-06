@@ -129,7 +129,7 @@
 ## Croatia
   * [GoodCode](http://goodcode.io/)
   * [Kraken](https://krakensystems.co/)
-  * [minus5](https://minus5.hr/)
+  * [minus5](https://minus5.hr/) - [github](https://github.com/minus5)
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
 
