@@ -115,6 +115,7 @@
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
   * [OPPO](https://www.oppo.com)
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+  * [SenseTime](https://www.sensetime.com) - a global leading A.I. company
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [TiDB](https://www.pingcap.com/en/) - [tweet: Golang in TiDB](https://twitter.com/PingCAP/status/940503487086858240) - [github](https://github.com/pingcap/tidb) - TiDB is a distributed HTAP database compatible with the MySQL protocol
   * [Udesk](https://www.udesk.cn/) - [github](https://github.com/udesk)
