@@ -1828,4 +1828,4 @@ The following entries have not been filed. Please help by putting these in relev
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
-  * [one-file-pdf][https://github.com/balacode/one-file-pdf) - A minimalist Go PDF writer in <2K lines and 1 file
+  * [one-file-pdf](https://github.com/balacode/one-file-pdf) - A minimalist Go PDF writer in <2K lines and 1 file
