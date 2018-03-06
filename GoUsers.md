@@ -126,6 +126,7 @@
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
 
 ## Croatia
+  * [Kraken](https://krakensystems.co/)
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
 
