@@ -619,6 +619,7 @@
   * [BuySellAds](https://buysellads.com)
   * [BuzzFeed](https://buzzfeed.com) - [talk](https://go-talks.appspot.com/github.com/jonmorehouse/gateway-golang-talk/main.slide#1)
   * [Byndr](http://www.byndr.org)
+  * [ByteGain](https://bytegain.com/)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA), [email](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
   * [Carmatec](https://www.carmatec.com)
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
