@@ -10,6 +10,7 @@ Go 1.5 has a runtime/debug.WriteHeapDump function that writes all objects in the
 # Details
 
 The file starts with the bytes of the string "go1.5 heap dump\n".
+This description also applies to files starting with "go1.6 heap dump\n" and "go1.7 heap dump\n".  The go1.6 format is identical to 1.5, and the go1.7 format has one small change described below.
 
 The rest of the file is a sequence of records.  Records can be of several different kinds.  Records will contain the following primitives:
   * uvarint - a 64-bit unsigned integer encoded as in encoding/binary.{Put,Read}Uvarint
@@ -58,7 +59,7 @@ The size of the contents string is the size of the containing sizeclass, not the
   * uvarint: address of type descriptor
   * uvarint: size of an object of this type
   * string: name of type
-  * bool: whether the data field of an interface containing a value of this type is a pointer (for Go 1.5 and later, always true)
+  * bool: whether the data field of an interface containing a value of this type has type T (false) or *T (true)
 
 # goroutine (G)
 
@@ -117,6 +118,8 @@ This finalizer has been registered with the runtime system, but the object to wh
 # itab
   * uvarint: Itab address
   * uvarint: address of type descriptor for contained type
+  * * Up to go1.6, the type is always a pointer type, and represents the type of the itab.data field.
+  * * From go1.7 and beyond, the type is the type stored in the interface.  To decide whether the itab.data field is T or *T requires looking at the last boolean in the referenced type's descriptor.
 
 # osthread (M)
   * uvarint: address of this os thread descriptor
