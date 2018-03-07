@@ -125,6 +125,7 @@
   * [YeePay](http://www.yeepay.com)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
+  * [XiaoChuan](https://www.ixiaochuan.cn/)
 
 ## Croatia
   * [GoodCode](http://goodcode.io/)
