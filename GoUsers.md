@@ -128,7 +128,7 @@
   * [XiaoChuan](https://www.ixiaochuan.cn/)
 
 ## Croatia
-  * [GoodCode](http://goodcode.io/)
+  * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
   * [Kraken](https://krakensystems.co/)
   * [minus5](https://minus5.hr/) - [github](https://github.com/minus5)
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
