@@ -169,3 +169,12 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/go-standard-library-solutions-video)]
 
 ***
+* **Machine Learning with Go [Video]**
+   * Author: Daniel Whitenack
+   * Publication Date: February 2018
+   * ISBN: 9781789134735
+   * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-video
+    
+[[video](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-video)]
+
+***
