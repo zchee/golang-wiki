@@ -209,6 +209,12 @@ Sorted by publication date.
   * ISBN: 978-1788627917
   * Reference: https://www.amazon.com/dp/1788627911
 
+* **Go Standard Library Cookbook**
+  * Author: Radomir Sohlich
+  * Publication Date: February 2018
+  * ISBN: 9781788475273
+  * Reference: https://www.amazon.com/dp/1788475275
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
