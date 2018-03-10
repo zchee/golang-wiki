@@ -6,3 +6,4 @@
 * [jsonenums](https://github.com/campoy/jsonenums) – Implements `json.Marshaler` and `json.Unmarshaler` interfaces for enums.
 * [gojson](https://github.com/ChimeraCoder/gojson) - Generates go struct definitions from example json documents.
 * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
+* [goreuse](https://github.com/dc0d/goreuse) - Generates Go code using a package as a generic template by replacing definitions.
