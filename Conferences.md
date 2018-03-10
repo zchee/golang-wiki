@@ -9,13 +9,13 @@ Please keep all items in chronological order.
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/<br>CFP closed |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>CFP closed | 
 | GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
-| GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2018 |
+| GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/<br>CFP https://www.papercall.io/gopherconsg-2018 |
-| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is<br>CFP https://www.papercall.io/gophercon-iceland | 
+| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is | 
 | GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/<br>CFP https://www.gophercon.co.uk/speakers/ |
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | http://gophercon.com<br>CFP https://www.papercall.io/gophercon2018 |
-| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en|
-| GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018|
+| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en |
+| GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
 
 ## Archives
