@@ -205,6 +205,7 @@
   * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
+  * [Instamojo](https://www.instamojo.com/)
   * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
   * [Josh Software](http://www.joshsoftware.com/)
