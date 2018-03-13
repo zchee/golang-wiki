@@ -14,6 +14,9 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - [accepted draft](http://mrg.doc.ic.ac.uk/publications/a-static-verification-framework-for-message-passing-in-go-using-behavioural-types/draft.pdf) at [ICSE 2018](https://www.icse2018.org/track/icse-2018-Technical-Papers)
   - [Tool page](http://mrg.doc.ic.ac.uk/tools/godel-checker/), sources: [godel-checker](https://bitbucket.org/MobilityReadingGroup/godel-checker) and [Go frontend](https://github.com/nickng/gospal)
 
+- Finding The Greedy, Prodigal, and Suicidal Contracts at Scale (Ivica Nikolic, Aashish Kolluri, Ilya Sergey, Prateek Saxena, Aquinas Hobor)
+  - [pdf](https://arxiv.org/abs/1802.06038) "To implement the validating framework, we added a new functionality to the official go-ethereum package [20] which allows us to fork the Ethereum main chain at a block height of our choice."
+
 ## 2017
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
   - [DOI: 10.1109/TRPMS.2017.2780447](https://doi.org/10.1109/TRPMS.2017.2780447)
