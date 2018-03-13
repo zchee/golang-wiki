@@ -453,7 +453,7 @@
 ## Southeast Asia
   * 🇻🇳 [Dwarves Foundation](http://www.dwarvesf.com) - [github](https://github.com/dwarvesf)
   * [engageSPARK](https://www.engagespark.com/) - [HN](https://news.ycombinator.com/item?id=10655752)
-  * [Grab](http://www.grab.co/)
+  * [Grab](http://www.grab.com/)
   * [HealthCo](http://healthcobot.com)
   * [Pocketmath](http://www.pocketmath.com/)
   * [Singapore Power](https://www.spgroup.com.sg/)
