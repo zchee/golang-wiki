@@ -176,6 +176,7 @@
   * [loodse](https://loodse.com/)
   * [Spreadshirt](https://spreadshirt.com)
   * [SoundCloud](https://soundcloud.com) - [blog](https://developers.soundcloud.com/blog/go-at-soundcloud)
+  * [solarisBank](https://solarisbank.com)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
   * [Weaveworks](http://weave.works)
