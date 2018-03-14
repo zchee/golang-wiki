@@ -102,7 +102,7 @@ The wait fields must be present in all cases, but they only mean something if th
   * uvarint: pointer size in bytes
   * uvarint: starting address of heap
   * uvarint: ending address of heap
-  * uvarint: thechar = architecture specifier
+  * string: architecture name
   * string: GOEXPERIMENT environment variable value
   * uvarint: runtime.ncpu
 
