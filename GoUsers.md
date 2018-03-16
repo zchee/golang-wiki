@@ -165,6 +165,7 @@
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
+  * [Doozer](https://www.doozer.de)
   * [eGym](https://www.egym.de/)
   * [ESONO AG](https://www.esono.de/)
   * [Fraugster](https://fraugster.com/)
@@ -180,7 +181,6 @@
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
   * [Weaveworks](http://weave.works)
-  * [Doozer](https://www.doozer.de)
 
 
 ## Hong Kong
