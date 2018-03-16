@@ -181,7 +181,7 @@
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
   * [Weaveworks](http://weave.works)
-  * [Zalando](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
+  * [Zalando SE](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
 
 
 ## Hong Kong
