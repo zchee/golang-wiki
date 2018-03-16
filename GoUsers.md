@@ -165,7 +165,7 @@
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
-  * [Doozer](https://www.doozer.de)
+  * [Doozer](https://www.doozer.de) - [github](https://github.com/doozer-de)
   * [eGym](https://www.egym.de/)
   * [ESONO AG](https://www.esono.de/)
   * [Fraugster](https://fraugster.com/)
