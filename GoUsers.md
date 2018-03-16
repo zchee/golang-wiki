@@ -175,7 +175,7 @@
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [loodse](https://loodse.com/)
-  * [Native Instruments](https://www.native-instruments.de/) - [github](https://github.com/nativeinstruments)
+  * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
   * [Spreadshirt](https://spreadshirt.com)
   * [SoundCloud](https://soundcloud.com) - [blog](https://developers.soundcloud.com/blog/go-at-soundcloud)
   * [solarisBank](https://solarisbank.com)
