@@ -1543,6 +1543,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [forego](https://github.com/unixdj/forego) - Forth virtual machine  
   * [Gelo](http://code.google.com/p/gelo/) - Extensible, embeddable interpreter
   * [GoEmPHP](https://github.com/mikespook/goemphp) - This package is built for Embedding PHP into Go
+  * [Goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation written in Go (otto fork with byte code compiler)
   * [goenv](https://github.com/smyrman/goenv) - Create an isolated environment where you install Go packages, binaries, or even C libraries. Very similar to virtualenv for Python.
   * [GoForth](https://github.com/ArtemTitoulenko/GoForth) - A simple Forth parser
   * [golemon](https://github.com/nsf/golemon) - A port of the Lemon parser-generator
