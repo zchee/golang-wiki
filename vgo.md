@@ -4,8 +4,10 @@
 * [Current state](#current-state)
 * [Comment Threads](#comment-threads)
 * [Blog posts](#blog-posts)
+* [Presentations](#presentations)
 * [Videos](#videos)
 * [Questions](#questions)
+* [Proxies](#proxies)
 
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
@@ -51,6 +53,12 @@ These are threads that have been created from the initial reference manifest for
 
 ### Videos
 
+- [Repeatable Builds with vgo](https://cda.ms/jD)
+
+***
+
+### Videos
+
 - [Using vgo for Go Dependency Management](https://www.gophersnacks.com/programs/using-vgo-for-go-dependency-management) by Brian Ketelsen
 - [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) with Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
 
@@ -64,3 +72,9 @@ These are threads that have been created from the initial reference manifest for
 | How does vgo handles dependencies of older, discarded versions [link](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)? | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
 | Why are major versions in import paths? | https://groups.google.com/forum/#!topic/golang-dev/Plc42fslQEk |
 | How to `go get` so that I can run a program, not download a library? | https://gophers.slack.com/archives/C9BMAAFFB/p1519687366000101 |
+
+***
+
+### Proxies
+
+- [Athens](https://github.com/gomods/athens) - A proxy server for vgo
