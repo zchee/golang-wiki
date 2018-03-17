@@ -182,6 +182,7 @@
   * [solarisBank](https://solarisbank.com)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Sixt](https://www.sixt.com)
+  * [Tourlane](https://www.tourlane.de)
   * [Weaveworks](http://weave.works)
   * [Zalando SE](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
 
