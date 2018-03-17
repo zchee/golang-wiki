@@ -51,7 +51,7 @@ These are threads that have been created from the initial reference manifest for
 
 ***
 
-### Videos
+### Presentations
 
 - [Repeatable Builds with vgo](https://cda.ms/jD)
 
