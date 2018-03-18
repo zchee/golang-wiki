@@ -10,6 +10,7 @@ This page documents recommendations for package authors. These aren't universal 
 
 * [Release tagging](#release-tagging)
 * [Avoid breaking changes](#avoid-breaking-changes)
+  * [Follow the import compatibility rule](#follow-the-import-compatibility-rule)
 * [Meaningful errors](#meaningful-errors)
 * [Logging](#Logging)
 
@@ -20,6 +21,13 @@ Creating releases with specific version numbers helps dependency management tool
 ### Avoid breaking changes
 
 Breaking changes force all consumers of a package to update their code. However, the number of users of a package tends to be far greater than the number of maintainers, even for small packages. Consider the time spent by all those users combined can be far greater than the time the maintainers would spend preventing the change. Only break your API with careful consideration and indicate it clearly with [release tagging](#release-tagging).
+
+#### Follow the import compatibility rule
+
+When a breaking change is deemed necessary, follow the [import compatibility rule](https://research.swtch.com/vgo-intro):
+
+> If an old package and a new package have the same import path,
+> the new package must be backwards-compatible with the old package.
 
 ### Meaningful errors
 
