@@ -638,6 +638,7 @@
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
   * [Channel](https://www.getchannel.co)
   * [Chatlio](https://chatlio.com)
+  * [CircleCI](https://circleci.com)
   * [Circonus](https://www.circonus.com)
   * [Clearblade](http://clearblade.com/) - [github](https://github.com/ClearBlade/Go-SDK)
   * [Clever](https://clever.com/) - [github](https://github.com/clever) [blog](http://engineering.clever.com/)
