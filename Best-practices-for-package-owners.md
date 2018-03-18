@@ -11,7 +11,7 @@ This page documents recommendations for package authors. These aren't universal 
 * [Release tagging](#release-tagging)
 * [Avoid breaking changes](#avoid-breaking-changes)
 * [Meaningful errors](#meaningful-errors)
-* [No logging](#no-logging)
+* [Logging](#Logging)
 
 ### Release tagging
 
@@ -25,6 +25,6 @@ Breaking changes force all consumers of a package to update their code. However,
 
 In Go, [errors are values](https://blog.golang.org/errors-are-values). Errors indicate clearly situations that can be managed by the consumer of the library. If an operation can fail, return an error. Document on each function call what errors it can return and document what each error means and how to deal with it. This is essential for retrying operations, logging problems and overall stability of a program using your library.
 
-### No logging
+### Logging
 
-Each consumer of your library will do logging in a different way. Some will use the standard library logging, some will use logging libraries that extend the capabilities of stdlib logging. Logging can differ in many ways and should not be forced by the library. Provide [meaningful errors](#meaningful-errors) when logging looks like it could be useful and let the user decide what to do. When logging is absolutely necessary, make that clear on your package API using an interface to let the user pass his own logger into the library.
+Favor [meaningful errors](#meaningful-errors) over logging. When logging is necessary, make that clear on your package API using an interface to let the user pass his own logger into the library.
