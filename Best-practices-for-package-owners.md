@@ -12,7 +12,7 @@ This page documents recommendations for package authors. These aren't universal 
 * [Avoid breaking changes](#avoid-breaking-changes)
   * [Follow the import compatibility rule](#follow-the-import-compatibility-rule)
 * [Meaningful errors](#meaningful-errors)
-* [Logging](#Logging)
+* [Logging](#logging)
 
 ### Release tagging
 
