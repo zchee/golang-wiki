@@ -41,6 +41,9 @@ These are threads that have been created from the initial reference manifest for
 - **HackerNews posts:** https://news.ycombinator.com/from?site=swtch.com
 - **Reddit:** https://www.reddit.com/domain/research.swtch.com/
 
+- **vgo & vendoring:** [https://groups.google.com/forum/#!topic/golang-dev/FTMScX1fsYk]
+- **vgo & semantic import versioning** [https://groups.google.com/forum/#!topic/golang-dev/Plc42fslQEk]
+
 ***
 
 ### Blog posts
