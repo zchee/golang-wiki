@@ -442,6 +442,7 @@
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
 
 ## Russia
+* [Acronis](http://acronis.com)
 * [ITooLabs](http://itoolabs.com)
 * [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
 * [Gett](http://gett.com/)
