@@ -1596,6 +1596,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
   * [serve-files](https://github.com/rickb777/servefiles) - Far-future and gzip wrapper around the standard net/http server.
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
+  * [SuperSaaS API Client](https://github.com/SuperSaaS/supersaas-go-api-client) - HTTP client library for the supersaas.com scheduling/bookings/appointments API
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling  
   * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
