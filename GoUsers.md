@@ -446,7 +446,7 @@
 * [ITooLabs](http://itoolabs.com)
 * [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
 * [Gett](http://gett.com/)
-* [2GIS](http://info.2gis.com/)
+* [Tochka](http://tochka.com/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
