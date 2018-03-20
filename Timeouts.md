@@ -1,7 +1,7 @@
 # Timeouts and Deadlines
 
 To abandon synchronous calls that run too long, use the select statement with time.After:
-```
+```go
 import "time"
 
 c := make(chan error, 1)
