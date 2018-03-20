@@ -494,7 +494,7 @@
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
-  * [Centralway Numbrs AG](https://www.centralway.com/en/)
+  * [Centralway Numbrs AG](https://www.centralway.com/uk/)
   * [HolidayCheck](https://www.holidaycheck.ch/)
   * [Perron2 GmbH](http://www.perron2.ch)
   * [Proton Technologies AG](https://protonmail.com)
