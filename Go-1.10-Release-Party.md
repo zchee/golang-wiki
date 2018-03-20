@@ -51,6 +51,7 @@ Here is a list of the groups who are participating.
 - Fort Lauderdale, FL: Mar 1 6:30 pm at Microsoft, [View the meetup](https://www.meetup.com/Go-Miami/events/247987413/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
+- Portland, Oregon: April 24th 6:00 pm at New Relic. [View the meetup](https://www.meetup.com/PDX-Go/events/248938586/) 
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
