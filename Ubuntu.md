@@ -13,10 +13,10 @@ If that's too old for you, try:
 ```
 $ sudo add-apt-repository ppa:gophers/archive
 $ sudo apt-get update
-$ sudo apt-get install golang-1.9-go
+$ sudo apt-get install golang-1.10-go
 ```
 
-> **Note that golang-1.9-go puts binaries in /usr/lib/go-1.9/bin. If you want them on your PATH, you need to make that change yourself.**
+> **Note that golang-1.10-go puts binaries in /usr/lib/go-1.10/bin. If you want them on your PATH, you need to make that change yourself.**
 
 Using snaps also works quite well:
 
