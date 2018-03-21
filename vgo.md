@@ -37,9 +37,9 @@ vgo will be merged in the Go tree and replace dep at a later date, assuming the 
 
 These are threads that have been created from the initial reference manifest for vgo:
 
-- **golang-nuts ML:** [Go += Package Versioning](https://groups.google.com/forum/#!topic/golang-nuts/jFPz5yZCPcQ), [vgo and vendoring](https://groups.google.com/forum/#!topic/golang-dev/FTMScX1fsYk)
+- **golang-nuts ML:** [Go += Package Versioning](https://groups.google.com/forum/#!topic/golang-nuts/jFPz5yZCPcQ)
 
-- **golang-dev ML:** [Go += Package Versioning](https://groups.google.com/d/topic/golang-dev/MNQwgYHMEcY/discussion), [vgo & semantic import versioning](https://groups.google.com/d/topic/golang-dev/Plc42fslQEk/discussion)
+- **golang-dev ML:** [Go += Package Versioning](https://groups.google.com/d/topic/golang-dev/MNQwgYHMEcY/discussion), [vgo & semantic import versioning](https://groups.google.com/d/topic/golang-dev/Plc42fslQEk/discussion), [vgo and vendoring](https://groups.google.com/forum/#!topic/golang-dev/FTMScX1fsYk)
 - **HackerNews posts:** https://news.ycombinator.com/from?site=swtch.com
 - **Reddit:** https://www.reddit.com/domain/research.swtch.com/
 
