@@ -9,4 +9,5 @@ A number of hosted continuous integration platforms have support for Go
 | [Jenkins](https://jenkins-ci.org/) | [docs](https://wiki.jenkins-ci.org/display/JENKINS/Go+Plugin) | |
 | [Magnum CI](https://magnum-ci.com/) | [docs](https://magnum-ci.com/docs/go) |       |
 | [Travis CI](http://travis-ci.org) | [docs](http://docs.travis-ci.com/user/languages/go/) |  [howto](http://loads.pickle.me.uk/2015/08/22/easy-peasy-github-releases-for-go-projects-using-travis/), [go-client-api](https://github.com/AbletonAG/go-travis)     |
+| [VSTS](https://www.visualstudio.com/team-services/) | [docs](https://docs.microsoft.com/en-us/vsts/build-release/apps/go/go) |      |
 | [Wercker](http://wercker.com/) | [docs](http://devcenter.wercker.com/quickstarts/building/golang.html) |    |   |
