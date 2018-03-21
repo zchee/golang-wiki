@@ -53,6 +53,7 @@ These are threads that have been created from the initial reference manifest for
 - [Thoughts on vgo and dep](https://sdboyer.io/blog/vgo-and-dep/)
 - [Exploring vgo](https://www.calhoun.io/exploring-vgo/)
 - [Semantic Import Versioning in the wild](http://blog.ezyang.com/2018/02/semantic-import-versioning-in-the-wild/)
+- [Diving into vgo from the Golang project](https://www.wolfe.id.au/2018/03/01/diving-into-vgo-from-the-golang-project/)
 
 ***
 
