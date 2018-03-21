@@ -78,7 +78,7 @@ These are threads that have been created from the initial reference manifest for
 | How does vgo handles dependencies of older, discarded versions [link](https://gophers.slack.com/archives/C9BMAAFFB/p1519493604000033)? | [https://github.com/zeebo/vgo-test-version-selection](https://github.com/zeebo/vgo-test-version-selection) |
 | Why are major versions in import paths? | https://groups.google.com/forum/#!topic/golang-dev/Plc42fslQEk |
 | How to `go get` so that I can run a program, not download a library? | https://gophers.slack.com/archives/C9BMAAFFB/p1519687366000101 |
-| What's the best way to maintain a package repository that have the major version in the import path? | https://groups.google.com/d/topic/golang-nuts/nS6ST60dwF8/discussion
+| What's the best way to maintain a package repository that have the major version in the import path? | https://groups.google.com/d/topic/golang-nuts/nS6ST60dwF8/discussion, https://groups.google.com/d/topic/golang-nuts/VREgKrQRFcY/discussion |
 
 ***
 
