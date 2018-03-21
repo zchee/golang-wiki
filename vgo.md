@@ -39,7 +39,7 @@ These are threads that have been created from the initial reference manifest for
 
 - **golang-nuts ML:** [Go += Package Versioning](https://groups.google.com/forum/#!topic/golang-nuts/jFPz5yZCPcQ), [vgo and vendoring](https://groups.google.com/forum/#!topic/golang-dev/FTMScX1fsYk)
 
-- **golang-dev ML:** https://groups.google.com/forum/#!topic/golang-dev/MNQwgYHMEcY
+- **golang-dev ML:** [Go += Package Versioning](https://groups.google.com/d/topic/golang-dev/MNQwgYHMEcY/discussion), [vgo & semantic import versioning](https://groups.google.com/d/topic/golang-dev/Plc42fslQEk/discussion)
 - **HackerNews posts:** https://news.ycombinator.com/from?site=swtch.com
 - **Reddit:** https://www.reddit.com/domain/research.swtch.com/
 
