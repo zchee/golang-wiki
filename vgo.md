@@ -7,7 +7,7 @@
 * [Presentations](#presentations)
 * [Videos](#videos)
 * [Questions](#questions)
-* [Proxies](#proxies)
+* [Projects Related to vgo](#projects-related-to-vgo)
 
 This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
@@ -70,6 +70,13 @@ These are threads that have been created from the initial reference manifest for
 
 ***
 
+### Projects Related to vgo
+
+- [Athens](https://github.com/gomods/athens) - A proxy server for vgo
+- [vgo-docker-example](https://github.com/elithrar/vgo-docker-example) - An example of how to use vgo + Docker together.
+
+***
+
 ### Questions
 
 | Question | Answer |
@@ -79,9 +86,3 @@ These are threads that have been created from the initial reference manifest for
 | Why are major versions in import paths? | https://groups.google.com/forum/#!topic/golang-dev/Plc42fslQEk |
 | How to `go get` so that I can run a program, not download a library? | https://gophers.slack.com/archives/C9BMAAFFB/p1519687366000101 |
 | What's the best way to maintain a package repository that have the major version in the import path? | https://groups.google.com/d/topic/golang-nuts/nS6ST60dwF8/discussion, https://groups.google.com/d/topic/golang-nuts/VREgKrQRFcY/discussion |
-
-***
-
-### Proxies
-
-- [Athens](https://github.com/gomods/athens) - A proxy server for vgo
