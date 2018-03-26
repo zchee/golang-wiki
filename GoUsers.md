@@ -441,6 +441,7 @@
 
 ## Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
+* [JobDone](https://jobdone.net) - Freelancer Marketplace
 
 ## Russia
 * [Acronis](http://acronis.com)
