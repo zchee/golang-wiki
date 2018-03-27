@@ -15,3 +15,4 @@
 * [protobuf](https://github.com/golang/protobuf) - protobuf
 * [thriftrw](https://github.com/thriftrw/thriftrw-go) - thrift
 * [gogen-avro](https://github.com/actgardner/gogen-avro) - avro
+* [swagger-gen-types](https://github.com/dnephin/swagger-gen-types) - go types from swagger specifications
