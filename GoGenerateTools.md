@@ -13,3 +13,5 @@
 * [bundle](https://godoc.org/golang.org/x/tools/cmd/bundle) - Bundle creates a single-source-file version of a source package suitable for inclusion in a particular target package.
 * [msgp](https://github.com/tinylib/msgp) - A Go code generator for MessagePack
 * [protobuf](https://github.com/golang/protobuf) - protobuf
+* [thriftrw](https://github.com/thriftrw/thriftrw-go) - thrift
+* [gogen-avro](https://github.com/actgardner/gogen-avro) - avro
