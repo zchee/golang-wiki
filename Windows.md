@@ -6,8 +6,8 @@ The Windows port is stable and officially supported.
 
 | **Distributions**                  | **Architectures** | **Initial support version** | **Final support version** |
 |:-----------------------------------|:------------------|:----------------------------|:--------------------------|
-| Windows 7 or above                 | amd64, 386        | Go 1 _*_                    |         |
-| Windows Vista, Windows Server 2008 | amd64, 386        | Go 1 _*_                    | Go 1.10 |
-| Windows XP, Windows Server 2003    | amd64, 386        | Go 1 _*_                    | Go 1.10 |
+| Windows 7 or above                 | amd64, 386        | Go 1 _*_                    |           |
+| Windows Vista, Windows Server 2008 | amd64, 386        | Go 1 _*_                    | Go 1.10.1 |
+| Windows XP, Windows Server 2003    | amd64, 386        | Go 1 _*_                    | Go 1.10.1 |
 
 _*_ Go 1.5 or above is recommended.
