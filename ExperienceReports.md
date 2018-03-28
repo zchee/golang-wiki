@@ -60,6 +60,7 @@ Add new sections as appropriate.
   - Axel Wagner, "[Why context.Value matters and how to improve it](https://blog.merovius.de/2017/08/14/why-context-value-matters-and-how-to-improve-it.html)," August 2017.
   - Dave Cheney, "[Context isn't for cancellation](https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation)," August 2017.
   - Ross Light, "[Canceling I/O in Go Cap'n Proto](https://medium.com/@zombiezen/canceling-i-o-in-go-capn-proto-5ae8c09c5b29)," January 2018.
+  - Iman Tumorang, "[Avoiding Memory Leak in Golang API](https://hackernoon.com/avoiding-memory-leak-in-golang-api-1843ef45fca8)," January 2018.
 
 ## Declarations
 
