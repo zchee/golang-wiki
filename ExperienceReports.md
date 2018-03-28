@@ -163,6 +163,7 @@ a complex solution for the problem.
   - Judson Lester, "[Seriously? Maps and Slices aren't comparable?](https://twitter.com/judsonlester/status/968241910442639360)" February 2018 - lack of `==` for maps and slices is a less frequent but longer version of `if err != nil ...`
 
 ## Misc / Multiple
+  - Iman Tumorang, "[Trying Clean Architecture on Golang](https://hackernoon.com/golang-clean-archithecture-efd6d7c43047)" July 2017
   - Laurent Demailly, "[My Go lang experience, part 1](https://laurentsv.com/blog/2017/12/28/about-golang.html)" December 2017, a laundry list of pros and cons with current Go from an experienced C/C++/Java/Scripting languages developer perspective.
 
 ## Performance
