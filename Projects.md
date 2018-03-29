@@ -1813,6 +1813,7 @@ The following entries have not been filed. Please help by putting these in relev
   * [GoBot](https://github.com/SaturnsVoid/GoBot) - PoC Go HTTP Botnet
   * [ebml-go](http://code.google.com/p/ebml-go/) - EBML decoder
   * [go-bindata](https://github.com/jteeuwen/go-bindata) - Converts any file into manageable Go source code for embedding binary data into a Go program.
+  * [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
   * [goconsistenthash](https://github.com/caglar10ur/goconsistenthash) - Consistent hashing library (based on http://www.lexemetech.com/2007/11/consistent-hashing.html)
   * [go-cron](https://github.com/rk/go-cron) - A small cron job system to handle scheduled tasks, such as optimizing databases or kicking idle users from chat. The cron.go project was renamed to this for `go get` compatibility.
   * [godebiancontrol](https://github.com/mstap/godebiancontrol) - Golang debian control file parser
