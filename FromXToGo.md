@@ -1,4 +1,4 @@
-This page links to blog posts and videos discussing moving a code base to Go from some other language.
+This page links to blog posts, videos, and slide decks discussing moving a code base to Go from some other language.
 
 # Python
 * [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
