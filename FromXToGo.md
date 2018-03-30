@@ -61,6 +61,7 @@ This page links to blog posts and videos discussing moving a code base to Go fro
 * [Why I switched from PHP to Go](http://codepushr.com/why-i-switched-from-php-to-go/)
 * [Marco switched to GoLang from PHP and Saved Money, why not you ?!](http://phpmagazine.net/2015/02/marco-switched-to-golang-from-php-and-saved-money-why-not-you.html)
 * [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
+* [When All You Have is an ElePHPant (Slides from ConFoo 2016)](https://www.ramblinations.com/when-all-you-have-is-an-elephpant)
 
 # Perl
 * [Perl to Go](http://tech.tokopedia.com/blog/perl-to-go)
