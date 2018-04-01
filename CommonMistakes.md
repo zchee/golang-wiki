@@ -27,9 +27,6 @@ for val := range values {
 }
 ```
 
-
-If you don't immediately see the problem with the above code, take a second to see if you can figure out what is wrong with it before you keep reading.
-
 The ` val ` variable in the above loops is actually a single variable that takes on the value of each slice element. Because the closures are all only bound to that one variable, there is a very good chance that when you run this code you will see the last element printed for every iteration instead of each value in sequence, because the goroutines will probably not begin executing until after the loop.
 
 The proper way to write that closure loop is:
