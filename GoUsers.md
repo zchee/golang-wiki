@@ -83,6 +83,7 @@
 ## Canada
   * [ActiveState](https://activestate.com) - [blog](https://www.activestate.com/blog/2018/03/reproducible-builds-introducing-predictability-your-pipeline) - [github](https://github.com/ActiveState)
   * [Apex](https://apex.sh/)
+  * [Greenfield Labs / Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Hootsuite](https://hootsuite.com/)
   * [Koho](https://www.koho.ca/)
@@ -927,6 +928,7 @@
   * [Yik Yak](http://www.yikyakapp.com/) - [tweet](https://twitter.com/ardanlab/status/629002599484813312/photo/1)
   * [Zalando](http://tech.zalando.com/) - [github](https://github.com/zalando) 
   * [Zenoss](http://www.zenoss.com/) - [github](https://github.com/control-center/serviced)
+  * [Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
   * [ZITEC](http://www.zitec.de)
   * [Zumba](https://www.zumba.com) - [github](https://github.com/zumba)
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
