@@ -129,6 +129,7 @@
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
   * [XiaoChuan](https://www.ixiaochuan.cn/)
   * [Rainbond](http://www.rainbond.com) - [github](https://github.com/goodrain/rainbond) - Rainbond is an application centric PaaS
+  * [MobiExchanger](http://www.mobiexchanger.com/)
 
 ## Croatia
   * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
