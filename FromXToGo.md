@@ -1,4 +1,4 @@
-이 페이지는 다른 언어에서 Go로 코드기반을 옮기는 것과 관련한 내용을 다룬 블로그 포스트, 비디오, 슬라이드 링크들을 보여줍니다.
+This page links to blog posts, videos, and slide decks discussing moving a code base to Go from some other language.
 
 # Python
 * [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
