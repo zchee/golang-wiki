@@ -16,6 +16,7 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 
 - Finding The Greedy, Prodigal, and Suicidal Contracts at Scale (Ivica Nikolic, Aashish Kolluri, Ilya Sergey, Prateek Saxena, Aquinas Hobor)
   - [pdf](https://arxiv.org/abs/1802.06038) "To implement the validating framework, we added a new functionality to the official go-ethereum package [20] which allows us to fork the Ethereum main chain at a block height of our choice."
+  - [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html)
 
 ## 2017
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
