@@ -158,10 +158,6 @@ a complex solution for the problem.
   - Chris Hines, Peter Bourgon, “[Proposal: standard Logger interface](https://docs.google.com/document/d/1shW9DZJXOeGbG9Mr9Us9MiaPqmlcVatD_D8lrOXRNMU/edit?usp=drive_web),“ February 2017, problems related to stdlib logger, especially in the context of libraries, and one proposed solution.
   - Sindre Myren, "[There is nothing Goish about log.Fatal](https://medium.com/@smyrman/there-is-nothing-goish-about-log-fatal-4ab24ae5ba7)" August 2017, how poorly log.Fatal plays with defer, and a simple pattern for delaing with it in Go 1.x and Go 2.x.
 
-## Maps
-
-  - Judson Lester, "[Seriously? Maps and Slices aren't comparable?](https://twitter.com/judsonlester/status/968241910442639360)" February 2018 - lack of `==` for maps and slices is a less frequent but longer version of `if err != nil ...`
-
 ## Misc / Multiple
   - Iman Tumorang, "[Trying Clean Architecture on Golang](https://hackernoon.com/golang-clean-archithecture-efd6d7c43047)" July 2017
   - Laurent Demailly, "[My Go lang experience, part 1](https://laurentsv.com/blog/2017/12/28/about-golang.html)" December 2017, a laundry list of pros and cons with current Go from an experienced C/C++/Java/Scripting languages developer perspective.
