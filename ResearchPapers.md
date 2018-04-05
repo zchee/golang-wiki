@@ -273,6 +273,8 @@ Turing Scholars honors thesis
   - [pdf](https://codesearch.debian.net/research/bsc-thesis.pdf)
 - Go’s Concurrency Constructs on the SCC (Prell, Rauber)
   - [pdf](https://hal.inria.fr/file/index/docid/718924/filename/MARC6_Gos-Concurrency-Constructs-on-the-SCC.pdf)
+- Comparing Parallel Performance of Go and C++ TBB on a Direct Acyclic Task Graph Using a Dynamic Programming Problem (Serfass, Tang)
+  - http://www.ualr.edu/pxtang/papers/ACMSE12-comparing.pdf
 
 
 ## 2011
