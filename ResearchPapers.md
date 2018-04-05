@@ -81,6 +81,8 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - [doi: 10.1145/3106237.3117771](http://dl.acm.org/citation.cfm?doid=3106237.3117771)
 - Reconstructing Program Semantics from Go Binaries (Engelke)
   - http://home.in.tum.de/~engelke/pubs/1709-ma.pdf
+- An Attempt at Reducing Costs of Disk I/O in Go (Wilson, Mutschlechner)
+  - http://pages.cs.wisc.edu/~riccardo/assets/diskio.pdf
 
 ## 2016
 - Atom: Horizontally Scaling Strong Anonymity (Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, Bryan Ford)
@@ -161,6 +163,8 @@ Turing Scholars honors thesis
   - https://www.ru.nl/publish/pages/769526/marc_schoolderman.pdf
 - Detection of Bugs and Code Smells through Static Analysis of Go Source Code (Bergersen)
   - https://www.duo.uio.no/bitstream/handle/10852/53050/bergersen_msc.pdf
+- BTrDB: Optimizing Storage System Design for Timeseries Processing (Andersen, Culler)
+  - https://www.usenix.org/node/194399
 
 ## 2015
 - Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
@@ -194,6 +198,8 @@ Turing Scholars honors thesis
   - http://ieeexplore.ieee.org/document/7516334/
 - A Search Engine Backed by Internet-Wide Scanning (Durumeric, Adrian, Mirian, Bailey, Halderman)
   - https://censys.io/static/censys.pdf
+- An Extract Function Refactoring for the Go Language (Arasu)
+  - https://etd.auburn.edu/bitstream/handle/10415/4835/Steffi_Gnanaprakasa_MSThesis.pdf
 
 ## 2014
 - PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
@@ -226,6 +232,8 @@ Turing Scholars honors thesis
 - The design and verification of Mumax3 (Vansteenkiste, Leliaert, Dvornik, Garcia-Sanchez, Van Waeyenberge)
   - https://arxiv.org/abs/1406.7635
   - https://github.com/mumax/3
+- Building Reliable and Practical Byzantine Fault Tolerance (Duan)
+  - http://sduan.informationsystems.umbc.edu/files/2014-SisiDuan-dissertation.pdf
 
 ## 2013
 - GoPar: Automatic Loop Parallelization of Go Programs (Wetherbee)
