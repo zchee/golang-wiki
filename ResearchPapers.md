@@ -192,6 +192,8 @@ Turing Scholars honors thesis
   - https://minerva-access.unimelb.edu.au/handle/11343/58707
 - Design Muntoi Web-based Framework and Search Engine Analytics for Thematic Virtual Museums (Sajarwo Anggai) (Ph.D. thesis)
   - http://ieeexplore.ieee.org/document/7516334/
+- A Search Engine Backed by Internet-Wide Scanning (Durumeric, Adrian, Mirian, Bailey, Halderman)
+  - https://censys.io/static/censys.pdf
 
 ## 2014
 - PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
