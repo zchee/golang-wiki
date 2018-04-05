@@ -17,7 +17,8 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 - Finding The Greedy, Prodigal, and Suicidal Contracts at Scale (Ivica Nikolic, Aashish Kolluri, Ilya Sergey, Prateek Saxena, Aquinas Hobor)
   - [pdf](https://arxiv.org/abs/1802.06038) "To implement the validating framework, we added a new functionality to the official go-ethereum package [20] which allows us to fork the Ethereum main chain at a block height of our choice."
 
-- [State of Mutation Testing at Google](https://research.google.com/pubs/pub46584.html) (Goran Petrovic and Marko Ivankovic)
+- State of Mutation Testing at Google (Goran Petrovic and Marko Ivankovic)
+  - https://research.google.com/pubs/pub46584.html
 
 ## 2017
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
@@ -158,6 +159,8 @@ Turing Scholars honors thesis
   - https://arxiv.org/abs/1611.07862
 - Verification of Goroutines using Why3 (Schoolderman)
   - https://www.ru.nl/publish/pages/769526/marc_schoolderman.pdf
+- Detection of Bugs and Code Smells through Static Analysis of Go Source Code (Bergersen)
+  - https://www.duo.uio.no/bitstream/handle/10852/53050/bergersen_msc.pdf
 
 ## 2015
 - Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
