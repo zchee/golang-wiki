@@ -83,6 +83,8 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - http://home.in.tum.de/~engelke/pubs/1709-ma.pdf
 - An Attempt at Reducing Costs of Disk I/O in Go (Wilson, Mutschlechner)
   - http://pages.cs.wisc.edu/~riccardo/assets/diskio.pdf
+- Go-RealTime: A Lightweight Framework for Multiprocessor Real-Time System in User Space (Fang, Luo, Anwar, Zhuang, Gupta)
+  - http://sigbed.seas.upenn.edu/archives/2017-11/paper7.pdf
 
 ## 2016
 - Atom: Horizontally Scaling Strong Anonymity (Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, Bryan Ford)
