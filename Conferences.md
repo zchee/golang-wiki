@@ -6,8 +6,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
-| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en | 
 | GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/<br>CFP https://www.papercall.io/gopherconsg-2018 |
@@ -24,6 +22,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en | 
+| GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
 | Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
 | | **2017** | | | |
 | GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
