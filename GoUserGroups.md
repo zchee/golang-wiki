@@ -150,6 +150,7 @@ Singapore.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
   * [GoLangPhoenix](http://www.meetup.com/Golang-Phoenix/) - Phoenix AZ, USA.
   * [GoLangCleveland](https://www.golangcleveland.org/) - Cleveland OH, USA.
+  * [Cincinnati Golang Meetup](https://www.meetup.com/Cincinnati-Golang-Meetup/) - Cincinnati, OH, USA.
   * [EUG-Go](http://www.meetup.com/EUG-Go/) - Eugene, OR, USA.
   * [PDX-Go](http://www.meetup.com/PDX-Go/) - Portland, OR, USA.
   * [GoLancaster](http://www.meetup.com/GoLancaster/) - Lancaster PA, USA.
