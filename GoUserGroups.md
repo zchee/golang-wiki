@@ -127,6 +127,7 @@ Singapore.
 ## United States
 
   * [Los-Angeles-Gophers](http://www.meetup.com/Los-Angeles-Gophers/) - Los Angeles CA, USA.
+  * [Westside GoLang Meetup](https://www.meetup.com/Westside-GoLang-Meetup/) - Los Angeles CA, USA.
   * [Golang Mountain View](http://www.meetup.com/Golang-Mountain-View/) - Mountain View CA, USA.
   * [OC Gophers](http://www.meetup.com/Orange-County-Gophers) - Orange County CA, USA.
   * [SDGophers](http://www.meetup.com/sdgophers/) — San Diego CA, USA
