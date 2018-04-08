@@ -1,6 +1,6 @@
 # Introduction
 
-If you want to run your Go programs on a platform that is not supported by the standard Go compiler _gc_ you can build a version of the GCC compiler that targets your desired target platform, since GCC supports many more platforms. This is possible because there is a Go frontend to GCC named [gccgo](https://code.google.com/p/gofrontend/).
+If you want to run your Go programs on a platform that is not supported by the standard Go compiler _gc_ you can build a version of the GCC compiler that targets your desired target platform, since GCC supports many more platforms. This is possible because there is a Go frontend to GCC named [gccgo](https://github.com/golang/gofrontend).
 
 
 # Details
