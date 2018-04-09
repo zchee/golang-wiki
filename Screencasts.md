@@ -176,3 +176,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-video)]
 
 ***
+* **Go Production Deployments [Video]**
+    * Author: Kamesh Balasubramanian
+    * Publication Date: March 2018
+    * ISBN: 9781788399340
+        
+[[video](https://www.packtpub.com/web-development/go-production-deployments-video)]
+
+***
