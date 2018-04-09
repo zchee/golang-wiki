@@ -22,7 +22,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
-| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en | 
+| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>https://github.com/GopherConRu/talks | 
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
 | Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
 | | **2017** | | | |
