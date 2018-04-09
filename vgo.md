@@ -55,6 +55,8 @@ These are threads that have been created from the initial reference manifest for
 - [Semantic Import Versioning in the wild](http://blog.ezyang.com/2018/02/semantic-import-versioning-in-the-wild/)
 - [Diving into vgo from the Golang project](https://www.wolfe.id.au/2018/03/01/diving-into-vgo-from-the-golang-project/)
 - [A Proposal for Package Versioning in Go](https://blog.golang.org/versioning-proposal)
+- [Notes on migrating to a Go mono repo](https://github.com/myitcv/x/wiki/Notes-on-migrating-to-a-Go-mono-repo)
+
 ***
 
 ### Presentations
