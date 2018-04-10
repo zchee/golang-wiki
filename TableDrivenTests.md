@@ -25,19 +25,20 @@ var flagtests = []struct {
 	{"%-+1.2abc", "[%+-1.2a]bc"},
 	{"%-1.2abc", "[%-1.2a]bc"},
 }
-
 func TestFlagParser(t *testing.T) {
 	var flagprinter flagPrinter
 	for _, tt := range flagtests {
-		s := Sprintf(tt.in, &flagprinter)
-		if s != tt.out {
-			t.Errorf("Sprintf(%q, &flagprinter) => %q, want %q", tt.in, s, tt.out)
-		}
+		t.Run(tt.in, func(t *testing.T) {
+			s := Sprintf(tt.in, &flagprinter)
+			if s != tt.out {
+				t.Errorf("got %q, want %q", s, tt.out)
+			}
+		})
 	}
 }
 ```
 
-Note the detailed error message provided with ` t.Errorf `: The name of the function tested, its inputs, result, and expected result are provided. When the test fails it is immediately obvious which test failed and why, even without having to read the test code.
+Note the detailed error message provided with ` t.Errorf `: its result and expected result are provided; the input is the subtest name. When the test fails it is immediately obvious which test failed and why, even without having to read the test code.
 
 A ` t.Errorf ` call is not an assertion. The test continues even after an error is logged. For example, when testing something with integer input, it is worth knowing that the function fails for all inputs, or only for odd inputs, or for powers of two.
 
