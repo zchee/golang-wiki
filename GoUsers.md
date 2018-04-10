@@ -177,7 +177,7 @@
   * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog]
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
-  * [loodse](https://loodse.com/)
+  * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
   * [Meplato](https://www.meplato.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
   * [Spreadshirt](https://spreadshirt.com)
