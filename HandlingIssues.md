@@ -43,6 +43,12 @@ An issue may be closed at any time, with a comment to indicate the reason for cl
 At any state (except New) the issue may be assigned to someone.
 Unassigned issues are considered available for anyone to address.
 
+# Exceptions
+
+Go2 issues are not labeled with any `Needs` state and are handled separately.
+
+[Proposals](https://github.com/golang/proposal/) follow a separate process. Once approved they transition to Needs Fix.
+
 # Milestones
 Milestones describe the timeline for issue resolution.
 
