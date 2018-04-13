@@ -169,6 +169,8 @@ Singapore.
   * [Baltimore Metro Area Golang](http://baltimoregolang.org) - Baltimore MD, USA
   * [Nashville Gophers](https://nashgo.org) - Nashville TN, USA
   * [Omaha Gophers](https://www.meetup.com/omaha-gophers/) - Omaha NE, USA
+  * [St Louis Go Meetup](https://www.meetup.com/StL-Go/) - St Louis, MO, USA
+
 
 # Oceania
   * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
