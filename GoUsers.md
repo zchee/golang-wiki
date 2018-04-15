@@ -241,6 +241,7 @@
   * [Unbxd](http://unbxd.com)
   * [WazirX](https://wazirx.com/)
   * [Zerodha](https://kite.zerodha.com/)
+  * [ZopSmart](https://zopsmart.com/)
 
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
