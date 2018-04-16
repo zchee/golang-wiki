@@ -216,6 +216,7 @@
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
   * [Halodoc](https://www.halodoc.com)
+  * [Hasura](https://hasura.io)
   * [Instamojo](https://www.instamojo.com/)
   * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
