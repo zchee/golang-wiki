@@ -335,6 +335,7 @@
 ## Japan
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
+  * [Cookpad Inc.](https://info.cookpad.com/en)
   * [CyberAgent, Inc.](https://www.cyberagent.co.jp/)
     * [ecs-formation](https://github.com/openfresh/ecs-formation) - ecs-formation is a tool for defining several Docker continers and clusters on Amazon EC2 Container Service(ECS)
     * [plasma](https://github.com/openfresh/plasma) - plasma is event push middleware by using gRPC stream
@@ -362,6 +363,7 @@
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [OPTiM Corporation](https://www.optim.co.jp/)
+  * [pixiv Inc.](https://www.pixiv.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
