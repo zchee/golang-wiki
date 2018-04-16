@@ -1,32 +1,37 @@
 # Commit messages
 
-Commit messages, also known as CL (changelist) descriptions, for Go repos should be formatted as follows:
+Commit messages, also known as CL (changelist) descriptions, should be formatted as follows:
 
 ```
 net/http: frob the quux before blarfing
 
+[longer description here in the body]
+
 Fixes #nnnn
 ```
 
-Notably,
+Notably, for the subject (the first line of description):
 
-* the package name goes before the colon
+* the name of the package affected by the change goes before the colon
 * the part after the colon uses the verb tense + phrase that completes the blank in, *"This change modifies Go to ___________"*
-* lowercase verb after the colon
-* no trailing period
-* keep the subject (first line) as short as possible. ideally under 76 characters or shorter.
-* keep the body wrapped too, also max 76, unless it's really needed (ASCII art, table, or long link)
-* the Fixes/Updates line should be after the body with a blank newline separating the two
-* no Markdown
-* we **do not** use `Signed-off-by` lines in Go. Please don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
+* the verb after the colon is lowercase
+* there is no trailing period
+* it should be kept as short as possible (ideally, under 76 characters).
+
+For the body (the rest of the description):
+
+* the text should be wrapped to 76 characters, unless you really need longer lines (e.g. for ASCII art, tables, or long links)
+* the Fixes/Updates line goes after the body with a blank newline separating the two
+* there is **no** Markdown in the commit message
+* we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
 
 If it's not a complete fix and more is coming, use:
 
 ```
-Updates #nnn
+Updates #nnnn
 ```
 
-... instead of `Fixes`. Don't use the other GitHub-supported verbs.
+instead of `Fixes`. Don't use the other GitHub-supported verbs.
 
 # Other repos
 
