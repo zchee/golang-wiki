@@ -361,8 +361,10 @@
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
+  * [Next Currency Inc.](https://n-currency.com/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [OPTiM Corporation](https://www.optim.co.jp/)
+  * [PicApp Inc.](http://picappinc.jp/)
   * [pixiv Inc.](https://www.pixiv.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
