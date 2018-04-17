@@ -517,6 +517,7 @@
 
 ## Taiwan
   * [QNAP Systems, Inc.](https://www.qnap.com)
+  * [ProphetStor Data Services, Inc.](http://www.prophetstor.com)
   
 ## Thailand
   * [Appsynth Asia](https://appsynth.net/)
