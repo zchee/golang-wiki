@@ -1,6 +1,6 @@
 Fixes for regressions, security issues, and serious problems with no workaround are backported to the two supported major releases. For example a fix developed during the 1.11 cycle will be backported to a 1.9.x (if applicable) and 1.10.x release.
 
-As soon as an interested party thinks an issue should be considered for backport, they open one or two “child” issues titled like `package: title [1.9 backport]`. The issue should include a link to the original issue and a short rationale about why the backport might be needed. [This will be automated via GopherBot.](https://github.com/golang/go/issues/24899)
+As soon as an interested party thinks an issue should be considered for backport, they open one or two “child” issues titled like `package: title [1.9 backport]`. The issue should include a link to the original issue and a short rationale about why the backport might be needed. [This will soon be automated via GopherBot](https://github.com/golang/go/issues/24899) but for now must be done manually.
 
 The fix is developed for the main issue, which is closed when it’s merged to the master branch.
 
