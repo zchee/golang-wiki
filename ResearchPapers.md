@@ -21,6 +21,13 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - https://research.google.com/pubs/pub46584.html
 
 ## 2017
+
+- RDFIO: extending Semantic MediaWiki for interoperable biomedical data management
+  - [DOI: 10.1186/s13326-017-0136-y](https://doi.org/10.1186/s13326-017-0136-y)
+  - The rdf2smw commandline tool is written in Go
+  - [github.com/rdfio/rdf2smw](https://github.com/rdfio/rdf2smw)
+  - [godoc](https://godoc.org/github.com/rdfio/rdf2smw)
+  - Keywords: Semantic MediaWiki, Semantic Web, RDF
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
   - [DOI: 10.1109/TRPMS.2017.2780447](https://doi.org/10.1109/TRPMS.2017.2780447)
   - Monitoring system + parts of the DAQ in Go
