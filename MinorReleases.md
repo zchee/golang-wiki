@@ -6,7 +6,7 @@ The fix is developed for the main issue, which is closed when it’s merged to t
 
 The child issue is assigned to the minor release milestone, is labeled **CherryPickCandidate**, and its candidacy is discussed there. Once it’s approved it transitions to **CherryPickApproved**. OSP team members and/or code owners approve cherry-picks via an informal process.
 
-The original change author creates a cherry-pick change immediately against the release branch, and gets it merged with the approval of the OSP. This closes the child issue. Gerrit is configured to restrict submissions to the release branches to CLs with a +2 from a member of the OSP.
+The original change author creates a cherry-pick change immediately against the release branch, and gets it merged with the approval of the OSP as soon as it's ready. This closes the child issue. Gerrit is configured to restrict submissions to the release branches to CLs with a +2 from a member of the OSP.
 
 At release time, any open backport issue which is not release-blocker is pushed to the next minor release milestone, and a minor release is minted with the already merged changes.
 
