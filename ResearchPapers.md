@@ -24,7 +24,7 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 
 - RDFIO: extending Semantic MediaWiki for interoperable biomedical data management (Samuel Lampa, Egon Willighagen, Pekka Kohonen, Ali King, Denny Vrandečić, Roland Grafström, Ola Spjuth) Journal of Biomedical Semantics ( Volume: 8, Issue: 35 )
   - [DOI: 10.1186/s13326-017-0136-y](https://doi.org/10.1186/s13326-017-0136-y)
-  - The rdf2smw commandline tool is written in Go
+  - The rdf2smw commandline tool, for batch conversion from RDF to Semantic MediaWiki facts in MediaWiki XML dump format, is written in Go
   - [github.com/rdfio/rdf2smw](https://github.com/rdfio/rdf2smw)
   - [godoc](https://godoc.org/github.com/rdfio/rdf2smw)
   - Keywords: Semantic MediaWiki, Semantic Web, RDF
