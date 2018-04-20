@@ -203,6 +203,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Walter, Schulze, "[For Sum Types: Multiple return parameters are overrated](https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/)", September 2017
 - Nicolas, Boulay "[Sum type not always the best choice (Typed tagless-final interpretations)](https://gist.github.com/nicolasboulay/a8ee4a65e8c2cc110c20e6d24e838e86), October 2017
 - Eduard Urbach, "[Type-casting interface{} to chan interface{}](https://github.com/blitzprog/go-channel-type-casting)", October 2017
+- David Vennik, "[Unjumbling Golang OOP primitives](https://gist.github.com/l0k1verloren/344956daedb434094e9af2c21ff9376c)", April 20, 2018
 
 ## Typed nils
  
