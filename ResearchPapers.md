@@ -20,6 +20,9 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 - State of Mutation Testing at Google (Goran Petrovic and Marko Ivankovic)
   - https://research.google.com/pubs/pub46584.html
 
+- Index Data Structure, Functionality and Microservices in Thematic Virtual Museums (Sajarwo Anggai) (Ph.D. thesis)
+  - http://vestnik.spbu.ru/html18/s10/s10v1/04.pdf
+
 ## 2017
 
 - RDFIO: extending Semantic MediaWiki for interoperable biomedical data management (Samuel Lampa, Egon Willighagen, Pekka Kohonen, Ali King, Denny Vrandečić, Roland Grafström, Ola Spjuth) Journal of Biomedical Semantics ( Volume: 8, Issue: 35 )
