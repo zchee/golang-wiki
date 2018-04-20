@@ -12,7 +12,7 @@ When new programmers start using Go or when old Go programmers start using a new
 
 When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code:
 ```go
-for val := range values {
+for _, val := range values {
 	go val.MyMethod()
 }
 ```
@@ -20,7 +20,7 @@ for val := range values {
 or if you wanted to process values coming in from a channel in their own goroutines, you might write something like this, using a closure:
 
 ```go
-for val := range values {
+for _, val := range values {
 	go func() {
 		fmt.Println(val)
 	}()
@@ -31,7 +31,7 @@ The above for loops might not do what you expect because their ` val ` variable 
 
 The proper way to write that closure loop is:
 ```go
-for val := range values {
+for _, val := range values {
 	go func(val interface{}) {
 		fmt.Println(val)
 	}(val)
