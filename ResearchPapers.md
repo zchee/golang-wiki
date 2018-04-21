@@ -212,7 +212,7 @@ Turing Scholars honors thesis
   - https://censys.io/static/censys.pdf
 - An Extract Function Refactoring for the Go Language (Arasu)
   - https://etd.auburn.edu/bitstream/handle/10415/4835/Steffi_Gnanaprakasa_MSThesis.pdf
-- Compositional Decompilation using LLVM IR
+- Compositional Decompilation using LLVM IR (BSc thesis, Robin Eklind)
   - http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A911797&dswid=-6147
   - [code](https://github.com/decomp/decomp)
   - [pdf](https://github.com/decomp/doc/raw/master/report/compositional_decompilation/compositional_decompilation.pdf)
