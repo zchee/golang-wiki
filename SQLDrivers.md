@@ -10,7 +10,7 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
-  * **Apache Ignite/GridGain**: https://github.com/apache-ignite/go-client
+  * **Apache Ignite/GridGain**: https://github.com/amsokol/ignite-go-client
   * **Apache Phoenix/Avatica**: https://github.com/Boostport/avatica
   * **ClickHouse** (uses [native TCP interface](https://clickhouse.yandex/docs/en/interfaces/tcp.html)): https://github.com/kshvakov/clickhouse
   * **ClickHouse** (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html)): https://github.com/mailru/go-clickhouse
