@@ -1166,8 +1166,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
   * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
-  * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
+  * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
+  * [HTTPLab](https://github.com/gchaincl/httplab) - HTTPLabs let you inspect HTTP requests and forge responses.
   * [stress](https://github.com/wenjiax/stress) - Replacement of ApacheBench(ab), support for transactional requests, support for command line and package references to HTTP stress testing tool.
   * [sling](https://github.com/dghubble/sling) - A Go HTTP client library for creating and sending API requests.
   * [httptail](https://github.com/smallfish/httptail) - tools push stdout/stderr to http chunked
