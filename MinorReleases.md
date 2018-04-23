@@ -18,7 +18,7 @@ At release time, any open backport issue which is not release-blocker is pushed 
 
 ## Making cherry-pick CLs
 
-Once the main fix has been submitted to master, take note of its commit hash.
+Once the main fix has been submitted to master, take note of its commit hash, then use `git codereview` and `git cherry-pick` to prepare a cherry-pick CL:
 
 ```
 git codereview change release-branch.go1.10
