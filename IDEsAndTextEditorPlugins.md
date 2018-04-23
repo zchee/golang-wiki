@@ -17,10 +17,10 @@
   * **[Geany](https://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://github.com/rogpeppe/godef)**: Prints the source location of definitions in Go programs. Integrates with acme, emacs, vim and SublimeText.
-  * **[GoLand](https://www.jetbrains.com/go/)**: Jetbrains Golang IDE (commercial). Free for students, teachers, open-source developers, and user-groups.
+  * **[GoLand](https://www.jetbrains.com/go/)**: JetBrains's cross-platform, [fully featured](https://www.jetbrains.com/go/features/) Go IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/go/buy/#edition=discounts)).
   * **[Gotags](https://github.com/jstemmer/gotags)**: Generates ctags-compatible tag files
   * **[GoWorks](http://tunnelvisionlabs.com/products/demo/goworks)**: [NetBeans](http://netbeans.org/) based open source Go IDE.
-  * **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**: Commercial cross-platform IDE. Free for students, teachers, open-source developers, and user-groups.
+  * **[IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)**: Cross-platform, polyglot IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/idea/buy/#edition=discounts)).
   * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](https://code.google.com/archive/p/go-stuff/source/default/source).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
   * **[Komodo IDE](https://www.activestate.com/komodo-ide)** Powerful cross-platform IDE with built-in Go support
