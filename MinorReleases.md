@@ -8,9 +8,9 @@ GopherBot is capable of opening the backport issues automatically in response to
 
 > @gopherbot please open the backport tracking issues. This is a severe compiler bug.
 
-The fix is developed for the main issue, which is closed when it’s merged to the master branch.
+The fix is developed for the main issue, which is closed when the fix is merged to the master branch.
 
-The child issue is assigned to the minor release milestone, is labeled **CherryPickCandidate**, and its candidacy is discussed there. Once it’s approved it transitions to **CherryPickApproved**. OSP team members and/or code owners approve cherry-picks via an informal process.
+The child issue is assigned to the minor release milestone, is labeled **CherryPickCandidate**, and its candidacy is discussed there. Once it’s approved it transitions to **CherryPickApproved**. Release managers and/or code owners approve cherry-picks via an informal process.
 
 The original change author creates a cherry-pick change immediately against the release branch, and gets it merged as soon as it's ready. This closes the child issue. (The change should include a "Fixes" line for the child issue.) Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
