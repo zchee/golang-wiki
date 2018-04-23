@@ -22,7 +22,7 @@ At release time, any open backport issue which is not release-blocker is pushed 
 Once the main fix has been submitted to master, take note of its commit hash, then use `git codereview` and `git cherry-pick` to prepare a cherry-pick CL:
 
 ```
-git codereview change release-branch.go1.10
+git checkout release-branch.go1.10
 git codereview change cherry-pick-NNNN
 git cherry-pick $COMMIT_HASH
 git commit --amend # add message prefix and change Fixes line
