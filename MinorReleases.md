@@ -12,11 +12,19 @@ The fix is developed for the main issue, which is closed when the fix is merged 
 
 The child issue is assigned to the minor release milestone, is labeled **CherryPickCandidate**, and its candidacy is discussed there. Once it’s approved it transitions to **CherryPickApproved**. Release managers and/or code owners approve cherry-picks via an informal process.
 
-The original change author should immediately create and mail a cherry-pick change against the release branch, which will be merged as soon as it's ready, closing the child issue. Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
+The original change author should immediately create and mail a cherry-pick change against the release branch, which will be merged as soon as it's ready, closing the child issue.
+
+At release time, any open backport issue which is not release-blocker is pushed to the next minor release milestone, and a minor release is minted with the already merged changes.
+
+## Making cherry-pick CLs
+
+Once the main fix has been submitted to master, take note of its commit hash.
+
+TODO
 
 The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue.
 
-At release time, any open backport issue which is not release-blocker is pushed to the next minor release milestone, and a minor release is minted with the already merged changes.
+Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
 ## Security releases
 
