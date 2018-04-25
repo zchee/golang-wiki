@@ -51,6 +51,7 @@ Add new sections as appropriate.
 ## Concurrency
 
   - Sergey Kamardin, “[A Million WebSockets and Go](https://medium.freecodecamp.org/million-websockets-and-go-cc58418460bb),” August 2017, about the memory overhead of blocked read/write goroutines.
+  - Nathaniel J. Smith, “[Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/)”, April 2018.
 
 ## Context
 
