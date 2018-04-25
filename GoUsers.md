@@ -465,6 +465,8 @@
 * [Gett](http://gett.com/)
 * [2GIS](http://info.2gis.com/)
 * [Tochka](http://tochka.com/)
+* [OZON.ru](http://ozon.ru/)
+* [avito.ru](http://avito.ru/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
