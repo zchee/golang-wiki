@@ -421,6 +421,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-radix](https://github.com/armon/go-radix), [go-radix-immutable](https://github.com/hashicorp/go-immutable-radix) - Radix tree implementations.
   * [gtreap](https://github.com/steveyen/gtreap) - Persistent treap implementation.
   * [rbtree](https://github.com/yasushi-saito/rbtree) - Yet another red-black tree implementation, with a C++ STL-like API
+  * [rbtree](https://github.com/cdongyang/library/tree/master/rbtree) - A high performance red-black tree with an API similar to C++ STL's for set, map, multiset, multimap.
   * [rtreego](https://github.com/dhconnelly/rtreego) - an R-Tree library
   * [triego](https://github.com/alediaferia/triego) - Simple trie implementation for storing words
   * [prefixmap](https://github.com/alediaferia/prefixmap) - Simple trie-based prefix-map for string-based keys
