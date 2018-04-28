@@ -16,7 +16,7 @@ Drivers for Go's sql package include:
   * **ClickHouse** (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html)): https://github.com/mailru/go-clickhouse
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2**: https://bitbucket.org/phiggins/db2cli
-  * **DB2 LUW**: https://github.com/asifjalil/cli
+  * **DB2 LUW** (uses cgo): https://github.com/asifjalil/cli
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **MS ADODB**: https://github.com/mattn/go-adodb
   * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
