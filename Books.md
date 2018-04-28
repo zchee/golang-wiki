@@ -230,8 +230,8 @@ Sorted by publication date.
     * Reference: http://golang.muthukadan.net/
 
   * **Get Programming with Go**
-    * Author: Nathan Youngman
-    * Publication Date: Fall 2017 (estimated)
+    * Author: Nathan Youngman, Roger Peppe
+    * Publication Date: July 2018 (estimated)
     * ISBN: 9781617293092
     * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
 
