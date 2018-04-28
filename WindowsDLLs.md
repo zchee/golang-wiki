@@ -1,10 +1,10 @@
 # Calling a Windows DLL
 
-There are a few ways to call "C" code from inside Go
+Go allows you to call native Windows function in several different ways.
 
-First way: Dynamically load a dll, then call a method on it. You can call the method via "syscallXX" (the XX is number of parameters, but if it has few than that, like if you need seven parameter, then syscall9 will still work, you just tell it the number of arguments is 7).
+1. Dynamically load a DLL, then call a function in it. You can call the function via `SyscallX` (where X is the number of parameters. If the function has fewer parameters than that, for example passing 7 arguments to a function that accepts 9, `Syscall9` will still work, you just need to specify 7 as your second argument to `Syscall9`).
 
-A sample program that calls Windows DLLs from Go:
+A sample Go program that calls a Windows DLL function using this method:
 
 ```go
 package main
@@ -94,7 +94,7 @@ func init() {
 ```
 
 
-Second way is via syscall.NewProc (etc.) instead of syscall.GetProcAddress.  These are basically some helper methods over the syscall ones, you saw above, and are available in Windows only: http://golang.org/src/pkg/syscall/dll_windows.go
+2. Using syscall.NewProc instead of syscall.GetProcAddress. These are basically some helper methods over the syscall ones, you saw above, and are available in Windows only: http://golang.org/src/pkg/syscall/dll_windows.go
 
 ```go
 package main
@@ -119,9 +119,7 @@ func main() {
 }
 ```
 
-A third way would be to call into libraries basically by "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows):
-
-This way would look something like this
+3. By "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows). Example:
 
 ```go
 import ("C")
