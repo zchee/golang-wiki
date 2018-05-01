@@ -6,6 +6,7 @@ The `GOPATH` environment variable specifies the location of your workspace. If n
 - [Unix systems](#unix-systems)
   * [Bash](#bash)
   * [Zsh](#zsh)
+  * [fish](#fish)
 - [Windows](#windows)
 
 # Unix systems
