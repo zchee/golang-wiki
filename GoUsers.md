@@ -1,5 +1,8 @@
 # Companies currently using Go throughout the world
 
+## Argentina
+  * [Mercadolibre](http://www.mercadolibre.com/)
+
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/) - Finding partners to practise speaking in English (Globally).
   * [Tural Asgar](http://www.turalasgar.pro/) - Tural Asgar's personal blog.
