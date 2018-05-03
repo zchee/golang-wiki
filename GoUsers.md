@@ -218,6 +218,7 @@
   * [Exam attitude](https://examattitude.com/)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
+  * [FStack (Golang Consulting)](http://fstack.co/)
   * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
