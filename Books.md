@@ -466,6 +466,12 @@ Sorted by publication date.
     * Reference: http://entwickler.de/press/Einstieg-in-Google-Go
 
 # Brazilian Portuguese
+  * **A Linguagem de Programação Go**
+    * Author:  Alan A. A. Donovan, Brian W. Kernighan 
+    * Publication Date: 2017
+    * ISBN: 978-85-7522-546-2
+    * Reference: https://novatec.com.br/livros/linguagem-de-programacao-go/
+
   * **Programando em Go: crie aplicações com a linguagem do Google**
     * Author: Caio Filipini
     * Publication Date: 2014-07-01
