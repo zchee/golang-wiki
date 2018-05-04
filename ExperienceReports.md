@@ -132,7 +132,7 @@ code generation to avoid this [#70](https://github.com/go-kit/kit/issues/70) [#3
 a complex solution for the problem. 
  - Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
  - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
- - A Googler "[govisor/generics.go] (https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
+ - A Googler "[govisor/generics.go](https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
