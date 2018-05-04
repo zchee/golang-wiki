@@ -297,6 +297,7 @@
   * [Tokopedia](http://tokopedia.com)
   * [Valutac](https://valutac.com)
   * [Zelos](http://zelos.id)
+  * [Managix](https://managix.id/)
 
 ## Iran
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
