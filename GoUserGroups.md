@@ -176,6 +176,7 @@ Singapore.
   * [Canberra Gophers](https://plus.google.com/u/1/communities/114036877112593565975) - Canberra, Australia.
   * [golang-sydney](http://www.meetup.com/golang-syd/) - Sydney, Australia.
   * [golang-nz](http://groups.google.com/group/golang-nz) - New Zealand.
+  * [Wellington Golang](https://www.meetup.com/wellington-golang/) - Wellington, New Zealand.
   * [Melbourne-Go-Nuts](http://www.meetup.com/Melbourne-Go-Nuts) - Melbourne, Australia.
   * [Brisbane Gophers](http://www.meetup.com/Brisbane-Golang-Meetup/) - Brisbane, Australia.
   * [Honolulu/Oahu Go Users](https://plus.google.com/communities/103024089946238586108)
