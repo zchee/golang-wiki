@@ -29,7 +29,7 @@ git commit --amend # add message prefix and change Fixes line
 git codereview mail
 ```
 
-The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue. Do not change the "Change-Id" line.
+The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue. Do not change or remove the "Change-Id" line nor the other Gerrit lines.
 
 Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
