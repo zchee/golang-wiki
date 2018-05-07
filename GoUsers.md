@@ -304,6 +304,7 @@
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
   * [SabzCity](https://sabz.city/) - [github](https://github.com/sabzcity/)
+  * [Bahamta](https://bahamta.com/) - Fintech company.
 
 ## Ireland
   * [Intercom](http://intercom.io/)
