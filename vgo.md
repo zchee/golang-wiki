@@ -67,6 +67,7 @@ These are threads that have been created from the initial reference manifest for
 
 ### Videos
 
+- [Opening keynote: Go with Versions - GopherConSG 2018](https://www.youtube.com/watch?v=F8nrpe0XWRg)
 - [1-Using vgo for Go Dependency Management](https://www.gophersnacks.com/programs/using-vgo-for-go-dependency-management) by Brian Ketelsen
 - [2-Adding External Dependencies with vgo](https://www.gophersnacks.com/programs/adding-external-dependencies-with-vgo)
 - [Building Predictability into Your Pipeline](https://www.youtube.com/watch?v=sbrZfPgNmfw) with Russ Cox, Jess Frazelle, Sam Boyer, Pete Garcin.
