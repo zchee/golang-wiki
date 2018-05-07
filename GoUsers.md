@@ -474,6 +474,7 @@
 * [Tochka](http://tochka.com/)
 * [OZON.ru](http://ozon.ru/)
 * [avito.ru](http://avito.ru/)
+* [ThetaPad](http://thetapad.com/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
