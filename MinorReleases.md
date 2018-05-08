@@ -19,7 +19,13 @@ At release time, any open backport issue which is not release-blocker is pushed 
 
 ## Making cherry-pick CLs
 
-Once the main fix has been submitted to master, take note of its commit hash, then use `git codereview` and `git cherry-pick` to prepare a cherry-pick CL:
+Once the main fix has been submitted to master, you can use the Gerrit UI to make a cherry-pick if there are no merge conflicts:
+
+![Top right corner > More > Cherry-pick](https://user-images.githubusercontent.com/1225294/39773359-dc0c2b3a-52c5-11e8-836a-c518186e0ab3.png)
+
+In the popup enter the branch name (like `release-branch.go1.10`), add the commit message prefix (like `[release-branch.go1.10]`), update the "Fixes" line and do not change any of the other automated lines.
+
+To cherry-pick from the command line or to resolve a merge conflict, take note of the final commit hash, then use `git codereview` and `git cherry-pick` to prepare a cherry-pick CL:
 
 ```
 git checkout release-branch.go1.10
@@ -29,7 +35,7 @@ git commit --amend # add message prefix and change Fixes line
 git codereview mail
 ```
 
-The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue. Do not change or remove the "Change-Id" line nor the other Gerrit lines.
+**The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue. Do not change or remove the "Change-Id" line nor the other Gerrit lines.**
 
 Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
