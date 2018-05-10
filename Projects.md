@@ -1803,7 +1803,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-Windows-begin](https://github.com/yoffset/absolute-Windows---Go-Language-beginner) - for the absolute Windows-Go beginner
   * [w32](https://github.com/AllenDang/w32) - Windows API wrapper for Go.
   * [walk](https://github.com/lxn/walk) - "Windows Application Library Kit" for the Go Programming Language
-  * [Windows Command Line Shutdow](http://software-download.name/2012/windows-command-line-shutdown/) - A tool to shutdown Windows Computer from Command Prompt
+  * [Windows Command Line Shutdown](http://software-download.name/2012/windows-command-line-shutdown/) - A tool to shutdown Windows Computer from Command Prompt
 
 ## Unix
 
