@@ -42,6 +42,7 @@ Singapore.
   * [Belarus](http://gophers.by/) - Belarus.
   * [Barcelona](http://golangbcn.org) - Barcelona, Catalunya, Spain.
   * [Brno Golang](http://www.meetup.com/Golang-Brno/) - Brno, the Czech Republic
+  * [Golang Prague](https://www.meetup.com/Prague-Golang-Meetup/) - Prague, Czech Republic.
   * [Cambridge Gophers](http://www.meetup.com/Cambridge-Gophers/) - Cambridge, UK
   * [Suffolk Gophers](https://suffolkgophers.github.io/) - Suffolk, UK
   * [Stuttgart Gophers](https://www.meetup.com/Stuttgart-Gophers/) - Stuttgart, Germany.
