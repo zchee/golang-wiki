@@ -519,6 +519,7 @@
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
   * [Greta](https://greta.io/)
   * [Booli](https://www.booli.se/)
+  * [Studentlitteratur](https://www.studentlitteratur.se)
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
