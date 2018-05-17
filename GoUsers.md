@@ -1,7 +1,7 @@
 # Companies currently using Go throughout the world
 
 ## Africa
-  * [Jumia Food](https://food.jumia.com/)
+  * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
 
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/)
