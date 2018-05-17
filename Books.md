@@ -564,3 +564,11 @@ Sorted by publication date.
 # Looking for contributors
 
 [Add Go books here that are looking for writers, editors, Gopher illustrators, and translators.]
+
+ * **Go Web Development Cookbook**
+    * Author: Arpit Aggarwal
+    * Publication Date: April 2018
+    * ISBN: 9781787286740
+    * Reference: https://www.amazon.in/Web-Development-Cookbook-full-stack-applications/dp/1787286746
+
+***
