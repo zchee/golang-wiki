@@ -280,6 +280,7 @@
   * [Midtrans Payment Gateway](http://midtrans.com)
   * [Nodeflux](https://www.nodeflux.io/)
   * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
+  * [Pintu Magang - Jobs for Student](http://pintumagang.jktserver.com)
   * [President University](http://presuniv.com)
   * [Qasico Teknologi Indonesia](https://qasico.com)
   * [Qasir.id](https://www.qasir.id/)
