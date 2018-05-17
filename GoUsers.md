@@ -1,5 +1,8 @@
 # Companies currently using Go throughout the world
 
+## Africa
+  * [Jumia Food](https://food.jumia.com/)
+
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/)
 
