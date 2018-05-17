@@ -184,3 +184,11 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/web-development/go-production-deployments-video)]
 
 ***
+* **Network Programming with Go [Video]**
+    * Author: Vladimir Vivien
+    * Publication Date: April 2018
+    * ISBN: 9781788476560
+    
+[[video](https://www.packtpub.com/networking-and-servers/network-programming-go-video)]
+
+***
