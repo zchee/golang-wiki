@@ -221,6 +221,18 @@ Sorted by publication date.
    * ISBN: 9781787125384
    * Reference: https://www.amazon.com/dp/1787125386
 
+ * **Go Web Development Cookbook**
+    * Author: Arpit Aggarwal
+    * Publication Date: April 2018
+    * ISBN: 9781787286740
+    * Reference: https://www.amazon.com/Web-Development-Cookbook-full-stack-applications/dp/1787286746
+
+* **Mastering Go**
+    * Author: Mihalis Tsoukalos
+    * Publication Date: April 2018
+    * ISBN: 9781788626545
+    * Reference: https://www.amazon.com/Mastering-production-applications-concurrency-cloud-native/dp/1788626540
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
