@@ -20,7 +20,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
-| GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/<br>CFP https://www.papercall.io/gopherconsg-2018 |
+| GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
 | GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>https://github.com/GopherConRu/talks | 
