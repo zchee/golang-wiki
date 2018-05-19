@@ -3,7 +3,7 @@
   * [The Way of the Gopher - Making the Switch from Node.js to Golang](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f)
   * [Moving a team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
   * [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
-  * [From Python to Go: Migrating our entire API](https://blog.repustate.com/migrating-entire-api-go-python/)
+  * [From Python to Go: Migrating our entire API](https://www.repustate.com/blog/migrating-entire-api-go-python/)
   * [Our Experience with Golang](https://www.scriptrock.com/blog/our-experience-with-golang)
   * [The Reliability of Go](http://andrewwdeane.blogspot.de/2013/05/the-reliability-of-go.html)
   * [A Go Redirection Service](http://blog.dnsimple.com/a-golang-redirection-service/)
