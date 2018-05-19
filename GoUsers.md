@@ -92,6 +92,7 @@
   * [Greenfield Labs / Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Hootsuite](https://hootsuite.com/)
+  * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
   * [Koho](https://www.koho.ca/)
   * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
