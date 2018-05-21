@@ -56,6 +56,8 @@ These are threads that have been created from the initial reference manifest for
 - [Diving into vgo from the Golang project](https://www.wolfe.id.au/2018/03/01/diving-into-vgo-from-the-golang-project/)
 - [A Proposal for Package Versioning in Go](https://blog.golang.org/versioning-proposal)
 - [Notes on migrating to a Go mono repo](https://github.com/myitcv/x/wiki/Notes-on-migrating-to-a-Go-mono-repo)
+- [An Analysis of vgo](https://sdboyer.io/vgo/intro/)
+- [Go vgo: Semantic Versioning and Human Error](https://codeengineered.com/blog/2018/golang-vgo-semver-human-error/)
 
 ***
 
