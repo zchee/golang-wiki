@@ -22,7 +22,7 @@ Please keep all items in reverse chronological order (most recent first)
 |------|------------|----------|----------------|
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
-| GoCon Tokyo | 2017-04-15 | Tokyo, Japan | https://gocon.connpass.com/event/82515/ |
+| GoCon Tokyo | 2018-04-15 | Tokyo, Japan | https://gocon.connpass.com/event/82515/ |
 | GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
 | GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>https://github.com/GopherConRu/talks | 
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
