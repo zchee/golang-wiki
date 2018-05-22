@@ -19,17 +19,17 @@ The **proposal** can be found here [https://github.com/golang/go/issues/24301](h
 
 The **reference implementation**: [https://go.googlesource.com/vgo/](https://go.googlesource.com/vgo/) and mirrored on Github here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
 
-The **[Go issue tracker](https://golang.org/issues)** is used to track bugs / feature requests for vgo. The issue titles need to start with `x/vgo` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
+The **[Go issue tracker](https://golang.org/issues)** is used to track bugs/feature requests for vgo. The issue titles need to start with `x/vgo` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
 
 ***
 
 ### Current state
 
-Currently vgo is in active development / prototype phase. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it, and contribute to it.
+Currently, vgo is in active development. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it, and contribute to it.
 
 For any production workloads, use [dep](https://github.com/golang/dep), or migrate to it if you have not done so already.
 
-vgo will be merged in the Go tree and replace dep at a later date, assuming the proposal is accepted.
+The vgo proposal has been accepted and will be merged in the Go tree and replace dep at a later date.
 
 ***
 
