@@ -31,6 +31,8 @@ For any production workloads, use [dep](https://github.com/golang/dep), or migra
 
 The vgo proposal has been accepted and will be merged in the Go tree and replace dep at a later date.
 
+You will be able to experiment with the vgo workflow from Go 1.11 as it will be included as an experiment in this release.
+
 ***
 
 ### Comment Threads
