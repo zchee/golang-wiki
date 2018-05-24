@@ -7,7 +7,6 @@ Go 2 is in a very early, planning phase.
 ## Bugs
 
 * [Open Go2 bugs](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AGo2)
-* 
 
 ## Talks
 
