@@ -56,13 +56,6 @@ These are threads that have been created from the initial reference manifest for
 - [Diving into vgo from the Golang project](https://www.wolfe.id.au/2018/03/01/diving-into-vgo-from-the-golang-project/)
 - [Notes on migrating to a Go mono repo](https://github.com/myitcv/x/wiki/Notes-on-migrating-to-a-Go-mono-repo)
 
-Concerns about MVS (minimal version selection algorithm powering vgo):
-
-- [Thoughts on vgo and dep](https://sdboyer.io/blog/vgo-and-dep/)
-- [An Analysis of vgo](https://sdboyer.io/vgo/intro/)
-- [Go vgo: Semantic Versioning and Human Error](https://codeengineered.com/blog/2018/golang-vgo-semver-human-error/)
-- [Go vgo: A Broken Dependency Tree](https://codeengineered.com/blog/2018/golang-vgo-broken-dep-tree)
-
 ***
 
 ### Presentations
