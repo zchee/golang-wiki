@@ -14,6 +14,7 @@ Any issue must be in one of the following states. Project contributors move issu
   - The title has a path prefix.
   - The body describes the issue.
 - Has a milestone.
+  - If the issue is not important, it is ok to set the milestone to unplanned. Otherwise, set it to the next upcoming release.
 - Has the label `NeedsInvestigation`.
   - May also have the label `WaitingForInfo` if the investigator is waiting for more information from someone (e.g., the issue reporter).
 - To transition from this state, someone must examine the issue and confirm that it is valid and not a duplicate of an existing issue.
