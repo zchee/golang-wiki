@@ -181,6 +181,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [writ](https://github.com/ziuchkovski/writ) - A flexible option parser with thorough test coverage.  It's meant to "just work" and stay out of the way.
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
+  * [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired on the flexibility of Perl’s GetOpt::Long.
 
 ## Command-line Tools
 
