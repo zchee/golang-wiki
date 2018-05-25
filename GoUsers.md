@@ -34,7 +34,7 @@
   * [Astrolink](http://www.astrolink.com.br) - [github](https://github.com/astrolink)
   * [Beauty Date](http://www.beautydate.com.br)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
-  * [Catho](http://www.catho.com.br)
+  * [Catho](http://www.catho.com.br) - [github](https://github.com/catho)
   * [Coderockr](http://coderockr.com)
   * [Code:Nation](http://codenation.com.br)
   * [ContaAzul](https://contaazul.com/)
