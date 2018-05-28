@@ -124,7 +124,7 @@
   * [Mili](https://5imili.github.io)
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
   * [OPPO](https://www.oppo.com)
-  * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu)
+  * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu) - Qiniu builds and operates one of the largest public cloud services in China, with millions of code written in Go since 2011.
   * [SenseTime](https://www.sensetime.com) - a global leading A.I. company
   * [Teambition](https://www.teambition.com) - [github](https://github.com/teambition)
   * [TiDB](https://www.pingcap.com/en/) - [tweet: Golang in TiDB](https://twitter.com/PingCAP/status/940503487086858240) - [github](https://github.com/pingcap/tidb) - TiDB is a distributed HTAP database compatible with the MySQL protocol
