@@ -23,6 +23,7 @@ From talk above:
 
 Examples of major changes:
 
+* [versioning](https://github.com/golang/go/issues/24301)
 * [generics](https://github.com/golang/go/issues/15292)?
 * [simplified, improved error handling](https://github.com/golang/go/issues/21161)?
 * ...
