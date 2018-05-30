@@ -11,7 +11,7 @@
   * [Tural Asgar](http://www.turalasgar.pro/) - Tural Asgar's personal blog.
 
 ## Australia
-  * [Assembly Payments](https://assemblypayments.com/)
+  * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
   * [Atlassian](http://atlassian.com/)
   * [BCZ](http://bcz.com/) - Human captcha verification with spam protection.
   * [Buildkite](https://buildkite.com/) - [github](https://github.com/buildkite/agent)
