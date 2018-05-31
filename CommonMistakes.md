@@ -2,7 +2,7 @@ Table of Contents
 =================
 
 + [Introduction](#introduction)
-+ [Using goroutines on loop iterator variables](#using-goroutines-on-loop-iterator-variables)
++ [Using goroutine on loop iterator variables](#using-goroutines-on-loop-iterator-variables)
 
 # Introduction
 
