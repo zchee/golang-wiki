@@ -10,14 +10,7 @@ When new programmers start using Go or when old Go programmers start using a new
 
 # Using goroutines on loop iterator variables 
 
-When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write the following code:
-```go
-for _, val := range values {
-	go val.MyMethod()
-}
-```
-
-or if you wanted to process values coming in from a channel in their own goroutines, you might write something like this, using a closure:
+When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write something like this, using a closure:
 
 ```go
 for _, val := range values {
@@ -62,5 +55,44 @@ for i := 1; i <= 10; i++ {
 ```
 
 Even though the closures all still close over the same variable (in this case, ` i `), they are executed before the variable changes, resulting in the desired behavior.
-
 http://golang.org/doc/go_faq.html#closures_and_goroutines
+
+Another similar situation that you may find like following:
+
+```go
+for _, val := range values {
+	go val.MyMethod()
+}
+
+func (v *val) MyMethod() {
+        fmt.Println(v)
+}
+```
+
+The above example also will print last element of values, unfortunately the reason isn't the same as closure. 
+ For each iteration, `val` has been evaluated as the pointer receiver of `MyMethod` after statement `go val.MyMethod()` executed. So When `val.MyMethod` is indeed invoked in goroutine, the `val` pointer point to current iterated value of `values` that you don't expect.
+
+The right way is using value type receiver instead of pointer:
+
+```go
+for _, val := range values {
+	go val.MyMethod()
+}
+
+func (v val) MyMethod() {
+        fmt.Println(v)
+}
+```
+
+Or just declare new variable within the body of the loop:
+
+```go
+for _, val := range values {
+        newVal := val
+	go newVal.MyMethod()
+}
+
+func (v *val) MyMethod() {
+        fmt.Println(v)
+}
+```
