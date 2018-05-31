@@ -10,7 +10,7 @@ When new programmers start using Go or when old Go programmers start using a new
 
 # Using goroutines on loop iterator variables 
 
-When iterating in Go, one might also be tempted to use goroutines to process data in parallel. For example, you might write something like this, using a closure:
+When iterating in Go, one might atempt to use goroutines to process data in parallel. For example, you might write something like this, using a closure:
 
 ```go
 for _, val := range values {
