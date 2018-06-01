@@ -31,7 +31,7 @@
     * [notepadplus-go](https://github.com/chai2010/notepadplus-go) Syntax highlighting, functions list panel (for code browsing), code completion for keywords & builtins.
     * The GOnpp plugin (available **via Notepad++'s built-in Plugin Manager**) provides code completion (requires gocode), function calltips, goimports integration, and keyboard shortcuts for common go commands. [[sources](https://github.com/tike/GOnpp), [binaries](http://sourceforge.net/projects/gonpp/files/)].
     * [GoAutocomplete](https://github.com/steve-perkins/GoAutocomplete) is another code completion plugin.
-  * **[Source Insight](https://www.sourceinsight.com)**: Commercial (up to 30 days trial) programming editor & code browser with built-in live analysis for C/C++, C#, Java, and more; helping you understand large projects.
+  * **[Source Insight](https://www.sourceinsight.com)**: Commercial programming editor & code browser with built-in live analysis for C, C++, C#, Java, and more; helping you understand large projects.
     * [golang.xclf](https://www.sourceinsight.com/pub/languages/golang.xclf) is a [Custom Language](https://www.sourceinsight.com/download/custom-languages/) file adding syntax formatting and some parsing support to Source Insight for Go language.
   * **[Sublime Text](http://www.sublimetext.com/)**: Commercial text editor.
     * [GoSublime](https://github.com/DisposaBoy/GoSublime) is a plugin collection with IDE-like features available.
