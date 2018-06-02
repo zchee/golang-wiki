@@ -126,6 +126,35 @@ Previously existed opcodes that can be encoded using EVEX prefix now can access 
 
 See [encoder details](#encoder-details) for more info.
 
+### Supported extensions
+
+Best way to get up-to-date list of supported extensions is to do `ls -1` inside [test suite](https://github.com/golang/go/tree/master/src/cmd/asm/internal/asm/testdata/avx512enc) directory.
+
+Latest list includes:
+```
+aes_avx512f
+avx512_4fmaps
+avx512_4vnniw
+avx512_bitalg
+avx512_ifma
+avx512_vbmi
+avx512_vbmi2
+avx512_vnni
+avx512_vpopcntdq
+avx512bw
+avx512cd
+avx512dq
+avx512er
+avx512f
+avx512pf
+gfni_avx512f
+vpclmulqdq_avx512f
+```
+
+128-bit and 256-bit instructions additionally require `avx512vl`.  
+That is, if `VADDPD` is available in `avx512f`, you can't use `X` and `Y` arguments
+without `avx512vl`.
+
 ### Instructions with size suffix
 
 Some opcodes do not match Intel manual entries.  
