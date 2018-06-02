@@ -155,6 +155,9 @@ vpclmulqdq_avx512f
 That is, if `VADDPD` is available in `avx512f`, you can't use `X` and `Y` arguments
 without `avx512vl`.
 
+Filenames follow `GNU as` (gas) conventions.
+[avx512extmap.csv](https://gist.github.com/Quasilyte/92321dadcc3f86b05c1aeda2c13c851f) can help understand naming scheme better.
+
 ### Instructions with size suffix
 
 Some opcodes do not match Intel manual entries.  
