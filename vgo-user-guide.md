@@ -1,10 +1,10 @@
 # VGO User Guide
 
-vgo adds package version support to the Go tool chain. vgo will be present in the go1.11 go command as an opt-in feature.
+`vgo` adds package version support to the Go tool chain. `vgo` will be present in the go1.11 go command as an opt-in feature.
 
 ## Installing
 
-Until go1.11 comes out, install vgo with `go get -u golang.org/x/vgo`. To use, replace all uses of `go` with `vgo` so `go build` becomes `vgo build`.
+Until go1.11 comes out, install `vgo` with `go get -u golang.org/x/vgo`. To use, replace all uses of `go` with `vgo` so `go build` becomes `vgo build`.
 
 ## New Concepts
 
@@ -52,22 +52,37 @@ Different major versions are effectively different modules. A `/v2` module will 
 
 To verify the integrity of a module, create a new empty file called `go.modverify`.
 
-## Setup
+## New Project Setup
 
-### New Modules
+There are two options when using `vgo` for an existing project.
 
-For new modules create a new file in the module root called `go.mod`. Edit it:
+The project already has vendored dependencies using `dep` and you want to maintain those dependences when possible.
+You want `vgo` to identify the minimal version for the identified imported dependencies, ignoring what currently has been vendored and documented in the `dep` lock file.
+
+_Note: When vgo looks for the latest version of an unconstrained dependency, it gives precedence to semver tagged releases. If it fails to find a semver tagged release, it falls back to using the latest commit._
+
+### Option 1
+
+The project has already has vendored dependencies using `dep` and you want to maintain those dependences where you can.
+
 ```
-module github.com/user/modulename
+$ cd $GOPATH/src/<project path>
+$ vgo build ./...
 ```
 
-You're ready to go.
+In this option you will navigate to the root of the projects path. Verify there is no existing `go.mod` file. For this option to work, no `go.mod` file can exist. Then build all possible binaries inside the project.
 
-### Existing Modules
+### Option 2
 
-If an existing module contains a `dep` lock file, it will be read and converted automatically on the first build. A new `go.mod` file will be written will use the versions found in the existing lock file.
+You want `vgo` to identify the minimal version for the identified imported dependencies, ignoring what currently has been vendored and documented in the `dep` lock file.
 
-If you put an empty `go.mod` file it will ignore any existing lock file and get the latest version of each dependency.
+```
+$ cd $GOPATH/src/<project path>
+$ touch go.mod
+$ vgo build ./...
+```
+
+In this option you will navigate to the root of the projects path. Verify there is no existing `go.mod` file. For this option to work, an empty `go.mod` file must exist. Then build all possible binaries inside the project.
 
 ### Updating Dependencies
 
