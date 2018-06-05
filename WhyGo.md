@@ -29,7 +29,6 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [@tobi](http://twitter.com/tobi): ["I have now completed two projects in Go. I predict that it's going to be the dominant language for server work."](https://twitter.com/tobi/status/245873677483274240)
 - [@derekcollison](http://twitter.com/derekcollison): ["Prediction: Go will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months."](https://twitter.com/derekcollison/status/245522124666716160)
 - [Will Go be the new go-to programming language?](http://gigaom.com/cloud/will-go-be-the-new-go-to-programming-language/)
-- [Go is boring](http://aeronotix.pl/blog/go-is-boring)
 - [Dr. Dobb's: Why Not Go?](http://www.drdobbs.com/open-source/why-not-go/240005062)
 - [Google I/O 2012: Go in production](http://www.youtube.com/watch?v=kKQLhGZVN4A)
 - [Go at Novartis](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
