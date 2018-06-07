@@ -4,7 +4,7 @@ Errors are indicated by returning an `error` as an additional return value from 
 
 ` error `s can be turned into strings by calling `Error`, their only method. You can create an error from a string by calling `errors.New`:
 
-```
+```go
 if failure {
 	return errors.New("inverse tachyon pulse failed")
 }
@@ -12,7 +12,7 @@ if failure {
 
 Error strings should not start with a capital letter because they'll often be prefixed before printing:
 
-```
+```go
 err := TryInverseTachyonPulse()
 if err != nil {
 	fmt.Printf("failed to solve problem: %s\n", err)
@@ -25,7 +25,7 @@ If you expect calling code to be able to handle an error, you can distinguish cl
 
 If you want to carry extra data with the error, you can use a new type:
 
-```
+```go
 type ParseError struct {
 	Line, Col int
 }
@@ -37,7 +37,7 @@ func (p ParseError) Error() string {
 
 Calling code would test for a special type of `error` by using a type switch:
 
-```
+```go
 switch err := err.(type) {
 case ParseError:
 	PrintParseError(err)
@@ -48,7 +48,7 @@ case ParseError:
 
 Error types end in `"Error"` and error variables start with `"Err"`:
 
-```
+```go
 package somepkg
 
 // ParseError is type of error returned when there's a parsing problem.
