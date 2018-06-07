@@ -920,7 +920,7 @@
   * [Telit IoT Portal](http://www.telit.com/products-and-services/iot-platforms/iot-portal/)
   * [Tendermint](http://tendermint.com/) - [github](https://github.com/tendermint/tendermint)
   * [TF2Stadium](http://tf2stadium.com) - [github](https://github.com/TF2Stadium), [blog](http://blog.tf2stadium.com/how-it-works-basics/)
-  * [TGen](https://www.tgen.org/)
+  * [TGen](https://www.tgen.org/) - [github](https://github.com/tgen), [blog](https://www.tgen.org/blog/)
   * [The Plant](http://theplant.jp) - [Qortex](http://qortex.com), [QoR](http://getqor.com)
   * [Thisissoon](http://thisissoon.com/) - [github](https://github.com/thisissoon/yam)
   * [Thomson Reuters Eikon](https://github.com/ThomsonReutersEikon) - [github](https://github.com/ThomsonReutersEikon) [source](https://groups.google.com/forum/?fromgroups#!topic/golang-nuts/ikt3hcIqicA), [video](https://www.youtube.com/watch?v=mDTg1dLUqBE)
