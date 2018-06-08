@@ -192,3 +192,19 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/networking-and-servers/network-programming-go-video)]
 
 ***
+* **Learning Go Data Structures and Algorithms [Video]**
+    * Author: Gustavo Chaín
+    * Publication Date: May 2018
+    * ISBN: 9781788392563
+    
+[[video](https://www.packtpub.com/application-development/learning-go-data-structures-and-algorithms-video)]
+
+***
+* **Hands-on with Go [Video]**
+    * Author: Tarik Guney
+    * Publication Date: May 2018
+    * ISBN: 9781789132519
+    
+[[video](https://www.packtpub.com/networking-and-servers/network-programming-go-video)]
+
+***
