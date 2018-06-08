@@ -233,6 +233,12 @@ Sorted by publication date.
     * ISBN: 9781788626545
     * Reference: https://www.amazon.com/Mastering-production-applications-concurrency-cloud-native/dp/1788626540
 
+* **Echo Quick Start Guide**
+    * Author: J. Ben Huson 
+    * Publication Date: May 2018
+    * ISBN: 9781789139433
+    * Reference: https://www.amazon.com/dp/1789139430
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
