@@ -68,23 +68,7 @@ func (v *val) MyMethod() {
         fmt.Println(v)
 }
 ```
-
-The above example also will print last element of values, unfortunately the reason isn't the same as closure. 
- For each iteration, `val` has been evaluated as the pointer receiver of `MyMethod` after statement `go val.MyMethod()` executed. So When `val.MyMethod` is indeed invoked in goroutine, the `val` pointer point to current iterated value of `values` that you don't expect.
-
-The right way is using value type receiver instead of pointer:
-
-```go
-for _, val := range values {
-	go val.MyMethod()
-}
-
-func (v val) MyMethod() {
-        fmt.Println(v)
-}
-```
-
-Or just declare new variable within the body of the loop:
+The above example also will print last element of values, the reason is same as closure. To fix the declare another variable inside the loop. 
 
 ```go
 for _, val := range values {
