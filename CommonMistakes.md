@@ -68,7 +68,7 @@ func (v *val) MyMethod() {
         fmt.Println(v)
 }
 ```
-The above example also will print last element of values, the reason is same as closure. To fix the declare another variable inside the loop. 
+The above example also will print last element of values, the reason is same as closure. To fix the issue declare another variable inside the loop. 
 
 ```go
 for _, val := range values {
