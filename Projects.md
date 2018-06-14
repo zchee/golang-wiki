@@ -1496,6 +1496,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [assert](https://github.com/chai2010/assert) - Assert for go test.
   * [assert](https://github.com/golangplus/testing/tree/master/assert) - Handy assert package.
   * [assert](https://github.com/seanpont/assert) - JUnit-like asserts with excellent error messages
+  * [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
   * [conex](https://github.com/omeid/conex) - Docker containers for integration tests
   * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained and type-safe mocks.
   * [downtest](https://github.com/jmcvetta/downtest) - Automatically run tests for all known downstream consumers of a Go package.
