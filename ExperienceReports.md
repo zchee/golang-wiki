@@ -207,6 +207,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Nicolas, Boulay "[Sum type not always the best choice (Typed tagless-final interpretations)](https://gist.github.com/nicolasboulay/a8ee4a65e8c2cc110c20e6d24e838e86), October 2017
 - Eduard Urbach, "[Type-casting interface{} to chan interface{}](https://github.com/blitzprog/go-channel-type-casting)", October 2017
 - David Vennik, "[Unjumbling Golang OOP primitives](https://gist.github.com/l0k1verloren/344956daedb434094e9af2c21ff9376c)", April 20, 2018 - The problem of the lack of structuring in OOP primitives - dummy functions and redundant boilerplate type bindings.
+- Jelte Fennema, "[Fixing the billion dollar mistake in Go by borrowing from Rust](https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/)", June 14, 2018 - Nil pointer dereferences cause panics in production - it would be great if the type system would catch some of those.
 
 ## Typed nils
  
