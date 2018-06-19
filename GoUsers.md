@@ -469,6 +469,7 @@
   * [AppGeneration](http://appgeneration.com/)
   * [Lmit](http://lmit.pt/)
   * [Uniplaces](http://uniplaces.com/)
+  * [Bright Pixel](https://brpx.com/)
 
 ## Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
