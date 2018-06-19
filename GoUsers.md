@@ -425,6 +425,7 @@
 ## Netherlands
   * [BloomReach](https://www.bloomreach.com)
   * [bol.com](https://www.bol.com)
+  * [Datumprikker.nl](https://datumprikker.nl/)
   * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [localsensor](http://localsensor.com/)
