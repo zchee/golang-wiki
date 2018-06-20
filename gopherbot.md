@@ -32,4 +32,12 @@ As always, patches are welcome!
 
 ## Backporting issues
 
-TODO(filippo)
+gopherbot is capable of opening backport issues according to [MinorReleases](https://golang.org/wiki/MinorReleases) in response to comments like the following on the main issue.
+
+> @gopherbot please consider this for backport to 1.10, it's a regression.
+
+> @gopherbot please open the backport tracking issues. This is a severe compiler bug.
+
+The keywords are `@gopherbot`, `backport`, `please` and optionally the release. They can be anywhere in the comment. If no release is mentioned issues are opened for the two past releases. The entire message is quoted in the new issue, so please include a rationale.
+
+(Note that currently only the first backport command on an issue is executed. https://golang.org/issues/25574)
