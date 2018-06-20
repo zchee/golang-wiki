@@ -63,6 +63,10 @@ If a builder fails for more than four weeks or is failing at the time of a relea
 
 Due to backwards compatibility concerns, removing a formerly working port should be a last resort. Finding a new maintainer is always preferable.
 
+# Getting started
+
+See https://groups.google.com/forum/#!topic/golang-dev/SRUK7yJVA0c for some discussion on how to go about writing a new port.
+
 # Comments and Questions
 
 Comments or questions about the policy should be sent to golang-dev.
