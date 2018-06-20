@@ -474,7 +474,7 @@
 ## Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
 * [JobDone](https://jobdone.net) - Freelancer Marketplace
-* [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US,UK, Romania and Australia
+* [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US, UK, Romania and Australia
 
 ## Russia
 * [Acronis](http://acronis.com)
