@@ -347,6 +347,7 @@
   * [Oxequa](http://www.oxequa.com) - ([Realize](https://github.com/oxequa/realize), [Grace](https://github.com/oxequa/grace))
   * [Qurami](http://www.qurami.com) - [github](https://github.com/qurami)
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/trenitapp/posts/907728379283787)) -- Most popular mobile app for Italian trains schedules
+  * [Develer](https://www.develer.com)
 
 ## Japan
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
