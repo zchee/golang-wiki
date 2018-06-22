@@ -16,7 +16,7 @@ The major version of a module must be included in both the module path and the p
 
 ### Modules
 
-Go packages now live in modules. Each module is associated with the URL path it may be found at and may include a major version at the end of the module path (but nowhere else). Modules may live outside of the `GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
+Go packages now live in modules. Each module is associated with the URL path where it may be found and may include a major version at the end of the module path (but nowhere else). Modules may live outside of the `GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
 
 Modules are defined by a `go.mod` file that lives in the root of the module. Module files may include comments and will look familiar to a go programmer. Here is an example `go.mod` file:
 ```
