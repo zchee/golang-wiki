@@ -14,7 +14,7 @@ In general, the rules are:
 
 * make your assembly easy to review, and ideally auto-generated from a Go program so we can review the generator program. Comment it well.
 
-* test it well. The bar for new assembly code is high. It needs commensurate test coverage. The generic existing high-level tests are often not enough to test hundreds of lines of assembly. Test subroutines individually.
+* test it well. The bar for new assembly code is high. It needs commensurate test coverage. The generic existing high-level tests are often not enough to test hundreds of lines of assembly. Test subroutines individually. Test it (fuzz it) against the Go implementation.
 
 ## Future directions
 
