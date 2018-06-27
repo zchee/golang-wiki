@@ -6,7 +6,7 @@ In general, the rules are:
 
 * We prefer portable Go, not assembly. Code in assembly means (N packages * M architectures) to maintain, rather than just N packages.
 
-* Minimize use of assembly. We'd rather have a small amount of assembly for a 50% speedup rather than twice as much assembly for a 55% speedup. Explain the decision to place the assembly/Go boundary where it is, and support it with benchmarks in the commit message.
+* Minimize use of assembly. We'd rather have a small amount of assembly for a 50% speedup rather than twice as much assembly for a 55% speedup. Explain the decision to place the assembly/Go boundary where it is in the commit message, and support it with benchmarks.
 
 * Explain the root causes in code comments or commit messages. What changes in the compiler and standard library would allow you to replace this assembly with Go? (New intrinsics, SSA pattern matching, other optimizations.)
 
