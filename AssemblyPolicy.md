@@ -1,6 +1,6 @@
 # Assembly Policy
 
-This document describes when and how to add assembly code to routines in the Go-maintained packages.
+This document describes when and how to add assembly code to routines in the Go-maintained packages. This document is a work in progress.
 
 In general, the rules are:
 
@@ -19,5 +19,3 @@ In general, the rules are:
 ## Future directions
 
 * if possible, port existing reviewed implementations. A tool should make it easy to review diffs from decompiler output. Consider the license implications.
-
-*TODO*: add more. This document is a work in progress.
