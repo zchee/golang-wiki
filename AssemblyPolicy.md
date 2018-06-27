@@ -8,10 +8,12 @@ In general, the rules are:
 
 * assembly code needs benchmarks showing it's worth it
 
-* minimize use of assembly. We'd rather have a small amount of assembly for a 50% speedup rather than twice as much assembly for a 55% speedup.
+* minimize use of assembly. We'd rather have a small amount of assembly for a 50% speedup rather than twice as much assembly for a 55% speedup. Explain the decision to place the assembly/Go boundary where it is.
+
+* explain why you need the assembly. What changes in the compiler and standard library would allow you to replace this assembly with Go? (New intrinsics, SSA pattern matching, other optimizations.)
 
 * make your assembly easy to review, and ideally auto-generated from a Go program so we can review the generator program. Comment it well.
 
-* test it well. The bar for new assembly code is high. It needs commensurate test coverage.
+* test it well. The bar for new assembly code is high. It needs commensurate test coverage. The generic existing high-level tests are often not enough to test hundreds of lines of assembly. Test subroutines individually.
 
 *TODO*: add more. This document is a work in progress.
