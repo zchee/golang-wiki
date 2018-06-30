@@ -621,6 +621,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [date](https://github.com/fxtlabs/date) - A package for working with dates.
   * [date](https://github.com/rickb777/date) - For dates, date ranges, time spans, periods, and time-of-day.
   * [gostrftime](https://github.com/cactus/gostrftime) - strftime(3) like formatting for time.Time
+  * [goment](https://github.com/nleeper/goment) - Go time library inspired by Moment.js
   * [tai64](https://github.com/cactus/tai64) - tai64 and tai64n parsing and formatting
   * [tuesday](https://github.com/osteele/tuesday) - A Strftime implementation that's compatible with Ruby's `Time.strftime`
   * [Tideland golib](https://github.com/tideland/golib) - Timex extensions
