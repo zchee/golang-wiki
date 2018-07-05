@@ -39,6 +39,7 @@
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio) - an open payment platform
   * [Coderockr](http://coderockr.com)
   * [Code:Nation](http://codenation.com.br)
+  * [Conductor](http://www.conductor.com.br)
   * [ContaAzul](https://contaazul.com/)
   * [Compufácil](http://compufacil.com.br)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
