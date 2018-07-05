@@ -458,7 +458,7 @@ func (f *Foo) Location() (lat, long float64, err error)
 
 Naked returns are okay if the function is a handful of lines. Once it's a medium
 sized function, be explicit with your return values. Corollary: it's not worth it
-to name result parameters just because it enables you to use naked returns.
+to name result parameters just because it enables you to use named returns.
 Clarity of docs is always more important than saving a line or two in your function.
 
 Finally, in some cases you need to name a result parameter in order to change
