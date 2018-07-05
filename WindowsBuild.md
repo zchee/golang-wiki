@@ -6,7 +6,7 @@ To use winstrap, download the latest version of winstrap.exe from the [winstrap]
 
 It will download some installers to your desktop, which you should run. Just click through; all the defaults are fine.
 
-Then it will check out Go and place it in c:\Users\%USER%\goroot and build it.
+Then it will check out Go and place it in c:\Users\\%USER%\goroot and build it.
 
 That's it.
 
