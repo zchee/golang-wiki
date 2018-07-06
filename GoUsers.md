@@ -62,6 +62,7 @@
   * [Moip Pagamentos](https://www.moip.com.br)
   * [MundiPagg](https://www.mundipagg.com) - [github](https://github.com/mundipagg)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
+  * [Newcore](https://www.newcore.com.br/)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
   * [Pagar.me](https://pagar.me)
