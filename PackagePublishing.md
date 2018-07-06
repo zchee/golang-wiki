@@ -108,7 +108,7 @@ which would also install the ` ".../epub" ` package because of the dependency.  
 ```
 go get codesite.tld/authorName/Go-PublishingExample/epub
 ```
-and (if he had not already installed ` publish `) would only download and install the package.  Note that in none of these cases are the examples or documentation downloaded; in most cases these would be available to browse via the code site.
+and (if they had not already installed ` publish `) would only download and install the package.  Note that in none of these cases are the examples or documentation downloaded; in most cases these would be available to browse via the code site.
 
 # Documentation
 ## godoc
