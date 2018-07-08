@@ -8,7 +8,7 @@
 
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/) - Finding partners to practise speaking in English (Globally).
-  * [Tural Asgar](http://www.turalasgar.pro/) - Tural Asgar's personal blog.
+  * [Tural Asgar](https://www.turalasgar.com/) - Tural Asgar's personal blog.
 
 ## Australia
   * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
