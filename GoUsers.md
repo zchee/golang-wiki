@@ -202,6 +202,7 @@
   * [Weaveworks](http://weave.works)
   * [Zalando SE](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
   * [Onefootball](http://onefootball.com)
+  * [Sudokoin](http://sudokoin.com)
 
 
 ## Hong Kong
