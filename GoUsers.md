@@ -556,6 +556,7 @@
   * [Donuts Bangkok](http://www.donuts-bkk.com/)  
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech)
+  * [Sellsuki](https://www.sellsuki.co.th/)
   * [SPRINT3r](http://sprint3r.com/)
   * [ThothZocial](https://thothzocial.com/)
   * [Tencent Thailand](https://developers.tencent.co.th/)
