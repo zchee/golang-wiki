@@ -196,7 +196,6 @@ If you're looking for services that support Go, here's a list to get you started
     - [OpsDash](https://www.opsdash.com/) - Go-based cluster monitoring platform.
   - Package and Dependency Management
     - [Gopkg.in](http://labix.org/gopkg.in) is a source for stable Go libraries, provided by Gustavo Niemeyer.
-    - [Stable Lib](https://stablelib.com/) is a service that provides stable Go packages with long-term support.
 
 ## Troubleshooting Go Programs in Production
 
