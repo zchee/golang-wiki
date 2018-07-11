@@ -14,7 +14,9 @@ If you are using tinyconfig (e.g. make tinyconfig) for embedded systems, you wil
 
 ### [Windows](Windows)
 
-Windows XP (w/ Service Pack 3) or higher. We also test Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8, and Windows 10.
+For Go 1.10: Windows XP (w/ Service Pack 3) or higher.
+
+For Go 1.11 and later: Windows Server 2008R2 and higher or Windows 7 and higher. We test on Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8, and Windows 10.
 
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
