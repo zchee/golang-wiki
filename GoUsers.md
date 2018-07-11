@@ -316,6 +316,8 @@
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
   * [SabzCity](https://sabz.city/) - [github](https://github.com/sabzcity/)
   * [Bahamta](https://bahamta.com/) - Fintech company.
+  * [5th dimension](https://5thd-co.com/) - Advertising Agency.
+  * [Telmaperfume](https://telmaperfume.com/) - Promotional Gifts.
 
 ## Ireland
   * [Intercom](http://intercom.io/)
