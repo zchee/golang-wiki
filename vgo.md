@@ -80,6 +80,7 @@ These are threads that have been created from the initial reference manifest for
 - [Athens](https://github.com/gomods/athens) - A proxy server for vgo
 - [vgo-docker-example](https://github.com/elithrar/vgo-docker-example) - An example of how to use vgo + Docker together.
 - [`myitcv.io/cmd/modpub`](https://github.com/myitcv/x/tree/master/cmd/modpub) - a tool to help create a directory of vgo modules from a git repository
+- [https://jfrog.com/artifactory](JFrog Artifactory) - A universal artifact repository with vgo support.
 
 ***
 
