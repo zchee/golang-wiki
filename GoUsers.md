@@ -241,7 +241,7 @@
   * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Kayako](http://www.kayako.com/)
   * [Mindbowser](http://mindbowser.com/)
-  * [Noticeboard] (https://www.noticeboard.tech/)
+  * [Noticeboard](https://www.noticeboard.tech/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Propebbles](http://www.propebbles.com/)
   * [Provlem.com](http://www.provlem.com/)
