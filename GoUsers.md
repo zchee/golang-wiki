@@ -194,6 +194,7 @@
   * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
   * [Meplato](https://www.meplato.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
+  * [OptioPay](https://www.optiopay.com)
   * [Spreadshirt](https://spreadshirt.com)
   * [SoundCloud](https://soundcloud.com) - [blog](https://developers.soundcloud.com/blog/go-at-soundcloud)
   * [solarisBank](https://solarisbank.com)
