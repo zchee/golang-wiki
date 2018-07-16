@@ -98,11 +98,11 @@ Your project will probably depend on some existing packages.  The application ab
 
 See the output of "` go help packages `" for a full explanation of the "` ... `" syntax.
 
-All dependencies will be installed alongside your code under "` $GOPATH/src `".  All GitHub reposities checked out by "` go get `" will be use the read-only ` https:// ` repository by default.  To push changes back to github from one of these repositories, change the "` origin/master `" ref in ` .git/config ` to match the SSH repository from GitHub.
+All dependencies will be installed alongside your code under "` $GOPATH/src `".  All GitHub repositories checked out by "` go get `" will use the read-only ` https:// ` repository by default.  To push changes back to GitHub from one of these repositories, change the "` origin/master `" ref in ` .git/config ` to match the SSH repository from GitHub.
 
 ## Build
 
-During development you can build the ` useless ` library by itself with the command "` go build ...useless `".  You could also give the full path to the package name, "` go build github.com/jmcvetta/useless `".
+During development, you can build the ` useless ` library by itself with the command "` go build ...useless `".  You could also give the full path to the package name, "` go build github.com/jmcvetta/useless `".
 
 To compile ` uselessd.go ` and its dependencies into an executable, use the command "` go build ...uselessd `".
 
