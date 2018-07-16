@@ -2,8 +2,9 @@ This page contains a list of tools for managing Go packages and their dependenci
 
 To see popularity of these tools, click [here](https://github.com/blindpirate/report-of-build-tools-for-java-and-golang).
 
-## vgo
-[vgo](https://research.swtch.com/vgo)
+## GO111MODULE
+See the [[Modules]] page.
+
 The official Go proposal is at https://golang.org/issue/24301, filed on March 20, 2018 and accepted on May 21, 2018.
 
 ## dep tool
