@@ -1,22 +1,29 @@
-# VGO User Guide
+# Go 1.11 Modules
 
-`vgo` adds package version support to the Go tool chain. `vgo` will be present in the go1.11 go command as an opt-in feature.
+Go 1.11 will add preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
 
 ## Installing
 
-Until go1.11 comes out, install `vgo` with `go get -u golang.org/x/vgo`. To use, replace all uses of `go` with `vgo` so `go build` becomes `vgo build`.
+To use modules, [install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch, or install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
+
+You can activate module support in one of three ways:
+* Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
+* Invoke the `go` command with `GO111MODULE=on` in the command environment.
+* Invoke the `vgo` binary (built from the subrepository) as a binary _named_ `vgo`.
 
 ## New Concepts
 
 ### Major Versions
 
-Go modules must be released with semver in the form of `v(major).(minor).(patch)`. For example `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using github, release a version with a tag. Distributed module repositories that are stand-alone will be coming in the future (they are being built right now).
+Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different then `me.io/mymod/v2` and may import packages from one major version to another major version.
+The major version of a module must for now be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different then `me.io/mymod/v2` and may import packages from one major version to another major version.
+
+The behavior of modules for existing packages with post-`v1` tags is still in flux; see [issue 26238](https://golang.org/issue/26238) for discussion.
 
 ### Modules
 
-Go packages now live in modules. Each module is associated with the URL path where it may be found and may include a major version at the end of the module path (but nowhere else). Modules may live outside of the `GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
+Go packages now live in modules. The path of a module is a URL path where it may be found, and may include a major version at the end of the path (but nowhere else). Module source code moutside of `$GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
 
 Modules are defined by a `go.mod` file that lives in the root of the module. Module files may include comments and will look familiar to a go programmer. Here is an example `go.mod` file:
 ```
@@ -29,61 +36,75 @@ require (
 
 There are 4 directives: "module", "require", "exclude", "replace". Module paths may be quoted but are not required to be.
 
-Including major versions in import paths will produce incompatibilities with old versions of Go. To work around this prior versions of the go tool will be updated and released to continue building as before. Issue [25069](https://github.com/golang/go/issues/25069) tracks this.
+Including major versions in import paths will produce incompatibilities with old versions of Go. To work around this prior versions of the go tool have been updated and released to continue building as before. (See [issue 25069](https://github.com/golang/go/issues/25069).)
 
-Exclude and replace directives only operate on the current modules. Other packages that import a module that contains those directives will ignore them.
+`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored.
 
 TODO: show example exclude and replace directives.
 
-There are three ways to release a v2 (or higher) module version.
+There are two ways to release a v2 (or higher) module version.
  1. Create a `v2` directory and place a new `go.mod` file in that folder. The module path must end with `/v2`. Tag the release with `v2.0.0`.
- 2. Create a new branch, update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
- 3. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
+ 2. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
+    * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate `v2` branch.
 
-Packages are imported as normal with `import "me.io/mymod/v2/pkg1"` for a v2 package, or `import "me.io/mymod/pkg1"` for a v1 or v0 module.
+Packages are imported relative to the full module path: `import "me.io/mymod/v2/pkg1"` for package `pkg1` in module `me.io/mymod/v2`, or `import "me.io/mymod/pkg1"` for package `pkg1` in module `me.io/mymod` (v1 or v0).
 
-### Version Solving
+### Version Selection
 
-The version chosen to build is always one of the versions the module, or one of its dependencies. The version selected is the highest version of the chosen versions. This effectively locks versions into place until the module author chooses a new version to use. Use `go list -m` to list selected module versions.
+The version of each module used in a build is always the semantically highest of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly. Use `go list -m` to list selected module versions.
 
-Different major versions are effectively different modules. A `/v2` module will never be compared with a `/v3` module, even if the rest of the module path is the same. Only a single module will be included in a build at a time. This means `me.io/mymod` will only be included once, but `me.io/mymod/v2` may also be included.
-
-### modverify
-
-To verify the integrity of a module, create a new empty file called `go.modverify`.
+Different major versions are distinct modules. A `/v2` module will never be compared with a `/v3` module, even if the rest of the module path is the same, but `me.io/mymod` may be included alongside `me.io/mymod/v2`. (This allows a v1 module to be implemented in terms of its v2 replacement or vice-versa.)
 
 ## New Project Setup
 
-There are two options when using `vgo` for an existing project.
+To create a `go.mod` for an existing project, follow the following steps.
 
-The project already has vendored dependencies using `dep` and you want to maintain those dependences when possible.
-You want `vgo` to identify the minimal version for the identified imported dependencies, ignoring what currently has been vendored and documented in the `dep` lock file.
+1. Navigate to the root of the module's source tree and activate module mode in the `go` command.
 
-_Note: When vgo looks for the latest version of an unconstrained dependency, it gives precedence to semver tagged releases. If it fails to find a semver tagged release, it falls back to using the latest commit._
+   ```
+   $ cd $GOPATH/src/<project path>
+   $ export GO111MODULE=on
+   ```
 
-### Option 1
+   or
 
-The project has already has vendored dependencies using `dep` and you want to maintain those dependences where you can.
+   ```
+   $ cd <project path outside $GOPATH/src>
+   ```
 
-```
-$ cd $GOPATH/src/<project path>
-$ vgo build ./...
-```
+2. Create the initial module definition and write it to the `go.mod` file.
 
-In this option you will navigate to the root of the projects path. Verify there is no existing `go.mod` file. For this option to work, no `go.mod` file can exist. Then build all possible binaries inside the project.
+   ```
+   $ go mod -init
+   ```
 
-### Option 2
+   This step converts any existing from a [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or other [supported dependency format](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables).
 
-You want `vgo` to identify the minimal version for the identified imported dependencies, ignoring what currently has been vendored and documented in the `dep` lock file.
+   If `go mod` cannot determine an appropriate package path, or if you need to override that path, use the `-module` flag:
 
-```
-$ cd $GOPATH/src/<project path>
-$ touch go.mod
-$ vgo build ./...
-```
+   ```
+   $ go mod -init -module example.com/path/to/my/module/v2
+   ```
 
-In this option you will navigate to the root of the projects path. Verify there is no existing `go.mod` file. For this option to work, an empty `go.mod` file must exist. Then build all possible binaries inside the project.
+
+3. Fill in requirements for any missing or unconverted dependencies, and remove modules that are not needed to satisfy any imports.
+
+   ```
+   $ go mod -sync
+   ```
+
+4. Test the module as configured to ensure that it works with the selected versions.
+
+   ```
+   $ go test ./...
+   ```
+
+5. (Optional) Run the tests for all imported modules to check for incompatibilities.
+
+   ```
+   $ go test ...
+   ```
 
 ### Updating Dependencies
 
-To update dependencies to the latest version, run `vgo get -u`.
+To update all transitive dependencies of the current module to the latest version, run `go get -u`.
