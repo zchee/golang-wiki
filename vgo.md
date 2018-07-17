@@ -9,7 +9,7 @@
 * [Questions](#questions)
 * [Projects Related to vgo](#projects-related-to-vgo)
 
-This document collects thoughts and notes about vgo from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
+This document collects thoughts and notes about versioned Go modules from the Gophers [#vgo](https://gophers.slack.com/messages/vgo) channel. Invites to Gophers Slack from [here](https://invite.slack.golangbridge.org/).
 
 ### Initial paper
 
