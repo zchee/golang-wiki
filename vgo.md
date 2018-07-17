@@ -19,25 +19,27 @@ The **proposal** can be found here [https://github.com/golang/go/issues/24301](h
 
 The **reference implementation**: [https://go.googlesource.com/vgo/](https://go.googlesource.com/vgo/) and mirrored on Github here: [https://github.com/golang/vgo](https://github.com/golang/vgo).
 
-The **[Go issue tracker](https://golang.org/issues)** is used to track bugs/feature requests for vgo. The issue titles need to start with `x/vgo` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+milestone%3Avgo).
+The **[Go issue tracker](https://golang.org/issues)** is used to track bugs/feature requests. Issues should have the label `modules` and titles starting with `cmd/go` so that they can be automatically categorized. You can read the [existing issues here](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules).
+
+**Note**: The reference implementation was named `vgo`, but support for modules is being integrated into the `go` command itself. The feature within the `go` command is called “versioned Go modules” (or “[[modules]]” for short), not “vgo”.
 
 ***
 
 ### Current state
 
-Currently, vgo is in active development. It has some rough edges, changes will happen at a rapid pace. You are encouraged to try vgo and give your feedback, share your experience with it, and contribute to it.
+Currently, module support is in active development in the main `go` repository, with changes mirrored back to the `vgo` repository. Module support still has some rough edges. You are encouraged to [[try it|Modules]] and give your feedback, share your experience with it, and contribute to it.
 
 For any production workloads, use [dep](https://github.com/golang/dep), or migrate to it if you have not done so already.
 
-The vgo proposal has been accepted and will be merged in the Go tree and replace dep at a later date.
+The proposal has been accepted and will be merged in the Go tree and replace dep at a later date.
 
-You will be able to experiment with the vgo workflow from Go 1.11 as it will be included as an experiment in this release.
+You will be able to experiment with the module workflow from Go 1.11 as it will be included as an experiment in this release.
 
 ***
 
 ### Comment Threads
 
-These are threads that have been created from the initial reference manifest for vgo:
+These are threads that have been created from the initial reference manifest:
 
 - **golang-nuts ML:** [Go += Package Versioning](https://groups.google.com/forum/#!topic/golang-nuts/jFPz5yZCPcQ)
 
@@ -75,12 +77,12 @@ These are threads that have been created from the initial reference manifest for
 
 ***
 
-### Projects Related to vgo
+### Projects Related to module support
 
-- [Athens](https://github.com/gomods/athens) - A proxy server for vgo
-- [vgo-docker-example](https://github.com/elithrar/vgo-docker-example) - An example of how to use vgo + Docker together.
-- [`myitcv.io/cmd/modpub`](https://github.com/myitcv/x/tree/master/cmd/modpub) - a tool to help create a directory of vgo modules from a git repository
-- [JFrog Artifactory](https://jfrog.com/artifactory) - A universal artifact repository with vgo support.
+- [Athens](https://github.com/gomods/athens) - A proxy server for Go modules
+- [vgo-docker-example](https://github.com/elithrar/vgo-docker-example) - An example of how to use modules + Docker together.
+- [`myitcv.io/cmd/modpub`](https://github.com/myitcv/x/tree/master/cmd/modpub) - a tool to help create a directory of modules from a git repository
+- [JFrog Artifactory](https://jfrog.com/artifactory) - A universal artifact repository with module support.
 
 ***
 
