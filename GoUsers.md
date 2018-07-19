@@ -573,6 +573,7 @@
   * [Gamegos](http://www.gamegos.com/) - [github](https://github.com/gamegos)
   * [GramGames](http://gram.gs/)
   * [Insider](http://useinsider.com/)
+  * [JokerMenu](https://joker.menu/)
   * [MaestroPanel](https://www.maestropanel.com/) - [github](https://github.com/maestropanel)
   * [Mentornity, Inc.](https://mentornity.com/) - Backend API
   * [Metglobal](http://www.metglobal.com) - [github](https://github.com/metglobal)
