@@ -471,11 +471,11 @@ Sorted by publication date.
     * ISBN: 978-3-89864-712-0
     * Reference: http://dpunkt.de/buecher/3762/-systemprogrammierung-in-google-go.html
 
-  * **Nichtsequentielle Programmierung mit Go 1** (2nd edition) (available as print and e-book)
+  * **Nichtsequentielle und Verteilte Programmierung mit Go** (3rd edition) (available as print and e-book)
     * Author: Christian Maurer
-    * Publication Date: 2012
-    * ISBN: 978-3-642-29968-1
-    * Reference: http://www.springer.com/computer/swe/book/978-3-642-29968-1
+    * Publication Date: 2018
+    * ISBN: 978-3-658-21152-3
+    * Reference: https://www.springer.com/de/book/9783658211523
 
   * **Einstieg in Google Go** (e-book)
     * Author: Christian Himpel and Mario Deilmann
