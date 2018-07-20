@@ -537,15 +537,69 @@ Sorted by publication date.
 # Korean
   * **가장 빨리 만나는 Go 언어**
     * Author: 이재홍
-    * Publication Date: 2015-06-01
+    * Publication Date: June 2015
     * ISBN: 978-8-96618-990-8
     * Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
+
+  * **개발자를 위한 하룻밤에 읽는 Go 언어 이야기**
+    * Author: 신제용
+    * Publication Date: December 2015
+    * ISBN: 978-8-96848-806-1
+    * Reference: http://www.hanbit.co.kr/store/books/look.php?p_code=E8544486990
+
+  * **디스커버리 Go 언어**
+    * Author: 염재현
+    * Publication Date: March 2016
+    * ISBN: 9788-96848-268-7
+    * Reference: http://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767
+
+  * **Go 언어 웹 프로그래밍 철저 입문**
+    * Author: 장재휴
+    * Publication Date: March 2016
+    * ISBN: 979-1-18697-881-8
+    * Reference: http://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001434
+
+  * **Go 인 액션**
+    * Author: William Kennedy with Brian Ketelsen and Erik St. Martin; translated by Hyunhee Jang
+    * Publication Date: June 2016
+    * ISBN: 979-1-18589-053-1
+    * Reference: http://jpub.tistory.com/585
 
   * **The Go Programming Language**
     * Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Seung Lee
     * Publication Date: June 2016
     * ISBN: 978-0-13419-044-0
     * Reference: http://www.acornpub.co.kr/book/go-programming
+
+  * **Go 웹 프로그래밍**
+    * Author: Sau Sheong Chang; translated by Jinwook Jeong
+    * Publication Date: March 2017
+    * ISBN: 979-1-18669-731-3
+    * Reference: http://www.bjpublic.co.kr/skin12/productSearchView.php?board_data=aWR4PTIxMyZzdGFydFBhZ2U9MCZsaXN0Tm89MzM
+
+  * **프로젝트로 완성하는 Go 프로그래밍**
+    * Author: Mat Ryer; translated by Soonbeom Kwon
+    * Publication Date: August 2017
+    * ISBN: 979-1-16175-032-3
+    * Reference: http://www.acornpub.co.kr/book/go-blueprints-2
+
+  * **Go 언어 실전 테크닉**
+    * Authors: 松木雅幸, mattn, 藤原俊一郎, 中島大一, 牧 大輔, 鈴木健太; translated by Hyuntae Park
+    * Publication Date: August 2017
+    * ISBN: 979-1-16175-026-2
+    * Reference: http://www.acornpub.co.kr/book/go-language-minna
+
+  * **Go Cookbook**
+    * Author: Aaron Torres; transalted by Sangsik Lee
+    * Publication Date: December 2017
+    * ISBN: 979-1-16175-088-0
+    * Reference: http://www.acornpub.co.kr/book/go-cookbook
+
+  * **Go 언어를 활용한 마이크로서비스 개발**
+    * Author: Nic Jackson; translated by Sangsik Lee
+    * Publication Date: July 2018
+    * ISBN: 979-1-16175-190-0
+    * Reference: http://www.acornpub.co.kr/book/microservices-go
 
 # Indonesian
   * **Bahasa Pemrograman Go**
