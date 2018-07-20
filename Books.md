@@ -560,7 +560,7 @@ Sorted by publication date.
     * Reference: http://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001434
 
   * **Go 인 액션**
-    * Author: William Kennedy with Brian Ketelsen and Erik St. Martin; translated by Hyunhee Jang
+    * Authors: William Kennedy with Brian Ketelsen and Erik St. Martin; translated by Hyunhee Jang
     * Publication Date: June 2016
     * ISBN: 979-1-18589-053-1
     * Reference: http://jpub.tistory.com/585
