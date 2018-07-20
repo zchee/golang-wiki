@@ -208,3 +208,19 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/networking-and-servers/network-programming-go-video)]
 
 ***
+ * **Learn Go in 3 Hours [Video]**
+    * Author: Jonathan Bodner
+    * Publication Date: June 2018
+    * ISBN: 9781788992053
+    
+[[video](https://www.packtpub.com/application-development/learn-go-3-hours-video)]
+
+***
+ * **Hands-on Serverless Computing with Go [Video]**
+    * Author: Matthew Stoodley
+    * Publication Date: June 2018
+    * ISBN: 9781789132830
+    
+[[video](https://www.packtpub.com/application-development/hands-serverless-computing-go-video)]
+
+***
