@@ -473,7 +473,7 @@ Sorted by publication date.
 
   * **Nichtsequentielle und Verteilte Programmierung mit Go** (3rd edition) (available as print and e-book)
     * Author: Christian Maurer
-    * Publication Date: 2018
+    * Publication Date: 2018-06
     * ISBN: 978-3-658-21152-3
     * Reference: https://www.springer.com/de/book/9783658211523
 
