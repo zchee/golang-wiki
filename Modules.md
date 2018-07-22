@@ -2,6 +2,14 @@
 
 Go 1.11 will add preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
 
+Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. 
+
+## Current Status
+
+* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on 2018-07-12 support for versioned Go modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ ) in the main Go repository. 
+* Beta support for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on 2018-07-20).
+* Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with an automatic export from the main Go repository to the vgo repository when there is a snapshot ready for people still using `vgo`.
+
 ## Installing
 
 To use modules, [install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch, or install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
@@ -108,3 +116,10 @@ To create a `go.mod` for an existing project, follow the following steps.
 ### Updating Dependencies
 
 To update all transitive dependencies of the current module to the latest version, run `go get -u`.
+
+## Some Additional Resources
+
+* The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts by Russ Cox
+* Current [tip documentation](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
+* Introductory blog post on ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (2018-07-14)
+* Introductory blog post [on how to build go from tip and start using go modules](https://carolynvanslyck.com/blog/2018/07/building-go-from-source/) by Carolyn Van Slyck (2018-07-16) 
