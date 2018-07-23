@@ -600,6 +600,7 @@
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
   * [Belua](https://www.belua.com)
   * [Bubble Student](https://www.bubblestudent.co.uk)
+  * [Deliveroo](https://www.deliveroo.co.uk) - [github](https://github.com/deliveroo/)
   * [Fortifi](http://fortifi.uk) - [github](https://github.com/fortifi)
   * [Awesome Shit You Can Buy](https://awesomeshityoucanbuy.com/)
   * [Freelance Marketplace](https://www.fieldengineer.com/)
