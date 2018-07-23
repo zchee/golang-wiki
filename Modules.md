@@ -6,7 +6,7 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 
 ## Current Status
 
-* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on 2018-07-12 support for versioned Go modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ ) in the main Go repository. 
+* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on 2018-07-12 support for versioned Go modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository. 
 * Beta support for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on 2018-07-20).
 * Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with an automatic export from the main Go repository to the vgo repository when there is a snapshot ready for people still using `vgo`.
 
@@ -63,7 +63,7 @@ The version of each module used in a build is always the semantically highest of
 
 Different major versions are distinct modules. A `/v2` module will never be compared with a `/v3` module, even if the rest of the module path is the same, but `me.io/mymod` may be included alongside `me.io/mymod/v2`. (This allows a v1 module to be implemented in terms of its v2 replacement or vice-versa.)
 
-## New Project Setup
+## Defining a Module
 
 To create a `go.mod` for an existing project, follow the following steps.
 
@@ -95,7 +95,7 @@ To create a `go.mod` for an existing project, follow the following steps.
    ```
 
 
-3. Fill in requirements for any missing or unconverted dependencies, and remove modules that are not needed to satisfy any imports.
+3. Fill in requirements for any missing or unconverted dependencies, and remove modules that are not needed to satisfy any imports. The `-sync` flag synchronizes the `go.mod` file with the source code in the module.
 
    ```
    $ go mod -sync
@@ -117,9 +117,31 @@ To create a `go.mod` for an existing project, follow the following steps.
 
 To update all transitive dependencies of the current module to the latest version, run `go get -u`.
 
-## Some Additional Resources
+## Additional Resources
 
+### Documentation and Proposal
+
+* Current [official modules documentation on tip](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
+  * For more about modules, see 'go help modules'
+  * For more about the 'go mod' command, see 'go help mod'
 * The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts by Russ Cox
-* Current [tip documentation](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
-* Introductory blog post on ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (2018-07-14)
-* Introductory blog post [on how to build go from tip and start using go modules](https://carolynvanslyck.com/blog/2018/07/building-go-from-source/) by Carolyn Van Slyck (2018-07-16) 
+* Official [Versioned Go Modules Proposal](https://golang.org/design/24301-versioned-go) (last updated March 20, 2018)
+
+### Introductory Material
+
+* Introductory blog post ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (July 14, 2018)
+* Introductory blog post on [how to build go from tip and start using go modules](https://carolynvanslyck.com/blog/2018/07/building-go-from-source/) by Carolyn Van Slyck (July 16, 2018)
+* Introductory [Go Meetup slides on modules](https://docs.google.com/presentation/d/1ansfXN8a_aVL-QuvQNY7xywnS78HE8aG7fPiITNQWMM/edit#slide=id.g3d87f3177d_0_0) by Chris Hines (July 16, 2018)
+* Introductory video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
+  * Succinctly covers the philosophy behind the design of versioned Go modules, including the three core principles of "Compatibility", "Repeatability", and "Cooperation"
+
+### Additional Material
+
+* Blog ["Using Go modules with Travis CI"](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci) by Dave Cheney (July 16, 2018)
+* Blog ["The vgo proposal is accepted. Now what?"](https://research.swtch.com/vgo-accepted) by Russ Cox (May 29, 2018)
+  * Includes summary of what it means that versioned modules are currently an experimental opt-in feature
+
+### Issues
+
+* [Currently open issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
+* Submit a [new issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
