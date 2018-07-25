@@ -916,8 +916,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [alpinocorpus-go](https://github.com/rug-compling/alpinocorpus-go) - A reader and a writer for Alpino corpora.
   * [go-aspell](https://github.com/trustmaster/go-aspell) - GNU Aspell spell checking library bindings for Go.
   * [go-language](https://github.com/matiasinsaurralde/go-language) - A simple language detector using letter frequency data.
-  * [goling](https://github.com/gyuho/goling) - String Similarity(Cosine Similarity, Levenshtein Distance), Spell Check, Segmentation
+  * [go-ngram](https://github.com/euskadi31/go-ngram) - An n-gram is a contiguous sequence of n items from a given sequence of text or speech.
+  * [go-tokenizer](https://github.com/euskadi31/go-tokenizer) - A Text Tokenizer library for Golang
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
+  * [goling](https://github.com/gyuho/goling) - String Similarity(Cosine Similarity, Levenshtein Distance), Spell Check, Segmentation
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
   * [nlp](https://github.com/james-bowman/nlp) - Go Natural Language Processing library supporting LSA (Latent Semantic Analysis).
