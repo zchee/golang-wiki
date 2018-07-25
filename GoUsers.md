@@ -626,6 +626,7 @@
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [YouView TV Ltd](http://www.youview.com)
   * [Ernest.io](http://ernest.io)
+  * [Landoop](https://www.landoop.com/) - [github](https://github.com/landoop), [blog](https://www.landoop.com/blog/)
 
 ## United States
 
