@@ -27,7 +27,7 @@ Go modules must be [semantically versioned](https://semver.org/) in the form `v(
 
 The major version of a module must for now be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different then `me.io/mymod/v2` and may import packages from one major version to another major version.
 
-The behavior of modules for existing packages with post-`v1` tags is still in flux; see [issue 26238](https://golang.org/issue/26238) for discussion.
+The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
 ### Modules
 
@@ -115,7 +115,14 @@ To create a `go.mod` for an existing project, follow the following steps.
 
 ### Updating Dependencies
 
-To update all transitive dependencies of the current module to the latest version, run `go get -u`.
+To update all transitive dependencies of the current module to the latest version:
+ * run `go get -u` to use newer minor or patch releases
+ * run `go get -u=patch` to use newer patch releases
+
+After updating, you may then want to run the tests again for all imported modules to check for incompatibilities:
+   ```
+   $ go test ...
+   ```
 
 ## Additional Resources
 
@@ -124,6 +131,7 @@ To update all transitive dependencies of the current module to the latest versio
 * Current [official modules documentation on tip](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
   * For more about modules, see 'go help modules'
   * For more about the 'go mod' command, see 'go help mod'
+  * For more about the behavior of 'go get' when in module-aware mode, see 'go help module-get'
 * The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts by Russ Cox
 * Official [Versioned Go Modules Proposal](https://golang.org/design/24301-versioned-go) (last updated March 20, 2018)
 
