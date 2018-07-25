@@ -194,6 +194,7 @@
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
   * [Meplato](https://www.meplato.com/)
+  * [Naga Virtual](https://nagavirtual.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
   * [OptioPay](https://www.optiopay.com)
   * [simplesurance](https://www.simplesurance.com/)
