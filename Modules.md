@@ -115,7 +115,7 @@ To create a `go.mod` for an existing project, follow the following steps.
 
 ### Updating Dependencies
 
-Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get'.
+Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the go.mod file.
 
 To upgrade to the latest version for all transitive dependencies of the current module:
  * run `go get -u` to use newer minor or patch releases
