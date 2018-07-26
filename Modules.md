@@ -136,8 +136,13 @@ After upgrading or downgrading any dependencies, you may then want to run the te
   * For more about modules, see 'go help modules'
   * For more about the 'go mod' command, see 'go help mod'
   * For more about the behavior of 'go get' when in module-aware mode, see 'go help module-get'
-* The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts by Russ Cox
+* The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts on `vgo` by Russ Cox (first posted February 20, 2018)
+* Official [golang.org blog post introducing the proposal](https://blog.golang.org/versioning-proposal) (March 26, 2018)
+  * This provides a more succinct overview of the proposal than the full `vgo` blog series, along with some of the history and process behind the proposal
 * Official [Versioned Go Modules Proposal](https://golang.org/design/24301-versioned-go) (last updated March 20, 2018)
+* [FAQ](https://github.com/golang/go/issues/24301#issuecomment-371228664) from the official proposal discussion, including answers to common question such as:
+  * "Won't minimal version selection keep developers from getting important updates?"
+  * "Why are major versions v0, v1 omitted from import paths?"
 
 ### Introductory Material
 
@@ -149,8 +154,8 @@ After upgrading or downgrading any dependencies, you may then want to run the te
 
 ### Additional Material
 
-* Blog ["Using Go modules with Travis CI"](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci) by Dave Cheney (July 16, 2018)
-* Blog ["The vgo proposal is accepted. Now what?"](https://research.swtch.com/vgo-accepted) by Russ Cox (May 29, 2018)
+* Blog post ["Using Go modules with Travis CI"](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci) by Dave Cheney (July 16, 2018)
+* Blog post ["The vgo proposal is accepted. Now what?"](https://research.swtch.com/vgo-accepted) by Russ Cox (May 29, 2018)
   * Includes summary of what it means that versioned modules are currently an experimental opt-in feature
 
 ### Issues
