@@ -301,6 +301,7 @@
   * [Qasico Teknologi Indonesia](https://qasico.com)
   * [Qasir.id](https://www.qasir.id/)
   * [Qiscus](https://www.qiscus.com)
+  * [QUPAS.ID](https://www.qupas.id)
   * [RajaMall Energia Syakha Tech](http://www.lokerindonesia.com/teknologi-informasi/programmer/lowongan-programmer-di-bandung.html)
   * [Raydar](http://goraydar.com)
   * [RebelWorks](http://www.rebelworks.io)
