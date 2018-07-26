@@ -3,13 +3,14 @@ This page contains a list of tools for managing Go packages and their dependenci
 To see popularity of these tools, click [here](https://github.com/blindpirate/report-of-build-tools-for-java-and-golang).
 
 ## GO111MODULE
+
 See the [[Modules]] page.
 
 The official Go proposal is at https://golang.org/issue/24301, filed on March 20, 2018 and accepted on May 21, 2018.
 
 ## dep tool
 
-[dep](https://github.com/golang/dep), is an *official* experiment for the dependency tool. It is currently being implemented, in pre-alpha state and should be used with caution as "Lots of functionality is knowingly missing or broken".
+[dep](https://github.com/golang/dep) was the "official experiment." The Go toolchain, as of 1.11, has (experimentally) adopted an approach that sharply diverges from dep. See [[Modules]].
 
 ## GO15VENDOREXPERIMENT
 
