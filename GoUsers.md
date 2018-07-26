@@ -309,12 +309,9 @@
   * [Rimbun Job Agency](http://www.rimbunjob.com)
   * [Sale Stock](https://www.salestockindonesia.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
-  * [SevenEleven](http://sevel.me)
   * [Surabaya CCTV](http://surabayacctv.co.id/jual-cctv-surabaya-paket-cctv-murah)
   * [Tokopedia](http://tokopedia.com)
   * [Valutac](https://valutac.com)
-  * [Zelos](http://zelos.id)
-  * [Managix](https://managix.id/)
 
 ## Iraq
   * [eSITE](https://esite-iq.com/)
