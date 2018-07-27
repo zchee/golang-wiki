@@ -58,7 +58,9 @@ There are two ways to release a v2 (or higher) module version.
  2. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
     * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate `v2` branch.
 
-Packages are imported relative to the full module path: `import "me.io/mymod/v2/pkg1"` for package `pkg1` in module `me.io/mymod/v2`, or `import "me.io/mymod/pkg1"` for package `pkg1` in module `me.io/mymod` (v1 or v0).
+Packages are imported relative to the full module path, for example:
+* `import "me.io/mymod/v2/pkg1"` for package `pkg1` in module `me.io/mymod/v2`
+* `import "me.io/mymod/pkg1"` for package `pkg1` in module `me.io/mymod` (v1 or v0).
 
 ### Version Selection
 
@@ -120,7 +122,7 @@ To create a `go.mod` for an existing project, follow the following steps.
 
 Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
 
-In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies as needed).
+In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
 
 To upgrade to the latest version for all transitive dependencies of the current module:
  * run `go get -u` to use newer minor or patch releases
