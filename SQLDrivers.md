@@ -23,7 +23,7 @@ Drivers for Go's sql package include:
   * **MS SQL Server** (uses cgo): https://github.com/minus5/gofreetds
   * **MySQL**: https://github.com/ziutek/mymysql ` [*] `
   * **MySQL**: https://github.com/go-sql-driver/mysql/ ` [*] `
-  * **ODBC**: https://bitbucket.org/miquella/mgodbc
+  * **ODBC**: https://bitbucket.org/miquella/mgodbc (Last updated 2016-02)
   * **ODBC**: https://github.com/alexbrainman/odbc
   * **Oracle**: https://github.com/mattn/go-oci8
   * **Oracle**: https://gopkg.in/rana/ora.v4
