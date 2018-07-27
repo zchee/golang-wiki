@@ -113,7 +113,7 @@ To create a `go.mod` for an existing project, follow the following steps.
    $ go test all
    ```
 
-### Upgrading and Downgrading Dependencies
+## Upgrading and Downgrading Dependencies
 
 Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
 
@@ -129,6 +129,18 @@ After upgrading or downgrading any dependencies, you may then want to run the te
    ```
    $ go test all
    ```
+
+## Preparing a release
+
+Best practices for creating a release of a module are expected to emerge as part of the initial modules experiment. Many of these might end up being automated by a future 'go release' tool.
+
+Some current suggested best practices to consider doing prior to tagging a release:
+
+* Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
+  * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to test against all possible combinations of *their* dependencies up-front.
+  * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
+  
+* Run `go -mod sync` to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 ## Additional Resources
 
