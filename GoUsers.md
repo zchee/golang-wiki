@@ -563,6 +563,7 @@
   * [Appsynth Asia](https://appsynth.net/)
   * [AIS](http://www.ais.co.th/)  
   * [Computerlogy](https://computerlogy.com/)
+  * [Drone Academy Thailand](http://www.dronecademy.org)
   * [DTAC](http://www.dtac.co.th/)
   * [Donuts Bangkok](http://www.donuts-bkk.com/)  
   * [Insightera](https://www.insightera.co.th/)
