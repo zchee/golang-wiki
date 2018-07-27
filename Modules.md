@@ -86,7 +86,7 @@ To create a `go.mod` for an existing project, follow the following steps.
    $ go mod -init
    ```
 
-   This step converts any existing from a [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or other [supported dependency format](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables).
+   This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
    If `go mod` cannot determine an appropriate package path, or if you need to override that path, use the `-module` flag:
 
