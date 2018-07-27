@@ -147,7 +147,7 @@ Some current suggested best practices to consider doing prior to tagging a relea
   * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to test against all possible combinations of *their* dependencies up-front.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
   
-* Run `go -mod sync` to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
+* Run `go mod -sync` to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 ## Additional Resources
 
