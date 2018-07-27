@@ -537,6 +537,7 @@
   * [Mediasmart.io](http://mediasmart.io) - [twitter](https://twitter.com/mediasmart_mb) 
   * [Mavrix](https://mavrix.es) - [github](https://github.com/betit/orion-go-sdk)  
   * [Typeform](https://www.typeform.com/)
+  * [source{d}](https://sourced.tech)
 
 ## Sweden
   * [Kiliaro](https://kiliaro.com/)
@@ -927,6 +928,7 @@
   * [SoundCloud](http://soundcloud.com) - [blog](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
   * [SoundHound](http://soundhound.com)
   * [Sourcegraph](https://sourcegraph.com) - [talk](http://www.youtube.com/watch?v=-DpKaoPz8l8), [github](https://github.com/sourcegraph)
+  * [source{d}](https://sourced.tech) - [github](https://github.com/src-d), [twitter](https://twitter.com/sourcedtech), [blog](https://blog.sourced.tech)
   * [Space Monkey](http://www.spacemonkey.com) - [blog](https://www.spacemonkey.com/blog/posts/go-space-monkey)
   * [SpaceX](http://www.spacex.com/) - [reddit](https://www.reddit.com/r/golang/comments/3pu3nl/spacex_is_using_go_for_its_telemetry_system/)
   * [Sphere Software](https://sphereinc.com) - [github](https://github.com/spheresoftware)
