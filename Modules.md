@@ -95,7 +95,7 @@ To create a `go.mod` for an existing project, follow the following steps.
    ```
 
 
-3. Fill in requirements for any missing or unconverted dependencies, and remove modules that are not needed to satisfy any imports. The `-sync` flag synchronizes the `go.mod` file with the source code in the module.
+3. The `-sync` flag synchronizes the `go.mod` file with the source code in the module (filling in requirements for any missing or unconverted dependencies, and removing modules that are not needed to satisfy any imports):
 
    ```
    $ go mod -sync
@@ -110,12 +110,14 @@ To create a `go.mod` for an existing project, follow the following steps.
 5. (Optional) Run the tests for all imported modules to check for incompatibilities.
 
    ```
-   $ go test ...
+   $ go test all
    ```
 
-### Updating Dependencies
+### Upgrading and Downgrading Dependencies
 
-Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the go.mod file.
+Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
+
+In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies as needed).
 
 To upgrade to the latest version for all transitive dependencies of the current module:
  * run `go get -u` to use newer minor or patch releases
@@ -125,7 +127,7 @@ To upgrade or downgrade to a more specific version, 'go get' allows version sele
 
 After upgrading or downgrading any dependencies, you may then want to run the tests again for all imported modules to check for incompatibilities:
    ```
-   $ go test ...
+   $ go test all
    ```
 
 ## Additional Resources
