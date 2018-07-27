@@ -2,22 +2,25 @@
 
 Go 1.11 will add preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
 
-Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will be able to consume modules defined using Go 1.11 or `vgo`.
+Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
 
 ## Current Status
 
 * The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on 2018-07-12 support for versioned Go modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository. 
 * Beta support for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on 2018-07-20).
-* Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with an automatic export from the main Go repository to the vgo repository when there is a snapshot ready for people still using `vgo`.
+* Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with an automatic export to the vgo repository when there is a snapshot ready for people still using `vgo`.
 
-## Installing
+## Installing and Activating Module Support
 
-To use modules, [install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch, or install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
+To use modules, you currently have three install options:
+* [install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
+* [install Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (and replace `go` with `go1.11beta2` in the commands below).
+* install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
-You can activate module support in one of three ways:
+You can then activate module support in one of three ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
-* Invoke the `vgo` binary (built from the subrepository) as a binary _named_ `vgo`.
+* Invoke the the binary _named_ `vgo` (if you have installed `vgo` from the subrepository).
 
 ## New Concepts
 
