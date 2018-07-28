@@ -22,7 +22,7 @@ Using snaps also works quite well:
 
 ```
 # This will give you the latest version of go
-$ snap install --classic go
+$ sudo snap install --classic go
 ```
 > A restart is required for the command to be recognized.
 
