@@ -44,6 +44,7 @@
   * [ContaAzul](https://contaazul.com/)
   * [Compufácil](http://compufacil.com.br)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
+  * [Dito](http://dito.com.br/) - [github](https://github.com/ditointernet/)
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
   * [Emprego Ligado](https://empregoligado.com.br/#/)
