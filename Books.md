@@ -239,6 +239,12 @@ Sorted by publication date.
     * ISBN: 9781789139433
     * Reference: https://www.amazon.com/dp/1789139430
 
+* **Isomorphic Go**
+    * Author: Kamesh Balasubramanian 
+    * Publication Date: December 2017
+    * ISBN: 9781788394185
+    * Reference: https://www.amazon.com/dp/1788394186
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
