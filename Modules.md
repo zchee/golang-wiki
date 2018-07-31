@@ -57,7 +57,7 @@ Including major versions in import paths will produce incompatibilities with old
 
 TODO: show example exclude and replace directives.
 
-There are two ways to release a v2 (or higher) module version.
+There are two ways to release a v2 (or higher) module version:
  1. Create a `v2` directory and place a new `go.mod` file in that folder. The module path must end with `/v2`. Tag the release with `v2.0.0`.
  2. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
     * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate `v2` branch.
@@ -76,20 +76,20 @@ Different major versions are distinct modules. A `/v2` module will never be comp
 
 To create a `go.mod` for an existing project, follow the following steps.
 
-1. Navigate to the root of the module's source tree and activate module mode in the `go` command.
+1. Navigate to the root of the module's source tree and activate module mode in the `go` command:
 
    ```
    $ cd $GOPATH/src/<project path>
    $ export GO111MODULE=on
    ```
 
-   or
+   or:
 
    ```
    $ cd <project path outside $GOPATH/src>
    ```
 
-2. Create the initial module definition and write it to the `go.mod` file.
+2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
    $ go mod -init
@@ -108,13 +108,13 @@ To create a `go.mod` for an existing project, follow the following steps.
    ```
    $ go build ./...
    ```
-4. Test the module as configured to ensure that it works with the selected versions.
+4. Test the module as configured to ensure that it works with the selected versions:
 
    ```
    $ go test ./...
    ```
 
-5. (Optional) Run the tests for all imported modules to check for incompatibilities.
+5. (Optional) Run the tests for all imported modules to check for incompatibilities:
 
    ```
    $ go test all
