@@ -337,6 +337,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
   * [ssh.go](http://bitbucket.org/taruti/ssh.go) - SSH2 Client library
   * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys
+  * [themis](https://github.com/cossacklabs/themis) - Multi-platform high-level cryptographic library for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications
   * [tiger](https://github.com/cxmcc/tiger) - Tiger cryptographic hashing algorithm
   * [whirlpool](https://github.com/jzelinskie/whirlpool) - whirlpool cryptographic hashing algorithm
   * [go-lioness](https://github.com/applied-mixnetworks/go-lioness) - Lioness wide-block cipher using Chacha20 and Blake2b
@@ -1397,6 +1398,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Security
 
   * [acme](https://github.com/hlandau/acme) - ACME certificate acquisition tool
+  * [acra](https://github.com/cossacklabs/acra) - SQL database protection suite: strong selective encryption, SQL injections prevention, intrusion detection system
   * [casbin](https://github.com/hsluoyz/casbin) - An authorization library that supports access control models like MAC, RBAC, ABAC
   * [docker-slim](https://github.com/docker-slim/docker-slim) - Container security and optimization
   * [gryffin](https://github.com/yahoo/gryffin) - A large scale security scanner by Yahoo!
