@@ -309,6 +309,7 @@
   * [RedtreeMobile](http://redtreemobile.com)
   * [Reservasi](https://www.reservasi.com/id-id)
   * [Rimbun Job Agency](http://www.rimbunjob.com)
+  * [Ruangguru](https://ruangguru.com)
   * [Sale Stock](https://www.salestockindonesia.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
   * [Surabaya CCTV](http://surabayacctv.co.id/jual-cctv-surabaya-paket-cctv-murah)
