@@ -103,13 +103,11 @@ To create a `go.mod` for an existing project, follow the following steps.
    $ go mod -init -module example.com/path/to/my/module/v2
    ```
 
-
-3. The `-sync` flag synchronizes the `go.mod` file with the source code in the module (filling in requirements for any missing or unconverted dependencies, and removing modules that are not needed to satisfy any imports):
+3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
 
    ```
-   $ go mod -sync
+   $ go build ./...
    ```
-
 4. Test the module as configured to ensure that it works with the selected versions.
 
    ```
@@ -121,6 +119,8 @@ To create a `go.mod` for an existing project, follow the following steps.
    ```
    $ go test all
    ```
+
+Prior to tagging a release, see the [Preparing a release](https://github.com/golang/go/wiki/Modules#preparing-a-release) section below.
 
 ## Upgrading and Downgrading Dependencies
 
