@@ -25,6 +25,7 @@
   * **[IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/)**: Cross-platform, polyglot IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/idea/buy/#edition=discounts)).
   * **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](https://code.google.com/archive/p/go-stuff/source/default/source).
   * **[joe](http://joe-editor.sourceforge.net/)**: JOE is a full featured terminal-based screen editor which is distributed under the GNU General Public License (GPL). Supports Go syntax highlighting out of the box.
+  * **[Kate](https://kate-editor.org/)** Kate is a full-featured text editor, developed by KDE, with Go support out-of-the-box.
   * **[Komodo IDE](https://www.activestate.com/komodo-ide)** Powerful cross-platform IDE with built-in Go support
   * **[Komodo Edit](https://www.activestate.com/komodo-edit)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
   * **[Lime Text](http://limetext.org/)**: Developed in Go, aims to be a Free and open-source software alternative to Sublime Text. Not quite ready yet but welcoming contributions to the progress. https://github.com/limetext/lime
