@@ -141,7 +141,7 @@ After upgrading or downgrading any dependencies, you may then want to run the te
 
 ## Preparing a release
 
-Best practices for creating a release of a module are expected to emerge as part of the initial modules experiment. Many of these might end up being automated by a future 'go release' tool.
+Best practices for creating a release of a module are expected to emerge as part of the initial modules experiment. Many of these might end up being automated by a [future 'go release' tool](https://github.com/golang/go/issues/26420).
 
 Some current suggested best practices to consider doing prior to tagging a release:
 
@@ -183,5 +183,7 @@ Some current suggested best practices to consider doing prior to tagging a relea
 
 ### Issues
 
-* [Currently open issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
-* Submit a [new issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
+* [Currently open module issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
+* [Closed module issues](https://golang.org/issues?q=is%3Aclosed+is%3Aissue+label:modules)
+* [Closed vgo issues](https://github.com/golang/go/issues?page=3&q=-label%3Amodules+vgo+is%3Aclosed)
+* Submit a [new module issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
