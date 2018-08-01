@@ -93,7 +93,11 @@ To create a `go.mod` for an existing project, follow the following steps.
 2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
-   $ go mod -init                                     # if using 'master', use the newer form:  go mod init
+   # if using go1.11beta2 or vgo:
+   $ go mod -init                
+
+   # if using 'master', use the newer form:  
+   $ go mod init                     
    ```
 
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
@@ -101,7 +105,11 @@ To create a `go.mod` for an existing project, follow the following steps.
    If `go mod` cannot determine an appropriate package path, or if you need to override that path, use the `-module` flag:
 
    ```
-   $ go mod -init -module example.com/my/module/v2    # if using 'master':  go mod init example.com/my/module/v2
+   # if using go1.11beta2 or vgo:
+   $ go mod -init -module example.com/my/module/v2    
+  
+   # if using 'master':  
+   $ go mod init example.com/my/module/v2
    ```
 
 3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
