@@ -25,7 +25,7 @@ As of July 23, 2018, there are some recommendations (e.g., [here](https://github
 Once installed, you can then activate module support in one of three ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
-* Invoke the the binary _named_ `vgo` (if you have installed `vgo` from the subrepository).
+* Invoke the binary _named_ `vgo` (if you have installed `vgo` from the subrepository).
 
 ## New Concepts
 
@@ -33,13 +33,13 @@ Once installed, you can then activate module support in one of three ways:
 
 Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
-The major version of a module must for now be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different then `me.io/mymod/v2` and may import packages from one major version to another major version.
+The major version of a module must for now be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different than `me.io/mymod/v2` and may import packages from one major version to another major version.
 
 The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
 ### Modules
 
-Go packages now live in modules. The path of a module is a URL path where it may be found, and may include a major version at the end of the path (but nowhere else). Module source code moutside of `$GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
+Go packages now live in modules. The path of a module is a URL path where it may be found, and may include a major version at the end of the path (but nowhere else). Module source code may be located outside of `$GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
 
 Modules are defined by a `go.mod` file that lives in the root of the module. Module files may include comments and will look familiar to a go programmer. Here is an example `go.mod` file:
 ```
@@ -198,10 +198,10 @@ Some current suggested best practices to consider doing prior to tagging a relea
 
 ### How are versions marked as incompatible?
 
-The `require` directive allows any module to declare that it should be built with version >= x.y.z of a dependant module M (which may be specified due to  incompatabilities with version < x.y.z of module M). Emperical data suggests this is the [dominant form of contraints used in `dep` and `cargo`](https://twitter.com/_rsc/status/1022590868967116800). In addition, the top-level module in the build can `exclude` specific versions of dependant modules or `replace` other modules with different code. See the full proposal for [more details and rationale](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md).
+The `require` directive allows any module to declare that it should be built with version >= x.y.z of a dependency M (which may be specified due to  incompatibilities with version < x.y.z of module M). Empirical data suggests this is the [dominant form of constraints used in `dep` and `cargo`](https://twitter.com/_rsc/status/1022590868967116800). In addition, the top-level module in the build can `exclude` specific versions of dependencies or `replace` other modules with different code. See the full proposal for [more details and rationale](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md).
 
-One of the key goals of the versioned modules proposal is to add a common vocabulary and semantics around versions of Go code for both tools and developers. This lays a foundation for future capabilities to declare additional forms of incompatabilities, such as:
-* declaring deprecated versions as [described](https://research.swtch.com/vgo-module) in the intitial `vgo` blog series
+One of the key goals of the versioned modules proposal is to add a common vocabulary and semantics around versions of Go code for both tools and developers. This lays a foundation for future capabilities to declare additional forms of incompatibilities, such as:
+* declaring deprecated versions as [described](https://research.swtch.com/vgo-module) in the initial `vgo` blog series
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
 * declaring incompatible versions or insecure versions of a module post-publishing, such as in the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
 
