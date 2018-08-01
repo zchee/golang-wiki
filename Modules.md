@@ -211,7 +211,7 @@ One of the key goals of the versioned modules proposal is to add a common vocabu
 
 ### What are some of the biggest changes since the initial vgo proposal?
 
-Here is a sample list of improvements, almost all of which were primarily driven based on community feedback:
+Here is a sample list of improvements, almost all of which were primarily driven by community feedback:
 
 * Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
 * Backported minimal module-awareness to allow older Go versions  1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
