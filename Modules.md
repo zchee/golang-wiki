@@ -125,7 +125,7 @@ To create a `go.mod` for an existing project:
    $ go test ./...
    ```
 
-5. (Optional) Run the tests for all imported modules to check for incompatibilities:
+5. (Optional) Run the tests for all imported modules (direct and indirect) to check for incompatibilities:
 
    ```
    $ go test all
@@ -140,14 +140,14 @@ Day-to-day adding, removing, upgrading, and downgrading of dependencies should b
 In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
 
 To upgrade to the latest version for all transitive dependencies of the current module:
- * run `go get -u` to use newer minor or patch releases
- * run `go get -u=patch` to use newer patch releases
+ * run `go get -u` to use newest available *minor or patch* releases
+ * run `go get -u=patch` to use newest available *patch* releases
 
 To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or "module query" to the package argument, such as `go get github.com/gorilla/mux@v1.6.2`, `go get github.com/gorilla/mux@e3702bed2`, or `go get github.com/gorilla/mux@'<v1.6.2'`. 
 
 See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
 
-After upgrading or downgrading any dependencies, you may then want to run the tests again for all imported modules to check for incompatibilities:
+After upgrading or downgrading any dependencies, you may then want to run the tests again for all imported modules (direct and indirect) to check for incompatibilities:
    ```
    $ go test all
    ```
