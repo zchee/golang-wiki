@@ -6,9 +6,9 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 
 ## Current Status
 
-* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on 2018-07-12 support for versioned Go modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository. 
-* Beta support for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on 2018-07-20).
-* Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with an automatic export to the vgo repository when there is a snapshot ready for people still using `vgo`.
+* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on July 12, 2018 support for versioned Go modules landed in the main Go repository ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)). 
+* Beta support for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on July 20, 2018).
+* Development work on modules is now [occurring exclusively in the main Go repository](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ), with a periodic export to the vgo repository for people still using `vgo`.
 * On July 31, 2018, there was a significant change in `master` for the `go mod` commands. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
 
 One current significant issue is that **some older versions of git are not working**: [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
@@ -93,7 +93,7 @@ To create a `go.mod` for an existing project, follow the following steps.
 2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
-   $ go mod -init
+   $ go mod -init                                     # if using 'master', use the newer form:  go mod init
    ```
 
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
@@ -101,7 +101,7 @@ To create a `go.mod` for an existing project, follow the following steps.
    If `go mod` cannot determine an appropriate package path, or if you need to override that path, use the `-module` flag:
 
    ```
-   $ go mod -init -module example.com/path/to/my/module/v2
+   $ go mod -init -module example.com/my/module/v2    # if using 'master':  go mod init example.com/my/module/v2
    ```
 
 3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
@@ -146,7 +146,7 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider doing prior to tagging a release:
 
-* Run `go mod -sync` to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
+* Run `go mod -sync` (or if using master: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 * Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
   * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to test against all possible combinations of *their* dependencies up-front.
