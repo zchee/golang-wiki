@@ -11,21 +11,21 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * **Beta support** for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
 * On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
 
-One current significant issue is that **some older versions of git are not working**: [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
+**NOTE:** One current significant issue is that **some older versions of git are not working**: [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
 
 ## Installing and Activating Module Support
 
 To use modules, you currently have three install options:
-* [install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
-* [install Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (and replace `go` with `go1.11beta2` in the commands below).
-* install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
+* [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
+* [Install Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (and replace `go` with `go1.11beta2` in the commands below).
+* Install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
 As of July 23, 2018, there are some recommendations (e.g., [here](https://github.com/golang/go/issues/26541#issuecomment-407161110)) to currently prefer installing from source or the latest beta over using `vgo`.
 
 Once installed, you can then activate module support in one of three ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
-* Invoke the binary _named_ `vgo` (if you have installed `vgo` from the subrepository).
+* Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 ## New Concepts
 
@@ -75,7 +75,7 @@ Different major versions are distinct modules. A `/v2` module will never be comp
 
 ## Defining a Module
 
-To create a `go.mod` for an existing project, follow the following steps.
+To create a `go.mod` for an existing project:
 
 1. Navigate to the root of the module's source tree and activate module mode in the `go` command:
 
@@ -157,17 +157,19 @@ Some current suggested best practices to consider doing prior to tagging a relea
 * Run `go mod -sync` (or if using master: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 * Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
-  * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to test against all possible combinations of *their* dependencies up-front.
+  * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
 
 ## Additional Resources
 
 ### Documentation and Proposal
 
-* Current [official modules documentation on tip](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
-  * For more about modules, see 'go help modules'
-  * For more about the 'go mod' command, see 'go help mod'
-  * For more about the behavior of 'go get' when in module-aware mode, see 'go help module-get'
+* Official documentation:
+  * Latest [HTML documentation for modules on tip.golang.org](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
+  * Run `go help modules` for more about modules. (This is the main entry point for modules topics via `go help`)
+  * Run `go help mod` for more about the `go mod` command.
+  * Run `go help module-get` for more about the behavior of `go get` when in module-aware mode.
+  * Run `go help goproxy` for more about the module proxy, including a pure file-based option via a `file:///` URL.
 * The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts on `vgo` by Russ Cox (first posted February 20, 2018)
 * Official [golang.org blog post introducing the proposal](https://blog.golang.org/versioning-proposal) (March 26, 2018)
   * This provides a more succinct overview of the proposal than the full `vgo` blog series, along with some of the history and process behind the proposal
@@ -253,7 +255,7 @@ It simplifies the command lines
 and allows command-specific flags.
 ```
 
-### Additional questions
+### Additional frequently asked questions
 
 * Please see the earlier [FAQ from the official proposal discussion](https://github.com/golang/go/issues/24301#issuecomment-371228664), including answers to common question such as:
   * "Won't minimal version selection keep developers from getting important updates?"
