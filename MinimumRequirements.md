@@ -21,7 +21,7 @@ For Go 1.11 and later: Windows Server 2008R2 and higher or Windows 7 and higher.
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
 macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
-Go only supports OS X 10.8 Mountain Lion or newer. We only have builders for 10.10, and 10.11 as of 2018-02-16.
+Go only supports OS X Yosemite 10.10 or newer. We only have builders for 10.10, and 10.11 as of 2018-02-16.
 
 ### [OpenBSD](OpenBSD)
 
