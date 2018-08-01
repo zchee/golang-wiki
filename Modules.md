@@ -11,7 +11,9 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * **Beta support** for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
 * On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
 
-**NOTE:** One current significant issue is that **some older versions of git are not working**: [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
+**NOTE:** One current significant issue is that **some older versions of git are not working**: 
+* [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). 
+* [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
 
 ## Installing and Activating Module Support
 
