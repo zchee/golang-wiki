@@ -35,7 +35,7 @@ Once installed, you can then activate module support in one of three ways:
 
 Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/mymod` is different than `me.io/mymod/v2` and may import packages from one major version to another major version.
+The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is different than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
@@ -73,9 +73,11 @@ Packages are imported relative to the full module path, for example:
 
 The default behavior when adding a new *direct* dependency via go commands such as 'go get' or 'go build' is to select the *latest* tagged release version (such as 'v1.2.3'), which is recorded in the `go.mod` file with a `require` directive (such as `require D v1.2.3`). The *minimal version selection* algorithm is used to select the actual versions used in a build. For a brief overview and rationale for minimal version selection, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
-In general, the version of each module selected by minimal version selection and used in a build is always the semantically highest of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly. Use `go list -m` to list selected module versions.
+In general, the version of each module selected by minimal version selection and used in a build is always the semantically highest of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly. 
 
-Different major versions are distinct modules. A `/v2` module will never be compared with a `/v3` module, even if the rest of the module path is the same, but `me.io/mymod` may be included alongside `me.io/mymod/v2`. (This allows a v1 module to be implemented in terms of its v2 replacement or vice-versa.)
+Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during version selection.
+
+Use `go list -m` to list selected module versions.
 
 See also the ["Upgrading and Downgrading Dependencies"](https://github.com/golang/go/wiki/Modules#upgrading-and-downgrading-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
 
