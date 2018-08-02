@@ -66,8 +66,8 @@ There are two ways to release a v2 (or higher) module version:
     * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate `v2` branch.
 
 Packages are imported relative to the full module path, for example:
-* `import "me.io/mymod/v2/pkg1"` for package `pkg1` in module `me.io/mymod/v2`
-* `import "me.io/mymod/pkg1"` for package `pkg1` in module `me.io/mymod` (v1 or v0).
+* `import "me.io/my/mod/v2/pkg"` for package `pkg` in module `me.io/my/mod/v2`
+* `import "me.io/my/mod/pkg"` for package `pkg` in module `me.io/my/mod` (v1 or v0).
 
 ### Version Selection
 
