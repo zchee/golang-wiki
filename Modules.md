@@ -71,11 +71,13 @@ Packages are imported relative to the full module path, for example:
 
 ### Version Selection
 
-The default behavior when adding a new *direct* dependency via go commands such as 'go get' or 'go build' is to select the *latest* tagged release version (such as 'v1.2.3'), which is recorded in the `go.mod` file with a `require` directive (such as `require D v1.2.3`). The *minimal version selection* algorithm is used to select the actual versions used in a build. For a brief overview and rationale for minimal version selection, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
+The default behavior when adding a new *direct* dependency via go commands such as 'go get' or 'go build' is to select the *latest* tagged release version (such as 'v1.2.3'), which is recorded in the `go.mod` file with a `require` directive (such as `require D v1.2.3`). The *minimal version selection* algorithm is used to select the actual versions used in a build. 
 
-In general, the version of each module selected by minimal version selection and used in a build is always the semantically highest of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly. 
+In general, the version of each module selected by minimal version selection and used in a build is always the semantically *highest* of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly or chooses to upgrade to the latest available minor or patch version.
 
-Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during version selection.
+Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during minimal version selection.
+
+For a brief overview and rationale for the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
 Use `go list -m` to list selected module versions.
 
@@ -210,12 +212,12 @@ Some current suggested best practices to consider doing prior to tagging a relea
 
 ### How are versions marked as incompatible?
 
-The `require` directive allows any module to declare that it should be built with version >= x.y.z of a dependency M (which may be specified due to  incompatibilities with version < x.y.z of module M). Empirical data suggests this is the [dominant form of constraints used in `dep` and `cargo`](https://twitter.com/_rsc/status/1022590868967116800). In addition, the top-level module in the build can `exclude` specific versions of dependencies or `replace` other modules with different code. See the full proposal for [more details and rationale](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md).
+The `require` directive allows any module to declare that it should be built with version >= x.y.z of a dependency D (which may be specified due to  incompatibilities with version < x.y.z of module D). Empirical data suggests [this is the dominant form of constraints used in `dep` and `cargo`](https://twitter.com/_rsc/status/1022590868967116800). In addition, the top-level module in the build can `exclude` specific versions of dependencies or `replace` other modules with different code. See the full proposal for [more details and rationale](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md).
 
 One of the key goals of the versioned modules proposal is to add a common vocabulary and semantics around versions of Go code for both tools and developers. This lays a foundation for future capabilities to declare additional forms of incompatibilities, such as:
 * declaring deprecated versions as [described](https://research.swtch.com/vgo-module) in the initial `vgo` blog series
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
-* declaring incompatible versions or insecure versions of a module post-publishing, such as in the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
+* declaring incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
 
 ### What are some of the biggest changes since the initial vgo proposal?
 
