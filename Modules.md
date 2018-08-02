@@ -75,11 +75,11 @@ The default behavior when adding a new *direct* dependency via go commands such 
 
 In general, the version of each module selected by minimal version selection and used in a build is always the semantically *highest* of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly or chooses to upgrade to the latest available minor or patch version.
 
-Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during minimal version selection.
-
 For a brief overview and rationale for the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
-Use `go list -m` to list selected module versions.
+Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during minimal version selection.
+
+To see a list of the selected module versions, use `go list -m`.
 
 See also the ["Upgrading and Downgrading Dependencies"](https://github.com/golang/go/wiki/Modules#upgrading-and-downgrading-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
 
