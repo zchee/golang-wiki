@@ -103,6 +103,29 @@ default:
 To fall through to a subsequent case, use the ` fallthrough ` keyword:
 
 ```go
+v := 42
+switch v {
+case 100:
+	fmt.Println(100)
+	fallthrough
+case 42:
+	fmt.Println(42)
+	fallthrough
+case 1:
+	fmt.Println(1)
+	fallthrough
+default:
+	fmt.Println("default")
+}
+// Output:
+// 42
+// 1
+// default
+```
+
+Another example:
+
+```go
 // Unpack 4 bytes into uint32 to repack into base 85 5-byte.
 var v uint32
 switch len(src) {
