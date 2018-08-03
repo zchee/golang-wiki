@@ -89,7 +89,7 @@ Packages are imported using the full module path, for example:
 
 If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive (e.g., `require D v1.2.3`).
 
-The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly required by a `require` directive in the main module or one of its dependencies. This effectively locks versions into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
+The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly required by a `require` directive in the main module or one of its dependencies. This effectively locks each version into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
 
 For a brief rationale and overview of the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or see the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
