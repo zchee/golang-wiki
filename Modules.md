@@ -60,10 +60,12 @@ Including major versions in import paths will produce incompatibilities with old
 
 TODO: show example exclude and replace directives.
 
-There are two ways to release a v2 (or higher) module version:
- 1. Create a `v2` directory and place a new `go.mod` file in that folder. The module path must end with `/v2`. Tag the release with `v2.0.0`.
- 2. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
-    * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate `v2` branch.
+There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
+
+1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
+   * To avoid confusion with this approach, consider putting the v2.*.* commits on a separate v2 branch.
+
+2. Alternatively, create a `v2` directory and place a new `go.mod` file in that directory. The module path must end with `/v2`. Tag the release with `v2.0.0`.
 
 Packages are imported relative to the full module path, for example:
 * `import "me.io/my/mod/v2/pkg"` for package `pkg` in module `me.io/my/mod/v2`
