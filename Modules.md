@@ -9,7 +9,7 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned Go modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
    * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
 * **Beta support** for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
-* On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
+* On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**, which also should be present when Go 1.11 beta 3 is release. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
 
 **NOTE:** Currently one set of significant issues is due to **some older versions of git are not working**: 
 * [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). 
@@ -122,7 +122,7 @@ To create a `go.mod` for an existing project:
    # if using go1.11beta2 or vgo:
    $ go mod -init                
 
-   # if using 'master', use the newer form:  
+   # if using 'master' or go1.11beta3, use the newer form:  
    $ go mod init                     
    ```
 
@@ -134,7 +134,7 @@ To create a `go.mod` for an existing project:
    # if using go1.11beta2 or vgo:
    $ go mod -init -module example.com/my/module/v2    
   
-   # if using 'master':  
+   # if using 'master' or or go1.11beta3, use the newer form:  
    $ go mod init example.com/my/module/v2
    ```
 
@@ -182,7 +182,7 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider prior to tagging a release:
 
-* Run `go mod -sync` (or if using master: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
+* Run `go mod -sync` (or if using master or or go1.11beta3: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 * Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
   * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
@@ -254,7 +254,7 @@ One of the key goals of the versioned modules proposal is to add a common vocabu
 
 ### How have the `go mod` commands changed recently in `master`?
 
-As of July 31, 2018, there has been a significant change in `master` for the `go mod` commands. These changes are not in go1.11beta2. Two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
+As of July 31, 2018, there has been a significant change in `master` for the `go mod` commands. These changes are not in go1.11beta2, but should be in go1.11beta3 when it is released. Two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
 ```
 The current "go mod" command does too many things.
 
