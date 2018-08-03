@@ -87,11 +87,11 @@ Packages are imported using the full module path, for example:
 
 ### Version Selection
 
-The default behavior when adding a new *direct* dependency via go commands such as 'go get' or 'go build' is to select the *latest* tagged release version (such as 'v1.2.3'), which is recorded in the `go.mod` file with a `require` directive (such as `require D v1.2.3`). The *minimal version selection* algorithm is used to select the actual versions used in a build. 
+If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive (e.g., `require D v1.2.3`).
 
-In general, the version of each module selected by minimal version selection and used in a build is always the semantically *highest* of the versions explicitly `require`d by the module or one of its dependencies. This effectively locks versions into place until the module author or user chooses a new version explicitly or chooses to upgrade to the latest available minor or patch version.
+The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly `require`d by the main module or one of its dependencies. This effectively locks versions into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
 
-For a brief overview and rationale for the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
+For a brief rationale and overview of the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or see the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
 Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during minimal version selection.
 
