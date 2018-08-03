@@ -234,8 +234,6 @@ Here is a partial list of some of the larger changes and improvements, almost al
 * **Most likely:** additional support for warming caches for use cases such as CI or docker builds ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
 * **Most likely**: better support for installing specific versions of programs to GOBIN ([#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022))
 
-As part of the proposal, prototype, and beta processes, there have been over 400 issues created by the overall community. Please continue to supply feedback.
-
 ## GitHub Issues
 
 * [Currently open module issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
