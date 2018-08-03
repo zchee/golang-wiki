@@ -31,11 +31,11 @@ Once installed, you can then activate module support in one of three ways:
 
 ## New Concepts
 
-### Major Versions
+### Semantic Import Versioning
 
 Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is different than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2`. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is different than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
@@ -61,13 +61,11 @@ Including major versions in import paths will produce incompatibilities with old
 TODO: show example exclude and replace directives.
 
 There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
-
 1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
-   * To avoid confusion with this approach, consider putting the v2.*.* commits on a separate v2 branch.
-
+   * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
 2. Alternatively, create a `v2` directory and place a new `go.mod` file in that directory. The module path must end with `/v2`. Tag the release with `v2.0.0`.
 
-Packages are imported relative to the full module path, for example:
+Packages are imported using the full module path, for example:
 * `import "me.io/my/mod/v2/pkg"` for package `pkg` in module `me.io/my/mod/v2`
 * `import "me.io/my/mod/pkg"` for package `pkg` in module `me.io/my/mod` (v1 or v0).
 
@@ -85,7 +83,7 @@ To see a list of the selected module versions, use `go list -m`.
 
 See also the ["Upgrading and Downgrading Dependencies"](https://github.com/golang/go/wiki/Modules#upgrading-and-downgrading-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
 
-## Defining a Module
+## How to Define a Module
 
 To create a `go.mod` for an existing project:
 
@@ -143,7 +141,7 @@ To create a `go.mod` for an existing project:
 
 Prior to tagging a release, see the [Preparing a release](https://github.com/golang/go/wiki/Modules#preparing-a-release) section below.
 
-## Upgrading and Downgrading Dependencies
+## How to Upgrade and Downgrade Dependencies
 
 Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
 
@@ -162,11 +160,11 @@ After upgrading or downgrading any dependencies, you may then want to run the te
    $ go test all
    ```
 
-## Preparing a release
+## How to Prepare for a Release
 
 Best practices for creating a release of a module are expected to emerge as part of the initial modules experiment. Many of these might end up being automated by a [future 'go release' tool](https://github.com/golang/go/issues/26420).
 
-Some current suggested best practices to consider doing prior to tagging a release:
+Some current suggested best practices to consider prior to tagging a release:
 
 * Run `go mod -sync` (or if using master: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
@@ -203,7 +201,24 @@ Some current suggested best practices to consider doing prior to tagging a relea
 * Blog post ["The vgo proposal is accepted. Now what?"](https://research.swtch.com/vgo-accepted) by Russ Cox (May 29, 2018)
   * Includes summary of what it means that versioned modules are currently an experimental opt-in feature
 
-### Issues
+## Changes Since the Initial Vgo Proposal
+
+Here is a partial list of some of the larger improvements, almost all of which were primarily based on community feedback after the first vgo blogs were published:
+
+* Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
+* Backported minimal module-awareness to allow older Go versions  1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
+* Added support via command `go get -u=patch` to update all transitive dependencies to the latest available patch-level versions on the same minor version ([discussion](https://research.swtch.com/vgo-cmd), [documentation](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get))
+* Allowed use of existing v2+ packages that don't yet have go.mod (disallowed in initial vgo proposal; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
+* Allowed more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
+* Added additional ways to interrogate modules (for human consumption, as well as for better support for editor / IDE integration)
+* The UX of the go CLI has continued to be refined based on experiences so far (e.g., [#26581](https://github.com/golang/go/issues/26581), [CL](https://go-review.googlesource.com/c/go/+/126655))
+* Additional control via environmental variables (e.g., GOFLAGS in [#26585](https://github.com/golang/go/issues/26585), [CL](https://go-review.googlesource.com/c/go/+/126656))
+* **Most likely:** additional support for warming caches for use cases such as CI or docker builds ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
+* **Most likely**: better support for installing specific versions of programs to GOBIN ([#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022))
+
+As part of the proposal, prototype, and beta process, there have been over 400 issues created by the overall community. Please continue to supply feedback.
+
+## GitHub Issues
 
 * [Currently open module issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
 * [Closed module issues](https://golang.org/issues?q=is%3Aclosed+is%3Aissue+label:modules)
@@ -220,23 +235,6 @@ One of the key goals of the versioned modules proposal is to add a common vocabu
 * declaring deprecated versions as [described](https://research.swtch.com/vgo-module) in the initial `vgo` blog series
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
 * declaring incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
-
-### What are some of the biggest changes since the initial vgo proposal?
-
-Here is a sample list of improvements, almost all of which were primarily driven by community feedback:
-
-* Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
-* Backported minimal module-awareness to allow older Go versions  1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
-* Added support via command `go get -u=patch` to update all transitive dependencies to the latest available patch-level versions on the same minor version ([discussion](https://research.swtch.com/vgo-cmd), [documentation](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get))
-* Allowed use of existing v2+ packages that don't yet have go.mod (disallowed in initial vgo proposal; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
-* Allowed more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
-* Added additional ways to interrogate modules (for human consumption, as well as for better support for editor / IDE integration)
-* The UX of the go CLI has continued to be refined based on experiences so far (e.g., [#26581](https://github.com/golang/go/issues/26581), [CL](https://go-review.googlesource.com/c/go/+/126655))
-* Additional control via environmental variables (e.g., GOFLAGS in [#26585](https://github.com/golang/go/issues/26585), [CL](https://go-review.googlesource.com/c/go/+/126656))
-* **Most likely:** additional support for warming caches for use cases such as CI or docker builds ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
-* **Most likely**: better support for installing specific versions of programs to GOBIN ([#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022))
-
-As part of the proposal, prototype, and beta process, there have been over 400 issues created by the overall community. Please continue to supply feedback.
 
 ### How have the `go mod` commands changed recently in `master`?
 
