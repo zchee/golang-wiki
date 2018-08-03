@@ -87,13 +87,11 @@ Packages are imported using the full module path, for example:
 
 ### Version Selection
 
-If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive (e.g., `require D v1.2.3`).
+If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive. For example, if your new import corresponds to dependency D whose latest tagged release version is `v1.2.3`, your module's `go.mod` will end up with `require D v1.2.3`, which indicates module D is a dependency with allowed version >= v1.2.3 (and < v2, given v2 is considered incompatible and a distinct module from v1).
 
 The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly required by a `require` directive in the main module or one of its dependencies. This effectively locks each version into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
 
 For a brief rationale and overview of the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or see the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
-
-Different major versions are distinct modules. For example, a `/v2` module will never be compared with a `/v3` module during minimal version selection.
 
 To see a list of the selected module versions, use `go list -m`.
 
@@ -223,7 +221,7 @@ Here is a partial list of some of the larger changes and improvements, almost al
 
 * Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
 * Backported minimal module-awareness to allow older Go versions 1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
-* Allowed use of v2+ tags for pre-existing v2+ packages that don't yet have a go.mod (disallowed in initial vgo proposal; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
+* Allowed consuming pre-existing packages with v2+ tags that don't yet have a go.mod (initial vgo would not use v2+ tags on a project without a go.mod; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
 * Added support via command `go get -u=patch` to update all transitive dependencies to the latest available patch-level versions on the same minor version ([discussion](https://research.swtch.com/vgo-cmd), [documentation](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get))
 * Additional control via environmental variables (e.g., GOFLAGS in [#26585](https://github.com/golang/go/issues/26585), [CL](https://go-review.googlesource.com/c/go/+/126656))
 * Added more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
