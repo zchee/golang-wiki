@@ -14,6 +14,8 @@ Please keep all items in chronological order.
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
 | GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu |
+| Florida Golang | 2020-02-03-04 | Orlando, Florida | https://floridagolang.com/ |
+
 
 ## Archives
 
