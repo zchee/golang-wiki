@@ -17,7 +17,7 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 
 ## Table of Contents
 
-* [Current Status](https://github.com/golang/go/wiki/Modules#current-status)
+The remaining content on this page is organized as follows:
 * [Installing and Activating Module Support](https://github.com/golang/go/wiki/Modules#installing-and-activating-module-support)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
    * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
