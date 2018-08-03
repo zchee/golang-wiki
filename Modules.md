@@ -219,7 +219,9 @@ Some current suggested best practices to consider prior to tagging a release:
 
 ## Changes Since the Initial Vgo Proposal
 
-Here is a partial list of some of the larger changes and improvements, almost all of which were primarily based on community feedback:
+As part of the proposal, prototype, and beta processes, there have been over 400 issues created by the overall community. Please continue to supply feedback. 
+
+Here is a partial list of some of the larger changes and improvements, almost all of which were primarily based on feedback from the community:
 
 * Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
 * Backported minimal module-awareness to allow older Go versions 1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
