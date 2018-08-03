@@ -11,9 +11,25 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * **Beta support** for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
 * On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
 
-**NOTE:** One current significant issue is that **some older versions of git are not working**: 
+**NOTE:** Currently one set of significant issues is due to **some older versions of git are not working**: 
 * [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). 
 * [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
+
+## Table of Contents
+
+The remaining content on this page is organized as follows:
+* [Installing and Activating Module Support](https://github.com/golang/go/wiki/Modules#installing-and-activating-module-support)
+* [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
+   * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
+   * [Modules](https://github.com/golang/go/wiki/Modules#modules)
+   * [Version Selection](https://github.com/golang/go/wiki/Modules#version-selection)
+* [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
+* [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
+* [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
+* [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
+* [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
+* [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
+* [FAQ](https://github.com/golang/go/wiki/Modules#faq)
 
 ## Installing and Activating Module Support
 
@@ -203,20 +219,20 @@ Some current suggested best practices to consider prior to tagging a release:
 
 ## Changes Since the Initial Vgo Proposal
 
-Here is a partial list of some of the larger improvements, almost all of which were primarily based on community feedback after the first vgo blogs were published:
+Here is a partial list of some of the larger changes and improvements, almost all of which were primarily based on community feedback:
 
 * Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
 * Backported minimal module-awareness to allow older Go versions  1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
 * Added support via command `go get -u=patch` to update all transitive dependencies to the latest available patch-level versions on the same minor version ([discussion](https://research.swtch.com/vgo-cmd), [documentation](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get))
-* Allowed use of existing v2+ packages that don't yet have go.mod (disallowed in initial vgo proposal; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
-* Allowed more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
+* Allowed use of v2+ tags for pre-existing v2+ packages that don't yet have a go.mod (disallowed in initial vgo proposal; recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
+* Added more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
 * Added additional ways to interrogate modules (for human consumption, as well as for better support for editor / IDE integration)
 * The UX of the go CLI has continued to be refined based on experiences so far (e.g., [#26581](https://github.com/golang/go/issues/26581), [CL](https://go-review.googlesource.com/c/go/+/126655))
 * Additional control via environmental variables (e.g., GOFLAGS in [#26585](https://github.com/golang/go/issues/26585), [CL](https://go-review.googlesource.com/c/go/+/126656))
 * **Most likely:** additional support for warming caches for use cases such as CI or docker builds ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
 * **Most likely**: better support for installing specific versions of programs to GOBIN ([#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022))
 
-As part of the proposal, prototype, and beta process, there have been over 400 issues created by the overall community. Please continue to supply feedback.
+As part of the proposal, prototype, and beta processes, there have been over 400 issues created by the overall community. Please continue to supply feedback.
 
 ## GitHub Issues
 
