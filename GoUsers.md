@@ -13,7 +13,7 @@
 ## Australia
   * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
   * [Atlassian](http://atlassian.com/)
-  * [AusOcean](http://www.ausocean.org) - helping our oceans through the use of technology.
+  * [AusOcean](http://www.ausocean.org) - Helping our oceans through the use of technology.
   * [BCZ](http://bcz.com/) - Human captcha verification with spam protection.
   * [Buildkite](https://buildkite.com/) - [github](https://github.com/buildkite/agent)
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
