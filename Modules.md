@@ -8,12 +8,16 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 
 * The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned Go modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
    * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
-* **Beta support** for modules is now also available starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
-* On **July 31, 2018**, there was a significant change in `master` for the **`go mod` commands**, which also should be present when Go 1.11 beta 3 is released. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview.
+* Beta support for modules is now also available:
+   * Initial beta starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
+   * **Latest beta** is [Go 1.11 beta 3](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (released on **August 10, 2018**).
+* Beta 3 and `master` include some significant **changes for the `go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview of these changes.
 
-**NOTE:** Currently one set of significant issues is due to **some older versions of git are not working**: 
-* [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working (fixed in `master` but not fixed in 1.11 beta2). 
-* [#26594](https://github.com/golang/go/issues/26594) appears to be different problem but might be related to older git as well.
+**NOTE:** Some issues you might experience:
+* There might be some regressions in beta 3 compared to beta 2 (e.g., perhaps #[26722](https://github.com/golang/go/issues/26722), #[26602](https://github.com/golang/go/issues/26602))
+* Some older versions of git might not work: 
+  * [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working. (Fixed in beta 3 but not fixed in beta 2). 
+  * [#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Not fixed in beta 3 -- help is welcomed triaging this particular issue).
 
 ## Table of Contents
 
@@ -182,7 +186,7 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider prior to tagging a release:
 
-* Run `go mod -sync` (or if using master or or go1.11beta3: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
+* Run `go mod -sync` (or if using master or go1.11beta3: `go mod tidy`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 * Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
   * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
