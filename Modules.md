@@ -14,10 +14,11 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * Beta 3 and `master` include some significant **changes for the `go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-master) for an overview of these changes.
 
 **NOTE:** Some issues you might experience:
-* There might be some regressions in beta 3 compared to beta 2 (e.g., perhaps #[26722](https://github.com/golang/go/issues/26722), #[26602](https://github.com/golang/go/issues/26602))
+* There might be some regressions in beta 3 compared to beta 2 (e.g., perhaps [#26722](https://github.com/golang/go/issues/26722), [#26602](https://github.com/golang/go/issues/26602))
 * Some older versions of git might not work: 
   * [#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working. (Fixed in beta 3 but not fixed in beta 2). 
-  * [#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Not fixed in beta 3 -- help is welcomed triaging this particular issue).
+  * [#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Not fixed in beta 3 -- help triaging this particular issue is welcomed).
+  * [#26754](https://github.com/golang/go/issues/26754) is example where git 2.18.0 succeeds, but git 2.7.4 can't resolve a commit unreachable from any branch.
 
 ## Table of Contents
 
