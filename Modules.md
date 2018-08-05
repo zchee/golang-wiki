@@ -25,9 +25,9 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 The remaining content on this page is organized as follows:
 * [Installing and Activating Module Support](https://github.com/golang/go/wiki/Modules#installing-and-activating-module-support)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
-   * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
    * [Modules](https://github.com/golang/go/wiki/Modules#modules)
    * [Version Selection](https://github.com/golang/go/wiki/Modules#version-selection)
+   * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
 * [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
 * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
 * [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
@@ -51,14 +51,6 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 ## New Concepts
-
-### Semantic Import Versioning
-
-Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
-
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2`. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is a different module than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
-
-The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
 ### Modules
 
@@ -103,6 +95,14 @@ For a brief rationale and overview of the minimal version selection algorithm, [
 To see a list of the selected module versions, use `go list -m`.
 
 See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
+
+### Semantic Import Versioning
+
+Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
+
+The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2`. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is a different module than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+
+The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
 ## How to Define a Module
 
