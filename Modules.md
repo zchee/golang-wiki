@@ -63,7 +63,7 @@ A module is a collection of related Go packages that are versioned together as a
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
 
-All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive (for example, the first line in a `go.mod` file might be `module example.com/my/module` if it was defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`).
+All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive. For example, the first line in a `go.mod` file might be `module example.com/my/module` if it was defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`.
 
 Module files may include comments and will look familiar to a go programmer. Here is an example go.mod file:
 
