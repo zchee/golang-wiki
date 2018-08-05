@@ -26,6 +26,7 @@ The remaining content on this page is organized as follows:
 * [Installing and Activating Module Support](https://github.com/golang/go/wiki/Modules#installing-and-activating-module-support)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
    * [Modules](https://github.com/golang/go/wiki/Modules#modules)
+   * [go.mod](https://github.com/golang/go/wiki/Modules#gomod)
    * [Version Selection](https://github.com/golang/go/wiki/Modules#version-selection)
    * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
 * [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
@@ -52,39 +53,38 @@ Once installed, you can then activate module support in one of three ways:
 
 ## New Concepts
 
+These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](), this 40 minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
+
 ### Modules
 
-Go packages now live in modules. The path of a module is a URL path where it may be found, and may include a major version at the end of the path (but nowhere else). Module source code may be located outside of `$GOPATH`. Two example modules are `rsc.io/goversion` and `github.com/kardianos/vtest/v3`.
+A module is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
 
-Modules are defined by a `go.mod` file that lives in the root of the module. Module files may include comments and will look familiar to a go programmer. Here is an example `go.mod` file:
+### go.mod
+
+A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
+
+All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive (for example, the first line in a `go.mod` file might be `module example.com/my/module` if it was defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`).
+
+Module files may include comments and will look familiar to a go programmer. Here is an example go.mod file:
+
 ```
 module github.com/kardianos/vmain/v3
 
 require (
-    github.com/kardianos/vtest/v2 v2.0.2
+    github.com/kardianos/vtest v1.0.2
 )
 ```
 
-There are 4 directives: "module", "require", "exclude", "replace". Module paths may be quoted but are not required to be.
+There are 4 directives: `module`, `require`, `exclude`, `replace`. Module paths may be quoted but are not required to be.
 
-Including major versions in import paths will produce incompatibilities with old versions of Go. To work around this prior versions of the go tool have been updated and released to continue building as before. (See [issue 25069](https://github.com/golang/go/issues/25069).)
+`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (TODO: show example exclude and replace directives and/or FAQ on when to use them).
 
-`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored.
-
-TODO: show example exclude and replace directives.
-
-There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
-1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
-   * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
-2. Alternatively, create a `v2` directory and place a new `go.mod` file in that directory. The module path must end with `/v2`. Tag the release with `v2.0.0`.
-
-Packages are imported using the full module path, for example:
-* `import "me.io/my/mod/v2/pkg"` for package `pkg` in module `me.io/my/mod/v2`
-* `import "me.io/my/mod/pkg"` for package `pkg` in module `me.io/my/mod` (v1 or v0).
+In Go source code, packages are imported using the full path including the module, for example:
+ * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from module `example.com/my/module/v2`.
 
 ### Version Selection
 
-If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive. For example, if your new import corresponds to dependency M whose latest tagged release version is `v1.2.3`, your module's `go.mod` will end up with `require M v1.2.3`, which indicates module M is a dependency with allowed version >= v1.2.3 (and < v2, given v2 is considered incompatible and a distinct module from v1).
+If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive. For example, if your new import corresponds to dependency M whose latest tagged release version is `v1.2.3`, your module's `go.mod` will end up with `require M v1.2.3`, which indicates module M is a dependency with allowed version >= v1.2.3 (and < v2, given v2 is considered incompatible with v1).
 
 The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly listed by a `require` directive in the main module or one of its dependencies. This effectively locks each version into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
 
@@ -101,6 +101,13 @@ See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/go
 Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
 The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2`. Module versions of v1 and v0 must not be included in the path. Modules with different paths are different modules. Thus `me.io/my/mod` is a different module than `me.io/my/mod/v2` and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+
+Including major versions in import paths will produce incompatibilities with old versions of Go. To work around this prior versions of the go tool have been updated and released to continue building as before when they encounter major versions in import paths. (See [issue 25069](https://github.com/golang/go/issues/25069).)
+
+There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
+1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
+   * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
+2. Alternatively, create a `v2` directory and place a new `go.mod` file in that directory. The module path must end with `/v2`. Tag the release with `v2.0.0`.
 
 The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
