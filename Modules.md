@@ -290,13 +290,15 @@ and allows command-specific flags.
 
 ### My project has historically made breaking changes without bumping the major version. What are some strategies to consider moving forward?
 
-Kubernetes has some atypical build approachs (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but in response to a question *"k8s does minor releases but changes the Go API in each minor release. How would people handle importing k8s as a vendored project via vgo?"*, Russ Cox made the following [comment](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882):
+In response to a question *"k8s does minor releases but changes the Go API in each minor release. How would people handle importing k8s as a vendored project via vgo?"*, Russ Cox made the following [comment](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882):
 
 >  I don't fully understand the k8s dev cycle etc, but I think generally the k8s team needs to decide/confirm what they intend to guarantee to users about stability and then apply version numbers accordingly to express that.
 > 
 > * To make a promise about API compatibility (which seems like the best user experience!) then start doing that and use 1.X.Y.
 > * To have the flexibility to make backwards-incompatible changes in every release but allow different parts of a large program to upgrade their code on different schedules, meaning different parts can use different major versions of the API in one program, then use X.Y.0, along with import paths like k8s.io/client/vX/foo.
 > * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
+
+On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
 
 ### Additional frequently asked questions
 
