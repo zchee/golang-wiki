@@ -816,6 +816,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
+  * [fourcc](https://github.com/reiver/go-fourcc) - Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
   * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
   * [gltf](https://github.com/sturfeeinc/glTF) - library for marshaling and unmarshaling glTF
   * [glfw 3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3 library
