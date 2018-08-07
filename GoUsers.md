@@ -247,6 +247,7 @@
   * [Josh Software](http://www.joshsoftware.com/)
   * [JusTickets - built with Go](https://www.justickets.in/cities)
   * [Kayako](http://www.kayako.com/)
+  * [LiteBreeze](https://litebreeze.com/)
   * [Mindbowser](http://mindbowser.com/)
   * [Noticeboard](https://www.noticeboard.tech/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
