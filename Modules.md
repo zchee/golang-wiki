@@ -169,6 +169,8 @@ To create a `go.mod` for an existing project:
 
 Prior to tagging a release, see the ["How to Prepare for a Release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section below.
 
+For more information on all of these topics, the primary entry point to the official modules documentation is [available on tip.golang.org](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more).
+
 ## How to Upgrade and Downgrade Dependencies
 
 Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
