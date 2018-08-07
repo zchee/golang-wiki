@@ -29,6 +29,7 @@
   * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
   * [Pathao](https://pathao.com)(A ride sharing company) 
   * [GAAN](http://gaan.com.bd)
+  * [Restra] (https://github.com/restra-social)
 
 ## Brazil
   * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
