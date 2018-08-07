@@ -6,8 +6,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
-| GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/<br>CFP https://www.gophercon.co.uk/speakers/ |
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | http://gophercon.com<br>CFP https://www.papercall.io/gophercon2018 |
 | GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
 | GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io<br>CFP https://www.papercall.io/gowayfest |
@@ -23,6 +21,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/ |
+| Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
 | GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is | 
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
