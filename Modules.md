@@ -267,9 +267,9 @@ One of the key goals of the versioned modules proposal is to add a common vocabu
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
 * declaring incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
 
-### How have the `go mod` commands changed recently in `master`?
+### How have the `go mod` commands changed recently in `go1.11beta3`?
 
-As of July 31, 2018, there has been a significant change in `master` for the `go mod` commands. These changes are not in go1.11beta2, but should be in go1.11beta3 when it is released. Two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
+As of go1.11beta3, there has been a significant change for the `go mod` commands. See https://tip.golang.org/cmd/go/#hdr-Module_maintenance as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
 ```
 The current "go mod" command does too many things.
 
