@@ -369,6 +369,7 @@
   * [Develer](https://www.develer.com)
 
 ## Japan
+  * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [Clover Lab.,inc.](https://cloverlab.jp/)
