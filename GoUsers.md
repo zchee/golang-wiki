@@ -395,7 +395,7 @@
   * [HDE Inc](https://www.hde.co.jp/en/)
   * [HEARTBEATS](https://heartbeats.jp/)
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
-  * [HiCustomer inc.](https://hicustomer.jp/) - a Customer Success management platform
+  * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Intelligence](http://www.inte.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [Kanmu, Inc.](https://kanmu.co.jp/)
