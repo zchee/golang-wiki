@@ -397,6 +397,7 @@
   * [KLab Inc.](http://www.klab.com/jp/english/)
   * [Kyash Inc](https://kyash.co/en/)
   * [LINE](https://linecorp.com/)
+  * [M3](https://corporate.m3.com/)
   * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
