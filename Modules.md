@@ -41,7 +41,7 @@ The remaining content on this page is organized as follows:
 
 To use modules, you currently have three install options:
 * [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
-* [Install Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (and replace `go` with `go1.11beta2` in the commands below).
+* [Install Go 1.11 beta 3](https://groups.google.com/forum/#!topic/golang-dev/7u0nPlsup5I) (and replace `go` with `go1.11beta3` in the commands below).
 * Install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
 As of July 23, 2018, there are some recommendations (e.g., [here](https://github.com/golang/go/issues/26541#issuecomment-407161110)) to currently prefer installing from source or the latest beta over using `vgo`.
