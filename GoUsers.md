@@ -382,6 +382,7 @@
   * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [Future Architect](http://www.future.co.jp/architect/)
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
+  * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
