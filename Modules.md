@@ -146,7 +146,7 @@ To create a `go.mod` for an existing project:
    # if using go1.11beta2 or vgo:
    $ go mod -init -module example.com/my/module/v2    
   
-   # if using 'master' or or go1.11beta3, use the newer form:  
+   # if using 'master' or go1.11beta3, use the newer form:  
    $ go mod init example.com/my/module/v2
    ```
 
