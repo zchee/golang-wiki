@@ -380,6 +380,7 @@
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [DeNA Co.,Ltd.](https://dena.com)
   * [eureka](https://eure.jp)
+  * [feedtailor](https://www.feedtailor.jp/)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [Future Architect](http://www.future.co.jp/architect/)
