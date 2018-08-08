@@ -418,6 +418,7 @@
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](http://speee.jp/)
+  * [TOPGATE](https://www.topgate.co.jp/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [VRize, Inc.](https://vrize.io/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
