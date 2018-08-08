@@ -396,6 +396,7 @@
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [Intelligence](http://www.inte.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
+  * [Kanmu, Inc.](https://kanmu.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [KLab Inc.](http://www.klab.com/jp/english/)
   * [Kyash Inc](https://kyash.co/en/)
