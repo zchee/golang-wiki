@@ -384,6 +384,7 @@
   * [feedtailor](https://www.feedtailor.jp/)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [Flatt](https://flatt.tv/) - Live Commerce Application
+  * [freee K.K.](https://corp.freee.co.jp/)
   * [Future Architect](http://www.future.co.jp/architect/)
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
