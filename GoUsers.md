@@ -265,6 +265,7 @@
   * [Singulerp](https://singulerp.com)
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
+  * [Tarkalabs](https://tarkalabs.com/)
   * [Techequity Technologies](http://www.techequity.in/)
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
