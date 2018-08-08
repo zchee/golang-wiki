@@ -419,6 +419,8 @@
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [Fringe81](http://www.fringe81.com/)
+  * [XSHELL](https://xshell.io)
+      * [IoTit Flashing tool](http://iotit.isaax.io)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
