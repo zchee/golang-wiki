@@ -414,6 +414,7 @@
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](http://speee.jp/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
+  * [VRize, Inc.](https://vrize.io/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [Fringe81](http://www.fringe81.com/)
