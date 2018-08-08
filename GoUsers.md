@@ -396,7 +396,6 @@
   * [HEARTBEATS](https://heartbeats.jp/)
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
-  * [Intelligence](http://www.inte.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [Kanmu, Inc.](https://kanmu.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
@@ -415,6 +414,7 @@
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [OPTiM Corporation](https://www.optim.co.jp/)
   * [Origami Inc.](https://origami.com/)
+  * [PERSOL CAREER CO., LTD.](https://www.persol-career.co.jp/)
   * [PicApp Inc.](http://picappinc.jp/)
   * [pixiv Inc.](https://www.pixiv.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
