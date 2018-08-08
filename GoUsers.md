@@ -401,6 +401,7 @@
   * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
+  * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Next Currency Inc.](https://n-currency.com/)
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
