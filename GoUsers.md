@@ -406,6 +406,7 @@
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [OPTiM Corporation](https://www.optim.co.jp/)
+  * [Origami Inc.](https://origami.com/)
   * [PicApp Inc.](http://picappinc.jp/)
   * [pixiv Inc.](https://www.pixiv.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
