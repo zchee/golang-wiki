@@ -434,7 +434,7 @@
       * [Artpop!](http://kdkits.jp/materials/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
-  * [Speee, Inc.](http://speee.jp/)
+  * [Speee, Inc.](https://speee.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
