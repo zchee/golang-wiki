@@ -428,6 +428,8 @@
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
       * [sakura.io](https://sakura.io/)
+  * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
+      * [KitS](http://kdkits.jp/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](http://speee.jp/)
