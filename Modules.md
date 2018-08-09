@@ -9,9 +9,9 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned Go modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
    * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
 * Beta support for modules is now also available:
-   * Initial beta starting with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
+   * Initial beta started with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**).
    * **Latest beta** is [Go 1.11 beta 3](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (released on **August 3, 2018**).
-* Beta 3 and `master` include some significant **changes for the `go mod` commands**. See faq [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-go111beta3) for an overview of these changes.
+* Beta 3 and `master` include some significant **changes for the `go mod` commands**. See FAQ [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-go111beta3) for an overview of these changes.
 
 **NOTE:** Some issues you might experience:
 * There might be some regressions in beta 3 compared to beta 2 (e.g., perhaps [#26722](https://github.com/golang/go/issues/26722), [#26602](https://github.com/golang/go/issues/26602))
