@@ -1,4 +1,6 @@
 # Introduction
+## EDIT: You dont need to compile from source in dev mode, you can just use the version in crew. Also you can use the crostini shell which is rolling out to many devices.
+
 This tutorial will show you how to install/build/run go on chrome OS. I have tested this using a Chromebook Pixel, however I do not have any other types of Chromebooks. However, this should work as long as you install the corresponding Linux package for your processor.
 
 # Requirements
