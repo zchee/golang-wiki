@@ -430,6 +430,7 @@
       * [sakura.io](https://sakura.io/)
   * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
       * [KitS](http://kdkits.jp/)
+      * [Artpop!](http://kdkits.jp/materials/)
   * [Souzoh](https://www.souzoh.com/jp/)
       * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](http://speee.jp/)
