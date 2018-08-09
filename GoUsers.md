@@ -386,6 +386,7 @@
   * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [freee K.K.](https://corp.freee.co.jp/)
+  * [Fringe81](http://www.fringe81.com/)
   * [Future Architect](http://www.future.co.jp/architect/)
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
@@ -402,6 +403,7 @@
   * [Kanmu, Inc.](https://kanmu.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [KLab Inc.](http://www.klab.com/jp/english/)
+  * [KRPEO](https://rikitake.jp/)
   * [Kyash Inc](https://kyash.co/en/)
   * [LINE](https://linecorp.com/)
   * [M3](https://corporate.m3.com/)
@@ -434,7 +436,6 @@
   * [VRize, Inc.](https://vrize.io/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
-  * [Fringe81](http://www.fringe81.com/)
   * [XSHELL](https://xshell.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
 
