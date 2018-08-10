@@ -403,6 +403,7 @@
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
+  * [istyle Inc.](http://www.istyle.co.jp/)
   * [Kanmu, Inc.](https://kanmu.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
   * [KLab Inc.](http://www.klab.com/jp/english/)
