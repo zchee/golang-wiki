@@ -387,6 +387,7 @@
   * [feedtailor](https://www.feedtailor.jp/)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
   * [Flatt](https://flatt.tv/) - Live Commerce Application
+  * [FreakOut, Inc.](https://fout.co.jp/)
   * [freee K.K.](https://corp.freee.co.jp/)
   * [Fringe81](http://www.fringe81.com/)
   * [Future Architect](http://www.future.co.jp/architect/)
