@@ -390,6 +390,7 @@
   * [FreakOut, Inc.](https://fout.co.jp/)
   * [freee K.K.](https://corp.freee.co.jp/)
   * [Fringe81](http://www.fringe81.com/)
+  * [Fusic Co., Ltd.](https://fusic.co.jp)
   * [Future Architect](http://www.future.co.jp/architect/)
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
