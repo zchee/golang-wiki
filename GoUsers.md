@@ -458,7 +458,7 @@
   * [Quicket](http://m.bunjang.co.kr) - Image Proxy, Push, Messenger
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [FlyHigh](http://flyhigh-x.com/en/) - Information Security Solution
-  * [Konai](http://www.konacard.co.kr/) - Payment Service
+  * [KonaCard](http://www.konacard.co.kr/) - Payment Service
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
