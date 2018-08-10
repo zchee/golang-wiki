@@ -414,6 +414,7 @@
       * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
+  * [Mokelab](https://mokelab.com) - [github](https://github.com/mokelab-go/)
   * [Nagisa Inc.](https://nagisa-inc.jp/)
   * [Next Currency Inc.](https://n-currency.com/)
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
