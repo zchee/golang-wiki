@@ -453,6 +453,7 @@
   * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
   * [Quicket](http://m.bunjang.co.kr) - Image Proxy, Push, Messenger
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
+  * [FlyHigh](http://flyhigh-x.com/en/) - Information Security Solution
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
