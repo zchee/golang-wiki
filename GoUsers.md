@@ -431,6 +431,7 @@
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
   * [Repro Inc.](https://repro.io/)
+  * [redish Inc.](https://www.redish.jp)
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
