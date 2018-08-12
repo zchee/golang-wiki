@@ -460,6 +460,7 @@
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [FlyHigh](http://flyhigh-x.com/en/) - Information Security Solution
   * [KonaCard](http://www.konacard.co.kr/) - Payment Service
+  * [NHN Entertainment](https://toast.com/) - ToastCloud
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
