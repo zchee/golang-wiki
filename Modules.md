@@ -59,6 +59,8 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 A module is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
 
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
+
 ### go.mod
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
@@ -97,8 +99,6 @@ To see a list of the selected module versions, use `go list -m`.
 See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
 
 ### Semantic Import Versioning
-
-Go modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)` (for example, `v0.1.0`, `v1.2.3`, or `v3.0.1`). If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
 
 The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2/pkg`. Module versions of v1 and v0 must not be included in the path. In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `me.io/my/mod/pkg` is a different package than `me.io/my/mod/v2/pkg`, and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
