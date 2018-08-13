@@ -142,7 +142,7 @@ To create a `go.mod` for an existing project:
 
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
-   If `go mod` cannot automatically determine an appropriate module path (e.g., if running outside of VCS), or if you need to override that path, use the `-module` flag:
+   If `go mod` cannot automatically determine an appropriate module path (e.g., if running outside of VCS), or if you need to otherwise override that path, you can supply the module path as follows:
 
    ```
    # if using 'master', go1.11beta3, or the latest `vgo`, use the newer form:  
