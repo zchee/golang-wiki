@@ -11,7 +11,7 @@ The `GOPATH` environment variable specifies the location of your workspace. If n
 
 # Unix systems
 
-`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/go` (since Go 1.8, it's a default `GOPATH` on Unix-like systems). Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set `GOPATH=$HOME`.
+`GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/go` (the default since Go 1.8). Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set `GOPATH=$HOME`.
 
 ## Bash
 
@@ -25,11 +25,6 @@ Save and exit your editor. Then, source your `~/.bash_profile`.
 source ~/.bash_profile
 ```
 
-> Note: Set the GOBIN path to generate a binary file when `go install` is run.
-> ```bash
-> export GOBIN=$HOME/go/bin
-> ```
-
 ## Zsh
 
 Edit your `~/.zshrc` file to add the following line:
@@ -39,7 +34,7 @@ export GOPATH=$HOME/go
 ```
 Save and exit your editor. Then, source your `~/.zshrc`.
 ```bash
-$ source ~/.zshrc
+source ~/.zshrc
 ```
 
 ## fish
@@ -47,22 +42,17 @@ $ source ~/.zshrc
 ```bash
 set -x -U GOPATH $HOME/go
 ```
-> The `-x` is used to specify that this variable should be exported
-> and the `-U` makes this a universal variable, available to all sessions and
-> persistent
 
-To set the GOBIN path:
-
-```bash
-set -x -U GOBIN $GOPATH/bin
-```
+The `-x` is used to specify that this variable should be exported
+and the `-U` makes this a universal variable, available to all sessions and
+persistent.
 
 # Windows
 
 Your workspace can be located wherever you like,
 but we'll use `C:\go-work` in this example.
 
-__NOTE:__ that `GOPATH` must not be the same path as your Go installation.
+__NOTE:__ `GOPATH` must not be the same path as your Go installation.
 
 * Create folder at `C:\go-work`.
 * Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
@@ -74,6 +64,7 @@ __NOTE:__ that `GOPATH` must not be the same path as your Go installation.
 * Click OK.
 
 ## Windows 10
-There is a faster way to edit `Environment Variables` with search
-* Left click on "Search" and type `env` or `environment`. select `Edit environment variables for your account`
-* and follow step above
+There is a faster way to edit `Environment Variables` via search:
+* Left click on "Search" and type `env` or `environment`.
+* Select "Edit environment variables for your account".
+* ... and follow steps above.
