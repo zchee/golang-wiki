@@ -49,6 +49,10 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
+In addition to trying modules-specific workflows:
+* There is also benefit in running your general tests to catch any new issues early. 
+* Please consider adding `1.11beta3` or similar to your CI (such as in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or following the build matrix pattern shown in this [CircleCI 2.0 yaml file](https://discuss.circleci.com/t/build-matrix-configuration/14448); see [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
+
 ## New Concepts
 
 These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](), this 40 minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
