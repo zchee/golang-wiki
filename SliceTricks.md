@@ -146,3 +146,23 @@ for i := len(a) - 1; i > 0; i-- {
     a[i], a[j] = a[j], a[i]
 }
 ```
+
+### Batching with minimal allocation
+
+Useful if you want to do batch processing on large slices.
+
+```go
+actions := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+batchSize := 3
+var batches [][]int
+
+for batchSize < len(actions) {
+    actions, batches = actions[batchSize:], append(batches, actions[0:batchSize:batchSize])
+}
+batches = append(batches, actions)
+```
+
+Yields the following:
+```go
+[[0 1 2] [3 4 5] [6 7 8] [9]]
+```
