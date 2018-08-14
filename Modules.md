@@ -49,8 +49,8 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 In addition to trying modules-specific workflows:
-* There is also benefit in running your general tests to catch any new issues early. 
-* Please consider adding `1.11beta3` or similar to your CI (such as in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or following the build matrix pattern shown in this [CircleCI 2.0 yaml file](https://discuss.circleci.com/t/build-matrix-configuration/14448); see [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
+* There is also benefit in running your unit tests even without using modules to catch any general 1.11 regressions early. 
+* Please consider adding `1.11rc1` or similar to your CI (such as in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or following the build matrix pattern shown in this [CircleCI 2.0 yaml file](https://discuss.circleci.com/t/build-matrix-configuration/14448); see [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
 
 ## New Concepts
 
