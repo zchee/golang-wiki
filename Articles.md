@@ -161,6 +161,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 ## Web & API Development
 
 Start by reading the [overview of server programming](LearnServerProgramming) documentation first.
+  * [Get started with Go and WebAssembly](https://medium.com/@sendilkumarn/getting-started-into-go-and-webassembly-8491b133a616) _2018-08-14_
   * [HTTP/2 Server Push](https://rakyll.org/http2push/) _2016-12-10_
   * [Preventing Cross-Site Request Forgery in Go](https://elithrar.github.io/article/preventing-csrf-attacks-in-go/) _2015-12-14_
   * [goa: Untangling Microservices](https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/) _2015-12-07_
