@@ -64,7 +64,7 @@ These are threads that have been created from the initial reference manifest:
 
 ### Presentations
 
-- [Repeatable Builds with vgo](https://cda.ms/jD)
+- [Repeatable Builds with vgo](https://talks.bjk.fyi/gcru18-vgo.html#/)
 
 ***
 
