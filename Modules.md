@@ -40,7 +40,7 @@ The remaining content on this page is organized as follows:
 
 To use modules, you currently have three install options:
 * [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
-* [Install Go 1.11 RC1](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (and replace `go` with `go1.11rc1` in the commands below).
+* [Install Go 1.11 RC1](https://groups.google.com/forum/#!msg/golang-nuts/UmbvkJmdEP0/xvwo9ukKDgAJ) (and replace `go` with `go1.11rc1` in the commands below).
 * Install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
 Once installed, you can then activate module support in one of three ways:
