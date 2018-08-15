@@ -167,7 +167,7 @@ To create a `go.mod` for an existing project:
    $ go test ./...
    ```
 
-5. (Optional) Run the tests for all imported modules (direct and indirect dependencies) to check for incompatibilities:
+5. (Optional) Run the tests for your module plus the tests for all direct and indirect dependencies to check for incompatibilities:
 
    ```
    $ go test all
@@ -193,7 +193,7 @@ Module queries that do not resolve to a semver tag will be recorded as [pseudo-v
 
 See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
 
-After upgrading or downgrading any dependencies, you may then want to run the tests again for all imported modules (direct and indirect dependencies) to check for incompatibilities:
+After upgrading or downgrading any dependencies, you may then want to run the tests again for all packages in your build (including direct and indirect dependencies) to check for incompatibilities:
    ```
    $ go test all
    ```
@@ -207,7 +207,7 @@ Some current suggested best practices to consider prior to tagging a release:
 * Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/26571)) and possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)).
 
 * Run `go test all` to test your module (including your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
-  * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
+  * The number of possible version combinations is exponential in the number of modules, so in general you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
 
 * Typically the `go.sum` file should be checked in along with the `go.mod` file. 
