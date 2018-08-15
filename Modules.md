@@ -110,10 +110,11 @@ Including major versions in import paths for v2+ modules in Go 1.11 could create
 There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
 1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
    * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
+   * If instead you have been previously releasing on master and would prefer to tag `v2.0.0` on master, that is a viable option, but consider creating a v1 branch for any future v1 bug fixes.
 2. Alternatively, create a new `v2` subdirectory (e.g., `my/module/v2`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v2`. Copy or move the code into the `v2` subdirectory. Tag the release with `v2.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
 
-The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
+The behavior of modules for existing packages with post-`v1` tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the 'go get' behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
 ## How to Define a Module
 
@@ -212,6 +213,8 @@ Some current suggested best practices to consider prior to tagging a release:
   * `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
   * Note that `go.sum` is not a traditional lock file as used in some alternative dependency management systems.
   * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173). See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
+
+If you are releasing a v2 or higher module, please also see the related considerations in the ["Semantic Import Versioning" section](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) above.
 
 ## Additional Resources
 
