@@ -66,7 +66,7 @@ Modules must be [semantically versioned](https://semver.org/) in the form `v(maj
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
 
-All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`, the first line in your `go.mod` file would typically be `module example.com/my/module`. Module paths may be quoted but are not required to be.
+All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/thing/foo` and `example.com/my/thing/bar`, the first line in your `go.mod` file typically would be `module example.com/my/thing`. Module paths may be quoted but are not required to be.
 
 Module files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file:
 
@@ -79,7 +79,7 @@ require (
 )
 ```
 
-There are 4 directives: `module`, `require`, `exclude`, `replace`. 
+There are four directives: `module`, `require`, `exclude`, `replace`. 
 
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (TODO: show example exclude and replace directives and/or FAQ on when to use them).
 
