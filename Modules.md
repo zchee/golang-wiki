@@ -60,7 +60,7 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 A module is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
 
-Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works.)
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works).
 
 ### go.mod
 
@@ -101,14 +101,17 @@ See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/go
 
 ### Semantic Import Versioning
 
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2/pkg`. Module versions of v1 and v0 must not be included in the path. In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `me.io/my/mod/pkg` is a different package than `me.io/my/mod/v2/pkg`, and both may be imported in a single build, which among other benefits allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2/pkg`. Module versions of v1 and v0 must not be included in the path. In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `me.io/my/mod/pkg` is a different package than `me.io/my/mod/v2/pkg`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
-Including major versions in import paths will produce incompatibilities with old versions of Go. To work around this prior versions of the go tool have been updated and released to continue building as before when they encounter major versions in import paths. (See [issue 25069](https://github.com/golang/go/issues/25069).)
+See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details.
+
+Including major versions in import paths for v2+ modules in Go 1.11 could create incompatibilities with older versions of Go. To help with this, Go versions 1.9.7+ and 1.10.3+ have been [updated](https://go-review.googlesource.com/c/go/+/109340) to know how to properly interpret a `/v2` or higher that appears in an import path.
 
 There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
 1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
    * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
-2. Alternatively, create a `v2` directory and place a new `go.mod` file in that directory. The module path must end with `/v2`. Tag the release with `v2.0.0`.
+2. Alternatively, create a new `v2` subdirectory (e.g., `my/module/v2`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v2`. Copy or move the code into the `v2` subdirectory. Tag the release with `v2.0.0`.
+   * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
 
 The behavior of modules for existing packages with post-`v1` tags is still in flux; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
 
