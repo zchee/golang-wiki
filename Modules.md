@@ -58,7 +58,7 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 ### Modules
 
-A module is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
+A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
 
 Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works).
 
@@ -66,9 +66,9 @@ Modules must be [semantically versioned](https://semver.org/) in the form `v(maj
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
 
-All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`, the first line in your `go.mod` file would typically be `module example.com/my/module`. Module paths may be quoted but are not required to be.
+All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`, the first line in your `go.mod` file would typically be `module example.com/my/module`. Module paths may be quoted but are not required to be.
 
-Module files may include comments and will look familiar to a go programmer. Here is an example go.mod file:
+Module files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file:
 
 ```
 module github.com/my/module/v3
@@ -84,7 +84,7 @@ There are 4 directives: `module`, `require`, `exclude`, `replace`.
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (TODO: show example exclude and replace directives and/or FAQ on when to use them).
 
 In Go source code, packages are imported using the full path including the module, for example:
- * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from module `example.com/my/module/v2`.
+ * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from the v2 version of module `example.com/my/module`.
 
 ### Version Selection
 
