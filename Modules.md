@@ -114,7 +114,7 @@ There are two ways to release a v2 or higher module version. Using the example o
 2. Alternatively, create a new `v2` subdirectory (e.g., `my/module/v2`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v2`. Copy or move the code into the `v2` subdirectory. Tag the release with `v2.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
 
-The behavior of modules for existing packages with post-`v1` tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the 'go get' behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with post-`v1` tags.
+The behavior of how modules interact with existing packages with v2+ tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the 'go get' behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with v2+ tags.
 
 ## How to Define a Module
 
