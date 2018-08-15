@@ -50,7 +50,7 @@ Once installed, you can then activate module support in one of three ways:
 
 In addition to trying modules-specific workflows:
 * Exercise RC1 even without using modules to catch any general 1.11 regressions early. 
-* Please consider adding RC1 to your CI (for example, by using `1.11rc1` as in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or by using `circleci/golang:1.11-rc` as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through configuring  CircleCI 2.0 to test a project in parallel using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
+* Please consider adding RC1 to your CI (for example, by using `"1.11rc1"` or similar as shown in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or by using `"circleci/golang:1.11-rc"` as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through configuring  CircleCI 2.0 to test a project in parallel using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
 
 ## New Concepts
 
