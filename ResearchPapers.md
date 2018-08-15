@@ -1,5 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
+
+- "Process-Local Static Analysis of Synchronous Processes" (Jan Midtgaard, Flemming Nielson, Hanne Riis Nielson) SAS 2018
+  - [full version PDF](http://janmidtgaard.dk/papers/Midtgaard-Nielson-Nielson%3aSAS18-full.pdf)
+  - [prototype](https://github.com/jmid/nano-go)
+
 - "Inferring and Asserting Distributed System Invariants" (Stewart Grant, Hendrik Cech, Ivan Beschastnikh) ICSE 2018 Technical Papers
   - [pdf](https://www.cs.ubc.ca/~bestchai/papers/dinv-icse18.pdf)
   - [bitbucket.org/bestchai/dinv/](https://bitbucket.org/bestchai/dinv/) _"DInv is a distributed system data invariant detector"_  ; _"DInv is written in go lang"_ 
