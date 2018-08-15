@@ -53,7 +53,7 @@
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
-  * [Hotel Urbano](http://www.hotelurbano.com)
+  * [Hurb](http://www.hurb.com) - [github](https://github.com/HotelUrbano) 
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
   * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
