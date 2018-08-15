@@ -66,19 +66,20 @@ Modules must be [semantically versioned](https://semver.org/) in the form `v(maj
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
 
-All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive. For example, the first line in a `go.mod` file typically would be `module example.com/my/module` if it was defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`.
+All of the packages in a module share a common prefix -- the module path. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for packages `example.com/my/module/pkg/foo` and `example.com/my/module/pkg/bar`, the first line in your `go.mod` file would typically be `module example.com/my/module`. Module paths may be quoted but are not required to be.
 
 Module files may include comments and will look familiar to a go programmer. Here is an example go.mod file:
 
 ```
-module github.com/kardianos/vmain/v3
+module github.com/my/module/v3
 
 require (
-    github.com/kardianos/vtest v1.0.2
+    github.com/some/dependency v1.2.3
+    github.com/another/dependency v0.1.0
 )
 ```
 
-There are 4 directives: `module`, `require`, `exclude`, `replace`. Module paths may be quoted but are not required to be.
+There are 4 directives: `module`, `require`, `exclude`, `replace`. 
 
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (TODO: show example exclude and replace directives and/or FAQ on when to use them).
 
@@ -187,6 +188,8 @@ To upgrade to the latest version for all transitive dependencies of the current 
  * run `go get -u=patch` to use the latest *patch* releases
 
 To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or "module query" to the package argument, such as `go get github.com/gorilla/mux@v1.6.2`, `go get github.com/gorilla/mux@e3702bed2`, or `go get github.com/gorilla/mux@'<v1.6.2'`. 
+
+Module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
 
 See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
 
