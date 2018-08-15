@@ -203,6 +203,13 @@ Some current suggested best practices to consider prior to tagging a release:
   * The number of possible version combinations in general is exponential in the number of modules, so you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
 
+* Typically the `go.sum` file should be checked in along with the `go.mod` file. 
+  * `go.sum` contains the expected cryptographic checksums of the content of specific module versions.
+  * If someone clones your repository and downloads your dependencies using the go command, their downloaded copies of your dependencies are required to match the corresponding entries in your `go.sum`.
+  * `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
+  * Note that `go.sum` is not a traditional lock file as used in some alternative dependency management systems.
+  * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
+
 ## Additional Resources
 
 ### Documentation and Proposal
