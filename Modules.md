@@ -96,7 +96,7 @@ For example, if your module A depends on B which has a `require D v1.0.0`, and y
 
 For a brief rationale and overview of the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or see the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
-To see a list of the selected module versions, use `go list -m`.
+To see a list of the selected module versions (including indirect dependencies), use `go list -m all`.
 
 See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) section below and the ["How are versions marked as incompatible?"](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible) FAQ below.
 
