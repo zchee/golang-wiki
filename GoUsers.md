@@ -397,6 +397,7 @@
   * [GMO Pepabo, Inc.](https://pepabo.com/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
+  * [Gurunavi, Inc.](https://gurunavi.com/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
   * [HDE Inc](https://www.hde.co.jp/en/)
