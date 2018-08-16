@@ -55,6 +55,7 @@ Singapore.
   * [ManGo The Manchester Go User Group](http://mango.computer/) - Manchester, UK.
   * [Golang Dorset](https://www.meetup.com/Golang-Dorset/) - Bournemouth, UK.
   * [Golang Bristol++](https://www.meetup.com/golang-bristol/) - Bristol, UK.
+  * [GoSheffield](https://www.meetup.com/GoSheffield/) - Sheffield, UK.
   * [GoMAD](https://www.meetup.com/go-mad/) - Madrid, Spain 
   * [Go Valhalla](https://t.me/joinchat/AAAAAEJGQn7K_oRUBWaNng) - Valencia, Spain. 🇻🇳
   * [Go Wales User Group](http://golang.cymru/) - Wales, UK.
