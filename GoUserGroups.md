@@ -5,6 +5,7 @@
   * [golang-dakar](https://plus.google.com/u/0/communities/116552609416802012105) Dakar (Sénégal)
   * [Joburg Golang Group](http://www.meetup.com/Joburg-Golang-Group/) - Johannesburg
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
+  * [Golang Nigeria](https://www.meetup.com/GolangNigeria/) - Lagos, Nigeria
 
 # Asia
 * [Golang Iraq](https://www.facebook.com/groups/go.iraq/) - Iraq
