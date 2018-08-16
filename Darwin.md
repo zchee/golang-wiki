@@ -2,7 +2,7 @@
 
 | **Kernel version** | **Distributions**               | **Architectures**      | **Initial support version** | **Final support version** |
 |:-------------------|:--------------------------------|:-----------------------|:---------------|:----------|
-| 18                 | macOS Mojave 10.14, iOS 12      | amd64, arm, arm64, 386 |                |           |
+| 18                 | macOS Mojave 10.14, iOS 12      | amd64, arm64           |                |           |
 | 17                 | macOS High Sierra 10.13, iOS 11 | amd64, arm, arm64, 386 | Go 1.7.1 _***_ |           |
 | 16                 | macOS Sierra 10.12, iOS 10      | amd64, arm, arm64, 386 | Go 1.7.1 _**_  |           |
 | 15                 | OS X El Capitan 10.11           | amd64, 386             | Go 1 _*_       |           |
