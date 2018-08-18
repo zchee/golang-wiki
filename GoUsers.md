@@ -332,6 +332,7 @@
   * [Bahamta](https://bahamta.com/) - Fintech company.
   * [5th dimension](https://5thd-co.com/) - Advertising Agency.
   * [Telmaperfume](https://telmaperfume.com/) - Promotional Gifts.
+  * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
 
 ## Ireland
   * [Intercom](http://intercom.io/)
