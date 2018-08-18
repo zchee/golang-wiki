@@ -1556,6 +1556,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in golang
   * [forego](https://github.com/unixdj/forego) - Forth virtual machine  
   * [Gelo](http://code.google.com/p/gelo/) - Extensible, embeddable interpreter
+  * [GoAwk](https://github.com/benhoyt/goawk) - An implementation of awk in golang.
   * [GoEmPHP](https://github.com/mikespook/goemphp) - This package is built for Embedding PHP into Go
   * [Goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation written in Go (otto fork with byte code compiler)
   * [goenv](https://github.com/smyrman/goenv) - Create an isolated environment where you install Go packages, binaries, or even C libraries. Very similar to virtualenv for Python.
