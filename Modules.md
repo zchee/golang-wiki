@@ -16,7 +16,7 @@ Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) op
 * ~~There are some regressions in beta 3 compared to beta 2 (e.g., [#26722](https://github.com/golang/go/issues/26722) and  [#26602](https://github.com/golang/go/issues/26602), both fixed in RC1).~~
 * Some older versions of git might not work: 
   * ~~[#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working. (Fixed in beta 3).~~ 
-  * [#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Still open as of RC1 -- help triaging this particular issue is welcomed).
+  * ~~[#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Open as of RC1)~~.
   * [#26754](https://github.com/golang/go/issues/26754) is example where git 2.18.0 succeeds, but git 2.7.4 can't resolve a commit unreachable from any branch.
 
 ## Table of Contents
