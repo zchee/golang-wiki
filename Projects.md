@@ -1297,6 +1297,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pusher-http-go](https://github.com/pusher/pusher-http-go) - Go library for interacting with the Pusher Realtime API
   * [QRP](https://github.com/liamzebedee/go-qrp) - QRP is a simple packet-based RPC protocol designed as a simple alternative to Go's rpc, that can run over UDP
   * [remotize](https://github.com/josvazg/remotize) - A remotize package and command that helps remotizing methods without having to chaneg their signatures for rpc
+  * [Resgate](https://github.com/jirenius/resgate) - A Realtime + REST API Gateway for NATS to create web APIs with live data
   * [rs232](https://github.com/dustin/rs232.go) - Serial interface for those of us who still have modems (or arduinos)
   * [rss](https://github.com/SlyMarbo/rss) - RSS parsing library.
   * [seamless](https://bitbucket.org/tebeka/seamless) - Reverse TCP Proxy with HTTP management API
