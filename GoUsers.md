@@ -414,6 +414,7 @@
   * [Kyash Inc](https://kyash.co/en/)
   * [LINE](https://linecorp.com/)
   * [Livesense Inc.](https://livesense.co.jp/) - [github](https://github.com/livesense-inc)
+  * [LOB, Inc.](https://www.lob-inc.com/) - [github](https://github.com/lob-inc)
   * [M3](https://corporate.m3.com/)
   * [mediba](http://www.mediba.jp/)
   * [Mercari](https://www.mercari.com/jp/about/)
