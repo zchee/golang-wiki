@@ -30,6 +30,9 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 
 ## 2017
 
+- Go-HEP: writing concurrent software with ease and Go (S. Binet)
+  - [arXiV:1808.06529](https://arxiv.org/abs/1808.06529)
+  - https://go-hep.org
 - RDFIO: extending Semantic MediaWiki for interoperable biomedical data management (Samuel Lampa, Egon Willighagen, Pekka Kohonen, Ali King, Denny Vrandečić, Roland Grafström, Ola Spjuth) Journal of Biomedical Semantics ( Volume: 8, Issue: 35 )
   - [DOI: 10.1186/s13326-017-0136-y](https://doi.org/10.1186/s13326-017-0136-y)
   - The rdf2smw commandline tool, for batch conversion from RDF to Semantic MediaWiki facts in MediaWiki XML dump format, is written in Go
