@@ -102,7 +102,11 @@ See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/go
 
 ### Semantic Import Versioning
 
-The major version of a module must be included in both the module path and the package import path if the major version is v2 or higher, such as `me.io/my/mod/v2/pkg`. Module versions of v1 and v0 must not be included in the path. In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `me.io/my/mod/pkg` is a different package than `me.io/my/mod/v2/pkg`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+In short:
+* If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/foo"`).
+* If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
+
+In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details.
 
@@ -115,7 +119,7 @@ There are two ways to release a v2 or higher module version. Using the example o
 2. Alternatively, create a new `v2` subdirectory (e.g., `my/module/v2`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v2`. Copy or move the code into the `v2` subdirectory. Tag the release with `v2.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
 
-The behavior of how modules interact with existing packages with v2+ tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the 'go get' behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with v2+ tags.
+The behavior of how modules interact with existing pre-module packages with v2+ tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the go command behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with v2+ tags.
 
 ## How to Define a Module
 
