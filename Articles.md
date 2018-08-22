@@ -31,7 +31,7 @@ Table of Contents
   * [Go articles from Dr. Dobbs](http://www.drdobbs.com/sitesearch?sort=publishDate+desc&queryText=golang&type=site) _latest_
   * [Slideshare Collection of #golang presentations](http://www.slideshare.net/search/slideshow?searchfrom=header&q=golang&ud=any&ft=all&lang=**&sort=) _latest_
   * [Short Go tutorials on SocketLoop](https://www.socketloop.com/tagsearch/golang) _latest_
-
+  * [An Introduction to Go](https://tutorialedge.net/course/golang/) _latest_
 
 ## General
   * [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff) _2017-11-23_
