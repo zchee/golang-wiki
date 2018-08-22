@@ -26,7 +26,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Christoph Berger's Applied Go Blog](https://appliedgo.net)
 * [Jon Calhoun's Blog](https://www.calhoun.io/)
 * [Inanc Gumus's Learn Go Programming Blog](https://blog.learngoprogramming.com)
-* [Elliot Forbes' TutorialEdge.net Golang Tutorials](https://tutorialedge.net/course/golang/)
+* [Elliot Forbes - TutorialEdge.net Golang Tutorials](https://tutorialedge.net/course/golang/)
 
 ## Portuguese
 
