@@ -88,6 +88,8 @@ Add new sections as appropriate.
 
 ## Error Handling
 
+(This section is about writing `if err != nil`.)
+
   - Andrew Gerrand, “[Error Handling and Go](https://blog.golang.org/error-handling-and-go),” July 2011,
     showing Go error handling patterns.
   - Martin Sústrik, “[Why should I have written ZeroMQ in C, not C++ (part I)](http://www.250bpm.com/blog:4),” May 2012,
@@ -101,6 +103,13 @@ Add new sections as appropriate.
     about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
   - André Hänsel, "[If Ⅰ were to make my own Go…](https://blog.creations.de/?p=223)", August 2017
   - Peter Goetz, "[Thinking About New Ways of Error Handling in Go 2](https://medium.com/@peter.gtz/thinking-about-new-ways-of-error-handling-in-go-2-e56d116952f1)," September 2017, shows how error-prone error handling in Go is and lays out requirements to improve the experience.
+
+## Error Values
+
+(This section is about additional error semantics beyond the `Error() string` method.)
+
+  - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
+    about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
 
 ## File System
 
