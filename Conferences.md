@@ -9,6 +9,7 @@ Please keep all items in chronological order.
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | http://gophercon.com<br>CFP https://www.papercall.io/gophercon2018 |
 | GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
 | GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io<br>CFP https://www.papercall.io/gowayfest |
+| Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
 | GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
