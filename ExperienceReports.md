@@ -110,6 +110,7 @@ Add new sections as appropriate.
 
   - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
     about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
+  - Chris Siebenmann, “Go's net package doesn't have opaque errors, just undocumented ones](https://utcc.utoronto.ca/~cks/space/blog/programming/GoNetErrorsUndocumented),” August 2018
 
 ## File System
 
