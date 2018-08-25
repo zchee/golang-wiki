@@ -311,9 +311,9 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
 * Inside GOPATH — defaults to old 1.10 behavior (ignoring modules)
 * Outside GOPATH — defaults to modules behavior
 * GO111MODULE environment variable:
-         * unset or `auto` —  default behavior above
-         * `on` —  force module support on regardless of directory location
-         * `off` — force module support off regardless of directory location
+  * unset or `auto` —  default behavior above
+  * `on` —  force module support on regardless of directory location
+  * `off` — force module support off regardless of directory location
  
 Modules enable working outside of GOPATH but Go 1.10 and earlier did not support working outside of GOPATH; hence by default Go 1.11 interprets operating outside of GOPATH as a desire to use modules.
 
@@ -321,17 +321,19 @@ Modules enable working outside of GOPATH but Go 1.10 and earlier did not support
 
 In general, when running a command like `go get` in module-aware mode, the resulting behavior depends on which module you are currently "in" as the current module, which means it depends on where you are in your filesystem hierarchy when you execute the `go get` command.
  
-One related behavior that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is: 
+One related behavior that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is:
+ 
   `go: cannot find main module; see 'go help modules'`
 
 One solution is to disable modules temporarily and enable Go 1.10 behavior, such as:
+
   `$ GO111MODULE=off go get example.com/cmd`
  
 Setting GO111MODULE=auto (or leaving GO111MODULE unset) will also avoid this particular error:
+
   `$ GO111MODULE=auto go get example.com/cmd`
   
-However, note that using path@version syntax such as `go get example.com/cmd@v1.2.3` is not supported when running outside of a module, where the current error is:
-  `go: cannot use path@version syntax in GOPATH mode`
+However, note that using path@version syntax such as `go get example.com/cmd@v1.2.3` is not supported when running outside of a module, where the current error is: `go: cannot use path@version syntax in GOPATH mode`
  
 The primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion.
 
@@ -350,8 +352,11 @@ then one currently recommended approach is to add a `tools.go` file to your modu
 The brief rationale (also from #25922):
 
 > I think the tools.go file is in fact the best practice for tool dependencies, certainly for Go 1.11.
+> 
 > I like it because it does not introduce new mechanisms.
+> 
 > It simply reuses existing ones.
+
 
 ### How have the `go mod` commands changed recently in `go1.11beta3`?
 
