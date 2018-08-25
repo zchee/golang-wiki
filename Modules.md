@@ -102,15 +102,26 @@ See also the ["How to Upgrade and Downgrade Dependencies"](https://github.com/go
 
 ### Semantic Import Versioning
 
-In short:
+For many years, the official Go FAQ has included this advice on package versioning:
+
+> "Packages intended for public use should try to maintain backwards compatibility as they evolve. The Go 1 compatibility guidelines are a good reference here: don't remove exported names, encourage tagged composite literals, and so on. If different functionality is required, add a new name instead of changing an old one. If a complete break is required, create a new package with a new import path."
+
+The last sentence is especially important. With Go 1.11 modules, that advice is formalized into the _import compatibility rule_:
+
+> "If an old package and a new package have the same import path,
+> the new package must be backwards compatible with the old package."
+
+Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_.
+
+For code opting in to Go modules, the net result is the following rules:
 * If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/foo"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
-In Go, packages with different import paths (e.g., due to different major versions) are different packages. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+In general, packages with different import paths (e.g., due to different major versions) are different packages. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details.
 
-Including major versions in import paths for v2+ modules in Go 1.11 could create incompatibilities with older versions of Go. To help with this, Go versions 1.9.7+ and 1.10.3+ have been [updated](https://go-review.googlesource.com/c/go/+/109340) to know how to properly interpret a `/v2` or higher that appears in an import path.
+This section so far has been focused on code that opts in to modules. However, putting major versions in import paths for v2+ modules could create incompatibilities with older versions of Go, or with code that has not yet opted in to modules. To help with this, Go versions 1.9.7+ and 1.10.3+ have been [updated](https://go-review.googlesource.com/c/go/+/109340)  so that code built with those releases can properly consume v2+ modules without requiring modification of pre-existing code.
 
 There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
 1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
