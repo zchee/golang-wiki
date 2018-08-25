@@ -114,6 +114,7 @@ The last sentence is especially important. With Go 1.11 modules, that advice is 
 Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_.
 
 For code opting in to Go modules, the net result is the following rules:
+* Follow [semantic versioning](https://semver.org/) (with tags such as `v1.2.3`).
 * If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/foo"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
