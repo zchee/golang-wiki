@@ -302,6 +302,57 @@ One of the key goals of the versioned modules proposal is to add a common vocabu
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
 * declaring incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
 
+### When do I get old behavior vs. new module-based behavior?
+
+In general, modules are opt-in for Go 1.11, so by design old behavior is preserved by default.
+
+Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in modules-based behavior:
+
+* Inside GOPATH — defaults to old 1.10 behavior (ignoring modules)
+* Outside GOPATH — defaults to modules behavior
+* GO111MODULE environment variable:
+         * unset or `auto` —  default behavior above
+         * `on` —  force module support on regardless of directory location
+         * `off` — force module support off regardless of directory location
+ 
+Modules enable working outside of GOPATH but Go 1.10 and earlier did not support working outside of GOPATH; hence by default Go 1.11 interprets operating outside of GOPATH as a desire to use modules.
+
+### Why does installing a tool via `go get example.com/cmd` fail with error `cannot find main module` when run with GO111MODULE=on?
+
+In general, when running a command like `go get` in module-aware mode, the resulting behavior depends on which module you are currently "in" as the current module, which means it depends on where you are in your filesystem hierarchy when you execute the `go get` command.
+ 
+One related behavior that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is: 
+  `go: cannot find main module; see 'go help modules'`
+
+One solution is to disable modules temporarily and enable Go 1.10 behavior, such as:
+  `$ GO111MODULE=off go get example.com/cmd`
+ 
+Setting GO111MODULE=auto (or leaving GO111MODULE unset) will also avoid this particular error:
+  `$ GO111MODULE=auto go get example.com/cmd`
+  
+However, note that using path@version syntax such as `go get example.com/cmd@v1.2.3` is not supported when running outside of a module, where the current error is:
+  `go: cannot use path@version syntax in GOPATH mode`
+ 
+The primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion.
+
+If you want to use a `go.mod` to track globally installed tools, one perhaps less common approach could be to create a module specifically for tracking installed tools as described [here](https://github.com/golang/go/issues/26591#issuecomment-410280544) and then run `go get example.com/cmd` from within that module.
+ 
+If instead you want to track the tools required by a specific module, see the next FAQ.
+
+### How can I track tool dependencies for a module?
+
+If you:
+ *  want to use a go-based tool (e.g. stringer) while working on a module, and
+ *  want to ensure that everyone is using the same version of that tool while tracking the tool's version in your module's `go.mod` file
+
+then one currently recommended approach is to add a `tools.go` file to your module with a `// +build tools` build constraint as shown in [this comment in #25922](https://github.com/golang/go/issues/25922#issuecomment-412992431).
+
+The brief rationale (also from #25922):
+
+> I think the tools.go file is in fact the best practice for tool dependencies, certainly for Go 1.11.
+> I like it because it does not introduce new mechanisms.
+> It simply reuses existing ones.
+
 ### How have the `go mod` commands changed recently in `go1.11beta3`?
 
 As of go1.11beta3, there has been a significant change for the `go mod` commands. See https://tip.golang.org/cmd/go/#hdr-Module_maintenance as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
