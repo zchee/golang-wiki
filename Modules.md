@@ -6,7 +6,7 @@ Go modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in
 
 ## Recent History
 
-* The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned Go modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
+* The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
    * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
 * Beta support started with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**) and then [Go 1.11 beta 3](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (released on **August 3, 2018**).
    * Beta 3 introduced some significant changes for the `go mod` commands. See FAQ [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-go111beta3) for an overview of these changes.
@@ -49,7 +49,7 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 In addition to trying modules-specific workflows:
-* Please consider adding 1.11 to your CI (for example, as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through configuring  CircleCI 2.0 to test a project in parallel using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
+* Please consider adding 1.11 to your CI (for example, as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through testing a project in CI using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
 
 ## New Concepts
 
