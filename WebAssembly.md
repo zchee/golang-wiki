@@ -61,4 +61,6 @@ Now navigate to http://localhost:8080/, click "Run", and you should see the outp
 
 See https://tip.golang.org/pkg/syscall/js/
 
-TODO: more references
+# Tutorials + Articles
+
+[Building a Calculator with Go and WebAssembly](https://youtu.be/4kBvvk2Bzis)
