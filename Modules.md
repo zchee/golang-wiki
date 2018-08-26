@@ -338,9 +338,9 @@ The primary issue is that modules are currently opt-in, and a full solution will
 
 > This isn't blocking Go 1.11. The main reason being that if GO111MODULE=auto (the default) then we can't reasonably do anything with modules when outside a go.mod tree. That's the opt-in. And inside a go.mod tree this already works.
 
-If you want to use a `go.mod` to track globally installed tools, one perhaps less common approach could be to create a module specifically for tracking installed tools as described [here](https://github.com/golang/go/issues/26591#issuecomment-410280544) and then run `go get example.com/cmd` from within that module.
+If you want to use a `go.mod` to track _globally_ installed tools, one perhaps less common approach could be to create a module whose entire purpose is just to track installed tools as described in more detail [here](https://github.com/golang/go/issues/26591#issuecomment-410280544).
  
-If instead you want to track the tools required by a specific module, see the next FAQ.
+If instead you want to track the tools required by a _specific_ module, see the next FAQ.
 
 ### How can I track tool dependencies for a module?
 
