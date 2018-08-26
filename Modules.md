@@ -321,7 +321,7 @@ Modules enable working outside of GOPATH but Go 1.10 and earlier did not support
 
 In general, when running a command like `go get` in module-aware mode, the resulting behavior depends on which module you are currently "in" as the current module, which means it depends on where you are in your filesystem hierarchy when you execute the `go get` command.
  
-One related behavior that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is:
+One aspect that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is:
  
   `go: cannot find main module; see 'go help modules'`
 
@@ -335,7 +335,9 @@ Setting GO111MODULE=auto (or leaving GO111MODULE unset) will also avoid this par
   
 However, note that using path@version syntax such as `go get example.com/cmd@v1.2.3` is not supported when running outside of a module, where the current error is: `go: cannot use path@version syntax in GOPATH mode`
  
-The primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion.
+The primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion, including this comment from there:
+
+> This isn't blocking Go 1.11. The main reason being that if GO111MODULE=auto (the default) then we can't reasonably do anything with modules when outside a go.mod tree. That's the opt-in. And inside a go.mod tree this already works.
 
 If you want to use a `go.mod` to track globally installed tools, one perhaps less common approach could be to create a module specifically for tracking installed tools as described [here](https://github.com/golang/go/issues/26591#issuecomment-410280544) and then run `go get example.com/cmd` from within that module.
  
