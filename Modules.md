@@ -1,23 +1,23 @@
 # Go 1.11 Modules
 
-Go 1.11 will add preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
+Go 1.11 added preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
 
-Go modules will be an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
+Go modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
 
-## Current Status
+## Recent History
 
 * The recent work by the Go team on versioned Go modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned Go modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
    * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
 * Beta support started with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**) and then [Go 1.11 beta 3](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (released on **August 3, 2018**).
    * Beta 3 introduced some significant changes for the `go mod` commands. See FAQ [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-go111beta3) for an overview of these changes.
-* The first release candidate is [Go 1.11 RC1](https://groups.google.com/d/msg/golang-nuts/UmbvkJmdEP0/xvwo9ukKDgAJ) (released on **August 13, 2018**).
+* [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) (**August 24, 2018**)
 
 **NOTE:** Some issues you might experience:
 * ~~There are some regressions in beta 3 compared to beta 2 (e.g., [#26722](https://github.com/golang/go/issues/26722) and  [#26602](https://github.com/golang/go/issues/26602), both fixed in RC1).~~
 * Some older versions of git might not work: 
   * ~~[#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working. (Fixed in beta 3).~~ 
   * ~~[#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Open as of RC1)~~.
-  * [#26754](https://github.com/golang/go/issues/26754) is example where git 2.18.0 succeeds, but git 2.7.4 can't resolve a commit unreachable from any branch.
+  * ~~[#26754](https://github.com/golang/go/issues/26754) is example where git 2.18.0 succeeds, but git 2.7.4 can't resolve a commit unreachable from any branch.~~
 
 ## Table of Contents
 
@@ -39,8 +39,8 @@ The remaining content on this page is organized as follows:
 ## Installing and Activating Module Support
 
 To use modules, you currently have three install options:
+* [Install the latest Go 1.11 release](https://golang.org/dl/).
 * [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
-* [Install Go 1.11 RC1](https://groups.google.com/forum/#!msg/golang-nuts/UmbvkJmdEP0/xvwo9ukKDgAJ) (and replace `go` with `go1.11rc1` in the commands below).
 * Install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
 Once installed, you can then activate module support in one of three ways:
@@ -49,8 +49,7 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 In addition to trying modules-specific workflows:
-* Exercise RC1 even without using modules to catch any general 1.11 regressions early. 
-* Please consider adding RC1 to your CI (for example, by using `"1.11rc1"` or similar as shown in this example [Travis yaml file](https://github.com/gomods/athens/blob/master/.travis.yml#L6), or by using `"circleci/golang:1.11-rc"` as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through configuring  CircleCI 2.0 to test a project in parallel using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
+* Please consider adding 1.11 to your CI (for example, as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through configuring  CircleCI 2.0 to test a project in parallel using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
 
 ## New Concepts
 
@@ -153,7 +152,7 @@ To create a `go.mod` for an existing project:
 2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
-   # if using 'master', go1.11rc1, or the latest `vgo`, use the newer form:  
+   # if using Go 1.11, 'master', or the latest 'vgo', use the newer form:  
    $ go mod init                  
 
    # in go1.11beta2 and earlier, the older form was:
@@ -165,7 +164,7 @@ To create a `go.mod` for an existing project:
    If `go mod` cannot automatically determine an appropriate module path (e.g., if running outside of VCS), or if you need to otherwise override that path, you can supply the module path as follows:
 
    ```
-   # if using 'master', go1.11rc1, or the latest `vgo`, use the newer form:  
+   # if using Go 1.11, 'master', or the latest 'vgo', use the newer form:  
    $ go mod init example.com/my/module/v2
 
    # in go1.11beta2 and earlier, the older form was:
