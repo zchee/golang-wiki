@@ -164,6 +164,9 @@
 ## Estonia
   * [Wallester](https://wallester.eu)
 
+## Finland
+  * [Almamedia](https://www.almamedia.fi/en/) - Media/Publishing company. [Twitter](https://twitter.com/almadevelopers) 
+
 ## France
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
