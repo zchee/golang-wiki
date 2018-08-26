@@ -59,7 +59,7 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
 
-Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works).
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Stand-alone distributed module repositories, such as [Project Athens](https://github.com/gomods/athens), are in the works).
 
 ### go.mod
 
@@ -207,6 +207,8 @@ To upgrade or downgrade to a more specific version, 'go get' allows version sele
 `go get github.com/gorilla/mux` obtains the latest version with a [semver](https://semver.org/) tag. Using a branch name such as `go get github.com/gorilla/mux@master` is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
 In general, module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
+
+Modules are capable of consuming packages that have not yet opted into modules. Modules can also consume packages that do not yet have any proper semver tags (in which case they will be recorded using pseudo-versions in `go.mod`).
 
 See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
 
