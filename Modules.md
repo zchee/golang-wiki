@@ -65,7 +65,7 @@ Modules must be [semantically versioned](https://semver.org/) in the form `v(maj
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of $GOPATH.
 
-All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/thing/foo` and `example.com/my/thing/bar`, the first line in your `go.mod` file typically would be `module example.com/my/thing`. Module paths may be quoted but are not required to be.
+All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/thing/foo` and `example.com/my/thing/bar`, the first line in your `go.mod` file typically would be `module example.com/my/thing`. 
 
 Module files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file:
 
@@ -75,6 +75,7 @@ module github.com/my/module/v3
 require (
     github.com/some/dependency v1.2.3
     github.com/another/dependency v0.1.0
+    github.com/additional/dependency/v4 v4.0.0
 )
 ```
 
