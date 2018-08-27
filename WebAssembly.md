@@ -8,7 +8,9 @@ This page will be updated over time with more information relevant to Go's suppo
 
 # Prerequisite 
 
-Note, if you ever set the `GOROOT` environment variable to an old Go SDK path, please remove this environment variable. This environment variable is not needed at more. Otherwise, the `go build` command below will report error: ```
+Note, if you ever set the `GOROOT` environment variable to an old Go SDK path, please remove this environment variable. This environment variable is not needed any more. Otherwise, the `go build` command below will report error: 
+
+```
 go tool compile: exit status 2
 compile: unknown architecture "wasm"
 ```
