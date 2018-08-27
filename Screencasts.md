@@ -224,3 +224,23 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/hands-serverless-computing-go-video)]
 
 ***
+
+  * **Hands-on Concurrency with Go [Video]**
+    * Author: Leo Tindall
+    * Publication Date: July 2018
+    * ISBN: 9781788993746
+    * Reference: https://www.packtpub.com/application-development/hands-concurrency-go-video
+    
+[[video](https://www.packtpub.com/application-development/hands-concurrency-go-video)]
+
+***
+
+  * **Troubleshooting Go Application Development [Video]**
+    * Author: Shawn Milochik
+    * Publication Date: July 2018
+    * ISBN: 9781788997072
+    * Reference: https://www.packtpub.com/application-development/troubleshooting-go-application-development-video
+    
+[[video](https://www.packtpub.com/application-development/troubleshooting-go-application-development-video)]
+
+***
