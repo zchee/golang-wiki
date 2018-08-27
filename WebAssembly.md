@@ -71,7 +71,7 @@ func main() {
 }
 ```
 
-Now navigate to http://localhost:8080/, click "Run", and you should see the output in the JavaScript debug console.
+Now navigate to http://localhost:8080/wasm_exec.html, click "Run", and you should see the output in the JavaScript debug console.
 
 # Interacting with the DOM
 
