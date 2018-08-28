@@ -59,7 +59,7 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively, a single version-control repository can hold multiple modules.
 
-Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Another source of modules are privately hosted and public globally hosted "always on" repositories such as [JFrog Artifactory](https://www.jfrog.com/confluence/display/RTF/Go+Registry) (since 5.11) and [Project Athens](https://github.com/gomods/athens) (in the works).
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Private and public module repositories and proxies are becoming available; see FAQ [below](https://github.com/golang/go/wiki/Modules/_edit#are-there-always-on-module-repositories-and-enterprise-proxies)).
 
 ### go.mod
 
@@ -90,9 +90,9 @@ In Go source code, packages are imported using the full path including the modul
 
 If you add a new import to your source code that is not yet covered by a `require` in `go.mod`, any go command run (e.g., 'go build') will automatically look up the proper module and add the *highest* version of that new direct dependency to your module's `go.mod` as a `require` directive. For example, if your new import corresponds to dependency M whose latest tagged release version is `v1.2.3`, your module's `go.mod` will end up with `require M v1.2.3`, which indicates module M is a dependency with allowed version >= v1.2.3 (and < v2, given v2 is considered incompatible with v1).
 
-The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly listed by a `require` directive in the main module or one of its dependencies. This effectively locks each version into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version.
+The *minimal version selection* algorithm is used to select the versions of all modules used in a build. For each module in a build, the version selected by minimal version selection is always the semantically *highest* of the versions explicitly listed by a `require` directive in the main module or one of its dependencies. This effectively locks each version into place until the module author or user chooses an explicit new version or chooses to upgrade to the latest available version. 
 
-For example, if your module A depends on B which has a `require D v1.0.0`, and your module also depends on module C which has a `require D v1.1.0`, then minimal version selection would choose `v1.1.0` of D to include in the build (even if a version v1.2.0 of D is available).
+As an example, if your module depends on module A which has a `require D v1.0.0`, and your module also depends on module B which has a `require D v1.1.1`, then minimal version selection would choose `v1.1.1` of D to include in the build. This is true if D `v1.1.1` is the latest available release, and also true even if a version `v1.2.0` of D later becomes available. This is an example of how `go.mod` provides 100% reproducible builds.
 
 For a brief rationale and overview of the minimal version selection algorithm, [see the "High Fidelity Builds" section](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) of the official proposal, or see the [more detailed `vgo` blog series](https://research.swtch.com/vgo).
 
@@ -224,7 +224,8 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider prior to tagging a release:
 
-* Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)).
+* Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
+  * In contrast, other commands like `go build` and `go test` will not remove dependencies from `go.mod` that are no longer required and only update `go.mod` based on the current build invocation's tags/OS/architecture.
 
 * Run `go test all` to test your module (including running the tests for your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
   * The number of possible version combinations is exponential in the number of modules, so in general you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
@@ -402,6 +403,16 @@ In response to a question *"k8s does minor releases but changes the Go API in ea
 > * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
 
 On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
+
+### Are there "always on" module repositories and enterprise proxies?
+
+Yes, public globally hosted "always on" immutable module repositories and optional privately hosted proxies and repositories are becoming available.
+
+For example:
+* [Project Athens](https://github.com/gomods/athens): Open source project in the works and looking for contributors.
+* [JFrog Artifactory](https://jfrog.com/artifactory/): Commercial offering. Support for Go 1.11 modules started with release 5.11 as described [here](https://jfrog.com/blog/goproxy-artifactory-go-registries/) and [here](https://www.jfrog.com/confluence/display/RTF/Go+Registry).
+
+Note that you are not required to run a proxy. Rather, the go tooling in 1.11 has added optional proxy support via [GOPROXY](https://tip.golang.org/cmd/go/#hdr-Module_proxy_protocol) to enable more enterprise use cases (such as greater control), and also to better handle situations such as "GitHub is down" or people deleting GitHub repositories.
 
 ### Additional frequently asked questions
 
