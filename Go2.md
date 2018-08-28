@@ -2,7 +2,10 @@
 
 This page tracks the status of "Go 2".
 
-Go 2 is in a very early, planning phase.
+We are currently exploring potential designs for improved error handling, error values, and generics:
+
+* Blog post: https://blog.golang.org/go2draft
+* Draft designs and problem overviews: https://go.googlesource.com/proposal/+/master/design/go2draft.md
 
 ## Bugs
 
