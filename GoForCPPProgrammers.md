@@ -645,7 +645,7 @@ func f3(x myInterface) {
 
 The conversion to ` myPrintInterface ` is entirely dynamic.
 It will
-work as long as the underlying type of x (the <em>dynamic type</em>) defines
+work as long as the dynamic type of x defines
 a ` print ` method.
 
 Because the conversion is dynamic, it may be used to implement generic
