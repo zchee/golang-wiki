@@ -57,9 +57,9 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 ### Modules
 
-A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively a single version-control repository can hold multiple modules.
+A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively, a single version-control repository can hold multiple modules.
 
-Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Optional privately hosted and public globally hosted "always on" immutable repositories such as [Project Athens](https://github.com/gomods/athens) are in the works).
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Another source of modules are privately hosted and public globally hosted "always on" repositories such as [JFrog Artifactory](https://www.jfrog.com/confluence/display/RTF/Go+Registry) and [Project Athens](https://github.com/gomods/athens), which is in the works.
 
 ### go.mod
 
