@@ -59,7 +59,7 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively, a single version-control repository can hold multiple modules.
 
-Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Private and public module repositories and proxies are becoming available; see FAQ [below](https://github.com/golang/go/wiki/Modules/_edit#are-there-always-on-module-repositories-and-enterprise-proxies)).
+Modules must be [semantically versioned](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v3.0.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. (Private and public module repositories and proxies are becoming available; see FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
 
 ### go.mod
 
