@@ -17,3 +17,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
  - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
  - etc.
+
+### Misc
+
+- Andrew Chambers, [My current error approach](https://gist.github.com/andrewchambers/5cadb2b8b45271440f1a051bb1ccc9c6), August, 2018
