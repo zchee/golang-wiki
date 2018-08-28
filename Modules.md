@@ -406,7 +406,7 @@ On a related note, Kubernetes has some atypical build approaches (currently incl
 
 ### Are there "always on" module repositories and enterprise proxies?
 
-Yes, public globally hosted "always on" immutable module repositories and optional privately hosted proxies and repositories are becoming available.
+Publicly hosted "always on" immutable module repositories and optional privately hosted proxies and repositories are becoming available.
 
 For example:
 * [Project Athens](https://github.com/gomods/athens): Open source project in the works and looking for contributors.
