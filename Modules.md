@@ -224,7 +224,7 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider prior to tagging a release:
 
-* Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)).
+* Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)).
 
 * Run `go test all` to test your module (including running the tests for your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
   * The number of possible version combinations is exponential in the number of modules, so in general you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
@@ -311,14 +311,12 @@ In general, modules are opt-in for Go 1.11, so by design old behavior is preserv
 Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in modules-based behavior:
 
 * Inside GOPATH — defaults to old 1.10 behavior (ignoring modules)
-* Outside GOPATH — defaults to modules behavior
+* Outside GOPATH while inside a file tree with a `go.mod` — defaults to modules behavior
 * GO111MODULE environment variable:
   * unset or `auto` —  default behavior above
   * `on` —  force module support on regardless of directory location
   * `off` — force module support off regardless of directory location
  
-Modules enable working outside of GOPATH but Go 1.10 and earlier did not support working outside of GOPATH; hence by default Go 1.11 interprets operating outside of GOPATH as a desire to use modules.
-
 ### Why does installing a tool via `go get example.com/cmd` fail with error `cannot find main module` when run with GO111MODULE=on?
 
 In general, when running a command like `go get` in module-aware mode, the resulting behavior depends on which module you are currently "in" as the current module, which means it depends on where you are in your filesystem hierarchy when you execute the `go get` command.
