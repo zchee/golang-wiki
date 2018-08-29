@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+ - Liam Breck, “[Please Don't Mangle the Function Signature](https://gist.github.com/networkimprov/7c1f311f26852bc912765e4110af062b)”, August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
