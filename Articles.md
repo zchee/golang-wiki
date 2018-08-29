@@ -12,6 +12,7 @@ Table of Contents
 * [Error Handling](#error-handling)
 * [Interfaces / OOP](#interfaces--oop)
 * [Mobile Applications](#mobile-applications)
+* [Modules](#modules)
 * [Performance and Profiling](#performance-and-profiling)
 * [Pointers/References/Memory](#pointers-references-and-memory-management)
 * [Reflection](#reflection)
@@ -121,6 +122,10 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Go Mobile: Next generation of mobile apps](https://www.linkedin.com/pulse/go-mobile-next-generation-apps-daniele-baroncelli) _2015-09-18_
   * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo) _2015-09-17_
   * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+
+## Modules
+
+  * [Introduction to Go Modules](https://roberto.selbach.ca/intro-to-go-modules/) _2018-08-18_
 
 ## Performance and Profiling
   * [Mutex profile](https://rakyll.org/mutexprofile/) _2016-12-19_
