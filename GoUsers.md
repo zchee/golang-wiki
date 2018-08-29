@@ -102,6 +102,7 @@
   * [Hootsuite](https://hootsuite.com/)
   * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
   * [Koho](https://www.koho.ca/)
+  * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [Sendwithus](https://sendwithus.com)
