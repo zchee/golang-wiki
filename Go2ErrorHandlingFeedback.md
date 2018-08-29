@@ -12,5 +12,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://docs.google.com/document/d/1a_VoAMPgWFGWRn-_d4uQYRBrk_n5VdOO9W30gBOtHvk/edit?usp=sharing)”, August 2018
 
+ - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
