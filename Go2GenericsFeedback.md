@@ -55,3 +55,15 @@ As the amount of feedback grows, please feel free to organize this page by speci
     - Russell Johnston: Agreed that it would be great to merge contracts and interfaces. Another way around the operator-naming problem might be to provide some standard interfaces for the operators, with bodies inexpressible in normal Go code. For example, a standard `Multipliable` interface would allow the `*` and `*=` operators, while a standard `Comparable` interface would allow `==`, `!=`, `<`, `<=`, `>=`, and `>`. To express operators with multiple types, these interfaces would presumably need type parameters themselves, for example: `type Multipliable(s Self /* this exists implicitly on all interfaces */, t Other) interface { /* provided by the language */ }`. Then user-written interfaces/contracts could use these standard identifier-based names, neatly sidestepping the issues mentioned in the design document around syntax and types.
 
 - Hajime Hoshi: I feel like the supposed proposal is too huge to the problems we want to solve listed at https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md . I'm worried this feature would be abused and degrade readability of code. Sorry if I am missing, but the proposal doesn't say anything about `go generate`. Wouldn't `go generate` be enough to the problems?
+
+- Stephen Rowles: I find the method syntax hard to parse, as a human reading it, it might be clearer to use a different type of enclosing brackets for the type section, e.g.
+
+```
+func Sum<type T Addable>(x []T) T {
+    var total T
+    for _, v := range x {
+        total += v
+    }
+    return total
+}
+```
