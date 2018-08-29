@@ -36,6 +36,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Ruan Kunliang, “[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)”, August 2018
 
-- Your Name, “[Title](#URL)”, _month year_
+- _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
