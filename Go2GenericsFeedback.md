@@ -8,6 +8,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Liam Breck, “[Please Don't Mangle the Function Signature](https://gist.github.com/networkimprov/7c1f311f26852bc912765e4110af062b)”, August 2018
 
+- DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
