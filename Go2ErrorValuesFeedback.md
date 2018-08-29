@@ -9,6 +9,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 ### Error Inspection
 
  - jimmy frasche, "[Why limit this to errors?](https://gist.github.com/jimmyfrasche/04ca2146c9130dab4d993365313722fb)", August 2018
+ - Dan Kortschak, [Carrying contract expectations and values causing errors in ev3go](https://github.com/ev3go/ev3dev/blob/master/errors.go), August 2018
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
