@@ -58,12 +58,12 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Stephen Rowles: I find the method syntax hard to parse, as a human reading it, it might be clearer to use a different type of enclosing brackets for the type section, e.g.
 
-```
-func Sum<type T Addable>(x []T) T {
-    var total T
-    for _, v := range x {
-        total += v
-    }
-    return total
-}
-```
+   ```
+   func Sum<type T Addable>(x []T) T {
+       var total T
+       for _, v := range x {
+           total += v
+       }
+       return total
+   }
+   ```
