@@ -32,6 +32,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
 
- - _Your Name_, “[_Title_](#URL)”, _month year_
+ - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
 
  - etc.
