@@ -67,3 +67,4 @@ As the amount of feedback grows, please feel free to organize this page by speci
        return total
    }
    ```
+   - Please read [this section](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md#why-not-use-like-c_and-java)
