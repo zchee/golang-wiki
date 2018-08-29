@@ -24,5 +24,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
 
+ - Paul Borman, “[Arguments against the Go 2 error handling proposal]
+(https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
