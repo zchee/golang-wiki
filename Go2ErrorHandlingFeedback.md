@@ -34,4 +34,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
 
+- Your Name, “[Title](#URL)”, _month year_
+
  - etc.
