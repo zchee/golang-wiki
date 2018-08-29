@@ -6,8 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
+ - _Your Name_, “[_Title_](#URL)”, _month year_
+
  - etc.
 
 
