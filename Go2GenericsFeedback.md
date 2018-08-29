@@ -12,6 +12,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Roberto (empijei) Clapis, "[Hard to read syntax](https://gist.github.com/empijei/a9665ac5e3059671be229acee8826798)", August 2018
 
+- Richard Fliam, "[Go2 Generics Let You Construct the Natural Numbers](https://gist.github.com/rfliam/c806a4300aa97f2762295ef97d3e924f)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
