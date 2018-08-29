@@ -26,5 +26,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Paul Borman, “[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
+- Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
