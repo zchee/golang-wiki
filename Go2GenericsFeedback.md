@@ -10,6 +10,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 
+- Roberto (empijei) Clapis, "[A comment on syntax](https://gist.github.com/empijei/a9665ac5e3059671be229acee8826798)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
