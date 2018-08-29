@@ -8,14 +8,14 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Error Inspection
 
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
+ - _Your Name_, “[_Title_](#URL)”, _month year_
+ - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
 ### Error Printing
 
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
- - \<name\>, “[\<title\>](<link>)”, \<month\> \<year\>
+ - _Your Name_, “[_Title_](#URL)”, _month year_
+ - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
 ### Misc
