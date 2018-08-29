@@ -96,4 +96,4 @@ z196+
 
 ### mips (big endian) and mipsle (little endian)
 
-MIPS32r1, with FPU or kernel FPU emulation
+MIPS32r1
