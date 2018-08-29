@@ -237,7 +237,7 @@ Some current suggested best practices to consider prior to tagging a release:
   * `go.sum` contains the expected cryptographic checksums of the content of specific module versions.
   * If someone clones your repository and downloads your dependencies using the go command, they will receive an error if there is any mismatch between their downloaded copies of your dependencies and the corresponding entries in your `go.sum`.
   * In addition, `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
-  * Note that `go.sum` is not a traditional lock file as used in some alternative dependency management systems.
+  * Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
   * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173). See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
 
 If you are releasing a v2 or higher module, please also see the related considerations in the ["Semantic Import Versioning" section](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) above.
