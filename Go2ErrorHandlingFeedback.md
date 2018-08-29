@@ -21,5 +21,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
 - Simon Howard, “[Go 2 errors response: One Handler Per Function](https://gist.github.com/fragglet/df6c5471771d87b2ad597d2efc57cb3e)”, August 2018
+
+- Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 "design draft"](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
