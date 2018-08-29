@@ -14,7 +14,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
 
-- Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c), August 2018
+- Matt Dee "[Error Handling Should Support Custom Error Types]"(https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c), August 2018
 
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
