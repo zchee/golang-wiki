@@ -14,7 +14,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Error Printing
 
- - _Your Name_, “[_Title_](#URL)”, _month year_
+ - Calle Pettersson, [Multi-line errors and log collection tools](https://gist.github.com/carlpett/bc1714060235edc0ad3fd9ead82f4ce6)”, August 2018
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
