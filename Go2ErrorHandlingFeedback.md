@@ -34,6 +34,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Ruan Kunliang, “[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)”, August 2018
 
+ - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
