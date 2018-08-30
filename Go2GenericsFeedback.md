@@ -16,6 +16,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
 
+ - Roger Peppe, "[Go generics feedback](https://gist.github.com/rogpeppe/2be10112c9d875afc0c85effc5595a09), August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
