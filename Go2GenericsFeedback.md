@@ -18,6 +18,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Roger Peppe, "[Go generics feedback](https://gist.github.com/rogpeppe/2be10112c9d875afc0c85effc5595a09), August 2018
 
+ - Ruan Kunliang, "[Package level generics](https://gist.github.com/PeterRK/41d4d3f54b8db55cd616403fd5a389f3)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
