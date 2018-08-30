@@ -10,7 +10,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
 
- - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://docs.google.com/document/d/1a_VoAMPgWFGWRn-_d4uQYRBrk_n5VdOO9W30gBOtHvk/edit?usp=sharing)”, August 2018
+ - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
 
  - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
 
