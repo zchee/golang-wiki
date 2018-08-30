@@ -38,6 +38,10 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
 
+ - alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
+
+
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
