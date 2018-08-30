@@ -249,7 +249,7 @@ Parse(Lookup(key))  // returns "parse failure for value" instead of "no value fo
 ```
 
 Go's support for multiple return values provides a better solution.
-Instead requiring clients to check for an in-band error value, a function should return
+Instead of requiring clients to check for an in-band error value, a function should return
 an additional value to indicate whether its other return values are valid. This return
 value may be an error, or a boolean when no explanation is needed.
 It should be the final return value.
