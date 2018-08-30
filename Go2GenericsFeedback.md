@@ -90,8 +90,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
   > The math package will be extended to provide a set of simple standard algorithms for all numeric types, such as the ever popular Min and Max functions.
 
-  FWIU adding type parameter(s) to an existing type/func most likely breaks existing programs that use the type/func.
-  How `math.Max` will be changed?
+  FWIU adding type parameter(s) to an existing type/func most likely breaks an existing program that uses the type/func.
+  How exactly will `math.Max` be changed?
   Is the intention to make backward-incompatible changes and write tools to automatically convert code to Go2?
   What is the general recommendation for authors of other libraries that provide funcs and types that currently operate with `interface{}`?
-  Were default values for type parameters considered? e.g. type parameter for Max would default to `float64` and type parameter for `"container/list".List` would default to `interface{}`
+  Were default values for type parameters considered? e.g. type parameter for `math.Max` would default to `float64` and type parameter for `"container/list".List` would default to `interface{}`
