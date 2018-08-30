@@ -36,6 +36,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
+ - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
