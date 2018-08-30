@@ -22,6 +22,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Javier Zunzunegui, "[Compiling Generics](https://gist.github.com/JavierZunzunegui/7032f5846fd255811e7af39bd2c74f38)", August 2018
 
+ - jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
