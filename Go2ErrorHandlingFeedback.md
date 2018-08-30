@@ -28,8 +28,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
 
- - David Pennington, “[Feedback for Go2 error handling in light of language adoption](https://gist.github.com/Xeoncross/73e3767214c8ea6a35ad3c914b88c4f1)”, August 2018
-
  - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
