@@ -42,6 +42,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
+- Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
+
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
