@@ -40,6 +40,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
 
+ - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
