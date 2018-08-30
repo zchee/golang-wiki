@@ -14,6 +14,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Richard Fliam, "[Go2 Generics Let You Construct the Natural Numbers](https://gist.github.com/rfliam/c806a4300aa97f2762295ef97d3e924f)", August 2018
 
+ - Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
+
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
