@@ -102,3 +102,5 @@ As the amount of feedback grows, please feel free to organize this page by speci
   Is the intention to make backward-incompatible changes and write tools to automatically convert code to Go2?
   What is the general recommendation for authors of other libraries that provide funcs and types that currently operate with `interface{}`?
   Were default values for type parameters considered? e.g. type parameter for `math.Max` would default to `float64` and type parameter for `"container/list".List` would default to `interface{}`
+
+- Ward Harold: If only for the sake of completeness the [Modula-3](https://www.cs.purdue.edu/homes/hosking/m3/reference/generics.html) generics design should be incorporated into the [Designs in Other Languages](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md#designs-in-other-languages) section. Modula-3 was a beautiful language that sadly got introduced at the wrong time.
