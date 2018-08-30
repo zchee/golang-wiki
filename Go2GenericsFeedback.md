@@ -85,13 +85,14 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Sean Quinlan: I find the contract syntax quite confusing. For something that is supposed to defined exactly what is needed and will be part of the documentation of an api, it can contain all sorts of cruft that does not impact the contract. Moreover, to quote from the design: "We don’t need to explain the meaning of every statement that can appear in a contract body". That seems like the opposite of what I would want from a contract. The fact one can copy the body of a function into a contract and have it work seems like a bug to me, not a feature. Personally, I would much prefer a model that unifies interfaces and contracts. Interfaces feel much closer to what I would like a contract to look like and there is a lot of overlap. It seems probable that many contracts will also be interfaces?
 
-- Nodir Turakulov: Please clarify 
+- Nodir Turakulov: Please elaborate 
   > Packages like container/list and container/ring, and types like sync.Map, will be updated to be compile-time type-safe.
 
   and
 
   > The math package will be extended to provide a set of simple standard algorithms for all numeric types, such as the ever popular Min and Max functions.
 
+  or ideally add a section about transition/migration of existing types/funcs to use type polymorphism.
   FWIU adding type parameter(s) to an existing type/func most likely breaks an existing program that uses the type/func.
   How exactly will `math.Max` be changed?
   Is the intention to make backward-incompatible changes and write tools to automatically convert code to Go2?
