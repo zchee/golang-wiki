@@ -104,3 +104,5 @@ As the amount of feedback grows, please feel free to organize this page by speci
   Were default values for type parameters considered? e.g. type parameter for `math.Max` would default to `float64` and type parameter for `"container/list".List` would default to `interface{}`
 
 - Ward Harold: If only for the sake of completeness the [Modula-3](https://www.cs.purdue.edu/homes/hosking/m3/reference/generics.html) generics design should be incorporated into the [Designs in Other Languages](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md#designs-in-other-languages) section. Modula-3 was a beautiful language that sadly got introduced at the wrong time.
+
+- Ole Begemann: You write on the [Generics Overview page](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md): "Swift added generics in Swift 4, released in 2017." This is not true. Swift has had generics since its first public release in 2014. Evidence (just one example of many): [a transcript of an Apple developer talk on Swift from WWDC 2014](https://asciiwwdc.com/2014/sessions/404) that talks at length about Swift's generics features.
