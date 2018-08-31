@@ -110,3 +110,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - Ole Begemann: You write on the [Generics Overview page](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md): "Swift added generics in Swift 4, released in 2017." This is not true. Swift has had generics since its first public release in 2014. Evidence (just one example of many): [a transcript of an Apple developer talk on Swift from WWDC 2014](https://asciiwwdc.com/2014/sessions/404) that talks at length about Swift's generics features.
 
   This is also incorrect: "`Equatable` appears to be a built-in in Swift, not possible to define otherwise." The `Equatable` protocol is defined in the Swift standard library, but there's nothing special about it. It's totally possible to define the same thing in "normal" code.
+
+- Kevin Gillette: correction for "Contracts" Draft, as of 30 August 2018
+
+The one instance of `check.Convert(int, interface{})(0, 0)` should be `check.Convert(int, interface{})(0)` or provide an explanation as to why it the function should take two zeros instead of one.
