@@ -48,7 +48,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
 
-- Jan Semmelink, “[if-else-undo-done](https://github.com/jansemmelink/articles/blob/master/GoErrorHandlingProposal.md)”, August 2018
+- Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
