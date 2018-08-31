@@ -86,4 +86,5 @@ See https://tip.golang.org/pkg/syscall/js/
 # Further reference examples
 
 * [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
-* [Drawing simple 3D objects on 2D canvas](https://justinclift.github.io/wasmGraph1/) - Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
+* [Drawing simple 3D objects on 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
+  * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
