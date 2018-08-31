@@ -114,3 +114,5 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - Kevin Gillette: correction for "Contracts" Draft, as of 30 August 2018
 
   The one instance of `check.Convert(int, interface{})(0, 0)` should instead be `check.Convert(int, interface{})(0)` or provide an explanation as to why it the function should take two zeros instead of one.
+
+- [Adam Ierymenko](http://adamierymenko.com): I have an idea for doing limited operator overloading in Go that might make this proposal more useful for numeric code. It's big so [I stuck it in a Gist here](https://gist.github.com/adamierymenko/a03a62da1513a8cc2ac4dfac81b44a9f).
