@@ -20,3 +20,8 @@ Natalie Pistunovich, August 29
 
 * [Session details](https://www.gophercon.com/agenda/session/16875)
 * [Slides](https://github.com/Pisush/Public-Speaking/blob/master/Slides/gopherconUS.pdf)
+
+### Rethinking Classical Concurrency Patterns
+Bryan C. Mills, August 28
+
+* [Slides with speaker notes](https://drive.google.com/file/d/1nPdvhB0PutEJzdCq5ms6UI58dp50fcAN/view?usp=sharing)
