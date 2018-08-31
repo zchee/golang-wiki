@@ -44,7 +44,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
-- Greg Weber "[Alternative: functions and an early return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018
+- Greg Weber "[Alternative: functions as handlers and an early return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
