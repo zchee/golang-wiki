@@ -113,4 +113,4 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Kevin Gillette: correction for "Contracts" Draft, as of 30 August 2018
 
-The one instance of `check.Convert(int, interface{})(0, 0)` should be `check.Convert(int, interface{})(0)` or provide an explanation as to why it the function should take two zeros instead of one.
+  The one instance of `check.Convert(int, interface{})(0, 0)` should instead be `check.Convert(int, interface{})(0)` or provide an explanation as to why it the function should take two zeros instead of one.
