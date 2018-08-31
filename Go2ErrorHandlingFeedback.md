@@ -46,7 +46,9 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Greg Weber "[Alternative: functions as handlers and an error return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018
 
-- Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 018
+- Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
+
+- Jan Semmelink, “[if-else-undo-done](https://github.com/jansemmelink/articles/blob/master/GoErrorHandlingProposal.md)”, August 2018
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
