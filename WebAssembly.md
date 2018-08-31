@@ -79,11 +79,11 @@ See https://tip.golang.org/pkg/syscall/js/
 
 # Tutorials + Articles
 
-[Building a Calculator with Go and WebAssembly](https://youtu.be/4kBvvk2Bzis)
+* [Building a Calculator with Go and WebAssembly](https://youtu.be/4kBvvk2Bzis)
 ([Source code](https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html))
-
-[Get Going with WebAssembly](https://www.youtube.com/watch?v=iTrx0BbUXI4)
+* [Get Going with WebAssembly](https://www.youtube.com/watch?v=iTrx0BbUXI4)
 
 # Further reference examples
 
-[GoWASM Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types 
+* [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
+* [Drawing simple 3D objects on 2D canvas](https://justinclift.github.io/wasmGraph1/) - Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
