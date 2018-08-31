@@ -48,4 +48,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 018
 
- - etc.
+- _Your Name_, “[_Title_](#URL)”, _month year_
+
+- etc.
