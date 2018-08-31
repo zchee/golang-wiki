@@ -454,6 +454,7 @@
   * [Speee, Inc.](https://speee.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
+  * [VELTRA Corporation](https://www.veltra.com/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [VRize, Inc.](https://vrize.io/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
