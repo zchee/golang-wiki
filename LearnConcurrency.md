@@ -11,7 +11,6 @@ This page links to resources for learning about concurrency in Go.  The items ar
     - [Select statements](https://golang.org/ref/spec#Select_statements)
 - Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
 - Read [Fundamentals of Concurrency](https://www.nada.kth.se/~snilsson/concurrency/)
-- Read [Mutexes and Semaphores Demystified](http://www.barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore)
 - Read the [Frequently Asked Questions (FAQ)](http://golang.org/doc/faq), especially
     - [Why build concurrency on the ideas of CSP?](http://golang.org/doc/faq#csp)
     - [Why goroutines instead of threads?](http://golang.org/doc/faq#goroutines)
@@ -20,18 +19,20 @@ This page links to resources for learning about concurrency in Go.  The items ar
     - [Why doesn't my multi-goroutine program use multiple CPUs?](http://golang.org/doc/faq#Why_no_multi_CPU)
     - [Why does using GOMAXPROCS > 1 sometimes make my program slower?](http://golang.org/doc/faq#Why_GOMAXPROCS)
     - [What happens with closures running as goroutines?](http://golang.org/doc/faq#closures_and_goroutines)
-- Study [Go by Example](https://gobyexample.com) from [goroutines](https://gobyexample.com/goroutines) through [stateful goroutines](https://gobyexample.com/stateful-goroutines)
 
 ## Intermediate
+- Study [Go by Example](https://gobyexample.com) from [goroutines](https://gobyexample.com/goroutines) through [stateful goroutines](https://gobyexample.com/stateful-goroutines)
 - Watch [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide#1)
 - Watch [A Practical Guide to Preventing Deadlocks and Leaks in Go](https://www.youtube.com/watch?t=53&v=3EW1hZ8DVyw)
 - Read [Share Memory By Communicating](http://blog.golang.org/share-memory-by-communicating) and do the [codewalk](http://golang.org/doc/codewalk/sharemem/)
 - Read [Go Concurrency Patterns: Timing out, moving on](http://blog.golang.org/go-concurrency-patterns-timing-out-and)
 - Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
 - Read [Go Concurrency Patterns: Pipelines and Cancellation](http://blog.golang.org/pipelines)
+- Read [Rethinking Classical Concurrency Patterns](https://github.com/golang/go/wiki/Go-Community-Slides#rethinking-classical-concurrency-patterns)
 - Study [Package sync](https://golang.org/pkg/sync/)
 - Read [Introducing the Go Race Detector](http://blog.golang.org/race-detector)
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
+- Read [Mutexes and Semaphores Demystified](http://www.barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore)
 
 ## Advanced
 - Watch [Advanced Go Concurrency Patterns](http://blog.golang.org/advanced-go-concurrency-patterns)
