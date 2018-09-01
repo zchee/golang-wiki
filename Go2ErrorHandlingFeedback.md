@@ -52,6 +52,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
+- Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
