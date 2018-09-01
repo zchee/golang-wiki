@@ -56,6 +56,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, _Sep 2018_
 
+- John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", _September 2018_
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
