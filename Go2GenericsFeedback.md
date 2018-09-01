@@ -24,7 +24,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
 
- - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)"
+ - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
 
  - Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
 
