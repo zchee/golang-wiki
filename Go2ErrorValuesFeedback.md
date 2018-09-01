@@ -13,13 +13,14 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Daniel Theophanes, "[Go 2 Design: Error Inspection with Error Lists](https://docs.google.com/document/d/e/2PACX-1vT-CPcBV53awF7vq5bJEi1Y_DkuVmWW0RWl-gsujByB1mjX67rH58-mex1on1waR4Q_gyhPu5TdghMv/pub), August 2018
  - Paul Meyer, “[errors.New?]( - _Your Name_, “[_Title_](#URL)”, August 2018
  - _Your Name_, “[_Title_](#URL)”, _month year_
- - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
 ### Error Printing
 
  - Calle Pettersson, [Multi-line errors and log collection tools](https://gist.github.com/carlpett/bc1714060235edc0ad3fd9ead82f4ce6)”, August 2018
  - jimmy frasche, "[Why limit these interfaces to errors?](https://gist.github.com/jimmyfrasche/e02fcbefee5cb14228768afec17abbee)" , August 2018
+ - Chris Hines, “[Types cannot implement both the errors.Formatter and fmt.Formatter interfaces
+](https://gist.github.com/ChrisHines/a732a9b1ef3acb6acfee2ccc174e31ed)”, _August 2018_
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
