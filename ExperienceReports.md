@@ -31,6 +31,7 @@ Add new sections as appropriate.
   - [Large-Scale Software Development](#large-scale-software-development)
   - [Logging](#logging)
   - [Misc/Multiple](#misc--multiple)
+  - [Modules](#modules)
   - [Performance](#performance)
   - [Porting](#porting)
   - [Slices](#slices)
@@ -175,6 +176,9 @@ a complex solution for the problem.
   - Laurent Demailly, "[My Go lang experience, part 1](https://laurentsv.com/blog/2017/12/28/about-golang.html)" December 2017, a laundry list of pros and cons with current Go from an experienced C/C++/Java/Scripting languages developer perspective.
   - Gokcehan Kara, "[Installation with Go Language can be Simpler](https://gokcehan.github.io/posts/installation-with-go-language-can-be-simpler.html)" May 2018, some complications about the installation and distribution of static stripped binaries with version information.
   - Bob Nystrom, "[The Language I Wish Go Was](https://journal.stuffwithstuff.com/2010/10/21/the-language-i-wish-go-was/)" October 2010, I wish Go had tuples, unions, constructors, no Nil, exceptions, generics, some syntax sugar, and ponies that shoot Cheez Whiz out of their noses.
+
+## Modules
+  - Paul Jolly - "[Creating a submodule within an existing module](https://gist.github.com/myitcv/79c3f12372e13b0cbbdf0411c8c46fd5)" - covers multi-module repos, cyclic module dependencies and the steps required to move between various "states"
 
 ## Performance
 
