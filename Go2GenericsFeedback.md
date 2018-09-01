@@ -28,7 +28,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
 
- - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design — Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
+ - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
 
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
