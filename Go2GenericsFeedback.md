@@ -91,6 +91,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Seebs: [Feedback a bit long to inline](https://gist.github.com/seebs/8f943b8b15a8c63c28c7f6f4e5ca6c53), August 2018. Summary basically "I would like a way to specify one contract for each of two types rather than one contract for both types", and "I would prefer `map[T1]T2` to `t1var == t1var` as a canonical form of "T1 must be an allowable map key".
 
+- Seebs: [What if contracts *were* just the type-parametric functions?](https://github.com/seebs/notes/blob/master/generics_go2.md). (Sep 1, 2018)
+
 - Sean Quinlan: I find the contract syntax quite confusing. For something that is supposed to defined exactly what is needed and will be part of the documentation of an api, it can contain all sorts of cruft that does not impact the contract. Moreover, to quote from the design: "We don’t need to explain the meaning of every statement that can appear in a contract body". That seems like the opposite of what I would want from a contract. The fact one can copy the body of a function into a contract and have it work seems like a bug to me, not a feature. Personally, I would much prefer a model that unifies interfaces and contracts. Interfaces feel much closer to what I would like a contract to look like and there is a lot of overlap. It seems probable that many contracts will also be interfaces?
 
 - Nodir Turakulov: Please elaborate 
