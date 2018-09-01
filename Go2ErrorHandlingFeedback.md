@@ -58,6 +58,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
 
+- Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", Septempber 2018
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
