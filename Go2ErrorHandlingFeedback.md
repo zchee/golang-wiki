@@ -60,6 +60,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
 
+- Gigi Sayfan, “[Go 2 eeror handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
