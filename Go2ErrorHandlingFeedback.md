@@ -54,6 +54,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
 
+- Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, _Sep 2018_
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
