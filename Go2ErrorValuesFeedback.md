@@ -8,6 +8,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Error Inspection
 
+ - K. Alex mills, "[Rename Wrapper to Unwrapper](https://gist.github.com/kalexmills/46c2cb276c69b659005d8705180b268a)", September 2018
  - jimmy frasche, "[Why limit this inspection to errors?](https://gist.github.com/jimmyfrasche/04ca2146c9130dab4d993365313722fb)", August 2018
  - Dan Kortschak, [Carrying contract expectations and values causing errors in ev3go](https://github.com/ev3go/ev3dev/blob/master/errors.go), August 2018
  - Daniel Theophanes, "[Go 2 Design: Error Inspection with Error Lists](https://docs.google.com/document/d/e/2PACX-1vT-CPcBV53awF7vq5bJEi1Y_DkuVmWW0RWl-gsujByB1mjX67rH58-mex1on1waR4Q_gyhPu5TdghMv/pub), August 2018
