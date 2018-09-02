@@ -41,6 +41,13 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - etc.
 
+## Adding Your Feedback
+
+Please format all entries as below.
+
+- _Your Name_, “[_Title_](#URL)”, _month year_
+
+To make it easier to see new feedback. Please *make a Gist*. And also help to keep the list sorted in reverse-chronological order by including your new entry at the *top* of the list.
 
 ## Quick comments
 
