@@ -8,6 +8,16 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
+- Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
+
+- Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
+
+- John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
+
+- Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
+
+- Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
+
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
  - Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
@@ -51,16 +61,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
 
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
-
-- Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
-
-- Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
-
-- John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
-
-- Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
-
-- Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
