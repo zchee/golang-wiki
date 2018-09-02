@@ -1,3 +1,5 @@
+`setx scoopApps "C:\Users\%username%\scoop\apps" /M`
+`echo %scoopApps%`
 `scoop install go `
 `setx GOPATH "%scoopApps%/go"`
 `echo %GOPATH%`
