@@ -30,8 +30,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
 
- - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
-
  - _Your Name_, “[_Title_](#URL)”, _month year_
 
  - etc.
