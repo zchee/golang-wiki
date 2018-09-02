@@ -32,6 +32,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Some Gophers on go-nuts, “[Unifying Interfaces and Contracts](https://groups.google.com/forum/#!topic/golang-nuts/aw3XQV8k1Vw)”, August 2018
 
+ - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)"
+
  - etc.
 
 
