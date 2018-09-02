@@ -349,6 +349,29 @@ The brief rationale (also from #25922):
 > 
 > It simply reuses existing ones.
 
+### What is the status of module support in IDEs, editors and standard tools like goimports, gorename, etc?
+
+Support for modules is starting to land in editors and IDEs. 
+
+For example: 
+* **GoLand**: currently has full support for modules outside and inside GOPATH, including completion, syntax analysis, refactoring, navigation as described [here](https://blog.jetbrains.com/go/2018/08/24/goland-2018-2-2-is-here/).
+* **VS Code**: work is in progress and looking for contribtors to help. Tracking issue is [#1532](https://github.com/Microsoft/vscode-go/issues/1532).
+* **Atom with go-plus**: tracking issue is [#761](https://github.com/joefitzgerald/go-plus/issues/761).
+* **vim with vim-go**: initial support for syntax highlighting and formatting `go.mod` has [landed](https://github.com/fatih/vim-go/pull/1931). Broader support tracked in [#1906](https://github.com/fatih/vim-go/issues/1906).
+* **emacs with go-mode.el**: tracking issue in [#237](https://github.com/dominikh/go-mode.el/issues/237).
+
+The status of other tools such as goimports, guru, gorename and similar tools is being tracked in an umbrella issue [#24661]( https://github.com/golang/go/issues/24661). Please see that umbrella issue for latest status.
+
+Some tracking issues for particular tools includes:
+* **gocode**: tracking issue in [mdempsky/gocode/#46](https://github.com/mdempsky/gocode/issues/46). Note that `nsf/gocode` is recommending people migrate off of `nsf/gocode` to `mdempsky/gocode`.
+* **goimports**: possible work-in-progress approach in [CL 128362](https://go-review.googlesource.com/c/tools/+/128362).
+* **go-tools** (tools by dominikh such as staticcheck, megacheck, gosimple): sample tracking issue [dominikh/go-tools#328](https://github.com/dominikh/go-tools/issues/328).
+
+In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
+
+The long-term fix to make tools module-aware is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
+
+In the short term, however, [CL 125296](https://go-review.googlesource.com/c/go/+/125296) updated `go/build` to be able locate a package's source code in the presence of modules. This helps some tools without requiring the tool to change, but is insufficient for other tools.
 
 ### How have the `go mod` commands changed recently in `go1.11beta3`?
 
