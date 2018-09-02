@@ -62,6 +62,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
+ - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 - etc.
