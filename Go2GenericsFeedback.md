@@ -6,6 +6,17 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+
+ - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
+
+ - Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
+
+ - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
+
+ - alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/2298656cbe19dfa95472bfbbf421ff69)", September 2018
+
+- Arendtio "[Generics in Go inspired by Interfaces](https://gist.github.com/arendtio/77dd4df5f4b19dc69da350648434a88a)", September 2018
+
  - Liam Breck, “[Please Don't Mangle the Function Signature](https://gist.github.com/networkimprov/7c1f311f26852bc912765e4110af062b)”, August 2018
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
@@ -24,19 +35,9 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
 
- - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
-
- - Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
-
- - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
-
  - Some Gophers on go-nuts, “[Unifying Interfaces and Contracts](https://groups.google.com/forum/#!topic/golang-nuts/aw3XQV8k1Vw)”, August 2018
 
  - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)"
-
- - alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/2298656cbe19dfa95472bfbbf421ff69)", September 2018
-
-- Arendtio "[Generics in Go inspired by Interfaces](https://gist.github.com/arendtio/77dd4df5f4b19dc69da350648434a88a)", September 2018
 
  - etc.
 
