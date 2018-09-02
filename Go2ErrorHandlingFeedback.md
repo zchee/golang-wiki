@@ -64,6 +64,10 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
 
+## Adding Your Feedback
+
+Please format all entries as below.
+
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
-- etc.
+To make it easier to see new feedback. Please help to keep the list sorted in reverse-chronological order by including your new entry at the **top** of the list.
