@@ -4,20 +4,7 @@ Go 1.11 includes preliminary support for versioned modules as proposed [here](ht
 
 Go modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
 
-## Recent History
-
-* The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on **July 12, 2018** support for versioned modules **landed in the main Go repository** ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)).
-   * Development work on modules is now occurring exclusively in the main Go repository, with a periodic export to the vgo repository for people still using `vgo`.
-* Beta support started with [Go 1.11 beta 2](https://groups.google.com/d/msg/golang-dev/A6TCp2kCoss/XLQoI4MeBgAJ) (released on **July 20, 2018**) and then [Go 1.11 beta 3](https://groups.google.com/d/msg/golang-nuts/vOMqDrIwxBo/-wJvN12oCwAJ) (released on **August 3, 2018**).
-   * Beta 3 introduced some significant changes for the `go mod` commands. See FAQ [below](https://github.com/golang/go/wiki/Modules#how-have-the-go-mod-commands-changed-recently-in-go111beta3) for an overview of these changes.
-* [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) (**August 24, 2018**)
-
-**NOTE:** Some issues you might experience:
-* ~~There are some regressions in beta 3 compared to beta 2 (e.g., [#26722](https://github.com/golang/go/issues/26722) and  [#26602](https://github.com/golang/go/issues/26602), both fixed in RC1).~~
-* Some older versions of git might not work: 
-  * ~~[#26501](https://github.com/golang/go/issues/26501) covers git 2.10.0 and earlier not working. (Fixed in beta 3).~~ 
-  * ~~[#26594](https://github.com/golang/go/issues/26594) appears to be different problem than #26501 but might be related to older git as well. (Open as of RC1)~~.
-  * ~~[#26754](https://github.com/golang/go/issues/26754) is example where git 2.18.0 succeeds, but git 2.7.4 can't resolve a commit unreachable from any branch.~~
+The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on July 12, 2018 support for versioned modules landed in the main Go repository ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)), and [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) on August 24, 2018.
 
 ## Table of Contents
 
