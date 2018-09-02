@@ -34,6 +34,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)"
 
+ - alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/2298656cbe19dfa95472bfbbf421ff69)", September 2018
+
  - etc.
 
 
