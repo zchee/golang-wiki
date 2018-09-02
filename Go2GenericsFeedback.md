@@ -30,7 +30,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
 
- - _Your Name_, “[_Title_](#URL)”, _month year_
+ - Some Gophers on go-nuts, “[Unifying Interfaces and Contracts](https://groups.google.com/forum/#!topic/golang-nuts/aw3XQV8k1Vw)”, August 2018
 
  - etc.
 
