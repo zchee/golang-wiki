@@ -39,6 +39,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)"
 
+ - Dave Cheney, "[Maybe adding generics to Go IS about syntax after all](https://dave.cheney.net/2018/09/03/maybe-adding-generics-to-go-is-about-syntax-after-all)", August 2018
+
  - etc.
 
 ## Adding Your Feedback
