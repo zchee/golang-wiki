@@ -22,7 +22,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
 
-- Vlad Didenko, “[Error Handling with `name()/grab`](https://didenko.github.io/grab/grab_worth_it_0.1.1.html)”, December 2017
+- Vlad Didenko, “[Error Handling with `grab | name()`](https://didenko.github.io/grab/grab_worth_it_0.1.1.html)”, November 2017
 
  - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
 
