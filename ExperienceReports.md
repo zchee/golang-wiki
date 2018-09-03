@@ -74,6 +74,7 @@ Add new sections as appropriate.
   - John Doe, "[Forks, import paths, and `go get`](https://gist.github.com/johnAnonDoe/2071b8811300c6c08ac21cc8da9fa4d3)", July 2017.
   - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
   - Judson Lester, "[untitled gist] (https://gist.github.com/nyarly/edb6b7a5e3a762da6a5e2da8f59acf07)", August 2017.
+  - David Collier-Brown, "[Avoiding an NP-Complete Problem by Recycling Multics’ Answer](https://leaflessca.wordpress.com/2018/09/03/avoiding-an-np-complete-problem-by-recycling-multics-answer/)", September 2018.
 
 ## Diagnostics and Debugging
 
