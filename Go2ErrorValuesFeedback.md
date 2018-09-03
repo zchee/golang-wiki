@@ -22,6 +22,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - jimmy frasche, "[Why limit these interfaces to errors?](https://gist.github.com/jimmyfrasche/e02fcbefee5cb14228768afec17abbee)" , August 2018
  - Chris Hines, “[Types cannot implement both the errors.Formatter and fmt.Formatter interfaces
 ](https://gist.github.com/ChrisHines/a732a9b1ef3acb6acfee2ccc174e31ed)”, _August 2018_
+ - Dean Bassett, “[Make errors.Detailer, not errors.Formatter](https://gist.github.com/deanveloper/61544f16a7d4c3d517bda10c08080270)”, _September 2018_
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
