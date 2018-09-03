@@ -147,6 +147,7 @@ To make it easier to see new feedback. Please *make a Gist*. And also help to ke
         - Something that might work with this proposal is an `equal(a, b)` builtin that uses `a.Equals(b)` if it exists and `a == b` otherwise, failing to compile if the type is incomparable (and likewise for other operators). It's too weird to seriously consider but it would work with contracts and allow dodging the asymmetry between types that have operators and those that cannot without introducing operator overloading —jimmyfrasche
         - Another idea would be explicitly overloadable operators: `a + b` is not overloadable, but `a [+] b` can be overloaded. It will use normal + for primitive types, but will use `Operator+()` etc. for objects if those are present. I really do think that generics without some sane form of operator overloading or something like it are a lot less useful to the point that you might as well not even do it. -Adam Ierymenko (original poster)
 - Eltjon Metko: How about specifying the contract after the type identifier inside the function Parameters? This way it can be inferred what T is and we can eliminate the first group of parenthesis. 
+```
 func Sum(x []T:Addable) T {
     var total T
     for _, v := range x {
@@ -154,3 +155,4 @@ func Sum(x []T:Addable) T {
     }
     return total
 }
+```
