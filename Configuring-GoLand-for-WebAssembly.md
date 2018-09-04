@@ -21,8 +21,6 @@ With the initial project settings changed, you'll probably want to configure the
 
 That will let you recompile the .wasm file by just launching `Run` (<kbd>Shift</kbd>+<kbd>F10</kbd> on Linux).
 
-**NOTE - This section is still "Work In Progress" :wink:**
-
 ![GoLand Wasm Build pic2](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build2.png)
 
 ![GoLand Wasm Build pic3](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build3.png)
@@ -44,3 +42,5 @@ That will let you recompile the .wasm file by just launching `Run` (<kbd>Shift</
 ![GoLand Wasm Build pic11](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build11.png)
 
 ![GoLand Wasm Build pic12](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build12.png)
+
+Finished, your GoLand setup should now be complete.
