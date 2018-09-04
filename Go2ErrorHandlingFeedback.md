@@ -4,7 +4,42 @@ This page is meant to collect and organize feedback about the Go 2 [error handli
 
 Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google Docs, etc. And then please link it here.
 
-As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
+Please feel free to organize this page by specific kind of feedback.
+
+
+## Error handling with normal functions
+
+- Greg Weber "[Alternative: handlers as functions and an error return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018, Updated September 2018
+
+- Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
+
+
+## Labeled error handlers
+
+- John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
+
+- Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
+
+- Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
+
+
+## Inlining
+
+- Vlad Didenko, “[Error Handling with `grab | name()`](https://didenko.github.io/grab/grab_worth_it_0.1.1.html)”, November 2017
+
+
+## In support, including of chaining/stacking
+
+ - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
+
+ - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
+
+
+## Just remove chaining/stacking
+
+ - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
+
+## Other
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
@@ -12,21 +47,13 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
-- John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
+ 
 
-- Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
+## Uncategorized
 
-- Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
+Please help categorize the rest of the proposals here.
 
- - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
- - Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
-
-- Vlad Didenko, “[Error Handling with `grab | name()`](https://didenko.github.io/grab/grab_worth_it_0.1.1.html)”, November 2017
-
- - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
-
- - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
 
 - Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
 
@@ -57,8 +84,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
-
-- Greg Weber "[Alternative: handlers as functions and an error return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018
 
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
 
