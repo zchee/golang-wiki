@@ -6,6 +6,10 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
+
+- Roger Peppe, "[Operator overloading](https://gist.github.com/rogpeppe/0a87ef702189689201ef1d4a170939ac)", September 2018
+
 - Kevin Gillette, "[Regarding the Go 2 Generics Draft](https://medium.com/@xtg/regarding-the-go-2-generics-draft-39f7815be89)", September 2018
 
 - Peter McKenzie, "[Alternative generics syntax](https://gist.github.com/peter-mckenzie/5cc6530da1d966e743f4a39c150a6ac2)", September 2018
