@@ -88,3 +88,7 @@ See https://tip.golang.org/pkg/syscall/js/
 * [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
 * [Drawing simple 3D objects on the 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
   * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
+
+# Editor configuration
+
+* [Configuring GoLand for WebAssembly](https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly) - Shows the exact steps needed for getting Wasm working in GoLand
