@@ -4,8 +4,20 @@ This page is meant to collect and organize feedback about the Go 2 [error handli
 
 Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google Docs, etc. And then please link it here.
 
-Please feel free to organize this page by specific kind of feedback.
+Please help categorize the rest of the uncategorized proposals at the bottom.
 
+
+# In support, including of chaining/stacking
+
+ - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
+
+ - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
+
+ - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
+
+# Against
+
+# Counter-proposals
 
 ## Error handling with normal functions
 
@@ -30,13 +42,6 @@ Please feel free to organize this page by specific kind of feedback.
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
 
 
-## In support, including of chaining/stacking
-
- - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
-
- - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
-
-
 ## Just remove chaining/stacking
 
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
@@ -52,6 +57,9 @@ Please feel free to organize this page by specific kind of feedback.
 
  - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
 
+## try/catch/finally syntax
+
+- Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
 ## Other
 
@@ -90,11 +98,8 @@ Please help categorize the rest of the proposals here.
 
  - alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
 
- - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
-
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
-- Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
 
 
