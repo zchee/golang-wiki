@@ -101,7 +101,9 @@ Please get involved and help drive this if you're interested in the Debugger sid
   * [rainbow-mouse](https://stdiopt.github.io/gowasm-experiments/rainbow-mouse)
   * [repulsion](https://stdiopt.github.io/gowasm-experiments/repulsion)
   * [bumpy](https://stdiopt.github.io/gowasm-experiments/bumpy)
+    * Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
   * [splashy](https://stdiopt.github.io/gowasm-experiments/splashy)
+    * Used the webgl canvas.  Click around on the screen to generate paint...
   * [arty](https://stdiopt.github.io/gowasm-experiments/arty/client) (**NEW**)
 * [Drawing simple 3D objects on the 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
   * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
