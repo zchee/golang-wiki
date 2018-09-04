@@ -77,6 +77,17 @@ Now navigate to http://localhost:8080/wasm_exec.html, click "Run", and you shoul
 
 See https://tip.golang.org/pkg/syscall/js/
 
+# Debugging
+
+WebAssembly doesn't *yet* have any support for debuggers, so you'll need to use the good 'ol `println()` approach for now.
+
+An official [WebAssembly Debugging Subgroup](https://github.com/WebAssembly/debugging) has been created to address this, with some initial investigation and proposals under way:
+
+* [WebAssembly Debugging Capabilities Living Standard](https://fitzgen.github.io/wasm-debugging-capabilities/) ([source code for the doc](https://github.com/fitzgen/wasm-debugging-capabilities))
+* [DWARF for WebAssembly Target](https://yurydelendik.github.io/webassembly-dwarf/) ([source code for the doc](https://github.com/yurydelendik/webassembly-dwarf/))
+
+Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
+
 # Tutorials + Articles
 
 * [Building a Calculator with Go and WebAssembly](https://youtu.be/4kBvvk2Bzis)
