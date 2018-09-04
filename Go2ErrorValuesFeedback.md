@@ -12,6 +12,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - jimmy frasche, "[Why limit this inspection to errors?](https://gist.github.com/jimmyfrasche/04ca2146c9130dab4d993365313722fb)", August 2018
  - Dan Kortschak, [Carrying contract expectations and values causing errors in ev3go](https://github.com/ev3go/ev3dev/blob/master/errors.go), August 2018
  - Daniel Theophanes, "[Go 2 Design: Error Inspection with Error Lists](https://docs.google.com/document/d/e/2PACX-1vT-CPcBV53awF7vq5bJEi1Y_DkuVmWW0RWl-gsujByB1mjX67rH58-mex1on1waR4Q_gyhPu5TdghMv/pub), August 2018
+ - Cosmos Nicolaou "[Inspection of errors in a different address space](https://github.com/cosnicolaou/core/wiki/go-2.0-error-handling-feedback)", September 2018
  - Paul Meyer, “[errors.New?]( - _Your Name_, “[_Title_](#URL)”, August 2018
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
