@@ -27,6 +27,8 @@ Please feel free to organize this page by specific kind of feedback.
 
 - Vlad Didenko, “[Error Handling with `grab | name()`](https://didenko.github.io/grab/grab_worth_it_0.1.1.html)”, November 2017
 
+- Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
+
 
 ## In support, including of chaining/stacking
 
@@ -39,6 +41,18 @@ Please feel free to organize this page by specific kind of feedback.
 
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
+## Example code
+
+- Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
+
+
+## Use defer
+
+ - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
+
+ - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
+
+
 ## Other
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
@@ -47,7 +61,6 @@ Please feel free to organize this page by specific kind of feedback.
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
- 
 
 ## Uncategorized
 
@@ -63,13 +76,9 @@ Please help categorize the rest of the proposals here.
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
 - Simon Howard, “[Go 2 errors response: One Handler Per Function](https://gist.github.com/fragglet/df6c5471771d87b2ad597d2efc57cb3e)”, August 2018
 
-- Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
-
  - Paul Borman, “[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
 - Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
-
- - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
 
@@ -85,11 +94,9 @@ Please help categorize the rest of the proposals here.
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
-- Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
-
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
- - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
+
 
 ## Adding Your Feedback
 
@@ -97,4 +104,4 @@ Please format all entries as below.
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
-To make it easier to see new feedback. Please help to keep the list sorted in reverse-chronological order by including your new entry at the **top** of the list.
+To make it easier to see new feedback, please add your new proposal to the top of the section it is place in.
