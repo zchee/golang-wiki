@@ -17,6 +17,12 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
+# Example code
+
+Code changed to use the existing proposal.
+
+- Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
+
 
 # Against
 
@@ -51,10 +57,6 @@ Just statements against without counter-proposals
 ## Just remove chaining/stacking
 
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
-
-## Example code
-
-- Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
 
 
 ## Use defer
