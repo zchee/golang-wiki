@@ -7,7 +7,9 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 Please help categorize the rest of the uncategorized proposals at the bottom.
 
 
-# In support, including of chaining/stacking
+# In support
+
+This includes supporting the existing chaining/stacking of handlers without changes.
 
  - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
 
@@ -15,7 +17,11 @@ Please help categorize the rest of the uncategorized proposals at the bottom.
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
+
 # Against
+
+Just statements against without counter-proposals
+
 
 # Counter-proposals
 
