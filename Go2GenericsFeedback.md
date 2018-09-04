@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Kevin Gillette, "[Regarding the Go 2 Generics Draft](https://medium.com/@xtg/regarding-the-go-2-generics-draft-39f7815be89)", September 2018
+
 - Peter McKenzie, "[Alternative generics syntax](https://gist.github.com/peter-mckenzie/5cc6530da1d966e743f4a39c150a6ac2)", September 2018
 
 - Ted Singer, "[The design goal for syntax is to help humans read](https://gist.github.com/TedSinger/9ab1857bdd00d1f3523911362380f901)", September 2018
