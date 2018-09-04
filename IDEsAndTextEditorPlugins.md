@@ -55,7 +55,7 @@
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
   * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go (Windows or Linux with Wine).
   
-## Cloud Base IDEs
+## Cloud Based IDEs
 
 Currently Wide is the only "cloud IDE" that supports go version 1.8.  
 
