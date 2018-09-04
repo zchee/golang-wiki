@@ -15,13 +15,13 @@ That's easily fixable, by changing the **GOOS** and **GOARCH** values in the pro
 ![GoLand Wasm Setup pic4](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Setup4.png)
 
 
-## Configuring build settings
+## Configuring Run/Debug settings
 
-With the initial project setup done, you'll probably want to configure the Build/Run settings next:
+With the initial project settings changed, you'll probably want to configure the Run/Debug settings next.
+
+That will let you recompile the .wasm file by just launching `Run`Rundd (<kbd>Shift</kbd>+<kbd>F10</kbd> on Linux).
 
 **NOTE - This section is still "Work In Progress" :wink:**
-
-![GoLand Wasm Build pic1](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build1.png)
 
 ![GoLand Wasm Build pic2](https://github.com/justinclift/wasmWikiPics/raw/master/png/Golang-Wasm-Build2.png)
 
