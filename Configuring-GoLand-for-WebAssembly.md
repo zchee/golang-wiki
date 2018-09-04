@@ -19,7 +19,7 @@ That's easily fixable, by changing the **GOOS** and **GOARCH** values in the pro
 
 With the initial project settings changed, you'll probably want to configure the Run/Debug settings next.
 
-That will let you recompile the .wasm file by just launching `Run`Rundd (<kbd>Shift</kbd>+<kbd>F10</kbd> on Linux).
+That will let you recompile the .wasm file by just launching `Run` (<kbd>Shift</kbd>+<kbd>F10</kbd> on Linux).
 
 **NOTE - This section is still "Work In Progress" :wink:**
 
