@@ -97,6 +97,12 @@ Please get involved and help drive this if you're interested in the Debugger sid
 # Further reference examples
 
 * [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
+  * [bouncy](https://stdiopt.github.io/gowasm-experiments/bouncy)
+  * [rainbow-mouse](https://stdiopt.github.io/gowasm-experiments/rainbow-mouse)
+  * [repulsion](https://stdiopt.github.io/gowasm-experiments/repulsion)
+  * [bumpy](https://stdiopt.github.io/gowasm-experiments/bumpy)
+  * [splashy](https://stdiopt.github.io/gowasm-experiments/splashy)
+  * [arty](https://stdiopt.github.io/gowasm-experiments/arty/client) (**NEW**)
 * [Drawing simple 3D objects on the 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
   * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
 
