@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Roger Peppe, "[Go Contracts as type structs](https://gist.github.com/rogpeppe/7ea0cb6037aa520934257bf88a1012c5)", September 2018
+- Roger Peppe, "[Go contracts use case: generic mgo](https://gist.github.com/rogpeppe/cbbaf2521749717137625e33ba203eed)", Septembr 2018
 - Axel Wagner, "[Scrapping contracts](https://blog.merovius.de/2018/09/05/scrapping_contracts.html)", September 2018
 
 - Matt Sherman "[Generics as builtin typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
