@@ -77,6 +77,7 @@
   * [Planrockr](http://planrockr.com)
   * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
+  * [Sage Brasil](http://www.sage.com/pt-br)
   * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
   * [Stone Pagamentos](http://www.stone.com.br) - [github](https://github.com/stone-payments/)
