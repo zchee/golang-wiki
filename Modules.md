@@ -40,7 +40,7 @@ In addition to trying modules-specific workflows:
 
 ## New Concepts
 
-These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](), this 40 minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
+These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](https://golang.org/design/24301-versioned-go), this 40 minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
 
 ### Modules
 
