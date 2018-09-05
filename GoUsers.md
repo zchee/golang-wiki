@@ -30,7 +30,7 @@
   * [Pathao](https://pathao.com)(A ride sharing company) 
   * [GAAN](http://gaan.com.bd)
   * [Restra](https://github.com/restra-social)
-  * [Elo](https://elobyte.com)
+  * [Elo](https://elobyte.com) (Embedded Logic Operations)
 
 ## Brazil
   * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
