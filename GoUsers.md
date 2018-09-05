@@ -1038,6 +1038,7 @@
   * [Umbel](http://umbel.com) - [tweet](https://twitter.com/findmjob/status/624255179227967488)
   * [Upskill](https://upskill.io) - [github](https://github.com/APXLabs)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
+  * [Verifone](http://www.verifone.com/)
   * [Vertamedia](https://vertamedia.com/) - [github](https://github.com/Vertamedia)
   * [VerveMobile](http://www.vervemobile.com/)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
