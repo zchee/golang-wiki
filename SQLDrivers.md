@@ -32,6 +32,7 @@ Drivers for Go's sql package include:
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
   * **Postgres** (pure Go): https://github.com/jackc/pgx ` [**] `
+  * **Presto**: https://github.com/prestodb/presto-go-client
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
   * **Snowflake** (pure Go): https://github.com/snowflakedb/gosnowflake
   * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
