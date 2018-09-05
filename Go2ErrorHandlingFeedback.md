@@ -37,6 +37,7 @@ Just statements against without counter-proposals
 
 - Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
 
+- Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
 ## Labeled error handlers
 
@@ -97,8 +98,6 @@ Please help categorize the rest of the proposals here.
 - Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
-
- - Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
  - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
