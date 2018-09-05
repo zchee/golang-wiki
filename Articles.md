@@ -229,7 +229,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Google Go - 2nd birthday](http://www.abclinuxu.cz/clanky/google-go-2.-narozeniny)
 
 ## German
-  * [Go Cheat Sheet - Kurzreferenz für GoLang](http://www.weltchecker.de/go-cheat-sheet-kurzreferenz-fur-golang/) _2011-02-25_
+  * [Der GoLang-Spicker](https://archium.org/Golang#Ein_Go-Spickzettel_.28zu_deutsch_.22Cheat_Sheet.22.29) _2018-08-30_
   * [Programmiersprachen im Multicore Zeitalter - Google GO und Nebenläuﬁgkeit](http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf) ` [PDF] ` _2012-02-02_
   * [A list of German press articles about Go](http://www.hweidner.de/redmine/projects/pub/wiki/Golang_Presse)
 
