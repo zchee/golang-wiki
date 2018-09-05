@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Axel Wagner, "[Scrapping contracts](https://blog.merovius.de/2018/09/05/scrapping_contracts.html)", September 2018
+
 - Matt Sherman "[Generics as builtin typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
 
 - Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
