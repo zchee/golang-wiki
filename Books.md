@@ -251,6 +251,12 @@ Sorted by publication date.
     * ISBN: 9781789134612
     * Reference: https://www.packtpub.com/application-development/hands-serverless-applications-go
 
+* **Hands-On Go Programming**
+    * Author: Tarik Guney
+    * Publication Date: August 2018
+    * ISBN: 9781789531756
+    * Reference: https://www.packtpub.com/application-development/hands-go-programming
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
