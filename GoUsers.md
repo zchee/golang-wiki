@@ -51,7 +51,7 @@
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
   * [Emprego Ligado](https://empregoligado.com.br/#/)
-  * [Everymind](http://everymind.com.br)
+  * [Everymind](http://www.everymind.com.br/)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
