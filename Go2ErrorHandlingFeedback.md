@@ -41,6 +41,8 @@ Just statements against without counter-proposals
 
 - Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
+- alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
+
 ## Labeled error handlers
 
 - John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
@@ -105,7 +107,7 @@ Please help categorize the rest of the proposals here.
 
  - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
 
- - alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
+ 
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
