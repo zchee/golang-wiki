@@ -477,7 +477,7 @@
   * [KonaCard](http://www.konacard.co.kr/) - Payment Service
   * [NHN Entertainment](http://nhnent.com/)
     * [Toast Cloud](https://toast.com/) - Public Cloud Service
-  * [ComTrue Technologies](http://comtrue.com/)
+  * [ComTrue Technologies](http://comtrue.com/) - Network Packet Analyzer
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
