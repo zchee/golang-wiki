@@ -35,12 +35,9 @@ Once installed, you can then activate module support in one of three ways:
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
 * Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
-In addition to trying modules-specific workflows:
-* Please consider adding 1.11 to your CI (for example, as illustrated in [this blog post](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) that steps through testing a project in CI using both modules and the traditional GOPATH approach. See [this thread](https://groups.google.com/d/msg/golang-dev/ONpj39nviNg/Zn9rPADhCwAJ) for more related discussion).
-
 ## New Concepts
 
-These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](https://golang.org/design/24301-versioned-go), this 40 minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
+These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](https://golang.org/design/24301-versioned-go), this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
 
 ### Modules
 
@@ -246,17 +243,19 @@ If you are releasing a v2 or higher module, please also see the related consider
 
 ### Introductory Material
 
+* Example-focused 35-minute introductory talk ["What are Go modules and how do I use them?"](https://www.youtube.com/watch?v=6MbIzJmLz6Q&list=PL8QGElREVyDA2iDrPNeCe8B1u7li5S6ep&index=5&t=0s) ([slides](https://talks.godoc.org/github.com/myitcv/talks/2018-08-15-glug-modules/main.slide#1)) by Paul Jolly (August 15, 2018)
 * Introductory blog post ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (July 14, 2018)
-* Introductory blog post on [how to build go from tip and start using go modules](https://carolynvanslyck.com/blog/2018/07/building-go-from-source/) by Carolyn Van Slyck (July 16, 2018)
 * Introductory [Go Meetup slides on modules](https://docs.google.com/presentation/d/1ansfXN8a_aVL-QuvQNY7xywnS78HE8aG7fPiITNQWMM/edit#slide=id.g3d87f3177d_0_0) by Chris Hines (July 16, 2018)
-* Introductory video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
+* Introductory 40-minute video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
   * Succinctly covers the philosophy behind the design of versioned Go modules, including the three core principles of "Compatibility", "Repeatability", and "Cooperation"
 
 ### Additional Material
 
-* Blog post ["Using Go modules with Travis CI"](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci) by Dave Cheney (July 16, 2018)
+* Blog post ["Using Go modules with vendor support on Travis CI"](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/) by Fatih Arslan (August 26, 2018)
+* Blog post ["Go Modules and CircleCI"](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) by Todd Keech (July 30, 2018)
 * Blog post ["The vgo proposal is accepted. Now what?"](https://research.swtch.com/vgo-accepted) by Russ Cox (May 29, 2018)
   * Includes summary of what it means that versioned modules are currently an experimental opt-in feature
+* Blog post on [how to build go from tip and start using go modules](https://carolynvanslyck.com/blog/2018/07/building-go-from-source/) by Carolyn Van Slyck (July 16, 2018)
 
 ## Changes Since the Initial Vgo Proposal
 
