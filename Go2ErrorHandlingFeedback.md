@@ -41,8 +41,6 @@ Just statements against without counter-proposals
 
 - Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
-- alnkapa, “[It can be easier](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md)”, August 2018
-
 ## Labeled error handlers
 
 - John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
