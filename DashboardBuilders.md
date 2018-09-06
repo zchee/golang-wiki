@@ -2,13 +2,13 @@
 
 Build configs (at the top) and host configs (bottom) are listed here:
 
-http://farmer.golang.org/builders
+https://farmer.golang.org/builders
 
 A builder runs on a certain host type. (e.g. `linux-386-387` is a build type. It runs on `host-linux-kubestd`, a Kubernetes-based linux/amd64 host)
 
 They come from the file https://github.com/golang/build/blob/master/dashboard/builders.go
 
-For design details about the coordinator, see http://golang.org/s/builderplan
+For design details about the coordinator, see https://golang.org/s/builderplan
 
 # How to set up a builder
   1. talk to golang-dev@ to get a builder host type & hash (they can get one from e.g. https://build-dot-golang-org.appspot.com/key?builder=host-foo-bar), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
@@ -30,7 +30,7 @@ Older-style builders are listed below. These builders are configured and run man
 | plan9-amd64-9front | VM | @0intro - David du Colombier | 9front |
 
 # Builder Requirements
-  * internet connection (at least be able to access Google and http://build.golang.org)
+  * internet connection (at least be able to access Google and https://build.golang.org)
   * preferably with two or more (V)CPUs, as at least one test (` sync/atomic ` requires ` runtime.NumCPU() > 1 ` to test more completely)
   * at least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
