@@ -29,7 +29,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
 
- - alanfo, "[Suggested amendment to Go 2 generics draft design]https://gist.github.com/alanfo/5da5932c7b60fd130a928ebbace1f251", September 2018
+ - alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/5da5932c7b60fd130a928ebbace1f251)", September 2018
 
 - Arendtio "[Generics in Go inspired by Interfaces](https://gist.github.com/arendtio/77dd4df5f4b19dc69da350648434a88a)", September 2018
 
