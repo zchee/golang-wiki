@@ -1,9 +1,6 @@
 # Introduction
 
-Some libraries, especially graphical frameworks/libraries like Cocoa, OpenGL, libSDL all require it's
-called from the main OS thread or called from the same OS thread due to its use of thread local
-data structures. Go's runtime provides ` LockOSThread() ` function for this, but it's notoriously difficult
-to use correctly.
+Some libraries—especially graphical frameworks and libraries like Cocoa, OpenGL, and libSDL—use thread-local state and can require functions to be called only from a specific OS thread, typically the 'main' thread. Go's runtime package provides the `LockOSThread()` function for this, but it's notoriously difficult to use correctly.
 
 # Solutions
 
