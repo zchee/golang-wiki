@@ -245,6 +245,12 @@ Sorted by publication date.
     * ISBN: 9781788394185
     * Reference: https://www.amazon.com/dp/1788394186
 
+  * **Hands-On Serverless Applications with Go**
+    * Author: Mohamed Labouardy
+    * Publication Date: August 2018
+    * ISBN: 9781789134612
+    * Reference: https://www.packtpub.com/application-development/hands-serverless-applications-go
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
