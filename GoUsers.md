@@ -26,6 +26,7 @@
 
 ## Bangladesh
   * [AppsCode Ltd.](https://appscode.com) (BD subsidiary of AppsCode Inc.) - [facebook](https://www.facebook.com/appscodebd/), [github](https://github.com/appscode), [twitter](https://twitter.com/appscodehq)
+  * [Furqan Software](https://furqansoftware.com)
   * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
   * [Pathao](https://pathao.com)(A ride sharing company) 
   * [GAAN](http://gaan.com.bd)
