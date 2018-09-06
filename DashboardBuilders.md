@@ -12,7 +12,7 @@ For design details about the coordinator, see https://golang.org/s/builderplan
 
 # How to set up a builder
   1. talk to golang-dev@ to get a builder host type & hash (they can get one from e.g. https://build-dot-golang-org.appspot.com/key?builder=host-foo-bar), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
-  1. go get golang.org/x/build/cmd/buildlet
+  1. `go get -u golang.org/x/build/cmd/buildlet`
   1. Run the buildlet in a loop or under systemd: `while true; do buildlet -coordinator=farmer.golang.org -reverse-type=host-foo-bar -reboot=false; done`
   1. Verify you can see the host registered at https://farmer.golang.org/#pools in the "Reverse pool machine detail" section and "Reverse pool summary".
   1. Add a builder type to https://github.com/golang/build/blob/master/dashboard/builders.go (see the `addBuilder` lines). Run tests. Send the CL.
