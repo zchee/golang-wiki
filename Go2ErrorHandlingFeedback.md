@@ -74,6 +74,8 @@ Just statements against without counter-proposals
 
 ## Other
 
+ - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
+
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
 - Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
