@@ -487,15 +487,15 @@ The following two blog posts cover these topics more concretely:
 
 ### Why does `go mod tidy` put so many indirect dependencies in my `go.mod`?
 
-`go mod tidy` ensures your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
+`go mod tidy` ensures your current go.mod reflects all possible combinations of OS, architecture, and build tags (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
 
-In contrast, other commands like `go build` and `go test` only update `go.mod` based on the current build invocation's tags/OS/architecture.
+In contrast, other commands like `go build` and `go test` only update `go.mod` to provide the packages imported by the requested packages under the current `GOOS`, `GOARCH`, and build tags.
 
-`go mod tidy` can also pull in test dependencies that `go build` might not. Recording dependency information for tests helps provide reproducible tests for you, and also for a consumer of your module who might run your tests via `go test all` or similar.
+`go mod tidy` includes the transitive dependencies needed for tests in _all_ active modules, not just the main module: if a test fails (e.g. under `go test all`), we must know which dependencies were used in order to reproduce the failure.
 
-If a particular dependency of your module does not itself have a `go.mod` (because the dependency has not yet opted in to modules itself), then your dependency lacking a `go.mod` will have _its_ dependencies recorded in a parent `go.mod` (such as your `go.mod`), along with an `// indirect` comment to indicate that the recorded information is not from a direct dependency of your module.
+If a dependency of your module does not itself have a `go.mod` (e.g., because the dependency has not yet opted in to modules itself), or if its `go.mod` file is missing one or more of its dependencies (e.g., because the module author did not run `go mod tidy`), then the missing transitive dependencies will be added to _your_ module's requirements, along with an `// indirect` comment to indicate that the dependency is not from a direct import within your module.
 
-If you are curious why a particular module is showing up in your `go.mod`, then running `go mod why -m <module>` is one way to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
+If you are curious why a particular module is showing up in your `go.mod`, you can run `go mod why -m <module>` to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
 
 ### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
