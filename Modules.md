@@ -419,37 +419,6 @@ If a particular dependency of your module does not itself have a `go.mod` (becau
 
 If you are curious why a particular module is showing up in your `go.mod`, then running `go mod why -m <module>` is one way to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
 
-### How did the `go mod` commands change in `go1.11beta3`?
-
-In go1.11beta3, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Module_maintenance) as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
-```
-The current "go mod" command does too many things.
-
-It looks like "everything you might want to do with modules"
-which causes people to think all module operations go through
-"go mod", which is the opposite of the seamless integration we're
-going for. In particular too many people think "go mod -require"
-and "go get" are the same.
-```
-and:
-```
-split "go mod" into multiple subcommands:
-
-	go mod edit   # old go mod -require ...
-	go mod fix    # old go mod -fix
-	go mod graph  # old go mod -graph
-	go mod init   # old go mod -init
-	go mod tidy   # old go mod -sync
-	go mod vendor # old go mod -vendor
-	go mod verify # old go mod -verify
-
-Splitting out the individual commands makes both the docs
-and the implementations dramatically easier to read.
-It simplifies the command lines
-(go mod -init -module m is now 'go mod init m')
-and allows command-specific flags.
-```
-
 ### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
 In response to a comment about *"k8s does minor releases but changes the Go API in each minor release"*, Russ Cox made the following [response](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882) that highlights some implications for picking v0, v1, vs. frequently making breaking changes with v2, v3, v4, etc. with your project:
@@ -489,6 +458,37 @@ For example:
 * [JFrog Artifactory](https://jfrog.com/artifactory/): Commercial offering. Support for Go 1.11 modules started with release 5.11 as described [here](https://jfrog.com/blog/goproxy-artifactory-go-registries/) and [here](https://www.jfrog.com/confluence/display/RTF/Go+Registry).
 
 Note that you are not required to run a proxy. Rather, the go tooling in 1.11 has added optional proxy support via [GOPROXY](https://tip.golang.org/cmd/go/#hdr-Module_proxy_protocol) to enable more enterprise use cases (such as greater control), and also to better handle situations such as "GitHub is down" or people deleting GitHub repositories.
+
+### How did the `go mod` commands change in `go1.11beta3`?
+
+In go1.11beta3, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Module_maintenance) as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
+```
+The current "go mod" command does too many things.
+
+It looks like "everything you might want to do with modules"
+which causes people to think all module operations go through
+"go mod", which is the opposite of the seamless integration we're
+going for. In particular too many people think "go mod -require"
+and "go get" are the same.
+```
+and:
+```
+split "go mod" into multiple subcommands:
+
+	go mod edit   # old go mod -require ...
+	go mod fix    # old go mod -fix
+	go mod graph  # old go mod -graph
+	go mod init   # old go mod -init
+	go mod tidy   # old go mod -sync
+	go mod vendor # old go mod -vendor
+	go mod verify # old go mod -verify
+
+Splitting out the individual commands makes both the docs
+and the implementations dramatically easier to read.
+It simplifies the command lines
+(go mod -init -module m is now 'go mod init m')
+and allows command-specific flags.
+```
 
 ### Additional frequently asked questions
 
