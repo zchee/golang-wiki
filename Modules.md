@@ -85,7 +85,7 @@ require (
 
 There are four directives: `module`, `require`, `exclude`, `replace`. 
 
-`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (TODO: show example exclude and replace directives and/or FAQ on when to use them).
+`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for an example of using `replace` directives).
 
 In Go source code, packages are imported using the full path including the module, for example:
  * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from the v2 version of module `example.com/my/module`.
@@ -416,6 +416,7 @@ The community is starting to build tooling on top of modules. For example:
    * `replace example.com/some/dependency => example.com/some/dependency@v1.2.3`
 * `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
    * `replace example.com/project/foo => ../foo`
+* **Note**: in general, you can specify a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in the examples above).
 * See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
 * [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier. See the [repository](https://github.com/rogpeppe/gohack) or the immediately prior FAQ for an overview.
 
