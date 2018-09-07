@@ -306,29 +306,31 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
   * `on` —  force module support on regardless of directory location
   * `off` — force module support off regardless of directory location
  
-### Why does installing a tool via `go get example.com/cmd` fail with error `cannot find main module` when run with GO111MODULE=on?
+### Why does installing a tool via `go get` fail with error `cannot find main module`?
 
-In general, when running a command like `go get` in module-aware mode, the resulting behavior depends on which module you are currently "in" as the current module, which means it depends on where you are in your filesystem hierarchy when you execute the `go get` command.
- 
-One aspect that might catch people by surprise is if the GO111MODULE environment variable is explicitly set to GO111MODULE=on, then `go get example.com/cmd` requires a `go.mod` file and hence will fail if run outside of a module (that is, if run outside of a file tree rooted by a `go.mod`).  The current error message is:
- 
-  `go: cannot find main module; see 'go help modules'`
+This occurs when you have set `GO111MODULE=on`, but are operating outside of a file tree with a `go.mod`.
 
-One solution is to disable modules temporarily and enable Go 1.10 behavior, such as:
+The simplest solution is to leave `GO111MODULE` unset (or explicitly set to `GO111MODULE=auto`), which avoids this error.
 
-  `$ GO111MODULE=off go get example.com/cmd`
- 
-Setting GO111MODULE=auto (or leaving GO111MODULE unset) will also avoid this particular error:
+Recall one of the primary reason modules exist is to record precise dependency information. This dependency information is written to your current `go.mod`.  If you are outside of a file tree with a `go.mod` but you have told the `go get` command to operate in module mode by setting `GO111MODULE=on`, then running `go get` will result in the error `cannot find main module` because there is no `go.mod` available to record dependency information.
 
-  `$ GO111MODULE=auto go get example.com/cmd`
-  
-However, note that using path@version syntax such as `go get example.com/cmd@v1.2.3` is not supported when running outside of a module, where the current error is: `go: cannot use path@version syntax in GOPATH mode`
- 
-The primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion, including this comment from there:
+Alternative solutions include:
 
-> This isn't blocking Go 1.11. The main reason being that if GO111MODULE=auto (the default) then we can't reasonably do anything with modules when outside a go.mod tree. That's the opt-in. And inside a go.mod tree this already works.
+1. Leave `GO111MODULE` unset (the default, or equivalently, explicitly set `GO111MODULE=auto`), which results in friendlier behavior. This will give you Go 1.10 behavior when you are outside of a module and hence will avoid `go get` reporting `cannot find main module`.
 
-If you want to use a `go.mod` to track _globally_ installed tools, one perhaps less common approach could be to create a module whose entire purpose is just to track installed tools as described in more detail [here](https://github.com/golang/go/issues/26591#issuecomment-410280544).
+2. Leave `GO111MODULE=on`, but as needed disable modules temporarily and enable Go 1.10 behavior during `go get`, such as via `GO111MODULE=off go get example.com/cmd`. This can be turned into a simple script or shell alias such as `alias oldget='GO111MODULE=off go get'`
+
+3. Create a temporary `go.mod` file that is then discarded. This has been automated by a [simple shell script](https://gist.github.com/rogpeppe/7de05eef4dd774056e9cf175d8e6a168) by [@rogpeppe](https://github.com/rogpeppe). This script allows version information to optionally be supplied (usage: `vgoget example.com/cmd[@version]`).
+
+4. Create a `go.mod` you use to track your globally installed tools, such as in `~/global-tools/go.mod`, and `cd` to that directory prior to running `go get` or `go install` for any globally installed tools. 
+
+5. Create a `go.mod` for each tool in separate directories, such as `~/tools/gorename/go.mod` and `~/tools/goimports/go.mod`, and `cd` to that appropriate directory prior to running `go get` or `go install` for the tool. 
+
+This current limitation will be resolved. However, the primary issue is that modules are currently opt-in, and a full solution will likely wait until GO111MODULE=on becomes the default behavior. See [#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022) for more discussion, including this comment:
+
+> This clearly must work eventually. The thing I'm not sure about is exactly what this does as far as the version is concerned: does it create a temporary module root and go.mod, do the install, and then throw it away? Probably. But I'm not completely sure, and for now I didn't want to confuse people by making vgo do things outside go.mod trees. Certainly the eventual go command integration has to support this.
+
+This FAQ has been discussing tracking _globally_ installed tools.
  
 If instead you want to track the tools required by a _specific_ module, see the next FAQ.
 
@@ -369,8 +371,6 @@ Some tracking issues for particular tools includes:
 In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
 
 The long-term fix to make tools module-aware is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
-
-In the short term, however, [CL 125296](https://go-review.googlesource.com/c/go/+/125296) updated `go/build` to be able locate a package's source code in the presence of modules. This helps some tools without requiring the tool to change, but is insufficient for other tools.
 
 ### How have the `go mod` commands changed recently in `go1.11beta3`?
 
