@@ -408,9 +408,9 @@ The community is starting to build tooling on top of modules. For example:
   
 ### When should I use the replace directive?
 
-* `replace` directives in go.mod provide additional control in the top-level `go.mod` for what is actually used to satisfy a dependency found in the Go source or go.mod files.
-* The `replace` directive allows you to supply another import path that might be another module located in VCS (GitHub or elsewhere), or on your local filesystem with a relative or absolute file path (without needing to update the import paths in the actual source code).
-* One sample use case is if you need to fix something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
+* As described in the ['go.mod' concepts section above](https://github.com/golang/go/wiki/Modules#gomod), `replace` directives provide additional control in the top-level `go.mod` for what is actually used to satisfy a dependency found in the Go source or go.mod files, while `replace` directives in modules other than the main module are ignored when building the main module.
+* The `replace` directive allows you to supply another import path that might be another module located in VCS (GitHub or elsewhere), or on your local filesystem with a relative or absolute file path. The new import path from the `replace` directive is used without needing to update the import paths in the actual source code.
+* One sample use case is if you need to fix or investigate something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
    * `replace example.com/original/import/path => /your/forked/import/path`
 * `replace` also allows the top-level module control over the exact version used for a dependency, such as:
    * `replace example.com/some/dependency => example.com/some/dependency@v1.2.3`
