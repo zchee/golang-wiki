@@ -370,7 +370,57 @@ Some tracking issues for particular tools includes:
 
 In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
 
-The full fix to make tools module-aware is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
+The full fix is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
+
+### What community tooling exists for working with modules?
+
+The community is starting to build tooling on top of modules. For example:
+
+* [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack)
+  * A new community tool to automate and greatly simplify `replace` and multi-module workflows, including allowing you to easily modify one of your dependencies 
+  * For example, `gohack example.com/some/dependency` automatically clones the appropriate repository and adds the necessary `replace` directives to your `go.mod`
+  * Remove all gohack replace statements with `gohack -u`
+  * The project is continuing to expand to make other module-related workflows easier
+* [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod)
+  * Command line tool to automatically upgrade/downgrade major versions for modules
+  * Automatically adjusts `go.mod` files and related import statements in go source code
+  * Helps with upgrades, or when first opting in to modules with a v2+ package
+* [github.com/goware/modvendor](https://github.com/goware/modvendor)
+  * Helps copy additional files into the `vendor/` folder, such as shell scripts, .cpp files, .proto files, etc.
+  
+### When should I use the replace directive?
+
+* `replace` directives in go.mod provide additional control in the top-level `go.mod` for what is actually used to satisfy a dependency found in the Go source or go.mod files.
+* The `replace` directive allows you to supply another import path that might be another module located in VCS (GitHub or elsewhere), or on your local filesystem with a relative or absolute file path (without needing to update the import paths in the actual source code).
+* One sample use case is if you need to fix something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
+   * `replace example.com/original/import/path => /your/forked/import/path`
+* `replace` also allows the top-level module control over the exact version used for a dependency, such as:
+   * `replace example.com/some/dependency => example.com/some/dependency@v1.2.3`
+* `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
+   * `replace example.com/project/foo => ../foo`
+* See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
+* [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier. See the repository or the immediately prior FAQ for an overview.
+
+### Can I work entirely outside of VCS on my local filesystem?
+
+Yes. VCS is not required. 
+
+This is very simple if you have a single module you want to edit at a time, and you can place the `go.mod` anywhere.
+
+If you want to have multiple inter-related modules on your local disk that you want to edit at the same time, then `replace` directives are one approach. Here is a sample `go.mod` that uses a `replace` with a relative path to point the `hello` module at the on-disk location of the `goodbye` module (without relying on any VCS):
+
+```
+module example.com/me/hello
+
+require (
+  example.com/me/goodbye v0.0.0
+)
+
+replace example.com/me/goodbye => ../goodbye
+```
+As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that the `require` directive is needed. (A common mistake is to include `replace foo => ../foo` without having a corresponding `require foo v0.0.0`).
+
+A small runnable example is shown in this [thread](https://groups.google.com/d/msg/golang-nuts/1nYoAMFZVVM/eppaRW2rCAAJ).
 
 ### How do I use vendoring with modules? Is vendoring going away?
 
