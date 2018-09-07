@@ -423,7 +423,7 @@ The community is starting to build tooling on top of modules. For example:
 
 Yes. VCS is not required. 
 
-This is very simple if you have a single module you want to edit at a time, and you can place the `go.mod` anywhere.
+This is very simple if you have a single module you want to edit at a time, and you can place the file tree containing the single `go.mod` in a convenient location.
 
 If you want to have multiple inter-related modules on your local disk that you want to edit at the same time, then `replace` directives are one approach. Here is a sample `go.mod` that uses a `replace` with a relative path to point the `hello` module at the on-disk location of the `goodbye` module (without relying on any VCS):
 
@@ -511,7 +511,7 @@ On a related note, Kubernetes has some atypical build approaches (currently incl
 
 ### Should I still add a go.mod file if I do not have any dependencies?
 
-Yes. This helps communicate to the ecosystem that you are opting in to modules, supports working outside of GOPATH, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is part of the reason the older approach of import comments might eventually be deprecated). That said, modules overall are an opt-in capability in Go 1.11.
+Yes. This supports working outside of GOPATH, helps communicate to the ecosystem that you are opting in to modules, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is one reason why import comments might eventually be deprecated). Of course, modules are purely an opt-in capability in Go 1.11.
 
 ### Why does `go build` require gcc, and why are prebuilt packages such as net/http not used?
 
