@@ -6,6 +6,7 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Han Tuo, "[Generic as a kind of types -- type T generic {int, float64}](https://gist.github.com/hantuo/574aeda064c18eb69aa6806fbb259510)", September 2018
 - Nate Finch, "[Go2 Contracts Go Too Far](https://npf.io/2018/09/go2-contracts-go-too-far/)", September 2018
 - Roger Peppe, "[Go Contracts as type structs](https://gist.github.com/rogpeppe/7ea0cb6037aa520934257bf88a1012c5)", September 2018
 - Roger Peppe, "[Go contracts use case: generic mgo](https://gist.github.com/rogpeppe/cbbaf2521749717137625e33ba203eed)", Septembr 2018
