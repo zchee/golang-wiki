@@ -308,13 +308,13 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
  
 ### Why does installing a tool via `go get` fail with error `cannot find main module`?
 
-This occurs when you have set `GO111MODULE=on`, but are operating outside of a file tree with a `go.mod`.
+This occurs when you have set `GO111MODULE=on`, but are not inside of a file tree with a `go.mod` when you run `go get`.
 
 The simplest solution is to leave `GO111MODULE` unset (or explicitly set to `GO111MODULE=auto`), which avoids this error.
 
-Recall one of the primary reason modules exist is to record precise dependency information. This dependency information is written to your current `go.mod`.  If you are outside of a file tree with a `go.mod` but you have told the `go get` command to operate in module mode by setting `GO111MODULE=on`, then running `go get` will result in the error `cannot find main module` because there is no `go.mod` available to record dependency information.
+Recall one of the primary reason modules exist is to record precise dependency information. This dependency information is written to your current `go.mod`.  If you are not inside of a file tree with a `go.mod` but you have told the `go get` command to operate in module mode by setting `GO111MODULE=on`, then running `go get` will result in the error `cannot find main module` because there is no `go.mod` available to record dependency information.
 
-Alternative solutions include:
+Solution alternatives include:
 
 1. Leave `GO111MODULE` unset (the default, or equivalently, explicitly set `GO111MODULE=auto`), which results in friendlier behavior. This will give you Go 1.10 behavior when you are outside of a module and hence will avoid `go get` reporting `cannot find main module`.
 
