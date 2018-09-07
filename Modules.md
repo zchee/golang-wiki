@@ -291,7 +291,7 @@ The `require` directive allows any module to declare that it should be built wit
 One of the key goals of the versioned modules proposal is to add a common vocabulary and semantics around versions of Go code for both tools and developers. This lays a foundation for future capabilities to declare additional forms of incompatibilities, such as possibly:
 * declaring deprecated versions as [described](https://research.swtch.com/vgo-module) in the initial `vgo` blog series
 * declaring pair-wise incompatibility between modules in an external system as discussed for example [here](https://github.com/golang/go/issues/24301#issuecomment-392111327) during the proposal process
-* declaring incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552)
+* declaring pair-wise incompatible versions or insecure versions of a module after a release has been published. See for example the on-going discussion in [#24031](https://github.com/golang/go/issues/24031#issuecomment-407798552) and [#26829](https://github.com/golang/go/issues/26829)
 
 ### When do I get old behavior vs. new module-based behavior?
 
@@ -370,11 +370,58 @@ Some tracking issues for particular tools includes:
 
 In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
 
-The long-term fix to make tools module-aware is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
+The full fix to make tools module-aware is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
 
-### How have the `go mod` commands changed recently in `go1.11beta3`?
+### How do I use vendoring with modules? Is vendoring going away?
 
-As of go1.11beta3, there has been a significant change for the `go mod` commands. See https://tip.golang.org/cmd/go/#hdr-Module_maintenance as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
+The initial series of `vgo` blog posts did propose dropping vendoring entirely, but [feedback](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ) from the community resulted in retaining support for vendoring.
+ 
+In brief, to use vendoring with modules:
+* `go mod vendor` resets the main module's vendor directory to include all packages needed to build and test all of the module's packages based on the state of the go.mod files and Go source code.
+* By default, go commands like `go build` ignore the vendor directory when in module mode.
+* The `-mod=vendor` flag (e.g., `go build -mod=vendor`) instructs the go commands to use the main module's top-level vendor directory to satisfy dependencies. The go commands in this mode therefore ignore the dependency descriptions in go.mod and assume that the vendor directory holds the correct copies of dependencies. Note that only the main module's top-level vendor directory is used; vendor directories in other locations are still ignored.
+* Some people will want to routinely opt-in to vendoring by setting a `GOFLAGS=-mod-vendor` environment variable.
+
+Older versions of Go such as 1.10 understand how to consume a vendor directory created by `go mod vendor`, so vendoring is one way to provide dependencies to older versions of Go that do not fully understand modules.
+
+If you are considering using vendoring, it is worthwhile to read the ["Modules and vendoring"](https://tip.golang.org/cmd/go/#hdr-Modules_and_vendoring) and ["Make vendored copy of dependencies"](https://tip.golang.org/cmd/go/#hdr-Make_vendored_copy_of_dependencies) sections of the tip documentation.
+
+### Can I control when go.mod gets updated, when the vendor directory is used, and when the go tools use the network to satisfy dependencies?
+
+By default, a command like `go build` will reach out to the network as needed to satisfy imports.
+
+Some teams will want to disallow the go tooling from touching the network at certain points, or will want greater control regarding when the go tooling updates `go.mod`, how dependencies are obtained, and how vendoring is used.
+
+The go tooling provides a fair amount of flexibility to adjust or disable these default behaviors, including via `-mod=readonly`, `-mod=vendor`, `GOFLAGS`, `GOPROXY=off`, `GOPROXY=file:///filesystem/path`, `go mod vendor`, and `go mod download`.
+
+The details on these options are spread throughout the official documentation. One community attempt at a consolidated overview of knobs related to these behaviors is [here](https://github.com/thepudds/go-module-knobs/blob/master/README.md), which includes links to the official documentation for more information.
+
+### How do I use modules with CI systems such as Travis or CircleCI?
+
+The simplest approach is likely just setting the environment variable `GO111MODULE=on`, which should work with most CI systems.
+
+However, it can be valuable to run tests in CI on Go 1.11 with modules enabled as well as disabled, given some of your users will not have yet opted in to modules themselves. Vendoring is also a topic to consider.
+
+The following two blog posts cover these topics more concretely:
+
+* ["Using Go modules with vendor support on Travis CI"](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/) by Fatih Arslan 
+* ["Go Modules and CircleCI"](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) by Todd Keech 
+
+### Why does `go mod tidy` put so many indirect dependencies in my `go.mod`?
+
+`go mod tidy` ensures your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
+
+In contrast, other commands like `go build` and `go test` only update `go.mod` based on the current build invocation's tags/OS/architecture.
+
+`go mod tidy` can also pull in test dependencies that `go build` might not. Recording dependency information for tests helps provide reproducible tests for you, and also for a consumer of your module who might run your tests via `go test all` or similar.
+
+If a particular dependency of your module does not itself have a `go.mod` (because the dependency has not yet opted in to modules itself), then your dependency lacking a `go.mod` will have _its_ dependencies recorded in a parent `go.mod` (such as your `go.mod`), along with an `// indirect` comment to indicate that the recorded information is not from a direct dependency of your module.
+
+If you are curious why a particular module is showing up in your `go.mod`, then running `go mod why -m <module>` is one way to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
+
+### How did the `go mod` commands change in `go1.11beta3`?
+
+In go1.11beta3, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Module_maintenance) as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
 ```
 The current "go mod" command does too many things.
 
