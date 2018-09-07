@@ -272,7 +272,7 @@ Here is a partial list of some of the larger changes and improvements, almost al
 * Added more flexible replace directives ([CL](https://go-review.googlesource.com/c/vgo/+/122400))
 * Added additional ways to interrogate modules (for human consumption, as well as for better editor / IDE integration)
 * The UX of the go CLI has continued to be refined based on experiences so far (e.g., [#26581](https://github.com/golang/go/issues/26581), [CL](https://go-review.googlesource.com/c/go/+/126655))
-* **Most likely:** additional support for warming caches for use cases such as CI or docker builds ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
+* Additional support for warming caches for use cases such as CI or docker builds via `go mod download` ([#26610](https://github.com/golang/go/issues/26610#issuecomment-408654653))
 * **Most likely**: better support for installing specific versions of programs to GOBIN ([#24250](https://github.com/golang/go/issues/24250#issuecomment-377553022))
 
 ## GitHub Issues
@@ -310,13 +310,13 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
 
 This occurs when you have set `GO111MODULE=on`, but are not inside of a file tree with a `go.mod` when you run `go get`.
 
-The simplest solution is to leave `GO111MODULE` unset (or explicitly set to `GO111MODULE=auto`), which avoids this error.
+The simplest solution is to leave `GO111MODULE` unset (or equivalently explicitly set to `GO111MODULE=auto`), which avoids this error.
 
 Recall one of the primary reason modules exist is to record precise dependency information. This dependency information is written to your current `go.mod`.  If you are not inside of a file tree with a `go.mod` but you have told the `go get` command to operate in module mode by setting `GO111MODULE=on`, then running `go get` will result in the error `cannot find main module` because there is no `go.mod` available to record dependency information.
 
 Solution alternatives include:
 
-1. Leave `GO111MODULE` unset (the default, or equivalently, explicitly set `GO111MODULE=auto`), which results in friendlier behavior. This will give you Go 1.10 behavior when you are outside of a module and hence will avoid `go get` reporting `cannot find main module`.
+1. Leave `GO111MODULE` unset (the default, or explicitly set `GO111MODULE=auto`), which results in friendlier behavior. This will give you Go 1.10 behavior when you are outside of a module and hence will avoid `go get` reporting `cannot find main module`.
 
 2. Leave `GO111MODULE=on`, but as needed disable modules temporarily and enable Go 1.10 behavior during `go get`, such as via `GO111MODULE=off go get example.com/cmd`. This can be turned into a simple script or shell alias such as `alias oldget='GO111MODULE=off go get'`
 
@@ -403,9 +403,9 @@ It simplifies the command lines
 and allows command-specific flags.
 ```
 
-### My project has historically made breaking changes without bumping the major version. What are some strategies to consider moving forward?
+### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
-In response to a question *"k8s does minor releases but changes the Go API in each minor release. How would people handle importing k8s as a vendored project via vgo?"*, Russ Cox made the following [comment](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882):
+In response to a comment about *"k8s does minor releases but changes the Go API in each minor release"*, Russ Cox made the following [response](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882) that highlights some implications for picking v0, v1, vs. frequently making breaking changes with v2, v3, v4, etc. with your project:
 
 >  I don't fully understand the k8s dev cycle etc, but I think generally the k8s team needs to decide/confirm what they intend to guarantee to users about stability and then apply version numbers accordingly to express that.
 > 
@@ -414,6 +414,24 @@ In response to a question *"k8s does minor releases but changes the Go API in ea
 > * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
 
 On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
+
+### Should I still add a go.mod file if I do not have any dependencies?
+
+Yes. This helps communicate to the ecosystem that you are opting in to modules, supports working outside of GOPATH, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is part of the reason the older approach of import comments might eventually be deprecated). That said, modules overall are an opt-in capability in Go 1.11.
+
+### Why does `go build` require gcc, and why are prebuilt packages such as net/http not used?
+
+In short:
+
+> Because the pre-built packages are non-module builds and can’t be reused. Sorry. Disable cgo for now or install gcc.
+
+This is only an issue when opting in to modules (e.g., via `GO111MODULE=on`). See [#26988](https://github.com/golang/go/issues/26988#issuecomment-417886417) for additional discussion.
+
+### Do modules work with relative imports like `import "./subdir"`?
+
+No. See [#26645](https://github.com/golang/go/issues/26645#issuecomment-408572701), which includes:
+
+> In modules, there finally is a name for the subdirectory. If the parent directory says "module m" then the subdirectory is imported as "m/subdir", no longer "./subdir".
 
 ### Are there "always on" module repositories and enterprise proxies?
 
