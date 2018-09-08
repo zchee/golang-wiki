@@ -40,6 +40,9 @@ The remaining content on this page is organized as follows:
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [How did the 'go mod' commands change in go1.11beta3?](https://github.com/golang/go/wiki/Modules#how-did-the-go-mod-commands-change-in-go111beta3)
+  * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+  * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+  * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
 
 ## Installing and Activating Module Support
 
