@@ -28,8 +28,9 @@ Code changed to use the existing proposal.
 
 # Against
 
-Just statements against without counter-proposals
+Critiques without counter-proposals
 
+- Liam Breck, “[Golang, How dare you handle my checks!](https://medium.com/@mnmnotmail/golang-how-dare-you-handle-my-checks-d5485f991289)”, September 2018
 
 # Counter-proposals
 
