@@ -346,6 +346,7 @@
   * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
 
 ## Ireland
+  * [EXADS](http://exads.com/)
   * [Intercom](http://intercom.io/)
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
  
