@@ -48,7 +48,7 @@ Critiques without counter-proposals
 
 - Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
 
-- Liam Breck, “[Missing Multiple Error Handlers (and an Alternate Handler Concept)](https://gist.github.com/networkimprov/c6cb3e2dff18d31840f2ef22e79d4a1e)”, August 2018
+- Liam Breck, “[The `#id/catch` Error Model](https://github.com/golang/go/issues/27519)”, September 2018
 
 
 ## Inlining
