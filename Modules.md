@@ -449,7 +449,7 @@ In brief, to use vendoring with modules:
 * `go mod vendor` resets the main module's vendor directory to include all packages needed to build and test all of the module's packages based on the state of the go.mod files and Go source code.
 * By default, go commands like `go build` ignore the vendor directory when in module mode.
 * The `-mod=vendor` flag (e.g., `go build -mod=vendor`) instructs the go commands to use the main module's top-level vendor directory to satisfy dependencies. The go commands in this mode therefore ignore the dependency descriptions in go.mod and assume that the vendor directory holds the correct copies of dependencies. Note that only the main module's top-level vendor directory is used; vendor directories in other locations are still ignored.
-* Some people will want to routinely opt-in to vendoring by setting a `GOFLAGS=-mod-vendor` environment variable.
+* Some people will want to routinely opt-in to vendoring by setting a `GOFLAGS=-mod=vendor` environment variable.
 
 Older versions of Go such as 1.10 understand how to consume a vendor directory created by `go mod vendor`, so vendoring is one way to provide dependencies to older versions of Go that do not fully understand modules.
 
