@@ -43,15 +43,13 @@ The remaining content on this page is organized as follows:
 
 ## Installing and Activating Module Support
 
-To use modules, you currently have three install options:
+To use modules, two install options are:
 * [Install the latest Go 1.11 release](https://golang.org/dl/).
 * [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
-* Install the `vgo` binary from the [`vgo` subrepository](https://github.com/golang/vgo) (and replace `go` with `vgo` in the commands below).
 
-Once installed, you can then activate module support in one of three ways:
+Once installed, you can then activate module support in one of two ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
-* Invoke the binary named `vgo` (if you have installed `vgo` from the subrepository).
 
 ## New Concepts
 
