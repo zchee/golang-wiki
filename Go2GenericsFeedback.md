@@ -5,6 +5,7 @@ This page is meant to collect and organize feedback about the Go 2 [contracts (g
 Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google Docs, etc. And then please link it here.
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
+- dotaheor, "[Combine contract and code tegother](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
 - mrwhythat, "[Go 2 generics draft notes](https://gist.github.com/mrwhythat/f5f2e1ea2bb9869082da55529586d972)", September 2018
 - Aleksei Pavliukov, "[Extend type and func keywords](https://github.com/a5i/go-proposal/blob/master/generics.md)", September 2018
 - Han Tuo, "[Generic as a kind of types -- type T generic {int, float64}](https://gist.github.com/hantuo/574aeda064c18eb69aa6806fbb259510)", September 2018
