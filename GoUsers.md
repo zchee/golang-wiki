@@ -541,6 +541,7 @@
  * [podioom](http://podioom.net) - With podioom we create bonds that support those who care and who want to stay in shape! 
  * [beFOGG](http://befogg.mobi) - platform that will take tourism to the next level
  * [Miquido](https://www.miquido.com) - Mobile-first software development company
+ * [Brainly](https://brainly.co/) - [blog](https://medium.com/engineering-brainly)
 
 ## Portugal
   * [OLX](https://www.joinolx.com/)
