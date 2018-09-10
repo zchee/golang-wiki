@@ -17,65 +17,62 @@ compile: unknown architecture "wasm"
 
 # Example
 
-To compile the basic Go program for the web:
+To compile a basic Go package for the web:
 
 ```go
 package main
 
+import "fmt"
+
 func main() {
-	println("Hello, WebAssembly!")
+	fmt.Println("Hello, WebAssembly!")
 }
 ```
 
 Run:
 
 ```sh
-$ GOOS=js GOARCH=wasm go build -o test.wasm main.go
+$ GOOS=js GOARCH=wasm go build -o main.wasm
 ```
 
-And copy over the HTML & JS support files:
+Create an `index.html` file:
+
+```HTML
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="wasm_exec.js"></script>
+		<script>
+			const go = new Go();
+			WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject).then((result) => {
+				go.run(result.instance);
+			});
+		</script>
+	</head>
+	<body></body>
+</html>
+```
+
+And copy over the JavaScript support file:
 
 ```sh
-$ cp $(go env GOROOT)/misc/wasm/wasm_exec.{html,js} .
+$ cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
 ```
 
-Then serve those three files (`wasm_exec.html`, `wasm_exec.js`, and `test.wasm`) to a web browser.
+Then serve those three files (`index.html`, `wasm_exec.js`, and `main.wasm`) to a web browser. For example, with [`goexec`](https://github.com/shurcooL/goexec#goexec):
 
-For a basic HTTP server:
-
-```go
-package main
-
-import (
-	"flag"
-	"log"
-	"net/http"
-	"strings"
-)
-
-var (
-	listen = flag.String("listen", ":8080", "listen address")
-	dir    = flag.String("dir", ".", "directory to serve")
-)
-
-func main() {
-	flag.Parse()
-	log.Printf("listening on %q...", *listen)
-	log.Fatal(http.ListenAndServe(*listen, http.HandlerFunc(func(resp http.ResponseWriter, req *http.Request) {
-		if strings.HasSuffix(req.URL.Path, ".wasm") {
-			resp.Header().Set("content-type", "application/wasm")
-		}
-
-		http.FileServer(http.Dir(*dir)).ServeHTTP(resp, req)
-	})))
-}
+```sh
+$ goexec 'http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))'
 ```
 
-Now navigate to http://localhost:8080/wasm_exec.html, click "Run", and you should see the output in the JavaScript debug console.
+(Or use your own [basic HTTP server command](https://play.golang.org/p/pZ1f5pICVbV).)
+
+Finally, navigate to http://localhost:8080/index.html, open the JavaScript debug console, and you should see the output. You can modify the program, rebuild `main.wasm`, and refresh to see new output.
 
 # Interacting with the DOM
 
-See https://tip.golang.org/pkg/syscall/js/
+See https://godoc.org/syscall/js.
 
 # Debugging
 
