@@ -30,7 +30,7 @@ func main() {
 Run:
 
 ```sh
-$ GOARCH=wasm GOOS=js go build -o test.wasm main.go
+$ GOOS=js GOARCH=wasm go build -o test.wasm main.go
 ```
 
 And copy over the HTML & JS support files:
