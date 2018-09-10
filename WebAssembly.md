@@ -79,7 +79,7 @@ See https://tip.golang.org/pkg/syscall/js/
 
 # Debugging
 
-WebAssembly doesn't *yet* have any support for debuggers, so you'll need to use the good 'ol `println()` approach for now to display output on the Javascript console.
+WebAssembly doesn't *yet* have any support for debuggers, so you'll need to use the good 'ol `println()` approach for now to display output on the JavaScript console.
 
 An official [WebAssembly Debugging Subgroup](https://github.com/WebAssembly/debugging) has been created to address this, with some initial investigation and proposals under way:
 
