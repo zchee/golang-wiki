@@ -32,6 +32,8 @@ Critiques without counter-proposals
 
 - Liam Breck, “[Golang, How dare you handle my checks!](https://medium.com/@mnmnotmail/golang-how-dare-you-handle-my-checks-d5485f991289)”, September 2018
 
+- Nate Finch, "[Handle and Check, Let's Not](https://npf.io/2018/09/check-and-handle/)", September 2018
+
 # Counter-proposals
 
 ## Error handling with normal functions
