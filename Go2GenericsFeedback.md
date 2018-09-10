@@ -124,6 +124,13 @@ To make it easier to see new feedback. Please *make a Gist*. And also help to ke
        return total
    }
    ```
+
+- yesuu: In this example, think of `T` as the parameter name and `type` as the parameter type. Obviously it is more reasonable to put the `type` behind, and contract is followed by `type`, like `chan int`.
+
+   ```
+   func Sum<T type Addable>(x []T) T
+   ```
+
    - Roberto Clapis: Please read [this section](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md#why-not-use-like-c_and-java)
       - Seems like a bit of a cop-out tbh. It says "in general" which means there must already be exceptions. Go has a nice clear syntax making code simple to read and easy for teams to collaborate. I think it would be worth making the parser more complicated for the sake of making the code readability better. For large scale and long running project readability of the code, and hence maintainability, is king
       - What about [this](https://gist.github.com/empijei/a9665ac5e3059671be229acee8826798)
