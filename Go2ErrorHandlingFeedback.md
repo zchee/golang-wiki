@@ -36,7 +36,7 @@ Critiques without counter-proposals
 
 ## Error handling with normal functions
 
-- Greg Weber "[Alternative: handlers as functions and an error return?](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3)", August 2018, Updated September 2018
+- Greg Weber "[Error handling with functions and an error return?](https://github.com/golang/go/issues/27567)", September 2018. Originally linked [gist](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3).
 
 - Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
 
