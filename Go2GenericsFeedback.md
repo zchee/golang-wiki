@@ -127,8 +127,8 @@ To make it easier to see new feedback. Please *make a Gist*. And also help to ke
 
 - yesuu: In this example, think of `T` as the parameter name and `type` as the parameter type. Obviously it is more reasonable to put the `type` behind, and contract is followed by `type`, like `chan int`.
 
-   ```
-   func Sum<T type Addable>(x []T) T
+   ```go
+   func Sum(T type Addable)(x []T) T
    ```
 
    - Roberto Clapis: Please read [this section](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md#why-not-use-like-c_and-java)
