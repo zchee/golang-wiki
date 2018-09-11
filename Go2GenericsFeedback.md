@@ -6,6 +6,7 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Paul Borman, "[Simplifying syntax](https://gist.github.com/pborman/a6958ee6b7d6668e35fc99db07ea29e4)", September 2018
 - dotaheor, "[Combine contract and code tegother and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
 - mrwhythat, "[Go 2 generics draft notes](https://gist.github.com/mrwhythat/f5f2e1ea2bb9869082da55529586d972)", September 2018
 - Aleksei Pavliukov, "[Extend type and func keywords](https://github.com/a5i/go-proposal/blob/master/generics.md)", September 2018
