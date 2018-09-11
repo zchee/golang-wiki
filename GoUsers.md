@@ -22,6 +22,7 @@
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
 
 ## Austria
+  * [Digital City Solutions](http://www.digital-city.io/)
   * [Gatherer](http://www.gathererapp.com/)
 
 ## Bangladesh
