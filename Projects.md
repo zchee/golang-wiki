@@ -1768,6 +1768,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bwl](https://github.com/bobappleyard/bwl) - a set of libraries to help build web sites
   * [captcha](https://github.com/dchest/captcha) - Image and audio captcha generator and server
   * [gaerecords](https://github.com/matryer/gae-records) - Lightweight wrapper around appengine/datastore providing Active Record and DBO style management of data
+  * [gcd](https://github.com/thepkg/gcd) - provides helpful functions to work with Google Cloud DataStore.
   * [get2ch-go](https://github.com/tanaton/get2ch-go) - a library to access the 2channel Japanese web bulletin board
   * [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go
   * [go-gzip-file-server](https://github.com/joaodasilva/go-gzip-file-server) - A net.http.Handler similar to FileServer that serves gzipped content
