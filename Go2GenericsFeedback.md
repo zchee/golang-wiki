@@ -61,6 +61,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
  - Dave Cheney, "[Maybe adding generics to Go IS about syntax after all](https://dave.cheney.net/2018/09/03/maybe-adding-generics-to-go-is-about-syntax-after-all)", August 2018
 
+ - Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", Sept 2018
+
  - etc.
 
 ## Adding Your Feedback
