@@ -6,15 +6,6 @@ WebAssembly is described on its [home page](https://webassembly.org) as:
 
 This page will be updated over time with more information relevant to Go's support for WebAssembly.
 
-# Prerequisite 
-
-Note, if you ever set the `GOROOT` environment variable to an old Go SDK path, please remove this environment variable. This environment variable is not needed any more. Otherwise, the `go build` command below will report error: 
-
-```
-go tool compile: exit status 2
-compile: unknown architecture "wasm"
-```
-
 # Example
 
 To compile a basic Go package for the web:
