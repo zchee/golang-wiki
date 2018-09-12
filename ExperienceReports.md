@@ -40,6 +40,7 @@ Add new sections as appropriate.
   - [Tooling](#tooling)
   - [Type System](#type-system)
   - [Typed nils](#typed-nils)
+  - [Vendoring](#vendoring)
 
 ## App and Game Development
 
@@ -228,3 +229,6 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Typed nils
  
   - David Cheney, "[Typed nils in Go 2](https://dave.cheney.net/2017/08/09/typed-nils-in-go-2)", August 2017.
+
+## Vendoring
+  - Jeremy Loy, "[Go Modules and Vendoring](https://github.com/golang/go/issues/27227#issuecomment-420428896)", September 2018.
