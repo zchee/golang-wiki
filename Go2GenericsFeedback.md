@@ -194,3 +194,8 @@ func Sum(x []T:Addable) T {
 }
 ```
 - Tristan Colgate-McFarlane: After going back and forward for a while, I've come down in favour of the proposal largely as is. A limited syntax for contracts might be preferable, but I believe it should allow referencing specific fields (not just methods as some have proposed). If anything can be done to make compatible interface and contracts inter-use easier, that would also be nice (though I think maybe no additional specifications are needed. Lastly, I think it is worth considering deprecating interface types. Whilst drastic, contracts essentially also allow specifying behaviour. Any contract restrictions that limit that (such as refering to other types within the package), should probably be lifted. contracts appear to be a strict superset of interfaces, and I am generally against having two overlapping features. A tool to aide in writing interaces should also be considered.
+
+- Patrick Smith: We might consider requiring the type keyword when defining methods on generic types. This makes the code a little more verbose, but clearer and more consistent (now type parameters are always preceded by the type keyword).
+```
+func (x Foo(type T)) Bar()
+```
