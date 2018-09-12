@@ -45,6 +45,8 @@ Create an `index.html` file:
 </html>
 ```
 
+(If your browser doesn't yet support `WebAssembly.instantiateStreaming`, you can use a [polyfill](https://github.com/golang/go/blob/b2fcfc1a50fbd46556f7075f7f1fbf600b5c9e5d/misc/wasm/wasm_exec.html#L17-L22).)
+
 And copy over the JavaScript support file:
 
 ```sh
