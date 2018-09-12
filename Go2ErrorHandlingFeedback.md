@@ -80,6 +80,8 @@ Critiques without counter-proposals
 
 ## Other
 
+ - Fedir RYKHTIK, "[Go 2 error handling with exclamation mark](https://gist.github.com/fedir/50158bc351b43378b829948290102470)", September 2018
+
  - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
