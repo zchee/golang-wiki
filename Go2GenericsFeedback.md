@@ -6,17 +6,27 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- alanfo, "[A simplified generics constraint system](https://gist.github.com/alanfo/fb2438f376dac0db3be5664702f39aab)", September 2018
+
 - Paul Borman, "[Simplifying syntax](https://gist.github.com/pborman/a6958ee6b7d6668e35fc99db07ea29e4)", September 2018
-- dotaheor, "[Combine contract and code tegother and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
+
+- dotaheor, "[Combine contract and code together and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
+
 - mrwhythat, "[Go 2 generics draft notes](https://gist.github.com/mrwhythat/f5f2e1ea2bb9869082da55529586d972)", September 2018
+
 - Aleksei Pavliukov, "[Extend type and func keywords](https://github.com/a5i/go-proposal/blob/master/generics.md)", September 2018
+
 - Han Tuo, "[Generic as a kind of types -- type T generic {int, float64}](https://gist.github.com/hantuo/574aeda064c18eb69aa6806fbb259510)", September 2018
+
 - Nate Finch, "[Go2 Contracts Go Too Far](https://npf.io/2018/09/go2-contracts-go-too-far/)", September 2018
+
 - Roger Peppe, "[Go Contracts as type structs](https://gist.github.com/rogpeppe/7ea0cb6037aa520934257bf88a1012c5)", September 2018
+
 - Roger Peppe, "[Go contracts use case: generic mgo](https://gist.github.com/rogpeppe/cbbaf2521749717137625e33ba203eed)", Septembr 2018
+
 - Axel Wagner, "[Scrapping contracts](https://blog.merovius.de/2018/09/05/scrapping_contracts.html)", September 2018
 
-- Matt Sherman "[Generics as builtin typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
+- Matt Sherman "[Generics as built-in typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
 
 - Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
 
