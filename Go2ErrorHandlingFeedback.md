@@ -10,6 +10,8 @@ Please help categorize the rest of the uncategorized proposals at the bottom.
 # In support
 
 This includes supporting the existing chaining/stacking of handlers without changes.
+ 
+ - Viktor Kojouharov, "[Reducing the special casing around the new error design draft](https://gist.github.com/urandom/6519990ef9eb7547e888a5f2da7f1a93)", September 2018
 
  - Aleksei Pavliukov, “[Use a function as a handle parameter](https://github.com/a5i/go-proposal/blob/master/use%20a%20function%20as%20a%20handle%20parameter.md)”, September 2018
 
