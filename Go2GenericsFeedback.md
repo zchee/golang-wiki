@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Jacob Carlborg, "[Go 2 draft D corrections](https://gist.github.com/jacob-carlborg/b3c91a94f306564158b2a6ac58a57d50)", September 2018
+
 - alanfo, "[A simplified generics constraint system](https://gist.github.com/alanfo/fb2438f376dac0db3be5664702f39aab)", September 2018
 
 - Paul Borman, "[Simplifying syntax](https://gist.github.com/pborman/a6958ee6b7d6668e35fc99db07ea29e4)", September 2018
