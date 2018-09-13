@@ -40,7 +40,9 @@ Critiques without counter-proposals
 
 ## Error handling with normal functions
 
- - Aleksei Pavliukov, “[Use a function as a handle parameter](https://github.com/a5i/go-proposal/blob/master/use%20a%20function%20as%20a%20handle%20parameter.md)”, September 2018
+- Scott Pakin, "[Go 2 error handling based on non-local returns](https://gist.github.com/spakin/86ea86ca48aefc78b672636914f4fc23)", September 2018
+
+- Aleksei Pavliukov, “[Use a function as a handle parameter](https://github.com/a5i/go-proposal/blob/master/use%20a%20function%20as%20a%20handle%20parameter.md)”, September 2018
 
 - Greg Weber "[Error handling with functions and an error return?](https://github.com/golang/go/issues/27567)", September 2018. Originally linked [gist](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3).
 
@@ -129,4 +131,4 @@ Please format all entries as below.
 
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
-To make it easier to see new feedback, please add your new proposal to the top of the section it is place in.
+To make it easier to see new feedback, please add your new proposal to the top of the section it is placed in.
