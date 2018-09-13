@@ -468,6 +468,7 @@
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [XSHELL](https://xshell.io)
+      * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
 
 ## Kazakhstan
