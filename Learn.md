@@ -37,6 +37,3 @@ Learning resources for specific topics:
   * [LearnTesting](LearnTesting) links to resources about testing in Go.
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
   * [Hackr.io Golang Tutorials](https://hackr.io/tutorials/learn-golang) - Best Golang tutorials recommended by the programming community.
-
-Further reading:
-  * [Newspaper](http://www.newspaper.io) is a topic based newsfeed for slack. Built on Go
