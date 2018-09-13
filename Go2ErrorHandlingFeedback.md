@@ -68,6 +68,8 @@ Critiques without counter-proposals
 
 - Simon Howard, “[Go 2 errors response: One Handler Per Function](https://gist.github.com/fragglet/df6c5471771d87b2ad597d2efc57cb3e)”, August 2018
 
+- Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
+
 ## Use defer
 
  - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
