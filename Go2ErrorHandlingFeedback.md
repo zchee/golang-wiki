@@ -34,6 +34,8 @@ Critiques without counter-proposals
 
 - Nate Finch, "[Handle and Check, Let's Not](https://npf.io/2018/09/check-and-handle/)", September 2018
 
+- Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
+
 # Counter-proposals
 
 ## Error handling with normal functions
@@ -100,8 +102,6 @@ Please help categorize the rest of the proposals here.
 
 
 - Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
-
-- Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
