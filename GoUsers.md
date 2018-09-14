@@ -200,6 +200,7 @@
   * [Delivery Hero](https://www.deliveryhero.com/)
   * [eGym](https://www.egym.de/)
   * [ESONO AG](https://www.esono.de/)
+  * [FastBill](https://www.fastbill.com/)
   * [Fraugster](https://fraugster.com/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
