@@ -10,8 +10,6 @@ Please help categorize the rest of the uncategorized proposals at the bottom.
 # In support
 
 This includes supporting the existing chaining/stacking of handlers without changes.
- 
- - Viktor Kojouharov, "[Reducing the special casing around the new error design draft](https://gist.github.com/urandom/6519990ef9eb7547e888a5f2da7f1a93)", September 2018
 
  - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
 
@@ -39,6 +37,8 @@ Critiques without counter-proposals
 # Counter-proposals
 
 ## Error handling with normal functions
+ 
+ - Viktor Kojouharov, "[Reducing the special casing around the new error design draft](https://gist.github.com/urandom/6519990ef9eb7547e888a5f2da7f1a93)", September 2018
 
 - Scott Pakin, "[Go 2 error handling based on non-local returns](https://gist.github.com/spakin/86ea86ca48aefc78b672636914f4fc23)", September 2018
 
