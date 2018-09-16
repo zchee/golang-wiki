@@ -15,7 +15,7 @@ Please keep all items in chronological order.
 | GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/<br>CFP https://talks.godays.io/godays19/ |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
-| GothamGo | 2019-04-8-9 | New York City, NY USA | http://gothamgo.com/ |
+| GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/ |
 | GopherCon San Diego 2019 | 2019-07-24-27 | San Diego, CA | TBD |
 | Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
