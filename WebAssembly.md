@@ -20,10 +20,18 @@ func main() {
 }
 ```
 
-Run:
+Set `GOOS=js` and `GOARCH=wasm` environment variables to compile for WebAssembly:
 
 ```sh
 $ GOOS=js GOARCH=wasm go build -o main.wasm
+```
+
+That will build the package and produce an executable WebAssembly module file main.wasm. The .wasm file extension will make it easier to serve it over HTTP with the correct Content-Type header later on. To execute main.wasm in a browser, we'll also need a JavaScript support file and an HTML page that connects everything together.
+
+Copy the JavaScript support file:
+
+```sh
+$ cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
 ```
 
 Create an `index.html` file:
@@ -46,12 +54,6 @@ Create an `index.html` file:
 ```
 
 (If your browser doesn't yet support `WebAssembly.instantiateStreaming`, you can use a [polyfill](https://github.com/golang/go/blob/b2fcfc1a50fbd46556f7075f7f1fbf600b5c9e5d/misc/wasm/wasm_exec.html#L17-L22).)
-
-And copy over the JavaScript support file:
-
-```sh
-$ cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
-```
 
 Then serve those three files (`index.html`, `wasm_exec.js`, and `main.wasm`) to a web browser. For example, with [`goexec`](https://github.com/shurcooL/goexec#goexec):
 
