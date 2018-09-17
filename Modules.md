@@ -34,7 +34,8 @@ The remaining content on this page is organized as follows:
   * [Are there "always on" module repositories and enterprise proxies?](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
   * [Can I control when go.mod gets updated and when the go tools use the network to satisfy dependencies?](https://github.com/golang/go/wiki/Modules#can-i-control-when-gomod-gets-updated-and-when-the-go-tools-use-the-network-to-satisfy-dependencies)
   * [How do I use modules with CI systems such as Travis or CircleCI?](https://github.com/golang/go/wiki/Modules#how-do-i-use-modules-with-ci-systems-such-as-travis-or-circleci)
-  * [Why does 'go mod tidy' put so many indirect dependencies in my go.mod?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-put-so-many-indirect-dependencies-in-my-gomod)
+  * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
+  * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/_edit#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
   * [Should I still add a go.mod file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
@@ -487,17 +488,23 @@ The following two blog posts cover these topics more concretely:
 * ["Using Go modules with vendor support on Travis CI"](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/) by Fatih Arslan 
 * ["Go Modules and CircleCI"](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) by Todd Keech 
 
-### Why does `go mod tidy` put so many indirect dependencies in my `go.mod`?
+### Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?
 
-`go mod tidy` ensures your current go.mod reflects all possible combinations of OS, architecture, and build tags (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
+In general, the modules system records precise dependency requirements in your `go.mod`. (For more details, see the [go.mod concepts](https://github.com/golang/go/wiki/Modules#gomod) section above or the [go.mod tip documentation](https://tip.golang.org/cmd/go/#hdr-The_go_mod_file)).
 
-In contrast, other commands like `go build` and `go test` only update `go.mod` to provide the packages imported by the requested packages under the current `GOOS`, `GOARCH`, and build tags.
+`go mod tidy` updates your current `go.mod` to include the transitive dependencies needed for tests in _all_ active modules, not just the main module: if a test fails (e.g., via `go test all`), we must know which dependencies were used in order to reproduce the failure.
 
-`go mod tidy` includes the transitive dependencies needed for tests in _all_ active modules, not just the main module: if a test fails (e.g. under `go test all`), we must know which dependencies were used in order to reproduce the failure.
+`go mod tidy` also ensures your current `go.mod` reflects the dependency requirements for all possible combinations of OS, architecture, and build tags (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). In contrast, other commands like `go build` and `go test` only update `go.mod` to provide the packages imported by the requested packages under the current `GOOS`, `GOARCH`, and build tags (which is one reason `go mod tidy` might add requirements that were not added by `go build` or similar).
 
 If a dependency of your module does not itself have a `go.mod` (e.g., because the dependency has not yet opted in to modules itself), or if its `go.mod` file is missing one or more of its dependencies (e.g., because the module author did not run `go mod tidy`), then the missing transitive dependencies will be added to _your_ module's requirements, along with an `// indirect` comment to indicate that the dependency is not from a direct import within your module.
 
 If you are curious why a particular module is showing up in your `go.mod`, you can run `go mod why -m <module>` to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
+
+### Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?
+
+No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above or the ["Module downloading and verification](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation for more details.
+
+In part because `go.sum` is not a lock file, it retains cryptographic checksums for module versions even after you stop using a module or particular module version. This allows validation of the checksums if you later resume using something, which provides additional safety.
 
 ### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
