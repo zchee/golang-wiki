@@ -35,7 +35,7 @@ The remaining content on this page is organized as follows:
   * [Can I control when go.mod gets updated and when the go tools use the network to satisfy dependencies?](https://github.com/golang/go/wiki/Modules#can-i-control-when-gomod-gets-updated-and-when-the-go-tools-use-the-network-to-satisfy-dependencies)
   * [How do I use modules with CI systems such as Travis or CircleCI?](https://github.com/golang/go/wiki/Modules#how-do-i-use-modules-with-ci-systems-such-as-travis-or-circleci)
   * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
-  * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/_edit#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
+  * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
   * [Should I still add a go.mod file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
@@ -502,7 +502,7 @@ If you are curious why a particular module is showing up in your `go.mod`, you c
 
 ### Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?
 
-No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above or the ["Module downloading and verification](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation for more details.
+No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above or the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation for more details.
 
 In part because `go.sum` is not a lock file, it retains cryptographic checksums for module versions even after you stop using a module or particular module version. This allows validation of the checksums if you later resume using something, which provides additional safety.
 
