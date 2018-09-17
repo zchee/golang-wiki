@@ -208,6 +208,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [ltst](https://github.com/marcelpuyat/ltst) - View the latest news of your choosing right in your terminal
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
   * [passman](https://github.com/seanpont/passman) - A command-line password manager
+  * [pdfcpu](https://github.com/hhrutter/pdfcpu) - PDF processor.
   * [pjs](http://jcasts.github.io/pjs) - Pretty print and search through JSON data structures fast.
   * [project](https://github.com/nildev/project) - Very simple CLI tool to setup new projects from boilerplate templates.
   * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
