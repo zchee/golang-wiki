@@ -203,3 +203,11 @@ func Sum(x []T:Addable) T {
 ```
 func (x Foo(type T)) Bar()
 ```
+
+- Patrick Smith: In this example, is `Foo(T)` embedded in `Bar(T)`, or does `Bar(T)` have a method named `Foo`?
+```
+type Foo(type T) interface {}
+type Bar(type T) interface {
+        Foo(T)
+}
+```
