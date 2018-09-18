@@ -30,7 +30,7 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | https://www.gophercon.com/<br>Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM<br>Lightning Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdMEZScpaoRX-vyt6pRUvfM |
 | GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/ |
 | Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
-| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | https://gophercon.is | 
+| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | [Talks](https://www.youtube.com/playlist?list=PLtoVuM73AmsJuBoOoI-12WR36nhvtlJ-A&disable_polymer=true)<br>[Website](https://gophercon.is) | 
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
 | GoCon Tokyo | 2018-04-15 | Tokyo, Japan | https://gocon.connpass.com/event/82515/ |
