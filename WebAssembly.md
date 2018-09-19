@@ -65,6 +65,31 @@ $ goexec 'http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))'
 
 Finally, navigate to http://localhost:8080/index.html, open the JavaScript debug console, and you should see the output. You can modify the program, rebuild `main.wasm`, and refresh to see new output.
 
+## Executing WebAssembly with Node.js (for go run, go test)
+
+It's possible to execute compiled WebAssembly modules using Node.js rather than a browser. The `go_js_wasm_exec` script in `misc/wasm` directory of the Go installation can be used with [`-exec` flag](https://golang.org/cmd/go/#hdr-Compile_and_run_Go_program) of the `go` command.
+
+Install `node` and make sure it's in your `PATH`. Set `-exec` flag to the location of `go_js_wasm_exec`:
+
+```
+$ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec" .
+Hello, WebAssembly!
+$ GOOS=js GOARCH=wasm go test -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec"
+PASS
+ok  	example.org/my/pkg	0.800s
+```
+
+Adding `go_js_wasm_exec` to your `PATH` will allow `go run` and `go test` to work for `js/wasm` without having to manually provide the `-exec` flag each time:
+
+```
+$ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
+$ GOOS=js GOARCH=wasm go run .
+Hello, WebAssembly!
+$ GOOS=js GOARCH=wasm go test
+PASS
+ok  	example.org/my/pkg	0.800s
+```
+
 # Interacting with the DOM
 
 See https://godoc.org/syscall/js.
