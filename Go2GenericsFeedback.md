@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+ - Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018
+
 - ohir, "[CGG, Craftsman Go Generics](https://github.com/ohir/gonerics)", September 2018
 
 - Jacob Carlborg, "[Go 2 draft D corrections](https://gist.github.com/jacob-carlborg/b3c91a94f306564158b2a6ac58a57d50)", September 2018
@@ -75,8 +77,6 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
 
  - Dave Cheney, "[Maybe adding generics to Go IS about syntax after all](https://dave.cheney.net/2018/09/03/maybe-adding-generics-to-go-is-about-syntax-after-all)", August 2018
-
- - Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", Sept 2018
 
  - etc.
 
