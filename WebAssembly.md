@@ -31,7 +31,7 @@ That will build the package and produce an executable WebAssembly module file ma
 Copy the JavaScript support file:
 
 ```sh
-$ cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
+$ cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" .
 ```
 
 Create an `index.html` file:
