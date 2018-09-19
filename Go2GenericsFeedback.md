@@ -6,8 +6,6 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
- - Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018
-
 - ohir, "[CGG, Craftsman Go Generics](https://github.com/ohir/gonerics)", September 2018
 
 - Jacob Carlborg, "[Go 2 draft D corrections](https://gist.github.com/jacob-carlborg/b3c91a94f306564158b2a6ac58a57d50)", September 2018
@@ -15,6 +13,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - alanfo, "[A simplified generics constraint system](https://gist.github.com/alanfo/fb2438f376dac0db3be5664702f39aab)", September 2018
 
 - Paul Borman, "[Simplifying syntax](https://gist.github.com/pborman/a6958ee6b7d6668e35fc99db07ea29e4)", September 2018
+
+- Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018
 
 - dotaheor, "[Combine contract and code together and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
 
@@ -44,41 +44,41 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Ted Singer, "[The design goal for syntax is to help humans read](https://gist.github.com/TedSinger/9ab1857bdd00d1f3523911362380f901)", September 2018
 
- - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
+- Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
 
- - Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
+- Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
 
- - Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
+- Steven Blenkinsop, “[Response to the Go2 Contracts Draft Design – Auxiliary Types](https://gist.github.com/stevenblenkinsop/7b967bb98f876b99dc15620f9fda9eb1)”, September 2018
 
- - alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/5da5932c7b60fd130a928ebbace1f251)", September 2018
+- alanfo, "[Suggested amendment to Go 2 generics draft design](https://gist.github.com/alanfo/5da5932c7b60fd130a928ebbace1f251)", September 2018
 
 - Arendtio "[Generics in Go inspired by Interfaces](https://gist.github.com/arendtio/77dd4df5f4b19dc69da350648434a88a)", September 2018
 
- - Liam Breck, “[Please Don't Mangle the Function Signature](https://gist.github.com/networkimprov/7c1f311f26852bc912765e4110af062b)”, August 2018
+- Dave Cheney, "[Maybe adding generics to Go IS about syntax after all](https://dave.cheney.net/2018/09/03/maybe-adding-generics-to-go-is-about-syntax-after-all)", September 2018
+
+- jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
+
+- Some Gophers on go-nuts, “[Unifying Interfaces and Contracts](https://groups.google.com/forum/#!topic/golang-nuts/aw3XQV8k1Vw)”, August 2018
+
+- Richard Fliam, "[Go2 Generics Let You Construct the Natural Numbers](https://gist.github.com/rfliam/c806a4300aa97f2762295ef97d3e924f)", August 2018
+
+- Roger Peppe, "[Go generics feedback](https://gist.github.com/rogpeppe/2be10112c9d875afc0c85effc5595a09), August 2018
+
+- Ruan Kunliang, "[Package level generics](https://gist.github.com/PeterRK/41d4d3f54b8db55cd616403fd5a389f3)", August 2018
+
+- Javier Zunzunegui, "[Compiling Generics](https://gist.github.com/JavierZunzunegui/7032f5846fd255811e7af39bd2c74f38)", August 2018
+
+- Liam Breck, “[Please Don't Mangle the Function Signature](https://gist.github.com/networkimprov/7c1f311f26852bc912765e4110af062b)”, August 2018
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 
 - Roberto (empijei) Clapis, "[Hard to read syntax](https://gist.github.com/empijei/a9665ac5e3059671be229acee8826798)", August 2018
 
-- Richard Fliam, "[Go2 Generics Let You Construct the Natural Numbers](https://gist.github.com/rfliam/c806a4300aa97f2762295ef97d3e924f)", August 2018
+- Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
 
- - Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
+- Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
 
- - Roger Peppe, "[Go generics feedback](https://gist.github.com/rogpeppe/2be10112c9d875afc0c85effc5595a09), August 2018
-
- - Ruan Kunliang, "[Package level generics](https://gist.github.com/PeterRK/41d4d3f54b8db55cd616403fd5a389f3)", August 2018
-
- - Javier Zunzunegui, "[Compiling Generics](https://gist.github.com/JavierZunzunegui/7032f5846fd255811e7af39bd2c74f38)", August 2018
-
- - jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
-
- - Some Gophers on go-nuts, “[Unifying Interfaces and Contracts](https://groups.google.com/forum/#!topic/golang-nuts/aw3XQV8k1Vw)”, August 2018
-
- - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
-
- - Dave Cheney, "[Maybe adding generics to Go IS about syntax after all](https://dave.cheney.net/2018/09/03/maybe-adding-generics-to-go-is-about-syntax-after-all)", August 2018
-
- - etc.
+- etc.
 
 ## Adding Your Feedback
 
