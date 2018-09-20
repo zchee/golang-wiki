@@ -55,6 +55,27 @@ Once installed, you can then activate module support in one of two ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` in the command environment.
 
+For example:
+
+Assume that `GOPATH=~/go`, your project is called `go-pheonix`, you use github as `gopher111`, and that you already keep other code is in `~/code`
+
+```
+mv ~/go/github.com/gopher111/go-pheonix ~/code/go-pheonix
+cd ~/code/go-pheonix
+git init || echo "module github.com/gopher111/go-pheonix" >> go.mod
+go get "github.com/spacely/go-sprocket"
+go build ./...
+```
+
+Alternatively
+
+```
+cd ~/go/github.com/gopher111/go-pheonix
+git init || echo "module github.com/gopher111/go-pheonix" >> go.mod
+GO111MODULE=on go get "github.com/spacely/go-sprocket"
+GO111MODULE=on go build ./...
+```
+
 ## New Concepts
 
 These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](https://golang.org/design/24301-versioned-go), this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
