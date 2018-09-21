@@ -121,7 +121,7 @@ transient objects or heap size is very small so garbage collections happen too
 frequently. See Garbage Collector Tracer and Memory Profiler sections for
 optimization suggestions.
 
-Note: For darwin CPU profiler currently only works on El Capitan or newer](https://code.google.com/p/go/issues/detail?id=6047).
+Note: For darwin CPU profiler currently only [works on El Capitan or newer](https://code.google.com/p/go/issues/detail?id=6047).
 
 Note: On windows you need to install Cygwin, Perl and Graphviz to generate
 svg/web profiles.
