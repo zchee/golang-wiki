@@ -134,3 +134,8 @@ Please format all entries as below.
 - _Your Name_, “[_Title_](#URL)”, _month year_
 
 To make it easier to see new feedback, please add your new proposal to the top of the section it is placed in.
+
+## Quick Comments
+
+- DeedleFake: One of the issues with the syntax of `check`, as proposed, is that chaining method calls with error returns will look really, really bad. For example, `check (check (check v.m1()).m2()).m3()`. The common way around this in many languages is the use of `?` as a postfix operator instead of prefix keyword, but this has other problems, including resulting in similar illegibility if there are nested function calls, such as in `f1(f2(f3()?)?)?`. So how's this for an alternate solution: When `check` is given a compound expression, such nested function calls or chained methods, it applies to _all_ calls in the expression, not just the one it was specifically attached to. The previous two examples then become `check v.m1().m2().m3()` and `check f1(f2(f3()))`, respectively. All other aspects of `check` remain the same, meaning that you could still use something like `v, err := f1(check f2())` and whatnot.
+  - DeedleFake: One potential awkwardness with this is the case of multiple returns being intended for use directly, such as with `func f1(int, error); func f2() (int, error); check f1(f2())`. It may be possible, however, for the application of `check` to be conditional on the usage of the types of each call, so it simply wouldn't affect the inner call to `f2()` in this case, the same as it not affecting a call to a function with no `error` return value. It would also be possible to get around this by manually calling `f2()` on a previous line, assigning the returns to values, and then passing those to `f1()`.
