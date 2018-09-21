@@ -66,20 +66,24 @@ Please keep all items in reverse chronological order (most recent first)
 | Gopher Gala | 2016-01-22 | Earth |  |
 | | **2015** | | |
 | GoLab | 2015-12-15 | Florence, Italy | http://golab.io |
-| GoCon Tokyo | 2015-12-06 | Tokyo, Japan |  |
+| GoCon Tokyo | 2015-12-06 | Tokyo, Japan | https://gocon.connpass.com/event/22930/ |
 | GopherFest SV | 2015-11-18 | Facebook, Menlo Park, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YALxdnGgvgwxTSmANOvyAo9) |
 | dotGo    | 2015-11-09 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMWwKlp9xoYX4mlNDdkCOfsUG_40WCMCX) |
 | GothamGo | 2015-10-02 | NY, NY | [videos](https://www.youtube.com/playlist?list=PLeGxIOPLk9ELh9tsPZMzau6CzMjfMzp9-) |
 | GolangUK | 2015-08-21 | London, UK | [videos](https://www.youtube.com/playlist?list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd) |
 | GopherCon Denver | 2015-07-07 | Denver, CO | [keynotes](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm), [lightning](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBeHqlHM8DmvS8axgbrpvF9b) |
-| GoCon Tokyo | 2015-06-20 | Tokyo, Japan ||
+| GoCon Tokyo | 2015-06-20 | Tokyo, Japan | https://gocon.connpass.com/event/14063/ |
 | GopherfestSF | 2015-06-25 | San Francisco, CA | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YB55ExLApKU0S8_eN5eaGkU) |
 | GopherCon India | 2015-03-17 | Bengaluru, India | [videos](https://www.youtube.com/playlist?list=PLxFC1MYuNgJTY3uQ5Ja4F5Sz305nnrBOq) |
 | Go Devroom FOSDEM | 2015-03-04 | Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb) |
 | Gopher China | 2015-04-25 | Shanghai, China | |
 | London Go Gathering | 2015-02-03 | London, UK | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)|
 | | **2014** | | |
+| GoCon Tokyo | 2014-11-30 | Tokyo, Japan | https://gocon.connpass.com/event/9748/ |
 | GothamGo | 2014-11-15 | NYC, NY | [videos](https://vimeo.com/channels/852217) |
 | dotGo | 2014-09-10 | Paris, France | [videos](https://www.youtube.com/playlist?list=PLMW8Xq7bXrG58Qk-9QSy2HRh2WVeIrs7e) |
 | Go Devroom FOSDEM | 2014-06-30 |Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
+| GoCon Tokyo | 2014-05-31 | Tokyo, Japan | https://gocon.connpass.com/event/6370/ |
 | GopherCon Denver | 2014-04-24 | Denver, CO | [videos](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBcD_BiJiDJUcyrb2w3bTulF) |
+| GoCon Tokyo | 2013-10-14 | Tokyo, Japan | https://gocon.connpass.com/event/3510/ |
+| GoCon Tokyo | 2013-04-13 | Tokyo, Japan | https://gocon.connpass.com/event/1906/ |
