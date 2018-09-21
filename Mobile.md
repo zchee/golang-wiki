@@ -128,8 +128,6 @@ $ go get -d golang.org/x/mobile/example/bind/...
 
 Note: Go Mobile runs on the same architectures as Go, which currently means ARM, ARM64, 386 and amd64 devices and emulators. Notably, Android on MIPS devices is not yet supported.
 
-If you are using Android Studio, you can use the [Gradle plugin](https://plugins.gradle.org/plugin/org.golang.mobile.bind) to automate this process.
-
 * Launch Android Studio.
 * File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
 
