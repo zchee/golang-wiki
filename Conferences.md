@@ -86,5 +86,6 @@ Please keep all items in reverse chronological order (most recent first)
 | Go Devroom FOSDEM | 2014-06-30 |Brussels, Belgium | [videos](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDKG4WcaNts3IVZqhDmmuBH) |
 | GoCon Tokyo | 2014-05-31 | Tokyo, Japan | https://gocon.connpass.com/event/6370/ |
 | GopherCon Denver | 2014-04-24 | Denver, CO | [videos](https://www.youtube.com/playlist?list=PL2ntRZ1ySWBcD_BiJiDJUcyrb2w3bTulF) |
+| | **2013** | | |
 | GoCon Tokyo | 2013-10-14 | Tokyo, Japan | https://gocon.connpass.com/event/3510/ |
 | GoCon Tokyo | 2013-04-13 | Tokyo, Japan | https://gocon.connpass.com/event/1906/ |
