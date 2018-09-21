@@ -289,6 +289,7 @@
 ## Indonesia
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
+  * [Bhinneka](http://www.bhinneka.com/)
   * [Bildeco](https://bildeco.com)
   * [Brankas](https://brank.as)
   * [Brodo](http://www.bro.do/)
