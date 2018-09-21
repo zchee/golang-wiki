@@ -2,10 +2,10 @@
 
 This page tracks the status of "Go 2".
 
-We are currently exploring potential designs for improved error handling, error values, and generics:
+We are currently seeking feedback on potential designs for improved error handling, error values, and generics:
 
-* Blog post: https://blog.golang.org/go2draft
-* Draft designs and problem overviews: https://go.googlesource.com/proposal/+/master/design/go2draft.md
+* [Announcement of Go2 Draft Designs](https://blog.golang.org/go2draft)
+* [Go2 Error Handling, Generics, and Error Values](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
 
 ## Bugs
 
