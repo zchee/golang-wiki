@@ -41,6 +41,7 @@ Please keep all items in reverse chronological order (most recent first)
 | | **2017** | | | |
 | GopherCon Brasil 2017 | 2017-11-17-19 | Florianópolis, Brazil | https://2017.gopherconbr.org/en |
 | dotGo | 2017-11-06 | Paris, France | https://www.dotgo.eu |
+| GoCon Tokyo | 2017-11-05 | Tokyo, Japan | https://gocon.connpass.com/event/66615/ |
 | GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
 | Golang UK | 2017-08-16-18 | London, UK | https://golanguk.com |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
