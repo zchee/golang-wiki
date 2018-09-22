@@ -225,6 +225,7 @@
   * [Sudokoin](http://sudokoin.com)
 
 ## Greece
+  * [Beat](https://thebeat.co)
   * [Skroutz](https://www.github.com/skroutz/)
 
 ## Hong Kong
