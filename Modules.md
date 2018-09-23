@@ -160,25 +160,18 @@ The last sentence is especially important. With Go 1.11 modules, that advice is 
 
 Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_.
 
-For code opting in to Go modules, the net result is the following rules:
+As a result of semantic import versioning, code opting in to Go modules **must comply with these rules**: 
 * Follow [semantic versioning](https://semver.org/) (with tags such as `v1.2.3`).
 * If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/foo"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
-In general, packages with different import paths (e.g., due to different major versions) are different packages. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+In general, packages with different import paths are different packages, including if different import paths are due to different major versions. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details.
 
-This section so far has been focused on code that opts in to modules. However, putting major versions in import paths for v2+ modules could create incompatibilities with older versions of Go, or with code that has not yet opted in to modules. To help with this, Go versions 1.9.7+, 1.10.3+ and 1.11 have been [updated](https://go-review.googlesource.com/c/go/+/109340)  so that code built with those releases can properly consume v2+ modules without requiring modification of pre-existing code. (When relying on this updated mechanism, a package that has _not_ yet opted in to modules would _not_ include the major version in the import path for any imported v2+ modules. In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path for any imported v2+ modules).
+This section so far has been focused on code that opts in to modules. However, putting major versions in import paths for v2+ modules could create incompatibilities with older versions of Go, or with code that has not yet opted in to modules. To help with this, Go versions 1.9.7+, 1.10.3+ and 1.11 have been [updated](https://go-review.googlesource.com/c/go/+/109340)  so that code built with those releases can properly consume v2+ modules without requiring modification of pre-existing code. (When relying on this updated mechanism, a package that has _not_ opted in to modules would _not_ include the major version in the import path for any imported v2+ modules. In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path for any imported v2+ modules).
 
-There are two ways to release a v2 or higher module version. Using the example of creating a `v2.0.0` release, the two options are:
-1. Update the `go.mod` file to include a `/v2` at the end of the module path. Tag the release with `v2.0.0`.
-   * To avoid confusion with this approach, consider putting the `v2.*.*` commits on a separate v2 branch.
-   * If instead you have been previously releasing on master and would prefer to tag `v2.0.0` on master, that is a viable option, but consider creating a v1 branch for any future v1 bug fixes.
-2. Alternatively, create a new `v2` subdirectory (e.g., `my/module/v2`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v2`. Copy or move the code into the `v2` subdirectory. Tag the release with `v2.0.0`.
-   * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
-
-The behavior of how modules interact with existing pre-module packages with v2+ tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the go command behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with v2+ tags.
+For the exact mechanics required to release a v2+ module, please see the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section below.
 
 ## How to Install and Activate Module Support
 
@@ -277,6 +270,8 @@ After upgrading or downgrading any dependencies, you may then want to run the te
 
 ## How to Prepare for a Release
 
+### Releasing Modules (All Versions)
+
 Best practices for creating a release of a module are expected to emerge as part of the initial modules experiment. Many of these might end up being automated by a [future 'go release' tool](https://github.com/golang/go/issues/26420).
 
 Some current suggested best practices to consider prior to tagging a release:
@@ -295,7 +290,20 @@ Some current suggested best practices to consider prior to tagging a release:
   * Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
   * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173). See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
 
-If you are releasing a v2 or higher module, please also see the related considerations in the ["Semantic Import Versioning" section](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) above.
+### Releasing Modules (v2 or Higher)
+
+If you are releasing a v2 or higher module, please first review the discussion in the ["Semantic Import Versioning" ](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above, which includes why major versions are included in the module path and import path for v2+ modules, as well as how Go versions 1.9.7+ and 1.10.3+ have been updated to simplify that transition.
+
+There are two ways to release a v2 or higher module. Using the example of creating a `v3.0.0` release, the two options are:
+
+1. **Most common approach**: Update the `go.mod` file to include a `/v3` at the end of the module path. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`. 
+   * Go versions 1.9.7+, 1.10.3+, and 1.11 are able to properly consume and build a v2+ module created using this approach without requiring updates to consumer code that has not yet opted in to modules (as described in the the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above). 
+   * A community tool [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod) helps automate this procedure. See the [repository](https://github.com/marwan-at-work/mod) or the [community tooling FAQ](https://github.com/golang/go/wiki/Modules#what-community-tooling-exists-for-working-with-modules) below for an overview.
+   * To avoid confusion with this approach, consider putting the `v3.*.*` commits for the module on a separate v3 branch.
+   * If instead you have been previously releasing on master and would prefer to tag `v3.0.0` on master, that is a viable option, but consider creating a v1 branch for any future v1 bug fixes.
+
+2. **Less common approach**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`.
+   * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2+ module created using this approach.
 
 ## Additional Resources
 
