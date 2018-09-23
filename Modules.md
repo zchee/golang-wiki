@@ -1,20 +1,21 @@
 # Go 1.11 Modules
 
-Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go).
+Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
 
-Go modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
+The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on July 12, 2018 support for versioned modules landed in the main repository ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)), and [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) on August 24, 2018.
 
-The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on July 12, 2018 support for versioned modules landed in the main Go repository ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)), and [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) on August 24, 2018.
+Please provide feedback on modules via [existing or new issues](https://github.com/golang/go/wiki/Modules#github-issues) and via [experience reports](https://github.com/golang/go/wiki/ExperienceReports).
 
 ## Table of Contents
 
 The remaining content on this page is organized as follows:
-* [Installing and Activating Module Support](https://github.com/golang/go/wiki/Modules#installing-and-activating-module-support)
+* [Quick Start Example](https://github.com/golang/go/wiki/Modules#quick-start-example)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
    * [Modules](https://github.com/golang/go/wiki/Modules#modules)
    * [go.mod](https://github.com/golang/go/wiki/Modules#gomod)
    * [Version Selection](https://github.com/golang/go/wiki/Modules#version-selection)
    * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
+* [How to Install and Activate Module Support](https://github.com/golang/go/wiki/Modules#how-to-install-and-activate-module-support)
 * [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
 * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
 * [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
@@ -45,35 +46,54 @@ The remaining content on this page is organized as follows:
   * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
   * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
 
-## Installing and Activating Module Support
+## Quick Start Example
 
-To use modules, two install options are:
-* [Install the latest Go 1.11 release](https://golang.org/dl/).
-* [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
+The details are covered in the remainder of this page, but here is a simple example of creating a module from scratch.
 
-Once installed, you can then activate module support in one of two ways:
-* Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
-* Invoke the `go` command with `GO111MODULE=on` in the command environment.
-
-For example:
-
-Assume that `GOPATH=~/go`, your project is called `go-pheonix`, you use github as `gopher111`, and that you already keep other code is in `~/code`
-
+Create a directory outside of your GOPATH:
 ```
-mv ~/go/github.com/gopher111/go-pheonix ~/code/go-pheonix
-cd ~/code/go-pheonix
-git init || echo "module github.com/gopher111/go-pheonix" >> go.mod
-go get "github.com/spacely/go-sprocket"
-go build ./...
+$ mkdir -p /tmp/scratchpad/hello
+$ cd /tmp/scratchpad/hello
 ```
 
-Alternatively
-
+Initialize a new module:
 ```
-cd ~/go/github.com/gopher111/go-pheonix
-git init || echo "module github.com/gopher111/go-pheonix" >> go.mod
-GO111MODULE=on go get "github.com/spacely/go-sprocket"
-GO111MODULE=on go build ./...
+$ go mod init github.com/you/hello
+
+go: creating new go.mod: module github.com/you/hello
+```
+
+Write your code:
+```
+$ cat <<EOF > hello.go
+package main
+
+import (
+    "fmt"
+    "rsc.io/quote"
+)
+
+func main() {
+    fmt.Println(quote.Hello())
+}
+EOF
+```
+
+Build and run:
+```
+$ go build 
+$ ./hello
+
+Hello, world.
+```
+
+Note your `go.mod` file includes explicit versions for your dependencies:
+```
+$ cat go.mod
+
+module github.com/you/hello
+
+require rsc.io/quote v1.5.2
 ```
 
 ## New Concepts
@@ -159,6 +179,16 @@ There are two ways to release a v2 or higher module version. Using the example o
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2 or higher module created using this approach.
 
 The behavior of how modules interact with existing pre-module packages with v2+ tags has evolved over the prototype and beta processes; an important related recent change was [issue 26238](https://golang.org/issue/26238), which substantially [improved the go command behavior](https://github.com/golang/go/issues/25967#issuecomment-407567904) for existing packages with v2+ tags.
+
+## How to Install and Activate Module Support
+
+To use modules, two install options are:
+* [Install the latest Go 1.11 release](https://golang.org/dl/).
+* [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
+
+Once installed, you can then activate module support in one of two ways:
+* Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
+* Invoke the `go` command with `GO111MODULE=on` environment variable set.
 
 ## How to Define a Module
 
