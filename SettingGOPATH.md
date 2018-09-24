@@ -68,3 +68,8 @@ There is a faster way to edit `Environment Variables` via search:
 * Left click on "Search" and type `env` or `environment`.
 * Select "Edit environment variables for your account".
 * ... and follow steps above.
+
+## Windows 10 (cli version)
+* Open a command prompt (windows-key + r then type "cmd") or a powershell window (windows-key + i)
+* Type `setx %USERPROFILE%\go`
+* Close the command or powershell window (the environment variable is only available for new command or powershell windows, not for the current window).
