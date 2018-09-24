@@ -71,5 +71,5 @@ There is a faster way to edit `Environment Variables` via search:
 
 ## Windows 10 (cli version)
 * Open a command prompt (windows-key + r then type "cmd") or a powershell window (windows-key + i)
-* Type `setx GOPATH %USERPROFILE%\go`
+* Type `setx GOPATH %USERPROFILE%\go` (this will set the `GOPATH` to your `[home folder]\go` e.g. `C:\Users\yourusername\go`
 * Close the command or powershell window (the environment variable is only available for new command or powershell windows, not for the current window).
