@@ -6,6 +6,13 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 Please help categorize the rest of the uncategorized proposals at the bottom.
 
+# Requirements
+
+Discussions of the requirements for a new error handling method.
+
+- Liam Breck, “[Requirements to Consider for Go 2 Error Handling](https://gist.github.com/networkimprov/961c9caa2631ad3b95413f7d44a2c98a)”, September 2018
+
+- Ian Lance Taylor, “[Incomplete list of criteria](https://github.com/golang/go/issues/21161#issuecomment-389380686)” from GitHub proposal discussion, May 2018
 
 # In support
 
