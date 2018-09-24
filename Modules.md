@@ -474,7 +474,7 @@ The community is starting to build tooling on top of modules. For example:
 * One sample use case is if you need to fix or investigate something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
    * `replace example.com/original/import/path => /your/forked/import/path`
 * `replace` also allows the top-level module control over the exact version used for a dependency, such as:
-   * `replace example.com/some/dependency => example.com/some/dependency@v1.2.3`
+   * `replace example.com/some/dependency => example.com/some/dependency v1.2.3`
 * `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
    * `replace example.com/project/foo => ../foo`
 * **Note**: in general, you can specify a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in the examples above).
