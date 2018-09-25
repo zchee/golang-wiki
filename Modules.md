@@ -42,9 +42,9 @@ The remaining content on this page is organized as follows:
   * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [Should I still add a 'go.mod' file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
 * [FAQs — Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#faqs-semantic-import-versioning)
-  * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
   * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
   * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+  * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
 * [FAQs — Minimal Version Selection](https://github.com/golang/go/wiki/Modules#faqs-minimal-version-selection)
   * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
@@ -323,10 +323,10 @@ There are two ways to release a v2 or higher module. Using the example of creati
 
 ### Introductory Material
 
-* Example-focused 35-minute introductory talk ["What are Go modules and how do I use them?"](https://www.youtube.com/watch?v=6MbIzJmLz6Q&list=PL8QGElREVyDA2iDrPNeCe8B1u7li5S6ep&index=5&t=0s) ([slides](https://talks.godoc.org/github.com/myitcv/talks/2018-08-15-glug-modules/main.slide#1)) by Paul Jolly (August 15, 2018)
+* Example based 35 minute introductory video ["What are Go modules and how do I use them?"](https://www.youtube.com/watch?v=6MbIzJmLz6Q&list=PL8QGElREVyDA2iDrPNeCe8B1u7li5S6ep&index=5&t=0s) ([slides](https://talks.godoc.org/github.com/myitcv/talks/2018-08-15-glug-modules/main.slide#1)) by Paul Jolly (August 15, 2018)
 * Introductory blog post ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (July 14, 2018)
 * Introductory [Go Meetup slides on modules](https://docs.google.com/presentation/d/1ansfXN8a_aVL-QuvQNY7xywnS78HE8aG7fPiITNQWMM/edit#slide=id.g3d87f3177d_0_0) by Chris Hines (July 16, 2018)
-* Introductory 40-minute video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
+* Introductory 40 minute video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
   * Succinctly covers the philosophy behind the design of versioned Go modules, including the three core principles of "Compatibility", "Repeatability", and "Cooperation"
 
 ### Additional Material
@@ -362,7 +362,7 @@ Here is a partial list of some of the larger changes and improvements, almost al
 * [Closed vgo issues](https://github.com/golang/go/issues?page=3&q=-label%3Amodules+vgo+is%3Aclosed)
 * Submit a [new module issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
 
-## FAQ
+## FAQs — Most Common
 
 ### How are versions marked as incompatible?
 
@@ -451,6 +451,8 @@ Some tracking issues for particular tools includes:
 In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
 
 The full fix is to move programs that load packages off of `go/build` and onto `golang.org/x/tools/go/packages`, which understands how to locate packages in a module-aware manner. This will likely eventually become `go/packages`.
+
+## FAQs — Additional Control
 
 ### What community tooling exists for working with modules?
 
@@ -548,6 +550,8 @@ The following two blog posts cover these topics more concretely:
 * ["Using Go modules with vendor support on Travis CI"](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/) by Fatih Arslan 
 * ["Go Modules and CircleCI"](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) by Todd Keech 
 
+## FAQs — go.mod and go.sum
+
 ### Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?
 
 In general, the modules system records precise dependency requirements in your `go.mod`. (For more details, see the [go.mod concepts](https://github.com/golang/go/wiki/Modules#gomod) section above or the [go.mod tip documentation](https://tip.golang.org/cmd/go/#hdr-The_go_mod_file)).
@@ -572,6 +576,16 @@ In addition, your module's `go.sum` records checksums for all direct and indirec
 
 Yes. This supports working outside of GOPATH, helps communicate to the ecosystem that you are opting in to modules, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is one reason why import comments might eventually be deprecated). Of course, modules are purely an opt-in capability in Go 1.11.
 
+## FAQs — Semantic Import Versioning
+
+### Why must major version numbers appear in import paths?
+
+Please see the discussion on the semantic import versioning and the import compatibility rule in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) concepts section above. See also the [blog post announcing the proposal](https://blog.golang.org/versioning-proposal), which talks more about the motivation and justification for the import compatibility rule.
+
+### Why are major versions v0, v1 omitted from import paths?"
+
+Please see the question "Why are major versions v0, v1 omitted from import paths?" in the earlier [FAQ from the official proposal discussion](https://github.com/golang/go/issues/24301#issuecomment-371228664).
+
 ### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
 In response to a comment about *"k8s does minor releases but changes the Go API in each minor release"*, Russ Cox made the following [response](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882) that highlights some implications for picking v0, v1, vs. frequently making breaking changes with v2, v3, v4, etc. with your project:
@@ -583,6 +597,14 @@ In response to a comment about *"k8s does minor releases but changes the Go API 
 > * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
 
 On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
+
+## FAQs — Minimal Version Selection
+
+### Won't minimal version selection keep developers from getting important updates?
+
+Please see the question "Won't minimal version selection keep developers from getting important updates?" in the earlier [FAQ from the official proposal discussion](https://github.com/golang/go/issues/24301#issuecomment-371228664).
+
+## FAQs — Possible Problems
 
 ### Why does `go build` require gcc, and why are prebuilt packages such as net/http not used?
 
@@ -597,6 +619,8 @@ This is only an issue when opting in to modules (e.g., via `GO111MODULE=on`). Se
 No. See [#26645](https://github.com/golang/go/issues/26645#issuecomment-408572701), which includes:
 
 > In modules, there finally is a name for the subdirectory. If the parent directory says "module m" then the subdirectory is imported as "m/subdir", no longer "./subdir".
+
+## FAQs — Miscellaneous
 
 ### How did the `go mod` commands change in `go1.11beta3`?
 
@@ -629,9 +653,4 @@ It simplifies the command lines
 and allows command-specific flags.
 ```
 
-### Additional frequently asked questions
 
-* Please see the earlier [FAQ from the official proposal discussion](https://github.com/golang/go/issues/24301#issuecomment-371228664), including answers to common question such as:
-  * "Won't minimal version selection keep developers from getting important updates?"
-  * "Why are major versions v0, v1 omitted from import paths?"
-  * "Why must major version numbers appear in import paths?"
