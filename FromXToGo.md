@@ -10,6 +10,7 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [5 Reasons Why We switched from Python To Go](https://medium.com/@tigranbs/5-reasons-why-we-switched-from-python-to-go-4414d5f42690)
 * [Stream: Why we switched from Python to Go](https://getstream.io/blog/switched-python-go)
 * [Code Migration in Production: Rewriting the Sharding Layer of Uber’s Schemaless Datastore](https://eng.uber.com/schemaless-rewrite/)
+* [Learning Go by porting a medium-sized web backend from Python](https://benhoyt.com/writings/learning-go/)
 
 # Node
 
