@@ -196,7 +196,7 @@ Once installed, you can then activate module support in one of two ways:
 
 ### How to Define a Module
 
-Most projects will follow the simplest approach of using a single module per repository, which typically would mean creating one `go.mod` file located in the root directory of the repository. (Multiple modules are supported in a single repository, but most often that would result in more work on an on-going basis than a single module per repository).
+Most projects will follow the simplest approach of using a single module per repository, which typically would mean creating one `go.mod` file located in the root directory of a repository. (Multiple modules are supported in a single repository, but most often that would result in more work on an on-going basis than a single module per repository).
 
 To create a `go.mod` for an existing project:
 
@@ -221,7 +221,7 @@ To create a `go.mod` for an existing project:
    ```
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
-   `go mod` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if it does not automatically determine the module path, or if you need to otherwise override that path, you can supply the module path as follows:
+   `go mod init` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if `go mod init` states it can not automatically determine the module path, or if you need to otherwise override that path, you can supply the module path as follows:
 
    ```
    $ go mod init github.com/you/hello
