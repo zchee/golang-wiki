@@ -15,19 +15,21 @@ The remaining content on this page is organized as follows:
    * [go.mod](https://github.com/golang/go/wiki/Modules#gomod)
    * [Version Selection](https://github.com/golang/go/wiki/Modules#version-selection)
    * [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning)
-* [How to Install and Activate Module Support](https://github.com/golang/go/wiki/Modules#how-to-install-and-activate-module-support)
-* [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
-* [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
-* [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
+* [How to Use Modules](https://github.com/golang/go/wiki/Modules#how-to-use-modules)
+   * [How to Install and Activate Module Support](https://github.com/golang/go/wiki/Modules#how-to-install-and-activate-module-support)
+   * [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
+   * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
+   * [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
 * [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
 * [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
-* [FAQ](https://github.com/golang/go/wiki/Modules#faq)
+* [FAQs — Most Common](https://github.com/golang/go/wiki/Modules#faqs-most-common)
   * [How are versions marked as incompatible?](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible)
   * [When do I get old behavior vs. new module-based behavior?](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior)
   * [Why does installing a tool via 'go get' fail with error 'cannot find main module'?](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module)
   * [How can I track tool dependencies for a module?](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module)
   * [What is the status of module support in IDEs, editors and standard tools like goimports, gorename, etc.?](https://github.com/golang/go/wiki/Modules#what-is-the-status-of-module-support-in-ides-editors-and-standard-tools-like-goimports-gorename-etc)
+* [FAQs — Additional Control](https://github.com/golang/go/wiki/Modules#faqs-additional-control)
   * [What community tooling exists for working with modules?](https://github.com/golang/go/wiki/Modules#what-community-tooling-exists-for-working-with-modules)
   * [When should I use the 'replace' directive?](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive)
   * [Can I work entirely outside of VCS on my local filesystem?](https://github.com/golang/go/wiki/Modules#can-i-work-entirely-outside-of-vcs-on-my-local-filesystem)
@@ -35,16 +37,21 @@ The remaining content on this page is organized as follows:
   * [Are there "always on" module repositories and enterprise proxies?](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
   * [Can I control when go.mod gets updated and when the go tools use the network to satisfy dependencies?](https://github.com/golang/go/wiki/Modules#can-i-control-when-gomod-gets-updated-and-when-the-go-tools-use-the-network-to-satisfy-dependencies)
   * [How do I use modules with CI systems such as Travis or CircleCI?](https://github.com/golang/go/wiki/Modules#how-do-i-use-modules-with-ci-systems-such-as-travis-or-circleci)
+* [FAQs — go.mod and go.sum](https://github.com/golang/go/wiki/Modules#faqs-gomod-and-gosum)
   * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
   * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [Should I still add a 'go.mod' file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
+* [FAQs — Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#faqs-semantic-import-versioning)
   * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
+  * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+  * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+* [FAQs — Minimal Version Selection](https://github.com/golang/go/wiki/Modules#faqs-minimal-version-selection)
+  * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
+* [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
+* [FAQs — Miscellaneous](https://github.com/golang/go/wiki/Modules#faqs-miscellaneous)
   * [How did the 'go mod' commands change in go1.11beta3?](https://github.com/golang/go/wiki/Modules#how-did-the-go-mod-commands-change-in-go111beta3)
-  * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
-  * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
-  * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#additional-frequently-asked-questions)
 
 ## Quick Start Example
 
@@ -173,7 +180,9 @@ This section so far has been focused on code that opts in to modules. However, p
 
 For the exact mechanics required to release a v2+ module, please see the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section below.
 
-## How to Install and Activate Module Support
+## How to Use Modules
+
+### How to Install and Activate Module Support
 
 To use modules, two install options are:
 * [Install the latest Go 1.11 release](https://golang.org/dl/).
@@ -183,7 +192,7 @@ Once installed, you can then activate module support in one of two ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
 * Invoke the `go` command with `GO111MODULE=on` environment variable set.
 
-## How to Define a Module
+### How to Define a Module
 
 To create a `go.mod` for an existing project:
 
@@ -203,11 +212,7 @@ To create a `go.mod` for an existing project:
 2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
-   # if using Go 1.11, 'master', or the latest 'vgo', use the newer form:  
    $ go mod init                  
-
-   # in go1.11beta2 and earlier, the older form was:
-   $ go mod -init                
    ```
 
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
@@ -215,11 +220,7 @@ To create a `go.mod` for an existing project:
    If `go mod` cannot automatically determine an appropriate module path (e.g., if running outside of VCS), or if you need to otherwise override that path, you can supply the module path as follows:
 
    ```
-   # if using Go 1.11, 'master', or the latest 'vgo', use the newer form:  
    $ go mod init example.com/my/module/v2
-
-   # in go1.11beta2 and earlier, the older form was:
-   $ go mod -init -module example.com/my/module/v2    
    ```
 
 3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
@@ -276,7 +277,7 @@ Best practices for creating a release of a module are expected to emerge as part
 
 Some current suggested best practices to consider prior to tagging a release:
 
-* Run `go mod tidy` (or if running go1.11beta2 or earlier: `go mod -sync`) to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
+* Run `go mod tidy` to possibly prune any extraneous requirements (as described [here](https://tip.golang.org/cmd/go/#hdr-Maintaining_module_requirements)) and also ensure your current go.mod reflects all possible build tags/OS/architecture combinations (as described [here](https://github.com/golang/go/issues/25971#issuecomment-399091682)). 
   * In contrast, other commands like `go build` and `go test` will not remove dependencies from `go.mod` that are no longer required and only update `go.mod` based on the current build invocation's tags/OS/architecture.
 
 * Run `go test all` to test your module (including running the tests for your direct and indirect dependencies) as a way of validating that the currently selected packages versions are compatible. 
