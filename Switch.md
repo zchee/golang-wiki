@@ -173,6 +173,8 @@ default:
 	error()
 }
 ```
+Note: `fallthrough` does not work in type switch.
+
 ## Multiple cases
 
 If you want to use multiple values in the same case, use a comma-separated list.
