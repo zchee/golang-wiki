@@ -6,7 +6,7 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
-- Scott Cotton, "[Draft Proposal Modification for Unifying Contracts and Interfaces](https://github.com/wsc1/proposal/design/go2draft-contracts.md)", September 2018
+- Scott Cotton, "[Draft Proposal Modification for Unifying Contracts and Interfaces](https://github.com/wsc1/proposal/blob/master/design/go2draft-contracts.md)", September 2018
 
 - ohir, "[CGG, Craftsman Go Generics](https://github.com/ohir/gonerics)", September 2018
 
