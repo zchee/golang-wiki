@@ -17,6 +17,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Cosmos Nicolaou "[Inspection of errors in a different address space](https://github.com/cosnicolaou/core/wiki/go-2.0-error-handling-feedback)", September 2018
 - Chris Siebenmann, "[Error inspection improves current annoyances but may not go far enough](https://utcc.utoronto.ca/~cks/space/blog/programming/Go2ErrorInspectionViews)", September 2018
  - Paul Meyer, “[errors.New?]( - _Your Name_, “[_Title_](#URL)”, August 2018
+ - Vojtech Vitek "[adopt Cause and Wrap from github.com/pkg/errors](https://golang.org/issue/25675)", May 2018
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
