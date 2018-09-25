@@ -174,7 +174,9 @@ As a result of semantic import versioning, code opting in to Go modules **must c
 
 In general, packages with different import paths are different packages, including if different import paths are due to different major versions. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
-See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details.
+One exception to the rules above is existing code that uses import paths starting with `gopkg.in` (such as `gopkg.in/yaml.v1` and `gopkg.in/yaml.v2`) can continue to use those forms for their module paths and import paths when opting in to modules.
+
+See the ["Module compatibility and semantic versioning"](https://tip.golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the tip documentation for more details on semantic import versioning.
 
 This section so far has been focused on code that opts in to modules. However, putting major versions in import paths for v2+ modules could create incompatibilities with older versions of Go, or with code that has not yet opted in to modules. To help with this, Go versions 1.9.7+, 1.10.3+ and 1.11 have been [updated](https://go-review.googlesource.com/c/go/+/109340)  so that code built with those releases can properly consume v2+ modules without requiring modification of pre-existing code. (When relying on this updated mechanism, a package that has _not_ opted in to modules would _not_ include the major version in the import path for any imported v2+ modules. In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path for any imported v2+ modules).
 
@@ -194,19 +196,22 @@ Once installed, you can then activate module support in one of two ways:
 
 ### How to Define a Module
 
+Most projects will follow the simplest approach of using a single module per repository, which typically would mean creating one `go.mod` file located in the root directory of the repository. (Multiple modules are supported in a single repository, but most often that would result in more work on an on-going basis than a single module per repository).
+
 To create a `go.mod` for an existing project:
 
-1. Navigate to the root of the module's source tree and activate module mode in the `go` command:
+1. Navigate to the root of the module's source tree outside of GOPATH:
 
    ```
-   $ cd $GOPATH/src/<project path>
-   $ export GO111MODULE=on
+   $ cd <project path outside $GOPATH/src>         # e.g., cd ~/projects/hello
    ```
+   Note that outside of GOPATH, you do not need to set `GO111MODULE` to activate module mode.
 
-   or:
+   Alternatively, if you want to work in your GOPATH:
 
    ```
-   $ cd <project path outside $GOPATH/src>
+   $ export GO111MODULE=on                         # manually active module mode
+   $ cd $GOPATH/src/<project path>                 # e.g., cd $GOPATH/src/you/hello
    ```
 
 2. Create the initial module definition and write it to the `go.mod` file:
@@ -214,13 +219,12 @@ To create a `go.mod` for an existing project:
    ```
    $ go mod init                  
    ```
-
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
-   If `go mod` cannot automatically determine an appropriate module path (e.g., if running outside of VCS), or if you need to otherwise override that path, you can supply the module path as follows:
+   `go mod` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if it does not automatically determine the module path, or if you need to otherwise override that path, you can supply the module path as follows:
 
    ```
-   $ go mod init example.com/my/module/v2
+   $ go mod init github.com/you/hello
    ```
 
 3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
@@ -358,8 +362,8 @@ Here is a partial list of some of the larger changes and improvements, almost al
 ## GitHub Issues
 
 * [Currently open module issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
-* [Closed module issues](https://golang.org/issues?q=is%3Aclosed+is%3Aissue+label:modules)
-* [Closed vgo issues](https://github.com/golang/go/issues?page=3&q=-label%3Amodules+vgo+is%3Aclosed)
+* [Closed module issues](https://github.com/golang/go/issues?q=is%3Aclosed+is%3Aissue+label%3Amodules+sort%3Aupdated-desc)
+* [Closed vgo issues](https://github.com/golang/go/issues?q=-label%3Amodules+vgo+is%3Aclosed+sort%3Aupdated-desc)
 * Submit a [new module issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
 
 ## FAQs — Most Common
@@ -445,7 +449,6 @@ The status of other tools such as goimports, guru, gorename and similar tools is
 
 Some tracking issues for particular tools includes:
 * **gocode**: tracking issue in [mdempsky/gocode/#46](https://github.com/mdempsky/gocode/issues/46). Note that `nsf/gocode` is recommending people migrate off of `nsf/gocode` to `mdempsky/gocode`.
-* **goimports**: possible work-in-progress approach in [CL 128362](https://go-review.googlesource.com/c/tools/+/128362).
 * **go-tools** (tools by dominikh such as staticcheck, megacheck, gosimple): sample tracking issue [dominikh/go-tools#328](https://github.com/dominikh/go-tools/issues/328).
 
 In general, even if your editor, IDE or other tools have not yet been made module aware, much of their functionality should work with modules if you are using modules inside GOPATH and do `go mod vendor` (because then the proper dependencies should be picked up via GOPATH).
@@ -566,7 +569,7 @@ If you are curious why a particular module is showing up in your `go.mod`, you c
 
 ### Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?
 
-No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above or the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation for more details.
+No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above for more details (including why you typically should check in `go.sum`) as well as the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation.
 
 In part because `go.sum` is not a lock file, it retains cryptographic checksums for module versions even after you stop using a module or particular module version. This allows validation of the checksums if you later resume using something, which provides additional safety.
 
