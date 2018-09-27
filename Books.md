@@ -271,12 +271,6 @@ Sorted by publication date.
     * ISBN: 9781617293092
     * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
 
-  * **Go Systems Programming**
-    * Author: Mihalis Tsoukalos
-    * Publication Date: September 2017
-    * ISBN: 9781787125643
-    * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
-
 ## Pre-order
 
   * **Black Hat Go**
