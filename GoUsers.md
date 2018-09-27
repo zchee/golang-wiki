@@ -564,15 +564,16 @@
 * [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US, UK, Romania and Australia
 
 ## Russia
-* [Acronis](http://acronis.com)
-* [ITooLabs](http://itoolabs.com)
-* [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
-* [Gett](http://gett.com/)
 * [2GIS](http://info.2gis.com/)
-* [Tochka](http://tochka.com/)
-* [OZON.ru](http://ozon.ru/)
+* [Acronis](http://acronis.com)
 * [avito.ru](http://avito.ru/)
+* [Gett](http://gett.com/)
+* [ITooLabs](http://itoolabs.com)
+* [Izvestia](https://iz.ru)
+* [OZON.ru](http://ozon.ru/)
+* [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
 * [ThetaPad](http://thetapad.com/)
+* [Tochka](http://tochka.com/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
