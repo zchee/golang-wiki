@@ -93,6 +93,8 @@ Critiques without counter-proposals
 
 ## try/catch/finally syntax
 
+- Kiura Magomadov, “[Addition to Go2 draft error handling](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027)", September 2018
+
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
 
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
@@ -134,8 +136,6 @@ Please help categorize the rest of the proposals here.
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
 - Yesuu Zhang, "[Pass the check and handle parameters, custom handle](https://github.com/yesuu/go-proposal/blob/master/go2errorhanding.md)", September 2018
-
-- Kiura Magomadov, “[Addition to Go2 draft error handling](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027)", September 2018
 
 
 ## Adding Your Feedback
