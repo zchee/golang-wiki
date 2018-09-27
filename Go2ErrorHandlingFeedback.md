@@ -85,6 +85,8 @@ Critiques without counter-proposals
 
 - Eli Bendersky, "[Thoughts on the Go 2 Error Handling proposal](https://gist.github.com/eliben/d0c872054864bfc1110ec761c3c53c47)", September 2018
 
+- Yoshiki Shibukawa, "[Every handles should have return statement](https://gist.github.com/shibukawa/42a9dee400c2f8577b4a763bcb1a5e5f)", September 2018
+
 ## Use defer
 
  - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
