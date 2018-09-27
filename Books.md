@@ -619,6 +619,12 @@ Sorted by publication date.
     * ISBN: 979-1-16175-190-0
     * Reference: http://www.acornpub.co.kr/book/microservices-go
 
+  * **Go 마스터하기**
+    * Author: Mihalis Tsoukalos; translated by Kihyuk Nam
+    * Publication Date: October 2018
+    * ISBN: 979-1-16175-208-2
+    * Reference: http://acornpub.co.kr/book/mastering-go
+
 # Indonesian
   * **Bahasa Pemrograman Go**
     * Author: Sajarwo Anggai
