@@ -6,7 +6,7 @@ This is a laundry list of common mistakes, not a comprehensive style guide.
 
 You can view this as a supplement to [Effective Go](https://golang.org/doc/effective_go.html).
 
-**Please discuss changes before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
+**Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CodeReviewComments+change) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
 * [Gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
