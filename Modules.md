@@ -23,7 +23,7 @@ The remaining content on this page is organized as follows:
 * [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
 * [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
-* [FAQs — Most Common](https://github.com/golang/go/wiki/Modules#faqs--most-common)
+* [FAQs](https://github.com/golang/go/wiki/Modules#faqs)
   * [How are versions marked as incompatible?](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible)
   * [When do I get old behavior vs. new module-based behavior?](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior)
   * [Why does installing a tool via 'go get' fail with error 'cannot find main module'?](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module)
@@ -301,14 +301,16 @@ If you are releasing a v2 or higher module, please first review the discussion i
 
 There are two ways to release a v2 or higher module. Using the example of creating a `v3.0.0` release, the two options are:
 
-1. **Most common approach**: Update the `go.mod` file to include a `/v3` at the end of the module path. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`. 
+1. **Major branch**: Update the `go.mod` file to include a `/v3` at the end of the module path. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`. 
    * Go versions 1.9.7+, 1.10.3+, and 1.11 are able to properly consume and build a v2+ module created using this approach without requiring updates to consumer code that has not yet opted in to modules (as described in the the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above). 
    * A community tool [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod) helps automate this procedure. See the [repository](https://github.com/marwan-at-work/mod) or the [community tooling FAQ](https://github.com/golang/go/wiki/Modules#what-community-tooling-exists-for-working-with-modules) below for an overview.
    * To avoid confusion with this approach, consider putting the `v3.*.*` commits for the module on a separate v3 branch.
    * If instead you have been previously releasing on master and would prefer to tag `v3.0.0` on master, that is a viable option, but consider creating a v1 branch for any future v1 bug fixes.
 
-2. **Less common approach**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`.
+2. **Major subdirectory**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2+ module created using this approach.
+
+See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
 
 ## Additional Resources
 
@@ -504,7 +506,7 @@ require (
 
 replace example.com/me/goodbye => ../goodbye
 ```
-As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that the `require` directive is needed. (A common mistake is to include `replace foo => ../foo` without having a corresponding `require foo v0.0.0`).
+As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that the `require` directive is needed. (`replace foo => ../foo` doesn't yet work without a corresponding `require foo v0.0.0`: see [#26241](https://golang.org/issue/26241).)
 
 A small runnable example is shown in this [thread](https://groups.google.com/d/msg/golang-nuts/1nYoAMFZVVM/eppaRW2rCAAJ).
 
