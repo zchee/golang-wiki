@@ -40,7 +40,7 @@ Drivers for Go's sql package include:
   * **SQLite** (uses cgo): https://github.com/mxk/go-sqlite
   * **SQLite**: (uses cgo): https://github.com/rsc/sqlite
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
-  * **Vitess**: https://godoc.org/github.com/youtube/vitess/go/vt/vitessdriver
+  * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
 
 Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.  
