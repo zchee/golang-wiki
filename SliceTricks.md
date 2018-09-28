@@ -166,3 +166,21 @@ Yields the following:
 ```go
 [[0 1 2] [3 4 5] [6 7 8] [9]]
 ```
+
+### In-place deduplicate (comparable) 
+
+```go
+import "sort"
+
+in := []int{3,2,1,4,3,2,1,4,1} // any item can be sorted
+sort.Ints(in)
+j := 0
+for i := 1; i < len(in); i++ {
+	if in[j] == in[i] {
+		continue
+	}
+	j++
+	in[i], in[j] = in[j], in[i]
+}
+fmt.Println(in[:j+1]) // [1 2 3 4]
+```
