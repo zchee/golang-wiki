@@ -131,3 +131,7 @@ Please get involved and help drive this if you're interested in the Debugger sid
 # Editor configuration
 
 * [Configuring GoLand for WebAssembly](https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly) - Shows the exact steps needed for getting Wasm working in GoLand
+
+# WebAssembly in Chrome
+
+If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info [here](https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/).
