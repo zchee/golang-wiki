@@ -581,6 +581,7 @@
 ## Singapore
 * [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 * [Rate](https://rate.com.sg)
+
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
   * [Niteo](https://www.niteo.co)
