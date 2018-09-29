@@ -82,6 +82,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
 
+- Yoshiki Shibukawa, "[Feedback for generics/contract proposals](https://gist.github.com/shibukawa/9c9eba1e68c3721f96b6f1456cfc4271), September 2018"
+
 - etc.
 
 ## Adding Your Feedback
