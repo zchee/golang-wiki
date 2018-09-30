@@ -103,6 +103,8 @@ Critiques without counter-proposals
 
 - Jan Semmelink, “[if-else-undo-done](https://gist.github.com/jansemmelink/235228a0fb56d0eeba8085ab5f8178f3)”, August 2018
 
+- Vladimir Utoplov, "[Handling throws/throw idiom](https://gist.github.com/trashgenerator/d58e05522d2f83709e1a601564b68fee)", September 2018
+
 ## Other
 
 - DeedleFake, "[Possible Solution to `check` Awkwardness with Chained Method Calls](https://gist.github.com/DeedleFake/5e8e9e39203dff4839793981f79123aa)", September 2018
