@@ -526,6 +526,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gosqlite (forked)](https://github.com/gwenn/gosqlite) - A fork of gosqlite
   * [gosqlite](http://code.google.com/p/gosqlite/) - a trivial SQLite binding for Go.
   * [go-sqlite](https://github.com/mxk/go-sqlite) - A database/sql driver and standalone sqlite3 interface
+  * [go-sqlite-lite](https://github.com/bvinc/go-sqlite-lite) - A simple SQLite package for Go.
   * [mattn's go-sqlite3](https://github.com/mattn/go-sqlite3) - sqlite3 driver conforming to the built-in database/sql interface
 
 ### ORM
