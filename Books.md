@@ -613,6 +613,12 @@ Sorted by publication date.
     * ISBN: 979-1-16175-190-0
     * Reference: http://www.acornpub.co.kr/book/microservices-go
 
+  * **Go 언어 시작하기**
+    * Author: 박혜영, 서정인
+    * Publication Date: September 2018
+    * ISBN: 979-1-15600-606-0
+    * Reference: http://www.hongpub.co.kr/sub.php?goPage=view_product&flashpage=&Code=20180911072243
+
   * **Go 마스터하기**
     * Author: Mihalis Tsoukalos; translated by Kihyuk Nam
     * Publication Date: October 2018
