@@ -47,6 +47,8 @@ Critiques without counter-proposals
 
 ## Error handling with normal functions
 
+- Andrew Phillips, “[Use closures rather than handlers](http://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html)”, October 2018
+
  - Taihei Morikuni, "[Use functions as an error handler, Add syntactic sugar to remove duplicated if statement](https://gist.github.com/morikuni/bbe4b2b0384507b42e6a79d4eca5fc61)", September 2018 
 
  - Viktor Kojouharov, "[Reducing the special casing around the new error design draft](https://gist.github.com/urandom/6519990ef9eb7547e888a5f2da7f1a93)", September 2018
