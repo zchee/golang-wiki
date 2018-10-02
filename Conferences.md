@@ -7,7 +7,7 @@ Please keep all items in chronological order.
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
 | GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
-| GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io<br>CFP https://www.papercall.io/gowayfest |
+| GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io |
 | Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
 | Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
