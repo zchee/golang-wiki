@@ -34,4 +34,4 @@ As the amount of feedback grows, please feel free to organize this page by speci
 ### Misc
 
 - Andrew Chambers, [My current error approach](https://gist.github.com/andrewchambers/5cadb2b8b45271440f1a051bb1ccc9c6), August, 2018
-- mikioh, [A walkthrough on Error Values for Issue 18183](https://gist.github.com/mikioh/93f575120ded671bad18491ecf41743d), October, 2018
+- mikioh, [A walkthrough on Error Values for issue 18183](https://gist.github.com/mikioh/93f575120ded671bad18491ecf41743d), October, 2018
