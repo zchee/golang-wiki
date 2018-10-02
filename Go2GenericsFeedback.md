@@ -84,6 +84,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Yoshiki Shibukawa, "[Feedback for generics/contract proposals](https://gist.github.com/shibukawa/9c9eba1e68c3721f96b6f1456cfc4271), September 2018"
 
+- Christian Surlykke, "[Constraints for Go Generics](https://github.com/surlykke/Go-Generics-with-constraints/tree/V2.0), September 2018"
+
 - etc.
 
 ## Adding Your Feedback
