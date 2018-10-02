@@ -1004,6 +1004,7 @@
   * [SmugMug](http://www.smugmug.com/) - [blog](http://sorcery.smugmug.com/2012/04/06/deriving-json-types-in-go/)
   * [Skimlinks](http://www.skimlinks.com) [blog](https://speakerdeck.com/rjohnsondev/go-at-skimlinks)
   * [Social Blade](https://socialblade.com)
+  * [Sorint.US](https://www.sorintlab.com) - [github](https://github.com/sorintlab)
   * [SoundCloud](http://soundcloud.com) - [blog](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
   * [SoundHound](http://soundhound.com)
   * [Sourcegraph](https://sourcegraph.com) - [talk](http://www.youtube.com/watch?v=-DpKaoPz8l8), [github](https://github.com/sourcegraph)
