@@ -201,7 +201,9 @@ Sorted by publication date.
   * Author: Kamesh Balasubramanian
   * Publication Date: December 2017
   * ISBN: 978-1788394185
-  * Reference: https://www.packtpub.com/web-development/isomorphic-go
+  * Reference: 
+    * https://www.packtpub.com/web-development/isomorphic-go
+    * https://www.amazon.com/dp/1788394186
 
 * **Security with Go**
   * Author: John Daniel Leon
@@ -238,12 +240,6 @@ Sorted by publication date.
     * Publication Date: May 2018
     * ISBN: 9781789139433
     * Reference: https://www.amazon.com/dp/1789139430
-
-* **Isomorphic Go**
-    * Author: Kamesh Balasubramanian 
-    * Publication Date: December 2017
-    * ISBN: 9781788394185
-    * Reference: https://www.amazon.com/dp/1788394186
 
 * **Hands-On Serverless Applications with Go**
     * Author: Mohamed Labouardy
