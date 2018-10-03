@@ -50,6 +50,7 @@ The remaining content on this page is organized as follows:
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
+  * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
 * [FAQs — Miscellaneous](https://github.com/golang/go/wiki/Modules#faqs--miscellaneous)
   * [How did the 'go mod' commands change in go1.11beta3?](https://github.com/golang/go/wiki/Modules#how-did-the-go-mod-commands-change-in-go111beta3)
 
@@ -628,6 +629,10 @@ This is only an issue when opting in to modules (e.g., via `GO111MODULE=on`). Se
 No. See [#26645](https://github.com/golang/go/issues/26645#issuecomment-408572701), which includes:
 
 > In modules, there finally is a name for the subdirectory. If the parent directory says "module m" then the subdirectory is imported as "m/subdir", no longer "./subdir".
+
+### Some needed files may not be present in populated vendor directory
+
+Only *.go files are copied inside vendor directory by `go mod vendor`, this is by design, see [#27618](https://github.com/golang/go/issues/27618).
 
 ## FAQs — Miscellaneous
 
