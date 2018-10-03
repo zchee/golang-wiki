@@ -107,6 +107,7 @@
   * [Greenfield Labs / Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Hootsuite](https://hootsuite.com/)
+  * [Index Exchange](https://www.indexexchange.com) - [jobs](https://www.indexexchange.com/careers/)
   * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
   * [Koho](https://www.koho.ca/)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
