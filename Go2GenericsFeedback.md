@@ -229,3 +229,5 @@ To make it easier to see new feedback. Please *make a Gist*. And also help to ke
             Foo(T)
     }
     ```
+
+- Xingtao Zhao: There are too many round brackets in the proposal. In the proposal, it is said that "[]" is ambiguous in some cases. While if we use [type T, S contract], there are no ambiguities any more.
