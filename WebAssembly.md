@@ -145,7 +145,7 @@ If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-we
 
 The Go 1.11 release [has a bug](https://github.com/golang/go/issues/27961) which can generate incorrect wasm code in some (rare) circumstances.
 
-If your go code compiles to wasm ok, but gives an error in the browser like:
+If your go code compiles to wasm without problem, but produces an error like this when run in the browser:
 
 ```
 CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
