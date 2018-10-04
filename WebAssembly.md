@@ -39,7 +39,6 @@ $ cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" .
 Create an `index.html` file:
 
 ```HTML
-<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
