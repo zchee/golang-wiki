@@ -140,3 +140,17 @@ Please get involved and help drive this if you're interested in the Debugger sid
 # WebAssembly in Chrome
 
 If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info [here](https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/).
+
+# Known bug
+
+The Go 1.11 release [has a bug](https://github.com/golang/go/issues/27961) which can generate incorrect wasm code in some (rare) circumstances.
+
+If your go code compiles to wasm ok, but gives an error in the browser like:
+
+```
+CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
+```
+
+Then you're probably hitting this bug.
+
+The fix has been added to both the Go [1.11 release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches, so re-compiling Go from either of those will solve the problem.
