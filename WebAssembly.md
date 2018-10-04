@@ -116,18 +116,22 @@ Please get involved and help drive this if you're interested in the Debugger sid
 
 # Further reference examples
 
+## Canvas (2D)
 * [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
   * [bouncy](https://stdiopt.github.io/gowasm-experiments/bouncy)
   * [rainbow-mouse](https://stdiopt.github.io/gowasm-experiments/rainbow-mouse)
   * [repulsion](https://stdiopt.github.io/gowasm-experiments/repulsion)
   * [bumpy](https://stdiopt.github.io/gowasm-experiments/bumpy)
     * Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
-  * [splashy](https://stdiopt.github.io/gowasm-experiments/splashy)
-    * Used the webgl canvas.  Click around on the screen to generate paint...
   * [arty](https://stdiopt.github.io/gowasm-experiments/arty/client) (**NEW**)
 * [Drawing simple 3D objects on the 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
   * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
 * [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm) - WASM port of an experimental Gameboy Color emulator.  The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/) contains some interesting technical insights.
+
+## WebGL canvas (3D)
+* [basic triangle](https://justinclift.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
+* [rotating cube](https://justinclift.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
+* [splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
 
 # Editor configuration
 
