@@ -95,6 +95,8 @@ ok  	example.org/my/pkg	0.800s
 
 See https://godoc.org/syscall/js.
 
+Alternatively, [a library for streamlining DOM manipulation](https://github.com/dennwc/dom) is in development.
+
 # Debugging
 
 WebAssembly doesn't *yet* have any support for debuggers, so you'll need to use the good 'ol `println()` approach for now to display output on the JavaScript console.
@@ -126,7 +128,6 @@ Please get involved and help drive this if you're interested in the Debugger sid
 * [Drawing simple 3D objects on the 2D canvas](https://justinclift.github.io/wasmGraph1/) ([source code](https://github.com/justinclift/wasmGraph1/))
   * Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use wasd/keypad keys to rotate.
 * [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm) - WASM port of an experimental Gameboy Color emulator.  The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/) contains some interesting technical insights.
-* [Go DOM](https://github.com/dennwc/dom) (**NEW**) - WASM bindings to DOM, and few other Web APIs.
 
 # Editor configuration
 
