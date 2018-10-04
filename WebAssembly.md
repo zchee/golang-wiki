@@ -156,4 +156,4 @@ CompileError: wasm validation error: at offset 1269295: type mismatch: expressio
 
 Then you're probably hitting this bug.
 
-The fix has been added to both the Go [1.11 release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches, so re-compiling Go from either of those will solve the problem.
+The fix has been added to both the Go [1.11 release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches, so [re-compiling Go](https://golang.org/doc/install/source#fetch) from either of those will solve the problem.
