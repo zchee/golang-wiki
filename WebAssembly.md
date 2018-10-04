@@ -116,6 +116,9 @@ Please get involved and help drive this if you're interested in the Debugger sid
 
 # Further reference examples
 
+## General
+* [Shimmer](https://github.com/agnivade/shimmer) - Image transformation in wasm using Go
+
 ## Canvas (2D)
 * [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates working code for several common call types
   * [bouncy](https://stdiopt.github.io/gowasm-experiments/bouncy)
@@ -129,9 +132,9 @@ Please get involved and help drive this if you're interested in the Debugger sid
 * [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm) - WASM port of an experimental Gameboy Color emulator.  The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/) contains some interesting technical insights.
 
 ## WebGL canvas (3D)
-* [basic triangle](https://bobcob7.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
-* [rotating cube](https://bobcob7.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
-* [splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
+* [Basic triangle](https://bobcob7.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
+* [Rotating cube](https://bobcob7.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
+* [Splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
 
 # Editor configuration
 
