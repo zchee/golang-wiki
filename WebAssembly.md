@@ -129,8 +129,8 @@ Please get involved and help drive this if you're interested in the Debugger sid
 * [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm) - WASM port of an experimental Gameboy Color emulator.  The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/) contains some interesting technical insights.
 
 ## WebGL canvas (3D)
-* [basic triangle](https://justinclift.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
-* [rotating cube](https://justinclift.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
+* [basic triangle](https://bobcob7.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
+* [rotating cube](https://bobcob7.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
 * [splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
 
 # Editor configuration
