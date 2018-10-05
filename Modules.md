@@ -120,12 +120,10 @@ Modules must be [semantically versioned](https://semver.org/) in the form `v(maj
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
 
-All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/thing/foo` and `example.com/my/thing/bar`, the first line in your `go.mod` file typically would be `module example.com/my/thing`. 
-
-Module files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file:
+`go.mod` files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file defining the module `github.com/my/thing`:
 
 ```
-module github.com/my/module/v3
+module github.com/my/thing
 
 require (
     github.com/some/dependency v1.2.3
@@ -135,7 +133,18 @@ require (
 
 There are four directives: `module`, `require`, `exclude`, `replace`. 
 
-`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for an example of using `replace` directives).
+All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/project/foo` and `example.com/my/project/bar`, the first line in your `go.mod` file typically would be `module example.com/my/project`, and the corresponding on-disk structure could be:
+
+```
+project/
+├── go.mod
+├── bar
+│   └── bar.go
+└── foo
+    └── foo.go
+```
+
+`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for discussion of when to use a `replace` directive).
 
 In Go source code, packages are imported using the full path including the module, for example:
  * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from the v2 version of module `example.com/my/module`.
@@ -165,7 +174,7 @@ The last sentence is especially important — if you break compatibility, you sh
 > "If an old package and a new package have the same import path,
 > the new package must be backwards compatible with the old package."
 
-Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_, where the major version is included in the import path as the mechanism to ensure any break in compatibility changes the import path as the major version is incremented.
+Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_, where the major version is included in the import path — this ensures the import path changes any time the major version increments due to a break in comparability.
 
 As a result of semantic import versioning, code opting in to Go modules **must comply with these rules**: 
 * Follow [semantic versioning](https://semver.org/) (with tags such as `v1.2.3`).
