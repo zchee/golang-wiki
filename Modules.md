@@ -129,8 +129,7 @@ module github.com/my/module/v3
 
 require (
     github.com/some/dependency v1.2.3
-    github.com/another/dependency v0.1.0
-    github.com/additional/dependency/v4 v4.0.0
+    github.com/another/dependency/v4 v4.0.0
 )
 ```
 
@@ -161,12 +160,12 @@ For many years, the official Go FAQ has included this advice on package versioni
 
 > "Packages intended for public use should try to maintain backwards compatibility as they evolve. The Go 1 compatibility guidelines are a good reference here: don't remove exported names, encourage tagged composite literals, and so on. If different functionality is required, add a new name instead of changing an old one. If a complete break is required, create a new package with a new import path."
 
-The last sentence is especially important. With Go 1.11 modules, that advice is formalized into the _import compatibility rule_:
+The last sentence is especially important — if you break compatibility, you should change the import path of your package. With Go 1.11 modules, that advice is formalized into the _import compatibility rule_:
 
 > "If an old package and a new package have the same import path,
 > the new package must be backwards compatible with the old package."
 
-Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_.
+Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_, where the major version is included in the import path as the mechanism to ensure any break in compatibility changes the import path as the major version is incremented.
 
 As a result of semantic import versioning, code opting in to Go modules **must comply with these rules**: 
 * Follow [semantic versioning](https://semver.org/) (with tags such as `v1.2.3`).
@@ -302,7 +301,7 @@ If you are releasing a v2 or higher module, please first review the discussion i
 
 There are two ways to release a v2 or higher module. Using the example of creating a `v3.0.0` release, the two options are:
 
-1. **Major branch**: Update the `go.mod` file to include a `/v3` at the end of the module path. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`. 
+1. **Major branch**: Update the `go.mod` file to include a `/v3` at the end of the module path in the `module` directive (e.g., `module github.com/my/module/v3`). Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/foo"`). Tag the release with `v3.0.0`. 
    * Go versions 1.9.7+, 1.10.3+, and 1.11 are able to properly consume and build a v2+ module created using this approach without requiring updates to consumer code that has not yet opted in to modules (as described in the the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above). 
    * A community tool [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod) helps automate this procedure. See the [repository](https://github.com/marwan-at-work/mod) or the [community tooling FAQ](https://github.com/golang/go/wiki/Modules#what-community-tooling-exists-for-working-with-modules) below for an overview.
    * To avoid confusion with this approach, consider putting the `v3.*.*` commits for the module on a separate v3 branch.
