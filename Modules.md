@@ -20,6 +20,8 @@ The remaining content on this page is organized as follows:
    * [How to Define a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)
    * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
    * [How to Prepare for a Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
+      * [Releasing Modules (All Versions)](https://github.com/golang/go/wiki/Modules#releasing-modules-all-versions)
+      * [Releasing Modules (v2 or Higher)](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher)
 * [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
 * [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
@@ -174,7 +176,7 @@ The last sentence is especially important — if you break compatibility, you sh
 > "If an old package and a new package have the same import path,
 > the new package must be backwards compatible with the old package."
 
-Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_, where the major version is included in the import path — this ensures the import path changes any time the major version increments due to a break in comparability.
+Recall [semantic versioning](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semantic versioning is called _semantic import versioning_, where the major version is included in the import path — this ensures the import path changes any time the major version increments due to a break in compatibility.
 
 As a result of semantic import versioning, code opting in to Go modules **must comply with these rules**: 
 * Follow [semantic versioning](https://semver.org/) (with tags such as `v1.2.3`).
