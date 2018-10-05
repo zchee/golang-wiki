@@ -146,7 +146,7 @@ If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-we
 
 # Known bug
 
-The Go 1.11 release [has a bug](https://github.com/golang/go/issues/27961) which can generate incorrect wasm code in some (rare) circumstances.
+The Go 1.11 and 1.11.1 releases [have a bug](https://github.com/golang/go/issues/27961) which can generate incorrect wasm code in some (rare) circumstances.
 
 If your go code compiles to wasm without problem, but produces an error like this when run in the browser:
 
@@ -156,4 +156,4 @@ CompileError: wasm validation error: at offset 1269295: type mismatch: expressio
 
 Then you're probably hitting this bug.
 
-The fix has been added to both the Go [1.11 release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches, so [re-compiling Go](https://golang.org/doc/install/source#fetch) from either of those will solve the problem.
+The fix has been added to both the [1.11.x release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches on GitHub, so [re-compiling Go](https://golang.org/doc/install/source#fetch) from either of those will solve the problem.
