@@ -6,9 +6,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
-| GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io |
-| Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
 | Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
 | GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
@@ -27,6 +24,9 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
+| GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io |
+| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | https://www.gophercon.com/<br>Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM<br>Lightning Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdMEZScpaoRX-vyt6pRUvfM |
 | GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/ |
 | Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
