@@ -42,6 +42,7 @@ The remaining content on this page is organized as follows:
   * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
   * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [Should I still add a 'go.mod' file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
+  * [Should I commit a `go.sum` file as well as a `go.mod` file?](https://github.com/golang/go/wiki/Modules#should-i-commit-a-gosum-file-as-well-as-a-gomod-file)
 * [FAQs — Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#faqs--semantic-import-versioning)
   * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#why-must-major-version-numbers-appear-in-import-paths)
   * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#why-are-major-versions-v0-v1-omitted-from-import-paths)
@@ -298,7 +299,7 @@ Some current suggested best practices to consider prior to tagging a release:
   * The number of possible version combinations is exponential in the number of modules, so in general you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
 
-* Ensure your `go.sum` file is checked in along with the `go.mod` file. See 
+* Ensure your `go.sum` file is committed along with the `go.mod` file. See https://github.com/golang/go/wiki/Modules#should-i-commit-a-gosum-file-as-well-as-a-gomod-file for more details. 
 
 ### Releasing Modules (v2 or Higher)
 
