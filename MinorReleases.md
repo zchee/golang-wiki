@@ -19,7 +19,9 @@ At release time, any open backport issue which is not release-blocker is pushed 
 
 ## Making cherry-pick CLs
 
-Once the main fix has been submitted to master, please use the Gerrit UI to make a cherry-pick if there are no merge conflicts:
+Once the main fix has been submitted to master, please make a cherry-pick CL to the applicable release branch.
+
+You can use the Gerrit UI to make a cherry-pick if there are no merge conflicts:
 
 ![Top right corner > More > Cherry-pick](https://user-images.githubusercontent.com/1225294/39773359-dc0c2b3a-52c5-11e8-836a-c518186e0ab3.png)
 
