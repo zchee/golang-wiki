@@ -601,6 +601,8 @@ Typically the `go.sum` file should be committed along with the `go.mod` file.
   * Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
   * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173). See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
 
+[Filippo Valsorda tweeted an answer to this very question](https://twitter.com/FiloSottile/status/1029404663358087173).
+
 ## FAQs — Semantic Import Versioning
 
 ### Why must major version numbers appear in import paths?
