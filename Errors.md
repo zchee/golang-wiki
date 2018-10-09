@@ -10,6 +10,14 @@ if failure {
 }
 ```
 
+or by using `fmt.Errorf`:
+
+```go
+if failure {
+	return fmt.Errorf("inverse tachyon pulse failed")
+}
+```
+
 Error strings should not start with a capital letter because they'll often be prefixed before printing:
 
 ```go
@@ -33,6 +41,14 @@ type ParseError struct {
 func (p ParseError) Error() string {
 	return fmt.Sprintf("parse error on line %d, column %d", p.Line, p.Col)
 }
+```
+
+If you want to create a constant string error, you can use a named type string:
+
+```go
+type errorConst string
+
+const ErrTooManyErrors errorConst = "too many errors found."
 ```
 
 Calling code would test for a special type of `error` by using a type switch:
