@@ -42,7 +42,7 @@ The remaining content on this page is organized as follows:
   * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
   * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules/#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
   * [Should I still add a 'go.mod' file if I do not have any dependencies?](https://github.com/golang/go/wiki/Modules#should-i-still-add-a-gomod-file-if-i-do-not-have-any-dependencies)
-  * [Should I commit a `go.sum` file as well as a `go.mod` file?](https://github.com/golang/go/wiki/Modules#should-i-commit-a-gosum-file-as-well-as-a-gomod-file)
+  * [Should I commit my 'go.sum' file as well as my 'go.mod' file?](https://github.com/golang/go/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file)
 * [FAQs — Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#faqs--semantic-import-versioning)
   * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#why-must-major-version-numbers-appear-in-import-paths)
   * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#why-are-major-versions-v0-v1-omitted-from-import-paths)
@@ -299,7 +299,7 @@ Some current suggested best practices to consider prior to tagging a release:
   * The number of possible version combinations is exponential in the number of modules, so in general you cannot expect your dependencies to have tested against all possible combinations of their dependencies.
   * As part of the modules work, `go test all` has been [re-defined to be more useful](https://research.swtch.com/vgo-cmd) to include all the packages in the current module, plus all the packages they depend on through a sequence of one or more imports, while excluding packages that don't matter in the current module.
 
-* Ensure your `go.sum` file is committed along with the `go.mod` file. See https://github.com/golang/go/wiki/Modules#should-i-commit-a-gosum-file-as-well-as-a-gomod-file for more details. 
+* Ensure your `go.sum` file is committed along with your `go.mod` file. See [FAQ below](https://github.com/golang/go/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file) for more details and rationale. 
 
 ### Releasing Modules (v2 or Higher)
 
@@ -581,27 +581,25 @@ If you are curious why a particular module is showing up in your `go.mod`, you c
 
 ### Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?
 
-No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the ["How to prepare a release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section above for more details (including why you typically should check in `go.sum`) as well as the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation.
+No, `go.sum` is not a lock file. For validation purposes, `go.sum` contains the expected cryptographic checksums of the content of specific module versions. See the [FAQ below](https://github.com/golang/go/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file) for more details on `go.sum` (including why you typically should check in `go.sum`) as well as the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section in the tip documentation.
 
 In part because `go.sum` is not a lock file, it retains cryptographic checksums for module versions even after you stop using a module or particular module version. This allows validation of the checksums if you later resume using something, which provides additional safety.
 
 In addition, your module's `go.sum` records checksums for all direct and indirect dependencies used in a build (and hence your `go.sum` will frequently have more modules listed than your `go.mod`).
 
-### Should I still add a `go.mod` file if I do not have any dependencies?
+### Should I still add a 'go.mod' file if I do not have any dependencies?
 
 Yes. This supports working outside of GOPATH, helps communicate to the ecosystem that you are opting in to modules, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is one reason why import comments might eventually be deprecated). Of course, modules are purely an opt-in capability in Go 1.11.
 
-### Should I commit a `go.sum` file as well as a `go.mod` file?
+### Should I commit my 'go.sum' file as well as my 'go.mod' file?
 
-Typically the `go.sum` file should be committed along with the `go.mod` file. 
+Typically your module's `go.sum` file should be committed along with your `go.mod` file. 
 
-  * `go.sum` contains the expected cryptographic checksums of the content of specific module versions.
-  * If someone clones your repository and downloads your dependencies using the go command, they will receive an error if there is any mismatch between their downloaded copies of your dependencies and the corresponding entries in your `go.sum`.
-  * In addition, `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
-  * Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
-  * See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173). See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
-
-[Filippo Valsorda tweeted an answer to this very question](https://twitter.com/FiloSottile/status/1029404663358087173).
+* `go.sum` contains the expected cryptographic checksums of the content of specific module versions.
+* If someone clones your repository and downloads your dependencies using the go command, they will receive an error if there is any mismatch between their downloaded copies of your dependencies and the corresponding entries in your `go.sum`.
+* In addition, `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
+* Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
+* See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173) from Filippo Valsorda on why you should check in your `go.sum`. See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
 
 ## FAQs — Semantic Import Versioning
 
