@@ -43,7 +43,7 @@ Critiques without counter-proposals
 
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
-- Rob Pike ["Simplicity is Complicated"](https://www.youtube.com/watch?v=rFejpH_tAHM)
+- Rob Pike ["Simplicity is Complicated"](https://www.youtube.com/watch?v=rFejpH_tAHM), December 2015
 
 # Counter-proposals
 
