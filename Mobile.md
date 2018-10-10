@@ -133,18 +133,17 @@ Note: Go Mobile runs on the same architectures as Go, which currently means ARM,
 
 ![Android Studio](http://i.imgur.com/RhNCnnH.png)
 
-* Open hello/build.gradle to edit the absolute path to GOPATH and GO.
+* Run the following command to generate the [aar](https://developer.android.com/studio/projects/android-library.html) file that is suitable for importing into Android projects:
+
+```
+$ gomobile bind -o app/hello.aar -target=android golang.org/x/mobile/example/bind/hello
+```
+
 * Build and deploy the application to the device.
 
-The app module contains the main application that invokes the `hello.Greetings`. When application is launched the text view is updated with the string returned value.
+The app module contains the main application that invokes the `hello.Greetings`. When the application is launched the text view is updated with the string returned value.
 
-If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set to the SDK path.
-
-```
-$ gomobile bind -target=android golang.org/x/mobile/example/bind/hello
-```
-
-The command above will generate an [aar](https://developer.android.com/studio/projects/android-library.html)  that can be importable by your IDE.
+If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set to the SDK path. You also need the [NDK](https://developer.android.com/ndk/) installed; the easiest way is to run the SDK command `sdkmanager ndk-bundle`.
 
 Alternatively, if you are not familiar with android development, and you do not wish to set up all the required environment (Android SDK, Gradle, etc), you can use this [Dockerfile](https://github.com/mpl/go4droid/blob/master/Dockerfile) to build the application in [docker](https://www.docker.com/) instead.
 
