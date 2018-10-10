@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Ian Denhardt, "[Go Generics: A Concrete Proposal Re: Using Interfaces Instead Of Contracts.](https://gist.github.com/zenhack/ad508d08c72fce6df945a49945ad826d)", October 2018
+
 - Patrick Smith, "[Go generics for built-in and user-defined type parameters](https://gist.github.com/pat42smith/ed63aca983d4ba14fdfa320296211f40)", September 2018
 
 - Scott Cotton, "[Draft Proposal Modification for Unifying Contracts and Interfaces](https://github.com/wsc1/proposal/blob/master/design/go2draft-contracts.md)" ([diff](https://github.com/golang/proposal/compare/master...wsc1:master)), September 2018
