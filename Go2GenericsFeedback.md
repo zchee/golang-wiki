@@ -231,3 +231,21 @@ To make it easier to see new feedback. Please *make a Gist*. And also help to ke
     ```
 
 - Xingtao Zhao: There are too many round brackets in the proposal. In the proposal, it is said that "[]" is ambiguous in some cases. While if we use [type T, S contract], there are no ambiguities any more.
+
+- Dave Cheney: The earlier Type Functions proposal showed that a type declaration can support a parameter. If this is correct, then the proposed contract declaration could be rewritten from
+
+    ```
+    contract stringer(x T) {
+        var s string = x.String()
+    }
+    ```
+
+    to
+
+    ```
+    type stringer(x T) contract {
+        var s string = x.String()
+    }
+    ```
+
+    This supports Roger’s observation that a contract is a superset of an interface. `type stringer(x T) contract { ... }` introduces a new contract type in the same way `type stringer interface { ... }` introduces a new interface type.
