@@ -114,7 +114,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Openstack / Rackspace
 
-- Rackspace's [gophercloud](https://github.com/rackspace/gophercloud) is a Golang SDK for working with OpenStack clouds.
+- [Gophercloud](https://github.com/gophercloud/gophercloud) is a Golang SDK for working with OpenStack clouds.
 - Search packages for [Openstack](http://godoc.org/?q=openstack) or [Rackspace](http://godoc.org/?q=rackspace)
 
 ### IBM BlueMix
