@@ -241,7 +241,7 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 
 ***
 
-* **Functional Programming in Go (Video)**
+* **Functional Programming in Go [Video]**
     * Author: Erkid Hoxholli
     * Publication Date: September 2018
     * ISBN: 9781787283480
