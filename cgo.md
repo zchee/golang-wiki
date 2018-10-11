@@ -325,3 +325,9 @@ in the preamble (see above for a complete example).
 ### Windows
 
 In order to use cgo on Windows, you'll also need to first install a gcc compiler (for instance, mingw-w64) and have gcc.exe (etc.) in your PATH environment variable before compiling with cgo will work.
+
+### environmental variables
+Go doesn't see variables set by C.setenv
+
+### tests
+_test.go files can't use cgo.
