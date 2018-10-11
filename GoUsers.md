@@ -192,6 +192,7 @@
   * [Objenious](http://www.objenious.com)
   * [ProcessOne](https://www.process-one.net)
   * [Rive](http://app.rive.world)
+  * [Sfeir](https://sfeir.com)
   * [Synthesio](https://www.synthesio.com/)
   * [Teads.tv](http://teads.tv/)
   * [Zenly](https://zen.ly/)
