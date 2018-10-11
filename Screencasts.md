@@ -245,7 +245,6 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * Author: Erkid Hoxholli
     * Publication Date: September 2018
     * ISBN: 9781787283480
-    * Reference: https://www.packtpub.com/application-development/functional-programming-go-video
     
 [[video](https://www.packtpub.com/application-development/functional-programming-go-video)]
 
