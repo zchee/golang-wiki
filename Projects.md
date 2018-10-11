@@ -1565,6 +1565,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goenv](https://github.com/smyrman/goenv) - Create an isolated environment where you install Go packages, binaries, or even C libraries. Very similar to virtualenv for Python.
   * [GoForth](https://github.com/ArtemTitoulenko/GoForth) - A simple Forth parser
   * [golemon](https://github.com/nsf/golemon) - A port of the Lemon parser-generator
+  * [golem](https://github.com/mjarmy/golem-lang) - A general purpose, interpreted scripting language.
   * [GoLightly](https://github.com/feyeleanor/GoLightly) - A flexible and lightweight virtual machine with runtime-configurable instruction set
   * [goll1e](https://github.com/realistschuckle/goll1e) - An LL(1) parser generator for the Go programming language.
   * [Golog](https://github.com/mndrix/golog) - Prolog interpreter in Go
