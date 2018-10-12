@@ -653,7 +653,7 @@ Only *.go files are copied inside vendor directory by `go mod vendor`, this is b
 
 ### How did the `go mod` commands change in `go1.11beta3` and `go1.11` release?
 
-In go1.11beta3 and go1.11, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [release documentation](https://golang.org/cmd/go/#hdr-Module_maintenance) and `go mod help` output:
+In go1.11beta3 and go1.11, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [release documentation](https://golang.org/cmd/go/#hdr-Module_maintenance) and `go mod help` output for the up-to-date information:
 ```
 $ go mod help
 Go mod provides access to operations on modules.
