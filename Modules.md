@@ -668,10 +668,9 @@ and:
 split "go mod" into multiple subcommands:
 
 	go mod edit   # old go mod -require ...
-	go mod fix    # old go mod -fix
 	go mod graph  # old go mod -graph
 	go mod init   # old go mod -init
-	go mod tidy   # old go mod -sync
+	go mod tidy   # old go mod -sync or go mod -fix or go mod fix
 	go mod vendor # old go mod -vendor
 	go mod verify # old go mod -verify
 
