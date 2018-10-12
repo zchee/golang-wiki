@@ -157,3 +157,7 @@ CompileError: wasm validation error: at offset 1269295: type mismatch: expressio
 Then you're probably hitting this bug.
 
 The fix has been added to both the [1.11.x release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches on GitHub, so [re-compiling Go](https://golang.org/doc/install/source#fetch) from either of those will solve the problem.
+
+# Other WebAssembly resources
+
+* [Awesome-Wasm](https://github.com/mbasso/awesome-wasm) - An extensive list of further Wasm resources.  Not Go specific.
