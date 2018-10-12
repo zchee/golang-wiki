@@ -108,7 +108,7 @@ An official [WebAssembly Debugging Subgroup](https://github.com/WebAssembly/debu
 
 Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
 
-# Tutorials + Articles
+# Go WebAssembly talks
 
 * [Building a Calculator with Go and WebAssembly](https://youtu.be/4kBvvk2Bzis)
 ([Source code](https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html))
