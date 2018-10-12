@@ -651,29 +651,38 @@ Only *.go files are copied inside vendor directory by `go mod vendor`, this is b
 
 ## FAQs — Miscellaneous
 
-### How did the `go mod` commands change in `go1.11beta3`?
+### How did the `go mod` commands change in `go1.11beta3` and `go1.11` release?
 
-In go1.11beta3, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Module_maintenance) as well as two snippets from the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands:
+In go1.11beta3 and go1.11, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [release documentation](https://golang.org/cmd/go/#hdr-Module_maintenance) and `go mod help` output:
 ```
-The current "go mod" command does too many things.
+$ go mod help
+Go mod provides access to operations on modules.
 
-It looks like "everything you might want to do with modules"
-which causes people to think all module operations go through
-"go mod", which is the opposite of the seamless integration we're
-going for. In particular too many people think "go mod -require"
-and "go get" are the same.
+Note that support for modules is built into all the go commands,
+not just 'go mod'. For example, day-to-day adding, removing, upgrading,
+and downgrading of dependencies should be done using 'go get'.
+See 'go help modules' for an overview of module functionality.
+
+Usage:
+
+	go mod <command> [arguments]
+
+The commands are:
+
+	download    download modules to local cache
+	edit        edit go.mod from tools or scripts
+	graph       print module requirement graph
+	init        initialize new module in current directory
+	tidy        add missing and remove unused modules
+	vendor      make vendored copy of dependencies
+	verify      verify dependencies have expected content
+	why         explain why packages or modules are needed
+
+Use "go help mod <command>" for more information about a command.
 ```
-and:
+
+For a historical reference, take a look at the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands (though further changed by 1.11 release):
 ```
-split "go mod" into multiple subcommands:
-
-	go mod edit   # old go mod -require ...
-	go mod graph  # old go mod -graph
-	go mod init   # old go mod -init
-	go mod tidy   # old go mod -sync or go mod -fix or go mod fix
-	go mod vendor # old go mod -vendor
-	go mod verify # old go mod -verify
-
 Splitting out the individual commands makes both the docs
 and the implementations dramatically easier to read.
 It simplifies the command lines
