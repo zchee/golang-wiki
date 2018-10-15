@@ -655,21 +655,10 @@
 
 ## Turkey
   * [Admongrel](http://www.admongrel.com/)
-  * [AKM Yazılım](http://www.akmyazilim.com/) - [github](https://github.com/akmyazilim)
-  * [Gamegos](http://www.gamegos.com/) - [github](https://github.com/gamegos)
-  * [GramGames](http://gram.gs/)
   * [Insider](http://useinsider.com/)
-  * [JokerMenu](https://joker.menu/)
-  * [MaestroPanel](https://www.maestropanel.com/) - [github](https://github.com/maestropanel)
   * [Mentornity, Inc.](https://mentornity.com/) - Backend API
-  * [Metglobal](http://www.metglobal.com) - [github](https://github.com/metglobal)
-  * [Mos Teknoloji](http://www.mosteknoloji.com)
-  * [Netinternet Bilisim Teknolojileri AS](https://www.netinternet.com.tr) - [github](https://github.com/netinternet)
-  * [Optimum Yazılım](https://optimumyazilim.com/)
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
-  * [Biges](https://biges.com) - [github](https://github.com/biges)
-
 
 ## Ukraine
   * [Agilites](https://agilites.com)
