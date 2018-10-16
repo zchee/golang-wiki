@@ -90,6 +90,8 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Christian Surlykke, "[Constraints for Go Generics](https://github.com/surlykke/Go-Generics-with-constraints/tree/V2.0), September 2018"
 
+- Dean Bassett, "[If we're going to use contracts, allow unary + on string](https://github.com/golang/go/issues/27657), September 2018"
+
 - etc.
 
 ## Adding Your Feedback
