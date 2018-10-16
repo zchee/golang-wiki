@@ -6,7 +6,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | http://golab.io<br>CFP https://www.papercall.io/golab2018 |
 | GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
 | GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
@@ -25,6 +24,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
 | GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io |
 | GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
