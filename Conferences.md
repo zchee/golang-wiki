@@ -15,6 +15,7 @@ Please keep all items in chronological order.
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>TBA |
 | GopherCon EU | 2019 TBD | TBD | TBD |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | TBD |
+| GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
 
