@@ -584,6 +584,7 @@
 ## Singapore
 * [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 * [Rate](https://rate.com.sg)
+* [Singapore Power](https://www.spgroup.com.sg/)
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
@@ -598,7 +599,6 @@
   * [Grab](http://www.grab.com/)
   * [HealthCo](http://healthcobot.com)
   * [Pocketmath](http://www.pocketmath.com/)
-  * [Singapore Power](https://www.spgroup.com.sg/)
   * [Tokopedia](https://www.tokopedia.com/)
   * [TablePlus](https://https://tableplus.io/)
 
