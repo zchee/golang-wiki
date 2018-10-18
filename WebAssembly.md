@@ -1,12 +1,10 @@
-Go 1.11 adds an experimental port to WebAssembly.
+Go 1.11 added an experimental port to WebAssembly.
 
 WebAssembly is described on its [home page](https://webassembly.org) as:
 
 > WebAssembly (abbreviated _Wasm_) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.
 
 This page will be updated over time with more information relevant to Go's support for WebAssembly.
-
-**NOTE:** if you ever set the `GOROOT` environment variable to the path of an earlier Go SDK version other than the version of the `go` command, please unset this environment variable to avoid problems in the following tutorial.
 
 # Example
 
