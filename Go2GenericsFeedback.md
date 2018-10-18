@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Tokyo Gophers, "[Comments from Go 2 draft design feedback event](https://docs.google.com/document/d/1O6w4eL6ChROXrJ2vw9IhezzsdG7n8ToMnGnYLRQbjQg/edit?usp=sharing)", October 2018
+
 - Patrick Smith, "[Go Generics with Adaptors](https://gist.github.com/pat42smith/ccf021193971f6de6fdb229d68215302)", October 2018
 
 - Ian Denhardt, "[Go Generics: A Concrete Proposal Re: Using Interfaces Instead Of Contracts.](https://gist.github.com/zenhack/ad508d08c72fce6df945a49945ad826d)", October 2018
