@@ -184,5 +184,6 @@ for i := 1; i < len(in); i++ {
 	j++
 	in[i], in[j] = in[j], in[i]
 }
-fmt.Println(in[:j+1]) // [1 2 3 4]
+result := in[:j+1]
+fmt.Println(result) // [1 2 3 4]
 ```
