@@ -20,6 +20,8 @@ Discussions of the requirements for a new error handling method.
 
 This includes supporting the existing chaining/stacking of handlers without changes.
 
+ - Tokyo Gophers, "[In support comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.f7ryl4573bu9)", Oct 2018
+
  - Jeffrey Koehler, “[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)”, August 2018
 
  - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
@@ -38,6 +40,8 @@ Code changed to use the existing proposal.
 # Against
 
 Critiques without counter-proposals
+
+- Tokyo Gophers, "[Against comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.fy8rnze9tll5)", Oct 2018
 
 - Liam Breck, “[Golang, How dare you handle my checks!](https://medium.com/@mnmnotmail/golang-how-dare-you-handle-my-checks-d5485f991289)”, September 2018
 
