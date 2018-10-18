@@ -210,6 +210,7 @@
   * [ESONO AG](https://www.esono.de/)
   * [FastBill](https://www.fastbill.com/)
   * [Fraugster](https://fraugster.com/)
+  * [Friendsurance](https://www.friendsurance.de/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
   * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog]
