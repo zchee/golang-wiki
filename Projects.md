@@ -864,6 +864,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [netpbm](https://github.com/spakin/netpbm) - Read and write Netpbm images from Go programs
   * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
   * [osmesa](https://github.com/go-gl/osmesa) - Go bindings for osmesa.
+  * [phono](https://github.com/dudk/phono) - DSP pipeline.
   * [Plotinum](https://github.com/gonum/plot) - An API for creating plots
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
