@@ -17,6 +17,7 @@
     * [go-playground](https://github.com/grafov/go-playground) Local playground inside Emacs
   * **[Gedit](https://wiki.gnome.org/Apps/Gedit)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
   * **[Geany](https://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
+  * **[gitpod.io](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://github.com/rogpeppe/godef)**: Prints the source location of definitions in Go programs. Integrates with acme, emacs, vim and SublimeText.
   * **[GoLand](https://www.jetbrains.com/go/)**: JetBrains's cross-platform, [fully featured](https://www.jetbrains.com/go/features/) Go IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/go/buy/#edition=discounts)).
