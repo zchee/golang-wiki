@@ -41,6 +41,8 @@ Code changed to use the existing proposal.
 
 Critiques without counter-proposals
 
+- Stripe developers, “[Feedback on Go 2 draft designs](https://groups.google.com/d/msg/golang-nuts/3A_MpcNKg7k/DWiHBLArCAAJ)”, October 2018
+
 - Tokyo Gophers, "[Against comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.fy8rnze9tll5)", Oct 2018
 
 - Liam Breck, “[Golang, How dare you handle my checks!](https://medium.com/@mnmnotmail/golang-how-dare-you-handle-my-checks-d5485f991289)”, September 2018
