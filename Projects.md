@@ -756,6 +756,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [magicmime](https://github.com/rakyll/magicmime) -- Mime-type detection with Go bindings for libmagic
   * [Mahonia](http://code.google.com/p/mahonia/source/browse/) - Character-set conversion library in Go
   * [mimemagic](https://bitbucket.org/taruti/mimemagic) - Detect mime-types automatically based on file contents with no external dependencies
+  * [mimemagic](https://github.com/zRedShift/mimemagic) - A pure-Go MIME sniffing library/tool based on the FreeDesktop.org spec
   * [msgpack](https://github.com/vmihailenco/msgpack) - Msgpack format implementation for Go
   * [msgpack-json](https://github.com/tv42/msgpack-json) - Command-line utilities to convert between msgpack and json
   * [nnz](https://sourcegraph.com/github.com/sourcegraph/go-nnz) - String and Int primitives that serialize to JSON and SQL null
