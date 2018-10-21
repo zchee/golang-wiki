@@ -68,7 +68,7 @@ Finally, navigate to http://localhost:8080/index.html, open the JavaScript debug
 
 It's possible to execute compiled WebAssembly modules using Node.js rather than a browser. The `go_js_wasm_exec` script in `misc/wasm` directory of the Go installation can be used with [`-exec` flag](https://golang.org/cmd/go/#hdr-Compile_and_run_Go_program) of the `go` command.
 
-Install `node` and make sure it's in your `PATH`. Set `-exec` flag to the location of `go_js_wasm_exec`:
+Install `node` and make sure it is in your `PATH`. Set the `-exec` flag to the location of `go_js_wasm_exec`:
 
 ```
 $ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec" .
@@ -152,7 +152,7 @@ If your Go code compiles to wasm without problem, but produces an error like thi
 CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
 ```
 
-Then you're probably hitting this bug.
+Then you're probably hitting this error.
 
 The fix has been added to both the [1.11.x release](https://github.com/golang/go/tree/release-branch.go1.11) and [master](https://github.com/golang/go/commits/master) branches on GitHub, so [re-compiling Go](https://golang.org/doc/install/source#fetch) from either of those will solve the problem.
 
