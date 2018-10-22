@@ -1,5 +1,5 @@
 ## Active podcast shows
-* [GolangShow](http://golangshow.com/) – Weekly podcast since June 2015, in Russian language.
+* [GolangShow](http://golangshow.com/) – Weekly podcast since June 2015, in English and Russian languages.
 * [Go Gab](https://www.briefs.fm/go-gab) - A podcast about everything Go. Episodes are short: about 3 minutes each.
 
 ## Inactive podcast shows
