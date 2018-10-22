@@ -187,6 +187,7 @@
   * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
+  * [Eleven Labs](http://eleven-labs.com/)
   * [Fabriks](https://fabriks.net)
   * [Heetch](https://heetch.com) - [github](https://github.com/heetch)
   * [IoThings](https://iothings.fr)
@@ -200,6 +201,7 @@
   * [Sfeir](https://sfeir.com)
   * [Synthesio](https://www.synthesio.com/)
   * [Teads.tv](http://teads.tv/)
+  * [TF1](https://www.groupe-tf1.fr/en)
   * [Zenly](https://zen.ly/)
 
 ## Germany
