@@ -26,12 +26,12 @@ Add new sections as appropriate.
   - [Error Handling](#error-handling)
   - [File System](#file-system)
   - [Generics](#generics)
+  - [GoMobile](#gomobile)
   - [Immutability](#immutability)
   - [Inter Process Communication](#inter-process-communication)
   - [Large-Scale Software Development](#large-scale-software-development)
   - [Logging](#logging)
   - [Misc/Multiple](#misc--multiple)
-  - [Mobile] (#gomobile)
   - [Modules](#modules)
   - [Performance](#performance)
   - [Porting](#porting)
@@ -147,6 +147,9 @@ a complex solution for the problem.
  - Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
  - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
  - A Googler "[govisor/generics.go](https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
+
+## GoMobile
+ - Vijay, "[Nestest structs and slices not supported in gomobile]"
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
