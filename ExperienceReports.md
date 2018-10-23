@@ -149,7 +149,7 @@ a complex solution for the problem.
  - A Googler "[govisor/generics.go](https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
 
 ## GoMobile
- - Vijay, "[Nestest structs and slices not supported in gomobile]"
+ - Vijay, "[Nested structs and slices not supported in gomobile]"
 
 ## Immutability
   - Kurtis Nusbaum "[Why I'm So Frustrated With Go](https://hackernoon.com/why-im-so-frustrated-with-go-97c0c4ae214e)," June 2017
