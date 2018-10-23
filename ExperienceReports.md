@@ -31,6 +31,7 @@ Add new sections as appropriate.
   - [Large-Scale Software Development](#large-scale-software-development)
   - [Logging](#logging)
   - [Misc/Multiple](#misc--multiple)
+  - [Mobile] (#gomobile)
   - [Modules](#modules)
   - [Performance](#performance)
   - [Porting](#porting)
