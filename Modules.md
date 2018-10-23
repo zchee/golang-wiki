@@ -577,7 +577,7 @@ Note that this also means that any missing test dependencies from your direct or
 
 In general, the behaviors described here are part of how modules provide 100% reproducible builds and tests by recording precise dependency information.
 
-If you are curious why a particular module is showing up in your `go.mod`, you can run `go mod why -m <module>` to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
+If you are curious as to why a particular module is showing up in your `go.mod`, you can run `go mod why -m <module>` to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
 
 ### Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?
 
