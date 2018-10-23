@@ -14,7 +14,7 @@ Discussions of the requirements for a new error handling method.
 
 - Ian Lance Taylor, “[Incomplete list of criteria](https://github.com/golang/go/issues/21161#issuecomment-389380686)” from GitHub proposal discussion, May 2018
 
-- Rob Pike “[Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM)”, December 2015
+- Rob Pike (posted by @matjam) “[Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM)”, December 2015
 
 # In support
 
