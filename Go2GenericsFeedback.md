@@ -6,6 +6,8 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+- Andy Balholm "[Enumerated and structural contracts](https://gist.github.com/andybalholm/8165da83c10a48e56590c96542e93ff2)", October 2018
+
 - Burak Serdar "[Types are contracts](https://gist.github.com/bserdar/8f583d6e8df2bbec145912b66a8874b3)", October 2018
 
 - alanfo, "[Proposed changes to the Go draft generics design in the light of feedback received](https://gist.github.com/alanfo/72f07362d687f625a958bde1808e0c87)", October 2018
