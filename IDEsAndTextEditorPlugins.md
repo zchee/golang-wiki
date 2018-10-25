@@ -62,7 +62,7 @@ Currently Wide is the only "cloud IDE" that supports go version 1.8.
 
   * **[Cloud9](https://c9.io/)**: "blank" template includes go 1.7.1.
   * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE.  Supports go1.5 out of the box, which is not something I'd describe as "[full Go support](https://codeenv.com/env/codeenv/7/go/)".
-  * **[Wide](https://github.com/b3log/wide)**: A <b>W</b>eb-based <b>IDE</b> for Teams using Go programming language/Golang.
+  * **[Wide](https://github.com/b3log/wide)**: A Web-based <b>IDE</b> for Teams using Go programming language/Golang.
 
 
 Other environments such as Xcode and Kate also had minor support checked in to the Go tree up until Go 1.3. If you want these, search the standard repository's history. Here is a link: https://github.com/golang/go/tree/release-branch.go1.3/misc
