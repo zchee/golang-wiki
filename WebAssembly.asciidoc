@@ -170,9 +170,7 @@ Please get involved and help drive this if you're interested in the Debugger sid
 ** https://stdiopt.github.io/gowasm-experiments/bouncy[bouncy]
 ** https://stdiopt.github.io/gowasm-experiments/rainbow-mouse[rainbow-mouse]
 ** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
-** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy]
-*** Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to
-    create objects then watch as gravity takes hold!
+** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy] - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
 ** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
 * https://justinclift.github.io/wasmGraph1/[Drawing simple 3D objects on the 2D canvas]
   (https://github.com/justinclift/wasmGraph1/[source code])
@@ -186,7 +184,6 @@ Please get involved and help drive this if you're interested in the Debugger sid
 * https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
 * https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
 * https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
-
 
 # Editor configuration
 
