@@ -22,6 +22,7 @@ If you're new to WebAssembly read the <<Getting Started>> section
 then take a look at the <<Further examples>> below.
 **********************************************************************
 
+
 # Getting Started
 
 This page assumes a functional Go 1.11 or newer installation. For
@@ -29,7 +30,6 @@ troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshootin
 page.
 
 To compile a basic Go package for the web:
-
 
 ```go
 package main
@@ -129,12 +129,31 @@ PASS
 ok  	example.org/my/pkg	0.800s
 ```
 
+
+# Go WebAssembly talks
+
+* https://youtu.be/4kBvvk2Bzis[Building a Calculator with Go and WebAssembly]
+  (https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html[Source code])
+* https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
+
+
 # Interacting with the DOM
 
 See https://godoc.org/syscall/js.
 
 Alternatively, https://github.com/dennwc/dom[a library for streamlining DOM manipulation]
 is in development.
+
+
+# Editor configuration
+
+* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand
+
+
+# WebAssembly in Chrome
+
+If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/[here].
+
 
 # Debugging
 
@@ -153,11 +172,21 @@ proposals under way:
 
 Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
 
-# Go WebAssembly talks
 
-* https://youtu.be/4kBvvk2Bzis[Building a Calculator with Go and WebAssembly]
-  (https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html[Source code])
-* https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
+# Known bug(s)
+
+The Go 1.11 and 1.11.1 releases https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
+
+If your Go code compiles to wasm without problem, but produces an error like this when run in the browser:
+
+```
+CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
+```
+
+Then you're probably hitting this error.
+
+The fix has been added to both the https://github.com/golang/go/tree/release-branch.go1.11[1.11.x release] and https://github.com/golang/go/commits/master[master] branches on GitHub, so https://golang.org/doc/install/source#fetch[re-compiling Go] from either of those will solve the problem.
+
 
 # Further examples
 
@@ -185,27 +214,6 @@ Please get involved and help drive this if you're interested in the Debugger sid
 * https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
 * https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
 
-# Editor configuration
-
-* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand
-
-# WebAssembly in Chrome
-
-If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/[here].
-
-# Known bug(s)
-
-The Go 1.11 and 1.11.1 releases https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
-
-If your Go code compiles to wasm without problem, but produces an error like this when run in the browser:
-
-```
-CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
-```
-
-Then you're probably hitting this error.
-
-The fix has been added to both the https://github.com/golang/go/tree/release-branch.go1.11[1.11.x release] and https://github.com/golang/go/commits/master[master] branches on GitHub, so https://golang.org/doc/install/source#fetch[re-compiling Go] from either of those will solve the problem.
 
 # Other WebAssembly resources
 
