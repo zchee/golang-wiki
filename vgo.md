@@ -33,7 +33,7 @@ For any production workloads, use [dep](https://github.com/golang/dep), or migra
 
 The proposal has been accepted and vgo was merged into the Go tree in version 1.11.
 
-You will be able to experiment with the module workflow from Go 1.11 as it is be included as an experiment in this release.
+You will be able to experiment with the module workflow from Go 1.11 as it is included as an experiment in this release.
 
 ***
 
