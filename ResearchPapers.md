@@ -28,6 +28,19 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 - Index Data Structure, Functionality and Microservices in Thematic Virtual Museums (Sajarwo Anggai) (Ph.D. thesis)
   - http://vestnik.spbu.ru/html18/s10/s10v1/04.pdf
 
+- "Two-Phase Dynamic Analysis of Message-Passing Go Programs based on Vector Clocks" (M. Sulzmann, K. Stadtmueller)
+  - [arxiv](https://arxiv.org/abs/1807.03585)
+
+- "Revisiting the Vector Space Model: Sparse Weighted Nearest-Neighbor Method for Extreme Multi-Label Classification" (Tatsuhiro Aoshima, Kei Kobayashi, Mihoko Minami)
+  - [arxiv](https://arxiv.org/abs/1802.03938)
+
+- "GEEC: Scalable, Efficient, and Consistent Consensus for Blockchains" (Xusheng Chen, Shixiong Zhao, Cheng Wang, Senran Zhang, Heming Cui)
+  - [arxiv](https://arxiv.org/abs/1808.02252)
+
+- "Dependability in a Multi-tenant Multi-framework Deep Learning as-a-Service Platform" (Scott Boag, Parijat Dube, Kaoutar El Maghraoui, Benjamin Herta, Waldemar Hummer, K. R. Jayaram, Rania Khalaf, Vinod Muthusamy, Michael Kalantar, Archit Verma)
+  - [arxiv](https://arxiv.org/abs/1805.06801)
+  - [github](https://github.com/IBM/FfDL)
+
 ## 2017
 
 - Go-HEP: writing concurrent software with ease and Go (S. Binet)
@@ -104,6 +117,11 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - http://pages.cs.wisc.edu/~riccardo/assets/diskio.pdf
 - Go-RealTime: A Lightweight Framework for Multiprocessor Real-Time System in User Space (Fang, Luo, Anwar, Zhuang, Gupta)
   - http://sigbed.seas.upenn.edu/archives/2017-11/paper7.pdf
+- "Secure and Trustable Electronic Medical Records Sharing using Blockchain" (Alevtina Dubovitskaya, Zhigang Xu, Samuel Ryu, Michael Schumacher, Fusheng Wang)
+  - [arxiv](https://arxiv.org/abs/1709.06528)
+- "Towards a More Reliable and Available Docker-based Container Cloud" (Mudit Verma, Mohan Dhawan)
+  - [arxiv](https://arxiv.org/abs/1708.08399)
+
 
 ## 2016
 - Atom: Horizontally Scaling Strong Anonymity (Albert Kwon, Henry Corrigan-Gibbs, Srinivas Devadas, Bryan Ford)
