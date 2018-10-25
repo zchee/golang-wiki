@@ -1,0 +1,215 @@
+WebAssembly
+===========
+:toc:
+:toc-title:
+:toclevels: 2
+:icons:
+
+
+# Introduction
+
+Go 1.11 added an experimental port to WebAssembly.
+
+WebAssembly is described on its https://webassembly.org[home page] as:
+
+> WebAssembly (abbreviated _Wasm_) is a binary instruction format for
+> a stack-based virtual machine. Wasm is designed as a portable
+> target for compilation of high-level languages like C/C++/Rust,
+> enabling deployment on the web for client and server applications.
+
+**********************************************************************
+If you're new to WebAssembly read the <<Getting Started>> section
+then take a look at the <<Further examples>> below.
+**********************************************************************
+
+# Getting Started
+
+This page assumes a functional Go 1.11 or newer installation. For
+troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshooting[Install Troubleshooting]
+page.
+
+To compile a basic Go package for the web:
+
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, WebAssembly!")
+}
+```
+
+Set `GOOS=js` and `GOARCH=wasm` environment variables to compile
+for WebAssembly:
+
+```sh
+$ GOOS=js GOARCH=wasm go build -o main.wasm
+```
+
+That will build the package and produce an executable WebAssembly
+module file named main.wasm. The .wasm file extension will make it
+easier to serve it over HTTP with the correct Content-Type header
+later on.
+
+To execute main.wasm in a browser, we'll also need a JavaScript
+support file, and a HTML page to connect everything together.
+
+Copy the JavaScript support file:
+
+```sh
+$ cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" .
+```
+
+Create an `index.html` file:
+
+```HTML
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="wasm_exec.js"></script>
+		<script>
+			const go = new Go();
+			WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject).then((result) => {
+				go.run(result.instance);
+			});
+		</script>
+	</head>
+	<body></body>
+</html>
+```
+
+If your browser doesn't yet support `WebAssembly.instantiateStreaming`,
+you can use a https://github.com/golang/go/blob/b2fcfc1a50fbd46556f7075f7f1fbf600b5c9e5d/misc/wasm/wasm_exec.html#L17-L22[polyfill].
+
+Then serve the three files (`index.html`, `wasm_exec.js`, and
+`main.wasm`) from a web server. For example, with
+https://github.com/shurcooL/goexec#goexec[`goexec`]:
+
+```sh
+$ goexec 'http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))'
+```
+
+Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].
+
+Finally, navigate to http://localhost:8080/index.html, open the
+JavaScript debug console, and you should see the output. You can
+modify the program, rebuild `main.wasm`, and refresh to see new
+output.
+
+
+# Executing WebAssembly with Node.js
+
+It's possible to execute compiled WebAssembly modules using Node.js
+rather than a browser, which can be useful for testing and automation.
+
+With Node installed and in your `PATH`, set the `-exec` flag to the
+location of `go_js_wasm_exec` when you execute `go run` or `go test`.
+
+By default, `go_js_wasm_exec` is in the `misc/wasm` directory of your
+Go installation.
+
+```
+$ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec" .
+Hello, WebAssembly!
+$ GOOS=js GOARCH=wasm go test -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec"
+PASS
+ok  	example.org/my/pkg	0.800s
+```
+
+Adding `go_js_wasm_exec` to your `PATH` will allow `go run` and `go test` to work for `js/wasm` without having to manually provide the `-exec` flag each time:
+
+```
+$ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
+$ GOOS=js GOARCH=wasm go run .
+Hello, WebAssembly!
+$ GOOS=js GOARCH=wasm go test
+PASS
+ok  	example.org/my/pkg	0.800s
+```
+
+# Interacting with the DOM
+
+See https://godoc.org/syscall/js.
+
+Alternatively, https://github.com/dennwc/dom[a library for streamlining DOM manipulation]
+is in development.
+
+# Debugging
+
+WebAssembly doesn't *yet* have any support for debuggers, so you'll
+need to use the good 'ol `println()` approach for now to display
+output on the JavaScript console.
+
+An official https://github.com/WebAssembly/debugging[WebAssembly Debugging Subgroup]
+has been created to address this, with some initial investigation and
+proposals under way:
+
+* https://fitzgen.github.io/wasm-debugging-capabilities/[WebAssembly Debugging Capabilities Living Standard]
+  (https://github.com/fitzgen/wasm-debugging-capabilities[source code for the doc])
+* https://yurydelendik.github.io/webassembly-dwarf/[DWARF for WebAssembly Target]
+  (https://github.com/yurydelendik/webassembly-dwarf/[source code for the doc])
+
+Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
+
+# Go WebAssembly talks
+
+* https://youtu.be/4kBvvk2Bzis[Building a Calculator with Go and WebAssembly]
+  (https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html[Source code])
+* https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
+
+# Further examples
+
+## General
+* https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go
+
+## Canvas (2D)
+* https://github.com/stdiopt/gowasm-experiments[GoWasm Experiments] - Demonstrates
+  working code for several common call types
+** https://stdiopt.github.io/gowasm-experiments/bouncy[bouncy]
+** https://stdiopt.github.io/gowasm-experiments/rainbow-mouse[rainbow-mouse]
+** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
+** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy]
+*** Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to
+    create objects then watch as gravity takes hold!
+** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
+* https://justinclift.github.io/wasmGraph1/[Drawing simple 3D objects on the 2D canvas]
+  (https://github.com/justinclift/wasmGraph1/[source code])
+** Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use the
+   wasd/keypad keys to rotate.
+* https://github.com/djhworld/gomeboycolor-wasm[Gomeboycolor-wasm]
+** WASM port of an experimental Gameboy Color emulator.  The https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/[matching blog post]
+  contains some interesting technical insights.
+
+## WebGL canvas (3D)
+* https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
+* https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
+* https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
+
+
+# Editor configuration
+
+* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand
+
+# WebAssembly in Chrome
+
+If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/[here].
+
+# Known bug(s)
+
+The Go 1.11 and 1.11.1 releases https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
+
+If your Go code compiles to wasm without problem, but produces an error like this when run in the browser:
+
+```
+CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
+```
+
+Then you're probably hitting this error.
+
+The fix has been added to both the https://github.com/golang/go/tree/release-branch.go1.11[1.11.x release] and https://github.com/golang/go/commits/master[master] branches on GitHub, so https://golang.org/doc/install/source#fetch[re-compiling Go] from either of those will solve the problem.
+
+# Other WebAssembly resources
+
+* https://github.com/mbasso/awesome-wasm[Awesome-Wasm] - An extensive list of further Wasm resources.  Not Go specific.
