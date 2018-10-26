@@ -18,8 +18,9 @@ WebAssembly is described on its https://webassembly.org[home page] as:
 > enabling deployment on the web for client and server applications.
 
 **********************************************************************
-If you're new to WebAssembly read the <<Getting Started>> section
-then take a look at the <<Further examples>> below.
+If you're new to WebAssembly read the <<Getting Started>> section,
+watch some of the <<Go Webassembly talks>>, then take a look at the
+<<Further examples>> below.
 **********************************************************************
 
 
