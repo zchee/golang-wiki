@@ -19,8 +19,8 @@ WebAssembly is described on its https://webassembly.org[home page] as:
 
 **********************************************************************
 If you're new to WebAssembly read the <<Getting Started>> section,
-watch some of the <<Go Webassembly talks>>, then take a look at the
-<<Further examples>> below.
+watch some of the https://github.com/golang/go/wiki/WebAssembly#go-webassembly-talks[Go Webassembly talks],
+then take a look at the <<Further examples>> below.
 **********************************************************************
 
 
