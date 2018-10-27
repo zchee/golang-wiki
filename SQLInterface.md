@@ -23,10 +23,10 @@ Where driver specifies a database driver and dataSourceName
 specifies database-specific connection information
 such as database name and authentication credentials.
 
-Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the Ping function:
+Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the PingContext function:
 
 ```go
-if err := db.Ping(); err != nil {
+if err := db.PingContext(ctx); err != nil {
   log.Fatal(err)
 }
 ```
@@ -35,10 +35,10 @@ After use, the database is closed using Close.
 
 # Executing queries
 
-Exec is used for queries where no rows are returned:
+ExecContext is used for queries where no rows are returned:
 
 ```go
-result, err := db.Exec(
+result, err := db.ExecContext(ctx,
 	"INSERT INTO users (name, age) VALUES ($1, $2)",
 	"gopher",
 	27,
@@ -49,10 +49,10 @@ Where result contains the last insert ID and number of
 rows affected. The availability of these values is dependent on
 the database driver.
 
-Query is used for retrieval:
+QueryContext is used for retrieval:
 
 ```go
-rows, err := db.Query("SELECT name FROM users WHERE age = $1", age)
+rows, err := db.QueryContext(ctx, "SELECT name FROM users WHERE age = $1", age)
 if err != nil {
 	log.Fatal(err)
 }
@@ -69,19 +69,18 @@ if err := rows.Err(); err != nil {
 }
 ```
 
-QueryRow is used where only a single row is expected:
+QueryRowContext is used where only a single row is expected:
 
 ```go
 var age int64
-row := db.QueryRow("SELECT age FROM users WHERE name = $1", name)
-err := row.Scan(&age)
+err := db.QueryRowContext(ctx, "SELECT age FROM users WHERE name = $1", name).Scan(&age)
 ```
 
 Prepared statements can be created with Prepare:
 
 ```go
 age := 27
-stmt, err := db.Prepare("SELECT name FROM users WHERE age = $1")
+stmt, err := db.PrepareContext(ctx, "SELECT name FROM users WHERE age = $1")
 if err != nil {
 	log.Fatal(err)
 }
@@ -89,7 +88,7 @@ rows, err := stmt.Query(age)
 // process rows
 ```
 
-Exec, Query and QueryRow can be called on statements. After use, a
+ExecContext, QueryContext and QueryRowContext can be called on statements. After use, a
 statement should be closed with Close.
 
 # Transactions
@@ -97,13 +96,13 @@ statement should be closed with Close.
 Transactions are started with Begin:
 
 ```go
-tx, err := db.Begin()
+tx, err := db.BeginTx(ctx, nil)
 if err != nil {
 	log.Fatal(err)
 }
 ```
 
-The Exec, Query, QueryRow and Prepare functions already covered can be
+The ExecContext, QueryContext, QueryRowContext and PrepareContext functions already covered can be
 used in a transaction.
 
 A transaction must end with a call to Commit or Rollback.
@@ -116,7 +115,7 @@ For example, if the name column in the names table is nullable:
 
 ```go
 var name NullString
-err := db.QueryRow("SELECT name FROM names WHERE id = $1", id).Scan(&name)
+err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ...
 if name.Valid {
 	// use name.String
