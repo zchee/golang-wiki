@@ -26,7 +26,7 @@ $ sudo snap install --classic go
 ```
 > A restart is required for the command to be recognized.
 
-If you're using Ubuntu 16.04 LTS and are unable to install `golang-1.10-go`, then you can also use the `longsleep/golang-backports` PPA:
+If you're using Ubuntu 16.04 LTS, then you can also use the `longsleep/golang-backports` PPA:
 
 ```
 sudo add-apt-repository ppa:longsleep/golang-backports
