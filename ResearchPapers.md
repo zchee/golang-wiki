@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- "MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation" (Shankara Pailoor, Andrew Aday, Suman Jana) USENIX Security 2018
+  - [pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-pailoor.pdf)
+
 - "Process-Local Static Analysis of Synchronous Processes" (Jan Midtgaard, Flemming Nielson, Hanne Riis Nielson) SAS 2018
   - [full version PDF](http://janmidtgaard.dk/papers/Midtgaard-Nielson-Nielson%3aSAS18-full.pdf)
   - [prototype](https://github.com/jmid/nano-go)
