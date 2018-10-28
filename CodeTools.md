@@ -55,8 +55,8 @@ An overview of tools that will help improve your Go code
 
 ## Navigation
 
-  - [go oracle - user manual](http://golang.org/s/oracle-user-manual) - A tool for understanding Go code
-  - [Pythia](https://github.com/fzipp/pythia) - A browser-based UI for the Go Oracle.
+  - [Go Guru - User Manual](https://golang.org/s/using-guru) - A tool for understanding Go code.
+  - [Pythia](https://github.com/fzipp/pythia) - A browser-based UI for Go Guru.
 
 ## Visualization
 
