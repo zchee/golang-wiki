@@ -150,7 +150,6 @@
   * [Boston Golang](http://bostongolang.org) - Boston MA, USA.
   * [Framingham Go](https://www.meetup.com/Framingham-Golang-Meetup/) - Framingham MA, USA.
   * [GoMN](http://www.meetup.com/golangmn/) - Minneapolis MN, USA.
-  * [NYC Go Developers Meetup](http://www.meetup.com/nycgolang/) - New York NY, USA.
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
   * [Bowery Golang Meetup](https://www.meetup.com/Bowery-Go/) - New York NY, USA.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
