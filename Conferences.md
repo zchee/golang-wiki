@@ -6,7 +6,6 @@ Please keep all items in chronological order.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
 | GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/<br>CFP https://talks.godays.io/godays19/ |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
@@ -25,6 +24,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | https://golab.io |
 | Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
