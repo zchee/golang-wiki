@@ -184,6 +184,7 @@
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
   * [Containo.us](https://containo.us/)
+  * [crème de la crème](https://cremedelacreme.io/)
   * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
