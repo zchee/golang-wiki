@@ -40,6 +40,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - Dean Bassett, "[If we're going to use contracts, allow unary + on string](https://github.com/golang/go/issues/27657), September 2018"
 
+- Kevin Gillette, "[Regarding the Go 2 Generics Draft](https://medium.com/@xtg/regarding-the-go-2-generics-draft-39f7815be89)", September 2018
+
 - jimmy frasche, "[Embedding of type parameters should not be allowed](https://github.com/golang/go/issues/15292#issuecomment-417422599)", August 2018
 
 - Javier Zunzunegui, "[Compiling Generics](https://gist.github.com/JavierZunzunegui/7032f5846fd255811e7af39bd2c74f38)", August 2018
@@ -82,8 +84,6 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - Matt Sherman "[Generics as built-in typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
 
 - Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
-
-- Kevin Gillette, "[Regarding the Go 2 Generics Draft](https://medium.com/@xtg/regarding-the-go-2-generics-draft-39f7815be89)", September 2018
 
 - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
 
