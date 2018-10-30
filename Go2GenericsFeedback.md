@@ -64,7 +64,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - ohir, "[CGG, Craftsman Go Generics](https://github.com/ohir/gonerics)", September 2018
 
-- Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018
+- ~~Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018~~  
+  _I have made a second proposal ("contract embedding") listed further down that solves the issues with this one_
 
 - dotaheor, "[Combine contract and code together and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
 
@@ -99,6 +100,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - Ruan Kunliang, "[Package level generics](https://gist.github.com/PeterRK/41d4d3f54b8db55cd616403fd5a389f3)", August 2018
 
 - Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
+
+- Dean Bassett, "[Contract embedding](https://gist.github.com/deanveloper/9063720344d7a041795cba778d7de77c)", October 2018
 
 ## Against
 
