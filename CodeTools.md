@@ -31,7 +31,7 @@ An overview of tools that will help improve your Go code
 
   - [Refactoring with go fmt](http://spf13.com/post/go-fmt/)
   - [gorename - easy refactoring](https://texlution.com/post/gorename/)
-  - [Refectoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) - An overview of refactoring tools for Go.
+  - [Refactoring Tools](http://blog.ralch.com/tutorial/golang-tools-refactoring/) - An overview of refactoring tools for Go.
   - [Quick renaming with gofmt](http://technosophos.com/2015/09/26/quick-go-hack-renaming-structs.html)
 
 ### Tools
