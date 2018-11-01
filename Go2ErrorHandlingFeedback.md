@@ -20,8 +20,6 @@ Discussions of the requirements for a new error handling method.
 
 This includes supporting the existing chaining/stacking of handlers without changes.
 
- - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch expression](https://github.com/golang/go/issues/28344)", October 2018
-
  - Tokyo Gophers, "[In support comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.f7ryl4573bu9)", October 2018
 
  - Jeffrey Koehler, "[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)", August 2018
@@ -122,6 +120,8 @@ Critiques without counter-proposals
 - Vladimir Utoplov, "[Handling throws/throw idiom](https://gist.github.com/trashgenerator/d58e05522d2f83709e1a601564b68fee)", September 2018
 
 ## Other
+
+ - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
 
 - Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
 
