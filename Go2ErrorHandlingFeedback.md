@@ -43,6 +43,8 @@ Code changed to use the existing proposal.
 
 Critiques without counter-proposals
 
+- Anonymous, “[Go 2 Error Handling Non-Proposal](https://groups.google.com/d/topic/golang-nuts/1McP4_-oOpo/discussion)”, October 2018
+
 - Stripe developers, “[Feedback on Go 2 draft designs](https://groups.google.com/d/msg/golang-nuts/3A_MpcNKg7k/DWiHBLArCAAJ)”, October 2018
 
 - Tokyo Gophers, "[Against comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.fy8rnze9tll5)", Oct 2018
