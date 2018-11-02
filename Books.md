@@ -632,7 +632,7 @@ Sorted by publication date.
     * Author: Noval Agung Prayogo
     * Publication Date: Oktober 30, 2015
     * ISBN: ---
-    * Reference: https://www.gitbook.com/book/novalagung/dasarpemrogramangolang/
+    * Reference: https://dasarpemrogramangolang.novalagung.com
 
 # Italian
   * **Programmare in Linguaggio Go**
