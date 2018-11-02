@@ -1037,6 +1037,7 @@
   * [Tapjoy](http://home.tapjoy.com/) - [blog](http://basho.com/posts/technical/built-on-riak-dynamiq-by-tapjoy/), [github](https://github.com/Tapjoy/dynamiq)
   * [Teespring](https://teespring.com/)
   * [Telit IoT Portal](http://www.telit.com/products-and-services/iot-platforms/iot-portal/)
+  * [TelTech](http://www.teltech.co/) - [github](https://github.com/teltechsystems/)
   * [Tendermint](http://tendermint.com/) - [github](https://github.com/tendermint/tendermint)
   * [TF2Stadium](http://tf2stadium.com) - [github](https://github.com/TF2Stadium), [blog](http://blog.tf2stadium.com/how-it-works-basics/)
   * [TGen](https://www.tgen.org/) - [github](https://github.com/tgen), [blog](https://www.tgen.org/blog/)
