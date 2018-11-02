@@ -14,7 +14,7 @@ Commercial providers of Go training
 * [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
 * [Golang tutorial](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
 * [Ultimate Go Live Lessons](http://www.informit.com/store/ultimate-go-programming-livelessons-9780134757483) - This is Ardan Labs classroom Go training on video.
-* [Go: The Complete Bootcamp Course](https://www.udemy.com/learn-go-the-complete-bootcamp-course-golang/?couponCode=GOWIKI)
+* [Go: The Complete Bootcamp Course](https://www.udemy.com/learn-go-the-complete-bootcamp-course-golang/?couponCode=GOWIKI) - Learn to build real-world and idiomatic Go programs with animated video lectures and hands-on exercises
 
 ## Classroom and In-Person
 
