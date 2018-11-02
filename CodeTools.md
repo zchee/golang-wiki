@@ -15,6 +15,7 @@ An overview of tools that will help improve your Go code
   - [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
   - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code
   - [goimports](https://github.com/bradfitz/goimports) - Format code and fix your import statements
+  - [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go
 
 ## Code generation, Templating and Generics
 
