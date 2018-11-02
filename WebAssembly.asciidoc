@@ -214,6 +214,15 @@ The fix has been added to both the https://github.com/golang/go/tree/release-bra
 * https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
 * https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
 
+# Reducing the size of Wasm files
+
+At present, Go generates large Wasm files, with the smallest possible size being around ~2MB.  If your Go code imports libraries, this file size can increase dramatically.  10MB+ is common.
+
+There are two main ways (for now) to reduce this file size:
+
+1. gz compress the .wasm file - This reduces things reasonably well.  For example, the ~2MB (minimum file size) example Wasm will compress down to around 500kB.
+
+2. Use https://github.com/aykevl/tinygo[TinyGo] to generate the Wasm file instead.  TinyGo is a subset of the Go language targeted for embedded devices, and recently added a WebAssembly output target.  While it does have limitations (not a full Go implementation), it is still fairly capable and the generated Wasm files are... Tiny.  ~10kB isn't unusual.  This project is also very actively developed, so it's capabilities are expanding out quickly.
 
 # Other WebAssembly resources
 
