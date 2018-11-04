@@ -25,6 +25,7 @@ An overview of tools that will help improve your Go code
   - [gonerics.io](http://bouk.co/blog/idiomatic-generics-in-go/) - Idiomatic Generics in Go
   - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go
   - [sqlgen](https://github.com/drone/sqlgen) - Generate Go code for SQL interactions.
+  - [zek](https://github.com/miku/zek) - Generate Go struct from XML.
 
 ## Refactoring
 
