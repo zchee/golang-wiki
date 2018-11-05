@@ -56,6 +56,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Andy Balholm, "[Contracts and Adaptors](https://gist.github.com/andybalholm/acecba3acf57bf1254142dadce928890)", November 2018
+
 - Patrick Smith, "[Go Generics with Adaptors](https://gist.github.com/pat42smith/ccf021193971f6de6fdb229d68215302)", October 2018
 
 - Ian Denhardt, "[Go Generics: A Concrete Proposal Re: Using Interfaces Instead Of Contracts.](https://gist.github.com/zenhack/ad508d08c72fce6df945a49945ad826d)", October 2018
