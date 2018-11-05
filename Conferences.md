@@ -12,7 +12,7 @@ Please keep all items in chronological order.
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/<br>CFP https://lists.fosdem.org/pipermail/fosdem/2018q4/002767.html |
 | OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/<br>CFP https://www.papercall.io/opengo |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
-| GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/ |
+| GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>TBA |
 | GoCon Canada | 2019 TBD | Toronto | https://gocon.ca |
 | GopherCon EU | 2019 TBD | TBD | TBD |
