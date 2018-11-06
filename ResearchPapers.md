@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- Voit, Sebastian Peter Johann. "Writing Network Drivers in Go."
+  - [pdf](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-go.pdf)
+
 - "MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation" (Shankara Pailoor, Andrew Aday, Suman Jana) USENIX Security 2018
   - [pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-pailoor.pdf)
 
