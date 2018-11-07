@@ -12,6 +12,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - Richard Fliam, "[Go2 Generics Let You Construct the Natural Numbers](https://gist.github.com/rfliam/c806a4300aa97f2762295ef97d3e924f)", August 2018
 
+- Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
+
 ## Supplemental (supporting with modifications)
 
 - alanfo, "[Proposed changes to the Go draft generics design in the light of feedback received](https://gist.github.com/alanfo/72f07362d687f625a958bde1808e0c87)", October 2018
@@ -84,8 +86,6 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - Axel Wagner, "[Scrapping contracts](https://blog.merovius.de/2018/09/05/scrapping_contracts.html)", September 2018
 
 - Matt Sherman "[Generics as built-in typeclasses](https://clipperhouse.com/go-generics-typeclasses/)", September 2018
-
-- Roger Peppe, "Go generics at runtime", [Part 1](https://gist.github.com/rogpeppe/f9216e5f2b1c99fc13108825dbda6181), [Part 2](https://gist.github.com/rogpeppe/9fa9a267472fb80e9ddc4a940aa26e14), September 2018
 
 - Roger Peppe, "[Revised generics proposal](https://gist.github.com/rogpeppe/45f5a7578507989ec4ba5ac639ae2c69)", September 2018
 
