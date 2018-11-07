@@ -71,7 +71,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - ~~Dean Bassett, "[Using interfaces instead of contracts](https://gist.github.com/deanveloper/c495da6b9263b35f98b773e34bd41104)", September 2018~~  
   _I have made a second proposal ("contract embedding") listed further down that solves the issues with this one_
 
-- dotaheor, "[Combine contract and code together and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018
+- dotaheor, "[Combine contract and code together and view generic as compile-time calls with multiple outputs](https://gist.github.com/dotaheor/4b7496dba1939ce3f91a0f8cfccef927)", September 2018. (Updated from time to time)
 
 - Aleksei Pavliukov, "[Extend type and func keywords](https://github.com/a5i/go-proposal/blob/master/generics.md)", September 2018
 
