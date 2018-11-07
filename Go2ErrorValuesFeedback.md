@@ -8,6 +8,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Error Inspection
 
+ - Roger Peppe, "[Some thoughts about the draft Go error inspection design](https://gist.github.com/rogpeppe/a435b57473152e3429a5a149401edacf)", November 2018
  - Greg Weber, “[Horizontal composition: Error inspection for groups](https://gist.github.com/gregwebs/5a14a83970d607411310a3e0281d55be)”, September 2018
     - Eyal Posener, "[Reply](https://gist.github.com/gregwebs/5a14a83970d607411310a3e0281d55be#gistcomment-2710662)", September 2018 
  - K. Alex mills, "[Rename Wrapper to Unwrapper](https://gist.github.com/kalexmills/46c2cb276c69b659005d8705180b268a)", September 2018
