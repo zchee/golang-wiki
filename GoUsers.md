@@ -123,7 +123,7 @@
   * [Tulip](https://tulip.com/) - [jobs](https://tulip.com/about/careers/)
   * [Wattpad](https://www.wattpad.com/)
   * [500px](https://500px.com) - [blog](https://developers.500px.com/how-500px-serves-up-over-500tb-of-high-res-photos-fa81a376c594#.35tz2wtg2) - [github](https://github.com/500px)
-  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=-1&country=Canada)
+  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
 
 ## Chile
   * [Prey](https://preyproject.com) - [blog](https://preyproject.com/blog) - [github](https://github.com/prey)
@@ -402,6 +402,7 @@
   * [Sorint.lab](https://www.sorint.it) - [github](https://github.com/sorintlab)
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/trenitapp/posts/907728379283787)) -- Most popular mobile app for Italian trains schedules
   * [Develer](https://www.develer.com)
+  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
 
 ## Japan
   * [3-shake, Inc.](https://www.3-shake.com/)
@@ -636,6 +637,7 @@
   * [Greta](https://greta.io/)
   * [Booli](https://www.booli.se/)
   * [Studentlitteratur](https://www.studentlitteratur.se)
+  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
