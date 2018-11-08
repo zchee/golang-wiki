@@ -26,6 +26,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 * [Games With Go](http://gameswithgo.org/) - Video series teaching programming fundamentals with game related projects.
 * [Go Language Tutorials](https://www.cybrhome.com/topic/go-language-tutorials) - List of popular sites, blogs and tutorials for learning Go language.
 * [Golang Development Video Course](https://www.youtube.com/playlist?list=PLzUGFf4GhXBL4GHXVcMMvzgtO8-WEJIoY) - A growing list of videos focused purely on Go development.
+* [Go: The Complete Bootcamp Course](https://www.udemy.com/learn-go-the-complete-bootcamp-course-golang/?couponCode=GOWIKI) - Step by step and intuitive explanations for every aspect of Go using animations (Paid)
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
