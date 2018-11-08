@@ -291,6 +291,7 @@
   * [Saltside Technologies AB](http://www.saltside.se/)
   * [Siminars](http://siminars.com)
   * [Singulerp](https://singulerp.com)
+  * [SocialCops](https://socialcops.com) - [engineering page](https://socialcops.com/careers/engineering/)
   * [SoStronk](https://www.sostronk.com/)
   * [Synerzip](http://synerzip.com/)
   * [Tarkalabs](https://tarkalabs.com/)
