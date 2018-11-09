@@ -10,6 +10,7 @@ Please keep all items in chronological order.
 | GopherCon India 2019 | 2019-01-18 | Goa, India | https://gopherconindia.com/<br>CFP https://gopherconindia.com/call-for-proposal/ |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/<br>CFP https://talks.godays.io/godays19/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/<br>CFP https://lists.fosdem.org/pipermail/fosdem/2018q4/002767.html |
+| GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/<br>CFP https://www.papercall.io/cfps/1422/submissions/new |
 | OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/<br>CFP https://www.papercall.io/opengo |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
@@ -18,7 +19,7 @@ Please keep all items in chronological order.
 | GopherCon EU | 2019 TBD | TBD | TBD |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | TBD |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
-| GoLab 2019 | 2018-10-21-22 | Florence, Italy | https://golab.io |
+| GoLab 2019 | 2019 TBD | Florence, Italy | https://golab.io |
 | Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
 
