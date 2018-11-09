@@ -175,7 +175,7 @@ Please get involved and help drive this if you're interested in the Debugger sid
 
 # Known bug(s)
 
-The Go 1.11 and 1.11.1 releases https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
+Go releases prior to 1.11.2 https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
 
 If your Go code compiles to wasm without problem, but produces an error like this when run in the browser:
 
@@ -185,7 +185,7 @@ CompileError: wasm validation error: at offset 1269295: type mismatch: expressio
 
 Then you're probably hitting this error.
 
-The fix has been added to both the https://github.com/golang/go/tree/release-branch.go1.11[1.11.x release] and https://github.com/golang/go/commits/master[master] branches on GitHub, so https://golang.org/doc/install/source#fetch[re-compiling Go] from either of those will solve the problem.
+The solution is to upgrade to Go 1.11.2 or later.
 
 
 # Further examples
