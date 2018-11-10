@@ -1134,6 +1134,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [udis86](https://github.com/jroimartin/udis86) - Go bindings for libudis86
   * [ugo](https://github.com/alxrm/ugo) - underscore.js like toolbox for Go
   * [Vboxgo](https://github.com/th4t/vboxgo) - user-like access to VirtualBox VMs from Go.
+  * [WUID](https://github.com/edwingeng/wuid) - An extremely fast unique number generator, 10-135 times faster than UUID.
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
   * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and auhtentication API client.
