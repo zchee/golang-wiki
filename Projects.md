@@ -1053,6 +1053,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [desktop](https://bitbucket.org/tebeka/desktop) - Open file/uri with default application (cross platform)
   * [devboard](https://launchpad.net/devboard) - Kanban board application based on Simple-Khanban
   * [dioder-api](https://github.com/piLights/Dioder-API) - An API to IKEA dioder LED-strips
+  * [doublejump](https://github.com/edwingeng/doublejump) - A revamped Google's jump consistent hash
   * [dump](http://code.google.com/p/golang/source/browse/src/pkg/dump/) - An utility that dumps Go variables, similar to PHP's var\_dump
   * [elPrep](https://github.com/ExaScience/elprep) - A high-performance tool for preparing sequence alignment/map files in DNA sequencing pipelines
   * [env](https://github.com/darkhelmet/env) - Easily pull environment variables with defaults
