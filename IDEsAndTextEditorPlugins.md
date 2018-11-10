@@ -7,7 +7,7 @@
   * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
   * **[Builder](https://github.com/chergert/gnome-builder)**: A toolsmith for GNOME-based applications
-    * Synatax highlighting and completion build-in.
+    * Syntax highlighting and completion build-in.
   * **[Eclipse IDE](https://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
