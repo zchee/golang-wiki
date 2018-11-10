@@ -1061,6 +1061,7 @@
   * [Total Care Auto](http://www.totalcareauto.com/)
   * [Transloadit](https://transloadit.com) - [blog](https://transloadit.com/blog/2014/11/releasing-our-new-go-sdk/)
   * [Treetop Commons, NobleHour](http://www.treetopcommons.com/#intro) - [tweet](https://twitter.com/aimeelevens/status/664124807286427648)
+  * [Trippple](http://trippple.co)
   * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
   * [Tumblr ](http://www.tumblr.com) - [github](https://github.com/tumblr/gocircuit) [source](https://groups.google.com/forum/?fromgroups=#!topic/golang-nuts/qelU5Lrq-uA)
   * [Tune](https://www.tune.com/)
