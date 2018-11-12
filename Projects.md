@@ -704,6 +704,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [godit](https://github.com/nsf/godit) - A microemacs-like text editor written in Go.
   * [gofinder](https://github.com/mpl/gofinder) - (code) search tool for acme
   * [go-gedit](http://code.google.com/p/go-gedit3-plugin/) - Google Go language plugin for gedit
+  * [Gide](https://github.com/goki/gide) - Go IDE built in the go-native [GoGi](https://github.com/goki/gi) GUI
   * [golab](https://github.com/mb0/lab) - go local application builder - a web-based Go ide
   * [Google Go for Idea](http://plugins.intellij.net/plugin/?idea&id=5047) - Google Go language plugin for Intellij IDEA
   * [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor.
@@ -870,6 +871,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [portaudio](http://code.google.com/p/portaudio-go/) - A Go binding to PortAudio
   * [pulsego](https://github.com/moriyoshi/pulsego/) - Go binding for PulseAudio
   * [pulse-simple](https://github.com/mesilliac/pulse-simple/) - Go bindings for PulseAudio's Simple API, for easy audio capture and playback.
+  * [rasterx](https://github.com/srwiley/rasterx) - SVG-standard rendering, rasterization library.
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
   * [RiGO](https://github.com/mae-global/rigo) - RenderMan Interface implementation in Go. 
   * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
