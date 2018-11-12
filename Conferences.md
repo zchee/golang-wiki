@@ -2,7 +2,7 @@
 
 ## Upcoming
 
-Please keep all items in chronological order.
+Please keep all items in chronological order. There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap)
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
