@@ -898,6 +898,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
   * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
+  * [GoGi](https://github.com/goki/gi) - Fully native cross-platform GUI toolkit
   * [gothic](https://github.com/nsf/gothic) - Tcl/Tk Go bindings
   * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3, requires GTK version 3.8
   * [go.uik](https://github.com/skelterjohn/go.uik) - A UI kit for Go, in Go. (project is closed)
