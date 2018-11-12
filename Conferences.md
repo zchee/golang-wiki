@@ -2,7 +2,7 @@
 
 ## Upcoming
 
-Please keep all items in chronological order. There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap)
+Please keep all items in chronological order. There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap). The map will be updated about once a week from the entries below. Errors in the map can be reported to van@golang.org.
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
