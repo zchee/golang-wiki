@@ -143,7 +143,7 @@ Critiques without counter-proposals
 
 Please help categorize the rest of the proposals here.
 
-
+- Peter Goetz, "[Formalize and Enforce Error Handling](https://medium.com/@peter.gtz/thinking-about-new-ways-of-error-handling-in-go-2-e56d116952f1)", September 2017
 
 - Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
 
@@ -162,7 +162,6 @@ Please help categorize the rest of the proposals here.
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
 - Yesuu Zhang, "[Pass the check and handle parameters, custom handle](https://github.com/yesuu/go-proposal/blob/master/go2errorhanding.md)", September 2018
-
 
 ## Adding Your Feedback
 
