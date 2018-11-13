@@ -6,7 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Vietnam 2018 | 2018-12-01 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
+| GopherCon Vietnam 2018 | 2018-12-08 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
 | GopherCon India 2019 | 2019-01-18 | Goa, India | https://gopherconindia.com/<br>CFP https://gopherconindia.com/call-for-proposal/ |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/<br>CFP https://talks.godays.io/godays19/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/<br>CFP https://lists.fosdem.org/pipermail/fosdem/2018q4/002767.html |
