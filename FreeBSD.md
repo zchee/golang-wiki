@@ -3,7 +3,7 @@
 | **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
 |:-------------------|:------------------|:----------------------------|:--------------------------|
 | 13-CURRENT         | amd64, arm, 386   |                             |                           |
-| 12-STABLE          | amd64, arm, 386   | _**_                        |                           |
+| 12-STABLE          | amd64, arm, 386   | Go 1.12 _**_                |                           |
 | 11-STABLE          | amd64, arm, 386   | Go 1.7                      |                           |
 | 10-STABLE          | amd64, arm, 386   | Go 1.3 _*_                  | Go 1.12                   |
 | 9-STABLE (EOL)     | amd64, 386        | Go 1 _*_                    | Go 1.9.7                  |
