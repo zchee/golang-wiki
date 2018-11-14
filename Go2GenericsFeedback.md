@@ -60,6 +60,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - Andy Balholm, "[Contracts and Adaptors](https://gist.github.com/andybalholm/acecba3acf57bf1254142dadce928890)", November 2018
 
+- Dean Bassett, "[Contract embedding](https://gist.github.com/deanveloper/9063720344d7a041795cba778d7de77c)", October 2018
+
 - Patrick Smith, "[Go Generics with Adaptors](https://gist.github.com/pat42smith/ccf021193971f6de6fdb229d68215302)", October 2018
 
 - Ian Denhardt, "[Go Generics: A Concrete Proposal Re: Using Interfaces Instead Of Contracts.](https://gist.github.com/zenhack/ad508d08c72fce6df945a49945ad826d)", October 2018
@@ -102,8 +104,6 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - Ruan Kunliang, "[Package level generics](https://gist.github.com/PeterRK/41d4d3f54b8db55cd616403fd5a389f3)", August 2018
 
 - Emily Maier, "[Getting specific about generics](https://emilymaier.net/words/getting-specific-about-generics/)", August 2018
-
-- Dean Bassett, "[Contract embedding](https://gist.github.com/deanveloper/9063720344d7a041795cba778d7de77c)", October 2018
 
 ## Against
 
