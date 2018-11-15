@@ -101,6 +101,7 @@
   * [Be-Mobile](http://www.be-mobile.com/)
   * [OTA Insight](https://www.otainsight.com/)
   * [Showpad](https://www.showpad.com/)
+  * [Elimity](https://elimity.com/)
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
