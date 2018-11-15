@@ -2,6 +2,9 @@
 
 This page is meant to collect and organize feedback about the Go 2 [contracts (generics) draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md).
 
+A prototype implementation of the syntax can be found in https://golang.org/cl/149638 which may be
+patched on tip of the Go repo.
+
 Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google Docs, etc. And then please link it here.
 
 As the amount of feedback grows, please feel free to organize or reorganize this page by specific kind of feedback.
