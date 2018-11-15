@@ -2,6 +2,8 @@
 
 In addition to the mailing list, there is discussion in the `#tools` channel on [Gophers Slack](https://gophers.slack.com) ([sign-up here](https://invite.slack.golangbridge.org)).
 
+The mailing list and Slack channels are open to everyone. 
+
 ### Fortnightly catch-up calls
 
 We currently (correct as of Nov 2018) hold fortnightly catch-up calls. These calls are open to everyone. For those not able to join, notes and a recording of discussion are made available after each session.
