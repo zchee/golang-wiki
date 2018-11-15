@@ -716,6 +716,7 @@
   * [Songkick](https://www.songkick.com)
   * [StorageOS](http://storageos.com)
   * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
+  * [Utility Warehouse](https://careers.utilitywarehouse.co.uk/departments/technology)
   * [Weaveworks](http://weave.works)
   * [XTX Markets](http://www.xtxmarkets.com) - [github](https://github.com/XTXMarkets)
   * [YouView TV Ltd](http://www.youview.com)
