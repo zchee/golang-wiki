@@ -908,6 +908,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Gowut](https://sites.google.com/site/gowebuitoolkit/) - Gowut (Go Web UI Toolkit) is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go, no platform dependent native code is linked or called.
   * [GXUI](https://github.com/google/gxui) - A Go cross platform UI library.
   * [iup](https://github.com/grd/iup) - Bindings for [IUP](http://www.tecgraf.puc-rio.br/iup)
+  * [lorca](https://github.com/zserge/lorca) - A small library for building cross-platform HTML5 GUI apps in Go, uses Chrome/Chromium as a UI layer.
   * [mdtwm](https://github.com/ziutek/mdtwm) - Tiling window manager for X
   * [qml](https://github.com/niemeyer/qml) - QML support for the Go language
   * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
