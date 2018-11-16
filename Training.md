@@ -3,6 +3,7 @@ Commercial providers of Go training
 ## On-line
 
 * [Mastering Go Programming](https://www.packtpub.com/application-development/mastering-go-programming-video) - A comprehensive Go video training course 
+* [EXLskills - A$AP Learn Go](https://exlskills.com/learn-en/courses/aap-learn-go-golang--learn_golang_asap) - Fast-paced free and open course for getting going with Go
 * [Golang - From Beginner to Advanced - Romeo Mihalcea](https://www.devcasts.io/course/golang-from-beginner-to-advanced/)
 * [Golang Tutorials - Sathish VJ](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
 * [Learn Go - Codementor.io](https://www.codementor.io/go) - Beginner level online class.
