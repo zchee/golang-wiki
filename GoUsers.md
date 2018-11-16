@@ -526,8 +526,8 @@
 
 ## Netherlands
   * [BloomReach](https://www.bloomreach.com)
-  * [booking.com](https://www.booking.com)
   * [bol.com](https://www.bol.com)
+  * [booking.com](https://www.booking.com)
   * [Datumprikker.nl](https://datumprikker.nl/)
   * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
