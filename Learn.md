@@ -2,6 +2,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 
   * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
   * [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
+  * [EXLskills - A$AP Learn Go](https://exlskills.com/learn-en/courses/aap-learn-go-golang--learn_golang_asap) - Fast-paced free and open course for getting going with Go
   * [Learn Go in an Hour - Video](https://www.youtube.com/watch?v=CF9S4QZuV30) _2015-02-15_
   * [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6), a multi-part video training class.
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
