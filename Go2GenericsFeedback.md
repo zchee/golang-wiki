@@ -19,7 +19,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
-- Chris Siebenmann "[Go 2 Generics: Contracts are too clever](https://utcc.utoronto.ca/~cks/space/blog/programming/Go2ContractsTooClever)", November 2018
+- Chris Siebenmann, "[Go 2 Generics: Contracts are too clever](https://utcc.utoronto.ca/~cks/space/blog/programming/Go2ContractsTooClever)", November 2018
 
 - alanfo, "[Proposed changes to the Go draft generics design in the light of feedback received](https://gist.github.com/alanfo/72f07362d687f625a958bde1808e0c87)", October 2018
 
