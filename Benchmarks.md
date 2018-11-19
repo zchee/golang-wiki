@@ -50,6 +50,7 @@ Information for each benchmark includes (or should include):
  | k8s_schedulercache | | `k8s.io/kubernetes/pkg/scheduler/cache` | `BenchmarkList1kNodes30kPods` | |
  | minio | | `github.com/minio/minio/cmd` | `BenchmarkGetObject5MbFS` | |
  | nelsam_gxui_interval | | `github.com/nelsam/gxui/interval` | `Benchmark` | |
+ | pilosa_bitmaps | benchmarks in `roaring/` subdirectory | `github.com/pilosa/pilosa` | `BenchmarkBitmap_IntersectionCount` | jaffee@pilosa.com |
  | semver | | `github.com/Masterminds/semver` | `BenchmarkValidateVersionTildeFail` | |
  | spexs2 | | `github.com/egonelbre/spexs2/_benchmark/` | `BenchmarkRun/10k/1` | |
  | uber_zap | | `go.uber.org/zap/benchmarks` | `BenchmarkAddingFields/(Zap.Sugar\|^[ais])` | |
