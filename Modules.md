@@ -282,6 +282,7 @@ Modules are capable of consuming packages that have not yet opted into modules. 
 See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
 
 After upgrading or downgrading any dependencies, you may then want to run the tests again for all packages in your build (including direct and indirect dependencies) to check for incompatibilities:
+
    ```
    $ go test all
    ```
