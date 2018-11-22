@@ -76,6 +76,7 @@
   * [Newcore](https://www.newcore.com.br/)
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
+  * [Olist](https://olist.com/) - [github](https://github.com/olist)
   * [Open Vista Global](http://openvistaglobal.com.br)
   * [Pagar.me](https://pagar.me)
   * [Pagro](https://www.pagro.com.br)
