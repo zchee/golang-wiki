@@ -1,6 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- Cody Cutler, M. Frans Kaashoek, and Robert T. Morris, "The benefits and costs of writing a POSIX kernel in a high-level language"
+  - [presentation](https://www.usenix.org/conference/osdi18/presentation/cutler)
+  - [code](https://github.com/mit-pdos/biscuit)
+
 - Voit, Sebastian Peter Johann. "Writing Network Drivers in Go."
   - [pdf](https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2018-ixy-go.pdf)
 
@@ -249,7 +253,9 @@ Turing Scholars honors thesis
   - http://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A911797&dswid=-6147
   - [code](https://github.com/decomp/decomp)
   - [pdf](https://github.com/decomp/doc/raw/master/report/compositional_decompilation/compositional_decompilation.pdf)
-
+- "U-root: A Go-based, Firmware Embeddable Root File System with On-demand Compilation" (Minnich, Mirtchovski)
+  - [pdf](https://www.usenix.org/system/files/conference/atc15/atc15-paper-minnich.pdf)
+  - [code](https://github.com/u-root/u-root)
 ## 2014
 - PARAGON: an approach for parallelization of power system contingency analysis using Go programming language
   - http://onlinelibrary.wiley.com/doi/10.1002/etep.1999/full
