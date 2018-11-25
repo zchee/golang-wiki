@@ -238,6 +238,8 @@ To create a `go.mod` for an existing project:
    $ go mod init github.com/you/hello
    ```
 
+   Note that if your dependencies include v2+ modules, or if you are initializing a v2+ module, then after running `go mod init` you might also need to edit your `go.mod` and `.go` code to add `/vN` to import paths and module paths as described in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above. This applies even if `go mod init` automatically converted your dependency information from `dep` or other dependency managers. (Because of this, after running `go mod init`, you typically should not run `go mod tidy` until you have successfully run `go build ./...` or similar, which is the sequence shown in this section).
+
 3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
 
    ```
