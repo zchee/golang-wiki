@@ -139,6 +139,8 @@ Critiques without counter-proposals
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
+- Plamen Stoev, "[Go 2 block-level checks]", November 2018
+
 ## Uncategorized
 
 Please help categorize the rest of the proposals here.
