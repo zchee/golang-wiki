@@ -29,6 +29,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GoCon Tokyo | 2018-11-25 | Tokyo, Japan | https://gocon.connpass.com/event/109368/ |
 | GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | https://golab.io |
 | Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
