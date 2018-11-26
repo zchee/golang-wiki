@@ -915,6 +915,7 @@
   * [Laserlike](https://www.laserlike.com/)
   * [LaunchDarkly](https://launchdarkly.com/) - [github](https://github.com/launchdarkly/), [golang sdk](https://github.com/launchdarkly/go-client)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
+  * [Liftoff](https://liftoff.io/company/engineering/)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
   * [Linc Global](https://www.letslinc.com/)
   * [Lob](https://www.lob.com)
