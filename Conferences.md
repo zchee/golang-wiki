@@ -19,7 +19,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon EU | 2019 TBD | TBD | TBD |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | TBD |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
-| GoLab 2019 | 2019 TBD | Florence, Italy | https://golab.io |
+| GoLab 2019 | 2019-10-21-22 | Florence, Italy | https://golab.io |
 | Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
 
