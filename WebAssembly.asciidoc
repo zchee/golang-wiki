@@ -133,7 +133,7 @@ ok  	example.org/my/pkg	0.800s
 
 # Go WebAssembly talks
 
-* https://youtu.be/4kBvvk2Bzis[Building a Calculator with Go and WebAssembly](https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
+* https://www.youtube.com/watch?v=4kBvvk2Bzis[Building a Calculator with Go and WebAssembly] (https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
 * https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
 
 
