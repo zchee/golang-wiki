@@ -6,6 +6,10 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
+### Further Background
+
+- Ben Johnson, "[Failure is Your Domain](https://middlemost.com/failure-is-your-domain/)", June 2018
+
 ### Error Inspection
 
  - Roger Peppe, "[Some thoughts about the draft Go error inspection design](https://gist.github.com/rogpeppe/a435b57473152e3429a5a149401edacf)", November 2018
