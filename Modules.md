@@ -580,7 +580,9 @@ If a dependency of your module does not itself have a `go.mod` (e.g., because th
 
 Note that this also means that any missing test dependencies from your direct or indirect dependencies will also be recorded in your `go.mod`. (An example of when this is important: `go test all` runs the tests of _all_ direct and indirect dependencies of your module, which is one way to validate that your current combination of versions work together. If a test fails in one of your dependencies when you run `go test all`, it is important to have a complete set of test dependency information recorded so that you have reproducible `go test all` behavior).
 
-In general, the behaviors described here are part of how modules provide 100% reproducible builds and tests by recording precise dependency information.
+Another reason you might have `// indirect` dependencies in your `go.mod` file is if you have upgraded (or downgraded) one of your indirect dependencies beyond what is required by your direct dependencies, such as if you ran `go get -u` or `go get foo@1.2.3`. The go tooling needs a place to record those new versions, and it does so in your `go.mod` file (and it does not reach down into your dependencies to modify _their_ `go.mod` files).
+
+In general, the behaviors described above are part of how modules provide 100% reproducible builds and tests by recording precise dependency information.
 
 If you are curious as to why a particular module is showing up in your `go.mod`, you can run `go mod why -m <module>` to [answer](https://tip.golang.org/cmd/go/#hdr-Explain_why_packages_or_modules_are_needed) that question.  Other useful tools for inspecting requirements and versions include `go mod graph` and `go list -m all`.
 
