@@ -73,6 +73,8 @@ Critiques without counter-proposals
 
 - Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
+- Martin Rode, "[The return of the return, Error Handling for Go 2](https://medium.com/@marode/the-return-of-the-return-278b8ae261ab)"
+
 ## Labeled error handlers
 
 - Burak Serdar, "[Handler for err declares both err and errHandler, less intrusive labeled error handling](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1)", October 2018
