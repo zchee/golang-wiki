@@ -63,6 +63,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Quentin Quaadgras, [No syntax changes, 1 new type, 1 new builtin](https://gist.github.com/Splizard/df4c34ffe100c624c55ddaf45ac7eeb6), December 2018
+
 - Andy Balholm, "[Contracts and Adaptors](https://gist.github.com/andybalholm/acecba3acf57bf1254142dadce928890)", November 2018
 
 - Dean Bassett, "[Contract embedding](https://gist.github.com/deanveloper/9063720344d7a041795cba778d7de77c)", October 2018
