@@ -419,7 +419,7 @@ Solution alternatives include:
 
 3. Create a temporary `go.mod` file that is then discarded. This has been automated by a [simple shell script](https://gist.github.com/rogpeppe/7de05eef4dd774056e9cf175d8e6a168) by [@rogpeppe](https://github.com/rogpeppe). This script allows version information to optionally be supplied (usage: `vgoget example.com/cmd[@version]`).
 
-4. `gobin` is a module-aware command to install and run main packages. It is a community-driven initiative led by  [@myitcv](https://github.com/myitcv). `gobin` is useful now, and also as serves as an experiment for possible future behaviors for the official `go` command. `gobin` uses a `go.mod` from the top-level command being installed if one is available, which provides for deterministic builds without needing to manually create a module. Please see the `gobin` [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) and [README](https://github.com/myitcv/gobin) for details and additional use cases.
+4. `gobin` is a module-aware command to install and run main packages. It is a community-driven initiative led by  [@myitcv](https://github.com/myitcv). `gobin` is useful now, and also as serves as an experiment for possible future behaviors for the official `go` command. `gobin` can use a `go.mod` from the top-level command being installed, which provides for deterministic builds without needing to manually create a module. Please see the `gobin` [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) and [README](https://github.com/myitcv/gobin) for details and additional use cases.
 
 5. Create a `go.mod` you use to track your globally installed tools, such as in `~/global-tools/go.mod`, and `cd` to that directory prior to running `go get` or `go install` for any globally installed tools. 
 
