@@ -379,7 +379,7 @@ Here is a partial list of some of the larger changes and improvements, almost al
 * [Closed vgo issues](https://github.com/golang/go/issues?q=-label%3Amodules+vgo+is%3Aclosed+sort%3Aupdated-desc)
 * Submit a [new module issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
 
-## FAQs — Most Common
+## FAQs
 
 ### How are versions marked as incompatible?
 
@@ -436,12 +436,16 @@ If instead you want to track the tools required by a _specific_ module, see the 
 ### How can I track tool dependencies for a module?
 
 If you:
- *  want to use a go-based tool (e.g. stringer) while working on a module, and
+ *  want to use a go-based tool (e.g. `stringer`) while working on a module, and
  *  want to ensure that everyone is using the same version of that tool while tracking the tool's version in your module's `go.mod` file
 
-then one currently recommended approach is to add a `tools.go` file to your module with a `// +build tools` build constraint as shown in [this comment in #25922](https://github.com/golang/go/issues/25922#issuecomment-412992431).
+then one currently recommended approach is to add a `tools.go` file to your module that includes import statements for the tools of interest (such as `import _ "golang.org/x/tools/cmd/stringer"`), along with a `// +build tools` build constraint. The import statements allow the `go` command to precisely record the version information for your tools in your module's `go.mod`, while the `// +build tools` build constraint prevents your normal builds from actually importing your tools.
 
-The brief rationale (also from #25922):
+For a concrete example of how to do this, please see this ["Go Modules by Example" walkthrough](https://github.com/go-modules-by-example/index/blob/master/010_tools/README.md).
+
+A discussion of the approach along with an earlier concrete example of how to do this is in [this comment in #25922](https://github.com/golang/go/issues/25922#issuecomment-412992431).
+
+The brief rationale (also from [#25922](https://github.com/golang/go/issues/25922#issuecomment-402918061)):
 
 > I think the tools.go file is in fact the best practice for tool dependencies, certainly for Go 1.11.
 > 
@@ -596,10 +600,6 @@ In part because `go.sum` is not a lock file, it retains cryptographic checksums 
 
 In addition, your module's `go.sum` records checksums for all direct and indirect dependencies used in a build (and hence your `go.sum` will frequently have more modules listed than your `go.mod`).
 
-### Should I still add a 'go.mod' file if I do not have any dependencies?
-
-Yes. This supports working outside of GOPATH, helps communicate to the ecosystem that you are opting in to modules, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is one reason why import comments might eventually be deprecated). Of course, modules are purely an opt-in capability in Go 1.11.
-
 ### Should I commit my 'go.sum' file as well as my 'go.mod' file?
 
 Typically your module's `go.sum` file should be committed along with your `go.mod` file. 
@@ -609,6 +609,10 @@ Typically your module's `go.sum` file should be committed along with your `go.mo
 * In addition, `go mod verify` checks that the on-disk cached copies of module downloads still match the entries in `go.sum`.
 * Note that `go.sum` is not a lock file as used in some alternative dependency management systems. (`go.mod` provides enough information for reproducible builds).
 * See very brief [rationale here](https://twitter.com/FiloSottile/status/1029404663358087173) from Filippo Valsorda on why you should check in your `go.sum`. See the ["Module downloading and verification"](https://tip.golang.org/cmd/go/#hdr-Module_downloading_and_verification) section of the tip documentation for more details. See possible future extensions being discussed for example in [#24117](https://github.com/golang/go/issues/24117) and [#25530](https://github.com/golang/go/issues/25530).
+
+### Should I still add a 'go.mod' file if I do not have any dependencies?
+
+Yes. This supports working outside of GOPATH, helps communicate to the ecosystem that you are opting in to modules, and in addition the `module` directive in your `go.mod` serves as a definitive declaration of the identify of your code (which is one reason why import comments might eventually be deprecated). Of course, modules are purely an opt-in capability in Go 1.11.
 
 ## FAQs — Semantic Import Versioning
 
