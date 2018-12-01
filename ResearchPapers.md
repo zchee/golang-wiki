@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- Observing the Evolution of QUIC Implementations, (Piraux, De Coninck, Bonaventure)
+  - [pdf](https://arxiv.org/abs/1810.09134)
+
 - Cody Cutler, M. Frans Kaashoek, and Robert T. Morris, "The benefits and costs of writing a POSIX kernel in a high-level language"
   - [presentation](https://www.usenix.org/conference/osdi18/presentation/cutler)
   - [code](https://github.com/mit-pdos/biscuit)
