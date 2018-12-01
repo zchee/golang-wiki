@@ -924,7 +924,7 @@ _-- Rémy Oudompheng_
 
 ## BananaPi
 
-[BananaPi](http://bananapi.org) has a few enhanced hardware components compare with Raspberry Pi.
+[BananaPi](http://banana-pi.org) has a few enhanced hardware components compare with Raspberry Pi.
 
 | **Architecture** | **Comments** |
 |:-----------------|:-------------|
