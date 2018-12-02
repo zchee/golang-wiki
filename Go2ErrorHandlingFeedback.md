@@ -123,6 +123,9 @@ Critiques without counter-proposals
 
 ## Other
 
+- Warren Stephens, "[Handle should provide line number, source filename, version]
+(https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
+
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
 
 - Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
