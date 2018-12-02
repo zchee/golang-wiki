@@ -1064,7 +1064,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [epub](https://gitorious.org/go-pkg/epub) - Bindings for libepub to read epub content.
   * [EventBus](https://github.com/asaskevich/EventBus) - Lightweight event bus with async compatibility for Go .
   * [faker](https://github.com/manveru/faker) - Generate fake data, names, text, addresses, etc.
-  * [fsnotify](https://github.com/howeyc/fsnotify) - File system notifications for Go
+  * [fsnotify](https://github.com/fsnotify/fsnotify) - File system notifications for Go
   * [functional](https://github.com/tcard/functional) - Functional programming library including a lazy list implementation and some of the most usual functions.
   * [GCSE](http://go-search.org/) - Go code search engine. [source](https://github.com/daviddengcn/gcse)
   * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
