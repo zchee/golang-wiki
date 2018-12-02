@@ -134,6 +134,7 @@
   * [Webdox](http://www.webdox.cl)
  
 ## China
+  * [Tencent](https://cloud.tencent.com/)
   * [163yun](http://www.163yun.com/) - [github](https://github.com/163yun) - Netease Public Cloud
   * [BaishanCloud](https://en.baishancloud.com/)
   * [ByteDance](https://www.bytedance.com)
@@ -165,7 +166,6 @@
   * [YeePay](http://www.yeepay.com)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
-  * [Tencent](https://www.qq.com)
 
 ## Croatia
   * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
