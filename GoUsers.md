@@ -165,6 +165,7 @@
   * [YeePay](http://www.yeepay.com)
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
+  * [Tencent](https://www.qq.com)
 
 ## Croatia
   * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
