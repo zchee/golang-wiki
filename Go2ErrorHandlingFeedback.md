@@ -77,6 +77,8 @@ Critiques without counter-proposals
 
 ## Labeled error handlers
 
+- Danijel Premus, "[Use existing go labels](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7)", December 2018
+
 - Burak Serdar, "[Handler for err declares both err and errHandler, less intrusive labeled error handling](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1)", October 2018
 
 - John Forstmeier, "[Labeled error handling](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959)", September 2018
@@ -144,8 +146,6 @@ Critiques without counter-proposals
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
-
-- Danijel Premus, "[Use existing go labels](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7)", December 2018
 
 ## Uncategorized
 
