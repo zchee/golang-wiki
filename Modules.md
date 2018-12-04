@@ -148,8 +148,11 @@ project/
 
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for discussion of when to use a `replace` directive).
 
-In Go source code, packages are imported using the full path including the module, for example:
- * `import "example.com/my/module/v2/pkg/foo"` to import `foo` from the v2 version of module `example.com/my/module`.
+In Go source code, packages are imported using the full path including the module. For example:
+```
+import "example.com/my/module/v2/pkg/foo"
+```
+This imports package `foo` from the v2 version of module `example.com/my/module`.
 
 ### Version Selection
 
@@ -183,7 +186,7 @@ As a result of semantic import versioning, code opting in to Go modules **must c
 * If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/foo"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
-In general, packages with different import paths are different packages, including if different import paths are due to different major versions. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
+In general, packages with different import paths are different packages. For example, `math/rand` is a different package than `crypto/rand`. This is also true if different import paths are due to different major versions appearing in the import path. Thus `example.com/my/mod/foo` is a different package than `example.com/my/mod/v2/foo`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
 One exception to the rules above is existing code that uses import paths starting with `gopkg.in` (such as `gopkg.in/yaml.v1` and `gopkg.in/yaml.v2`) can continue to use those forms for their module paths and import paths when opting in to modules.
 
