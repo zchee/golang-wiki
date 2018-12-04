@@ -487,7 +487,7 @@ The community is starting to build tooling on top of modules. For example:
 * [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack)
   * A new community tool to automate and greatly simplify `replace` and multi-module workflows, including allowing you to easily modify one of your dependencies 
   * For example, `gohack example.com/some/dependency` automatically clones the appropriate repository and adds the necessary `replace` directives to your `go.mod`
-  * Remove all gohack replace statements with `gohack -u`
+  * Remove all gohack replace statements with `gohack undo`
   * The project is continuing to expand to make other module-related workflows easier
 * [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod)
   * Command line tool to automatically upgrade/downgrade major versions for modules
@@ -506,15 +506,17 @@ The community is starting to build tooling on top of modules. For example:
    * `replace example.com/some/dependency => example.com/some/dependency v1.2.3`
 * `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
    * `replace example.com/project/foo => ../foo`
-* **Note**: in general, you can specify a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in the examples above).
-* See the [tip documentation](https://tip.golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
-* [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier. See the [repository](https://github.com/rogpeppe/gohack) or the immediately prior FAQ for an overview.
+* In general, you have the option of specifying a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in all of the `replace` examples above).
+* **Note**: a `require` directive is needed even when doing a `replace`. For example, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. (If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`; see [#26241](https://golang.org/issue/26241)).
+* See the ['go mod edit' documentation](https://golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
+* [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier, especially if your goal is to have mutable checkouts of dependencies of a module.  See the [repository](https://github.com/rogpeppe/gohack) or the immediately prior FAQ for an overview.
+* See the next FAQ for the details of using `replace` to work entirely outside of VCS.
 
 ### Can I work entirely outside of VCS on my local filesystem?
 
 Yes. VCS is not required. 
 
-This is very simple if you have a single module you want to edit at a time, and you can place the file tree containing the single `go.mod` in a convenient location.
+This is very simple if you have a single module you want to edit at a time outside of VCS (and you either have only one module in total, or if the other modules reside in VCS). In this case, you can place the file tree containing the single `go.mod` in a convenient location. Your `go build`, `go test` and similar commands will work even if your single module is outside of VCS (without requiring any use of `replace` in your `go.mod`).
 
 If you want to have multiple inter-related modules on your local disk that you want to edit at the same time, then `replace` directives are one approach. Here is a sample `go.mod` that uses a `replace` with a relative path to point the `hello` module at the on-disk location of the `goodbye` module (without relying on any VCS):
 
@@ -527,7 +529,7 @@ require (
 
 replace example.com/me/goodbye => ../goodbye
 ```
-As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that the `require` directive is needed. (`replace foo => ../foo` doesn't yet work without a corresponding `require foo v0.0.0`: see [#26241](https://golang.org/issue/26241).)
+As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that as mentioned in the prior FAQ, the `require` directive is needed here. (`replace example.com/me/goodbye => ../goodbye` does not yet work without a corresponding `require example.com/me/goodbye v0.0.0`; this might change in the future with [#26241](https://golang.org/issue/26241)).
 
 A small runnable example is shown in this [thread](https://groups.google.com/d/msg/golang-nuts/1nYoAMFZVVM/eppaRW2rCAAJ).
 
