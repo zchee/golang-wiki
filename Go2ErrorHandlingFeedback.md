@@ -145,6 +145,8 @@ Critiques without counter-proposals
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
 
+- Danijel Premus, "[Use existing go labels](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7)", December 2018
+
 ## Uncategorized
 
 Please help categorize the rest of the proposals here.
