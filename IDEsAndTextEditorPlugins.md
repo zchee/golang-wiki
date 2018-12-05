@@ -17,7 +17,6 @@
     * [go-playground](https://github.com/grafov/go-playground) Local playground inside Emacs
   * **[Gedit](https://wiki.gnome.org/Apps/Gedit)**: Official text editor for the GNOME Desktop. [Plugin for Auto-Completion and Code-Formatting available](https://bitbucket.org/fzzbt/go-gedit-plugin/).
   * **[Geany](https://www.geany.org/)**: Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. Supports Go syntax highlighting out of the box.
-  * **[gitpod.io](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
   * **[Gocode](https://github.com/nsf/gocode)**: An autocompletion daemon that includes support for emacs and vim.
   * **[godef](https://github.com/rogpeppe/godef)**: Prints the source location of definitions in Go programs. Integrates with acme, emacs, vim and SublimeText.
   * **[GoLand](https://www.jetbrains.com/go/)**: JetBrains's cross-platform, [fully featured](https://www.jetbrains.com/go/features/) Go IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/go/buy/#edition=discounts)).
@@ -58,10 +57,9 @@
   
 ## Cloud Based IDEs
 
-Currently Wide is the only "cloud IDE" that supports go version 1.8.  
-
   * **[Cloud9](https://c9.io/)**: "blank" template includes go 1.7.1.
   * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE.  Supports go1.5 out of the box, which is not something I'd describe as "[full Go support](https://codeenv.com/env/codeenv/7/go/)".
+  * **[Gitpod](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
   * **[Wide](https://github.com/b3log/wide)**: A Web-based <b>IDE</b> for Teams using Go programming language/Golang.
 
 
