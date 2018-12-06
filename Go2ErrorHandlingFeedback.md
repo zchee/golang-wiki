@@ -123,7 +123,7 @@ Critiques without counter-proposals
 
 - Vladimir Utoplov, "[Handling throws/throw idiom](https://gist.github.com/trashgenerator/d58e05522d2f83709e1a601564b68fee)", September 2018
 
-- Gokan EKINCI, "[try-with-resources](https://github.com/golang/go/issues/29120)", December 2018
+- Gokan EKINCI, "[try-with-resources](https://gist.github.com/eau-de-la-seine/9e2e74d6369aef4a76aa50976e34de6d)", December 2018
 
 
 ## Other
