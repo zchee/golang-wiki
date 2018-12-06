@@ -1713,6 +1713,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Tango](https://github.com/lunny/tango) - Micro-kernel & pluggable web framework for Go
   * [Tiger Tonic](https://github.com/rcrowley/go-tigertonic) - framework for building JSON web services inspired by Dropwizard
   * [trinity](https://github.com/cihub/trinity) -  MVC framework
+  * [uAdmin](https://github.com/uadmin/uadmin) - Web framework with a back end GUI similar to Django.
   * [Utron](https://github.com/gernest/utron) - MVC Framework
   * [Violetear](https://github.com/nbari/violetear) - HTTP router
   * [web.go](https://github.com/hoisie/web) - a simple framework to write webapps
