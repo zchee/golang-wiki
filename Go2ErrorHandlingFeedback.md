@@ -123,6 +123,9 @@ Critiques without counter-proposals
 
 - Vladimir Utoplov, "[Handling throws/throw idiom](https://gist.github.com/trashgenerator/d58e05522d2f83709e1a601564b68fee)", September 2018
 
+- Gokan EKINCI, "[try-with-resources](https://github.com/golang/go/issues/29120)", December 2018
+
+
 ## Other
 
 - Warren Stephens, "[Go 2 `handle` should provide line number, source filename, version](https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
