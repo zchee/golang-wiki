@@ -51,7 +51,7 @@ The remaining content on this page is organized as follows:
   * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#wont-minimal-version-selection-keep-developers-from-getting-important-updates)
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
   * [What are some general things I can spot check if I am seeing a problem?](https://github.com/golang/go/wiki/Modules#what-are-some-general-things-i-can-spot-check-if-i-am-seeing-a-problem)
-  * [What can I check if I not seeing the expected version of a dependency?](https://github.com/golang/go/wiki/Modules#what-can-i-check-if-i-not-seeing-the-expected-version-of-a-dependency)
+  * [What can I check if I not seeing the expected version of a dependency?](https://github.com/golang/go/wiki/Modules#what-can-i-check-if-i-am-not-seeing-the-expected-version-of-a-dependency)
   * [Why am I getting an error 'cannot find module providing package foo'?](https://github.com/golang/go/wiki/Modules#why-am-i-getting-an-error-cannot-find-module-providing-package-foo)
   * [Why does 'go mod init' give the error 'cannot determine module path for source directory'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-init-give-the-error-cannot-determine-module-path-for-source-directory)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
@@ -872,15 +872,15 @@ Please see the question "Won't minimal version selection keep developers from ge
   * Older versions of git were a common source of problems for the `vgo` prototype and Go 1.11 beta, but much less frequently in the GA 1.11. 
 * If you are using Docker, it can be helpful to check if you can reproduce the behavior outside of Docker (and if the behavior only occurs in Docker, the list of bullets above can be used as a starting point to compare results between inside Docker vs. outside).
 
-### What can I check if I not seeing the expected version of a dependency?
+### What can I check if I am not seeing the expected version of a dependency?
 
-A good first step is to run `go mod tidy`. There is some chance this might resolve the issue, but it will also help put your `go.mod` file into a consistent state with respect to your `.go` source code, which will help make any subsequent investigation easier.
+1. A good first step is to run `go mod tidy`. There is some chance this might resolve the issue, but it will also help put your `go.mod` file into a consistent state with respect to your `.go` source code, which will help make any subsequent investigation easier.
 
-The second step usually should be to check `go list -m all` to see the list of actual versions selected for your build.  `go list -m all` shows you the final selected versions, including for indirect dependencies and after resolving versions for any shared dependencies. It also shows the outcome of any `replace` and `exclude` directives.
+2. The second step usually should be to check `go list -m all` to see the list of actual versions selected for your build.  `go list -m all` shows you the final selected versions, including for indirect dependencies and after resolving versions for any shared dependencies. It also shows the outcome of any `replace` and `exclude` directives.
 
-A good next step can be to examine the output of `go mod graph` or `go mod graph | grep <module-of-interest>`.  `go mod graph` prints the module requirement graph (including taking into account replacements). Each line in the output has two fields: the first column is a consuming module, and the second column is one of that module's requirements (including the version required by that consuming module).  This can be a quick way to see which modules are requiring a particular dependency, including when you different versions required for shared dependencies.
+3. A good next step can be to examine the output of `go mod graph` or `go mod graph | grep <module-of-interest>`.  `go mod graph` prints the module requirement graph (including taking into account replacements). Each line in the output has two fields: the first column is a consuming module, and the second column is one of that module's requirements (including the version required by that consuming module).  This can be a quick way to see which modules are requiring a particular dependency, including when you different versions required for shared dependencies.
 
-`go mod why` can also be useful here, although it is typically more useful for seeing why a dependency is included at all (rather than why a dependency ends up with a particular version).
+`go mod why -m <module>` can also be useful here, although it is typically more useful for seeing why a dependency is included at all (rather than why a dependency ends up with a particular version).
 
 `go list` provides many more variations of queries that can be useful to interrogate your modules if needed.
 
@@ -902,7 +902,7 @@ Some other possible causes:
 
 * You might see the error `cannot find module providing package foo` if you have issued `go build` or `go build .` but do not have any `.go` source files in the current directory. If this is what you are encountering, the solution might be an alternative invocation such as `go build ./...` (where the `...` expands out to subdirecories within the current module). See [#27122](https://github.com/golang/go/issues/27122).
 
-* The module cache in Go 1.11 can cause this error, including in the face of network issues or multiple `go` commands executing in parallel (see [#26794](https://github.com/golang/go/issues/26794, which is addressed for Go 1.12)).  You can copy $GOPATH/pkg/mod to a backup directory (in case further investigation is warranted later), run `go clean -modcache`, and then see whether the original problem persists.
+* The module cache in Go 1.11 can cause this error, including in the face of network issues or multiple `go` commands executing in parallel (see [#26794](https://github.com/golang/go/issues/26794), which is addressed for Go 1.12).  You can copy $GOPATH/pkg/mod to a backup directory (in case further investigation is warranted later), run `go clean -modcache`, and then see whether the original problem persists.
 
 ### Why does 'go mod init' give the error 'cannot determine module path for source directory'?
 
@@ -910,7 +910,7 @@ Some other possible causes:
 
 If `go mod init` gives you this error, those heuristics were not able to guess, and you must supply the module path yourself (such as `go mod init github.com/you/hello`).
 
-### Why does `go build` require gcc, and why are prebuilt packages such as net/http not used?
+### Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?
 
 In short:
 
@@ -936,6 +936,6 @@ Using the example of cgo – modifying C source code in other directories will n
 to be recompiled, so _all non-Go source code for the package should be
 stored in the package directory_, not in subdirectories.
 
-A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` director. This can be helpful, some care must be taken to make sure your go build is being handled properly (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
+A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` director. Although this can be helpful, some care must be taken to make sure your go build is being handled properly in general (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
 
 See additional discussion in [#26366](https://github.com/golang/go/issues/26366#issuecomment-405683150).
