@@ -347,11 +347,11 @@ See https://research.swtch.com/vgo-module for a more in-depth discussion of thes
 
 ## Migration Considerations
 
-The details of the material presented in this section are covered detail elsewhere on this page, but this section attempts to briefly enumerate the major decisions to be made when migrating to modules as well as listing other migration-related topics.  
+This section attempts to briefly enumerate the major decisions to be made when migrating to modules as well as list other migration-related topics. References are generally provided to other sections for more details.
 
 This material is primarily based on best practices that have emerged from the community as part of the modules experiment; this is therefore a work-in-progress section that will improve over time as the community gains more experience.
 
-Overall:
+Summary:
 
 * The modules system is designed to allow different packages in the overall Go ecosystem to opt in at different rates.
 * Packages that are already on version v2 or higher have additional migration considerations, primarily due to the implications of [Semantic Import versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning). 
@@ -369,17 +369,18 @@ Migration topics:
 
 #### Providing Dependency Information to Older Versions of Go
 
-  * Older versions of Go such as 1.10 understand how to consume a vendor directory created by `go mod vendor`. Therefore, vendoring is one way to provide dependencies to older versions of Go that do not fully understand modules. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) and the `go` command [documentation](https://tip.golang.org/cmd/go/#hdr-Modules_and_vendoring) for more details.
+  * Older versions of Go understand how to consume a vendor directory created by `go mod vendor`. Therefore, vendoring is one way for a module to provide dependencies to older versions of Go that do not fully understand modules. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) and the `go` command [documentation](https://tip.golang.org/cmd/go/#hdr-Modules_and_vendoring) for more details.
 
-#### Incrementing the Major Version When Pre-Existing v2+ Packages Adopt Modules 
+#### Incrementing the Major Version When First Adopting Modules with v2+ Packages
 
 * If you have packages that have already been tagged v2.0.0 or higher before adopting modules, then the recommended best practice is to increment the major version when first adopting modules. For example, if you are on `v2.0.1` and have not yet adopted modules, then you would use `v3.0.0` for the first release that adopts modules. See the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section above for more details.
 
 #### v2+ Modules Allow Multiple Major Versions Within a Single Build
 
 * If a module is on v2 or higher, an implication is that multiple major versions can be in a single build (e.g., `foo` and `foo/v3` might end up in a single build).
+  * This flows naturally from the rule that "packages with different import paths are different packages".
   * When this happens, there will be there multiple copies of package-level state (e.g., package-level state for `foo` and package-level state for `foo/v3`) as well as each major version will run its own `init` function.
-* This approach helps with multiple aspects of the modules system, including helping with diamond dependency problems, gradual migration to new versions within large code bases, and allowing a major version to be implemented as a shim around a different major version.
+  * This approach helps with multiple aspects of the modules system, including helping with diamond dependency problems, gradual migration to new versions within large code bases, and allowing a major version to be implemented as a shim around a different major version.
 * See the "Avoiding Singleton Problems" section of https://research.swtch.com/vgo-import or [#27514](https://github.com/golang/go/issues/27514) for some related discussion.
 
 #### Modules Consuming Non-Module Code
@@ -421,7 +422,7 @@ There are currently three top-level strategies for a pre-existing v2+ package co
 	 * A module consumer might choose to run `go get -u foo` later, but there are more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the initial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
      * `go get -u foo` does still work, and can still be a valid choice for install instructions.
   * In addition, `go get foo` is not strictly needed for a module-based consumer. 
-     * Simply adding an import statement `import "foo"` and running commands like `go build` or `go test` is sufficient.
+     * Simply adding an import statement `import "foo"` is sufficient. (Later commands like `go build` or `go test` will automatically download `foo` and update `go.mod` as needed).
   * Module-based consumers will not use a `vendor` directory by default. 
      * Module-based consumer do not strictly need to use `vendor` when consuming a module given the information contained in `go.mod`, but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
   * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
