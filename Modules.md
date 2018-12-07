@@ -356,7 +356,7 @@ Overall:
 * The modules system is designed to allow different packages in the overall Go ecosystem to opt in at different rates.
 * Packages that are already on version v2 or higher have additional migration considerations, primarily due to the implications of [Semantic Import versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning). 
   * New packages and packages on v0 or v1 have substantially fewer considerations when adopting modules.
-* Modules defined with Go 1.11 can also be used by older Go versions (although the exact Go versions depends on the strategy used by the main module and its dependencies, as outlined below).
+* Modules defined with Go 1.11 can be used by older Go versions (although the exact Go versions depends on the strategy used by the main module and its dependencies, as outlined below).
 
 Migration topics:
 
@@ -418,7 +418,7 @@ There are currently three top-level strategies for a pre-existing v2+ package co
 
   * Pre-modules, it is common for install instructions to include `go get -u foo`. If you are publishing a module `foo`, consider dropping the `-u` for modules-based consumers.
      * `-u` asks the `go` tool to upgrade all the direct and indirect dependencies of `foo`. 
-	 * A module consumer might choose to run `go get -u` later, but it retains more more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the intial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
+	 * A module consumer might choose to run `go get -u foo` later, but there are more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the initial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
      * `go get -u foo` does still work, and can still be a valid choice for install instructions.
   * In addition, `go get foo` is not strictly needed for a module-based consumer. 
      * Simply adding an import statement `import "foo"` and running commands like `go build` or `go test` is sufficient.
