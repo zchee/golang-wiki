@@ -349,7 +349,7 @@ See https://research.swtch.com/vgo-module for a more in-depth discussion of thes
 
 The details of the material presented in this section are covered detail elsewhere on this page, but this section attempts to briefly enumerate the major decisions to be made when migrating to modules as well as listing other migration-related topics.  
 
-This material is primarily based on best practices that have emerged from the community as part of the modules experiment; this section is therefore a work-in-progress that will improve over time as the community gains more experience.
+This material is primarily based on best practices that have emerged from the community as part of the modules experiment; this is therefore a work-in-progress section that will improve over time as the community gains more experience.
 
 Overall:
 
