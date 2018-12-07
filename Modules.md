@@ -405,7 +405,7 @@ There are currently three top-level strategies for a pre-existing v2+ package co
 
 1. **Require clients to use Go versions 1.9.7+, 1.10.3+, or 1.11+**. 
 
-    The approach uses the "Major Subdirectory" approach and relies on the "minimal module awareness" that was backported to 1.9.7 and 1.10.3. See the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above for more details.
+    The approach uses the "Major Branch" approach and relies on the "minimal module awareness" that was backported to 1.9.7 and 1.10.3. See the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above for more details.
 
 2. **Allow clients to use even older Go versions like Go 1.8**. 
 
