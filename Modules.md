@@ -137,7 +137,7 @@ require (
 
 There are four directives: `module`, `require`, `exclude`, `replace`. 
 
-All of the packages in a module share a common prefix -- the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/project/foo` and `example.com/my/project/bar`, the first line in your `go.mod` file typically would be `module example.com/my/project`, and the corresponding on-disk structure could be:
+All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/project/foo` and `example.com/my/project/bar`, the first line in your `go.mod` file typically would be `module example.com/my/project`, and the corresponding on-disk structure could be:
 
 ```
 project/
@@ -751,11 +751,34 @@ Please see the next FAQs for additional details related to v2+ packages that hav
 
 ### Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?
  
-Yes, a module can import a v2+ package that has not opted into modules, and if the imported valid v2+ package has a valid [semver](semver.org) tag, it will be recorded with an `+incompatible` suffix.
+Yes, a module can import a v2+ package that has not opted into modules, and if the imported v2+ package has a valid [semver](semver.org) tag, it will be recorded with an `+incompatible` suffix.
 
 **Additional Details**
 
-Before proceeding, please first be familiar with the material in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above.
+Please be familiar with the material in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above.
+
+It is helpful to first review some core principles that are generally useful but particularly important to keep in mind when thinking about the behavior described in this FAQ.
+
+The following core principles are _always_ true when the `go` tool is operating in module mode (e.g., `GO111MODULE=on`):
+
+1. A package's import path defines the identify of the package.
+   * Packages with _different_ import paths are treated as _different_ packages.
+   * Packages with the _same_ import path are treated as the _same_ package (and this is true _even if_ the VCS tags say the packages have different major versions).
+2. An import path without a `/vN` is treated as a v1 or v0 module (and this is true _even if_ the imported package has not opted in to modules and has VCS tags that say the major version is greater than 1).
+3. The module path (such as `module foo/v2`) declared at the start of a module's `go.mod` file is both:
+   * the definitive declaration of that module's identity
+   * the definitive declaration of how that module must be imported by consuming code
+
+As we will see in the next FAQ, these principles are not always true when the `go` tool is _not_ in module mode, but these principles are always true when the `go` tool _is_ in module mode.
+
+In short, the `+incompatible` suffix indicates that principle 2 above is in effect when the following are true:
+* an imported package has not opted in to modules, and
+* its VCS tags say the major version is greater than 1, and
+* principle 2 is overriding the VCS tags – the import path without a `/vN` is treated as a v1 or v0 module (even though the VCS tags say otherwise)
+
+When the `go` tool is in module mode, it will assume a non-module v2+ package has no awareness of Semantic Import Versioning and treat it as an (incompatible) extension of the v1 version series of the package (and the `+incompatible suffix` is an indication that the `go` tool is doing so).
+
+**Example**
 
 For example, suppose:
 * `oldpackage` is a package that predates the introduction of modules
@@ -768,7 +791,7 @@ In this case, running for example `go get oldpackage@latest` from inside module 
 require  oldpackage  v3.0.1+incompatible
 ```
 
-Note that there is no `/v3` used at the end of `oldpackage` in the `go get` command above or in the recorded `require` directive -- using `/vN` in module paths and import paths is a feature of Semantic Import Versioning, and `oldpackage` has not signaled its acceptance and understanding of Semantic Import Versioning given `oldpackage` has not opted into modules by having a `go.mod` file within `oldpackage` itself. In other words, even though `oldpackage` has a [semver](https://semver.org) tag of `v3.0.1`, `oldpackage` is not granted the rights and resposibilites of _Semantic Import Versioning_ (such as using `/vN` in import paths) because `oldpackage` has not yet stated its desire to do so.
+Note that there is no `/v3` used at the end of `oldpackage` in the `go get` command above or in the recorded `require` directive – using `/vN` in module paths and import paths is a feature of [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning), and `oldpackage` has not signaled its acceptance and understanding of Semantic Import Versioning given `oldpackage` has not opted into modules by having a `go.mod` file within `oldpackage` itself. In other words, even though `oldpackage` has a [semver](https://semver.org) tag of `v3.0.1`, `oldpackage` is not granted the rights and responsibilities of [Semantic Import Versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) (such as using `/vN` in import paths) because `oldpackage` has not yet stated its desire to do so.
 
 The `+incompatible` suffix indicates that the `v3.0.1` version of `oldpackage` has not actively opted in to modules, and hence the `v3.0.1` version of `oldpackage` is assumed to _not_ understand Semantic Import Versioning or how to use major versions in import paths. Therefore, when operating in [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior), the `go` tool will treat the non-module `v3.0.1` version of `oldpackage` as an (incompatible) extension of the v1 version series of `oldpackage` and assume that the `v3.0.1` version of `oldpackage` has no awareness of Semantic Import Versioning, and the `+incompatible` suffix is an indication that the `go` tool is doing so. 
 
@@ -780,9 +803,9 @@ import  "oldpackage"
 
 Note again that there is no `/v3` used at the end of `oldpackage`.
 
-In general, packages with different import paths are different packages. In this example, given versions `v1.0.0`, `v2.0.0`, and `v3.0.1` of `oldpackage` would all be imported using the same import path, they are therefore treated by a build as the same package (again because `oldpackge` has not yet opted in to Semantic Import Versioning), with a single copy of `oldpackage` ending up in any given build. (The version used will be the semantically highest of the versions listed in any `require` directives; see ["Version Selection"](https://github.com/golang/go/wiki/Modules#version-selection)).
+In general, packages with different import paths are different packages. In this example, given versions `v1.0.0`, `v2.0.0`, and `v3.0.1` of `oldpackage` would all be imported using the same import path, they are therefore treated by a build as the same package (again because `oldpackage` has not yet opted in to Semantic Import Versioning), with a single copy of `oldpackage` ending up in any given build. (The version used will be the semantically highest of the versions listed in any `require` directives; see ["Version Selection"](https://github.com/golang/go/wiki/Modules#version-selection)).
 
-If we suppose that later a new `v4.0.0` release of `oldpackage` is created that adopts modules and hence contains a `go.mod` file, that is the signal that `oldpackage` now understands the rights and resposibilites of Semantic Import Versioning, and hence a module-based consumer would now import using `/v4` in the import path:
+If we suppose that later a new `v4.0.0` release of `oldpackage` is created that adopts modules and hence contains a `go.mod` file, that is the signal that `oldpackage` now understands the rights and responsibilities of Semantic Import Versioning, and hence a module-based consumer would now import using `/v4` in the import path:
 
 ```
 import  "oldpackage/v4"
