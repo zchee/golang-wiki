@@ -341,14 +341,15 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
 
 2. **Major subdirectory**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/mypkg"`). Tag the release with `v3.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2+ module created using this approach.
+   * A more sophisticated approach here could exploit type aliases (introduced in Go 1.9) and forwarding shims between major versions residing in different subdirectories.  This can provide additional compatibility and allow one major version to be implemented in terms of another major version, but would entail more work for a module author. An in-progress tool to automate this is `goforward`. Please see [here](https://golang.org/cl/137076) for more details and rationale, along with a functioning initial version of `goforward`.
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
 
 ## Migration Considerations
 
-The section does not present any material that is not also covered elsewhere on this page, but it attempts to briefly enumerate the major decisions to be made when migrating to modules as well as listing other migration-related topics.  
+The details of the material presented in this section are covered detail elsewhere on this page, but this section attempts to briefly enumerate the major decisions to be made when migrating to modules as well as listing other migration-related topics.  
 
-This section is a work-in-progress that will improve over time as best practices emerge from the community.
+This material is primarily based on best practices that have emerged from the community as part of the modules experiment; this section is therefore a work-in-progress that will improve over time as the community gains more experience.
 
 Overall:
 
@@ -373,7 +374,6 @@ Migration topics:
 #### Incrementing the Major Version When Pre-Existing v2+ Packages Adopt Modules 
 
 * If you have packages that have already been tagged v2.0.0 or higher before adopting modules, then the recommended best practice is to increment the major version when first adopting modules. For example, if you are on `v2.0.1` and have not yet adopted modules, then you would use `v3.0.0` for the first release that adopts modules. See the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section above for more details.
-
 
 #### v2+ Modules Allow Multiple Major Versions Within a Single Build
 
@@ -823,7 +823,7 @@ The primary goals of "minimal module compatibility" are:
 
 "Minimal module compatibility" only takes effect when full [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior) is disabled for the `go` tool, such as if you have set `GO111MODULE=off` in Go 1.11, or are using Go versions 1.9.7+ or 1.10.3+.
 
-The following bullets describe in more detail the case when a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you are instead relying on the "minimal module compatibility" mechanism in Go 1.9.7+, 1.10.3+ and 1.11:
+When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you are instead relying on the "minimal module compatibility" mechanism in Go 1.9.7+, 1.10.3+ and 1.11:
 
 * A package that has _not_ opted in to modules would _not_ include the major version in the import path for any imported v2+ modules. 
 * In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path to import any v2+ modules (in order to properly import a v2+ module when the `go` tool is operating in full module mode). 
@@ -833,7 +833,7 @@ The following bullets describe in more detail the case when a v2+ module author 
   * The net effect is that an import statement such as `import "foo/v2"` within code that lives inside of a module will still compile correctly in GOPATH mode in 1.9.7+, 1.10.3+ and 1.11, and it will resolve as if it said `import "foo"` (without the `/v2`), which means it will use the version of `foo` that resides in your GOPATH without being confused by the extra `/v2`.
   * It does not affect anything else, including it does not the affect paths used in the `go` command line (such as arguments to `go get` or `go list`).
 * Note there is therefore more than one valid import path for a v2+ module used in GOPATH mode under "minimal module compatibility", all of which resolve to the pre-modules import path (that is, the import path without a `/vN`).
-  * Under the modules system, this is the sole exception to the rule "packages with different import paths are different packages" (along with perhaps a caveat around the legacy possibility of multiple `vendor` directories if not in full module mode).
+  * When running in full modules mode, there are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined to also adhere to this rule in full modules mode).
   * For example, when operating in GOPATH mode, `import "foo/v2"` in module-based code resolves to the same code residing in your GOPATH as `import "foo"`, and the build ends up with one copy of `foo` – in particular, whatever version is on disk in GOPATH. This behavior is for backwards compatibility, and this allows module-based code with  `import "foo/v2"` to compile even in GOPATH mode in 1.9.7+, 1.10.3+ and 1.11.
  * In contrast, when the `go` tool is operating in full module mode, different import paths always resolve to different packages (for example, if `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`).
 
