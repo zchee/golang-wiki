@@ -342,6 +342,88 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
 
+## Migration Considerations
+
+The section does not present any material that is not also covered elsewhere on this page, but it attempts to briefly enumerate the major decisions to be made when migrating to modules as well as listing other migration-related topics.  
+
+This section is a work-in-progress that will improve over time as best practices emerge from the community.
+
+Overall:
+
+* The modules system is designed to allow different packages in the overall Go ecosystem to opt in at different rates.
+* Packages that are already on version v2 or higher have additional migration considerations, primarily due to the implications of [Semantic Import versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning). 
+  * New packages and packages on v0 or v1 have substantially fewer considerations when adopting modules.
+* Modules defined with Go 1.11 can also be used by older Go versions (although the exact Go versions depends on the strategy used by the main module and its dependencies, as outlined below).
+
+Migration topics:
+
+#### Automatic Migration from Prior Dependency Managers
+
+  * `go mod init` automatically translates the required information from [dep, glide, govendor, godep and 5 other pre-existing dependency managers](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables) into a `go.mod `file that produces the equivalent build.
+  * If you are creating a v2+ module, be sure your `module` directive in the converted `go.mod` includes the appropriate `/vN` (e.g., `module foo/v3`).
+  * Note that if you are importing v2+ modules, you might need to do some manual adjustments after an initial conversion in order to add `/vN` to the `require` statements that `go mod init` generates after translating from a prior dependency manager. See the ["How to Define a Module"](https://github.com/golang/go/wiki/Modules#how-to-define-a-module) section above for more details.
+  * In addition, `go mod init` will not edit your `.go` code to add any required `/vN` to import statements. See the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above for the required steps, including some options around community tools to automate the conversion.
+
+#### Providing Dependency Information to Older Versions of Go
+
+  * Older versions of Go such as 1.10 understand how to consume a vendor directory created by `go mod vendor`. Therefore, vendoring is one way to provide dependencies to older versions of Go that do not fully understand modules. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) and the `go` command [documentation](https://tip.golang.org/cmd/go/#hdr-Modules_and_vendoring) for more details.
+
+#### Incrementing the Major Version When Pre-Existing v2+ Packages Adopt Modules 
+
+* If you have packages that have already been tagged v2.0.0 or higher before adopting modules, then the recommended best practice is to increment the major version when first adopting modules. For example, if you are on `v2.0.1` and have not yet adopted modules, then you would use `v3.0.0` for the first release that adopts modules. See the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section above for more details.
+
+
+#### v2+ Modules Allow Multiple Major Versions Within a Single Build
+
+* If a module is on v2 or higher, an implication is that multiple major versions can be in a single build (e.g., `foo` and `foo/v3` might end up in a single build).
+  * When this happens, there will be there multiple copies of package-level state (e.g., package-level state for `foo` and package-level state for `foo/v3`) as well as each major version will run its own `init` function.
+* This approach helps with multiple aspects of the modules system, including helping with diamond dependency problems, gradual migration to new versions within large code bases, and allowing a major version to be implemented as a shim around a different major version.
+* See the "Avoiding Singleton Problems" section of https://research.swtch.com/vgo-import or [#27514](https://github.com/golang/go/issues/27514) for some related discussion.
+
+#### Modules Consuming Non-Module Code
+
+  * Modules are capable of consuming packages that have not yet opted into modules, with the appropriate package version information recorded in the importing module's `go.mod`.  Modules can consume packages that do not yet have any proper semver tags. See FAQ [below](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-package-that-has-not-opted-in-to-modules) for more details.
+  * Modules can also import a v2+ package that has not opted into modules. It will be recorded with an `+incompatible` suffix if the imported v2+ package has valid semver tags. See FAQ [below](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-v2-package-that-has-not-opted-into-modules-what-does-incompatible-mean) for more details.
+  
+#### Non-Module Code Consuming Modules
+
+  * **Non-module code consuming v0 and v1 modules**:  
+     * Code that has not yet opted in to modules can consume and build v0 and v1 modules (without any requirement related to the Go version used).
+
+  * **Non-module code consuming v2+ modules**:
+  
+    * Go versions 1.9.7+, 1.10.3+ and 1.11 have been updated so that code built with those releases can properly consume v2+ modules without requiring modification of pre-existing code as described in the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above.
+
+    * Go versions prior to 1.9.7 and 1.10.3 can consume v2+ modules if the v2+ module was created following the "Major subdirectory" approach outlined in the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section.
+
+#### Strategies for Authors of Pre-Existing v2+ Packages
+
+There are currently three top-level strategies for a pre-existing v2+ package considering opting in to modules. Each of these top-level strategies then has follow-on decisions and variations (as touched on above).
+
+1. **Require clients to use Go versions 1.9.7+, 1.10.3+, or 1.11+**. 
+
+    The approach uses the "Major Subdirectory" approach and relies on the "minimal module awareness" that was backported to 1.9.7 and 1.10.3. See the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above for more details.
+
+2. **Allow clients to use even older Go versions like Go 1.8**. 
+
+    This approach uses the "Major Subdirectory" approach and involves creating a subdirectory such as `/v2` or `/v3`. See the ["Semantic Import versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) sections above for more details.
+
+3. **Wait on opting in to modules**.  
+
+    In this strategy, things continue to work with client code that has opted in to modules as well as with client code that has not opted in to modules. As time goes by, Go versions 1.9.7+, 1.10.3+, and 1.11+ will be out for an increasingly longer time period, and at some point in the future, it becomes more natural or client-friendly to require Go versions 1.9.7+/1.10.3+/1.11+, and at that point in time, you can implement strategy 1 above (requiring Go versions 1.9.7+, 1.10.3+, or 1.11+) or even strategy 2 above (though if you are ultimately going to go with strategy 2 above in order to support older Go versions like 1.8, then that is something you can do now).
+
+#### Updating Pre-Existing Install Instructions
+
+  * Pre-modules, it is common for install instructions to include `go get -u foo`. If you are publishing a module `foo`, consider dropping the `-u` for modules-based consumers.
+     * `-u` asks the `go` tool to upgrade all the direct and indirect dependencies of `foo`. 
+	 * A module consumer might choose to run `go get -u` later, but it retains more more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the intial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
+     * `go get -u foo` does still work, and can still be a valid choice for install instructions.
+  * In addition, `go get foo` is not strictly needed for a module-based consumer. 
+     * Simply adding an import statement `import "foo"` and running commands like `go build` or `go test` is sufficient.
+  * Module-based consumers will not use a `vendor` directory by default. 
+     * Module-based consumer do not strictly need to use `vendor` when consuming a module given the information contained in `go.mod`, but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
+  * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
+  
 ## Additional Resources
 
 ### Documentation and Proposal
