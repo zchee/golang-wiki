@@ -47,6 +47,9 @@ The remaining content on this page is organized as follows:
   * [Why must major version numbers appear in import paths?](https://github.com/golang/go/wiki/Modules#why-must-major-version-numbers-appear-in-import-paths)
   * [Why are major versions v0, v1 omitted from import paths?](https://github.com/golang/go/wiki/Modules#why-are-major-versions-v0-v1-omitted-from-import-paths)
   * [What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?](https://github.com/golang/go/wiki/Modules#what-are-some-implications-of-tagging-my-project-with-major-version-v0-v1-or-making-breaking-changes-with-v2)
+  * [Can a module consume a package that has not opted in to modules?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-package-that-has-not-opted-in-to-modules)
+  * [Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-v2-package-that-has-not-opted-into-modules-what-does-incompatible-mean)
+  * [How are v2+ modules treated in a build if modules support is not enabled? How does "minimal module compatibility" work in 1.9.7+, 1.10.3+, and 1.11?](https://github.com/golang/go/wiki/Modules#how-are-v2-modules-treated-in-a-build-if-modules-support-is-not-enabled-how-does-minimal-module-compatibility-work-in-197-1103-and-111)
 * [FAQs — Minimal Version Selection](https://github.com/golang/go/wiki/Modules#faqs--minimal-version-selection)
   * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#wont-minimal-version-selection-keep-developers-from-getting-important-updates)
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
@@ -733,6 +736,18 @@ Please see the discussion on the Semantic Import Versioning and the import compa
 
 Please see the question "Why are major versions v0, v1 omitted from import paths?" in the earlier [FAQ from the official proposal discussion](https://github.com/golang/go/issues/24301#issuecomment-371228664).
 
+### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
+
+In response to a comment about *"k8s does minor releases but changes the Go API in each minor release"*, Russ Cox made the following [response](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882) that highlights some implications for picking v0, v1, vs. frequently making breaking changes with v2, v3, v4, etc. with your project:
+
+>  I don't fully understand the k8s dev cycle etc, but I think generally the k8s team needs to decide/confirm what they intend to guarantee to users about stability and then apply version numbers accordingly to express that.
+> 
+> * To make a promise about API compatibility (which seems like the best user experience!) then start doing that and use 1.X.Y.
+> * To have the flexibility to make backwards-incompatible changes in every release but allow different parts of a large program to upgrade their code on different schedules, meaning different parts can use different major versions of the API in one program, then use X.Y.0, along with import paths like k8s.io/client/vX/foo.
+> * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
+
+On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
+
 ### Can a module consume a package that has not opted in to modules?
 
 Yes.
@@ -776,11 +791,11 @@ In short, the `+incompatible` suffix indicates that principle 2 above is in effe
 * its VCS tags say the major version is greater than 1, and
 * principle 2 is overriding the VCS tags – the import path without a `/vN` is treated as a v1 or v0 module (even though the VCS tags say otherwise)
 
-When the `go` tool is in module mode, it will assume a non-module v2+ package has no awareness of Semantic Import Versioning and treat it as an (incompatible) extension of the v1 version series of the package (and the `+incompatible suffix` is an indication that the `go` tool is doing so).
+When the `go` tool is in module mode, it will assume a non-module v2+ package has no awareness of Semantic Import Versioning and treat it as an (incompatible) extension of the v1 version series of the package (and the `+incompatible suffix is an indication that the `go` tool is doing so).
 
 **Example**
 
-For example, suppose:
+Suppose:
 * `oldpackage` is a package that predates the introduction of modules
 * `oldpackage` has never opted in to modules (and hence does not have a `go.mod` itself)
 * `oldpackage` has a valid semver tag `v3.0.1`, which is its latest tag
@@ -865,18 +880,6 @@ When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you
 * In contrast, when the `go` tool is operating in full module mode:
    * There are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined in full module mode to also adhere to this rule).
    * For example, if the `go` tool is in full module mode and `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`.
-
-### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
-
-In response to a comment about *"k8s does minor releases but changes the Go API in each minor release"*, Russ Cox made the following [response](https://github.com/kubernetes/kubernetes/pull/65683#issuecomment-403705882) that highlights some implications for picking v0, v1, vs. frequently making breaking changes with v2, v3, v4, etc. with your project:
-
->  I don't fully understand the k8s dev cycle etc, but I think generally the k8s team needs to decide/confirm what they intend to guarantee to users about stability and then apply version numbers accordingly to express that.
-> 
-> * To make a promise about API compatibility (which seems like the best user experience!) then start doing that and use 1.X.Y.
-> * To have the flexibility to make backwards-incompatible changes in every release but allow different parts of a large program to upgrade their code on different schedules, meaning different parts can use different major versions of the API in one program, then use X.Y.0, along with import paths like k8s.io/client/vX/foo.
-> * To make no promises about API compatible and also require every build to have only one copy of the k8s libraries no matter what, with the implied forcing of all parts of a build to use the same version even if not all of them are ready for it, then use 0.X.Y.
-
-On a related note, Kubernetes has some atypical build approaches (currently including custom wrapper scripts on top of godep), and hence Kubernetes is an imperfect example for many other projects, but it will likely be an interesting example as [Kubernetes moves towards adopting Go 1.11 modules](https://github.com/kubernetes/kubernetes/pull/64731#issuecomment-407345841). 
 
 ## FAQs — Minimal Version Selection
 
