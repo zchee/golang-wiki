@@ -853,6 +853,64 @@ Please see the question "Won't minimal version selection keep developers from ge
 
 ## FAQs — Possible Problems
 
+### What are some general things I can spot check if I am seeing a problem?
+
+* Double-check that modules are enabled by running `go env` to confirm it does not show an empty value for the read-only `GOMOD` variable.
+   * Note: you never set `GOMOD` as a variable because it is effectively read-only debug output that `go env` outputs.  
+
+* If you are setting `GO111MODULE=on` to enable modules, double-check that it is not accidentally the plural `GO111MODULES=on`. (People sometimes naturally include the `S` because the feature is often called "modules").
+
+* If vendoring is expected to be used, double-check check that the `-mod=vendor` flag is being passed to `go build `or similar, or that `GOFLAGS=-mod=vendor` is set. 
+   * Modules by default ignore the `vendor` directory unless you ask the `go` tool to use `vendor`.
+   
+* It is frequently helpful to check `go list -m all` to see the list of actual versions selected for your build
+  * `go list -m all` usually gives you more detail compared to if you were to instead just look a `go.mod` file. 
+
+* If running `go get foo` fails in some way, you should check the output from `go get -v foo` or `go get -v -x foo` 
+
+* You can check to see if you are using a particularly old git version
+  * Older versions of git were a common source of problems for the `vgo` prototype and Go 1.11 beta, but much less frequently in the GA 1.11. 
+  
+* If you are using Docker, it can be helpful to check if you can reproduce the behavior outside of Docker (and if the behavior only occurs in Docker, the list of bullets above can be used as a starting point to compare results between inside Docker vs. outside).
+
+### What can I spot check if I not seeing the expected version of a dependency?
+
+A good first step is to run `go mod tidy`. There is some chance this might resolve the issue, but it will also help put your `go.mod` file into a consistent state with respect to your `.go` source code, which will help make any subsequent investigation easier.
+
+The second step usually should be to check `go list -m all` to see the list of actual versions selected for your build.  `go list -m all` shows you the final selected versions, including for indirect dependencies and after resolving versions for any shared dependencies. It also shows the outcome of any `replace` and `exclude` directives.
+
+A good next step can be to examine the output of `go mod graph` or `go mod graph | grep <module-of-interest>`.  `go mod graph` prints the module requirement graph (including taking into account replacements). Each line in the output has two fields: the first column is a consuming module, and the second column is one of that module's requirements (including the version required by that consuming module).  This can be a quick way to see which modules are requiring a particular dependency, including when you different versions required for shared dependencies.
+
+`go mod why` can also be useful here, although it is typically more useful for seeing why a dependency is included at all (rather than why a dependency ends up with a particular version).
+
+`go list` provides many more variations of queries that can be useful to interrogate your modules if needed.
+
+A more detailed set of commands and examples can be seen in a runnable "Go Modules by Example" [walkthough](https://github.com/go-modules-by-example/index/tree/master/018_go_list_mod_graph_why).
+
+### Why am I getting an error 'cannot find module providing package foo'?
+
+This is a general error message that can occur for several different underlying causes.
+
+In some cases, this error is simply due to a mistyped path, so the first step likely should be to double-check for incorrect paths based on the details listed in the error message.
+
+If you have not already done so, a good next step is often to try `go get -v foo`:
+
+* In general, `go get` will often provide more a detailed error message than `go build`.
+* The `-v` flag for `go get` prints more details, though be mindful that certain "errors" it might show such as 404 errors _might_ be expected based on how a remote repository was configured.
+* If the nature of the problem is still not clear, you can also try the more verbose `go get -v -x foo`, which also shows the git or other VCS commands being issued.  (If warranted, you can often execute the same git commands outside of the context of the `go` tool for troubleshooting purposes).
+
+Some other possible causes:
+
+* You might see the error 'cannot find module providing package foo' is if you have issued 'go build .' but do not have any `.go` source files in the current directory. If this is what you are encountering, the solution might be an alternative invocation such as `go build ./...` (where the `...` expands out to subdirecories within the current module). See [#27122](https://github.com/golang/go/issues/27122).
+
+* The module cache in Go 1.11 can cause this error, including in the face of network issues or multiple `go` commands executing in parallel (see [#26794](https://github.com/golang/go/issues/26794)).  You can copy $GOPATH/pkg/mod to a backup directory (in case further investigation is warranted later), run `go clean -modcache`, and then see whether the original problem persists.
+
+### Why does 'go mod init' give me error 'cannot determine module path for source directory'?
+
+`go mod init` without any arguments will attempt to guess the proper module path based on different hints such as VCS meta data. However, it is not expected that `go mod init` will always be able to guess the proper module path.
+
+If it gives you this error, the heuristics in `go mod init` were not able to guess the proper module path, and you must supply the module path, such as `go mod init github.com/you/hello`.
+
 ### Why does `go build` require gcc, and why are prebuilt packages such as net/http not used?
 
 In short:
