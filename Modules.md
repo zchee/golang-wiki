@@ -53,8 +53,6 @@ The remaining content on this page is organized as follows:
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
-* [FAQs — Miscellaneous](https://github.com/golang/go/wiki/Modules#faqs--miscellaneous)
-  * [How did the 'go mod' commands change in go1.11beta3?](https://github.com/golang/go/wiki/Modules#how-did-the-go-mod-commands-change-in-go111beta3)
 
 ## Quick Start Example
 
@@ -871,47 +869,16 @@ No. See [#26645](https://github.com/golang/go/issues/26645#issuecomment-40857270
 
 ### Some needed files may not be present in populated vendor directory
 
-Only *.go files are copied inside vendor directory by `go mod vendor`, this is by design, see [#27618](https://github.com/golang/go/issues/27618).
+Directories without `.go` files are not copied inside the `vendor` directory by `go mod vendor`. This is by design. 
 
-## FAQs — Miscellaneous
+In short, setting aside any particular vendoring behavior – the overall model for go builds is that the files needed to build a package should be in the directory with the `.go` files.
 
-### How did the `go mod` commands change in `go1.11beta3` and `go1.11` release?
+Using the example of cgo – modifying C source code in other directories will not trigger a rebuild, and instead your build will use stale cache entries. The cgo documentation now [includes](https://go-review.googlesource.com/c/go/+/125297/5/src/cmd/cgo/doc.go):
 
-In go1.11beta3 and go1.11, there was a significant change for the `go mod` commands. Older material and blogs might still use the older commands from before the change. See the [release documentation](https://golang.org/cmd/go/#hdr-Module_maintenance) and `go mod help` output for the up-to-date information:
-```
-$ go mod help
-Go mod provides access to operations on modules.
+> Note that changes to files in other directories do not cause the package
+to be recompiled, so _all non-Go source code for the package should be
+stored in the package directory_, not in subdirectories.
 
-Note that support for modules is built into all the go commands,
-not just 'go mod'. For example, day-to-day adding, removing, upgrading,
-and downgrading of dependencies should be done using 'go get'.
-See 'go help modules' for an overview of module functionality.
+A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` director. This can be helpful, some care must be taken to make sure your go build is being handled properly (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
 
-Usage:
-
-	go mod <command> [arguments]
-
-The commands are:
-
-	download    download modules to local cache
-	edit        edit go.mod from tools or scripts
-	graph       print module requirement graph
-	init        initialize new module in current directory
-	tidy        add missing and remove unused modules
-	vendor      make vendored copy of dependencies
-	verify      verify dependencies have expected content
-	why         explain why packages or modules are needed
-
-Use "go help mod <command>" for more information about a command.
-```
-
-For a historical reference, take a look at the [CL](https://go-review.googlesource.com/c/go/+/126655) briefly covering the rationale and the list of new vs. old commands (though further changed by 1.11 release):
-```
-Splitting out the individual commands makes both the docs
-and the implementations dramatically easier to read.
-It simplifies the command lines
-(go mod -init -module m is now 'go mod init m')
-and allows command-specific flags.
-```
-
-
+See additional discussion in [#26366](https://github.com/golang/go/issues/26366#issuecomment-405683150).
