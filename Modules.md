@@ -53,7 +53,7 @@ The remaining content on this page is organized as follows:
   * [What are some general things I can spot check if I am seeing a problem?](https://github.com/golang/go/wiki/Modules#what-are-some-general-things-i-can-spot-check-if-i-am-seeing-a-problem)
   * [What can I check if I not seeing the expected version of a dependency?](https://github.com/golang/go/wiki/Modules#what-can-i-check-if-i-not-seeing-the-expected-version-of-a-dependency)
   * [Why am I getting an error 'cannot find module providing package foo'?](https://github.com/golang/go/wiki/Modules#why-am-i-getting-an-error-cannot-find-module-providing-package-foo)
-  * [Why does 'go mod init' give me error 'cannot determine module path for source directory'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-init-give-me-error-cannot-determine-module-path-for-source-directory)
+  * [Why does 'go mod init' give the error 'cannot determine module path for source directory'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-init-give-the-error-cannot-determine-module-path-for-source-directory)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
@@ -903,7 +903,7 @@ Some other possible causes:
 
 * The module cache in Go 1.11 can cause this error, including in the face of network issues or multiple `go` commands executing in parallel (see [#26794](https://github.com/golang/go/issues/26794, which is addressed for Go 1.12)).  You can copy $GOPATH/pkg/mod to a backup directory (in case further investigation is warranted later), run `go clean -modcache`, and then see whether the original problem persists.
 
-### Why does 'go mod init' give me the error 'cannot determine module path for source directory'?
+### Why does 'go mod init' give the error 'cannot determine module path for source directory'?
 
 `go mod init` without any arguments will attempt to guess the proper module path based on different hints such as VCS meta data. However, it is not expected that `go mod init` will always be able to guess the proper module path.
 
