@@ -835,13 +835,13 @@ The remainder of this FAQ is focused on the "Major Branch" approach described in
 
 In order to help during the current transitional period, "minimal module compatibility" was [introduced](https://go-review.googlesource.com/c/go/+/109340) to Go 1.11 to provide greater compatibility for Go code that has not yet opted in to modules, and that "minimal module compatibility" was also backported to Go 1.9.7 and 1.10.3 (where those versions are effectively always operating with full module mode disabled given those older Go versions do not have full module support).
 
-"Minimal module compatibility" provides backwards compatibility for v2+ modules in GOPATH mode without relying on the module author creating `/vN` subdirectories (and hence "minimal module compatibility" provides an alternative to the ["Major Subdirectory"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) approach to backwards compatibility).
-
 The primary goals of "minimal module compatibility" are:
 
 1. Allow older Go versions 1.9.7+ and 1.10.3+ to be able to more easily compile modules that are using Semantic Import Versioning with `/vN` in import paths, and provide that same behavior when [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior) is disabled in Go 1.11.
 
 2. Allow old code to be able to consume a v2+ module without requiring that old consumer code to immediately change to using a new `/vN` import path when consuming a v2+ module.  
+
+3. Do so without relying on the module author to create `/vN` subdirectories.
 
 **Additional Details – "Minimal Module Compatibility"**
 
@@ -850,16 +850,21 @@ The primary goals of "minimal module compatibility" are:
 When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you are instead relying on the "minimal module compatibility" mechanism in Go 1.9.7+, 1.10.3+ and 1.11:
 
 * A package that has _not_ opted in to modules would _not_ include the major version in the import path for any imported v2+ modules. 
-* In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path to import any v2+ modules (in order to properly import a v2+ module when the `go` tool is operating in full module mode). 
+* In contrast, a package that _has_ opted in to modules _must_ include the major version in the import path to import any v2+ modules. 
   * If a package has opted in to modules, but does not include the major version in the import path when importing a v2+ modules, it will not import a v2+ version of that module when the `go` tool is operating in full module mode. (A package that has opted in to modules is assumed to "speak" Semantic Import Versioning. If `foo` is a module with v2+ versions, then under Semantic Import Versioning saying `import "foo"` means import the v1 Semantic Import Versioning series of `foo`). 
 * The mechanism used to implement "minimal module compatibility" is intentionally very narrow:
   * The entirety of the logic is – when operating in GOPATH mode, an unresolvable import statement containing a `/vN` will be tried again after removing the `/vN` if the import statement is inside code that has opted in to modules (that is, import statements in `.go` files within a tree with a valid `go.mod` file). 
   * The net effect is that an import statement such as `import "foo/v2"` within code that lives inside of a module will still compile correctly in GOPATH mode in 1.9.7+, 1.10.3+ and 1.11, and it will resolve as if it said `import "foo"` (without the `/v2`), which means it will use the version of `foo` that resides in your GOPATH without being confused by the extra `/v2`.
-  * It does not affect anything else, including it does not the affect paths used in the `go` command line (such as arguments to `go get` or `go list`).
-* Note there is therefore more than one valid import path for a v2+ module used in GOPATH mode under "minimal module compatibility", all of which resolve to the pre-modules import path (that is, the import path without a `/vN`).
-  * When running in full modules mode, there are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined to also adhere to this rule in full modules mode).
-  * For example, when operating in GOPATH mode, `import "foo/v2"` in module-based code resolves to the same code residing in your GOPATH as `import "foo"`, and the build ends up with one copy of `foo` – in particular, whatever version is on disk in GOPATH. This behavior is for backwards compatibility, and this allows module-based code with  `import "foo/v2"` to compile even in GOPATH mode in 1.9.7+, 1.10.3+ and 1.11.
- * In contrast, when the `go` tool is operating in full module mode, different import paths always resolve to different packages (for example, if `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`).
+  * "Minimal module compatibility" does not affect anything else, including it does not the affect paths used in the `go` command line (such as arguments to `go get` or `go list`).
+* This transitional "minimal module awareness" mechanism purposefully breaks the rule of "packages with different import paths are treated as different packages" in pursuit a very specific backwards compatibility goal – to allow old code to compile unmodified when it is consuming a v2+ module. In slightly more detail:
+  * It would be a more burdensome for the overall ecosystem if the only way for old code to consume a v2+ module was to first change the old code. 
+  * If we are not modifying old code, then that old code must work with pre-module import paths for v2+ modules.
+  * On the other hand, new or updated code opting in to modules must use the new `/vN` import for v2+ modules.
+  * The new import path is not equal to old import path, yet both are allowed to work in a single build, and therefore we have two different functioning import paths that resolve to the same package.
+  * For example, when operating in GOPATH mode, `import "foo/v2"` appearing in module-based code resolves to the same code residing in your GOPATH as `import "foo"`, and the build ends up with one copy of `foo` – in particular, whatever version is on disk in GOPATH. This allows module-based code with  `import "foo/v2"` to compile even in GOPATH mode in 1.9.7+, 1.10.3+ and 1.11.
+* In contrast, when the `go` tool is operating in full module mode:
+   * There are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined in full module mode to also adhere to this rule).
+   * For example, if the `go` tool is in full module mode and `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`.
 
 ### What are some implications of tagging my project with major version v0, v1, or making breaking changes with v2+?
 
