@@ -672,6 +672,7 @@
   * [Donuts Bangkok](http://www.donuts-bkk.com/)  
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech)
+  * [Paybox](https://www.paybox.work)
   * [Sellsuki](https://www.sellsuki.co.th/)
   * [SPRINT3r](http://sprint3r.com/)
   * [ThothZocial](https://thothzocial.com/)
