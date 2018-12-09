@@ -1,6 +1,9 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- The latest gossip on BFT consensus (Buchman, Kwon, Milosevic)
+  - [pdf](https://arxiv.org/abs/1807.04938)
+
 - Distributed Programming using Role-Parametric Session Types in Go (Castro, Hu, Jongmans, NG, Yoshida)
   - [pdf](https://www.doc.ic.ac.uk/research/technicalreports/2018/DTRS18-4.pdf)
 
