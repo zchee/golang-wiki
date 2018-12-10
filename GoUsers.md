@@ -697,6 +697,7 @@
   * [Diligences](https://diligences.com/)
 
 ## United Kingdom
+  * [Acuris](https://www.acuris.com/)
   * [Admongrel](http://www.admongrel.com/)
   * [A1comms](https://www.a1comms.com/)
   * [Badoo](https://badoo.com) - [github](https://github.com/badoo/thunder)
