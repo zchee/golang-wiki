@@ -140,10 +140,10 @@ require (
 
 There are four directives: `module`, `require`, `exclude`, `replace`. 
 
-All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are defining a module for two packages `example.com/my/project/foo` and `example.com/my/project/bar`, the first line in your `go.mod` file typically would be `module example.com/my/project`, and the corresponding on-disk structure could be:
+All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are creating a module for a repository `github.com/my/repo` that contains two packages `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
 
 ```
-project/
+repo/
 ├── go.mod
 ├── bar
 │   └── bar.go
