@@ -259,6 +259,12 @@ Sorted by publication date.
     * ISBN: 9781788993401
     * Reference: https://www.packtpub.com/big-data-and-business-intelligence/go-machine-learning-projects
 
+* **Hands-On Dependency Injection in Go**
+    * Author: Corey Scott
+    * Publication Date: November 2018
+    * ISBN: 9781789132762
+    * Reference: https://www.packtpub.com/application-development/hands-dependency-injection-go
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
