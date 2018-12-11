@@ -253,6 +253,12 @@ Sorted by publication date.
     * ISBN: 9781789531756
     * Reference: https://www.packtpub.com/application-development/hands-go-programming
 
+* **Go Machine Learning Projects**
+    * Author: Xuanyi Chew
+    * Publication Date: November 2018
+    * ISBN: 9781788993401
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/go-machine-learning-projects
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
