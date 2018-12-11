@@ -115,6 +115,8 @@ Critiques without counter-proposals
 
 ## try/catch/finally syntax
 
+- Rust RFC, “[Trait-Based Exception Handling (wherein `catch` is akin to `try`)](https://github.com/rust-lang/rfcs/blob/master/text/0243-trait-based-exception-handling.md)”, February 2016
+
 - Kiura Magomadov, “[Addition to Go2 draft error handling](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027)", September 2018
 
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
