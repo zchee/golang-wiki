@@ -14,7 +14,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/<br>CFP https://www.papercall.io/opengo |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
-| GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>TBA |
+| GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>CFP https://goo.gl/forms/xIx90HnIqvAiowZz1 |
 | GoCon Canada | 2019 TBD | Toronto | https://gocon.ca |
 | GopherCon EU | 2019 TBD | TBD | TBD |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | TBD |
