@@ -12,6 +12,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Error Inspection
 
+ - Ilya Sinelnikov, "[`Is` and `As` differ in behavior which is unexpected](https://github.com/sidh/go2errorsinspection)", December 2018
  - Roger Peppe, "[Some thoughts about the draft Go error inspection design](https://gist.github.com/rogpeppe/a435b57473152e3429a5a149401edacf)", November 2018
  - Greg Weber, “[Horizontal composition: Error inspection for groups](https://gist.github.com/gregwebs/5a14a83970d607411310a3e0281d55be)”, September 2018
     - Eyal Posener, "[Reply](https://gist.github.com/gregwebs/5a14a83970d607411310a3e0281d55be#gistcomment-2710662)", September 2018 
