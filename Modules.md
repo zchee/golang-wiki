@@ -140,7 +140,7 @@ require (
 
 There are four directives: `module`, `require`, `exclude`, `replace`. 
 
-All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are creating a module for a repository `github.com/my/repo` that contains two packages `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
+All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are creating a module for a repository `github.com/my/repo` that contains two packages with import paths `"github.com/my/repo/foo"` and `"github.com/my/repo/bar"`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
 
 ```
 repo/
@@ -252,10 +252,10 @@ To create a `go.mod` for an existing project:
    ```
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or from any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
-   `go mod init` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if `go mod init` states it can not automatically determine the module path, or if you need to otherwise override that path, you can supply the module path as follows:
+   `go mod init` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if `go mod init` states it can not automatically determine the module path, or if you need to otherwise override that path, you can supply the [module path](https://github.com/golang/go/wiki/Modules#gomod) as an optional argument to `go mod init`, for example:
 
    ```
-   $ go mod init github.com/you/hello
+   $ go mod init github.com/my/repo
    ```
 
    Note that if your dependencies include v2+ modules, or if you are initializing a v2+ module, then after running `go mod init` you might also need to edit your `go.mod` and `.go` code to add `/vN` to import paths and module paths as described in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above. This applies even if `go mod init` automatically converted your dependency information from `dep` or other dependency managers. (Because of this, after running `go mod init`, you typically should not run `go mod tidy` until you have successfully run `go build ./...` or similar, which is the sequence shown in this section).
@@ -404,7 +404,7 @@ Migration topics:
 
 #### Strategies for Authors of Pre-Existing v2+ Packages
 
-There are currently three top-level strategies for a pre-existing v2+ package considering opting in to modules. Each of these top-level strategies then has follow-on decisions and variations (as touched on above).
+In summary, there are currently three top-level strategies for a pre-existing v2+ package considering opting in to modules. Each of these top-level strategies then has follow-on decisions and variations (as touched on above).
 
 1. **Require clients to use Go versions 1.9.7+, 1.10.3+, or 1.11+**. 
 
@@ -427,7 +427,7 @@ There are currently three top-level strategies for a pre-existing v2+ package co
   * In addition, `go get foo` is not strictly needed for a module-based consumer. 
      * Simply adding an import statement `import "foo"` is sufficient. (Later commands like `go build` or `go test` will automatically download `foo` and update `go.mod` as needed).
   * Module-based consumers will not use a `vendor` directory by default. 
-     * Module-based consumer do not strictly need to use `vendor` when consuming a module given the information contained in `go.mod`, but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
+     * When module mode is enabled in the `go` tool, `vendor` is not strictly required when consuming a module (given the information contained in `go.mod` and the cryptographic checksums in `go.sum`), but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
   * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
   
 ## Additional Resources
@@ -610,7 +610,7 @@ The community is starting to build tooling on top of modules. For example:
 * `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
    * `replace example.com/project/foo => ../foo`
 * In general, you have the option of specifying a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in all of the `replace` examples above).
-* **Note**: a `require` directive is needed even when doing a `replace`. For example, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. (If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`; see [#26241](https://golang.org/issue/26241)).
+* **Note**: for direct dependencies, a `require` directive is needed even when doing a `replace`. For example, if `foo` is a direct dependency, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. (If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`; see [#26241](https://golang.org/issue/26241)).
 * You can confirm you are getting your expected versions by running `go list -m all`, which shows you the actual final versions that will be used in your build including taking into account `replace` statements.
 * See the ['go mod edit' documentation](https://golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
 * [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier, especially if your goal is to have mutable checkouts of dependencies of a module.  See the [repository](https://github.com/rogpeppe/gohack) or the immediately prior FAQ for an overview.
