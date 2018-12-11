@@ -1174,7 +1174,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
   * [ftp](https://bitbucket.org/zombiezen/ftp/) - Package ftp provides a minimal FTP client as defined in RFC 959
   * [ftps](https://github.com/webguerilla/ftps) - An implementation of the FTPS protocol
-  * [goftp](https://github.com/jlaffaye/) - A FTP client library
+  * [goftp](https://github.com/jlaffaye/ftp) - A FTP client library
 
 ### HTTP
   * [apiproxy](https://sourcegraph.com/github.com/sourcegraph/apiproxy/tree) - proxy for HTTP/REST APIs with configurable cache timeouts
