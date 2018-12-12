@@ -65,6 +65,10 @@ Critiques without counter-proposals
 
  - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
 
+- Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
+
+ - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
+
 
 # Counter-proposals
 
@@ -161,11 +165,7 @@ Please help categorize the rest of the proposals here.
 
 - Peter Goetz, "[Formalize and Enforce Error Handling](https://medium.com/@peter.gtz/thinking-about-new-ways-of-error-handling-in-go-2-e56d116952f1)", September 2017
 
-- Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
-
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
-
- - Paul Borman, “[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
 - Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
 
