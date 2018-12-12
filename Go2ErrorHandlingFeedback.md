@@ -55,6 +55,16 @@ Critiques without counter-proposals
 
 # Modest Revisions
 
+- Warren Stephens, "[Go 2 `handle` should provide line number, source filename, version](https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
+
+ - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
+
+- Zlatko Bratkovic, "[In support with tiny change](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb)", October 2018
+
+- DeedleFake, "[Possible Solution to `check` Awkwardness with Chained Method Calls](https://gist.github.com/DeedleFake/5e8e9e39203dff4839793981f79123aa)", September 2018
+
+ - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
+
 
 # Counter-proposals
 
@@ -133,19 +143,9 @@ Critiques without counter-proposals
 
 ## Other
 
-- Warren Stephens, "[Go 2 `handle` should provide line number, source filename, version](https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
-
- - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
-
 - Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
 
-- Zlatko Bratkovic, "[In support with tiny change](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb)", October 2018
-
-- DeedleFake, "[Possible Solution to `check` Awkwardness with Chained Method Calls](https://gist.github.com/DeedleFake/5e8e9e39203dff4839793981f79123aa)", September 2018
-
  - Fedir RYKHTIK, "[Go 2 error handling with exclamation mark](https://gist.github.com/fedir/50158bc351b43378b829948290102470)", September 2018
-
- - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
