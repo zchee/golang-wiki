@@ -920,7 +920,10 @@ The error you are currently examining might be a secondary issue caused by not h
 
 `go mod why -m <module>` can also be useful here, although it is typically more useful for seeing why a dependency is included at all (rather than why a dependency ends up with a particular version).
 
-`go list` provides many more variations of queries that can be useful to interrogate your modules if needed.
+`go list` provides many more variations of queries that can be useful to interrogate your modules if needed. One example is the following, which will show the exact versions used in your build excluding test-only dependencies:
+```
+go list -deps -f '{{with .Module}}{{.Path}} {{.Version}}{{end}}' ./... | sort -u
+```
 
 A more detailed set of commands and examples for interrogating your modules can be seen in a runnable "Go Modules by Example" [walkthough](https://github.com/go-modules-by-example/index/tree/master/018_go_list_mod_graph_why).
 
