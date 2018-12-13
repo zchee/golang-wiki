@@ -149,19 +149,15 @@ Critiques without counter-proposals
 
 ## Other
 
-- Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
+- Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
 
  - Fedir RYKHTIK, "[Go 2 error handling with exclamation mark](https://gist.github.com/fedir/50158bc351b43378b829948290102470)", September 2018
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
-- Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
-
-- Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
-
 - Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
 
-## Uncategorized
+# Uncategorized
 
 Please help categorize the rest of the proposals here.
 
@@ -176,6 +172,10 @@ Please help categorize the rest of the proposals here.
  - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
 
 - Yesuu Zhang, "[Pass the check and handle parameters, custom handle](https://github.com/yesuu/go-proposal/blob/master/go2errorhanding.md)", September 2018
+
+- Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
+
+- Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
 
 ## Adding Your Feedback
 
