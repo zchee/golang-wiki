@@ -10,6 +10,8 @@ Please help categorize the rest of the uncategorized proposals at the bottom.
 
 Discussions of the requirements for a new error handling method.
 
+- Warren Stephens, "[Go 2 `handle` should provide line number, source filename, version](https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
+
 - Liam Breck, “[Requirements to Consider for Go 2 Error Handling](https://gist.github.com/networkimprov/961c9caa2631ad3b95413f7d44a2c98a)”, September 2018
 
 - Ian Lance Taylor, “[Incomplete list of criteria](https://github.com/golang/go/issues/21161#issuecomment-389380686)” from GitHub proposal discussion, May 2018
@@ -56,8 +58,6 @@ Critiques without counter-proposals
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 # Modest Revisions
-
-- Warren Stephens, "[Go 2 `handle` should provide line number, source filename, version](https://github.com/warrenstephens/Go2ErrorHandlingFeedback)", December 2018
 
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
 
