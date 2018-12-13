@@ -118,7 +118,7 @@ A brief tour of other common functionality you might use:
 
 * `go list -m all`: view final versions that will be used in a build for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#version-selection))
 * `go list -u -m all`: view available minor and patch upgrades for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go get -u` or `go get u=patch` (without any arguments): update all direct and indirect dependencies to latest minor or patch upgrades ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go get -u` or `go get -u=patch` (without any arguments): update all direct and indirect dependencies to latest minor or patch upgrades ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
 * `go build ./...` or `go test ./...` (when executed from the root of a module): build or test all packages in the module ([more details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
 * `go mod tidy`: prune any no-longer-needed dependencies from `go.mod` or add any dependencies needed for other combinations of OS, architecture, and build tags ([more details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
 * `replace` directive or `gohack`: use a fork, local copy or exact version of a dependency ([more details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
@@ -272,7 +272,7 @@ To create a `go.mod` for an existing project:
 
    Note that if your dependencies include v2+ modules, or if you are initializing a v2+ module, then after running `go mod init` you might also need to edit your `go.mod` and `.go` code to add `/vN` to import paths and module paths as described in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above. This applies even if `go mod init` automatically converted your dependency information from `dep` or other dependency managers. (Because of this, after running `go mod init`, you typically should not run `go mod tidy` until you have successfully run `go build ./...` or similar, which is the sequence shown in this section).
 
-3. Build the module. This will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
+3. Build the module. When executed from the root directory of a module, the `./...` pattern matches all the packages within the current module.  `go build` will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
 
    ```
    $ go build ./...
@@ -953,7 +953,7 @@ If you have not already done so, a good next step is often to try `go get -v foo
 
 Some other possible causes:
 
-* You might see the error `cannot find module providing package foo` if you have issued `go build` or `go build .` but do not have any `.go` source files in the current directory. If this is what you are encountering, the solution might be an alternative invocation such as `go build ./...` (where the `...` expands out to subdirecories within the current module). See [#27122](https://github.com/golang/go/issues/27122).
+* You might see the error `cannot find module providing package foo` if you have issued `go build` or `go build .` but do not have any `.go` source files in the current directory. If this is what you are encountering, the solution might be an alternative invocation such as `go build ./...` (where the `./...` expands out to match all the packages within the current module). See [#27122](https://github.com/golang/go/issues/27122).
 
 * The module cache in Go 1.11 can cause this error, including in the face of network issues or multiple `go` commands executing in parallel. This is resolved in Go 1.12. See the first troubleshooting FAQ in this section [above](https://github.com/golang/go/wiki/Modules#what-are-some-general-things-i-can-spot-check-if-i-am-seeing-a-problem) for more details and possible corrective steps.
 
