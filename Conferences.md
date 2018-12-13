@@ -6,16 +6,15 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Vietnam 2018 | 2018-12-08 | Ho Chi Minh City, Vietnam | http://gophercon.vn<br>CFP https://www.papercall.io/gopherconvn2018 |
-| GopherCon India 2019 | 2019-01-18 | Goa, India | https://gopherconindia.com/<br>CFP https://gopherconindia.com/call-for-proposal/ |
-| GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/<br>CFP https://talks.godays.io/godays19/ |
-| Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/<br>CFP https://lists.fosdem.org/pipermail/fosdem/2018q4/002767.html |
-| GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/<br>CFP https://www.papercall.io/cfps/1422/submissions/new |
-| OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/<br>CFP https://www.papercall.io/opengo |
+| GopherCon India 2019 | 2019-01-18 | Goa, India | https://gopherconindia.com/ |
+| GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/ |
+| Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/ |
+| GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
+| OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/ |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>CFP https://goo.gl/forms/xIx90HnIqvAiowZz1 |
-| GoCon Canada | 2019 TBD | Toronto | https://gocon.ca |
+| GoCon Canada | 2019 TBD | Toronto | https://gocon.ca<br> CfP: https://www.papercall.io/goconca |
 | GopherCon EU | 2019 TBD | TBD | TBD |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | TBD |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
@@ -29,6 +28,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon Vietnam 2018 | 2018-12-08 | Ho Chi Minh City, Vietnam | http://gophercon.vn |
 | GoCon Tokyo | 2018-11-25 | Tokyo, Japan | https://gocon.connpass.com/event/109368/ |
 | GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
 | GoLab 2018 | 2018-10-22-23 | Florence, Italy | https://golab.io |
