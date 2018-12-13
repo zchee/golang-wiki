@@ -103,7 +103,7 @@ $ ./hello
 Hello, world.
 ```
 
-The `go.mod` file was updated to include explicit versions for your dependencies, where `v1.5.2` here is a (semver)[https://semver.org] tag:
+The `go.mod` file was updated to include explicit versions for your dependencies, where `v1.5.2` here is a [semver](https://semver.org) tag:
 ```
 $ cat go.mod
 
@@ -116,12 +116,12 @@ Note there was no `go get` required. Your typical day-to-day workflow can be add
 
 A brief tour of other common functionality you might use:
 
-* `go list -m all`: view final versions that will be used in a build for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#version-selection))
-* `go list -u -m all`: view available minor and patch upgrades for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go get -u` or `go get -u=patch` (without any arguments): update all direct and indirect dependencies to latest minor or patch upgrades ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go build ./...` or `go test ./...` (when executed from the root of a module): build or test all packages in the module ([more details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
-* `go mod tidy`: prune any no-longer-needed dependencies from `go.mod` or add any dependencies needed for other combinations of OS, architecture, and build tags ([more details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
-* `replace` directive or `gohack`: use a fork, local copy or exact version of a dependency ([more details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
+* `go list -m all` — View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection))
+* `go list -u -m all` — View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go get -u` or `go get -u=patch` — Update all direct and indirect dependencies to latest minor or patch upgrades ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go build ./...` or `go test ./...` — Build or test all packages in the module ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
+* `go mod tidy` — Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
+* `replace` directive or `gohack` — Use a fork, local copy or exact version of a dependency ([details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
 
 ## New Concepts
 
