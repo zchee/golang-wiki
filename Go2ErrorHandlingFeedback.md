@@ -1,4 +1,4 @@
-# Go 2 Error Handling Feedback
+# Feedback re Go 2 Error Handling Draft Design
 
 This page is meant to collect and organize feedback about the Go 2 [error handling draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-handling-overview.md).
 
@@ -18,6 +18,7 @@ Discussions of the requirements for a new error handling method.
 
 - Rob Pike (posted by @matjam) “[Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM)”, December 2015
 
+
 # In support
 
 This includes supporting the existing chaining/stacking of handlers without changes.
@@ -30,7 +31,7 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
-# Example code
+## Example code
 
 Code changed to use the existing proposal.
 
@@ -57,6 +58,7 @@ Critiques without counter-proposals
 
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
+
 # Modest Revisions
 
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
@@ -73,8 +75,7 @@ Critiques without counter-proposals
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
-
-# Remove Handler Chaining
+## Remove Handler Chaining
 
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
@@ -121,7 +122,6 @@ Critiques without counter-proposals
 
 - Liam Breck, “[The `#id/catch` Error Model](https://github.com/golang/go/issues/27519)”, September 2018
 
-
 ## Inlining
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
@@ -150,8 +150,7 @@ Critiques without counter-proposals
 
 - Gokan EKINCI, "[try-with-resources](https://gist.github.com/eau-de-la-seine/9e2e74d6369aef4a76aa50976e34de6d)", December 2018
 
-
-## Other
+## Other possibilities
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
 
@@ -166,6 +165,7 @@ Critiques without counter-proposals
  - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
 - Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
+
 
 # Uncategorized
 
