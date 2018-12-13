@@ -118,8 +118,6 @@ Critiques without counter-proposals
 
 - Simon Howard, “[Go 2 errors response: One Handler Per Function](https://gist.github.com/fragglet/df6c5471771d87b2ad597d2efc57cb3e)”, August 2018
 
-- Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
-
 - Eli Bendersky, "[Thoughts on the Go 2 Error Handling proposal](https://gist.github.com/eliben/d0c872054864bfc1110ec761c3c53c47)", September 2018
 
 - Yoshiki Shibukawa, "[Every handles should have return statement](https://gist.github.com/shibukawa/42a9dee400c2f8577b4a763bcb1a5e5f)", September 2018
@@ -158,6 +156,8 @@ Critiques without counter-proposals
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
+
+- Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
 
 ## Uncategorized
 
