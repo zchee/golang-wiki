@@ -8,8 +8,9 @@ Please provide feedback on modules via [existing or new issues](https://github.c
 
 ## Table of Contents
 
-The remaining content on this page is organized as follows:
-* [Quick Start Example](https://github.com/golang/go/wiki/Modules#quick-start-example)
+The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ questions listed in the table of contents here to familiarize yourself with the questions covered.
+ 
+* [Quick Start](https://github.com/golang/go/wiki/Modules#quick-start)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
    * [Modules](https://github.com/golang/go/wiki/Modules#modules)
    * [go.mod](https://github.com/golang/go/wiki/Modules#gomod)
@@ -61,7 +62,7 @@ The remaining content on this page is organized as follows:
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
 
-## Quick Start Example
+## Quick Start
 
 The details are covered in the remainder of this page, but here is a simple example of creating a module from scratch.
 
@@ -102,7 +103,7 @@ $ ./hello
 Hello, world.
 ```
 
-Note your `go.mod` file includes explicit versions for your dependencies:
+The `go.mod` file was updated to include explicit versions for your dependencies, where `v1.5.2` here is a (semver)[https://semver.org] tag:
 ```
 $ cat go.mod
 
@@ -110,6 +111,17 @@ module github.com/you/hello
 
 require rsc.io/quote v1.5.2
 ```
+
+Note there was no `go get` required. Your typical day-to-day workflow can be adding import statements to your `.go` code as needed, and then when you run a standard command like `go build` and `go test`, it will automatically update `go.mod` and download dependencies if needed. More specific versions of dependencies can be chosen with commands such as `go get foo@v1.2.3`, `go get foo@master`, `go get foo@e3702bed2`, or by editing `go.mod` directly.
+
+A brief tour of other common functionality you might use:
+
+* `go list -m all`: view final versions that will be used in a build for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#version-selection))
+* `go list -u -m all`: view available minor and patch upgrades for all direct and indirect dependencies ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go get -u` or `go get u=patch` (without any arguments): update all direct and indirect dependencies to latest minor or patch upgrades ([more details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go build ./...` or `go test ./...` (when executed from the root of a module): build or test all packages in the module ([more details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
+* `go mod tidy`: prune any no-longer-needed dependencies from `go.mod` or add any dependencies needed for other combinations of OS, architecture, and build tags ([more details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
+* `replace` directive or `gohack`: use a fork, local copy or exact version of a dependency ([more details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
 
 ## New Concepts
 
