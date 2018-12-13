@@ -51,6 +51,8 @@ Critiques without counter-proposals
 
 - Nate Finch, "[Handle and Check, Let's Not](https://npf.io/2018/09/check-and-handle/)", September 2018
 
+- Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
+
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 # Modest Revisions
@@ -150,8 +152,6 @@ Critiques without counter-proposals
  - Fedir RYKHTIK, "[Go 2 error handling with exclamation mark](https://gist.github.com/fedir/50158bc351b43378b829948290102470)", September 2018
 
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
-
-- Jozef Slezak, "[Use semicolons instead of new keywords: check+handle](https://gist.github.com/jozef-slezak/93a7d9d3d18d3fce3f8c3990c031f8d0)", September 2018
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
 
