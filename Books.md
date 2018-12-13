@@ -281,9 +281,9 @@ Sorted by publication date.
 
 * **WebAssembly in Action**
     * Author:  Gerard Gallant 
-    * Publication Date: Publication in Spring 2019 (estimated) 
+    * Publication Date: Spring 2019 (estimated) 
     * ISBN: 9781617295744
-    * Reference: (https://www.manning.com/books/webassembly-in-action)
+    * Reference: https://www.manning.com/books/webassembly-in-action
 
 ## Pre-order
 
