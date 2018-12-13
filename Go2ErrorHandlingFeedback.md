@@ -101,6 +101,8 @@ Critiques without counter-proposals
 
 - Gigi Sayfan, “[Go 2 error handling feedback + alternative solution](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b)", September 2018
 
+- Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
+
 - Ruan Kunliang, "[Simple Error Handling for Go 2](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2)", August 2018
 
 - Martin Rode, "[The return of the return, Error Handling for Go 2](https://medium.com/@marode/the-return-of-the-return-278b8ae261ab)", November 2018
@@ -168,8 +170,6 @@ Critiques without counter-proposals
 Please help categorize the rest of the proposals here.
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
-
-- Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
 
 - Yesuu Zhang, "[Pass the check and handle parameters, custom handle](https://github.com/yesuu/go-proposal/blob/master/go2errorhanding.md)", September 2018
 
