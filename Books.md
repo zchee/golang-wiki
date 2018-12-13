@@ -279,6 +279,12 @@ Sorted by publication date.
     * ISBN: 9781617293092
     * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
 
+* **WebAssembly in Action**
+    * Author:  Gerard Gallant 
+    * Publication Date: Publication in Spring 2019 (estimated) 
+    * ISBN: 9781617295744
+    * Reference: [https://www.manning.com/books/webassembly-in-action]
+
 ## Pre-order
 
   * **Black Hat Go**
