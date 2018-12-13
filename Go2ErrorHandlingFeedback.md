@@ -59,7 +59,7 @@ Critiques without counter-proposals
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 
-# Modest Revisions
+# Modest revisions
 
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
 
@@ -75,7 +75,7 @@ Critiques without counter-proposals
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
-## Remove Handler Chaining
+## Remove handler chaining
 
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
@@ -177,7 +177,7 @@ Please help categorize the rest of the proposals here.
 
 - Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
 
-## Adding Your Feedback
+## Adding your feedback
 
 Please format all entries as below.
 
