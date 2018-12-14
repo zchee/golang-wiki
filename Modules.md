@@ -8,7 +8,7 @@ Please provide feedback on modules via [existing or new issues](https://github.c
 
 ## Table of Contents
 
-The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ questions listed in the table of contents here to familiarize yourself with the questions covered.
+The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim at least the FAQ question one-liners listed in the table of contents here.
  
 * [Quick Start](https://github.com/golang/go/wiki/Modules#quick-start)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
@@ -122,6 +122,7 @@ A brief tour of other common functionality you might use:
 * `go build ./...` or `go test ./...` — Build or test all packages in the module ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
 * `go mod tidy` — Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
 * `replace` directive or `gohack` — Use a fork, local copy or exact version of a dependency ([details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
+* `go mod vendor` — Optional step to create a `vendor` directory ([details](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away))
 
 ## New Concepts
 
@@ -910,8 +911,7 @@ Please see the question "Won't minimal version selection keep developers from ge
    * Modules by default ignore the `vendor` directory unless you ask the `go` tool to use `vendor`.
 * It is frequently helpful to check `go list -m all` to see the list of actual versions selected for your build
   * `go list -m all` usually gives you more detail compared to if you were to instead just look a `go.mod` file. 
-* If running `go get foo` fails in some way, or if `go build` is failing on a particular package `foo`, it often can be helpful to check the output from `go get -v foo` or `go get -v -x foo` 
-a good next step is often to try `go get -v foo`:
+* If running `go get foo` fails in some way, or if `go build` is failing on a particular package `foo`, it often can be helpful to check the output from `go get -v foo` or `go get -v -x foo`:
   * In general, `go get` will often provide more a detailed error message than `go build`.
   * The `-v` flag to `go get` asks to print more verbose details, though be mindful that certain "errors" such as 404 errors _might_ be expected based on how a remote repository was configured.
   * If the nature of the problem is still not clear, you can also try the more verbose `go get -v -x foo`, which also shows the git or other VCS commands being issued.  (If warranted, you can often execute the same git commands outside of the context of the `go` tool for troubleshooting purposes).
@@ -992,3 +992,5 @@ stored in the package directory_, not in subdirectories.
 A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` director. Although this can be helpful, some care must be taken to make sure your go build is being handled properly in general (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
 
 See additional discussion in [#26366](https://github.com/golang/go/issues/26366#issuecomment-405683150).
+
+An alternative approach to traditional vendoring is to check in the module cache. It can end up with similar benefits as traditional vendoring and in some ways ends up with a higher fidelity copy. This approach is explained as a "Go Modules by Example" [walkthrough](https://github.com/go-modules-by-example/index/blob/master/012_modvendor/README.md).
