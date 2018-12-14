@@ -8,7 +8,7 @@ Please provide feedback on modules via [existing or new issues](https://github.c
 
 ## Table of Contents
 
-The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim at least the FAQ question one-liners listed in the table of contents here.
+The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ question one-liners listed in the table of contents here.
  
 * [Quick Start](https://github.com/golang/go/wiki/Modules#quick-start)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
