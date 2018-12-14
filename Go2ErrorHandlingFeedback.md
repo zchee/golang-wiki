@@ -14,6 +14,10 @@ Discussions of the requirements for a new error handling method.
 
 - Liam Breck, “[Requirements to Consider for Go 2 Error Handling](https://gist.github.com/networkimprov/961c9caa2631ad3b95413f7d44a2c98a)”, September 2018
 
+ - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
+
+- Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
+
 - Ian Lance Taylor, “[Incomplete list of criteria](https://github.com/golang/go/issues/21161#issuecomment-389380686)” from GitHub proposal discussion, May 2018
 
 - Rob Pike (posted by @matjam) “[Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM)”, December 2015
@@ -67,11 +71,7 @@ Critiques without counter-proposals
 
 - DeedleFake, "[Possible Solution to `check` Awkwardness with Chained Method Calls](https://gist.github.com/DeedleFake/5e8e9e39203dff4839793981f79123aa)", September 2018
 
- - jimmyfrasche, "[Don't special case error or nil](https://gist.github.com/jimmyfrasche/f2cd6aff16db5e46c577da44ec0cfa72)", September 2018
-
 - Yesuu Zhang, "[Pass the check and handle parameters, custom handle](https://github.com/yesuu/go-proposal/blob/master/go2errorhanding.md)", September 2018
-
-- Matt Dee "[Error Handling Should Support Custom Error Types](https://gist.github.com/mattdee123/a04f95ef5639489668cafd9c3b675a8c)", August 2018
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
