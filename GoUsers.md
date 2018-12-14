@@ -610,6 +610,7 @@
 * [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 * [Rate](https://rate.com.sg)
 * [Singapore Power](https://www.spgroup.com.sg/)
+* [Eatigo](https://www.eatigo.com/)
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
