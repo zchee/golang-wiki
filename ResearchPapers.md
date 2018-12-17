@@ -1,6 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2018
 
+- ProIO: An Event-Based I/O Stream Format for Protobuf Messages (D. Blyth, J. Alcaraz, S. Binet, S.V. Chekanov)
+  - [arXiv:1812.03967](https://arxiv.org/abs/1812.03967)
+  - [proio-org/go-proio](https://godoc.org/github.com/proio-org/go-proio)
+
 - The latest gossip on BFT consensus (Buchman, Kwon, Milosevic)
   - [pdf](https://arxiv.org/abs/1807.04938)
 
