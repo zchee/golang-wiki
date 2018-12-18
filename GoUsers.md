@@ -565,7 +565,7 @@
   * [EngageSPARK](https://www.engagespark.com)
 
 ## Poland
- * [OLX](https://www.joinolx.com/)
+ * [OLX](https://www.joinolx.com/) - [blog](https://tech.olx.com/)
  * [allegro](http://allegro.pl) - [blog](http://allegro.tech) - biggest polish e-commerce platform
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
@@ -580,7 +580,7 @@
  * [Brainly](https://brainly.co/) - [blog](https://medium.com/engineering-brainly)
 
 ## Portugal
-  * [OLX](https://www.joinolx.com/)
+  * [OLX](https://www.joinolx.com/) - [blog](https://tech.olx.com/)
   * [AppGeneration](http://appgeneration.com/)
   * [Lmit](http://lmit.pt/)
   * [Uniplaces](http://uniplaces.com/)
