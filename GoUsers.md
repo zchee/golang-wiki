@@ -675,6 +675,7 @@
   * [Fastwork](https://fastwork.co/)
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech)
+  * [ODDS](http://fb.me/oddsteam)
   * [Paybox](https://www.paybox.work)
   * [Sellsuki](https://www.sellsuki.co.th/)
   * [SPRINT3r](http://sprint3r.com/)
