@@ -539,6 +539,7 @@
   * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Kickstox](https://kickstox.com)
+  * [Kopano](https://kopano.com) - [github](https://github.com/Kopano-dev)
   * [localsensor](http://localsensor.com/)
   * [MessageBird](https://www.messagebird.com/) - [github](https://github.com/messagebird)
   * [Nerdalize](https://www.nerdalize.com/) - [github](https://github.com/nerdalize)
