@@ -126,7 +126,7 @@ A brief tour of other common functionality you might use:
 
 ## New Concepts
 
-These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see [the official proposal document](https://golang.org/design/24301-versioned-go), this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
+These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see  this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), the [official proposal document](https://golang.org/design/24301-versioned-go), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
 
 ### Modules
 
@@ -134,13 +134,15 @@ A *module* is a collection of related Go packages that are versioned together as
 
 Modules record precise dependency requirements and create reproducible builds. 
 
-Modules must be semantically versioned according to [semver](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0` or `v1.2.3`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Public and private module repositories and proxies are becoming available (see for example FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
+Modules must be semantically versioned according to [semver](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0` or `v1.2.3`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Public and private module repositories and proxies are becoming available (see FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
 
 ### go.mod
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
 
-`go.mod` files may include comments and will look familiar to a Go programmer. Here is an example `go.mod` file defining the module `github.com/my/thing`:
+Each module contains one or more Go packages, and each package consists of one or more Go source files in a single directory.
+
+Here is an example `go.mod` file defining the module `github.com/my/thing`:
 
 ```
 module github.com/my/thing
@@ -151,9 +153,9 @@ require (
 )
 ```
 
-There are four directives: `module`, `require`, `exclude`, `replace`. 
+There are four directives: `module`, `require`, `replace`, `exclude`. 
 
-All of the packages in a module share a common prefix – the *module path*. The `go.mod` file defines the module path via the `module` directive. For example, if you are creating a module for a repository `github.com/my/repo` that contains two packages with import paths `"github.com/my/repo/foo"` and `"github.com/my/repo/bar"`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
+A module declares its identity in its `go.mod` via the `module` directive, which provides the _module path_. All of the packages in a module share the module path as a common prefix. The module path and the relative path from the `go.mod` to a package's directory together determine a package's import path. For example, if you are creating a module for a repository `github.com/my/repo` that will contain two packages with import paths `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
 
 ```
 repo/
@@ -164,13 +166,13 @@ repo/
     └── foo.go
 ```
 
-`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for discussion of when to use a `replace` directive).
+In Go source code, packages are imported using the full path including the module path. For example, if a module declared its identity in its `go.mod` as `module example.com/my/module`, a consumer could do:
+```
+import "example.com/my/module/v2/mypkg"
+```
+This imports package `mypkg` from the v2 version of module `example.com/my/module`.
 
-In Go source code, packages are imported using the full path including the module. For example:
-```
-import "example.com/my/module/v2/pkg/foo"
-```
-This imports package `foo` from the v2 version of module `example.com/my/module`.
+`exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for discussion of when to use a `replace` directive).
 
 ### Version Selection
 
@@ -296,15 +298,17 @@ For more information on all of these topics, the primary entry point to the offi
 
 ## How to Upgrade and Downgrade Dependencies
 
-Day-to-day adding, removing, upgrading, and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file.
+Day-to-day upgrading and downgrading of dependencies should be done using 'go get', which will automatically update the `go.mod` file. Alternatively, you can edit `go.mod` directly.
 
 In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
 
-To upgrade to the latest version for all transitive dependencies of the current module:
+To view available minor and patch upgrades for all direct and indirect dependencies, run `go list -u -m all`.
+
+To upgrade to the latest version for all direct and indirect dependencies of the current module:
  * run `go get -u` to use the latest *minor or patch* releases
  * run `go get -u=patch` to use the latest *patch* releases
 
-To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or "module query" to the package argument, such as `go get github.com/gorilla/mux@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
+To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"]((https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
 
 `go get foo` updates to the latest version with a [semver](https://semver.org/) tag. (This is  equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified).
 
@@ -312,9 +316,9 @@ Using a branch name such as `go get foo@master` is one way to obtain the latest 
 
 In general, module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
 
-Modules are capable of consuming packages that have not yet opted into modules, including recording any available semver tags in `go.mod` and using those semver tags to upgrade or downgrade. Modules can also consume packages that do not yet have any proper semver tags (in which case they will be recorded using pseudo-versions in `go.mod`).
+See the ["Module-aware go get"](https://golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://golang.org/cmd/go/#hdr-Module_queries) sections of the `go` command documentation for more information on the topics here.
 
-See the ["Module-aware go get"](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://tip.golang.org/cmd/go/#hdr-Module_queries) sections of the tip documentation for more information on the topics here.
+Modules are capable of consuming packages that have not yet opted into modules, including recording any available semver tags in `go.mod` and using those semver tags to upgrade or downgrade. Modules can also consume packages that do not yet have any proper semver tags (in which case they will be recorded using pseudo-versions in `go.mod`).
 
 After upgrading or downgrading any dependencies, you may then want to run the tests again for all packages in your build (including direct and indirect dependencies) to check for incompatibilities:
 
@@ -387,6 +391,18 @@ Migration topics:
 
   * Older versions of Go understand how to consume a vendor directory created by `go mod vendor`. Therefore, vendoring is one way for a module to provide dependencies to older versions of Go that do not fully understand modules. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) and the `go` command [documentation](https://tip.golang.org/cmd/go/#hdr-Modules_and_vendoring) for more details.
 
+#### Updating Pre-Existing Install Instructions
+
+  * Pre-modules, it is common for install instructions to include `go get -u foo`. If you are publishing a module `foo`, consider dropping the `-u` in instructions for modules-based consumers.
+     * `-u` asks the `go` tool to upgrade all the direct and indirect dependencies of `foo`. 
+	 * A module consumer might choose to run `go get -u foo` later, but there are more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the initial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
+     * `go get -u foo` does still work, and can still be a valid choice for install instructions.
+  * In addition, `go get foo` is not strictly needed for a module-based consumer. 
+     * Simply adding an import statement `import "foo"` is sufficient. (Subsequent commands like `go build` or `go test` will automatically download `foo` and update `go.mod` as needed).
+  * Module-based consumers will not use a `vendor` directory by default. 
+     * When module mode is enabled in the `go` tool, `vendor` is not strictly required when consuming a module (given the information contained in `go.mod` and the cryptographic checksums in `go.sum`), but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
+  * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
+
 #### Incrementing the Major Version When First Adopting Modules with v2+ Packages
 
 * If you have packages that have already been tagged v2.0.0 or higher before adopting modules, then the recommended best practice is to increment the major version when first adopting modules. For example, if you are on `v2.0.1` and have not yet adopted modules, then you would use `v3.0.0` for the first release that adopts modules. See the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section above for more details.
@@ -417,7 +433,7 @@ Migration topics:
 
 #### Strategies for Authors of Pre-Existing v2+ Packages
 
-In summary, there are currently three top-level strategies for a pre-existing v2+ package considering opting in to modules. Each of these top-level strategies then has follow-on decisions and variations (as touched on above).
+For authors of pre-existing v2+ packages considering opting in to modules, one way to summarize the alternative approaches is as a choice between three top-level strategies . Each of the three top-level strategies then has follow-on decisions and variations (as outlined above). These alternative top-level strategies are:
 
 1. **Require clients to use Go versions 1.9.7+, 1.10.3+, or 1.11+**. 
 
@@ -430,25 +446,13 @@ In summary, there are currently three top-level strategies for a pre-existing v2
 3. **Wait on opting in to modules**.  
 
     In this strategy, things continue to work with client code that has opted in to modules as well as with client code that has not opted in to modules. As time goes by, Go versions 1.9.7+, 1.10.3+, and 1.11+ will be out for an increasingly longer time period, and at some point in the future, it becomes more natural or client-friendly to require Go versions 1.9.7+/1.10.3+/1.11+, and at that point in time, you can implement strategy 1 above (requiring Go versions 1.9.7+, 1.10.3+, or 1.11+) or even strategy 2 above (though if you are ultimately going to go with strategy 2 above in order to support older Go versions like 1.8, then that is something you can do now).
-
-#### Updating Pre-Existing Install Instructions
-
-  * Pre-modules, it is common for install instructions to include `go get -u foo`. If you are publishing a module `foo`, consider dropping the `-u` for modules-based consumers.
-     * `-u` asks the `go` tool to upgrade all the direct and indirect dependencies of `foo`. 
-	 * A module consumer might choose to run `go get -u foo` later, but there are more benefits of ["High Fidelity Builds"](https://github.com/golang/proposal/blob/master/design/24301-versioned-go.md#update-timing--high-fidelity-builds) if `-u` is not part of the initial install instructions. See ["How to Upgrade and Downgrade Dependencies"](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies) for more details.
-     * `go get -u foo` does still work, and can still be a valid choice for install instructions.
-  * In addition, `go get foo` is not strictly needed for a module-based consumer. 
-     * Simply adding an import statement `import "foo"` is sufficient. (Later commands like `go build` or `go test` will automatically download `foo` and update `go.mod` as needed).
-  * Module-based consumers will not use a `vendor` directory by default. 
-     * When module mode is enabled in the `go` tool, `vendor` is not strictly required when consuming a module (given the information contained in `go.mod` and the cryptographic checksums in `go.sum`), but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
-  * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
   
 ## Additional Resources
 
 ### Documentation and Proposal
 
 * Official documentation:
-  * Latest [HTML documentation for modules on tip.golang.org](https://tip.golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
+  * Latest [HTML documentation for modules on golang.org](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
   * Run `go help modules` for more about modules. (This is the main entry point for modules topics via `go help`)
   * Run `go help mod` for more about the `go mod` command.
   * Run `go help module-get` for more about the behavior of `go get` when in module-aware mode.
@@ -460,11 +464,11 @@ In summary, there are currently three top-level strategies for a pre-existing v2
 
 ### Introductory Material
 
+* Introductory 40 minute video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
+  * Succinctly covers the philosophy behind the design of versioned Go modules, including the three core principles of "Compatibility", "Repeatability", and "Cooperation"
 * Example based 35 minute introductory video ["What are Go modules and how do I use them?"](https://www.youtube.com/watch?v=6MbIzJmLz6Q&list=PL8QGElREVyDA2iDrPNeCe8B1u7li5S6ep&index=5&t=0s) ([slides](https://talks.godoc.org/github.com/myitcv/talks/2018-08-15-glug-modules/main.slide#1)) by Paul Jolly (August 15, 2018)
 * Introductory blog post ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (July 14, 2018)
 * Introductory [Go Meetup slides on modules](https://docs.google.com/presentation/d/1ansfXN8a_aVL-QuvQNY7xywnS78HE8aG7fPiITNQWMM/edit#slide=id.g3d87f3177d_0_0) by Chris Hines (July 16, 2018)
-* Introductory 40 minute video ["The Principles of Versions in Go"](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s) from GopherCon Singapore by Russ Cox (May 2, 2018)
-  * Succinctly covers the philosophy behind the design of versioned Go modules, including the three core principles of "Compatibility", "Repeatability", and "Cooperation"
 
 ### Additional Material
 
@@ -537,9 +541,10 @@ Solution alternatives include:
 
 2. Leave `GO111MODULE=on`, but as needed disable modules temporarily and enable Go 1.10 behavior during `go get`, such as via `GO111MODULE=off go get example.com/cmd`. This can be turned into a simple script or shell alias such as `alias oldget='GO111MODULE=off go get'`
 
-3. Create a temporary `go.mod` file that is then discarded. This has been automated by a [simple shell script](https://gist.github.com/rogpeppe/7de05eef4dd774056e9cf175d8e6a168) by [@rogpeppe](https://github.com/rogpeppe). This script allows version information to optionally be supplied (usage: `vgoget example.com/cmd[@version]`).
+3. Create a temporary `go.mod` file that is then discarded. This has been automated by a [simple shell script](https://gist.github.com/rogpeppe/7de05eef4dd774056e9cf175d8e6a168) by [@rogpeppe](https://github.com/rogpeppe). This script allows version information to optionally be supplied via `vgoget example.com/cmd[@version]`. (This can be a solution for avoiding the error `cannot use path@version syntax in GOPATH mode`).
 
-4. `gobin` is a module-aware command to install and run main packages. By default, `gobin` installs/runs main packages without first needing to manually create a module, but with the `-m` flag it can be told to use an existing module to resolve dependencies. Please see the `gobin` [README](https://github.com/myitcv/gobin#usage) and [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) for details and additional use cases.
+4. `gobin` is a module-aware command to install and run main packages. By default, `gobin` installs/runs main packages without first needing to manually create a module, but with the `-m` flag it can be told to use an existing module to resolve dependenci
+es. Please see the `gobin` [README](https://github.com/myitcv/gobin#usage) and [FAQ](https://github.com/myitcv/gobin/wiki/FAQ) for details and additional use cases.
 
 5. Create a `go.mod` you use to track your globally installed tools, such as in `~/global-tools/go.mod`, and `cd` to that directory prior to running `go get` or `go install` for any globally installed tools. 
 
