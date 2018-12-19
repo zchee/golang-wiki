@@ -469,7 +469,7 @@ For authors of pre-existing v2+ packages considering opting in to modules, one w
 * Example based 35 minute introductory video ["What are Go modules and how do I use them?"](https://www.youtube.com/watch?v=6MbIzJmLz6Q&list=PL8QGElREVyDA2iDrPNeCe8B1u7li5S6ep&index=5&t=0s) ([slides](https://talks.godoc.org/github.com/myitcv/talks/2018-08-15-glug-modules/main.slide#1)) by Paul Jolly (August 15, 2018)
 * Introductory blog post ["Taking Go Modules for a Spin"](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin) by Dave Cheney (July 14, 2018)
 * Introductory [Go Meetup slides on modules](https://docs.google.com/presentation/d/1ansfXN8a_aVL-QuvQNY7xywnS78HE8aG7fPiITNQWMM/edit#slide=id.g3d87f3177d_0_0) by Chris Hines (July 16, 2018)
-* Introductory 30 minute video ["Intro to Go Modules and SemVer"](https://www.youtube.com/watch?v=aeF3l-zmPsY) by Fransisco Campoy (Nov 15, 2018)
+* Introductory 30 minute video ["Intro to Go Modules and SemVer"](https://www.youtube.com/watch?v=aeF3l-zmPsY) by Francesc Campoy (Nov 15, 2018)
 
 ### Additional Material
 
