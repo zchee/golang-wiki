@@ -308,7 +308,7 @@ To upgrade to the latest version for all direct and indirect dependencies of the
  * run `go get -u` to use the latest *minor or patch* releases
  * run `go get -u=patch` to use the latest *patch* releases
 
-To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"]((https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
+To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
 
 `go get foo` updates to the latest version with a [semver](https://semver.org/) tag. (This is  equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified).
 
