@@ -810,7 +810,7 @@ In short, the `+incompatible` suffix indicates that principle 2 above is in effe
 * its VCS tags say the major version is greater than 1, and
 * principle 2 is overriding the VCS tags – the import path without a `/vN` is treated as a v1 or v0 module (even though the VCS tags say otherwise)
 
-When the `go` tool is in module mode, it will assume a non-module v2+ package has no awareness of Semantic Import Versioning and treat it as an (incompatible) extension of the v1 version series of the package (and the `+incompatible suffix is an indication that the `go` tool is doing so).
+When the `go` tool is in module mode, it will assume a non-module v2+ package has no awareness of Semantic Import Versioning and treat it as an (incompatible) extension of the v1 version series of the package (and the `+incompatible` suffix is an indication that the `go` tool is doing so).
 
 **Example**
 
