@@ -27,6 +27,8 @@ The remaining content on this page is organized as follows. The "Quick Start" an
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
 * [FAQs](https://github.com/golang/go/wiki/Modules#faqs)
   * [How are versions marked as incompatible?](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible)
+  * [Can two modules depend on each other?](https://github.com/golang/go/wiki/Modules#can-two-modules-depend-on-each-other)
+  * [Can a module depend on a different version of itself?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-a-different-version-of-itself)
   * [When do I get old behavior vs. new module-based behavior?](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior)
   * [Why does installing a tool via 'go get' fail with error 'cannot find main module'?](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module)
   * [How can I track tool dependencies for a module?](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module)
@@ -528,6 +530,12 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
   * `on` —  force module support on regardless of directory location
   * `off` — force module support off regardless of directory location
  
+### Can two modules depend on each other (cyclical import)?
+Yes. Two packages however may not depend on each other (this is a build constraint).
+
+### Can a module depend on a different version of itself?
+A module can depend on a different major version of itself: by-and-large, this is comparable to depending on a different module.
+
 ### Why does installing a tool via `go get` fail with error `cannot find main module`?
 
 This occurs when you have set `GO111MODULE=on`, but are not inside of a file tree with a `go.mod` when you run `go get`.
