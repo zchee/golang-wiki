@@ -168,9 +168,9 @@ repo/
 
 In Go source code, packages are imported using the full path including the module path. For example, if a module declared its identity in its `go.mod` as `module example.com/my/module`, a consumer could do:
 ```
-import "example.com/my/module/v2/mypkg"
+import "example.com/my/module/mypkg"
 ```
-This imports package `mypkg` from the v2 version of module `example.com/my/module`.
+This imports package `mypkg` from the module `example.com/my/module`.
 
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements therefore allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for discussion of when to use a `replace` directive).
 
@@ -203,7 +203,7 @@ Recall [semver](https://semver.org/) requires a major version change when a v1 o
 
 As a result of Semantic Import Versioning, code opting in to Go modules **must comply with these rules**: 
 * Follow [semver](https://semver.org/) (with tags such as `v1.2.3`).
-* If the module is version v2 or higher, the major version of the module _must_ be included in both the module path in the `go.mod` file (e.g., `module example.com/my/mod/v2`) and the package import path (e.g., `import "example.com/my/mod/v2/mypkg"`).
+* If the module is version v2 or higher, the major version of the module _must_ be included as a `/vN` at the end of the module paths used in the `go.mod` file (e.g., `module github.com/my/mod/v2`, `require github.com/some/dependency/v3  v3.0.0`) and as a `/vN` in the package import path (e.g., `import "github.com/my/mod/v2/mypkg"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
 In general, packages with different import paths are different packages. For example, `math/rand` is a different package than `crypto/rand`. This is also true if different import paths are due to different major versions appearing in the import path. Thus `example.com/my/mod/mypkg` is a different package than `example.com/my/mod/v2/mypkg`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
