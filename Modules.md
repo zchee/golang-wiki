@@ -27,7 +27,7 @@ The remaining content on this page is organized as follows. The "Quick Start" an
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
 * [FAQs](https://github.com/golang/go/wiki/Modules#faqs)
   * [How are versions marked as incompatible?](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible)
-  * [Can two modules depend on each other?](https://github.com/golang/go/wiki/Modules#can-two-modules-depend-on-each-other)
+  * [Can two modules depend on each other?](https://github.com/golang/go/wiki/Modules#can-two-modules-depend-on-each-other-cyclical-import)
   * [Can a module depend on a different version of itself?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-a-different-version-of-itself)
   * [When do I get old behavior vs. new module-based behavior?](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior)
   * [Why does installing a tool via 'go get' fail with error 'cannot find main module'?](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module)
