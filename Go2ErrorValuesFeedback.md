@@ -10,6 +10,12 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 - Ben Johnson, "[Failure is Your Domain](https://middlemost.com/failure-is-your-domain/)", June 2018
 
+### Draft Implementation
+
+- Go Team, “[x/exp/errors](https://godoc.org/golang.org/x/exp/errors)”, November 2018
+
+- Torben Schinke, “[Implementation of the draft design](https://github.com/worldiety/errors)”, December 2018
+
 ### Error Inspection
 
  - Ilya Sinelnikov, "[`Is` and `As` differ in behavior which is unexpected](https://github.com/sidh/go2errorsinspection)", December 2018
