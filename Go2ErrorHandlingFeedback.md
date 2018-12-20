@@ -43,8 +43,6 @@ Code changed to use the existing proposal.
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
 
- - Torben Schinke, “[Implementation of the design draft](https://github.com/worldiety/errors)”, December 2018
-
 # Against
 
 Critiques without counter-proposals
