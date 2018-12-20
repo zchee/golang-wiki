@@ -60,6 +60,7 @@ The remaining content on this page is organized as follows. The "Quick Start" an
   * [What can I check if I am not seeing the expected version of a dependency?](https://github.com/golang/go/wiki/Modules#what-can-i-check-if-i-am-not-seeing-the-expected-version-of-a-dependency)
   * [Why am I getting an error 'cannot find module providing package foo'?](https://github.com/golang/go/wiki/Modules#why-am-i-getting-an-error-cannot-find-module-providing-package-foo)
   * [Why does 'go mod init' give the error 'cannot determine module path for source directory'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-init-give-the-error-cannot-determine-module-path-for-source-directory)
+  * [I have a problem with a complex dependency that has not opted in to modules. Can I use information from its current dependency manager?](https://github.com/golang/go/wiki/Modules/_edit#i-have-a-problem-with-a-complex-dependency-that-has-not-opted-in-to-modules-can-i-use-information-from-its-current-dependency-manager)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
@@ -977,6 +978,27 @@ Some other possible causes:
 `go mod init` without any arguments will attempt to guess the proper module path based on different hints such as VCS meta data. However, it is not expected that `go mod init` will always be able to guess the proper module path.
 
 If `go mod init` gives you this error, those heuristics were not able to guess, and you must supply the module path yourself (such as `go mod init github.com/you/hello`).
+
+### I have a problem with a complex dependency that has not opted in to modules. Can I use information from its current dependency manager?
+
+Yes. This requires some manual steps, but can be helpful in some more complex cases.
+
+When you run `go mod init` when initializing your own module, it will automatically convert from a prior dependency manager by translating configuration files like `Gopkg.lock`, `glide.lock`, or `vendor.json` into a `go.mod` file that contains corresponding `require` directives. The information in a pre-existing `Gopkg.lock` file for example usually describes version information for all of your direct and indirect dependencies.
+
+However, if instead you are adding a new dependency that has not yet opted in to modules itself, there is not a similar automatic conversion process from any prior dependency manager that your new dependency might have been using. If that new dependency itself has non-module dependencies that have had breaking changes, then in some cases that can cause incompatibility problems. In other words, a prior dependency manager of your new dependency is not automatically used, and that can cause problems with your indirect dependencies in some cases.
+
+One approach is to run `go mod init` on your problematic non-module direct dependency to convert from its current dependency manager, and then use the `require` directives from the resulting temporary `go.mod` to populate or update the `go.mod` in your module.
+
+For example, if `github.com/some/nonmodule` is a problematic direct dependency of your module that is currently using another dependency manager, you can do something similar to:
+
+```
+$ git clone https://github.com/some/nonmodule.git /tmp/scratchpad/nonmodule
+$ cd /tmp/scratchpad/nonmodule
+$ go mod init
+$ cat go.mod
+```
+
+The resulting `require` information from the temporary `go.mod` can be manually moved into the actual `go.mod` for your module, or you can consider using https://github.com/rogpeppe/gomodmerge, which is a community tool targeting this use case.
 
 ### Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?
 
