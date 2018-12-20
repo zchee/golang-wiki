@@ -201,6 +201,7 @@
   * [IoThings](https://iothings.fr)
   * [IRI France](http://www.iri-labs.com)
   * [Leboncoin](http://leboncoin.com) - [github](https://github.com/leboncoin) - [blog](https://medium.com/leboncoin-engineering-blog)
+  * [LibMed](https://www.libertymedical.fr)
   * [Molotov TV](http://www.molotov.tv)
   * [Objenious](http://www.objenious.com)
   * [ProcessOne](https://www.process-one.net)
