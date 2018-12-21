@@ -125,15 +125,15 @@ Your typical day-to-day workflow can be:
 
 A brief tour of other common functionality you might use:
 
-| Command                         | Description             |
-| ------------------------------- | ----------------------- |
-| <nobr>`go list -m all`</nobr>   |  View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection)) |
-| <nobr>`go list -u -m all`</nobr>|  View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
-| `go get -u` <br> <nobr>`go get -u=patch`</nobr>  |  Update all direct and indirect dependencies to latest minor or patch upgrades ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
-| <nobr>`go build ./...`</nobr> <br> `go test ./...`  |  Build or test all packages in the module when run from the module root directory ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)) |
-| <nobr>`go mod tidy`</nobr>      |  Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)) |
+| Command&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; | Description             |
+| ------------------------------- | :----------------------- |
+| `go list -m all`   |  View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection)) |
+| `go list -u -m all`|  View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
+| `go get -u` <br> `go get -u=patch`  |  Update all direct and indirect dependencies to latest minor or patch upgrades ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
+| `go build ./...` <br> `go test ./...`  |  Build or test all packages in the module when run from the module root directory ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)) |
+| `go mod tidy`      |  Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)) |
 | `replace` directive or `gohack` | Use a fork, local copy or exact version of a dependency ([details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive)) |
-| <nobr>`go mod vendor`</nobr>    |  Optional step to create a `vendor` directory ([details](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away)) |
+| `go mod vendor`    |  Optional step to create a `vendor` directory ([details](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away)) |
 
 After reading the next four sections on "New Concepts", you will have enough information to get started with modules for most projects. It is also useful to review the [Table of Contents](https://github.com/golang/go/wiki/Modules#table-of-contents) above (including the FAQ one-liners there) to familiarize yourself with the list of more detailed topics. 
 
