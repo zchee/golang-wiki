@@ -127,7 +127,7 @@ A brief tour of other common functionality you might use:
 
 | Command                         | Description             |
 | ------------------------------- | ----------------------- |
-| <nobr>`go list -m all`</nobr>   |  View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection)) |
+| <span style="white-space: nowrap;">`go list -m all`</span>   |  View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection)) |
 | <nobr>`go list -u -m all`</nobr>|  View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
 | `go get -u` <br> <nobr>`go get -u=patch`</nobr>  |  Update all direct and indirect dependencies to latest minor or patch upgrades ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)) |
 | <nobr>`go build ./...`</nobr> <br> `go test ./...`  |  Build or test all packages in the module when run from the module root directory ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module)) |
