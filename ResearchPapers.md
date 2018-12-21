@@ -1,4 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
+## 2019
+
+- An empirical study of messaging passing concurrency in Go projects (N. Dilley, J. Lange)
+  - [SANER'19 pre-print](https://www.cs.kent.ac.uk/people/staff/jl703/papers/dilley-lange-saner19-preprint.pdf)
+  - [web-page](https://www.cs.kent.ac.uk/people/staff/jl703/go-survey/)
+
 ## 2018
 
 - ProIO: An Event-Based I/O Stream Format for Protobuf Messages (D. Blyth, J. Alcaraz, S. Binet, S.V. Chekanov)
