@@ -8,7 +8,7 @@ Please provide feedback on modules via [existing or new issues](https://github.c
 
 ## Table of Contents
 
-The remaining content on this page is organized as follows. The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ question one-liners listed in the table of contents here.
+The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ one-liners listed here.
  
 * [Quick Start](https://github.com/golang/go/wiki/Modules#quick-start)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
@@ -115,17 +115,25 @@ module github.com/you/hello
 require rsc.io/quote v1.5.2
 ```
 
-Note there was no `go get` required. Your typical day-to-day workflow can be adding import statements to your `.go` code as needed, and then when you run a standard command like `go build` and `go test`, it will automatically update `go.mod` and download dependencies if needed. More specific versions of dependencies can be chosen with commands such as `go get foo@v1.2.3`, `go get foo@master`, `go get foo@e3702bed2`, or by editing `go.mod` directly.
+Note there was no `go get` required. 
+
+Your typical day-to-day workflow can be:
+
+* Add import statements to your `.go` code as needed.
+* Standard commands like `go build` or `go test` will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
+* When needed, more specific versions of dependencies can be chosen with commands such as `go get foo@v1.2.3`, `go get foo@master`, `go get foo@e3702bed2`, or by editing `go.mod` directly.
 
 A brief tour of other common functionality you might use:
 
 * `go list -m all` — View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection))
 * `go list -u -m all` — View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
 * `go get -u` or `go get -u=patch` — Update all direct and indirect dependencies to latest minor or patch upgrades ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go build ./...` or `go test ./...` — Build or test all packages in the module ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
+* `go build ./...` or `go test ./...` — Build or test all packages in the module when run from the module root directory ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
 * `go mod tidy` — Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
 * `replace` directive or `gohack` — Use a fork, local copy or exact version of a dependency ([details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
 * `go mod vendor` — Optional step to create a `vendor` directory ([details](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away))
+
+After reading the next four sections on "New Concepts", you will have enough information to get started with modules for most projects. It is also useful to review the [Table of Contents](https://github.com/golang/go/wiki/Modules#table-of-contents) above (including the FAQ one-liners there) to familiarize yourself with the list of more detailed topics. 
 
 ## New Concepts
 
@@ -223,7 +231,7 @@ This section so far has been focused on code that has opted in to modules and im
 
 2. **'+incompatible' when importing non-module v2+ packages**
 
-    A module can import a v2+ package that has not opted in to modules itself. A non-module v2+ package that has a valid v2+ [semver](semver.org) tag will be recorded with an `+incompatible` suffix in the importing module's `go.mod` file. The `+incompatible` suffix indicates that even though the v2+ package has a valid v2+ [semver](semver.org) tag such as `v2.0.0`, the v2+ package has not actively opted in to modules and hence that v2+ package is assumed to have _not_ been created with an understanding of the implications of Semantic Import Versioning and how to use major versions in import paths. Therefore, when operating in [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior), the `go` tool will treat a non-module v2+ package as an (incompatible) extension of the v1 version series of the package and assume the package has no awareness of Semantic Import Versioning, and the `+incompatible` suffix is an indication that the `go` tool is doing so. 
+    A module can import a v2+ package that has not opted in to modules itself. A non-module v2+ package that has a valid v2+ [semver](https://semver.org) tag will be recorded with an `+incompatible` suffix in the importing module's `go.mod` file. The `+incompatible` suffix indicates that even though the v2+ package has a valid v2+ [semver](semver.org) tag such as `v2.0.0`, the v2+ package has not actively opted in to modules and hence that v2+ package is assumed to have _not_ been created with an understanding of the implications of Semantic Import Versioning and how to use major versions in import paths. Therefore, when operating in [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior), the `go` tool will treat a non-module v2+ package as an (incompatible) extension of the v1 version series of the package and assume the package has no awareness of Semantic Import Versioning, and the `+incompatible` suffix is an indication that the `go` tool is doing so. 
 
 3. **"Minimal module compatibility" when module mode is not enabled**
     
