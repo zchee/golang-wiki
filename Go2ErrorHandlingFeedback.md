@@ -119,6 +119,8 @@ Critiques without counter-proposals
 
 - Mikaël Cluseau, "[Multiple handlers, unambiguous on which return value is used](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67)", September 2018
 
+- Kiura Magomadov, “[Addition to Go2 draft error handling](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027)", September 2018
+
 - Liam Breck, “[The `#id/catch` Error Model](https://github.com/golang/go/issues/27519)”, September 2018
 
 ## Inlining
@@ -138,8 +140,6 @@ Critiques without counter-proposals
 ## try/catch/finally syntax
 
 - Rust RFC, “[Trait-Based Exception Handling (wherein `catch` is akin to `try`)](https://github.com/rust-lang/rfcs/blob/master/text/0243-trait-based-exception-handling.md)”, February 2016
-
-- Kiura Magomadov, “[Addition to Go2 draft error handling](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027)", September 2018
 
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
 
