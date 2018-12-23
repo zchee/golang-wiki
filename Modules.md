@@ -1,6 +1,6 @@
 # Go 1.11 Modules
 
-Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.13. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
+Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.13. Even though the details may change, future releases will support modules defined using Go 1.11 or 1.12.
 
 The initial prototype (`vgo`) was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, support for versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main repository. Go 1.11 was released in August 2018.
 
