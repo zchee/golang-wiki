@@ -22,6 +22,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
    * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
    * [How to Prepare for a Release (All Versions)](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
    * [How to Prepare for a Release (v2 or Higher)](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher)
+* [Migrating to Modules](https://github.com/golang/go/wiki/Modules#migrating-to-modules)
 * [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
 * [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
@@ -147,15 +148,18 @@ Modules record precise dependency requirements and create reproducible builds.
 
 Most often, a version control repository contains exactly one module defined in the repository root. (Multiple modules are supported in a single repository, but typically that would result in more work on an on-going basis than a single module per repository).
 
+Summarizing the relationship between repositories, modules, and packages:
+* A repository contains one or more Go modules.
+* Each module contains one or more Go packages.
+* Each package consists of one or more Go source files in a single directory.
+
 Modules must be semantically versioned according to [semver](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0` or `v1.2.3`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Public and private module repositories and proxies are becoming available (see FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
 
 ### go.mod
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
 
-Each module contains one or more Go packages, and each package consists of one or more Go source files in a single directory.
-
-Most often, there is a single `go.mod` located in the repository root, but `go.mod` files can also be located elsewhere.
+Most often, there is a single go.mod located in the repository root, but go.mod files can also be located elsewhere.
 
 Here is an example `go.mod` file defining the module `github.com/my/thing`:
 
@@ -380,7 +384,7 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
 
-## Migration Considerations
+## Migrating to Modules
 
 This section attempts to briefly enumerate the major decisions to be made when migrating to modules as well as list other migration-related topics. References are generally provided to other sections for more details.
 
@@ -389,8 +393,8 @@ This material is primarily based on best practices that have emerged from the co
 Summary:
 
 * The modules system is designed to allow different packages in the overall Go ecosystem to opt in at different rates.
-* Packages that are already on version v2 or higher have additional migration considerations, primarily due to the implications of [Semantic Import versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning). 
-  * New packages and packages on v0 or v1 have substantially fewer considerations when adopting modules.
+* Packages that are already on version v2 or higher have more migration considerations, primarily due to the implications of [Semantic Import versioning](https://github.com/golang/go/wiki/Modules#semantic-import-versioning). 
+* New packages and packages on v0 or v1 have substantially fewer considerations when adopting modules.
 * Modules defined with Go 1.11 can be used by older Go versions (although the exact Go versions depends on the strategy used by the main module and its dependencies, as outlined below).
 
 Migration topics:
@@ -448,7 +452,7 @@ Migration topics:
 
 #### Strategies for Authors of Pre-Existing v2+ Packages
 
-For authors of pre-existing v2+ packages considering opting in to modules, one way to summarize the alternative approaches is as a choice between three top-level strategies . Each of the three top-level strategies then has follow-on decisions and variations (as outlined above). These alternative top-level strategies are:
+For authors of pre-existing v2+ packages considering opting in to modules, one way to summarize the alternative approaches is as a choice between three top-level strategies . Each choice then has follow-on decisions and variations (as outlined above). These alternative top-level strategies are:
 
 1. **Require clients to use Go versions 1.9.7+, 1.10.3+, or 1.11+**. 
 
