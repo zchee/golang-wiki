@@ -1,8 +1,8 @@
 # Go 1.11 Modules
 
-Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.12. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
+Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an [experimental](https://research.swtch.com/vgo-accepted) opt-in feature in Go 1.11, with the hope of incorporating feedback and finalizing the feature for Go 1.13. Even though the details may change, future releases will support modules defined using Go 1.11 or `vgo`.
 
-The recent work by the Go team on versioned modules started outside of the main Go repository with the `vgo` tool, but on July 12, 2018 support for versioned modules landed in the main repository ([announcement thread](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ)), and [Go 1.11 was released](https://groups.google.com/d/msg/golang-nuts/-yv9VlfsFCg/lPX_DUJnEQAJ) on August 24, 2018.
+The initial prototype (`vgo`) was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, support for versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main repository. Go 1.11 was released in August 2018.
 
 Please provide feedback on modules via [existing or new issues](https://github.com/golang/go/wiki/Modules#github-issues) and via [experience reports](https://github.com/golang/go/wiki/ExperienceReports).
 
@@ -141,9 +141,11 @@ These sections provide a high-level introduction to the main new concepts. For m
 
 ### Modules
 
-A *module* is a collection of related Go packages that are versioned together as a single unit. Most often, a single version-control repository corresponds exactly to a single module, but alternatively, a single version-control repository can hold multiple modules.
+A *module* is a collection of related Go packages that are versioned together as a single unit. 
 
 Modules record precise dependency requirements and create reproducible builds. 
+
+Most often, a version control repository contains exactly one module defined in the repository root. (Multiple modules are supported in a single repository, but typically that would result in more work on an on-going basis than a single module per repository).
 
 Modules must be semantically versioned according to [semver](https://semver.org/) in the form `v(major).(minor).(patch)`, such as  `v0.1.0` or `v1.2.3`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Public and private module repositories and proxies are becoming available (see FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
 
@@ -152,6 +154,8 @@ Modules must be semantically versioned according to [semver](https://semver.org/
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
 
 Each module contains one or more Go packages, and each package consists of one or more Go source files in a single directory.
+
+Most often, there is a single `go.mod` located in the repository root, but `go.mod` files can also be located elsewhere.
 
 Here is an example `go.mod` file defining the module `github.com/my/thing`:
 
