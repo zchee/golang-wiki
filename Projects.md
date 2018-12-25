@@ -85,6 +85,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Storage](#storage)
 * [Strings and Text](#strings-and-text)
 * [Testing](#testing)
+* [Transpiler](#transpiler)
 * [Unix](#unix)
 * [Unsorted](#unsorted-please-help)
 * [Validation](#validation)
@@ -1550,6 +1551,11 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [testflight](https://github.com/drewolson/testflight) - Painless http testing in Go
   * [Testify](https://github.com/stretchrcom/testify) - A set of packages that provide many tools for testifying that your code will behave as you intend.
   * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
+
+## Transpiler
+
+  * [c4go](https://github.com/Konstantin8105/c4go) - Transpiling C code to Go code.
+  * [f4go](https://github.com/Konstantin8105/f4go) - Transpiling Fortran code to Go code.
 
 ## Validation
 
