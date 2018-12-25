@@ -76,6 +76,8 @@ Critiques without counter-proposals
 
 - Aleksei Pavliukov, “[Use a function as a handle parameter](https://github.com/a5i/go-proposal/blob/master/use%20a%20function%20as%20a%20handle%20parameter.md)”, September 2018
 
+ - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
+
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
 ## Remove handler chaining
@@ -160,8 +162,6 @@ Critiques without counter-proposals
  - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
  - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
-
- - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
 - Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
 
