@@ -7,6 +7,11 @@ This page lists academic and industry research papers about Go or using Go as th
 
 ## 2018
 
+- Implementation and evaluation of secure and scalable anomaly-based network intrusion detection (P. Mieden)
+  - [pdf](https://www.researchgate.net/publication/329815346_Implementation_and_evaluation_of_secure_and_scalable_anomaly-based_network_intrusion_detection?_iepl%5BviewId%5D=l30CNV1Mc1vme3xnwNE1OT0J&_iepl%5Bcontexts%5D%5B0%5D=projectUpdatesLog&_iepl%5BtargetEntityId%5D=PB%3A329815346&_iepl%5BinteractionType%5D=publicationTitle)
+  - [code](https://github.com/dreadl0ck/netcap)
+  - [presentation](https://www.researchgate.net/publication/329815099_Bachelor_thesis_Presentation_Implementation_and_evaluation_of_secure_and_scalable_anomaly-based_network_intrusion_detection)
+
 - ProIO: An Event-Based I/O Stream Format for Protobuf Messages (D. Blyth, J. Alcaraz, S. Binet, S.V. Chekanov)
   - [arXiv:1812.03967](https://arxiv.org/abs/1812.03967)
   - [proio-org/go-proio](https://godoc.org/github.com/proio-org/go-proio)
@@ -361,4 +366,3 @@ Turing Scholars honors thesis
 ## 2010
 - GoHotDraw: Evaluating the Go Programming Language with Design Patterns (Schmager, Cameron, Noble)
   - [pdf](http://www.doc.ic.ac.uk/~ncameron/papers/schmager_plateau10.pdf)
-
