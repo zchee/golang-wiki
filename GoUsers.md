@@ -382,6 +382,7 @@
   * [353Solutions](http://353solutions.com) 
   * [Aqua Security](https://www.aquasec.com)
   * [BigPanda](http://bigpanda.io) 
+  * [Bringg](https://www.bringg.com)  
   * [Dragontail Systems](https://www.dragontailsystems.com) 
   * [Domino's Pizza](https://dominos.co.il) 
   * [Elastifile Ltd](http://elastifile.com) 
