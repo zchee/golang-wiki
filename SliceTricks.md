@@ -76,7 +76,7 @@ a = append(a[:i], append([]T{x}, a[i:]...)...)
 **NOTE** The second ` append ` creates a new slice with its own underlying storage and  copies elements in ` a[i:] ` to that slice, and these elements are then copied back to slice ` a ` (by the first ` append `). The creation of the new slice (and thus memory garbage) and the second copy can be avoided by using an alternative way:
 > **Insert**
 ```go
-s = append(s, 0)
+s = append(s, 0 /* use the zero value of the element type */)
 copy(s[i+1:], s[i:])
 s[i] = x
 ```
