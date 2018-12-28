@@ -64,6 +64,8 @@ Critiques without counter-proposals
 
 # Modest revisions
 
+ - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
+
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
 
 - Zlatko Bratkovic, "[In support with tiny change](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb)", October 2018
