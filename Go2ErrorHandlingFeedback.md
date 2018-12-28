@@ -29,8 +29,6 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
  - Tokyo Gophers, "[In support comments from Go 2 feedback event](https://docs.google.com/document/d/1yTDMP0E9hlJyLnKyr-6XL84RogiiwDnk0fMg9HDOKkc/edit#heading=h.f7ryl4573bu9)", October 2018
 
- - Jeffrey Koehler, "[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)", August 2018
-
  - Adam Bouhenguel "[In support of more declarative error handling](https://gist.github.com/ajbouh/716f8daba40199fe4d4d702704f3dfcc)", August 2018
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
@@ -79,6 +77,8 @@ Critiques without counter-proposals
 - Aleksei Pavliukov, “[Use a function as a handle parameter](https://github.com/a5i/go-proposal/blob/master/use%20a%20function%20as%20a%20handle%20parameter.md)”, September 2018
 
 - Savino Pio Liguori, "[Feedback for Go2 error handling design](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e)", August 2018
+
+ - Jeffrey Koehler, "[In support of Handle Chaining;  On Check](https://gist.github.com/deef0000dragon1/eb224ce4918d4ec3bdbaedf83a32aeb1)", August 2018
 
  - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
