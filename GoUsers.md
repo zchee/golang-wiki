@@ -395,6 +395,7 @@
   * [Firedome](https://firedome.io/) - [github](https://github.com/firedome)
   * [JobJob](http://JobJobapp.com)
   * [Make My Day](https://www.makemydayapp.com/)
+  * [Medtronic](https://www.medtronic.com/)
   * [Mathematic.ai](https://www.mathematic.ai)
   * [Nexar](https://www.getnexar.com/)
   * [Panoply](https://panoply.io­)
