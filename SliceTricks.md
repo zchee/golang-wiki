@@ -182,7 +182,10 @@ for i := 1; i < len(in); i++ {
 		continue
 	}
 	j++
-	in[i], in[j] = in[j], in[i]
+	// preserve the original data
+	// in[i], in[j] = in[j], in[i]
+	// only set what is required
+	in[j] = in[i]
 }
 result := in[:j+1]
 fmt.Println(result) // [1 2 3 4]
