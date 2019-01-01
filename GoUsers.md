@@ -403,6 +403,7 @@
   * [Protected Media](http://www.protected.media) 
   * [Rimoto](http://www.rimoto.com/)
   * [Rounds](http://www.rounds.com)
+  * [SentinelOne](https://www.sentinelone.com/)
   * [Stratoscale](http://www.stratoscale.com) - [github](https://github.com/Stratoscale)
   * [StreamRail](https://www.streamrail.com/)
   * [Surge Media](https://surge.media)
