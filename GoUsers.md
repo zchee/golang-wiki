@@ -365,7 +365,7 @@
 
 ## Iran
   * [Clickyab](https://clickyab.com/) - Clickyab is diffrent online advertising & digital media agency
-  * [Sazito](https://sazito.com/) - sazito is multi-functional tools to build and manage your online store.
+  * [Sazito](https://sazito.com/) - Sazito is multi-functional tools to build and manage your online store.
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
