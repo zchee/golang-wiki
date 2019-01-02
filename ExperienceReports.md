@@ -178,6 +178,7 @@ a complex solution for the problem.
   - Logmatic, “[Our Guide to a Golang Logs World](https://logmatic.io/blog/our-guide-to-a-golang-logs-world/),” March 2017.
   - Chris Hines, Peter Bourgon, “[Proposal: standard Logger interface](https://docs.google.com/document/d/1shW9DZJXOeGbG9Mr9Us9MiaPqmlcVatD_D8lrOXRNMU/edit?usp=drive_web),“ February 2017, problems related to stdlib logger, especially in the context of libraries, and one proposed solution.
   - Sindre Myren, "[There is nothing Goish about log.Fatal](https://medium.com/@smyrman/there-is-nothing-goish-about-log-fatal-4ab24ae5ba7)" August 2017, how poorly log.Fatal plays with defer, and a simple pattern for delaing with it in Go 1.x and Go 2.x.
+  -  Joonas Loppi, "[An idea to fix Go´s logging mess](https://joonas.fi/2018/12/04/an-idea-to-fix-gos-logging-mess/)" December 2017, just use *log.Logger as an interface everywhere and compose solutions around it.
 
 ## Misc / Multiple
   - Iman Tumorang, "[Trying Clean Architecture on Golang](https://hackernoon.com/golang-clean-archithecture-efd6d7c43047)" July 2017
