@@ -22,7 +22,7 @@ This page outlines the steps that need to be done to cretate a new subrepository
 	- In `cmd/godoc`, add the new repo to `xMap` map.
 		- See [an example CL](https://golang.org/cl/156337).
 	- Also send a backport CL into the current release-branch of x/tools, since this is what will be deployed.
-		- See an example CL (TODO).
+		- See [an example backport CL](https://golang.org/cl/156338).
 5. Redeploy all affected commands in the following order:
 	1. `cmd/gitmirror` first
 	2. `maintner/maintnerd` second
