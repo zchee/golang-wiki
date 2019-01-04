@@ -220,7 +220,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 
   - Sam Whited, “[Faking Enumeration Types with Consts and Unexported Types](https://gist.github.com/SamWhited/6cdbc49b4562e1a1b0526af523f5c5d7)”, July 2017, about attempting to ensure compile time correctness of values provided to an API using the type system.
   - Andreas Matuschek, "[Operator Methods](https://gist.github.com/maj-o/9cab355e3e5e4f6f66dbf0a8f24cd13a)", July 2017, just to remember that there are problems with types without corresponding operators ([#19770](https://github.com/golang/go/issues/19770)).
-  - Leigh McCulloch, "[Go Experience Report: Pointers](https://leighmcculloch.com/go-experience-reports/pointers.html)", July 2017, about pointers being used for both transferring ownership and indicating a lack of value.
+  - Leigh McCulloch, "[Go: Experience Report: Pointers](https://leighmcculloch.com/posts/go-experience-report-pointers/)", July 2017, about pointers being used for both transferring ownership and indicating a lack of value.
   - Jack Lindamood, "[Interface wrapping method erasure](https://medium.com/@cep21/interface-wrapping-method-erasure-c523b3549912)", July 2017, about the loss of information due to type wrappers
 - Sam Whited, “[The Case for interface{}](https://blog.samwhited.com/2017/08/the-case-for-interface/)”, Aug 2017, two examples of using interface and why one is bad (but necessary) and one is good.
 - James Frasché, "[Sum types experience report](https://gist.github.com/jimmyfrasche/ba2b709cdc390585ba8c43c989797325)", Aug 2017, issues caused by inability to restrict to a closed set of types
