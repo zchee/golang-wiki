@@ -40,6 +40,7 @@ Drivers for Go's sql package include:
   * **SQLite** (uses cgo): https://github.com/gwenn/gosqlite - Supports SQLite dynamic data typing
   * **SQLite** (uses cgo): https://github.com/mxk/go-sqlite
   * **SQLite**: (uses cgo): https://github.com/rsc/sqlite
+  * **SQL over REST**: https://github.com/adaptant-labs/go-sql-rest-driver
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
   * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
