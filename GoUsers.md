@@ -742,6 +742,7 @@
   * [Restorepoint](http://www.restorepoint.com)
   * [Ryanair](http://www.ryanair.com) - [source](https://youtu.be/CWCHT3GClMM?t=15m)
   * [Sainsbury's](http://www.sainsburys.co.uk)
+  * [Sky Betting & Gaming](https://www.skybetcareers.com)
   * [Songkick](https://www.songkick.com)
   * [StorageOS](http://storageos.com)
   * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
