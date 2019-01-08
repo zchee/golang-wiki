@@ -24,7 +24,6 @@
 
 ## Austria
   * [Digital City Solutions](http://www.digital-city.io/)
-  * [Gatherer](http://www.gathererapp.com/)
 
 ## Bangladesh
   * [AppsCode Ltd.](https://appscode.com) (BD subsidiary of AppsCode Inc.) - [facebook](https://www.facebook.com/appscodebd/), [github](https://github.com/appscode), [twitter](https://twitter.com/appscodehq)
