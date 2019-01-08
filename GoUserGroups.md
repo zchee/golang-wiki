@@ -103,6 +103,7 @@
   * [Münster Gophers](https://www.meetup.com/de-DE/Munster-Gophers/) - Münster, Germany
   * [Vienna.go - Vienna Go User Group](https://www.meetup.com/Vienna-go-Vienna-Go-User-Group/events/242583645/) - Vienna, Austria
   * [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/) - Sofia, Bulgaria 🇧🇬 
+  * [Go Oslo User Group](https://www.meetup.com/Go-Oslo-User-Group/) - Oslo, Norway
 
 # North America
 
