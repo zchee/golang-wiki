@@ -752,6 +752,7 @@
   * [Ernest.io](http://ernest.io)
   * [Landoop](https://www.landoop.com/) - [github](https://github.com/landoop), [blog](https://www.landoop.com/blog/)
   * [Gram Games](http://gram.gs/) 90% of the backend and internal tools implemented with Go. Using it in production since 2015.
+   * [WhatsOnChain](https://Whatsonchain.com) backend APIs
 
 ## United States
 
