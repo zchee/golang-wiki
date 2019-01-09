@@ -5,6 +5,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [EXLskills - A$AP Learn Go](https://exlskills.com/learn-en/courses/aap-learn-go-golang--learn_golang_asap) - Fast-paced free and open course for getting going with Go
   * [Learn Go in an Hour - Video](https://www.youtube.com/watch?v=CF9S4QZuV30) _2015-02-15_
   * [Learning to Program in Go](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6), a multi-part video training class.
+  * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) - An introduction to Go using a TDD approach.
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
   * [Ardan Labs Training](https://www.ardanlabs.com/) - Commercial, live instruction for Go programming.
   * [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video learning path for Go programming.
