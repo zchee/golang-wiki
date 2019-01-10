@@ -189,6 +189,7 @@ a complex solution for the problem.
 ## Modules
   - Paul Jolly - "[Creating a submodule within an existing module](https://gist.github.com/myitcv/79c3f12372e13b0cbbdf0411c8c46fd5)" - covers multi-module repos, cyclic module dependencies and the steps required to move between various "states"
   - Sam Whited -"[Mod file format](https://write.as/7un2fvf4124bm5s0.md)" - complaint about reinventing the serialization format wheel for mod files.
+  - Chi authors - [Github comment](https://github.com/go-chi/chi/pull/378#issuecomment-453274681) - comment on why the Chi authors won't implement Go Modules support yet (due to the import compatibility rule).
 
 ## Performance
 
