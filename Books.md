@@ -271,6 +271,18 @@ Sorted by publication date.
     * ISBN: 9781788622592
     * Reference: https://www.packtpub.com/application-development/hands-software-architecture-golang
 
+* **Hands-On Fundamentals of Data Science with Go (Video)**
+    * Author: Sanket Gupta
+    * Publication Date: December 2018
+    * ISBN: 9781789539103
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/hands-fundamentals-data-science-go-video
+
+* **Building RESTful APIs with Go (Video)**
+    * Author: Bartlomiej Walczak
+    * Publication Date: December 2018
+    * ISBN: 978178961499
+    * Reference: https://www.packtpub.com/application-development/building-restful-apis-go-vide
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
