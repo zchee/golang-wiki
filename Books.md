@@ -265,6 +265,12 @@ Sorted by publication date.
     * ISBN: 9781789132762
     * Reference: https://www.packtpub.com/application-development/hands-dependency-injection-go
 
+* **Hands-On Software Architecture with Golang**
+    * Author: Jyotiswarup Raiturkar
+    * Publication Date: December 2018
+    * ISBN: 9781788622592
+    * Reference: https://www.packtpub.com/application-development/hands-software-architecture-golang
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
