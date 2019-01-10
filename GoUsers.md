@@ -997,6 +997,7 @@
   * [Pantheon](https://pantheon.io/) - [blog](https://pantheon.io/blog/improving-performance-and-reliability-edge-golang-overhaul)
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Partner Fusion](http://www.partnerfusion.com)
+  * [PayPal.com](https://www.paypal.com) - [github](https://github.com/paypal)
   * [Percona](http://www.percona.com) - [blog](http://www.mysqlperformanceblog.com/2014/05/14/tips-benchmarking-go-mysql/)
   * [pet.io](http://pet.io)
   * [Pilosa](https://www.pilosa.com/) - [github](https://github.com/pilosa)
