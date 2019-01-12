@@ -67,7 +67,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
-- dotaheor, "[View generic as compile-time calls with multiple element outputs - v2](https://gist.github.com/dotaheor/c805d221ed86265d6e8bb4f16a714060)", January 2019. (Supporting the contract but not the generic part in draft.)
+- dotaheor, "[View generic as compile-time calls with multiple element outputs - v2](https://gist.github.com/dotaheor/c805d221ed86265d6e8bb4f16a714060)", January 2019. Now `import` output is supported. (This version supports the contract part but not the generic part in draft.)
 
 - Quentin Quaadgras, [No syntax changes, 1 new type, 1 new builtin](https://gist.github.com/Splizard/df4c34ffe100c624c55ddaf45ac7eeb6), December 2018
 
