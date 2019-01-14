@@ -181,7 +181,7 @@
   * [Vivino](https://www.vivino.com)
 
 ## Estonia
-  * [Wallester](https://wallester.eu)
+  * [Wallester](https://wallester.eu) - [github](https://github.com/wallester)
 
 ## Finland
   * [Alma Media](https://www.almamedia.fi/en/) - Media/Publishing company. [Twitter](https://twitter.com/almadevelopers) 
