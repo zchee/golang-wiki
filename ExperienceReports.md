@@ -190,6 +190,7 @@ a complex solution for the problem.
   - Paul Jolly - "[Creating a submodule within an existing module](https://gist.github.com/myitcv/79c3f12372e13b0cbbdf0411c8c46fd5)" - covers multi-module repos, cyclic module dependencies and the steps required to move between various "states"
   - Sam Whited -"[Mod file format](https://write.as/7un2fvf4124bm5s0.md)" - complaint about reinventing the serialization format wheel for mod files.
   - Chi authors - [Github comment](https://github.com/go-chi/chi/pull/378#issuecomment-453274681) - comment on why the Chi authors won't implement Go Modules support yet (due to the import compatibility rule).
+  - Sam Whited -"[Supporting Go Modules](https://blog.samwhited.com/2019/01/supporting-go-modules/)" - Things learned from upgrading 20 so modules. TL;DR — upgrading large modules past v1 is a huge pain and needs tooling, failure modes for modules are very complex and it's easy to screw up adding modules support to existing projects.
 
 ## Performance
 
