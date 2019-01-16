@@ -101,7 +101,7 @@ $ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' user-bradfi
 ### Subrepos on Windows
 
 ```
-$ tar -C ~/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
+$ tar -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
 $ gomote run -e 'GOPATH=c:/workdir/gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
 ```
 
