@@ -48,6 +48,10 @@ As a result, if (from your repository project) you import a package that is in t
 
 Even though the GOPATH may be a list of directories, it is generally sufficient to use a single GOPATH for all Go code on your machine.  Since all packages retrieved with "go get" have a unique URL (and thus a unique path on disk), having more than one GOPATH is almost never necessary when building with the Go tool.
 
+### Use of `vendor` directories
+
+Note that as of go 1.11, the `vendor` directories are only supported when `$PWD` is a subset of `GOPATH`; see issue 29670 and https://stackoverflow.com/questions/54140415/go-1-11-ignores-the-vendor-directory-the-errors-give-the-impression-the-direc/54156547#54156547.
+
 ## FAQ
 ### Why won't ` $GOPATH/src/cmd/mycmd/*.go ` build?
 When the go command is looking for packages, it always looks in ` $GOROOT ` first.  This includes directories, so if it finds (as in the case above) a ` cmd/ ` directory in ` $GOROOT ` it won't proceed to look in any of the GOPATH directories.  This prevents you from defining your own ` math/matrix ` package as well as your own ` cmd/mycmd ` commands.
