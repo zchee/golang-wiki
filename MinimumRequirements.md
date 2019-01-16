@@ -33,8 +33,8 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 ### [FreeBSD](FreeBSD)
 
-FreeBSD 10 or higher, but FreeBSD 12-CURRENT is [not supported](https://github.com/golang/go/issues/22447).
-We only run builders testing FreeBSD 10.3 and 11.1.
+FreeBSD 10 or higher.
+We only run builders testing FreeBSD 10.4, 11.1 and 12.0.
 
 ### [NetBSD](NetBSD)
 
