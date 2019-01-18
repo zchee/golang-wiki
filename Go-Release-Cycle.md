@@ -1,5 +1,5 @@
 This wiki page is maintained by the Go team.
-Please [send comments to golang-dev](TODO://LINK)
+Please [send comments to golang-dev](https://groups.google.com/group/golang-dev)
 or [file issues](https://golang.org/issue) instead of making changes directly.
 
 Short link: https://golang.org/s/release.
@@ -33,7 +33,7 @@ We avoid Mondays to give the Go team a work day before to prepare for the cut,
 and we avoid Fridays to give the Go team a work day after in case the cut runs
 into unexpected problems.
 
-![](images/release-cycle.png)
+<img src="https://github.com/tkivisik/less-astonishing/blob/master/go-release-cycle.png" width="80%" height="80%" />
 
 #### January 15 / July 15: Planning for release begins.
 
