@@ -23,6 +23,10 @@ Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2
 
 ## Frequently Asked Questions
 
+### How does GerritBot determine the final commit message?
+
+It uses the title and description of the PR to construct the commit message for the Gerrit Change.
+
 ### Why is GerritBot the owner of my change?
 
 This is due to an [open bug](https://bugs.chromium.org/p/gerrit/issues/detail?id=8296) with the way Gerrit handles acting as another user. Once that is fixed, the original author will also be the owner of the change.
@@ -30,10 +34,6 @@ This is due to an [open bug](https://bugs.chromium.org/p/gerrit/issues/detail?id
 ### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
 
 You can upload as many commits as you like. GerritBot will handle squashing your commits into one change that Gerrit can handle.
-
-### How does GerritBot determine the final commit message?
-
-It uses the title and description of the PR to construct the commit message for the Gerrit Change.
 
 ### I need a Google account to sign up for Gerrit? Why can't I sign in using my GitHub account?
 
