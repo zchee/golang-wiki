@@ -1,5 +1,5 @@
 This wiki page is maintained by the Go team.
-Please [send comments to golang-dev](TODO://LINK)
+Please [send comments to golang-dev](https://groups.google.com/group/golang-dev)
 or [file issues](https://golang.org/issue) instead of making changes directly.
 
 Short link: https://golang.org/s/release.
