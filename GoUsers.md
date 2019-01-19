@@ -285,6 +285,7 @@
   * [Kayako](http://www.kayako.com/)
   * [LiteBreeze](https://litebreeze.com/)
   * [Mindbowser](http://mindbowser.com/)
+  * [Nazara Games](https://www.nazara.com/)
   * [Noticeboard](https://www.noticeboard.tech/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Propebbles](http://www.propebbles.com/)
