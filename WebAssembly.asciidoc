@@ -201,10 +201,6 @@ The solution is to upgrade to Go 1.11.2 or later.
 ** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
 ** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy] - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
 ** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
-* https://justinclift.github.io/wasmGraph1/[Drawing simple 3D objects on the 2D canvas]
-  (https://github.com/justinclift/wasmGraph1/[source code])
-** Displays wireframe solids on the 2d canvas, using basic matrix maths.  Use the
-   wasd/keypad keys to rotate.
 * https://github.com/djhworld/gomeboycolor-wasm[Gomeboycolor-wasm]
 ** WASM port of an experimental Gameboy Color emulator.  The https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/[matching blog post]
   contains some interesting technical insights.
