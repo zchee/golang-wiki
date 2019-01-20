@@ -6,7 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon India 2019 | 2019-01-18 | Goa, India | https://gopherconindia.com/ |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/ |
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
@@ -28,6 +27,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon India 2019 | 2019-01-18-19 | Goa, India | https://gopherconindia.com/ |
+| | **2018** | | | |
 | GopherCon Vietnam 2018 | 2018-12-08 | Ho Chi Minh City, Vietnam | http://gophercon.vn |
 | GoCon Tokyo | 2018-11-25 | Tokyo, Japan | https://gocon.connpass.com/event/109368/ |
 | GoGoConf | 2018-10-25 | Krakow, Poland | https://www.gogoconf.rocks |
