@@ -18,6 +18,7 @@ Drivers for Go's sql package include:
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2 LUW** and **DB2/Z with DB2-Connect**: https://bitbucket.org/phiggins/db2cli (Last updated 2015-08)
   * **DB2 LUW** (uses cgo): https://github.com/asifjalil/cli
+  * **DB2 LUW, z/OS, iSeries and Informix**: https://github.com/ibmdb/go_ibm_db
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **MS ADODB**: https://github.com/mattn/go-adodb
   * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
