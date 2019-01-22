@@ -312,11 +312,10 @@
   * [ZopSmart](https://zopsmart.com/)
 
 ## Indonesia
-  * [Jayawan](https://jayawan.com/)
+  * [Jayawan](https://jayawan.com)
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bhinneka](http://www.bhinneka.com/)
-  * [Bildeco](https://bildeco.com)
   * [Brankas](https://brank.as)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
@@ -325,6 +324,7 @@
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
   * [GO-JEK](https://www.go-jek.com)
+  * [Pasang Baja Ringan](https://jayawan.com/rangka-atap-baja-ringan)
   * [Graboards](https://graboards.com/)
   * [Guteninc](http://guteninc.com)
   * [Halodoc](https://www.halodoc.com)
