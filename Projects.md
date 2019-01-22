@@ -10,7 +10,7 @@ These sites provide indexes and search engines for Go packages:
   * [gopm.io](http://gopm.io/) - Download Go packages by version
   * [go-search](http://go-search.org/) - Search engine dedicated to Go projects and source.
   * [gowalker](http://gowalker.org/) - API documentation generator and search.
-  * [Golang Data Science](http://www.mjhall.org/golang-data-science-libraries/) - Curated list of data science libraries for Go.
+  * [Golang Data Science `Not Working`](http://www.mjhall.org/golang-data-science-libraries/) - Curated list of data science libraries for Go.
   * [Go Report Card](http://goreportcard.com/) - Code quality summaries for any Go project.
   * [Sourcegraph](https://sourcegraph.com/) - Source indexing, analysis and search.
 
