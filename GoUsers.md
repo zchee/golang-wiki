@@ -312,6 +312,7 @@
   * [ZopSmart](https://zopsmart.com/)
 
 ## Indonesia
+  * [Jayawan](https://jayawan.com/)
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bhinneka](http://www.bhinneka.com/)
