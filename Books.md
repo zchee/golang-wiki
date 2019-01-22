@@ -688,6 +688,12 @@ Sorted by publication date.
     * ISBN: 978-83-283-2467-1
     * Reference: https://helion.pl/ksiazki/jezyk-go-poznaj-i-programuj-alan-a-a-donovan-brian-w-kernighan,jgopop.htm
 
+# Persian
+  * **Go Succinctly**
+    * Author: Amir Irani
+    * Publication Date: 10 Jun 2018
+    * ISBN: ---
+    * Repository: https://github.com/thedevsir/gosuccinctly
 
 # Looking for contributors
 
