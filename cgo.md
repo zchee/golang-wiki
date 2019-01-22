@@ -280,7 +280,7 @@ import "unsafe"
 ...
         var theCArray *C.YourType = C.getTheArray()
         length := C.getTheArrayLength()
-        slice := (*[1 << 30]C.YourType)(unsafe.Pointer(theCArray))[:length:length]
+        slice := (*[1 << 28]C.YourType)(unsafe.Pointer(theCArray))[:length:length]
 ```
 
 It is important to keep in mind that the Go garbage collector will not interact with this data, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
