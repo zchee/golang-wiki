@@ -14,7 +14,7 @@ for k, v := range myMap {
 }
 
 for v := range myChannel {
-	log.Printf("key=%v", v)
+	log.Printf("value=%v", v)
 }
 
 for i, v := range myArray {
