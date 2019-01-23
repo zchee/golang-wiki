@@ -147,7 +147,7 @@ is in development.
 
 # Editor configuration
 
-* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand
+* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand and Intellij Ultimate for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
 
 
 # WebAssembly in Chrome
