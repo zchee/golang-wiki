@@ -23,7 +23,7 @@ Table of Contents
 + [Release Specific Information](#release-specific-information)
 + [Questions](Questions)
 
-## Getting started with Go
+## Getting started with GO
 
   - [The Go Tour](http://tour.golang.org) is the best place to start.
   - [Effective Go](https://golang.org/doc/effective_go.html) will help you learn how to write idiomatic Go code.
