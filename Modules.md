@@ -11,6 +11,8 @@ Please provide feedback on modules via [existing or new issues](https://github.c
 The "Quick Start" and "New Concepts" sections are particularly important for someone who is starting to work with modules. The "How to..." sections cover more details on mechanics. The largest quantity of content on this page is in the FAQs answering more specific questions; it can be worthwhile to at least skim the FAQ one-liners listed here.
  
 * [Quick Start](https://github.com/golang/go/wiki/Modules#quick-start)
+   * [Example](https://github.com/golang/go/wiki/Modules#example)
+   * [Daily Workflow](https://github.com/golang/go/wiki/Modules#daily-workflow)
 * [New Concepts](https://github.com/golang/go/wiki/Modules#new-concepts)
    * [Modules](https://github.com/golang/go/wiki/Modules#modules)
    * [go.mod](https://github.com/golang/go/wiki/Modules#gomod)
@@ -68,6 +70,8 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
 
 ## Quick Start
 
+#### Example
+
 The details are covered in the remainder of this page, but here is a simple example of creating a module from scratch.
 
 Create a directory outside of your GOPATH:
@@ -116,7 +120,9 @@ module github.com/you/hello
 require rsc.io/quote v1.5.2
 ```
 
-Note there was no `go get` required. 
+#### Daily Workflow
+
+Note there was no `go get` required in the example above. 
 
 Your typical day-to-day workflow can be:
 
