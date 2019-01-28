@@ -60,6 +60,46 @@ Critiques without counter-proposals
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 
+# Recurring themes
+
+Concepts that appear repeatedly among the suggestions below.
+
+- Invoke handler via assignment, e.g. `v, ? := f()`  
+  references:
+  [1](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb),
+  [2](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c),
+  [3](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md),
+  [4](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b),
+  [5](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e),
+  [6](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7),
+  [7](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1),
+  [8](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67),
+  [9](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
+  [10](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
+  [11](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
+  [12](https://github.com/golang/go/issues/27519)
+
+- Invoke one of several handlers by name, e.g. `v, ?name := f()`  
+  references:
+  [1](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
+  [2](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959),
+  [3](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67),
+  [4](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b),
+  [5](https://gist.github.com/PeterRK/4f59579c1162cdbc28086f6b5f7b4fa2),
+  [6](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6),
+  [7](https://github.com/alnkapa/Go2ErrorHandlingFeedback/blob/master/README.md),
+  [8](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4),
+  [9](https://gist.github.com/gregwebs/02479eeef8082cd199d9e6461cd1dab3),
+  [10](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
+  [11](https://gist.github.com/spakin/86ea86ca48aefc78b672636914f4fc23),
+  [12](https://gist.github.com/morikuni/bbe4b2b0384507b42e6a79d4eca5fc61),
+  [13](http://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html),
+  [14](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1),
+  [15](https://medium.com/@marode/the-return-of-the-return-278b8ae261ab),
+  [16](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7),
+  [17](https://github.com/golang/go/issues/27519)
+
+
 # Modest revisions
 
  - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
