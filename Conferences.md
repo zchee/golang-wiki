@@ -11,6 +11,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/ |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
+| CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | https://2019.codefest.ru/speakers/en/ |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>CFP https://goo.gl/forms/xIx90HnIqvAiowZz1 |
 | GoCon Canada | 2019-05-31 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/goconca |
