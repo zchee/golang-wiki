@@ -9,7 +9,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/ |
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
-| OpenGo 2019 | 2019-03-18 | Miami, FL | https://opengo.io/ |
+| OpenGo 2019 | 2019-09-23 - 25 | Hollywood, FL | https://opengo.io/ |
 | dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
 | CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | https://2019.codefest.ru/speakers/en/ |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
