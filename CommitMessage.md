@@ -24,6 +24,7 @@ For the body (the rest of the description):
 * the Fixes/Updates line goes after the body with a blank newline separating the two
 * there is **no** Markdown in the commit message
 * we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
+* when referencing CLs, prefer saying "CL nnn" or using a golang.org/cl/nnn shortlink over a direct Gerrit URL, since that's more future-proof.
 
 If it's not a complete fix and more is coming, use:
 
