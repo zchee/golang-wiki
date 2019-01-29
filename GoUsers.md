@@ -118,7 +118,7 @@
   * [Index Exchange](https://www.indexexchange.com) - [jobs](https://www.indexexchange.com/careers/)
   * [Kira Systems](https://kirasystems.com/) — [jobs](https://kirasystems.com/careers/)
   * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
-  * [Koho](https://www.koho.ca/)
+  * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
