@@ -97,6 +97,7 @@
 
 ## Belarus
   * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
+  * [iTechArt](https://www.itechart.com/)
 
 ## Belgium
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
