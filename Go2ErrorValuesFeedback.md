@@ -30,6 +30,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 - Chris Siebenmann, "[Error inspection improves current annoyances but may not go far enough](https://utcc.utoronto.ca/~cks/space/blog/programming/Go2ErrorInspectionViews)", September 2018
  - Paul Meyer, “[errors.New?]( - _Your Name_, “[_Title_](#URL)”, August 2018
  - Vojtech Vitek "[adopt Cause and Wrap from github.com/pkg/errors](https://golang.org/issue/25675)", May 2018
+ - Andrew Wilkins "[Programmatic Frame inspection](https://gist.github.com/axw/247b6f69d2da016bb21a5eb1be44e611)", January 2019
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
