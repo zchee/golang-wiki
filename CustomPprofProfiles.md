@@ -2,7 +2,7 @@ Originally published at https://rakyll.org/custom-profiles/.
 
 ----
 
-Go provides several pprof profiles out of thet box to gather
+Go provides several pprof profiles out of the box to gather
 profiling data from Go programs.
 
 The builtin profiles provided by the [runtime/pprof](https://golang.org/pkg/runtime/pprof/) package:
@@ -79,7 +79,7 @@ func main() {
 			}
 			defer b.Close()
 
-			// TODO: Perform some wrork, write to the blob.
+			// TODO: Perform some work, write to the blob.
 		}()
 	}
 	http.ListenAndServe("localhost:8888", nil)
