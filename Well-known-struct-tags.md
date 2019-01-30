@@ -38,3 +38,4 @@ bson      | https://godoc.org/labix.org/v2/mgo/bson
 gorm      | https://godoc.org/github.com/jinzhu/gorm
 yaml      | https://godoc.org/gopkg.in/yaml.v2
 validate  | https://github.com/go-playground/validator
+mapstructure | https://godoc.org/github.com/mitchellh/mapstructure
