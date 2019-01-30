@@ -5,6 +5,7 @@ There are some other options for Debian based systems like Ubuntu.  These packag
 Try:
 
 ```
+$ sudo apt-get update
 $ sudo apt-get install golang-go
 ```
 
