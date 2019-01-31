@@ -45,6 +45,8 @@ git codereview mail
 
 Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
+At this time, it's not possible to make a cherry-pick CL by sending a [[Pull Request|GerritBot]]. Only Gerrit is supported. See [golang.org/issue/30037](https://golang.org/issue/30037).
+
 ## Security releases
 
 Security releases preempt the next minor release and need to ship only the security fix.
