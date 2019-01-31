@@ -243,4 +243,4 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 
 ## Vendoring
   - Jeremy Loy, "[Go Modules and Vendoring](https://github.com/golang/go/issues/27227#issuecomment-420428896)", September 2018.
-  - Ian Davis, "[Vendoring for self-contained builds](https://github.com/golang/go/issues/27227#issuecomment-459171581)"
+  - Ian Davis, "[Vendoring for self-contained builds](https://github.com/golang/go/issues/27227#issuecomment-459171581)", January 2019
