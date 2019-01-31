@@ -15,7 +15,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/<br>CFP https://goo.gl/forms/xIx90HnIqvAiowZz1 |
 | GoCon Canada | 2019-05-31 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/goconca |
-| GopherCon EU | 2019 TBD | TBD | TBD |
+| GopherCon EU | 2019-06-01-05-30 | Tenerife, Canary Islands, Spain | https://www.eventbrite.co.uk/e/gophercon-eu-2019-canary-islands-tickets-55633196388 |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ <br> CFP http://papercall.io/gophercon-2019 |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GoLab 2019 | 2019-10-21-22 | Florence, Italy | https://golab.io |
