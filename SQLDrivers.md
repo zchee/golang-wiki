@@ -43,6 +43,7 @@ Drivers for Go's sql package include:
   * **SQLite**: (uses cgo): https://github.com/rsc/sqlite
   * **SQL over REST**: https://github.com/adaptant-labs/go-sql-rest-driver
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
+  * **Sybase ASE** (pure go): https://github.com/thda/tds
   * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
 
