@@ -57,7 +57,7 @@ Please keep all items in reverse chronological order (most recent first)
 | GothamGo | 2017-10-05-06 | New York, USA | http://gothamgo.com/ |
 | Golang UK | 2017-08-16-18 | London, UK | https://golanguk.com |
 | GopherCon Denver | 2017-07-12-15 | Denver, CO | http://gophercon.com |
-| GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | http://gophercon.sg |
+| GopherCon Singapore 2017 | 2017-05-25-26 | Singapore | https://2017.gophercon.sg |
 | Capital Go Language Conference | 2017-04-24-25 | Washington, DC | http://www.capitalgolang.com/ |
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | GoCon Tokyo | 2017-03-25 | Tokyo, Japan |https://gocon.connpass.com/event/52441/ |
