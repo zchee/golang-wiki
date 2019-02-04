@@ -10,6 +10,7 @@ We currently (correct as of Nov 2018) hold fortnightly catch-up calls. These cal
 
 See the mailing list for announcements of the next call and notes from the previous call.
 
+* [2019-01-29 Meeting notes](https://docs.google.com/document/d/1pBKM4GqeBRfas7-RCHPuP-eVz4AfjKInAkKnPS-UkTA/edit?usp=sharing)
 * [2018-12-11 Meeting notes](https://docs.google.com/document/d/1HbjhgorPAUHb6035Uk3vA-EUOyn4TYMND_HT-zc7ecw/edit)
 * [2018-11-27 Meeting notes](https://docs.google.com/document/d/1zP2nKVHolqBoTVOsyKWo5b0o7vimJvhqQ9Ucp8rnrKA/edit)
 * [2018-11-06 Meeting Notes](https://docs.google.com/document/d/1rXFrs046jTkVs0fTnQ-ItakV2zKCSxqwV4bfJ6DJWB4/edit)
