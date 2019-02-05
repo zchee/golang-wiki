@@ -1,10 +1,11 @@
 # Introduction
-## EDIT: You dont need to compile from source in dev mode, you can just use the version in crew. Also you can use the crostini shell which is rolling out to many devices.
+## EDIT: You dont need to compile from source in dev mode, you can just use the version in crew. Also you can use the crostini shell which is rolling out to many devices. 
+## EDIT2: If your Chromebook is relatively new, you can enable the Linux VM now built into ChromeOS to install Go. Follow the steps from the following Google Support article to enable this feature- https://support.google.com/chromebook/answer/9145439. This has been tested on a Samsung Chromebook Plus on version 71.0.3578.127. If this feature is not available for you, you will need to enable Dev Mode.
 
 This tutorial will show you how to install/build/run go on chrome OS. I have tested this using a Chromebook Pixel, however I do not have any other types of Chromebooks. However, this should work as long as you install the corresponding Linux package for your processor.
 
 # Requirements
-Your Chromebook must be in developer mode for this to work. Also please note this has only been tested on a 64gb LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
+Also please note this has only been tested on a 64gb LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
 
 # Install Go
 First download the latest version of Go for Linux-amd64 from the [Go Downloads page](http://golang.org/dl/) after that open a shell by hitting (Crtl+alt+t) and typing in "shell" then hit enter. Then extract it using the following command.
