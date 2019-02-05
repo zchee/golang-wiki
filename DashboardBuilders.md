@@ -18,17 +18,6 @@ For design details about the coordinator, see https://golang.org/s/builderplan
   1. Add a builder type to https://github.com/golang/build/blob/master/dashboard/builders.go (see the `addBuilder` lines). Run tests. Send the CL.
   1. Have golang-dev deploy it.
 
-## Old-style builders
-
-Older-style builders are listed below. These builders are configured and run manually. The bug https://github.com/golang/go/issues/21191 tracks migrating the remaining ones over to the new system.
-
-| **title** | **description** | **owner** | **notes** |
-|:----------|:----------------|:----------|:----------|
-| nacl-arm-cheney | Raspberry Pi 3 | @davecheney |           |
-| openbsd-arm | SolidRun CuBox-i4Pro, ARM Cortex A9 R2 792 MHz, 2GB RAM | @4a6f656c - Joel Sing |           |
-| plan9-arm | Raspberry Pi 3 Model B | @0intro - David du Colombier | Plan 9 from Bell Labs |
-| plan9-amd64-9front | VM | @0intro - David du Colombier | 9front |
-
 # Builder Requirements
   * internet connection (at least be able to access Google and https://build.golang.org)
   * preferably with two or more (V)CPUs, as at least one test (` sync/atomic ` requires ` runtime.NumCPU() > 1 ` to test more completely)
