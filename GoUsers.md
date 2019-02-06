@@ -369,6 +369,7 @@
   * [eSITE](https://esite-iq.com/)
 
 ## Iran
+  * [Emji](https://emji.app/) - Emji is a new refined social networking platform aimed at simplicity and connectivity
   * [Clickyab](https://clickyab.com/) - Clickyab is diffrent online advertising & digital media agency
   * [Sazito](https://sazito.com/) - Sazito is multi-functional tools to build and manage your online store.
   * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
