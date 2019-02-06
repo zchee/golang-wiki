@@ -12,6 +12,8 @@ For asking questions, see:
 
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/go) with questions tagged "go"
 
+* [Go Community on Hashnode](https://hashnode.com/n/go) with questions and posts tagged with "go"
+
 * **IRC** channel #go-nuts on Freenode
 
 If we closed your issue as a question with a link to this wiki, we apologize. Please ask the question on one of the above forums.
