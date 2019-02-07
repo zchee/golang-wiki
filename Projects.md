@@ -1545,7 +1545,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [mspec](https://github.com/eduncan911/mspec) - BDD framework that frees you to Stub and Spec your code first with natural BDD language.
   * [muxy](https://github.com/mefellows/muxy) - Simulating real-world distributed system failures.
   * [Pegomock](https://github.com/petergtz/pegomock) - a mocking framework based on [golang/mock](https://github.com/golang/mock), but uses a DSL closely related to [Mockito](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html).
-  * [rapid](https://github.com/flyingmutant/rapid) - A library for property-based testing in Go.
+  * [rapid](https://github.com/flyingmutant/rapid) - property-based testing library with integrated shrinking
   * [terst](https://github.com/robertkrimen/terst) - A terse, easy-to-use testing library for Go
   * [test2doc](https://code.google.com/p/test2doc/) - Generate documentation for your go units from your unit tests.
   * [testfixtures](https://github.com/go-testfixtures/testfixtures) - Rails' like test fixtures for testing database driven apps.
