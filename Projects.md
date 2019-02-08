@@ -105,6 +105,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Build Tools
 
+  * [beku](https://github.com/shuLhan/beku) - A library and program to manage packages in user's environment (GOPATH or vendor directory)
   * [colorgo](https://github.com/songgao/colorgo) - Colorize go build output
   * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart)
   * [fileembed-go](https://bitbucket.org/rj/fileembed-go/) - This is a command-line utility to take a number of source files, and embed them into a Go package
@@ -949,6 +950,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-logging](https://github.com/op/go-logging) - Supports different logging backends like syslog, file and memory. Multiple backends can be utilized with different log levels per backend and logger.
   * [gomol](https://www.github.com/aphistic/gomol) - A multi-output logging library designed for outputs that support additional metadata with log messages.
   * [graylog-golang](https://github.com/robertkowalski/graylog-golang) - graylog-golang is a full implementation for sending messages in GELF (Graylog Extended Log Format) from Google Go (Golang) to Graylog
+  * [haminer](https://github.com/shuLhan/haminer) - Library and program to parse and forward HAProxy logs
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
   * [immortal](https://immortal.run) - A *nix cross-platform (OS agnostic) supervisor
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
@@ -1158,6 +1160,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Networking
 
 ### DNS
+
   * [bitz](https://github.com/nictuku/bitz) - BitMessage client node and library
   * [dingo](https://github.com/pforemski/dingo) - A DNS client in Go that supports Google DNS over HTTPS
   * [dns](https://github.com/miekg/dns) - A DNS library in Go
@@ -1165,11 +1168,13 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [dyndnscd](https://github.com/akrennmair/dyndnscd) - a configurable dyndns client
   * [GeoDNS](https://github.com/abh/geodns) - geo-aware authoritative DNS server
   * [grong](https://github.com/bortzmeyer/grong) - Small authoritative DNS name server
+  * [lib/dns](https://godoc.org/github.com/shuLhan/share/lib/dns) - The DNS library for client or server with support UDP, TCP, and DNS over HTTPS
   * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
   * [hostsfile](https://github.com/jaytaylor/go-hostsfile) - /etc/hostsfile reverse lookup IP => names
   * [dnss](https://github.com/albertito/dnss) - DNS secure proxy, supports DNS over HTTPS and GRPC
   * [domainerator](https://github.com/hgfischer/domainerator) - Command line tool to combine wordlist and suffixes/TLDs into domain names and check if they are registered or not.
   * [dns](https://github.com/benburkert/dns) - client and server implementations in Go
+  * [rescached](https://github.com/shuLhan/rescached-go/) - DNS resolver cache daemon
 
 ### FTP
   * [ftp4go](http://code.google.com/p/ftp4go/) - An FTP client for Go, started as a port of the standard Python FTP client library
@@ -1233,6 +1238,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [glibvnc](https://github.com/LukeMauldin/glibvnc) - Go wrapper using CGO for the libvnc library.
 
 ### Websockets
+  * [lib/websocket](https://godoc.org/github.com/shuLhan/share/lib/websocket) - A library for writing websocket client and server (using epoll)
   * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
   * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
   * [wst](https://github.com/jthestupidkid/wst) - A dead simple WebSocket tester
