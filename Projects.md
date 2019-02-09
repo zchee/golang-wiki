@@ -1603,7 +1603,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [v8](https://github.com/augustoroman/v8) - V8 JavaScript engine bindings for Go (supports V8 builds at least up to 5.8.244)
   * [go-v8](https://github.com/lazytiger/go-v8) - V8 JavaScript engine bindings for Go
   * [LispEx](https://github.com/kedebug/LispEx) - A dialect of Lisp extended to support for concurrent programming, written in Go.
-  * [meme](http://bitbucket.org/anacrolix/meme) - Scheme interpreter in Go
   * [Minima](https://github.com/opesun/minima) - A language implemented in Go
   * [ngaro](http://www.anarchyinthetubes.com/hg/go/ngaro) - A ngaro virtual machine to run retroForth images
   * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
