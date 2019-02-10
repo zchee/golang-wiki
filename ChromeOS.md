@@ -7,13 +7,13 @@ Please note this has only been tested on a 64GB LTE Pixel, however it should wor
 
 # Install Go
 First download the latest version of Go for Linux from the [Go Downloads page](http://golang.org/dl/).
-After that, open a shell by hitting (CTRL+ALT+T) and typing in "shell" then hit enter. Then extract it using the following command (when replacing `< Go Linux package >` with the name of the file you downloaded):
+After that, open a shell by hitting (CTRL+ALT+T) and typing in `shell` then hit enter. Then extract it using the following command (when replacing `< Go Linux package >` with the name of the file you downloaded):
 
 ```
 sudo tar xpvf ~/Downloads/< Go Linux package > -C /usr/local
 ```
 
-Go should now be installed you can test this by typing "/usr/local/go/bin/go". If it installed correctly, you should see the Go help prompt. Go is now installed.
+Go should now be installed you can test this by typing `/usr/local/go/bin/go`. If it installed correctly, you should see the Go help prompt. Go is now installed.
 
 # Create a Workspace
 To keep this simple just create a folder called `/usr/local/go/work`. Also, create a folder called `src` inside `/usr/local/go`.
@@ -37,7 +37,7 @@ func main() {
 	fmt.Printf("Hello, Chrome OS!\n")
 }
 ```
-Now, run `go install hello`. Then, run `hello` and you should see `Hello, Chrome OS!`.
+Now, run `go install hello`. Then, run `${GOPATH}/bin/hello` and you should see `Hello, Chrome OS!`.
 ***
 
 # Reporting bugs
