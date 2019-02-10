@@ -1,42 +1,44 @@
 # Introduction
-## EDIT: You dont need to compile from source in dev mode, you can just use the version in crew. Also you can use the crostini shell which is rolling out to many devices. 
-## EDIT2: If your Chromebook is relatively new, you can enable the Linux VM now built into ChromeOS to install Go. Follow the steps from the following Google Support article to enable this feature- https://support.google.com/chromebook/answer/9145439. This has been tested on a Samsung Chromebook Plus on version 71.0.3578.127. If this feature is not available for you, you will need to enable Dev Mode.
+## EDIT: You don't need to compile from source in Developer mode mode, you can just use the [Chromebrew](https://github.com/skycocker/chromebrew)-provided version.
+## EDIT2: If your Chromebook is relatively new, you can enable the Linux VM now built into ChromeOS to install Go without developer mode. Follow the steps from the following Google Support article to enable this feature- https://support.google.com/chromebook/answer/9145439. This has been tested on a Samsung Chromebook Plus on version 71.0.3578.127. If this feature is not available for you, you will need to enable Developer Mode.
 
-This tutorial will show you how to install/build/run go on chrome OS. I have tested this using a Chromebook Pixel, however I do not have any other types of Chromebooks. However, this should work as long as you install the corresponding Linux package for your processor.
-
-# Requirements
-Also please note this has only been tested on a 64gb LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
+This tutorial will show you how to install, build, and run Go on Chrome OS.
+Please note this has only been tested on a 64GB LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
 
 # Install Go
-First download the latest version of Go for Linux-amd64 from the [Go Downloads page](http://golang.org/dl/) after that open a shell by hitting (Crtl+alt+t) and typing in "shell" then hit enter. Then extract it using the following command.
+First download the latest version of Go for Linux from the [Go Downloads page](http://golang.org/dl/).
+After that, open a shell by hitting (CTRL+ALT+T) and typing in "shell" then hit enter. Then extract it using the following command (when replacing `< Go Linux package >` with the name of the file you downloaded):
 
 ```
-sudo tar -C /usr/local -xzf ~/Downloads/FILENAMEHERE
+sudo tar xpvf ~/Downloads/< Go Linux package > -C /usr/local
 ```
 
-Go should now be installed you can test this by typing "/usr/local/go/bin/go" if it installed you should see the go help prompt. Congrats Go is now installed however you will not be able to run anything because chrome mounts partitions with noexec. The following will guide you through remounting your home folder, and setting up paths that are persistent across reboots, and shell sessions.
+Go should now be installed you can test this by typing "/usr/local/go/bin/go". If it installed correctly, you should see the Go help prompt. Go is now installed.
 
 # Create a Workspace
-To keep this simple just create a folder called "gocode" in your downloads folder. Also create a folder called "src" inside.
+To keep this simple just create a folder called `/usr/local/go/work`. Also, create a folder called `src` inside `/usr/local/go`.
 
-# Set Paths & Exec
-Either type the following into your shell each session or if you want it to be persistent between sessions add it to your "~/.bashrc" file. The last line remounts your user folder so that you can run your go code other wise you would get permission errors.
+# Set PATH
+Add the following to `~/.bashrc`:
 ```
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=~/Downloads/go
-export PATH=$PATH:$GOPATH/bin
-sudo mount -i -o remount,exec /home/chronos/user/
+export GOPATH="/usr/local/go/work"
+export PATH="${PATH}:/usr/local/go/bin:${GOPATH}/bin"
 ```
-This will allow you to run your go object files in your shell.
+This will allow you to run your Go programs in your shell.
 
-# Test If It Worked
-First add a "hello" folder inside of your "gocode/src" folder. After that create a file in your "gocode/src/hello" folder called "hello.go" with the following in it. Then run "go install hello" then "hello" and you should see "Hello, chrome os" in the console.
+# Test if it worked
+First create a folder inside of your `/usr/local/go/src` folder. After that create a file in your folder called `hello.go` with the following in it:
 ```go
 package main
 
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, chrome os\n")
+	fmt.Printf("Hello, Chrome OS!\n")
 }
 ```
+Now, run `go install hello`. Then, run `hello` and you should see `Hello, Chrome OS!`.
+***
+
+# Reporting bugs
+Please go to [Issues](https://github.com/golang/go/issues) to report any issues you have.
