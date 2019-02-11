@@ -281,7 +281,19 @@ Sorted by publication date.
     * Author: Bartlomiej Walczak
     * Publication Date: December 2018
     * ISBN: 978178961499
-    * Reference: https://www.packtpub.com/application-development/building-restful-apis-go-vide
+    * Reference: https://www.packtpub.com/application-development/building-restful-apis-go-video
+
+* **Go Web Scraping Quick Start Guide**
+    * Author: Vincent Smith
+    * Publication Date: January 2019
+    * ISBN: 9781789615708
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/go-web-scraping-quick-start-guide
+
+* **Advanced Go Programming in 7 Days (Video)**
+    * Author: Theofanis Despoudis
+    * Publication Date: January 2019
+    * ISBN: 9781788994880
+    * Reference: https://www.packtpub.com/application-development/advanced-go-programming-7-days-video
 
 ## Early Access
 
