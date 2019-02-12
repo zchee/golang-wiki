@@ -674,6 +674,7 @@
   * [Booli](https://www.booli.se/)
   * [Studentlitteratur](https://www.studentlitteratur.se)
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
+  * [Ingrid](https://www.ingrid.com/)
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
