@@ -57,7 +57,7 @@ for i := 1; i <= 10; i++ {
 Even though the closures all still close over the same variable (in this case, ` i `), they are executed before the variable changes, resulting in the desired behavior.
 http://golang.org/doc/go_faq.html#closures_and_goroutines
 
-Another similar situation that you may find like following:
+You may find another, similar situation like the following:
 
 ```go
 for _, val := range values {
