@@ -608,6 +608,7 @@
   * [Uniplaces](http://uniplaces.com/)
   * [Bright Pixel](https://brpx.com/)
   * [Observador](https://observador.pt/)
+  * [Worten](https://www.worten.pt/) 
 
 ## Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
