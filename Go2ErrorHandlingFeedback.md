@@ -212,6 +212,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 Please help categorize the rest of the proposals here.
 
+- Pasha Osipyants, “[Using proposed error handling mechanism using current go possibilities](https://godoc.org/github.com/pashaosipyants/errors)”, February 2019
+
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
