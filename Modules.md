@@ -436,7 +436,7 @@ Migration topics:
 
 * If a module is on v2 or higher, an implication is that multiple major versions can be in a single build (e.g., `foo` and `foo/v3` might end up in a single build).
   * This flows naturally from the rule that "packages with different import paths are different packages".
-  * When this happens, there will be there multiple copies of package-level state (e.g., package-level state for `foo` and package-level state for `foo/v3`) as well as each major version will run its own `init` function.
+  * When this happens, there will be multiple copies of package-level state (e.g., package-level state for `foo` and package-level state for `foo/v3`) as well as each major version will run its own `init` function.
   * This approach helps with multiple aspects of the modules system, including helping with diamond dependency problems, gradual migration to new versions within large code bases, and allowing a major version to be implemented as a shim around a different major version.
 * See the "Avoiding Singleton Problems" section of https://research.swtch.com/vgo-import or [#27514](https://github.com/golang/go/issues/27514) for some related discussion.
 
