@@ -120,6 +120,14 @@ for _, x := range a {
 }
 ```
 
+For elements which must be garbage collected, the following code can be included afterwards:
+
+```go
+for i := len(b); i < len(a); i++ {
+	a[i] = nil // or the zero value of T
+}
+```
+
 ### Reversing
 
 To replace the contents of a slice with the same elements but in reverse order:
