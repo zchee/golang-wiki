@@ -480,8 +480,20 @@
   * [LOB, Inc.](https://www.lob-inc.com/) - [github](https://github.com/lob-inc)
   * [M3](https://corporate.m3.com/)
   * [mediba](http://www.mediba.jp/)
-  * [Mercari](https://www.mercari.com/jp/about/)
-      * [Gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go
+  * [Mercari, Inc.](https://about.mercari.com/)
+      * [gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go.
+      * [widebullet](https://github.com/mercari/widebullet) - Widebullet is an API gateway with JSON-RPC.
+      * [go-httpdoc](https://github.com/mercari/go-httpdoc) - Golang package for generating API documentation from httptest.
+      * [Datastore](https://github.com/mercari/datastore) - (AE|Cloud) Datastore Wrapper.
+      * [yo](https://github.com/mercari/yo) - yo is a command-line tool to generate Go code for Google Cloud Spanner.
+      * [go-dnscache](https://github.com/mercari/go-dnscache) - Go package for caching DNS lookup results in memory.
+      * [grpc-http-proxy](https://github.com/mercari/grpc-http-proxy) - A reverse proxy server which translate JSON HTTP requests to gRPC calls based on protoreflect.
+      * [go-httpstats](https://github.com/mercari/go-httpstats) - Go package for reporting HTTP stats.
+      * [certificate-expiry-monitor-controller](https://github.com/mercari/certificate-expiry-monitor-controller) - 
+Certificate Expiry Monitor Controller monitors the expiration of TLS certificates used in Ingress.
+      * [tfnotify](https://github.com/mercari/tfnotify) - A CLI command to parse Terraform execution result and notify it to GitHub.
+      * [imageflux-cli](https://github.com/mercari/imageflux-cli) - Imageflux Client written in Go.
+  * [Merpay, Inc.](https://merpay.com/)
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Mokelab](https://mokelab.com) - [github](https://github.com/mokelab-go/)
@@ -506,8 +518,6 @@
   * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
       * [KitS](http://kdkits.jp/)
       * [Artpop!](http://kdkits.jp/materials/)
-  * [Souzoh](https://www.souzoh.com/jp/)
-      * [Mercari Atte](https://www.mercariatte.com/jp/)
   * [Speee, Inc.](https://speee.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
