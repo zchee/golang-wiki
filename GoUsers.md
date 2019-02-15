@@ -431,6 +431,7 @@
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/trenitapp/posts/907728379283787)) -- Most popular mobile app for Italian trains schedules
   * [Develer](https://www.develer.com)
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
+  * [Wellnet](https://www.wellnet.it)
 
 ## Japan
   * [3-shake, Inc.](https://www.3-shake.com/)
