@@ -581,6 +581,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [NPO](https://www.npostart.nl/) - [github](https://github.com/npo-topspin)
   * [Pocket Media](http://www.pocketmedia.mobi/) - [company website](http://www.pocketmedia.mobi/), [github](github.com/pocketbrain/)
   * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
+  * [Pointer Brand Protection](http://pointerbrandprotection.com)
   * [Sentia](https://sentia.com/nl/)
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
   * [Ultraware](https://www.ultraware.nl)
