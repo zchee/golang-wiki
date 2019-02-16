@@ -313,6 +313,7 @@
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
   * [WazirX](https://wazirx.com/)
+  * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
   * [ZopSmart](https://zopsmart.com/)
 
