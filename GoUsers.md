@@ -584,6 +584,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Pointer Brand Protection](http://pointerbrandprotection.com)
   * [Sentia](https://sentia.com/nl/)
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
+  * [Travix International](https://www.travix.com/)- [github](https://github.com/Travix-International)
   * [Ultraware](https://www.ultraware.nl)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
