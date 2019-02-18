@@ -641,6 +641,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
 * [ThetaPad](http://thetapad.com/)
 * [Tochka](http://tochka.com/)
+* [Mail.ru](https://mail.ru/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
@@ -737,6 +738,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [iLighten](https://ilighten.com/)
   * [QArea](https://qarea.com/)
   * [Diligences](https://diligences.com/)
+  * [ElementalsWeb](https://www.elementalsweb.com/)
 
 ## United Kingdom
   * [Acuris](https://www.acuris.com/)
