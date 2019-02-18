@@ -465,9 +465,9 @@
   * [Gurunavi, Inc.](https://gurunavi.com/)
   * [Hatena](http://hatenacorp.jp/)
       * [Mackerel](https://mackerel.io) - Monitoring as a Service ([github](https://github.com/mackerelio))
-  * [HDE Inc](https://www.hde.co.jp/en/)
   * [HEARTBEATS](https://heartbeats.jp/)
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
+  * [HENNGE K.K.](https://hennge.com/global/)
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [istyle Inc.](http://www.istyle.co.jp/)
