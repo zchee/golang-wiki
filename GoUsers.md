@@ -229,6 +229,7 @@
   * [Friendsurance](https://www.friendsurance.de/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
+  * [Herdius] (https://www.herdius.com/) - [github](https://github.com/herdius)
   * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog]
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
