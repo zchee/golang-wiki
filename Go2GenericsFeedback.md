@@ -295,3 +295,27 @@ To make it easier to see new feedback. Please _make a Gist_. And also help to ke
   - jimmyfrasche: A contract is not a type, though. You can't have a value that is a `stringer`. You can have a value of a type that is a `stringer`. It's a metatype. A type is a kind of predicate on values. You ask the compiler "is this value a `string`" and it answers yes (allowing compilation to continue) or no (stopping to tell you what went wrong). A contract is a predicate on a vector of types. You ask the compiler two questions. Do these types satisfy this contract? Then: do these values satisfy these types? Interfaces kind of blur these lines by storing a `(type, value)` pair, provided that the type has the appropriate methods. It's simultaneously a type and a metatype. Any generics system that does not use interfaces as the metatypes will unavoidably contain a superset of interfaces. While it is entirely possible to define a generics system that exclusively uses interfaces as the metatypes, that does mean losing the ability to write generic functions that use things that interfaces can't talk about, like operators. You have to limit the questions you can ask about the types to their method sets. (I'm fine with this).
 
 - btj: Two very important entries are missing in the draft design document's Designs in Other Languages section: Haskell, with its typeclasses, and Scala, with its implicit arguments.
+
+- iamgoroot: Wouldn't it be natural to make better type aliasing support and let user have generics as option? And you dont need much syntax for that
+
+```
+type Key _
+type Value _
+
+type IntStringHolder Holder<Key:int, Value:string>
+
+type Holder struct {
+    K Key
+    V Value
+}
+
+func (h *Holder) Set(k Key, v Value) {
+    h.K = k
+    h.V = v
+}
+
+func main() {
+    v:= IntStringHolder{}
+    v.Set(7,"Lucky")
+}
+```
