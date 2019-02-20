@@ -13,7 +13,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon Singapore 2019 | 2019-05-03 | Singapore | https://2019.gophercon.sg/<br>CFP: https://www.papercall.io/gopherconsg2019 |
 | GoCon Canada | 2019-05-31 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/goconca |
-| GopherCon EU | 2019-06-01-05-30 | Tenerife, Canary Islands, Spain | https://www.eventbrite.co.uk/e/gophercon-eu-2019-canary-islands-tickets-55633196388 |
+| GopherCon Europe | 2019-06-01-05-30 | Tenerife, Canary Islands, Spain | https://www.gophercon.es |
 | Gophercon Poland | 2019-06-27 | Gdansk, Poland | https://twitter.com/GopherConPL <br> CFP: https://eventil.com/events/GopherConPL/cfp |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
