@@ -144,6 +144,7 @@ See https://godoc.org/syscall/js.
 Alternatively, https://github.com/dennwc/dom[a library for streamlining DOM manipulation]
 is in development.
 
+There is also a [binding generator](https://gowebapi.github.io/) that can be used.
 
 # Editor configuration
 
