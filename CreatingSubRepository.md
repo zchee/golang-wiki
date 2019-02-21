@@ -18,14 +18,12 @@ This page outlines the steps that need to be done to cretate a new subrepository
 	- In `maintner/maintnerd`, add the new repo to `goGitHubProjects` slice.
 	- In `cmd/gerritbot`, add the new repo to `gerritProjectWhitelist` map.
 	- See [an example CL](https://golang.org/cl/133896) for all 3 changes.
-4. Modify 1 x/tools command:
-	- In `cmd/godoc`, add the new repo to `xMap` map.
-		- See [an example CL](https://golang.org/cl/156337).
-	- Also send a backport CL into the current release-branch of x/tools, since this is what will be deployed.
-		- See [an example backport CL](https://golang.org/cl/156338).
+4. Modify 1 x/website command:
+	- In `cmd/golangorg`, add the new repo to `xMap` map.
+		- See [an example CL](https://golang.org/cl/160137).
 5. Redeploy all affected commands in the following order:
 	1. `cmd/gitmirror` first
 	2. `maintner/maintnerd` second
 		- Note that it's expected for the new repo not to appear in maintner until first issue or PR is created (see [#25744](https://golang.org/issue/25744)).
 	3. `cmd/gerritbot` third
-	4. `cmd/godoc` fourth
+	4. `cmd/golangorg` fourth
