@@ -6,6 +6,8 @@ To signal that an identifier should not be used, add a paragraph to its doc
 comment that begins with `Deprecated:` followed by some information about the
 deprecation, and a recommendation on what to use instead, if applicable.
 
+The paragraph does not have to be the last paragraph in the doc comment.
+
 [Some tools will warn on use of deprecated identifiers](https://staticcheck.io/docs/checks#SA1019)
 and their docs [will be hidden by godoc once #17056 is implemented](https://golang.org/issue/17056).
 
@@ -27,6 +29,8 @@ type ResponseRecorder struct {
 //
 // Deprecated: RC4 is cryptographically broken and should not be used
 // except for compatibility with legacy systems.
+//
+// This package is frozen and no new functionality will be added.
 package rc4
 ```
 
