@@ -4,8 +4,8 @@
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
 
 ## Argentina
-  * [Mercadolibre](http://www.mercadolibre.com/)
-  * [Wilab](http://www.wilab.io/)
+  * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
+  * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
 
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/) - Finding partners to practise speaking in English (Globally).
