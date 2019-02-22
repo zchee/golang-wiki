@@ -864,6 +864,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
   * [imaginary](https://github.com/h2non/imaginary) - Simple and fast HTTP microservice for image resizing and manipulation
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
+  * [imgproxy](https://github.com/DarthSim/imgproxy/issues) - Fast and secure standalone server for resizing and converting remote images
   * [netpbm](https://github.com/spakin/netpbm) - Read and write Netpbm images from Go programs
   * [opencv](https://github.com/chai2010/opencv/) - Go bindings for OpenCV
   * [osmesa](https://github.com/go-gl/osmesa) - Go bindings for osmesa.
