@@ -125,6 +125,7 @@
   * [Manifold](https://manifold.co)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [Sendwithus](https://sendwithus.com)
+  * [SweetIQ](https://sweetiq.com/) - [jobs](https://sweetiq.com/about/careers-2/)
   * [ThinkSquare](https://www.thinksquare.io)
   * [Tulip](https://tulip.com/) - [jobs](https://tulip.com/about/careers/)
   * [Wattpad](https://www.wattpad.com/)
