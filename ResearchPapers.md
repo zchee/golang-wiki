@@ -8,6 +8,19 @@ This page lists academic and industry research papers about Go or using Go as th
 - A comparison of three programming languages for a full-fledged next-generation sequencing tool (Costanza, Herzeel, Verachtert)
   - [biorvix](https://www.biorxiv.org/content/10.1101/558056v1?rss=1)
 
+- Exploring polyglot software frameworks in ALICE with FairMQ and fer
+  - [arxiv](https://arxiv.org/abs/1901.04834)
+  - https://github.com/sbinet-alice/fer
+
+- Flash: Efficient Dynamic Routing for Offchain Networks
+  - [arxiv](https://arxiv.org/abs/1902.05260)
+
+- RepChain: A Reputation based Secure, Fast and High Incentive Blockchain System via Sharding
+  - [arxiv](https://arxiv.org/abs/1901.05741)
+
+- Drynx: Decentralized, Secure, Verifiable System for Statistical Queries and Machine Learning on Distributed Datasets
+  - [arxiv](https://arxiv.org/abs/1902.03785)
+
 ## 2018
 
 - Implementation and evaluation of secure and scalable anomaly-based network intrusion detection (P. Mieden)
@@ -77,6 +90,14 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 - "Dependability in a Multi-tenant Multi-framework Deep Learning as-a-Service Platform" (Scott Boag, Parijat Dube, Kaoutar El Maghraoui, Benjamin Herta, Waldemar Hummer, K. R. Jayaram, Rania Khalaf, Vinod Muthusamy, Michael Kalantar, Archit Verma)
   - [arxiv](https://arxiv.org/abs/1805.06801)
   - [github](https://github.com/IBM/FfDL)
+
+- DRONE: a Distributed Subgraph-Centric Framework for Processing Large Scale Power-law Graphs
+  - [arxiv](https://arxiv.org/abs/1812.04380)
+
+- Reducing Metadata Leakage from Encrypted Files and Communication with PURBs
+  - [arxiv](https://arxiv.org/abs/1806.03160)
+
+
 
 ## 2017
 
