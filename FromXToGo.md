@@ -66,3 +66,6 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 
 # Haskell
 * [Golang’s Real-time GC in Theory and Practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
+
+# Clojure
+* [Rewriting an API Gateway Service from Clojure to Golang: AppsFlyer Experience Report](https://www.infoq.com/articles/api-gateway-clojure-golang)
