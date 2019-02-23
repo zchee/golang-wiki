@@ -5,6 +5,9 @@ This page lists academic and industry research papers about Go or using Go as th
   - [SANER'19 pre-print](https://www.cs.kent.ac.uk/people/staff/jl703/papers/dilley-lange-saner19-preprint.pdf)
   - [web-page](https://www.cs.kent.ac.uk/people/staff/jl703/go-survey/)
 
+- A comparison of three programming languages for a full-fledged next-generation sequencing tool (
+  - [biorvix](https://www.biorxiv.org/content/10.1101/558056v1?rss=1)
+
 ## 2018
 
 - Implementation and evaluation of secure and scalable anomaly-based network intrusion detection (P. Mieden)
