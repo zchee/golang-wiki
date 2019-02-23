@@ -64,6 +64,10 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
 * [When All You Have is an ElePHPant (Slides from ConFoo 2016)](https://www.ramblinations.com/when-all-you-have-is-an-elephpant)
 
+# Perl
+* [How We Migrate From Perl to Golang]
+(https://medium.com/@alvintz.v/how-we-migrate-from-perl-to-golang-1520a4951392)
+
 # Haskell
 * [Golang’s Real-time GC in Theory and Practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
 
