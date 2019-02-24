@@ -23,7 +23,6 @@ Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobi
 
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
-Go get gomobile and initialize it to install the required toolchain.
 
 On OS X, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
@@ -31,7 +30,6 @@ installed.
 
 ```
 $ go get golang.org/x/mobile/cmd/gomobile
-$ gomobile init # it might take a few minutes
 ```
 
 (The following sections will help you how to use the gomobile tool.)
