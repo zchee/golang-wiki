@@ -1,6 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2019
 
+- Understanding Real-World Concurrency Bugs in Go (Tu, Liu, Song, Zhang)
+  - [ASPLOS'19 preprint](https://songlh.github.io/paper/go-study.pdf)
+  - [web](https://github.com/system-pclub/go-concurrency-bugs)
+
 - An empirical study of messaging passing concurrency in Go projects (N. Dilley, J. Lange)
   - [SANER'19 pre-print](https://www.cs.kent.ac.uk/people/staff/jl703/papers/dilley-lange-saner19-preprint.pdf)
   - [web-page](https://www.cs.kent.ac.uk/people/staff/jl703/go-survey/)
