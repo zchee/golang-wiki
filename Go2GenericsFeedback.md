@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- David Heuschmann, "[Problems With Using Parantheses for Type Argument Lists](https://gist.github.com/dddent/6e4a7490f80cb427c0e910ebca5c3468)", February 2019
+
 - Gustavo Bittencourt, "[Contract with methods](https://gist.github.com/gbitten/6e17ef81be876d70f624c711f5a3b0e2)", February 2019
 
 - Chris Siebenmann, "[Go 2 Generics: Contracts are too clever](https://utcc.utoronto.ca/~cks/space/blog/programming/Go2ContractsTooClever)", November 2018
