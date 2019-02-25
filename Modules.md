@@ -163,8 +163,6 @@ Most often, a version control repository contains exactly one module defined in 
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
 
-Most often, there is a single `go.mod` per repository located in the repository root, but `go.mod` files can be located elsewhere.
-
 Here is an example `go.mod` file defining the module `github.com/my/thing`:
 
 ```
