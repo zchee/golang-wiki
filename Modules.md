@@ -270,7 +270,7 @@ Once installed, you can then activate module support in one of two ways:
 
 ### How to Define a Module
 
-Most projects will follow the simplest approach of using a single module per repository, which typically would mean creating one `go.mod` file located in the root directory of a repository. (Multiple modules are supported in a single repository, but most often that would result in more work on an on-going basis than a single module per repository).
+Most projects will follow the simplest approach of using a single module per repository, which typically would mean creating one `go.mod` file located in the root directory of a repository:
 
 To create a `go.mod` for an existing project:
 
