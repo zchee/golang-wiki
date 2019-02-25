@@ -159,13 +159,6 @@ Modules record precise dependency requirements and create reproducible builds.
 
 Most often, a version control repository contains exactly one module defined in the repository root. ([Multiple modules are supported in a single repository](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories), but typically that would result in more work on an on-going basis than a single module per repository).
 
-Summarizing the relationship between repositories, modules, and packages:
-* A repository contains one or more Go modules.
-* Each module contains one or more Go packages.
-* Each package consists of one or more Go source files in a single directory.
-
-Modules must be semantically versioned according to [semver](https://semver.org/), usually in the form `v(major).(minor).(patch)`, such as  `v0.1.0`, `v1.2.3`, or `v1.5.0-rc.1`. The leading `v` is required. If using Git, [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) released commits with their versions. Public and private module repositories and proxies are becoming available (see FAQ [below](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)).
-
 ### go.mod
 
 A module is defined by a tree of Go source files with a `go.mod` file in the tree's root directory. Module source code may be located outside of GOPATH.
