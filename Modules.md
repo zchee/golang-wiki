@@ -157,7 +157,7 @@ A *module* is a collection of related Go packages that are versioned together as
 
 Modules record precise dependency requirements and create reproducible builds. 
 
-Most often, a version control repository contains exactly one module defined in the repository root. (Multiple modules are supported in a single repository, but typically that would result in more work on an on-going basis than a single module per repository).
+Most often, a version control repository contains exactly one module defined in the repository root. ([Multiple modules are supported in a single repository](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories), but typically that would result in more work on an on-going basis than a single module per repository).
 
 Summarizing the relationship between repositories, modules, and packages:
 * A repository contains one or more Go modules.
