@@ -1017,12 +1017,7 @@ Let's step through this with the above repository, assuming that "github.com/my-
 1. `git tag mig/v1.0.0`
 1. Next, let's test these. We can't `go build` or `go test` naively, since the go commands would try to fetch each dependent module from the module cache. So, we need to use replace rules to cause `go` commands to use the local copies:
 
-    ```
-    cd path-to/github.com/my-repo
-    go mod edit -replace github.com/my-repo/mig@v1.0.0=./mig
-    go test ./...
-    go mod edit -dropreplace github.com/my-repo/mig@v1.0.0
-    
+    ```    
     cd path-to/github.com/my-repo/mig
     go mod edit -replace github.com/my-repo@v1.3.0=../
     go test ./...
