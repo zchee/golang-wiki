@@ -56,6 +56,11 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Can a module consume a package that has not opted in to modules?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-package-that-has-not-opted-in-to-modules)
   * [Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-v2-package-that-has-not-opted-into-modules-what-does-incompatible-mean)
   * [How are v2+ modules treated in a build if modules support is not enabled? How does "minimal module compatibility" work in 1.9.7+, 1.10.3+, and 1.11?](https://github.com/golang/go/wiki/Modules#how-are-v2-modules-treated-in-a-build-if-modules-support-is-not-enabled-how-does-minimal-module-compatibility-work-in-197-1103-and-111)
+* [FAQs — Multi-Module Repositories](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories)
+  * [What are multi-module repositories?](https://github.com/golang/go/wiki/Modules#what-are-multi-module-repositories)
+  * [Is it possible to add a module to a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-add-a-module-to-a-multi-module-repository)
+  * [Is it possible to remove a module from a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-remove-a-module-from-a-multi-module-repository)
+  * [Can a module depend on an internal/ in another?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-an-internal-in-another)
 * [FAQs — Minimal Version Selection](https://github.com/golang/go/wiki/Modules#faqs--minimal-version-selection)
   * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#wont-minimal-version-selection-keep-developers-from-getting-important-updates)
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs-possible-problems)
@@ -931,6 +936,132 @@ When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you
 * In contrast, when the `go` tool is operating in full module mode:
    * There are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined in full module mode to also adhere to this rule).
    * For example, if the `go` tool is in full module mode and `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`.
+
+## FAQS — Multi-Module Repositories
+
+### What are multi-module repositories?
+
+A multi-module repository is a repository that contains multiple modules, each with its own go.mod file. Each module starts at the directory containing its go.mod file, and contains all packages from that directory and its subdirectories recursively, excluding any subtree that contains another go.mod file.
+
+Each module has its own version information. Version tags for modules below the root of the repository must include the relative directory as a prefix. For example, consider the following repository:
+
+```
+my-repo
+|____foo
+| |____rop
+| | |____go.mod
+```
+
+The tag for version 1.2.3 of module "my-repo/foo/rop" is "foo/rop/v1.2.3".
+
+Typically, the path for one module in the repository will be a prefix of the others. For example, consider this repository:
+
+```
+my-repo
+|____go.mod
+|____bar
+|____foo
+| |____rop
+| |____yut
+|____mig
+| |____go.mod
+| |____vub
+```
+![Fig. A top-level module's path is a prefix of another module's path.](https://github.com/jadekler/module-testing/blob/master/imagery/multi_module_repo.png)
+
+_Fig. A top-level module's path is a prefix of another module's path._
+
+This repository contains two modules. However, the module "my-repo" is a prefix of the path of the module "my-repo/mig".
+
+Adding modules, removing modules, and versioning modules in such a configuration require considerable care and deliberation, so it is almost always easier and simpler to manage a single-module repository rather than multiple modules in an existing repository.
+
+### Is it possible to add a module to a multi-module repository?
+
+Yes. However, there are two classes of this problem:
+
+The first class: the package to which the module is being added to is not in version control yet (a new package). This case is straightforward: add the package and the go.mod in the same commit, tag the commit, and push.
+
+The second class: the path at which the module is being added is in version control and contains one or more existing packages. This case requires a considerable amount of care. To illustrate, consider again the following repository (now in a github.com location to simulate the real-world better):
+
+```
+github.com/my-repo
+|____go.mod
+|____bar
+|____foo
+| |____rop
+| |____yut
+|____mig
+| |____vub
+```
+
+Consider adding module "github.com/my-repo/mig". If one were to follow the same approach as above, the package /my-repo/mig could be provided by two different modules: the old version of "github.com/my-repo", and the new, standalone module "github.com/my-repo/mig. If both modules are active, importing "github.com/my-repo/mig" would cause an “ambiguous import” error at compile time.
+
+The way to get around this is to make the newly-added module depend on the module it was "carved out" from, at a version after which it was carved out.
+
+Let's step through this with the above repository, assuming that "github.com/my-repo" is currently at v1.2.3:
+
+1. Add github.com/my-repo/mig/go.mod:
+    
+    ```
+    cd path-to/github.com/my-repo/mig
+    go mod init github.com/my-repo/mig
+    
+    # Note: if "my-repo/mig" does not actually depend on "my-repo", add a blank
+    # import.
+    # Note: version must be at or after the carve-out.
+    go mod edit -require github.com/myrepo@v1.3
+    ```
+
+1. `git commit`
+1. `git tag v1.3.0`
+1. `git tag mig/v1.0.0`
+1. Next, let's test these. We can't `go build` or `go test` naively, since the go commands would try to fetch each dependent module from the module cache. So, we need to use replace rules to cause `go` commands to use the local copies:
+
+    ```
+    cd path-to/github.com/my-repo
+    go mod edit -replace github.com/my-repo/mig@v1.0.0=./mig
+    go test ./...
+    go mod edit -dropreplace github.com/my-repo/mig@v1.0.0
+    
+    cd path-to/github.com/my-repo/mig
+    go mod edit -replace github.com/my-repo@v1.3.0=../
+    go test ./...
+    go mod edit -dropreplace github.com/my-repo@v1.3.0
+    ```
+
+1. `git push origin master v1.2.4 mig/v1.0.0` push the commit and both tags
+
+Note that in the future [golang.org/issue/28835](https://github.com/golang/go/issues/28835) should make the testing step a more straightforward experience.
+
+Note also that code was removed from module "github.com/my-repo" between minor versions. It may seem strange to not consider this a major change, but in this instance the transitive dependencies continue to provide compatible implementations of the removed packages at their original import paths.
+
+### Is it possible to remove a module from a multi-module repository?
+
+Yes, with the same two cases and similar steps as above. 
+
+### Can a module depend on an internal/ in another?
+
+Yes. Packages in one module are allowed to import internal packages from another module as long as they share the same path prefix up to the internal/ path component. For example, consider the following repository:
+
+```
+my-repo
+|____go.mod
+|____internal
+|____foo
+| |____go.mod
+```
+
+Here, package foo can import /my-repo/internal as long as module "my-repo/foo" depends on module "my-repo". Similarly, in the following repository:
+
+```
+my-repo
+|____internal
+| |____go.mod
+|____foo
+| |____go.mod
+```
+
+Here, package foo can import my-repo/internal as long as module "my-repo/foo" depends on module "my-repo/internal". The semantics are the same in both: since my-repo is a shared path prefix between my-repo/internal and my-repo/foo, package foo is allowed to import package internal.
 
 ## FAQs — Minimal Version Selection
 
