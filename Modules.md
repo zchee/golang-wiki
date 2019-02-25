@@ -174,7 +174,9 @@ require (
 )
 ```
 
-A module declares its identity in its `go.mod` via the `module` directive, which provides the _module path_. The import paths for all packages in a module share the module path as a common prefix. The module path and the relative path from the `go.mod` to a package's directory together determine a package's import path. For example, if you are creating a module for a repository `github.com/my/repo` that will contain two packages with import paths `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
+A module declares its identity in its `go.mod` via the `module` directive, which provides the _module path_. The import paths for all packages in a module share the module path as a common prefix. The module path and the relative path from the `go.mod` to a package's directory together determine a package's import path.
+
+For example, if you are creating a module for a repository `github.com/my/repo` that will contain two packages with import paths `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
 
 ```
 repo/
