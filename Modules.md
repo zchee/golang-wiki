@@ -1138,13 +1138,16 @@ One approach is to run `go mod init` on your problematic non-module direct depen
 For example, if `github.com/some/nonmodule` is a problematic direct dependency of your module that is currently using another dependency manager, you can do something similar to:
 
 ```
-$ git clone https://github.com/some/nonmodule.git /tmp/scratchpad/nonmodule
+$ git clone -b v1.2.3 https://github.com/some/nonmodule /tmp/scratchpad/nonmodule
 $ cd /tmp/scratchpad/nonmodule
 $ go mod init
 $ cat go.mod
 ```
 
-The resulting `require` information from the temporary `go.mod` can be manually moved into the actual `go.mod` for your module, or you can consider using https://github.com/rogpeppe/gomodmerge, which is a community tool targeting this use case.
+The resulting `require` information from the temporary `go.mod` can be manually moved into the actual `go.mod` for your module, or you can consider using https://github.com/rogpeppe/gomodmerge, which is a community tool targeting this use case. In addition, you will want to add a `require github.com/some/nonmodule v1.2.3` to your actual `go.mod` to match the version that you manually cloned.
+
+A concrete example of following this technique for docker is in this [#28489 comment](https://github.com/golang/go/issues/28489#issuecomment-454795390), which illustrates getting a consistent set of versions
+of docker dependencies to avoid case sensitive issues between `github.com/sirupsen/logrus` vs. `github.com/Sirupsen/logrus`.
 
 ### Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?
 
