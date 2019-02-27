@@ -22,7 +22,7 @@
   * [GO1](https://www.go1.com/)
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [SocietyOne](https://www.societyone.com.au/)
-  * [VERSENT](https://versent.com.au/)
+  * [VERSENT](https://versent.com.au/) - Creating big things, on the go!
 
 ## Austria
   * [Digital City Solutions](http://www.digital-city.io/)
