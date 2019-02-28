@@ -646,6 +646,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [ThetaPad](http://thetapad.com/)
 * [Tochka](http://tochka.com/)
 * [Mail.ru](https://mail.ru/)
+* [Tinkoff](https://tinkoff.ru)
+* [Positive Technologies](https://ptsecurity.com)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
