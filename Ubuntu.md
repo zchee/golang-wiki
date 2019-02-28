@@ -35,4 +35,4 @@ sudo apt-get update
 sudo apt-get install golang-go
 ```
 
-> **Note that golang-go installs latest Go as default Go. If you do not want that, install `golang-1.12` instead and use the binaries from /usr/lib/go-1.11/bin.**
+> **Note that golang-go installs latest Go as default Go. If you do not want that, install `golang-1.12` instead and use the binaries from /usr/lib/go-1.12/bin.**
