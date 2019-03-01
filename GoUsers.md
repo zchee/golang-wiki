@@ -821,6 +821,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [AgileBits — 1Password for Teams](https://teams.1password.com)
   * [Airbrake](http://airbrake.io/)
   * [Airware](http://airware.com/) - [eng blog](https://makers.airware.com), [github](https://github.com/airware)
+  * [Amazon Web Services](https://aws.amazon.com) - [github](https://github.com/aws) [github](https://github.com/awslabs)
   * [Apcera ](http://www.apcera.com) - [blog](http://gigaom.com/2012/09/13/will-go-be-the-new-go-to-programming-language/)
   * [Apeiron Data Systems](http://apeirondata.com/)
   * [Appbase](https://appbase.io/)
