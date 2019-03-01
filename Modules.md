@@ -768,7 +768,7 @@ In addition, your module's `go.sum` records checksums for all direct and indirec
 
 ### Should I commit my 'go.sum' file as well as my 'go.mod' file?
 
-Typically your module's `go.sum` file should be committed along with your `go.mod` file. 
+Ideally, your module's `go.sum` file should be committed along with your `go.mod` file.  In reality, Go has changed checksum calculation algorithm at [1.11.2](https://github.com/golang/go/issues/27153) and [1.11.4](https://github.com/golang/go/issues/29278) which caused bogus checksum mismatches between users who are using different Go versions.
 
 * `go.sum` contains the expected cryptographic checksums of the content of specific module versions.
 * If someone clones your repository and downloads your dependencies using the go command, they will receive an error if there is any mismatch between their downloaded copies of your dependencies and the corresponding entries in your `go.sum`.
