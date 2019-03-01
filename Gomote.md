@@ -95,14 +95,23 @@ builder name "<build-config-name>@ip[:port>", such as
 ### Windows
 
 ```
-$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' user-bradfitz-windows-amd64-gce-0 go/bin/go.exe  test cmd/go -short
+$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $G go/src/make.bat
+$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' user-bradfitz-windows-amd64-gce-0 go/bin/go.exe test cmd/go -short
 ```
 
 ### Subrepos on Windows
 
 ```
-$ tar -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
+$ tar --exclude .git -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
 $ gomote run -e 'GOPATH=c:/workdir/gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
+```
+
+If ssh'd into the machine, these envvars may be handy:
+
+```
+$ set GOPATH=c:\workdir\gopath
+$ set PATH=%PATH%;c:\workdir\gopath\bin;c:\workdir\go\bin
+$ set CGO_ENABLED=0
 ```
 
 ### Subrepos on Unix
