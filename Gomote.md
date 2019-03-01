@@ -95,8 +95,8 @@ builder name "<build-config-name>@ip[:port>", such as
 ### Windows
 
 ```
-$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $G go/src/make.bat
-$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' user-bradfitz-windows-amd64-gce-0 go/bin/go.exe test cmd/go -short
+$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $MOTE go/src/make.bat
+$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $MOTE go/bin/go.exe test cmd/go -short
 ```
 
 ### Subrepos on Windows
