@@ -33,6 +33,7 @@
   * [GoJakarta](https://gophers.id/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
+  * [Golang Surabaya](https://github.com/golangSurabaya) - Surabaya, Indonesia.
 
 # Europe
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
