@@ -573,6 +573,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [BloomReach](https://www.bloomreach.com)
   * [bol.com](https://www.bol.com)
   * [booking.com](https://www.booking.com)
+  * [Dataswimmer](https://www.dataswimmer.com/)
   * [Datumprikker.nl](https://datumprikker.nl/)
   * [Housing Anywhere](https://housinganywhere.com/)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
