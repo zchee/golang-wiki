@@ -218,6 +218,7 @@
   * [Teads.tv](http://teads.tv/)
   * [TF1](https://www.groupe-tf1.fr/en)
   * [Ulule](https://ulule.com/) - [github](https://github.com/ulule/)
+  * [Veepee](http://vente-privee.com) - [github](https://github.com/vente-privee) - [blog](https://medium.com/@vptech)
   * [Zenly](https://zen.ly/)
 
 ## Germany
