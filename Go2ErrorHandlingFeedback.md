@@ -104,9 +104,6 @@ Concepts that appear repeatedly among the suggestions below.
 
 # Modest revisions
 
-
- - yaxinlx, "[Use ? as suffixes of multi-value tuples to remove the last error value from multi-value tuples](https://gist.github.com/yaxinlx/1e013fec0e3c2469f97074dbf5d2e2c0)", March 2019
-
  - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
 
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
@@ -201,6 +198,8 @@ Concepts that appear repeatedly among the suggestions below.
 - Gokan EKINCI, "[try-with-resources](https://gist.github.com/eau-de-la-seine/9e2e74d6369aef4a76aa50976e34de6d)", December 2018
 
 ## Other possibilities
+
+- yaxinlx, "[Use ? as suffix to remove the last error value from multi-value tuples](https://gist.github.com/yaxinlx/1e013fec0e3c2469f97074dbf5d2e2c0)", March 2019
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
 
