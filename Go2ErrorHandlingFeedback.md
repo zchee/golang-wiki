@@ -45,6 +45,8 @@ Code changed to use the existing proposal.
 
 Critiques without counter-proposals
 
+- Pasha Osipyants, “[Error handling mechanism using current go possibilities](https://godoc.org/github.com/pashaosipyants/errors)”, February 2019
+
 - Anonymous, “[Go 2 Error Handling Non-Proposal](https://groups.google.com/d/topic/golang-nuts/1McP4_-oOpo/discussion)”, October 2018
 
 - Stripe developers, “[Feedback on Go 2 draft designs](https://groups.google.com/d/msg/golang-nuts/3A_MpcNKg7k/DWiHBLArCAAJ)”, October 2018
@@ -214,8 +216,6 @@ Concepts that appear repeatedly among the suggestions below.
 # Uncategorized
 
 Please help categorize the rest of the proposals here.
-
-- Pasha Osipyants, “[Using proposed error handling mechanism using current go possibilities](https://godoc.org/github.com/pashaosipyants/errors)”, February 2019
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 
