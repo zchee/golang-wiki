@@ -71,6 +71,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Eric Miller, "[Simple generics using const struct fields](https://gist.github.com/HALtheWise/e7db03557ad52b9f9fa2722b4ef0f41e)", March 2019
+
 - dotaheor, "[A solution to unify Go builtin and custom generics](https://github.com/dotaheor/unify-Go-builtin-and-custom-generics)", February 2019
 
 - Quentin Quaadgras, [No syntax changes, 1 new type, 1 new builtin](https://gist.github.com/Splizard/df4c34ffe100c624c55ddaf45ac7eeb6), December 2018
