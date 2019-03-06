@@ -295,6 +295,12 @@ Sorted by publication date.
     * ISBN: 9781788994880
     * Reference: https://www.packtpub.com/application-development/advanced-go-programming-7-days-video
 
+* **Hands-On GUI Application Development in Go**
+    * Author: Andrew Williams
+    * Publication Date: February 2019
+    * ISBN: 9781789138412
+    * Reference: https://www.packtpub.com/application-development/hands-gui-application-development-go
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
