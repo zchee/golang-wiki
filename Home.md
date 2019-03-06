@@ -252,6 +252,4 @@ If you're looking for services that support Go, here's a list to get you started
 
 Notes:
 
-- Please refrain from changing the title of the wiki pages, as some of them might be linked to from [golang.org](https://golang.org) or other websites.
-
-- Editable wiki pages are a huge security issue /s
+- Please refrain from changing the title of the wiki pages, as some of them might be linked to from [golang.org](https://golang.org) or other websites. 
