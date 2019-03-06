@@ -249,3 +249,10 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
 [[video](https://www.packtpub.com/application-development/functional-programming-go-video)]
 
 ***
+
+* **Go Application Development – Tips, Tricks, and Techniques (Video)**
+    * Author: Martin Helmich
+    * Publication Date: February 2019
+    * ISBN: 9781789134797
+   
+[[Video](https://www.packtpub.com/application-development/go-application-development-tips-tricks-and-techniques-video)]
