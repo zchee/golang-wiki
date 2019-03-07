@@ -32,6 +32,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Vojtech Vitek "[adopt Cause and Wrap from github.com/pkg/errors](https://golang.org/issue/25675)", May 2018
  - Andrew Wilkins "[Programmatic Frame inspection](https://gist.github.com/axw/247b6f69d2da016bb21a5eb1be44e611)", January 2019
 - _Carl Johnson_, "[_`As()` and `Is()` are useful for optional interfaces beyond error_](https://gist.github.com/carlmjohnson/d06cd8d10e0aef65f565a55cc57cd986), Feb. 2019
+ - ques0942, "[xerrors has less feature about trace's detail](https://dev.to/ques0942/xerrors-has-less-feature-about-traces-detail-4861)", Mar. 2019
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
