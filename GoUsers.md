@@ -951,6 +951,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [HER](https://weareher.com/)
   * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
+  * [Hewlett Packard Enterprise](https://hpe.com) - [Github](https://github.com/HewlettPackard)
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Honeywell](https://www.honeywell.com)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
