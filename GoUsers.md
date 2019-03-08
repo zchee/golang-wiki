@@ -23,7 +23,7 @@
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [SocietyOne](https://www.societyone.com.au/)
   * [VERSENT](https://versent.com.au/) - Creating big things, on the go!
-  * [Nine Publishing](https://www.nineentertainmentco.com.au/brands/nine-publishing)
+  * [Nine Publishing (formerly known as Fairfax Media](https://www.nineentertainmentco.com.au/brands/nine-publishing)
 
 ## Austria
   * [Digital City Solutions](http://www.digital-city.io/)
