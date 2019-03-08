@@ -1125,6 +1125,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Tamber](http://www.tamber.com/) - [blog](http://www.tamber.com/posts/ferret.html)
   * [Tapglue](https://www.tapglue.com/)
   * [Tapjoy](http://home.tapjoy.com/) - [blog](http://basho.com/posts/technical/built-on-riak-dynamiq-by-tapjoy/), [github](https://github.com/Tapjoy/dynamiq)
+  * [Target](https://target.com/) - [blog](https://tech.target.com/infrastructure/2018/06/18/Recommending-GoLang-at-Target.html)
   * [Teespring](https://teespring.com/)
   * [Telit IoT Portal](http://www.telit.com/products-and-services/iot-platforms/iot-portal/)
   * [TelTech](http://www.teltech.co/) - [github](https://github.com/teltechsystems/)
