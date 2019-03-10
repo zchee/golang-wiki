@@ -611,7 +611,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/)
 
 ## Philippines
-  * [22 Delta Labs](https://www.22delta.com) - [github](https://github.com/22delta) AI, data science, software and product development company
+  * [22 Delta Labs](https://www.22delta.com) - [github] - (https://github.com/22delta) AI, data science, software and product development company
   * [EngageSPARK](https://www.engagespark.com)
 
 ## Poland
