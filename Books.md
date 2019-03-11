@@ -155,6 +155,12 @@ Sorted by publication date.
     * ISBN: 978-1788390552
     * Reference: https://www.packtpub.com/application-development/go-design-patterns-real-world-projects
 
+* **Web Development with Go: Learn to Create Real World Web Applications using Go**
+  * Author: Jonathan Calhoun
+  * Publication Date: June 2017
+  * ISBN: N/A (self published)
+  * Reference: [http://usegolang.com](http://usegolang.com)
+
 * **Building Microservices with Go**
     * Author: Nic Jackson
     * Publication Date: July 2017
@@ -178,12 +184,6 @@ Sorted by publication date.
     * Publication Date: September 2017
     * ISBN: 978-1787125643
     * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
-
-* **Web Development with Go: Learn to Create Real World Web Applications using Go**
-  * Author: Jonathan Calhoun
-  * Publication Date: June 2017
-  * ISBN: N/A (self published)
-  * Reference: [http://usegolang.com](http://usegolang.com)
 
 * **Learning Functional Programming in Go**
   * Author: Lex Sheehan
