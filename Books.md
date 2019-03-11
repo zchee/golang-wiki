@@ -185,6 +185,12 @@ Sorted by publication date.
     * ISBN: 978-1787125643
     * Reference: https://www.packtpub.com/networking-and-servers/go-systems-programming
 
+* **Let's Go! Learn to Build Professional Web Applications With Go**
+    * Author: Alex Edwards
+    * Publication Date: September 2017
+    * ISBN: N/A (self-published)
+    * Reference: https://lets-go.alexedwards.net
+
 * **Learning Functional Programming in Go**
   * Author: Lex Sheehan
   * Publication Date: November 2017
