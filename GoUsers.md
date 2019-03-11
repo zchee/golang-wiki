@@ -345,7 +345,7 @@
   * [HappyFresh Indonesia](https://www.happyfresh.id)
   * [Ice House Corp](https://www.icehousecorp.com)
   * [Kelir.tv](http://kelir.tv)
-  * [Koinworks](https://koinworks.com)
+  * [Koinworks](https://koinworks.com) - P2P Lending Platform.
   * [Korina](http://sewamobilsolo.net)
   * [Kudo](https://kudo.co.id)
   * [kumparan](https://kumparan.com)
