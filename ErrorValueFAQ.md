@@ -58,7 +58,7 @@ if xerrors.Is(err, sql.ErrTxDone)
 ```
 At that point, you must always return `sql.ErrTxDone` if you don't want to break your clients, even if you switch to a different database package.
 
-## How can I add context to a returned error without breaking clients?
+## How can I add context to an error I'm already returning without breaking clients?
 
 Say your code now looks like
 ```
@@ -83,10 +83,11 @@ to
 return fmt.Errorf("more info: %w", err)
 ```
 
+## I'm writing new code, with no clients. Should I wrap returned errors or not?
 
-
-
-
-
+Since you have no clients, you aren't constrained by backwards compatibility. But you still need to balance two opposing considerations:
+- Giving client code access to underlying errors can help it make decisions, which can lead to better software.
+- Every error you expose becomes part of your API: your clients may come to rely on it, so you can't change it.
+For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors. In general, you have to decide if a feature of your code is important for clients to know, or an implementation detail. 
 
 
