@@ -611,7 +611,7 @@ func f2() {
 }
 ```
 
-The ` set ` method is effectively inherited from
+The ` Set ` method is effectively inherited from
 ` myType `, because
 methods associated with the anonymous field are promoted to become methods
 of the enclosing type.  In this case, because ` myChildType ` has an
