@@ -28,7 +28,7 @@ First, install `gopls` by running `go install golang.org/x/tools/cmd/gopls`. We 
     "goToTypeDefinition": true,
 },
 "go.buildOnSave": "off",
-"go.vetOnSave": "off"
+"go.vetOnSave": "off",
 "editor.formatOnSave": true,
 "editor.codeActionsOnSave": {
     "source.organizeImports": true,
