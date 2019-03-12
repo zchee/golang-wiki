@@ -18,6 +18,14 @@ To begin using `gopls`, we suggest using VSCode with the Go plugin. The required
 "go.useLanguageServer": true,
 "go.alternateTools": {
      "go-langserver": "gopls"
+},
+"go.languageServerExperimentalFeatures": {
+    "format": true,
+    "autoComplete": true,
+    "goToDefinition": true,
+    "hover": true,
+    "signatureHelp": true,
+    "goToTypeDefinition": true,
 }
 ```
 
