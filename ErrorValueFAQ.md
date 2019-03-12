@@ -30,7 +30,7 @@ You need to be prepared that errors you get may be wrapped.
   ```
   - Also use this pattern to check whether an error implements an interface. (This is one of those rare cases when a pointer to an interface is appropriate.)
   - Rewrite a type switch as a sequence of if-elses.
-- If you check errors using a predicate function, like `os.IsExist`, do not assume that that function will unwrap errors for you. Instead, use `xerrors.Is` if possible. The `os` package 
+
 ## What formatting verb should I use to display errors?
 
 It depends who you expect to see the error message, and why.
