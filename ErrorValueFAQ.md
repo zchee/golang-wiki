@@ -30,7 +30,7 @@ You need to be prepared that errors you get may be wrapped.
   ```
   - Also use this pattern to check whether an error implements an interface. (This is one of those rare cases when a pointer to an interface is appropriate.)
   - Rewrite a type switch as a sequence of if-elses.
-
+- If you check errors using a predicate function, like `os.IsExist`, do not assume that that function will unwrap errors for you. Instead, use `xerrors.Is` if possible. The `os` package 
 ## What formatting verb should I use to display errors?
 
 It depends who you expect to see the error message, and why.
@@ -93,3 +93,10 @@ For each error you return, you have to weigh the choice between helping your cli
 
 With errors, though, there is an intermediate choice: you can expose error details to people reading your code's error messages, without exposing the errors themselves to client code. You do that by using `fmt.Errorf` with `%s` or `%v` (as in the past), or by implementing the [`errors.Formatter`](https://tip.golang.org/pkg/errors/#Formatter) interface.
 
+## I maintain a package that exports an error-checking predicate function. How should I adapt to the new features?
+
+Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such methods. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
+
+A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions.
+
+Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should unwrap the error yourself before passing it to `os.IsExist`.
