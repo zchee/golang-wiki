@@ -49,7 +49,7 @@ if err := frob(thing); err != nil {
 ```
 With the new error features, that code continues to work as before; the only difference is that more information is captured and displayed.
 
-Changing from `%v` to `%w` doesn't change how the error is displayed, but it does *wrap* `err`, the final argument to the `fmt.Errorf` call. Now the caller can access `err`, either by calling `Unwrap` on the returned error, or by using `[x]errors.Is` or `[x]errors.As` (which are merely convenience functions built on top of `Unwrap`).
+Changing from `%v` to `%w` doesn't change how the error is displayed, but it does wrap `err`, the final argument to the `fmt.Errorf` call. Now the caller can access `err`, either by calling `Unwrap` on the returned error, or by using `[x]errors.Is` or `[x]errors.As` (which are merely convenience functions built on top of `Unwrap`).
 
 So use `%w` if you want to expose the underlying error to your callers. Keep in mind that doing so may be exposing implementation detail that can constrain the evolution of your code. Callers can depend on the type and value of the error you're wrapping, so changing that error can now break them. For example, if your `accessDatabase` function uses Go's `database/sql` package, then it may encounter a `sql.ErrTxDone` error. If you return that error with `fmt.Errorf("accessing DB: %v", err)` then callers won't see that `sql.ErrTxtDone` is part of the error you return. But if you instead return `fmt.Errorf("accessing DB: %w", err)`, then a caller could reasonably write
 ```
@@ -91,7 +91,7 @@ Since you have no clients, you aren't constrained by backwards compatibility. Bu
 
 For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors. In general, you have to decide if a feature of your code is important for clients to know, or an implementation detail. 
 
-With errors, though, there is an intermediate choice: you can expose error details to people reading your code's error messages, without exposing the errors themselves to client code. You do that by using `fmt.Errorf` with `%s` or `%v` (as in the past), or by implementing the [`errors.Formatter`](https://tip.golang.org/pkg/errors/#Formatter) interface.
+With errors, though, there is an intermediate choice: you can expose error details to people reading your code's error messages, without exposing the errors themselves to client code. You do that by using `fmt.Errorf` with `%s` or `%v` (as in the past), or by implementing the [`errors.Formatter`](https://tip.golang.org/pkg/errors/#Formatter) interface on a custom error type.
 
 ## I maintain a package that exports an error-checking predicate function. How should I adapt to the new features?
 
