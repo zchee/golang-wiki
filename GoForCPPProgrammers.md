@@ -674,8 +674,7 @@ type Iterator interface {
 
 Note that ` Equal ` has an argument of
 type ` Iterator `.  This does not behave like a C++
-template.  See <a href='go_faq.html#t_and_equal_interface'>the<br>
-FAQ</a>.
+template.  See <a href='go_faq.html#t_and_equal_interface'>the FAQ</a>.
 
 <h2>Function closures</h2>
 
