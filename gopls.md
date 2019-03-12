@@ -29,9 +29,13 @@ First, install `gopls` by running `go install golang.org/x/tools/cmd/gopls`. We 
 },
 "go.buildOnSave": "off",
 "go.vetOnSave": "off"
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+},
 ```
 
-Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go.
+Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also runs both `gofmt` and `goimports`.
 
 ## Additional Information
 
