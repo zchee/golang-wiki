@@ -830,7 +830,7 @@ It is helpful to first review some core principles that are generally useful but
 
 The following core principles are _always_ true when the `go` tool is operating in module mode (e.g., `GO111MODULE=on`):
 
-1. A package's import path defines the identify of the package.
+1. A package's import path defines the identity of the package.
    * Packages with _different_ import paths are treated as _different_ packages.
    * Packages with the _same_ import path are treated as the _same_ package (and this is true _even if_ the VCS tags say the packages have different major versions).
 2. An import path without a `/vN` is treated as a v1 or v0 module (and this is true _even if_ the imported package has not opted in to modules and has VCS tags that say the major version is greater than 1).
