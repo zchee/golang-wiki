@@ -17,7 +17,7 @@ You need to be prepared that errors you get may be wrapped.
    if xerrors.Is(err, io.ErrUnexpectedEOF)
    ```
 
-- Checks of the form `if err == nil` need not be changed.
+   - Checks of the form `if err == nil` need not be changed.
+   - Comparisons to `io.EOF` need not be changed, because `io.EOF` should never be wrapped.
 
-- Comparisons to `io.EOF` need not be changed, because `io.EOF` should never be wrapped.
 
