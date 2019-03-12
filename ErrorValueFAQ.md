@@ -88,6 +88,8 @@ return fmt.Errorf("more info: %w", err)
 Since you have no clients, you aren't constrained by backwards compatibility. But you still need to balance two opposing considerations:
 - Giving client code access to underlying errors can help it make decisions, which can lead to better software.
 - Every error you expose becomes part of your API: your clients may come to rely on it, so you can't change it.
+
 For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors. In general, you have to decide if a feature of your code is important for clients to know, or an implementation detail. 
 
+With errors, though, there is an intermediate choice: you can expose error details to people reading your code's error messages, without exposing the errors themselves to client code. You do that by using `fmt.Errorf` with `%s` or `%v` (as in the past), or by implementing the [`errors.Formatter`](https://tip.golang.org/pkg/errors/#Formatter) interface.
 
