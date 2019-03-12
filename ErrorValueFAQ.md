@@ -28,7 +28,7 @@ You need to be prepared that errors you get may be wrapped.
   ```
   if e := &os.PathError{}; xerrors.As(err, &e)
   ```
-  - Also use this pattern to check whether an error implements an interface.
+  - Also use this pattern to check whether an error implements an interface. (This is one of those rare cases when a pointer to an interface is appropriate.)
   - Rewrite a type switch as a sequence of if-elses.
 
 ## What formatting verb should I use to display errors?
