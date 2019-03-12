@@ -288,7 +288,7 @@ It is important to keep in mind that the Go garbage collector will not interact 
 ## Common Pitfalls
 ### Struct Alignment Issues
 As Go doesn't support packed struct (e.g., structs where maximum alignment is 1 byte), you can't
-use packed C struct in Go. Even if you program passes compilation, it won't do what you want.
+use packed C struct in Go. Even if your program passes compilation, it won't do what you want.
 To use it, you have to read/write the struct as byte array/slice.
 
 Another problem is that some types has lower alignment requirement than their counterpart in Go,
