@@ -58,6 +58,32 @@ if xerrors.Is(err, sql.ErrTxDone)
 ```
 At that point, you must always return `sql.ErrTxDone` if you don't want to break your clients, even if you switch to a different database package.
 
+## How can I add context to a returned error without breaking clients?
+
+Say your code now looks like
+```
+return err
+```
+and you decide that you want to add more information to `err` before you return it. If you write
+```
+return fmt.Errorf("more info: %v", err)
+```
+then you might break your clients, because the identity of `err` is lost; only its message remains.
+
+You could instead wrap the error by using `%w`, writing
+```
+return fmt.Errorf("more info: %w", err)
+```
+This will still break clients who use `==` or type assertion to test errors. But as we discussed in the first question of this FAQ, consumers of errors should migrate to the `Is` and `As` functions. If you can be sure that your clients have done so, then it is not a breaking change to switch from
+```
+return err
+```
+to
+```
+return fmt.Errorf("more info: %w", err)
+```
+
+
 
 
 
