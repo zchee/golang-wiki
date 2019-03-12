@@ -12,7 +12,7 @@ Contributions are welcome, but since development is so active, we request that y
 
 ### Installation
 
-To begin using `gopls`, we suggest using VSCode with the Go plugin. The required settings are:
+First, install `gopls` by running `go install golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin. The required settings are:
 
 ```json
 "go.useLanguageServer": true,
