@@ -17,7 +17,7 @@ To begin using `gopls`, we suggest using VSCode with the Go plugin. The required
 ```json
 "go.useLanguageServer": true,
 "go.alternateTools": {
-     "go-langserver": "$GOPATH/bin/gopls"
+     "go-langserver": "gopls"
 }
 ```
 
