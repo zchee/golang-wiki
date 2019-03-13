@@ -7,8 +7,12 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 ## Installation
 
-First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin. The required settings are:
+First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin.
 
+Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also runs both `gofmt` and `goimports`.
+
+### Editors instructions
+* VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following settings:
 ```json
 "go.useLanguageServer": true,
 "go.alternateTools": {
@@ -29,11 +33,32 @@ First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We s
     "source.organizeImports": true,
 },
 ```
-Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also runs both `gofmt` and `goimports`.
+* Vim, through [vim-go](https://github.com/fatih/vim-go), with the following settings:
+```
+g:go_def_mode='gopls'
+```
+* Neovim, through [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), with the following configuration:
+```
+" Launch gopls when Go files are in use
+let g:LanguageClient_serverCommands = {
+       \ 'go': ['gopls']
+       \ }
+" Prevents the language client from overwhelming gopls with too many requests
+let g:LanguageClient_changeThrottle = 0.5
+" Run gofmt and goimports on save
+autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
+```
+* Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode), with the following configuration:
 
-### Editors supported
-* VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin
-* Vim, through [vim-go](https://github.com/fatih/vim-go)
+```lisp
+(use-package lsp-mode
+  :commands lsp
+  :init
+  (lsp-register-client
+   (make-lsp-client :new-connection (lsp-stdio-connection "gopls")
+                    :major-modes '(go-mode)
+                    :server-id 'gopls)))
+``` 
 
 ## Contributing
 
