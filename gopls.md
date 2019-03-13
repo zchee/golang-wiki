@@ -1,4 +1,4 @@
-`gopls` is an implementation of the Language Server Protocol (LSP) server for Go.
+`gopls` (pronounced: "go please") is an implementation of the Language Server Protocol (LSP) server for Go.
 The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details).
 
 ## Status
@@ -64,9 +64,9 @@ Contributions are welcome, but since development is so active, we request that y
 
 Please see all available issues under the [gopls label](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agopls) on the Go issue tracker. Any issue without an assignee and with the label "Suggested" is fair game - just assign yourself or comment on the issue before you begin working!
 
-## Frequently Asked Questions (FAQ)
+## FAQ
 
-- **Is `gopls` a typo?** The name has been questioned a lot, but yeah, basically the idea is that gopls works both as a language server and as a command line tool. So writing something like "gopls define" would read as "go please define", which we thought sounded kind of cool. Apparently most people aren't big fans of it though. Ref: https://go-review.googlesource.com/c/tools/+/158197/
+- **Why is it called `gopls`?** Since `gopls` works both as a language server and as a command line tool, we wanted a name that could be used as a verb. For example, `gopls check` should read as "go please check." See: [golang.org/cl/158197](https://golang.org/cl/158197).
 
 ## Additional Information
 
