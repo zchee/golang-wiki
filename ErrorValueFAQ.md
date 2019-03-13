@@ -49,7 +49,7 @@ if err := frob(thing); err != nil {
 ```
 With the new error features, that code continues to work as before; the only difference is that more information is captured and displayed.
 
-Changing from `%v` to `%w` doesn't change how the error is displayed, but it does wrap `err`, the final argument to the `fmt.Errorf` call. Now the caller can access `err`, either by calling `Unwrap` on the returned error, or by using `[x]errors.Is` or `[x]errors.As` (which are merely convenience functions built on top of `Unwrap`).
+Changing from `%v` to `%w` doesn't change how the error is displayed, but it does wrap `err`, the final argument to the `fmt.Errorf` call. Now the caller can access `err`, either by calling `Unwrap` on the returned error, or by using `errors.Is` or `errors.As` (which are merely convenience functions built on top of `Unwrap`).
 
 So use `%w` if you want to expose the underlying error to your callers. Keep in mind that doing so may be exposing implementation detail that can constrain the evolution of your code. Callers can depend on the type and value of the error you're wrapping, so changing that error can now break them. For example, if your `accessDatabase` function uses Go's `database/sql` package, then it may encounter a `sql.ErrTxDone` error. If you return that error with `fmt.Errorf("accessing DB: %v", err)` then callers won't see that `sql.ErrTxtDone` is part of the error you return. But if you instead return `fmt.Errorf("accessing DB: %w", err)`, then a caller could reasonably write
 ```
@@ -95,8 +95,8 @@ With errors, though, there is an intermediate choice: you can expose error detai
 
 ## I maintain a package that exports an error-checking predicate function. How should I adapt to the new features?
 
-Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such methods. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
+Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
 
 A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions.
 
-Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should unwrap the error yourself before passing it to `os.IsExist`.
+Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
