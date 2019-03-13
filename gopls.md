@@ -14,7 +14,7 @@ Please see all available issues under the [gopls label](https://github.com/golan
 
 ### Installation
 
-First, install `gopls` by running `go install golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin. The required settings are:
+First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin. The required settings are:
 
 ```json
 "go.useLanguageServer": true,
