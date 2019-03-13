@@ -43,8 +43,6 @@ g:go_def_mode='gopls'
 let g:LanguageClient_serverCommands = {
        \ 'go': ['gopls']
        \ }
-" Prevents the language client from overwhelming gopls with too many requests
-let g:LanguageClient_changeThrottle = 0.5
 " Run gofmt and goimports on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 ```
