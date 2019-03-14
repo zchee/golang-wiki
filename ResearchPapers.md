@@ -27,6 +27,10 @@ This page lists academic and industry research papers about Go or using Go as th
 
 ## 2018
 
+- An Analysis of Quorum-based Abstractions: A Case Study using Gorums to Implement Raft. Sebastian Pedersen, Hein Meling, and Leander Jehl. In: Proceedings of the 2018 Workshop on Advanced Tools, Programming Languages, and PLatforms for Implementing and Evaluating Algorithms for Distributed systems, ApPLIED@PODC 2018, Egham, United Kingdom, July 27, 2018. ACM, 2018.
+  - [doi:10.1145/3231104.3231957](https://doi.org/10.1145/3231104.3231957)
+  - [Raft implementation in Gorums](https://github.com/relab/raft)
+
 - Implementation and evaluation of secure and scalable anomaly-based network intrusion detection (P. Mieden)
   - [pdf](https://www.researchgate.net/publication/329815346_Implementation_and_evaluation_of_secure_and_scalable_anomaly-based_network_intrusion_detection?_iepl%5BviewId%5D=l30CNV1Mc1vme3xnwNE1OT0J&_iepl%5Bcontexts%5D%5B0%5D=projectUpdatesLog&_iepl%5BtargetEntityId%5D=PB%3A329815346&_iepl%5BinteractionType%5D=publicationTitle)
   - [code](https://github.com/dreadl0ck/netcap)
@@ -105,6 +109,9 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
 
 ## 2017
 
+- Gorums: Towards new abstractions for implementing quorum-based systems. Tormod Erevik Lea, Leander Jehl, and Hein Meling. In Kisung Lee and Ling Liu, editors, 37th IEEE International Conference on Distributed Computing Systems, ICDCS 2017, Atlanta, GA, USA, June 5-8, 2017, pages 2380--2385. IEEE Computer Society, 2017
+  - [doi:10.1109/ICDCS.2017.166](http://dx.doi.org/10.1109/ICDCS.2017.166)
+  - [Gorums on GitHub](https://github.com/relab/gorums)
 - Go-HEP: writing concurrent software with ease and Go (S. Binet)
   - [doi:10.1088/1742-6596/1085/5/052012](https://doi.org/10.1088/1742-6596/1085/5/052012)
   - [arXiV:1808.06529](https://arxiv.org/abs/1808.06529)
