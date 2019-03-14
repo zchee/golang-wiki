@@ -1516,6 +1516,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [strutil](https://github.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
   * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
+  * [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
   * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
