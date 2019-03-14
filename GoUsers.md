@@ -663,6 +663,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
 
+## Serbia
+* [Seven Bridges](https://www.sevenbridges.com/) - [github](https://github.com/sbg)
+
 ## Singapore
 * [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 * [Rate](https://rate.com.sg)
