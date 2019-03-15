@@ -33,7 +33,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
     "source.organizeImports": true
 },
 ```
-* Vim, through [vim-go](https://github.com/fatih/vim-go), with the following settings:
+* Vim, through [vim-go](https://github.com/fatih/vim-go), with the following configuration:
 ```
 g:go_def_mode='gopls'
 ```
