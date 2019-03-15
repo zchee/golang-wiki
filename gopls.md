@@ -24,13 +24,13 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
     "goToDefinition": true,
     "hover": true,
     "signatureHelp": true,
-    "goToTypeDefinition": true,
+    "goToTypeDefinition": true
 },
 "go.buildOnSave": "off",
 "go.vetOnSave": "off",
 "editor.formatOnSave": true,
 "editor.codeActionsOnSave": {
-    "source.organizeImports": true,
+    "source.organizeImports": true
 },
 ```
 * Vim, through [vim-go](https://github.com/fatih/vim-go), with the following settings:
