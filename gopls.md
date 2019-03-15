@@ -46,6 +46,21 @@ let g:LanguageClient_serverCommands = {
 " Run gofmt and goimports on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 ```
+* Vim/Neovim, though [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
+```vim
+augroup LspGo
+  au!
+  autocmd User lsp_setup call lsp#register_server({
+      \ 'name': 'go-lang',
+      \ 'cmd': {server_info->['gopls']},
+      \ 'whitelist': ['go'],
+      \ })
+  autocmd FileType go setlocal omnifunc=lsp#complete
+  "autocmd FileType go nmap <buffer> gd <plug>(lsp-definition)
+  "autocmd FileType go nmap <buffer> ,n <plug>(lsp-next-error)
+  "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
+augroup END
+```
 * Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode), with the following configuration:
 
 ```lisp
