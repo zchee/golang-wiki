@@ -12,7 +12,7 @@ First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We s
 Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also runs both `gofmt` and `goimports`.
 
 ### Editors instructions
-* VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following settings:
+* VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
 ```json
 "go.useLanguageServer": true,
 "go.alternateTools": {
