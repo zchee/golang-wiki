@@ -1196,6 +1196,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
   * [HTTPLab](https://github.com/gchaincl/httplab) - HTTPLabs let you inspect HTTP requests and forge responses.
+  * [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources
   * [stress](https://github.com/wenjiax/stress) - Replacement of ApacheBench(ab), support for transactional requests, support for command line and package references to HTTP stress testing tool.
   * [sling](https://github.com/dghubble/sling) - A Go HTTP client library for creating and sending API requests.
   * [httptail](https://github.com/smallfish/httptail) - tools push stdout/stderr to http chunked
@@ -1545,6 +1546,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gospecify](https://github.com/stesla/gospecify) - another BDD framework
   * [go-stat](https://github.com/mreiferson/go-stat) - performant instrumentation/profiling for Go
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
+  * [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible deep comparison, extends the testing package
   * [gotest.tools](https://github.com/gotestyourself/gotest.tools) - a collection of packages for writing readable tests
   * [gotestsum](https://github.com/gotestyourself/gotestsum) - a test runner with customizable and colored output
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
