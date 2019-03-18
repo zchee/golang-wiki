@@ -100,3 +100,13 @@ Your package has a function or method `IsX(error) bool` that reports whether an 
 A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions.
 
 Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
+
+So we recommend:
+- Don't change your `IsX(error) bool` function.
+- If you don't already have one, add a global variable whose type implements `error` that represents the 
+  condition that your function tests:
+  ```
+  var ErrX = errors.New("has property X")
+  ```
+- Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
+  equals `ErrX`.
