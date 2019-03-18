@@ -27,6 +27,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Jon Calhoun's Blog](https://www.calhoun.io/)
 * [Inanc Gumus's Learn Go Programming Blog](https://blog.learngoprogramming.com)
 * [Elliot Forbes - TutorialEdge.net Golang Tutorials](https://tutorialedge.net/course/golang/)
+* [Timo Savola's Go Posts](http://savo.la/go)
 
 ## Portuguese
 
