@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Tony Mottaz, "[Go generic types and import injection](https://gist.github.com/awmottaz/4c63c4f2067a265fac2cd8cc46e25404)", March 2019
+
 - Gustavo Bittencourt, "[Contracts only for Generic Types](https://gist.github.com/gbitten/9faf20886728d3750e106e352c31f0e9)", March 2019
 
 - David Heuschmann, "[Problems With Using Parantheses for Type Argument Lists](https://gist.github.com/dddent/6e4a7490f80cb427c0e910ebca5c3468)", February 2019
