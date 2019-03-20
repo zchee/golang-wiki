@@ -111,3 +111,28 @@ So we recommend:
   ```
 - Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
   equals `ErrX`.
+
+## I have a type that implements `error` and holds a nested error. How should I adapt it to the new features?
+
+If your type already exposes the error, write an `Unwrap` method.
+
+For example, perhaps your type looks like
+```
+type MyError struct {
+    Err error   
+    // other fields
+}
+
+func (e *MyError) Error() string { return ... }
+```
+
+Then you should add
+```
+func (e *MyError) Unwrap() error { return e.Err }
+```
+
+Your type will then work correctly with the `Is` and `As` functions of `errors` and `xerrors`.
+
+We've done that for [`os.PathError`](https://tip.golang.org/pkg/os/#PathError.Unwrap) and other, similar types in the standard library. 
+
+It's clear that writing an `Unwrap` method is the right choice if the nested error is exported, or otherwise visible to code outside your package, such as via a method like `Unwrap`.  But if the nested error is not exposed to outside code, you probably should keep it that way. Making the error visible by returning it from `Unwrap` will enable your clients to depend on the type of the nested error, which can expose implementation details and constrain the evolution of your package. See the discussion of `%w` above for more.
