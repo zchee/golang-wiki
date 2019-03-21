@@ -326,7 +326,6 @@
   * [ZopSmart](https://zopsmart.com/)
 
 ## Indonesia
-  * [Jayawan](https://jayawan.com)
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bhinneka](http://www.bhinneka.com/)
@@ -348,7 +347,6 @@
   * [Koinworks](https://koinworks.com) - P2P Lending Platform.
   * [Korina](http://sewamobilsolo.net)
   * [Kudo](https://kudo.co.id)
-  * [Property Cileungsi](https://jayawan.co.id)
   * [kumparan](https://kumparan.com)
   * [Kurio](https://kurio.co.id)
   * [Lazada](http://www.lazada.co.id)
