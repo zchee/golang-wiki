@@ -348,6 +348,7 @@
   * [Koinworks](https://koinworks.com) - P2P Lending Platform.
   * [Korina](http://sewamobilsolo.net)
   * [Kudo](https://kudo.co.id)
+  * [Property Cileungsi](https://jayawan.co.id)
   * [kumparan](https://kumparan.com)
   * [Kurio](https://kurio.co.id)
   * [Lazada](http://www.lazada.co.id)
