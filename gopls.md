@@ -61,6 +61,12 @@ augroup LspGo
   "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
 augroup END
 ```
+* Vim, through [ale](https://github.com/w0rp/ale):
+```vim
+" This works but is not officially supported
+let g:ale_go_bingo_executable = 'gopls'
+```
+see [this issue](https://github.com/w0rp/ale/issues/2179)
 * Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode), with the following configuration:
 
 ```lisp
