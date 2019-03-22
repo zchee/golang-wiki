@@ -26,7 +26,7 @@ You need to be prepared that errors you get may be wrapped.
   ```
   becomes
   ```
-  var e *s.PathError
+  var e *os.PathError
   if xerrors.As(err, &e)
   ```
   - Also use this pattern to check whether an error implements an interface. (This is one of those rare cases when a pointer to an interface is appropriate.)
