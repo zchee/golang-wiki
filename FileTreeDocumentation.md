@@ -1,112 +1,125 @@
-# Go project directory layout
+This wiki page documents the file tree for a source installation of go1.9.2 to which have been added the github.com/golang blog, net and tools sub-repositories, and the github.com/gonum/gonum repository. It is somewhat consistent with the file tree of the golang.org/dl pre-compiled downloads for GNU/Linux. It presumes the reader is familiar with utilisation of $GOPATH on Un*x as a colon-separated string; GNU/Linux being a multi-user OS the added sub-repositories and repository are located in $HOME/go and /usr/share/gocode.
 
-The Go project itself contains a number of subdirectories. This document will provide a brief overview, but many of these directories have individual README.md or README files that describe their purpose in detail. 
+```
+% tree -d -L 2 /usr/lib/go1.9.2 | head
+/usr/lib/go1.9.2
+`-- go
+    |-- api
+    |-- bin
+    |-- doc
+    |-- lib
+    |-- misc
+    |-- pkg
+    |-- src
+    `-- test
+%
+```
 
-- [api](#api)
-- [bin](#bin)
-- [blog](#blog)
-- [doc](#doc)
-- [lib](#lib)
-- [misc](#misc)
-    - [android](#miscandroid)
-    - [arm](#miscarm)
-    - [cgo](#misccgo)
-    - [chrome](#miscchrome)
-    - [git](#miscgit)
-    - [ios](#miscios)
-    - [linkcheck](#misclinkcheck)
-    - [nacl](#miscnacl)
-    - [sortac](#miscsortac)
-    - [swig](#miscswig)
-    - [tour](#misctour)
-    - [trace](#misctrace)
-- [pkg](#pkg)
-    - [include](#pkginclude)
-    - [obj](#pkgobj)
-    - [tool](#pkgtool)
-- [src](#src)
-- [test](#test)
+api contains data for Go's API checker
 
-## api
+```
+% ls $GOROOT/api
+README     go1.1.txt  go1.3.txt  go1.5.txt  go1.7.txt go1.9.txt  next.txt
+except.txt  go1.2.txt  go1.4.txt  go1.6.txt  go1.8.txt go1.txt
+%
+```
 
-The `api` directory contains machine checkable specifications for the Go standard library, to help enforce the [Go 1 compatibility promise](https://golang.org/doc/go1compat).
+bin contains the go and gofmt executables
 
-## bin
+```
+% ls -l $GOROOT/bin
+total 7588
+-rwxr-xr-x 1 root root 5918348 Oct 31 16:06 go
+-rwxr-xr-x 1 root root 1831140 Oct 31 16:06 gofmt
+%
+```
 
-The `bin` directory contains the binaries of the project: `go`, `godoc`, and `gofmt`.
+doc contains .css, .go, .html, .js, and .png files
 
-## blog
+lib contains the compressed time zone database
 
-The `blog` directory contains the source and templates for [the Go blog](https://blog.golang.org/). However, the code for serving the blog is at https://godoc.org/golang.org/x/blog
+```
+% tree $GOROOT/lib | head -n 5
+/usr/lib/go1.9.2/go/lib
+`-- time
+|-- README
+|-- update.bash
+`-- zoneinfo.zip
+%
+```
 
-## doc
+misc/android contains information on development for android<br/>
+misc/arm contains a script for executing go binaries on android<br/>
+misc/cgo contains tests and examples of cgo<br/>
+misc/chrome contains a Chrome extension<br/>
+misc/git contains a pre-commit hook<br/>
+misc/ios contains information on cross compiling for iOS<br/>
+misc/linkcheck contains a program checking links on the godoc website<br/>
+misc/nacl contains Go's integration with nacl, used by the Go playground<br/>
+misc/sortac contains a utility for sorting the AUTHORS and CONTRIBUTORS files<br/>
+misc/swig contains examples of using Go with SWIG<br/>
+misc/trace contains a generated file used by go tool trace
 
-The `doc` directory contains the resources served at https://golang.org/doc/
+```
+% tree -d -L 1 $GOROOT/misc | head -n 12
+/usr/lib/go1.9.2/go/misc
+|-- android
+|-- arm
+|-- cgo
+|-- chrome
+|-- git
+|-- ios
+|-- linkcheck
+|-- nacl
+|-- sortac
+|-- swig
+`-- trace
+%
+```
 
-## lib
+pkg contains libs, header files, compiled object files, and executables
 
-The `lib` directory contains a single subdirectory `lib/time` which contains a copy of the time zone database that Go uses if it cannot find the operating systems copy.
+```
+% tree -d -L 1 $GOROOT/pkg | head -n 7
+/usr/lib/go1.9.2/go/pkg
+|-- bootstrap
+|-- include
+|-- linux_386
+|-- linux_386_dynlink
+|-- obj
+`-- tool
+%
+```
 
-## misc
+test contains tests of the Go tool chain and runtime
 
-### misc/android
+the github.com/golang net and tools sub-repositories and github.com/gonum/gonum repository can be located in /usr/share/gocode, utilising the following commands
 
-### misc/arm
+```
+% su -c tcsh
+Password:
+# setenv GOPATH /usr/share/gocode
+# go get -u golang.org/x/tools/...
+# go get -u gonum.org/v1/gonum/...
+# find $GOPATH -print0 | xargs -0 file | grep "executable" | grep ELF \
+? | cut -f 1 -d : | xargs strip --strip-unneeded
+# exit
+%
+```
 
-### misc/cgo
+to compile Go code with the libraries in /usr/share/gocode you must add the location to $GOPATH
 
-The `misc/cgo` directory contains tests and examples of cgo.
+```
+% setenv GOPATH $HOME/go:/usr/share/gocode
+% go get -u golang.org/x/blog
+package golang.org/x/blog: no Go files in /home/eric/go/src/golang.org/x/blog
+% cd go/src/golang.org/x/blog/blog
+% go build
+% mv blog $HOME/go/bin
+%
+```
 
-### misc/chrome
+this page utilises the C shell as [Setting GOPATH](https://github.com/golang/go/wiki/SettingGOPATH) doesn't include that shell
 
-The `misc/chrome` directory contains a Chrome extension for Go contributors.
-
-### misc/git
-
-The `misc/git` directory contains a pre-commit hook to ensure that go files have been run through gofmt.
-
-### misc/ios
-
-### misc/linkcheck
-
-The `misc/linkcheck` directory contains a program for ensuring there are no missing links in the godoc website.
-
-### misc/nacl
-
-The `misc/nacl` directory contains Go's integration with nacl, which is used by [the Go playground](https://play.golang.org).
-
-### misc/sortac
-
-The `misc/sortac` directory contains a utility for sorting the `AUTHORS` and `CONTRIBUTORS` files.
-
-### misc/swig
-
-The `misc/swig` directory contains examples of using Go with [SWIG](https://github.com/swig/swig).
-
-### misc/tour
-
-The `misc/tour` directory contains the resources and source code for the [Go tour](https://tour.golang.org).
-
-### misc/trace
-
-The `misc/trace` directory contains a generated file used by `go tool trace`.
-
-## pkg
-
-The `pkg` directory contains platform-specific build artifacts. It will always contain the following:
-
-### pkg/include
-
-### pkg/obj
-
-### pkg/tool
-
-The `pkg/tool` directory contains the platform-specific tool chain exposed by the `go tool` command.
-
-## src
-
-The `src` directory contains the source code for the standard library and, in `src/cmd`, tool chain.
-
-## test
-
-The `test` directory contains extensive additional tests for the runtime and tool chain.
+for information on running the blog server see [Go Blog](https://github.com/golang/blog); those instructions might be more comprehensive being edited, but for Un*x just omit the .exe
+file extension
