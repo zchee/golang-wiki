@@ -1441,6 +1441,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [sortutil](https://github.com/cznic/sortutil) - Utilities supplemental to the Go standard "sort" package
   * [tarjan](http://github.com/looplab/tarjan) - Graph loop detection function based on Tarjan's algorithm
   * [timsort](https://github.com/psilva261/timsort) - Fast, stable sort, uses external comparator or sort.Interface
+  * [bubble-sort](https://git.darknebu.la/Algorithms/sort/src/branch/master/bubble-sort)
+  * [cocktail-shaker-sort](https://git.darknebu.la/Algorithms/sort/src/branch/master/cocktail-shaker-sort)
 
 ## Source Code Management
 
