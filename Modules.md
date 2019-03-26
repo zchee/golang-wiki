@@ -24,6 +24,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
    * [How to Upgrade and Downgrade Dependencies](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies)
    * [How to Prepare for a Release (All Versions)](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release)
    * [How to Prepare for a Release (v2 or Higher)](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher)
+   * [Publishing a Release](https://github.com/golang/go/wiki/Modules#publishing-a-release)
 * [Migrating to Modules](https://github.com/golang/go/wiki/Modules#migrating-to-modules)
 * [Additional Resources](https://github.com/golang/go/wiki/Modules#additional-resources)
 * [Changes Since the Initial Vgo Proposal](https://github.com/golang/go/wiki/Modules#changes-since-the-initial-vgo-proposal)
@@ -371,8 +372,6 @@ Some current suggested best practices to consider prior to tagging a release:
 
 * Ensure your `go.sum` file is committed along with your `go.mod` file. See [FAQ below](https://github.com/golang/go/wiki/Modules#should-i-commit-my-gosum-file-as-well-as-my-gomod-file) for more details and rationale. 
 
-Your new module release becomes available to consumers once you push the new release tags.
-
 ### Releasing Modules (v2 or Higher)
 
 If you are releasing a v2 or higher module, please first review the discussion in the ["Semantic Import Versioning" ](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above, which includes why major versions are included in the module path and import path for v2+ modules, as well as how Go versions 1.9.7+ and 1.10.3+ have been updated to simplify that transition.
@@ -392,6 +391,16 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
    * A more sophisticated approach here could exploit type aliases (introduced in Go 1.9) and forwarding shims between major versions residing in different subdirectories.  This can provide additional compatibility and allow one major version to be implemented in terms of another major version, but would entail more work for a module author. An in-progress tool to automate this is `goforward`. Please see [here](https://golang.org/cl/137076) for more details and rationale, along with a functioning initial version of `goforward`.
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
+
+### Publishing a release
+
+A new module version may be published by pushing a tag to the repository that contains the module source code. The tag is formed by concatenating two strings: a *prefix* and a *version*.
+
+The *version* is the semantic import version for the release. It should be chosen by following the rules of [semantic import versioning](#semantic-import-versioning).
+
+The *prefix* indicates where a module is defined within a repository. If the module is defined at the root of the repository, the prefix is empty, and the tag is just the version. However, in [multi-module repositories](#faqs--multi-module-repositories), the prefix distinguishes versions for different modules. The prefix is the directory within the repository where the module is defined. If the repository follows the major subdirectory pattern described above, the prefix does not include the major version suffix.
+
+For example, suppose we have a module `example.com/repo/sub/v2`, and we want to publish version `v2.1.6` The repository root corresponds to `example.com/repo`, and the module is defined in `sub/v2/go.mod` within the repository. The prefix for this module is `sub/`. The full tag for this release should be `sub/v2.1.6`.
 
 ## Migrating to Modules
 
