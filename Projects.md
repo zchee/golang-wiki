@@ -805,7 +805,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [orb](https://github.com/paulmach/orb) - 2d geometry manipulation (length, area, polygon contains, etc.) with geojson, wkb, mvt support
   * [osm](https://github.com/paulmach/osm) - General purpose library for reading, writing and working with OpenStreetMap data
   * [UTM](https://github.com/im7mortal/UTM) - Bidirectional UTM-WGS84 converter
-
+  * [gdal](https://github.com/lukeroth/gdal) - Provides a go wrapper for GDAL
 ## Go Implementations
 
   * [llgo](http://llvm.org/klaus/llgo) - LLVM-based Go compiler, written in Go
