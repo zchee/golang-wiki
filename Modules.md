@@ -400,7 +400,7 @@ The *version* is the semantic import version for the release. It should be chose
 
 The *prefix* indicates where a module is defined within a repository. If the module is defined at the root of the repository, the prefix is empty, and the tag is just the version. However, in [multi-module repositories](#faqs--multi-module-repositories), the prefix distinguishes versions for different modules. The prefix is the directory within the repository where the module is defined. If the repository follows the major subdirectory pattern described above, the prefix does not include the major version suffix.
 
-For example, suppose we have a module `example.com/repo/sub/v2`, and we want to publish version `v2.1.6` The repository root corresponds to `example.com/repo`, and the module is defined in `sub/v2/go.mod` within the repository. The prefix for this module is `sub/`. The full tag for this release should be `sub/v2.1.6`.
+For example, suppose we have a module `example.com/repo/sub/v2`, and we want to publish version `v2.1.6`. The repository root corresponds to `example.com/repo`, and the module is defined in `sub/v2/go.mod` within the repository. The prefix for this module is `sub/`. The full tag for this release should be `sub/v2.1.6`.
 
 ## Migrating to Modules
 
