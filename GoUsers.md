@@ -566,7 +566,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Mexico
   * [Segundamano](https://www.segundamano.mx/)
-  * [Entropy](https://entropy.tech)
+  * [Entropy](https://entropy.tech) - Ecommerce Marketing Optimization Platform.
   
 ## Middle East 
   * [aspros Wallet](http://asprosinstant.money/) ([Video](https://www.youtube.com/watch?v=BmsQYZpz1Ws))
