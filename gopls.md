@@ -91,9 +91,11 @@ Please see all available issues under the [gopls label](https://github.com/golan
 
 ## Integrator FAQ
 
-What follows is a list of questions/ideas/suggestions for folks looking to integrate `gopls` within an editor/similar:
+What follows is a list of questions/ideas/suggestions for folks looking to integrate `gopls` within an editor/similar. 
 
-* **What does `gopls` support?** - the most accurate answer to this question is to examine the `InitializeResult` response to [`Initialize`](https://microsoft.github.io/language-server-protocol/specification#initialize), specifically the `capabilities` field of type `ServerCapabilities`
+A good starting point for any integrator is the [Language Service Protocol Specification](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md). [`golang.org/x/tools/internal/lsp/protocol`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol) represents a Go definition of the spec. 
+
+* **What does `gopls` support?** - the most accurate answer to this question is to examine the `InitializeResult` response to [`Initialize`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#initialize-request-leftwards_arrow_with_hook), specifically the `capabilities` field of type `ServerCapabilities`
 
 ## Additional Information
 
