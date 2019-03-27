@@ -89,6 +89,12 @@ Please see all available issues under the [gopls label](https://github.com/golan
 
 - **Why is it called `gopls`?** Since `gopls` works both as a language server and as a command line tool, we wanted a name that could be used as a verb. For example, `gopls check` should read as "go please check." See: [golang.org/cl/158197](https://golang.org/cl/158197).
 
+## Integrator FAQ
+
+What follows is a list of questions/ideas/suggestions for folks looking to integrate `gopls` within an editor/similar:
+
+* **What does `gopls` support?** - the most accurate answer to this question is to examine the `InitializeResult` response to [`Initialize`](https://microsoft.github.io/language-server-protocol/specification#initialize), specifically the `capabilities` field of type `ServerCapabilities`
+
 ## Additional Information
 
 Questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat). For consistent updates on the development progress of gopls, see the notes from the golang-tools meetings (https://github.com/golang/go/wiki/golang-tools).
