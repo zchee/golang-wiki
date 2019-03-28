@@ -597,6 +597,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
   * [Pointer Brand Protection](http://pointerbrandprotection.com)
   * [Sentia](https://sentia.com/nl/)
+  * [Bubble Shooter](https://www.bubbleshooter.net/)
   * [The Things Network](http://thethingsnetwork.org/) - [github](https://github.com/TheThingsNetwork/)
   * [Travix International](https://www.travix.com/)- [github](https://github.com/Travix-International)
   * [Ultraware](https://www.ultraware.nl)
