@@ -123,6 +123,19 @@ $ tar -C $GOPATH/src/ -zc golang.org/x/sys/unix | gomote puttar -dir=gopath/src 
 $ gomote run -e 'GOPATH=/tmp/workdir/gopath' $MOTE go/bin/go test -v golang.org/x/sys/unix
 ```
 
+### Android
+
+```
+export MOTE=`gomote create android-arm64-wikofever`
+gomote push $MOTE
+gomote run $MOTE go/src/make.bash
+```
+PATH must contain the exec wrapper, go_android_*_exec, built by make.bash.
+
+```
+gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/bin/go test math/big
+```
+
 ## About Buildlets
 
 http://farmer.golang.org/builders lists information about how each buildlet is deployed and configured.
