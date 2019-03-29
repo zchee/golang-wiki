@@ -1588,6 +1588,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in golang
   * [forego](https://github.com/unixdj/forego) - Forth virtual machine  
   * [Gelo](http://code.google.com/p/gelo/) - Extensible, embeddable interpreter
+  * [Gentee](https://github.com/gentee/gentee/) - Embeddable scripting programming language
   * [GoAwk](https://github.com/benhoyt/goawk) - An implementation of awk in golang.
   * [GoBASIC](https://github.com/skx/gobasic) - An embeddable BASIC interpreter written in golang.
   * [GoEmPHP](https://github.com/mikespook/goemphp) - This package is built for Embedding PHP into Go
