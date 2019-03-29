@@ -1183,6 +1183,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
   * [Vungle](http://www.vungle.com) - [shared libs, OpenRTB, VAST, etc](https://github.com/Vungle/vungo)
+  * [Wasabi](https://wasabi.com/)
   * [Weave](http://www.getweave.com)
   * [Weaveworks](http://weave.works)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
