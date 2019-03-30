@@ -1,4 +1,4 @@
-### # Indexes and search engines
+# Indexes and search engines
 
 These sites provide indexes and search engines for Go packages:
 
