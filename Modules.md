@@ -249,7 +249,7 @@ This section so far has been focused on code that has opted in to modules and im
 
 2. **'+incompatible' when importing non-module v2+ packages**
 
-    A module can import a v2+ package that has not opted in to modules itself. A non-module v2+ package that has a valid v2+ [semver](https://semver.org) tag will be recorded with an `+incompatible` suffix in the importing module's `go.mod` file. The `+incompatible` suffix indicates that even though the v2+ package has a valid v2+ [semver](semver.org) tag such as `v2.0.0`, the v2+ package has not actively opted in to modules and hence that v2+ package is assumed to have _not_ been created with an understanding of the implications of Semantic Import Versioning and how to use major versions in import paths. Therefore, when operating in [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior), the `go` tool will treat a non-module v2+ package as an (incompatible) extension of the v1 version series of the package and assume the package has no awareness of Semantic Import Versioning, and the `+incompatible` suffix is an indication that the `go` tool is doing so. 
+    A module can import a v2+ package that has not opted in to modules itself. A non-module v2+ package that has a valid v2+ [semver](https://semver.org) tag will be recorded with an `+incompatible` suffix in the importing module's `go.mod` file. The `+incompatible` suffix indicates that even though the v2+ package has a valid v2+ [semver](https://semver.org) tag such as `v2.0.0`, the v2+ package has not actively opted in to modules and hence that v2+ package is assumed to have _not_ been created with an understanding of the implications of Semantic Import Versioning and how to use major versions in import paths. Therefore, when operating in [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior), the `go` tool will treat a non-module v2+ package as an (incompatible) extension of the v1 version series of the package and assume the package has no awareness of Semantic Import Versioning, and the `+incompatible` suffix is an indication that the `go` tool is doing so. 
 
 3. **"Minimal module compatibility" when module mode is not enabled**
     
@@ -830,7 +830,7 @@ Please see the next FAQs for additional details related to v2+ packages that hav
 
 ### Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?
  
-Yes, a module can import a v2+ package that has not opted into modules, and if the imported v2+ package has a valid [semver](semver.org) tag, it will be recorded with an `+incompatible` suffix.
+Yes, a module can import a v2+ package that has not opted into modules, and if the imported v2+ package has a valid [semver](https://semver.org) tag, it will be recorded with an `+incompatible` suffix.
 
 **Additional Details**
 
