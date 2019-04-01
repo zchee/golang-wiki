@@ -238,7 +238,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Eduard Urbach, "[Type-casting interface{} to chan interface{}](https://github.com/blitzprog/go-channel-type-casting)", October 2017
 - David Vennik, "[Unjumbling Golang OOP primitives](https://gist.github.com/l0k1verloren/344956daedb434094e9af2c21ff9376c)", April 20, 2018 - The problem of the lack of structuring in OOP primitives - dummy functions and redundant boilerplate type bindings.
 - Jelte Fennema, "[Fixing the billion dollar mistake in Go by borrowing from Rust](https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/)", June 14, 2018 - Nil pointer dereferences cause panics in production - it would be great if the type system would catch some of those.
-  - Mike Schinkel, "[On Typing Strings in Go _(More Constrained vs. Less Constrained)_](https://mikeschinkel.me/2019/on-typing-strings-in-go/), March 2019, Discusses how the benefits of creating types derived from basic types is often outweighed by the need to use constant type-casting in contexts where said type casting provides no extra type safety, i.e. when casting to a less-constrained otherwise-identical type.
+- Mike Schinkel, "[On Typing Strings in Go _(More Constrained vs. Less Constrained)_](https://mikeschinkel.me/2019/on-typing-strings-in-go/), March 2019, Discusses how the benefits of creating types derived from basic types is often outweighed by the need to use constant type-casting in contexts where said type casting provides no extra type safety, i.e. when casting to a less-constrained otherwise-identical type.
 
 ## Typed nils
  
