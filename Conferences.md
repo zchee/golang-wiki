@@ -14,6 +14,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Go Conference Tokyo | 2019-05-18 | Tokyo, Japan | https://gocon.jp/<br> CFP: https://www.papercall.io/gocon-tokyo-2019 |
 | GoCon Canada | 2019-05-31 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/goconca |
 | GopherCon Europe | 2019-06-01-05-30 | Tenerife, Canary Islands, Spain | https://www.gophercon.es <br> CFP: https://www.papercall.io/gophercon-eu-2019|
+| GoGoConf | 2019-06-14 | Krakow, Poland | https://www.gogoconf.rocks <br> CFP: https://www.papercall.io/gogoconf |
 | Gophercon Poland | 2019-06-27 | Gdansk, Poland | https://twitter.com/GopherConPL <br> CFP: https://eventil.com/events/GopherConPL/cfp |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
