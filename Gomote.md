@@ -144,7 +144,7 @@ The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 ## Access token
 
-To get an access token, you will need to ask one of the editors of the `golang-org` Google Cloud project to provide you with the hash reported by the page at `https://build-dot-golang-org.appspot.com/key?builder=user-$USER`, where `USER` is your username.  Write the resulting token to the gomote config file, as in this hypothetical example: 
+To get an access token, you will need to ask one of the editors of the `golang-org` Google Cloud project (TODO: how do I found out who those people are?) to provide you with the hash reported by the page at `https://build-dot-golang-org.appspot.com/key?builder=user-$USER`, where `USER` is your username.  Write the resulting token to the gomote config file, as in this hypothetical example: 
 
 ```
 $ echo d41d8cd98f00b204e9800998ecf8427e > $HOME/.config/gomote/user-$USER.token
