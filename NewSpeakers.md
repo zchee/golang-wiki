@@ -21,16 +21,7 @@ Here are some good blog posts with tips for writing conference talk proposals:
 - “[What your conference proposal is missing](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)” by Sarah Mei
 
 Elsewhere on the wiki, we maintain a list of [upcoming conferences](Conferences) with links to CFPs.
-The same page also lists past conferences with links to talk videos.
-
-Right now, these conferences are looking for new speakers:
-
-- [GopherCon Singapore](https://www.papercall.io/gopherconsg-2018), May 4, 2018. Proposals due February 28.
-- [GopherCon Iceland](https://www.papercall.io/gophercon-iceland), June 1-2, 2018. Proposals due March 3.
-- [GopherCon, Denver](https://www.papercall.io/gophercon2018), August 28-29, 2018. Proposals due March 15.
-- [GoLab, Italy](https://www.papercall.io/golab2018), October 22-23, 2018. Proposals due April 4.
-
-They welcome speakers of all experience levels and backgrounds!
+The same page also lists past conferences with links to talk videos. These conferences welcome speakers of all experience levels and backgrounds!
 
 ## Contact Us
 
