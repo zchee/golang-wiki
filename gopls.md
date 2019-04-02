@@ -49,7 +49,7 @@ let g:LanguageClient_serverCommands = {
 " Run gofmt and goimports on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 ```
-* Vim/Neovim, though [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
+* Vim/Neovim, through [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
 ```vim
 augroup LspGo
   au!
