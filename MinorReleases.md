@@ -1,4 +1,4 @@
-Our default decision should always be to not backport, but fixes for **security issues**, **serious problems with no workaround**, and **documentation fixes** are backported to the two supported major releases. For example a fix developed during the 1.11 cycle will be backported to a 1.9.x (if applicable) and 1.10.x release. Fixes for experimental ports are generally not backported.
+Our default decision should always be to not backport, but fixes for **security issues**, **serious problems with no workaround**, and **documentation fixes** are backported to the most recent two release branches, if applicable to that branch. (for example, the most current two release branches are `release-branch.go1.11` and `release-branch.go1.12`, from which new `Go 1.11.x` and `Go 1.12.x` releases are cut) Fixes for experimental ports are generally not backported.
 
 A “serious” problem is one that prevents a program from working at all. "Use a more recent stable version" is a valid workaround, so very few fixes will be backported to both previous issues.
 
