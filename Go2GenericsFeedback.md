@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Ole Bulbuk, "[Why Go Contracts Are A Bad Idea In The Light Of A Changing Go Community](https://flowdev.github.io/2019/04/02/why-go-contracts-are-a-bad-idea-in-the-light-of-a-changing-go-community/)", April 2019
+
 - Tony Mottaz, "[Go generic types and import injection](https://gist.github.com/awmottaz/4c63c4f2067a265fac2cd8cc46e25404)", March 2019
 
 - Gustavo Bittencourt, "[Contracts only for Generic Types](https://gist.github.com/gbitten/9faf20886728d3750e106e352c31f0e9)", March 2019
