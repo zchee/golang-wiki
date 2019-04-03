@@ -101,10 +101,6 @@ JavaScript debug console, and you should see the output. You can
 modify the program, rebuild `main.wasm`, and refresh to see new
 output.
 
-# Go WebAssembly UI framework(s)
-
-An experimental new framework https://github.com/vugu/vugu[Vugu] is
-worth trying out, if you're looking for something like VueJS. :smile:
 
 # Executing WebAssembly with Node.js
 
@@ -147,10 +143,15 @@ ok  	example.org/my/pkg	0.800s
 
 See https://godoc.org/syscall/js.
 
-Alternatively, https://github.com/dennwc/dom[a library for streamlining DOM manipulation]
+Also:
+
+* An experimental new framework https://github.com/vugu/vugu[Vugu] is
+worth trying out, if you're looking for something like VueJS. :smile:
+
+* https://github.com/dennwc/dom[A library for streamlining DOM manipulation]
 is in development.
 
-There is also a https://gowebapi.github.io/[binding generator] that can be used.
+* There is a https://gowebapi.github.io/[binding generator] that can be used.
 
 
 # Editor configuration
