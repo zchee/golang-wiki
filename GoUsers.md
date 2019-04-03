@@ -999,6 +999,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
   * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
+  * [Chamoji](http://chamoji.com/) - [augmented reality](https://chamoji.com/game-chamoji)
   * [Kochava](https://www.kochava.com/)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
