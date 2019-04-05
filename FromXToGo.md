@@ -45,7 +45,6 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 
 # Java
 * [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html)
-* [A journey from C and JAVA to GOLANG](https://rbock44.wordpress.com/2015/03/30/c-java-golang/)
 * [Why one developer switched from Java to Google Go](http://www.javaworld.com/article/2459212/scripting-jvm-languages/why-one-developer-switched-from-java-to-google-go.html)
 
 # .NET
