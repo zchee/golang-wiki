@@ -21,6 +21,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 "go.languageServerExperimentalFeatures": {
     "format": true,
     "autoComplete": true,
+    "diagnostics": true,
     "goToDefinition": true,
     "hover": true,
     "signatureHelp": true,
