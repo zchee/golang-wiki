@@ -374,6 +374,7 @@
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
   * [Surabaya CCTV](http://surabayacctv.co.id/jual-cctv-surabaya-paket-cctv-murah)
   * [Tokopedia](http://tokopedia.com)
+  * [Tech in Asia Indonesia] (https://id.techinasia.com)
   * [Valutac](https://valutac.com)
 
 ## Iraq
