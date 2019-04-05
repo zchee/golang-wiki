@@ -36,3 +36,10 @@ sudo apt-get install golang-go
 ```
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.12` instead and use the binaries from `/usr/lib/go-1.12/bin`.**
+
+## Bug noted in Ubuntu golang-1.12-go release:
+```
+Package: golang-1.12-go
+Version: 1.12-1longsleep2+xenial
+```
+See https://github.com/vugu/vugu/issues/33 for details and a fix.
