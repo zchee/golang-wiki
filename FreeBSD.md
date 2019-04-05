@@ -5,7 +5,7 @@
 | 13-CURRENT         | amd64, arm, 386   |                             |                           |
 | 12-STABLE          | amd64, arm, 386   | Go 1.12 _**_                |                           |
 | 11-STABLE          | amd64, arm, 386   | Go 1.7                      |                           |
-| 10-STABLE (EOL)    | amd64, arm, 386   | Go 1.3 _*_                  | Go 1.12.1                 |
+| 10-STABLE (EOL)    | amd64, arm, 386   | Go 1.3 _*_                  | Go 1.12.2                 |
 | 9-STABLE (EOL)     | amd64, 386        | Go 1 _*_                    | Go 1.9.7                  |
 | 8-STABLE (EOL)     | amd64, 386        | Go 1 _*_                    | Go 1.9.7                  |
 | 7-STABLE (EOL)     | amd64, 386        | Go 1                        | Go 1.1.2                  |
