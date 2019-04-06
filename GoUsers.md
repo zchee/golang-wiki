@@ -551,14 +551,17 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
 
 ## Korea (South)
+  * [ComTrue Technologies](http://comtrue.com/) - Network Packet Analyzer
   * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
-  * [Quicket](http://m.bunjang.co.kr) - Image Proxy, Push, Messenger
-  * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [FlyHigh](http://flyhigh-x.com/en/) - Information Security Solution
   * [KonaCard](http://www.konacard.co.kr/) - Payment Service
+  * [Lazypic](https://lazypic.org) - Create Contents Groups with Opensource Tools
   * [NHN Entertainment](http://nhnent.com/)
-    * [Toast Cloud](https://toast.com/) - Public Cloud Service
-  * [ComTrue Technologies](http://comtrue.com/) - Network Packet Analyzer
+  * [Quicket](http://m.bunjang.co.kr) - Image Proxy, Push, Messenger
+  * [Toast Cloud](https://toast.com/) - Public Cloud Service
+  * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
+
+
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
