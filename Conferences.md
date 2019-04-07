@@ -6,8 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu<br>CFP https://docs.google.com/forms/d/e/1FAIpQLSfJjXZDjdvJKTKUz_HedK9oJt_sh9MN57GIm_7H0MfDnd4wOA/viewform?c=0&w=1 |
-| CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | https://2019.codefest.ru/speakers/en/ |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon Singapore 2019 | 2019-05-03 | Singapore | https://2019.gophercon.sg/<br>CFP: https://www.papercall.io/gopherconsg2019 |
@@ -29,6 +27,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | |
+| dotGo 2019 | 2019-03-25 | Paris, France | |
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/ |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/ |
