@@ -10,6 +10,7 @@
   * [cyberstorm.mu](https://cyberstorm.mu/) - Mauritius
 
 # Asia
+* [Golang ِArabic Community](https://www.facebook.com/groups/111860102810970/)
 * [Golang Azerbaijan](https://www.facebook.com/groups/852343094928521/) - Baku, Azerbaijan 🇦🇿
 * [Golang Iraq](https://www.facebook.com/groups/go.iraq/) - Iraq
 - Persia
