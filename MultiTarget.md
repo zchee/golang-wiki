@@ -4,7 +4,7 @@ Sometimes, for performance or compatibility reasons, custom code needs to be wri
 
 1. **Minimize code in tagged files.** As much code as possible should build for every target. In particular, <u>the generic Go implementation must build also for targets that have an optimized implementation</u>. This is critical for testing the optimized code against the generic Go, and makes it quicker to notice some build failures. The linker will drop unused code from final binaries.
 
-2. **Name files after their tags**, like `poly1305_amd64.go`. Remember that if a file ends in `_$GOARCH.go`, that counts as a build tag.
+2. **Name files after their tags**, like `poly1305_amd64.go`. Remember that if a file ends in `_$GOARCH.go`, that counts as a build tag. `_noasm.go` is also a good suffix.
 
 3. **No exported functions in tagged files.** Exported functions define the public API and its documentation, which must be the same across all targets. Having exported functions repeated in each target-specific file makes it likely for them to get out of sync. The mid-stack inliner will probably take care of some of the performance cost.
 
