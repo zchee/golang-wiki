@@ -36,7 +36,7 @@ func sumGeneric(out *[16]byte, m []byte, key *[32]byte) {
 poly1305_amd64.go
 
 ```go
-// +build amd64,!gccgo,!appengine
+// +build amd64,!gccgo
 
 package poly1305
 
@@ -47,7 +47,7 @@ func sum(out *[16]byte, m []byte, key *[32]byte)
 poly1305_amd64.s
 
 ```
-// +build amd64,!gccgo,!appengine
+// +build amd64,!gccgo
 
 // func sum(out *[16]byte, m []byte, key *[32]byte)
 TEXT ·sum(SB), $0-128
@@ -57,7 +57,7 @@ TEXT ·sum(SB), $0-128
 poly1305_noasm.go
 
 ```go
-// +build !amd64 gccgo appengine
+// +build !amd64 gccgo
 
 package poly1305
 
