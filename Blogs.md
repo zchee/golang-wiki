@@ -2,6 +2,10 @@ A set of blogs dedicated to Go.
 
 NOTE: Please don't add individual blog entries to this page. Those belong in [articles](Articles) instead.
 
+## Arabic
+
+* [لغة غو بالعربي !](https://argolang.com) - موقع عربي مخصص للغة البرمجة غو Go
+
 ## English
 
 * [The official Go Blog](https://blog.golang.org) - For in depth posts by the Go team
