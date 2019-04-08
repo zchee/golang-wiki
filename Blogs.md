@@ -4,7 +4,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 
 ## Arabic
 
-* [لغة غو بالعربي !](https://argolang.com) - موقع عربي مخصص للغة البرمجة غو Go
+* [لغة غو بالعربي](https://argolang.com) - موقع عربي مخصص للغة البرمجة غو
 
 ## English
 
