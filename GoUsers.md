@@ -659,13 +659,14 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [Gett](http://gett.com/)
 * [ITooLabs](http://itoolabs.com)
 * [Izvestia](https://iz.ru)
+* [Mail.ru](https://mail.ru/)
+* [mc² software](http://www.mc2soft.ru)
 * [OZON.ru](http://ozon.ru/)
+* [Positive Technologies](https://ptsecurity.com)
 * [PostmanQ](https://github.com/actionpay/postmanq) - High performance Mail Transfer Agent (MTA)
 * [ThetaPad](http://thetapad.com/)
-* [Tochka](http://tochka.com/)
-* [Mail.ru](https://mail.ru/)
 * [Tinkoff](https://tinkoff.ru)
-* [Positive Technologies](https://ptsecurity.com)
+* [Tochka](http://tochka.com/)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
