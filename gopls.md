@@ -121,6 +121,16 @@ i.e. it specifies only the resulting state of the document.
 
 Applying the array of deltas received in reverse order achieves the desired result that holds with the spec.
 
+#### RPC response errors
+
+https://go-review.googlesource.com/c/tools/+/170958 and related discussions are looking to help shape what it means for a server method to return an error. i.e. 
+
+* Under what conditions would the `Format` method return an error? 
+* On a syntax error, or just for low-level LSP/transport issues? 
+* What should editors do in response to such errors?
+
+This answer is therefore a WIP.
+
 ## Additional Information
 
 Questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat). For consistent updates on the development progress of gopls, see the notes from the golang-tools meetings (https://github.com/golang/go/wiki/golang-tools).
