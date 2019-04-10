@@ -55,6 +55,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Can a module consume a package that has not opted in to modules?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-package-that-has-not-opted-in-to-modules)
   * [Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-v2-package-that-has-not-opted-into-modules-what-does-incompatible-mean)
   * [How are v2+ modules treated in a build if modules support is not enabled? How does "minimal module compatibility" work in 1.9.7+, 1.10.3+, and 1.11?](https://github.com/golang/go/wiki/Modules#how-are-v2-modules-treated-in-a-build-if-modules-support-is-not-enabled-how-does-minimal-module-compatibility-work-in-197-1103-and-111)
+  * [Can a module depend on a different version of itself?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-a-different-version-of-itself)
 * [FAQs — Multi-Module Repositories](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories)
   * [What are multi-module repositories?](https://github.com/golang/go/wiki/Modules#what-are-multi-module-repositories)
   * [Should I have multiple modules in a single repository?](https://github.com/golang/go/wiki/Modules#should-i-have-multiple-modules-in-a-single-repository)
@@ -941,6 +942,18 @@ When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you
    * There are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined in full module mode to also adhere to this rule).
    * For example, if the `go` tool is in full module mode and `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`.
 
+### Can a module depend on a different version of itself?
+
+A module can depend on a different major version of itself: by-and-large, this is comparable to depending on a different module. This can be useful for different reasons, including to allow a major version of a module to be implemented as a shim around a different major version.
+
+In addition, a module can depend on a different major version of itself in a cycle, just as two completely different modules can depend on each other in a cycle.
+
+However, if you are not expecting a module to depend on a different version of itself, it can be a sign of a mistake. For example, .go code intending to import a package from a v3 module might be missing the required `/v3` in the import statement. That mistake can manifest as a v3 module depending on the v1 version of itself. 
+
+If you are surprised to see a module to depend on a different version of itself, it can be worthwhile to review the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) section above along with the FAQ ["What can I check if I am not seeing the expected version of a dependency?"](https://github.com/golang/go/wiki/Modules#what-can-i-check-if-i-am-not-seeing-the-expected-version-of-a-dependency).
+
+It continues to be a constraint that two _packages_ may not depend on each other in a cycle.
+
 ## FAQS — Multi-Module Repositories
 
 ### What are multi-module repositories?
@@ -996,14 +1009,6 @@ Two example scenarios where it can make sense to have more than one `go.mod` in 
 1. if you have usage examples where the examples themselves have a complex set of dependencies (e.g., perhaps you have a small package but include an example of using your package with kubernetes). In that case, it can make sense for your repository to have an `examples` or `_examples` directory with its own `go.mod`, such as shown [here](https://godoc.org/github.com/loov/hrtime).
 
 2. if you have a repository with a complex set of dependencies, but you have a client API with a smaller set of dependencies. In some cases, it might make sense to have an `api` or `clientapi` or similar directory with its own `go.mod`, or to separate out that `clientapi` into its own repository. However, it is still more work, and might not be useful based on your particular dependency graph.
-
-### Can a module depend on a different version of itself?
-
-A module can depend on a different major version of itself: by-and-large, this is comparable to depending on a different module. This can be useful for different reasons, including to allow a major version of a module to be implemented as a shim around a different major version.
-
-In addition, a module can depend on a different major version of itself in a cycle, just as two completely different modules can depend on each other in a cycle.
-
-However, it continues to be a constraint that two _packages_ may not depend on each other in a cycle.
 
 ### Is it possible to add a module to a multi-module repository?
 
