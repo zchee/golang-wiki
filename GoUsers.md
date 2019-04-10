@@ -86,6 +86,7 @@
   * [PagSeguro](https://pagseguro.uol.com.br)
   * [Planrockr](http://planrockr.com)
   * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
+  * [Rednaxel](https://rednaxel.com/) - [github](https://github.com/rednaxelbr/rnx)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
   * [Sage Brasil](http://www.sage.com/pt-br)
   * [ServiceNet](http://www.servicenet.com.br)
