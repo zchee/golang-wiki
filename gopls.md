@@ -39,7 +39,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 ```
 * Vim, through [vim-go](https://github.com/fatih/vim-go), with the following configuration:
 ```
-g:go_def_mode='gopls'
+let g:go_def_mode='gopls'
 ```
 * Neovim, through [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), with the following configuration:
 ```
