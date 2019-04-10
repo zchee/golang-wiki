@@ -230,9 +230,10 @@ The last sentence is especially important — if you break compatibility, you sh
 Recall [semver](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semver is called _Semantic Import Versioning_, where the major version is included in the import path — this ensures the import path changes any time the major version increments due to a break in compatibility.
 
 As a result of Semantic Import Versioning, code opting in to Go modules **must comply with these rules**: 
-* Follow [semver](https://semver.org/) (with tags such as `v1.2.3`).
 * If the module is version v2 or higher, the major version of the module _must_ be included as a `/vN` at the end of the module paths used in `go.mod` files (e.g., `module github.com/my/mod/v2`, `require github.com/my/mod/v2 v2.0.0`) and in the package import path (e.g., `import "github.com/my/mod/v2/mypkg"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
+
+Note that generally, most modules should also follow [semver](https://semver.org/) (with tags such as `v1.2.3`).
 
 In general, packages with different import paths are different packages. For example, `math/rand` is a different package than `crypto/rand`. This is also true if different import paths are due to different major versions appearing in the import path. Thus `example.com/my/mod/mypkg` is a different package than `example.com/my/mod/v2/mypkg`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
