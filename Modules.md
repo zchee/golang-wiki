@@ -31,8 +31,6 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
 * [GitHub Issues](https://github.com/golang/go/wiki/Modules#github-issues)
 * [FAQs](https://github.com/golang/go/wiki/Modules#faqs)
   * [How are versions marked as incompatible?](https://github.com/golang/go/wiki/Modules#how-are-versions-marked-as-incompatible)
-  * [Can two modules depend on each other?](https://github.com/golang/go/wiki/Modules#can-two-modules-depend-on-each-other-cyclical-import)
-  * [Can a module depend on a different version of itself?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-a-different-version-of-itself)
   * [When do I get old behavior vs. new module-based behavior?](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior)
   * [Why does installing a tool via 'go get' fail with error 'cannot find main module'?](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module)
   * [How can I track tool dependencies for a module?](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module)
@@ -59,6 +57,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [How are v2+ modules treated in a build if modules support is not enabled? How does "minimal module compatibility" work in 1.9.7+, 1.10.3+, and 1.11?](https://github.com/golang/go/wiki/Modules#how-are-v2-modules-treated-in-a-build-if-modules-support-is-not-enabled-how-does-minimal-module-compatibility-work-in-197-1103-and-111)
 * [FAQs — Multi-Module Repositories](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories)
   * [What are multi-module repositories?](https://github.com/golang/go/wiki/Modules#what-are-multi-module-repositories)
+  * [Should I have multiple modules in a single repository?](https://github.com/golang/go/wiki/Modules#should-i-have-multiple-modules-in-a-single-repository)
   * [Is it possible to add a module to a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-add-a-module-to-a-multi-module-repository)
   * [Is it possible to remove a module from a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-remove-a-module-from-a-multi-module-repository)
   * [Can a module depend on an internal/ in another?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-an-internal-in-another)
@@ -385,10 +384,12 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
    * A community tool [github.com/marwan-at-work/mod](https://github.com/marwan-at-work/mod) helps automate this procedure. See the [repository](https://github.com/marwan-at-work/mod) or the [community tooling FAQ](https://github.com/golang/go/wiki/Modules#what-community-tooling-exists-for-working-with-modules) below for an overview.
    * To avoid confusion with this approach, consider putting the `v3.*.*` commits for the module on a separate v3 branch.
    * **Note:** creating a new branch is _not_ required. If instead you have been previously releasing on master and would prefer to tag `v3.0.0` on master, that is a viable option. (However, be aware that introducing an incompatible API change in `master` can cause issues for non-modules users who issue a `go get -u` given the `go` tool is not aware of [semver](https://semver.org) prior to Go 1.11 or when [module mode](https://github.com/golang/go/wiki/Modules#when-do-i-get-old-behavior-vs-new-module-based-behavior) is not enabled in Go 1.11+).
+   * Pre-existing dependency management solutions such as `dep` currently can have problems consuming a v2+ module created in this way. See for example [dep#1962](https://github.com/golang/dep/issues/1962).
 
 2. **Major subdirectory**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/mypkg"`). Tag the release with `v3.0.0`.
    * This provides greater backwards compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2+ module created using this approach.
    * A more sophisticated approach here could exploit type aliases (introduced in Go 1.9) and forwarding shims between major versions residing in different subdirectories.  This can provide additional compatibility and allow one major version to be implemented in terms of another major version, but would entail more work for a module author. An in-progress tool to automate this is `goforward`. Please see [here](https://golang.org/cl/137076) for more details and rationale, along with a functioning initial version of `goforward`.
+   * Pre-existing dependency management solutions such as `dep` should be able to consume a v2+ module created in this way. 
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
 
@@ -565,12 +566,6 @@ Summarizing when you get the old 1.10 status quo behavior vs. the new opt-in mod
   * `on` —  force module support on regardless of directory location
   * `off` — force module support off regardless of directory location
  
-### Can two modules depend on each other (cyclical import)?
-Yes. Two packages however may not depend on each other (this is a build constraint).
-
-### Can a module depend on a different version of itself?
-A module can depend on a different major version of itself: by-and-large, this is comparable to depending on a different module.
-
 ### Why does installing a tool via `go get` fail with error `cannot find main module`?
 
 This occurs when you have set `GO111MODULE=on`, but are not inside of a file tree with a `go.mod` when you run `go get`.
@@ -981,7 +976,33 @@ _Fig. A top-level module's path is a prefix of another module's path._
 
 This repository contains two modules. However, the module "my-repo" is a prefix of the path of the module "my-repo/mig".
 
+### Should I have multiple modules in a single repository?
+
 Adding modules, removing modules, and versioning modules in such a configuration require considerable care and deliberation, so it is almost always easier and simpler to manage a single-module repository rather than multiple modules in an existing repository.
+
+Russ Cox commented in [#26664](https://github.com/golang/go/issues/26664#issuecomment-455232444):
+
+> For all but power users, you probably want to adopt the usual convention that one repo = one module. It's important for long-term evolution of code storage options that a repo _can_ contain multiple modules, but it's almost certainly not something you want to do by default.
+
+Two examples of how multi-modules can be more work: 
+ * `go test ./...` from the repository root will no longer test everything in the repository
+ * you might need to routinely manage the relationship between the modules via `replace` directives.
+
+However, there is additional nuance beyond those two examples. Please read the FAQs in this [sub-section](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories) carefully if you are considering having multiple modules in a single repository.
+
+Two example scenarios where it can make sense to have more than one `go.mod` in a repository:
+
+1. if you have usage examples where the examples themselves have a complex set of dependencies (e.g., perhaps you have a small package but include an example of using your package with kubernetes). In that case, it can make sense for your repository to have an `examples` or `_examples` directory with its own `go.mod`, such as shown [here](https://godoc.org/github.com/loov/hrtime).
+
+2. if you have a repository with a complex set of dependencies, but you have a client API with a smaller set of dependencies. In some cases, it might make sense to have an `api` or `clientapi` or similar directory with its own `go.mod`, or to separate out that `clientapi` into its own repository. However, it is still more work, and might not be useful based on your particular dependency graph.
+
+### Can a module depend on a different version of itself?
+
+A module can depend on a different major version of itself: by-and-large, this is comparable to depending on a different module. This can be useful for different reasons, including to allow a major version of a module to be implemented as a shim around a different major version.
+
+In addition, a module can depend on a different major version of itself in a cycle, just as two completely different modules can depend on each other in a cycle.
+
+However, it continues to be a constraint that two _packages_ may not depend on each other in a cycle.
 
 ### Is it possible to add a module to a multi-module repository?
 
