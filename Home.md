@@ -106,7 +106,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
     - [GoBridge](http://golangbridge.org) - Volunteers helping underrepresented communities to teach technical skills and to foster diversity in Go.
     - [Women Who Go](http://www.womenwhogo.org/)
     - See here for [additional information GoUserGroups](GoUserGroups)
-    - [Go Discourse](https://github.com/godiscourse/godiscourse) - an open source Go based forum from `hello world`.
+    - [GoDiscourse](https://github.com/godiscourse/godiscourse) - Go Discourse is an open source Go based forum from `hello world`.
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
 - [Companies using Go](GoUsers) - A comprehensive list of companies using Go throughout the world.
 - Learn more about the [Go Gopher images](Gopher) by Renee French.
