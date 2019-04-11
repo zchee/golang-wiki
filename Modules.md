@@ -335,11 +335,13 @@ To upgrade to the latest version for all direct and indirect dependencies of the
  * run `go get -u` to use the latest *minor or patch* releases
  * run `go get -u=patch` to use the latest *patch* releases
 
+`go get foo` updates to the latest version of `foo`. `go get foo` is equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified.
+
+In this section, "latest" is the latest version with a [semver](https://semver.org/) tag, or the latest known commit if there are no semver tags. Prerelease tags are not selected as "latest" unless there are no other semver tags on the repository ([details](https://golang.org/cmd/go/#hdr-Module_aware_go_get)).
+
+A common mistake is thinking `go get -u foo` solely gets the latest version of `foo`. In actuality, the `-u` in `go get -u foo` or `go get -u foo@latest` means to _also_ get the latest versions for _all_ of the direct and indirect dependencies of `foo`. A common starting point when upgrading `foo` is instead to do `go get foo` or `go get foo@latest` without a `-u` (and after things are working, consider `go get -u=patch foo`, `go get -u=patch`, `go get -u foo`, or `go get -u`).
+
 To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
-
-`go get foo` updates to the latest version with a [semver](https://semver.org/) tag, or the the latest known commit if there are no semver tags ([details](https://golang.org/cmd/go/#hdr-Module_aware_go_get)). `go get foo` is equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified.
-
-Note that a `-u` in `go get -u foo` and `go get -u foo@latest` also upgrades all the direct and indirect dependencies of `foo`. A common starting point is instead `go get foo` or `go get foo@latest` without a `-u` (and after things are working, consider `go get -u=patch foo`, `go get -u=patch`, `go get -u foo`, or `go get -u`).
 
 Using a branch name such as `go get foo@master` is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
