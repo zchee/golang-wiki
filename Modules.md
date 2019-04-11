@@ -339,7 +339,7 @@ To upgrade or downgrade to a more specific version, 'go get' allows version sele
 
 `go get foo` updates to the latest version with a [semver](https://semver.org/) tag, or the the latest known commit if there are no semver tags ([details](https://golang.org/cmd/go/#hdr-Module_aware_go_get)). `go get foo` is equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified.
 
-Note that a `-u` in `go get -u foo` and `go get -u foo@latest` also upgrades all the direct and indirect dependencies of `foo`. A common starting point is instead `go get foo` or `go get foo@latest` without a `-u` (and after things are working, consider `go get -u=patch foo`, `go get -u foo`, `go get -u`, or `go get -u=patch`).
+Note that a `-u` in `go get -u foo` and `go get -u foo@latest` also upgrades all the direct and indirect dependencies of `foo`. A common starting point is instead `go get foo` or `go get foo@latest` without a `-u` (and after things are working, consider `go get -u=patch foo`, `go get -u=patch`, `go get -u foo`, or `go get -u`).
 
 Using a branch name such as `go get foo@master` is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
