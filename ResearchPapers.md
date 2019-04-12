@@ -25,6 +25,11 @@ This page lists academic and industry research papers about Go or using Go as th
 - Drynx: Decentralized, Secure, Verifiable System for Statistical Queries and Machine Learning on Distributed Datasets
   - [arxiv](https://arxiv.org/abs/1902.03785)
 
+- STYLE-ANALYZER: fixing code style inconsistencies with interpretable unsupervised algorithms
+  - [arxiv](https://arxiv.org/pdf/1904.00935.pdf)
+
+- Linear-Time Inference for Pairwise Comparisons with Gaussian-Process Dynamics
+  - [arxiv](https://arxiv.org/abs/1903.07746)
 ## 2018
 
 - An Analysis of Quorum-based Abstractions: A Case Study using Gorums to Implement Raft. Sebastian Pedersen, Hein Meling, and Leander Jehl. In: Proceedings of the 2018 Workshop on Advanced Tools, Programming Languages, and PLatforms for Implementing and Evaluating Algorithms for Distributed systems, ApPLIED@PODC 2018, Egham, United Kingdom, July 27, 2018. ACM, 2018.
