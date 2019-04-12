@@ -273,6 +273,8 @@ Turing Scholars honors thesis
   - https://www.duo.uio.no/bitstream/handle/10852/53050/bergersen_msc.pdf
 - BTrDB: Optimizing Storage System Design for Timeseries Processing (Andersen, Culler)
   - https://www.usenix.org/node/194399
+- Risk Factor Disclosures: Do Managers and Markets Speak the Same Language?
+  - https://www.sec.gov/comments/s7-06-16/s70616-369.pdf
 
 ## 2015
 - Tinzenite: Encrypted Peer to Peer File Synchronization via the Tox Protocol (Tamino P.S.M. Hartmann) (Master thesis at Ulm University) 
