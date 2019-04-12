@@ -76,7 +76,7 @@ see [this issue](https://github.com/w0rp/ale/issues/2179)
 ```lisp
 (use-package lsp-mode
   :commands lsp
-  :init
+  :config
   (lsp-register-client
    (make-lsp-client :new-connection (lsp-stdio-connection "gopls")
                     :major-modes '(go-mode)
