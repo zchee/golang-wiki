@@ -860,6 +860,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Ardan Studios/Labs](http://www.ardanstudios.com) - [twitter](https://twitter.com/ardanlab)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
   * [Ascendant Compliance Manager](https://www.ascendantcompliancemanager.com/) - Batch process millions of security trades per day.
+  * [AT&T](https://www.att.com/) - [Github](https://github.com/att?utf8=%E2%9C%93&q=&type=&language=go) and [gopkgs repository](https://github.com/att/gopkgs)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
   * [Awake Networks](http://www.awakenetworks.com)
@@ -1057,7 +1058,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Opendoor](https://www.opendoor.com/) - [HN](https://news.ycombinator.com/item?id=10657348)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)
   * [Oracle](https://www.oracle.com/us/assets/wercker-faq-3680198.pdf) - Wercker is a Automation platform for Kubernetes & Microservice Deployments
-  * [orijtech](https://orijtech.com/) - [github](https://github.com/orijtech/)
+  * [Orijtech](https://orijtech.com/) - [github](https://github.com/orijtech/)
   * [Ottemo](https://ottemo.io) - Managed Commerce Platform written in golang
   * [Outdoorsy](https://www.outdoorsy.co)
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
