@@ -49,6 +49,7 @@ Drivers for Go's sql package include:
   * **Sybase ASE** (pure go): https://github.com/thda/tds
   * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
+  * **Apache Hive**: https://github.com/sql-machine-learning/gohive
 
 Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.  
 Drivers marked with ` [**] ` pass the compatibility test suite but are not currently included in it.
