@@ -83,6 +83,8 @@ see [this issue](https://github.com/w0rp/ale/issues/2179)
                     :server-id 'gopls)))
 ``` 
 
+* Vim through the experimental [`govim`](https://github.com/myitcv/govim), simply follow the [install steps](https://github.com/myitcv/govim/blob/master/README.md#govim---go-development-plugin-for-vim8).
+
 ## Contributing
 
 Contributions are welcome, but since development is so active, we request that you file an issue and claim it before starting to work on something. Otherwise, it is likely that we might already be working on a fix for your issue. 
