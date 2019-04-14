@@ -417,7 +417,9 @@
   * [Jewish Interactive](http://jewishinteractive.org) 
   * [JFrog](https://www.jfrog.com/) - [github](https://github.com/JFrogDev/jfrog-cli-go)
   * [Firedome](https://firedome.io/) - [github](https://github.com/firedome)
-  * [Iguazio](https://www.iguazio.com/) - [github](https://github.com/nuclio/nuclio)
+  * [Iguazio](https://www.iguazio.com/) - Data science and analytics PaaS
+    * [v3io](https://github.com/v3io) - Iguazio open source
+    * [nuclio](https://github.com/nuclio/nuclio) - Nuclio Serverless project
   * [JobJob](http://JobJobapp.com)
   * [Make My Day](https://www.makemydayapp.com/)
   * [Medtronic](https://www.medtronic.com/)
