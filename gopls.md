@@ -133,6 +133,14 @@ https://go-review.googlesource.com/c/tools/+/170958 and related discussions are 
 
 This answer is therefore a WIP.
 
+#### Files that change "outside the editor"
+
+For example, files that are created/modified/removed as a result of `go generate`. Per [@ianthehat](https://github.com/ianthehat):
+
+> The plan is to have the client do all the work for us. Specifically we are going to start using `workspace/didChangeWatchedFiles` to monitor all the files we are caching AST's for
+
+This is currently not implemented (2019-04-15).
+
 ## Additional Information
 
 Questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat). For consistent updates on the development progress of gopls, see the notes from the golang-tools meetings (https://github.com/golang/go/wiki/golang-tools).
