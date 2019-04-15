@@ -128,6 +128,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 ## Remove handler chaining
 
+- Markus Heukelom, "[proposal: Improve error handing using `guard` and `must` keywords](https://github.com/golang/go/issues/31442)", April 2019
+
  - Alessandro Arzilli, “[Against check as an operator and handler chains](https://gist.github.com/aarzilli/1a85db632edecc8159505e2c785882ed)”, August 2018
 
 - Simon Howard, “[Go 2 errors response: One Handler Per Function](https://gist.github.com/fragglet/df6c5471771d87b2ad597d2efc57cb3e)”, August 2018
