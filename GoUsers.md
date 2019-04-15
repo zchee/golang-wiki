@@ -1112,6 +1112,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [RueBaRue](http://www.ruebarue.com)
   * [Runscope](http://www.runscope.com) - [blog](http://blog.runscope.com/posts/go-at-runscope)
   * [Sagan Systems](http://sagansystems.com/) - [HN](https://news.ycombinator.com/item?id=10659830)
+  * [Samsara](https://www.samsara.com/) - [blog](https://medium.com/samsara-engineering)
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [SecurityScorecard](https://securityscorecard.com/) - [github](https://github.com/securityscorecard) [blog](http://blog.securityscorecard.com)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
