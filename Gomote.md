@@ -120,7 +120,7 @@ Testing golang.org/x/sys/unix on $MOTE
 
 ```
 $ tar -C $GOPATH/src/ -zc golang.org/x/sys/unix | gomote puttar -dir=gopath/src $MOTE
-$ gomote run -e 'GOPATH=/tmp/workdir/gopath' -dir 'gopath/src/golang.org/x/crypto/ssh' $MOTE go/bin/go test -v golang.org/x/crypto/ssh
+$ gomote run -e 'GOPATH=/tmp/workdir/gopath' -dir 'gopath/src/golang.org/x/sys/unix' $MOTE go/bin/go test -v golang.org/x/sys/unix
 ```
 
 (The GOPATH part is for GOPATH compatibility mode; the `-dir` is for modules mode, which looks in the working directory and up for `go.mod`)
