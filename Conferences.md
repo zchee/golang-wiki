@@ -25,8 +25,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
-| GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | |
 | dotGo 2019 | 2019-03-25 | Paris, France | |
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
