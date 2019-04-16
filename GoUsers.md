@@ -724,6 +724,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Studentlitteratur](https://www.studentlitteratur.se)
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
   * [Ingrid](https://www.ingrid.com/)
+  * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
