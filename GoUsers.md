@@ -715,16 +715,16 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [source{d}](https://sourced.tech)
 
 ## Sweden
+  * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
+  * [Booli](https://www.booli.se/)
+  * [Greta](https://greta.io/)
+  * [Ingrid](https://www.ingrid.com/)
   * [Kiliaro](https://kiliaro.com/)
   * [Min Doktor](https://mindoktor.se/)
-  * [Slagkryssaren](https://slagkryssaren.com/)
-  * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
-  * [Greta](https://greta.io/)
-  * [Booli](https://www.booli.se/)
-  * [Studentlitteratur](https://www.studentlitteratur.se)
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
-  * [Ingrid](https://www.ingrid.com/)
-  * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
+  * [Slagkryssaren](https://slagkryssaren.com/)
+  * [Studentlitteratur](https://www.studentlitteratur.se)
+  * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
