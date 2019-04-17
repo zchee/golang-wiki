@@ -307,6 +307,20 @@ Sorted by publication date.
     * ISBN: 9781789138412
     * Reference: https://www.packtpub.com/application-development/hands-gui-application-development-go
 
+* **Hands-On Full Stack Development with Go**
+    * Author: Mina Andrawos
+    * Publication Date: March 2019
+    * ISBN: 9781789130751
+    * Reference: https://www.packtpub.com/web-development/hands-full-stack-development-go
+
+* **Learn Data Structures and Algorithms with Golang**
+    * Author: Bhagvan Kommadi
+    * Publication Date: March 2019
+    * ISBN: 9781789618501
+    * Reference: https://www.packtpub.com/application-development/learn-data-structures-and-algorithms-golang
+
+***
+
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
