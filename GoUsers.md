@@ -1051,6 +1051,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Newspaper](http://www.newspaper.io/) - [source](https://angel.co/newspaperio)
+  * [Nextdoor](http://www.nextdoor.com) - [source](https://engblog.nextdoor.com/what-is-the-technology-behind-nextdoor-5b74b3efcc31)
   * [Next Jump](https://www.nextjump.com) - Next Jump the company that manages the perks platform [Perks at Work](https://www.perksatwork.com) uses Go in it's backend. 
   * [NextUser](https://www.nextuser.com)
   * [Nexway](http://www.nexway.com)
