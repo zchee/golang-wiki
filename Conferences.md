@@ -28,7 +28,7 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon Russia | 2019-04-13 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GothamGo | 2019-04-12 | New York City, NY USA | http://gothamgo.com/<br>CFP https://www.papercall.io/gothamgo2019 |
 | CodeFest X | 2019-03-30-31 | Novosibirsk, Russia | |
-| dotGo 2019 | 2019-03-25 | Paris, France | |
+| dotGo 2019 | 2019-03-25 | Paris, France | https://2019.dotgo.eu/ |
 | GopherCon Israel | 2019-02-11 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | Go Devroom FOSDEM | 2019-02-02 | Brussels, Belgium | https://fosdem.org/2019/schedule/track/go/ |
 | GoDays | 2019-01-30 | Berlin, Germany | https://www.godays.io/ |
