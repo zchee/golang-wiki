@@ -16,3 +16,4 @@ Read [this article](https://blog.golang.org/gopher) and watch [The Go Gopher A C
 * [Go Gopher model (3d)](https://github.com/StickmanVentures/go-gopher-model)
 * [Gopher Artwork by Ashley McNamara](https://github.com/ashleymcnamara/gophers)
 * [Gopherize.me](https://gopherize.me/) - a Gopher avatar that's as unique as you
+* [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)
