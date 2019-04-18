@@ -126,7 +126,7 @@ Concepts that appear repeatedly among the suggestions below.
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
-- Dave Arnold, "[Move special check keyword to left-hand side of assignment]
+ - Dave Arnold, "[Move special check keyword to left-hand side of assignment]
 (http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
 
 ## Remove handler chaining
