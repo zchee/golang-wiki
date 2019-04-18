@@ -225,9 +225,9 @@ At present, Go generates large Wasm files, with the smallest possible size being
 
 There are two main ways (for now) to reduce this file size:
 
-**1.** Manually compress the .wasm file
-  * Using gz compression reduces things reasonably well.  For example, the ~2MB (minimum file size) example Wasm will compress down to around 500kB.  It's better to use https://github.com/google/zopfli[Zopfli] to do the gzip compression, as it seems to give slightly better results than `gzip --best`
-  * Using https://github.com/google/brotli[Brotli] for compression also looks promising, as the file sizes are markedly better than both Zopfli and `gzip --best`.
+1. Manually compress the .wasm file.
+   a. Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB.  It may be better to use https://github.com/google/zopfli[Zopfli] to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
+   b. Using https://github.com/google/brotli[Brotli] for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somwhere inbetween the two, too.
 
 Examples from https://github.com/johanbrandhorst[@johanbrandhorst]
 
@@ -236,24 +236,26 @@ Examples from https://github.com/johanbrandhorst[@johanbrandhorst]
 |=======
 | Size | Command
 |16M | uncompressed size
-|2.4M | `brotli -o test.wasm.br test.wasm`
-|3.3M | `go-zopfli test.wasm`
-|3.4M | `gzip --best test.wasm`
+|2.4M | `brotli -o test.wasm.br test.wasm` 
+|3.3M | `go-zopfli test.wasm` 
+|3.4M | `gzip --best test.wasm` 
 |3.4M | `gzip test.wasm`
 |=======
 
 **Example 2**
 [width="25%",cols="^m,e",frame="topbot",options="header"]]
 |=======
-| Size | Command
+| Size | Command 
 |2.3M | (uncompressed size)
-|496K | `brotli -o main.wasm.br main.wasm`
+|496K | `brotli -o main.wasm.br main.wasm` 
 |640K | `go-zopfli main.wasm`
-|660K | `gzip --best main.wasm`
+|660K | `gzip --best main.wasm` 
 |668K | `gzip main.wasm`
 |=======
 
-**2.** Use https://github.com/aykevl/tinygo[TinyGo] to generate the Wasm file instead.  TinyGo is a subset of the Go language targeted for embedded devices, and recently added a WebAssembly output target.  While it does have limitations (not a full Go implementation), it is still fairly capable and the generated Wasm files are... Tiny.  ~10kB isn't unusual.  This project is also very actively developed, so its capabilities are expanding out quickly.
+Use something like https://github.com/lpar/gzipped to automatically serve compressed files with correct headers, when available.
+
+**2.** Use https://github.com/tinygo-org/tinygo[TinyGo] to generate the Wasm file instead.  TinyGo is a subset of the Go language targeted for embedded devices, and recently added a WebAssembly output target.  While it does have limitations (not a full Go implementation), it is still fairly capable and the generated Wasm files are... Tiny.  ~10kB isn't unusual.  This project is also very actively developed, so its capabilities are expanding out quickly.
 
 # Other WebAssembly resources
 
