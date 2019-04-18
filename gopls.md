@@ -25,7 +25,8 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
     "goToDefinition": true,
     "hover": true,
     "signatureHelp": true,
-    "goToTypeDefinition": true
+    "goToTypeDefinition": true,
+    "documentSymbols": true,
 },
 "go.buildOnSave": "off",
 "go.vetOnSave": "off",
