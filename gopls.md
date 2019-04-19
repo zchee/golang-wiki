@@ -13,7 +13,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 
 ### Editors instructions
 * VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
-```json
+```json5
 "go.useLanguageServer": true,
 "go.alternateTools": {
      "go-langserver": "gopls"
@@ -36,8 +36,15 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
+},
+"gopls": {
+    "enablePlaceholders": true, // add parameter placeholders when completing a function
+    "enhancedHover": true,      // experimental to improve quality of hover (will be on by default soon)
 }
 ```
+
+VSCode will complain about the `"gopls"` settings, but they will still work. Once we have a consistent set of settings, we will make the changes in the VSCode plugin necessary to remove the errors.
+
 * Vim, through [vim-go](https://github.com/fatih/vim-go), with the following configuration:
 ```
 let g:go_def_mode='gopls'
