@@ -70,16 +70,17 @@ Concepts that appear repeatedly among the suggestions below.
   references:
   [1](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb),
   [2](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c),
-  [3](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md),
-  [4](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b),
-  [5](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e),
-  [6](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7),
-  [7](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1),
-  [8](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67),
-  [9](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
-  [10](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
-  [11](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
-  [12](https://github.com/golang/go/issues/27519)
+  [3](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/),
+  [4](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md),
+  [5](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b),
+  [6](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e),
+  [7](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7),
+  [8](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1),
+  [9](https://gist.github.com/mcluseau/1c20c3973fa3acb544d0505637be8d67),
+  [10](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
+  [11](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
+  [12](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
+  [13](https://github.com/golang/go/issues/27519)
 
 - Invoke one of several handlers by name, e.g. `v, ?name := f()`  
   references:
@@ -104,6 +105,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 # Modest revisions
 
+ - Dave Arnold, "[Move special check keyword to left-hand side of assignment](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
+
  - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
 
  - Steve Manuel, "[Go 2 `handle` statement to optionally use a type switch](https://github.com/golang/go/issues/28344)", October 2018
@@ -125,8 +128,6 @@ Concepts that appear repeatedly among the suggestions below.
  - Garrus, "[Another style of syntactic sugar on error handling](https://gist.github.com/garrus/5b1f73a7640726c92273700eabed9056)", August 2018
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
-
- - Dave Arnold, "[Move special check keyword to left-hand side of assignment](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
 
 ## Remove handler chaining
 
