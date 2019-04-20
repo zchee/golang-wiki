@@ -13,6 +13,9 @@
 * [Golang ِArabic Community](https://www.facebook.com/groups/111860102810970/)
 * [Golang Azerbaijan](https://www.facebook.com/groups/852343094928521/) - Baku, Azerbaijan 🇦🇿
 * [Golang Iraq](https://www.facebook.com/groups/go.iraq/) - Iraq
+* [Indonesia](https://golang-id.org) - Indonesia
+  * [GoJakarta](https://gophers.id/GoJakarta) - Jakarta, Indonesia.
+  * [Golang Surabaya](https://github.com/golangSurabaya) - Surabaya, Indonesia.
 - Persia
   * [goiran slack Iran](https://join.slack.com/t/goiran/shared_invite/enQtMjczOTMwNzY3NjM2LWQyNzMwM2QwOTBjMTBmZjZiNmRhODlmNTg2OGRiOTE0ZGQ1MmUyYzU1ZDY5MTBkOGY4NTU2NmUzYWNiZWVlYzY) - Iran
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
@@ -32,10 +35,8 @@
   * [Golang Israel](http://www.meetup.com/Go-Israel) - Israel.
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - [Meetup](http://www.meetup.com/golangsg/) - Singapore
   * [Golang UAE](https://plus.google.com/communities/114845275110994424259) - UAE.
-  * [GoJakarta](https://gophers.id/GoJakarta) - Jakarta, Indonesia.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
-  * [Golang Surabaya](https://github.com/golangSurabaya) - Surabaya, Indonesia.
 
 # Europe
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
