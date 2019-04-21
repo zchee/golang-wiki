@@ -6,6 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
+| GopherChina 2019 | 2019-04-27 | China BeiJing | https://gopherchina.org/|
 | GopherCon Singapore 2019 | 2019-05-03 | Singapore | https://2019.gophercon.sg/<br>CFP: https://www.papercall.io/gopherconsg2019 |
 | Go Conference Tokyo | 2019-05-18 | Tokyo, Japan | https://gocon.jp/<br> CFP: https://www.papercall.io/gocon-tokyo-2019 |
 | GoCon Canada | 2019-05-31 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/goconca |
