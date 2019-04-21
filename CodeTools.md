@@ -2,7 +2,8 @@ An overview of tools that will help improve your Go code
 
 ## All-in-one
 
-  - [gometalinter](https://github.com/alecthomas/gometalinter) - Automates the installation, configuration and application of `gofmt`, `golint`, `govet` and several other code validation tools.
+  - [golangci-lint](https://github.com/golangci/golangci-lint) - Bundle of `gofmt`, `golint`, `govet` and many other tools that shares work between the different linters for better performance. Recommended by the original author to replace gometalinter (Drop-in replacement).
+  - DEPRECATED: [gometalinter](https://github.com/alecthomas/gometalinter) - Automates the installation, configuration and application of `gofmt`, `golint`, `govet` and several other code validation tools.
 
 ## Code Formatting
 
