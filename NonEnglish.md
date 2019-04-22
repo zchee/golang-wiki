@@ -30,6 +30,10 @@ Some of this documentation may be out of date.
   * [Deutschsprachiges Diskussionsforum - German discussion forum](https://mewe.com/group/5c4b0dcb1c1ea52d0c45b6b0) on [MeWe](https://mewe.com)
     ([Invitation link](https://mewe.com/join/golang-de)) (requires free registration on MeWe.com).
 
+## Indonesia
+
+  * [Komunitas Pengguna Go Indonesia](https://golang-id.org)
+
 ## Japanese - 日本語
 
   * [A Tour of Go](http://go-tour-jp.appspot.com/)
