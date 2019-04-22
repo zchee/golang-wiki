@@ -785,6 +785,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bedful Booking System](https://bedful.com)  
   * [Belua](https://www.belua.com)
   * [Bubble Student](https://www.bubblestudent.co.uk)
+  * [Bud](https://thisisbud.com/)
   * [Countingup](https://countingup.com) - [github](https://github.com/countingup)
   * [Deliveroo](https://www.deliveroo.co.uk) - [github](https://github.com/deliveroo/)
   * [Fortifi](http://fortifi.uk) - [github](https://github.com/fortifi)
