@@ -2,6 +2,7 @@
 
 ## Africa
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
+  * [Global Performance Index (GPI)](https://www.my-gpi.com/) - Biggest Software automation company in Nigeria.
 
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
