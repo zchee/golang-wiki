@@ -23,7 +23,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
     },
 },
 "gopls": {
-    "enablePlaceholders": true, // add parameter placeholders when completing a function
+    "usePlaceholders": true, // add parameter placeholders when completing a function
     "enhancedHover": true,      // experimental to improve quality of hover (will be on by default soon)
 }
 ```
