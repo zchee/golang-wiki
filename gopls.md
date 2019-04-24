@@ -15,9 +15,6 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 * VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
 ```json5
 "go.useLanguageServer": true,
-"go.alternateTools": {
-     "go-langserver": "gopls"
-},
 "go.languageServerExperimentalFeatures": {
     "format": true,
     "autoComplete": true,
