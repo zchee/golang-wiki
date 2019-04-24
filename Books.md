@@ -489,7 +489,7 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: https://github.com/chai2010/advanced-go-programming-book
 
-  * **Go语101** (e-book)
+  * **Go语言101** (e-book)
     * Author: 老貘
     * Publication Date: ---
     * ISBN: ---
@@ -610,7 +610,7 @@ Sorted by publication date.
     * Reference: http://dmkpress.com/catalog/computer/programming/978-5-97060-477-9/
 
 # Español
-  * **Aprende Go en Y minutos**
+  * **Aprende Go en Y minutos**https://go101.org
     * Author: Nacho Pacheco
     * Publication Date: 2015-02-24
     * ISBN: ---
