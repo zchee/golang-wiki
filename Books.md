@@ -423,6 +423,12 @@ Sorted by publication date.
     * ISBN: ---
     * References: http://www.learngolangthehardway.org/
 
+  * **Go 101** (e-book)
+    * Author: Tapir Liu
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://go101.org
+
 
 ## Cancelled or Status Indeterminable
 
@@ -482,6 +488,12 @@ Sorted by publication date.
     * Publication Date: ---
     * ISBN: ---
     * Reference: https://github.com/chai2010/advanced-go-programming-book
+
+  * **Go语101** (e-book)
+    * Author: 老貘
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://gfw.go101.org/
 
 # Japanese
   * **はじめての「Go言語」**
