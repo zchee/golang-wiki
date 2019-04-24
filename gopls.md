@@ -9,7 +9,7 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin.
 
-Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also runs both `gofmt` and `goimports`.
+Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also replicates the functionality of both `gofmt` and `goimports`.
 
 ### Editors instructions
 * VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
