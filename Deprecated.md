@@ -11,6 +11,8 @@ The paragraph does not have to be the last paragraph in the doc comment.
 [Some tools will warn on use of deprecated identifiers](https://staticcheck.io/docs/checks#SA1019)
 and their docs [will be hidden by godoc once #17056 is implemented](https://golang.org/issue/17056).
 
+The original issue to document the "Deprecated" convention was [issue #10909](https://golang.org/issue/10909).
+
 ## Examples
 
 ```
