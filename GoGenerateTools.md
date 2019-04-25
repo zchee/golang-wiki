@@ -17,3 +17,4 @@
 * [gogen-avro](https://github.com/actgardner/gogen-avro) - avro
 * [swagger-gen-types](https://github.com/dnephin/swagger-gen-types) - go types from swagger specifications
 * [avo](https://github.com/mmcloughlin/avo) - generate assembly code with Go
+* [Wire](https://github.com/google/wire) - Compile-time Dependency Injection for Go
