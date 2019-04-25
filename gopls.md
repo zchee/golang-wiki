@@ -66,16 +66,21 @@ augroup END
 let g:ale_go_langserver_executable = 'gopls'
 ```
 see [this issue](https://github.com/w0rp/ale/issues/2179)
-* Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode), with the following configuration:
+* Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
 
 ```lisp
 (use-package lsp-mode
-  :commands lsp
-  :config
-  (lsp-register-client
-   (make-lsp-client :new-connection (lsp-stdio-connection "gopls")
-                    :major-modes '(go-mode)
-                    :server-id 'gopls)))
+  :commands lsp)
+
+(add-hook 'go-mode-hook #'lsp)
+
+;; optional - provides fancier overlays
+(use-package lsp-ui
+  :commands lsp-ui-mode)
+
+;; if you use company-mode for completion (otherwise, complete-at-point works out of the box):
+(use-package company-lsp
+  :commands company-lsp)
 ``` 
 
 * Vim through the experimental [`govim`](https://github.com/myitcv/govim), simply follow the [install steps](https://github.com/myitcv/govim/blob/master/README.md#govim---go-development-plugin-for-vim8).
