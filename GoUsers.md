@@ -196,6 +196,7 @@
   * [Alma Media](https://www.almamedia.fi/en/) - Media/Publishing company. [Twitter](https://twitter.com/almadevelopers) 
 
 ## France
+  * [Accenta](https://www.accenta.ai/)
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
   * [Containo.us](https://containo.us/)
