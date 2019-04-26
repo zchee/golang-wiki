@@ -291,6 +291,7 @@
   * [GeekTrust](http://geektrust.in/)
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
+  * [Gradeup](https://github.com/gradeup)
   * [Halodoc](https://www.halodoc.com)
   * [Hasura](https://hasura.io)
   * [Instamojo](https://www.instamojo.com/)
