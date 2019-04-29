@@ -65,6 +65,7 @@
   * [Hurb](http://www.hurb.com) - [github](https://github.com/HotelUrbano) 
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
   * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
+  * [Involves](https://www.involves.com) - [github](https://github.com/involvestecnologia)
   * [IQ Escolhas Inteligentes](https://www.iq.com.br/) - [github](https://github.com/IQ-tech)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
