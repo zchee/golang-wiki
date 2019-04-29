@@ -719,7 +719,7 @@ For example:
 * [Project Athens](https://github.com/gomods/athens): Open source project in the works and looking for contributors.
 * [JFrog Artifactory](https://jfrog.com/artifactory/): Commercial offering. Support for Go 1.11 modules started with release 5.11 as described [here](https://jfrog.com/blog/goproxy-artifactory-go-registries/) and [here](https://www.jfrog.com/confluence/display/RTF/Go+Registry). From Artifactory version 6.2.0, please use [JFrog CLI 1.20.2](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory#CLIforJFrogArtifactory-BuildingGoPackages) and above.
 * [THUMBAI](https://thumbai.app) - Open source project - Go Mod Proxy server and Go Vanity Import Path server
-* [Goproxy China](https://github.com/aofei/goproxy.cn) - Open source project - A trusted Go module proxy located in China.
+* [Goproxy China](https://github.com/goproxy/goproxy.cn) - Open source project - A trusted Go module proxy located in China.
 
 Note that you are not required to run a proxy. Rather, the go tooling in 1.11 has added optional proxy support via [GOPROXY](https://tip.golang.org/cmd/go/#hdr-Module_proxy_protocol) to enable more enterprise use cases (such as greater control), and also to better handle situations such as "GitHub is down" or people deleting GitHub repositories.
 
