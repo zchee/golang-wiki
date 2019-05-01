@@ -6,7 +6,7 @@ The mailing list and Slack channels are open to everyone.
 
 ### Catch-up calls
 
-We currently (correct as of Nov 2018) hold fortnightly catch-up calls. These calls are open to everyone. For those not able to join, notes and a recording of discussion are made available after each session.
+We currently (correct as of Nov 2018) hold monthly catch-up calls. These calls are open to everyone. For those not able to join, notes and a recording of discussion are made available after each session.
 
 See the mailing list for announcements of the next call and notes from the previous call.
 
