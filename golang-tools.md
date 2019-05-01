@@ -1,4 +1,4 @@
-[`golang-tools`](https://groups.google.com/forum/#!forum/golang-tools) is a development list for Go Programming Language. The list is for discussion of the development of tools that analyze and manipulate Go source code, including editor/IDE plugins.
+[`golang-tools`](https://groups.google.com/forum/#!forum/golang-tools) is a development list for the Go Programming Language. The list is for discussion of the development of tools that analyze and manipulate Go source code, including editor/IDE plugins.
 
 In addition to the mailing list, there is discussion in the `#tools` channel on [Gophers Slack](https://gophers.slack.com) ([sign-up here](https://invite.slack.golangbridge.org)).
 
