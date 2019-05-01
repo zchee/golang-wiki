@@ -62,6 +62,7 @@
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
+  * [Grupo Bandeirantes](https://www.band.uol.com.br/) 
   * [Hurb](http://www.hurb.com) - [github](https://github.com/HotelUrbano) 
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
   * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
