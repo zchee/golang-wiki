@@ -4,7 +4,7 @@ In addition to the mailing list, there is discussion in the `#tools` channel on 
 
 The mailing list and Slack channels are open to everyone. 
 
-### Fortnightly (monthly) catch-up calls
+### Catch-up calls
 
 We currently (correct as of Nov 2018) hold fortnightly catch-up calls. These calls are open to everyone. For those not able to join, notes and a recording of discussion are made available after each session.
 
