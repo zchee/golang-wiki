@@ -14,10 +14,10 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Gophercon Poland | 2019-06-27 | Gdansk, Poland | https://twitter.com/GopherConPL <br> CFP: https://eventil.com/events/GopherConPL/cfp |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
-| OpenGo 2019 | 2019-09-23 - 25 | Hollywood, FL | https://opengo.io/ |
+| OpenGo 2019 | 2019-09-23-25 | Hollywood, FL | https://opengo.io/ |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | https://golangconf.ru/2019 |
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
-| Gopherpalooza | 2019 Nov 7-8 | Mountain View, CA USA | http://gopherpalooza.com/ |
+| Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
 | Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
 
