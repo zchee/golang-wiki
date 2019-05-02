@@ -256,7 +256,13 @@ Examples from https://github.com/johanbrandhorst[@johanbrandhorst]
 
 Use something like https://github.com/lpar/gzipped to automatically serve compressed files with correct headers, when available.
 
-**2.** Use https://github.com/tinygo-org/tinygo[TinyGo] to generate the WASM file instead. TinyGo supports a subset of the Go language targeted for embedded devices, and has a WebAssembly output target.  While it does have limitations (not a full Go implementation), it is still fairly capable and the generated WASM files are... tiny.  ~10kB isn't unusual.  This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/webassembly/webassembly/ for more information on using WebAssembly with TinyGo.
+**2.** Use https://github.com/tinygo-org/tinygo[TinyGo] to generate the WASM file instead.
+
+TinyGo supports a subset of the Go language targeted for embedded devices, and has a WebAssembly output target.
+
+While it does have limitations (not yet a full Go implementation), it is still fairly capable and the generated WASM files are... tiny.  ~10kB isn't unusual.  The "Hello world" example is 575 bytes.  If you `gz -6` that, it drops down to 408 bytes. :wink:
+
+This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/webassembly/webassembly/ for more information on using WebAssembly with TinyGo.
 
 # Other WebAssembly resources
 
