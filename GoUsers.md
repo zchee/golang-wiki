@@ -631,6 +631,10 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/)
   * [Aeroqual](https://www.aeroqual.com/)
 
+## Norway
+  * [Shortcut AS](https://shortcut.no/)
+  * [Vipps](https://www.vipps.no)
+
 ## Philippines
   * [22 Delta Labs](https://www.22delta.com) - [github](https://github.com/22delta) - AI, data science, software and product development company
   * [EngageSPARK](https://www.engagespark.com)
