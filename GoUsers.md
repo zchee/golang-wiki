@@ -632,6 +632,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/)
 
 ## Norway
+  * [Aller Media](https://www.aller.no/)
   * [Shortcut AS](https://shortcut.no/)
   * [Vipps](https://www.vipps.no)
 
