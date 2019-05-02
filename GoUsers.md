@@ -457,6 +457,7 @@
   * [Develer](https://www.develer.com)
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
   * [Wellnet](https://www.wellnet.it)
+  * [Pixartprinting](https://www.pixartprinting.com/) 
 
 ## Japan
   * [3-shake, Inc.](https://www.3-shake.com/)
