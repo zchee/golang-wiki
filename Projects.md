@@ -1516,7 +1516,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [strftime](https://bitbucket.org/tebeka/strftime) - strftime implementation
   * [strit](https://github.com/maxim2266/strit) - Package strit introduces a new type of string iterator, as well as a number of iterator constructors, wrappers and combinators.
   * [strogonoff](https://github.com/jbochi/strogonoff) - Stenography with Go
-  * [strutil](https://github.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
+  * [strutil](https://gitlab.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
   * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
   * [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
