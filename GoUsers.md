@@ -52,6 +52,7 @@
   * [Conductor](http://www.conductor.com.br)
   * [Compufácil](http://compufacil.com.br)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
+  * [Dinamize](https://www.dinamize.com.br/) - [github](https://github.com/dinamize)
   * [Dito](http://dito.com.br/) - [github](https://github.com/ditointernet/)
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
