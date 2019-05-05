@@ -374,6 +374,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [gohash](http://code.google.com/p/gohash/) - A simple linked-list hashtable that implements sets and maps
   * [go-maps](https://github.com/serge-hulne/go-maps) - Go maps generalized to interfaces
+  * [bimap](https://github.com/diogobeda/bimap) - A simple bidirectional map implementation
 
 ### Lists
 
