@@ -154,6 +154,10 @@ is in development.
 
 * There is a https://gowebapi.github.io/[binding generator] that can be used.
 
+## Canvas
+
+* A new https://github.com/markfarnan/go-canvas[canvas drawing library] - seems pretty efficient.
+** https://markfarnan.github.io/go-canvas/[Simple demo]
 
 # Editor configuration
 
