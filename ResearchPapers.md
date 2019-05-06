@@ -1,6 +1,11 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2019
 
+- Software Microbenchmarking in the Cloud. How Bad is it Really?. Laaber, Scheuner, and Leitner. In: Empirical Software Engineering.
+  - [preprint](http://t.uzh.ch/T4)
+  - [DOI](http://dx.doi.org/10.1007/s10664-019-09681-1)
+  - [replication package](https://doi.org/10.6084/m9.figshare.7546703)
+
 - Understanding Real-World Concurrency Bugs in Go (Tu, Liu, Song, Zhang)
   - [ASPLOS'19 preprint](https://songlh.github.io/paper/go-study.pdf)
   - [web](https://github.com/system-pclub/go-concurrency-bugs)
