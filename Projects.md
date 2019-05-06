@@ -935,6 +935,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-tokenizer](https://github.com/euskadi31/go-tokenizer) - A Text Tokenizer library for Golang
   * [go.stringmetrics](https://github.com/robyoung/go.stringmetrics) - String distance metrics implemented in Go
   * [goling](https://github.com/gyuho/goling) - String Similarity(Cosine Similarity, Levenshtein Distance), Spell Check, Segmentation
+  * [go-l10n](https://github.com/xelaj/go-l10n) - localization for humans
   * [inflect](https://bitbucket.org/pkg/inflect) - Word inflection library (similar to Ruby ActiveSupport::Inflector). Singularize(), Pluralize(), Underscore() etc.
   * [libtextcat](https://github.com/pebbe/libtextcat) - A Go wrapper for libtextcat.
   * [nlp](https://github.com/james-bowman/nlp) - Go Natural Language Processing library supporting LSA (Latent Semantic Analysis).
