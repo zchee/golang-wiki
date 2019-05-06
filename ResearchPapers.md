@@ -32,6 +32,11 @@ This page lists academic and industry research papers about Go or using Go as th
   - [arxiv](https://arxiv.org/abs/1903.07746)
 ## 2018
 
+- An Evaluation of Open-Source Software Microbenchmark Suites for Continuous Performance Assessment. Laaber and Leitner. In: MSR ’18: 15th International Conference on Mining Software Repositories.
+  - [preprint](https://www.zora.uzh.ch/id/eprint/159079/1/msr18-author-version.pdf)
+  - [DOI](https://doi.org/10.1145/3196398.3196407)
+  - [replication package](https://doi.org/10.6084/m9.figshare.5982253)
+
 - An Analysis of Quorum-based Abstractions: A Case Study using Gorums to Implement Raft. Sebastian Pedersen, Hein Meling, and Leander Jehl. In: Proceedings of the 2018 Workshop on Advanced Tools, Programming Languages, and PLatforms for Implementing and Evaluating Algorithms for Distributed systems, ApPLIED@PODC 2018, Egham, United Kingdom, July 27, 2018. ACM, 2018.
   - [doi:10.1145/3231104.3231957](https://doi.org/10.1145/3231104.3231957)
   - [Raft implementation in Gorums](https://github.com/relab/raft)
