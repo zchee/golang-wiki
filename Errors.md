@@ -62,7 +62,7 @@ case ParseError:
 
 ## Naming
 
-Error types end in `"Error"` and error variables start with `"Err"`:
+Error types end in `"Error"` and error variables start with `"Err"` or `"err"`:
 
 ```go
 package somepkg
