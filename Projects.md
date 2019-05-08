@@ -1843,6 +1843,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rest.go (forked)](https://github.com/Kissaki/rest.go) - forked rest.go for improvements and REST consistency
   * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
   * [robotstxt](https://github.com/temoto/robotstxt-go) - The robots.txt exclusion protocol implementation. Allows to parse and query robots.txt file.
+  * [scs](https://github.com/alexedwards/scs) - A HTTP session manager using server-side sessions stores.
   * [seshcookie](https://github.com/bpowers/seshcookie) -  A web session library inspired by Beaker
   * [soy](https://github.com/robfig/soy) - A Go implementation for Soy templates (Google Closure templates). High performance and i18n.
   * [user\_agent](https://github.com/mssola/user_agent) - An HTTP User-Agent parser
