@@ -572,8 +572,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [Gabia](https://www.gabia.com/) - Server monitoring solution
 
-
-
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
 
@@ -1019,6 +1017,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Jimdo](http://www.jimdo.com) - [tweet](https://twitter.com/mlafeldt/status/351661314017476608) [github](https://github.com/jimdo)
   * [Jive](https://jive.com) - [github](https://github.com/jive)
   * [Jive Software](http://www.jivesoftware.com) - [github](https://github.com/jivesoftware)
+  * [JPMorgan Chase](https://www.jpmorganchase.com) - [github](https://github.com/jpmorganchase)
   * [Kairos](https://www.kairos.com)
   * [Karma](http://www.yourkarma.com) - [blog](https://blog.yourkarma.com/how-we-use-mqtt-at-karma)
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
