@@ -239,6 +239,7 @@
   * [FastBill](https://www.fastbill.com/)
   * [Fraugster](https://fraugster.com/)
   * [Friendsurance](https://www.friendsurance.de/)
+  * [fromAtoB](https://www.fromatob.com/) - [blog](https://eng.fromatob.com/blog/)
   * [HaCon Ingenieurgesellschaft mbH](http://hacon.de/)
   * [HelloFresh](http://www.hellofreshgroup.com/) - [github](https://github.com/hellofresh)
   * [Herdius] (https://www.herdius.com/) - [github](https://github.com/herdius)
