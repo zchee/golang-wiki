@@ -913,6 +913,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
   * [Channel](https://www.getchannel.co)
   * [Chatlio](https://chatlio.com)
+  * [Chubbs Solutions](https://chubbs.solutions) - Progressive Tech (APIs).
   * [CircleCI](https://circleci.com)
   * [Circonus](https://www.circonus.com)
   * [Clearblade](http://clearblade.com/) - [github](https://github.com/ClearBlade/Go-SDK)
@@ -1003,6 +1004,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Imagefly](http://imagefly.io/)
   * [Imgix](https://www.imgix.com) - [StackShare](http://stackshare.io/imgix/how-imgix-built-a-stack-to-serve-100-000-images-per-second), [job posting](https://www.imgix.com/jobs#752d046c-c795-47ea-9f90-117d761a557e)
   * [Imgur](http://imgur.com/) - [github](https://github.com/Imgur/mandible/)
+  * [INdigital](https://indigital.net) - APIs and Microservices for Public Safety.
   * [InfluxData](https://influxdata.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/why-influxdb-uses-go/) [github](https://github.com/influxdata)
   * [Instela](https://tr.instela.com)
   * [Intel](http://www.intel.com) - [snap telemetry framework](https://github.com/intelsdi-x/snap), [ciao cloud orchestration](https://github.com/01org/ciao), [Clear Containers](https://github.com/clearcontainers)
