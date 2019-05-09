@@ -1386,7 +1386,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Programming
 
-  * [go-slices] (https://github.com/merkur0/go-slices) - Helper functions for manipulating slices in Go just like the official "strings" package provides
+  * [go-slices](https://github.com/merkur0/go-slices) - Helper functions for manipulating slices in Go just like the official "strings" package provides
   * [go-clang](http://github.com/go-clang) - cgo bindings to the C-API of libclang
   * [godeferred](https://github.com/mattn/godeferred) - port of jsdeferred: http://cho45.stfuawsc.com/jsdeferred/
   * [go-galib](https://github.com/thoj/go-galib) - a library of Genetic Algorithms
