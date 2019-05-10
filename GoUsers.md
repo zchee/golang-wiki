@@ -247,6 +247,7 @@
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
+  * [limango](https://www.limango.de/) 
   * [Meplato](https://www.meplato.com/)
   * [Naga Virtual](https://nagavirtual.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
@@ -653,6 +654,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
  * [beFOGG](http://befogg.mobi) - platform that will take tourism to the next level
  * [Miquido](https://www.miquido.com) - Mobile-first software development company
  * [Brainly](https://brainly.co/) - [blog](https://medium.com/engineering-brainly)
+ * [limango](https://www.limango.pl/) 
 
 ## Portugal
   * [OLX](https://www.joinolx.com/) - [blog](https://tech.olx.com/)
