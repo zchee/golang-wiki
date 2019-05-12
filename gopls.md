@@ -33,9 +33,10 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 
 VSCode will complain about the `"gopls"` settings, but they will still work. Once we have a consistent set of settings, we will make the changes in the VSCode plugin necessary to remove the errors.
 
-* Vim, through [vim-go](https://github.com/fatih/vim-go), with the following configuration:
+* Vim, through [vim-go](https://github.com/fatih/vim-go) ver 1.20+, with the following configuration:
 ```
 let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 ```
 * Neovim, through [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), with the following configuration:
 ```
