@@ -53,6 +53,7 @@
   * [Stuttgart Gophers](https://www.meetup.com/Stuttgart-Gophers/) - Stuttgart, Germany.
   * [GDG Berlin Golang](http://www.meetup.com/golang-users-berlin/) - Berlin, Germany.
   * [Go-User-Group-Hamburg](http://www.meetup.com/Go-User-Group-Hamburg) - Hamburg, Germany.
+  * [Go-User-Group Rhein-Ruhr](https://www.meetup.com/Go-Usergroup-Rhein-Ruhr) - Rhine-Ruhr region, Germany.
   * [Go Lithuania User Group](http://gophers.lt/) - Lithuania, Kaunas.
   * [Go London User Group](http://www.meetup.com/Go-London-User-Group/) - London, UK.
   * [ManGo The Manchester Go User Group](http://mango.computer/) - Manchester, UK.
