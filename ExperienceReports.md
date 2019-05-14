@@ -83,7 +83,9 @@ Add new sections as appropriate.
 
   - Kevin Burke, "[How I'm running benchmarks and printing their results](https://github.com/kevinburke/go-html-boilerplate/blob/master/Makefile#L38)", it would be nice if I didn't need so much Unix glue to run and print these. July 2017.
 
-  - John Clarke, Tracking down an intermittent fault (not a race) by running a very slow {hit test failure, increase logging} cycle by running "do { go test -race } while ( $LASTEXITCODE -eq 0 )" overnight. Over many nights. Execution trace functionality like https://rr-project.org/ would be transformative.  November 2018.  
+  - John Clarke, Tracking down an intermittent fault (not a race) by running a very slow {hit test failure, increase logging} cycle by running "do { go test -race } while ( $LASTEXITCODE -eq 0 )" overnight. Over many nights. Execution trace functionality like https://rr-project.org/ would be transformative.  November 2018.
+
+  - `guanw`, [`cmd/trace` and PySnooper](https://github.com/guanw/go-proposal/blob/master/proposal.md). Comparison of `cmd/trace` with a (more succinct) Python tracing API. May 2019.
 
 ## Education and Teaching
 
