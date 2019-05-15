@@ -1239,7 +1239,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Tipe](https://tipe.io) - [github](https://github.com/tipeio)
   * [4wardtech Inc](http://4ward.tech/)
 
-## VietNam
+## Vietnam
   * [BeGroup](https://be.xyz)
   * [ChoTot](https://www.chotot.com)
   * [ViralWorks](https://viralworks.com)
