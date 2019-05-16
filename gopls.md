@@ -62,6 +62,16 @@ augroup LspGo
   "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
 augroup END
 ```
+* Vim/Neovim, through [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-settings.json` configuration:
+```json
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+```
 * Vim, through [ale](https://github.com/w0rp/ale):
 ```vim
 let g:ale_go_langserver_executable = 'gopls'
