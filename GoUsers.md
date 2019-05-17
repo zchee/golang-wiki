@@ -363,8 +363,7 @@
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
-  * [meTube.id]
-(https://www.metube.id)
+  * [meTube.id](https://www.metube.id)
   * [Nodeflux](https://www.nodeflux.io/)
   * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
   * [Pintu Magang - Jobs for Student](http://pintumagang.jktserver.com)
