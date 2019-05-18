@@ -20,7 +20,7 @@ WebAssembly is described on its https://webassembly.org[home page] as:
 > enabling deployment on the web for client and server applications.
 
 **********************************************************************
-If you're new to WebAssembly read the https://github.com/golang/go/wiki/WebAssembly#getting-started[Getting Started] section, watch some of the https://github.com/golang/go/wiki/WebAssembly#go-webassembly-talks[Go Webassembly talks],
+If you're new to WebAssembly read the https://github.com/golang/go/wiki/WebAssembly#getting-started[Getting Started] section, watch some of the https://github.com/golang/go/wiki/WebAssembly#go-webassembly-talks[Go WebAssembly talks],
 then take a look at the https://github.com/golang/go/wiki/WebAssembly#further-examples[Further examples] below.
 **********************************************************************
 
