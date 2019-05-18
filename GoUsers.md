@@ -119,6 +119,7 @@
 ## Canada
   * [ActiveState](https://activestate.com) - [blog](https://www.activestate.com/blog/2018/03/reproducible-builds-introducing-predictability-your-pipeline) - [github](https://github.com/ActiveState)
   * [Apex](https://apex.sh/)
+  * [Bold Commerce](https://boldcommerce.com/careers/)
   * [ChainSafe Systems](https://chainsafe.io/) - [github](https://github.com/chainsafesystems)
   * [Greenfield Labs / Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
