@@ -403,6 +403,7 @@
   * [Telmaperfume](https://telmaperfume.com/) - Promotional Gifts.
   * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
   * [Parsaspace](https://parsaspace.com) - Parsaspace is an iranian storage as a service
+  * [Cafe Bazaar](https://cafebazaar.ir/) -  Iranian Android marketplace
 
 ## Ireland
   * [EXADS](http://exads.com/)
