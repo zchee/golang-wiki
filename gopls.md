@@ -7,12 +7,16 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 ## Installation
 
-First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`. We suggest using VSCode with the Go plugin.
+First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`.
 
-Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go. `gopls` also replicates the functionality of both `gofmt` and `goimports`.
+At the moment, we suggest using VSCode.
 
-### Editors instructions
-* VSCode, through the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
+## Integration with your text editor
+
+### VSCode
+
+Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
+
 ```json5
 "go.useLanguageServer": true,
 "go.languageServerExperimentalFeatures": {
@@ -33,12 +37,23 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 
 VSCode will complain about the `"gopls"` settings, but they will still work. Once we have a consistent set of settings, we will make the changes in the VSCode plugin necessary to remove the errors.
 
-* Vim, through [vim-go](https://github.com/fatih/vim-go) ver 1.20+, with the following configuration:
+Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go.
+
+---
+
+### Vim / Neovim
+
+Use [vim-go](https://github.com/fatih/vim-go) ver 1.20+, with the following configuration:
+
 ```
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 ```
-* Neovim, through [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), with the following configuration:
+
+**or**
+
+Use [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), with the following configuration:
+
 ```
 " Launch gopls when Go files are in use
 let g:LanguageClient_serverCommands = {
@@ -47,7 +62,21 @@ let g:LanguageClient_serverCommands = {
 " Run gofmt and goimports on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 ```
-* Vim/Neovim, through [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
+
+**or**
+
+Use [ale](https://github.com/w0rp/ale):
+
+```vim
+let g:ale_go_langserver_executable = 'gopls'
+```
+
+see [this issue](https://github.com/w0rp/ale/issues/2179)
+
+**or**
+
+Use [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
+
 ```vim
 augroup LspGo
   au!
@@ -62,7 +91,11 @@ augroup LspGo
   "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
 augroup END
 ```
-* Vim/Neovim, through [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-settings.json` configuration:
+
+**or**
+
+Use [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-settings.json` configuration:
+
 ```json
   "languageserver": {
     "golang": {
@@ -72,12 +105,18 @@ augroup END
     }
   }
 ```
-* Vim, through [ale](https://github.com/w0rp/ale):
-```vim
-let g:ale_go_langserver_executable = 'gopls'
-```
-see [this issue](https://github.com/w0rp/ale/issues/2179)
-* Emacs, through [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
+
+---
+
+### Vim (classic only)
+
+Use the experimental [`govim`](https://github.com/myitcv/govim), simply follow the [install steps](https://github.com/myitcv/govim/blob/master/README.md#govim---go-development-plugin-for-vim8).
+
+---
+
+### Emacs
+
+Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
 
 ```lisp
 (use-package lsp-mode
@@ -94,9 +133,11 @@ see [this issue](https://github.com/w0rp/ale/issues/2179)
   :commands company-lsp)
 ``` 
 
-* Vim through the experimental [`govim`](https://github.com/myitcv/govim), simply follow the [install steps](https://github.com/myitcv/govim/blob/master/README.md#govim---go-development-plugin-for-vim8).
+---
 
-* Acme through the experimental [`acme-lsp`](https://github.com/fhs/acme-lsp), simply follow the [install steps](https://github.com/fhs/acme-lsp#gopls).
+### Acme
+
+Use the experimental [`acme-lsp`](https://github.com/fhs/acme-lsp), simply follow the [install steps](https://github.com/fhs/acme-lsp#gopls).
 
 ## Contributing
 
