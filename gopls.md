@@ -31,7 +31,8 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 },
 "gopls": {
     "usePlaceholders": true, // add parameter placeholders when completing a function
-}
+},
+"files.eol": "\n", // formatting only supports LF line endings
 ```
 
 VSCode will complain about the `"gopls"` settings, but they will still work. Once we have a consistent set of settings, we will make the changes in the VSCode plugin necessary to remove the errors.
