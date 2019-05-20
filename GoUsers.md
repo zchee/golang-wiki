@@ -585,6 +585,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Revenue Monster](https://revenuemonster.my/)
 
 ## Mexico
+  * [Conekta](https://www.conekta.com/) - Payment Service
   * [Segundamano](https://www.segundamano.mx/)
   * [Entropy](https://entropy.tech) - Ecommerce Marketing Optimization Platform.
   
