@@ -31,7 +31,6 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 },
 "gopls": {
     "usePlaceholders": true, // add parameter placeholders when completing a function
-    "enhancedHover": true,   // experimental to improve quality of hover (will be on by default soon)
 }
 ```
 
@@ -149,7 +148,7 @@ Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is inst
 * Find and run the command **LSP: Enable Language Server Globally**
 * Find the **gopls** item and select it. Be careful not to select the similarly named *golsp* by mistake.
 
-After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**
+After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**.
 
 ---
 
