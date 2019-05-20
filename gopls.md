@@ -139,6 +139,20 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
 
 Use the experimental [`acme-lsp`](https://github.com/fhs/acme-lsp), simply follow the [install steps](https://github.com/fhs/acme-lsp#gopls).
 
+---
+
+### Sublime Text
+
+Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is installed:
+
+* Open the **Command Palette**
+* Find and run the command **LSP: Enable Language Server Globally**
+* Find the **gopls** item and select it. Be careful not to select the similarly named *golsp* by mistake.
+
+After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**
+
+---
+
 ## Contributing
 
 Contributions are welcome, but since development is so active, we request that you file an issue and claim it before starting to work on something. Otherwise, it is likely that we might already be working on a fix for your issue. 
