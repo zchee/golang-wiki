@@ -20,7 +20,7 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 ```json5
 "go.useLanguageServer": true,
 "go.languageServerExperimentalFeatures": {
-        "diagnostics": true // for diagnostics as you type
+        "diagnostics": true // for build and vet errors as you type
 },
 "[go]": {
     "editor.snippetSuggestions": "none",
