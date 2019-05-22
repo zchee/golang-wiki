@@ -27,10 +27,10 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
-    },
+    }
 },
 "gopls": {
-    "usePlaceholders": true, // add parameter placeholders when completing a function
+    "usePlaceholders": true // add parameter placeholders when completing a function
 },
 "files.eol": "\n", // formatting only supports LF line endings
 ```
