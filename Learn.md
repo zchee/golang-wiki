@@ -42,4 +42,5 @@ Learning resources for specific topics:
   * [LearnErrorHandling](LearnErrorHandling) links to resources about error handling in Go.
   * [LearnTesting](LearnTesting) links to resources about testing in Go.
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
+  * [Golang Online Courses](https://classpert.com/go-programming) - A collection of Go online courses from several providers at Classpert
   * [Hackr.io Golang Tutorials](https://hackr.io/tutorials/learn-golang) - Best Golang tutorials recommended by the programming community.
