@@ -59,6 +59,7 @@
   * [Emprego Ligado](https://empregoligado.com.br/#/)
   * [Eventials](https://www.eventials.com/) - [github](https://github.com/eventials/)
   * [Everymind](http://www.everymind.com.br/)
+  * [Finanças 360](https://www.financas360.com.br)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
