@@ -68,7 +68,9 @@ autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 Use [ale](https://github.com/w0rp/ale):
 
 ```vim
-let g:ale_go_langserver_executable = 'gopls'
+let g:ale_linters = {
+	\ 'go': ['gopls'],
+	\}
 ```
 
 see [this issue](https://github.com/w0rp/ale/issues/2179)
