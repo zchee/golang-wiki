@@ -665,27 +665,23 @@ As described in the ['go.mod' concepts section above](https://github.com/golang/
 
 The `replace` directive allows you to supply another import path that might be another module located in VCS (GitHub or elsewhere), or on your local filesystem with a relative or absolute file path. The new import path from the `replace` directive is used without needing to update the import paths in the actual source code.
 
+ `replace` allows the top-level module control over the exact version used for a dependency, such as:
+  * `replace example.com/some/dependency => example.com/some/dependency v1.2.3`
+
+`replace` also allows the use of a forked dependency, such as:
+  * `replace example.com/some/dependency => example.com/some/dependency-fork v1.2.3`
+
 One sample use case is if you need to fix or investigate something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
-
-```
-replace example.com/original/import/path => /your/forked/import/path
-```
-
-`replace` also allows the top-level module control over the exact version used for a dependency, such as:
-
-```
-replace example.com/some/dependency => example.com/some/dependency v1.2.3
-```
+  * `replace example.com/original/import/path => /your/forked/import/path`
 
 `replace` also can be used to inform the go tooling of the relative or absolute on-disk location of modules in a multi-module project, such as:
+  * `replace example.com/project/foo => ../foo`
 
-```
-replace example.com/project/foo => ../foo
-```
+**Note**: if the right-hand side of a `replace` directive is a filesystem path, then the target must have a `go.mod` file at that location. If the `go.mod` file is not present, you can create one with `go mod init`.
 
 In general, you have the option of specifying a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in all of the `replace` examples above).
 
-**Note**: for direct dependencies, a `require` directive is needed even when doing a `replace`. For example, if `foo` is a direct dependency, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. (If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`; see [#26241](https://golang.org/issue/26241)).
+In Go 1.11, for direct dependencies a `require` directive is needed even when doing a `replace`. For example, if `foo` is a direct dependency, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`. This was addressed in Go 1.12 with [#26241](https://golang.org/issue/26241).
 
 You can confirm you are getting your expected versions by running `go list -m all`, which shows you the actual final versions that will be used in your build including taking into account `replace` statements.
 
@@ -712,7 +708,7 @@ require (
 
 replace example.com/me/goodbye => ../goodbye
 ```
-As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that as mentioned in the prior FAQ, the `require` directive is needed here. (`replace example.com/me/goodbye => ../goodbye` does not yet work without a corresponding `require example.com/me/goodbye v0.0.0`; this might change in the future with [#26241](https://golang.org/issue/26241)).
+As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that as mentioned in the prior FAQ, in Go 1.11 a `require` directive must be manually added here, but that `require` directive no longer needs to be manually added in Go 1.12+ ([#26241](https://golang.org/issue/26241)).
 
 A small runnable example is shown in this [thread](https://groups.google.com/d/msg/golang-nuts/1nYoAMFZVVM/eppaRW2rCAAJ).
 
