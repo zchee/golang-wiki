@@ -1021,6 +1021,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [identakid.com](http://identakid.com)
   * [Invoiced](https://invoiced.com)
   * [Ionic Security](https://www.ionic.com/about/careers)
+  * [IPinfo.io](https://ipinfo.io/)
   * [Iron.io](http://iron.io/) - [source](http://www.youtube.com/watch?v=kKQLhGZVN4A) [blog:"30 servers to 2"](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html) [blog:"2 years of production Go"](http://blog.iron.io/2013/08/go-after-2-years-in-production.html)
   * [ISDC - InsideSales.com](http://insidesales.com)
   * [iTechArt](https://www.itechart.com/)
