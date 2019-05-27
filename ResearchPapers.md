@@ -352,7 +352,7 @@ Turing Scholars honors thesis
 - Generating a Google Go framework from an Uppaal model (Dekker)
   - [pdf](https://www.cs.ru.nl/bachelorscripties/2014/Jip_Dekker___4122100___Generating_Google_Go_framework_from_Uppaal_models.pdf)
 - Using the Go Programming Language in Practice (Westrup, Pettersson)
-  - [pdf](http://users.student.lth.se/dt09ew6/files/thesis.pdf)
+  - [pdf](https://www.researchgate.net/publication/312490994_Using_the_Go_Programming_Language_in_Practice)
 - A Language Support for Exhaustive Fault-Injection in Message-Passing System Models (Suzuki, Watanabe)
   - [arXiv:1411.3793 cs.SE](https://arxiv.org/abs/1411.3793)
 - Big Learning with Bayesian Methods
