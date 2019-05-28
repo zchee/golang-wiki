@@ -22,7 +22,9 @@ Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag p
 
 ### Triage new bugs
 
-Look at the untriaged bugs. For Go, we use the presence of a Milestone field and at least one label to mean that the bug has been triaged. To search for un-milestoned, un-labeled issues, use https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Amilestone+no%3Alabel
+Look at the untriaged bugs. For Go, we use the presence of a Milestone field and at least one label to mean that the bug has been triaged. To search for un-milestoned, un-labeled issues, use:
+
+https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+++-label%3AProposal-Accepted+-label%3AProposal-Hold+-label%3ACherryPickCandidate+no%3Aassignee+created%3A%3E2019-01-01+-label%3Agopls+
 
 While triaging the bug:
 
