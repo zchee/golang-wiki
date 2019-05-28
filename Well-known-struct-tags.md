@@ -31,6 +31,7 @@ xml       | https://godoc.org/encoding/xml
 json      | https://godoc.org/encoding/json
 asn1      | https://godoc.org/encoding/asn1
 reform    | https://godoc.org/gopkg.in/reform.v1
+dynamodb  | https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/dynamodbattribute/#Marshal
 bigquery  | https://godoc.org/cloud.google.com/go/bigquery
 datastore | https://godoc.org/cloud.google.com/go/datastore
 spanner   | https://godoc.org/cloud.google.com/go/spanner
