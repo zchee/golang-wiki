@@ -22,9 +22,7 @@ Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag p
 
 ### Triage new bugs
 
-Look at the untriaged bugs. For Go, we use the presence of a Milestone field and at least one label to mean that the bug has been triaged. To search for un-milestoned, un-labeled issues, use:
-
-https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+no%3Aassignee+created%3A%3E2019-01-01+-label%3Agopls
+Look at the [untriaged issues](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+no%3Aassignee+-label%3Agopls+sort%3Aupdated-desc). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. (Issues labeled `Go2`, `Proposal`, `CherryPickCandidate`, or `gopls` have their own, separate triage processes.)
 
 While triaging the bug:
 
