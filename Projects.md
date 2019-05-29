@@ -953,6 +953,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [glog](https://github.com/golang/glog) - Leveled execution logs for Go
   * [go-logging](https://github.com/op/go-logging) - Supports different logging backends like syslog, file and memory. Multiple backends can be utilized with different log levels per backend and logger.
   * [gomol](https://www.github.com/aphistic/gomol) - A multi-output logging library designed for outputs that support additional metadata with log messages.
+  * [gosrvmon](https://github.com/Alexander-r/gosrvmon) - Self-hosted uptime monitoring system.
   * [graylog-golang](https://github.com/robertkowalski/graylog-golang) - graylog-golang is a full implementation for sending messages in GELF (Graylog Extended Log Format) from Google Go (Golang) to Graylog
   * [haminer](https://github.com/shuLhan/haminer) - Library and program to parse and forward HAProxy logs
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that’s as easy to use as fmt.Println
