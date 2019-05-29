@@ -1220,6 +1220,84 @@ The resulting `require` information from the temporary `go.mod` can be manually 
 A concrete example of following this technique for docker is in this [#28489 comment](https://github.com/golang/go/issues/28489#issuecomment-454795390), which illustrates getting a consistent set of versions
 of docker dependencies to avoid case sensitive issues between `github.com/sirupsen/logrus` vs. `github.com/Sirupsen/logrus`.
 
+### How can I resolve "parsing go.mod: unexpected module path" and "error loading module requirements" errors caused by a mismatch between import paths vs. declared module identity?
+
+#### Why does this error occur?
+
+In general, a module declares its identity in its `go.mod` via the `module` directive, such as `module example.com/m`. This is the "module path" for that module, and the `go` tool enforces consistency between that declared module path and the import paths used by any consumer. If a module's `go.mod` file reads ``module example.com/m`, then a consumer must import packages from that module using import paths that start with that module path (e.g., `import "example.com/m"` or `import "example.com/m/sub/pkg"`).
+
+The `go` command reports a `parsing go.mod: unexpected module path` fatal error if there is a mismatch between an import path used by a consumer vs. the corresponding declared module path. In addition, in some cases the `go` command will then report a more generic `error loading module requirements` error afterwards.
+
+The most common cause of this error is if there was a name change (e.g., `github.com/Sirupsen/logrus` to `github.com/sirupsen/logrus`), or if a module was sometimes used via two different names prior to modules due to a vanity import path (e.g., `github.com/golang/sync` vs. the recommended `golang.org/x/sync`).
+
+This can then cause problems if you have a dependency that is still being imported via an older name (e.g., `github.com/Sirupsen/logrus`) or a non-canonical name (e.g., `github.com/golang/sync`) but that dependency has subsequently adopted modules and now declares its canonical name in its `go.mod`. The error here can then trigger during an upgrade when the upgraded version of the module is found declaring a canonical module path that no longer matches the older import path.
+
+#### Example problem scenario
+
+* You are indirectly depending on `github.com/Quasilyte/go-consistent`.
+* The project adopts modules, and then later changes its name to `github.com/quasilyte/go-consistent` (changing `Q` to lowercase `q`), which is a breaking change. GitHub forwards from the old name to the new name.
+* You run `go get -u`, which attempts to upgrade all of your direct and indirect dependencies.
+* `github.com/Quasilyte/go-consistent` is attempted to be upgraded, but the latest `go.mod` found now reads `module github.com/quasilyte/go-consistent`.
+* The overall upgrade operation fails to complete, with error:
+
+> go: github.com/Quasilyte/go-consistent@v0.0.0-20190521200055-c6f3937de18c: parsing go.mod: unexpected module path "github.com/quasilyte/go-consistent"
+> go get: error loading module requirements
+
+#### Resolving
+
+The most common form of the error is:
+
+> go: example.com/some/OLD/name@vX.Y.Z: parsing go.mod: unexpected module path "example.com/some/NEW/name"
+
+If you visit the repository for `example.com/some/NEW/name` (from the right-side of the error), you can check the `go.mod` file for the latest release or `master` to see if it declares itself on the first line of the `go.mod` as `module example.com/some/NEW/name`. If so, that is a hint that you are seeing an "old module name" vs. "new module name" problem.
+
+This remainder of this section focuses on resolving the "old name" vs. "new name" form of this the error by following these steps in sequence:
+
+1. Check your own code to see if you are importing using `example.com/some/OLD/name`. If so, update your code to import using `example.com/some/NEW/name`.
+
+2. If you received this error during an upgrade, you should try upgrading using the tip version of Go, which has more targeted upgrade logic ([#26902](https://github.com/golang/go/issues/26902)) that can often sidestep this problem and also often has a better error message for this situation. Note that the `go get` arguments in tip / 1.13 are different than in 1.12. Example of obtaining tip and using it to upgrade your dependencies: 
+```
+go get golang.org/dl/gotip && gotip download
+gotip get -u all
+gotip mod tidy
+```
+Because the problematic old import is often in an indirect dependency, upgrading with tip and then running `go mod tidy` can frequently upgrade you past the problematic version and then also remove the problematic version from your `go.mod` as no longer needed, which then puts you into a functioning state when you return to using Go 1.12 or 1.11 for day-to-day use. For example, see that approach work [here](https://github.com/golang/go/issues/30831#issuecomment-489463638) to upgrade past `github.com/golang/lint` vs. `golang.org/x/lint` problems.
+
+3. If you received this error while doing `go get -u foo` or `go get -u foo@latest`, try removing the `-u`. This will give you the set of dependencies used by `foo@latest` without upgrading the dependencies of `foo` past the versions that the author of `foo` likely verified as working when releasing `foo`. This can be important especially during this transitional time when some of the direct and indirect dependencies of `foo` might not yet have  adopted [semver](https://semver.org) or modules. (A common mistake is thinking `go get -u foo` solely gets the latest version of `foo`. In actuality, the `-u` in `go get -u foo` or `go get -u foo@latest` means to _also_ get the latest versions for _all_ of the direct and indirect dependencies of `foo`; that might be what you want, but it might not be especially if it is otherwise failing due to deep indirect dependencies). 
+
+4. If the steps above have not resolved the error, the next approach is slightly more complicated, but most often should work to resolve an "old name" vs. "new name" form of this error. This uses just information solely from the error message itself, plus some brief looking at some VCS history.
+
+   4.1. Go to the `example.com/some/NEW/name` repository
+
+   4.2. Determine when the `go.mod` file was introduced there (e.g., by looking at the blame or history view for the `go.mod`).
+
+   4.3. Pick the release or commit from _just before_ the `go.mod` file was introduced there.
+
+   4.4. In your `go.mod` file, add a `replace` statement using the old name on both sides of the `replace` statement:
+       ```
+       replace example.com/some/OLD/name => example.com/some/OLD/name <version-just-before-go.mod>
+       ```
+Using our prior example where `github.com/Quasilyte/go-consistent` is the old name and `github.com/quasilyte/go-consistent` is the new name, we can see that the `go.mod` was first introduced there in commit [00c5b0cf371a](https://github.com/quasilyte/go-consistent/tree/00c5b0cf371a96059852487731370694d75ffacf). That repository is not using semver tags, so we will take the immediately prior commit [00dd7fb039e](https://github.com/quasilyte/go-consistent/tree/00dd7fb039e1eff09e7c0bfac209934254409360) and add it to the replace using the old uppercase Quasilyte name on both sides of the `replace`:
+
+```
+replace github.com/Quasilyte/go-consistent => github.com/Quasilyte/go-consistent 00dd7fb039e
+```
+
+This `replace` statement then enables us to upgrade past the problematic "old name" vs. "new name" mismatch by effectively preventing the old name from being upgraded to the new name in the presence of a `go.mod`. Usually, an upgrade via `go get -u` or similar can now avoid the error. If the upgrade completes, you can check to see if anyone is still importing the old name (e.g., `go mod graph | grep github.com/Quasilyte/go-consistent`) and if not, the `replace` can then be removed. (The reason this often works is because the upgrade itself can otherwise fail if an old problematic import path is used even though it might not be used in the final result if the upgrade had completed, which is tracked in [#30831](https://github.com/golang/go/issues/30831)).
+
+5. If the above steps have not resolved the problem, it might be because the problematic old import path is still in use by the latest version of one or more of you dependencies. In this case, it is important to identify who is still using the problematic old import path, and find or open an issue asking that the problematic importer change to using the now canonical import path. Using `gotip` in step 2. above might identify the problematic importer, but it does not do so in all cases, especially for upgrades ([#30661](https://github.com/golang/go/issues/30661#issuecomment-480981833)). If it is unclear who is importing using the problematic old import path, you can usually find out by creating a clean module cache, performing the operation or operations that trigger the error, and then grepping for the old problematic import path within the module cache. For example:
+
+```
+export GOPATH=$(mktemp -d)
+go get -u foo               # peform operation that generates the error of interest
+cd $GOPATH/pkg/mod
+grep -R --include="*.go" github.com/Quasilyte/go-consistent
+```
+
+6. If these steps are not sufficient to resolve the issue, or if you are a maintainer of a project that seems unable to remove references to an older problematic import path due to circular references, please see a much more detailed write-up of the problem on a separate [wiki page](https://github.com/golang/go/wiki/Resolving-Problems-From-Modified-Module-Path).
+
+Finally, the above steps focus on how to resolve an underlying "old name" vs. "new name" problem. However, the same error message can also appear if a `go.mod` was placed in the wrong location or simply has the wrong module path. If that is the case, the importing that module should always fail. If you are importing a new module that you just created and has never been successfully imported before, you should check that the `go.mod` file is located correctly and that it has the proper module path that corresponds to that location. (The most common approach is a single `go.mod` per repository, with the single `go.mod` file placed in the repository root, and using the repository name as the module path declared in the `module` directive). See the ["go.mod"](https://github.com/golang/go/wiki/Modules#gomod) section for more details.
+
 ### Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?
 
 In short:
