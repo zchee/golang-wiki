@@ -53,7 +53,7 @@ Rejected.
 
 ### Add warnings to the Go compiler
 
-Rejected.
+Experience in large projects has shown that warnings pile up until people ignore all warnings, so warnings only add noise and no value (or are actively harmful in that they hide bugs). See https://golang.org/doc/faq#unused_variables_and_imports 
 
 ### Weak references
 
