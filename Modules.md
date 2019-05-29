@@ -444,6 +444,24 @@ Migration topics:
      * When module mode is enabled in the `go` tool, `vendor` is not strictly required when consuming a module (given the information contained in `go.mod` and the cryptographic checksums in `go.sum`), but some pre-existing install instructions assume the `go` tool will use `vendor` by default. See the [vendoring FAQ](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away) for more details.
   * Install instructions that include `go get foo/...` might have issues in some cases (see discussion in [#27215](https://github.com/golang/go/issues/27215#issuecomment-427672781)).
 
+#### Avoid Breaking Existing Import Paths 
+
+A module declares its identity in its `go.mod` via the `module` directive, such as `module github.com/my/module`. All packages within the module must be imported by any module-aware consumer with import paths that match the module's declared module path (either exactly for a root package, or with the module path as a prefix of the import path). The `go` command reports an `unexpected module path` error if there is a mismatch between an import path vs. the corresponding module's declared module path.
+
+When adopting modules for a pre-existing set of packages, care should be taken to avoid breaking existing import paths used by existing consumers, unless you are incrementing your major version when adopting modules. 
+
+For example, if your pre-existing README has been telling consumers to use `import "gopkg.in/foo.v1"`, and if you then adopt modules with a v1 release, your initial `go.mod` should almost certainly read `module gopkg.in/foo.v1`.  If you wanted to move away from using `gopkg.in`, that would be a breaking change for your current consumers. One approach would be to change to something like `module github.com/repo/foo/v2` if you later move to v2.
+
+Note that module paths and import paths are case-sensitive. Changing a module from `github.com/Sirupsen/logrus` to `github.com/sirupsen/logrus` for example is a breaking change for consumers, even if GitHub automatically forwards from one repository name to the new repository name.
+
+After you have adopted modules, changing your module path in your `go.mod` is a breaking change.
+
+Overall, this is similar to the pre-modules enforcement of a canonical import path via ["import path comments"](https://golang.org/cmd/go/#hdr-Import_path_checking), which are also sometimes called "import pragmas" or "import path enforcement".  As an example, the package `go.uber.org/zap` is currently hosted at `github.com/uber-go/zap`, but uses an import path comment [next to the package declaration]((https://github.com/uber-go/zap/blob/8a2ee5670ced5d94154bf385dc6a362722945daf/doc.go#L113)) that triggers an error for any pre-modules consumer using the wrong github-based import path:
+
+`package zap // import "go.uber.org/zap"`
+
+Import path comments are obsoleted by the go.mod file's module statement.
+
 #### Incrementing the Major Version When First Adopting Modules with v2+ Packages
 
 * If you have packages that have already been tagged v2.0.0 or higher before adopting modules, then the recommended best practice is to increment the major version when first adopting modules. For example, if you are on `v2.0.1` and have not yet adopted modules, then you would use `v3.0.0` for the first release that adopts modules. See the ["Releasing Modules (v2 or Higher)"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) section above for more details.
