@@ -22,17 +22,17 @@ Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag p
 
 ### Triage new bugs
 
-Look at the [untriaged issues](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+no%3Aassignee+-label%3Agopls+sort%3Aupdated-desc). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. (Issues labeled `Go2`, `Proposal`, `CherryPickCandidate`, or `gopls` have their own, separate triage processes.)
+Look at the [untriaged issues](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AQuestion+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+no%3Aassignee+-label%3Agopls+sort%3Aupdated-desc). For Go, we use the presence of certain labels (`Needs*`, `WaitingForInfo`, or `Question`) to indicate that an issue has been triaged. Issues labeled `Go2`, `Proposal`, `CherryPickCandidate`, or `gopls` have their own, separate triage queues and can be skipped.
 
 While triaging the bug:
 
 * is it a duplicate? Close it, referencing the dup.
-* is it a Question rather than a bug? Close it and reply with something like "For questions about Go, see https://golang.org/wiki/Questions" 
-* is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation"
-* is it in a subrepo? Set the milestone to "Unreleased". Unless it's a subrepo that goes into a release, like godoc or http2.
-* if it is a regression and you can reproduce it, use git bisect to find the bad commit (optional but very helpful).
+* is it a Question rather than a bug? Label it [`Question`](https://github.com/golang/go/labels/Question) and reply with something like "For questions about Go, see https://golang.org/wiki/Questions".
+* is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation".
+* is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
+* if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
 
-See https://golang.org/wiki/HandlingIssues for how we use Github's issue metadata.
+When the issue has been triaged, an an appropriate label (per https://golang.org/wiki/HandlingIssues) to mark it as such.
 
 ### WaitingForInfo
 
@@ -40,9 +40,7 @@ Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/
 
 ### "Unplanned" bugs
 
-"Unplanned" issues have a habit of being neglected. Check out old ones and see if they're easily fixable (and can be moved to a Go1.n or Go 1.nMaybe milestone), or should be closed.
-
-These are the Unplanned bugs sorted by age, most stale ones first: https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3AUnplanned%20sort%3Aupdated-asc%20-label%3AGo2%20-label%3ALanguageChange
+["Unplanned" issues](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20milestone%3AUnplanned%20sort%3Aupdated-asc%20-label%3AGo2%20-label%3ALanguageChange) have a habit of being neglected. Check out old ones and see if they're easily fixable (and can be moved to a Go1.n or Go 1.nMaybe milestone), or should be closed.
 
 ### Pending CLs
 
