@@ -11,7 +11,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoGoConf | 2019-06-14 | Krakow, Poland | https://www.gogoconf.rocks <br> CFP: https://www.papercall.io/gogoconf |
 | Gophercon Poland | 2019-06-27 | Gdansk, Poland | https://twitter.com/GopherConPL <br> CFP: https://eventil.com/events/GopherConPL/cfp |
 | GoWayFest 3.0 | 2019-07-05 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest3 |
-| Go Conference '19 | 2019-07-13 | Fukuoka, Japan | https://fukuoka.gocon.jp/ |
+| Go Conference '19 Summer in Fukuoka| 2019-07-13 | Fukuoka, Japan | https://fukuoka.gocon.jp/ |
 | GopherShip | 2019-07-20 | Moscow, Russia | https://gophership.ru |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
