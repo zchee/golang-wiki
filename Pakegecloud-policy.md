@@ -1,1 +1,0 @@
-http://policy.rtat.net
