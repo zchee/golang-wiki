@@ -16,7 +16,7 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 ## Troubleshooting
 
-If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
+If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
 
 You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
 
