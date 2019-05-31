@@ -3,8 +3,8 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 # Table of Contents  
 [Status](#status)  
-[Installation](#installation)  
 [Troubleshooting](#troubleshooting)  
+[Installation](#installation)  
 [Contributing](#contributing)  
 [FAQ](#faq)  
 [Integrator FAQ](#integrator-faq)  
@@ -13,6 +13,12 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 ## Status
 
 `gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/cmd/gopls](https://golang.org/x/tools/cmd/gopls). Because we are actively working on `gopls`, it is not stable. If you choose to use it, be aware that things may regularly break or change.
+
+## Troubleshooting
+
+If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. It would also be helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
+
+For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
 
 ## Installation
 
@@ -163,12 +169,6 @@ Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is inst
 After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**.
 
 ---
-
-## Troubleshooting
-
-If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues) with the log attached and any other relevant information or a case that reproduces the issue. You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
-
-For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
 
 ## Contributing
 
