@@ -129,7 +129,7 @@ Concepts that appear repeatedly among the suggestions below.
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
- - krbuert, "[Error default handler for tests] (https://golang.org/issue/32361)", May 2019
+ - krhubert, "[Error default handler for tests] (https://golang.org/issue/32361)", May 2019
 
 ## Remove handler chaining
 
