@@ -186,6 +186,12 @@ proposals under way:
 
 Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
 
+## Analysing the structure of a WebAssembly file
+
+https://wasdk.github.io/wasmcodeexplorer/[WebAssembly Code Explorer] is useful for visualising the structure of a WebAssembly file.
+
+* Clicking on a hex value to the left will highlight the section it is part of, and the corresponding text representation on the right
+* Clicking a line on the right will highlight the hex byte representations for it on the left
 
 # Known bug(s)
 
