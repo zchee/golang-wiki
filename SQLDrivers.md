@@ -39,6 +39,7 @@ Drivers for Go's sql package include:
   * **Presto**: https://github.com/prestodb/presto-go-client
   * **SAP HANA** (uses cgo): https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.03/en-US/0ffbe86c9d9f44338441829c6bee15e6.html
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
+  * **SAP ASE** (uses cgo): https://github.com/SAP/go-ase - package cgo (pure go package planned)
   * **Snowflake** (pure Go): https://github.com/snowflakedb/gosnowflake
   * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
   * **SQLite** (uses cgo): https://github.com/gwenn/gosqlite - Supports SQLite dynamic data typing
