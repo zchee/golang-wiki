@@ -1,6 +1,15 @@
 `gopls` (pronounced: "go please") is an implementation of the Language Server Protocol (LSP) server for Go.
 The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details).
 
+# Table of Contents  
+[Status](#status)  
+[Installation](#installation)  
+[Troubleshooting](#troubleshooting)  
+[Contributing](#contributing)  
+[FAQ](#faq)  
+[Integrator FAQ](#integrator-faq)  
+[Additional Information](#additional-information)  
+
 ## Status
 
 `gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/cmd/gopls](https://golang.org/x/tools/cmd/gopls). Because we are actively working on `gopls`, it is not stable. If you choose to use it, be aware that things may regularly break or change.
@@ -11,9 +20,9 @@ First, install `gopls` by running `go get -u golang.org/x/tools/cmd/gopls`.
 
 At the moment, we suggest using VSCode.
 
-## Integration with your text editor
+### Integration with your text editor
 
-### VSCode
+#### VSCode
 
 Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the following configuration:
 
@@ -41,7 +50,7 @@ Turning off both build and vet on save is useful to avoid duplicating diagnostic
 
 ---
 
-### Vim / Neovim
+#### Vim / Neovim
 
 Use [vim-go](https://github.com/fatih/vim-go) ver 1.20+, with the following configuration:
 
@@ -110,13 +119,13 @@ Use [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-s
 
 ---
 
-### Vim (classic only)
+#### Vim (classic only)
 
 Use the experimental [`govim`](https://github.com/myitcv/govim), simply follow the [install steps](https://github.com/myitcv/govim/blob/master/README.md#govim---go-development-plugin-for-vim8).
 
 ---
 
-### Emacs
+#### Emacs
 
 Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
 
@@ -137,13 +146,13 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
 
 ---
 
-### Acme
+#### Acme
 
 Use the experimental [`acme-lsp`](https://github.com/fhs/acme-lsp), simply follow the [install steps](https://github.com/fhs/acme-lsp#gopls).
 
 ---
 
-### Sublime Text
+#### Sublime Text
 
 Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is installed:
 
@@ -154,6 +163,12 @@ Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is inst
 After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**.
 
 ---
+
+## Troubleshooting
+
+If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues) with the log attached and any other relevant information or a case that reproduces the issue. You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
+
+For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
 
 ## Contributing
 
