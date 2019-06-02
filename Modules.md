@@ -1159,7 +1159,7 @@ The error you are currently examining might be a secondary issue caused by not h
 
 ### What can I check if I am not seeing the expected version of a dependency?
 
-1. A good first step is to run `go mod tidy`. There is some chance this might resolve the issue, but it will also help put your `go.mod` file into a consistent state with respect to your `.go` source code, which will help make any subsequent investigation easier.
+1. A good first step is to run `go mod tidy`. There is some chance this might resolve the issue, but it will also help put your `go.mod` file into a consistent state with respect to your `.go` source code, which will help make any subsequent investigation easier. (If `go mod tidy` itself changes the versions of a dependency in a way you don't expect, first read [this FAQ on 'go mod tidy'](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod). If that does not explain it, you can try resetting your `go.mod` and then run `go list -mod=readonly all`, which might give a more specific message about whatever was requiring a change to its version).
 
 2. The second step usually should be to check `go list -m all` to see the list of actual versions selected for your build.  `go list -m all` shows you the final selected versions, including for indirect dependencies and after resolving versions for any shared dependencies. It also shows the outcome of any `replace` and `exclude` directives.
 
