@@ -1,7 +1,7 @@
 # Companies currently using Go throughout the world
 
 ## Africa
-  * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
+  * [Jumia Food](https://food.jumia.com/) - Instant delivery platforma.
   * [Global Performance Index (GPI)](https://www.my-gpi.com/) - Biggest Software automation company in Nigeria.
 
 ## Argentina
