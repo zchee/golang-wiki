@@ -161,6 +161,36 @@ is in development.
 * A new https://github.com/markfarnan/go-canvas[canvas drawing library] - seems pretty efficient.
 ** https://markfarnan.github.io/go-canvas/[Simple demo]
 
+# Configuring fetch options while using net/http
+
+You can use the net/http library to make HTTP requests from Go, and they will be converted to https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API[fetch] calls. However, there isn't a direct mapping between the fetch https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#Parameters[options] and the http https://golang.org/pkg/net/http/#Client[client] options. To achieve this, we have some special header values that are recognized as fetch options. They are -
+
+- `js.fetch:mode`: An option to the Fetch API mode setting. Valid values are: "cors", "no-cors", "same-origin", navigate". The default is "same-origin".
+
+- `js.fetch:credentials`: An option to the Fetch API credentials setting. Valid values are: "omit", "same-origin", "include". The default is "same-origin".
+
+- `js.fetch:redirect`: An option to the Fetch API redirect setting. Valid values are: "follow", "error", "manual". The default is "follow".
+
+So as an example, if we want to set the mode as "cors" while making a request, it will be something like:
+
+```go
+req, err := http.NewRequest("GET", "http://localhost:8080", nil)
+req.Header.Add("js.fetch:mode", "cors")
+if err != nil {
+  fmt.Println(err)
+  return
+}
+resp, err := http.DefaultClient.Do(req)
+if err != nil {
+  fmt.Println(err)
+  return
+}
+defer resp.Body.Close()
+// handle the response
+```
+
+Please feel free to subscribe to https://github.com/golang/go/issues/26769[#26769] for more context and possibly newer information.
+
 # Editor configuration
 
 * https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand and Intellij Ultimate for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
