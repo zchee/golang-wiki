@@ -231,7 +231,7 @@ The last sentence is especially important — if you break compatibility, you sh
 Recall [semver](https://semver.org/) requires a major version change when a v1 or higher package makes a backwards incompatible change. The result of following both the import compatibility rule and semver is called _Semantic Import Versioning_, where the major version is included in the import path — this ensures the import path changes any time the major version increments due to a break in compatibility.
 
 As a result of Semantic Import Versioning, code opting in to Go modules **must comply with these rules**: 
-* Follow [semver](https://semver.org/).
+* Follow [semver](https://semver.org/). (An example VCS tag is `v1.2.3`).
 * If the module is version v2 or higher, the major version of the module _must_ be included as a `/vN` at the end of the module paths used in `go.mod` files (e.g., `module github.com/my/mod/v2`, `require github.com/my/mod/v2 v2.0.0`) and in the package import path (e.g., `import "github.com/my/mod/v2/mypkg"`).
 * If the module is version v0 or v1, do _not_ include the major version in either the module path or the import path.
 
@@ -975,6 +975,16 @@ When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you
 * In contrast, when the `go` tool is operating in full module mode:
    * There are no exceptions to the rule "packages with different import paths are different packages" (including vendoring has been refined in full module mode to also adhere to this rule).
    * For example, if the `go` tool is in full module mode and `foo` is a v2+ module, then `import "foo"` is asking for a v1 version of `foo` vs. `import "foo/v2"` is asking for a v2 version of `foo`.
+
+### What happens if I create a go.mod but do not apply semver tags to my repository?
+
+[semver](https://semver.org) is a foundation of the modules system. While modules are encouraged to apply semver VCS tags such as `v1.2.3` in order to provide the best experience for consumers, semver VCS tags are not strictly required:
+
+1. Modules are required to follow the _semver specification_ in order for the `go` command to behave as documented. This includes following the semver specification regarding how and when breaking changes are allowed.
+
+2. Modules that do not have semver _VCS tags_ are recorded by consumers using a semver version in the form of a [pseudo-version](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions). Typically this will be a v0 major version, unless the module author constructed a v2+ module following the ["Major Subdirectory"](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher) approach.
+
+3. Therefore, modules that do not apply semver VCS tags and have not created a "Major Subdirectory" are effectively declaring themselves to be in the semver v0 major version series, and a module-based consumer will treat them as having a semver v0 major version.
 
 ### Can a module depend on a different version of itself?
 
