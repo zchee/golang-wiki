@@ -147,12 +147,14 @@ Also:
 * An experimental new framework https://github.com/vugu/vugu[Vugu] is
 worth trying out, if you're looking for something like VueJS. :smile:
 
-* https://github.com/norunners/vue[Vue - The progressive framework for WebAssembly applications.]
+* https://github.com/norunners/vue[vue - The progressive framework for WebAssembly applications.]
 
 * https://github.com/dennwc/dom[A library for streamlining DOM manipulation]
 is in development.
 
 * There is a https://gowebapi.github.io/[binding generator] that can be used.
+
+* https://github.com/norunners/vert[vert - WebAssembly interop between Go and JS values.]
 
 ## Canvas
 
