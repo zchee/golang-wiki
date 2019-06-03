@@ -17,9 +17,11 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 ## Troubleshooting
 
-If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
+If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls". 
 
-You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem. For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
+If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
+
+You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
 
 Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://invite.slack.golangbridge.org) channel.
 
@@ -55,7 +57,13 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 
 VSCode will complain about the `"gopls"` settings, but they will still work. Once we have a consistent set of settings, we will make the changes in the VSCode plugin necessary to remove the errors.
 
-Turning off both build and vet on save is useful to avoid duplicating diagnostics from both gopls and VSCode-Go.
+If you encounter problems with import organization, please try setting a higher code action timeout (any value greater than 750ms), for example:
+
+```go
+"[go]": {
+  "editor.codeActionsOnSaveTimeout": 3000
+}
+```
 
 ---
 
