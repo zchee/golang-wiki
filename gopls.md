@@ -1,10 +1,11 @@
 `gopls` (pronounced: "go please") is an implementation of the Language Server Protocol (LSP) server for Go.
-The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details).
+The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details). It is currently in alpha, so it is not stable.
 
 # Table of Contents  
 [Status](#status)  
 [Troubleshooting](#troubleshooting)  
 [Installation](#installation)  
+[Known Issues](#known-issues)  
 [Contributing](#contributing)  
 [FAQ](#faq)  
 [Integrator FAQ](#integrator-faq)  
@@ -12,15 +13,15 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 ## Status
 
-`gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/cmd/gopls](https://golang.org/x/tools/cmd/gopls). Because we are actively working on `gopls`, it is not stable. If you choose to use it, be aware that things may regularly break or change.
+`gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/cmd/gopls](https://golang.org/x/tools/cmd/gopls). Because we are actively working on `gopls`, it is not stable. If you choose to use it, be aware that things may regularly break or change. For more `gopls` discussion, join the `#gopls` channel in the [Gopher Slack](https://invite.slack.golangbridge.org).
 
 ## Troubleshooting
 
 If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
 
-You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
+You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem. For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
 
-For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls".
+Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://invite.slack.golangbridge.org) channel.
 
 ## Installation
 
@@ -171,6 +172,10 @@ Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is inst
 After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**.
 
 ---
+
+## Known Issues
+
+* Cursor resets to the beginning or end of file on format: [#31937](https://github.com/golang/go/issues/31937).
 
 ## Contributing
 
