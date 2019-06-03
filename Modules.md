@@ -55,6 +55,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Can a module consume a package that has not opted in to modules?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-package-that-has-not-opted-in-to-modules)
   * [Can a module consume a v2+ package that has not opted into modules? What does '+incompatible' mean?](https://github.com/golang/go/wiki/Modules#can-a-module-consume-a-v2-package-that-has-not-opted-into-modules-what-does-incompatible-mean)
   * [How are v2+ modules treated in a build if modules support is not enabled? How does "minimal module compatibility" work in 1.9.7+, 1.10.3+, and 1.11?](https://github.com/golang/go/wiki/Modules#how-are-v2-modules-treated-in-a-build-if-modules-support-is-not-enabled-how-does-minimal-module-compatibility-work-in-197-1103-and-111)
+  * [What happens if I create a go.mod but do not apply semver tags to my repository?](https://github.com/golang/go/wiki/Modules#what-happens-if-i-create-a-gomod-but-do-not-apply-semver-tags-to-my-repository)
   * [Can a module depend on a different version of itself?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-a-different-version-of-itself)
 * [FAQs — Multi-Module Repositories](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories)
   * [What are multi-module repositories?](https://github.com/golang/go/wiki/Modules#what-are-multi-module-repositories)
@@ -70,6 +71,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Why am I getting an error 'cannot find module providing package foo'?](https://github.com/golang/go/wiki/Modules#why-am-i-getting-an-error-cannot-find-module-providing-package-foo)
   * [Why does 'go mod init' give the error 'cannot determine module path for source directory'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-init-give-the-error-cannot-determine-module-path-for-source-directory)
   * [I have a problem with a complex dependency that has not opted in to modules. Can I use information from its current dependency manager?](https://github.com/golang/go/wiki/Modules#i-have-a-problem-with-a-complex-dependency-that-has-not-opted-in-to-modules-can-i-use-information-from-its-current-dependency-manager)
+  * [How can I resolve "parsing go.mod: unexpected module path" and "error loading module requirements" errors caused by a mismatch between import paths vs. declared module identity?](https://github.com/golang/go/wiki/Modules#how-can-i-resolve-parsing-gomod-unexpected-module-path-and-error-loading-module-requirements-errors-caused-by-a-mismatch-between-import-paths-vs-declared-module-identity)
   * [Why does 'go build' require gcc, and why are prebuilt packages such as net/http not used?](https://github.com/golang/go/wiki/Modules#why-does-go-build-require-gcc-and-why-are-prebuilt-packages-such-as-nethttp-not-used)
   * [Do modules work with relative imports like `import "./subdir"`?](https://github.com/golang/go/wiki/Modules#do-modules-work-with-relative-imports-like-import-subdir)
   * [Some needed files may not be present in populated vendor directory](https://github.com/golang/go/wiki/Modules#some-needed-files-may-not-be-present-in-populated-vendor-directory)
@@ -978,7 +980,7 @@ When a v2+ module author has _not_ created `/v2` or `/vN` subdirectories and you
 
 ### What happens if I create a go.mod but do not apply semver tags to my repository?
 
-[semver](https://semver.org) is a foundation of the modules system. While modules are encouraged to apply semver VCS tags such as `v1.2.3` in order to provide the best experience for consumers, semver VCS tags are not strictly required:
+[semver](https://semver.org) is a foundation of the modules system. In order to provide the best experience for consumers, module authors are encouraged to apply semver VCS tags (e.g., `v0.1.0` or `v1.2.3-rc.1`), but semver VCS tags are not strictly required:
 
 1. Modules are required to follow the _semver specification_ in order for the `go` command to behave as documented. This includes following the semver specification regarding how and when breaking changes are allowed.
 
