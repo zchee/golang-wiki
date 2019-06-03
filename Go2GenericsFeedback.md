@@ -77,6 +77,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Randy O'Reilly, "[Generic Native Types](https://gist.github.com/rcoreilly/bfbee2add03c76ada82810423d81e53d)", June 2019
+
 - Michal Štrba, "[Giving up restricting types](https://gist.github.com/faiface/e5f035f46e88e96231c670abf8cab63f)", May 2019
 
 - Eric Miller, "[Simple generics using const struct fields](https://gist.github.com/HALtheWise/e7db03557ad52b9f9fa2722b4ef0f41e)", March 2019
