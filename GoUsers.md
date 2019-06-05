@@ -1169,6 +1169,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [source{d}](https://sourced.tech) - [github](https://github.com/src-d), [twitter](https://twitter.com/sourcedtech), [blog](https://blog.sourced.tech)
   * [Space Monkey](http://www.spacemonkey.com) - [blog](https://www.spacemonkey.com/blog/posts/go-space-monkey)
   * [SpaceX](http://www.spacex.com/) - [reddit](https://www.reddit.com/r/golang/comments/3pu3nl/spacex_is_using_go_for_its_telemetry_system/)
+  * [SpeedyTV](https://www.speedytv.com)
   * [Sphere Software](https://sphereinc.com) - [github](https://github.com/spheresoftware)
   * [Splice](http://splice.com) - [tweet](https://twitter.com/mattetti/status/387935640513683456), [blog](http://blog.gopheracademy.com/birthday-bash-2014/go-shaped-splice-engineering-culture/), [blog](https://blog.splice.com/golang-improved-simplicity-reduced-maintenance/)
   * [Springer](http://joinit.springer.com) - [tweet](https://twitter.com/quii/status/575647166091370497)
