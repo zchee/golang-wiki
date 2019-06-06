@@ -538,6 +538,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-modeldb](https://github.com/jaekwon/go-modeldb) - A simple wrapper around sql.DB for struct support.
   * [gorm](https://github.com/jinzhu/gorm) - An ORM library for Go, aims for developer friendly
   * [gorp](https://github.com/coopernurse/gorp) - SQL mapper for Go
+  * [go-firestorm](https://github.com/jschoedt/go-firestorm) - Simple Go ORM for Cloud Firestore
   * [go-store](https://github.com/gosuri/go-store) - Data-store library for Go that provides a set of platform-independent interfaces to persist and retrieve key-value data.
   * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go. Supports Postgres and MySQL.
   * [lore](https://github.com/abrahambotros/lore) - Simple and lightweight pseudo-ORM/pseudo-struct-mapping environment for Go.
