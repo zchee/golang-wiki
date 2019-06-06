@@ -753,6 +753,7 @@ Publicly hosted "always on" immutable module repositories and optional privately
 For example:
 * [Project Athens](https://github.com/gomods/athens): Open source project in the works and looking for contributors.
 * [JFrog Artifactory](https://jfrog.com/artifactory/): Commercial offering. Support for Go 1.11 modules started with release 5.11 as described [here](https://jfrog.com/blog/goproxy-artifactory-go-registries/) and [here](https://www.jfrog.com/confluence/display/RTF/Go+Registry). From Artifactory version 6.2.0, please use [JFrog CLI 1.20.2](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory#CLIforJFrogArtifactory-BuildingGoPackages) and above.
+* [goproxy.io](https://goproxy.io) - A Global Proxy for Go Modules.
 * [THUMBAI](https://thumbai.app) - Open source project - Go Mod Proxy server and Go Vanity Import Path server
 * [Goproxy](https://github.com/goproxy/goproxy) - Open source project - A minimalist Go module proxy handler.
 * [Goproxy China](https://github.com/goproxy/goproxy.cn) - Open source project - The most trusted Go module proxy in China.
