@@ -161,6 +161,9 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
   :commands company-lsp)
 ``` 
 
+On OSX, Emacs.app may need to get the same PATH and GOPATH as the shell. Move
+the definitions of PATH and GOPATH into .zshenv (or .bashenv if you use bash) from .zshrc (.bashrc).
+
 ---
 
 #### Acme
