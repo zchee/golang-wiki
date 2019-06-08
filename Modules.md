@@ -676,6 +676,9 @@ The community is starting to build tooling on top of modules. For example:
   * Command line tool to automatically upgrade/downgrade major versions for modules
   * Automatically adjusts `go.mod` files and related import statements in go source code
   * Helps with upgrades, or when first opting in to modules with a v2+ package
+* [github.com/akyoto/mgit](https://github.com/akyoto/mgit)
+  * Lets you view & control semver tags of all of your local projects
+  * Shows untagged commits and lets you tag them all at once (`mgit -tag +0.0.1`)
 * [github.com/goware/modvendor](https://github.com/goware/modvendor)
   * Helps copy additional files into the `vendor/` folder, such as shell scripts, .cpp files, .proto files, etc.
   
