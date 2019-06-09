@@ -93,13 +93,19 @@ https://github.com/shurcooL/goexec#goexec[`goexec`]:
 $ goexec 'http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))'
 ```
 
-Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].
+Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].  
+
+Note: for the `goexec` command to work on Unix-like systems, you must [add the PATH environment variable](https://golang.org/doc/install#tarball) for Go to your shell's `profile`. Go's getting started guide explains this: 
+> Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
+
+> `export PATH=$PATH:/usr/local/go/bin`
+
+> Note: changes made to a profile file may not apply until the next time you log into your computer
 
 Finally, navigate to http://localhost:8080/index.html, open the
 JavaScript debug console, and you should see the output. You can
 modify the program, rebuild `main.wasm`, and refresh to see new
 output.
-
 
 # Executing WebAssembly with Node.js
 
