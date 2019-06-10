@@ -95,7 +95,8 @@ $ goexec 'http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))'
 
 Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].  
 
-Note: for the `goexec` command to work on Unix-like systems, you must https://golang.org/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this: 
+Note: for the `goexec` command to work on Unix-like systems, you must https://golang.org/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:  
+
 > Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
 
 > `export PATH=$PATH:/usr/local/go/bin`
