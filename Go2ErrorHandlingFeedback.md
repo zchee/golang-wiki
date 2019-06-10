@@ -82,7 +82,7 @@ Concepts that appear repeatedly among the suggestions below.
   [12](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
   [13](https://github.com/golang/go/issues/27519)
 
-- Invoke one of several handlers by name, e.g. `v, ?name := f()`  
+- Invoke one of several handlers by name, e.g. `v := check f() ? name`  
   references:
   [1](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
   [2](https://gist.github.com/forstmeier/b6c6a6d2f6f2f72a81a076322959c959),
