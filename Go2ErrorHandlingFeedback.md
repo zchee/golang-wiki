@@ -206,6 +206,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 ## Other possibilities
 
+- Alex Hornbake, "[refuse. conditional return keyword](https://gist.github.com/alexhornbake/6a4c1c6a0f2a063da6dda1bf6ec0f5f3)", June 2019
+
 - yaxinlx, "[Use ? as suffix to remove the last error value from multi-value tuples](https://gist.github.com/yaxinlx/1e013fec0e3c2469f97074dbf5d2e2c0)", March 2019
 
 - Plamen Stoev, "[Go 2 block-level checks](https://gist.github.com/coquebg/afe44e410f883a313dc849da3e1ff34c)", November 2018
