@@ -223,6 +223,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 Please help categorize the rest of the proposals here.
 
+- Andrew Gwozdziewycz, "[Check for Go Errors](http://sigusr2.net/check-for-go-errors.html)", June 2019 
+
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 
 - Loki Verloren, “[Go 2 error handling feedback and my thoughts on how to improve programmer's efficiency and experience](https://gist.github.com/l0k1verloren/8aec03b8c48fdb5d3dab3a77153ce162)”, September 2018
