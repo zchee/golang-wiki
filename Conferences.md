@@ -13,9 +13,9 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoWayFest 3.0 | 2019-07-05 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest3 |
 | Go Conference '19 Summer in Fukuoka| 2019-07-13 | Fukuoka, Japan | https://fukuoka.gocon.jp/ |
 | GopherShip | 2019-07-20 | Moscow, Russia | https://gophership.ru |
-| GopherCon 2019 | 2019-07-24-27 | San Diego, CA | https://www.gophercon.com/ |
+| GopherCon 2019 | 2019-07-24-27 | San Diego, CA USA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
-| OpenGo 2019 | 2019-09-23-25 | Hollywood, FL | https://opengo.io/ |
+| OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | https://golangconf.ru/2019 |
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
