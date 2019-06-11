@@ -1253,6 +1253,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
   * [Tipe](https://tipe.io) - [github](https://github.com/tipeio)
   * [4wardtech Inc](http://4ward.tech/)
+  * [Walmart Labs](https://www.walmartlabs.com/)
 
 ## Vietnam
   * [BeGroup](https://be.xyz)
