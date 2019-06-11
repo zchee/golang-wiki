@@ -736,7 +736,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Mavrix](https://mavrix.es) - [github](https://github.com/betit/orion-go-sdk)  
   * [Typeform](https://www.typeform.com/)
   * [source{d}](https://sourced.tech)
-  * [NayarSystems](https://www.nayarsystems.com/)
+  * [NayarSystems](http://www.nayarsystems.com/)
 
 ## Sweden
   * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
