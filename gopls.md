@@ -145,7 +145,7 @@ Use the experimental [`govim`](https://github.com/myitcv/govim), simply follow t
 
 #### Emacs
 
-Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
+Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as a client, so no special config is necessary. You first must install gopls and put it somewhere in your PATH. Here is an example (assuming you are using [use-package](https://github.com/jwiegley/use-package)) to get you started:
 
 ```lisp
 (use-package lsp-mode
@@ -162,8 +162,11 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
   :commands company-lsp)
 ``` 
 
-On OSX, Emacs.app may need to get the same PATH and GOPATH as the shell. Move
-the definitions of PATH and GOPATH into .zshenv (or .bashenv if you use bash) from .zshrc (.bashrc).
+Common errors:
+- Emacs must have your environment set properly (PATH, GOPATH, etc). You can run `M-x getenv <RET> PATH <RET>` to see if your PATH is set in Emacs. If not, you can try starting Emacs from your terminal, using [this package](https://github.com/purcell/exec-path-from-shell), or moving your shell config from .bashrc into .bashenv (or .zshenv).
+- Make sure `lsp-mode`, `lsp-ui` and `company-lsp` are up-to-date, and make sure `lsp-go` is _not_ installed.
+
+To troubleshoot, look in the `*lsp-log*` buffer for errors.
 
 ---
 
