@@ -416,9 +416,12 @@
  
 ## Israel
   * [353Solutions](http://353solutions.com) 
+  * [AppsFlyer](https://www.appsflyer.com) 
   * [Aqua Security](https://www.aquasec.com)
   * [BigPanda](http://bigpanda.io) 
+  * [Bottomline Technologies](https://www.bottomline.com)
   * [Bringg](https://www.bringg.com)
+  * [Check Point](https://www.checkpoint.com/)
   * [CTERA](https://www.ctera.com/)
   * [Cyren](https://www.cyren.com)
   * [Dragontail Systems](https://www.dragontailsystems.com) 
@@ -435,11 +438,14 @@
     * [v3io](https://github.com/v3io) - Iguazio open source
     * [nuclio](https://github.com/nuclio/nuclio) - Nuclio Serverless project
   * [JobJob](http://JobJobapp.com)
+  * [LivePerson](https://www.liveperson.com)
   * [Make My Day](https://www.makemydayapp.com/)
   * [Medtronic](https://www.medtronic.com/)
   * [Mathematic.ai](https://www.mathematic.ai)
   * [Nexar](https://www.getnexar.com/)
   * [Panoply](https://panoply.io­)
+  * [Peer5](https://www.peer5.com/)
+  * [PlanGrid](https://www.plangrid.com/)
   * [Proofpoint](https://proofpoint.com)
   * [Protected Media](http://www.protected.media) 
   * [PUB+](http://pubplus.com/) 
@@ -452,6 +458,8 @@
   * [StreamRail](https://www.streamrail.com/)
   * [Surge Media](https://surge.media)
   * [TechedUp](http://www.techedup.net) - ([Blog](http://blog.techedup.net/category/go/)) 
+  * [Tikal](https://www.tikalk.com/)
+  * [Tufin](https://www.tufin.com/)
   * [Twistlock](https://www.twistlock.com)
   * [uponit](https://uponit.com/) 
   * [Yodas](https://yodas.com) 
