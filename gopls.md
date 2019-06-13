@@ -19,6 +19,8 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls". 
 
+To increase the level of detail in your logs, start `gopls` with the `-rpc.trace` flag. To start a debug server that will allow you to see profiles and memory usage, start `gopls` with `serve --debug=localhost:6060`. See the editor configurations section below for information on how to pass these flags via your editor.
+
 If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
 
 You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
@@ -60,12 +62,21 @@ VSCode will complain about the `"gopls"` settings, but they will still work. Onc
 
 If you encounter problems with import organization, please try setting a higher code action timeout (any value greater than 750ms), for example:
 
-```go
+```json5
 "[go]": {
   "editor.codeActionsOnSaveTimeout": 3000
 }
 ```
 
+To enable more detailed debug information, add the following to your VSCode settings:
+
+```json5
+"go.languageServerFlags": [
+    "-rpc.trace", // for more detailed debug logging
+    "serve",
+    "--debug=localhost:6060", // to investigate memory usage, see profiles 
+],
+```
 ---
 
 #### Vim / Neovim
