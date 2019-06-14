@@ -256,3 +256,10 @@ This screencast describes setting up a workspace (GOPATH), writing commands and 
     * ISBN: 9781789134797
    
 [[Video](https://www.packtpub.com/application-development/go-application-development-tips-tricks-and-techniques-video)]
+
+* **Hands-On Microservices with Go [Video]**
+    * Author: Emiliano Martinez Luque
+    * Publication Date: May 2019
+    * ISBN: 9781788993999
+    
+[[video](https://www.packtpub.com/application-development/hands-microservices-go-video?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach)]
