@@ -258,7 +258,7 @@ For example, files that are created/modified/removed as a result of `go generate
 
 > The plan is to have the client do all the work for us. Specifically we are going to start using `workspace/didChangeWatchedFiles` to monitor all the files we are caching AST's for
 
-This is currently not implemented (2019-04-15).
+This is currently not implemented (see [#31553](https://github.com/golang/go/issues/31553)).
 
 ## Additional Information
 
