@@ -319,6 +319,17 @@ Sorted by publication date.
     * ISBN: 9781789618501
     * Reference: https://www.packtpub.com/application-development/learn-data-structures-and-algorithms-golang
 
+* **Machine Learning With Go - Second Edition**
+    * Author: Daniel Whitenack
+    * Publication Date: April 2019
+    * ISBN: 9781789619898
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-second-edition?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach
+
+* **Machine Learning with Go Quick Start Guide**
+    * Author: Michael Bironneau and Toby Coleman
+    * Publication Date: May 2019
+    * ISBN: 9781838550356
+    * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-quick-start-guide?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach
 ***
 
 ## Early Access
