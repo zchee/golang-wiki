@@ -138,6 +138,19 @@ PASS
 ok  	example.org/my/pkg	0.800s
 ```
 
+## Running tests in the browser
+
+You can also use https://github.com/agnivade/wasmbrowsertest[wasmbrowsertest] to run tests inside your browser. It automates the job of spinning up a webserver and uses headless Chrome to run the tests inside it and relays the logs to your console.
+
+Same as before, just `go get github.com/agnivade/wasmbrowsertest` to get a binary. Rename that to `go_js_wasm_exec` and place it to your `PATH`
+
+```
+$ mv $GOPATH/bin/wasmbrowsertest $GOPATH/bin/go_js_wasm_exec
+$ export PATH="$PATH:$GOPATH/bin"
+$ GOOS=js GOARCH=wasm go test
+PASS
+ok  	example.org/my/pkg	0.800s
+```
 
 # Go WebAssembly talks
 
