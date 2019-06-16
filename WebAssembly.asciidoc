@@ -152,6 +152,11 @@ PASS
 ok  	example.org/my/pkg	0.800s
 ```
 
+Alternatively, use the `exec` test flag.
+```
+$ GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
+```
+
 # Go WebAssembly talks
 
 * https://www.youtube.com/watch?v=4kBvvk2Bzis[Building a Calculator with Go and WebAssembly] (https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
