@@ -654,9 +654,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Shortcut AS](https://shortcut.no/)
   * [Vipps](https://www.vipps.no)
 
-## Pakistan
-  * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
-
 ## Philippines
   * [22 Delta Labs](https://www.22delta.com) - [github](https://github.com/22delta) - AI, data science, software and product development company
   * [EngageSPARK](https://www.engagespark.com)
