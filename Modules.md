@@ -63,6 +63,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Is it possible to add a module to a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-add-a-module-to-a-multi-module-repository)
   * [Is it possible to remove a module from a multi-module repository?](https://github.com/golang/go/wiki/Modules#is-it-possible-to-remove-a-module-from-a-multi-module-repository)
   * [Can a module depend on an internal/ in another?](https://github.com/golang/go/wiki/Modules#can-a-module-depend-on-an-internal-in-another)
+  * [Can an additional go.mod exclude unnecessary content? Do modules have the equivalent of a .gitignore file?](https://github.com/golang/go/wiki/Modules#can-an-additional-gomod-exclude-unnecessary-content-do-modules-have-the-equivalent-of-a-gitignore-file)
 * [FAQs — Minimal Version Selection](https://github.com/golang/go/wiki/Modules#faqs--minimal-version-selection)
   * [Won't minimal version selection keep developers from getting important updates?](https://github.com/golang/go/wiki/Modules#wont-minimal-version-selection-keep-developers-from-getting-important-updates)
 * [FAQs — Possible Problems](https://github.com/golang/go/wiki/Modules#faqs--possible-problems)
@@ -1145,6 +1146,14 @@ my-repo
 ```
 
 Here, package foo can import my-repo/internal as long as module "my-repo/foo" depends on module "my-repo/internal". The semantics are the same in both: since my-repo is a shared path prefix between my-repo/internal and my-repo/foo, package foo is allowed to import package internal.
+
+### Can an additional go.mod exclude unnecessary content? Do modules have the equivalent of a .gitignore file?
+
+One additional use case for having multiple `go.mod` files in a single repository is if the repository has files that should be pruned from a module. For example, a repository might have very large files that are not needed for the Go module, or a multi-language repository might have many non-Go files. 
+
+An empty `go.mod` in a directory will cause that directory and all of its subdirectories to be excluded from the top-level Go module.
+
+If the excluded directory does not contain any `.go` files, no additional steps are needed beyond placing the empty `go.mod` file. If the excluded directory does contain `.go` files, please first carefully review the other FAQs in [this multi-module repository section](https://github.com/golang/go/wiki/Modules#faqs--multi-module-repositories).
 
 ## FAQs — Minimal Version Selection
 
