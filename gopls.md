@@ -203,6 +203,7 @@ After doing the above, you might want to take a look at the LSP package's settin
 
 * Cursor resets to the beginning or end of file on format: [#31937](https://github.com/golang/go/issues/31937).
 * "no room in queue" error: [#32467](https://github.com/golang/go/issues/32467).
+* file contents reverted after saving: [#32643](https://github.com/golang/go/issues/32643).
 
 ## Contributing
 
