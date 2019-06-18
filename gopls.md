@@ -146,6 +146,12 @@ Use [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-s
   }
 ```
 
+To get automatic formatting and imports on save, add the following line to your `init.vim`:
+
+```vim
+autocmd BufWritePre *.go :call CocAction("format")
+```
+
 ---
 
 #### Vim (classic only)
