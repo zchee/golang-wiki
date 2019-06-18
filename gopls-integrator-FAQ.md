@@ -1,5 +1,3 @@
-# `gopls` Integrator FAQ
-
 What follows is a list of questions/ideas/suggestions for folks looking to integrate `gopls` within an editor/similar. 
 
 A good starting point for any integrator is the [Language Service Protocol Specification](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md). [`golang.org/x/tools/internal/lsp/protocol`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol) represents a Go definition of the spec. 
