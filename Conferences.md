@@ -19,7 +19,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | https://golangconf.ru/2019 |
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
-| Florida Golang | 2020-02-03-04 | Orlando, Florida | http://floridagolang.com/ |
 
 
 ## Archives
