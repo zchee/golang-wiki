@@ -1,10 +1,23 @@
 # Feedback re Go 2 Error Handling Draft Design
 
-This page is meant to collect and organize feedback about the Go 2 [error handling draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-handling-overview.md).
+This page is meant to collect and organize feedback and discussion 
+started with the Go 2 [error handling draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-handling-overview.md).
 
 Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google Docs, etc. And then please link it here.
 
 Please help categorize the rest of the uncategorized proposals at the bottom.
+
+**Update, June 19, 2019** – Based on this feedback we have posted a [proposal for a try builtin](https://golang.org/design/32437-try-builtin), which produced significant feedback on #32427 ([threaded view here](https://swtch.com/try.html)). 
+
+We've disabled comments on that issue until July 1 to give people time to experiment in their own code. We would very much like to see experience reports about using the general try approach in your own code, including trial conversions with [tryhard](https://github.com/griesemer/tryhard). Thanks!
+
+# Experience with the [“try proposal”](https://golang.org/design/32437-try-builtin)
+
+Add to this list:
+
+- TEMPLATE: Your Name, “[Title](URL)”, Month YYYY
+
+* * *
 
 # Requirements
 
