@@ -256,6 +256,7 @@
   * [Naga Virtual](https://nagavirtual.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
   * [OptioPay](https://www.optiopay.com)
+  * [Posteo] (https://posteo.de/en) - Green, secure, ad-free email service
   * [PubNative](https://www.pubnative.net/) - [github](https://github.com/pubnative)
   * [simplesurance](https://www.simplesurance.com/)
   * [Sixt](https://www.sixt.com)
