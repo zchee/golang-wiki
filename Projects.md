@@ -263,6 +263,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [goconfig](https://github.com/fulldump/goconfig) - Configuration based on struct introspection, supports environment vars, command line args, and more.
   * [hjson](https://github.com/laktak/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
+  * [koanf](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
   * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
