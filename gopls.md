@@ -24,7 +24,7 @@ To increase the level of detail in your logs, start `gopls` with the `-rpc.trace
 
 If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
 
-You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem.
+You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem. In VSCode, the easiest way to restart the language server is by opening the command palette (Ctrl + Shift + P) and selecting "Go: Restart Language Server".
 
 Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://invite.slack.golangbridge.org) channel.
 
