@@ -188,6 +188,7 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
 ``` 
 
 Common errors:
+- When prompted by Emacs for your project folder, if you are using modules you must select the module's root folder (i.e. the directory with the "go.mod"). If you are using GOPATH, select your $GOPATH as your folder.
 - Emacs must have your environment set properly (PATH, GOPATH, etc). You can run `M-x getenv <RET> PATH <RET>` to see if your PATH is set in Emacs. If not, you can try starting Emacs from your terminal, using [this package](https://github.com/purcell/exec-path-from-shell), or moving your shell config from .bashrc into .bashenv (or .zshenv).
 - Make sure `lsp-mode`, `lsp-ui` and `company-lsp` are up-to-date, and make sure `lsp-go` is _not_ installed.
 
