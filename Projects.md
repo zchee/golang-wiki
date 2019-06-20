@@ -532,6 +532,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-sqlite-lite](https://github.com/bvinc/go-sqlite-lite) - A simple SQLite package for Go.
   * [mattn's go-sqlite3](https://github.com/mattn/go-sqlite3) - sqlite3 driver conforming to the built-in database/sql interface
 
+### Vertica
+
+  * [vertica-sql-go](https://github.com/vertica/vertica-sql-go) - A pure Go driver for Vertica database.
+
 ### ORM
 
   * [beedb](https://github.com/astaxie/beedb) - beedb is an ORM for Go. It lets you map Go structs to tables in a database
