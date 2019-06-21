@@ -51,7 +51,8 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 "go.useLanguageServer": true,
 "go.languageServerExperimentalFeatures": {
         "diagnostics": true, // for build and vet errors as you type
-        "findReferences": true // for finding in-package references
+        "findReferences": true, // for finding in-package references
+        "rename": true // for performing in-package renames
 },
 "[go]": {
     "editor.snippetSuggestions": "none",
