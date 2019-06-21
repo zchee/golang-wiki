@@ -1,6 +1,6 @@
 ## Active podcast shows
 * [Go Time](http://gotime.fm) - Erik St. Martin, Carlisia Campos, Brian Ketelsen, recorded weekly and streamed live at 3PM EST at http://changelog.com/live
-* [GoFr](https://soundcloud.com/arnaud-assad/sets/gofr) – by Arnaud Assad, in French.
+* [GoFr](https://soundcloud.com/arnaud-assad/sets/gofr) – by Arnaud Assad, Sebastien Friess, Thomas Perez, Lucille Tachet in French.
 
 ## Inactive podcast shows
 * [GolangShow](http://golangshow.com/) – Weekly podcast since June 2015, in English and Russian languages.
