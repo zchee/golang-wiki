@@ -49,11 +49,6 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
 
 ```json5
 "go.useLanguageServer": true,
-"go.languageServerExperimentalFeatures": {
-        "diagnostics": true, // for build and vet errors as you type
-        "findReferences": true, // for finding in-package references
-        "rename": true // for performing in-package renames
-},
 "[go]": {
     "editor.snippetSuggestions": "none",
     "editor.formatOnSave": true,
