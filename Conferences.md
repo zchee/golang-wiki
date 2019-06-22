@@ -15,6 +15,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | https://golangconf.ru/2019 |
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
+| GopherCon Australia | 2019-10-30 | Sydney, Australia | http://gophercon.com.au/ <br>CFP: https://www.papercall.io/gophercon-au-2019 |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ <br> CFP: https://www.papercall.io/gopherpalooza2019 |
 | GothamGo | 2020-04-23-24 | New York City, NY USA | http://gothamgo.com/ |
 
