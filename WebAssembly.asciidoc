@@ -278,9 +278,12 @@ The solution is to upgrade to Go 1.11.2 or later.
 ** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
 ** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy] - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
 ** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
+** https://stdiopt.github.io/gowasm-experiments/hexy[hexy] (**new**)
 * https://github.com/djhworld/gomeboycolor-wasm[Gomeboycolor-wasm]
 ** WASM port of an experimental Gameboy Color emulator.  The https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/[matching blog post]
   contains some interesting technical insights.
+* https://justinclift.github.io/tinygo_canvas2/[TinyGo canvas]
+** This is compiled with https://tinygo.org[TinyGo] instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
 
 ## WebGL canvas (3D)
 * https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
