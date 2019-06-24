@@ -196,6 +196,7 @@ a complex solution for the problem.
   - Sam Whited -"[Supporting Go Modules](https://blog.samwhited.com/2019/01/supporting-go-modules/)" - Things learned from upgrading 20 so modules. TL;DR — upgrading large modules past v1 is a huge pain and needs tooling, failure modes for modules are very complex and it's easy to screw up adding modules support to existing projects.
   - Stripe Github thread (linked comment down) - [reverting support for Go Modules](https://github.com/stripe/stripe-go/pull/712#issuecomment-454594534). TL;DR — Stripe is reverting Go Modules support because there is no clear upgrade path from dep for modules above v1.
   - [Referencing bash scripts in `GOPATH`](https://gist.github.com/ineiti/4a4a1798876225f7a553a13120d705ae)
+  - [Go Modules on Badger and Dgraph](https://discuss.dgraph.io/t/go-modules-on-badger-and-dgraph/4662). TL;DR - Dgraph is dropping support for v2 because it forces non-Go modules users to change their code.
 
 ## Performance
 
