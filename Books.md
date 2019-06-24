@@ -494,7 +494,7 @@ Sorted by publication date.
     * ISBN: ---
     * Reference: https://github.com/qyuhen/book
 
-  * **Go语言高级编程** (e-book)
+  * **Go语言高级编程** (实体书 & e-book)
     * Author: 柴树杉（chai2010）
     * Publication Date: 2019-07
     * ISBN: 978-7-115-51036-5
