@@ -150,10 +150,10 @@ Use [coc.nvim](https://github.com/neoclide/coc.nvim/), with the following `coc-s
   }
 ```
 
-To get automatic formatting and imports on save, add the following line to your `init.vim`:
+The `editor.action.organizeImport` code action will auto-format code and add missing imports. To run this automatically on save, add the following line to your `init.vim`:
 
 ```vim
-autocmd BufWritePre *.go :call CocAction("format")
+autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
 ```
 
 ---
