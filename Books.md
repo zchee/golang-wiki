@@ -496,8 +496,9 @@ Sorted by publication date.
 
   * **Go语言高级编程** (e-book)
     * Author: 柴树杉（chai2010）
-    * Publication Date: ---
-    * ISBN: ---
+    * Publication Date: 2019-07
+    * ISBN: 978-7-115-51036-5
+    * Reference: https://www.epubit.com/book/detail/40090
     * Reference: https://github.com/chai2010/advanced-go-programming-book
 
   * **Go语言101** (e-book)
