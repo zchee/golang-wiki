@@ -9,7 +9,7 @@ For higher rates, prefer a token bucket rate limiter such as [golang.org/x/time/
 import "time"
 
 rate := time.Second / 10
-throttle := time.Ticker(rate)
+throttle := time.Tick(rate)
 for req := range requests {
   <-throttle  // rate limit our Service.Method RPCs
   go client.Call("Service.Method", req, ...)
