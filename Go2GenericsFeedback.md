@@ -79,6 +79,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Beoran, "[Hygienic Macros](https://github.com/golang/go/issues/32620)", June 2019
+
 - Randy O'Reilly, "[Generic Native Types](https://gist.github.com/rcoreilly/bfbee2add03c76ada82810423d81e53d)", June 2019
 
 - Michal Štrba, "[Giving up restricting types](https://gist.github.com/faiface/e5f035f46e88e96231c670abf8cab63f)", May 2019
