@@ -207,6 +207,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 ## try/catch/finally syntax
 
+- Mathieu Devos, "[Go2 Error Handling Proposal: Scoped Check/Handle](https://gist.github.com/mathieudevos/2bdae70596aca711e50d1f2ff6d7b7cb)", August 2018
+
 - Rust RFC, “[Trait-Based Exception Handling (wherein `catch` is akin to `try`)](https://github.com/rust-lang/rfcs/blob/master/text/0243-trait-based-exception-handling.md)”, February 2016
 
 - ZhiFeng Hu, "[[Go2ErrorHandling] Go should support Exception handler](https://www.netroby.com/view/3910)", August 2018
