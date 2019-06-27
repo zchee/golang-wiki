@@ -170,9 +170,9 @@ Use [lsp-mode](https://github.com/emacs-lsp/lsp-mode). gopls is built in now as 
 
 ```lisp
 (use-package lsp-mode
-  :commands lsp)
+  :commands (lsp lsp-deferred))
 
-(add-hook 'go-mode-hook #'lsp)
+(add-hook 'go-mode-hook #'lsp-deferred)
 
 ;; optional - provides fancier overlays
 (use-package lsp-ui
