@@ -36,6 +36,7 @@ Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://
 * Editing multiple modules in one editor window: https://github.com/golang/go/issues/32394.
 * "no room in queue" error: [#32467](https://github.com/golang/go/issues/32467).
 * File contents reverted after saving: [#32643](https://github.com/golang/go/issues/32643).
+* Does not work with cgo: [#31561](https://github.com/golang/go/issues/31561).
 
 ## Installation
 
