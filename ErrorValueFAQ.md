@@ -32,14 +32,6 @@ You need to be prepared that errors you get may be wrapped.
   - Also use this pattern to check whether an error implements an interface. (This is one of those rare cases when a pointer to an interface is appropriate.)
   - Rewrite a type switch as a sequence of if-elses.
 
-## What formatting verb should I use to display errors?
-
-It depends who you expect to see the error message, and why.
-
-- If you are displaying an error so someone can diagnose a problem in your code, use `%+v` to display the maximum amount of detail. For example, an error that indicates a bug in your program should be displayed (or at least logged) with `%+v`.
-
-- If the person who sees the error message is unlikely to know or care about modifying your program, you probably want to use `%v` (or, equivalently for errors, `%s`). For example, an error reading a file from a command-line program should probably be displayed with `%v`.
-
 ## I am already using `fmt.Errorf` with `%v` or `%s` to provide context for an error. When should I switch to `%w`?
 
 It's common to see code like
