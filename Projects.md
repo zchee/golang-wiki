@@ -102,6 +102,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gonova](https://github.com/pebbe/gonova) - A wrapper for libnova -- Celestial Mechanics, Astrometry and Astrodynamics Library
   * [meeus](https://github.com/soniakeys/meeus) - Implementation of "Astronomical Algorithms" by Jean Meeus
   * [novas](https://github.com/pebbe/novas) - Interface to the Naval Observatory Vector Astrometry Software (NOVAS)
+  * [utdfgo](https://github.com/attron/utdfgo) - Spacecraft UTDF Packet Reader and Decoder
 
 ## Build Tools
 
