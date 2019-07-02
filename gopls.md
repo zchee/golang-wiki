@@ -36,6 +36,7 @@ Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://
 * Editing multiple modules in one editor window: https://github.com/golang/go/issues/32394.
 * File contents reverted after saving: [#32643](https://github.com/golang/go/issues/32643).
 * Does not work with cgo: [#31561](https://github.com/golang/go/issues/31561).
+* Find references and rename only work in a single package: [#32869](https://github.com/golang/go/issues/32869)
 
 ## Installation
 
