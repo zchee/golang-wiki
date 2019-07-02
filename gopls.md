@@ -33,9 +33,10 @@ Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://
 ## Known Issues
 
 * Cursor resets to the beginning or end of file on format: [#31937](https://github.com/golang/go/issues/31937).
-* Editing multiple modules in one editor window: https://github.com/golang/go/issues/32394.
+* Editing multiple modules in one editor window: [#32394](https://github.com/golang/go/issues/32394).
 * File contents reverted after saving: [#32643](https://github.com/golang/go/issues/32643).
-* Does not work with cgo: [#31561](https://github.com/golang/go/issues/31561).
+* Language features do not work with `cgo`: [#31561](https://github.com/golang/go/issues/31561).
+* Does not work build tags: [#29202](https://github.com/golang/go/issues/29202).
 * Find references and rename only work in a single package: [#32869](https://github.com/golang/go/issues/32869), [#32877](https://github.com/golang/go/issues/32877).
 
 ## Installation
