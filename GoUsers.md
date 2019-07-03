@@ -206,6 +206,7 @@
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
   * [Containo.us](https://containo.us/)
+  * [Crisp](https://crisp.chat/)
   * [crème de la crème](https://cremedelacreme.io/)
   * [Devatics](https://www.devatics.com)
   * [Digikong](http://digikong.io)
