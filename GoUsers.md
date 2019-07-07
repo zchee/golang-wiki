@@ -846,7 +846,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Resource Guru](https://resourceguruapp.com) - [blog](https://blog.resourceguruapp.com)
   * [Restorepoint](http://www.restorepoint.com)
   * [Ryanair](http://www.ryanair.com) - [source](https://youtu.be/CWCHT3GClMM?t=15m)
-  * [Sainsbury's](http://www.sainsburys.co.uk
+  * [Sainsbury's](http://www.sainsburys.co.uk)
   * [Sky Betting & Gaming](https://www.skybetcareers.com)
   * [Skyscanner](https://www.skyscanner.net)
   * [Songkick](https://www.songkick.com)
