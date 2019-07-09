@@ -16,7 +16,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
 | GopherCon Australia | 2019-10-30 | Sydney, Australia | http://gophercon.com.au/ <br>CFP: https://www.papercall.io/gophercon-au-2019 |
-| GoPiter | 2019-11-01 | St. Petersburg, Russia | https://it-events.com/events/16041 |
+| Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com <br>CFP:  https://golangpiter.com/en/speaker#form |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ <br> CFP: https://www.papercall.io/gopherpalooza2019 |
 | GothamGo | 2020-04-23-24 | New York City, NY USA | http://gothamgo.com/ |
 
