@@ -1,1 +1,0 @@
-Go programming language is an open-source static type language designed by Google engineers Robert Griesemer, Rob Pike and Ken Thompson. Read to know more about [Go programming language](https://www.gowitek.com/golang/blog/go-programming-language)
