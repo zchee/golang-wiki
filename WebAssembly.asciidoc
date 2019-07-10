@@ -169,6 +169,8 @@ See https://godoc.org/syscall/js.
 
 Also:
 
+* https://github.com/gascore/gas[gas - Components based framework for WebAssembly applications]
+
 * An experimental new framework https://github.com/vugu/vugu[Vugu] is
 worth trying out, if you're looking for something like VueJS. :smile:
 
