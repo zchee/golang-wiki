@@ -37,6 +37,7 @@ Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://
 * Language features do not work with `cgo`: [#32898](https://github.com/golang/go/issues/32898).
 * Does not work with build tags: [#29202](https://github.com/golang/go/issues/29202).
 * Find references and rename only work in a single package: [#32869](https://github.com/golang/go/issues/32869), [#32877](https://github.com/golang/go/issues/32877).
+* Completion does not work well after `go` or `defer` statements: [#29313](https://github.com/golang/go/issues/29313).
 
 ## Installation
 
