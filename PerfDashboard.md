@@ -1,3 +1,5 @@
+*The perf dashboard is unmaintained and currently not active*
+
 # Introduction
 
 [Performance Dashboard](http://build.golang.org/perf) does continuous monitoring of performance characteristics of the Go implementation. It notifies codereview threads about any significant changes caused by the commit, allows to see performance changes caused by [recent commits](http://build.golang.org/perf), allows to investigate changes [in detail](http://build.golang.org/perfdetail?commit=fb3d6c1631c3f3141f33a01afb4c0a23ef0ea2cf&commit0=82f48826c6c79a3d5697d5e06cac8451f3dc3c7f&kind=builder&builder=linux-amd64-perf&benchmark=http) .
