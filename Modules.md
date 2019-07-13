@@ -1168,7 +1168,7 @@ Please see the question "Won't minimal version selection keep developers from ge
 * Double-check that modules are enabled by running `go env` to confirm it does not show an empty value for the read-only `GOMOD` variable.
    * Note: you never set `GOMOD` as a variable because it is effectively read-only debug output that `go env` outputs.  
    * If you are setting `GO111MODULE=on` to enable modules, double-check that it is not accidentally the plural `GO111MODULES=on`. (People sometimes naturally include the `S` because the feature is often called "modules").
-* If vendoring is expected to be used, double-check check that the `-mod=vendor` flag is being passed to `go build `or similar, or that `GOFLAGS=-mod=vendor` is set. 
+* If vendoring is expected to be used, check that the `-mod=vendor` flag is being passed to `go build `or similar, or that `GOFLAGS=-mod=vendor` is set. 
    * Modules by default ignore the `vendor` directory unless you ask the `go` tool to use `vendor`.
 * It is frequently helpful to check `go list -m all` to see the list of actual versions selected for your build
   * `go list -m all` usually gives you more detail compared to if you were to instead just look a `go.mod` file. 
