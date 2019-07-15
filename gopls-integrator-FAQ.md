@@ -14,15 +14,13 @@ As an example, the [`Hover`](https://github.com/Microsoft/language-server-protoc
 
 i.e. integrators will need to calculate UTF-16 based column offsets. For Go-based integrators, the [`golang.org/x/tools/internal/span`](https://godoc.org/golang.org/x/tools/internal/span#NewPoint) will be of use. [#31080](https://github.com/golang/go/issues/31080) tracks making `span` and other useful packages non-internal.
 
-## `textDocument/formatting` response
+## `[]TextEdit` responses
 
-At the time of writing (2019-03-28) the [`[]TextEdit`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textedit) response to [`textDocument/formatting`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#document-formatting-request--leftwards_arrow_with_hook) comprises range-based deltas. The spec is not explicit about how these deltas should be applied, instead simply stating:
+At the time of writing (2019-07-15) the [`[]TextEdit`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textedit) response to [`textDocument/formatting`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#document-formatting-request--leftwards_arrow_with_hook) and the [`WorkspaceEdit`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#workspaceedit) response to [`textDocument/rename`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textDocument_rename) comprises range-based deltas. The spec is not explicit about how these deltas should be applied, instead simply stating:
 
 > If multiple inserts have the same position, the order in the array defines the order in which the inserted strings appear in the resulting text.
 
-i.e. it specifies only the resulting state of the document. 
-
-Applying the array of deltas received in reverse order achieves the desired result that holds with the spec.
+All `[]TextEdit` are sorted such that applying the array of deltas received in reverse order achieves the desired result that holds with the spec.
 
 ## RPC response errors
 
