@@ -85,6 +85,9 @@ To enable more detailed debug information, add the following to your VSCode sett
     "--debug=localhost:6060", // to investigate memory usage, see profiles 
 ],
 ```
+
+You can disable features through the `"go.languageServerExperimentalFeatures"` section of the config. An example of a feature you may want to disable is `"documentLink"`, which opens Godoc links when you click on import statements in your file.
+
 ---
 
 #### Vim / Neovim
