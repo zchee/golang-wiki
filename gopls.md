@@ -207,13 +207,13 @@ Use the experimental [`acme-lsp`](https://github.com/fhs/acme-lsp), simply follo
 
 #### Sublime Text
 
-Use the [LSP](https://packagecontrol.io/packages/LSP) package. Once that is installed:
+Use the [LSP](https://packagecontrol.io/packages/LSP) package. After installing it using Package Control, do the following:
 
 * Open the **Command Palette**
 * Find and run the command **LSP: Enable Language Server Globally**
-* Find the **gopls** item and select it. Be careful not to select the similarly named *golsp* by mistake.
+* Select the **gopls** item. Be careful not to select the similarly named *golsp* by mistake.
 
-After doing the above, you might want to take a look at the LSP package's settings files for reference. You can view them by selecting the menu item **Preferences > Package Settings > LSP > Settings**.
+Finally, you should familiarise yourself with the LSP package's *Settings* and *Key Bindings*. Find them under the menu item **Preferences > Package Settings > LSP**.
 
 ---
 
