@@ -132,7 +132,7 @@
   * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Manifold](https://manifold.co)
-  * [NV Digital](https://www.nvdigital.net/)
+  * [NV Digital](https://www.nvdigital.co/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
   * [Sendwithus](https://sendwithus.com)
   * [SweetIQ](https://sweetiq.com/) - [jobs](https://sweetiq.com/about/careers-2/)
