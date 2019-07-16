@@ -210,7 +210,7 @@
   * [Containo.us](https://containo.us/)
   * [Crisp](https://crisp.chat/)
   * [crème de la crème](https://cremedelacreme.io/)
-  * [Devatics](https://www.devatics.com)
+  * [OneStock](https://www.onestock-retail.com/en/)
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
   * [Eleven Labs](http://eleven-labs.com/)
