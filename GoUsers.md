@@ -113,6 +113,7 @@
   * [OTA Insight](https://www.otainsight.com/)
   * [Showpad](https://www.showpad.com/)
   * [Elimity](https://elimity.com/)
+  * [Factry](https://www.factry.io/) - [github](https://github.com/factrylabs)
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
