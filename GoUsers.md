@@ -1002,6 +1002,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [FieldEngineer](https://www.fieldengineer.com/)
   * [Factom](http://www.factom.org) - [github](https://github.com/FactomProject)
   * [Fanatics](https://www.fanatics.com) - [github](https://github.com/Fanatics)
+  * [Fast](http://fast.co) - [github](https://github.com/fast-af), [twitter](https://twitter.com/fastdotco)
   * [Fastly](http://www.fastly.com) - [blog](https://www.fastly.com/blog), [twitter](https://twitter.com/fastly) - The only real-time content delivery network designed to seamlessly integrate with your development stack.
   * [Foize](https://www.foize.com) - [github](https://github.com/foize/)
   * [Flipboard](http://www.flipboard.com)  - [source (job post)](https://news.ycombinator.com/item?id=6140956)
