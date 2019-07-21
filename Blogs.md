@@ -52,7 +52,6 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [FuXiaohei.Me -- 傅小黑的自留地](http://fuxiaohei.me/)
 * [无闻的小站](https://github.com/Unknwon/wuwen.org)
 * [astaxie](https://my.oschina.net/astaxie)
-* [熊窝窝](http://www.baiyuxiong.com/)
 * [风笑痴](http://lunny.info/)
 * [ipfans's Blog](https://www.4async.com/)
 * [Cyeam -- 你不要用战术的勤奋掩盖战略的懒惰。](http://blog.cyeam.com/)
