@@ -10,7 +10,7 @@ For folks with questions about integrating gopls within an editor, see https://g
 [Troubleshooting](#troubleshooting)  
 [Known Issues](#known-issues)  
 [Installation](#installation)  
-[Supported Features](#supported-features)
+[Supported Features](#supported-features)  
 [Contributing](#contributing)  
 [FAQ](#faq)
 [Additional Information](#additional-information)  
