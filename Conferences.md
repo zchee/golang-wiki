@@ -13,6 +13,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA USA | https://www.gophercon.com/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
+| GopherConBR 2019 | 2019-09-27-28 | Florianópolis, Brazil | http://2019.gopherconbr.org |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
 | GopherCon Australia | 2019-10-30 | Sydney, Australia | http://gophercon.com.au/ <br>CFP: https://www.papercall.io/gophercon-au-2019 |
