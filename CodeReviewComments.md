@@ -351,8 +351,7 @@ Go interfaces generally belong in the package that uses values of the
 interface type, not the package that implements those values. The
 implementing package should return concrete (usually pointer or struct)
 types: that way, new methods can be added to implementations without
-requiring extensive refactoring, and this will enable the struct to implement
-more than one interface and be accepted/evaluated to all of them in different functions
+requiring extensive refactoring.
 
 Do not define interfaces on the implementor side of an API "for mocking";
 instead, design the API so that it can be tested using the public API of
@@ -399,33 +398,6 @@ type Thinger struct{ … }
 func (t Thinger) Thing() bool { … }
 
 func NewThinger() Thinger { return Thinger{ … } }
-```
-
-```go
-// DONOT DO THIS
-package main
-import ("io")
-type Thinger interface { 
-	Thing() bool 
-}
-type defaultThinger struct{  }
-func (t defaultThinger) Thing() bool { 
-	return true 
-}
-func (t defaultThinger) Read(p []byte) (n int, err error) {
-   	return 0, nil
-}  	
-func NewThinger() Thinger { 
-	return defaultThinger{  } 
-}
-func main() {
-	testThinger(NewThinger())
-	// will return cannot use NewThinger() (type Thinger) as type io.Reader in argument to testReader: Thinger does not implement io.Reader (missing Read method)
-	// if NewThinger() return defaultThinger it will work
-	testReader(NewThinger())
-}
-func testReader(r io.Reader) {}
-func testThinger(t Thinger) {}
 ```
 
 ## Line Length
