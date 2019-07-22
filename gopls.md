@@ -5,6 +5,8 @@ To install: `go get golang.org/x/tools/gopls@latest`.
 
 For folks with questions about integrating gopls within an editor, see https://github.com/golang/go/wiki/gopls-integrator-FAQ.
 
+For more information on latest developments and other Go tools: https://github.com/golang/go/wiki/golang-tools.
+
 # Table of Contents  
 [Status](#status)  
 [Troubleshooting](#troubleshooting)  
