@@ -15,6 +15,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherConBR 2019 | 2019-09-27-28 | Florianópolis, Brazil | http://2019.gopherconbr.org |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
+| Go Conference Tokyo | 2019-10-28 | Tokyo, Japan | https://gocon.jp/<br>CFP: https://www.papercall.io/gocon-tokyo-2019-autumn |
 | GopherCon Australia | 2019-10-30 | Sydney, Australia | http://gophercon.com.au/ <br>CFP: https://www.papercall.io/gophercon-au-2019 |
 | Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com <br>CFP:  https://golangpiter.com/en/speaker#form |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ <br> CFP: https://www.papercall.io/gopherpalooza2019 |
