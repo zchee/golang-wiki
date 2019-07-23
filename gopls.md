@@ -111,7 +111,7 @@ Use [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim), 
 let g:LanguageClient_serverCommands = {
        \ 'go': ['gopls']
        \ }
-" Run gofmt and goimports on save
+" Run gofmt on save
 autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 ```
 
