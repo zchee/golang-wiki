@@ -1230,6 +1230,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
   * [sirius](https://github.com/ortuman/sirius) - [link is broken] A fast and ultra-lightweight chat server written in Go
   * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
+  * [`mellium.im/xmpp`](https://godoc.org/mellium.im/xmpp) — a low-level XMPP client and server library focusing on good documentation and a clean, usable API
 
 ### NNTP
   * [go-nntp](https://github.com/dustin/go-nntp) - An NNTP client and server library for go
