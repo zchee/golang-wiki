@@ -749,7 +749,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [panicparse](https://github.com/maruel/panicparse/) - Parse panics with style.
   * [Space Monkey errors](https://github.com/spacemonkeygo/errors) - Go's missing errors library - stack capture, error hierarchies, error tags
   * [Tideland golib](https://github.com/tideland/golib) - Detailed error values
-  * [`code.soquee.net/problem`] — Package problem implements errors for HTTP APIs similar to the ones described by [RFC7807](https://tools.ietf.org/html/rfc7807).
+  * [`code.soquee.net/problem`](https://code.soquee.net/problem/) — Package problem implements errors for HTTP APIs similar to the ones described by [RFC7807](https://tools.ietf.org/html/rfc7807).
 
 ## Encodings and Character Sets
 
