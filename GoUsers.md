@@ -471,6 +471,7 @@
   * [Yodas](https://yodas.com) 
   * [Yotpo](https://www.yotpo.com/) 
   * [ZipRecruiter](https://www.ziprecruiter.com/) 
+  * [MinuteMedia](https://www.minutemedia.com/)
 
 ## Italy
   * [Oxequa](http://www.oxequa.com) - ([Realize](https://github.com/oxequa/realize), [Grace](https://github.com/oxequa/grace))
