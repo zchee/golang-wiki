@@ -1584,6 +1584,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Testify](https://github.com/stretchrcom/testify) - A set of packages that provide many tools for testifying that your code will behave as you intend.
   * [ut](https://github.com/philpearl/ut) - Awesome mocks without magic.
   * [make.go.mock](https://github.com/tcard/make.go.mock) - Generates type-safe mocks for Go interfaces and functions.
+  * [`code.soquee.net/testlog`](https://code.soquee.net/testlog/) — A `log.Logger` that proxies to the Log function on a testing.T so that logging only shows up on tests that failed, grouped under the test.
 
 ## Transpiler
 
