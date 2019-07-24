@@ -160,7 +160,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [swift](https://github.com/ncw/swift) - Go language interface to Swift / Openstack Object Storage / Rackspace cloud files
   * [Tsuru](http://www.tsuru.io/) - Tsuru is an open source polyglot cloud computing platform as a service (PaaS), developed by Globo.com.
 * [aws-sdk-go](https://github.com/aws/aws-sdk-go) - AWS SDK for the Go programming language.
-* [`code.soquee.net/env`](https://code.soquee.net/env/) — Load environment variables from `.env` or similar files, or from any `io.Reader` and populate the local environment.
 
 ## Command-line Option Parsers
 
@@ -282,6 +281,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * yaml:
     * [yaml](http://github.com/go-yaml/yaml) - YAML support for the Go language, by Canonical
     * [goyaml](http://goyaml.googlecode.com/) - A port of LibYAML to Go
+  * [`code.soquee.net/env`](https://code.soquee.net/env/) — Load environment variables from `.env` or similar files, or from any `io.Reader` and populate the local environment.
 
 ## Console User Interface
 
