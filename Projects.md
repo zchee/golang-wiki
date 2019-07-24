@@ -182,6 +182,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [uggo](https://github.com/laher/uggo) - Yet another option parser offering gnu-like option parsing. This one wraps (embeds) flagset. It also offers rudimentary pipe-detection (commands like ls behave differently when being piped to).
   * [writ](https://github.com/ziuchkovski/writ) - A flexible option parser with thorough test coverage.  It's meant to "just work" and stay out of the way.
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
+  * [`mellium.im/cli`](https://godoc.org/mellium.im/cli) — A library for parsing modern CLI apps including subcommands that may have their own flags and a built in help system. Designed to use a minimal API.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
   * [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired on the flexibility of Perl’s GetOpt::Long.
   * [sling](https://github.com/alexstov/sling) - Network traffic simulator and test automation tool to send file requests through the HTTP or TCP protocol, control rate frequency, number of concurrent connections, delays, timeouts, and collect the response time statistics, means, and percentiles.
