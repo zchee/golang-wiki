@@ -185,7 +185,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [`mellium.im/cli`](https://godoc.org/mellium.im/cli) — A library for parsing modern CLI apps including subcommands that may have their own flags and a built in help system. Designed to use a minimal API.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
   * [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired on the flexibility of Perl’s GetOpt::Long.
-  * [sling](https://github.com/alexstov/sling) - Network traffic simulator and test automation tool to send file requests through the HTTP or TCP protocol, control rate frequency, number of concurrent connections, delays, timeouts, and collect the response time statistics, mean, and percentiles.
 
 ## Command-line Tools
 
@@ -677,6 +676,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [syntaxhighlighter](https://github.com/sourcegraph/syntaxhighlight) - language-independent code syntax highlighting library
   * [toggle](https://github.com/xchapter7x/toggle) - A feature toggle library with built in support for environment variable backed toggling. pluggable backing engine support.
   * [trace](https://bitbucket.org/santucco/trace) - A simple debug tracing
+  * [sling](https://github.com/alexstov/sling) - Network traffic simulator and test automation tool to send file requests through the HTTP or TCP protocol, control rate frequency, number of concurrent connections, delays, timeouts, and collect the response time statistics, mean, and percentiles.
 
 ### Emacs Tags
 
