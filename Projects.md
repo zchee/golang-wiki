@@ -510,6 +510,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pq](https://github.com/lib/pq) - Pure Go PostgreSQL driver for database/sql
   * [yoke](https://github.com/nanopack/yoke) - Postgres high-availability cluster with auto-failover and automated cluster recovery
   * [kallax](https://github.com/src-d/go-kallax) - PostgreSQL typesafe ORM
+  * [`code.soquee.net/migrate`](https://code.soquee.net/migration/) — A library for generating, applying, and listing PostgreSQL database migrations using a mechanism that's compatible with Rust's Diesel.
 
 ### QL
 
