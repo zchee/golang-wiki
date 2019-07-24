@@ -1695,6 +1695,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [securecookie](https://github.com/chmike/securecookie) - Encode and Decode secure cookies
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
   * [go-otp](https://github.com/hgfischer/go-otp) - Package go-otp implements one-time-password generators used in 2-factor authentication systems like RSA-tokens. Currently this supports both HOTP (RFC-4226), TOTP (RFC-6238) and Base32 encoding (RFC-3548) for Google Authenticator compatibility
+  * [`code.soquee.net/otp`](https://code.soquee.net/otp/) — A library for generating one-time passwords using HOTP (RFC-4226), and TOTP (RFC-6238). Includes less commonly used profiles, and custom time functions for flexible windows.
 
 
 ### DOM handling
