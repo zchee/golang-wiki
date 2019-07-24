@@ -184,6 +184,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
   * [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired on the flexibility of Perl’s GetOpt::Long.
+  * [sling](https://github.com/alexstov/sling) - Network traffic simulator and test automation tool to send file requests through the HTTP or TCP protocol, control rate frequency, number of concurrent connections, delays, timeouts, and collect the response time statistics, means, and percentiles.
 
 ## Command-line Tools
 
