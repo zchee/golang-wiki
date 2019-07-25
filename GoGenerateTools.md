@@ -5,6 +5,7 @@
 * [gostringer](https://godoc.org/github.com/sourcegraph/gostringer) – Implements `fmt.GoStringer` interface for enums.
 * [jsonenums](https://github.com/campoy/jsonenums) – Implements `json.Marshaler` and `json.Unmarshaler` interfaces for enums.
 * [go-syncmap](https://godoc.org/github.com/searKing/golang/tools/cmd/go-syncmap) - Generates Go code using a package as a generic template for sync.Map.
+* [go-syncpool](https://godoc.org/github.com/searKing/golang/tools/cmd/go-syncpool) - Generates Go code using a package as a generic template for sync.Pool.
 * [go-atomicvalue](https://godoc.org/github.com/searKing/golang/tools/cmd/go-atomicvalue) - Generates Go code using a package as a generic template for atomic.Value.
 * [gojson](https://github.com/ChimeraCoder/gojson) - Generates go struct definitions from example json documents.
 * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
