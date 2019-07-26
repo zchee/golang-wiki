@@ -1,1 +1,1 @@
-Copyright Golang :)
+Copyright Golang :D
