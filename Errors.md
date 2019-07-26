@@ -49,6 +49,10 @@ If you want to create a constant string error, you can use a named type string:
 type errorConst string
 
 const ErrTooManyErrors errorConst = "too many errors found."
+
+type (e errorConst) Error() string {
+	return string(e)
+}
 ```
 
 Calling code would test for a special type of `error` by using a type switch:
