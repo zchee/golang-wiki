@@ -44,5 +44,6 @@ Feel free to contact any of us directly.
 - Aaron Schlesinger, arschles@gmail.com, [@arschles](https://twitter.com/arschles)
 - Paul Jolly, paul@myitcv.io [@_myitcv](https://twitter.com/_myitcv)
 - Alexey Palazhchenko, alexey.palazhchenko@gmail.com [@paaleksey](https://twitter.com/paaleksey) (English, Russian)
+- Carmen Andoh, candoh@google.com, [@carmatrocity](https://twitter.com/carmatrocity)
 
 (Experienced speakers, feel free to add your contact information to the list, or email rsc@golang.org if you don't have wiki edit permission.)
