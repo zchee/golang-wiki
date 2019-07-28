@@ -1637,6 +1637,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [otto](https://github.com/robertkrimen/otto) - A JavaScript parser and interpreter written natively in Go
   * [Overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
   * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
+  * [Yaegi](https://github.com/containous/yaegi) - A complete Go interpreter in Go
 
 ## Web Applications
 
