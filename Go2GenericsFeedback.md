@@ -345,3 +345,5 @@ func main() {
     v.Set(7,"Lucky")
 }
 ```
+
+- antoniomo: While the draft clearly explains why `F<T>`, `F[T]` and non-ASCII (unable to type it here) `F<<T>>` where discarded, feels like `F{T}` would be more human readable than the sometimes three in a row set of `()`, while not complicating the parser with unbounded lookahead as you can't open a block in those circumstances.
