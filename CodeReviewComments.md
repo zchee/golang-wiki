@@ -96,8 +96,7 @@ parent trace, etc.
 ## Copying
 
 To avoid unexpected aliasing, be careful when copying a struct from another package.
-For example, the bytes.Buffer type contains a `[]byte` slice and, as an optimization
-for small strings, a small byte array to which the slice may refer. If you copy a `Buffer`,
+For example, the bytes.Buffer type contains a `[]byte` slice. If you copy a `Buffer`,
 the slice in the copy may alias the array in the original, causing subsequent method
 calls to have surprising effects.
 
