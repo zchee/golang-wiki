@@ -755,12 +755,15 @@ If you are considering using vendoring, it is worthwhile to read the ["Modules a
 Publicly hosted "always on" immutable module repositories and optional privately hosted proxies and repositories are becoming available.
 
 For example:
-* [Project Athens](https://github.com/gomods/athens): Open source project in the works and looking for contributors.
-* [JFrog Artifactory](https://jfrog.com/artifactory/): Commercial offering. Support for Go 1.11 modules started with release 5.11 as described [here](https://jfrog.com/blog/goproxy-artifactory-go-registries/) and [here](https://www.jfrog.com/confluence/display/RTF/Go+Registry). From Artifactory version 6.2.0, please use [JFrog CLI 1.20.2](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory#CLIforJFrogArtifactory-BuildingGoPackages) and above.
-* [goproxy.io](https://goproxy.io) - A Global Proxy for Go Modules.
-* [THUMBAI](https://thumbai.app) - Open source project - Go Mod Proxy server and Go Vanity Import Path server
-* [Goproxy](https://github.com/goproxy/goproxy) - Open source project - A minimalist Go module proxy handler.
-* [Goproxy China](https://github.com/goproxy/goproxy.cn) - Open source project - The most trusted Go module proxy in China.
+* [proxy.golang.org](https://proxy.golang.org) - Official project - Run by Google - The default Go module proxy built by the Go team.
+* [gocenter.io](https://gocenter.io) - Commercial project - Run by JFrog - The central Go modules repository.
+* [athens.azurefd.net](https://athens.azurefd.net) - Commercial project - Run by Microsoft - A Go module proxy built using Athens.
+* [mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy) - Commercial project - Run by Alibaba Cloud - A Go module proxy alternate.
+* [goproxy.cn](https://goproxy.cn) - Open source project - Run by Qiniu Cloud - The most trusted Go module proxy in China.
+* [goproxy.io](https://goproxy.io) - Open source project - Run by one person - A global proxy for Go modules.
+* [Athens](https://github.com/gomods/athens) - Open source project - Self-hosted - A Go module datastore and proxy.
+* [Goproxy](https://github.com/goproxy/goproxy) - Open source project - Self-hosted - A minimalist Go module proxy handler.
+* [THUMBAI](https://thumbai.app) - Open source project - Self-hosted - Go mod proxy server and Go vanity import path server.
 
 Note that you are not required to run a proxy. Rather, the go tooling in 1.11 has added optional proxy support via [GOPROXY](https://tip.golang.org/cmd/go/#hdr-Module_proxy_protocol) to enable more enterprise use cases (such as greater control), and also to better handle situations such as "GitHub is down" or people deleting GitHub repositories.
 
