@@ -50,7 +50,7 @@ type errorConst string
 
 const ErrTooManyErrors errorConst = "too many errors found."
 
-type (e errorConst) Error() string {
+func (e errorConst) Error() string {
 	return string(e)
 }
 ```
