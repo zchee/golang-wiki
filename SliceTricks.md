@@ -69,6 +69,19 @@ a = append(a[:i], append(make([]T, j), a[i:]...)...)
 a = append(a, make([]T, j)...)
 ```
 
+#### Filter (in place)
+
+```go
+n := 0
+for _, x := range a {
+	if keep(x) {
+		a[n] = x
+		n++
+	}
+}
+a = a[:n]
+```
+
 #### Insert
 ```go
 a = append(a[:i], append([]T{x}, a[i:]...)...)
