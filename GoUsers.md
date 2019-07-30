@@ -414,7 +414,8 @@
   * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
   * [Parsaspace](https://parsaspace.com) - Parsaspace is an iranian storage as a service
   * [Cafe Bazaar](https://cafebazaar.ir/?l=en/) -  Iranian Android marketplace
-  * [Alfa Movie](https://www.alfamovies.com/) -  Best download center platform in Iran
+  * [Alfa Movie](https://www.alfamovies.com/) -  Best download center platform in Iran. 
+  * [ManaGroup](https://www.managroup.co/) - [github](https://github.com/managroup) payment and traveling solution
 
 ## Ireland
   * [EXADS](http://exads.com/)
