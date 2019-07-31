@@ -344,7 +344,7 @@
   * [ZopSmart](https://zopsmart.com/)
 
 ## Indonesia
-  * [Perumahan Murah Di Cileungsi](https://jayawan.co.id/)
+
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bhinneka](http://www.bhinneka.com/)
@@ -356,7 +356,6 @@
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
   * [GO-JEK](https://www.go-jek.com)
-  * [Pasang Baja Ringan](https://jayawan.com/rangka-atap-baja-ringan)
   * [Graboards](https://graboards.com/)
   * [Guteninc](http://guteninc.com)
   * [Halodoc](https://www.halodoc.com)
@@ -371,9 +370,7 @@
   * [Lazada](http://www.lazada.co.id)
   * [LionJobs](http://lionjobs.com)
   * [Matahari Mall](http://mataharimall.com)
-  * [Perumahan Sukma Indah Residence](https://jayawan.co.id/perumahan-sukma-indah-residence/)
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
-  * [Perumahan Subsidi di Jonggol](http://jayawanproperti.com/perumahan-subsidi-di-jonggol/)
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
   * [meTube.id](https://www.metube.id)
@@ -385,7 +382,6 @@
   * [Qasir.id](https://www.qasir.id/)
   * [Qiscus](https://www.qiscus.com)
   * [QUPAS.ID](https://www.qupas.id)
-  * [RajaMall Energia Syakha Tech](http://www.lokerindonesia.com/teknologi-informasi/programmer/lowongan-programmer-di-bandung.html)
   * [Raydar](http://goraydar.com)
   * [RebelWorks](http://www.rebelworks.io)
   * [RedtreeMobile](http://redtreemobile.com)
@@ -394,7 +390,6 @@
   * [Ruangguru](https://ruangguru.com)
   * [Sale Stock](https://www.salestockindonesia.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
-  * [Surabaya CCTV](http://surabayacctv.co.id/jual-cctv-surabaya-paket-cctv-murah)
   * [Tokopedia](http://tokopedia.com)
   * [Tech in Asia Indonesia](https://id.techinasia.com)
   * [Valutac](https://valutac.com)
