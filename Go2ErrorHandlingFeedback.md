@@ -117,7 +117,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 
 # Modest revisions
- - Jin Feng, "[A simplified Go 2 error handling solution only with ? as syntax sugar](https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
+ - Jin Feng, "[A simplified Go 2 error handling solution with no handler](https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
  - Dave Arnold, "[Move special check keyword to left-hand side of assignment](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
 
  - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
