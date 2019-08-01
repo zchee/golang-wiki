@@ -1,6 +1,6 @@
 # Asking Questions
 
-Unlike many projects, the Go project does not currently use GitHub Issues for general discussion or asking questions (that said, [#23745](https://github.com/golang/go/issues/23745) has been accepted, pending implementation). GitHub Issues are used for tracking bugs and [proposals](https://golang.org/s/proposal-process).
+Unlike many projects, the Go project does not use GitHub Issues for general discussion or asking questions (There is a proposal to allow questions, at [#23745](https://github.com/golang/go/issues/23745), which is currently being discussed). GitHub Issues are used for tracking bugs and [proposals](https://golang.org/s/proposal-process).
 
 For asking questions, see:
 
