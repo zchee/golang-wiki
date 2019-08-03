@@ -214,7 +214,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [pdfcpu](https://github.com/hhrutter/pdfcpu) - PDF processor.
   * [pjs](http://jcasts.github.io/pjs) - Pretty print and search through JSON data structures fast.
   * [project](https://github.com/nildev/project) - Very simple CLI tool to setup new projects from boilerplate templates.
-  * [pwdgen](https://github.com/chai2010/pwdgen/) - A small tool, which generate human password, written in Go.
   * [redis-view](https://github.com/dreamersdw/redis-view) - A tree like tool help you explore data structures in your redis server
   * [remote-torrent](https://github.com/brucewangno1/remote-torrent) - A simple tool for downloading Torrent remotely and retrieving files back over HTTP at full speed without ISP Torrent limitation
   * [restic](https://github.com/restic/restic) - A fast, efficient and secure backup program
