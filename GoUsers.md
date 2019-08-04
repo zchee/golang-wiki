@@ -435,6 +435,7 @@
   * [EyeSight](http://eyesight-tech.com) 
   * [Fiverr](http://Fiverr.com/) 
   * [Gett](http://gett.com/) 
+  * [Intuit](http://intuit.com/) 
   * [ironSource](http://www.ironsrc.com) 
   * [Jewish Interactive](http://jewishinteractive.org) 
   * [JFrog](https://www.jfrog.com/) - [github](https://github.com/JFrogDev/jfrog-cli-go)
