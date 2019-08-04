@@ -92,6 +92,7 @@
   * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
   * [Rednaxel](https://rednaxel.com/) - [github](https://github.com/rednaxelbr/rnx)
   * [Resultados Digitais](http://www.resultadosdigitais.com.br/trabalhe-conosco)
+  * [Reviewr](https://reviewr.me/) - [github](https://github.com/reviewr)
   * [Sage Brasil](http://www.sage.com/pt-br)
   * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
