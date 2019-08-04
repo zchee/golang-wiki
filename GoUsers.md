@@ -1025,6 +1025,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Granify](http://granify.com/) - [blog](http://leonsbox.com/blog/2013/06/04/improving-testing-by-using-real-traffic-from-production/)
   * [GrayMeta, Inc.](https://www.graymeta.com)
   * [Grovo](https://grovo.com)
+  * [Glympse](https://www.glympse.com)
   * [Hailo](http://www.hailocab.com) - [slides](https://speakerdeck.com/mattheath/youre-good-to-go)
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
