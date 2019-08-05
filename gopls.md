@@ -160,7 +160,7 @@ let g:lsc_server_commands = {
 \    "command": "gopls serve",
 \    "log_level": -1,
 \  },
-\} 
+\}
 ```
 
 The `log_level` part is needed to prevent breakage from logging. See [natebosch/vim-lsc#180](https://github.com/natebosch/vim-lsc/issues/180).
