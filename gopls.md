@@ -133,7 +133,7 @@ see [this issue](https://github.com/w0rp/ale/issues/2179)
 
 **or**
 
-Use [vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
+Use [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp/), with the following configuration:
 
 ```vim
 augroup LspGo
@@ -149,6 +149,21 @@ augroup LspGo
   "autocmd FileType go nmap <buffer> ,p <plug>(lsp-previous-error)
 augroup END
 ```
+
+**or**
+
+Use [natebosch/vim-lsp](https://github.com/natebosch/vim-lsp/), with the following configuration:
+
+```vim
+let g:lsc_server_commands = {
+\  "go": {
+\    "command": "gopls serve",
+\    "log_level": -1,
+\  },
+\} 
+```
+
+The `log_level` part is needed to prevent breakage from logging. See [natebosch/vim-lsc#180](https://github.com/natebosch/vim-lsc/issues/180).
 
 **or**
 
