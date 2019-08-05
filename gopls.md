@@ -1,35 +1,39 @@
 `gopls` (pronounced: "go please") is an implementation of the Language Server Protocol (LSP) server for Go.
-The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details). It is currently in alpha, so it is not stable. 
+The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details). 
+
+It is currently in alpha, so it is not stable. 
 
 To install: `go get golang.org/x/tools/gopls@latest`.
 
-For folks with questions about integrating gopls within an editor, see https://github.com/golang/go/wiki/gopls-integrator-FAQ.
-
-For more information on latest developments and other Go tools: https://github.com/golang/go/wiki/golang-tools.
-
 # Table of Contents  
-[Status](#status)  
 [Troubleshooting](#troubleshooting)  
 [Known Issues](#known-issues)  
 [Installation](#installation)  
-[Supported Features](#supported-features)  
+[Status](#status)  
 [Contributing](#contributing)  
 [FAQ](#faq)  
 [Additional Information](#additional-information)  
 
-## Status
-
-`gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/cmd/gopls](https://golang.org/x/tools/cmd/gopls). Because we are actively working on `gopls`, it is not stable. If you choose to use it, be aware that things may regularly break or change. For more `gopls` discussion, join the `#gopls` channel in the [Gopher Slack](https://invite.slack.golangbridge.org).
-
 ## Troubleshooting
 
-If you see a `gopls` error or crash, or `gopls` just stops working, please capture your `gopls` log and file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E). Please attach the log and any other relevant information, or if you have one, a case that reproduces the issue. For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls". 
+If you see a `gopls` error or crash, or `gopls` just stops working, please file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E).
+Along with an explanation of the issue, please share the information listed here:
+
+* Your editor and any settings you have configured (for example, your VSCode `settings.json` file).
+* A sample program that reproduces the issue, if possible.
+* The output of `gopls version` on the command line.
+* The output of `gopls -rpc.trace -v check /path/to/file.go`.
+* `gopls` logs from when the issue occurred, as well as a timestamp for when the issue began to occur. See the instructions below for information on how to capture `gopls` logs.
+
+### Capturing `gopls` logs
+
+For VSCode users, the `gopls` log can be found by going to "View: Debug Console" -> "Output" -> "Tasks" -> "gopls". For other editors, you may have to directly pass a `-logfile` flag to `gopls`.
 
 To increase the level of detail in your logs, start `gopls` with the `-rpc.trace` flag. To start a debug server that will allow you to see profiles and memory usage, start `gopls` with `serve --debug=localhost:6060`. See the editor configurations section below for information on how to pass these flags via your editor.
 
-If possible, it is helpful to mention an estimated timestamp for when the problem first occurred, or an approximate timestamp for when you reproduced the problem. It is also helpful to see your `gopls` editor configurations, such as a VSCode `settings.json` file. 
+### Restart your editor 
 
-You can then try to restart your `gopls` instance by restarting your editor, which, in most cases, should correct the problem. In VSCode, the easiest way to restart the language server is by opening the command palette (Ctrl + Shift + P) and selecting "Go: Restart Language Server".
+Once you have filed an issue, you can then try to restart your `gopls` instance by restarting your editor. In many cases, this will correct the problem. In VSCode, the easiest way to restart the language server is by opening the command palette (Ctrl + Shift + P) and selecting "Go: Restart Language Server". You can also reload the VSCode instance by selecting "Developer: Reload Window".
 
 Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://invite.slack.golangbridge.org) channel.
 
@@ -220,7 +224,11 @@ Finally, you should familiarise yourself with the LSP package's *Settings* and *
 
 ---
 
-## Supported Features
+## Status
+
+`gopls` is currently under active development by the Go team. The code is in the x/tools repository, in [golang.org/x/tools/internal/lsp](https://golang.org/x/tools/internal/lsp) and [golang.org/x/tools/gopls](https://golang.org/x/tools/gopls).
+
+### Supported Features
 
 * Autocompletion
 * Jump to definition
@@ -242,4 +250,6 @@ Please see all available issues under the [gopls label](https://github.com/golan
 
 ## Additional Information
 
-Questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat). For consistent updates on the development progress of gopls, see the notes from the golang-tools meetings (https://github.com/golang/go/wiki/golang-tools).
+* For more information about integrating gopls within an editor, see https://github.com/golang/go/wiki/gopls-integrator-FAQ.
+* For more information on latest developments and other Go tools: https://github.com/golang/go/wiki/golang-tools.
+* Other questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat).
