@@ -41,18 +41,23 @@ All `[]TextEdit` are sorted such that applying the array of deltas received in r
 
 ## RPC response errors
 
-https://go-review.googlesource.com/c/tools/+/170958 and related discussions are looking to help shape what it means for a server method to return an error. i.e. 
+A server method can return an error if it fails. Various error codes are described in the [LSP specification](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#response-message). We are still determining what it means for a method to return an error. That is, are errors only for low-level LSP/transport issues or can other conditions cause errors to be returned? See some of this discussion on [#31526](https://github.com/golang/go/issues/31526).
 
-* Under what conditions would the `Format` method return an error? 
-* On a syntax error, or just for low-level LSP/transport issues? 
-* What should editors do in response to such errors?
-
-This answer is therefore a WIP.
+Here is our current approach, which is subject to change:
+* `textDocument/codeAction`: Return error if there was an error computing code actions.
+* `textDocument/completion`: Log errors, return empty result list.
+* `textDocument/definition`: Return error if there was an error computing the definition for the position.
+* `textDocument/typeDefinition`: Return error if there was an error computing the type definition for the position.
+* `textDocument/formatting`: Return error if there was an error formatting the file.
+* `textDocument/highlight`: Log errors, return empty result.
+* `textDocument/hover`: Return empty result.
+* `textDocument/documentLink`: Log errors, return nil result.
+* `textDocument/publishDiagnostics`: Log errors if there were any while computing diagnostics.
+* `textDocument/references`: Log errors, return empty result.
+* `textDocument/rename`: Return error if there was an error computing renames.
+* `textDocument/signatureHelp`: Log errors, return nil result.
+* `textDocument/documentSymbols`: Return error if there was an error computing document symbols.
 
 ## Files that change outside of the editor
 
-For example, files that are created/modified/removed as a result of `go generate`. Per [@ianthehat](https://github.com/ianthehat):
-
-> The plan is to have the client do all the work for us. Specifically we are going to start using `workspace/didChangeWatchedFiles` to monitor all the files we are caching AST's for
-
-This is currently not implemented (see [#31553](https://github.com/golang/go/issues/31553)).
+Files can change outside of the purview of `gopls` if they are modified in a different editor or created/modified/removed as a result of `go generate`. These cases will be handled by supporting the [`workspace/didChangeWatchedFiles`](https://microsoft.github.io/language-server-protocol/specification#workspace_didChangeWatchedFiles). This is not yet implemented on the `gopls` side, but it is tracked in [#31553](https://github.com/golang/go/issues/31553).
