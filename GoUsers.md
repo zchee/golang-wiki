@@ -356,6 +356,7 @@
   * [Codemi Learning Management System](http://codemi.co.id)
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
+  * [GoApotik](https://www.goapotik.com)
   * [GO-JEK](https://www.go-jek.com)
   * [Graboards](https://graboards.com/)
   * [Guteninc](http://guteninc.com)
