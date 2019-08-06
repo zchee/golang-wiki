@@ -255,6 +255,8 @@ Finally, you should familiarise yourself with the LSP package's *Settings* and *
 
 ## Contributing
 
+See https://github.com/golang/go/wiki/Contributing-to-gopls.
+
 Contributions are welcome, but since development is so active, we request that you file an issue and claim it before starting to work on something. Otherwise, it is likely that we might already be working on a fix for your issue. 
 
 Please see all available issues under the [gopls label](https://github.com/golang/go/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Agopls) on the Go issue tracker. Any issue without an assignee and with the label "Suggested" is fair game - just assign yourself or comment on the issue before you begin working!
@@ -265,6 +267,7 @@ Please see all available issues under the [gopls label](https://github.com/golan
 
 ## Additional Information
 
-* For more information about integrating gopls within an editor, see https://github.com/golang/go/wiki/gopls-integrator-FAQ.
+* For information about integrating `gopls` within an editor, see https://github.com/golang/go/wiki/gopls-integrator-FAQ.
+* For information about contributing to `gopls`, see https://github.com/golang/go/wiki/Contributing-to-gopls.
 * For more information on latest developments and other Go tools: https://github.com/golang/go/wiki/golang-tools.
 * Other questions can be directed toward [@stamblerre](https://github.com/stamblerre) or [@ianthehat](https://github.com/ianthehat).
