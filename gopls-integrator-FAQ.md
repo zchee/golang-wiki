@@ -1,12 +1,12 @@
 This page is meant to provide information to those who are developing LSP clients to integrate with `gopls`. Examples of such clients include [VSCode-Go](https://github.com/microsoft/vscode-go), [vim-go](https://github.com/fatih/vim-go), [govim](https://github.com/myitcv/govim), [emacs-lsp](https://github.com/emacs-lsp/lsp-mode), and many others. For a more complete list, see all of the editors that support gopls [here](https://github.com/golang/go/wiki/gopls#installation).
 
-The best starting point for any integrator is the [Language Service Protocol Specification](https://microsoft.github.io/language-server-protocol/specification).
+The best starting point for any integrator is the [Language Service Protocol Specification](https://microsoft.github.io/language-server-protocol/specification). The same specification can be found as a markdown document on Github [here](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md).
 [`golang.org/x/tools/internal/lsp/protocol`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol) represents a Go definition of the spec.
 
 Feel free to add additional questions and answers here as they come up. To ask a question that isn't answered here, please reach out to the `gopls` developers either by filing an issue in the [Go issue tracker](https://github.com/golang/go/issues) or by sending a message to the `#gopls` channel in the [Gophers Slack](https://invite.slack.golangbridge.org/). 
 
 # Table of Contents  
-* [Supported Features](#supported-features)
+* [Supported features](#supported-features)
 * [UTF-8, UTF-16 and position information](#utf-8-utf-16-and-position-information)
 * [`[]TextEdit` responses](#textedit-responses)
 * [RPC response errors](#rpc-response-errors)
@@ -18,16 +18,19 @@ Feel free to add additional questions and answers here as they come up. To ask a
 
 For the most current answer, see the [`InitializeResult`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#InitializeResult) response to the [`Initialize`](https://microsoft.github.io/language-server-protocol/specification#initialize) request. The server enumerates its `capabilities` in the [`ServerCapabilities`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#ServerCapabilities), so it explicitly states which features it does support.
 
-As of the time of writing (2019-08-06), `gopls` returns the [`InitializeResult`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#InitializeResult) in the `server.initialize` function which can be found in [`golang.org/x/tools/internal/lsp/general.go`](https://github.com/golang/tools/blob/master/internal/lsp/general.go). All of the exported `gopls` server functions can be found in [`golang.org/x/tools/internal/lsp/server.go`](https://github.com/golang/tools/blob/master/internal/lsp/server.go).
+At the time of writing (2019-08-06), `gopls` returns the [`InitializeResult`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#InitializeResult) in the `server.initialize` function which can be found in [`golang.org/x/tools/internal/lsp/general.go`](https://github.com/golang/tools/blob/master/internal/lsp/general.go). All of the exported `gopls` server functions can be found in [`golang.org/x/tools/internal/lsp/server.go`](https://github.com/golang/tools/blob/master/internal/lsp/server.go).
 
 ## UTF-8, UTF-16 and position information
 
-As an example, the [`Hover`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#hover-request-leftwards_arrow_with_hook) method takes [`TextDocumentPositionParams `](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textdocumentpositionparams) which has a `position` field of type [`Position`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#text-documents). The key point to note from that last link is the following:
+The majority of LSP requests require the client to pass position information to the server. This is described in the [LSP specification](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#text-documents). Specifically, it is important to note that:
 
-> A position inside a document (see Position definition below) is expressed as a zero-based line and character offset. The offsets are based on a UTF-16 string representation. So a string of the form a𐐀b the character offset of the character a is 0, the character offset of 𐐀 is 1 and the character offset of b is 3 since 𐐀 is represented using two code units in UTF-16. 
+> A position inside a document (see Position definition below) is expressed as a zero-based line and character offset. The offsets are based on a UTF-16 string representation. So a string of the form a𐐀b the character offset of the character a is 0, the character offset of 𐐀 is 1 and the character offset of b is 3 since 𐐀 is represented using two code units in UTF-16.  
 
-i.e. integrators will need to calculate UTF-16 based column offsets. For Go-based integrators, the [`golang.org/x/tools/internal/span`](https://godoc.org/golang.org/x/tools/internal/span#NewPoint) will be of use. [#31080](https://github.com/golang/go/issues/31080) tracks making `span` and other useful packages non-internal.
+This means that integrators will need to calculate UTF-16 based column offsets.
 
+For Go-based integrators, the [`golang.org/x/tools/internal/span`](https://godoc.org/golang.org/x/tools/internal/span#NewPoint) will be of use. 
+[#31080](https://github.com/golang/go/issues/31080) tracks making `span` and other useful packages non-internal.
+ 
 ## `[]TextEdit` responses
 
 At the time of writing (2019-07-15) the [`[]TextEdit`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textedit) response to [`textDocument/formatting`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#document-formatting-request--leftwards_arrow_with_hook) and the [`WorkspaceEdit`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#workspaceedit) response to [`textDocument/rename`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#textDocument_rename) comprises range-based deltas. The spec is not explicit about how these deltas should be applied, instead simply stating:
