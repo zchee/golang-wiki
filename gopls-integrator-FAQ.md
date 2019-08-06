@@ -14,7 +14,11 @@ Feel free to add additional questions and answers here as they come up. To ask a
 
 ## Supported features
 
-The most accurate answer to this question is to examine the `InitializeResult` response to [`Initialize`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#initialize-request-leftwards_arrow_with_hook), specifically the `capabilities` field of type `ServerCapabilities`
+`gopls` is in active development, so the set of supported features is in flux. A basic overview of supported features can be found on the [`gopls` wiki page](https://github.com/golang/go/wiki/gopls#status).
+
+For the most current answer, see the [`InitializeResult`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#InitializeResult) response to the [`Initialize`](https://microsoft.github.io/language-server-protocol/specification#initialize) request. The server enumerates its `capabilities` in the [`ServerCapabilities`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#ServerCapabilities), so it explicitly states which features it does support.
+
+As of the time of writing (2019-08-06), `gopls` returns the [`InitializeResult`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol#InitializeResult) in the `server.initialize` function which can be found in [`golang.org/x/tools/internal/lsp/general.go`](https://github.com/golang/tools/blob/master/internal/lsp/general.go). All of the exported `gopls` server functions can be found in [`golang.org/x/tools/internal/lsp/server.go`](https://github.com/golang/tools/blob/master/internal/lsp/server.go).
 
 ## UTF-8, UTF-16 and position information
 
