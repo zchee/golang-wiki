@@ -4,6 +4,9 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 
 | **OpenBSD release** | **Go in ports**     |
 |:--------------------|:--------------------|
+| 6.5 (Apr 4, 2019)   | go-1.12.1           |
+| 6.4 (Oct 18, 2018)  | go-1.11             |
+| 6.3 (Apr 2, 2018)   | go-1.10             |
 | 6.2 (Oct 9, 2017)   | go-1.9              |
 | 6.1 (Apr 11, 2017)  | go-1.8              |
 | 6.0 (Sep 1, 2016)   | go-1.6.3            |
