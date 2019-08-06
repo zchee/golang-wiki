@@ -1,8 +1,18 @@
-What follows is a list of questions/ideas/suggestions for folks looking to integrate `gopls` within an editor/similar. 
+This page is meant to provide information to those who are developing LSP clients to integrate with `gopls`. Examples of such clients include [VSCode-Go](https://github.com/microsoft/vscode-go), [vim-go](https://github.com/fatih/vim-go), [govim](https://github.com/myitcv/govim), [emacs-lsp](https://github.com/emacs-lsp/lsp-mode), and many others. For a more complete list, see all of the editors that support gopls [here](https://github.com/golang/go/wiki/gopls#installation).
 
-A good starting point for any integrator is the [Language Service Protocol Specification](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md). [`golang.org/x/tools/internal/lsp/protocol`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol) represents a Go definition of the spec. 
+The best starting point for any integrator is the [Language Service Protocol Specification](https://microsoft.github.io/language-server-protocol/specification).
+[`golang.org/x/tools/internal/lsp/protocol`](https://godoc.org/golang.org/x/tools/internal/lsp/protocol) represents a Go definition of the spec.
 
-## What does `gopls` support?
+Feel free to add additional questions and answers here as they come up. To ask a question that isn't answered here, please reach out to the `gopls` developers either by filing an issue in the [Go issue tracker](https://github.com/golang/go/issues) or by sending a message to the `#gopls` channel in the [Gophers Slack](https://invite.slack.golangbridge.org/). 
+
+# Table of Contents  
+* [Supported Features](#supported-features)
+* [UTF-8, UTF-16 and position information](#utf-8-utf-16-and-position-information)
+* [`[]TextEdit` responses](#textedit-responses)
+* [RPC response errors](#rpc-response-errors)
+* [Files that change outside of the editor](#files-that-change-outside-of-the-editor)
+
+## Supported features
 
 The most accurate answer to this question is to examine the `InitializeResult` response to [`Initialize`](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md#initialize-request-leftwards_arrow_with_hook), specifically the `capabilities` field of type `ServerCapabilities`
 
@@ -32,7 +42,7 @@ https://go-review.googlesource.com/c/tools/+/170958 and related discussions are 
 
 This answer is therefore a WIP.
 
-## Files that change "outside the editor"
+## Files that change outside of the editor
 
 For example, files that are created/modified/removed as a result of `go generate`. Per [@ianthehat](https://github.com/ianthehat):
 
