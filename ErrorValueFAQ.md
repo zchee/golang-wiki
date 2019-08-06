@@ -89,7 +89,7 @@ With errors, though, there is an intermediate choice: you can expose error detai
 
 Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
 
-A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions. You should likewise consider that a change to your `IsX` could break your users.
+A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions. You should likewise consider that a change to `IsX` could break your users.
 
 Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
