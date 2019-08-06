@@ -94,7 +94,7 @@ A natural thought would be to modify the predicate to unwrap the error it is pas
 Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
 This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them. 
-So in that case, we recommend:
+In that case, we recommend:
 - Don't change your `IsX(error) bool` function.
 - If you don't already have one, add a global variable whose type implements `error` that represents the 
   condition that your function tests:
@@ -104,16 +104,19 @@ So in that case, we recommend:
 - Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
   equals `ErrX`.
 
-If you don't have control of all the errors that can have property X, you'll instead need to add another function that tests for property X while unwrapping. Or you could leave things as they are, and explain to your users (preferably in the documentation for `IsX`) that `IsX` does not unwrap, and they must do so themselves. Either way, the unwrapping loop is simple:
-
+If you don't have control of all the errors that can have property X, you'll instead need to add another function that tests for property X while unwrapping, perhaps
 ```
-for e := err; e != nil; e = errors.Unwrap(e) {
-    if IsX(e) {
-        return true
+func IsXUnwrap(err error) bool {
+    for e := err; e != nil; e = errors.Unwrap(e) {
+        if IsX(e) {
+            return true
+        }
     }
+    return false
 }
-return false
 ```
+
+Or you could leave things as they are, and let your users do the unwrapping themselves. Either way, you should change the documentation of `IsX` to clarify that it does not unwrap.
 
 ## I have a type that implements `error` and holds a nested error. How should I adapt it to the new features?
 
