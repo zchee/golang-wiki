@@ -89,11 +89,12 @@ With errors, though, there is an intermediate choice: you can expose error detai
 
 Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
 
-A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions.
+A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions. You should likewise consider that a change to your `IsX` could break your users.
 
 Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older version of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
-So we recommend:
+This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them. 
+So in that case, we recommend:
 - Don't change your `IsX(error) bool` function.
 - If you don't already have one, add a global variable whose type implements `error` that represents the 
   condition that your function tests:
@@ -102,6 +103,17 @@ So we recommend:
   ```
 - Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
   equals `ErrX`.
+
+If you don't have control of all the errors that can have property X, you'll instead need to add another function that tests for property X while unwrapping. Or you could leave things as they are, and explain to your users (preferably in the documentation for `IsX`) that `IsX` does not unwrap, and they must do so themselves. Either way, the unwrapping loop is simple:
+
+```
+for e := err; e != nil; e = errors.Unwrap(e) {
+    if IsX(e) {
+        return true
+    }
+}
+return false
+```
 
 ## I have a type that implements `error` and holds a nested error. How should I adapt it to the new features?
 
