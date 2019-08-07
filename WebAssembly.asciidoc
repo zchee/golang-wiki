@@ -271,7 +271,7 @@ The solution is to upgrade to Go 1.11.2 or later.
 # Further examples
 
 ## General
-* https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go
+* https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go. Live https://agniva.me/shimmer[DEMO].
 
 ## Canvas (2D)
 * https://github.com/stdiopt/gowasm-experiments[GoWasm Experiments] - Demonstrates
