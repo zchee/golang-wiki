@@ -303,6 +303,7 @@
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
   * [FStack (Golang Consulting)](http://fstack.co/)
   * [GeekTrust](http://geektrust.in/)
+  * [GetMega](https://getmega.com/)
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
   * [Gradeup](https://github.com/gradeup)
