@@ -152,7 +152,7 @@ augroup END
 
 **or**
 
-Use [natebosch/vim-lsp](https://github.com/natebosch/vim-lsp/), with the following configuration:
+Use [natebosch/vim-lsc](https://github.com/natebosch/vim-lsc/), with the following configuration:
 
 ```vim
 let g:lsc_server_commands = {
