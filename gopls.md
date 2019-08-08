@@ -3,7 +3,7 @@ The LSP allows any text editor to be extended with IDE-like features (see https:
 
 It is currently in alpha, so it is not stable. 
 
-To install: `go get golang.org/x/tools/gopls@latest`.
+To install or update: `go get golang.org/x/tools/gopls@latest`.
 
 # Table of Contents  
 [Troubleshooting](#troubleshooting)  
