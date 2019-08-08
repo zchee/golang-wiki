@@ -682,7 +682,11 @@ The community is starting to build tooling on top of modules. For example:
   * Shows untagged commits and lets you tag them all at once (`mgit -tag +0.0.1`)
 * [github.com/goware/modvendor](https://github.com/goware/modvendor)
   * Helps copy additional files into the `vendor/` folder, such as shell scripts, .cpp files, .proto files, etc.
-  
+* [github.com/psampaz/go-mod-outdated](https://github.com/psampaz/go-mod-outdated)
+  * Displays outdated dependencies in a human friendly way 
+  * Provides a way to filter indirect dependencies and dependencies without updates
+  * Provides a way to break CI pipelines in case of outdated dependencies
+
 ### When should I use the replace directive?
 
 As described in the ['go.mod' concepts section above](https://github.com/golang/go/wiki/Modules#gomod), `replace` directives provide additional control in the top-level `go.mod` for what is actually used to satisfy a dependency found in the Go source or go.mod files, while `replace` directives in modules other than the main module are ignored when building the main module.
