@@ -1,9 +1,20 @@
 `gopls` (pronounced: "go please") is an implementation of the Language Server Protocol (LSP) server for Go.
-The LSP allows any text editor to be extended with IDE-like features (see https://langserver.org/ for details). 
+LSP allows any text editor to be extended with IDE-like features (see https://langserver.org for details). 
 
 It is currently in alpha, so it is not stable. 
 
-To install or update: `go get golang.org/x/tools/gopls@latest`.
+### To install or update `gopls`, run `go get golang.org/x/tools/gopls@latest`.
+
+Do not use the `-u` flag, as it will update your dependencies to incompatible versions.
+
+If you see this error:
+
+```shell
+$ go get golang.org/x/tools/gopls@latest
+go: cannot use path@version syntax in GOPATH mode
+```
+
+run `GO111MODULE=on go get golang.org/x/tools/gopls@latest`.
 
 # Table of Contents  
 [Troubleshooting](#troubleshooting)  
@@ -48,9 +59,18 @@ Feel free to ask questions about `gopls` on the `#gopls` [Gopher Slack](https://
 
 ## Installation
 
-First, install `gopls` by running `go get golang.org/x/tools/gopls@latest`.
+To install or update `gopls`, run `go get golang.org/x/tools/gopls@latest`.
 
-At the moment, we suggest using VSCode.
+Do not use the `-u` flag, as it will update your dependencies to incompatible versions.
+
+If you see this error:
+
+```shell
+$ go get golang.org/x/tools/gopls@latest
+go: cannot use path@version syntax in GOPATH mode
+```
+
+run `GO111MODULE=on go get golang.org/x/tools/gopls@latest`.
 
 ### Integration with your text editor
 
