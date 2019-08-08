@@ -307,6 +307,7 @@
   * [Gloop](http://gloop.io/)
   * [Go-jek](https://github.com/gojek-engineering)
   * [Gradeup](https://github.com/gradeup)
+  * [Guavus](https://www.guavus.com)
   * [Halodoc](https://www.halodoc.com)
   * [Hasura](https://hasura.io)
   * [Instamojo](https://www.instamojo.com/)
