@@ -19,7 +19,7 @@ run `GO111MODULE=on go get golang.org/x/tools/gopls@latest`.
 If you then see this error:
 ```shell
 GO111MODULE=on go get golang.org/x/tools/gopls@latest
-go: cannot determine module path for source directory /Users/helloworld/projects/hotproj (outside GOPATH, no import comments)
+go: cannot determine module path for source directory /home/user (outside GOPATH, no import comments)
 ```
 
 This may be worth trying: ```go get golang.org/x/tools/gopls```
