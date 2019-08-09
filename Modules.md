@@ -88,14 +88,14 @@ Create a directory outside of your GOPATH, and optionally initialize VCS:
 $ mkdir -p /tmp/scratchpad/repo
 $ cd /tmp/scratchpad/repo
 $ git init -q
-$ git remote add origin https://github.com/your/repo
+$ git remote add origin https://github.com/my/repo
 ```
 
 Initialize a new module:
 ```
-$ go mod init github.com/your/repo
+$ go mod init github.com/my/repo
 
-go: creating new go.mod: module github.com/your/repo
+go: creating new go.mod: module github.com/my/repo
 ```
 
 Write your code:
@@ -126,7 +126,7 @@ The `go.mod` file was updated to include explicit versions for your dependencies
 ```
 $ cat go.mod
 
-module github.com/your/repo
+module github.com/my/repo
 
 require rsc.io/quote v1.5.2
 ```
