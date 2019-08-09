@@ -116,7 +116,7 @@ EOF
 
 Build and run:
 ```
-$ go build 
+$ go build -o hello
 $ ./hello
 
 Hello, world.
