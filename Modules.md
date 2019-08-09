@@ -85,8 +85,8 @@ The details are covered in the remainder of this page, but here is a simple exam
 
 Create a directory outside of your GOPATH, and optionally initialize VCS:
 ```
-$ mkdir -p /tmp/scratchpad/hello
-$ cd /tmp/scratchpad/hello
+$ mkdir -p /tmp/scratchpad/repo
+$ cd /tmp/scratchpad/repo
 $ git init -q
 $ git remote add origin https://github.com/your/repo
 ```
