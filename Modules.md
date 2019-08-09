@@ -1,8 +1,8 @@
 # Go 1.11 Modules
 
-Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an experimental opt-in feature in Go 1.11, with the [plan](https://blog.golang.org/modules2019) of incorporating feedback and finalizing the feature for Go 1.13. Even though some details may change, future releases will support modules defined using Go 1.11 or 1.12.
+Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an experimental opt-in feature in Go 1.11, with the plan of incorporating feedback and [finalizing](https://github.com/golang/go/issues/31857) the feature for Go 1.14. Even though some details may change, future releases will support modules defined using Go 1.11, 1.12, and 1.13.
 
-The initial prototype (`vgo`) was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, support for versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main repository. Go 1.11 was released in August 2018.
+The initial prototype `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, support for versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main repository. Go 1.11 was released in August 2018.
 
 Please provide feedback on modules via [existing or new issues](https://github.com/golang/go/wiki/Modules#github-issues) and via [experience reports](https://github.com/golang/go/wiki/ExperienceReports).
 
@@ -83,17 +83,19 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
 
 The details are covered in the remainder of this page, but here is a simple example of creating a module from scratch.
 
-Create a directory outside of your GOPATH:
+Create a directory outside of your GOPATH, and optionally initialize VCS:
 ```
 $ mkdir -p /tmp/scratchpad/hello
 $ cd /tmp/scratchpad/hello
+$ git init -q
+$ git remote add origin https://github.com/your/repo
 ```
 
 Initialize a new module:
 ```
-$ go mod init github.com/you/hello
+$ go mod init github.com/your/repo
 
-go: creating new go.mod: module github.com/you/hello
+go: creating new go.mod: module github.com/your/repo
 ```
 
 Write your code:
@@ -124,7 +126,7 @@ The `go.mod` file was updated to include explicit versions for your dependencies
 ```
 $ cat go.mod
 
-module github.com/you/hello
+module github.com/your/repo
 
 require rsc.io/quote v1.5.2
 ```
