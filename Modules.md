@@ -763,11 +763,11 @@ Publicly hosted "always on" immutable module repositories and optional privately
 For example:
 * [proxy.golang.org](https://proxy.golang.org) - Official project - Run by [Google](https://www.google.com) - The default Go module proxy built by the Go team.
 * [gocenter.io](https://gocenter.io) - Commercial project - Run by [JFrog](https://jfrog.com) - The central Go modules repository.
-* [athens.azurefd.net](https://athens.azurefd.net) - Commercial project - Run by [Microsoft](https://www.microsoft.com) - A Go module proxy built using Athens.
 * [mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy) - Commercial project - Run by [Alibaba Cloud](https://www.alibabacloud.com) - A Go module proxy alternate.
 * [goproxy.cn](https://goproxy.cn) - Open source project - Run by [Qiniu Cloud](https://www.qiniu.com) - The most trusted Go module proxy in China.
 * [goproxy.io](https://goproxy.io) - Open source project - Run by one person - A global proxy for Go modules.
 * [Athens](https://github.com/gomods/athens) - Open source project - Self-hosted - A Go module datastore and proxy.
+* [athens.azurefd.net](https://athens.azurefd.net) - Open source project - Run by [Microsoft](https://www.microsoft.com) - A hosted module proxy running Athens.
 * [Goproxy](https://github.com/goproxy/goproxy) - Open source project - Self-hosted - A minimalist Go module proxy handler.
 * [THUMBAI](https://thumbai.app) - Open source project - Self-hosted - Go mod proxy server and Go vanity import path server.
 
