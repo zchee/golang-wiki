@@ -49,8 +49,9 @@
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio) - an open payment platform
   * [Coderockr](http://coderockr.com)
   * [Code:Nation](http://codenation.com.br)
-  * [Conductor](http://www.conductor.com.br)
   * [Compufácil](http://compufacil.com.br)
+  * [Conductor](http://www.conductor.com.br)
+  * [Conta Azul](https://contaazul.com) - [github](https://github.com/ContaAzul)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Dinamize](https://www.dinamize.com.br/) - [github](https://github.com/dinamize)
   * [Dito](http://dito.com.br/) - [github](https://github.com/ditointernet/)
