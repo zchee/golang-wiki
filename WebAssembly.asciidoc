@@ -303,7 +303,7 @@ There are two main ways (for now) to reduce this file size:
 
 1. Manually compress the .wasm file.
    a. Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB.  It may be better to use https://github.com/google/zopfli[Zopfli] to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
-   b. Using https://github.com/google/brotli[Brotli] for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somwhere inbetween the two, too.
+   b. Using https://github.com/google/brotli[Brotli] for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too.  This https://github.com/andybalholm/brotli[(new) Brotli compressor] looks reasonable. 
 
 Examples from https://github.com/johanbrandhorst[@johanbrandhorst]
 
