@@ -88,7 +88,8 @@ Use the [VSCode-Go](https://github.com/microsoft/vscode-go) plugin, with the fol
     }
 },
 "gopls": {
-    "usePlaceholders": true // add parameter placeholders when completing a function
+    "usePlaceholders": true, // add parameter placeholders when completing a function
+    "wantCompletionDocumentation": true // for documentation in completion items
 },
 "files.eol": "\n", // formatting only supports LF line endings
 ```
