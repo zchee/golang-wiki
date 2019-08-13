@@ -21,6 +21,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ <br> CFP: https://www.papercall.io/gopherpalooza2019 |
 | dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://goo.gl/forms/T4Z7rTy2RxfhUebd2 |
 | GothamGo | 2020-04-23-24 | New York City, NY USA | http://gothamgo.com/ |
+| GopherCon Europe | 2020-05 | Berlin, Germany | https://twitter.com/gopherconeu |
 
 
 ## Archives
