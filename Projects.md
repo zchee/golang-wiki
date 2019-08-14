@@ -1667,6 +1667,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [now.go](https://github.com/alloy-d/now.go) - A simple HTTP-based to-do queue.
   * [Peach](http://peachdocs.org/) - A web server for multi-language, real-time synced and searchable documentation.
   * [rabbitmq-http](https://github.com/smallfish/rabbitmq-http) - REST API for RabbitMQ
+  * [grabbit](https://github.com/wework/grabbit) - A lightweight transactional message bus on top of RabbitMQ
   * [serve-files](https://github.com/rickb777/servefiles) - Far-future and gzip wrapper around the standard net/http server.
   * [sf\_server](http://code.google.com/p/rflk/source/browse/#svn%2Ftrunk%2Fsw%2FGo%2Fsend_file_go) - a tiny send file server and client
   * [SuperSaaS API Client](https://github.com/SuperSaaS/supersaas-go-api-client) - HTTP client library for the supersaas.com scheduling/bookings/appointments API
