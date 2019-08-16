@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Alexey Nezhdanov, "[A syntax simplification proposal](https://gist.github.com/snakeru/aebc533b14a3f045f2bbb0d8eda5ed27)", August 2019
+
 - Bryan Ford, "[Are Only Type Parameters Generic Enough for Go 2 Generics?](https://bford.info/2019/07/29/go-generics/)", July 2019
 
 - Tom Levy, "[Go 2 Generics Feedback](https://gist.github.com/tom93/fd8c500b8a1d2d94f227e1e108d5315b)", June 2019
