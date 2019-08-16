@@ -806,6 +806,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Findx Solution](https://findx.co.th)
   * [Finnomena](http://www.finnomena.com)
   * [Gurusquare](http://www.gurusquare.com)
+  * [IBM Solutions Delivery](https://www.ibm.com/th-en)
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech) - A tech company of Kasikorn Bank Group. Number 2 in banking services in Thailand.
   * [LINE Company (Thailand)](https://linecorp.com/th) - Most popular message platform in Thailand.
