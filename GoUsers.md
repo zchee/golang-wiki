@@ -806,9 +806,10 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Findx Solution](https://findx.co.th)
   * [Finnomena](http://www.finnomena.com)
   * [Gurusquare](http://www.gurusquare.com)
+  * [hytexts](https://www.hytexts.com)
   * [IBM Solutions Delivery](https://www.ibm.com/th-en)
   * [Insightera](https://www.insightera.co.th/)
-  * [KBTG](http://www.kbtg.tech) - A tech company of Kasikorn Bank Group. Number 2 in banking services in Thailand.
+  * [KBTG](http://www.kbtg.tech) - A group of tech companies of Kasikorn Bank Group. Number 2 in banking services in Thailand.
   * [LINE Company (Thailand)](https://linecorp.com/th) - Most popular message platform in Thailand.
   * [NEXPIE](https://nexpie.com)
   * [Odd-e Thailand](https://www.odd-e.com/th)
@@ -823,7 +824,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [SPRINT3r](http://sprint3r.com/)
   * [T.N. Incorporation](http://www.tnis.com/index) - Core banking tranformation company.
   * [Tencent Thailand](https://developers.tencent.co.th/)
-  * [hytexts](https://www.hytexts.com)
+  * [THiNKNET](https://www.thinknet.co.th)
   * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)
   * [True E-Logistics](http://www.true-e-logistics.com/)
   * [TRUE](http://truemoveh.truecorp.co.th/) - Top 3 telecommunication company in Thailand.
