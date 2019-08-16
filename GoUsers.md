@@ -820,13 +820,13 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Sellsuki](https://www.sellsuki.co.th/)
   * [SIX network](https://six.network) - Financial Services
   * [SPRINT3r](http://sprint3r.com/)
-  * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previous name is [ThothZocial](https://thothzocial.com/)
   * [T.N. Incorporation](http://www.tnis.com/index) - Core banking tranformation company.
   * [Tencent Thailand](https://developers.tencent.co.th/)
   * [hytexts](https://www.hytexts.com)
   * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)
   * [True E-Logistics](http://www.true-e-logistics.com/)
   * [TRUE](http://truemoveh.truecorp.co.th/) - Top 3 telecommunication company in Thailand.
+  * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previous name is [ThothZocial](https://thothzocial.com/)
   * [Xcellence Corporation](http://www.xclnc.com)
   * [Zanroo](https://www.zanroo.com/)
   * [Zarewoft](https://github.com/zarewoft)
