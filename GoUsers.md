@@ -792,24 +792,44 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [ProphetStor Data Services, Inc.](http://www.prophetstor.com)
   
 ## Thailand
-  * [Appsynth Asia](https://appsynth.net/)
+  * [3DS Interactive](https://3dsinteractive.com)
+  * [Appsynth Asia](https://appsynth.net/) 
   * [Beebber](https://www.beebber.com/)
-  * [AIS](http://www.ais.co.th/)  
+  * [botio](https://www.botio.io/)
+  * [AIS](http://www.ais.co.th/) - Top 3 of telecommunication company in Thailand.
   * [Computerlogy](https://computerlogy.com/)
+  * [Dcenbase](http://decenbase.com)
   * [Drone Academy Thailand](http://www.dronecademy.org)
-  * [DTAC](http://www.dtac.co.th/)
+  * [DTAC](http://www.dtac.co.th/) - Top 3 of telecommunication company in Thailand.
   * [Donuts Bangkok](http://www.donuts-bkk.com/)
-  * [Fastwork](https://fastwork.co/)
+  * [Fastwork](https://fastwork.co/) - Freelance platform in Thailand and Indonesia.
+  * [Findx Solution](https://findx.co.th)
+  * [Finnomena](http://www.finnomena.com)
+  * [Gurusquare](http://www.gurusquare.com)
   * [Insightera](https://www.insightera.co.th/)
-  * [KBTG](http://www.kbtg.tech)
-  * [ODDS](http://fb.me/oddsteam)
+  * [KBTG](http://www.kbtg.tech) - A tech company of Kasikorn Bank Group. Number 2 in banking services in Thailand.
+  * [LINE Company (Thailand)](https://linecorp.com/th) - Most popular message platform in Thailand.
+  * [NEXPIE](https://nexpie.com)
+  * [Odd-e Thailand](https://www.odd-e.com/th)
+  * [ODDS](http://fb.me/oddsteam) - A group of people that belive tha software development should be fun. And we belive in continues improvement.
+  * [Omise](https://www.omise.co) - Payment gateway for Thailand.
+  * [Onedaycat](http://onedaycat.com)
   * [Paybox](https://www.paybox.work)
+  * [Paiduaykanmai](https://www.facebook.com/paiduay.tech/)
+  * [Que Q](http://www.queq.me/)
   * [Sellsuki](https://www.sellsuki.co.th/)
+  * [SIX network](https://six.network) - Financial Services
   * [SPRINT3r](http://sprint3r.com/)
-  * [ThothZocial](https://thothzocial.com/)
+  * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previous name is [ThothZocial](https://thothzocial.com/)
+  * [T.N. Incorporation](http://www.tnis.com/index) - Core banking tranformation company.
   * [Tencent Thailand](https://developers.tencent.co.th/)
-  * [TRUE](http://truemoveh.truecorp.co.th/)
+  * [hytexts](https://www.hytexts.com)
+  * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)
+  * [True E-Logistics](http://www.true-e-logistics.com/)
+  * [TRUE](http://truemoveh.truecorp.co.th/) - Top 3 telecommunication company in Thailand.
+  * [Xcellence Corporation](http://www.xclnc.com)
   * [Zanroo](https://www.zanroo.com/)
+  * [Zarewoft](https://github.com/zarewoft)
 
 ## Turkey
   * [Admongrel](http://www.admongrel.com/)
