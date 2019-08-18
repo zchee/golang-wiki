@@ -820,7 +820,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gdal](https://github.com/lukeroth/gdal) - Provides a go wrapper for GDAL
 ## Go Implementations
 
-  * [llgo](http://llvm.org/klaus/llgo) - LLVM-based Go compiler, written in Go
+  * [llgo](https://llvm.org/svn/llvm-project/llgo/trunk/README.TXT) - LLVM-based Go compiler, written in Go
 
 
 ## Graphics and Audio
