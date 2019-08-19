@@ -330,6 +330,13 @@ Sorted by publication date.
     * Publication Date: May 2019
     * ISBN: 9781838550356
     * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-quick-start-guide?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach
+
+Mastering Go
+
+Author: Mihalis Tsoukalos
+Publication Date: 29 Apr 2018
+ISBN: 9781788626545
+Reference: https://www.packtpub.com/networking-and-servers/mastering-go
 ***
 
 ## Early Access
