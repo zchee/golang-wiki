@@ -2,7 +2,6 @@
 
 These sites provide indexes and search engines for Go packages:
 
-* [awesome-go](https://github.com/Avelino/awesome-lgo) - A community curated list of high-quality resources.
 * [Awesome Go @LibHunt](https://go.libhunt.com) - Your go-to Go Toolbox.
 * [godoc.org](http://godoc.org/) - A documentation browser for any Go open source package.
 * [go-hardware](https://github.com/rakyll/go-hardware) - Curated list of resources for using Go on non-standard hardware.
