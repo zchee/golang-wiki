@@ -331,12 +331,13 @@ Sorted by publication date.
     * ISBN: 9781838550356
     * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-quick-start-guide?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach
 
-**Mastering Go**
+**Mastering Go - Second Edition**
 
 * Author: Mihalis Tsoukalos
-* Publication Date: 29 Apr 2018
-* ISBN: 9781788626545
-* Reference: https://www.packtpub.com/networking-and-servers/mastering-go
+* Publication Date: 10 Sept 2019
+* ISBN: 9781838559335
+* Reference: https://www.packtpub.com/programming/mastering-go-second-edition
+* Reference: https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1838559337/
 ***
 
 ## Early Access
