@@ -11,7 +11,7 @@ Commercial providers of Go training
 * [Learning to Program in Go - Chris Hawkes](https://www.youtube.com/playlist?list=PLei96ZX_m9sVSEXWwZi8uwd2vqCpEm4m6) - Free video tutorial for beginner Go programming.
 * [Go Language Programming Practical Basics Tutorial - Sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX) - Free video tutorial for Go beginners by Sentdex.
 * [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video training series.
-* [Pluralsight.com](http://www.pluralsight.com/tag/golang) - Offers 5 classes at beginner and advanced levels.
+* [Pluralsight.com](http://www.pluralsight.com/tag/golang) - Offers around 20 classes from beginner to advanced levels.
 * [Master Go](https://appliedgo.com/p/mastergo/) - A paid online video course on Go for developers
 * [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
 * [Golang tutorial](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
