@@ -224,6 +224,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [wmenu](https://github.com/dixonwille/wmenu) - An easy to use menu structure for cli applications that prompts users to make choices.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [JayDiff](https://github.com/yazgazan/jaydiff) - A JSON diff utility written in Go.
+  * [Terracognita](https://github.com/cycloidio/terracognita) - Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration.
 
 ## Compression
  
