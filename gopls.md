@@ -16,6 +16,10 @@ go: cannot use path@version syntax in GOPATH mode
 
 run `GO111MODULE=on go get golang.org/x/tools/gopls@latest`.
 
+### If you are using Go modules, you will need to open your editor to the directory that contains the `go.mod` file.
+
+We intend to improve this behavior, but for now, this is the recommended approach.
+
 # Table of Contents  
 [Troubleshooting](#troubleshooting)  
 [Known Issues](#known-issues)  
