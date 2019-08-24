@@ -982,6 +982,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Channel](https://www.getchannel.co)
   * [Chatlio](https://chatlio.com)
   * [Chubbs Solutions](https://chubbs.solutions) - Progressive Tech (APIs).
+  * [Cisco](https://cisco.com/) - [github](https://github.com/cisco?utf8=%E2%9C%93&q=&type=&language=go)
   * [CircleCI](https://circleci.com)
   * [Circonus](https://www.circonus.com)
   * [Clearblade](http://clearblade.com/) - [github](https://github.com/ClearBlade/Go-SDK)
