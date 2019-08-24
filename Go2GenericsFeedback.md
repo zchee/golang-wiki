@@ -83,6 +83,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- Andrew Phillips, "[Example Types as Contracts](https://devmethodologies.blogspot.com/2019/08/example-types-as-contracts.html)", August 2019
+
 - Beoran, "[Hygienic Macros](https://github.com/golang/go/issues/32620)", June 2019
 
 - Randy O'Reilly, "[Generic Native Types](https://gist.github.com/rcoreilly/bfbee2add03c76ada82810423d81e53d)", June 2019
