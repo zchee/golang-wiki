@@ -1098,6 +1098,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Karma](http://www.yourkarma.com) - [blog](https://blog.yourkarma.com/how-we-use-mqtt-at-karma)
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
+  * [Kohl's](https://www.kohls.com) - [github](https://github.com/KohlsTechnology?utf8=%E2%9C%93&q=&type=&language=go)
   * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
   * [Chamoji](http://chamoji.com/) - [augmented reality](https://chamoji.com/game-chamoji)
   * [Kochava](https://www.kochava.com/)
