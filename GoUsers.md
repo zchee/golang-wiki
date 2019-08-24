@@ -1118,6 +1118,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Magic Leap](http://www.magicleap.com) - [twitter](https://twitter.com/MrGossett/status/724926614065270786)
   * [Maldive](https://www.maldive.com)
   * [MalwareBytes](https://www.malwarebytes.org/) - [blog](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
+  * [Mastercard](https://mastercard.com) - [github](https://github.com/Mastercard?utf8=%E2%9C%93&q=&type=&language=go)
   * [Mattel](http://play.mattel.com/) - Mattel uses go on its backend for APIs and IOT data processing.
   * [Mattermost](https://about.mattermost.com/) - [github](https://github.com/mattermost) - Open source, private cloud Slack-alternative
   * [MaxCDN](http://www.maxcdn.com) - [blog](http://blog.maxcdn.com/learned-stop-worrying-love-logs/)
