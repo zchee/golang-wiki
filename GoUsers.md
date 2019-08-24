@@ -975,6 +975,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Byndr](http://www.byndr.org)
   * [ByteGain](https://bytegain.com/)
   * [Canonical](http://canonical.com/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA), [email](https://groups.google.com/d/msg/golang-nuts/jLnMsUbYwrQ/isfMUvBOkEIJ)
+  * [CBS Interactive](http://www.cbsinteractive.com) - [github](https://github.com/cbsinteractive?language=go)
   * [Capital One](https://www.capitalone.com) - [blog](https://medium.com/capital-one-tech/tagged/golang)
   * [Caprinova](http://caprinova.com)
   * [Carmatec](https://www.carmatec.com)
