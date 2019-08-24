@@ -1215,8 +1215,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Secret](https://www.secret.ly/) - [blog](https://medium.com/secret-den/12ab82fda29f)
   * [SecurityScorecard](https://securityscorecard.com/) - [github](https://github.com/securityscorecard) [blog](http://blog.securityscorecard.com)
   * [Segment](https://segment.com/) - [github](https://github.com/segmentio?query=go)
-  * [SendGrid](http://sendgrid.comel of the Go Gopher mascot. We ￼ Go.
-/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
+  * [SendGrid](http://sendgrid.com/) - [blog](http://sendgrid.com/blog/convince-company-go-golang/)
   * [SendHub](https://www.sendhub.com/) - [source (shipbuilder PaaS)](http://shipbuilder.io/)
   * [SessionM](https://www.sessionm.com) - [HN](https://news.ycombinator.com/item?id=10659861)
   * [Shopify](http://www.shopify.com) [tweet](https://twitter.com/burkelibbey/status/312328030670450688)
@@ -1301,6 +1300,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Wasabi](https://wasabi.com/)
   * [Weave](http://www.getweave.com)
   * [Weaveworks](http://weave.works)
+  * [Western Digital](https://www.westerndigital.com/) - [github](https://github.com/westerndigitalcorporation?&type=&language=go)
   * [Wercker](http://wercker.com) - [github](https://github.com/wercker)
   * [Whim](http://joinwhim.com/) - [meetup](http://www.meetup.com/golangsf/events/223166815/), [tweet](https://twitter.com/_peggyli/status/629176462155755520)
   * [Wikia](http://www.wikia.com)
