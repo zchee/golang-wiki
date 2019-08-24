@@ -1146,6 +1146,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Next Jump](https://www.nextjump.com) - Next Jump the company that manages the perks platform [Perks at Work](https://www.perksatwork.com) uses Go in it's backend. 
   * [NextUser](https://www.nextuser.com)
   * [Nexway](http://www.nexway.com)
+  * [Nike](http://engineering.nike.com/) - [github](https://github.com/Nike-Inc?utf8=%E2%9C%93&q=&type=&language=go)
   * [Ninchat](https://ninchat.com/) - [twitter](https://twitter.com/timosavola/status/555993344766390272)
   * [Novartis](http://www.novartis.com) - [g+ post](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Nutanix](http://www.nutanix.com)
