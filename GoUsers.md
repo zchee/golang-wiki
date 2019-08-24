@@ -1135,6 +1135,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Mozilla](https://go.mozilla.org) - [github](https://github.com/search?o=desc&q=org%3Amozilla+org%3Amozilla-services+org%3Amozilla-it+language%3AGo&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
   * [MROffice](http://mroffice.org/) - [source](http://www.youtube.com/watch?v=7QDVRowyUQA)
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
+  * [NetApp](https://netapp.io/) - [github](https://github.com/NetApp?utf8=%E2%9C%93&q=&type=&language=go)
   * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend), [blog](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)
   * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
