@@ -31,7 +31,9 @@ We intend to improve this behavior, but for now, this is the recommended approac
 
 ## Troubleshooting
 
-If you see a `gopls` error or crash, or `gopls` just stops working, please file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E).
+First, make sure that you are using the latest version of `gopls`. Things change quickly, so update to the latest version by following [these instructions](#installation). You can confirm your version of `gopls` by running `gopls version` on the command line.
+
+If you have found a bug with the latest version of `gopls`, please file an issue on the [Go issue tracker](https://github.com/golang/go/issues/new?title=x%2Ftools%2Fcmd%2Fgopls%3A%20%3Cfill%20this%20in%3E).
 Along with an explanation of the issue, please share the information listed here:
 
 * Your editor and any settings you have configured (for example, your VSCode `settings.json` file).
