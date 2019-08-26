@@ -70,7 +70,7 @@ For a slice or array s, loops of the form
 
 ```go
 for i := range s {
-	a[i] = <zero value for element of s>
+	s[i] = <zero value for element of s>
 }
 ```
 
