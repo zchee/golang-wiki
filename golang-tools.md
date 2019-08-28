@@ -13,10 +13,11 @@ See the mailing list for announcements of the next call and notes from the previ
 
 #### Upcoming calls
 
-* [2019-08-27 Meeting notes](https://docs.google.com/document/d/1NiIbz1h4-UaavdL-SC2hTp54Y87p-1joaLa-r5HgKaE/edit#)
+September 2019 call to be scheduled.
 
 #### Previous calls
 
+* [2019-08-27 Meeting notes](https://docs.google.com/document/d/1NiIbz1h4-UaavdL-SC2hTp54Y87p-1joaLa-r5HgKaE/edit#)
 * [2019-07-26 Meeting notes - second session at GopherCon San Diego](https://docs.google.com/document/d/1ZI_WqpLCB8DO6teJ3aBuXTeYD2iZZZlkDptmcY6Ja60/edit#)
 * [2019-07-25 Meeting notes - first session at GopherCon San Diego](https://docs.google.com/document/d/1-RVyttQ0ncjCpR_sRwizf-Ubedkr0Emwmk2LhnsUOmE/edit)
 * [2019-05-28 Meeting notes](https://docs.google.com/document/d/15gibnpGJyY-cJeRFIDf_mHzlbSnbZWGHvr5PJqQKUUY/edit?usp=sharing)
