@@ -1,3 +1,11 @@
+---
+> This page has been subsumed into the [committed markdown](https://github.com/golang/tools/blob/master/gopls/doc/contributing.md) of x/tools repository
+> 
+> Please do not edit this page!
+> 
+> The remaining content will be removed when we are sure it was all replaced.
+---
+
 This page is a guide to help Go developers get started in order to contribute to `gopls`. For more information on `gopls`, see https://github.com/golang/go/wiki/gopls.
 
 This page is currently under construction, but more information will be added here soon.
