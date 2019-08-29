@@ -1,3 +1,11 @@
+---
+> This page has been subsumed into the [committed markdown](https://github.com/golang/tools/blob/master/gopls/doc/integrating.md) of x/tools repository
+> 
+> Please do not edit this page!
+> 
+> The remaining content will be removed when we are sure it was all replaced.
+---
+
 This page is meant to provide information to those who are developing LSP clients to integrate with `gopls`. Examples of such clients include [VSCode-Go](https://github.com/microsoft/vscode-go), [vim-go](https://github.com/fatih/vim-go), [govim](https://github.com/myitcv/govim), [emacs-lsp](https://github.com/emacs-lsp/lsp-mode), and many others. For a more complete list, see all of the editors that support gopls [here](https://github.com/golang/go/wiki/gopls#installation).
 
 The best starting point for any integrator is the [Language Service Protocol Specification](https://microsoft.github.io/language-server-protocol/specification). The same specification can be found as a markdown document on Github [here](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md).
