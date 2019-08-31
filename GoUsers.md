@@ -16,7 +16,7 @@
   * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
   * [Atlassian](http://atlassian.com/)
   * [AusOcean](http://www.ausocean.org) - Helping our oceans through the use of technology.
-  * [BCZ](https://bcz.com/) - Human captcha verification with spam protection.
+  * [BCZ](https://bcz.com/) - Free website creation platform.
   * [Buildkite](https://buildkite.com/) - [github](https://github.com/buildkite/agent)
   * [Crewmojo](https://crewmojo.com) - People management platform.
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
