@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Andrew Phillips, "[Example Types as Contracts](https://devmethodologies.blogspot.com/2019/08/example-types-as-contracts.html)", August 2019
+
 - Alexey Nezhdanov, "[A syntax simplification proposal](https://gist.github.com/snakeru/aebc533b14a3f045f2bbb0d8eda5ed27)", August 2019
 
 - Bryan Ford, "[Are Only Type Parameters Generic Enough for Go 2 Generics?](https://bford.info/2019/07/29/go-generics/)", July 2019
@@ -82,8 +84,6 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 - Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
 
 ## Counterproposals
-
-- Andrew Phillips, "[Example Types as Contracts](https://devmethodologies.blogspot.com/2019/08/example-types-as-contracts.html)", August 2019
 
 - Beoran, "[Hygienic Macros](https://github.com/golang/go/issues/32620)", June 2019
 
