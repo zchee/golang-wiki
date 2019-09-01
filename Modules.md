@@ -765,7 +765,7 @@ For example:
 * [gocenter.io](https://gocenter.io) - Commercial project - Run by [JFrog](https://jfrog.com) - The central Go modules repository.
 * [mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy) - Commercial project - Run by [Alibaba Cloud](https://www.alibabacloud.com) - A Go module proxy alternate.
 * [goproxy.cn](https://goproxy.cn) - Open source project - Run by [Qiniu Cloud](https://www.qiniu.com) - The most trusted Go module proxy in China.
-* [goproxy.io](https://goproxy.io) - Open source project - Run by one person - A global proxy for Go modules.
+* [goproxy.io](https://goproxy.io) - Open source project - Run by China Golang Contributor Club - A global proxy for Go modules.
 * [Athens](https://github.com/gomods/athens) - Open source project - Self-hosted - A Go module datastore and proxy.
 * [athens.azurefd.net](https://athens.azurefd.net) - Open source project - Run by [Microsoft](https://www.microsoft.com) - A hosted module proxy running Athens.
 * [Goproxy](https://github.com/goproxy/goproxy) - Open source project - Self-hosted - A minimalist Go module proxy handler.
