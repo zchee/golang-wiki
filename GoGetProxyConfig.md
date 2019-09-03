@@ -1,5 +1,10 @@
 Setting proxies for source code used by ` go get ` (listed in GoGetTools)
 
+## Windows command line
+```
+$ set http_proxy=http://proxy.example.com:port
+```
+
 ## git
 ```
 $ git config [--global] http.proxy http://proxy.example.com:port
