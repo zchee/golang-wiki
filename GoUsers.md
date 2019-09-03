@@ -39,6 +39,19 @@
   * [Restra](https://github.com/restra-social)
   * [ELO](https://elobyte.com) (Embedded Logic Operations)
 
+## Belarus
+  * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
+
+## Belgium
+  * [Be-Mobile](http://www.be-mobile.com/)
+  * [Elimity](https://elimity.com/)
+  * [Factry](https://www.factry.io/) - [github](https://github.com/factrylabs)
+  * [nexuzhealth](https://www.nexuzhealth.be/nl/jobs)
+  * [OTA Insight](https://www.otainsight.com/)
+  * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
+  * [Showpad](https://www.showpad.com/)
+  * [UZ Leuven](https://www.uzleuven.be)
+
 ## Brazil
   * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
   * [Acesso](http://acesso.io/) - [github](https://github.com/acesso-io)
@@ -106,19 +119,6 @@
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
   * [VivaReal](http://www.vivareal.com.br) - [github](https://github.com/VivaReal)
   * [Walmart](http://www.walmart.com.br)
-
-## Belarus
-  * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
-
-## Belgium
-  * [Be-Mobile](http://www.be-mobile.com/)
-  * [Elimity](https://elimity.com/)
-  * [Factry](https://www.factry.io/) - [github](https://github.com/factrylabs)
-  * [nexuzhealth](https://www.nexuzhealth.be/nl/jobs)
-  * [OTA Insight](https://www.otainsight.com/)
-  * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
-  * [Showpad](https://www.showpad.com/)
-  * [UZ Leuven](https://www.uzleuven.be)
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
