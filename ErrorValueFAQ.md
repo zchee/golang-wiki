@@ -87,15 +87,16 @@ With errors, though, there is an intermediate choice: you can expose error detai
 
 ## I maintain a package that exports an error-checking predicate function. How should I adapt to the new features?
 
-Your package has a function or method `IsX(error) bool` that reports whether an error has some property. Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated them all the same. For concreteness, we'll look at `os.IsExist`.
+Your package has a function or method `IsX(error) bool` that reports whether an error has some property. 
+A natural thought would be to modify `IsX` to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We advise against doing this: the change in behavior could break your users.
 
-A natural thought would be to modify the predicate to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We decided not to do this. A change in the behavior of `os.IsExist` for Go 1.13 would make it incompatible with earlier Go versions. You should likewise consider that a change to `IsX` could break your users.
+Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated most of them the same. For concreteness, we'll look at `os.IsExist`.
 
-Instead, we made `errors.Is(err, os.ErrExist)` behave like `os.IsExist`, except that `Is` unwraps. (We did this by having some internal error types implement an `Is` method, as described in the documentation for [`errors.Is`](https://tip.golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it only will exist in Go versions 1.13 and higher. For older versions of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
+Instead of changing `os.IsExist`, we made `errors.Is(err, os.ErrExist)` behave like it, except that `Is` unwraps. (We did this by having `syscall.Errno` implement an `Is` method, as described in the documentation for [`errors.Is`](https://golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it will exist only in Go versions 1.13 and higher. For older versions of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
 This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them. 
 In that case, we recommend:
-- Don't change your `IsX(error) bool` function.
+- Don't change your `IsX(error) bool` function; do change its documentation to clarify that it does not unwrap.
 - If you don't already have one, add a global variable whose type implements `error` that represents the 
   condition that your function tests:
   ```
@@ -104,7 +105,7 @@ In that case, we recommend:
 - Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
   equals `ErrX`.
 
-If you don't have control of all the errors that can have property X, you'll instead need to add another function that tests for property X while unwrapping, perhaps
+If you don't have control of all the errors that can have property X, you should instead consider adding another function that tests for the property while unwrapping, perhaps
 ```
 func IsXUnwrap(err error) bool {
     for e := err; e != nil; e = errors.Unwrap(e) {
@@ -116,7 +117,7 @@ func IsXUnwrap(err error) bool {
 }
 ```
 
-Or you could leave things as they are, and let your users do the unwrapping themselves. Either way, you should change the documentation of `IsX` to clarify that it does not unwrap.
+Or you could leave things as they are, and let your users do the unwrapping themselves. Either way, you should still change the documentation of `IsX` to clarify that it does not unwrap.
 
 ## I have a type that implements `error` and holds a nested error. How should I adapt it to the new features?
 
