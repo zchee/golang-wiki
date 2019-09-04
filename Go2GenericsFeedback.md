@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Court Fowler, "[Thoughts from a lazy programmer on the updated design](https://gist.github.com/courtf/ec509e0acdba6a4367a72733a8a5e61b)", September 2019
+
 - Andrew Phillips, "[Example Types as Contracts](https://devmethodologies.blogspot.com/2019/08/example-types-as-contracts.html)", August 2019
 
 - Alexey Nezhdanov, "[A syntax simplification proposal](https://gist.github.com/snakeru/aebc533b14a3f045f2bbb0d8eda5ed27)", August 2019
