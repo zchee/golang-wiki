@@ -397,7 +397,7 @@
   * [Reservasi](https://www.reservasi.com/id-id)
   * [Rimbun Job Agency](http://www.rimbunjob.com)
   * [Ruangguru](https://ruangguru.com)
-  * [Sale Stock](https://www.salestockindonesia.com)
+  * [Sorabel by Sale Stock](https://www.sorabel.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
   * [Tokopedia](http://tokopedia.com)
   * [Tech in Asia Indonesia](https://id.techinasia.com)
