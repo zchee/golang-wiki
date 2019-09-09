@@ -4,7 +4,7 @@ The golang-tools community is a group of people whose main focus / interest is t
 
 # Community spaces
 
-Discussion within the community takes place in three main spaces. In addition there are also dedicated golang-tools sessions held at GopherCon each year.
+Discussion within the community takes place in three main spaces. There are also dedicated golang-tools sessions held at GopherCon each year.
 
 ## Slack
 
