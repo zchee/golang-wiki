@@ -1,21 +1,28 @@
-[`golang-tools`](https://groups.google.com/forum/#!forum/golang-tools) is a development list for the Go Programming Language. The list is for discussion of the development of tools that analyze and manipulate Go source code, including editor/IDE plugins.
+# Mission statement
 
-In addition to the mailing list, there is discussion in the `#tools` channel on [Gophers Slack](https://gophers.slack.com) ([sign-up here](https://invite.slack.golangbridge.org)).
+The golang-tools community is a group of people whose main focus / interest is the development of tools for the Go language. It is open to all developers regardless of experience level. A non-exhaustive sample of frequently encountered topics: code analysis, compilers, editor / IDE plugins, language servers, standard libraries, ...
 
-The mailing list and Slack channels are open to everyone. 
+# Community spaces
 
-### Catch-up calls
+Discussion within the community takes place in three main spaces. In addition there are also dedicated golang-tools sessions held at GopherCon each year.
 
-We currently (correct as of Nov 2018) hold monthly catch-up calls. These calls are open to everyone. For those not able to join, notes and a recording of discussion are made available after each session.
+## Slack
 
-See the mailing list for announcements of the next call and notes from the previous call.
+Most day-to-day discussion take place in the `#tools` channel on the [Gophers Slack](https://gophers.slack.com/) ([sign-up here](https://invite.slack.golangbridge.org/)).
 
+## Mailing list
 
-#### Upcoming calls
+The [golang-tools](https://groups.google.com/forum/#!forum/golang-tools) mailing list contains community updates as well as other forms of announcements.
 
-September 2019 call to be scheduled.
+## Calls
 
-#### Previous calls
+The community operates a monthly “catch-up” call covering updates about large-impact changes, new tool initiatives, ongoing community projects and much more. The agenda is community-driven and anyone can suggest items that they would like to cover.
+
+Like the other discussion spaces these calls are open to anyone and people new to the community are encouraged to join in and share in the conversation. The details (date, link, phone number, …) for each call are shared via the mailing list as well as the Slack channel.
+
+The next call will take place on: _September 2019 - Date / Time TBD_
+
+### Call archive
 
 * [2019-08-27 Meeting notes](https://docs.google.com/document/d/1NiIbz1h4-UaavdL-SC2hTp54Y87p-1joaLa-r5HgKaE/edit#)
 * [2019-07-26 Meeting notes - second session at GopherCon San Diego](https://docs.google.com/document/d/1ZI_WqpLCB8DO6teJ3aBuXTeYD2iZZZlkDptmcY6Ja60/edit#)
