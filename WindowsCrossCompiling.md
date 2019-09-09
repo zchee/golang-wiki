@@ -28,6 +28,9 @@ Note that the command above will silently rebuild most of standard library, and 
 GOOS=windows GOARCH=amd64 go install
 ```
 
+Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068).
+
+
 ## Older Go version (<1.5)
 
 I use linux/386, but, I suspect, this procedure will apply to other host platforms as well.
