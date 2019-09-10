@@ -850,7 +850,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
   * [MasomoGaming](https://www.masomo.com/) - [github](https://github.com/masomo) - Online HeadBall2 Game Server by Go
-  * [LocRep](http://locrep.com/) - [github](https://github.com/locrep) - DevOps OSS Artifact Manager. [Azure-DevOps](https://dev.azure.com/LocRep/) - CI/CD and Scrum 
+  * [LocRep](http://locrep.com/) - [github](https://github.com/locrep) - DevOps OSS Artifact Manager. [Azure-DevOps](https://dev.azure.com/LocRep/) - CI/CD and Scrum
+  * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
 ## Ukraine
   * [Agilites](https://agilites.com)
   * [ElifTech](http://www.eliftech.com)
