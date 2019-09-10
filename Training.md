@@ -19,6 +19,7 @@ Commercial providers of Go training
 * [Go: The Complete Bootcamp Course](https://www.udemy.com/learn-go-the-complete-bootcamp-course-golang/?couponCode=GOWIKI) - Learn to build real-world and idiomatic Go programs with animated video lectures and hands-on exercises
 * [Gopher Guides TV](https://www.gopherguides.tv) - Free and Subscription based video learning from [Mark Bates](http://www.gopherguides.com/team/mark.bates) & [Cory LaNou](http://www.gopherguides.com/team/cory.lanou) from Go 101 to advanced profiling and more.
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) -  Free Test driven development (TDD) based learning of Golang. Start writing robust, well-tested systems in Go
+* [Silver Cloud Training](https://courses.silvercloudtraining.com/) - Practical, targeted courses teaching both the Go language and how to apply it to solve real-world problems
 
 ## Classroom and In-Person
 
