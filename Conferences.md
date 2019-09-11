@@ -16,6 +16,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com <br>CFP:  https://golangpiter.com/en/speaker#form |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ <br> CFP: https://www.papercall.io/gopherpalooza2019 |
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
+| Go Asia | 2020-03-13 | Jakarta, Indonesia | https://gophers.id/ | CFP: TBA |
 | dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://www.dotconferences.com/cfp |
 | GothamGo | 2020-04-23-24 | New York City, NY USA | http://gothamgo.com/ |
 | GopherCon Europe | 2020-05 | Berlin, Germany | https://twitter.com/gopherconeu |
