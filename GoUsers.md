@@ -819,7 +819,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [IBM Solutions Delivery](https://www.ibm.com/th-en)
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech): KASIKORN Business-Technology Group - A group of tech companies of Kasikorn Bank Group. Top 3 in banking services in Thailand.
-  * [KTB]: Krung Thai Bank - Top 10 in banking services in Thailand.
+  * [KTB](https://www.ktb.co.th): Krung Thai Bank - Top 10 in banking services in Thailand.
   * [LINE Company (Thailand)](https://linecorp.com/th) - Most popular message platform in Thailand.
   * [NEXPIE](https://nexpie.com)
   * [Odd-e Thailand](https://www.odd-e.com/th)
