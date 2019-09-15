@@ -1721,6 +1721,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [arasu](https://github.com/arasuresearch/arasu) - A Lightning Fast Web Framework written in Go & Dart
   * [Beego](http://beego.me/) - Beego is an open source version of the scalable, non-blocking web framework.
   * [browserspeak](https://github.com/xyproto/browserspeak) - Generate HTML templates, CSS or SVG without writing `<` or `>`
+  * [erouter](https://github.com/eudore/erouter) - The erouter is a slightly less scalable and feature-rich scalable router than httprouter.
+  * [eudore](https://github.com/eudore/eudore) - Eudore is a high performance and easy to extend open source golang web framework. 
   * [httpcoala](https://github.com/goware/httpcoala) - Library for request coalescing - handy for reverse proxies. 
   * [falcore](https://github.com/fitstar/falcore) - Modular HTTP server framework
   * [fcgi\_client](https://bitbucket.org/PinIdea/fcgi_client) - Go fastcgi client with fcgi params support
