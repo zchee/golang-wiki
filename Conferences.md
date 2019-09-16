@@ -6,7 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
 | GopherConBR 2019 | 2019-09-27-28 | Florianópolis, Brazil | http://2019.gopherconbr.org |
 | GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
@@ -28,6 +27,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA USA | https://www.gophercon.com/ |
 | GopherShip | 2019-07-20 | Moscow, Russia | https://gophership.ru |
 | Go Conference '19 Summer in Fukuoka| 2019-07-13 | Fukuoka, Japan | https://fukuoka.gocon.jp/ |
