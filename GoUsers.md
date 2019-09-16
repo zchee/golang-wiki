@@ -326,6 +326,7 @@
   * [Nazara Games](https://www.nazara.com/)
   * [Noticeboard](https://www.noticeboard.tech/)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
+  * [Pincode.app - Local Social Network](https://pincode.app)
   * [Propebbles](http://www.propebbles.com/)
   * [Provlem.com](http://www.provlem.com/)
   * [Qube Cinema](https://www.qubecinema.com/)
@@ -346,6 +347,7 @@
   * [Techequity Technologies](http://www.techequity.in/)
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
+  * [UserCV.com Freelancer Marketplace](https://usercv.com)
   * [WazirX](https://wazirx.com/)
   * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
