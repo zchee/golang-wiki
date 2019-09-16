@@ -20,7 +20,10 @@ The community operates a monthly “catch-up” call covering updates about larg
 
 Like the other discussion spaces these calls are open to anyone and people new to the community are encouraged to join in and share in the conversation. The details (date, link, phone number, …) for each call are shared via the mailing list as well as the Slack channel.
 
-The next call will take place on: _September 2019 - Date / Time TBD_
+### Upcoming calls
+
+* [2019-09-24 - 15:30 UTC](https://docs.google.com/document/d/1FpM5xjNdLnVMYxdPxLRHt6-yYBJ7zURWNbUB8QtFSlw/edit#) - [meet](https://meet.google.com/xuq-tcoc-dkp)
+* [2019-10-29 - 15:30 UTC](https://docs.google.com/document/d/1F3T58Nj_Ft3bu15Wd4hAZAW6kLl_M1EH5XP43l_3CpY/edit#) - [meet](https://meet.google.com/xuq-tcoc-dkp)
 
 ### Call archive
 
