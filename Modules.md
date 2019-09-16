@@ -139,7 +139,7 @@ Your typical day-to-day workflow can be:
 
 * Add import statements to your `.go` code as needed.
 * Standard commands like `go build` or `go test` will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
-* When needed, more specific versions of dependencies can be chosen with commands such as `go get foo@v1.2.3`, `go get foo@master`, `go get foo@e3702bed2`, or by editing `go.mod` directly.
+* When needed, more specific versions of dependencies can be chosen with commands such as `go get foo@v1.2.3`, `go get foo@master` (`foo@tip` with mercurial), `go get foo@e3702bed2`, or by editing `go.mod` directly.
 
 A brief tour of other common functionality you might use:
 
@@ -348,7 +348,7 @@ A common mistake is thinking `go get -u foo` solely gets the latest version of `
 
 To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
 
-Using a branch name such as `go get foo@master` is one way to obtain the latest commit regardless of whether or not it has a semver tag.
+Using a branch name such as `go get foo@master` (`foo@tip` with mercurial) is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
 In general, module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
 
