@@ -564,6 +564,12 @@ Sorted by publication date.
     * ISBN: 978-4774183923
     * Reference: http://www.amazon.co.jp/exec/obidos/ASIN/477418392X/
 
+  * **Go言語による並行処理**
+    * Authors: Katherine Cox-Buday（著）、山口 能迪（訳）
+    * Publication Date: 26 Oct 2018
+    * ISBN: 978-4-87311-846-8
+    * Reference: https://www.oreilly.co.jp/books/9784873118468/
+
 # French
   * **Programmer en Go - Pourquoi ? Comment ?**
     * Author: Rudy Rigot
