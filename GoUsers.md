@@ -505,6 +505,7 @@
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [Clover Lab.,inc.](https://cloverlab.jp/)
+  * [Connehito Inc.](https://connehito.com/)
   * [Cookpad Inc.](https://info.cookpad.com/en)
   * [CyberAgent, Inc.](https://www.cyberagent.co.jp/)
     * [ecs-formation](https://github.com/openfresh/ecs-formation) - ecs-formation is a tool for defining several Docker continers and clusters on Amazon EC2 Container Service(ECS)
