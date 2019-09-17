@@ -351,3 +351,5 @@ func main() {
 ```
 
 - antoniomo: While the draft clearly explains why `F<T>`, `F[T]` and non-ASCII (unable to type it here) `F<<T>>` where discarded, feels like `F{T}` would be more human readable than the sometimes three in a row set of `()`, while not complicating the parser with unbounded lookahead as you can't open a block in those circumstances.
+
+- aprice2704: I really dislike the idea of using regular parentheses `(`, would a two-character sequence cause compiler overhead from unbounded lookahead? How about <| and |> ? would they work? They have the advantages of being quite distinct from `(`, making some visual sense in ascii, and in the 'Fira Code' font (highly recommended) which I use in VSCode there are ligatures to render these as little right or left pointing triangles.
