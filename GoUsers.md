@@ -323,8 +323,10 @@
   * [Kayako](http://www.kayako.com/)
   * [LiteBreeze](https://litebreeze.com/)
   * [Mindbowser](http://mindbowser.com/)
+  * [Mindship](http://www.mindship.io)
   * [Nazara Games](https://www.nazara.com/)
   * [Noticeboard](https://www.noticeboard.tech/)
+  * [Onet](https://www.onet.io)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Pincode.app - Local Social Network](https://pincode.app)
   * [Propebbles](http://www.propebbles.com/)
