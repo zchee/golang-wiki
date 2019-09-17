@@ -513,6 +513,7 @@
     * [plasma](https://github.com/openfresh/plasma) - plasma is event push middleware by using gRPC stream
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
   * [DeNA Co.,Ltd.](https://dena.com)
+  * [DIP Corporation.](https://www.dip-net.co.jp)
   * [enish,Inc.](https://www.enish.jp/)
   * [eureka](https://eure.jp)
   * [feedtailor](https://www.feedtailor.jp/)
