@@ -147,7 +147,6 @@ Alternatively, if you are not familiar with android development, and you do not 
 
 Besides, if you try to add yourmodule.aar into your own project, after copy the yourmodule.aar file and yourmodule.jar file to "android\app" folder, below editing in "android\app\build.gradle" file should be done in order to make your module imported correctly.
 
-1. 
 ```
 + repositories {
 +    flatDir {
@@ -156,7 +155,6 @@ Besides, if you try to add yourmodule.aar into your own project, after copy the 
 + }
 ```
 
-2. 
 ```
 dependencies {
 ...
