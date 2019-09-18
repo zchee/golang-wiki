@@ -145,6 +145,23 @@ If you are not using Android Studio, in order to work with bindings for Android,
 
 Alternatively, if you are not familiar with android development, and you do not wish to set up all the required environment (Android SDK, Gradle, etc), you can use this [Dockerfile](https://github.com/mpl/go4droid/blob/master/Dockerfile) to build the application in [docker](https://www.docker.com/) instead.
 
+Besides, if you try to add yourmodule.aar into your own project, after copy the yourmodule.aar file and yourmodule.jar file to "android\app" folder, below editing in "android\app\build.gradle" file should be done in order to make your module imported correctly.
+1. 
+```
++ repositories {
++    flatDir {
++        dirs '.'
++    }
++ }
+```
+2. 
+```
+dependencies {
+...
++    implementation (name:'yourmodulename', ext:'aar')
+}
+```
+
 ### Building and deploying to iOS
 
 Note: target=ios requires the host machine to be running OS X.
