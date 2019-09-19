@@ -91,7 +91,7 @@ https://github.com/shurcooL/goexec#goexec[`goexec`]:
 
 ```sh
 # install goexec: go get -u github.com/shurcooL/goexec
-$ goexec "http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))"
+$ goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
 ```
 
 Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].  
