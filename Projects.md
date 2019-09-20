@@ -594,7 +594,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cdb.go](https://github.com/jbarham/cdb.go) - Create and read cdb ("constant database") files
   * [go-clickhouse](https://github.com/roistat/go-clickhouse) - Connector to Yandex Clickhouse (column-oriented database)
   * [CodeSearch](https://github.com/google/codesearch) - Index and perform regex searches over large bodies of source code
-  * [couch-go](http://couch-go.googlecode.com) - newer maintained CouchDB database binding
   * [couchgo](https://github.com/lancecarlson/couchgo) - The most feature complete CouchDB Adapter for Go. Modeled after couch.js.
   * [dbxml](https://github.com/pebbe/dbxml) - A basic interface to Oracle Berkeley DB XML
   * [drive](https://github.com/odeke-em/drive) - A Google drive command line client
