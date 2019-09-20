@@ -582,6 +582,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### NoSQL
 
+  * [couchgo](https://github.com/lancecarlson/couchgo) - The most feature complete CouchDB Adapter for Go. Modeled after couch.js.
   * [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics
   * [ledisdb](https://github.com/siddontang/ledisdb) - A high performance NoSQL like Redis.
   * [nodb](https://github.com/lunny/nodb) - A pure Go embed Nosql database with kv, list, hash, zset, bitmap, set.
@@ -594,7 +595,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cdb.go](https://github.com/jbarham/cdb.go) - Create and read cdb ("constant database") files
   * [go-clickhouse](https://github.com/roistat/go-clickhouse) - Connector to Yandex Clickhouse (column-oriented database)
   * [CodeSearch](https://github.com/google/codesearch) - Index and perform regex searches over large bodies of source code
-  * [couchgo](https://github.com/lancecarlson/couchgo) - The most feature complete CouchDB Adapter for Go. Modeled after couch.js.
   * [dbxml](https://github.com/pebbe/dbxml) - A basic interface to Oracle Berkeley DB XML
   * [drive](https://github.com/odeke-em/drive) - A Google drive command line client
   * [Event Horizon](https://github.com/looplab/eventhorizon) - Toolkit for Command Query Responsibility Segregation and Event Sourcing (CQRS/ES)
