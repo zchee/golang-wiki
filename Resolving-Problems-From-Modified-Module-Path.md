@@ -11,7 +11,7 @@ go: github.com/golang/lint@v0.0.0-20190313153728-d0100b6bd8b3: parsing go.mod: u
 Exit code 1
 ```
 
-`golang.org/x/lint` is a module whose git repository and module name used to be `github.com/golang/lint` because migrating to the git repo `golang.org/x/lint` and renaming its module name to `golang.org/x/lint`. The Go tool currently stumbles trying to understand the old module name at the new git repository: [golang/go#30831](https://github.com/golang/go/issues/30831).
+`golang.org/x/lint` is a module whose git repository and module name used to be `github.com/golang/lint` before migrating to the git repo `golang.org/x/lint` and renaming its module name to `golang.org/x/lint`. The Go tool currently stumbles trying to understand the old module name at the new git repository: [golang/go#30831](https://github.com/golang/go/issues/30831).
 
 This was surfaced to `my-go-project` because `my-go-project` or one of its transitive dependencies has a route in the module graph to the old `github.com/golang/lint` module name.
 
