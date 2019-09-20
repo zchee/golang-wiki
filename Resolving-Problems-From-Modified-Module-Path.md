@@ -50,7 +50,7 @@ Fixing the first example is simple, the only link is from `my-go-project` - whic
 
 ```
 $ GO111MODULE=on go mod graph
-my-go-project golang.org/x/lint v0.0.0-20190301231843-5614ed5bae6f
+my-go-project golang.org/x/lint@v0.0.0-20190301231843-5614ed5bae6f
 ```
 
 Fixing the second example involves more steps but is essentially the same process: `google.golang.org/grpc@v1.16.0` provides the link to `github.com/golang/lint`, so `google.golang.org/grpc` should update its `go.mod` from `github.com/golang/lint@v0.0.0-20180702182130-06c8688daad7` to `golang.org/x/lint v0.0.0-20190301231843-5614ed5bae6f` (this thankfully already happened in `v1.17.0`). Then, `my-go-project` should update its `go.mod` to include the new version of `google.golang.org/grpc`, so that we now have:
