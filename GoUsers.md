@@ -22,6 +22,7 @@
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
   * [GO1](https://www.go1.com/)
+  * [SafetyCulture](https://safetyculture.com/)
   * [Sajari](https://www.sajari.com) - [github](https://github.com/sajari) [blog](https://www.sajari.com/blog/upgrading-sajari-to-go-15)
   * [SocietyOne](https://www.societyone.com.au/)
   * [VERSENT](https://versent.com.au/) - Talking a big game! Not to be trusted. 
