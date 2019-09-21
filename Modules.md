@@ -145,8 +145,8 @@ A brief tour of other common functionality you might use:
 
 * `go list -m all` — View final versions that will be used in a build for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#version-selection))
 * `go list -u -m all` — View available minor and patch upgrades for all direct and indirect dependencies ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go get -u` or `go get -u=patch` — Update all direct and indirect dependencies to latest minor or patch upgrades (pre-releases are ignored) ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
-* `go build ./...` or `go test ./...` — Build or test all packages in the module when run from the module root directory ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
+* `go get -u ./...` or `go get -u=patch ./...` (from module root directory) — Update all direct and indirect dependencies to latest minor or patch upgrades (pre-releases are ignored) ([details](https://github.com/golang/go/wiki/Modules#how-to-upgrade-and-downgrade-dependencies))
+* `go build ./...` or `go test ./...` (from module root directory) — Build or test all packages in the module ([details](https://github.com/golang/go/wiki/Modules#how-to-define-a-module))
 * `go mod tidy` — Prune any no-longer-needed dependencies from `go.mod` and add any dependencies needed for other combinations of OS, architecture, and build tags ([details](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release))
 * `replace` directive or `gohack` — Use a fork, local copy or exact version of a dependency ([details](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive))
 * `go mod vendor` — Optional step to create a `vendor` directory ([details](https://github.com/golang/go/wiki/Modules#how-do-i-use-vendoring-with-modules-is-vendoring-going-away))
@@ -336,9 +336,9 @@ In addition, go commands like 'go build', 'go test', or even 'go list' will auto
 
 To view available minor and patch upgrades for all direct and indirect dependencies, run `go list -u -m all`.
 
-To upgrade to the latest version for all direct and indirect dependencies of the current module:
- * run `go get -u` to use the latest *minor or patch* releases
- * run `go get -u=patch` to use the latest *patch* releases
+To upgrade to the latest version for all direct and indirect dependencies of the current module, the following can be run from the module root directory:
+ * `go get -u ./...` to use the latest *minor or patch* releases (and add `-t` to also upgrade test dependencies)
+ * `go get -u=patch ./...` to use the latest *patch* releases (and add `-t` to also upgrade test dependencies)
 
 `go get foo` updates to the latest version of `foo`. `go get foo` is equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified.
 
