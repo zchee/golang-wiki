@@ -1,0 +1,31 @@
+name: gh-pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+    - name: Setup
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
+      run: |
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends --no-install-suggests pandoc ruby-dev
+        sudo gem install asciidoctor --pre
+        asciidoctor -b docbook -a leveloffset=+1 -o - WebAssembly.asciidoc | pandoc --atx-headers --wrap=preserve -t markdown_strict -f docbook - > WebAssembly.md
+    - name: Build and Deploy with mkdocs-material
+      uses: docker://squidfunk/mkdocs-material:latest
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
+      with:
+        args: |
+          gh-deploy --config-file ./config/mkdocs.yml --verbose --force
