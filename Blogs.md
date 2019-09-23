@@ -42,6 +42,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Golang Argentina](https://golang.com.ar)
 
 ## Chinese
+* [Howtoing运维教程](https://www.howtoing.com)
 * [虞双齐的博客-Golang](https://yushuangqi.com/tags/golang.html)
 * [Tony Bai -- 一个程序员的心路历程](http://tonybai.com/)
 * [Arthur 的博客](http://www.zenlife.tk/index)
