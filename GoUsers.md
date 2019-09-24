@@ -172,6 +172,7 @@
   * [Kidswant](https://www.haiziwang.com/)
   * [KLOOK](https://www.klook.com/)
   * [MegaEase](http://www.megaease.com/)
+  * [Megvii](https://www.megvii.com/)
   * [Mili](https://5imili.github.io)
   * [MobiExchanger](http://www.mobiexchanger.com/) - Mobile Internet advertising company
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
