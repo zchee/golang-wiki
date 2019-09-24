@@ -93,7 +93,7 @@ pkg contains libs, header files, compiled object files, and executables
 
 test contains tests of the Go tool chain and runtime
 
-the github.com/golang net and tools sub-repositories and github.com/gonum/gonum repository can be located in /usr/share/gocode, utilising the following commands
+The github.com/golang net and tools sub-repositories and github.com/gonum/gonum repository can be located in /usr/share/gocode, utilising the following commands.
 
 ```
 % su -c tcsh
@@ -107,7 +107,7 @@ Password:
 %
 ```
 
-to compile Go code with the libraries in /usr/share/gocode you must add the location to $GOPATH
+To compile Go code with the libraries in /usr/share/gocode you must add the location to $GOPATH.
 
 ```
 % setenv GOPATH $HOME/go:/usr/share/gocode
@@ -119,7 +119,9 @@ package golang.org/x/blog: no Go files in /home/eric/go/src/golang.org/x/blog
 %
 ```
 
-this page utilises the C shell as [Setting GOPATH](https://github.com/golang/go/wiki/SettingGOPATH) doesn't include that shell
+This page utilises the C shell as [SettingGOPATH](https://github.com/golang/go/wiki/SettingGOPATH) doesn't include that shell.
 
-for information on running the blog server see [Go Blog](https://github.com/golang/blog); those instructions might be more comprehensive being edited, but for Un*x just omit the .exe
-file extension
+For information on running the blog server see [Go Blog](https://github.com/golang/blog); those instructions might be more comprehensive being edited, but for Un*x just omit the .exe
+file extension.
+
+See also: [Modules](https://github.com/golang/go/wiki/modules)
