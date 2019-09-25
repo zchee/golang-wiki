@@ -1,1 +1,1 @@
-something
+Moved to https://github.com/golang/go/wiki/Setting-GOPATH
