@@ -51,5 +51,5 @@ At this time, it's not possible to make a cherry-pick CL by sending a [[Pull Req
 
 Security releases preempt the next minor release and need to ship only the security fix.
 
-To avoid rolling back the release branch in that exceptional case, a new release branch is created based on the previous release. For example `release-branch.go1.9.5` is branched from tag `go1.9.4`. The release is tagged from that branch, and the branch is then merged into the main release branch. For example `release-branch.go1.9.5` is merged into `release-branch.go1.9`.
+To avoid rolling back the release branch in that exceptional case, a new release branch is created based on the previous release. For example `release-branch.go1.9-security` is branched from tag `go1.9.4`. The release is tagged from that branch, and the branch is then merged into the main release branch. For example `go1.9.5` is tagged from `release-branch.go1.9-security`, which is then merged into `release-branch.go1.9`.
 
