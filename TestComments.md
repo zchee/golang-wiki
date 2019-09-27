@@ -1,3 +1,13 @@
+# Go Test Comments
+
+This page is a supplement to
+[Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments),
+but is targeted specifically to test code.
+
+**Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation)
+before editing this page**, even _minor_ ones. Many people have opinions and
+this is not the place for edit wars.
+
 ## Assert Libraries
 
 Avoid the use of 'assert' libraries to help your tests. Go developers arriving
