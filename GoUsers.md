@@ -1092,6 +1092,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Honeywell](https://www.honeywell.com)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
+  * [HP](https://hp.com)
   * [HyperDev](https://hyperdev.com/) - [blog post](http://stackshare.io/hyperdev/the-hyperdev-tech-stack-powering-over-1m-containers)
   * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
