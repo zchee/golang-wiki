@@ -274,6 +274,7 @@ The solution is to upgrade to Go 1.11.2 or later.
 
 ## General
 * https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go. Live https://agniva.me/shimmer[DEMO].
+* https://wasm-webcam.herokuapp.com[Video filtering] - Filters for video from webcam (https://github.com/aarushik93/webcam-go[source code])
 
 ## Canvas (2D)
 * https://github.com/stdiopt/gowasm-experiments[GoWasm Experiments] - Demonstrates
