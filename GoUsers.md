@@ -1117,7 +1117,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Jive](https://jive.com) - [github](https://github.com/jive)
   * [Jive Software](http://www.jivesoftware.com) - [github](https://github.com/jivesoftware)
   * [JPMorgan Chase](https://www.jpmorganchase.com) - [github](https://github.com/jpmorganchase)
-  * [Kairos](https://www.kairos.com)
   * [Karma](http://www.yourkarma.com) - [blog](https://blog.yourkarma.com/how-we-use-mqtt-at-karma)
   * [Kayako](http://www.kayako.com/) - [twitter](https://twitter.com/freatbeater/status/654689942254161920)
   * [Keybase.io](http://keybase.io) - [github](https://github.com/keybase)
