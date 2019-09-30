@@ -167,6 +167,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [cobra](http://github.com/spf13/cobra) - A commander for modern go CLI interactions supporting commands & POSIX/GNU flags
   * [command](https://github.com/rakyll/command) - Add subcommands to your CLI, provides help and usage guide.
   * [docopt.go](https://github.com/docopt/docopt.go) - An implementation of docopt in the Go programming language.
+  * [flaq](https://github.com/qdamm/flaq) - Command-line options parsing library, POSIX/GNU compliant, supports struct tags as well as the Go's flag approach.
   * [getopt](http://code.google.com/p/getopt) - full featured traditional (BSD/POSIX getopt) option parsing in Go style
   * [getopt](https://github.com/timtadh/getopt) - Yet Another getopt Library for Go. This one is like Python's.
   * [gnuflag](https://launchpad.net/gnuflag) - GNU-compatible flag parsing; substantially compatible with flag.
