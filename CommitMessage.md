@@ -57,3 +57,5 @@ If you're using GitHub Pull Requests, your commit message is constructed by Gerr
 PR's title & description. See https://github.com/golang/go/wiki/GerritBot#how-does-gerritbot-determine-the-final-commit-message
 
 If somebody asks you to modify your commit message, you'll need to modify your PR.
+
+![](images/github-to-gerrit.png)
