@@ -27,5 +27,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
       with:
-        args: |
-          gh-deploy --config-file ./config/mkdocs.yml --verbose --force
+        entrypoint: sh
+        args: -c "mkdocs build -c -f /github/workspace/config/mkdocs.yml && mkdocs gh-deploy --config-file /github/workspace/config/mkdocs.yml --verbose --force"
