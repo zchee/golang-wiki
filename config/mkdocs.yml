@@ -1,0 +1,215 @@
+site_name: Go Programming Language Wiki
+site_description: Personal fork of Go Programming Language Wiki
+
+theme:
+  name: "material"
+  include_search_page: true
+  search_index_only: true
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: "bottom"
+google_analytics:
+  - "UA-89201129-1"
+  - "https://zchee.github.io/golang-wiki/"
+repo_name: zchee/golang-wiki
+site_url: https://zchee.github.io/golang-wiki/
+repo_url: https://github.com/zchee/golang-wiki
+docs_dir: "../"
+site_dir: "../../docs"
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML'
+
+markdown_extensions:
+  - toc
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+extra:
+  revision: d2dc234032b7
+
+## $ find ./ -type f -name '*.md' | awk -F/ '{print $2}' | awk -F'.md' '{print "  - "$1": "$0}' | sort --ignore-case | grep -v -e '  - _' -e 'Home:' -e 'WhyGo:' -e 'Windows:' -e 'Ubuntu:' -e 'Source:'
+nav:
+  - Home: Home.md
+  - WhyGo:
+    - WhyGo.md
+  - Install:
+    - Windows: Windows.md
+    - Ubuntu: Ubuntu.md
+    - Source: InstallFromSource.md
+  - Articles: Articles.md
+  - AssemblyPolicy: AssemblyPolicy.md
+  - AVX512: AVX512.md
+  - Benchmarks: Benchmarks.md
+  - Blogs: Blogs.md
+  - Books: Books.md
+  - BoundingResourceUse: BoundingResourceUse.md
+  - cgo: cgo.md
+  - ChromeOS: ChromeOS.md
+  - CodeReview: CodeReview.md
+  - CodeReviewComments: CodeReviewComments.md
+  - CodeTools: CodeTools.md
+  - Comments: Comments.md
+  - CommitMessage: CommitMessage.md
+  - CommonMistakes: CommonMistakes.md
+  - CompilerOptimizations: CompilerOptimizations.md
+  - Conferences: Conferences.md
+  - Configuring-GoLand-for-WebAssembly: Configuring-GoLand-for-WebAssembly.md
+  - Contributing-to-gopls: Contributing-to-gopls.md
+  - CoreDumpDebugging: CoreDumpDebugging.md
+  - Courses: Courses.md
+  - CreatingSubRepository: CreatingSubRepository.md
+  - CSSStyleGuide: CSSStyleGuide.md
+  - CustomPprofProfiles: CustomPprofProfiles.md
+  - Darwin: Darwin.md
+  - DashboardBuilders: DashboardBuilders.md
+  - Deprecated: Deprecated.md
+  - DesignDocuments: DesignDocuments.md
+  - DevExp: DevExp.md
+  - Diagnostics: Diagnostics.md
+  - DragonFly-BSD: DragonFly-BSD.md
+  - Errors: Errors.md
+  - ErrorValueFAQ: ErrorValueFAQ.md
+  - ExperienceReports: ExperienceReports.md
+  - FileTreeDocumentation: FileTreeDocumentation.md
+  - FreeBSD: FreeBSD.md
+  - FromXToGo: FromXToGo.md
+  - Frozen: Frozen.md
+  - Gardening: Gardening.md
+  - GccgoCrossCompilation: GccgoCrossCompilation.md
+  - GcToolchainTricks: GcToolchainTricks.md
+  - GerritAccess: GerritAccess.md
+  - GerritBot: GerritBot.md
+  - GithubAccess: GithubAccess.md
+  - GitHubCodeLayout: GitHubCodeLayout.md
+  - Go-1.10-Release-Party: Go-1.10-Release-Party.md
+  - Go-1.6-release-party: Go-1.6-release-party.md
+  - Go-1.8-Release-Party: Go-1.8-Release-Party.md
+  - Go-Community-Slides: Go-Community-Slides.md
+  - Go-Release-Cycle: Go-Release-Cycle.md
+  - Go1point1Gotchas: Go1point1Gotchas.md
+  - Go2: Go2.md
+  - Go2ErrorHandlingFeedback: Go2ErrorHandlingFeedback.md
+  - Go2ErrorValuesFeedback: Go2ErrorValuesFeedback.md
+  - Go2GenericsFeedback: Go2GenericsFeedback.md
+  - GoArm: GoArm.md
+  - GoForCPPProgrammers: GoForCPPProgrammers.md
+  - GoGenerateTools: GoGenerateTools.md
+  - GoGetProxyConfig: GoGetProxyConfig.md
+  - GoGetTools: GoGetTools.md
+  - golang-tools: golang-tools.md
+  - GoMips: GoMips.md
+  - Gomote: Gomote.md
+  - GOPATH: GOPATH.md
+  - Gopher: Gopher.md
+  - gopherbot: gopherbot.md
+  - gopls-integrator-FAQ: gopls-integrator-FAQ.md
+  - gopls: gopls.md
+  - GoStrings: GoStrings.md
+  - GoTalks: GoTalks.md
+  - GoUserGroups: GoUserGroups.md
+  - GoUsers: GoUsers.md
+  - GoVsGenerics: GoVsGenerics.md
+  - HandlingIssues: HandlingIssues.md
+  - Hashing: Hashing.md
+  - heapdump13: heapdump13.md
+  - heapdump14: heapdump14.md
+  - heapdump15-through-heapdump17: heapdump15-through-heapdump17.md
+  - heapdump15: heapdump15.md
+  - HostedContinuousIntegration: HostedContinuousIntegration.md
+  - How-to-ask-for-help: How-to-ask-for-help.md
+  - HowToAsk: HowToAsk.md
+  - HttpFetch: HttpFetch.md
+  - HttpStaticFiles: HttpStaticFiles.md
+  - IDEsAndTextEditorPlugins: IDEsAndTextEditorPlugins.md
+  - InstallTroubleshooting: InstallTroubleshooting.md
+  - InterfaceSlice: InterfaceSlice.md
+  - InvalidFlag: InvalidFlag.md
+  - Iota: Iota.md
+  - IssueLabels: IssueLabels.md
+  - Learn: Learn.md
+  - LearnConcurrency: LearnConcurrency.md
+  - LearnErrorHandling: LearnErrorHandling.md
+  - LearnServerProgramming: LearnServerProgramming.md
+  - LearnTesting: LearnTesting.md
+  - Linux: Linux.md
+  - LockOSThread: LockOSThread.md
+  - MethodSets: MethodSets.md
+  - MinimumRequirements: MinimumRequirements.md
+  - MinorReleases: MinorReleases.md
+  - Mobile: Mobile.md
+  - Modules: Modules.md
+  - MultipleGoRoots: MultipleGoRoots.md
+  - MutexOrChannel: MutexOrChannel.md
+  - NativeClient: NativeClient.md
+  - NetBSD: NetBSD.md
+  - NewSpeakers: NewSpeakers.md
+  - NoMeToo: NoMeToo.md
+  - NonEnglish: NonEnglish.md
+  - NoPlusOne: NoPlusOne.md
+  - OlderVersions: OlderVersions.md
+  - OpenBSD: OpenBSD.md
+  - PackageManagementTools: PackageManagementTools.md
+  - PackagePublishing: PackagePublishing.md
+  - PanicAndRecover: PanicAndRecover.md
+  - PerfDashboard: PerfDashboard.md
+  - Performance: Performance.md
+  - Plan9: Plan9.md
+  - Podcasts: Podcasts.md
+  - PortingPolicy: PortingPolicy.md
+  - PriorDiscussion: PriorDiscussion.md
+  - Projects: Projects.md
+  - Proposals: Proposals.md
+  - ProviderIntegration: ProviderIntegration.md
+  - Questions: Questions.md
+  - RaceDetector: RaceDetector.md
+  - Range: Range.md
+  - RateLimiting: RateLimiting.md
+  - Rationales: Rationales.md
+  - ResearchPapers: ResearchPapers.md
+  - Resolving-Problems-From-Modified-Module-Path: Resolving-Problems-From-Modified-Module-Path.md
+  - Screencasts: Screencasts.md
+  - SendingMail: SendingMail.md
+  - SettingGOPATH: SettingGOPATH.md
+  - SignalHandling: SignalHandling.md
+  - SimultaneousAssignment: SimultaneousAssignment.md
+  - SliceTricks: SliceTricks.md
+  - SlowBots: SlowBots.md
+  - Solaris: Solaris.md
+  - Spelling: Spelling.md
+  - SQLDrivers: SQLDrivers.md
+  - SQLInterface: SQLInterface.md
+  - Style: Style.md
+  - SubRepositories: SubRepositories.md
+  - SuccessStories: SuccessStories.md
+  - Switch: Switch.md
+  - TableDrivenTests: TableDrivenTests.md
+  - TargetSpecific: TargetSpecific.md
+  - TestComments: TestComments.md
+  - Timeouts: Timeouts.md
+  - Training: Training.md
+  - vgo: vgo.md
+  - WebAccessibilityResourcesAndTips: WebAccessibilityResourcesAndTips.md
+  - WebAssembly: WebAssembly.md
+  - Well-known-struct-tags: Well-known-struct-tags.md
+  - windows-scoop-install-go-cli: windows-scoop-install-go-cli.md
+  - WindowsBuild: WindowsBuild.md
+  - WindowsCrossCompiling: WindowsCrossCompiling.md
+  - WindowsDLLs: WindowsDLLs.md
