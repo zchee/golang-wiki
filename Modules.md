@@ -219,7 +219,6 @@ repo
 |-- foo
 |   `-- foo.go
 `-- go.mod
-
 ```
 
 In Go source code, packages are imported using the full path including the module path. For example, if a module declared its identity in its `go.mod` as `module example.com/my/module`, a consumer could do:
