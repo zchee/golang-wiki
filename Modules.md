@@ -213,12 +213,13 @@ A module declares its identity in its `go.mod` via the `module` directive, which
 For example, if you are creating a module for a repository `github.com/my/repo` that will contain two packages with import paths `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
 
 ```
-repo/
-├── go.mod
-├── bar
-│   └── bar.go
-└── foo
-    └── foo.go
+repo
+|-- bar
+|   `-- bar.go
+|-- foo
+|   `-- foo.go
+`-- go.mod
+
 ```
 
 In Go source code, packages are imported using the full path including the module path. For example, if a module declared its identity in its `go.mod` as `module example.com/my/module`, a consumer could do:
@@ -1045,9 +1046,9 @@ Each module has its own version information. Version tags for modules below the 
 
 ```
 my-repo
-|____foo
-| |____rop
-| | |____go.mod
+`-- foo
+    `-- rop
+        `-- go.mod
 ```
 
 The tag for version 1.2.3 of module "my-repo/foo/rop" is "foo/rop/v1.2.3".
@@ -1056,14 +1057,14 @@ Typically, the path for one module in the repository will be a prefix of the oth
 
 ```
 my-repo
-|____go.mod
-|____bar
-|____foo
-| |____rop
-| |____yut
-|____mig
-| |____go.mod
-| |____vub
+|-- bar
+|-- foo
+|   |-- rop
+|   `-- yut
+|-- go.mod
+`-- mig
+    |-- go.mod
+    `-- vub
 ```
 ![Fig. A top-level module's path is a prefix of another module's path.](https://github.com/jadekler/module-testing/blob/master/imagery/multi_module_repo.png)
 
@@ -1103,13 +1104,13 @@ The second class: the path at which the module is being added is in version cont
 
 ```
 github.com/my-repo
-|____go.mod
-|____bar
-|____foo
-| |____rop
-| |____yut
-|____mig
-| |____vub
+|-- bar
+|-- foo
+|   |-- rop
+|   `-- yut
+|-- go.mod
+`-- mig
+    `-- vub
 ```
 
 Consider adding module "github.com/my-repo/mig". If one were to follow the same approach as above, the package /my-repo/mig could be provided by two different modules: the old version of "github.com/my-repo", and the new, standalone module "github.com/my-repo/mig. If both modules are active, importing "github.com/my-repo/mig" would cause an “ambiguous import” error at compile time.
@@ -1158,20 +1159,20 @@ Yes. Packages in one module are allowed to import internal packages from another
 
 ```
 my-repo
-|____go.mod
-|____internal
-|____foo
-| |____go.mod
+|-- foo
+|   `-- go.mod
+|-- go.mod
+`-- internal
 ```
 
 Here, package foo can import /my-repo/internal as long as module "my-repo/foo" depends on module "my-repo". Similarly, in the following repository:
 
 ```
 my-repo
-|____internal
-| |____go.mod
-|____foo
-| |____go.mod
+|-- foo
+|   `-- go.mod
+`-- internal
+    `-- go.mod
 ```
 
 Here, package foo can import my-repo/internal as long as module "my-repo/foo" depends on module "my-repo/internal". The semantics are the same in both: since my-repo is a shared path prefix between my-repo/internal and my-repo/foo, package foo is allowed to import package internal.
