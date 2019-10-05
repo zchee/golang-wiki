@@ -21,7 +21,7 @@ Go >= version 1 supports subdirectories of package repositories.
 
 Frequently, the name that you use for your package will include the name "Go" as a prefix, suffix, or part of its acronym, and you may or may not want this to be a part of the actual command or package name in a go source file.  Often, you may have both libraries and commands as a part of your package, and these cannot coexist in the same directory.  When these things happen, you will want to structure your repository with subdirectories.
 
-For example, consider a project "Go-PublishingExample" that provides a "epub" package and a "publish" command.  The directory structure could be:
+For example, consider a project "Go-PublishingExample" that provides an "epub" package and a "publish" command.  The directory structure could be:
 ```
 ./epub/      # Package source, all files package "epub"
 ./publish/   # Command source
