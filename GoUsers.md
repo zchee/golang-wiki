@@ -687,6 +687,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aller Media](https://www.aller.no/)
   * [Shortcut AS](https://shortcut.no/)
   * [Vipps](https://www.vipps.no)
+  * [Sanity.io](https://www.sanity.io)
 
 ## Pakistan
   * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
