@@ -685,13 +685,12 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Norway
   * [Aller Media](https://www.aller.no/)
+  * [Finn.no](https://www.finn.no)
   * [Sanity.io](https://www.sanity.io)
-  * [Shortcut AS](https://shortcut.no/)
+  * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Vipps](https://www.vipps.no)
   
-
-
 ## Pakistan
   * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
 
