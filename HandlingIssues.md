@@ -67,6 +67,10 @@ Milestones describe the timeline for issue resolution.
 
     Should be fixed soon, but is not included in or needed by a release.
 
+- Backlog
+
+    Someone has plans to work on it, but is not assigned to a release milestone yet.
+
 - Unplanned
 
     Might be fixed at some point, but nobody is planning to do it.
