@@ -1,6 +1,6 @@
 The Go project's official download page is at [https://golang.org/dl/](https://golang.org/dl/).
 
-If you're using Ubuntu 16.04 LTS, 18.04 LTS or 19.04, then you can use the `longsleep/golang-backports` PPA and install Go 1.13.
+If you're using Ubuntu 16.04 LTS, 18.04 LTS or 19.04 on amd64, arm64, armhf or i386, then you can use the `longsleep/golang-backports` PPA and install Go 1.13.
 
 ```
 sudo add-apt-repository ppa:longsleep/golang-backports
