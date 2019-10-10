@@ -262,6 +262,7 @@
   * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog]
   * [IDAGIO](https://www.idagio.com/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
+  * [KI Labs](https://www.ki-labs.com/)
   * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
   * [limango](https://www.limango.de/) 
   * [Meplato](https://www.meplato.com/)
