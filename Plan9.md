@@ -45,6 +45,10 @@ If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https:
 
 CA certificates for `crypto/x509` package needs to be installed at `/sys/lib/tls/ca.pem`. You can download it from `https://curl.haxx.se/ca/cacert.pem` or copy from another system.
 
+For 9front, you may need to configure IPv6 loopback address for standard library tests:
+
+    ip/ipconfig -P loopback /dev/null ::1
+
 # Installation
 
 Since Go is written in Go, you may want to bootstrap Go with Go 1.4.3, which is the latest release of Go written in C.
