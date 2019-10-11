@@ -19,7 +19,7 @@ $ sudo apt-get update
 $ sudo apt-get install golang-go
 ```
 
-If that's too old for you, try:
+If that's too new for you, try:
 
 ```
 $ sudo add-apt-repository ppa:gophers/archive
