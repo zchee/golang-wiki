@@ -36,3 +36,4 @@ Using snaps also works quite well:
 $ sudo snap install --classic go
 ```
 > A restart is required for the command to be recognized.
+test
