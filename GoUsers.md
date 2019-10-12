@@ -761,6 +761,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
   * [Niteo](https://www.niteo.co)
+  * [Koofr](https://www.koofr.eu)
 
 ## South Africa
   * [Luno](http://www.luno.com) - [github](https://github.com/luno)
