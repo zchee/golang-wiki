@@ -691,6 +691,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Vipps](https://www.vipps.no)
+
+## Oman
+  * [Rihal](https://www.rihal.om/)
   
 ## Pakistan
   * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
