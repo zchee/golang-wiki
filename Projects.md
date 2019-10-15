@@ -29,6 +29,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Configuration File Parsers](#configuration-file-parsers)
 * [Console User Interface](#console-user-interface)
 * [Continuous Integration](#continuous-integration)
+* [Cryptocurrency](#cryptocurrency)
 * [Cryptography](#cryptography)
 * [Databases](#databases)
 * [Data Processing](#data-processing)
@@ -318,6 +319,9 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
   * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls
+
+## Cryptocurrency
+  * [Skycoin](https://github.com/SkycoinProject/skycoin) - Skycoin is a next-generation cryptocurrency written in Go. Skycoin is not designed to add features to Bitcoin, but rather improves Bitcoin by increasing simplicity, security and stripping out everything non-essential.
 
 ## Cryptography
 
