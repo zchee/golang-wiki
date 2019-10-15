@@ -126,6 +126,7 @@
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
 
 ## Canada
+  * [1Password](https://1password.com)
   * [ActiveState](https://activestate.com) - [blog](https://www.activestate.com/blog/2018/03/reproducible-builds-introducing-predictability-your-pipeline) - [github](https://github.com/ActiveState)
   * [Apex](https://apex.sh/)
   * [Bold Commerce](https://boldcommerce.com/careers/)
@@ -959,7 +960,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Adori Labs](http://www.adorilabs.com/)
   * [AeroFS](https://www.aerofs.com/) - [github](https://github.com/aerofs/gockerize), [blog](https://www.aerofs.com/blog/introducing-gockerize/)
   * [Aerospike](http://www.aerospike.com) - [blog](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
-  * [1Password](https://1password.com)
   * [Airbrake](http://airbrake.io/)
   * [Airware](http://airware.com/) - [eng blog](https://makers.airware.com), [github](https://github.com/airware)
   * [Alaska Airlines](https://www.alaskaair.com/) - [github](https://github.com/AlaskaAirlines?utf8=%E2%9C%93&q=&type=&language=go)
