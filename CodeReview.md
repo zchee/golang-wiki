@@ -1,4 +1,4 @@
-Be sure to familiarize yourself with the [code review process](http://golang.org/doc/contribute.html#Code_review) from the official Contribution Guidelines first.
+Be sure to familiarize yourself with the code review process from the official [Contribution Guide](https://golang.org/doc/contribute.html) first.
 
 # Reviewer Parlance
 
