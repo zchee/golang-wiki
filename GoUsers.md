@@ -688,6 +688,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Norway
   * [Aller Media](https://www.aller.no/)
   * [Finn.no](https://www.finn.no)
+  * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Sanity.io](https://www.sanity.io)
   * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
