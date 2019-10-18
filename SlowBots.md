@@ -1,4 +1,4 @@
-# SlotBots
+# SlowBots
 
 The Go build system now supports "SlowBots", which are a way to configure the TryBots (pre-submit builders) to add additional builders into the set of build configurations that TryBots normally run.
 
