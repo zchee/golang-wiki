@@ -31,6 +31,8 @@ We might add more aliases later.
 * TryBots (and SlowBots) don't run if there's already a TryBot-Result
 * The `git-codereview mail` tool's `-trybot` flag doesn't support this yet, so use the web UI.
 * If TryBots are already running, deleting the `Run-TryBot+1` vote and re-doing it won't re-start the TryBot set, so it won't look at your TRY= line, until the next run when it's done. (But you'll need to delete the TryBot-Result somehow: manually, rebasing, uploading new version)
+* If you select a builder that's offline, it'll currently just wait forever for it to show up. There's no timeout yet.
+* If you specify an unknown `TRY=` token, it'll just ignore it and won't report an error.
 
 ## TODO
 
