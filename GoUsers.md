@@ -688,6 +688,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Norway
   * [Aller Media](https://www.aller.no/)
   * [Amedia](https://www.amedia.no/)
+  * [Avinor](https://avinor.no/)
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
   * [No Isolation](https://www.noisolation.com/)
