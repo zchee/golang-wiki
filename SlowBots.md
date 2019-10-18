@@ -20,7 +20,7 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 * `GOOS` (picks best one)
 * `GOARCH` (picks best one)
 * `GOOS-GOARCH` (picks best one)
-* `GOOS-GOARCH-specificbuilder` (you specify it, so it doesn't pick one)
+* `GOOS-GOARCH-specificbuilder` (you specify it, so it doesn't pick one. See https://farmer.golang.org/builders for options)
 * `ios` (alias for `darwin-arm64`)
 
 We might add more aliases later.
@@ -33,6 +33,7 @@ We might add more aliases later.
 * If TryBots are already running, deleting the `Run-TryBot+1` vote and re-doing it won't re-start the TryBot set, so it won't look at your TRY= line, until the next run when it's done. (But you'll need to delete the TryBot-Result somehow: manually, rebasing, uploading new version)
 * If you select a builder that's offline, it'll currently just wait forever for it to show up. There's no timeout yet.
 * If you specify an unknown `TRY=` token, it'll just ignore it and won't report an error.
+* There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway.
 
 ## TODO
 
