@@ -52,6 +52,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
     - Start here: [Go open source projects](Projects).
     - Search for Go packages: [godoc.org](http://godoc.org)
     - Visualization of the [Go open source package graph](https://anvaka.github.io/pm/#/galaxy/gosearch?l=1)
+  - [Modules](Modules) - documentation on the dependency management system built into the Go command, added in 1.11.
   - [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage third-party packages (vendoring).
   - Publishing Go Packages as Open Source
     - Getting ready to publish your package? [Start here.](PackagePublishing)
