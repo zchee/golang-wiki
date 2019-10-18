@@ -4,7 +4,7 @@ The Go build system now supports "SlowBots", which are a way to configure the Tr
 
 Normally TryBots only run things that are fast and elastically provisioned. That is, TryBots only run x86 things that run on Google Cloud where we have tons of capacity and can spin up many VMs at will, sharding out test execution widely so the TryBots complete in 5-10 minutes.
 
-But sometimes that's not enough. SlowBots let you say that you're cool waiting a long time until some specific set of build configurations becomes available.
+But sometimes that's not enough. SlowBots let you say that you're cool waiting a long time until some specific set of builders becomes available. (There is often only one physical machine for some configurations, and often backlogged with work, and that builder might be slow too.)
 
 ## Using SlowBots
 
