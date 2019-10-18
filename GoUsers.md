@@ -796,6 +796,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Typeform](https://www.typeform.com/)
   * [source{d}](https://sourced.tech)
   * [Nayar Systems](http://www.nayarsystems.com/)
+  * [Stayforlong](https://www.stayforlong.com/)
 
 ## Sri Lanka
   * [Xiges.io](https://xiges.io/) - Low-code Industrial IoT Platform
