@@ -691,6 +691,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Owners Room](https://ownersroom.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
+  * [reMarkable](https://remarkable.com/)
   * [Sanity.io](https://www.sanity.io)
   * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
