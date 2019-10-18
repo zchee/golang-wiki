@@ -687,13 +687,18 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Norway
   * [Aller Media](https://www.aller.no/)
+  * [Amedia](https://www.amedia.no/)
+  * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
+  * [No Isolation](https://www.noisolation.com/)
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
+  * [Northern.tech](https://northern.tech/)
   * [Owners Room](https://ownersroom.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
   * [reMarkable](https://remarkable.com/)
   * [Sanity.io](https://www.sanity.io)
   * [Shortcut](https://shortcut.no/)
+  * [Unacast](https://www.unacast.com/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Vipps](https://www.vipps.no)
 
