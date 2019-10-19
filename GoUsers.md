@@ -738,6 +738,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Worten](https://www.worten.pt/) 
 
 ## Romania
+* [Primal Skill](https://www.primalskill.com) - software development company focusing on web, API development with offices in Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
 * [JobDone](https://jobdone.net) - Freelancer Marketplace
 * [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US, UK, Romania and Australia
