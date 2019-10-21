@@ -43,6 +43,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - Chris Hines, “[Types cannot implement both the errors.Formatter and fmt.Formatter interfaces
 ](https://gist.github.com/ChrisHines/a732a9b1ef3acb6acfee2ccc174e31ed)”, _August 2018_
  - Dean Bassett, “[Make errors.Detailer, not errors.Formatter](https://gist.github.com/deanveloper/61544f16a7d4c3d517bda10c08080270)”, _September 2018_
+ - Bryan C. Mills, “[Error Wrapping and Redundancy in Go](https://github.com/bcmills/go-experience-reports/blob/master/errors.md)”, _September 2019_
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
