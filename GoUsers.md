@@ -702,6 +702,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Unacast](https://www.unacast.com/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Vipps](https://www.vipps.no)
+  * [Nurofy](https://nurofy.no/)
 
 ## Oman
   * [Rihal](https://www.rihal.om/) - Enterprise data solutions
