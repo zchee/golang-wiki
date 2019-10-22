@@ -1,6 +1,6 @@
 ----
 
-> This page was moved to the [committed markdown](https://github.com/golang/tools/blob/master/gopls/README.md) for the x/tools repository.
+> This page was [moved to the x/tools repository](https://github.com/golang/tools/blob/master/gopls/README.md).
 >
 > For instructions on using `gopls`, please read the [User documentation](https://github.com/golang/tools/blob/master/gopls/doc/user.md). 
 > 
