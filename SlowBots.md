@@ -25,6 +25,8 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 
 We might add more aliases later.
 
+When running TryBots again later, the most recent `TRY=` comment on the current patchset is used. To turn it off set `TRY=` with an empty string after the equals sign. If the current patchset doesn't have a `TRY=` comment, the most recent non-empty `TRY=` comment is used.
+
 ## Pitfalls
 
 * `TRY=` comments are ignored if they're not on the same comment that started the TryBots
@@ -33,7 +35,7 @@ We might add more aliases later.
 * If TryBots are already running, deleting the `Run-TryBot+1` vote and re-doing it won't re-start the TryBot set, so it won't look at your TRY= line, until the next run when it's done. (But you'll need to delete the TryBot-Result somehow: manually, rebasing, uploading new version)
 * If you select a builder that's offline, it'll currently just wait forever for it to show up. There's no timeout yet.
 * If you specify an unknown `TRY=` token, it'll just ignore it and won't report an error.
-* There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway.
+* There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway. See https://github.com/golang/go/issues/34501#issuecomment-544585711
 
 ## TODO
 
