@@ -192,6 +192,7 @@
   * [Yeeuu](https://www.yeeuu.com/)
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
   * [cshome](https://www.cshome.com/)
+  * [DiDi](https://www.didiglobal.com/)
 
 ## Croatia
   * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
