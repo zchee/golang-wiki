@@ -182,7 +182,7 @@ batchSize := 3
 var batches [][]int
 
 for batchSize < len(actions) {
-    actions, batches = actions[batchSize:], append(batches, actions[0:batchSize:batchSize])
+    actions, batches = actions[batchSize:], append(batches, actions[0:batchSize])
 }
 batches = append(batches, actions)
 ```
