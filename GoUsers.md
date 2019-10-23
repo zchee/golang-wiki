@@ -195,6 +195,7 @@
   * [DiDi](https://www.didiglobal.com/)
 
 ## Croatia
+  * [Crossvallia](https://crossvallia.hr/)
   * [GoodCode](http://goodcode.io/) - [github](https://github.com/dobarkod)
   * [Kraken](https://krakensystems.co/)
   * [minus5](https://minus5.hr/) - [github](https://github.com/minus5)
@@ -225,6 +226,7 @@
   * [Equisense](http://www.equisense.com/en/)
   * [Eleven Labs](http://eleven-labs.com/)
   * [Fabriks](https://fabriks.net)
+  * [HAProxy Technologies](https://www.haproxy.com/) - [github](https://github.com/haproxytech)
   * [Heetch](https://heetch.com) - [github](https://github.com/heetch)
   * [IoThings](https://iothings.fr)
   * [IRI France](http://www.iri-labs.com)
