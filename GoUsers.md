@@ -64,7 +64,7 @@
   * [Catho](http://www.catho.com.br) - [github](https://github.com/catho)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio) - an open payment platform
   * [Coderockr](http://coderockr.com)
-  * [Code:Nation](http://codenation.com.br)
+  * [Codenation](https://codenation.dev)
   * [Compufácil](http://compufacil.com.br)
   * [Conductor](http://www.conductor.com.br)
   * [Conta Azul](https://contaazul.com) - [github](https://github.com/ContaAzul)
