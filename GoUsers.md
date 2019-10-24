@@ -705,6 +705,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Shortcut](https://shortcut.no/)
   * [Unacast](https://www.unacast.com/)
   * [Telenor](https://www.telenor.no/privat/)
+  * [Tidal](https://tidal.com/)
   * [Vipps](https://www.vipps.no)
   * [Nurofy](https://nurofy.no/)
 
