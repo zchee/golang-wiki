@@ -698,6 +698,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [No Isolation](https://www.noisolation.com/)
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Northern.tech](https://northern.tech/)
+  * [Nurofy](https://nurofy.no/)
   * [Owners Room](https://ownersroom.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
   * [reMarkable](https://remarkable.com/)
@@ -707,7 +708,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Telenor](https://www.telenor.no/privat/)
   * [TIDAL](https://tidal.com/)
   * [Vipps](https://www.vipps.no)
-  * [Nurofy](https://nurofy.no/)
 
 ## Oman
   * [Rihal](https://www.rihal.om/) - Enterprise data solutions
