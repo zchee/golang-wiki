@@ -22,6 +22,7 @@ Drivers for Go's sql package include:
   * **DB2 LUW** (uses cgo): https://github.com/asifjalil/cli
   * **DB2 LUW, z/OS, iSeries and Informix**: https://github.com/ibmdb/go_ibm_db
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
+  * **Google Cloud BigQuery**: https://github.com/solcates/go-sql-bigquery
   * **MS ADODB**: https://github.com/mattn/go-adodb
   * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
   * **MS SQL Server** (uses cgo): https://github.com/minus5/gofreetds
