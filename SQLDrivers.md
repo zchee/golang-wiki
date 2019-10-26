@@ -50,6 +50,7 @@ Drivers for Go's sql package include:
   * **SQL over REST**: https://github.com/adaptant-labs/go-sql-rest-driver
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
   * **Sybase ASE** (pure go): https://github.com/thda/tds
+  * **TiDB**: Use any MySQL driver
   * **Vertica**: https://github.com/vertica/vertica-sql-go
   * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
