@@ -6,10 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
-| GopherConBR 2019 | 2019-09-27-28 | Florianópolis, Brazil | http://2019.gopherconbr.org |
-| GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
-| GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
 | Go Conference Tokyo | 2019-10-28 | Tokyo, Japan | https://gocon.jp/<br>CFP: https://www.papercall.io/gocon-tokyo-2019-autumn |
 | GopherCon Australia | 2019-10-30 | Sydney, Australia | http://gophercon.com.au/ <br>CFP: https://www.papercall.io/gophercon-au-2019 |
 | Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com <br>CFP:  https://golangpiter.com/en/speaker#form |
@@ -29,6 +25,10 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
+| GolangConf 2019 | 2019-10-07 | Moscow, Russia | CfP: https://www.papercall.io/golangconf|
+| GopherConBR 2019 | 2019-09-27-28 | Florianópolis, Brazil | http://2019.gopherconbr.org |
+| OpenGo 2019 | 2019-09-23-25 | Hollywood, FL USA | https://opengo.io/ |
 | GopherCon UK | 2019-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon 2019 | 2019-07-24-27 | San Diego, CA USA | https://www.gophercon.com/ |
 | GopherShip | 2019-07-20 | Moscow, Russia | https://gophership.ru |
