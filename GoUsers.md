@@ -701,6 +701,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Nurofy](https://nurofy.no/)
   * [Owners Room](https://ownersroom.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
+  * [Pexip](https://www.pexip.com/)
   * [reMarkable](https://remarkable.com/)
   * [Sanity.io](https://www.sanity.io)
   * [Shortcut](https://shortcut.no/)
