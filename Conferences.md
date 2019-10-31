@@ -13,11 +13,11 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
 | Go Asia | 2020-03-13 | Jakarta, Indonesia | https://gophers.id/ | CFP: TBA |
 | dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://www.dotconferences.com/cfp |
-| GothamGo | 2020-04-23-24 | New York City, NY USA | http://gothamgo.com/ |
 | GopherCon Europe | 2020-04-23-26 | Berlin, Germany | https://twitter.com/gopherconeu |
 | GopherCon | 2020-06-22-25 | Orlando, FL USA | https://twitter.com/gophercon |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
+| GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
 
 
 ## Archives
