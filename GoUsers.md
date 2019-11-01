@@ -787,6 +787,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## South Africa
   * [Luno](http://www.luno.com) - [github](https://github.com/luno)
+  * [Span Digital](http://www.spandigital.com) - [github](https://github.com/SPANDigital)
 
 ## Southeast Asia
   * [Dwarves Foundation](https://dwarves.foundation) - [github](https://github.com/dwarvesf)
