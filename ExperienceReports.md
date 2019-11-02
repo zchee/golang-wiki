@@ -167,6 +167,7 @@ a complex solution for the problem.
 
 ## Large-Scale Software Development
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
+  - Travis Jeffery, "[I'll take pkg over internal](https://travisjeffery.com/b/2019/11/i-ll-take-pkg-over-internal/)," November 2019; talking about Go project layouts, problems with internal, and why people use pkg.
 
 ## Logging
 
