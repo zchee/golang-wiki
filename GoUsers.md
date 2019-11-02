@@ -1350,6 +1350,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
   * [Vungle](http://www.vungle.com) - [shared libs, OpenRTB, VAST, etc](https://github.com/Vungle/vungo)
+  * [Walmart Labs](https://www.walmartlabs.com/) - [github](https://github.com/walmartlabs)
   * [Wasabi](https://wasabi.com/)
   * [Weave](http://www.getweave.com)
   * [Weaveworks](http://weave.works)
@@ -1372,7 +1373,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Zynga](http://www.zynga.com) - [github](https://github.com/zbase)
   * [Tipe](https://tipe.io) - [github](https://github.com/tipeio)
   * [4wardtech Inc](http://4ward.tech/)
-  * [Walmart Labs](https://www.walmartlabs.com/)
 
 ## Vietnam
   * [BeGroup](https://be.xyz)
