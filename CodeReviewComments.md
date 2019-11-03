@@ -219,7 +219,7 @@ import (
 
 <a href="https://godoc.org/golang.org/x/tools/cmd/goimports">goimports</a> will do this for you.
 
-## ImportBlank
+## Import Blank
 
 Packages that are imported only for their side effects (using the syntax `import
 _ "pkg"`) should only be imported in the main package of a program, or in tests
