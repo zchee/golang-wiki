@@ -1,1 +1,0 @@
-After Update in Windows 7 the only way is to edit regiter and search for GOPATH and the fix it!!!
