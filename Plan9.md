@@ -22,8 +22,8 @@ The current Go distribution has been tested successfully on:
 
 Plan 9 requires a kernel providing the following system calls:
 
-* tsemacquire (available since [2012-06-30](https://github.com/0intro/plan9/commit/bd0c9332d5b1da1371d03e8e0ad03de0d08e08c6))
-* nsec (available since [2014-05-15](https://github.com/0intro/plan9/commit/6c1d8fd563a815cbbac06f61bdc1d0f6331c3d3b))
+* tsemacquire (available since [2012-06-30](https://github.com/0intro/plan9/commit/6c1d8fd563a815cbbac06f61bdc1d0f6331c3d3b))
+* nsec (available since [2014-05-15](https://github.com/0intro/plan9/commit/bd0c9332d5b1da1371d03e8e0ad03de0d08e08c6))
 
 A fix to the pread system call is required, so pread will not update the channel offset when reading a file:
 
