@@ -10,11 +10,11 @@ This page links to resources about error handling in Go.
 
 ## Standard Practice
 
-- Read [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors)
 - Read [Why does Go not have exceptions?](http://golang.org/doc/faq#exceptions)
 - Read [Error handling and Go](http://blog.golang.org/error-handling-and-go)
 - Read [Go by Example: Errors](https://gobyexample.com/errors)
 - Read [Errors are values](http://blog.golang.org/errors-are-values)
+- Read [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors)
 - Read [golang/go/wiki: Errors](Errors)
 
 ## Advanced Topics
