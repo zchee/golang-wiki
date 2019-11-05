@@ -93,7 +93,7 @@ Concepts that appear repeatedly among the suggestions below.
   [10](https://didenko.github.io/grab/grab_worth_it_0.1.1.html),
   [11](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
   [12](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
-  [13](https://github.com/golang/go/issues/27519)
+  [13](https://github.com/golang/go/issues/27519),
   [14](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)
 
 - Invoke one of several handlers by name, e.g. `v := check f() ? name`  
