@@ -1169,6 +1169,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
   * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and auhtentication API client.
+  * [go-wkhtmltopdf](https://github.com/adrg/go-wkhtmltopdf) - wkhtmltopdf Go bindings and high level interface for HTML to PDF conversion.
 
 ## Music
 
