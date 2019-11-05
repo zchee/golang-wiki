@@ -915,6 +915,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [xgb](https://github.com/BurntSushi/xgb) - A fork of the x-go-binding featuring support for thread safety and all X extensions.
   * [xgbutil](https://github.com/BurntSushi/xgbutil/) - A utility library to make use of the X Go Binding easier. (Implements EWMH and ICCCM specs, key binding support, etc.)
   * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
+  * [libvlc-go](https://github.com/adrg/libvlc-go) - Go bindings for libVLC 2.X/3.X/4.X used by the VLC media player
 
 ## GUIs and Widget Toolkits
 
