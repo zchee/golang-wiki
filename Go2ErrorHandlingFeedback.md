@@ -94,6 +94,7 @@ Concepts that appear repeatedly among the suggestions below.
   [11](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
   [12](https://gist.github.com/Kiura/4826db047e22b7720d378ac9ac642027),
   [13](https://github.com/golang/go/issues/27519)
+  [14](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)
 
 - Invoke one of several handlers by name, e.g. `v := check f() ? name`  
   references:
@@ -117,7 +118,10 @@ Concepts that appear repeatedly among the suggestions below.
 
 
 # Modest revisions
- - Jin Feng, "[A simplified Go 2 error handling solution with no handler](https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
+ - Leidong Liu, "[a, b, !checkError := Sub(...)](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)", Nov 2019
+
+ - Jin Feng, "[A simplified Go 2 error handling solution with no handler], (https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
+
  - Dave Arnold, "[Move special check keyword to left-hand side of assignment](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
 
  - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
