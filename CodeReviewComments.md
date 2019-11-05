@@ -21,6 +21,7 @@ You can view this as a supplement to [Effective Go](https://golang.org/doc/effec
 * [Goroutine Lifetimes](#goroutine-lifetimes)
 * [Handle Errors](#handle-errors)
 * [Imports](#imports)
+* [Import Blank](#import-blank)
 * [Import Dot](#import-dot)
 * [In-Band Errors](#in-band-errors)
 * [Indent Error Flow](#indent-error-flow)
@@ -219,7 +220,7 @@ import (
 
 <a href="https://godoc.org/golang.org/x/tools/cmd/goimports">goimports</a> will do this for you.
 
-## ImportBlank
+## Import Blank
 
 Packages that are imported only for their side effects (using the syntax `import
 _ "pkg"`) should only be imported in the main package of a program, or in tests
