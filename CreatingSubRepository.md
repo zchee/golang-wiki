@@ -1,4 +1,4 @@
-This page outlines the steps that need to be done to cretate a new subrepository, in order for it to have the same properties as all existing subrepositories:
+This page outlines the steps that need to be done to create a new golang.org/x repository, in order for it to have the same properties as all existing golang.org/x repositories:
 - a golang.org/x redirect
 - automatic git mirroring from Gerrit to GitHub
 - automatic importing of GitHub PRs into Gerrit CLs
