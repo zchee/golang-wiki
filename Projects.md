@@ -1613,6 +1613,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [agora](https://github.com/PuerkitoBio/agora) - A dynamically typed, garbage collected, embeddable programming language built with Go
   * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in golang
+  * [evalfilter](https://github.com/skx/evalfilter) - Embedded evaluation engine for filtering objects.
   * [expr](https://github.com/antonmedv/expr) - Expression evaluator with static typing
   * [forego](https://github.com/unixdj/forego) - Forth virtual machine  
   * [Gelo](http://code.google.com/p/gelo/) - Extensible, embeddable interpreter
