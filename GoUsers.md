@@ -695,6 +695,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Avinor](https://avinor.no/)
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
+  * [Futurehome](https://futurehome.no)
   * [Jottacloud](https://www.jottacloud.com/)
   * [No Isolation](https://www.noisolation.com/)
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
