@@ -931,7 +931,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Micro](https://micro.mu/) - [github](https://github.com/micro)
   * [Monzo](https://monzo.com/) - [github](https://github.com/monzo), [blog](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
-  * [Paymentsense](https://paymentsense.com) - Data team
+  * [Paymentsense](https://www.paymentsense.com) - Data team
   * [Pusher](https://pusher.com) - [github](https://github.com/pusher) [blog](https://blog.pusher.com)
   * [Ravelin](https://www.ravelin.com/)
   * [Reactive Markets](https://reactivemarkets.com)
