@@ -291,6 +291,9 @@ The solution is to upgrade to Go 1.11.2 or later.
 * https://justinclift.github.io/tinygo_canvas2/[TinyGo canvas]
 ** This is compiled with https://tinygo.org[TinyGo] instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
 
+## Database
+* * https://github.com/pingcap/tidb/pull/13069 [TiDB-Wasm] - Running TiDB, a golang database in the browser on Wasm. https://tour.tidb.io/[DEMO on running TiDB SQL statements].
+
 ## WebGL canvas (3D)
 * https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
 ** https://justinclift.github.io/tinygo-wasm-basic-triangle/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-basic-triangle[source code]) - ~9.5kB compressed (3% of the size of mainline Go version)
