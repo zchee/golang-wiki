@@ -22,16 +22,18 @@
   * [gommunity Iran](https://t.me/joinchat/AAAAAEC2xDS9C116WfBSrA) - Iran
   * [golang Iran](https://t.me/joinchat/C-p1A0LvO9AIeQ1yi75mxA) - Esfahan-Iran
   * [Iran Go Users Group](https://irangug.org) - Iran
+- India
+  * [Golang New Delhi](https://www.meetup.com/GolangNewDelhi) - New Delhi, India.
+  * [Golang Bangalore](https://www.meetup.com/Golang-Bangalore) - Bangalore, India.
+  * [Golang Chennai](http://www.meetup.com/Chennai-golang-Meetup/) - Chennai, India
+  * [Golang Pune](https://www.meetup.com/Golang-Pune/) - Pune, India.
+  * [Golang Ahmedabad](https://www.meetup.com/Golang-Ahmedabad) - Ahmedabad, India.
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
   * [Golang Korea](https://www.facebook.com/groups/golangko/about/) - Korea.
   * [Golang Vietnam](https://www.facebook.com/golang.org.vn) - [github](https://github.com/golang-vietnam) -  Vietnam
   * [Golang Taiwan](http://golang.tw) - Taiwan.
-  * [Golang Bangalore](https://www.meetup.com/Golang-Bangalore) - Bangalore, India.
-  * [Golang Chennai](http://www.meetup.com/Chennai-golang-Meetup/) - Chennai, India
-  * [Golang Pune](https://www.meetup.com/Golang-Pune/) - Pune, India.
-  * [Golang Ahmedabad](https://www.meetup.com/Golang-Ahmedabad) - Ahmedabad, India.
   * [Golang Israel](http://www.meetup.com/Go-Israel) - Israel.
   * [Singapore Gophers](https://www.facebook.com/groups/golang.sg/) - [Meetup](http://www.meetup.com/golangsg/) - Singapore
   * [Golang UAE](https://plus.google.com/communities/114845275110994424259) - UAE.
