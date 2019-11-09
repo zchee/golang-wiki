@@ -635,6 +635,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [MHub](https://mhub.my)
   * [Revenue Monster](https://revenuemonster.my/)
   * [iflix](https://piay.iflix.com) - Free and Subscription Video On Demand Service
+  * [AirAsia](https://www.airasia.com/)
 
 ## Mexico
   * [Conekta](https://www.conekta.com/) - Payment Service
