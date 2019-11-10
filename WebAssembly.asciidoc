@@ -299,7 +299,7 @@ The solution is to upgrade to Go 1.11.2 or later.
 * https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
 ** https://justinclift.github.io/tinygo-wasm-basic-triangle/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-basic-triangle[source code]) - ~9.5kB compressed (3% of the size of mainline Go version)
 * https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
-** https://justinclift.github.io/tinygo-wasm-rotating-cube/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-rotating-cube[source code]) - ~12kB compressed (2% of the size of mainline Go version)
+** https://justinclift.github.io/tinygo-wasm-rotating-cube/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-rotating-cube[source code]) - ~23kB compressed (2% of the size of mainline Go version)
 * https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
 
 # Reducing the size of Wasm files
