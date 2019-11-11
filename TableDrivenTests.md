@@ -42,6 +42,38 @@ Note the detailed error message provided with ` t.Errorf `: its result and expec
 
 A ` t.Errorf ` call is not an assertion. The test continues even after an error is logged. For example, when testing something with integer input, it is worth knowing that the function fails for all inputs, or only for odd inputs, or for powers of two.
 
+## Parallel Testing
+
+Parallelizing table tests is simple, but requires precision to avoid bugs.
+Please note closely the three changes below, especially the re-declaration of `tt`
+
+```go
+package main
+
+import (
+	"testing"
+)
+
+func TestTLog(t *testing.T) {
+	t.Parallel() // marks TLog as capable of running in parallel with other tests
+	tests := []struct {
+		name string
+	}{
+		{"test 1"},
+		{"test 2"},
+		{"test 3"},
+		{"test 4"},
+	}
+	for _, tt := range tests {
+		tt := tt // NOTE: https://github.com/golang/go/wiki/CommonMistakes#using-goroutines-on-loop-iterator-variables
+		t.Run(tt.name, func(t *testing.T) {
+			t.Parallel() // marks each test case as capable of running in parallel with each other 
+			t.Log(tt.name)
+		})
+	}
+}
+```
+
 ## References
 
   * http://golang.org/doc/code.html#Testing
