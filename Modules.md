@@ -357,6 +357,11 @@ In addition, go commands like 'go build', 'go test', or even 'go list' will auto
 
 To view available minor and patch upgrades for all direct and indirect dependencies, run `go list -u -m all`.
 
+To view available minor and patch upgrades _only_ for the direct dependencies, run:
+```
+go list -u -f '{{if (and (not (or .Main .Indirect)) .Update)}}{{.Path}}: {{.Version}} -> {{.Update.Version}}{{end}}' -m all 2> /dev/null
+```
+
 To upgrade to the latest version for all direct and indirect dependencies of the current module, the following can be run from the module root directory:
  * `go get -u ./...` to use the latest *minor or patch* releases (and add `-t` to also upgrade test dependencies)
  * `go get -u=patch ./...` to use the latest *patch* releases (and add `-t` to also upgrade test dependencies)
