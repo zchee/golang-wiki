@@ -355,7 +355,21 @@ Day-to-day upgrading and downgrading of dependencies should be done using 'go ge
 
 In addition, go commands like 'go build', 'go test', or even 'go list' will automatically add new dependencies as needed to satisfy imports (updating `go.mod` and downloading the new dependencies).
 
-To view available minor and patch upgrades for all direct and indirect dependencies, run `go list -u -m all`.
+To upgrade a dependency to the latest version:
+```
+go get example.com/package
+```
+
+To upgrade a dependency *and all its dependencies* to the latest version:
+```
+go get -u example.com/package
+```
+
+To view available minor and patch upgrades for all direct and indirect dependencies:
+
+```
+go list -u -m all
+```
 
 To view available minor and patch upgrades _only_ for the direct dependencies, run:
 ```
