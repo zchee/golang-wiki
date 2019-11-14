@@ -712,6 +712,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [reMarkable](https://remarkable.com/)
   * [Sanity.io](https://www.sanity.io)
   * [Shortcut](https://shortcut.no/)
+  * [Searis](https://www.searis.no/)
   * [Unacast](https://www.unacast.com/)
   * [Telenor](https://www.telenor.no/privat/)
   * [TIDAL](https://tidal.com/)
