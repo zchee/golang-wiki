@@ -1,0 +1,1 @@
+Question: how to avoid sending dotfile or file in a dot folder on a http response?
