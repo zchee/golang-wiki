@@ -563,6 +563,7 @@
   * [KRPEO](https://rikitake.jp/)
   * [Kyash Inc](https://kyash.co/en/)
   * [LINE](https://linecorp.com/)
+  * [Liquid Inc.](https://liquidinc.asia/)
   * [Livesense Inc.](https://livesense.co.jp/) - [github](https://github.com/livesense-inc)
   * [LOB, Inc.](https://www.lob-inc.com/) - [github](https://github.com/lob-inc)
   * [M3](https://corporate.m3.com/)
