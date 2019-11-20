@@ -516,6 +516,7 @@
 
 ## Japan
   * [3-shake, Inc.](https://www.3-shake.com/)
+  * [and factory, Inc.](https://andfactory.co.jp/)
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
   * [BASE BANK, Inc.](https://basebank.jp/)
