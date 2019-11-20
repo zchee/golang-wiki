@@ -702,7 +702,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
-  * [ix3](https://www.ix3.com)
+  * [Aker Solutions](https://www.akersolutions.com/), specifically its [ix3](https://www.ix3.com/) department
   * [Jazz networks](https://www.jazznetworks.com/)
   * [Jottacloud](https://www.jottacloud.com/)
   * [No Isolation](https://www.noisolation.com/)
