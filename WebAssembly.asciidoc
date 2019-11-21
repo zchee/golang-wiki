@@ -53,7 +53,9 @@ $ GOOS=js GOARCH=wasm go build -o main.wasm
 That will build the package and produce an executable WebAssembly
 module file named main.wasm. The .wasm file extension will make it
 easier to serve it over HTTP with the correct Content-Type header
-later on.
+later on. 
+
+Note that you can only compile main packages. Otherwise, you will get an object file that cannot be run in WebAssembly. If you have a package that you want to be able to use with WebAssembly, convert it to a main package and build a binary.
 
 To execute main.wasm in a browser, we'll also need a JavaScript
 support file, and a HTML page to connect everything together.
