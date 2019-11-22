@@ -556,6 +556,7 @@
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [istyle Inc.](http://www.istyle.co.jp/)
+  * [JapanTaxi Co.,Ltd.](https://japantaxi.co.jp/)
   * [JX Press Corporation](https://jxpress.net/)
   * [Kanmu, Inc.](https://kanmu.co.jp/)
   * [KAYAC Inc.](https://www.kayac.com/) - [github](https://github.com/kayac)
