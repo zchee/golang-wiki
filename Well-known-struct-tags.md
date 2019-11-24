@@ -35,7 +35,7 @@ dynamodb  | https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/dynamodb
 bigquery  | https://godoc.org/cloud.google.com/go/bigquery
 datastore | https://godoc.org/cloud.google.com/go/datastore
 spanner   | https://godoc.org/cloud.google.com/go/spanner
-bson      | https://godoc.org/labix.org/v2/mgo/bson
+bson      | https://godoc.org/labix.org/v2/mgo/bson, https://godoc.org/go.mongodb.org/mongo-driver/bson/bsoncodec
 gorm      | https://godoc.org/github.com/jinzhu/gorm
 yaml      | https://godoc.org/gopkg.in/yaml.v2
 validate  | https://github.com/go-playground/validator
