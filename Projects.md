@@ -85,7 +85,7 @@ If you find a project in this list that is dead or broken, please either mark it
 * [Strings and Text](#strings-and-text)
 * [Testing](#testing)
 * [Transpiler](#transpiler)
-* [Unix](#unix)t
+* [Unix](#unix)
 * [Unsorted](#unsorted-please-help)
 * [Validation](#validation)
 * [Version Control](#version-control)
