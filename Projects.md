@@ -231,21 +231,25 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Compression
  
   * [brotli](https://github.com/google/brotli/tree/master/go/cbrotli) - go bindings for Brotli algorithm.
-  * [compress](https://github.com/klauspost/compress) - Faster drop in replacements for gzip, zip, zlib, deflate
-  * [dgolzo](https://github.com/dgryski/dgolzo) - LZO bindings
-  * [dictzip](https://github.com/pebbe/dictzip) - A reader and writer for files in the random access ` dictzip ` format
-  * [fast-archiver](https://github.com/replicon/fast-archiver) - Alternative archiving tool with fast performance for huge numbers of small files
-  * [gbacomp](https://github.com/salviati/gbacomp) - A Go library to (de)compress data compatible with GBA BIOS
+  * [compress](https://github.com/klauspost/compress) - Faster drop in replacements for gzip, zip, zlib, deflate.
+  * [dgolzo](https://github.com/dgryski/dgolzo) - LZO bindings.
+  * [dictzip](https://github.com/pebbe/dictzip) - A reader and writer for files in the random access ` dictzip ` format.
+  * [fast-archiver](https://github.com/replicon/fast-archiver) - Alternative archiving tool with fast performance for huge numbers of small files.
+  * [gbacomp](https://github.com/salviati/gbacomp) - A Go library to (de)compress data compatible with GBA BIOS.
   * [go-lz4](https://github.com/bkaradzic/go-lz4) - Port of LZ4 lossless compression algorithm to Go.
-  * [go-lzss](https://github.com/salviati/go-lzss) - Implementation of LZSS compression algorithm in Go
-  * [go-sevenzip](https://github.com/salviati/go-sevenzip) - Package sevenzip implements access to 7-zip archives (wraps C interface of LZMA SDK)
+  * [go-lzss](https://github.com/salviati/go-lzss) - Implementation of LZSS compression algorithm in Go.
+  * [go-sevenzip](https://github.com/salviati/go-sevenzip) - Package sevenzip implements access to 7-zip archives (wraps C interface of LZMA SDK).
   * [go-zip](https://github.com/hailiang/go-zip) - A wrapper around C library libzip, providing ability to modify existing ZIP archives.
-  * [lzma](http://code.google.com/p/lzma/) - compress/lzma package for Go
-  * [pgzip](https://github.com/klauspost/pgzip) - Multicore gzip, compatible with the standard library
-  * [snappy-go](http://code.google.com/p/snappy-go/) - Google's Snappy compression algorithm in Go
-  * [yenc](https://github.com/chrisfarms/yenc) - yenc decoder package
-  * [zappy](https://github.com/cznic/zappy) - Package zappy implements the zappy block-based compression format. It aims for a combination of good speed and reasonable compression.
+  * [lz4](https://github.com/pierrec/lz4) - High performance, concurrent LZ4 implementation.
+  * [lzma](http://code.google.com/p/lzma/) - compress/lzma package for Go.
+  * [pgzip](https://github.com/klauspost/pgzip) - Multicore gzip, compatible with the standard library.
   * [ppmd-go](https://github.com/zwb-ict/ppmd-go) - Golang bindings for the LZMA SDK library. (Only binded PPMD) 
+  * [s2](https://github.com/klauspost/compress/tree/master/s2) - High throughput Snappy extension.
+  * [snappy-go](http://code.google.com/p/snappy-go/) - Google's Snappy compression algorithm in Go.
+  * [yenc](https://github.com/chrisfarms/yenc) - yenc decoder package.
+  * [zappy](https://github.com/cznic/zappy) - Package zappy implements the zappy block-based compression format. It aims for a combination of good speed and reasonable compression.
+  * [zstd](https://github.com/klauspost/compress/tree/master/zstd) - Pure Go Zstandard compression/decompression.
+
 
 ## Concurrency and Goroutines
 
