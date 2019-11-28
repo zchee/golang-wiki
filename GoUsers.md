@@ -45,6 +45,7 @@
   * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
 
 ## Belgium
+  * [IN4IT](https://www.in4it.io/)
   * [Be-Mobile](http://www.be-mobile.com/)
   * [Elimity](https://elimity.com/)
   * [Factry](https://www.factry.io/) - [github](https://github.com/factrylabs)
