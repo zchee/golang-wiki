@@ -712,6 +712,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Northern.tech](https://northern.tech/)
   * [Nurofy](https://nurofy.no/)
   * [Owners Room](https://ownersroom.com/)
+  * [Payr](https://www.payr.no)
   * [Pioner Labs](https://www.pionerlabs.com/)
   * [Pexip](https://www.pexip.com/)
   * [reMarkable](https://remarkable.com/)
