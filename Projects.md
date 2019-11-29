@@ -1660,7 +1660,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Dataflowkit](https://github.com/slotix/dataflowkit) - Web scraping Service to turn websites into structured data.
   * [Digestw](https://github.com/mocchira/digestw) - A Web Application - Twitter's Timeline Digest
   * [fabio](https://github.com/eBay/fabio) - A fast zero-conf load balancing HTTP router for microservices.
-  * [Filestash](https://github.com/mickael-kerjean/filestash) - A web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, Caldav, Carddav, Mysql, Backblaze, ...
+  * [Filestash](https://www.filestash.app) - A web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, Caldav, Carddav, Mysql, Backblaze, ...
   * [fourohfourfound](https://github.com/whee/fourohfourfound/) - A fallback HTTP server that may redirect requests with runtime configurable redirections
   * [Fragmenta](http://fragmenta.eu/) - A CMS built in Go
   * [freegeoip](https://github.com/fiorix/freegeoip) - IP geolocation web service (web server of freegeoip.net)
