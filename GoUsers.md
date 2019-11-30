@@ -54,6 +54,8 @@
   * [Pronovix](http://pronovix.com/) - [github](https://github.com/Pronovix)
   * [Showpad](https://www.showpad.com/)
   * [UZ Leuven](https://www.uzleuven.be)
+  * [KU Leuven](https://www.kuleuven.be)
+
 
 ## Brazil
   * [99 Taxis](http://www.99taxis.com/) - [github](https://github.com/99taxis)
