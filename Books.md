@@ -570,6 +570,12 @@ Sorted by publication date.
     * ISBN: 978-4-87311-846-8
     * Reference: https://www.oreilly.co.jp/books/9784873118468/
 
+  * **改訂2版 みんなのGo言語**
+    * Authors: 松木雅幸, mattn, 藤原俊一郎, 中島大一, 上田 拓也, 牧 大輔, 鈴木健太
+    * Publication Date: August 1, 2019
+    * ISBN: 978-4297107277
+    * Reference: https://gihyo.jp/book/2019/978-4-297-10727-7
+
 # French
   * **Programmer en Go - Pourquoi ? Comment ?**
     * Author: Rudy Rigot
