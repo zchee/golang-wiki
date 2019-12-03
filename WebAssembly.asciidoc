@@ -188,6 +188,8 @@ is in development.
 
 * https://github.com/norunners/vert[vert - WebAssembly interop between Go and JS values.]
 
+* https://github.com/bgokden/gowebian[GoWebian] A library to build pages with pure go and add WebAssembly bindings.
+
 ## Canvas
 
 * A new https://github.com/markfarnan/go-canvas[canvas drawing library] - seems pretty efficient.
