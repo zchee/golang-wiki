@@ -1172,6 +1172,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Kohl's](https://www.kohls.com) - [github](https://github.com/KohlsTechnology?utf8=%E2%9C%93&q=&type=&language=go)
   * [Kingsoft](http://www.kingsoft.com/) - [github](https://github.com/flike/kingshard)
   * [Chamoji](http://chamoji.com/) - [augmented reality](https://chamoji.com/game-chamoji)
+  * [K&J Translations](https://kjtranslations.com/)
   * [Kochava](https://www.kochava.com/)
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
