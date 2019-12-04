@@ -903,6 +903,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Zarewoft](https://github.com/zarewoft)
 
 ## Turkey
+  * [Frigbo](https://frigbo.com/)
   * [Admongrel](http://www.admongrel.com/)
   * [Insider](http://useinsider.com/)
   * [Mentornity, Inc.](https://mentornity.com/) - Backend API
