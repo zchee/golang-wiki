@@ -28,4 +28,4 @@ Using snaps also works quite well:
 # This will give you the latest version of go
 $ sudo snap install --classic go
 ```
-> A restart is required for the command to be recognized.
+> A restart may or may not be required for the command to be recognized depending on your system.
