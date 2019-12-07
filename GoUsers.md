@@ -358,6 +358,7 @@
   * [Singulerp](https://singulerp.com)
   * [SocialCops](https://socialcops.com) - [engineering page](https://socialcops.com/careers/engineering/)
   * [SoStronk](https://www.sostronk.com/)
+  * [Squadcast](https://www.squadcast.com)
   * [Synerzip](http://synerzip.com/)
   * [Tarkalabs](https://tarkalabs.com/)
   * [Techequity Technologies](http://www.techequity.in/)
