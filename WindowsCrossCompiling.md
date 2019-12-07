@@ -4,7 +4,7 @@ See [here](https://golang.org/doc/install/source#environment) for available `GOO
 
 ## Go version >= 1.5
 
-Since Go version 1.5 cross-compiling has become very easy. Try it out with the code below. More can be found at this blog post by [Dave Cheney][1].
+Since Go version 1.5 cross-compiling of pure Go executables has become very easy. Try it out with the code below. More can be found at this blog post by [Dave Cheney][1].
 
 [1]: http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5
 
@@ -28,7 +28,7 @@ Note that the command above will silently rebuild most of standard library, and 
 GOOS=windows GOARCH=amd64 go install
 ```
 
-Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068).
+Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068).  In order to use cgo, or any of the build modes `c-archive`, `c-shared`, `shared`, `plugin`, you need to have a C cross-compiler.
 
 
 ## Older Go version (<1.5)
