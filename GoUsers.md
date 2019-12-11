@@ -77,6 +77,7 @@
   * [Dropadev](http://dropadev.com) 
   * [Easy Carros](https://easycarros.com)
   * [Emprego Ligado](https://empregoligado.com.br/#/)
+  * [Estratégia Concursos](https://www.estrategiaconcursos.com.br/) - [github](https://github.com/estrategiahq/)
   * [Eventials](https://www.eventials.com/) - [github](https://github.com/eventials/)
   * [Everymind](http://www.everymind.com.br/)
   * [Finanças 360](https://www.financas360.com.br)
