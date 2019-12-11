@@ -160,6 +160,7 @@
   * [GoMN](http://www.meetup.com/golangmn/) - Minneapolis MN, USA.
   * [Buffalo GoLang Meetup Group](https://www.meetup.com/Buffalo-GoLang-Meetup-Group/) - Buffalo NY, USA.
   * [New York Go Language Meetup](http://www.meetup.com/golangny/) - New York NY, USA.
+  * [New Jersey Go Language Meetup](http://www.meetup.com/golangnj/) - New Jersey NY, USA.
   * [Bowery Golang Meetup](https://www.meetup.com/Bowery-Go/) - New York NY, USA.
   * [GoLangPhilly](http://www.meetup.com/GoLangPhilly/) - Philadelphia PA, USA.
   * [GoLangPhoenix](http://www.meetup.com/Golang-Phoenix/) - Phoenix AZ, USA.
