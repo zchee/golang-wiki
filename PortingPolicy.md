@@ -10,7 +10,7 @@ Before any code relating to a port can be added to the main Go repository, the f
 
   * At least one developer must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
 
-  * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for http://build.golang.org.
+  * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for https://build.golang.org.
 
   * The builder must already be running (and failing, because the code is not yet in the main repository).
 
@@ -36,7 +36,7 @@ A first class port has these properties:
     * All contributors are effectively responsible for these ports (You break it, you fix it, or find someone who can.)
   * Official binaries are provided
     * Requires Google's Go team to own the builder machine
-  * Installation is documented at http://golang.org/doc/install
+  * Installation is documented at https://golang.org/doc/install
 
 Graduating a port to "first class" is at the discretion of the Go team at Google.
 
