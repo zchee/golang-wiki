@@ -176,8 +176,7 @@ Also:
 
 * A PWA-compatible, React-based framework with custom tooling is https://github.com/maxence-charriere/app[app].
 
-* An experimental new framework https://github.com/vugu/vugu[Vugu] is
-worth trying out, if you're looking for something like VueJS. :smile:
+* https://github.com/vugu/vugu[Vugu] is a wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
 
 * https://github.com/norunners/vue[vue - The progressive framework for WebAssembly applications.]
 
