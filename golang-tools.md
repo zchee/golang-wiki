@@ -22,9 +22,10 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Upcoming calls
 
-* [2019-12-03 - 16:30 UTC](https://docs.google.com/document/d/1ABilBtF7F1tFaGxX3fKZH2zrqADhpoMMcGHFoqJyEtE/edit#) - [meet](https://meet.google.com/xuq-tcoc-dkp)
+Next dates TBC
 
 ### Call archive
+* [2019-12-03 Meeting notes](https://docs.google.com/document/d/1ABilBtF7F1tFaGxX3fKZH2zrqADhpoMMcGHFoqJyEtE/edit#)
 * [2019-10-29 Meeting notes](https://docs.google.com/document/d/1F3T58Nj_Ft3bu15Wd4hAZAW6kLl_M1EH5XP43l_3CpY/edit#)
 * [2019-09-24 Meeting notes](https://docs.google.com/document/d/1FpM5xjNdLnVMYxdPxLRHt6-yYBJ7zURWNbUB8QtFSlw/edit#)
 * [2019-08-27 Meeting notes](https://docs.google.com/document/d/1NiIbz1h4-UaavdL-SC2hTp54Y87p-1joaLa-r5HgKaE/edit#)
