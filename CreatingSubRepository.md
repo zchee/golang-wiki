@@ -14,9 +14,7 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 		- Add "robots" team with Write access (can only be done by a maintainer of golang organization; ask someone else if you're not).
 	- Create "cla: yes" and "cla: no" labels, they need to exist so that [@googlebot](https://github.com/googlebot) can automatically apply them. (Without a "cla: yes" label, PRs won't be imported into Gerrit.)
 3. Modify the `x/build/repos` package.
-4. Modify 1 x/website command:
-	- In `cmd/golangorg`, add the new repo to `xMap` map.
-		- See [an example CL](https://golang.org/cl/160137).
+4. Bump x/website's `go.mod` dep of x/build with `go get -u golang.org/x/build/repos`
 5. Redeploy all affected commands in the following order:
 	1. `cmd/gitmirror` first
 	2. `maintner/maintnerd` second
