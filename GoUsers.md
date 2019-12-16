@@ -169,6 +169,7 @@
   * [BaishanCloud](https://en.baishancloud.com/)
   * [ByteDance](https://www.bytedance.com)
   * [Ciprun](http://www.ciprun.com)
+  * [CS2C](http://www.cs2c.com.cn) - [github](https://github.com/openkylin)
   * [deepin](http://deepin.org/) - [github](https://github.com/linuxdeepin) - a linux distribution aiming to provide an elegant desktop
   * [EasyAR](https://www.easyar.com/)
   * [Feiyu](http://www.feiyu.com/)
