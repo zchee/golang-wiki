@@ -624,6 +624,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
+  * [Yappli, Inc.](https://yappli.co.jp/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
