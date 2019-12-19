@@ -655,6 +655,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Development Tools
 
+  * [goyaccfmt](https://github.com/wangkuiyi/goyaccfmt) - Auto reformat Goyacc source files.
   * [cwrap](https://github.com/hailiang/cwrap) - Go wrapper (binding) generator for C libraries.
   * [demand](https://github.com/tv42/demand) - Download, build, cache and run a Go app easily.
   * [glib](https://github.com/ziutek/glib) - Bindings for GLib type system
