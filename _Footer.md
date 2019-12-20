@@ -1,0 +1,1 @@
+lots of `(` & `)` made go looks so messy, `<` & `>` like other language is better, and is more kindly for those come from other languages.
