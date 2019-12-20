@@ -1,1 +1,2 @@
-lots of `(` & `)` made go looks so messy, `<` & `>` like other language is better, and is more kindly for those come from other languages.
+<!-- DO NOT EDIT THIS FOOTER -->
+<!-- This is a wiki. We trust you to be a good person. -->
