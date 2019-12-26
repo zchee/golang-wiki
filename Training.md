@@ -20,6 +20,7 @@ Commercial providers of Go training
 * [Gopher Guides TV](https://www.gopherguides.tv) - Free and Subscription based video learning from [Mark Bates](http://www.gopherguides.com/team/mark.bates) & [Cory LaNou](http://www.gopherguides.com/team/cory.lanou) from Go 101 to advanced profiling and more.
 * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) -  Free Test driven development (TDD) based learning of Golang. Start writing robust, well-tested systems in Go
 * [Silver Cloud Training](https://courses.silvercloudtraining.com/) - Practical, targeted courses teaching both the Go language and how to apply it to solve real-world problems
+* [Hands-on Microservices with Go and MongoDB](https://www.packtpub.com/web-development/hands-on-microservices-with-go-and-mongodb-video?utm_source=golang.org&utm_medium=Github_referral&utm_OutreachV14248dollar5) - Highly scalable and performant microservices using Go and MongoDB
 
 ## Classroom and In-Person
 
