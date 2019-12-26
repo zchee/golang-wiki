@@ -12,8 +12,8 @@ You can view this as a supplement to [Effective Go](https://golang.org/doc/effec
 * [Comment Sentences](#comment-sentences)
 * [Contexts](#contexts)
 * [Copying](#copying)
-* [Declaring Empty Slices](#declaring-empty-slices)
 * [Crypto Rand](#crypto-rand)
+* [Declaring Empty Slices](#declaring-empty-slices)
 * [Doc Comments](#doc-comments)
 * [Don't Panic](#dont-panic)
 * [Error Strings](#error-strings)
@@ -104,28 +104,6 @@ calls to have surprising effects.
 In general, do not copy a value of type `T` if its methods are associated with the
 pointer type, `*T`.
 
-## Declaring Empty Slices
-
-When declaring an empty slice, prefer
-
-```go
-var t []string
-```
-
-over 
-
-```go
-t := []string{}
-```
-
-The former declares a nil slice value, while the latter is non-nil but zero-length. They are functionally equivalent—their `len` and `cap` are both zero—but the nil slice is the preferred style.
-
-Note that there are limited circumstances where a non-nil but zero-length slice is preferred, such as when encoding JSON objects (a `nil` slice encodes to `null`, while `[]string{}` encodes to the JSON array `[]`).
-
-When designing interfaces, avoid making a distinction between a nil slice and a non-nil, zero-length slice, as this can lead to subtle programming errors.
-
-For more discussion about nil in Go see Francesc Campoy's talk [Understanding Nil](https://www.youtube.com/watch?v=ynoY2xz-F8s).
-
 ## Crypto Rand
 
 Do not use package `math/rand` to generate keys, even throwaway ones.
@@ -152,6 +130,28 @@ func Key() string {
     // or base64.StdEncoding.EncodeToString(buf)
 }
 ```
+
+## Declaring Empty Slices
+
+When declaring an empty slice, prefer
+
+```go
+var t []string
+```
+
+over 
+
+```go
+t := []string{}
+```
+
+The former declares a nil slice value, while the latter is non-nil but zero-length. They are functionally equivalent—their `len` and `cap` are both zero—but the nil slice is the preferred style.
+
+Note that there are limited circumstances where a non-nil but zero-length slice is preferred, such as when encoding JSON objects (a `nil` slice encodes to `null`, while `[]string{}` encodes to the JSON array `[]`).
+
+When designing interfaces, avoid making a distinction between a nil slice and a non-nil, zero-length slice, as this can lead to subtle programming errors.
+
+For more discussion about nil in Go see Francesc Campoy's talk [Understanding Nil](https://www.youtube.com/watch?v=ynoY2xz-F8s).
 
 ## Doc Comments
 
