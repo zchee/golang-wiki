@@ -418,6 +418,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms
   * [graphs](https://github.com/thcyron/graphs) - Implementation of various tree, graph and network algorithms
+  * [groph](https://codeberg.org/fractalqb/groph) - A pure Go library of graphs and algorithms
 
 ### Sets
 
