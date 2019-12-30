@@ -113,21 +113,21 @@ and if you need text, print to hexadecimal or base64:
 
 ``` go
 import (
-    "crypto/rand"
-    // "encoding/base64"
-    // "encoding/hex"
-    "fmt"
+	"crypto/rand"
+	// "encoding/base64"
+	// "encoding/hex"
+	"fmt"
 )
 
 func Key() string {
-    buf := make([]byte, 16)
-    _, err := rand.Read(buf)
-    if err != nil {
-        panic(err)  // out of randomness, should never happen
-    }
-    return fmt.Sprintf("%x", buf)
-    // or hex.EncodeToString(buf)
-    // or base64.StdEncoding.EncodeToString(buf)
+	buf := make([]byte, 16)
+	_, err := rand.Read(buf)
+	if err != nil {
+		panic(err)  // out of randomness, should never happen
+	}
+	return fmt.Sprintf("%x", buf)
+	// or hex.EncodeToString(buf)
+	// or base64.StdEncoding.EncodeToString(buf)
 }
 ```
 
@@ -213,7 +213,7 @@ import (
 	"appengine/foo"
 	"appengine/user"
 
-        "github.com/foo/bar"
+	"github.com/foo/bar"
 	"rsc.io/goversion/version"
 )
 ```
@@ -276,7 +276,7 @@ And encourages more robust and readable code:
 ``` go
 value, ok := Lookup(key)
 if !ok  {
-    return fmt.Errorf("no value for %q", key)
+	return fmt.Errorf("no value for %q", key)
 }
 return Parse(value)
 ```
