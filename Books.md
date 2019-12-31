@@ -629,6 +629,12 @@ Sorted by publication date.
     * ISBN: 978-85-66250-49-7
     * Reference: http://www.casadocodigo.com.br/products/livro-google-go
 
+  * **Introdução à Linguagem Go: Crie Programas Escaláveis e Confiáveis**
+    * Author: Caleb Doxsey
+    * Publication Date: 2016-08-04
+    * ISBN: 978-85-75224-89-2
+    * Reference: http://shop.oreilly.com/product/0636920046516.do
+
 # Russian
   * **Программирование на языке Go**
     * Author: Марк Саммерфильд
