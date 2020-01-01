@@ -733,7 +733,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Vipps](https://www.vipps.no)
 
 ## Oman
-  * [Rihal](https://www.rihal.om/) - Enterprise data solutions
+  * [Rihal](https://www.rihal.om/) - Designed for Data
   
 ## Pakistan
   * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
