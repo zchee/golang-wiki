@@ -845,6 +845,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, histogram) in different output formats.
   * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
+  * [ebiten](https://ebiten.org/) - A cross platform open-source game library with which you can develop 2D games with simple API for multi platforms. Cgo/c compiler setup not needed.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
   * [fourcc](https://github.com/reiver/go-fourcc) - Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
