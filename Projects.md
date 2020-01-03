@@ -1767,6 +1767,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goweb](https://github.com/stretchrcom/goweb) - Lightweight RESTful web framework for Go providing Ruby on Rails style routing
   * [go-webproject](http://go-webproject.appspot.com) - Modular web application framework and app server
   * [Gowut](http://code.google.com/p/gowut) - Go Web UI Toolkit is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go.
+  * [Goyave](https://github.com/System-Glitch/goyave) - An elegant, full-featured web application framework
   * [HttpRouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
   * [limiter](https://github.com/ulule/limiter) - Simple rate limter middleware for Go
   * [Macaron](https://github.com/Unknwon/macaron) - Modular web framework in Go
