@@ -123,6 +123,7 @@
   * [Studio Sol](https://www.studiosol.com.br) - [github](https://github.com/StudioSol)
   * [Synchro](http://www.synchro.com.br)
   * [TOTVS](http://en.totvs.com/cloud)  
+  * [uMov.me] (https://umov.me)
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
   * [VivaReal](http://www.vivareal.com.br) - [github](https://github.com/VivaReal)
