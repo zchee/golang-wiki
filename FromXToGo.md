@@ -47,6 +47,10 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html)
 * [Why one developer switched from Java to Google Go](http://www.javaworld.com/article/2459212/scripting-jvm-languages/why-one-developer-switched-from-java-to-google-go.html)
 
+# Common Lisp
+* [A comparison of three programming languages for a full-fledged next-generation sequencing tool](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2903-5)
+* [Comparing Ease of Programming in C++, Go, and Java for Implementing a Next-Generation Sequencing Tool](https://doi.org/10.1177%2F1176934319869015)
+
 # .NET
 * [Why I Left the .NET Framework](http://blog.jonathanoliver.com/why-i-left-dot-net/)
 
