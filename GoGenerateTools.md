@@ -9,6 +9,7 @@
 * [go-atomicvalue](https://godoc.org/github.com/searKing/golang/tools/cmd/go-atomicvalue) - Generates Go code using a package as a generic template for `atomic.Value`.
 * [go-nulljson](https://godoc.org/github.com/searKing/golang/tools/cmd/go-nulljson) - Generates Go code using a package as a generic template that implements `database/sql.Scanner` and `database/sql/driver.Valuer`.
 * [go-enum](https://godoc.org/github.com/searKing/golang/tools/cmd/go-enum) - Generates Go code using a package as a generic template which implements interface `fmt.Stringer` | `binary` | `json` | `text` | `sql` | `yaml` for enums.
+* [go-import](https://godoc.org/github.com/searKing/golang/tools/cmd/go-import) — Performs auto import of non go files.
 * [gojson](https://github.com/ChimeraCoder/gojson) - Generates go struct definitions from example json documents.
 * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 * [goreuse](https://github.com/dc0d/goreuse) - Generates Go code using a package as a generic template by replacing definitions.
