@@ -286,6 +286,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * yaml:
     * [yaml](http://github.com/go-yaml/yaml) - YAML support for the Go language, by Canonical
     * [goyaml](http://goyaml.googlecode.com/) - A port of LibYAML to Go
+    * [go-yaml](https://github.com/goccy/go-yaml) - YAML support for the Go language
   * [`code.soquee.net/env`](https://code.soquee.net/env/) — Load environment variables from `.env` or similar files, or from any `io.Reader` and populate the local environment.
 
 ## Console User Interface
