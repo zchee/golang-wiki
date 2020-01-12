@@ -919,13 +919,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
   * [wg](https://github.com/magsoft-se/wg) - Web Graphics, display real time go graphics in browser, with user input.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
-  * [wingo](https://github.com/BurntSushi/wingo) - A fully-featured window manager written in Go.
-  * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
-  * [wxGo](https://github.com/JeroenD/wxGo) - Go Wrapper for the wxWidgets GUI
-  * [xgb](https://github.com/BurntSushi/xgb) - A fork of the x-go-binding featuring support for thread safety and all X extensions.
-  * [xgbutil](https://github.com/BurntSushi/xgbutil/) - A utility library to make use of the X Go Binding easier. (Implements EWMH and ICCCM specs, key binding support, etc.)
-  * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
   * [libvlc-go](https://github.com/adrg/libvlc-go) - Go bindings for libVLC 2.X/3.X/4.X used by the VLC media player
+
 
 ## GUIs and Widget Toolkits
 
@@ -945,6 +940,12 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [qml](https://github.com/niemeyer/qml) - QML support for the Go language
   * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
   * [webview](https://github.com/zserge/webview) - Tiny cross-platform web UI library. Uses WebKit (Gtk/Cocoa) and MSHTML (Windows)
+  * [wingo](https://github.com/BurntSushi/wingo) - A fully-featured window manager written in Go.
+  * [Winhello](https://github.com/MalcolmJSmith/Winhello) - An example Windows GUI hello world application
+  * [wxGo](https://github.com/JeroenD/wxGo) - Go Wrapper for the wxWidgets GUI
+  * [xgb](https://github.com/BurntSushi/xgb) - A fork of the x-go-binding featuring support for thread safety and all X extensions.
+  * [xgbutil](https://github.com/BurntSushi/xgbutil/) - A utility library to make use of the X Go Binding easier. (Implements EWMH and ICCCM specs, key binding support, etc.)
+  * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
 
 ## Hardware
 
