@@ -912,7 +912,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [tag](https://github.com/dhowden/tag) - a library for reading tag metadata and creating metadata-invariant checksums for audio files: FLAC, all IDv3 variants, and MP4 (ACC, ALAC)
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
   * [tiff](https://github.com/chai2010/tiff) - Rich TIFF/BigTIFF/GeoTIFF decoder/encoder for Go.
-  * [twilio-go](https://github.com/kevinburke/twilio-go) - Go client for the Twilio API.
   * [videoinput](https://github.com/chai2010/videoinput) - Go bindings for VideoInput (Windows).
   * [vu](https://github.com/gazed/vu) - Virtual Universe. A skeleton 3D engine.
   * [vulkan](https://github.com/vulkan-go/vulkan) - Golang Bindings for Vulkan API.
@@ -1844,6 +1843,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stripe](https://github.com/stripe/stripe-go) - Official Stripe client library 
   * [SocialSharesCount](https://github.com/gssumesh/socialsharescount) - Wrapper API on multiple social websites to get URL share statistics
   * [twilio](https://github.com/subosito/twilio) - Simple Twilio API wrapper
+  * [twilio-go](https://github.com/kevinburke/twilio-go) - Go client for the Twilio API
   * [twittergo](https://github.com/kurrik/twittergo) - Client library for Twitter's API
   * [cloudcomb-go-sdk](https://github.com/bingohuang/cloudcomb-go-sdk) - Go client library for  [CloudComb](http://c.163.com)
 
