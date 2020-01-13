@@ -339,12 +339,11 @@ Sorted by publication date.
 * Reference: https://www.packtpub.com/programming/mastering-go-second-edition
 * Reference: https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1838559337/
 
-**Hands-on Microservices with Go and MongoDB [Video]**
-
-* Author: Gautam Rege
-* Publication Date: 22 Nov 2019
-* ISBN: 9781838648558
-* Reference: https://www.packtpub.com/web-development/hands-on-microservices-with-go-and-mongodb-video?utm_source=Golang&utm_medium=&utm_campaign=Outreach
+  * **Hands-on Microservices with Go and MongoDB [Video]** 
+    * Author: Gautam Rege
+    * Publication Date: 22 Nov 2019
+    * ISBN: 9781838648558
+    * References: https://www.packtpub.com/web-development/hands-on-microservices-with-go-and-mongodb-video?utm_source=Golang&utm_medium=&utm_campaign=Outreach
 
   * **The Go Workshop** (e-book)
     * Author: Delio D'Anna
