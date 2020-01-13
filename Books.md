@@ -345,6 +345,12 @@ Sorted by publication date.
 * Publication Date: 22 Nov 2019
 * ISBN: 9781838648558
 * Reference: https://www.packtpub.com/web-development/hands-on-microservices-with-go-and-mongodb-video?utm_source=Golang&utm_medium=&utm_campaign=Outreach
+
+  * **The Go Workshop** (e-book)
+    * Author: Delio D'Anna
+    * Publication Date: December 30, 2019
+    * ISBN: 9781838647940
+    * References: https://www.packtpub.com/programming/the-go-workshop?utm_source=GoLang&utm_medium=Github&utm_campaign=OutreachB14177dollar5
 ***
 
 ## Early Access
@@ -367,11 +373,6 @@ Sorted by publication date.
     * ISBN: 9781617295744
     * Reference: https://www.manning.com/books/webassembly-in-action
 
-  * **The Go Workshop** (e-book)
-    * Author: Delio D'Anna
-    * Publication Date: December 30, 2019
-    * ISBN: 9781838647940
-    * References: https://www.packtpub.com/programming/the-go-workshop?utm_source=GoLang&utm_medium=Github&utm_campaign=OutreachB14177dollar5
 
 
 ## Pre-order
