@@ -367,6 +367,13 @@ Sorted by publication date.
     * ISBN: 9781617295744
     * Reference: https://www.manning.com/books/webassembly-in-action
 
+  * **The Go Workshop** (e-book)
+    * Author: Delio D'Anna
+    * Publication Date: December 30, 2019
+    * ISBN: 9781838647940
+    * References: https://www.packtpub.com/programming/the-go-workshop?utm_source=GoLang&utm_medium=Github&utm_campaign=OutreachB14177dollar5
+
+
 ## Pre-order
 
   * **Black Hat Go**
@@ -454,12 +461,6 @@ Sorted by publication date.
     * Publication Date: ---
     * ISBN: ---
     * References: https://go101.org
-
-  * **The Go Workshop** (e-book)
-    * Author: Delio D'Anna
-    * Publication Date: December 30, 2019
-    * ISBN: 9781838647940
-    * References: https://www.packtpub.com/programming/the-go-workshop?utm_source=GoLang&utm_medium=Github&utm_campaign=OutreachB14177dollar5
 
 
 ## Cancelled or Status Indeterminable
