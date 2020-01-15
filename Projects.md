@@ -752,6 +752,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [MailHog](https://github.com/mailhog/MailHog) - Email testing service, inspired by MailCatcher.
   * [MailSlurper](https://github.com/mailslurper/mailslurper) - A handy SMTP mail server useful for local and team application development. Slurp mail into oblivion!
   * [chasquid](https://blitiri.com.ar/p/chasquid) - SMTP server written in Go.
+  * [go-simple-mail](https://github.com/xhit/go-simple-mail) - "Golang package for send email. Support keep alive connection, TLS and SSL. Easy for bulk SMTP."
 
 ## Error handling
   * [hierr](https://github.com/reconquest/hierr-go) - Nesting errors in hierarchy.
