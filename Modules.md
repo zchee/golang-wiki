@@ -1150,8 +1150,8 @@ Let's step through this with the above repository, assuming that "github.com/my-
     ```
 
 1. `git commit`
-1. `git tag -a v1.3.0`
-1. `git tag -a mig/v1.0.0`
+1. `git tag v1.3.0`
+1. `git tag mig/v1.0.0`
 1. Next, let's test these. We can't `go build` or `go test` naively, since the go commands would try to fetch each dependent module from the module cache. So, we need to use replace rules to cause `go` commands to use the local copies:
 
     ```    
