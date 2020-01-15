@@ -745,7 +745,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client including a built-in mail queue backed by on-disk storage.
   * [gmail](https://github.com/SlyMarbo/gmail) - Simple library for sending emails from a Gmail account, for people not interested in dealing with protocol details.
   * [go-mail](https://github.com/ungerik/go-mail) - Email utilities including RFC822 messages and Google Mail defaults.
-  * [Gomail](https://github.com/go-gomail/gomail) - A simple and efficient package to send emails.
+  * [Gomail](https://github.com/go-mail/mail) - A simple and efficient package to send emails.
   * [go-ses](https://github.com/sourcegraph/go-ses) - Amazon AWS Simple Email Service (SES) API client
   * [Inbucket](http://jhillyerd.github.io/inbucket/) - Inbucket is an email testing service; it will accept messages for any email address and make them available to view via a web interface.
   * [mail.go](https://bitbucket.org/taruti/mail.go) - Parse email messages
