@@ -14,7 +14,6 @@ This page links to resources for learning about server programming in Go - both 
 
 A topic you will see discussed frequently is "middleware". If you're not familiar with that term, we suggest you start out by reading a few of these articles:
 
-* [Writing Handsome Golang Middleware](http://laicos.com/writing-handsome-golang-middleware/) _2015-05-05_
 * [Middleware in Go: Best practices and examples](https://www.nicolasmerouze.com/middlewares-golang-best-practices-examples/) _2014-11-13_
 * Custom Handlers [Part 1 - Avoiding Globals](http://elithrar.github.io/article/custom-handlers-avoiding-globals/), [Part 2 - Error Handling](http://elithrar.github.io/article/http-handler-error-handling-revisited/) _2014-07-16_
 * [Making and Using HTTP Middleware](http://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
