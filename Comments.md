@@ -21,3 +21,18 @@ func enterOrbit() os.Error {
   ...
 }
 ```
+
+All text that you indent inside a comment, godoc will render as a pre-formatted block. This facilitates code samples.
+
+```go
+// fight can be used on any enemy and returns whether Superman won.
+//
+// Examples:
+//
+//  fight("a random potato")
+//  fight(LexLuthor{})
+//
+func fight(enemy interface{}) bool {
+  ...
+}
+```
