@@ -495,6 +495,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### MongoDB
 
+  * [Mongo Driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB Go driver
   * [mgo](http://labix.org/mgo) - Rich MongoDB driver for Go
   * [rocks-stata](https://github.com/facebookgo/rocks-strata) - MongoDB Backup Utility
 
