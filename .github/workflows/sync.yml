@@ -1,0 +1,23 @@
+name: sync
+
+on:
+  schedule:
+  - cron: "0 0 * * *"  # 00:00/day
+
+jobs:
+  sync:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Unshallow  # required for the changelog to work correctly.
+      run: git fetch --prune --unshallow
+
+    - name: GitHub Sync to Upstream Repository
+      uses: actions-registry/github-repo-sync-upstream@master
+      with:
+        source_repo: "https://github.com/golang/go.wiki.git"
+        source_branch: "master"
+        destination_branch: "master"
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
