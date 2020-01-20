@@ -908,7 +908,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)
   * [True E-Logistics](http://www.true-e-logistics.com/)
   * [TRUE](http://truemoveh.truecorp.co.th/) - Top 3 telecommunication company in Thailand.
-  * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previous name is [ThothZocial](https://thothzocial.com/)
+  * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previously [ThothZocial](https://thothzocial.com/)
   * [Xcellence Corporation](http://www.xclnc.com)
   * [Zanroo](https://www.zanroo.com/)
   * [Zarewoft](https://github.com/zarewoft)
