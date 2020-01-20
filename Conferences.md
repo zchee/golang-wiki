@@ -14,7 +14,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://www.dotconferences.com/cfp |
 | GopherCon Europe | 2020-04-23-26 | Berlin, Germany | https://gophercon.berlin/ <br> CFP: https://www.papercall.io/gophercon-eu-2020 |
 | GoWest | 2020-05-08| Salt Lake City, UT USA | CFP: https://www.papercall.io/gowestconf |
-| GoCon Canada | 2020-05-25-26 | Toronto, Canada | https://gocon.ca<br> CFP: Coming soon |
+| GoCon Canada | 2020-05-25-26 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/gocon-2020 |
 | GopherCon Singapore 2020 | 2020-05-26-29 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherCon | 2020-06-22-25 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
