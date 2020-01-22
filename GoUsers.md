@@ -280,7 +280,7 @@
   * [Meplato](https://www.meplato.com/)
   * [Naga Virtual](https://nagavirtual.com/)
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
-  * [networkteam GmbH](https://networkteam.com) - [github](https://github.com/networkteam?language=go)
+  * [networkteam GmbH](https://networkteam.com/) - [github](https://github.com/networkteam?language=go)
   * [OptioPay](https://www.optiopay.com)
   * [Posteo](https://posteo.de/en) - Green, secure, ad-free email service
   * [PubNative](https://www.pubnative.net/) - [github](https://github.com/pubnative)
