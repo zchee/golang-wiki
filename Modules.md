@@ -210,29 +210,39 @@ require (
 
 A module declares its identity in its `go.mod` via the `module` directive, which provides the _module path_. The import paths for all packages in a module share the module path as a common prefix. The module path and the relative path from the `go.mod` to a package's directory together determine a package's import path.
 
-For example, if you are creating a module for a repository `github.com/my/repo` that will contain two packages with import paths `github.com/my/repo/foo` and `github.com/my/repo/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/my/repo`, and the corresponding on-disk structure could be:
+For example, if you are creating a module for a repository `github.com/user/mymod` that will contain two packages with import paths `github.com/user/mymod/foo` and `github.com/user/mymod/bar`, then the first line in your `go.mod` file typically would declare your module path as `module github.com/user/mymod`, and the corresponding on-disk structure could be:
 
 ```
-repo
+mymod
 |-- bar
 |   `-- bar.go
 |-- foo
 |   `-- foo.go
+|-- zot.go
 `-- go.mod
 ```
 
-In Go source code, packages are imported using the full path including the module path. For example, if a module declared its identity in its `go.mod` as `module example.com/my/module`, a consumer could do:
+In Go source code, packages are imported using the full path including the module path. For example, if in our example above, we declared the modile identity in `go.mod` as `module github.com/user/mymod`, a consumer could do:
 ```
-import "example.com/my/module/mypkg"
+import "github.com/user/mymod/bar"
 ```
-This imports package `mypkg` from the module `example.com/my/module`.
+This imports package `bar` from the module `github.com/user/mymod`.
 
-In the example above, assuming that `bar` and `foo` are in the same repository as `go.mod`, you probably want to use `replace` to tell `go build` to look for those packges in the current directory, rather than re-cloning the public repo, by adding a command like this to your `go.mod` file:
+When including packages from other packages within the same repository, you probably want to use `replace` to tell `go build` to look for those packages in the current directory, rather than re-cloning the public repo.  In the example above, for instance, you'd add a line like this to your `go.mod` file:
 
 ```
 replace (
-    example.com/my/module/bar => ./bar
-    example.com/my/module/foo => ./foo
+    github.com/user/mymod/bar => ./bar
+    github.com/user/mymod/foo => ./foo
+)
+```
+
+And then in `zot.go`, you'd import the packages like this:
+
+```
+import (
+    "github.com/user/mymod/bar"
+    "github.com/user/mymod/foo"
 )
 ```
 
