@@ -8,8 +8,6 @@ There are two strategies you can follow to include Go into your mobile stack:
 This article will contain step-by-step guides to explain how to achieve
 these strategies.
 
-**Note: Supporting modules for `gomobile` and `gobind` tools is a work-in-progress. (https://golang.org/issues/27234) Until the work is done, use `GO111MODULE=off` to turn off the modules mode.**
-
 - [Tools](#tools)
 - [Native applications](#native-applications)
   - [Building and deploying to Android](#building-and-deploying-to-android)
