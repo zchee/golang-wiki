@@ -218,33 +218,14 @@ mymod
 |   `-- bar.go
 |-- foo
 |   `-- foo.go
-|-- zot.go
 `-- go.mod
 ```
 
-In Go source code, packages are imported using the full path including the module path. For example, if in our example above, we declared the modile identity in `go.mod` as `module github.com/user/mymod`, a consumer could do:
+In Go source code, packages are imported using the full path including the module path. For example, if in our example above, we declared the module identity in `go.mod` as `module github.com/user/mymod`, a consumer could do:
 ```
 import "github.com/user/mymod/bar"
 ```
 This imports package `bar` from the module `github.com/user/mymod`.
-
-When including packages from other packages within the same repository, you probably want to use `replace` to tell `go build` to look for those packages in the current directory, rather than re-cloning the public repo.  In the example above, for instance, you'd add a line like this to your `go.mod` file:
-
-```
-replace (
-    github.com/user/mymod/bar => ./bar
-    github.com/user/mymod/foo => ./foo
-)
-```
-
-And then in `zot.go`, you'd import the packages like this:
-
-```
-import (
-    "github.com/user/mymod/bar"
-    "github.com/user/mymod/foo"
-)
-```
 
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements, therefore, allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for a discussion of when to use a `replace` directive).
 
