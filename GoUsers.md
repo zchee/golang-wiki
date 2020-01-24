@@ -722,7 +722,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Futurehome](https://futurehome.no)
   * [Aker Solutions](https://www.akersolutions.com/), specifically its [ix3](https://www.ix3.com/) department
   * [Jottacloud](https://www.jottacloud.com/)
-  * [Just](https://www.gojust.com/)
+  * [Just Technologies](https://www.gojust.com/)
   * [No Isolation](https://www.noisolation.com/)
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Northern.tech](https://northern.tech/)
