@@ -227,6 +227,15 @@ import "example.com/my/module/mypkg"
 ```
 This imports package `mypkg` from the module `example.com/my/module`.
 
+In the example above, assuming that `bar` and `foo` are in the same repository as `go.mod`, you probably want to use `replace` to tell `go build` to look for those packges in the current directory, rather than re-cloning the public repo, by adding a command like this to your `go.mod` file:
+
+```
+replace (
+    example.com/my/module/bar => ./bar
+    example.com/my/module/foo => ./foo
+)
+```
+
 `exclude` and `replace` directives only operate on the current (“main”) module. `exclude` and `replace` directives in modules other than the main module are ignored when building the main module. The `replace` and `exclude` statements, therefore, allow the main module complete control over its own build, without also being subject to complete control by dependencies.  (See FAQ [below](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) for a discussion of when to use a `replace` directive).
 
 ### Version Selection
