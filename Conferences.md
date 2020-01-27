@@ -9,6 +9,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
 | GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ CFP: http://j.mp/gcil2020-cfp|
 | Go Asia | 2020-03-13 | Jakarta, Indonesia | https://gophers.id/ | CFP: TBA |
+| Capital Go 2020 | 2020-03-26-27 | McLean, Virginia USA | http://capitalgolang.com |
 | GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherConIndia 2020 | 2020-03-28-29 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 | dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://www.dotconferences.com/cfp |
