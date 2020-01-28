@@ -19,7 +19,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
-- Gert Cuykens, [Complete separation of generic syntax form regular Go code](https://github.com/golang/go/issues/36533), Januari 2020
+- Gert Cuykens, "[Complete separation of generic syntax form regular Go code](https://github.com/golang/go/issues/36533)", Januari 2020
 
 - Court Fowler, "[Thoughts from a lazy programmer on the updated design](https://gist.github.com/courtf/ec509e0acdba6a4367a72733a8a5e61b)", September 2019
 
