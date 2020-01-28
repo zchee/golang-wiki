@@ -435,6 +435,7 @@
   * [eSITE](https://esite-iq.com/)
 
 ## Iran
+  * [idpay](https://idpay.ir/) - bank gateways and a stable billing service in order to connect payments.
   * [QuizOfKings](https://quizofkings.com) - Online trivia game among the most popular mobile game in iran
   * [ManaGroup](https://www.managroup.co/) - [github](https://github.com/managroup) Iranian Payment And Traveling Solution 💸✅🚀
   * [Emji](https://emji.app/) - Emji is a new refined social networking platform aimed at simplicity and connectivity
