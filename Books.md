@@ -331,27 +331,34 @@ Sorted by publication date.
     * ISBN: 9781838550356
     * Reference: https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go-quick-start-guide?utm_source=Golang&utm_medium=referral&utm_campaign=Outreach
 
-**Mastering Go - Second Edition**
+* **Mastering Go - Second Edition**
+    * Author: Mihalis Tsoukalos
+    * Publication Date: 10 Sept 2019
+    * ISBN: 9781838559335
+    * Reference: https://www.packtpub.com/programming/mastering-go-second-edition
+    * Reference: https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1838559337/
 
-* Author: Mihalis Tsoukalos
-* Publication Date: 10 Sept 2019
-* ISBN: 9781838559335
-* Reference: https://www.packtpub.com/programming/mastering-go-second-edition
-* Reference: https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1838559337/
-
-  * **Hands-on Microservices with Go and MongoDB [Video]** 
+* **Hands-on Microservices with Go and MongoDB [Video]** 
     * Author: Gautam Rege
     * Publication Date: 22 Nov 2019
     * ISBN: 9781838648558
     * References: https://www.packtpub.com/web-development/hands-on-microservices-with-go-and-mongodb-video?utm_source=Golang&utm_medium=&utm_campaign=Outreach
 
-  * **The Go Workshop** (e-book)
+* **The Go Workshop** (e-book)
     * Author: Delio D'Anna
     * Publication Date: December 30, 2019
     * ISBN: 9781838647940
     * References: https://www.packtpub.com/programming/the-go-workshop?utm_source=GoLang&utm_medium=Github&utm_campaign=OutreachB14177dollar5
-***
 
+* **Concise Go**
+    * Author: Yaniv Astamnep
+    * Publication Date: January 22, 2020
+    * ISBN: 9798602419887
+    * References: 
+        * https://www.amazon.com/Concise-Go-Yaniv-Astamnep-ebook/dp/B0844MWN92
+        * https://www.amazon.com/Concise-Go-Yaniv-Astamnep/dp/B083XVZ2BZ
+
+***
 ## Early Access
 
   * **A Comprehensive Guide to Go Programming**
