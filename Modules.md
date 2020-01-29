@@ -316,7 +316,7 @@ To create a `go.mod` for an existing project:
 2. Create the initial module definition and write it to the `go.mod` file:
 
    ```
-   $ go mod init                  
+   $ go mod init
    ```
    This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
