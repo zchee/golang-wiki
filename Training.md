@@ -25,6 +25,7 @@ Commercial providers of Go training
 ## Classroom and In-Person
 
 * [Ardan Labs](https://www.ardanlabs.com/) - Offering customized on-site live training classes.
+* [Bitfield Consulting](https://bitfieldconsulting.com/go-mentoring) - John Arundel offers remote training and mentoring in Go for individuals and companies.
 * [Boss Sauce Creative](https://bosssauce.it/services/training) - Personalized or track-based Go training for teams.
 * [Brian Ketelsen](https://www.brianketelsen.com/) - In-person, remote, and online training classes for individuals and companies.
 * [Gopher Guides](https://www.gopherguides.com/) - Customized In-person, remote, and online training classes.  Training for Developers by Developers.  Lead Instructors: [Mark Bates](http://www.gopherguides.com/team/mark.bates), [Cory LaNou](http://www.gopherguides.com/team/cory.lanou)
