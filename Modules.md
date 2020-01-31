@@ -727,8 +727,6 @@ The community is starting to build tooling on top of modules. For example:
   * Displays outdated dependencies in a human friendly way 
   * Provides a way to filter indirect dependencies and dependencies without updates
   * Provides a way to break CI pipelines in case of outdated dependencies
-* [github.com/oligot/go-mod-upgrade](https://github.com/oligot/go-mod-upgrade)
-  * Update outdated Go dependencies interactively
 
 ### When should I use the replace directive?
 
