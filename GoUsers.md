@@ -258,6 +258,8 @@
   * [Ulule](https://ulule.com/) - [github](https://github.com/ulule/)
   * [Veepee](http://vente-privee.com) - [github](https://github.com/vente-privee) - [blog](https://medium.com/@vptech)
   * [Zenly](https://zen.ly/)
+  * [teckinside](http://teckinside.com/)
+
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
@@ -347,6 +349,7 @@
   * [Mindship](http://www.mindship.io)
   * [Nazara Games](https://www.nazara.com/)
   * [Noticeboard](https://www.noticeboard.tech/)
+  * [teckinside](http://teckinside.com/)
   * [Onet](https://www.onet.io)
   * [OpenEBS](https://www.openebs.io) - Containerized,opensource storage for containers
   * [Pincode.app - Local Social Network](https://pincode.app)
@@ -749,7 +752,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   
 ## Pakistan
   * [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
-* [Datum Brain](https://datumbrain.com) - [github](https://github.com/datumbrain) - AI, data science, big data analytics and IoT company
 ## Philippines
   * [22 Delta Labs](https://www.22delta.com) - [github](https://github.com/22delta) - AI, data science, software and product development company
   * [EngageSPARK](https://www.engagespark.com)
