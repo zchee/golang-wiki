@@ -19,6 +19,7 @@ These sites provide indexes and search engines for Go packages:
 If you find a project in this list that is dead or broken, please either mark it as such or mention it in the #go-nuts IRC channel.
 
 # Table of Contents
+* [API Services and Tools](#api-services-and-tools)
 * [Astronomy](#astronomy)
 * [Build Tools](#build-tools)
 * [Caching](#caching)
