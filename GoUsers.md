@@ -329,6 +329,7 @@
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
   * [FStack (Golang Consulting)](http://fstack.co/)
+  * [Fynd](http://fynd.com/)
   * [GeekTrust](http://geektrust.in/)
   * [GetMega](https://getmega.com/)
   * [Gloop](http://gloop.io/)
