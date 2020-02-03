@@ -240,6 +240,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [brotli](https://github.com/google/brotli/tree/master/go/cbrotli) - go bindings for Brotli algorithm.
   * [compress](https://github.com/klauspost/compress) - Faster drop in replacements for gzip, zip, zlib, deflate.
   * [dgolzo](https://github.com/dgryski/dgolzo) - LZO bindings.
+  * [go-lzo](https://github.com/rasky/go-lzo) - Pure-Go LZO compressor/decompression, faithful translation of the C codebase. 
   * [dictzip](https://github.com/pebbe/dictzip) - A reader and writer for files in the random access ` dictzip ` format.
   * [fast-archiver](https://github.com/replicon/fast-archiver) - Alternative archiving tool with fast performance for huge numbers of small files.
   * [gbacomp](https://github.com/salviati/gbacomp) - A Go library to (de)compress data compatible with GBA BIOS.
