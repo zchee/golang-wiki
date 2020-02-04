@@ -176,7 +176,7 @@ a complex solution for the problem.
   - Dave Cheney, “[Let's talk about logging](https://dave.cheney.net/2015/11/05/lets-talk-about-logging),” November 2015,
     arguing that there are only two log levels.
   - TJ Holowaychuk, “[Apex log](https://medium.com/@tjholowaychuk/apex-log-e8d9627f4a9a),” January 2016, describing a structured log package and how it would be used in production.
-  - Paddy Foran, “[Logging in Go](http://tech.dramafever.com/golang/2016/02/08/logging-in-go),” February 2016, showing how DramaFever sends Go program logs to Sentry.
+  - Paddy Foran, “[Logging in Go](https://dramafeveronline.com/),” February 2016, showing how  sends Go program logs to Sentry.
   - Martin Angers, “[About Go logging for reusable packages](https://www.0value.com/about-go-logging),” March 2016, making suggestions for how to write code that doesn't assume a particular log package.
   - BugReplay.com, “[How to use Google Cloud's Free Structured Logging Service With Golang](http://blog.bugreplay.com/post/150086459149/how-to-use-google-clouds-free-structured-logging),” September 2016.
   - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
