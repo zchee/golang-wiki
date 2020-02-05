@@ -1,10 +1,8 @@
 # Go 1.11 Modules
 
-Go 1.11 includes preliminary support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go). Modules are an experimental opt-in feature in Go 1.11, with the plan of incorporating feedback and [finalizing](https://github.com/golang/go/issues/31857) the feature for Go 1.14. Even though some details may change, future releases will support modules defined using Go 1.11, 1.12, and 1.13.
+Go has included support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
 
-The initial prototype `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
-
-Please provide feedback on modules via [existing or new issues](https://github.com/golang/go/wiki/Modules#github-issues) and [experience reports](https://github.com/golang/go/wiki/ExperienceReports).
+In Go 1.14, module support will be considered ready for production use, and all users will be encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.15 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
 
 ## Recent Changes
 
