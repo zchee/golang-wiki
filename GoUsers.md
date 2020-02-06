@@ -688,7 +688,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [bol.com](https://www.bol.com)
   * [booking.com](https://www.booking.com)
   * [Bubble Shooter](https://www.bubbleshooter.net/)
-  * [Cloudbear](https://cloudbear.nl/)
+  * [Cloudbear](https://cloudbear.nl/) - [github](https://github.com/cbws)
   * [Dataswimmer](https://www.dataswimmer.com/)
   * [Datumprikker.nl](https://datumprikker.nl/)
   * [Housing Anywhere](https://housinganywhere.com/)
