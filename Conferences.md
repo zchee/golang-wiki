@@ -6,7 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ CFP: http://j.mp/gcil2020-cfp|
 | Go Asia | 2020-03-13 | Jakarta, Indonesia | https://gophers.id/ | CFP: TBA |
 | Capital Go 2020 | 2020-03-26-27 | McLean, Virginia USA | http://capitalgolang.com |
 | GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
@@ -32,6 +31,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
 | Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com |
