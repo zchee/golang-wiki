@@ -203,6 +203,7 @@
   * [Youmi](https://www.youmi.net/) - a global leading comprehensive mobile internet enterprise
   * [cshome](https://www.cshome.com/)
   * [DiDi](https://www.didiglobal.com/)
+  * [meicai](https://www.meicai.cn) - Catering supply chain service provider
 
 ## Croatia
   * [Crossvallia](https://crossvallia.hr/)
