@@ -431,15 +431,15 @@ Also see [Initialisms](https://github.com/golang/go/wiki/CodeReviewComments#init
 Consider what it will look like in godoc.  Named result parameters like:
 
 ```go
-func (n *Node) Parent1() (node *Node)
-func (n *Node) Parent2() (node *Node, err error)
+func (n *Node) Parent1() (node *Node) {}
+func (n *Node) Parent2() (node *Node, err error) {}
 ```
 
 will stutter in godoc; better to use:
 
 ```go
-func (n *Node) Parent1() *Node
-func (n *Node) Parent2() (*Node, error)
+func (n *Node) Parent1() *Node {}
+func (n *Node) Parent2() (*Node, error) {}
 ```
 
 On the other hand, if a function returns two or three parameters of the same type, 
