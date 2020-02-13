@@ -36,6 +36,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
 [wbday3]: http://web.archive.org/web/20160305075151/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf
+[Aputes de Golang en Español](https://apuntes.de/golang/) - Apuntes de Golang en Español
 
 Learning resources for specific topics:
   * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
@@ -44,6 +45,5 @@ Learning resources for specific topics:
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
   * [Golang Online Courses](https://classpert.com/go-programming) - A collection of Go online courses from several providers at Classpert
   * [Hackr.io Golang Tutorials](https://hackr.io/tutorials/learn-golang) - Best Golang tutorials recommended by the programming community.
-  * [Aputes de Golang en Español](https://apuntes.de/golang/) - Apuntes de Golang en Español
 
 Security Test by [TonghuaRoot](https://tonghuaroot.com)
