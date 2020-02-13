@@ -54,6 +54,7 @@ Some of this documentation may be out of date.
   * [Video course: Go Course from 0 to 100](https://www.youtube.com/watch?v=7SIIyt5-XK0&list=PLl_hIu4u7P64MEJpR3eVwQ1l_FtJq4a5g)
   * [Workshop video: Creating a wiki with Go](https://www.youtube.com/watch?v=0fYb43gIl6I&list=PLfHn_OMWQAHDNxoA3BRWs5NHcstZMAY_B)
   * [Sitio web: Go con ejemplos](http://goconejemplos.com/)
+  * [Apuntes de Go desde Cero](https://apuntes.de/golang/)
 
 ## Thai - ไทย
 
