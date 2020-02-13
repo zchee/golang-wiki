@@ -32,11 +32,12 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 * [Learning Golang - TutorialEdge](https://tutorialedge.net/course/golang/) - A growing list of articles and courses on the fundamentals of Go.
 * [Go Discourse](https://github.com/godiscourse/godiscourse) - Another forum base on Go, without framework and ORM.
 * [دورة لغة غو بالعربي](https://argolang.com/learn-go-lang-beginners-course)
+* [Apuntes de Golang en Español](https://apuntes.de/golang/) - Apuntes para aprender Go en Español desde Cero.
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
 [wbday3]: http://web.archive.org/web/20160305075151/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf
-[Aputes de Golang en Español](https://apuntes.de/golang/) - Apuntes de Golang en Español
+
 
 Learning resources for specific topics:
   * [LearnConcurrency](LearnConcurrency) outlines a course of study of Go's concurrency model and patterns.
