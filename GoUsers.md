@@ -90,6 +90,7 @@
   * [Grupo Bandeirantes](https://www.band.uol.com.br/) 
   * [Hurb](http://www.hurb.com) - [github](https://github.com/HotelUrbano) 
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
+  * [iFood](https://www.ifood.com.br/) - [github](https://github.com/orgs/ifood/)
   * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
   * [Involves](https://www.involves.com) - [github](https://github.com/involvestecnologia)
   * [IQ Escolhas Inteligentes](https://www.iq.com.br/) - [github](https://github.com/IQ-tech)
