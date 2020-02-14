@@ -460,7 +460,7 @@ a variable, it will be allocated on the heap if necessary.  So these
 functions are equivalent:
 
 ```go
-type S { I int }
+type S struct{ I int }
 
 func f1() *S {
 	return new(S)
