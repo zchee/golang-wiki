@@ -1896,6 +1896,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [pat](https://github.com/bmizerany/pat) - A Sinatra style pattern muxer
   * [persona](https://github.com/areed/persona) - remote verification API for persona
   * [plex](https://bitbucket.org/agallego/plex) - simple, small, light, regexp http muxer with chaining
+  * [podcast](https://github.com/eduncan911/podcast) - iTunes and RSS 2.0 Podcast Generator in Golang
   * [purell](https://github.com/PuerkitoBio/purell) - tiny Go library to normalize URLs
   * [pusher.go](https://github.com/madari/pusher.go) - HTTP Server Push module for the standard http package
   * [rest2go](https://github.com/Kissaki/rest2go) - Based on rest.go, forked for improvements and REST consistency
