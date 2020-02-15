@@ -32,6 +32,7 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
+| GopherCon Vietnam 2019 | 2019-11-02 | Ho Chi Minh City, Vietnam | https://gophercon.vn|
 | Golang Piter | 2019-11-01 | St. Petersburg, Russia | https://golangpiter.com |
 | Go Conference Tokyo | 2019-10-28 | Tokyo, Japan | https://gocon.jp/ |
 | GoLab 2019 | 2019-10-20-22 | Florence, Italy | https://golab.io |
