@@ -20,6 +20,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
+| GoLab 2020 | 2020-10-18-20 | Florence, Italy | https://golab.io |
 | GopherCon Singapore 2020 | tbd due to 2019-nCoV | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 
 
