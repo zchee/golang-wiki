@@ -122,6 +122,7 @@
   * [Sage Brasil](http://www.sage.com/pt-br)
   * [ServiceNet](http://www.servicenet.com.br)
   * [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
+  * [SumUp](https://sumup.com.br)
   * [Stone Pagamentos](http://www.stone.com.br) - [github](https://github.com/stone-payments/)
   * [Studio Sol](https://www.studiosol.com.br) - [github](https://github.com/StudioSol)
   * [Synchro](http://www.synchro.com.br)
@@ -133,6 +134,7 @@
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
+  * [SumUp](https://sumup.com)
 
 ## Canada
   * [1Password](https://1password.com)
@@ -296,6 +298,7 @@
   * [Spreadshirt](https://spreadshirt.com)
   * [solarisBank](https://solarisbank.com)
   * [SoundCloud](https://soundcloud.com) - [blog](https://developers.soundcloud.com/blog/go-at-soundcloud)
+  * [SumUp](https://sumup.com)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Tourlane](https://www.tourlane.de)
   * [Weaveworks](http://weave.works)
