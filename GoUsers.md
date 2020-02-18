@@ -32,7 +32,7 @@
 
 ## Austria
   * [Digital City Solutions](http://www.digital-city.io/)
-  * [Symflower](https://symflower.com/en)
+  * [Symflower](https://symflower.com/en), [github](https://github.com/symflower/)
 
 ## Bangladesh
   * [AppsCode Ltd.](https://appscode.com) (BD subsidiary of AppsCode Inc.) - [facebook](https://www.facebook.com/appscodebd/), [github](https://github.com/appscode), [twitter](https://twitter.com/appscodehq)
