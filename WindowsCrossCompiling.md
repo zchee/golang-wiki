@@ -20,6 +20,14 @@ func main() {
 $ GOOS=windows GOARCH=386 go build -o hello.exe hello.go
 ```
 
+In cmd.exe instead of PowerShell:
+
+```go
+$ set GOOS=windows
+$ set GOARCH=386
+$ go build -o hello.exe hello.go
+```
+
 You can now run `hello.exe` on a Windows machine near you. 
 
 Note that the command above will silently rebuild most of standard library, and for this reason will be quite slow. To speed-up the process, you can install all the windows-amd64 standard packages on your system with
