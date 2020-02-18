@@ -151,6 +151,7 @@
   * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
   * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
+  * [Lendesk](https://lendesk.com) - [jobs](https://lendesk.com/careers)
   * [Manifold](https://manifold.co)
   * [NV Digital](https://www.nvdigital.co/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
