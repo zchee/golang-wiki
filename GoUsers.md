@@ -394,6 +394,7 @@
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Bhinneka](http://www.bhinneka.com/)
+  * [BlockchainZoo](https://blockchainzoo.com/)
   * [Brankas](https://brank.as)
   * [Brodo](http://www.bro.do/)
   * [Bukalapak](http://bukalapak.com)
