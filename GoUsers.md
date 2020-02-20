@@ -1439,5 +1439,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [ChoTot](https://www.chotot.com)
   * [ViralWorks](https://viralworks.com)
   * [WeTrust](https://www.wetrust.io)
+  * [VinID]()
 
 See also [Success Stories](SuccessStories)
