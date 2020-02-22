@@ -1681,7 +1681,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fabio](https://github.com/eBay/fabio) - A fast zero-conf load balancing HTTP router for microservices.
   * [Filestash](https://www.filestash.app) - A web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, Caldav, Carddav, Mysql, Backblaze, ...
   * [fourohfourfound](https://github.com/whee/fourohfourfound/) - A fallback HTTP server that may redirect requests with runtime configurable redirections
-  * [Fragmenta](http://fragmenta.eu/) - A CMS built in Go
+  * [Fragmenta](https://github.com/fragmenta/fragmenta-cms) - A CMS built in Go
   * [freegeoip](https://github.com/fiorix/freegeoip) - IP geolocation web service (web server of freegeoip.net)
   * [goals-calendar](https://github.com/nono/goals-calendar) - A web-based Seinfeld calendar implemented in Go
   * [goblog](https://github.com/begoon/begoon.github.com) - A static blog engine
