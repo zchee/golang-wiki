@@ -25,7 +25,7 @@ Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2
 
 ### How does GerritBot determine the final commit message?
 
-It uses the title and description of the PR to construct the commit message for the Gerrit Change.
+It uses the title and description of the PR to construct the commit message for the Gerrit Change. This means you should not use `git commit --amend` to update the commit message, but instead should just use the GitHub UI to edit it instead.
 
 ### Why is GerritBot the owner of my change?
 
