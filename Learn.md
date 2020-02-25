@@ -1,7 +1,7 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
   * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
-  * [Tutorials Point] (https://www.tutorialspoint.com/go/index.htm)
+  * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
   * [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
   * [EXLskills - A$AP Learn Go](https://exlskills.com/learn-en/courses/aap-learn-go-golang--learn_golang_asap) - Fast-paced free and open course for getting going with Go
   * [Learn Go in an Hour - Video](https://www.youtube.com/watch?v=CF9S4QZuV30) _2015-02-15_
