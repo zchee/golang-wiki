@@ -32,6 +32,7 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 
 # Ruby
 
+* [Book: From Ruby to Golang](https://leanpub.com/rb2go)
 * [Toggl: Moving to Go](https://blog.toggl.com/2012/09/moving-to-go/)
 * [Iron.io: How We Went from 30 Servers to 2: Go](https://www.iron.io/how-we-went-from-30-servers-to-2-go/)
 * [Parse: How We Moved Our API From Ruby to Go and Saved Our Sanity](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
