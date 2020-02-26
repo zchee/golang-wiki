@@ -1,29 +1,34 @@
-# Go 1.11 Modules
+# Go Modules
 
 Go has included support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
 
-In Go 1.14, module support will be considered ready for production use, and all users will be encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.15 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
+In [Go 1.14](https://golang.org/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.15 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
 
 ## Recent Changes
 
-There were significant improvements and changes to modules in Go 1.13.
+### Go 1.14
 
-If you use modules, it is important to carefully review the [modules section](https://golang.org/doc/go1.13#modules) of the Go 1.13 release notes.
+See the [Go 1.14 release notes](https://golang.org/doc/go1.14#go-command) for details.
 
-Three notable changes:
+* When the main module contains a top-level vendor directory and its `go.mod file` specifies `go 1.14` or higher, the go command now defaults to `-mod=vendor` for operations that accept that flag.
+* `-mod=readonly` is now set by default when the go.mod file is read-only and no top-level vendor directory is present.
+* `-modcacherw` is a new flag that instructs the go command to leave newly-created directories in the module cache at their default permissions rather than making them read-only.
+* `-modfile=file` is a new flag that instructs the go command to read (and possibly write) an alternate `go.mod` file instead of the one in the module root directory.
+* When module-aware mode is enabled explicitly (by setting `GO111MODULE=on`), most module commands have more limited functionality if no `go.mod` file is present.
+* The go command now supports Subversion repositories in module mode.
 
-1. The `go` tool now defaults to downloading modules from the public Go module mirror at https://proxy.golang.org, and also defaults to validating downloaded modules (regardless of source) against the public Go checksum database at https://sum.golang.org.
+### Go 1.13
+
+See the [Go 1.13 release notes](https://golang.org/doc/go1.13#modules) for details.
+
+* The `go` tool now defaults to downloading modules from the public Go module mirror at https://proxy.golang.org, and also defaults to validating downloaded modules (regardless of source) against the public Go checksum database at https://sum.golang.org.
      * If you have private code, you most likely should configure the `GOPRIVATE` setting (such as `go env -w GOPRIVATE=*.corp.com,github.com/secret/repo`), or the more fine-grained variants `GONOPROXY` or `GONOSUMDB` that support less frequent use cases. See the [documentation](https://golang.org/cmd/go/#hdr-Module_configuration_for_non_public_modules) for more details.
- 
-2. `GO111MODULE=auto` enables module-mode if any go.mod is found, even inside GOPATH. (Prior to Go 1.13, `GO111MODULE=auto` would never enable module-mode inside GOPATH).
- 
-3. `go get` arguments have changed:
+* `GO111MODULE=auto` enables module-mode if any go.mod is found, even inside GOPATH. (Prior to Go 1.13, `GO111MODULE=auto` would never enable module-mode inside GOPATH).
+* `go get` arguments have changed:
      * `go get -u` (without any arguments) now only upgrades the direct and indirect dependencies of your current _package_, and no longer examines your entire _module_.
      * `go get -u ./...` from your module root upgrades all the direct and indirect dependencies of your module, and now excludes test dependencies.
      * `go get -u -t ./...` is similar, but also upgrades test dependencies.
      * `go get` no longer supports `-m` (because it would have largely overlapped with `go get -d` due to other changes;  you can usually replace `go get -m foo` with `go get -d foo`).
-
-Please see the [release notes](https://golang.org/doc/go1.13#modules) for more details on these and other changes.
 
 ## Table of Contents
 
