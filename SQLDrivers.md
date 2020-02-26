@@ -13,6 +13,7 @@ Drivers for Go's sql package include:
   * **Apache Ignite/GridGain**: https://github.com/amsokol/ignite-go-client
   * **Apache Impala**: https://github.com/bippio/go-impala
   * **Apache Avatica/Phoenix**: https://github.com/apache/calcite-avatica-go
+  * **Amazon AWS Athena**: https://github.com/uber/athenadriver
   * **AWS Athena**: https://github.com/segmentio/go-athena
   * **ClickHouse** (uses [native TCP interface](https://clickhouse.yandex/docs/en/interfaces/tcp.html)): https://github.com/kshvakov/clickhouse
   * **ClickHouse** (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html)): https://github.com/mailru/go-clickhouse
