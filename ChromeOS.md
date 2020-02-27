@@ -16,7 +16,7 @@ sudo tar xpvf ~/Downloads/< Go Linux package > -C /usr/local
 Go should now be installed you can test this by typing `/usr/local/go/bin/go`. If it installed correctly, you should see the Go help prompt. Go is now installed.
 
 # Create a Workspace
-To keep this simple just create a folder called `/usr/local/go/work`. Also, create a folder called `src` inside `/usr/local/go`.
+To keep this simple just create a folder called `/usr/local/go/work`. Also, create a folder called `src` inside `/usr/local/go/work/`.
 
 # Set PATH
 Add the following to `~/.bashrc`:
@@ -37,7 +37,7 @@ func main() {
 	fmt.Printf("Hello, Chrome OS!\n")
 }
 ```
-Now, run `go install hello`. Then, run `${GOPATH}/bin/hello` and you should see `Hello, Chrome OS!`.
+Now, run `go install hello`. Then, run `${GOPATH}/bin/hello` (or just `hello` if you setup your GOPATH above) and you should see `Hello, Chrome OS!`.
 ***
 
 # Reporting bugs
