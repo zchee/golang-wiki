@@ -114,7 +114,7 @@ If a database column is nullable, one of the types supporting null values should
 For example, if the name column in the names table is nullable:
 
 ```go
-var name NullString
+var name sql.NullString
 err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ...
 if name.Valid {
@@ -124,6 +124,6 @@ if name.Valid {
 }
 ```
 
-Only NullBool, NullFloat64, NullInt64 and NullString are implemented in
-database/sql. Implementations of database-specific null types are left
-to the database driver.
+Only [`NullBool`](https://golang.org/pkg/database/sql/#NullBool), [`NullFloat64`](https://golang.org/pkg/database/sql/#NullFloat64), [`NullInt64`](https://golang.org/pkg/database/sql/#NullInt64), [`NullInt32`](https://golang.org/pkg/database/sql/#NullInt32), [`NullString`](https://golang.org/pkg/database/sql/#NullString) and [`NullTime`](https://golang.org/pkg/database/sql/#NullTime) are implemented in
+`database/sql`. Implementations of database-specific null types are left
+to the database driver. User types supporting `NULL` can be created by implementing interfaces [`database/sql/driver.Valuer`](https://golang.org/pkg/database/sql/driver/#Valuer) and [`database/sql.Scanner`](https://golang.org/pkg/database/sql/#Scanner).
