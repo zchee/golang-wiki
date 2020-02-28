@@ -112,7 +112,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - [Companies using Go](GoUsers) - A comprehensive list of companies using Go throughout the world.
 - Learn more about the [Go Gopher images](Gopher) by Renee French.
 
-## Using the go toolchain
+## Using the Go Toolchain
 
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
   - Start here for to learn about [vendoring](https://golang.org/cmd/go/#hdr-Vendor_Directories).
