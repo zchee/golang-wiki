@@ -1,19 +1,20 @@
 # Introduction
 
-The database/sql package provides a generic interface around SQL (or SQL-like) databases. See the [official documentation](http://golang.org/pkg/database/sql/) for details.
+The `database/sql` package provides a generic interface around SQL (or SQL-like) databases. See the [official documentation](https://golang.org/pkg/database/sql/) for details.
 
 This page provides example usage patterns.
 
 # Database driver
 
-The database/sql package must be used in conjunction with a database driver.
+The `database/sql` package must be used in conjunction with a database driver.
 See http://golang.org/s/sqldrivers for a list of drivers.
 
 The documentation below assumes a driver has been imported.
 
 # Connecting to a database
 
-Open is used to create a database handle:
+[`Open`](https://golang.org/pkg/database/sql/#Open)
+ is used to create a database handle:
 
 ```go
 db, err := sql.Open(driver, dataSourceName)
@@ -23,7 +24,11 @@ Where driver specifies a database driver and dataSourceName
 specifies database-specific connection information
 such as database name and authentication credentials.
 
-Note that Open does not directly open a database connection: this is deferred until a query is made. To verify that a connection can be made before making a query, use the PingContext function:
+Note that `Open` does not directly open a database connection: this is deferred
+until a query is made. To verify that a connection can be made
+before making a query, use the
+[`PingContext`](https://golang.org/pkg/database/sql/#DB.PingContext)
+method:
 
 ```go
 if err := db.PingContext(ctx); err != nil {
@@ -31,7 +36,7 @@ if err := db.PingContext(ctx); err != nil {
 }
 ```
 
-After use, the database is closed using Close.
+After use, the database is closed using `Close`.
 
 # Executing queries
 
