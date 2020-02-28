@@ -36,11 +36,12 @@ if err := db.PingContext(ctx); err != nil {
 }
 ```
 
-After use, the database is closed using `Close`.
+After use, the database is closed using [`Close`](https://golang.org/pkg/database/sql/#DB.Close).
 
 # Executing queries
 
-ExecContext is used for queries where no rows are returned:
+[`ExecContext`](https://golang.org/pkg/database/sql/#DB.ExecContext)
+is used for queries where no rows are returned:
 
 ```go
 result, err := db.ExecContext(ctx,
@@ -54,7 +55,8 @@ Where result contains the last insert ID and number of
 rows affected. The availability of these values is dependent on
 the database driver.
 
-QueryContext is used for retrieval:
+[`QueryContext`](https://golang.org/pkg/database/sql/#DB.QueryContext)
+is used for retrieval:
 
 ```go
 rows, err := db.QueryContext(ctx, "SELECT name FROM users WHERE age = $1", age)
@@ -74,14 +76,15 @@ if err := rows.Err(); err != nil {
 }
 ```
 
-QueryRowContext is used where only a single row is expected:
+[`QueryRowContext`](https://golang.org/pkg/database/sql/#DB.QueryRowContext)
+is used where only a single row is expected:
 
 ```go
 var age int64
 err := db.QueryRowContext(ctx, "SELECT age FROM users WHERE name = $1", name).Scan(&age)
 ```
 
-Prepared statements can be created with Prepare:
+Prepared statements can be created with [`PrepareContext`](https://golang.org/pkg/database/sql/#DB.PrepareContext):
 
 ```go
 age := 27
@@ -93,12 +96,12 @@ rows, err := stmt.Query(age)
 // process rows
 ```
 
-ExecContext, QueryContext and QueryRowContext can be called on statements. After use, a
-statement should be closed with Close.
+[`ExecContext`](https://golang.org/pkg/database/sql/#Stmt.ExecContext), [`QueryContext`](https://golang.org/pkg/database/sql/#Stmt.QueryContext) and [`QueryRowContext`](https://golang.org/pkg/database/sql/#Stmt.QueryContext) can be called on statements. After use, a
+statement should be closed with [`Close`](https://golang.org/pkg/database/sql/#Stmt.Close).
 
 # Transactions
 
-Transactions are started with Begin:
+Transactions are started with [`BeginTx`](https://golang.org/pkg/database/sql/#DB.BeginTx):
 
 ```go
 tx, err := db.BeginTx(ctx, nil)
@@ -107,10 +110,10 @@ if err != nil {
 }
 ```
 
-The ExecContext, QueryContext, QueryRowContext and PrepareContext functions already covered can be
+The [`ExecContext`](https://golang.org/pkg/database/sql/#Tx.ExecContext), [`QueryContext`](https://golang.org/pkg/database/sql/#Tx.QueryContext), [`QueryRowContext`](https://golang.org/pkg/database/sql/#Tx.QueryRowContext) and [`PrepareContext`](https://golang.org/pkg/database/sql/#Tx.PrepareContext) methods already covered can be
 used in a transaction.
 
-A transaction must end with a call to Commit or Rollback.
+A transaction must end with a call to [`Commit`](https://golang.org/pkg/database/sql/#Tx.Commit) or [`Rollback`](https://golang.org/pkg/database/sql/#Tx.Rollback).
 
 # Dealing with NULL
 
