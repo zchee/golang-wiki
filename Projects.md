@@ -356,6 +356,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [openssl](https://github.com/spacemonkeygo/openssl) - openssl bindings for go
   * [otrcat](https://github.com/andrewclausen/otrcat) - a general purpose command-line tool for communicating using the Off-The-Record protocol
   * [scrypt](https://go.googlesource.com/crypto/+/master/scrypt/) - Go implementation of Colin Percival's scrypt key derivation function
+  * [secureio](https://github.com/xaionaro-go/secureio) - An easy-to-use XChaCha20-encryption wrapper for `io.ReadWriteCloser` using ECDH key exchange algorithm, ED25519 signatures and Blake3+Poly1305 checksums/message-authentication. Also a multiplexer.
   * [simpleaes](https://github.com/tadzik/simpleaes) - AES encryption made easy
   * [siphash](https://github.com/dchest/siphash) - SipHash: a fast short-input pseudorandom function
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
