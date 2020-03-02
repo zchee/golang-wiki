@@ -115,4 +115,4 @@ func main() {
 $ GOOS=windows GOARCH=386 go build -o hello.exe hello.go
 ```
 
-We just need to find Windows computer to run our hello.exe.
+We just need to find a Windows computer to run our `hello.exe`.
