@@ -881,6 +881,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [AgFlow SA](http://www.agflow.com/)
   * [Centralway Numbrs AG](https://www.centralway.com/uk/)
   * [HolidayCheck](https://www.holidaycheck.ch/)
+  * [Magazine zum Globus AG](https://globus.ch) - [github](https://github.com/globusdigital)
   * [Perron2 GmbH](http://www.perron2.ch)
   * [Proton Technologies AG](https://protonmail.com)
   * [Ricardo](https://www.ricardo.ch/)
