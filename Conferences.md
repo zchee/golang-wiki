@@ -10,7 +10,8 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherConIndia 2020 | 2020-03-28-29 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 | Gophercon Russia | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/ |
-| dotGo | 2020-03-30 | Paris, France | https://2020.dotgo.eu/ <br> CFP: https://www.dotconferences.com/cfp |
+| ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
+| ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
 | GopherCon Europe | 2020-04-23-26 | Berlin, Germany | https://gophercon.berlin/|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | GoCon Canada | 2020-05-25-26 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/gocon-2020 |
