@@ -24,6 +24,7 @@ Add new sections as appropriate.
   - [Diagnostics and Debugging](#diagnostics-and-debugging)
   - [Education and Teaching](#education-and-teaching)
   - [Error Handling](#error-handling)
+  - [Error Values](#error-values)
   - [File System](#file-system)
   - [Generics](#generics)
   - [GoMobile](#gomobile)
