@@ -87,13 +87,13 @@ Add new sections as appropriate.
 
   - `guanw`, [`cmd/trace` and PySnooper](https://github.com/guanw/go-proposal/blob/master/proposal.md). Comparison of `cmd/trace` with a (more succinct) Python tracing API. May 2019.
 
-## Education and Teaching
-
-  - Carl Kingsford and Phillip Compeau, "[Go 2.0 for Teaching](http://www.monogrammedchalk.com/go-2-for-teaching/)". Experience using Go in an introductory programming course.
-
 ## Documentation
 
   - Kevin Burke, "[Need to add documentation for a binary in three different places](https://github.com/golang/go/issues/20212)", May 2017.
+
+## Education and Teaching
+
+  - Carl Kingsford and Phillip Compeau, "[Go 2.0 for Teaching](http://www.monogrammedchalk.com/go-2-for-teaching/)". Experience using Go in an introductory programming course.
 
 ## Error Handling
 
