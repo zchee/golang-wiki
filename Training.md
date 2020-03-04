@@ -29,6 +29,7 @@ Commercial providers of Go training
 * [Bitfield Consulting](https://bitfieldconsulting.com/go-mentoring) - John Arundel offers remote training and mentoring in Go for individuals and companies.
 * [Boss Sauce Creative](https://bosssauce.it/services/training) - Personalized or track-based Go training for teams.
 * [Brian Ketelsen](https://www.brianketelsen.com/) - In-person, remote, and online training classes for individuals and companies.
+* [Golang At Speed](https://golangatspeed.com) - Generic or personalized Go training. On-site or hosted off-site. Grasp the long-tail of Golang learning.... the gotchas and the quirky idioms.. faster. 
 * [Gopher Guides](https://www.gopherguides.com/) - Customized In-person, remote, and online training classes.  Training for Developers by Developers.  Lead Instructors: [Mark Bates](http://www.gopherguides.com/team/mark.bates), [Cory LaNou](http://www.gopherguides.com/team/cory.lanou)
 * [Shiju Varghese](http://bit.ly/shijuv-go) - On-site class room training on Go, and consulting on building distributed systems and Microservices with Go, in India.
 * [kkoehler](https://golang.kkoehler.com) - In-Person class trainings for Go in Germany, Austria and Swiss
