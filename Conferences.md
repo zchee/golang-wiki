@@ -17,6 +17,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoCon Canada | 2020-05-25-26 | Toronto, Canada | https://gocon.ca<br> CFP: https://www.papercall.io/gocon-2020 |
 | GopherCon | 2020-06-22-25 | Orlando, FL USA | https://www.gophercon.com/ |
 | GoCon Sendai | 2020-07-04| Sendai, Japan | http://sendai.gocon.jp/ |
+| GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
