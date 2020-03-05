@@ -391,7 +391,7 @@ A common mistake is thinking `go get -u foo` solely gets the latest version of `
 
 To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
 
-Using a branch name such as `go get foo@master` (`foo@tip` with mercurial) is one way to obtain the latest commit regardless of whether or not it has a semver tag.
+Using a branch name such as `go get foo@master` (`foo@default` with mercurial) is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
 In general, module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
 
