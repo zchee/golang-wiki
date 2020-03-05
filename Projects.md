@@ -935,7 +935,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## GUIs and Widget Toolkits
 
-  * [fyne][https://github.com/fyne-io/fyne) - Cross platform native GUI toolkit based on Material Design
+  * [fyne](https://github.com/fyne-io/fyne) - Cross platform native GUI toolkit based on Material Design
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
   * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
