@@ -12,7 +12,7 @@ For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](h
 
 If you are using tinyconfig (e.g. make tinyconfig) for embedded systems, you will also almost certainly enable printk in the kernel as well as a console; we will not include those generic options here. For Go, you must also enable CONFIG_FUTEX.
 
-On arm64, an out of date ld.gold may cause shared library tests to fail, See https://github.com/golang/go/issues/28334).
+On arm64, an out of date (lower than version 2.33) ld.gold may cause shared library tests to fail, See https://github.com/golang/go/issues/28334).
 
 ### [Windows](Windows)
 
