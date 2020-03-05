@@ -302,6 +302,7 @@
   * [SumUp](https://sumup.com)
   * [Streetspotr](http://streetspotr.com) - [blog](https://thcyron.de/2015/go-at-streetspotr.html) - [tweet](https://twitter.com/thcyron/status/372350650580865024)
   * [Tourlane](https://www.tourlane.de)
+  * [trivago N.V.](https://www.trivago.com/) - [blog](https://tech.trivago.com/2020/03/02/why-we-chose-go/) - [github](https://github.com/trivago)
   * [Weaveworks](http://weave.works)
   * [Zalando SE](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
   * [Onefootball](http://onefootball.com)
