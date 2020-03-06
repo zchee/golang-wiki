@@ -6,7 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com |
+| ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
 | GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherConIndia 2020 | 2020-03-28-29 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
