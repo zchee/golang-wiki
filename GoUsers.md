@@ -327,6 +327,7 @@
   * [AmberStudent](https://amberstudent.com)
   * [Betacraft](http://www.betacraft.co/)
   * [BookMyShow](http://www.bookmyshow.com/)
+  * [CRED](http://cred.club/)
   * [C42 Engineering](http://c42.in/)
   * [Cralina](http://cralina.com/)
   * [CodeIgnition](http://codeignition.co/) - [twitter](https://twitter.com/AjeyGore/status/667515185486102529)
