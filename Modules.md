@@ -807,7 +807,7 @@ Publicly hosted "always on" immutable module repositories and optional privately
 For example:
 * [proxy.golang.org](https://proxy.golang.org) - Official project - Run by [Google](https://www.google.com) - The default Go module proxy built by the Go team.
 * [gocenter.io](https://gocenter.io) - Free community project - Run by [JFrog Artifactory](https://jfrog.com) - The central Go modules repository.
-* [mirrors.tencent.com/go](https://mirrors.tencent.com/go) - Commercial project - Run by [Tencent Cloud](https://cloud.tencent.com/) - A Go module proxy alternate.
+* [mirrors.tencent.com/go](https://mirrors.tencent.com/go/) - Commercial project - Run by [Tencent Cloud](https://cloud.tencent.com/) - A Go module proxy alternate.
 * [mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy) - Commercial project - Run by [Alibaba Cloud](https://www.alibabacloud.com) - A Go module proxy alternate.
 * [goproxy.cn](https://goproxy.cn) - Open source project - Run by [Qiniu Cloud](https://www.qiniu.com) - The most trusted Go module proxy in China.
 * [goproxy.io](https://goproxy.io) - Open source project - Run by China Golang Contributor Club - A global proxy for Go modules.
