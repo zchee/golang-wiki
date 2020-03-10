@@ -25,3 +25,4 @@
 * [avo](https://github.com/mmcloughlin/avo) - generate assembly code with Go
 * [Wire](https://github.com/google/wire) - Compile-time Dependency Injection for Go
 * [sumgen](https://github.com/smasher164/sumgen) - generate interface method implementations from sum-type declarations
+* [interface-extractor](https://github.com/urandom/interface-extractor) - generates an interface of a desired type, with only methods used within the package.
