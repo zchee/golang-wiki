@@ -21,7 +21,7 @@ Notably, for the subject (the first line of description):
 For the body (the rest of the description):
 
 * the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links)
-* the Fixes/Updates line goes after the body with a blank newline separating the two
+* the Fixes/For line goes after the body with a blank newline separating the two
 * there is **no** Markdown in the commit message
 * we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
 * when referencing CLs, prefer saying "CL nnn" or using a golang.org/cl/nnn shortlink over a direct Gerrit URL, since that's more future-proof.
