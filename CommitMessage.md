@@ -30,7 +30,7 @@ For the body (the rest of the description):
 If it's not a complete fix and more is coming, use:
 
 ```
-Updates #nnnn
+For #nnnn
 ```
 
 instead of `Fixes`. Don't use the other GitHub-supported verbs.
