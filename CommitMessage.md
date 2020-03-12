@@ -27,13 +27,21 @@ For the body (the rest of the description):
 * when referencing CLs, prefer saying "CL nnn" or using a golang.org/cl/nnn shortlink over a direct Gerrit URL, since that's more future-proof.
 * when moving code between repos, include the CL, repository name, and git hash that it was moved from/to, so it is easier to trace history/blame.
 
-If it's not a complete fix and more is coming, use:
+Please _don't_ use alternate GitHub-supported aliases like `Close` or `Resolves` instead of `Fixes`.
+
+To link a commit to an issue without marking it fixed—for example, if the commit is working toward a fix but not yet a complete fix—GitHub requires only that the issue is mentioned by number in the commit message. By convention, Go commits mention this at the bottom of the message using `For`, where `Fixes` might be expected, even if the number is also mentioned in the body of the commit message.
+
+For example:
 
 ```
-For #nnnn
+Refactor func Foo.
+This will make the handling of <corner case>
+shorter and easier to test.
+
+For #nnnn.
 ```
 
-instead of `Fixes`. Don't use the other GitHub-supported verbs.
+It is common in other Git projects to use `Updates` instead of `For`, and that is acceptable too, even though it makes little sense. More precise phrasings are fine too. (Don't ask people to change from `Updates` or something else to `For`, or vice versa.)
 
 # Other repos
 
