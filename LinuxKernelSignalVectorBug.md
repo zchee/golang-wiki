@@ -23,7 +23,7 @@ The bug affects programs written in any language.
 The bug only affects programs that receive signals.
 Among programs that receive signals, the bug is more likely to affect programs that use an alternate signal stack.
 The bug only affects programs that use the YMM registers.
-In Go programs in particular the bug will normally cause memory corruption, as Go programs primarily use the YMM register to implement copying one memory buffer to another.
+In Go programs in particular the bug will normally cause memory corruption, as Go programs primarily use the YMM registers to implement copying one memory buffer to another.
 
 The bug [was reported to the Linux kernel developers](https://bugzilla.kernel.org/show_bug.cgi?id=205663).
 It was quickly fixed.
