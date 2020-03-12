@@ -8,7 +8,7 @@ runtime: note: see https://golang.org/wiki/LinuxKernelSignalVectorBug
 ```
 
 then you are using a Linux kernel that may have a bug.
-This kernel bug may have caused memory corruption in your Go program, and may have caused the program to crash.
+This kernel bug may have caused memory corruption in your Go program, and may have caused your Go program to crash.
 
 If you understand why your program crashed, then you can ignore this page.
 
