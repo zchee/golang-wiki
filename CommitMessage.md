@@ -38,7 +38,7 @@ Refactor func Foo.
 This will make the handling of <corner case>
 shorter and easier to test.
 
-For #nnnn.
+For #nnnn
 ```
 
 It is common in other Git projects to use `Updates` instead of `For`, and that is acceptable too, even though it makes little sense (the commit does not update the issue). More precise phrasings are fine too. Don't be too pedantic in code reviews: it's not worth asking people to change from `Updates` or something else to `For`, or vice versa.
