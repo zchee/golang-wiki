@@ -8,7 +8,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 |-------|-----------|----------|------------|
 | ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
 | GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
-| GopherConIndia 2020 | 2020-03-28-29 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
 | ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
@@ -22,7 +21,8 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
 | GoLab 2020 | 2020-10-18-20 | Florence, Italy | https://golab.io |
-| GopherCon Singapore 2020 | tbd due to 2019-nCoV | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
+| GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
+| GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 
 
 ## Archives
