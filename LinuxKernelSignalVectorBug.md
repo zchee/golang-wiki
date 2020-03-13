@@ -5,6 +5,7 @@ If you reached this page because of a message like this printed by a Go program:
 ```
 runtime: note: your Linux kernel may be buggy
 runtime: note: see https://golang.org/wiki/LinuxKernelSignalVectorBug
+runtime: note: mlock workaround for kernel bug failed with errno <number>
 ```
 
 then you are using a Linux kernel that may have a bug.
@@ -19,6 +20,7 @@ Otherwise, this page will explain what the kernel bug is, and includes a C progr
 A bug was introduced in Linux kernel version 5.2: if a signal is delivered to a thread, and delivering the signal requires faulting in pages of the thread signal stack, then AVX YMM registers may be corrupted upon returning from the signal to the program.
 If the program was executing some function that uses the YMM registers, that function can behave unpredictably.
 
+The bug only happens on systems with an x86 processor.
 The bug affects programs written in any language.
 The bug only affects programs that receive signals.
 Among programs that receive signals, the bug is more likely to affect programs that use an alternate signal stack.
@@ -234,7 +236,21 @@ If it fails, your kernel is buggy.
 You should upgrade to a newer kernel.
 There is no workaround for this bug.
 
-When running a Go program, you can make the bug less likely to interfere with your program by setting the environment variable `GODEBUG=asyncpreemptoff=1`.
+Go programs built with 1.14 will attempt to mitigate the bug by using the `mlock` system call to lock the signal stack page into memory.
+This works because the bug only occurs if the signal stack page has to be faulted in.
+However, this use of `mlock` can fail.
+If you see the message
+
+```
+runtime: note: mlock workaround for kernel bug failed with errno 12
+```
+
+the `errno 12` (also known as `ENOMEM`) means that `mlock` failed because the system set a limit on the amount of memory that a program can lock.
+If you can increase the limit, the program may succeed.
+This is done using `ulimit -l`.
+When running a program in a docker container, you can increase the limit by invoking docker with the option `-ulimit memlock=67108864`.
+
+If you cannot increase the `mlock` limit, then you can make the bug less likely to interfere with your program by setting the environment variable `GODEBUG=asyncpreemptoff=1` when running a Go program.
 However, this just makes your program less likely to suffer memory corruption (because it reduces the number of signals that your program will receive).
 The bug is still present, and memory corruption may still occur.
 
