@@ -1,4 +1,10 @@
-# Go under Microsoft Windows
+
+> The Go project's official download page is at [https://golang.org/dl](https://golang.org/dl/).
+>
+> After downloading a binary release suitable for your system, you can install go by following  the official installation instructions at [https://golang.org/doc/install](https://golang.org/doc/install#install).
+
+
+# Go for Microsoft Windows
 
 The Windows port is stable and officially supported.
 
