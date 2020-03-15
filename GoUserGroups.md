@@ -107,6 +107,7 @@
   * [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/) - Sofia, Bulgaria 🇧🇬 
   * [Go Oslo User Group](https://www.meetup.com/Go-Oslo-User-Group/) - Oslo, Norway
   * [Gophers Linz](https://www.meetup.com/Gophers-Linz/) - Linz, Austria
+  * [Golang Rotterdam](https://www.meetup.com/Golang-Rotterdam/) - Rotterdam, Netherlands
 
 # North America
 
