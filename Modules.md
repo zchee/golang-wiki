@@ -1167,7 +1167,7 @@ Let's step through this with the above repository, assuming that "github.com/my-
     go mod edit -dropreplace github.com/my-repo@v1.3.0
     ```
 
-1. `git push origin master v1.2.4 mig/v1.0.0` push the commit and both tags
+1. `git push origin master v1.3.0 mig/v1.0.0` push the commit and both tags
 
 Note that in the future [golang.org/issue/28835](https://github.com/golang/go/issues/28835) should make the testing step a more straightforward experience.
 
