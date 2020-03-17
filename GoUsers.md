@@ -645,6 +645,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
   * [VELTRA Corporation](https://www.veltra.com/)
+  * [Voicy, Inc.](https://corp.voicy.jp/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [VRize, Inc.](https://vrize.io/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
