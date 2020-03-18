@@ -26,7 +26,7 @@ $ sudo apt install golang-1.11-go
 
 > **Note that `golang-1.11-go` puts binaries in `/usr/lib/go-1.11/bin`. If you want them on your PATH, you need to make that change yourself.**
 
-Using snaps also works quite well:
+Using snaps also works quite well: (go1.13.8)
 
 ```
 # This will give you the latest version of go
