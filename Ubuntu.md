@@ -16,7 +16,7 @@ sudo apt install golang-go
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.14` instead and use the binaries from `/usr/lib/go-1.14/bin`.**
 
-If that's too new for you, try:
+If that's too new for you, try: (ubuntu 19.04 max, 19.10 not supported)
 
 ```
 $ sudo add-apt-repository ppa:gophers/archive
