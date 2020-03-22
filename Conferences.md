@@ -11,7 +11,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
 | ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
-| GoCon Canada | 2020-05-25-26 | Toronto, Canada | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
+| GoCon Canada | ~2020-05-25-26~ | Toronto, Canada | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
 | GopherCon | 2020-06-22-25 | Orlando, FL USA | https://www.gophercon.com/ |
 | GoCon Sendai | 2020-07-04| Sendai, Japan | http://sendai.gocon.jp/ |
 | GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
