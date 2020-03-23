@@ -6,9 +6,10 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 ## Steps
 
 1. Create a new empty Gerrit repository at https://go.googlesource.com, complete with a description.
-2. Create a new empty GitHub repository at https://github.com/golang with the same name and description.
+	- Create an initial commit with `AUTHORS`, `CONTRIBUTORS`, `LICENSE`, `PATENTS`, `CONTRIBUTING.md`, and `README.md` files and push it directly to the Gerrit repository. See [example commit](https://github.com/golang/website/commit/001739136e65994ef188a26c9a099fb41e4f9d67).
+2. Create a [new empty GitHub repository](https://github.com/organizations/golang/repositories/new) at https://github.com/golang with the same name and description.
 	- Turn off Wikis, Issues, Projects in repository settings.
-	- On "Collaborators & teams" tab:
+	- On "Manage access" tab:
 		- Add "golang org admins" team with Admin access.
 		- Add "gophers" team with Write access.
 		- Add "robots" team with Write access (can only be done by a maintainer of golang organization; ask someone else if you're not).
