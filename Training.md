@@ -32,4 +32,5 @@ Commercial providers of Go training
 * [Golang At Speed](https://golangatspeed.com) - Generic or personalized Go training. On-site or hosted off-site. Grasp the long-tail of Golang learning.... the gotchas and the quirky idioms.. faster. 
 * [Gopher Guides](https://www.gopherguides.com/) - Customized In-person, remote, and online training classes.  Training for Developers by Developers.  Lead Instructors: [Mark Bates](http://www.gopherguides.com/team/mark.bates), [Cory LaNou](http://www.gopherguides.com/team/cory.lanou)
 * [Shiju Varghese](http://bit.ly/shijuv-go) - On-site class room training on Go, and consulting on building distributed systems and Microservices with Go, in India.
+* [Magesh Kuppan](www.linkedin.com/in/tkmagesh) - Classroom & Online training on Go Programming & Building Microservices in Go
 * [kkoehler](https://golang.kkoehler.com) - In-Person class trainings for Go in Germany, Austria and Swiss
