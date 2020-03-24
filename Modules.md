@@ -67,6 +67,7 @@ The "Quick Start" and "New Concepts" sections are particularly important for som
   * [Are there "always on" module repositories and enterprise proxies?](https://github.com/golang/go/wiki/Modules#are-there-always-on-module-repositories-and-enterprise-proxies)
   * [Can I control when go.mod gets updated and when the go tools use the network to satisfy dependencies?](https://github.com/golang/go/wiki/Modules#can-i-control-when-gomod-gets-updated-and-when-the-go-tools-use-the-network-to-satisfy-dependencies)
   * [How do I use modules with CI systems such as Travis or CircleCI?](https://github.com/golang/go/wiki/Modules#how-do-i-use-modules-with-ci-systems-such-as-travis-or-circleci)
+  * [How do I download modules needed to build specific packages or tests?](https://github.com/golang/go/wiki/Modules#how-do-i-download-modules-needed-to-build-specific-packages-or-tests)
 * [FAQs — go.mod and go.sum](https://github.com/golang/go/wiki/Modules#faqs--gomod-and-gosum)
   * [Why does 'go mod tidy' record indirect and test dependencies in my 'go.mod'?](https://github.com/golang/go/wiki/Modules#why-does-go-mod-tidy-record-indirect-and-test-dependencies-in-my-gomod)
   * [Is 'go.sum' a lock file? Why does 'go.sum' include information for module versions I am no longer using?](https://github.com/golang/go/wiki/Modules#is-gosum-a-lock-file-why-does-gosum-include-information-for-module-versions-i-am-no-longer-using)
@@ -838,6 +839,18 @@ The following two blog posts cover these topics more concretely:
 
 * ["Using Go modules with vendor support on Travis CI"](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/) by Fatih Arslan 
 * ["Go Modules and CircleCI"](https://medium.com/@toddkeech/go-modules-and-circleci-c0d6fac0b000) by Todd Keech 
+
+### How do I download modules needed to build specific packages or tests?
+
+The `go mod download` command (or equivalently, `go mod download all`) downloads all modules in the build list (as reported by `go list -m all`). Many of these modules aren't needed to build packages in the main module, since the full build list contains things like test dependencies and tool dependencies for other modules. Consequently, Docker images prepared with `go mod download` may be larger than necessary.
+
+Instead, consider using `go list`. For example, `go list ./...` will download the modules needed to build the packages `./...` (the set of packages in the main module, when run from the module root directory).
+
+To download test dependencies as well, use `go list -test ./...`.
+
+By default, `go list` will only consider dependencies needed for the current platform. You can set `GOOS` and `GOARCH` to make `go list` consider another platform, for example, `GOOS=linux GOARCH=amd64 go list ./...`. The `-tags` flag may also be used to select packages with specific build tags.
+
+This technique may be less necessary in the future when lazy module loading is implemented (see [#36460](https://github.com/golang/go/issues/36460)), since the module pattern `all` will include fewer modules.
 
 ## FAQs — go.mod and go.sum
 
