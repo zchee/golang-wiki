@@ -7,12 +7,12 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
 | ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
-| GopherCon Russia 2020 | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| GopherCon Russia 2020 [VIRTUAL] | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
 | ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | ~GoCon Canada~ | ~2020-05-25-26~ | ~Toronto, Canada~ | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
-| GopherCon | 2020-06-22-25 | Orlando, FL USA | https://www.gophercon.com/ |
+| GopherCon | 2020-[POSTPONED] | Orlando, FL USA | https://www.gophercon.com/ |
 | GoCon Sendai | 2020-07-04| Sendai, Japan | http://sendai.gocon.jp/ |
 | GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
