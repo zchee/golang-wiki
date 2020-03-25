@@ -1633,6 +1633,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [git (in go)](https://github.com/dskinner/git) - Minimal working git client in Go
   * [gogs](http://gogs.io/) - Self-hosting Git Server in Go
+  * [gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea, painless self-hosted git service
   * [semver](https://github.com/blang/semver) - Semantic Versioning (SemVer) library
 
 ## Virtual Machines and Languages
