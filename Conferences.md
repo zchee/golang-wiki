@@ -7,7 +7,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
 | ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
-| GopherCon Russia 2020 [VIRTUAL] | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| GopherCon Russia 2020 Online | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
 | ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
@@ -17,6 +17,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
 | GopherCon Europe | 2020-07 | Berlin, Germany | https://gophercon.berlin/ |
+| GopherCon Russia 2020 (offline) | 2020-08-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
