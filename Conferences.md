@@ -33,6 +33,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
 | GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
+| Go Devroom FOSDEM | 2020-02-02 | Brussels, Belgium | https://fosdem.org/2020/schedule/track/go/ |
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
 | Gopherpalooza | 2019-11-07-08 | Mountain View, CA USA | http://gopherpalooza.com/ |
 | GopherCon Vietnam 2019 | 2019-11-02 | Ho Chi Minh City, Vietnam | https://gophercon.vn|
