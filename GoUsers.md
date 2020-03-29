@@ -1055,6 +1055,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Ardan Studios/Labs](http://www.ardanstudios.com) - [twitter](https://twitter.com/ardanlab)
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
   * [Ascendant Compliance Manager](https://www.ascendantcompliancemanager.com/) - Batch process millions of security trades per day.
+  * [Assembled](https://www.assembled.com/) - [github](https://github.com/assembledhq)
   * [AT&T](https://www.att.com/) - [Github](https://github.com/att?utf8=%E2%9C%93&q=&type=&language=go) and [gopkgs repository](https://github.com/att/gopkgs)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
