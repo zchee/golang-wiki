@@ -275,7 +275,7 @@ And encourages more robust and readable code:
 
 ``` go
 value, ok := Lookup(key)
-if !ok  {
+if !ok {
 	return fmt.Errorf("no value for %q", key)
 }
 return Parse(value)
