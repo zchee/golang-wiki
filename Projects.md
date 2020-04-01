@@ -902,6 +902,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer
   * [gumble](https://github.com/layeh/gumble) - Client library for the [Mumble](http://mumble.info) VoIP protocol
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
+  * [hsvimage](https://github.com/spakin/hsvimage) - Support for HSV color models and images
   * [imaginary](https://github.com/h2non/imaginary) - Simple and fast HTTP microservice for image resizing and manipulation
   * [imaging](https://github.com/disintegration/imaging) - Package imaging provides basic image manipulation functions (resize, rotate, flip, crop, etc.) as well as simplified image loading and saving.
   * [imgproxy](https://github.com/DarthSim/imgproxy/issues) - Fast and secure standalone server for resizing and converting remote images
