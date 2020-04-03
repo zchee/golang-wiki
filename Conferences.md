@@ -10,6 +10,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Russia 2020 Online | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
 | ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
+| GoRemoteFest| 2020-04-26 | [Online](https://www.youtube.com/channel/UCUZnOzWTIeDU8kel4eNNUNw) | https://www.goremotefest.com|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | ~GoCon Canada~ | ~2020-05-25-26~ | ~Toronto, Canada~ | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
 | GopherCon | 2020-[POSTPONED] | Orlando, FL USA | https://www.gophercon.com/ |
