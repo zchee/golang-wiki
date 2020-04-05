@@ -385,6 +385,7 @@
   * [Synerzip](http://synerzip.com/)
   * [Tarkalabs](https://tarkalabs.com/)
   * [Techequity Technologies](http://www.techequity.in/)
+  * [ThoughtBox Online Services Pvt Ltd](https://www.thoughtbox.io/) - A FinTech Solution Provider
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
   * [UserCV.com Freelancer Marketplace](https://usercv.com)
