@@ -687,7 +687,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Credijusto](https://engineering.credijusto.com/) - Financial Services
 
 ## Middle-East
-  * [ThoughtBox Technologies](https://www.thoughtbox.io/)
+  * [ThoughtBox Technologies](https://www.thoughtbox.io/) - A FinTech Solution Provider
 
 ## Moldova
   * [Emphatic Spark](http://emphaticspark.com/)
