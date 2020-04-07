@@ -234,6 +234,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [JayDiff](https://github.com/yazgazan/jaydiff) - A JSON diff utility written in Go.
   * [Terracognita](https://github.com/cycloidio/terracognita) - Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration.
+  * [Arduino-cli](https://github.com/arduino/arduino-cli) - Arduino CLI is an all-in-one solution that provides builder, boards/library manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
 
 ## Compression
  
