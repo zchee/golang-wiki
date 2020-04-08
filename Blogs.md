@@ -33,6 +33,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Elliot Forbes - TutorialEdge.net Golang Tutorials](https://tutorialedge.net/course/golang/)
 * [Timo Savola's Go Posts](http://savo.la/go)
 * [Packt Hub](https://hub.packtpub.com/?utm_source=golang.org&utm_medium=Github_referral&utm_Outreachdollar5)
+* [GoCenter Community Blog](https://jfrog.com/resource-center/?src=gocenter) - Blogs from GoCenter.io about Go modules and community.
 
 ## Portuguese
 
