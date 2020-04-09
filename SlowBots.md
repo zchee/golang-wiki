@@ -20,7 +20,7 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 * `GOOS` (picks best one)
 * `GOARCH` (picks best one)
 * `GOOS-GOARCH` (picks best one)
-* `GOOS-GOARCH-specificbuilder` (you specify it, so it doesn't pick one. See https://farmer.golang.org/builders for options)
+* `specific-builder-name` (you specify it explicitly by its exact name; see the full list at https://farmer.golang.org/builders)
 * `ios` (alias for `darwin-arm64`)
 
 We might add more aliases later.
