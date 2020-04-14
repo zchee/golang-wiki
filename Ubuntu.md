@@ -37,3 +37,4 @@ Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-c
 ```
 curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
 ```
+> Getgo will install the Go distribution (tools & stdlib) to "/.go" inside your home directory.
