@@ -24,7 +24,7 @@ $ sudo apt install golang-1.11-go
 
 > **Note that `golang-1.11-go` puts binaries in `/usr/lib/go-1.11/bin`. If you want them on your PATH, you need to make that change yourself.**
 
-Using [snaps](https://snapcraft.io/go) also works quite well: (go1.14.1)
+Using [snaps](https://snapcraft.io/go) also works quite well:
 
 ```
 # This will give you the latest version of go
@@ -32,11 +32,8 @@ $ sudo snap install --classic go
 ```
 > A restart may or may not be required for the command to be recognized depending on your system.
 
-Using Google's Installer:
---
-    cd ~
-    curl -O https://storage.googleapis.com/golang/getgo/installer_linux
-    chmod 700 installer_linux
-    ./installer_linux
-    mv .go /usr/local/go
+Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-concept command-line installer for Go):
 
+```
+curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
+```
