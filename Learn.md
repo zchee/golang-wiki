@@ -34,6 +34,7 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
 * [Go Discourse](https://github.com/godiscourse/godiscourse) - Another forum base on Go, without framework and ORM.
 * [دورة لغة غو بالعربي](https://argolang.com/learn-go-lang-beginners-course)
 * [Apuntes de Golang en Español](https://apuntes.de/golang/) - Apuntes para aprender Go en Español desde Cero.
+* [Go Classes at Codecademy](https://www.codecademy.com/learn/learn-go) - Online courses introducing the basics of Go.
 
 [wbday1]: http://web.archive.org/web/20160305024536/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf
 [wbday2]: http://web.archive.org/web/20160305081012/http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf
