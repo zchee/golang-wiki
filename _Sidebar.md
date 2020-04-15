@@ -1,4 +1,4 @@
-**WhyGo1**
+**WhyGo**
 * [Home](https://github.com/golang/go/wiki)
 * [WhyGo](https://github.com/golang/go/wiki/WhyGo)
 
