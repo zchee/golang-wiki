@@ -47,9 +47,7 @@ a = a[:len(a)-j+i]
 
 > **Delete**
 ```go
-if i < len(a)-1 {
-  copy(a[i:], a[i+1:])
-}
+copy(a[i:], a[i+1:])
 a[len(a)-1] = nil // or the zero value of T
 a = a[:len(a)-1]
 ```
