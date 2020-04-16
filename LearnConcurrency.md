@@ -15,8 +15,8 @@ This page links to resources for learning about concurrency in Go.  The items ar
     - [Why goroutines instead of threads?](http://golang.org/doc/faq#goroutines)
     - [Why are map operations not defined to be atomic?](http://golang.org/doc/faq#atomic_maps)
     - [What operations are atomic? What about mutexes?](http://golang.org/doc/faq#What_operations_are_atomic_What_about_mutexes)
-    - [Why doesn't my multi-goroutine program use multiple CPUs?](http://golang.org/doc/faq#Why_no_multi_CPU)
-    - [Why does using GOMAXPROCS > 1 sometimes make my program slower?](http://golang.org/doc/faq#Why_GOMAXPROCS)
+    - [Why doesn't my program run faster with more CPUs?](https://golang.org/doc/faq#parallel_slow)
+    - [How can I control the number of CPUs?](https://golang.org/doc/faq#number_cpus)
     - [What happens with closures running as goroutines?](http://golang.org/doc/faq#closures_and_goroutines)
 
 ## Intermediate
