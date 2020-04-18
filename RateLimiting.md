@@ -45,16 +45,22 @@ type Payload struct {}
 
 // BurstRateLimitCall allows burst rate limiting client calls with the
 // payloads.
-func BurstRateLimitCall(client Client, payloads []*Payload, burstLimit int) {
-  ticker := time.NewTicker(rateLimit)
-  defer ticker.Stop()
-
+func BurstRateLimitCall(ctx context.Context, client Client, payloads []*Payload, burstLimit int) {
   throttle := make(chan time.Time, burstLimit)
 
+  ctx, cancel := context.WithCancel(ctx)
+  defer cancel()
+
   go func() {
+    ticker := time.NewTicker(rateLimit)
+    defer ticker.Stop()
     for t := range ticker.C {
-      throttle <- t
-    }  // for loop will complete the range after tick.Stop() closes tick.C
+        select {
+        case throttle <- t:
+        case <-ctx.Done():
+            return // exit goroutine when surrounding function returns
+        }
+    }
   }()
 
   for _, payload := range payloads {
