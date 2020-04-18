@@ -8,11 +8,24 @@ For higher rates, prefer a token bucket rate limiter such as [golang.org/x/time/
 ```go
 import "time"
 
-rate := time.Second / 10
-throttle := time.Tick(rate)
-for req := range requests {
-  <-throttle  // rate limit our Service.Method RPCs
-  go client.Call("Service.Method", req, ...)
+const rateLimit = time.Second / 10  // 10 calls per second
+
+// Client is an interface that calls something with a payload.
+type Client interface {
+  Call(*Payload)
+}
+
+// Payload is some payload a Client would send in a call.
+type Payload struct {}
+
+// RateLimitCall rate limits client calls with the payloads.
+func RateLimitCall(client Client, payloads []*Payload) {
+  throttle := time.Tick(rateLimit)
+
+  for _, payload := range payloads {
+    <-throttle  // rate limit our client calls
+    go client.Call(payload)
+  }
 }
 ```
 
@@ -20,21 +33,33 @@ To allow some bursts, add a buffer to the throttle:
 ```go
 import "time"
 
-rate := time.Second / 10
-burstLimit := 100
-tick := time.NewTicker(rate)
-defer tick.Stop()
-throttle := make(chan time.Time, burstLimit)
-go func() {
-  for t := range tick.C {
-    select {
-      case throttle <- t:
-      default:
-    }
-  }  // does not exit after tick.Stop()
-}()
-for req := range requests {
-  <-throttle  // rate limit our Service.Method RPCs
-  go client.Call("Service.Method", req, ...)
+const rateLimit = time.Second / 10  // 10 calls per second
+
+// Client is an interface that calls something with a payload.
+type Client interface {
+  Call(*Payload)
+}
+
+// Payload is some payload a Client would send in a call.
+type Payload struct {}
+
+// BurstRateLimitCall allows burst rate limiting client calls with the
+// payloads.
+func BurstRateLimitCall(client Client, payloads []*Payload, burstLimit int) {
+  ticker := time.NewTicker(rateLimit)
+  defer ticker.Stop()
+
+  throttle := make(chan time.Time, burstLimit)
+
+  go func() {
+    for t := range ticker.C {
+      throttle <- t
+    }  // for loop will complete the range after tick.Stop() closes tick.C
+  }()
+
+  for _, payload := range payloads {
+    <-throttle  // rate limit our client calls
+    go client.Call(payload)
+  }
 }
 ```
