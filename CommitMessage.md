@@ -43,6 +43,15 @@ For #nnnn
 
 It is common in other Git projects to use `Updates` instead of `For`, and that is acceptable too, even though it makes little sense (the commit does not update the issue). More precise phrasings are fine too. Don't be too pedantic in code reviews: it's not worth asking people to change from `Updates` or something else to `For`, or vice versa.
 
+# Reverts
+
+You can roll back a change using the Gerrit `Revert` button.
+Gerrit will generate a description for you.
+Edit the description to add the Gerrit CL number being rolled back next to or instead of the Git revision number.
+
+Do not do a revert of a revert.
+Instead, create a new change, and in the description explain that this is a roll forward of CL NNNNNN which was rolled back by CL NNNNNN.
+
 # Other repos
 
 For non-"go" repos ("crypto", "tools", "net", etc), the subject is still the name of the package, but you need to fully-qualify the issue number with the GitHub org/repo syntax:
