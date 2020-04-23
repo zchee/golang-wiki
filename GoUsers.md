@@ -974,6 +974,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [BBC Worldwide](http://www.bbcworldwide.com/) - [source](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
   * [Bedful Booking System](https://bedful.com)  
   * [Belua](https://www.belua.com)
+  * [bet365](https://www.bet365.com) - [github](https://github.com/bet365)
   * [Bubble Student](https://www.bubblestudent.co.uk)
   * [Bud](https://thisisbud.com/)
   * [Countingup](https://countingup.com) - [github](https://github.com/countingup)
