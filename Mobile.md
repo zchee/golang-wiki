@@ -12,6 +12,7 @@ these strategies.
 - [Native applications](#native-applications)
   - [Building and deploying to Android](#building-and-deploying-to-android)
   - [Building and deploying to iOS](#building-and-deploying-to-ios)
+  - [App icon](#app-icon)
 - [SDK applications](#sdk-applications-and-generating-bindings)
   - [Building and deploying to Android](#building-and-deploying-to-android-1)
   - [Building and deploying to iOS](#building-and-deploying-to-ios-1)
@@ -97,6 +98,10 @@ Alternatively, you can deploy application bundles to your iOS device by using th
 ```
 $ ios-deploy -b basic.app
 ```
+
+### App icon
+
+It is possible to set an app icon by creating `assets/icon.png`.
 
 ## SDK applications and generating bindings
 
@@ -201,7 +206,3 @@ let msg = Hello.GoHelloGreetings("gopher")
 As of Go 1.5, only darwin/amd64 works on the iOS simulator. To use the simulator, you need to configure Xcode to only try to run 64-bit binaries.
 
 Xcode matches the bit width of the ARM binaries when running on the X86 simulator. That is, if you configure Xcode to build both 32-bit and 64-bit ARM binaries (the default), it will attempt to run 32-bit X86 binaries on the simulator, which will not work with Go today. Modify the Xcode build settings to only build 64-bit ARM binaries, and the simulator will run the amd64 binary.
-
-## App icon
-
-It is possible to set an app icon by creating `assets/icon.png`.
