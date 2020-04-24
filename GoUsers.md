@@ -752,6 +752,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Northern.tech](https://northern.tech/)
   * [Nurofy](https://nurofy.no/)
+  * [Oslo kommune Oslo Origo](https://labs.oslo.kommune.no/)
   * [Owners Room](https://ownersroom.com/)
   * [Payr](https://www.payr.no)
   * [Pioner Labs](https://www.pionerlabs.com/)
