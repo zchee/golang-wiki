@@ -741,6 +741,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Amedia](https://www.amedia.no/)
   * [Arcane Crypto](https://www.arcane.no/)
   * [Avinor](https://avinor.no/)
+  * [Bridge Technologies](https://bridgetech.tv/)
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
