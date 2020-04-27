@@ -183,9 +183,11 @@ $ open ios/bind.xcodeproj
 ```
 Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy items if needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and rerunning `gomobile bind` will update the hello.framework.
 
-
-
 ![Drag and drop Hello.framework](http://i.imgur.com/u88CxN9.png)
+
+If you decide to keep `Hello.framework` in the main directory you have to add the main directory to the `Framework Search Paths` in the the targets Build Settings.
+
+![Framework Search Path in Xcode Project](https://i.imgur.com/UXEM2sj.png)
 
 Your project layout should look like what's shown below.
 
