@@ -42,4 +42,6 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Read [Principles of Designing Go APIs with Channels](https://inconshreveable.com/07-08-2014/principles-of-designing-go-apis-with-channels/)
 - Read [Advanced Go Concurrency Primitives](https://encore.dev/blog/advanced-go-concurrency)
 - Watch [The Scheduler Saga](https://www.youtube.com/watch?v=YHRO5WQGh0k)
+- Read [The Scheduler Saga](https://speakerdeck.com/kavya719/the-scheduler-saga)
 - Watch [Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY)
+- Read [Understanding Channels](https://speakerdeck.com/kavya719/understanding-channels)
