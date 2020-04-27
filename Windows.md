@@ -12,7 +12,7 @@ The Windows port is stable and officially supported on Windows XP or newer.
 
 # Community installers
 
-Automated installation via the (Chocolatey package)[https://chocolatey.org/packages/golang]
+Automated installation via the [Chocolatey package](https://chocolatey.org/packages/golang)
 ```shell
 choco install golang
 ```
