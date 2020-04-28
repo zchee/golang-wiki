@@ -737,7 +737,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/)
 
 ## Norway
-  * [Aller Media](https://www.aller.no/)
+  * [Aker Solutions](https://www.akersolutions.com/), specifically its [ix3](https://www.ix3.com/) department
   * [Amedia](https://www.amedia.no/)
   * [Arcane Crypto](https://www.arcane.no/)
   * [Avinor](https://avinor.no/)
@@ -745,26 +745,25 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
-  * [Aker Solutions](https://www.akersolutions.com/), specifically its [ix3](https://www.ix3.com/) department
   * [Jottacloud](https://www.jottacloud.com/)
   * [Just Technologies](https://www.gojust.com/)
   * [No Isolation](https://www.noisolation.com/)
-  * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Northern.tech](https://northern.tech/)
+  * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
   * [Nurofy](https://nurofy.no/)
   * [Oslo kommune Oslo Origo](https://labs.oslo.kommune.no/)
   * [Owners Room](https://ownersroom.com/)
   * [Payr](https://www.payr.no)
-  * [Pioner Labs](https://www.pionerlabs.com/)
   * [Pexip](https://www.pexip.com/)
+  * [Pioner Labs](https://www.pionerlabs.com/)
   * [reMarkable](https://remarkable.com/)
   * [Sanity.io](https://www.sanity.io)
-  * [Shortcut](https://shortcut.no/)
   * [Searis](https://www.searis.no/)
-  * [Unacast](https://www.unacast.com/)
+  * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Teston](https://teston.io/en/)
   * [TIDAL](https://tidal.com/)
+  * [Unacast](https://www.unacast.com/)
   * [Vipps](https://www.vipps.no)
 
 ## Oman
