@@ -89,3 +89,5 @@ func TestSumCompare(t *testing.T) {
 ```
 
 For more complete examples see the [x/crypto/poly1305](https://github.com/golang/crypto/tree/master/poly1305) and [x/crypto/salsa20/salsa](https://github.com/golang/crypto/tree/master/salsa20/salsa) packages.
+
+Note that packages in the standard library (as opposed to modules like golang.org/x/crypto) do not use the `gccgo` and `purego` build tags.
