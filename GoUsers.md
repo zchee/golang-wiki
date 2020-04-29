@@ -837,6 +837,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [Rate](https://rate.com.sg)
 * [Singapore Power](https://www.spgroup.com.sg/)
 * [Eatigo](https://www.eatigo.com/)
+* [Carousell](https://sg.carousell.com/)
 
 ## Slovenia
   * [Visionect d.o.o.](http://www.visionect.com)
