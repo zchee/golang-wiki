@@ -793,6 +793,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
  * [Miquido](https://www.miquido.com) - Mobile-first software development company
  * [Brainly](https://brainly.co/) - [blog](https://medium.com/engineering-brainly)
  * [limango](https://www.limango.pl/) 
+ * [SoftKraft](https://www.softkraft.co/golang-development-company/) - software development company
 
 ## Portugal
   * [OLX](https://www.joinolx.com/) - [blog](https://tech.olx.com/)
