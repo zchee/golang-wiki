@@ -1,6 +1,14 @@
 # Mission statement
 
-The golang-tools community is a group of people whose main focus / interest is the development of tools for the Go language. It is open to all developers regardless of experience level. A non-exhaustive sample of frequently encountered topics: code analysis, compilers, editor / IDE plugins, language servers, standard libraries, ...
+The golang-tools community is a group of people whose main focus and interest is the development of tools for the Go language. It is open to everyone. Tooling topics include (but are not limited to) code analysis, compilers, editor and IDE plugins, language servers, and standard libraries.
+
+The golang-tools working group is useful for:
+
+* getting feedback on ideas
+* experimenting with a group of "trusted testers"
+* external proof-reading of proposals, blog posts etc
+
+A key goal of the golang-tools group is that all forums of communication, but especially the regular calls, are friendly and welcoming. We want to create an environment in which everyone feels both supported and able to share their opinions and experience, frankly, freely, and openly. The wider [Go Code of Conduct](https://golang.org/conduct), which we observe just like all other Go forums, summarises this well.
 
 # Community spaces
 
