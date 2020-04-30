@@ -390,6 +390,7 @@
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
   * [UserCV.com Freelancer Marketplace](https://usercv.com)
+  * [Vernacular.ai](https://vernacular.ai)
   * [WazirX](https://wazirx.com/)
   * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
