@@ -51,4 +51,9 @@ C# code
 
             }
 ```
+环境：
+windows7 + TDM gcc
 
+
+# 编译生成动态库（**TDM 命令行下执行**）
+go build -buildmode=c-shared -o dlltest.dll
