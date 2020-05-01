@@ -19,6 +19,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
+- Matt McCullough, "[Towards Clarity: Syntax Changes for Contracts in Go](https://gist.github.com/tooolbox/6bde6925a1a8c78cb593b2c11e977b07)", May 2020
+
 - Gert Cuykens, "[Complete separation of generic syntax form regular Go code](https://github.com/golang/go/issues/36533)", Januari 2020
 
 - Court Fowler, "[Thoughts from a lazy programmer on the updated design](https://gist.github.com/courtf/ec509e0acdba6a4367a72733a8a5e61b)", September 2019
