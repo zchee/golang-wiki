@@ -104,6 +104,7 @@
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Mercado Livre](http://www.mercadolivre.com.br/) - [github](https://github.com/mercadolibre/)
+  * [Meu Astro](https://meuastro.com.br)
   * [Moip Pagamentos](https://www.moip.com.br)
   * [MundiPagg](https://www.mundipagg.com) - [github](https://github.com/mundipagg)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
