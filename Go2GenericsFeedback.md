@@ -19,7 +19,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Supplemental (supporting with modifications)
 
-- Matt McCullough, "[Towards Clarity: Syntax Changes for Contracts in Go](https://gist.github.com/tooolbox/6bde6925a1a8c78cb593b2c11e977b07)", May 2020
+- Matt McCullough, "[Towards Clarity: Syntax Changes for Contracts in Go](https://gist.github.com/tooolbox/6bde6925a1a8c78cb593b2c11e977b07)" and "[Angle Brace Delimiters for Go Contracts](https://gist.github.com/tooolbox/fb385bfa05032ddc989afb393948be48)", May 2020
 
 - Gert Cuykens, "[Complete separation of generic syntax form regular Go code](https://github.com/golang/go/issues/36533)", Januari 2020
 
