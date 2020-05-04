@@ -211,3 +211,33 @@ for i := 1; i < len(in); i++ {
 result := in[:j+1]
 fmt.Println(result) // [1 2 3 4]
 ```
+
+### Move to front or append if not present, in place
+
+```go
+// moveToFront moves needle to the front of haystack, in place if possible.
+func moveToFront(needle string, haystack []string) []string {
+	if len(haystack) == 0 || haystack[0] == needle {
+		return haystack
+	}
+	var prev string
+	for i, elem := range haystack {
+		switch {
+		case i == 0:
+			haystack[0] = needle
+			prev = elem
+		case elem == needle:
+			haystack[i] = prev
+			return haystack
+		default:
+			haystack[i] = prev
+			prev = elem
+		}
+	}
+	return append(haystack, prev)
+}
+
+haystack := []string{"a", "b", "c", "d", "e"} // [a b c d e]
+haystack = moveToFront("c", haystack)         // [c a b d e]
+haystack = moveToFront("f", haystack)         // [f c a b d e]
+```
