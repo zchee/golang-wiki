@@ -212,7 +212,7 @@ result := in[:j+1]
 fmt.Println(result) // [1 2 3 4]
 ```
 
-### Move to front or append if not present, in place
+### Move to front, or append if not present, in place
 
 ```go
 // moveToFront moves needle to the front of haystack, in place if possible.
