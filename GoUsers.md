@@ -150,6 +150,7 @@
   * [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
   * [Hootsuite](https://hootsuite.com/)
   * [Index Exchange](https://www.indexexchange.com) - [jobs](https://www.indexexchange.com/careers/)
+  * [Insights.gg](https://insights.gg/) - [jobs](https://angel.co/company/insights-pro-gg/jobs)
   * [Kira Systems](https://kirasystems.com/) — [jobs](https://kirasystems.com/careers/)
   * [Klei Entertainment](https://klei.com) - [jobs](https://klei.com/careers)
   * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
