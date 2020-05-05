@@ -8,7 +8,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 |-------|-----------|----------|------------|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | ~GoCon Canada~ | ~2020-05-25-26~ | ~Toronto, Canada~ | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
-| GopherCon | 2020-[POSTPONED] | Orlando, FL USA | https://www.gophercon.com/ |
 | GoCon Sendai | 2020-07-04| Sendai, Japan | http://sendai.gocon.jp/ |
 | GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
@@ -18,6 +17,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
 | GoLab 2020 | 2020-10-18-20 | Florence, Italy | https://golab.io |
+| GopherCon | tbd 2020 due to COVID-19 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 
