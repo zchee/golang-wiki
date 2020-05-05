@@ -6,11 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
-| GopherCon Russia 2020 Online | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
-| ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
-| ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
-| GoRemoteFest| 2020-04-26 | [Online](https://www.youtube.com/channel/UCUZnOzWTIeDU8kel4eNNUNw) | https://www.goremotefest.com|
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | ~GoCon Canada~ | ~2020-05-25-26~ | ~Toronto, Canada~ | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
 | GopherCon | 2020-[POSTPONED] | Orlando, FL USA | https://www.gophercon.com/ |
@@ -33,6 +28,11 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| ~~Capital Go 2020~~ | ~~2020-03-26-27~~ | ~~McLean, Virginia USA~~ | http://capitalgolang.com <br> CANCELLED DUE TO COVID-19 CORONAVIRUS |
+| GopherCon Russia 2020 Online | 2020-03-28 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| ~~dotGo~~ | ~~2020-03-30~~ | ~~Paris, France~~ | https://2020.dotgo.eu/ <br> CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS |
+| ~~EU Go Contributor Summit~~| ~~2020-04-23~~ | ~~Berlin, Germany~~ | CANCELLED DUE TO COVID-19 COVID-19 CORONAVIRUS|
+| GoRemoteFest| 2020-04-26 | [Online](https://www.youtube.com/channel/UCUZnOzWTIeDU8kel4eNNUNw) | https://www.goremotefest.com|
 | GopherCon Israel | 2020-02-03 | Tel Aviv, Israel | https://www.gophercon.org.il/ |
 | Go Devroom FOSDEM | 2020-02-02 | Brussels, Belgium | https://fosdem.org/2020/schedule/track/go/ |
 | GoDays | 2020-01-21-23 | Berlin, Germany | https://www.godays.io/ CFP: https://www.godays.io/cfp |
