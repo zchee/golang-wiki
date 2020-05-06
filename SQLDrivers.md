@@ -33,7 +33,7 @@ Drivers for Go's sql package include:
   * **MySQL**: https://github.com/ziutek/mymysql ` [*] `
   * **ODBC**: https://bitbucket.org/miquella/mgodbc (Last updated 2016-02)
   * **ODBC**: https://github.com/alexbrainman/odbc
-  * **Oracle**: https://github.com/mattn/go-oci8
+  * **Oracle** (uses cgo): https://github.com/mattn/go-oci8
   * **Oracle**: https://gopkg.in/rana/ora.v4
   * **Oracle** (uses cgo): https://github.com/godror/godror
   * **QL**: http://godoc.org/github.com/cznic/ql/driver
