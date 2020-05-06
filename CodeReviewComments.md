@@ -598,6 +598,8 @@ In any case, the onus is on you to fail with a helpful message to whoever's debu
 
 ## Variable Names
 
-Variable names in Go should be short rather than long.  This is especially true for local variables with limited scope.  Prefer `c` to `lineCount`.  Prefer `i` to `sliceIndex`.
+Variable names in Go should be clear and descriptive rather than short. Exceptions can be made especially for local variables with limited scope or general conventions (e.g. coordinates: x y z; loops: i j k).  
 
-The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (`i`, `r`). More unusual things and global variables need more descriptive names.
+Prefer `lineCount` to `c`.  Prefer `sliceIndex` to `i`. Prefer `message` to `m`. Prefer `test` to `t`
+
+The basic rule: avoid single letters variables
