@@ -8,6 +8,8 @@ The goal of this policy is to avoid the accumulation of incomplete or broken por
 
 Before any code relating to a port can be added to the main Go repository, the following must all be done:
 
+  * A proposal must be filed and accepted in which the Go team accepts overall responsibility for having the new port in the core Go tree. In general, each new port carries an upkeep cost separate from the direct maintenance. That cost varies by port, depending on how similar a new port is to existing ones. The cost must be balanced by an overall benefit in the form of potential new users or use cases for Go.
+
   * At least one developer must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
 
   * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for https://build.golang.org.
@@ -19,8 +21,6 @@ Before any code relating to a port can be added to the main Go repository, the f
 Once those conditions are satisfied, the Go team can accept the port and begin to merge the CLs. Once the CLs are all submitted, all.bash must pass, so that the builder reports "ok" in the dashboard.
 
 Any port started during a release cycle must be finished (all.bash passing, builder reporting "ok") before the corresponding release freeze, or else the code will be removed at the freeze.
-
-Because having any port entails a certain maintenance burden on the entire Go development team, not just the port's maintainer, the Go team may refuse a port meeting the above criteria if the port is judged not to reach enough users. This exception is intended to be used rarely, mainly to avoid maintaining ports for toy or hobby operating systems or experimental hardware that is not widely available.
 
 # Other repositories
 
