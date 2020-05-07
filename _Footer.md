@@ -28,6 +28,7 @@ Location: S:\MiGo\mibGOPATH\src\mibpacks\mibpackeleven
 mibpackeleven.go:
 
 package mibpackeleven
+
 func HiFrommibpackeleven() string {
 	var returnedValue = "Hello from HiFrommibpackeleven()"
 	return returnedValue
@@ -52,7 +53,9 @@ Calling package:
 Location: S:\MiGo\mibGOPATH\src\mi-code\modulesCall\callpeleven
 
 callpeleven.go:
+
 package main
+
 import (
 	"fmt"
 	"mibpacks/mibpackeleven"
