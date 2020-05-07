@@ -35,12 +35,14 @@ func HiFrommibpackeleven() string {
 
 After:
 >go mod init mibpackeleven
+
 go.mod:
 module mibpackeleven
 go 1.14
 
 After:
 >go install mibpackeleven
+
 Archive file is created:
 S:\MiGo\mibGOPATH\pkg\windows_amd64\mibpacks\mibpackeleven.a
 
@@ -61,20 +63,24 @@ func main() {
 
 After:
 >go mod init callpeleven
+
 go.mod:
 module callpeleven
 go 1.14
 
 At any of the following attempts:
+
 >go run callpeleven.go
 >go build callpeleven.go
 >go install callpeleven
+
 I am getting the following error:
 callpeleven.go:5:2: package mibpacks/mibpackeleven is not in GOROOT
 (S:\GoLang\src\mibpacks\mibpackeleven)
 
 
 Here are the values of major Go env variables: 
+
 GO111MODULE=on
 GOBIN=S:\MiGo\mibGOPATH\bin
 GOHOSTOS=windows
