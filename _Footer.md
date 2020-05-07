@@ -23,6 +23,7 @@ Here is my very simple example:
 
 ==========
 Target package
+
 Location: S:\MiGo\mibGOPATH\src\mibpacks\mibpackeleven
 mibpackeleven.go:
 
@@ -45,6 +46,7 @@ S:\MiGo\mibGOPATH\pkg\windows_amd64\mibpacks\mibpackeleven.a
 
 ==========
 Calling package:
+
 Location: S:\MiGo\mibGOPATH\src\mi-code\modulesCall\callpeleven
 callpeleven.go:
 package main
