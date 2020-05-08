@@ -241,3 +241,22 @@ haystack := []string{"a", "b", "c", "d", "e"} // [a b c d e]
 haystack = moveToFront("c", haystack)         // [c a b d e]
 haystack = moveToFront("f", haystack)         // [f c a b d e]
 ```
+
+### Sliding Window
+```go
+func slidingWindow(size int, input []int) [][]int {
+	// returns the input slice as the first element
+	if len(input) <= size {
+		return [][]int{input}
+	}
+
+	// allocate slice at the precise size we need
+	r := make([][]int, 0, len(input)-size+1)
+
+	for i, j := 0, size; j <= len(input); i, j = i+1, j+1 {
+		r = append(r, input[i:j])
+	}
+
+	return r
+}
+```
