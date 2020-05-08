@@ -22,7 +22,7 @@
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [Fleet Space Technologies](http://fleet.space/) 
   * [Fly365](http://fly365.com) - [github](https://github.com/fly365com)
-  * [MyNetFone](https://www.mynetfone.com.au)
+  * [MyNetFone](https://mnfgroup.limited)
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
   * [GO1](https://www.go1.com/)
   * [SafetyCulture](https://safetyculture.com/)
