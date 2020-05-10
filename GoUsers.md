@@ -335,6 +335,7 @@
   * [Cralina](http://cralina.com/)
   * [CodeIgnition](http://codeignition.co/) - [twitter](https://twitter.com/AjeyGore/status/667515185486102529)
   * [Company 0](https://www.companyzero.com/)
+  * [Cloudsdeal](https://www.cloudsdeal.com/)
   * [Continuum Managed Solutions](https://continuum.net) 
   * [Crowdfire](https://www.crowdfireapp.com/)
   * [Tasker Project Management Tool](https://task.usercv.com)
