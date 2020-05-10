@@ -10,7 +10,6 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Pluralsight Classes for Go](http://www.pluralsight.com/tag/golang) - A growing collection of (paid) online classes.
   * [Ardan Labs Training](https://www.ardanlabs.com/) - Commercial, live instruction for Go programming.
   * [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video learning path for Go programming.
-  * [Golang/Go Tutorial](https://divyanshushekhar.com/) Explained Go Code for practical use.
   * [Go By Example](http://gobyexample.com/) provides a series of annotated code snippets.
   * [Learn Go in Y minutes](http://learnxinyminutes.com/docs/go/) is a top-to-bottom walk-through of the language.
   * [Workshop-Go](https://github.com/sendwithus/workshop-go) - Startup Slam Go Workshop - examples and slides.
@@ -49,5 +48,3 @@ Learning resources for specific topics:
   * [LearnServerProgramming](LearnServerProgramming) links to resources about server programming in Go.
   * [Golang Online Courses](https://classpert.com/go-programming) - A collection of Go online courses from several providers at Classpert
   * [Hackr.io Golang Tutorials](https://hackr.io/tutorials/learn-golang) - Best Golang tutorials recommended by the programming community.
-
-Security Test by [TonghuaRoot](https://tonghuaroot.com)
