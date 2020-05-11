@@ -61,7 +61,7 @@
   * [UZ Leuven](https://www.uzleuven.be)
   * [KU Leuven](https://www.kuleuven.be)
   * [Twixl media](https://twixlmedia.com)
-  * [dploy.ai](https://dploy.ai)
+  * [dploy.ai](https://dploy.ai) (MLOps platform | Belgium & remote :smiley:)
 
 
 ## Brazil
