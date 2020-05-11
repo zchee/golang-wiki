@@ -198,6 +198,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [awless](https://github.com/wallix/awless) - A Mighty command-line interface for Amazon Web Services (AWS).
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
+  * [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make highly customized Boxes for your CLI.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [dsio](https://github.com/nshmura/dsio) - Command line tool for Google Cloud Datastore.
