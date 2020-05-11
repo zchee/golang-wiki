@@ -744,6 +744,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Norway
   * [Aker Solutions](https://www.akersolutions.com/), specifically its [ix3](https://www.ix3.com/) department
+  * [Aller media](https://www.aller.no/)
   * [Amedia](https://www.amedia.no/)
   * [Arcane Crypto](https://www.arcane.no/)
   * [Avinor](https://avinor.no/)
