@@ -61,6 +61,7 @@
   * [UZ Leuven](https://www.uzleuven.be)
   * [KU Leuven](https://www.kuleuven.be)
   * [Twixl media](https://twixlmedia.com)
+  * [dploy.ai](https://dploy.ai)
 
 
 ## Brazil
