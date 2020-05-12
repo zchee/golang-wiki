@@ -204,7 +204,7 @@ critical problems.
 Important documentation-only changes and safe test updates (such as disabling tests), may also be included as well,
 but nothing more.
 
-Minor releases to address non-security problems for Go 1.x stop once Go 1.x+1 is released.
+Minor releases to address non-security problems for Go 1.x stop once Go 1.x+2 is released.
 
 Minor releases to address security problems for Go 1.x stop once Go 1.x+2 is released.
 For more about security updates, see the [security policy](https://golang.org/security).
