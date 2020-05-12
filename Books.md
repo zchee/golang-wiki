@@ -530,6 +530,12 @@ Sorted by publication date.
     * Reference: https://www.epubit.com/book/detail/40090
     * Reference: https://github.com/chai2010/advanced-go-programming-book
 
+  * **Go语法树** (e-book)
+    * Author: 柴树杉（chai2010）
+    * Publication Date: ---
+    * ISBN: ---
+    * Reference: https://github.com/chai2010/go-ast-book
+
   * **Go语言101** (e-book)
     * Author: 老貘
     * Publication Date: ---
