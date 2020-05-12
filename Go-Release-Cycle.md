@@ -209,7 +209,7 @@ Minor releases to address non-security problems for Go 1.x stop once Go 1.x+2 is
 Minor releases to address security problems for Go 1.x stop once Go 1.x+2 is released.
 For more about security updates, see the [security policy](https://golang.org/security).
 
-See also https://github.com/golang/go/wiki/MinorReleases.
+See also the [MinorReleases](https://golang.org/wiki/MinorReleases) wiki page.
 
 ## History
 
