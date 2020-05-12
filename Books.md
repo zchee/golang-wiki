@@ -527,7 +527,7 @@ Sorted by publication date.
     * Author: 柴树杉（chai2010）
     * Publication Date: 2019-07
     * ISBN: 978-7-115-51036-5
-    * Reference: https://www.epubit.com/book/detail/40090
+    * Reference: https://www.epubit.com/bookDetails?id=N40090
     * Reference: https://github.com/chai2010/advanced-go-programming-book
 
   * **Go语法树** (e-book)
