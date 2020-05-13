@@ -341,6 +341,7 @@
   * [Crowdfire](https://www.crowdfireapp.com/)
   * [Tasker Project Management Tool](https://task.usercv.com)
   * [CoderCV.com Freelancer Marketplace](https://codercv.com)
+  * [DeepSource](https://deepsource.io) - Automated code review tool for developers
   * [Dunzo](https://www.dunzo.com)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
