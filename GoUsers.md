@@ -766,6 +766,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Pexip](https://www.pexip.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
   * [reMarkable](https://remarkable.com/)
+  * [Rendra](https://streambim.com/)
   * [Sanity.io](https://www.sanity.io)
   * [Searis](https://www.searis.no/)
   * [Shortcut](https://shortcut.no/)
