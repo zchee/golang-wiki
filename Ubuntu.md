@@ -11,6 +11,9 @@ sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
 sudo apt install golang-go
 ```
+
+For Ubuntu 20.04 LTS, you can install Go 1.14 directly with `sudo apt install golang-1.14-go`.
+
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.14` instead and use the binaries from `/usr/lib/go-1.14/bin`.**
 
 If that's too new for you, try: (Ubuntu 19.04 max, 19.10 not supported)
@@ -20,6 +23,7 @@ $ sudo add-apt-repository ppa:gophers/archive
 $ sudo apt update
 $ sudo apt install golang-1.11-go
 ```
+
 > **Note that `golang-1.11-go` puts binaries in `/usr/lib/go-1.11/bin`. If you want them on your PATH, you need to make that change yourself.**
 
 Using [snaps](https://snapcraft.io/go) also works quite well:
