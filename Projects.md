@@ -591,7 +591,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fs2/bptree](https://github.com/timtadh/fs2#b+tree) - A memory mapped B+Tree with duplicate key support. Appropriate for large amounts of data (aka +100 GB). Supports both anonymous and file backed memory maps.
   * [Diskv](https://github.com/peterbourgon/diskv) - Home-grown, disk-backed key-value store
   * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
-  * [Olric](https://github.com/buraksezer/olric) Distributed and in-memory key/value database. It can be used both as an embedded Go library and as a language-independent service. 
+  * [olric](https://github.com/buraksezer/olric) Distributed cache and in-memory key/value data store. It can be used both as an embedded Go library and as a language-independent service. 
   * [gkvlite](https://github.com/steveyen/gkvlite) - Pure go, simple, ordered, atomic key-value persistence based on append-only file format.
   * [gocask](http://code.google.com/p/gocask/) - Key-value store inspired by Riak Bitcask. Can be used as pure go implementation of dbm and other kv-stores.
   * [goleveldb](https://github.com/syndtr/goleveldb) - Another implementation of LevelDB key/value in pure Go.
