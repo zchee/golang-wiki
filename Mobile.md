@@ -25,7 +25,7 @@ Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobi
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
 
-On OS X, you will need to have
+On macOS, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
 installed.
 
@@ -76,7 +76,7 @@ $ gomobile install golang.org/x/mobile/example/basic
 ### Building and deploying to iOS
 Run `gomobile build` to build the package as an iOS application.
 
-Note: target=ios requires the host machine running OS X. You need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in order to continue.
+Note: target=ios requires the host machine running macOS. You need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in order to continue.
 
 ```
 $ gomobile build -target=ios golang.org/x/mobile/example/basic
@@ -169,7 +169,7 @@ dependencies {
 
 ### Building and deploying to iOS
 
-Note: target=ios requires the host machine to be running OS X.
+Note: target=ios requires the host machine to be running macOS.
 
 ```
 $ cd $GOPATH/src/golang.org/x/mobile/example/bind
