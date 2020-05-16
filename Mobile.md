@@ -176,7 +176,7 @@ $ cd $GOPATH/src/golang.org/x/mobile/example/bind
 $ gomobile bind -target=ios golang.org/x/mobile/example/bind/hello
 ```
 
-Gomobile bind will generate a framework bundle called `Hello.framework`. Open the sample XCode project by running the command below.
+Gomobile bind will generate a framework bundle called `Hello.framework`. Open the sample Xcode project by running the command below.
 
 ```
 $ open ios/bind.xcodeproj
