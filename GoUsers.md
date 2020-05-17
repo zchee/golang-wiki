@@ -278,7 +278,7 @@
   * [Doozer](https://www.doozer.de) - [github](https://github.com/doozer-de)
   * [Centrifuge](http://centrifuge.one) - [github](https://github.com/centrifuge)
   * [Delivery Hero](https://www.deliveryhero.com/)
-  * [eGym](https://www.egym.de/)
+  * [EGYM](https://www.egym.de/) - [Blog](https://code.egym.de/) 
   * [ESONO AG](https://www.esono.de/)
   * [FastBill](https://www.fastbill.com/)
   * [Fraugster](https://fraugster.com/)
