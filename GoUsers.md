@@ -1112,7 +1112,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Caprinova](http://caprinova.com)
   * [Carmatec](https://www.carmatec.com)
   * [Carbon Games](http://carbongames.com/) - [source](http://carbongames.com/opensource.html#the_go_programming_language_bsd)
-  * [CB Insights](https://www.cbinsights.com/)
+  * [CB Insights](https://www.cbinsights.com/) - [source] (https://www.cbinsights.com/research/team-blog/why-we-chose-golang/)
   * [CenturyLink](https://www.ctl.io/) - [github](https://github.com/CenturyLinkCloud?language=go)
   * [Channel](https://www.getchannel.co)
   * [Chatlio](https://chatlio.com)
