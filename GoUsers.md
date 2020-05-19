@@ -1341,6 +1341,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [ReelDx](https://reeldx.com/) - [medvid.io](https://medvid.io), [twitter](https://twitter.com/andrewreeldx)
   * [Remember The Milk](https://www.rememberthemilk.com/)
   * [Remind101](https://www.remind.com/) - [github](https://github.com/remind101/empire), [blog](http://engineering.remind.com/introducing-empire/)
+  * [Remitly](https://www.remitly.com)
   * [Rendered :Text](http://renderedtext.com/) - [blog](http://renderedtext.com/blog/2013/08/28/building-our-first-app-in-go/)
   * [Replicated](https://www.replicated.com)
   * [Repustate](http://www.repustate.com)
