@@ -579,6 +579,8 @@
   * [eureka](https://eure.jp)
   * [feedtailor](https://www.feedtailor.jp/)
   * [Fenrir](http://www.fenrir-inc.com/jp/)
+  * [Fixpoint, Inc.](https://www.fixpoint.co.jp/)
+      * [Kompira cloud](https://cloud.kompira.jp/) - Automation service for system operator
   * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [FreakOut, Inc.](https://fout.co.jp/)
   * [freee K.K.](https://corp.freee.co.jp/)
