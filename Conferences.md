@@ -9,7 +9,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoWest | 2020-05-08| Salt Lake City, UT USA | https://gowestconf.com CFP: https://www.papercall.io/gowestconf |
 | ~GoCon Canada~ | ~2020-05-25-26~ | ~Toronto, Canada~ | https://gocon.ca <br> CANCELLED DUE TO COVID-19  |
 | GoCon Sendai | 2020-07-04| Sendai, Japan | http://sendai.gocon.jp/ |
-| GoWayFest 4.0 | 2020-07-11 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
+| GoWayFest 4.0 (online edition) | 2020-07-11-12 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
 | GopherCon Europe | 2020-07 | Berlin, Germany | https://gophercon.berlin/ |
 | GopherCon Russia 2020 (offline) | 2020-08-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
