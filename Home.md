@@ -195,6 +195,7 @@ If you're looking for services that support Go, here's a list to get you started
     - [OpenStack](https://github.com/openstack/golang-client)
     - [Vscale](https://github.com/vscale/go-vscale)
     - [Aliyun](https://github.com/aliyun/alibaba-cloud-sdk-go)
+    - [Tencent](https://github.com/TencentCloud/tencentcloud-sdk-go)
     - See here for [information on additional providers](ProviderIntegration)
   - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD frameworks
   - Monitoring/Logging
