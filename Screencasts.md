@@ -1,13 +1,4 @@
 # Screencasts
-## Learn you some Golang 
-
-A web site to learn Go. A serie of videos from basic to advanced level.
-
-**Content in French**
-
-[[goscreencasts.io](https://www.goscreencasts.io)]
-
-
 
 ## Writing, building, installing, and testing Go code
 
