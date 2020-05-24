@@ -12,7 +12,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [CERN: Python vs Go for Data Access Service (PDF)](https://indico.cern.ch/event/449425/session/1/contribution/6/attachments/1168560/1685802/DAS_python_vs_go.pdf) _2015-10-18_
 - [Sorry Ruby, I think I've fallen for Go](https://medium.com/@voxxit/sorry-ruby-i-think-i-ve-fallen-for-go-2e92ce1b356) _2015-09-26_
 - [Google Go: Why Google's programming language can rival Java in the Enterprise - Techworld](http://www.techworld.com/apps/why-googles-go-programming-language-could-rival-java-in-enterprise-3626140/) _2015-09-25_
-- [Moving to Three Languages](http://www.jaredwray.com/2015/09/15/moving-to-three-languages/) _2015-09-15_
+- [Moving to Three Languages](https://jaredwray.com/blog/moving-to-three-languages/) _2015-09-15_
 - [Warming up to Go](http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html) _2015-08-28_
 - [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
 - [Iron.io: How We Went from 30 Servers to 2 with Go](http://blog.iron.io/2013/03/how-we-went-from-30-servers-to-2-go.html)
