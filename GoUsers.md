@@ -197,6 +197,7 @@
   * [Megvii](https://www.megvii.com/)
   * [Mili](https://5imili.github.io)
   * [MobiExchanger](http://www.mobiexchanger.com/) - Mobile Internet advertising company
+  * [Momenta](https://www.momenta.ai/)
   * [MZD](https://www.xiaoenai.com/) - [github](https://github.com/xiaoenai)
   * [OPPO](https://www.oppo.com)
   * [Qiniu](http://www.qiniu.com/) - [github](https://github.com/qiniu) - Qiniu builds and operates one of the largest public cloud services in China, with millions of code written in Go since 2011.
