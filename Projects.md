@@ -1048,6 +1048,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cartconvert](https://github.com/the42/cartconvert) - cartography functions for the Go programming language
   * [clp](https://github.com/lanl/clp) - Go bindings for the COIN-OR Linear Programming (CLP) library
   * [Cvx](https://github.com/hrautila/cvx) - Convex optimization package, port of CVXOPT python package
+  * [decimal](https://github.com/db47h/decimal) - A high-performance arbitrary-precision decimal floating-point arithmetic package
   * [dice](https://github.com/tonio-ramirez/dice) - Dice rolling library
   * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
   * [fixed](https://github.com/klkblake/fixed) - A fixed point (Q32.32 format) math library
