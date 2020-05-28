@@ -146,9 +146,9 @@ Git is not available on Plan 9. However a [Git wrapper](http://9legacy.org/9lega
 
 Three Plan 9 builders are currently running and reporting the results to the [Go Dashboard](http://build.golang.org/):
 
-* plan9-386 is running Plan 9 from Bell Labs (386 kernel) on Google Compute Engine (new-style builder)
-* plan9-arm is running Plan 9 from Bell Labs (arm kernel) on a Raspberry Pi 3 (old-style builder)
-* plan9-amd64-9front is running 9front (amd64 kernel) on a virtual machine (old-style builder)
+* plan9-386 is running Plan 9 from Bell Labs (386 kernel) on a virtual machine
+* plan9-amd64-9front is running Plan 9 from Bell Labs (amd64 kernel) on a virtual machine
+* plan9-arm is running Plan 9 from Bell Labs (arm kernel) on a Raspberry Pi 3
 
 # Status
 
