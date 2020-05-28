@@ -41,7 +41,7 @@ You will need support for SHA-2 signatures in X.509 certificates, so you could d
 
 * [libsec-x509-sha2](http://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
 
-If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/magic/webls?dir=/sources/contrib/miller/9/bcm) kernel from Richard Miller.
+If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
 CA certificates for `crypto/x509` package needs to be installed at `/sys/lib/tls/ca.pem`. You can download it from `https://curl.haxx.se/ca/cacert.pem` or copy from another system.
 
