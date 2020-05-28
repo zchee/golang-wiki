@@ -138,6 +138,8 @@ You'll be able to use this binary package of Go to bootstrap Go, by setting the 
 GOROOT_BOOTSTRAP=/tmp/gobootstrap-plan9-386
 ```
 
+Other [binary packages](http://9legacy.org/download.html) are available.
+
 # Git
 
 Git is not available on Plan 9. However a [Git wrapper](http://9legacy.org/9legacy/tools/git) is available as a simple rc script. It includes everything you need to use the [go](https://golang.org/cmd/go) tool.
