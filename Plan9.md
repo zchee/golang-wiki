@@ -16,7 +16,7 @@ The current Go distribution has been tested successfully on:
 
 * [Plan 9 from Bell Labs](https://9p.io/plan9) (386 and arm) kernel
 * [9front](http://9front.org) amd64 kernel
-* Charles Forsyth's [9k](https://bitbucket.org/forsyth/plan9-9k) (amd64) kernel
+* Bell Labs [9k](https://github.com/0intro/plan9-contrib/tree/master/sys/src/9k) (amd64) kernel
 
 # Requirements
 
