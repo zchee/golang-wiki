@@ -1,6 +1,7 @@
 # Companies currently using Go throughout the world
 
 ## Africa
+  * [Analitica Innovare](https://analiticainnovare.com/) - Data Analytics and Artificial Intelligence company in Ghana.
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
   * [Global Performance Index (GPI)](https://www.my-gpi.com/) - Biggest Software automation company in Nigeria.
 
