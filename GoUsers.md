@@ -432,6 +432,7 @@
   * [kumparan](https://kumparan.com)
   * [Kurio](https://kurio.co.id)
   * [Lazada](http://www.lazada.co.id)
+  * [LinkAja](https://linkaja.id)
   * [LionJobs](http://lionjobs.com)
   * [Matahari Mall](http://mataharimall.com)
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
