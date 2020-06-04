@@ -12,6 +12,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GoWayFest 4.0 (online edition) | 2020-07-11-12 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
 | GopherCon Europe | 2020-07 | Berlin, Germany | https://gophercon.berlin/ |
+| GopherCon Turkey (Online) | 2020-07-25 | Istanbul, Turkey | https://gophercon.ist/ |
 | GopherCon Russia 2020 (offline) | 2020-08-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
