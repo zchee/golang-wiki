@@ -35,7 +35,7 @@
   * [Golang UAE](https://plus.google.com/communities/114845275110994424259) - UAE.
   * [Golang Malaysia](https://www.facebook.com/groups/mygolang/) - [Homepage](https://golang.my) - Malaysia.
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
-
+  * [Golang Pakistan](https://www.facebook.com/gopherpk/) - [Group](https://www.facebook.com/groups/2547735885480597) - Pakistan
 # Europe
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
   * [Athens Gophers](https://www.meetup.com/Athens-Gophers/) - Athens, Greece.
