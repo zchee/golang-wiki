@@ -985,7 +985,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [QArea](https://qarea.com/)
   * [Diligences](https://diligences.com/)
   * [ElementalsWeb](https://www.elementalsweb.com/)
-
+## United Arab Emirates
+  * [Milenow](https://www.milenow.com/)
 ## United Kingdom
   * [Acuris](https://www.acuris.com/)
   * [Admongrel](http://www.admongrel.com/)
