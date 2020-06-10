@@ -30,6 +30,8 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Upcoming calls
 
+* 2020-06-24 - [Agenda](https://docs.google.com/document/d/1Seg5Rda1wekSM5CIiNjX9m0I3FSjlEd98RH0xAqCyEs/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+
 ### Call archive
 * 2020-05-13 - [Meeting notes](https://docs.google.com/document/d/11NVS-dsJ-IvIM4hAzxlGvyh_8DxdntnQpYugda1zv1I/edit#) - [video](https://youtu.be/PkZenOPIRfw)
 * 2020-04-08 - [Meeting notes](https://docs.google.com/document/d/1DkRPo0tCG3iIy0Y1_vfbwEou3drXDYcH_HpxlAqRrOc/edit#) - [video](https://youtu.be/av1wUxqtifU)
