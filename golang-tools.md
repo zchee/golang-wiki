@@ -30,9 +30,8 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Upcoming calls
 
-* 2020-05-13 - [Agenda](https://docs.google.com/document/d/11NVS-dsJ-IvIM4hAzxlGvyh_8DxdntnQpYugda1zv1I/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
-
 ### Call archive
+* 2020-05-13 - [Meeting notes](https://docs.google.com/document/d/11NVS-dsJ-IvIM4hAzxlGvyh_8DxdntnQpYugda1zv1I/edit#) - [video](https://youtu.be/PkZenOPIRfw)
 * 2020-04-08 - [Meeting notes](https://docs.google.com/document/d/1DkRPo0tCG3iIy0Y1_vfbwEou3drXDYcH_HpxlAqRrOc/edit#) - [video](https://youtu.be/av1wUxqtifU)
 * 2020-03-11 - [Meeting notes](https://docs.google.com/document/d/1gURv4JVuhSi_Rl68Wn7F4J9ZfHyjtt2YM1QVkotDB68/edit#) - [video](https://youtu.be/Q-nv_eU14cE)
 * 2020-01-28 - [Meeting notes](https://docs.google.com/document/d/1Fj8TQSmEC6iWNrF_31-qEueWFY1KKs2AuQRc_4rWM4A/edit#) - [video](https://www.youtube.com/watch?v=rvuM4lfHcfA)
