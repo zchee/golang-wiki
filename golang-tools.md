@@ -40,7 +40,7 @@ Like the other discussion spaces these calls are open to anyone and people new t
 * 2019-10-29 - [Meeting notes](https://docs.google.com/document/d/1F3T58Nj_Ft3bu15Wd4hAZAW6kLl_M1EH5XP43l_3CpY/edit#) - [video](https://www.youtube.com/watch?v=hFJMi9KS0dY&feature=youtu.be)
 * 2019-09-24 - [Meeting notes](https://docs.google.com/document/d/1FpM5xjNdLnVMYxdPxLRHt6-yYBJ7zURWNbUB8QtFSlw/edit#) - [video](https://www.youtube.com/watch?v=E5w02B62oqc&feature=youtu.be)
 * 2019-08-27 - [Meeting notes](https://docs.google.com/document/d/1NiIbz1h4-UaavdL-SC2hTp54Y87p-1joaLa-r5HgKaE/edit#) - [video](https://www.youtube.com/watch?v=OTKPu0kZ6sQ&feature=youtu.be)
-* [2019-07-26 Meeting notes - second session at GopherCon San Diego](https://docs.google.com/document/d/1ZI_WqpLCB8DO6teJ3aBuXTeYD2iZZZlkDptmcY6Ja60/edit#)
+* 2019-07-26 - [Meeting notes - second session at GopherCon San Diego](https://docs.google.com/document/d/1ZI_WqpLCB8DO6teJ3aBuXTeYD2iZZZlkDptmcY6Ja60/edit#)
 * 2019-07-25 - [Meeting notes - first session at GopherCon San Diego](https://docs.google.com/document/d/1-RVyttQ0ncjCpR_sRwizf-Ubedkr0Emwmk2LhnsUOmE/edit)
 * 2019-05-28 - [Meeting notes](https://docs.google.com/document/d/15gibnpGJyY-cJeRFIDf_mHzlbSnbZWGHvr5PJqQKUUY/edit?usp=sharing) - [video](https://www.youtube.com/watch?v=qmDsGU0-s7Y&feature=youtu.be)
 * 2019-04-30 - [Meeting notes](https://docs.google.com/document/d/179fHEOR2gfJJnu3EouZ11wu01UDun7E0NNfuJywCVFQ/edit?usp=sharing) - [video](https://www.youtube.com/watch?v=xG-dNIK82rc)
