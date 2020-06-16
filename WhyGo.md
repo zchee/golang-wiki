@@ -77,7 +77,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [*Go and Swift* by Scott Rosenberg](https://medium.com/backchannel/my-computer-language-is-better-than-yours-58d9c9523644)
 - [*Features I Like about Go* by Abhi Yerra](https://medium.com/on-being-a-code-monkey/things-i-like-about-go-e026762be8ac)
 - [**Go at Apcera** by Derek Collison](https://www.hakkalabs.co/articles/why-we-use-go)
-- [Notes on the Go translation of Reposurgeon - **From Python to Go translation of a large codebase**](https://gitlab.com/esr/reposurgeon/blob/master/GoNotes.adoc)
+- [**From Python to Go translation of a large codebase** - Go translation of Reposurgeon](https://gitlab.com/esr/reposurgeon/blob/master/GoNotes.adoc)
 
 ## Who uses Go
 
