@@ -360,3 +360,5 @@ func main() {
 - aprice2704: I really dislike the idea of using regular parentheses `(`, would a two-character sequence cause compiler overhead from unbounded lookahead? How about <| and |> ? would they work? They have the advantages of being quite distinct from `(`, making some visual sense in ascii, and in the 'Fira Code' font (highly recommended) which I use in VSCode there are ligatures to render these as little right or left pointing triangles.
 
 - leaxoy: First I'm sorry for editing the page footer, however I can't remove footer content. This is my opinion: lots of `(` & `)` made go looks so messy, `<` & `>` like other language is better, and is more kindly for those come from other languages.
+
+- Hajime Hoshi: I completely agree on aprice2704's syntax concern. Wouldn't `[[` / `]]` work, for example?
