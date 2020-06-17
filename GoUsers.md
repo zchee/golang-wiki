@@ -566,6 +566,7 @@
 
 ## Japan
   * [3-shake, Inc.](https://www.3-shake.com/)
+  * [ACALL, Inc.](https://corp.acall.jp/)
   * [and factory, Inc.](https://andfactory.co.jp/)
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
