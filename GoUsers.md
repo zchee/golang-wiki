@@ -662,6 +662,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [KitS](http://kdkits.jp/)
       * [Artpop!](http://kdkits.jp/materials/)
   * [Speee, Inc.](https://speee.jp/)
+  * [SYN, Inc.](https://syn-inc.com/)
+      * [Chompy](https://chompy.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
   * [VELTRA Corporation](https://www.veltra.com/)
