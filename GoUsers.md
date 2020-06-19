@@ -50,6 +50,7 @@
   * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
   * [BykovSoft](https://bykovsoft.com) - [github](https://github.com/bykovme)
   * [SmartPro](https://smartpro.by)
+  * [Spiral Scout](https://spiralscout.com) - [github](https://github.com/spiral)
 
 ## Belgium
   * [IN4IT](https://www.in4it.io/)
