@@ -118,8 +118,8 @@ This finalizer has been registered with the runtime system, but the object to wh
 # itab
   * uvarint: Itab address
   * uvarint: address of type descriptor for contained type
-  * * Up to go1.6, the type is always a pointer type, and represents the type of the itab.data field.
-  * * From go1.7 and beyond, the type is the type stored in the interface.  To decide whether the itab.data field is T or *T requires looking at the last boolean in the referenced type's descriptor.
+    * Up to go1.6, the type is always a pointer type, and represents the type of the itab.data field.
+    * From go1.7 and beyond, the type is the type stored in the interface.  To decide whether the itab.data field is T or *T requires looking at the last boolean in the referenced type's descriptor.
 
 # osthread (M)
   * uvarint: address of this os thread descriptor
@@ -169,9 +169,9 @@ Same format as data, but for the bss segment.
   * uvarint: record identifier
   * uvarint: size of allocated object
   * uvarint: number of stack frames.  For each frame:
-  * - string: function name
-  * - string: file name
-  * - uvarint: line number
+    * string: function name
+    * string: file name
+    * uvarint: line number
   * uvarint: number of allocations
   * uvarint: number of frees
 
