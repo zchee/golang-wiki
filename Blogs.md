@@ -18,7 +18,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Matt Aimonetti's Blog](http://matt.aimonetti.net/)
 * [Marcio.io](http://marcio.io/)
 * [Carlos Becker's Blog](http://carlosbecker.com/)
-* [Ardan Studios Going Go](http://www.goinggo.net/)
+* [Ardan Labs](https://www.ardanlabs.com/blog/)
 * [The Golang Weekly](http://golangweekly.com/)
 * [Alex Edward's Golang Posts](http://www.alexedwards.net/blog/category/golang)
 * [GoLang Tutorials](http://golangtutorials.blogspot.com/)
