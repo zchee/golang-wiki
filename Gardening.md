@@ -32,7 +32,7 @@ While triaging the bug:
 * is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
 * if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
 
-When the issue has been triaged, an an appropriate label (per https://golang.org/wiki/HandlingIssues) to mark it as such.
+When the issue has been triaged, add an appropriate label (per https://golang.org/wiki/HandlingIssues) to mark it as such.
 
 ### WaitingForInfo
 
