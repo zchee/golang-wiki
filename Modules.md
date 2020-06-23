@@ -811,7 +811,7 @@ For example:
 * [mirrors.tencent.com/go](https://mirrors.tencent.com/go/) - Commercial project - Run by [Tencent Cloud](https://cloud.tencent.com/) - A Go module proxy alternate.
 * [mirrors.aliyun.com/goproxy](https://mirrors.aliyun.com/goproxy) - Commercial project - Run by [Alibaba Cloud](https://www.alibabacloud.com) - A Go module proxy alternate.
 * [goproxy.cn](https://goproxy.cn) - Open source project - Run by [Qiniu Cloud](https://www.qiniu.com) - The most trusted Go module proxy in China.
-* [goproxy.io](https://goproxy.io) - Open source project - Run by China Golang Contributor Club - A global proxy for Go modules.
+* [goproxy.io](https://goproxy.io) - Open source project - Run by [China Golang Contributor Club](https://golangcn.org) - A global proxy for Go modules.
 * [Athens](https://github.com/gomods/athens) - Open source project - Self-hosted - A Go module datastore and proxy.
 * [athens.azurefd.net](https://athens.azurefd.net) - Open source project - Run by [Microsoft](https://www.microsoft.com) - A hosted module proxy running Athens.
 * [Goproxy](https://github.com/goproxy/goproxy) - Open source project - Self-hosted - A minimalist Go module proxy handler.
