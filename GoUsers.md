@@ -1010,6 +1010,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bubble Student](https://www.bubblestudent.co.uk)
   * [Bud](https://thisisbud.com/)
   * [Countingup](https://countingup.com) - [github](https://github.com/countingup)
+  * [Cytora](https://www.cytora.com) - [github](https://github.com/cytora)
   * [Deliveroo](https://www.deliveroo.co.uk) - [github](https://github.com/deliveroo/)
   * [DeviseOps](https://deviseops.com/)
   * [Form3](https://form3.tech) - [github](https://github.com/form3tech)
