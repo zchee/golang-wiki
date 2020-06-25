@@ -1572,8 +1572,11 @@ Target: macOS/arm64
 On host machine:
 
 Xcode: Install latest Xcode which supports Apple silicon
+
 Go: Install go*.darwin-amd64.pkg (or build go from source) on macOS/x86_64
+
 Set go executable in PATH
+
 Export the following environment variables before cross compiling go apps for macOS/arm64
 
     export SDK_NAME=macosx
