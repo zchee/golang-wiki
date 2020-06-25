@@ -1563,4 +1563,30 @@ ok  	runtime		1331.420s
 
 --Abishek Muthian ([@heavyinfo](https://twitter.com/heavyinfo))
 
+## Apple silicon
 
+Cross-compiling Go applications:
+
+Host/Build: macOS/x86_64
+Target: macOS/arm64
+On host machine:
+
+ Xcode: Install latest Xcode which supports Apple silicon
+ Go: Install go*.darwin-amd64.pkg (or build go from source) on macOS/x86_64
+ Set go executable in PATH
+ Export the following environment variables before cross compiling go apps for macOS/arm64
+
+    export SDK_NAME=macosx
+    export SDK_PATH=$(xcrun --show-sdk-path --sdk $SDK_NAME)
+    export CGO_ENABLED=1
+    export GOOS=darwin
+    export GOARCH=arm64
+    export CC="$(xcrun -sdk $SDK_PATH --find clang) -arch $GOARCH -isysroot $SDK_PATH"
+    export CFLAGS="-isysroot $SDK_PATH -arch $GOARCH -I$SDK_PATH/usr/include"
+    export LD_LIBRARY_PATH="$SDK_PATH/usr/lib"
+    export CGO_CFLAGS="-isysroot $SDK_PATH -arch $GOARCH"
+    export CGO_LDFLAGS="-isysroot $SDK_PATH -arch $GOARCH"
+    Compile the app as below:
+    $ GOOS=darwin GOARCH=arm64 go build <app>
+
+ Copy the generated arm64 executable to target machine (macOS/arm64) and run
