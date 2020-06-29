@@ -746,6 +746,9 @@ The `replace` directive allows you to supply another import path that might be a
 `replace` also allows the use of a forked dependency, such as:
   * `replace example.com/some/dependency => example.com/some/dependency-fork v1.2.3`
 
+You can also reference branches, for example:
+  * `replace example.com/some/dependency => example.com/some/dependency-fork master`
+
 One sample use case is if you need to fix or investigate something in a dependency, you can have a local fork and add the something like the following in your top-level `go.mod`:
   * `replace example.com/original/import/path => /your/forked/import/path`
 
