@@ -165,6 +165,7 @@ $ GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
 * https://www.youtube.com/watch?v=4kBvvk2Bzis[Building a Calculator with Go and WebAssembly] (https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
 * https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
 * https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide[Go&WebAssembly简介 - by chai2010] (Chinese)
+* https://www.youtube.com/watch?v=G8lptDqPP-0[Go for frontend]
 
 # Interacting with the DOM
 
