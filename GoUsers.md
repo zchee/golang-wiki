@@ -304,6 +304,7 @@
   * [Native Instruments](https://www.native-instruments.com/) - [github](https://github.com/nativeinstruments)
   * [networkteam GmbH](https://networkteam.com/) - [github](https://github.com/networkteam?language=go)
   * [OptioPay](https://www.optiopay.com)
+  * [ownCloud](https://owncloud.org) - [github](https://github.com/owncloud?language=go)
   * [Posteo](https://posteo.de/en) - Green, secure, ad-free email service
   * [PubNative](https://www.pubnative.net/) - [github](https://github.com/pubnative)
   * [simplesurance](https://www.simplesurance.com/)
