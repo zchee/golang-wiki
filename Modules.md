@@ -1422,7 +1422,7 @@ Using the example of cgo – modifying C source code in other directories will n
 to be recompiled, so _all non-Go source code for the package should be
 stored in the package directory_, not in subdirectories.
 
-A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` director. Although this can be helpful, some care must be taken to make sure your go build is being handled properly in general (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
+A community tool https://github.com/goware/modvendor allows you to easily copy a complete set of .c, .h, .s, .proto or other files from a module into the `vendor` directory. Although this can be helpful, some care must be taken to make sure your go build is being handled properly in general (regardless of vendoring) if you have files needed to build a package that are outside of the directory with the `.go` files.
 
 See additional discussion in [#26366](https://github.com/golang/go/issues/26366#issuecomment-405683150).
 
