@@ -790,7 +790,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Shortcut](https://shortcut.no/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Telia](https://www.telia.no/)
-  * [Teston](https://teston.io/en/)
+  * [Teston](https://teston.io/en/), part of [UserTesting](https://www.usertesting.com/)
   * [TIDAL](https://tidal.com/)
   * [Unacast](https://www.unacast.com/)
   * [Vipps](https://www.vipps.no)
