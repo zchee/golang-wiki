@@ -34,7 +34,7 @@ Drivers for Go's sql package include:
   * **ODBC**: https://bitbucket.org/miquella/mgodbc (Last updated 2016-02)
   * **ODBC**: https://github.com/alexbrainman/odbc
   * **Oracle** (uses cgo): https://github.com/mattn/go-oci8
-  * **Oracle**: https://gopkg.in/rana/ora.v4
+  * **Oracle** (uses cgo): https://gopkg.in/rana/ora.v4
   * **Oracle** (uses cgo): https://github.com/godror/godror
   * **QL**: http://godoc.org/github.com/cznic/ql/driver
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
