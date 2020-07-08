@@ -36,7 +36,6 @@ When running TryBots again later, the most recent `TRY=` comment on the current 
 * The `git-codereview mail` tool's `-trybot` flag doesn't support this yet, so use the web UI.
 * If TryBots are already running, deleting the `Run-TryBot+1` vote and re-doing it won't re-start the TryBot set, so it won't look at your TRY= line, until the next run when it's done. (But you'll need to delete the TryBot-Result somehow: manually, rebasing, uploading new version)
 * If you select a builder that's offline, it'll currently just wait forever for it to show up. There's no timeout yet.
-* If there is additional text in the comment, the `TRY=` line must be in a separate paragraph for now (TODO: [golang.org/issue/38747](https://golang.org/issue/38747)).
 * If you specify an unknown `TRY=` token, it'll just ignore it and won't report an error.
 * There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway. See [golang.org/issue/34501#issuecomment-544585711](https://golang.org/issue/34501#issuecomment-544585711).
 
