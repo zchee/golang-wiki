@@ -415,6 +415,7 @@
 
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
+  * [Bareksa](https://www.bareksa.com/)
   * [Bhinneka](http://www.bhinneka.com/)
   * [BlockchainZoo](https://blockchainzoo.com/)
   * [Brankas](https://brank.as)
