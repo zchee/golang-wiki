@@ -37,6 +37,7 @@
   * [Go Developers Network Bangladesh](https://www.facebook.com/groups/godevnet/) - Bangladesh.
   * [Golang Pakistan](https://www.facebook.com/gopherpk/) - [Facebook Group](https://www.facebook.com/groups/2547735885480597) - Pakistan
 # Europe
+  * [Bärner Go Meetup](https://www.meetup.com/Berner-Go-Meetup/) - Berne, Switzerland
   * [Budapest Go Meetup](https://www.meetup.com/go-budapest/) - Budapest, Hungary
   * [Athens Gophers](https://www.meetup.com/Athens-Gophers/) - Athens, Greece.
   * [Golang Türkiye](https://www.facebook.com/groups/GolangTurkiye) - Istanbul, Turkey.
