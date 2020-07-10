@@ -49,7 +49,7 @@
     * A [vim-go-extra](https://github.com/vim-jp/vim-go-extra) is vim plugin based on misc/vim in go repository. This works fine on windows too!
     * The [go-ide](https://github.com/plentiform/go-ide) is a Neovim configuration file that ties go related plugins together making autocomplete, auto-importing, snippets, code formatting, and file search/browsing easier.
   * **[Visual Studio](https://www.visualstudio.com/)**: Commercial IDE by Microsoft for Windows. A [Go Language Support](https://visualstudiogallery.msdn.microsoft.com/bd7675ba-1bf5-4395-8c5a-4fc19dfc0d76) extension is available for Visual Studio 2010, 2012 and 2013 Pro, Enterprise, and Community.
-  * **[Visual Studio Code](https://code.visualstudio.com/)**: Free & open source IDE by Microsoft. Visual Studio Code supports Go syntax highlighting out of the box. Additional features are provided by the [vscode-go](https://github.com/Microsoft/vscode-go) plugin.
+  * **[Visual Studio Code](https://code.visualstudio.com/)**: Free & open source IDE by Microsoft. Visual Studio Code supports Go syntax highlighting out of the box. Additional features are provided by the [vscode-go](https://github.com/golang/vscode-go) plugin.
   * **[GNU Nano](http://golang.cat-v.org/text-editors/nano/)**: a simple .nanorc for GNU Nano ("pico").
   * **[Zeus](http://www.zeusedit.com/go.html)**: Commercial IDE for Go (Windows or Linux with Wine).
   
