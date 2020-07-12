@@ -1622,6 +1622,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-stat](https://github.com/mreiferson/go-stat) - performant instrumentation/profiling for Go
   * [go-tap](https://github.com/Merovius/go-tap) - TAP (Test Anything Protocol) parser in Go
   * [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible deep comparison, extends the testing package
+  * [go-test-report](https://github.com/vakenbolt/go-test-report) - Captures go test output and parses it into a single self-contained HTML file.
   * [gotestsum](https://github.com/gotestyourself/gotestsum) - a test runner with customizable and colored output
   * [gotest.tools](https://github.com/gotestyourself/gotest.tools) - a collection of packages for writing readable tests
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
