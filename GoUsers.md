@@ -119,6 +119,7 @@
   * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
   * [Olist](https://olist.com/) - [github](https://github.com/olist)
   * [Open Vista Global](http://openvistaglobal.com.br)
+  * [OPLEN](http://www.oplen.com.br)
   * [Pagar.me](https://pagar.me)
   * [Pagro](https://www.pagro.com.br)
   * [PagSeguro](https://pagseguro.uol.com.br)
