@@ -30,7 +30,7 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Upcoming calls
 
-* 2020-07-?? - [Agenda]() - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+* 2020-07-22 - [Agenda](https://docs.google.com/document/d/13hupZM403jvJ9zeld2UU0n05NNdxFCuaLkysYNDj7vg/edit) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
 * 2020-08-?? - [Agenda]() - [Meet](https://meet.google.com/xuq-tcoc-dkp)
 
 ### Call archive
