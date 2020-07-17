@@ -1,1 +1,1 @@
-See [CodeReviewComments](CodeReviewComments).
+See [CodeReviewComments](/golang/go/wiki/CodeReviewComments) or [CSSStyleGuide](/golang/go/wiki/CSSStyleGuide).
