@@ -1,4 +1,12 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
+## 2020
+
+- Lightweight Preemptible Functions (S. Boucher, A. Kalia, D. Andersen, M. Kaminsky)
+  - [Usenix'20](https://www.usenix.org/conference/atc20/presentation/boucher)
+- From Folklore to Fact: Comparing Implementations of Stacks and Continuations (K. Farvadin, J. Reppy)
+  - [PLDI'20](https://dl.acm.org/doi/abs/10.1145/3385412.3385994)
+- Featherweight Go (R. Griesemer, R. Hu, W. Kokke, J. Lange, I. Taylor, B. Toninho, P. Wadler, N. Yoshida)
+  - [arxiv](https://arxiv.org/abs/2005.11710)
 ## 2019
 
 - Software Microbenchmarking in the Cloud. How Bad is it Really?. Laaber, Scheuner, and Leitner. In: Empirical Software Engineering.
