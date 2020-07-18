@@ -7,6 +7,17 @@ This page lists academic and industry research papers about Go or using Go as th
   - [PLDI'20](https://dl.acm.org/doi/abs/10.1145/3385412.3385994)
 - Featherweight Go (R. Griesemer, R. Hu, W. Kokke, J. Lange, I. Taylor, B. Toninho, P. Wadler, N. Yoshida)
   - [arxiv](https://arxiv.org/abs/2005.11710)
+-  GoPi: Compiling linear and static channels in Go (M. Giunti)
+  - [pdf](http://ctp.di.fct.unl.pt/~mgiunti/preprints/coord20_camera.pdf)
+  - [github](https://github.com/marcogiunti/gopi) 
+- Fencing off Go: Liveness and Safety for Channel-Based Programming
+  - [pdf](http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/long.pdf)
+- Breaking Type-Safety in Go: An Empirical Study on the Usage of the unsafe Package (D. Costa, S. Mujahid, R. Abdalkareem, E. Shihab)
+  - [arxiv](https://arxiv.org/abs/2006.09973)
+- Static Race Detection and Mutex Safety and Liveness for Go Programs (J. Gabet, N. Yoshida)
+  - [arxiv](https://arxiv.org/abs/2004.12859)
+  - [github](https://github.com/JujuYuki/godel2)
+
 ## 2019
 
 - Software Microbenchmarking in the Cloud. How Bad is it Really?. Laaber, Scheuner, and Leitner. In: Empirical Software Engineering.
