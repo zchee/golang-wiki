@@ -7,7 +7,7 @@ This page lists academic and industry research papers about Go or using Go as th
   - [PLDI'20](https://dl.acm.org/doi/abs/10.1145/3385412.3385994)
 - Featherweight Go (R. Griesemer, R. Hu, W. Kokke, J. Lange, I. Taylor, B. Toninho, P. Wadler, N. Yoshida)
   - [arxiv](https://arxiv.org/abs/2005.11710)
--  GoPi: Compiling linear and static channels in Go (M. Giunti)
+- GoPi: Compiling linear and static channels in Go (M. Giunti)
   - [pdf](http://ctp.di.fct.unl.pt/~mgiunti/preprints/coord20_camera.pdf)
   - [github](https://github.com/marcogiunti/gopi) 
 - Fencing off Go: Liveness and Safety for Channel-Based Programming
