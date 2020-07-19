@@ -699,6 +699,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Toast Cloud](https://toast.com/) - Public Cloud Service
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [Gabia](https://www.gabia.com/) - Server monitoring solution
+  * [BankSalad](https://banksalad.com/) - Personal Finance Management Service
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
