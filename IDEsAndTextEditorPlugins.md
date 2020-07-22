@@ -1,9 +1,8 @@
 # IDEs and Plugins for Go
 
   * **[Atom](https://atom.io/)**: JavaScript-based editor from GitHub. Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
-  * **[BBedit](https://www.barebones.com/products/bbedit/)**: commercial text editor for macOS.
-    * Basic Go support available with the [module](https://www.barebones.com/products/bbedit/)
-    * [Go-bbpackage](https://github.com/ascarter/go-bbpackage) with clippings, ctags standard library completion, better syntax highlighting, and tools
+  * **[BBEdit](https://www.barebones.com/products/bbedit/)**: free text editor for macOS (with paid upgrade for pro features). 
+    * Go support available with the [Go-bbpackage module](https://github.com/ascarter/go-bbpackage) including syntax highlighting, clippings, ctags standard library completion, and tools
   * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
   * **[Eclipse IDE](https://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support. This project was abandoned in 2017 and may not work with modern editions of Eclipse.
