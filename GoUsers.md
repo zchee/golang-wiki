@@ -1086,6 +1086,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Acquia](https://www.acquia.com) - [blog](https://dev.acquia.com/blog/open-sourcing-statsgod-a-statsd-implementation-in-go/16/11/2015/8171)
   * [adeven](http://www.adeven.com) - [blog](http://big-elephants.com/2012-10/deploying-go-with-capistrano/)
   * [Adobe](https://www.adobe.com/)
+  * [SEMRush Pricing](https://www.cloudsdeal.com/2020/06/semrush-free-trial.html)
   * [Adori Labs](http://www.adorilabs.com/)
   * [AeroFS](https://www.aerofs.com/) - [github](https://github.com/aerofs/gockerize), [blog](https://www.aerofs.com/blog/introducing-gockerize/)
   * [Aerospike](http://www.aerospike.com) - [blog](https://groups.google.com/d/msg/golang-nuts/GA902tHnjdM/ARRaBS2g4zEJ)
