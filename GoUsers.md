@@ -105,6 +105,7 @@
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
   * [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
+  * [Levpay](http://www.levpay.com/) - [github](https://github.com/levpay)
   * [Loggi](https://www.loggi.com) - [github](https://github.com/loggi)
   * [M4U](https://www.m4u.com.br) - [github](https://github.com/Mobile4You)
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
