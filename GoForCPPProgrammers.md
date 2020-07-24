@@ -21,7 +21,7 @@ class methods, a class inheritance hierarchy, and virtual functions, Go<br>
 provides <em>interfaces</em>, which are discussed in more detail below.<br>
 Interfaces are also used where C++ uses templates.</li>
 
-<li>Go provides automatic garbage collection of allocated memory. It is not necessary (or possible) to release memory explicitly.  There is no need to worry about heap-allocated vs. stack-allocated storage, <code>new</code> vs. <code>malloc</code>, or <code>delete</code> vs. <code>delete[]</code> vs. <code>free</code>.  There is no need to separately manage <code>std::unique_ptr</code>, <code>std::shared_ptr</code>, <code>std::weak_ptr</code>, <code>std::auto_ptr</code>, and ordinary, "dumb" pointers.  Go's run-time system handles all of that error-prone code on the programmer's behalf.</li>
+<li>Go provides automatic garbage collection of allocated memory. It is not necessary (or possible) to release memory explicitly.  There is no need to worry about heap-allocated vs. stack-allocated storage, <code>new</code> vs. <code>malloc</code>, or <code>delete</code> vs. <code>delete[]</code> vs. <code>free</code>.  There is no need to separately manage <code>std::unique_ptr</code>, <code>std::shared_ptr</code>, <code>std::weak_ptr</code>, <code>std::auto_ptr</code>, and ordinary, non-smart "raw" pointers.  Go's run-time system handles all of that error-prone code on the programmer's behalf.</li>
 
 <li>Go has pointers but not pointer arithmetic. Go pointers therefore more closely resemble C++ references.  One cannot use a Go pointer variable to walk through the bytes of a string.  Slices, discussed further below, satisfy most of the need for pointer arithmetic.</li>
 
