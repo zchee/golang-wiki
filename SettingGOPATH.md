@@ -16,7 +16,7 @@ The `GOPATH` environment variable specifies the location of your workspace. If n
 
 `GOPATH` can be any directory on your system. In Unix examples, we will set it to `$HOME/go` (the default since Go 1.8). Note that `GOPATH` must not be the same path as your Go installation. Another common setup is to set `GOPATH=$HOME`.
 
-## Go 1.13
+## Go 1.13+
 
 ```bash
 go env -w GOPATH=$HOME/go
@@ -63,8 +63,8 @@ but we'll use `C:\go-work` in this example.
 
 __NOTE:__ `GOPATH` must not be the same path as your Go installation.
 
-* Create folder at `C:\go-work`.
-* Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
+* Create a folder at `C:\go-work`.
+* Right-click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".
 * From the menu on the left, select the "Advanced system settings".
 * Click the "Environment Variables" button at the bottom.
 * Click "New" from the "User variables" section.
@@ -72,7 +72,7 @@ __NOTE:__ `GOPATH` must not be the same path as your Go installation.
 * Type `C:\go-work` into the "Variable value" field.
 * Click OK.
 
-## Go 1.13 (command line)
+## Go 1.13+ (command line)
 * Open a command prompt (`Win` + `r` then type `cmd`) or a powershell window (`Win` + `i`).
 * Type `go env -w GOPATH=c:\go-work`.
 
@@ -85,4 +85,4 @@ There is a faster way to edit `Environment Variables` via search:
 ## Windows 10 (command line)
 * Open a command prompt (`Win` + `r` then type `cmd`) or a powershell window (`Win` + `i`).
 * Type `setx GOPATH %USERPROFILE%\go`. (This will set the `GOPATH` to your `[home folder]\go`, such as `C:\Users\yourusername\go`.)
-* Close the command or powershell window. (The environment variable is only available for new command or powershell windows, not for the current window.)
+* Close the command or PowerShell window. (The environment variable is only available for new command or PowerShell windows, not for the current window.)
