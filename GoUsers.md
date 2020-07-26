@@ -143,6 +143,7 @@
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
   * [VivaReal](http://www.vivareal.com.br) - [github](https://github.com/VivaReal)
   * [Walmart](http://www.walmart.com.br)
+  * [Zup Innovation](https://github.com/ZupIT/ritchie-cli) - an open source tool that allows you to create, store and share automations
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
