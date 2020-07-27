@@ -818,6 +818,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
  * [allegro](http://allegro.pl) - [blog](http://allegro.tech) - biggest polish e-commerce platform
  * [hostit.pl](https://hostit.pl) - [blog](https://hostit.pl/blog/375,go-gadget-go.html)
  * [Brainhub](https://brainhub.eu) - [blog](https://brainhub.eu/golang-software-development.html)
+ * [Cardinal Cryptography](https://cardinals.cc) - blockchain, DLT, and software development 
  * [CloudThing](https://www.cloudthing.io) - IoT cloud platform
  * [HolidayCheck](https://www.holidaycheck.pl/)
  * [Husar Labs](http://www.husarlabs.com) - software development company
@@ -930,6 +931,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Switzerland
   * [AgFlow SA](http://www.agflow.com/)
+  * [Aleph Zero](https://alephzero.org) - blockchain platform
   * [Centralway Numbrs AG](https://www.centralway.com/uk/)
   * [HolidayCheck](https://www.holidaycheck.ch/)
   * [Magazine zum Globus AG](https://globus.ch) - [github](https://github.com/globusdigital)
