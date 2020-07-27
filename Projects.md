@@ -1004,6 +1004,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [haminer](https://github.com/shuLhan/haminer) - Library and program to parse and forward HAProxy logs
   * [immortal](https://immortal.run) - A *nix cross-platform (OS agnostic) supervisor
   * [jWalterWeatherman](https://github.com/spf13/jwalterweatherman) - Seamless terminal printing and file logging that s as easy to use as fmt.Println
+  * [kemba](https://github.com/clok/kemba) - A tiny debug logging tool inspired by [debug](https://github.com/visionmedia/debug), great for CLI tools and applications.
   * [log4go](http://log4go.googlecode.com/) - Go logging package akin to log4j
   * [logger](https://github.com/weatherglass/pkg/tree/master/logger) - Go logging with buffered output and multiple writers
   * [logrus](https://github.com/Sirupsen/logrus) - Structured, pluggable logging for Go with built-in hooks for third-party loggers: Airbrake, Papertrail, Loggly, Sentry...
