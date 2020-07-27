@@ -31,4 +31,6 @@
 * [libfsm](https://github.com/katef/libfsm) - fsm toolkit supporting (among others) Go and Go-flavored amd64 assembly for matching regexps
 * [re2c](https://re2c.org/index.html) - lexer generator for C, C++ and Go
 * [re2dfa](https://gitlab.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code
+* [pigeon](https://github.com/mna/pigeon) - a PEG parser generator for Go
+
 
