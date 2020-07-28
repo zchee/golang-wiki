@@ -2,7 +2,7 @@ Welcome to the Go wiki, a collection of information about the [Go Programming La
 
 ## Questions about Go ##
 
-See [Questions](Questions).
+See [Questions](Questions).123
 
 ## Contributing ##
 
