@@ -89,8 +89,8 @@ JS can add/remove these attributes/classes. Every component must define its own 
 ```
 .Tweet { /* … */ }
 .Tweet[aria-expanded=true] { /* … */ }
-.Tweet.is-Blorked { /* … */ }
-<article class="Tweet is-Blorked" aria-expanded="true">
+.Tweet.is-blorked { /* … */ }
+<article class="Tweet is-blorked" aria-expanded="true">
   …
 </article>
 ```
