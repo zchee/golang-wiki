@@ -2,7 +2,7 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 
 ## Why Go
 
-- [Why Devops Engineers Should Know Go](https://akondas.com/Why-DevOps-Engineers-Should-Know-Go/) _2020-05-27_
+- [Why Devops Engineers Should Know Go](https://akondas.com/blog/Why-DevOps-Engineers-Should-Know-Go) _2020-05-27_
 - [Why We Chose Go](https://tech.trivago.com/2020/03/02/why-we-chose-go/) _2020-03-02_
 - [Why Go? – Key advantages you may have overlooked](https://yourbasic.org/golang/advantages-over-java-python/) _2019-06-01_
 - [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html) _2017-01-15_
