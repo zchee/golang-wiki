@@ -863,6 +863,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [Tinkoff](https://tinkoff.ru)
 * [Tochka](http://tochka.com/)
 * [TRY.FIT](http://try.fit/)
+* [VK.COM](https://vk.com/about) (Part of our Go services: https://www.youtube.com/watch?v=Llmpfv8PIt4)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
