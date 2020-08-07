@@ -56,7 +56,7 @@ Since Go is written in Go, you may want to bootstrap Go with Go 1.4.3, which is 
 
 However, since the Go 1.4 runtime wasn't mature enough on Plan 9, we recommend you to bootstrap from a more recent version of Go, using another operating system.
 
-## Boostraping from Plan 9
+## Bootstrapping from Plan 9
 
 First, install Go 1.4:
 
@@ -87,7 +87,7 @@ bind -a /tmp/go/bin /bin
 ```
 Go is now ready to use.
 
-## Bootstraping from another operating system
+## Bootstrapping from another operating system
 
 First, you must have installed Go on this operating system, following the [Go installation instructions](https://golang.org/doc/install).
 
