@@ -6,7 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Russia 2020 part 2 (online) | 2020-08-07-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| GopherCon Russia 2020/2 Online | 2020-08-08-09 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
