@@ -6,8 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Turkey (Online) | 2020-07-25 | Istanbul, Turkey | https://gophercon.ist/ |
-| GopherCon Russia 2020 (offline) | 2020-08-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
+| GopherCon Russia 2020 part 2 (online) | 2020-08-07-08 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
 | GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
@@ -23,6 +22,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon Turkey (Online) | 2020-07-25 | Istanbul, Turkey | https://gophercon.ist/ |
 | GopherCon Europe | 2020-07 | Berlin, Germany | https://gophercon.berlin/ |
 | GopherCon Africa 2020 | 2020-07-14-16 | Lagos, Nigeria | https://www.gophercon.africa/ |
 | GoWayFest 4.0 (online edition) | 2020-07-11-12 | Minsk, Belarus | https://goway.io <br> CFP: https://www.papercall.io/gowayfest4 |
