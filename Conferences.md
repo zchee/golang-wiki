@@ -9,7 +9,8 @@ Please keep all items in chronological order. There is also a map of the confirm
 | GopherCon Russia 2020/2 Online | 2020-08-08-09 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
-| GothamGo | 2020-10-01 | New York City, NY USA | http://gothamgo.com/ |
+| GothamGo | 2020-10-02 | New York City, NY USA | http://gothamgo.com/ |
+| Go West Online | 2020-10-02 | Online | https://www.gowestconf.com/ |
 | GoLab 2020 | 2020-10-19-25 | Florence, Italy | https://golab.io |
 | GopherCon | tbd 2020 due to COVID-19 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
