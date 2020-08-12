@@ -674,6 +674,12 @@ Sorted by publication date.
     * ISBN: 978-5-97060-477-9
     * Reference: http://dmkpress.com/catalog/computer/programming/978-5-97060-477-9/
 
+  * **Golang для профи: работа с сетью, многопоточность, структуры данных и машинное обучение с Go**
+    * Author: Цукалос М.
+    * Publication Date: 2020
+    * ISBN: 978-5-4461-1617-1
+    * Reference: https://www.piter.com/product/golang-dlya-profi-rabota-s-setyu-mnogopotochnost-struktury-dannyh-i-mashinnoe-obuchenie-s-go
+
 # Español
   * **Aprende Go en Y minutos**https://go101.org
     * Author: Nacho Pacheco
