@@ -2,9 +2,16 @@
 
 Go has included support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
 
-In [Go 1.14](https://golang.org/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.15 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
+Since [Go 1.14](https://golang.org/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.16 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
 
 ## Recent Changes
+
+### Go 1.15
+
+See the [Go 1.15 release notes](https://golang.org/doc/go1.15#go-command) for details.
+
+* The location of the module cache may now be set with the `GOMODCACHE` environment variable. The default value of `GOMODCACHE` is `GOPATH[0]/pkg/mod`, the location of the module cache before this change.
+* A workaround is now available for Windows "Access is denied" errors in go commands that access the module cache, caused by external programs concurrently scanning the file system (see issue [#36568](https://golang.org/issue/36568)). The workaround is not enabled by default because it is not safe to use when Go versions lower than 1.14.2 and 1.13.10 are running concurrently with the same module cache. It can be enabled by explicitly setting the environment variable `GODEBUG=modcacheunzipinplace=1`.
 
 ### Go 1.14
 
