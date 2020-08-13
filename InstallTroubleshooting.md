@@ -51,5 +51,6 @@ Visit us on IRC or ask on the mailing list.  You will want to provide the output
 ```
 go version
 go env
-env | grep GO
+env | grep GO # Linux/darwin
+set | findstr GO # Windows
 ```
