@@ -1,8 +1,14 @@
-(TODO: Add table of contents.)
-
 # Introduction
 
 There are many times in which you may install Go (either from source or from a binary distribution) and things don't work quite right.  This page is meant to collect some common wisdom about problems that are relatively common or difficult to diagnose and provide tips and solutions.
+
+# Contents  
+  * [Introduction](#introduction)  
+  * [Tips](#tips)
+    * [Environment](#environment)
+    * [GOROOT vs GOPATH](#goroot-vs-gopath)
+  * [Troubleshooting](#troubleshooting)
+    * [Still need help?](still-need-help)
 
 # Tips
 ## Environment
@@ -48,9 +54,19 @@ If you at any point installed the package in ` GOROOT ` (either by having no ` G
 
 ## Still need help?
 Visit us on IRC or ask on the mailing list.  You will want to provide the output of the following commands, in addition to any errors you are getting:
+
+### Linux/darwin
+
 ```
 go version
 go env
-env | grep GO # Linux/darwin
-set | findstr GO # Windows
+env | grep GO 
+```
+
+### Windows
+
+```
+go version
+go env
+set | findstr GO
 ```
