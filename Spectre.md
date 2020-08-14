@@ -44,3 +44,6 @@ by Esmaeil Mohammadian Koruyeh _et al_. (Even return prediction isn't safe.)
 
 “[Speculative Load Hardening](https://llvm.org/docs/SpeculativeLoadHardening.html)”\
 by Chandler Carruth. (What LLVM does to prevent speculative out-of-bounds access.)
+
+“[Bypassing memory safety mechanisms through speculative control flow hijacks](https://arxiv.org/pdf/2003.05503.pdf)”\
+by Andrea Mambretti _et al_. (Examination of effects on memory-safe languages.)
