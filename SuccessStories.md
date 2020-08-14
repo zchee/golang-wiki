@@ -44,5 +44,7 @@
   * [Making the move from Scala to Go, and why we’re not going back](https://movio.co/blog/migrate-Scala-to-Go/)
   * [Go + Services = One Goliath Project - Khan Academy's Python Monolith to Go Microservices](https://engineering.khanacademy.org/posts/goliath.htm)
   * [Why we switched from Python to Go at Stream](https://getstream.io/blog/switched-python-go/)
+  * [A journey from Node to GoLang](https://www.loginradius.com/engineering/blog/a-journey-from-node-to-golang/)
+
 
 See also [[GoUsers]].
