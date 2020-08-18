@@ -18,9 +18,9 @@ These three conditions are only very rarely all true at the same time.
 
 ## Example
 
-To build a program with both mitigations (and any future mitigations) enabled, use:
+To build a program with both mitigations (and any future mitigations) enabled in all packages, use:
 
-	go build -gcflags=-spectre=all -asmflags=-spectre=all program
+	go build -gcflags=all=-spectre=all -asmflags=all=-spectre=all program
 
 ## References
 
