@@ -804,6 +804,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [TIDAL](https://tidal.com/)
   * [Unacast](https://www.unacast.com/)
   * [Vipps](https://www.vipps.no)
+  * [Zendera](www.zendera.no)
 
 ## Oman
   * [Rihal](https://www.rihal.om/) - Designed for Data
