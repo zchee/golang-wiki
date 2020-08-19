@@ -168,7 +168,7 @@
   * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Lendesk](https://lendesk.com) - [jobs](https://lendesk.com/careers)
-  * [LoginRadius](https://www.loginradius.com/) - [Blog Post](https://www.loginradius.com/engineering/blog/a-journey-from-node-to-golang/)
+  * [LoginRadius](https://www.loginradius.com/) - [Blog](https://www.loginradius.com/engineering/blog/) - [Github](https://github.com/LoginRadius)
   * [Manifold](https://manifold.co)
   * [NV Digital](https://www.nvdigital.co/)
   * [Pressly](https://www.pressly.com/) - [github](https://github.com/goware/httpcoala)
