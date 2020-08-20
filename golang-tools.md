@@ -30,9 +30,11 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Upcoming calls
 
-* 2020-08-19 - [Agenda](https://docs.google.com/document/d/17dQqU9V-86j-8H-063ehVt5nsRnQjfXfvDMG_FzkOY0/edit) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+* 2020-09-16 - [Agenda](https://docs.google.com/document/d/1GJ5K2fYVXPG6pOzUh6xMFv1Nq5VTaBylDP1Z0y-SHHw/edit) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
 
 ### Call archive
+
+* 2020-08-19 - [Meeting notes](https://docs.google.com/document/d/17dQqU9V-86j-8H-063ehVt5nsRnQjfXfvDMG_FzkOY0/edit#) - [video](https://youtu.be/dKLunKg-rvw)
 * 2020-07-22 - [Meeting notes](https://docs.google.com/document/d/13hupZM403jvJ9zeld2UU0n05NNdxFCuaLkysYNDj7vg/edit#) - [video](https://youtu.be/m3b2zl1WJ-s)
 * 2020-06-24 - [Meeting notes](https://docs.google.com/document/d/1Seg5Rda1wekSM5CIiNjX9m0I3FSjlEd98RH0xAqCyEs/edit#) - [video](https://youtu.be/i6yIBHbGbtg)
 * 2020-05-13 - [Meeting notes](https://docs.google.com/document/d/11NVS-dsJ-IvIM4hAzxlGvyh_8DxdntnQpYugda1zv1I/edit#) - [video](https://youtu.be/PkZenOPIRfw)
