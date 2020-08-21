@@ -780,6 +780,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bridge Technologies](https://bridgetech.tv/)
   * [Bulder Bank](https://www.bulderbank.no/)
   * [Conclude](https://concludeapp.com/)
+  * [Disruptive Technologies](https://www.disruptive-technologies.com/)
   * [DNB](https://www.dnb.no/en)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
