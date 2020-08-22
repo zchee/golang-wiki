@@ -91,7 +91,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
-- dotaheor, "[Declare generics as mini-packages](https://github.com/golang/go/wiki/Go2GenericsFeedback)", August 2020
+- dotaheor, "[Declare generics as mini-packages](https://github.com/dotaheor/unify-Go-builtin-and-custom-generics/blob/master/use-package-as-gen.md)", August 2020
 
 - Beoran, "[Hygienic Macros](https://github.com/golang/go/issues/32620)", June 2019
 
