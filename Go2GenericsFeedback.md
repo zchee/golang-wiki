@@ -91,6 +91,8 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 ## Counterproposals
 
+- dotaheor, "[Declare generics as mini-packages](https://github.com/golang/go/wiki/Go2GenericsFeedback)", August 2020
+
 - Beoran, "[Hygienic Macros](https://github.com/golang/go/issues/32620)", June 2019
 
 - Randy O'Reilly, "[Generic Native Types](https://gist.github.com/rcoreilly/bfbee2add03c76ada82810423d81e53d)", June 2019
