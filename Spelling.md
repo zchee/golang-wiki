@@ -5,7 +5,7 @@ This page is a statement of policy. Do not edit it without approval/discussion.
 Policy:
 
 * American spellings over British spellings
-* **iff** means "if and only if" (https://en.wiktionary.org/wiki/iff), but we don't use it in public-facing docs (not if it'd show up in exported identifiers in godoc)
+* **iff** means "if and only if" (https://en.wiktionary.org/wiki/iff), but don't use it in public-facing docs (don't use in comments on exported identifiers that would show up in godoc)
 * avoid Latin abbreviations in godoc
 * use **cancellation** (two ells), not cancelation. See https://golang.org/cl/170060
 * use **canceled** (one ell), not cancelled.
