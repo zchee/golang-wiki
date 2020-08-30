@@ -17,6 +17,8 @@ This page lists academic and industry research papers about Go or using Go as th
 - Static Race Detection and Mutex Safety and Liveness for Go Programs (J. Gabet, N. Yoshida)
   - [arxiv](https://arxiv.org/abs/2004.12859)
   - [github](https://github.com/JujuYuki/godel2)
+- EdgeKV: Decentralized, scalable, and consistent storage for the edge (K. Sonbol, Ö. Özkasap, I. Al-Oqily, M. Aloqaily)
+  - [arxiv](https://arxiv.org/abs/2006.15594)
 
 ## 2019
 
