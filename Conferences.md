@@ -6,6 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
+| GopherChina 2020 | 2020-11-21/22 | ShangHai, China | https://www.gopherchina.org |
 | GopherCon Russia 2020/2 Online | 2020-08-08-09 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon UK | 2020-08-21-23 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Asia Manila | 2020-09-18 | Manila, Philippines | https://gophercon.asia/ |
