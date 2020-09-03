@@ -19,6 +19,12 @@ This page lists academic and industry research papers about Go or using Go as th
   - [github](https://github.com/JujuYuki/godel2)
 - EdgeKV: Decentralized, scalable, and consistent storage for the edge (K. Sonbol, Ö. Özkasap, I. Al-Oqily, M. Aloqaily)
   - [arxiv](https://arxiv.org/abs/2006.15594)
+- Bypassing memory safety mechanisms through speculative control flow hijacks (A. Mambretti, A. Sandulescu, A. Sorniotti, W. Robertson, E. Kirda, A. Kurmus)
+  - [arxiv](https://arxiv.org/abs/2003.05503)
+  - [CL](https://go-review.googlesource.com/c/go/+/222660)
+- Bounded verification of message-passing concurrency in Go using Promela and Spin (N. Dilley, J. Lange)
+  - [arxiv](https://arxiv.org/abs/2004.01323v1)
+  - [github](https://github.com/nicolasdilley/Gomela)
 
 ## 2019
 
