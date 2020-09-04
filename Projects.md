@@ -1883,6 +1883,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stripe](https://github.com/stripe/stripe-go) - Official Stripe client library
   * [twilio](https://github.com/subosito/twilio) - Simple Twilio API wrapper
   * [twittergo](https://github.com/kurrik/twittergo) - Client library for Twitter's API
+  * [vksdk](https://github.com/SevereCloud/vksdk) - Golang module for working with VK API
 
 ### Other
 
