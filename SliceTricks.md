@@ -11,10 +11,6 @@ a = append(a, b...)
 ```go
 b = make([]T, len(a))
 copy(b, a)
-// or
-b = append([]T(nil), a...)
-// or
-b = append(a[:0:0], a...)  // See https://github.com/go101/go101/wiki
 ```
 
 #### Cut
