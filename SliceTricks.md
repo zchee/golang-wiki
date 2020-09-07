@@ -82,17 +82,39 @@ a = a[:n]
 ```go
 a = append(a[:i], append([]T{x}, a[i:]...)...)
 ```
-**NOTE** The second ` append ` creates a new slice with its own underlying storage and  copies elements in ` a[i:] ` to that slice, and these elements are then copied back to slice ` a ` (by the first ` append `). The creation of the new slice (and thus memory garbage) and the second copy can be avoided by using an alternative way:
+**NOTE**: The second ` append ` creates a new slice with its own underlying storage and  copies elements in ` a[i:] ` to that slice, and these elements are then copied back to slice ` a ` (by the first ` append `). The creation of the new slice (and thus memory garbage) and the second copy can be avoided by using an alternative way:
 > **Insert**
 ```go
 s = append(s, 0 /* use the zero value of the element type */)
 copy(s[i+1:], s[i:])
 s[i] = x
+// or more efficiently:
+s = append[s[i+1:
 ```
 
 #### InsertVector
 ```go
 a = append(a[:i], append(b, a[i:]...)...)
+```
+
+**NOTE**: To get the best efficiency, it is best to do the insertion without using `append`, in particular when the number of the inserted elements is known:
+```go
+// Assume element type is int.
+func Insert(s []int, k int, vs ...int) []int {
+	if n := len(s) + len(vs); n <= cap(s) {
+		s2 := s[:n]
+		copy(s2[k+len(vs):], s[k:])
+		copy(s2[k:], vs)
+		return s2
+	}
+	s2 := make([]int, len(s) + len(vs))
+	copy(s2, s[:k])
+	copy(s2[k:], vs)
+	copy(s2[k+len(vs):], s[k:])
+	return s2
+}
+
+a = Insert(a, i, b...)
 ```
 
 #### Push
