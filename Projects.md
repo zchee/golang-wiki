@@ -977,6 +977,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [alpinocorpus-go](https://github.com/rug-compling/alpinocorpus-go) - A reader and a writer for Alpino corpora.
   * [go-aspell](https://github.com/trustmaster/go-aspell) - GNU Aspell spell checking library bindings for Go.
+  * [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
   * [go-l10n](https://github.com/xelaj/go-l10n) - localization for humans
   * [go-language](https://github.com/matiasinsaurralde/go-language) - A simple language detector using letter frequency data.
   * [goling](https://github.com/gyuho/goling) - String Similarity(Cosine Similarity, Levenshtein Distance), Spell Check, Segmentation
