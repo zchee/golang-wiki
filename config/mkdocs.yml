@@ -1,5 +1,5 @@
-site_name: Go Programming Language Wiki
-site_description: Personal fork of Go Programming Language Wiki
+site_name: "Go Programming Language Wiki"
+site_description: "Personal fork of Go Programming Language Wiki"
 
 theme:
   name: "material"
@@ -8,218 +8,264 @@ theme:
   include_homepage_in_sidebar: true
   prev_next_buttons_location: "bottom"
   palette:
-    primary: blue
-    accent: blue
+    primary: "blue"
+    accent: "blue"
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
 google_analytics:
   - "UA-89201129-1"
   - "https://zchee.github.io/golang-wiki/"
-repo_name: zchee/golang-wiki
-site_url: https://zchee.github.io/golang-wiki/
-repo_url: https://github.com/zchee/golang-wiki
+repo_name: "zchee/golang-wiki"
+site_url: "https://zchee.github.io/golang-wiki/"
+repo_url: "https://github.com/zchee/golang-wiki"
 docs_dir: "../"
 site_dir: "../../docs"
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML'
+  - "https://polyfill.io/v3/polyfill.min.js?features=es6"
+  - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 
 markdown_extensions:
-  - toc
+  - toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      permalink: ""
   - admonition
   - codehilite
-  - pymdownx.arithmatex
+  - admonition:
+  - smarty:
+      smart_quotes: false
+  - attr_list:
+  - def_list:
+  - tables:
+  - abbr:
+  - footnotes:
+  - md_in_html:
   - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.inline_mathjax_format
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      social_url_shortener: true
+      user: facelessuser
+      repo: pymdown-extensions
+  - pymdownx.tilde:
+  - pymdownx.caret:
+  - pymdownx.smartsymbols:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tabbed
-  - pymdownx.tilde
+  - pymdownx.progressbar:
+  - pymdownx.arithmatex:
+  - pymdownx.mark:
+  - pymdownx.striphtml:
+  - pymdownx.snippets:
+      base_path: docs/src/markdown/_snippets
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+  - pymdownx.tabbed:
+  - pymdownx.saneheaders:
 
 plugins:
-  - search
-  - git-revision-date-localized:
-      type: date
+  - search:
+      prebuild_index: true
 
 extra:
-  revision: d2dc234032b7
+  revision: 14c2c2dbed9d
 
-## $ find . -type f -name '*.md' -and -not \( -name 'Home.md' -or -name 'WhyGo.md' -or -name 'Windows.md' -or -name 'Ubuntu.md' -or -name 'Source.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F/ '{print $2}' | awk -F'.md' '{print "  - "$1": "$0}' | sort --ignore-case
+## $ find . -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not \( -name 'Home.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case
 
 nav:
-  - Home: Home.md
-  - WhyGo:
-    - WhyGo.md
-  - Install:
-    - Windows: Windows.md
-    - Ubuntu: Ubuntu.md
-    - Source: InstallFromSource.md
-  - Articles: Articles.md
-  - AssemblyPolicy: AssemblyPolicy.md
-  - AVX512: AVX512.md
-  - Benchmarks: Benchmarks.md
-  - Blogs: Blogs.md
-  - Books: Books.md
-  - BoundingResourceUse: BoundingResourceUse.md
-  - cgo: cgo.md
-  - ChromeOS: ChromeOS.md
-  - CodeReview: CodeReview.md
-  - CodeReviewComments: CodeReviewComments.md
-  - CodeTools: CodeTools.md
-  - Comments: Comments.md
-  - CommitMessage: CommitMessage.md
-  - CommonMistakes: CommonMistakes.md
-  - CompilerOptimizations: CompilerOptimizations.md
-  - Conferences: Conferences.md
-  - Configuring-GoLand-for-WebAssembly: Configuring-GoLand-for-WebAssembly.md
-  - Contributing-to-gopls: Contributing-to-gopls.md
-  - CoreDumpDebugging: CoreDumpDebugging.md
-  - Courses: Courses.md
-  - CreatingSubRepository: CreatingSubRepository.md
-  - CSSStyleGuide: CSSStyleGuide.md
-  - CustomPprofProfiles: CustomPprofProfiles.md
-  - Darwin: Darwin.md
-  - DashboardBuilders: DashboardBuilders.md
-  - Deprecated: Deprecated.md
-  - DesignDocuments: DesignDocuments.md
-  - DevExp: DevExp.md
-  - Diagnostics: Diagnostics.md
-  - DragonFly-BSD: DragonFly-BSD.md
-  - Errors: Errors.md
-  - ErrorValueFAQ: ErrorValueFAQ.md
-  - ExperienceReports: ExperienceReports.md
-  - FileTreeDocumentation: FileTreeDocumentation.md
-  - FreeBSD: FreeBSD.md
-  - FromXToGo: FromXToGo.md
-  - Frozen: Frozen.md
-  - Gardening: Gardening.md
-  - GccgoCrossCompilation: GccgoCrossCompilation.md
-  - GcToolchainTricks: GcToolchainTricks.md
-  - GerritAccess: GerritAccess.md
-  - GerritBot: GerritBot.md
-  - GithubAccess: GithubAccess.md
-  - GitHubCodeLayout: GitHubCodeLayout.md
-  - Go-1.10-Release-Party: Go-1.10-Release-Party.md
-  - Go-1.6-release-party: Go-1.6-release-party.md
-  - Go-1.8-Release-Party: Go-1.8-Release-Party.md
-  - Go-Community-Slides: Go-Community-Slides.md
-  - Go-Release-Cycle: Go-Release-Cycle.md
-  - Go1point1Gotchas: Go1point1Gotchas.md
-  - Go2: Go2.md
-  - Go2ErrorHandlingFeedback: Go2ErrorHandlingFeedback.md
-  - Go2ErrorValuesFeedback: Go2ErrorValuesFeedback.md
-  - Go2GenericsFeedback: Go2GenericsFeedback.md
-  - GoArm: GoArm.md
-  - GoForCPPProgrammers: GoForCPPProgrammers.md
-  - GoGenerateTools: GoGenerateTools.md
-  - GoGetProxyConfig: GoGetProxyConfig.md
-  - GoGetTools: GoGetTools.md
-  - golang-tools: golang-tools.md
-  - GoMips: GoMips.md
-  - Gomote: Gomote.md
-  - GOPATH: GOPATH.md
-  - Gopher: Gopher.md
-  - gopherbot: gopherbot.md
-  - gopls-integrator-FAQ: gopls-integrator-FAQ.md
-  - gopls: gopls.md
-  - GoStrings: GoStrings.md
-  - GoTalks: GoTalks.md
-  - GoUserGroups: GoUserGroups.md
-  - GoUsers: GoUsers.md
-  - GoVsGenerics: GoVsGenerics.md
-  - HandlingIssues: HandlingIssues.md
-  - Hashing: Hashing.md
-  - heapdump13: heapdump13.md
-  - heapdump14: heapdump14.md
-  - heapdump15-through-heapdump17: heapdump15-through-heapdump17.md
-  - heapdump15: heapdump15.md
-  - HostedContinuousIntegration: HostedContinuousIntegration.md
-  - How-to-ask-for-help: How-to-ask-for-help.md
-  - HowToAsk: HowToAsk.md
-  - HttpFetch: HttpFetch.md
-  - HttpStaticFiles: HttpStaticFiles.md
-  - IDEsAndTextEditorPlugins: IDEsAndTextEditorPlugins.md
-  - InstallFromSource: InstallFromSource.md
-  - InstallTroubleshooting: InstallTroubleshooting.md
-  - InterfaceSlice: InterfaceSlice.md
-  - InvalidFlag: InvalidFlag.md
-  - Iota: Iota.md
-  - IssueLabels: IssueLabels.md
-  - Learn: Learn.md
-  - LearnConcurrency: LearnConcurrency.md
-  - LearnErrorHandling: LearnErrorHandling.md
-  - LearnServerProgramming: LearnServerProgramming.md
-  - LearnTesting: LearnTesting.md
-  - Linux: Linux.md
-  - LinuxKernelSignalVectorBug: LinuxKernelSignalVectorBug.md
-  - LockOSThread: LockOSThread.md
-  - MethodSets: MethodSets.md
-  - MinimumRequirements: MinimumRequirements.md
-  - MinorReleases: MinorReleases.md
-  - Mobile: Mobile.md
-  - Modules: Modules.md
-  - MultipleGoRoots: MultipleGoRoots.md
-  - MutexOrChannel: MutexOrChannel.md
-  - NativeClient: NativeClient.md
-  - NetBSD: NetBSD.md
-  - NewSpeakers: NewSpeakers.md
-  - NoMeToo: NoMeToo.md
-  - NonEnglish: NonEnglish.md
-  - NoPlusOne: NoPlusOne.md
-  - OlderVersions: OlderVersions.md
-  - OpenBSD: OpenBSD.md
-  - PackageManagementTools: PackageManagementTools.md
-  - PackagePublishing: PackagePublishing.md
-  - PanicAndRecover: PanicAndRecover.md
-  - PerfDashboard: PerfDashboard.md
-  - Performance: Performance.md
-  - Plan9: Plan9.md
-  - Podcasts: Podcasts.md
-  - PortingPolicy: PortingPolicy.md
-  - PriorDiscussion: PriorDiscussion.md
-  - Projects: Projects.md
-  - Proposals: Proposals.md
-  - ProviderIntegration: ProviderIntegration.md
-  - Questions: Questions.md
-  - RaceDetector: RaceDetector.md
-  - Range: Range.md
-  - RateLimiting: RateLimiting.md
-  - Rationales: Rationales.md
-  - ResearchPapers: ResearchPapers.md
-  - Resolving-Problems-From-Modified-Module-Path: Resolving-Problems-From-Modified-Module-Path.md
-  - Screencasts: Screencasts.md
-  - SendingMail: SendingMail.md
-  - SettingGOPATH: SettingGOPATH.md
-  - SignalHandling: SignalHandling.md
-  - SimultaneousAssignment: SimultaneousAssignment.md
-  - SliceTricks: SliceTricks.md
-  - SlowBots: SlowBots.md
-  - Solaris: Solaris.md
-  - Spelling: Spelling.md
-  - SQLDrivers: SQLDrivers.md
-  - SQLInterface: SQLInterface.md
-  - Style: Style.md
-  - SubRepositories: SubRepositories.md
-  - SuccessStories: SuccessStories.md
-  - Switch: Switch.md
-  - TableDrivenTests: TableDrivenTests.md
-  - TargetSpecific: TargetSpecific.md
-  - TestComments: TestComments.md
-  - Timeouts: Timeouts.md
-  - Training: Training.md
-  - vgo: vgo.md
-  - WebAccessibilityResourcesAndTips: WebAccessibilityResourcesAndTips.md
-  - Well-known-struct-tags: Well-known-struct-tags.md
-  - windows-scoop-install-go-cli: windows-scoop-install-go-cli.md
-  - WindowsBuild: WindowsBuild.md
-  - WindowsCrossCompiling: WindowsCrossCompiling.md
-  - WindowsDLLs: WindowsDLLs.md
+  - "Home": Home.md
+  - "Articles": Articles.md
+  - "AssemblyPolicy": AssemblyPolicy.md
+  - "AVX512": AVX512.md
+  - "Benchmarks": Benchmarks.md
+  - "Blogs": Blogs.md
+  - "Books": Books.md
+  - "BoundingResourceUse": BoundingResourceUse.md
+  - "cgo": cgo.md
+  - "ChromeOS": ChromeOS.md
+  - "CodeReview": CodeReview.md
+  - "CodeReviewComments": CodeReviewComments.md
+  - "CodeTools": CodeTools.md
+  - "Comments": Comments.md
+  - "CommitMessage": CommitMessage.md
+  - "CommonMistakes": CommonMistakes.md
+  - "CompilerOptimizations": CompilerOptimizations.md
+  - "Conferences": Conferences.md
+  - "Configuring GoLand for WebAssembly": Configuring-GoLand-for-WebAssembly.md
+  - "Contributing to gopls": Contributing-to-gopls.md
+  - "CoreDumpDebugging": CoreDumpDebugging.md
+  - "Courses": Courses.md
+  - "CreatingSubRepository": CreatingSubRepository.md
+  - "CSSStyleGuide": CSSStyleGuide.md
+  - "CustomPprofProfiles": CustomPprofProfiles.md
+  - "Darwin": Darwin.md
+  - "DashboardBuilders": DashboardBuilders.md
+  - "Deprecated": Deprecated.md
+  - "DesignDocuments": DesignDocuments.md
+  - "DevExp": DevExp.md
+  - "Diagnostics": Diagnostics.md
+  - "Download build farm failed logs and debugging": Download-build-farm-failed-logs-and-debugging.md
+  - "DragonFly BSD": DragonFly-BSD.md
+  - "Errors": Errors.md
+  - "ErrorValueFAQ": ErrorValueFAQ.md
+  - "ExperienceReports": ExperienceReports.md
+  - "FileTreeDocumentation": FileTreeDocumentation.md
+  - "FreeBSD": FreeBSD.md
+  - "FromXToGo": FromXToGo.md
+  - "Frozen": Frozen.md
+  - "Gardening": Gardening.md
+  - "GccgoCrossCompilation": GccgoCrossCompilation.md
+  - "GcToolchainTricks": GcToolchainTricks.md
+  - "GerritAccess": GerritAccess.md
+  - "GerritBot": GerritBot.md
+  - "GithubAccess": GithubAccess.md
+  - "GitHubCodeLayout": GitHubCodeLayout.md
+  - "Go 1.10 Release Party": Go-1.10-Release-Party.md
+  - "Go 1.6 release party": Go-1.6-release-party.md
+  - "Go 1.8 Release Party": Go-1.8-Release-Party.md
+  - "Go Community Slides": Go-Community-Slides.md
+  - "Go Release Cycle": Go-Release-Cycle.md
+  - "Go1point1Gotchas": Go1point1Gotchas.md
+  - "Go2": Go2.md
+  - "Go2ErrorHandlingFeedback": Go2ErrorHandlingFeedback.md
+  - "Go2ErrorValuesFeedback": Go2ErrorValuesFeedback.md
+  - "Go2GenericsFeedback": Go2GenericsFeedback.md
+  - "GoArm": GoArm.md
+  - "GoForCPPProgrammers": GoForCPPProgrammers.md
+  - "GoGenerateTools": GoGenerateTools.md
+  - "GoGetProxyConfig": GoGetProxyConfig.md
+  - "GoGetTools": GoGetTools.md
+  - "golang tools": golang-tools.md
+  - "GoMips": GoMips.md
+  - "Gomote": Gomote.md
+  - "GOPATH": GOPATH.md
+  - "Gopher": Gopher.md
+  - "gopherbot": gopherbot.md
+  - "gopls integrator FAQ": gopls-integrator-FAQ.md
+  - "gopls": gopls.md
+  - "GoStrings": GoStrings.md
+  - "GoTalks": GoTalks.md
+  - "GoUserGroups": GoUserGroups.md
+  - "GoUsers": GoUsers.md
+  - "GoVsGenerics": GoVsGenerics.md
+  - "HandlingIssues": HandlingIssues.md
+  - "Hashing": Hashing.md
+  - "heapdump13": heapdump13.md
+  - "heapdump14": heapdump14.md
+  - "heapdump15 through heapdump17": heapdump15-through-heapdump17.md
+  - "heapdump15": heapdump15.md
+  - "HostedContinuousIntegration": HostedContinuousIntegration.md
+  - "How to ask for help": How-to-ask-for-help.md
+  - "HowToAsk": HowToAsk.md
+  - "HttpFetch": HttpFetch.md
+  - "HttpStaticFiles": HttpStaticFiles.md
+  - "IDEsAndTextEditorPlugins": IDEsAndTextEditorPlugins.md
+  - "InstallFromSource": InstallFromSource.md
+  - "InstallTroubleshooting": InstallTroubleshooting.md
+  - "InterfaceSlice": InterfaceSlice.md
+  - "InvalidFlag": InvalidFlag.md
+  - "Iota": Iota.md
+  - "IssueLabels": IssueLabels.md
+  - "Learn": Learn.md
+  - "LearnConcurrency": LearnConcurrency.md
+  - "LearnErrorHandling": LearnErrorHandling.md
+  - "LearnServerProgramming": LearnServerProgramming.md
+  - "LearnTesting": LearnTesting.md
+  - "Linux": Linux.md
+  - "LinuxKernelSignalVectorBug": LinuxKernelSignalVectorBug.md
+  - "Livestreams": Livestreams.md
+  - "LockOSThread": LockOSThread.md
+  - "MethodSets": MethodSets.md
+  - "MinimumRequirements": MinimumRequirements.md
+  - "MinorReleases": MinorReleases.md
+  - "Mobile": Mobile.md
+  - "Modules": Modules.md
+  - "MultipleGoRoots": MultipleGoRoots.md
+  - "MutexOrChannel": MutexOrChannel.md
+  - "NativeClient": NativeClient.md
+  - "NetBSD": NetBSD.md
+  - "NewSpeakers": NewSpeakers.md
+  - "NoMeToo": NoMeToo.md
+  - "NonEnglish": NonEnglish.md
+  - "NoPlusOne": NoPlusOne.md
+  - "OlderVersions": OlderVersions.md
+  - "OpenBSD": OpenBSD.md
+  - "PackageManagementTools": PackageManagementTools.md
+  - "PackagePublishing": PackagePublishing.md
+  - "PanicAndRecover": PanicAndRecover.md
+  - "PerfDashboard": PerfDashboard.md
+  - "Performance": Performance.md
+  - "Plan9": Plan9.md
+  - "Podcasts": Podcasts.md
+  - "PortingPolicy": PortingPolicy.md
+  - "PriorDiscussion": PriorDiscussion.md
+  - "Projects": Projects.md
+  - "Proposals": Proposals.md
+  - "ProviderIntegration": ProviderIntegration.md
+  - "Questions": Questions.md
+  - "RaceDetector": RaceDetector.md
+  - "Range": Range.md
+  - "RateLimiting": RateLimiting.md
+  - "Rationales": Rationales.md
+  - "ResearchPapers": ResearchPapers.md
+  - "Resolving Problems From Modified Module Path": Resolving-Problems-From-Modified-Module-Path.md
+  - "Screencasts": Screencasts.md
+  - "SendingMail": SendingMail.md
+  - "SettingGOPATH": SettingGOPATH.md
+  - "SignalHandling": SignalHandling.md
+  - "SimultaneousAssignment": SimultaneousAssignment.md
+  - "SliceTricks": SliceTricks.md
+  - "SlowBots": SlowBots.md
+  - "Solaris": Solaris.md
+  - "Spectre": Spectre.md
+  - "Spelling": Spelling.md
+  - "SQLDrivers": SQLDrivers.md
+  - "SQLInterface": SQLInterface.md
+  - "Style": Style.md
+  - "SuccessStories": SuccessStories.md
+  - "Switch": Switch.md
+  - "TableDrivenTests": TableDrivenTests.md
+  - "TargetSpecific": TargetSpecific.md
+  - "TestComments": TestComments.md
+  - "Timeouts": Timeouts.md
+  - "Training": Training.md
+  - "Ubuntu": Ubuntu.md
+  - "vgo": vgo.md
+  - "WebAccessibilityResourcesAndTips": WebAccessibilityResourcesAndTips.md
+  - "WebAssembly": WebAssembly.md
+  - "Well known struct tags": Well-known-struct-tags.md
+  - "WhyGo": WhyGo.md
+  - "windows scoop install go cli": windows-scoop-install-go-cli.md
+  - "Windows": Windows.md
+  - "WindowsBuild": WindowsBuild.md
+  - "WindowsCrossCompiling": WindowsCrossCompiling.md
+  - "WindowsDLLs": WindowsDLLs.md
+  - "X Repositories": X-Repositories.md
