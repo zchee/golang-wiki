@@ -2,11 +2,11 @@ name: sync
 
 on:
   schedule:
-  - cron: "0 0 * * *"  # 00:00/day
+  - cron: "0 0 * * *"  # run at 00:00 (UTC) AM every day
 
 jobs:
   sync:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
 
@@ -20,4 +20,4 @@ jobs:
         source_branch: "master"
         destination_branch: "master"
       env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
