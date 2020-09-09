@@ -928,6 +928,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Sweden
   * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
   * [Booli](https://www.booli.se/)
+  * [Digital Route](https://www.digitalroute.com)
   * [Greta](https://greta.io/)
   * [Ingrid](https://www.ingrid.com/)
   * [Kiliaro](https://kiliaro.com/)
