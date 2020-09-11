@@ -217,7 +217,7 @@ If you're looking for services that support Go, here's a list to get you started
   - If you'd like to propose a change to the Go project, start by reading the [Go Change Proposal Process](https://github.com/golang/proposal)
     -  An archive of [design documents is also available](DesignDocuments)
   - Go releases happen on ~6 month intervals. [See here for more information](Go-Release-Cycle)
-  - Want to know more about how the [Go source sub-repositories are structured?](SubRepositories)
+  - Want to know more about how the [Go source X-repositories are structured?](X-Repositories)
   - The Go project requires that all code be reviewed before it is submitted.
     - Read more about our [code review practices](CodeReview)
     - If you're commenting on code under review, please read [these guidelines](CodeReviewComments)
