@@ -1,8 +1,8 @@
 # Go Modules
 
 This wiki page serves as a usage and troubleshooting guide.
-* For a technical reference, see the [Go Modules Reference](https://golang.org/ref/mod) (under development).
 * For tutorial blog posts, see [Using Go Modules](https://blog.golang.org/using-go-modules).
+* For a technical reference, see the [Go Modules Reference](https://golang.org/ref/mod) (under development).
 
 Go has included support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
 
