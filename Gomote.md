@@ -3,7 +3,7 @@
 ## Installing
 
 ```
-$ go get -u golang.org/x/build/cmd/gomote
+$ GO111MODULE=on go get -u golang.org/x/build/cmd/gomote
 ```
 
 ## Using
