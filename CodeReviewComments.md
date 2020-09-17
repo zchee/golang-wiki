@@ -1,6 +1,6 @@
 # Go Code Review Comments
 
-This page collects common comments made during reviews of Go code, sojjjjj
+This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
 This is a laundry list of common mistakes, not a comprehensive style guide.
 
