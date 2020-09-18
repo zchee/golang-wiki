@@ -395,6 +395,7 @@
   * [RevvSales](https://www.revvsales.com/)
   * [Rapyuta Robotics](https://www.rapyuta-robotics.com/)
   * [Razorpay](https://razorpay.com/)
+  * [RenoApp](https://www.renoapp.in/)
   * [Sahaj Software Solutions](http://www.sahajsoft.com/)
   * [Saltside Technologies AB](http://www.saltside.se/)
   * [Saven Technologies Ltd](http://www.saven.in/)
