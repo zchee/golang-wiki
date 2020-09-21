@@ -1516,6 +1516,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Vietnam
   * [BeGroup](https://be.xyz)
   * [ChoTot](https://www.chotot.com)
+  * [Money Forward Vietnam](https://careers.moneyforward.vn/)
   * [ViralWorks](https://viralworks.com)
   * [WeTrust](https://www.wetrust.io)
   * [VinID](https://vinid.net)
