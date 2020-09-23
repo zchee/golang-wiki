@@ -218,7 +218,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Syntax
   - André Hänsel, "[If Ⅰ were to make my own Go…](https://blog.creations.de/?p=223)", August 2017
   - Bojan Zivanovic, "[Optional function parameters](https://bojanz.github.io/optional-parameters-go/)", May 2020
-  - Raanan Hadar, "[A data scientist flirts with Go](https://medium.com/@rhadar/a-data-scientist-flirts-with-go-511982c5d256)", September 2020
+  - Raanan Hadar, "[A data scientist's take on Go](https://medium.com/@rhadar/a-data-scientist-flirts-with-go-511982c5d256)", September 2020
 
 ## Time 
 
