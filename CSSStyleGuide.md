@@ -209,3 +209,12 @@ Wrong:
 button.foo.bar {
   ...
 }
+```
+
+## Images
+
+Add height and width attributes to images in the html markup to help minimize layout shift during page load.
+
+```
+<img src="url/to/image.png" height="240" width="160">
+```
