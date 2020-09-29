@@ -22,6 +22,10 @@ To build a program with both mitigations (and any future mitigations) enabled in
 
 	go build -gcflags=all=-spectre=all -asmflags=all=-spectre=all program
 
+## Acknowledgements
+
+Thanks to Andrea Mambretti _et al_ for sharing their paper (linked below) ahead of publication. And thanks to them, Chandler Carruth, and Paul Turner for helpful discussions.
+
 ## References
 
 “[Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)”\
