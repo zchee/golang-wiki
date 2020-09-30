@@ -956,6 +956,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Taiwan
   * [QNAP Systems, Inc.](https://www.qnap.com)
   * [ProphetStor Data Services, Inc.](http://www.prophetstor.com)
+  * [Duotify Inc.](https://www.duotify.com) (多奇數位創意有限公司)
   
 ## Thailand
   * [3DS Interactive](https://3dsinteractive.com)
