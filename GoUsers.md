@@ -1354,9 +1354,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [OvrClk](https://www.ovrclk.com/) - [github](https://github.com/ovrclk)
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
-  * [PKT Cash](https://pkt.cash/) - [github](https://github.com/pkt-cash/)
   * [Packet](https://www.packet.net/) - [github](https://github.com/packethost)
-  * [PKT])(https://
+  * [PKT Cash](https://pkt.cash/) - [github](https://github.com/pkt-cash/)
   * [Pagoda Box/Nanopack](https://pagodabox.io/) - [github](https://github.com/nanopack/yoke)
   * [Pantheon](https://pantheon.io/) - [blog](https://pantheon.io/blog/improving-performance-and-reliability-edge-golang-overhaul)
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
