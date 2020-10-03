@@ -28,6 +28,10 @@ The community operates a monthly “catch-up” call covering updates about larg
 
 Like the other discussion spaces these calls are open to anyone and people new to the community are encouraged to join in and share in the conversation. The details (date, link, phone number, …) for each call are shared via the mailing list as well as the Slack channel.
 
+### Shared Calendar
+
+As of October 2020, all calls/events will be added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). 
+
 ### Upcoming calls
 
 * 2020-10-21 - [Agenda](https://docs.google.com/document/d/1P4X9OKlHq0UlcAEyGCkVYyCML4grObpiD2zDEK5f5nQ/edit) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
