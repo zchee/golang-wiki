@@ -23,6 +23,7 @@
   * [Dgraph Labs](http://dgraph.io) - [github](https://github.com/dgraph-io/dgraph)
   * [Fleet Space Technologies](http://fleet.space/) 
   * [Fly365](http://fly365.com) - [github](https://github.com/fly365com)
+  * [mx51](https://mx51.io) - [github](https://github.com/mx51)
   * [Massive Interactive](https://www.deltatre.com/massive)
   * [MNF Group](https://mnfgroup.limited)
   * [OneConfig](http://www.oneconfig.com) - [my.oneconfig.com](https://my.oneconfig.com/devices)
@@ -956,6 +957,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Taiwan
   * [QNAP Systems, Inc.](https://www.qnap.com)
   * [ProphetStor Data Services, Inc.](http://www.prophetstor.com)
+  * [Duotify Inc.](https://www.duotify.com) (多奇數位創意有限公司)
   
 ## Thailand
   * [3DS Interactive](https://3dsinteractive.com)
@@ -1327,7 +1329,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Namely](http://www.namely.com/) - [blog](https://medium.com/namely-labs/postgres-in-go-cf794adc4c52)
   * [NetApp](https://netapp.io/) - [github](https://github.com/NetApp?utf8=%E2%9C%93&q=&type=&language=go)
   * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend), [blog](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)
-  * [New Relic]e adding a .deepsource.toml file in the repository's root for analysis configuration. (http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
+  * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
   * [Newspaper](http://www.newspaper.io/) - [source](https://angel.co/newspaperio)
   * [Nextdoor](http://www.nextdoor.com) - [source](https://engblog.nextdoor.com/what-is-the-technology-behind-nextdoor-5b74b3efcc31)
@@ -1355,7 +1357,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Oyster Books](https://www.oysterbooks.com/) - [blog](http://engineering.oysterbooks.com/post/79458380259/resizing-images-on-the-fly-with-go)
   * [Pachyderm.io](http://www.pachyderm.io/) - [github](https://github.com/pachyderm/pachyderm)
   * [Packet](https://www.packet.net/) - [github](https://github.com/packethost)
-  * [PKT Cash](https://pkt.cash/) - [github](https://github.com/pkt-cash/)
   * [Pagoda Box/Nanopack](https://pagodabox.io/) - [github](https://github.com/nanopack/yoke)
   * [Pantheon](https://pantheon.io/) - [blog](https://pantheon.io/blog/improving-performance-and-reliability-edge-golang-overhaul)
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
@@ -1385,6 +1386,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [RapidLoop](https://www.rapidloop.com/) - [product](https://www.opsdash.com/)
   * [Rawstream ](http://www.rawstream.com) - [tweets](https://twitter.com/brianazzopardi/status/387920069327872000)
   * [Raygun](http://raygun.io) - [blog](http://raygun.io/blog/2013/11/5-reasons-go-will-kick-ass-in-your-next-project/)
+  * [RealBuildPro](https://realbuildpro.com/) - [product](https://realbuildpro.com/)
   * [Reddit](https://reddit.com) - [AMA post](https://www.reddit.com/r/sysadmin/comments/3h0o7u/were_reddits_ops_team_aua/cu3f88n/), [github](https://github.com/reddit/baseplate.go)
   * [Red Ventures](https://www.redventures.com)
   * [ReelDx](https://reeldx.com/) - [medvid.io](https://medvid.io), [twitter](https://twitter.com/andrewreeldx)
@@ -1487,6 +1489,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Verifone](http://www.verifone.com/)
   * [Vertamedia](https://vertamedia.com/) - [github](https://github.com/Vertamedia)
   * [VerveMobile](http://www.vervemobile.com/)
+  * [VHSCast](https://vhscast.com/)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
