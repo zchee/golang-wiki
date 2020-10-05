@@ -12,6 +12,12 @@ Rules for voting +2 on changes: only +2 things that you're very confident in, an
 
 Rules for submitting changes: if a change touches an area that you own, you can submit any changes after a +2. But elsewhere only submit your own changes after receiving a +2 from the owner of that area.
 
+Approver access also gives you power to Trust+1 CLs. Every code change requires two approvers, with at least one +2. The second approver can Trust+1 (a +2 from a second approver also suffices).
+
+Rules for voting Trust+1 on changes: only Trust+1 a change if you are confident that the change does not introduce any sort of security vulnerability or other clearly inappropriate code change. As long as you are sure about that, it's OK to Trust+1 a change even if you don't fully understand all the details of the change.
+
+If the author of the change is an approver, they may (and are expected to) Trust+1 their own change, but someone else must +2 the change before it can be submitted.
+
 To request this access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
 ## Trybot Access ("may-start-trybots")
