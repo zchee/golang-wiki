@@ -99,6 +99,9 @@ If you find a project in this list that is dead or broken, please either mark it
 ### GraphQL
   * [Super Graph](https://github.com/dosco/super-graph) - Instant GraphQL API for Postgres. No code needed, compiles GraphQL to SQL.
 
+### MTProto
+  * [MTProto](https://github.com/xelaj/mtproto) - Full-native implementation of Telegram API written on pure Go.
+
 ## Astronomy
 
   * [go-fits](https://github.com/siravan/fits) - FITS (Flexible Image Transport System) format image and data reader
