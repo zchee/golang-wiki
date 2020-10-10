@@ -5,6 +5,7 @@
     * Go support available with the [Go-bbpackage module](https://github.com/ascarter/go-bbpackage) including syntax highlighting, clippings, ctags standard library completion, and tools
   * **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
     * [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
+  * **[Chime](https://www.chimehq.com)**: Capable. Focused. Fast. A Go editor for macOS.
   * **[Eclipse IDE](https://www.eclipse.org/)**: a very popular, open-source, cross-platform IDE. [GoClipse](https://goclipse.github.io/) plugin enables Go support. This project was abandoned in 2017 and may not work with modern editions of Eclipse.
   * **[Emacs](https://www.gnu.org/software/emacs/)**: Extensible and customizable text editor.
     * Mode file maintained at https://github.com/dominikh/go-mode.el.
@@ -31,6 +32,8 @@
     * [notepadplus-go](https://github.com/chai2010/notepadplus-go) Syntax highlighting, functions list panel (for code browsing), code completion for keywords & builtins.
     * The GOnpp plugin (available **via Notepad++'s built-in Plugin Manager**) provides code completion (requires gocode), function calltips, goimports integration, and keyboard shortcuts for common go commands. [[sources](https://github.com/tike/GOnpp), [binaries](http://sourceforge.net/projects/gonpp/files/)].
     * [GoAutocomplete](https://github.com/steve-perkins/GoAutocomplete) is another code completion plugin.
+  * **[Nova](https://nova.app)**: Mative Mac code editor.
+    * [Go extension](https://extensions.panic.com/extensions/gwynethllewelyn/gwynethllewelyn.Go/)
   * **[Source Insight](https://www.sourceinsight.com)**: Commercial programming editor & code browser with built-in live analysis for C, C++, C#, Java, and more; helping you understand large projects.
     * [golang.xclf](https://www.sourceinsight.com/pub/languages/golang.xclf) is a [Custom Language](https://www.sourceinsight.com/download/custom-languages/) file adding syntax formatting and some parsing support to Source Insight for Go language.
   * **[Sublime Text](http://www.sublimetext.com/)**: Commercial text editor.
