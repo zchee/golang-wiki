@@ -3,7 +3,8 @@
 ## Installing
 
 ```
-$ GO111MODULE=on go get -u golang.org/x/build/cmd/gomote
+$ GO111MODULE=on go get -u golang.org/x/build/cmd/gomote # up to Go 1.15
+$ go get golang.org/x/build/cmd/gomote@latest  # Go 1.16 and latest (including current Go 1.16 dev tree)
 ```
 
 ## Using
