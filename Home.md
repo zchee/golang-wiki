@@ -88,7 +88,7 @@ Once you have an overview of the language, here are resources you can use to lea
 
 ## The Go Community
 
-Here are some of the places where you can find Gophers online. To get a sense of what it means to be a member of the Go community, read [Damian Gryski's keynote from the GolankUK 2015 conference](https://medium.com/@dgryski/the-go-community-f0d00e3a19e) or watch [Andrew Gerrand's closing keynote from GopherCon 2015](https://www.youtube.com/watch?v=0ht89TxZZnk).
+Here are some of the places where you can find Gophers online. To get a sense of what it means to be a member of the Go community, read [Damian Gryski's keynote from the GolangUK 2015 conference](https://medium.com/@dgryski/the-go-community-f0d00e3a19e) or watch [Andrew Gerrand's closing keynote from GopherCon 2015](https://www.youtube.com/watch?v=0ht89TxZZnk).
 
 
 - Where Gophers hangout online:
@@ -186,7 +186,7 @@ If you're looking for services that support Go, here's a list to get you started
   - Cloud Computing - Go is well supported on most cloud service providers.
     - [Amazon Web Services](https://github.com/aws/aws-sdk-go)
     - [Azure](https://github.com/Azure/azure-sdk-for-go)
-    - [Digital Ocean](https://github.com/digitalocean/godo)
+    - [DigitalOcean](https://github.com/digitalocean/godo)
     - [GE Predix](https://github.com/geaviation/goboot-starter)
     - [Google Cloud Platform for Go](https://cloud.google.com/go)
     - [Heroku](https://github.com/heroku/heroku-buildpack-go)
