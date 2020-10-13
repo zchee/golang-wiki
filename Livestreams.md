@@ -1,4 +1,4 @@
-Please keep the list sorted alphabetically by name.
+This table attempts to collect all known regular livestreams centered around Go. Please keep the list sorted alphabetically by name.
 
 Note that conferences and podcasts have their own wiki pages already, and should not be included here. Similarly, meetups are already collected [here](https://www.meetup.com/topics/go/).
 
