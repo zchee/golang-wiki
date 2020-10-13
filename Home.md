@@ -78,8 +78,9 @@ Once you have an overview of the language, here are resources you can use to lea
   - [Blogs](Blogs) - Blogs about Go
     - [Podcasts](Podcasts) - Podcasts and episodes featuring Go
   - Videos, Talks and Presentations
-    - [GopherVids](http://gophervids.appspot.com/) is a searchable index of videos about Go.
+    - [GopherVids](http://gophervids.appspot.com/) (currently unreachable) is a searchable index of videos about Go.
     - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
+    - [Livestreams](Livestreams) - live interactive Go project streams with members of the community
     - [Screencasts](Screencasts)
   - [Articles](Articles) - A collection of articles to help you learn more about Go.
   - [Training](Training) - Free and commercial, online and classroom training for Go.
