@@ -1139,7 +1139,7 @@ However, there is additional nuance beyond those two examples. Please read the F
 
 Two example scenarios where it can make sense to have more than one `go.mod` in a repository:
 
-1. if you have usage examples where the examples themselves have a complex set of dependencies (e.g., perhaps you have a small package but include an example of using your package with kubernetes). In that case, it can make sense for your repository to have an `examples` or `_examples` directory with its own `go.mod`, such as shown [here](https://godoc.org/github.com/loov/hrtime).
+1. if you have usage examples where the examples themselves have a complex set of dependencies (e.g., perhaps you have a small package but include an example of using your package with kubernetes). In that case, it can make sense for your repository to have an `example` or `_example` directory with its own `go.mod`, such as shown [here](https://godoc.org/github.com/loov/hrtime).
 
 2. if you have a repository with a complex set of dependencies, but you have a client API with a smaller set of dependencies. In some cases, it might make sense to have an `api` or `clientapi` or similar directory with its own `go.mod`, or to separate out that `clientapi` into its own repository. 
 
