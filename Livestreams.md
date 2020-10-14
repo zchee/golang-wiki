@@ -8,3 +8,4 @@ Note that conferences and podcasts have their own wiki pages already, and should
 | Matt Layher        | Linux networking/syscalls in Go | Twice per month      | https://www.twitch.tv/mdlayher |
 | Matthew Dempsky    | Hacking on the Go compiler      | Three times per week | https://www.twitch.tv/mdempsky |
 | Michael Stapelberg | Hacking on OSS projects         | Unknown              | https://www.twitch.tv/stapelberg |
+| Travis Jeffery | Hacking on OSS projects, usually distributed systems and cloud oriented         | Twice a month              | https://www.twitch.tv/travisjeffery |
