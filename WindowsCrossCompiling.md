@@ -1,4 +1,4 @@
-# Building windows go programs on linux
+# Building Windows Go programs on Linux
 
 See [here](https://golang.org/doc/install/source#environment) for available `GOOS` and `GOARCH` values.
 
@@ -70,7 +70,7 @@ done
 exit 0
 ```
 
-Last step is to build windows versions of standard commands and libraries. I have small script for that too:
+Last step is to build Windows versions of standard commands and libraries. I have a small script for that too:
 
 ```sh
 $ cat ~/bin/buildpkg
@@ -99,9 +99,9 @@ I run it like that:
 $ ~/bin/buildpkg windows 386
 ```
 
-to build windows/386 version of Go commands and packages. You can, probably, see it from my script, I exclude building of any cgo related parts - these will not work for me, since I do not have correspondent gcc cross-compiling tools installed. So I just skip those.
+to build Windows/386 version of Go commands and packages. You can probably see from my script that I exclude building of any cgo related parts &mdash; these will not work for me, since I do not have correspondent gcc cross-compiling tools installed. So I just skip those.
 
-Now we're ready to build our windows executable:
+Now we're ready to build our Windows executable:
 
 ```go
 $ cat hello.go
