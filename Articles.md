@@ -202,6 +202,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Go JSON Marshalling and Unmarshalling cheatsheet](https://eager.io/blog/go-and-json/) _2015-09-30_
   * [Using MongoDB as Datasource in GoLang](https://www.loginradius.com/engineering/blog/mongodb-as-datasource-in-golang/) _2020-09-21_
   * [Environment variables in Golang](https://www.loginradius.com/engineering/blog/environment-variables-in-golang/) _2020-09-28_
+  * [Working with Golang Maps](https://www.loginradius.com/engineering/blog/working-with-go-maps/) _2020-09-25_
 
 
 
