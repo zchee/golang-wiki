@@ -16,5 +16,5 @@ Note that conferences and podcasts have their own wiki pages already, and should
 
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
-| Good reviewer - Bad reviewer | Code review and commentary for open source projects | Weekly | https://www.youtube.com/channel/UC8_A5W8g7UV0pk0uL66iQAQ |
-| Generic Talks | Podcast about Go and systems programming | Weekly | https://www.youtube.com/channel/UCLW_8skJ-sIHXACL7HZqchA |
+| Good reviewer - Bad reviewer | Code review and commentary for open source projects | Weekly | [YouTube](https://www.youtube.com/channel/UC8_A5W8g7UV0pk0uL66iQAQ) |
+| Generic Talks | Podcast about Go and systems programming | Weekly | [YouTube](https://www.youtube.com/channel/UCLW_8skJ-sIHXACL7HZqchA) |
