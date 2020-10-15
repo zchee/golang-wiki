@@ -22,7 +22,7 @@ The above command will add the `NeedsFix` and `help wanted` labels. Notice how l
 
 Casing also doesn't matter. `needsfix` is equivalent to `NeedsFix`. gopherbot will figure out the right label for you.
 
-There are some labels that are not allowed to be added or removed. Those can be seen in the `labelChangeBlacklisted` function in the [source](https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go).
+There are some labels that are not allowed to be added or removed. Those can be seen in the `labelChangeDisallowed` function in the [source](https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot.go).
 
 For more in-depth examples, take a look at the [tests](https://github.com/golang/build/blob/master/cmd/gopherbot/gopherbot_test.go).
 
