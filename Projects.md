@@ -1044,6 +1044,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - An efficient native Go clean room implementation of the Porter Stemming algorithm.
   * [go-pr](https://github.com/daviddengcn/go-pr) - Gaussian classifier.
   * [gorgonia](https://github.com/chewxy/gorgonia) - Neural network primitives library (like Theano or Tensorflow but for Go)
+  * [mlwebservicego](https://github.com/mrtkp9993/MLWebserviceGo) - Serving machine learning models with Golang, Echo, and Firebase.
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [tfgo](https://github.com/galeone/tfgo) - Tensorflow + Go, the gopher way.
