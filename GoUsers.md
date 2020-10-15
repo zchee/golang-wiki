@@ -427,6 +427,7 @@
 
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
+  * [Alphamor](https://alphamor.id)
   * [Bareksa](https://www.bareksa.com/)
   * [Bhinneka](http://www.bhinneka.com/)
   * [BlockchainZoo](https://blockchainzoo.com/)
