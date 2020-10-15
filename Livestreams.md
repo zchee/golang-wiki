@@ -9,7 +9,7 @@ Note that conferences and podcasts have their own wiki pages already, and should
 | Jordan Lewis       | CockroachDB internals           | Twice per week       | https://www.twitch.tv/large__data__bank |
 | Matt Layher        | Linux networking/syscalls in Go | Twice per month      | https://www.twitch.tv/mdlayher |
 | Matthew Dempsky    | Hacking on the Go compiler      | Three times per week | https://www.twitch.tv/mdempsky |
-| Michael Stapelberg | Hacking on OSS projects         | Unknown              | https://www.twitch.tv/stapelberg |
+| Michael Stapelberg | Hacking on OSS projects         | Aiming for 1x/month  | https://www.twitch.tv/stapelberg |
 | Travis Jeffery | Hacking on OSS projects, oriented towards distributed systems and data streaming projects.         | Twice a month              | https://www.twitch.tv/travisjeffery |
 
 ## In Russian
