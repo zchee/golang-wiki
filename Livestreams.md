@@ -1,8 +1,8 @@
-This table attempts to collect all known regular livestreams centered around Go. Please keep the list sorted alphabetically by name.
+This table attempts to collect all known regular livestreams centered around Go. Please keep each table sorted alphabetically by name.
 
 Note that conferences and podcasts have their own wiki pages already, and should not be included here. Similarly, meetups are already collected [here](https://www.meetup.com/topics/go/).
 
-## In English
+### In English
 
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
@@ -10,9 +10,9 @@ Note that conferences and podcasts have their own wiki pages already, and should
 | Matt Layher        | Linux networking/syscalls in Go | Twice per month      | https://www.twitch.tv/mdlayher |
 | Matthew Dempsky    | Hacking on the Go compiler      | Three times per week | https://www.twitch.tv/mdempsky |
 | Michael Stapelberg | Hacking on OSS projects         | Aiming for 1x/month  | https://www.twitch.tv/stapelberg |
-| Travis Jeffery | Hacking on OSS projects, oriented towards distributed systems and data streaming projects.         | Twice a month              | https://www.twitch.tv/travisjeffery |
+| Travis Jeffery     | Distributed systems and data streaming | Twice a month | https://www.twitch.tv/travisjeffery |
 
-## In Russian
+### In Russian
 
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
