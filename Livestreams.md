@@ -23,5 +23,5 @@ Note that conferences and podcasts have their own wiki pages already, and should
 
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
-| Go 夜读 - Talk Go | Weekly Go Online Meetup | Weekly | [YouTube](https://www.youtube.com/c/talkgo_night), [Bilibili](https://space.bilibili.com/326749661), [GitHub](https://github.com/talkgo/night) |
+| Go 夜读 - TalkGo | Weekly Go Online Meetup | Weekly | [YouTube](https://www.youtube.com/c/talkgo_night), [Bilibili](https://space.bilibili.com/326749661), [GitHub](https://github.com/talkgo/night) |
 
