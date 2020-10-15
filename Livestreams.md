@@ -18,3 +18,10 @@ Note that conferences and podcasts have their own wiki pages already, and should
 |--------------------|---------------------------------|----------------------|------|
 | Good reviewer - Bad reviewer | Code review and commentary for open source projects | Weekly | [YouTube](https://www.youtube.com/channel/UC8_A5W8g7UV0pk0uL66iQAQ) |
 | Generic Talks | Podcast about Go and systems programming | Weekly | [YouTube](https://www.youtube.com/channel/UCLW_8skJ-sIHXACL7HZqchA) |
+
+### In Chinese
+
+|        Name        |    Topic (short)                |       Frequency      | Link | 
+|--------------------|---------------------------------|----------------------|------|
+| Go 夜读 - Talk Go | Weekly Go Online Meetup | Weekly | [YouTube](https://www.youtube.com/c/talkgo_night), [Bilibili](https://space.bilibili.com/326749661), [GitHub](https://github.com/talkgo/night) |
+
