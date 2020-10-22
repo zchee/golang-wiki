@@ -44,3 +44,13 @@ The D-Link DIR-505 Mobile Companion comes with an Atheros AR1311 processor, 8 MB
 
 Further information about the device can be found at https://openwrt.org/toh/d-link/dir-505.
 
+
+## Teltonika RUT955
+
+Architecture: ar9344  
+
+Operating System: RutOS (based on OpenWrt)
+
+The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6 & 1.15.3 (GOARCH=mips, GOMIPS=softfloat).
+
+Further information about the device can be found at https://teltonika-networks.com/product/rut955/.
