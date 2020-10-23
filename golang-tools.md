@@ -34,12 +34,12 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Upcoming calls
 
-* 2020-10-21 - [Agenda](https://docs.google.com/document/d/1P4X9OKlHq0UlcAEyGCkVYyCML4grObpiD2zDEK5f5nQ/edit) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+* 2020-11-18 - [Agenda](https://docs.google.com/document/d/1iH4fPsQv36J1XBNVZ6oU1OuVI1R9CMKCLpKqk14jpp0/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
 
 
 ### Call archive
 
-* 2020-10-21 - [Meeting notes](https://docs.google.com/document/d/1iH4fPsQv36J1XBNVZ6oU1OuVI1R9CMKCLpKqk14jpp0/edit#) - [video](https://youtu.be/fFl5Ddt3fxc)
+* 2020-10-21 - [Meeting notes](https://docs.google.com/document/d/1P4X9OKlHq0UlcAEyGCkVYyCML4grObpiD2zDEK5f5nQ/edit#) - [video](https://youtu.be/fFl5Ddt3fxc)
 * 2020-09-16 - [Meeting notes](https://docs.google.com/document/d/1GJ5K2fYVXPG6pOzUh6xMFv1Nq5VTaBylDP1Z0y-SHHw/edit#) - [video](https://youtu.be/MlVbgQnq9vE)
 * 2020-08-19 - [Meeting notes](https://docs.google.com/document/d/17dQqU9V-86j-8H-063ehVt5nsRnQjfXfvDMG_FzkOY0/edit#) - [video](https://youtu.be/dKLunKg-rvw)
 * 2020-07-22 - [Meeting notes](https://docs.google.com/document/d/13hupZM403jvJ9zeld2UU0n05NNdxFCuaLkysYNDj7vg/edit#) - [video](https://youtu.be/m3b2zl1WJ-s)
