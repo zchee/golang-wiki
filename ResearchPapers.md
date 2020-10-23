@@ -1,6 +1,12 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2020
 
+- Uncovering the Hidden Dangers: Finding Unsafe Go Code in the Wild (J. Lauinger, L. Baumgärtner, A. Wickert, M. Mezini) 
+  - [arxiv](https://arxiv.org/abs/2010.11242)
+  - [go-geiger](https://github.com/jlauinger/go-geiger)
+  - [go-safer](https://github.com/jlauinger/go-safer)
+  - [Study results](https://github.com/stg-tud/unsafe_go_study_results)
+  - [Go unsafe.Pointer vulnerability POCs](https://github.com/jlauinger/go-unsafepointer-poc)
 - Lightweight Preemptible Functions (S. Boucher, A. Kalia, D. Andersen, M. Kaminsky)
   - [Usenix'20](https://www.usenix.org/conference/atc20/presentation/boucher)
 - From Folklore to Fact: Comparing Implementations of Stacks and Continuations (K. Farvadin, J. Reppy)
