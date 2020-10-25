@@ -44,6 +44,7 @@
   * [Gophers Aachen](https://www.meetup.com/Gophers-Aachen/) - Aachen, Germany.
   * [Amsterdam, NL](http://www.meetup.com/golang-amsterdam/)
   * [Belarus](http://gophers.by/) - Belarus.
+  * [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/) - Belfast, UK.
   * [Barcelona](http://golangbcn.org) - Barcelona, Catalunya, Spain.
   * [Brno Golang](http://www.meetup.com/Golang-Brno/) - Brno, the Czech Republic
   * [Golang Prague](https://www.meetup.com/Prague-Golang-Meetup/) - Prague, Czech Republic.
