@@ -1746,7 +1746,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
   * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
-  * [Symfony](https://gitlab.com/drjele-go/symfony) - A Golang app inspired by the PHP Symfony framework
 
 
 ## Web Libraries
