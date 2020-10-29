@@ -1073,6 +1073,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Songkick](https://www.songkick.com)
   * [StorageOS](http://storageos.com)
   * [Synthace](https://synthace.com) - [github](https://github.com/antha-lang)
+  * [thinkmoney](https://thinkmoney.co.uk)
   * [Tyk](https://tyk.io) - [github](https://github.com/TykTechnologies/tyk)
   * [Utility Warehouse](https://careers.utilitywarehouse.co.uk/departments/technology)
   * [Weaveworks](http://weave.works)
