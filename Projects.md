@@ -203,6 +203,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make highly customized Boxes for your CLI.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
+  * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [dsio](https://github.com/nshmura/dsio) - Command line tool for Google Cloud Datastore.
   * [enumeration](https://bitbucket.org/rickb777/enumeration) - Easy enumeration code generation.
