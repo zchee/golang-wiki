@@ -10,6 +10,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Go West Online | 2020-10-02 | Online | https://www.gowestconf.com/ |
 | GoLab 2020 | 2020-10-19-25 | Online | https://golab.io |
 | GopherChina 2020 | 2020-11-21/22 | ShangHai, China | https://www.gopherchina.org |
+| All Systems Go | 2020-12-03 | Online | https://allsystemsgo.space
 | GopherCon | tbd 2020 due to COVID-19 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
