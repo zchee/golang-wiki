@@ -49,8 +49,8 @@ You can roll back a change using the Gerrit `Revert` button.
 Gerrit will generate a description for you.
 Edit the description to add the Gerrit CL number being rolled back next to or instead of the Git revision number.
 
-Do not do a revert of a revert.
-Instead, create a new change, and in the description explain that this is a roll forward of CL NNNNNN which was rolled back by CL NNNNNN.
+Do not use the Gerrit UI to create a revert of a revert, as that notifies people right away.
+Instead, mail it as a new change, and in the description explain that it is a roll forward of CL NNNNNN which was rolled back by CL NNNNNN.
 
 # Other repos
 
