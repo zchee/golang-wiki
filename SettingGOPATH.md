@@ -19,7 +19,7 @@ The `GOPATH` environment variable specifies the location of your workspace. If n
 ## Go 1.13+
 
 ```bash
-go env -w GOPATH=$HOME/go
+go env -X GOPATH=$HOME/go
 ```
 
 ## Bash
@@ -34,7 +34,7 @@ Save and exit your editor. Then, source your `~/.bash_profile`.
 source ~/.bash_profile
 ```
 
-## Zsh
+## ~/.zshrc
 
 Edit your `~/.zshrc` file to add the following line:
 
