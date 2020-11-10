@@ -14,7 +14,7 @@ Before Go modules, Go development using dependencies used “GOPATH development 
 
  - The `go install` command installed binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
  - The `go install` command installed the compiled package file for `import "example.com/y/z"` to `$GOPATH/pkg/example.com/y/z.a`.
- - The `go get` command downloaded source code satisfying ‘import "example.com/y/z"` to `$GOPATH/src/example.com/y/z`.
+ - The `go get` command downloaded source code satisfying `import "example.com/y/z"` to `$GOPATH/src/example.com/y/z`.
  
 ## Deprecating and removing GOPATH development mode
 
