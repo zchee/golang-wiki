@@ -13,7 +13,7 @@ See the [go command documentation](http://golang.org/cmd/go/#hdr-GOPATH_environm
 Before Go modules, Go development using dependencies used “GOPATH development mode,” or “GOPATH mode” for short. In GOPATH mode, the `go` command used the GOPATH variable for the following purposes:
 
  - The `go install` command installed binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
- - The `go install` command installed the compiled package file for ‘import "example.com/y/z"` to `$GOPATH/pkg/example.com/y/z.a`.
+ - The `go install` command installed the compiled package file for `import "example.com/y/z"` to `$GOPATH/pkg/example.com/y/z.a`.
  - The `go get` command downloaded source code satisfying ‘import "example.com/y/z"` to `$GOPATH/src/example.com/y/z`.
  
 ## Deprecating and removing GOPATH development mode
