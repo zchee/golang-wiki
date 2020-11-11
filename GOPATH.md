@@ -31,7 +31,7 @@ The transition from GOPATH development mode to Go modules has been gradual, spre
 
 - **Go 1.16 (February 2021)** will change the default to `GO111MODULE=on`, using module mode always. That is, GOPATH mode will be disabled entirely by default. Users who need one to use GOPATH mode for one more release can set `GO111MODULE=auto` or `GO111MODULE=off` explicitly.
 
-- **Go 1.17 (August 2022)** will remove the `GO111MODULE` setting and GOPATH mode entirely, using module mode always.
+- **Go 1.17 (August 2021)** will remove the `GO111MODULE` setting and GOPATH mode entirely, using module mode always.
 
 Note that removing GOPATH development mode does _not_ mean removing the GOPATH variable. It will still be used for the purposes listed at the top of this page.
 
