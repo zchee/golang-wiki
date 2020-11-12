@@ -1496,6 +1496,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Vertamedia](https://vertamedia.com/) - [github](https://github.com/Vertamedia)
   * [VerveMobile](http://www.vervemobile.com/)
   * [VHSCast](https://vhscast.com/)
+  * [Vimeo](https://vimeo.com) - [blog](https://medium.com/vimeo-engineering-blog/video-metadata-caching-at-vimeo-a54b25f0b304), [github](https://github.com/vimeo?q=&type=&language=go)
   * [VividCortex](https://vividcortex.com/) - [blog](https://vividcortex.com/blog/2014/11/20/in-case-you-missed-it-developing-mysql-apps-with-go/), [github](https://github.com/VividCortex/)
   * [VMware](http://www.vmware.com) - [github](https://github.com/vmware/govmomi)
   * [VSCO](http://www.vsco.co) - [blog post](http://www.grpc.io/blog/vscogrpc)
