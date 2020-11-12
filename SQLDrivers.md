@@ -15,8 +15,8 @@ Drivers for Go's sql package include:
   * **Apache Avatica/Phoenix**: https://github.com/apache/calcite-avatica-go
   * **Amazon AWS Athena**: https://github.com/uber/athenadriver
   * **AWS Athena**: https://github.com/segmentio/go-athena
-  * **ClickHouse** (uses [native TCP interface](https://clickhouse.yandex/docs/en/interfaces/tcp.html)): https://github.com/kshvakov/clickhouse
-  * **ClickHouse** (uses [HTTP API](https://clickhouse.yandex/docs/en/interfaces/http_interface.html)): https://github.com/mailru/go-clickhouse
+  * **ClickHouse** (uses [native TCP interface](https://clickhouse.tech/docs/en/interfaces/tcp/)): https://github.com/ClickHouse/clickhouse-go
+  * **ClickHouse** (uses [HTTP API](https://clickhouse.tech/docs/en/interfaces/http/)): https://github.com/mailru/go-clickhouse
   * **CockroachDB**: Use any PostgreSQL driver
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
   * **DB2 LUW** and **DB2/Z with DB2-Connect**: https://bitbucket.org/phiggins/db2cli (Last updated 2015-08)
