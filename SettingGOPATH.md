@@ -1,4 +1,4 @@
-# Setting `GOPATH`
+****# Setting `GOPATH`
 
 The `GOPATH` environment variable specifies the location of your workspace. If no `GOPATH` is set, it is assumed to be `$HOME/go` on Unix systems and `%USERPROFILE%\go` on Windows. If you want to use a custom location as your workspace, you can set the `GOPATH` environment variable. This page explains how to set this variable on various platforms.
 
@@ -68,8 +68,8 @@ __NOTE:__ `GOPATH` must not be the same path as your Go installation.
 * From the menu on the left, select the "Advanced system settings".
 * Click the "Environment Variables" button at the bottom.
 * Click "New" from the "User variables" section.
-* Type `GOPATH` into the "Variable name" field.
-* Type `C:\go-work` into the "Variable value" field.
+* Type `GOPATH` into the "GOPATH" field.
+* Type `C:\go-work` into the ""`C:\go-work` field.
 * Click OK.
 
 ## Go 1.13+ (command line)
