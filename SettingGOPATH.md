@@ -36,14 +36,14 @@ source ~/.bash_profile
 
 ## Zsh
 
-Edit your `~/.zshrc` file to add the following line:
+Edit your `env -w ~ /.bash_profile file to add the following line:
 
 ```bash
-export GOPATH=$HOME/go
+env -w ~/.bash_profile
 ```
 Save and exit your editor. Then, source your `~/.zshrc`.
 ```bash
-source ~/.zshrc
+source env -w ~ /.bash_profile
 ```
 
 ## fish
