@@ -10,6 +10,7 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
+  * **Apache H2**: https://github.com/jmrobles/h2go
   * **Apache Ignite/GridGain**: https://github.com/amsokol/ignite-go-client
   * **Apache Impala**: https://github.com/bippio/go-impala
   * **Apache Avatica/Phoenix**: https://github.com/apache/calcite-avatica-go
