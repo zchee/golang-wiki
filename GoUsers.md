@@ -291,6 +291,7 @@
 
 ## Germany
   * [Bürkert](https://www.burkert.com/en/)
+  * [Cloudogu](https://www.cloudogu.com) - [github](https://github.com/cloudogu)
   * [Doozer](https://www.doozer.de) - [github](https://github.com/doozer-de)
   * [Centrifuge](http://centrifuge.one) - [github](https://github.com/centrifuge)
   * [Delivery Hero](https://www.deliveryhero.com/)
