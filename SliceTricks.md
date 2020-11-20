@@ -88,8 +88,6 @@ a = append(a[:i], append([]T{x}, a[i:]...)...)
 s = append(s, 0 /* use the zero value of the element type */)
 copy(s[i+1:], s[i:])
 s[i] = x
-// or more efficiently:
-s = append[s[i+1:
 ```
 
 #### InsertVector
