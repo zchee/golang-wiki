@@ -1210,6 +1210,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [vk](https://github.com/xelaj/vk) - unofficial vk.com API wrapper (vk.com   russian social network)
   * [WUID](https://github.com/edwingeng/wuid) - An extremely fast unique number generator, 10-135 times faster than UUID.
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
+  * [xdg](https://github.com/adrg/xdg) - Go implementation of the XDG Base Directory Specification and XDG user directories.
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
   * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and auhtentication API client.
 
