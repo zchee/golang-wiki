@@ -1559,6 +1559,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [douceur](https://github.com/aymerick/douceur) - A simple CSS parser and inliner in Go.
   * [dsv](https://github.com/shuLhan/dsv) - A library for working with delimited separated value (DSV).
   * [flux](https://github.com/alexanderbartels/flux) - Fluent Regular Expressions in golang
+  * [frontmatter](https://github.com/adrg/frontmatter) - Go library for detecting and decoding various content front matter formats.
   * [genex](https://github.com/alixaxel/genex) - Expansion of Regular Expressions
   * [gettext-go](https://github.com/chai2010/gettext-go/) - GNU's gettext support, written in pure Go
   * [gettext](https://github.com/gosexy/gettext) - Golang bindings for gettext; Feature complete, cgo
@@ -1597,6 +1598,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [strftime](https://bitbucket.org/tebeka/strftime) - strftime implementation
   * [strit](https://github.com/maxim2266/strit) - Package strit introduces a new type of string iterator, as well as a number of iterator constructors, wrappers and combinators.
   * [strogonoff](https://github.com/jbochi/strogonoff) - Stenography with Go
+  * [strutil](https://github.com/adrg/strutil) - Golang metrics for calculating string similarity and other string utility functions.
   * [strutil](https://gitlab.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
   * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
