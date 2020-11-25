@@ -28,6 +28,8 @@
   * **[Komodo Edit](https://www.activestate.com/komodo-edit)** Powerful cross-platform text editor, Go-lang support available via [plugin](https://github.com/Komodo/komodo-go)
   * **[Lime Text](http://limetext.org/)**: Developed in Go, aims to be a Free and open-source software alternative to Sublime Text. Not quite ready yet but welcoming contributions to the progress. https://github.com/limetext/lime
   * **[LiteIDE](https://github.com/visualfc/liteide)**: A simple, open source and cross-platform Go IDE
+  * **[Micro](https://micro-editor.github.io)**: A modern and intuitive terminal-based text editor written in Go
+    * Go language support (gofmt and goimports) via [plugin](https://micro-editor.github.io/plugins.html#c-go)
   * **[Notepad++](http://notepad-plus-plus.org/)**: Free source code editor for Windows.
     * [notepadplus-go](https://github.com/chai2010/notepadplus-go) Syntax highlighting, functions list panel (for code browsing), code completion for keywords & builtins.
     * The GOnpp plugin (available **via Notepad++'s built-in Plugin Manager**) provides code completion (requires gocode), function calltips, goimports integration, and keyboard shortcuts for common go commands. [[sources](https://github.com/tike/GOnpp), [binaries](http://sourceforge.net/projects/gonpp/files/)].
