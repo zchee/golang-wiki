@@ -831,13 +831,21 @@ Here is an example of using a manager function to control access to a
 single value.
 
 ```go
-type Cmd struct { Get bool; Val int }
+type Cmd struct {
+	Get bool
+	Val int
+}
+
 func Manager(ch chan Cmd) {
 	val := 0
 	for {
 		c := <-ch
-		if c.Get { c.Val = val; ch <- c }
-		else { val = c.Val }
+		if c.Get {
+			c.Val = val
+			ch <- c
+		} else {
+			val = c.Val
+		}
 	}
 }
 ```
@@ -850,13 +858,21 @@ instead.
 A solution is to pass in a channel.
 
 ```go
-type Cmd2 struct { Get bool; Val int; Ch chan<- int }
+type Cmd2 struct {
+	Get bool
+	Val int
+	Ch  chan<- int
+}
+
 func Manager2(ch <-chan Cmd2) {
 	val := 0
 	for {
 		c := <-ch
-		if c.Get { c.Ch <- val }
-		else { val = c.Val }
+		if c.Get {
+			c.Ch <- val
+		} else {
+			val = c.Val
+		}
 	}
 }
 ```
@@ -864,10 +880,18 @@ func Manager2(ch <-chan Cmd2) {
 To use ` Manager2 `, given a channel to it:
 
 ```go
-func f4(ch chan<- Cmd2) int {
+func getFromManagedChannel(ch chan<- Cmd2) int {
 	myCh := make(chan int)
 	c := Cmd2{true, 0, myCh} // Composite literal syntax.
 	ch <- c
 	return <-myCh
+}
+
+func main() {
+	ch := make(chan Cmd2)
+	go Manager2(ch)
+	// ... come code ...
+	currentValue := getFromManagedChannel(ch)
+	// ... some more code...
 }
 ```
