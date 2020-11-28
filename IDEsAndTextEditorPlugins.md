@@ -59,7 +59,6 @@
 ## Cloud Based IDEs
 
   * **[Cloud9](https://c9.io/)**: "blank" template includes go 1.7.1.
-  * **[CodeEnv](https://codeenv.com/)**: A cloud-based IDE.  Supports go1.5 out of the box, which is not something I'd describe as "[full Go support](https://codeenv.com/env/codeenv/7/go/)".
   * **[Gitpod](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
   * **[Wide](https://github.com/b3log/wide)**: A Web-based <b>IDE</b> for Teams using Go programming language/Golang.
 
