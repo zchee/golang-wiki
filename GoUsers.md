@@ -793,6 +793,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bouvet](https://www.bouvet.no/)
   * [Bridge Technologies](https://bridgetech.tv/)
   * [Bulder Bank](https://www.bulderbank.no/)
+  * [Capra Consulting](https://www.capraconsulting.no/)
   * [Conclude](https://concludeapp.com/)
   * [Disruptive Technologies](https://www.disruptive-technologies.com/)
   * [DNB](https://www.dnb.no/en)
