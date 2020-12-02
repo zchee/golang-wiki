@@ -1548,6 +1548,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Strings and Text
 
   * [allot](https://github.com/sbstjn/allot) - Placeholder and wildcard text parsing for CLI tools and bots
+  * [asciidoctor-go](https://sr.ht/~shulhan/asciidoctor-go/) - Native Go module for parsing and converting asciidoc markup language.
   * [awk](https://github.com/spakin/awk) - Easy AWK-style text processing in Go
   * [binarydist](https://github.com/kr/binarydist/) - Binary diff and patch
   * [Black Friday](https://github.com/russross/blackfriday) - A markdown processor
