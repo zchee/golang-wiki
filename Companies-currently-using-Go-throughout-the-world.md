@@ -76,7 +76,7 @@
   * [Beauty Date](http://www.beautydate.com.br)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [BoaCompra](http://www.boacompra.com)
-  * [Pling](https://www.pling.net.br) - [github](https://github.com/plingbr)
+  * [Pling](https://www.pling.net.br)
   * [Catho](http://www.catho.com.br) - [github](https://github.com/catho)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio) - an open payment platform
   * [Coderockr](http://coderockr.com)
