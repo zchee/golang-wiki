@@ -21,6 +21,7 @@ func main() {
 		panic(err)
 	}
 	defer os.Remove(f.Name())
+	defer f.Close()
 	sig := make(chan os.Signal, 1)
 	signal.Notify(sig, os.Interrupt)
 	<-sig
