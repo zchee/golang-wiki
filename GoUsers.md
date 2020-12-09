@@ -126,7 +126,7 @@
   * [Pagar.me](https://pagar.me)
   * [Pagro](https://www.pagro.com.br)
   * [PagSeguro](https://pagseguro.uol.com.br)
-  * [Picpay](https://picpay.com)
+  * [PicPay](https://picpay.com)
   * [Pismo](https://pismo.io)
   * [Planrockr](http://planrockr.com)
   * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
