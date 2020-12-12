@@ -905,6 +905,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gosc](https://bitbucket.org/liamstask/gosc) - Pure Go OSC (Open Sound Control) library
   * [go-taglib](https://github.com/wtolson/go-taglib) - Go wrapper for TagLib, an audio meta-data parser
   * [go-tmx](https://github.com/salviati/go-tmx) - A Go library that reads Tiled's TMX files
+  * [govips](https://github.com/davidbyttow/govips) - A lightning fast Go image processing and resizing library
   * [GoVisa](https://github.com/rainliu/GoVisa) - H265/HEVC Bitstream Analyzer in Go
   * [go-vlc](https://github.com/jteeuwen/go-vlc) - Go bindings for libVLC
   * [go.wde](https://github.com/skelterjohn/go.wde) - A windowing/drawing/event interface
