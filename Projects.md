@@ -870,6 +870,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ebiten](https://ebiten.org/) - A cross platform open-source game library with which you can develop 2D games with simple API for multi platforms. Cgo/c compiler setup not needed.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
   * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
+  * [fastgallery](https://github.com/tonimelisma/fastgallery) - A fast static image and video web gallery generator
   * [fourcc](https://github.com/reiver/go-fourcc) - Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
   * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
   * [glfw 3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3 library
