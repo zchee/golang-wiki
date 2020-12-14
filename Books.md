@@ -389,6 +389,12 @@ Sorted by publication date.
     * ISBN: 978-1-59327-865-6
     * Reference: https://www.nostarch.com/blackhatgo
 
+  * **Building Cross-Platform GUI Applications with Fyne**
+    * Author: Andrew Williams
+    * Publication Date: January 2021
+    * ISBN: 9781800563162
+    * Reference: https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162
+
 ## Available without Publication Date
 
   * **Learning Go** (e-book)
