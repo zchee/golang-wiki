@@ -594,7 +594,7 @@
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
   * [Axsh, Co.](https://axsh.jp/)
-    * [LiquidMetal](https://www.liquidmetal.io/)
+    * [LiquidMetal](https://www.liquidmetal.io/) is a web service and a hardware appliance that together bring continuous automated testing to network system operation.
   * [BASE BANK, Inc.](https://basebank.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
