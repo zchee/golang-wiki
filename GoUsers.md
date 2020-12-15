@@ -593,6 +593,8 @@
   * [and factory, Inc.](https://andfactory.co.jp/)
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
+  * [Axsh, Co.](https://axsh.jp/)
+    * [LiquidMetal](https://www.liquidmetal.io/)
   * [BASE BANK, Inc.](https://basebank.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
