@@ -805,6 +805,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Jottacloud](https://www.jottacloud.com/)
   * [Just Technologies](https://www.gojust.com/)
   * [Laerdal Medical](https://www.laerdal.com/)
+  * [Neat](https://neat.no/)
   * [No Isolation](https://www.noisolation.com/)
   * [Northern.tech](https://northern.tech/)
   * [Norwegian Labour and Welfare Administration (NAV)](https://www.nav.no/)
