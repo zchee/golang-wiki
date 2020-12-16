@@ -24,7 +24,7 @@ Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile 
 
 # Recommended Go version
 
-Go has a mature support for ARM systems; so, just like for other architectures, use the latest stable version (eg: Go 1.14 at the time of writing).
+Go has a mature support for ARM systems; so, just like for other architectures, use the latest stable version (eg: Go 1.15 at the time of writing).
 
 # Tips and tricks
 
