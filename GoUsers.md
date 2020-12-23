@@ -714,7 +714,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Digitalidea](http://www.digitalidea.co.kr) - inhouse tool for VFX
   * [FlyHigh](http://flyhigh-x.com/en/) - Information Security Solution
   * [KonaCard](http://www.konacard.co.kr/) - Payment Service
-  * [Lazypic](https://lazypic.org) - Create Contents Groups with Opensource Tools
+  * [Lazypic](https://lazypic.org) - Contents creation and support Solution
   * [NHN Entertainment](http://nhnent.com/)
   * [Quicket](http://m.bunjang.co.kr) - Image Proxy, Push, Messenger
   * [Toast Cloud](https://toast.com/) - Public Cloud Service
