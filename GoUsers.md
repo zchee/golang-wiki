@@ -821,6 +821,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Searis](https://www.searis.no/)
   * [Shortcut](https://shortcut.no/)
   * [Sportradar](https://www.sportradar.com/)
+  * [Tapad](https://www.tapad.com/)
   * [Telenor](https://www.telenor.no/privat/)
   * [Telia](https://www.telia.no/)
   * [Teston](https://teston.io/en/), part of [UserTesting](https://www.usertesting.com/)
