@@ -95,7 +95,7 @@ MIPS III or higher. Builder is using MIPS64r2.
 
 ### mips64le (little endian)
 
-MIPS III or higher in little endian mode. Builders are using Loongson 3A3000.
+MIPS III or higher in little endian mode. However the builder are using Loongson 3A4000.
 
 ### s390x
 
