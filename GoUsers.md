@@ -477,6 +477,7 @@
   * [RedtreeMobile](http://redtreemobile.com)
   * [Reservasi](https://www.reservasi.com/id-id)
   * [Rimbun Job Agency](http://www.rimbunjob.com)
+  * [RSU Anwar Medika](http://rsanwarmedika.com)
   * [Ruangguru](https://ruangguru.com)
   * [Sorabel by Sale Stock](https://www.sorabel.com)
   * [SAP Indonesia](http://go.sap.com/corporate/en/company/office-locations/indonesia.html)
