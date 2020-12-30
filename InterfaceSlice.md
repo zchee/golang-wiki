@@ -1,7 +1,7 @@
 # Introduction
 
 Given that you can assign a variable of any type to an ` interface{} `, often people will try code like the following.
-```
+```go
 var dataSlice []int = foo()
 var interfaceSlice []interface{} = dataSlice
 ```
@@ -33,7 +33,7 @@ It depends on what you wanted to do in the first place.
 If you want a container for an arbitrary array type, and you plan on changing back to the original type before doing any indexing operations, you can just use an ` interface{} `. The code will be generic (if not compile-time type-safe) and fast.
 
 If you really want a ` []interface{} ` because you'll be doing indexing before converting back, or you are using a particular interface type and you want to use its methods, you will have to make a copy of the slice.
-```
+```go
 var dataSlice []int = foo()
 var interfaceSlice []interface{} = make([]interface{}, len(dataSlice))
 for i, d := range dataSlice {
