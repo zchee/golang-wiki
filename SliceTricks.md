@@ -14,9 +14,9 @@ copy(b, a)
 
 // These two are often a little slower than the above one,
 // but they would be more efficient if there are more
-// elements to be appended to b.
+// elements to be appended to b after copying.
 b = append([]T(nil), a...)
-b = append(a[:0:0], a...
+b = append(a[:0:0], a...)
 ```
 
 #### Cut
