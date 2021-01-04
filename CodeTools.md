@@ -63,4 +63,4 @@ An overview of tools that will help improve your Go code
 
 ## Visualization
 
-  - [godegraph](http://github.com/kisielk/godepgraph) - A tool for generating dependency graphs of Go code.
+  - [godepgraph](http://github.com/kisielk/godepgraph) - A tool for generating dependency graphs of Go code.
