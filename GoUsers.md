@@ -408,7 +408,7 @@
   * [Saven Technologies Ltd](http://www.saven.in/)
   * [Sendinblue](http://www.sendinblue.com/)
   * [SellerApp](https://www.sellerapp.com/)
-  * [Sezzle](https://sezzle.com/)
+  * [Sezzle](https://sezzle.in/)
   * [Siminars](http://siminars.com)
   * [Singulerp](https://singulerp.com)
   * [SocialCops](https://socialcops.com) - [engineering page](https://socialcops.com/careers/engineering/)
