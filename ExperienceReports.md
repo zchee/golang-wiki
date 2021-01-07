@@ -200,6 +200,7 @@ a complex solution for the problem.
   - Stripe Github thread (linked comment down) - [reverting support for Go Modules](https://github.com/stripe/stripe-go/pull/712#issuecomment-454594534). TL;DR — Stripe is reverting Go Modules support because there is no clear upgrade path from dep for modules above v1.
   - [Referencing bash scripts in `GOPATH`](https://gist.github.com/ineiti/4a4a1798876225f7a553a13120d705ae)
   - [Go Modules on Badger and Dgraph](https://discuss.dgraph.io/t/go-modules-on-badger-and-dgraph/4662). TL;DR - Dgraph is dropping support for v2 because it forces non-Go modules users to change their code.
+  - [A survey on Golang's dependency management modes (GOPATH and Go Modules): status quo, problems and challenges](https://github.com/KateGo520/Hero/issues/1). - The purpose of this report is to help developers better understand the issues in the transition from GOPATH to Go Modules.
 
 ## Performance
 
