@@ -111,6 +111,7 @@
   * [Go Oslo User Group](https://www.meetup.com/Go-Oslo-User-Group/) - Oslo, Norway
   * [Gophers Linz](https://www.meetup.com/Gophers-Linz/) - Linz, Austria
   * [Golang Rotterdam](https://www.meetup.com/Golang-Rotterdam/) - Rotterdam, Netherlands
+  * [Leipzig Gophers](https://golangleipzig.space/) - Leipzig, Germany
 
 # North America
 
