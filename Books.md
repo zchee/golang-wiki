@@ -20,19 +20,19 @@ Sorted by publication date.
     * Author: David Chisnall
     * Publication Date: April 30, 2012
     * ISBN: 978-0321817143
-    * Reference: http://www.informit.com/store/go-programming-language-phrasebook-9780321817143
+    * Reference: https://www.informit.com/store/go-programming-language-phrasebook-9780321817143
 
   * **Programming in Go: Creating Applications for the 21st Century**
     * Author: Mark Summerfield
     * Publication Date: May 4, 2012
     * ISBN: 978-0321774637
-    * Reference: http://www.informit.com/store/programming-in-go-creating-applications-for-the-21st-9780321774637
+    * Reference: https://www.informit.com/store/programming-in-go-creating-applications-for-the-21st-9780321774637
 
   * **An Introduction to Programming in Go**
     * Author: Caleb Doxsey
     * Publication Date: September 3, 2012
     * ISBN: 978-1478355823
-    * Reference: http://www.golang-book.com/
+    * Reference: https://www.golang-book.com/
 
   * **Go Bootcamp: Everything you need to get started with Go (FREE)**
     * Author: Matt Aimonetti
@@ -50,7 +50,7 @@ Sorted by publication date.
     * Author: Karl Seguin
     * Publication Date: October 2014
     * ISBN: none: free ebook/PDF/online version
-    * Reference: http://openmymind.net/The-Little-Go-Book/
+    * Reference: https://openmymind.net/The-Little-Go-Book/
     
   * **Go Programming Blueprints**
     * Author: Mat Ryer
@@ -81,19 +81,19 @@ Sorted by publication date.
     * Author: Alan A.A. Donovan and Brian Kernighan
     * Publication Date: November, 2015
     * ISBN: 978-0134190440
-    * Reference: http://www.gopl.io/
+    * Reference: https://www.gopl.io/
 
 * **Web Development with Go: Building Scalable Web Apps and RESTful Services**
     * Author: Shiju Varghese
     * Publication Date: December, 2015
     * ISBN: 978-1484210536
-    * Reference: http://www.apress.com/9781484210536
+    * Reference: https://www.apress.com/9781484210536
 
 * **Introducing Go**
     * Author: Caleb Doxsey
     * Publication Date: January 2016
     * ISBN: 978-1491941959
-    * Reference: http://shop.oreilly.com/product/0636920046516.do
+    * Reference: https://shop.oreilly.com/product/0636920046516.do
 
 * **Write webapps in Go without using a framework** (Free e-book)
     * Author: Suraj Patil
