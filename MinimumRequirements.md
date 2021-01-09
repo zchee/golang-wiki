@@ -104,3 +104,7 @@ z196+
 ### mips (big endian) and mipsle (little endian)
 
 MIPS32r1
+
+## cgo
+
+For programs using cgo, gcc 4.6 or newer is required.
