@@ -35,6 +35,7 @@ Table of Contents
   * [An Introduction to Go](https://tutorialedge.net/course/golang/) _latest_
 
 ## General
+
   * [Here are some amazing advantages of Go that you don’t hear much about](https://www.freecodecamp.org/news/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a/) _2018-02-01_
   * [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff) _2017-11-23_
   * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-11-09_
@@ -130,6 +131,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Introduction to Go Modules](https://roberto.selbach.ca/intro-to-go-modules/) _2018-08-18_
 
 ## Performance and Profiling
+
   * [Mutex profile](https://rakyll.org/mutexprofile/) _2016-12-19_
   * [How to Optimize Garbage Collection in Go](http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/) _2015-11-23_
   * [Golang Escape Analysis](http://www.agardner.me/golang/garbage/collection/gc/escape/analysis/2015/10/18/go-escape-analysis.html) _2015-10-18_
@@ -207,6 +209,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 
 ## Chinese
+
   * [How to write Go code](http://chenxiaoyu.org/2012/03/14/howto-write-golang-code.html)
   * [Test Go module](http://chenxiaoyu.org/2012/12/07/golang-module-test-benchmark.html)
   * [Build web application with golang](https://github.com/astaxie/build-web-application-with-golang)
@@ -225,6 +228,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Using Go Modules (Translation)](https://www.4async.com/2019/03/using-go-modules/)
 
 ## Czech
+
   * [Google Go - 1st birthday](http://www.abclinuxu.cz/clanky/google-go-1.-narozeniny)
   * [Google Go - what we find in the kit](http://www.abclinuxu.cz/clanky/google-go-co-najdeme-ve-stavebnici)
   * [Google Go - advanced topics](http://www.abclinuxu.cz/clanky/google-go-pokrocilejsi-temata)
@@ -235,11 +239,13 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Google Go - 2nd birthday](http://www.abclinuxu.cz/clanky/google-go-2.-narozeniny)
 
 ## German
+
   * [Der GoLang-Spicker](https://archium.org/Golang#Ein_Go-Spickzettel_.28zu_deutsch_.22Cheat_Sheet.22.29) _2018-08-30_
   * [Programmiersprachen im Multicore Zeitalter - Google GO und Nebenläuﬁgkeit](http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf) ` [PDF] ` _2012-02-02_
   * [A list of German press articles about Go](http://www.hweidner.de/redmine/projects/pub/wiki/Golang_Presse)
 
 ## Japanese
+
   * [WindowsでGo言語のまとめ](http://esten.wankuma.com/)
   * [Go言語で jQuery ライクな操作が出来る goquery を試した。](http://mattn.kaoriya.net/software/lang/go/20120914184828.htm)
   * [Go言語向けの ORM、gorp がなかなか良い](http://mattn.kaoriya.net/software/lang/go/20120914222828.htm)
@@ -249,6 +255,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [GAE/Gで時間のチェック（Datastore編）](http://takashi-yokoyama.blogspot.jp/2012/06/gaegdatastore.html)
 
 ## Korean
+
   * [The Go Programming Language](http://www.slideshare.net/golanger/abou-go)
   * [You can read Go code](http://goo.gl/vUeSzl)
   * [Go channel tutorial](http://blog.sabzil.org/2014/12/golang-channels-tutorial)
