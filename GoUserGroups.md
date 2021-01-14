@@ -24,6 +24,7 @@
   * [Golang Chennai](http://www.meetup.com/Chennai-golang-Meetup/) - Chennai, India
   * [Golang Pune](https://www.meetup.com/Golang-Pune/) - Pune, India.
   * [Golang Ahmedabad](https://www.meetup.com/Golang-Ahmedabad) - Ahmedabad, India.
+  * [Golang Kolkata](https://www.facebook.com/groups/125791539385850) - Kolkata, India.
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
   * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
