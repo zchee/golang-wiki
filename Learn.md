@@ -1,7 +1,6 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
   * [Go in 5 Minutes](https://gifm.dev)
-  * [Golang Web Development](https://golangblogs.com/category/golang-web-development/)
   * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
   * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
   * [Exercism.io - Go](http://exercism.io/languages/go) - Online code exercises for Go for practice and mentorship.
@@ -18,7 +17,6 @@ In addition to the resources available [at golang.org](http://golang.org/doc/#le
   * [Go Fragments](http://www.gofragments.net/) - A collection of annotated Go code examples.
   * [50 Shades of Go: Traps, Gotchas, Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
   * [Free Go Language Workshop](https://www.frameworktraining.co.uk/go-language-free-training-workshop/) Framework Training is running regular free BYOD workshops in London, UK
-  * [GoingGo.net](http://www.goinggo.net/) - A collection of videos and articles for learning Go.
   * [Golang Tutorials](http://golangtutorials.blogspot.com/2011/05/table-of-contents.html) - A free online class.
   * Rob Pike's 2011 three day course - [Day 1](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay1.pdf), [Day 2](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay2.pdf), [Day 3](http://go.googlecode.com/hg-history/release-branch.r60/doc/GoCourseDay3.pdf) (*links are broken*, use the archived links from the wayback machine. [Day 1][wbday1], [Day 2][wbday2], [Day 3][wbday3])
   * [The Go Bridge Foundry](https://github.com/gobridge) - A member of the [Bridge Foundry](http://bridgefoundry.org/) family, offering a complete set of free Go training materials with the goal of bringing Go to under-served communities.
