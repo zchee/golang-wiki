@@ -461,6 +461,7 @@
   * [LionJobs](http://lionjobs.com)
   * [Matahari Mall](http://mataharimall.com)
   * [Magicsoft Asia Systems](http://magicsoft-asia.com)
+  * [Medcampus](https://www.medcampus.io)
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
   * [meTube.id](https://www.metube.id)
