@@ -945,6 +945,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [webp](https://github.com/chai2010/webp) - WebP decoder and encoder for Go.
   * [wg](https://github.com/magsoft-se/wg) - Web Graphics, display real time go graphics in browser, with user input.
   * [window](https://github.com/jbrukh/window) - Optimized moving window for real-time data
+  * [xmorph](https://github.com/spakin/xmorph) - Warp and morph images
 
 ## GUIs and Widget Toolkits
 
