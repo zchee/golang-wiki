@@ -6,6 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
+| GopherCon Europe | 2021-05-26-28 | Online | https://gophercon.eu/ <br> CFP: https://www.papercall.io/gceu2021 |
 | GothamGo | 2020-10-02 | New York City, NY USA | http://gothamgo.com/ |
 | Go West Online | 2020-10-02 | Online | https://www.gowestconf.com/ |
 | GoLab 2020 | 2020-10-19-25 | Online | https://golab.io |
