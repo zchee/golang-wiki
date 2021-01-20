@@ -369,7 +369,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [simpleaes](https://github.com/tadzik/simpleaes) - AES encryption made easy
   * [siphash](https://github.com/dchest/siphash) - SipHash: a fast short-input pseudorandom function
   * [SRP](https://code.google.com/p/go-srp/) - SRP: Secure Remote Password - Implementation in go
-  * [ssh.go](http://bitbucket.org/taruti/ssh.go) - SSH2 Client library
   * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys
   * [themis](https://github.com/cossacklabs/themis) - Multi-platform high-level cryptographic library for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications
   * [tiger](https://github.com/cxmcc/tiger) - Tiger cryptographic hashing algorithm
