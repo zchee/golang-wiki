@@ -21,7 +21,7 @@ Go is available within the OpenBSD ports tree collection since OpenBSD 5.2.  It 
 | **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
 |:-------------------|:------------------|:----------------------------|:--------------------------|
 | 6.4                | amd64, arm, 386   | Go 1.11                     |                           |
-| 6.2 through 6.3    | amd64, arm, 386   | Go 1.9                      |                           |
+| 6.2 through 6.3    | amd64, arm, 386   | Go 1.9                      | Go 1.15.x                 |
 | 6.1                | amd64, arm, 386   | Go 1.8                      | Go 1.10.8                 |
 | 6.0                | amd64, 386        | Go 1.4.1 _*_                | Go 1.10.8                 |
 | 6.0                | arm               | Go 1.5                      | Go 1.10.8                 |
