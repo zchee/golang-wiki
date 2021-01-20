@@ -259,6 +259,12 @@ Sorted by publication date.
     * ISBN: 9781789531756
     * Reference: https://www.packtpub.com/application-development/hands-go-programming
 
+* **Get Programming with Go**
+    * Author: Nathan Youngman, Roger Peppe
+    * Publication Date: August 2018
+    * ISBN: 9781617293092
+    * Reference: [https://www.manning.com/books/get-programming-with-go?utm_source=nathany&utm_medium=affiliate&utm_campaign=book_youngman_get_9_17_18&a_aid=nathany&a_bid=53f68821)
+
 * **Go Machine Learning Projects**
     * Author: Xuanyi Chew
     * Publication Date: November 2018
@@ -366,12 +372,6 @@ Sorted by publication date.
     * Publication Date: June 10, 2015
     * ISBN: ---
     * Reference: http://golang.muthukadan.net/
-
-  * **Get Programming with Go**
-    * Author: Nathan Youngman, Roger Peppe
-    * Publication Date: July 2018 (estimated)
-    * ISBN: 9781617293092
-    * Reference: [https://www.manning.com/books/get-programming-with-go](https://www.manning.com/books/get-programming-with-go?a_aid=nathany&a_bid=53f68821)
 
 * **WebAssembly in Action**
     * Author:  Gerard Gallant 
