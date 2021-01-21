@@ -364,6 +364,13 @@ Sorted by publication date.
         * https://www.amazon.com/Concise-Go-Yaniv-Astamnep-ebook/dp/B0844MWN92
         * https://www.amazon.com/Concise-Go-Yaniv-Astamnep/dp/B083XVZ2BZ
 
+* **Nonsequential and Distributed Programming with Go**
+    * Author: Christian Maurer
+    * Publication Date: January 21, 2021
+    * ISBN: 978-3-658-29781-7 (Softcover) and 978-3-658-20782-4 (eBook)
+    * References: 
+        * https://www.springer.com/gp/9783658297817
+
 ***
 ## Early Access
 
@@ -630,11 +637,11 @@ Sorted by publication date.
     * ISBN: 978-3-89864-712-0
     * Reference: http://dpunkt.de/buecher/3762/-systemprogrammierung-in-google-go.html
 
-  * **Nichtsequentielle und Verteilte Programmierung mit Go** (3rd edition) (available as print and e-book)
+  * **Nichtsequentielle und Verteilte Programmierung mit Go** (4th edition) (available as print and e-book)
     * Author: Christian Maurer
-    * Publication Date: 2018-06
-    * ISBN: 978-3-658-21152-3
-    * Reference: https://www.springer.com/de/book/9783658211523
+    * Publication Date: 2019-07
+    * ISBN: 978-3-658-26289-1 (Softcover) and 978-3-658-26290-7 (eBook)
+    * Reference: https://www.springer.com/de/book/9783658262891
 
   * **Einstieg in Google Go** (e-book)
     * Author: Christian Himpel and Mario Deilmann
