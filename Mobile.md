@@ -24,6 +24,7 @@ Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobi
 
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
+> gomobile support [Go Modules](https://golang.org/ref/mod) now! `$ gomobile bind -v -o android.aar -target=android ./package` under project directory works now.
 
 On macOS, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
