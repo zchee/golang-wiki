@@ -369,7 +369,7 @@ Sorted by publication date.
     * Publication Date: January 21, 2021
     * ISBN: 978-3-658-29781-7 (Softcover) and 978-3-658-20782-4 (eBook)
     * References: 
-        * https://www.springer.com/gp/9783658297817
+        * https://www.springer.com/gp/book/9783658297817
 
 ***
 ## Early Access
