@@ -43,7 +43,7 @@ The native category includes applications entirely written in Go. Currently, the
 contains only a small set of packages that focus on:
 
 * App control and configuration
-* OpenGL ES 2 bindings
+* OpenGL ES 2 and ES 3 bindings
 * Asset management
 * Event management
 * Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors
