@@ -180,7 +180,7 @@ is in development.
 
 * https://github.com/gascore/gas[`gas`]: Components based framework for WebAssembly applications.
 
-* https://github.com/bgokden/gowebian[GoWebian]: A library to build pages with pure go and add WebAssembly bindings.
+* https://github.com/bgokden/gowebian[GoWebian]: A library to build pages with pure Go and add WebAssembly bindings.
 
 * https://github.com/norunners/vert[`vert`]: WebAssembly interop between Go and JS values.
 
