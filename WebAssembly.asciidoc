@@ -190,7 +190,7 @@ is in development.
 
 * https://gowebapi.github.io/[`webapi`]: A binding generator and generated bindings for DOM, HTML, WebGL, and more.
 
-* https://github.com/littleroot/webgen[`webgen`]: Define components in HTML and generate Go types and constructor functions for them using [`webapi`](https://github.com/gowebapi/webapi).
+* https://github.com/littleroot/webgen[`webgen`]: Define components in HTML and generate Go types and constructor functions for them using https://github.com/gowebapi/webapi[`webapi`].
 
 ## Canvas
 
