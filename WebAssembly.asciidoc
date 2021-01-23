@@ -173,22 +173,24 @@ See https://godoc.org/syscall/js.
 
 Also:
 
-* https://github.com/gascore/gas[gas - Components based framework for WebAssembly applications]
+* https://github.com/maxence-charriere/app[`app`]: A PWA-compatible, React-based framework with custom tooling.
 
-* A PWA-compatible, React-based framework with custom tooling is https://github.com/maxence-charriere/app[app].
-
-* https://github.com/vugu/vugu[Vugu] is a wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
-
-* https://github.com/norunners/vue[vue - The progressive framework for WebAssembly applications.]
-
-* https://github.com/dennwc/dom[A library for streamlining DOM manipulation]
+* https://github.com/dennwc/dom[`dom`]: A library for streamlining DOM manipulation
 is in development.
 
-* There is a https://gowebapi.github.io/[binding generator] that can be used.
+* https://github.com/gascore/gas[`gas`]: Components based framework for WebAssembly applications.
 
-* https://github.com/norunners/vert[vert - WebAssembly interop between Go and JS values.]
+* https://github.com/bgokden/gowebian[GoWebian]: A library to build pages with pure go and add WebAssembly bindings.
 
-* https://github.com/bgokden/gowebian[GoWebian] A library to build pages with pure go and add WebAssembly bindings.
+* https://github.com/norunners/vert[`vert`]: WebAssembly interop between Go and JS values.
+
+* https://github.com/norunners/vue[`vue`]: The progressive framework for WebAssembly applications.
+
+* https://github.com/vugu/vugu[Vugu]: A wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
+
+* https://gowebapi.github.io/[`webapi`]: A binding generator and generated bindings for DOM, HTML, WebGL, and more.
+
+* https://github.com/littleroot/webgen[`webgen`]: Define components in HTML and generate Go types and constructor functions for them using [`webapi`](https://github.com/gowebapi/webapi).
 
 ## Canvas
 
