@@ -210,7 +210,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 ## Chinese
 
-  * [How to write Go code](http://chenxiaoyu.org/2012/03/14/howto-write-golang-code.html)
   * [Test Go module](http://chenxiaoyu.org/2012/12/07/golang-module-test-benchmark.html)
   * [Build web application with golang](https://github.com/astaxie/build-web-application-with-golang)
   * [Go语言评估报告](https://docs.google.com/document/d/1NosYIbM6tfBqKh49BrHOngBfXuT1MfrvYXwc_ikwuMk/edit)
