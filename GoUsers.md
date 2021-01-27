@@ -1325,6 +1325,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [LogPacker](https://logpacker.com/) - [website](https://logpacker.com)
   * [Lovoo](https://lovoo.com/) - [github](https://github.com/lovoo)
   * [Luckie &amp; Company](http://luckie.com)
+  * [Luxor](https://mining.luxor.tech/)
   * [Lyft](http://lyft.com) - [github](https://github.com/lyft)
   * [Lytics](https://www.lytics.com/) - CDP that automates 1:1 marketing
   * [Magento](http://magento.com)
