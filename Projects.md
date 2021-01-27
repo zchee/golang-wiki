@@ -1190,6 +1190,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Hranoprovod](https://github.com/aquilax/hranoprovod-go) - Command-line calorie tracking
   * [lineup](https://github.com/jdp/lineup) - A minimalistic message queue server
   * [mitigation](https://github.com/sarnowski/mitigation) - Package mitigation provides the possibility to prevent damage caused by bugs or exploits.
+  * [nject](https://github.com/BlueOwlOpenSource/nject) - type safe dependency injection
   * [nma.go](https://github.com/dustin/nma.go) - A NotifyMyAndroid client for go.
   * [notify](https://github.com/rjeczalik/notify) - File system event notification library with API similar to os/signal.
   * [pargo](https://github.com/ExaScience/pargo) - A library for parallel programming in Go.
