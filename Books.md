@@ -371,6 +371,13 @@ Sorted by publication date.
     * References: 
         * https://www.springer.com/gp/book/9783658297817
 
+
+* **Building Cross-Platform GUI Applications with Fyne**
+  * Author: Andrew Williams
+  * Publication Date: January 2021
+  * ISBN: 9781800563162
+  * Reference: https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162
+
 ***
 ## Early Access
 
@@ -395,12 +402,6 @@ Sorted by publication date.
     * Publication Date: March 2018
     * ISBN: 978-1-59327-865-6
     * Reference: https://www.nostarch.com/blackhatgo
-
-  * **Building Cross-Platform GUI Applications with Fyne**
-    * Author: Andrew Williams
-    * Publication Date: January 2021
-    * ISBN: 9781800563162
-    * Reference: https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162
 
 ## Available without Publication Date
 
