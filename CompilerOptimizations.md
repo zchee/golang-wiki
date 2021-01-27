@@ -27,15 +27,38 @@ For a map `m` of type `map[string]T` and `[]byte b`, `m[string(b)]` doesn't allo
 * **gc:** 1.4+
 * **gccgo:** ?
 
+### `switch` on `[]byte`(s)
+
+No allocation done on the `switch` line.
+
+```go
+var b []byte
+switch string(b) {
+  case "AA": 
+  // ...
+}
+```
+
 ### `range` over `[]byte`(s)
 
-Avoiding allocating `[]byte` of a `string` when ranging over the bytes:
+No allocation when converting a `string` into a `[]byte` for ranging over the bytes:
 
 ```go
 s := "foo"
 for i, c := range []byte(s) {
 	// ...
 }
+```
+
+### conversion for string comparison
+
+No allocation done when converting a `[]byte` into a `string` for comparison purposes
+
+```go
+var b1 string
+var b2 []byte
+var x = string(b1) == string(b2) // memeq
+var y = string(b1) < string(b2)  // lexicographical comparison
 ```
 
 * **gc:** 1.5+ (CL 3790)
