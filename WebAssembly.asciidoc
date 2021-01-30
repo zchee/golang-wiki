@@ -178,6 +178,8 @@ Also:
 * https://github.com/dennwc/dom[`dom`]: A library for streamlining DOM manipulation
 is in development.
 
+* https://pkg.go.dev/honnef.co/go/js/dom/v2[`dom`]: Go bindings for the JavaScript DOM APIs.
+
 * https://github.com/gascore/gas[`gas`]: Components based framework for WebAssembly applications.
 
 * https://github.com/bgokden/gowebian[GoWebian]: A library to build pages with pure Go and add WebAssembly bindings.
