@@ -949,6 +949,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## GUIs and Widget Toolkits
 
   * [fyne](https://github.com/fyne-io/fyne) - Cross platform native GUI toolkit based on Material Design
+  * [gio](https://gioui.org/) - Portable (iOS/tvOS, Android, Linux (Wayland/X11), macOS, Windows, FreeBSD, OpenBSD, WASM) immediate mode GUI
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
   * [GoGi](https://github.com/goki/gi) - Fully native cross-platform GUI toolkit
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
