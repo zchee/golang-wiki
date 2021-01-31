@@ -76,7 +76,7 @@ func TestTLog(t *testing.T) {
 
 ## References
 
-  * http://golang.org/doc/code.html#Testing
-  * http://golang.org/doc/faq#assertions
-  * http://golang.org/doc/faq#testing_framework
-  * http://golang.org/pkg/testing/
+  * https://golang.org/doc/code.html#Testing
+  * https://golang.org/doc/faq#assertions
+  * https://golang.org/doc/faq#testing_framework
+  * https://golang.org/pkg/testing/
