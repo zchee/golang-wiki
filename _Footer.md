@@ -1,1 +1,0 @@
-https://docs.microsoft.com/de-de/azure/security/fundamentals/azure-disk-encryption-vms-vmss
