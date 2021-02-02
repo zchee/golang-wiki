@@ -67,10 +67,10 @@ Further information about the device can be found at https://openwrt.org/toh/hwd
 
 ## Belkin F7D7302 WiFi Router
 
-Architecture: mips74kv4
+Architecture: mipsel_74kc
 
 Operating System: DD-WRT
 
-The Belkin F7D7302 comes with a Broadcom BCM4716 MIPS 74K v4 processor, 8 MB flash, and 64 MB RAM. Flash storage is severely limited, but there is a USB port available so programs can be loaded onto a flash drive and executed.
+The Belkin F7D7302 comes with a Broadcom BCM4716 little-endian MIPS 74K classic processor, 8 MB flash, and 64 MB RAM. Flash storage is severely limited, but there is a USB port available so programs can be loaded onto a flash drive and executed.
 
-Further information about the device can be found at https://openwrt.org/toh/belkin/f7d3302#info.
+Further information about the device can be found at https://openwrt.org/toh/belkin/f7d3302.
