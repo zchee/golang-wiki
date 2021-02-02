@@ -47,6 +47,7 @@ The current first class ports are:
 * linux/arm64
 * linux/arm
 * darwin/amd64
+* darwin/arm64
 * windows/amd64
 * windows/386
 
