@@ -34,7 +34,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Upcoming calls
 
-* 2021-02-?? - [Agenda](https://docs.google.com/document/d/1tMg4QUtK-bB9j0mlP_bV94yLttmdyCawsDzSSp0M4A0/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+* 2021-02-10 - [Agenda](https://docs.google.com/document/d/1tMg4QUtK-bB9j0mlP_bV94yLttmdyCawsDzSSp0M4A0/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
 
 ### Call archive
 
