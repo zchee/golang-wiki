@@ -7,6 +7,7 @@ This page lists academic and industry research papers about Go or using Go as th
   - [go-safer](https://github.com/jlauinger/go-safer)
   - [Study results](https://github.com/stg-tud/unsafe_go_study_results)
   - [Go unsafe.Pointer vulnerability POCs](https://github.com/jlauinger/go-unsafepointer-poc)
+  - [Conference talk](https://www.youtube.com/watch?v=adn6A7nG61I)
 - Lightweight Preemptible Functions (S. Boucher, A. Kalia, D. Andersen, M. Kaminsky)
   - [Usenix'20](https://www.usenix.org/conference/atc20/presentation/boucher)
 - From Folklore to Fact: Comparing Implementations of Stacks and Continuations (K. Farvadin, J. Reppy)
