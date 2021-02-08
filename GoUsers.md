@@ -241,6 +241,7 @@
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
   * [CROZ](https://www.croz.net) - [github](https://github.com/croz-ltd)
+  * [Sartura](https://www.sartura.hr/) - [github](https://github.com/sartura)
 
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
