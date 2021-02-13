@@ -154,6 +154,7 @@
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
   * [SumUp](https://sumup.com)
+  * [Gtmhub](https://gtmhub.com)
 
 ## Canada
   * [1Password](https://1password.com)
