@@ -16,8 +16,8 @@
 * [Indonesia](https://golang-id.org) - Indonesia
   * [GoJakarta](https://gophers.id/GoJakarta) - Jakarta, Indonesia.
   * [Golang Surabaya](https://github.com/golangSurabaya) - Surabaya, Indonesia.
-- Persian
-  * [Telegram Iran Group](https://t.me/GolangFarsi) - Iran
+- Persia
+  * [Telegram Iranian Group](https://t.me/GolangFarsi) - Iran
   * [devheroes Iran](https://devheroes.club/c/go) - Iran
 - India
   * [Golang New Delhi](https://www.meetup.com/GolangNewDelhi) - New Delhi, India.
