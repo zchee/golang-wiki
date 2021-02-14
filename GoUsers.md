@@ -85,6 +85,7 @@
   * [Conta Azul](https://contaazul.com) - [github](https://github.com/ContaAzul)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Delivery Much](https://www.deliverymuch.com.br/) - [github](https://github.com/delivery-much)
+  * [DAXPER](https://daxper.com.br) - [github](https://github.com/daxper)
   * [Dinamize](https://www.dinamize.com.br/) - [github](https://github.com/dinamize)
   * [Dito](http://dito.com.br/) - [github](https://github.com/ditointernet/)
   * [Dropadev](http://dropadev.com) 
