@@ -10,7 +10,7 @@
   * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
 
 ## Azerbaijan
-  * [Engossip](https://www.engossip.com/) - Finding partners to practice speaking in English (Globally).
+  * [Engossips](https://www.engossips.com/) - Finding partners to practice speaking in English (Globally).
   * [Tural Asgar](https://www.turalasgar.com/) - Tural Asgar's personal blog.
 
 ## Australia
