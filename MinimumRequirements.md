@@ -49,7 +49,9 @@ There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 
 
 ### [Native Client](NativeClient)
 
-pepper_39 or newer.
+Go 1.13: pepper_39 or newer.
+
+Go 1.14 and later: [unsupported](https://golang.org/doc/go1.14#nacl).
 
 ### [Solaris](Solaris)
 
