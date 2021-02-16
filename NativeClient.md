@@ -1,3 +1,5 @@
+**Note: NaCl support [was dropped in Go 1.14](https://golang.org/doc/go1.14#nacl).**
+
 Go 1.3 includes support for generating x86-32 and x86-64 binaries for Google Native Client (NaCl).
 
 NaCl is a collection of related technologies.
