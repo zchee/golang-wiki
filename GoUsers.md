@@ -1041,6 +1041,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [MasomoGaming](https://www.masomo.com/) - [github](https://github.com/masomo) - Online HeadBall2 Game Server by Go
   * [LocRep](http://locrep.com/) - [github](https://github.com/locrep) - DevOps OSS Artifact Manager. [Azure-DevOps](https://dev.azure.com/LocRep/) - CI/CD and Scrum
   * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
+  * [Sir Studios](http://sirstudios.com)
 ## Ukraine
   * [Agilites](https://agilites.com)
   * [ElifTech](http://www.eliftech.com)
