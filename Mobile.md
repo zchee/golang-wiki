@@ -132,16 +132,16 @@ $ go get -d golang.org/x/mobile/example/bind/...
 
 Note: Go Mobile runs on the same architectures as Go, which currently means ARM, ARM64, 386 and amd64 devices and emulators. Notably, Android on MIPS devices is not yet supported.
 
-* Launch Android Studio.
-* File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
-
-![Android Studio](http://i.imgur.com/RhNCnnH.png)
-
 * Run the following command to generate the [aar](https://developer.android.com/studio/projects/android-library.html) file that is suitable for importing into Android projects:
 
 ```
 $ gomobile bind -o app/hello.aar -target=android golang.org/x/mobile/example/bind/hello
 ```
+
+* Launch Android Studio.
+* File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
+
+![Android Studio](http://i.imgur.com/RhNCnnH.png)
 
 * Build and deploy the application to the device.
 
