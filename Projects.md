@@ -206,6 +206,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [dsio](https://github.com/nshmura/dsio) - Command line tool for Google Cloud Datastore.
+  * [efs2](https://github.com/madflojo/efs2) - A dead-simple configuration management tool that is powered by stupid shell scripts.
   * [enumeration](https://bitbucket.org/rickb777/enumeration) - Easy enumeration code generation.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
   * [gich](http://bitbucket.org/jpoirier/gich) - A cross platform which utility written in Go
