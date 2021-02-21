@@ -38,7 +38,11 @@ spanner   | https://godoc.org/cloud.google.com/go/spanner
 bson      | https://godoc.org/labix.org/v2/mgo/bson, https://godoc.org/go.mongodb.org/mongo-driver/bson/bsoncodec
 gorm      | https://godoc.org/github.com/jinzhu/gorm
 yaml      | https://godoc.org/gopkg.in/yaml.v2
+toml      | https://godoc.org/github.com/pelletier/go-toml
 validate  | https://github.com/go-playground/validator
 mapstructure | https://godoc.org/github.com/mitchellh/mapstructure
+parser    | https://godoc.org/github.com/alecthomas/participle
 protobuf  | https://github.com/golang/protobuf
 db        | https://github.com/jmoiron/sqlx
+
+<!-- I have decided to use/keep uisng godoc.org instead of pkg.go.dev since godoc.org can be set to redirect to pkg.go.dev -github.com/colourdelete -->
