@@ -4,7 +4,7 @@
 
 There are some other options for Debian based systems like Ubuntu. These packages were not created by the Go project, and we don't support them, but they may be useful for you.
 
-If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.15.
+If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.16.
 
 ```
 sudo add-apt-repository ppa:longsleep/golang-backports
@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install golang-go
 ```
 
-> **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.15` instead and use the binaries from `/usr/lib/go-1.15/bin`.**
+> **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.16` instead and use the binaries from `/usr/lib/go-1.16/bin`.**
 
 If that's too new for you, try: (Ubuntu 19.04 max)
 
