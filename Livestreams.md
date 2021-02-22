@@ -6,12 +6,13 @@ Note that conferences and podcasts have their own wiki pages already, and should
 
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
+| Ashley Jeffs       | Working on Benthos and OSS     | Twice per week       | https://www.youtube.com/c/Jeffail |
+| Chewxy             | Hacking around. Usually machine learning / deep neural networks related | Weekly | https://www.youtube.com/chewxy |
 | Jordan Lewis       | CockroachDB internals           | Twice per week       | https://www.twitch.tv/large__data__bank |
 | Matt Layher        | Linux networking/syscalls in Go | Twice per month      | https://www.twitch.tv/mdlayher |
 | Matthew Dempsky    | Hacking on the Go compiler      | Three times per week | https://www.twitch.tv/mdempsky |
 | Michael Stapelberg | Hacking on OSS projects         | Aiming for 1x/month  | https://www.twitch.tv/stapelberg |
 | Travis Jeffery     | Distributed systems and data streaming | Twice a month | https://www.twitch.tv/travisjeffery |
-| Chewxy             | Hacking around. Usually machine learning / deep neural networks related | Weekly | https://www.youtube.com/chewxy |
 
 ### In Russian
 
