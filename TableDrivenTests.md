@@ -65,10 +65,10 @@ func TestTLog(t *testing.T) {
 		{"test 4"},
 	}
 	for _, tt := range tests {
-		innerTT := tt // NOTE: https://github.com/golang/go/wiki/CommonMistakes#using-goroutines-on-loop-iterator-variables
-		t.Run(innerTT.name, func(t *testing.T) {
+		tt := tt // NOTE: https://github.com/golang/go/wiki/CommonMistakes#using-goroutines-on-loop-iterator-variables
+		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel() // marks each test case as capable of running in parallel with each other 
-			t.Log(innerTT.name)
+			t.Log(tt.name)
 		})
 	}
 }
