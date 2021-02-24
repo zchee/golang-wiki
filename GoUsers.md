@@ -1163,7 +1163,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Beachfront Media](http://www.beachfrontmedia.com) [article](http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/)
   * [Beam](https://beam.pro) - [github](https://github.com/WatchBeam)
   * [Beehively](http://beehively.com) - [Presentation](https://speakerdeck.com/nexneo/joy-of-single-purpose-services-in-go)
-  * [Beme](http://beme.com) - [job post](http://beme.com/jobs.html#product-engineer)
   * [Betable](https://betable.com) - [talk #1](http://rcrowley.org/talks/surge-2013.html), [talk #2](http://rcrowley.org/talks/strange-loop-2013.html)
   * [Benzinga](https://www.benzinga.com) - [pro](https://pro.benzinga.com/), [jobs](http://jobs.benzinga.com/)
   * [BigCommerce](https://www.bigcommerce.com/) - [blog](http://www.bigeng.io/what-keeps-us-going/), [github](https://github.com/bigcommerce)
