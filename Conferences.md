@@ -7,15 +7,9 @@ Please keep all items in chronological order. There is also a map of the confirm
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
 | GopherCon Europe | 2021-05-26-28 | Online | https://gophercon.eu/ |
-| GothamGo | 2020-10-02 | New York City, NY USA | http://gothamgo.com/ |
-| Go West Online | 2020-10-02 | Online | https://www.gowestconf.com/ |
-| GoLab 2020 | 2020-10-19-25 | Online | https://golab.io |
-| GopherChina 2020 | 2020-11-21/22 | ShangHai, China | https://www.gopherchina.org |
-| All Systems Go | 2020-12-03 | Online | https://allsystemsgo.space
 | GopherCon | tbd 2020 due to COVID-19 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
-
 
 ## Archives
 
@@ -23,6 +17,11 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| All Systems Go | 2020-12-03 | Online | https://allsystemsgo.space
+| GopherChina 2020 | 2020-11-21/22 | ShangHai, China | https://www.gopherchina.org |
+| GoLab 2020 | 2020-10-19-25 | Online | https://golab.io |
+| GothamGo | 2020-10-02 | New York City, NY USA | http://gothamgo.com/ |
+| Go West Online | 2020-10-02 | Online | https://www.gowestconf.com/ |
 | ~GopherCon UK~ | ~2020-08-21-23~ | ~London, UK~ | https://www.gophercon.co.uk/ <br> CANCELLED DUE TO COVID-19 |
 | GopherCon Russia 2020/2 Online | 2020-08-08-09 | Moscow, Russia | https://www.gophercon-russia.ru/en |
 | GopherCon Turkey (Online) | 2020-07-25 | Istanbul, Turkey | https://gophercon.ist/ |
