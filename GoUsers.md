@@ -1558,4 +1558,4 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 See also [Success Stories](SuccessStories)
 
-See also and add to [Wikipedia category](https://en.wikipedia.org/wiki/Category:Free_software_programmed_in_Go)
+See also [Wikipedia](https://en.wikipedia.org/wiki/Category:Free_software_programmed_in_Go)
