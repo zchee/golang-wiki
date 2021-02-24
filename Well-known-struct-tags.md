@@ -44,5 +44,6 @@ mapstructure | https://godoc.org/github.com/mitchellh/mapstructure
 parser    | https://godoc.org/github.com/alecthomas/participle
 protobuf  | https://github.com/golang/protobuf
 db        | https://github.com/jmoiron/sqlx
+url       | https://github.com/google/go-querystring
 
-<!-- I have decided to use/keep uisng godoc.org instead of pkg.go.dev since godoc.org can be set to redirect to pkg.go.dev -github.com/colourdelete -->
+<!-- I have decided to use/keep using godoc.org instead of pkg.go.dev since godoc.org can be set to redirect to pkg.go.dev -github.com/colourdelete -->
