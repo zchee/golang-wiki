@@ -52,6 +52,7 @@
   * [BykovSoft](https://bykovsoft.com) - [github](https://github.com/bykovme)
   * [SmartPro](https://smartpro.by)
   * [Spiral Scout](https://spiralscout.com) - [github](https://github.com/spiral)
+  * [Intelligent Speaker](https://intelligent-speaker.com) - proprietary fremium text-to-speech browser extension
 
 ## Belgium
   * [IN4IT](https://www.in4it.io/)
