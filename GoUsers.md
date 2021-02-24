@@ -1557,3 +1557,5 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [VinID](https://vinid.net)
 
 See also [Success Stories](SuccessStories)
+
+See also and add to [Wikipedia category](https://en.wikipedia.org/wiki/Category:Free_software_programmed_in_Go)
