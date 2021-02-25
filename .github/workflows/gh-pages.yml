@@ -35,6 +35,7 @@ jobs:
         args: |
           -c \
           "pip install -U --pre --compile git+https://github.com/mkdocs/mkdocs.git && \
+           pip install -U --pre --compile git+https://github.com/squidfunk/mkdocs-material.git && \
            pip install -U --pre --compile pymdown-extensions && \
            pip install -U --pre --compile mkdocs-git-revision-date-plugin && \
            mkdocs build -c -f /github/workspace/config/mkdocs.yml && \
