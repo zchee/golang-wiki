@@ -15,7 +15,6 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - toc.integrate
