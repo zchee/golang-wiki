@@ -34,7 +34,8 @@ jobs:
         entrypoint: sh
         args: |
           -c \
-          "pip install -U -v --pre --compile pymdown-extensions && \
-           pip install -U -v --pre --compile mkdocs-git-revision-date-plugin && \
+          "pip install -U --pre --compile git+https://github.com/mkdocs/mkdocs.git && \
+           pip install -U --pre --compile pymdown-extensions && \
+           pip install -U --pre --compile mkdocs-git-revision-date-plugin && \
            mkdocs build -c -f /github/workspace/config/mkdocs.yml && \
            mkdocs gh-deploy --config-file /github/workspace/config/mkdocs.yml --verbose --force"
