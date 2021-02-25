@@ -8,8 +8,9 @@ theme:
   include_homepage_in_sidebar: true
   prev_next_buttons_location: "bottom"
   palette:
-    primary: "blue"
-    accent: "blue"
+    scheme: preference
+    primary: blue
+    accent: blue
   icon:
     repo: fontawesome/brands/github
   features:
@@ -96,6 +97,7 @@ markdown_extensions:
 plugins:
   - search:
       prebuild_index: true
+  - git-revision-date
 
 extra:
   revision: 14c2c2dbed9d
@@ -191,7 +193,6 @@ nav:
   - "HttpStaticFiles": HttpStaticFiles.md
   - "IDEsAndTextEditorPlugins": IDEsAndTextEditorPlugins.md
   - "InstallFromSource": InstallFromSource.md
-  - "InstallTroubleshooting": InstallTroubleshooting.md
   - "InterfaceSlice": InterfaceSlice.md
   - "InvalidFlag": InvalidFlag.md
   - "Iota": Iota.md
