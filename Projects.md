@@ -1,1 +1,1 @@
-.
+https://golang.org/pkg/#community
