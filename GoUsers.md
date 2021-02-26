@@ -312,6 +312,7 @@
   * [Herdius](https://www.herdius.com/) - [github](https://github.com/herdius)
   * [HolidayCheck](https://www.holidaycheck.de/) - [github](https://github.com/holidaycheck) - [Blog]
   * [IDAGIO](https://www.idagio.com/)
+  * [Industrial-DevOps](https://www.industrial-devops.org/)
   * [JustWatch](https://www.justwatch.com/us) - [HN](https://news.ycombinator.com/item?id=10658330)
   * [KI Labs](https://www.ki-labs.com/)
   * [loodse](https://loodse.com/) - [github](https://github.com/kubermatic/)
