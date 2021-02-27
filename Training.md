@@ -2,6 +2,7 @@ Commercial providers of Go training
 
 ## On-line
 
+* [Go Mastery](https://qvault.io/go-mastery-course/) - Interactive browser-based coding course focused on teaching Go's quirks and syntax
 * [Golang Online Courses](https://classpert.com/go-programming) - A collection of Go online courses from several providers
 * [Mastering Go Programming](https://www.packtpub.com/application-development/mastering-go-programming-video) - A comprehensive Go video training course 
 * [EXLskills - A$AP Learn Go](https://exlskills.com/learn-en/courses/aap-learn-go-golang--learn_golang_asap) - Fast-paced free and open course for getting going with Go
