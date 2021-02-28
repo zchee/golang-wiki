@@ -339,7 +339,6 @@
   * [Zalando SE](https://www.zalando.com) - [blog](https://jobs.zalando.com/tech/blog/)
   * [Onefootball](http://onefootball.com)
   * [Sudokoin](http://sudokoin.com)
-  * [Compiler Factory](http://nhi1.selfhost.co)
 
 ## Greece
   * [Beat](https://thebeat.co)
