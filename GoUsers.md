@@ -959,6 +959,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Sri Lanka
   * [Xiges.io](https://xiges.io/) - Low-code Industrial IoT Platform
+  * [PickMe](https://pickme.lk/) - Universal Hailing Platform
+  * [Mybudget](https://www.mybudget.com.au/) - Financial Health Management System
+  * [Moneta](https://www.moneta.lk/) - Sri Lankans' Best Lifestyle App
 
 ## Sweden
   * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
