@@ -828,7 +828,7 @@ For example:
 * [goproxy.cn](https://goproxy.cn) - Open source project - Run by [Qiniu Cloud](https://www.qiniu.com) - The most trusted Go module proxy in China.
 * [goproxy.io](https://goproxy.io) - Open source project - Run by [China Golang Contributor Club](https://golangcn.org) - A global proxy for Go modules.
 * [Athens](https://github.com/gomods/athens) - Open source project - Self-hosted - A Go module datastore and proxy.
-* [athens.azurefd.net](https://athens.azurefd.net) - Open source project - Run by [Microsoft](https://www.microsoft.com) - A hosted module proxy running Athens.
+* [athens.azurefd.net](https://athens.azurefd.net) - Open source project - A hosted module proxy running Athens.
 * [Goproxy](https://github.com/goproxy/goproxy) - Open source project - Self-hosted - A minimalist Go module proxy handler.
 * [THUMBAI](https://thumbai.app) - Open source project - Self-hosted - Go mod proxy server and Go vanity import path server.
 
