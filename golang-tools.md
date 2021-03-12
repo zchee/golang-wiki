@@ -38,8 +38,8 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Call archive
 
-* 2021-03-10 - [Meeting notes](https://docs.google.com/document/d/1C-XxosukrdAr1KZH6YTJR_xvKcDS9bh-AyxTxnWq0lk/edit#) - [video TODO]()
-* 2021-02-10 - [Meeting notes](https://docs.google.com/document/d/1tMg4QUtK-bB9j0mlP_bV94yLttmdyCawsDzSSp0M4A0/edit#) - [video TODO]()
+* 2021-03-10 - [Meeting notes](https://docs.google.com/document/d/1C-XxosukrdAr1KZH6YTJR_xvKcDS9bh-AyxTxnWq0lk/edit#) - [video](https://youtu.be/IphhYpCJJXw)
+* 2021-02-10 - [Meeting notes](https://docs.google.com/document/d/1tMg4QUtK-bB9j0mlP_bV94yLttmdyCawsDzSSp0M4A0/edit#) - [video](https://youtu.be/E078rWljk7g)
 * 2021-01-13 - [Meeting notes](https://docs.google.com/document/d/1PF07-EfaYi86Fl9pzpEVfuC9G6M52y5fxmttxjExFNk/edit#) - [video](https://youtu.be/qz8hBQhYtQs)
 * 2020-11-18 - [Meeting notes](https://docs.google.com/document/d/1iH4fPsQv36J1XBNVZ6oU1OuVI1R9CMKCLpKqk14jpp0/edit#) - [video](https://youtu.be/Nh05OITe2dY)
 * 2020-10-21 - [Meeting notes](https://docs.google.com/document/d/1P4X9OKlHq0UlcAEyGCkVYyCML4grObpiD2zDEK5f5nQ/edit#) - [video](https://youtu.be/fFl5Ddt3fxc)
