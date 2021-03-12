@@ -27,4 +27,4 @@ func handle(r *Request) {
 
 ## References
 
-Effective Go's discussion of channels: http://golang.org/doc/effective_go.html#channels
+Effective Go's discussion of channels: https://golang.org/doc/effective_go.html#channels
