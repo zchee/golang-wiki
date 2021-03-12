@@ -144,7 +144,7 @@ gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/bin/go test math/big
 
 ## About Buildlets
 
-http://farmer.golang.org/builders lists information about how each buildlet is deployed and configured.
+https://farmer.golang.org/builders lists information about how each buildlet is deployed and configured.
 The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 
