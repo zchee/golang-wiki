@@ -70,3 +70,13 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 * 2018-09-18 - [Meeting notes](https://docs.google.com/document/d/1G7bEKWeFRjd9rPCkBJooC76CCb0Jiem5F_Q48C1zecQ/edit) - [video](https://www.youtube.com/watch?v=xrEtakZ7oWc&feature=youtu.be)
 * 2018-08-28 - [Notes from GopherCon "kick off" session](https://docs.google.com/document/d/1lB49VLzDrRd3wbXP1uLf-bHQyJRmH_Dc36JeEBlK-1Q/edit)
 
+### Organizing a call
+
+We try to share the load of organizing and running a call between Gophers inside and outside of Google (generally alternating between Googlers and non-Googlers). Here are the steps required as organizer:
+
+1. Using a non-google.com account with access to our [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), create a folder for the next monthly call, and a put a copy of the previous call's agenda in it. If using a @google.com account, you won't be able to make the agenda editable by anyone with the link, so Googlers might have to ask someone else to do this step (or use an external account with appropriate permissions).
+2. Rename and clear out the agenda for the next call.
+3. Update this wiki, archiving the previous call and linking the new upcoming call.
+4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:30-17:30 UTC.
+5. Send reminders 1-2 weeks before the call date to the [mailing list](https://groups.google.com/forum/#!forum/golang-tools) and #tools slack channel.
+6. On the day of the call, remember to ask a Googler to start recording, and then run through the agenda.
