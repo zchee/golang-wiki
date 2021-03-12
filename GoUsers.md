@@ -1074,6 +1074,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [bet365](https://www.bet365.com) - [github](https://github.com/bet365)
   * [Bubble Student](https://www.bubblestudent.co.uk)
   * [Bud](https://thisisbud.com/)
+  * [comnoco](https://comnoco.io)
   * [Countingup](https://countingup.com) - [github](https://github.com/countingup)
   * [Cytora](https://www.cytora.com) - [github](https://github.com/cytora)
   * [Deliveroo](https://www.deliveroo.co.uk) - [github](https://github.com/deliveroo/)
