@@ -36,6 +36,7 @@ Table of Contents
 
 ## General
 
+  * [Darker Corners of Go](https://rytisbiel.com/2021/03/06/darker-corners-of-go/) _2021-03-13_
   * [Here are some amazing advantages of Go that you don’t hear much about](https://www.freecodecamp.org/news/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a/) _2018-02-01_
   * [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff) _2017-11-23_
   * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-11-09_
