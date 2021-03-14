@@ -1567,4 +1567,4 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 See also [Success Stories](SuccessStories)
 
-See also [Wikipedia category](https://en.wikipedia.org/wiki/Category:Free_software_programmed_in_Go) and [Wikidata](https://query.wikidata.org/#SELECT%20DISTINCT%20%3Finstance_of%20%3Finstance_ofLabel%20%3Finstance_ofDescription%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%0A%20%20OPTIONAL%20%7B%20%20%7D%0A%20%20%3Finstance_of%20wdt%3AP277%20wd%3AQ37227.%0A%7D)
+See also [Wikipedia category](https://en.wikipedia.org/wiki/Category:Free_software_programmed_in_Go) and [Wikidata](https://query.wikidata.org/#SELECT%20DISTINCT%20%3Finstance_of%20%3Finstance_ofLabel%20%3Finstance_ofDescription%20%3Fofficial_website%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Finstance_of%20wdt%3AP856%20%3Fofficial_website%20%7D%0A%20%20%3Finstance_of%20wdt%3AP277%20wd%3AQ37227.%0A%7D)
