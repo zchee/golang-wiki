@@ -703,7 +703,7 @@ Support for modules is starting to land in editors and IDEs.
 
 For example: 
 * **GoLand**: currently has full support for modules outside and inside GOPATH, including completion, syntax analysis, refactoring, navigation as described [here](https://blog.jetbrains.com/go/2018/08/24/goland-2018-2-2-is-here/).
-* **VS Code**: work is in progress and looking for contributors to help. Tracking issue is [#1532](https://github.com/Microsoft/vscode-go/issues/1532). An initial beta is described in the [VS Code module status wiki page](https://github.com/Microsoft/vscode-go/wiki/Go-modules-support-in-Visual-Studio-Code).
+* **VS Code**: work is complete, MS recommending modules over GOPATH, the former tracking issue ([#1532](https://github.com/Microsoft/vscode-go/issues/1532)) has been closed. Documentation is available in the [VS Code module repository](https://github.com/golang/vscode-go).
 * **Atom with go-plus**: tracking issue is [#761](https://github.com/joefitzgerald/go-plus/issues/761).
 * **vim with vim-go**: initial support for syntax highlighting and formatting `go.mod` has [landed](https://github.com/fatih/vim-go/pull/1931). Broader support tracked in [#1906](https://github.com/fatih/vim-go/issues/1906).
 * **emacs with go-mode.el**: tracking issue in [#237](https://github.com/dominikh/go-mode.el/issues/237).
