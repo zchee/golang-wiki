@@ -71,6 +71,6 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [jasper的技术小窝](http://www.opscoder.info)
 * [三月沙](https://sanyuesha.com/)
 * [大桥下的蜗牛](https://blog.lab99.org/)
-* [煎鱼的迷之博客](https://github.com/EDDYCJY/blog)
+* [煎鱼的迷之博客](https://eddycjy.com/posts/)
 * [Stefno - 博客园](https://www.cnblogs.com/qcrao-2018/)
 * [No Headback](http://xargin.com/)
