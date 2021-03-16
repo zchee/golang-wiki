@@ -44,7 +44,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 * [BeeGo Framework](http://beego.me/)
 * [Frodo](https://github.com/kn9ts/frodo) - Go mini web framework inspired by Laravel(php), Slim(php) and ExpressJS(node.js)
-* [GinGonic](https://gin-gonic.github.io/gin/)
+* [GinGonic](https://gin-gonic.com/)
 * [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
 * [Revel Web Framework](https://revel.github.io/)
 * [Ringo](https://github.com/jjyr/ringo) - Lightweight MVC web framework inspired by Rails, Gin.
