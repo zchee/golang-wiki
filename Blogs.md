@@ -74,3 +74,4 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [煎鱼的迷之博客](https://eddycjy.com/posts/)
 * [Stefno - 博客园](https://www.cnblogs.com/qcrao-2018/)
 * [No Headback](http://xargin.com/)
+* [Go 语言基础](https://github.com/weirubo/learn_go)
