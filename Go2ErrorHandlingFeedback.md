@@ -167,6 +167,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 ## Error handling with normal functions
 
+- Azamat Kalberdiev, “[Handling every error with intuitive code](https://gist.github.com/Azamat28/5b2c6f66fc4927a002a2d60044aa9231)”, March 2021
+
 - Andrew Phillips, “[Use closures rather than handlers](http://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html)”, October 2018
 
  - Taihei Morikuni, "[Use functions as an error handler, Add syntactic sugar to remove duplicated if statement](https://gist.github.com/morikuni/bbe4b2b0384507b42e6a79d4eca5fc61)", September 2018
