@@ -33,7 +33,7 @@ See the [Go 1.14 release notes](https://golang.org/doc/go1.14#go-command) for de
 See the [Go 1.13 release notes](https://golang.org/doc/go1.13#modules) for details.
 
 * The `go` tool now defaults to downloading modules from the public Go module mirror at https://proxy.golang.org, and also defaults to validating downloaded modules (regardless of source) against the public Go checksum database at https://sum.golang.org.
-     * If you have private code, you most likely should configure the `GOPRIVATE` setting (such as `go env -w GOPRIVATE=*.corp.com,github.com/secret/repo`), or the more fine-grained variants `GONOPROXY` or `GONOSUMDB` that support less frequent use cases. See the [documentation](https://golang.org/cmd/go/#hdr-Module_configuration_for_non_public_modules) for more details.
+     * If you have private code, you most likely should configure the `GOPRIVATE` setting (such as `go env -w GOPRIVATE=*.corp.com,github.com/secret/repo`), or the more fine-grained variants `GONOPROXY` or `GONOSUMDB` that support less frequent use cases. See the [documentation](https://golang.org/ref/mod#private-module-privacy) for more details.
 * `GO111MODULE=auto` enables module-mode if any go.mod is found, even inside GOPATH. (Prior to Go 1.13, `GO111MODULE=auto` would never enable module-mode inside GOPATH).
 * `go get` arguments have changed:
      * `go get -u` (without any arguments) now only upgrades the direct and indirect dependencies of your current _package_, and no longer examines your entire _module_.
