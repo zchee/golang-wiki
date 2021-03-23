@@ -77,6 +77,7 @@
   * [Beauty Date](http://www.beautydate.com.br)
   * [Bemobi](https://www.bemobi.com.br) - [linkedin](https://www.linkedin.com/in/michel-bernardo/)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
+  * [Bexs](https://www.bexs.com.br/) - an forex Bank
   * [BoaCompra](http://www.boacompra.com)
   * [Catho](http://www.catho.com.br) - [github](https://github.com/catho)
   * [CloudWalk](https://www.cloudwalk.io) - [github](https://github.com/cloudwalkio) - an open payment platform
