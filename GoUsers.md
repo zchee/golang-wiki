@@ -754,6 +754,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Segundamano](https://www.segundamano.mx/)
   * [Entropy](https://entropy.tech) - Ecommerce Marketing Optimization Platform.
   * [Credijusto](https://engineering.credijusto.com/) - Financial Services
+  * [Tredicom](https://www.tredicom.com/) - B2B, EDI & Ecommerce Services
 
 ## Middle-East
   * [ThoughtBox Technologies](https://www.thoughtbox.io/) - A FinTech Solution Provider
