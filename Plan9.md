@@ -138,7 +138,7 @@ You'll be able to use this binary package of Go to bootstrap Go, by setting the 
 GOROOT_BOOTSTRAP=/tmp/gobootstrap-plan9-386
 ```
 
-Other [binary packages](http://9legacy.org/download.html) are available.
+Other binary packages are available [here](http://9legacy.org/download.html) and [here](https://github.com/fhs/go-plan9-binaries).
 
 # Git
 
