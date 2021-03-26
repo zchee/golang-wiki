@@ -645,6 +645,7 @@
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
   * [GameWith, Inc.](https://gamewith.co.jp/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
+  * [Graffer, Inc.](https://graffer.jp/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
   * [Gurunavi, Inc.](https://gurunavi.com/)
