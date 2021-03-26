@@ -727,6 +727,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Voicy, Inc.](https://corp.voicy.jp/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [VRize, Inc.](https://vrize.io/)
+  * [WACUL, Inc.](https://wacul.co.jp/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [XSHELL](https://xshell.io)
