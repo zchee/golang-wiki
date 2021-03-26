@@ -714,6 +714,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Rakuten Inc.](https://rakuten.careers/) - Largest e-commerce, online bank, and credit card (by transaction value) company in Japan with many smaller online services and subsidiaries.
   * [READYFOR INC.](https://corp.readyfor.jp/)
   * [Repro Inc.](https://repro.io/)
+  * [Retty Inc.](https://corp.retty.me)
   * [redish Inc.](https://www.redish.jp) - Message delivery service on AWS Lambda
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
