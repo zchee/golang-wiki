@@ -613,6 +613,7 @@
   * [Axsh, Co.](https://axsh.jp/)
     * [LiquidMetal](https://www.liquidmetal.io/) is a web service and a hardware appliance that together bring continuous automated testing to network system operation.
   * [BASE BANK, Inc.](https://basebank.jp/)
+  * [Belong Inc.](https://about.belong.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [Clover Lab.,inc.](https://cloverlab.jp/)
