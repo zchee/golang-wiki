@@ -651,6 +651,7 @@
   * [hey, Inc.](https://hey.jp/)
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Howtelevision, Inc.](https://howtelevision.co.jp/)
+  * [HRBrain, Inc.](https://www.hrbrain.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
   * [istyle Inc.](http://www.istyle.co.jp/)
   * [JapanTaxi Co.,Ltd.](https://japantaxi.co.jp/)
