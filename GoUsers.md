@@ -691,6 +691,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Money Forward, Inc.](https://corp.moneyforward.com/)
   * [MF KESSAI, Inc.](https://corp.mfkessai.co.jp/)
   * [Nagisa Inc.](https://nagisa-inc.jp/)
+  * [neuet, Inc.](https://neuet.com/)
   * [Next Currency Inc.](https://n-currency.com/)
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
