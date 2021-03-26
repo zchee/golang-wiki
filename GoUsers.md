@@ -716,7 +716,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [KitS](http://kdkits.jp/)
       * [Artpop!](http://kdkits.jp/materials/)
   * [SmartShopping, Inc.](https://smartshopping.co.jp/)
-  * [SODA inc.](https://soda-inc.jp/)
+  * [SODA inc.](https://soda-inc.jp/) - SNKRDUNK is a Japan’s No.1 Sneaker & Streetwear C2C Marketplace.
   * [Speee, Inc.](https://speee.jp/)
   * [SYN, Inc.](https://syn-inc.com/)
       * [Chompy](https://chompy.jp/)
