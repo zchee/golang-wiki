@@ -687,6 +687,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [imageflux-cli](https://github.com/mercari/imageflux-cli) - Imageflux Client written in Go.
   * [Merpay, Inc.](https://merpay.com/)
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
+  * [Mirrativ, Inc.](https://www.mirrativ.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Mokelab](https://mokelab.com) - [github](https://github.com/mokelab-go/)
   * [Momentum Inc.](https://www.m0mentum.co.jp/)
