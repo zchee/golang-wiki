@@ -625,6 +625,7 @@
   * [DeNA Co.,Ltd.](https://dena.com)
   * [D.A.Consortium Inc.](https://www.dac.co.jp/)
   * [DIP Corporation.](https://www.dip-net.co.jp)
+  * [D2C Inc.](https://www.d2c.co.jp/)
   * [enish,Inc.](https://www.enish.jp/)
   * [eureka](https://eure.jp)
   * [feedtailor](https://www.feedtailor.jp/)
