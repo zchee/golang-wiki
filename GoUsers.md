@@ -714,6 +714,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
       * [KitS](http://kdkits.jp/)
       * [Artpop!](http://kdkits.jp/materials/)
+  * [SODA inc.](https://soda-inc.jp/)
   * [Speee, Inc.](https://speee.jp/)
   * [SYN, Inc.](https://syn-inc.com/)
       * [Chompy](https://chompy.jp/)
