@@ -701,6 +701,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [pixiv Inc.](https://www.pixiv.co.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
+  * [Quipper](https://www.quipper.com)
   * [Rakuten Inc.](https://rakuten.careers/) - Largest e-commerce, online bank, and credit card (by transaction value) company in Japan with many smaller online services and subsidiaries.
   * [READYFOR INC.](https://corp.readyfor.jp/)
   * [Repro Inc.](https://repro.io/)
