@@ -663,6 +663,7 @@
   * [KLab Inc.](http://www.klab.com/jp/english/)
   * [KRPEO](https://rikitake.jp/)
   * [Kyash Inc](https://kyash.co/en/)
+  * [LayerX, Inc](https://layerx.co.jp/)
   * [Link-U Inc.](https://www.link-u.co.jp/)
   * [LINE](https://linecorp.com/)
   * [Liquid Inc.](https://liquidinc.asia/)
