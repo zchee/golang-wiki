@@ -674,6 +674,7 @@
   * [Livesense Inc.](https://livesense.co.jp/) - [github](https://github.com/livesense-inc)
   * [LOB, Inc.](https://www.lob-inc.com/) - [github](https://github.com/lob-inc)
   * [M3](https://corporate.m3.com/)
+  * [Makuake, Inc.](https://www.makuake.co.jp/)
   * [mediba](http://www.mediba.jp/)
   * [Mercari, Inc.](https://about.mercari.com/)
       * [gaurun](https://github.com/mercari/gaurun) - Gaurun is the general push notification server in Go.
