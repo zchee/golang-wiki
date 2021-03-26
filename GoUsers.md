@@ -638,6 +638,7 @@
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
   * [Fuller, Inc.](https://fuller-inc.com/)
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
+  * [GameWith, Inc.](https://gamewith.co.jp/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
