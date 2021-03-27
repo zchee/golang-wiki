@@ -722,6 +722,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
       * [sakura.io](https://sakura.io/)
+  * [Sharedine](https://www.sharedine.me/)
   * [Showcase Gig Inc.](https://www.showcase-gig.com/)
   * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
       * [KitS](http://kdkits.jp/)
