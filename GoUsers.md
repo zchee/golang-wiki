@@ -498,6 +498,8 @@
   * [Tokopedia](http://tokopedia.com)
   * [Tech in Asia Indonesia](https://id.techinasia.com)
   * [Valutac](https://valutac.com)
+  * [Tugujatim](https://tugujatim.id)
+  * [Tugumalang](https://tugumalang.id)
 
 ## Iraq
   * [eSITE](https://esite-iq.com/)
