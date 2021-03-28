@@ -879,6 +879,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gl](https://github.com/go-gl/gl) - OpenGL bindings using glew
   * [gltf](https://github.com/sturfeeinc/glTF) - library for marshaling and unmarshaling glTF
   * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
+  * [glui](https://github.com/jphsd/glui) - Wrapper for glfw to simplify displaying an image.
   * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
   * [goalsa](https://github.com/cocoonlife/goalsa) - Go bindings for ALSA capture and playback
   * [go-cairo](https://github.com/ungerik/go-cairo) - Go wrapper for the cairo graphics library
