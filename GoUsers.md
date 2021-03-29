@@ -618,6 +618,7 @@
   * [Belong Inc.](https://about.belong.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
+  * [Cloud Ace, Inc.](https://www.cloud-ace.jp/)
   * [Clover Lab.,inc.](https://cloverlab.jp/)
   * [Connehito Inc.](https://connehito.com/)
   * [Cookpad Inc.](https://info.cookpad.com/en)
