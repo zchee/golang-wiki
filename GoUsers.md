@@ -629,6 +629,7 @@
   * [DeNA Co.,Ltd.](https://dena.com)
   * [D.A.Consortium Inc.](https://www.dac.co.jp/)
   * [DIP Corporation.](https://www.dip-net.co.jp)
+  * [Dr.'s Prime, Inc.](https://drsprime.com/company/)
   * [D2C Inc.](https://www.d2c.co.jp/)
   * [enish,Inc.](https://www.enish.jp/)
   * [eureka](https://eure.jp)
