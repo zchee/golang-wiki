@@ -49,7 +49,7 @@ Ready to write some Go code of your own? Here are a few links to help you get st
     - Make sure you have your [$GOPATH environment variable set correctly](https://golang.org/doc/install/source#gopath)
       - If you need additional tips on using [$GOPATH, go here](GOPATH).
     - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
-  - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favourite editor with Go.
+  - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
   - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring, navigation and visualization.
   - Finding Go Libraries and Packages
     - Start here: [Go open source projects](Projects).
