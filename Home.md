@@ -37,7 +37,7 @@ Table of Contents
 
 ##  Working with Go
 
-Ready to write some Go code of your own? Here are a few links to help you  get started.
+Ready to write some Go code of your own? Here are a few links to help you get started.
 
   - Install and Setup your Environment
     - Start here: [Official Installation Documentation](https://golang.org/doc/install)
@@ -49,7 +49,7 @@ Ready to write some Go code of your own? Here are a few links to help you  get s
     - Make sure you have your [$GOPATH environment variable set correctly](https://golang.org/doc/install/source#gopath)
       - If you need additional tips on using [$GOPATH, go here](GOPATH).
     - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
-  - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
+  - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favourite editor with Go.
   - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring, navigation and visualization.
   - Finding Go Libraries and Packages
     - Start here: [Go open source projects](Projects).
@@ -119,7 +119,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
 ## Using the Go Toolchain
 
   - Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
-  - Start here for to learn about [vendoring](https://golang.org/cmd/go/#hdr-Vendor_Directories).
+  - Start here to learn about [vendoring](https://golang.org/cmd/go/#hdr-Vendor_Directories).
   - See also [PackageManagementTools](PackageManagementTools) for package management tools.
   - [Cross Compilation](https://rakyll.org/cross-compilation/)
   - Shared libraries and Go (buildmode)
@@ -199,7 +199,6 @@ If you're looking for services that support Go, here's a list to get you started
     - See here for [information on additional providers](ProviderIntegration)
   - [Continuous Integration and Continuous Deployment](HostedContinuousIntegration) - Go is well supported by most CI/CD frameworks
   - Monitoring/Logging
-    - [DeferPanic](http://deferpanic.com) - Dedicated Go application performance monitoring.
     - [OpsDash](https://www.opsdash.com/) - Go-based cluster monitoring platform.
   - Package and Dependency Management
     - [Gopkg.in](http://labix.org/gopkg.in) is a source for stable Go libraries, provided by Gustavo Niemeyer.
@@ -217,7 +216,7 @@ If you're looking for services that support Go, here's a list to get you started
   - Start by reading the [Go Contribution Guidelines](https://golang.org/doc/contribute.html)
   - If you'd like to propose a change to the Go project, start by reading the [Go Change Proposal Process](https://github.com/golang/proposal)
     -  An archive of [design documents is also available](DesignDocuments)
-  - Go releases happen on ~6 month intervals. [See here for more information](Go-Release-Cycle)
+  - Go releases happen at ~6 month intervals. [See here for more information](Go-Release-Cycle)
   - Want to know more about how the [Go source X-repositories are structured?](X-Repositories)
   - The Go project requires that all code be reviewed before it is submitted.
     - Read more about our [code review practices](CodeReview)
