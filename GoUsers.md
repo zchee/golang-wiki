@@ -614,6 +614,7 @@
   * [Atrae, Inc.](https://atrae.co.jp/)
   * [Axsh, Co.](https://axsh.jp/)
     * [LiquidMetal](https://www.liquidmetal.io/) is a web service and a hardware appliance that together bring continuous automated testing to network system operation.
+  * [Baseconnect, Inc.](https://baseconnect.in/)
   * [BASE BANK, Inc.](https://basebank.jp/)
   * [Belong Inc.](https://about.belong.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
