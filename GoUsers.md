@@ -794,6 +794,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Morocco
   * [Avito](http://www.avito.ma)
 
+## Nepal
+  * [Leapfrog Technology](https://www.lftechnology.com/)
+
 ## Netherlands
   * [Aan Zee](https://www.aanzee.nl)
   * [BloomReach](https://www.bloomreach.com)
