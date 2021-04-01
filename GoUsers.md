@@ -733,6 +733,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [SmartShopping, Inc.](https://smartshopping.co.jp/)
   * [SODA inc.](https://soda-inc.jp/) - [SNKRDUNK](https://snkrdunk.com/) is a Japan’s No.1 Sneaker & Streetwear C2C Marketplace.
   * [Souzoh, Inc.](https://souzoh.com/)
+  * [Spectra, Inc.](https://spectra.tokyo/)
   * [Speee, Inc.](https://speee.jp/)
   * [SYN, Inc.](https://syn-inc.com/)
       * [Chompy](https://chompy.jp/)
