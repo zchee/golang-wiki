@@ -8,6 +8,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 |-------|-----------|----------|------------|
 | GopherCon Russia 2021 Online | 2021-04-23-25 | Online | https://www.gophercon-russia.ru/en <br> CFP: https://forms.gle/4wfpMnUM9CoLdMEj7 |
 | GopherCon Europe | 2021-05-26-28 | Online | https://gophercon.eu/ |
+| GoWest Conference 2021 | 2021-10-23 | Online/ Salt Lake City, Ut USA| https://gowestconf.com CFP: https://www.papercall.io/gowestconf21|
 | GopherCon | tbd 2020 due to COVID-19 | Orlando, FL USA | https://www.gophercon.com/ |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
