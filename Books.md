@@ -378,6 +378,12 @@ Sorted by publication date.
   * ISBN: 9781800563162
   * Reference: https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162
 
+* **Hands-on Go programming
+  * Author: Sachchidanand Singh, Prithvipal Singh
+  * Publication Date: February 2021
+  * ISBN: 9789389898194
+  * Reference: https://bpbonline.com/products/hands-on-go-programming
+
 ***
 ## Early Access
 
