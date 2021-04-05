@@ -24,7 +24,7 @@ For the body (the rest of the description):
 * the Fixes line goes after the body with a blank newline separating the two
 * there is **no** Markdown in the commit message
 * we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
-* when referencing CLs, prefer saying "CL nnn" or using a golang.org/cl/nnn shortlink over a direct Gerrit URL, since that's more future-proof.
+* when referencing CLs, prefer saying "CL nnn" or using a golang.org/cl/nnn shortlink over a direct Gerrit URL or git hash, since that's more future-proof.
 * when moving code between repos, include the CL, repository name, and git hash that it was moved from/to, so it is easier to trace history/blame.
 
 Please _don't_ use alternate GitHub-supported aliases like `Close` or `Resolves` instead of `Fixes`.
