@@ -609,6 +609,7 @@
   * [3-shake, Inc.](https://www.3-shake.com/)
   * [ACALL, Inc.](https://corp.acall.jp/)
   * [and factory, Inc.](https://andfactory.co.jp/)
+  * [ANDPAD Inc.](https://andpad.co.jp/)
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
   * [Atrae, Inc.](https://atrae.co.jp/)
