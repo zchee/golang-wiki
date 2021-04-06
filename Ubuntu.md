@@ -10,6 +10,7 @@ If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, th
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F6BC817356A3D45E
 sudo apt install golang-go
 ```
 
