@@ -23,3 +23,4 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 	3. `x/build/cmd/gerritbot`
 	5. `x/build/app/appengine` 
 	4. `x/website/cmd/golangorg`
+6. You're done.
