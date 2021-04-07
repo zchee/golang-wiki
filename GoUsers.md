@@ -752,7 +752,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
-  * [Yahoo!JAPAN](https://yahoo.co.jp/)
+  * [Yahoo! JAPAN Corporation](https://yahoo.co.jp/)
       * [Vald](https://vald.vdaas.org) - A highly scalable distributed fast approximate nearest neighbor dense vector search engine.
           * [NGTD](https://github.com/yahoojapan/ngtd) - NGTD provides serving function for NGT.
           * [gongt](https://github.com/yahoojapan/gongt) - NGT Go client library
