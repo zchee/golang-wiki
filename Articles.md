@@ -160,6 +160,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
   * [Mutual TLS authentication in Go](http://www.levigross.com/2015/11/21/mutual-tls-authentication-in-go/) _2015-11-21_
   * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _2015-09-19_
+  * [How to fix Japanese keyword hack in wordpress site?](https://secure.wphackedhelp.com/blog/fix-wordpress-japanese-keywords-hack/) by Wp Hacked Help
 
 ## Testing
 
