@@ -752,6 +752,15 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
+  * [Yahoo!JAPAN](https://yahoo.co.jp/)
+      * [Vald](https://vald.vdaas.org) - A highly scalable distributed fast approximate nearest neighbor dense vector search engine.
+          * [NGTD](https://github.com/yahoojapan/ngtd) - NGTD provides serving function for NGT.
+          * [gongt](https://github.com/yahoojapan/gongt) - NGT Go client library
+      * [Athenz](https://www.athenz.io) - Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures
+           * [Garm](https://github.com/yahoojapan/garm) - Kubernetes authorization webhook (SubjectAccessReview API) server for Athenz
+           * [Athenz Authorizer](https://github.com/yahoojapan/athenz-authorizer) - Athenz policy management library for golang
+           * [Athenz Client Sidecar](https://github.com/yahoojapan/athenz-client-sidecar) - An implementation of Kubernetes sidecar container to provide a common interface to retrieve authentication and authorization credential from Athenz server.
+           * [Athenz Authorization Proxy](https://github.com/yahoojapan/authorization-proxy) - An implementation of Kubernetes sidecar container to provide a common interface for API endpoint authentication and authorization. It caches the policies from Athenz, and provides a reverse proxy interface to control access on specific URL endpoints.
   * [Yappli, Inc.](https://yappli.co.jp/)
 
 ## Kazakhstan
