@@ -30,8 +30,14 @@ On macOS, you will need to have
 [Xcode Command Line Tools](https://developer.apple.com/downloads/)
 installed.
 
+When using Go 1.16.x we have to switch the module aware build mode to auto before we can install gomobile by using (this might change in future):
+```
+go env -w GO111MODULE=auto
+```
+Then you can install gomobile tools:
 ```
 $ go get golang.org/x/mobile/cmd/gomobile
+$ gomobile init
 ```
 
 (The following sections will help you how to use the gomobile tool.)
