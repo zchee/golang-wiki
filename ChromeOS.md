@@ -34,7 +34,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, Chrome OS!\n")
+	fmt.Println("Hello, Chrome OS!")
 }
 ```
 Now, run `go install hello`. Then, run `${GOPATH}/bin/hello` (or just `hello` if you setup your GOPATH above) and you should see `Hello, Chrome OS!`.
