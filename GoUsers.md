@@ -126,6 +126,7 @@
   * [Nic.br](http://www.nic.br) - [github](https://github.com/registrobr)
   * [Nuveo](http://nuveo.com.br/) - [github](https://github.com/nuveo)
   * [Olist](https://olist.com/) - [github](https://github.com/olist)
+  * [OLX Brasil](https://olx.com.br/) - [github](https://github.com/olxbr)
   * [Open Vista Global](http://openvistaglobal.com.br)
   * [OPLEN](http://www.oplen.com.br)
   * [Pagar.me](https://pagar.me)
