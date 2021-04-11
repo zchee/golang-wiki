@@ -12,7 +12,7 @@ Since [Go 1.14](https://golang.org/doc/go1.14), module support is considered rea
 
 ### Go 1.16
 
-See the [Go 11.6 release notes](https://golang.org/doc/go1.16#go-command) for details.
+See the [Go 1.16 release notes](https://golang.org/doc/go1.16#go-command) for details.
 
 * Module mode (`GO111MODULE=on`) is the default in all cases
 * Commands no longer modify `go.mod` / `go.sum` by default (`-mod=readonly`)
