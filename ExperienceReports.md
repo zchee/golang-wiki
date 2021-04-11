@@ -74,7 +74,6 @@ Add new sections as appropriate.
 
 ## Dependencies
 
-  - John Doe, "[Forks, import paths, and `go get`](https://gist.github.com/johnAnonDoe/2071b8811300c6c08ac21cc8da9fa4d3)", July 2017.
   - Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
   - Judson Lester, "[untitled gist] (https://gist.github.com/nyarly/edb6b7a5e3a762da6a5e2da8f59acf07)", August 2017.
   - David Collier-Brown, "[Avoiding an NP-Complete Problem by Recycling Multics’ Answer](https://leaflessca.wordpress.com/2018/09/03/avoiding-an-np-complete-problem-by-recycling-multics-answer/)", September 2018.
@@ -194,7 +193,6 @@ a complex solution for the problem.
 
 ## Modules
   - Paul Jolly - "[Creating a submodule within an existing module](https://gist.github.com/myitcv/79c3f12372e13b0cbbdf0411c8c46fd5)" - covers multi-module repos, cyclic module dependencies and the steps required to move between various "states"
-  - Sam Whited -"[Mod file format](https://write.as/7un2fvf4124bm5s0.md)" - complaint about reinventing the serialization format wheel for mod files.
   - Chi authors - [Github comment](https://github.com/go-chi/chi/pull/378#issuecomment-453274681) - comment on why the Chi authors won't implement Go Modules support yet (due to the import compatibility rule).
   - Sam Whited -"[Supporting Go Modules](https://blog.samwhited.com/2019/01/supporting-go-modules/)" - Things learned from upgrading 20 so modules. TL;DR — upgrading large modules past v1 is a huge pain and needs tooling, failure modes for modules are very complex and it's easy to screw up adding modules support to existing projects.
   - Stripe Github thread (linked comment down) - [reverting support for Go Modules](https://github.com/stripe/stripe-go/pull/712#issuecomment-454594534). TL;DR — Stripe is reverting Go Modules support because there is no clear upgrade path from dep for modules above v1.
