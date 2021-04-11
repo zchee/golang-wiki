@@ -10,6 +10,15 @@ Since [Go 1.14](https://golang.org/doc/go1.14), module support is considered rea
 
 ## Recent Changes
 
+### Go 1.16
+
+See the [Go 11.6 release notes](https://golang.org/doc/go1.16#go-command) for details.
+
+* Module mode (`GO111MODULE=on`) is the default in all cases
+* Commands no longer modify `go.mod` / `go.sum` by default (`-mod=readonly`)
+* `go install pkg@version` is the recommended way to globally install packages / executables
+* `retract` is available in `go.mod` 
+
 ### Go 1.15
 
 See the [Go 1.15 release notes](https://golang.org/doc/go1.15#go-command) for details.
