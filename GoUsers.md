@@ -697,6 +697,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [tfnotify](https://github.com/mercari/tfnotify) - A CLI command to parse Terraform execution result and notify it to GitHub.
       * [imageflux-cli](https://github.com/mercari/imageflux-cli) - Imageflux Client written in Go.
   * [Merpay, Inc.](https://merpay.com/)
+  * [MNES, Inc.](https://mnes.life/)
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
   * [Mirrativ, Inc.](https://www.mirrativ.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
