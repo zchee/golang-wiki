@@ -454,6 +454,8 @@
   * [CICIL.CO.ID](https://cicil.co.id)
   * [Codemi Learning Management System](http://codemi.co.id)
   * [DigiAset](http://www.gadgethariini.com)
+  * [Minyak Telon](https://doodle.co.id)
+  * [123 Berita](https://www.123berita.com)
   * [EACIIT](http://eaciit.com)
   * [Gilkor](https://gilkor.com)
   * [GoApotik](https://www.goapotik.com)
