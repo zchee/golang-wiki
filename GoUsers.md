@@ -442,6 +442,7 @@
 
 ## Indonesia
 
+  * [123 Berita](https://www.123berita.com)
   * [Auditsi Executive Recruitment Services](http://auditsi.com)
   * [Amartha](https://amartha.com/id_ID/)
   * [Alphamor](https://alphamor.id)
@@ -454,8 +455,6 @@
   * [CICIL.CO.ID](https://cicil.co.id)
   * [Codemi Learning Management System](http://codemi.co.id)
   * [DigiAset](http://www.gadgethariini.com)
-  * [Minyak Telon](https://doodle.co.id)
-  * [123 Berita](https://www.123berita.com)
   * [EACIIT](http://eaciit.com)
   * [Gilkor](https://gilkor.com)
   * [GoApotik](https://www.goapotik.com)
@@ -465,6 +464,7 @@
   * [Halodoc](https://www.halodoc.com)
   * [HappyFresh Indonesia](https://www.happyfresh.id)
   * [Ice House Corp](https://www.icehousecorp.com)
+  * [Jejak Techno](https://www.jejaktechno.com/)
   * [Kelir.tv](http://kelir.tv)
   * [Koinworks](https://koinworks.com) - P2P Lending Platform.
   * [Korina](http://sewamobilsolo.net)
@@ -480,6 +480,7 @@
   * [Michael Page Indonesia](http://www.michaelpage.co.id)
   * [Midtrans Payment Gateway](http://midtrans.com)
   * [meTube.id](https://www.metube.id)
+  * [Minyak Telon](https://doodle.co.id)
   * [Nodeflux](https://www.nodeflux.io/)
   * [Pinjam Indonesia - FinTech](https://pinjam.co.id)
   * [Pintu Magang - Jobs for Student](http://pintumagang.jktserver.com)
