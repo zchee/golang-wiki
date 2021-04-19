@@ -7,7 +7,7 @@ There are some other options for Debian based systems like Ubuntu. These package
 If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.16.
 
 ```
-sudo apt install software-properties-common
+sudo apt install software-properties-common gpg
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F6BC817356A3D45E
