@@ -7,6 +7,8 @@ concurrency-related bugs when reviewing Go code.
 You may also read through this list just once to refresh your memory and to make sure you are aware
 of all these concurrency gotchas.
 
+> ⚠️ This page is community authored and maintained. It includes information that is disputed and may be misleading or incorrect.
+
 <hr>
 
 Insufficient synchronisation and race conditions
@@ -132,6 +134,9 @@ https://golang.org/pkg/sync/#Map.LoadAndDelete) to fix it.
 another goroutine receives this message. Omitting the capacity in the `make()` call might be just
 a mistake which will limit the scalability of the code, and it's likely unit test won't find such
 a bug.
+
+> ⚠️ **Disputed**. Buffered channels do not inherently increase "scalability" versus unbuffered channels. However, buffered channels can easily obscure deadlocks and other fundamental design errors that would be immediately apparent with unbuffered channels.
+
 
 <a name="rwmutex"></a>
 [#](#rwmutex) Sc.2. Locking with `RWMutex` incurs extra overhead compared to plain `sync.Mutex`,
