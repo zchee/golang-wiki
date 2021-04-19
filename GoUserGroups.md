@@ -8,7 +8,7 @@
   * [Golang Nigeria](https://www.meetup.com/GolangNigeria/) - Lagos, Nigeria
   * [Gophers Mauritius](https://www.gophers.mu/) - Mauritius
   * [cyberstorm.mu](https://cyberstorm.mu/) - Mauritius
-  * [Gophers Tunisia](https://www.facebook.com/groups/557154475675722) - Tunisia
+  * [Tunisian Gophers](https://www.facebook.com/groups/557154475675722) - Tunisia
 
 
 # Asia
