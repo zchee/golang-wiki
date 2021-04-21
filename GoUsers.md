@@ -852,6 +852,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Spalk](http://spalk.co)
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/)
   * [Aeroqual](https://www.aeroqual.com/)
+  * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
 
 ## Norway
   * [Aller media](https://www.aller.no/)
