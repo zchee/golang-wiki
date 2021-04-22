@@ -17,11 +17,11 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 	- Create "cla: yes" and "cla: no" labels, they need to exist so that [@googlebot](https://github.com/googlebot) can automatically apply them. (Without a "cla: yes" label, PRs won't be imported into Gerrit.)
 3. Modify the `x/build/repos` package.
 4. Update x/website's version of x/build to include modified `x/build/repos` package.
-5. Redeploy all affected commands: (the order shouldn't matter)
+5. Redeploy all affected commands (or ask an x/build [owner](https://dev.golang.org/owners) to deploy if you're not; the order shouldn't matter):
 	1. `x/build/cmd/gitmirror`
 	2. `x/build/maintner/maintnerd`
 		- Note that it's expected for the new repo not to appear in maintner until first issue or PR is created (see [#25744](https://golang.org/issue/25744)).
 	3. `x/build/cmd/gerritbot`
-	5. `x/build/app/appengine` 
-	4. `x/website/cmd/golangorg`
+	4. `x/build/app/appengine` 
+	5. `x/website/cmd/golangorg`
 6. You're done.
