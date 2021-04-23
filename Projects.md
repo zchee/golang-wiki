@@ -151,7 +151,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [memcache](https://github.com/smallfish/memcache) - go memcached client, forked from YouTube Vitess
   * [rend](https://github.com/Netflix/rend) - A memcached proxy that manages data chunking and L1/L2 caches
   * [YBC bindings](https://github.com/valyala/ybc/tree/master/bindings/go/ybc) - Bindings for YBC library providing API for fast in-process blob cache
-
+  * [g2cache](https://github.com/kelvins-io/g2cache) -A coordinated local and external two-level caching scheme
 ## Cloud Computing
 
   * [aws-sdk-go](https://github.com/aws/aws-sdk-go) - AWS SDK for the Go programming language.
