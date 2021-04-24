@@ -6,6 +6,7 @@
   * [Joburg Golang Group](http://www.meetup.com/Joburg-Golang-Group/) - Johannesburg
   * [angolang](https://plus.google.com/u/0/b/112645881964422842789/communities/111727796450195570970) Luanda, Angola
   * [Golang Nigeria](https://www.meetup.com/GolangNigeria/) - Lagos, Nigeria
+  * [Golang Abuja](https://www.meetup.com/golang-abuja/) - Abuja, Nigeria
   * [Gophers Mauritius](https://www.gophers.mu/) - Mauritius
   * [cyberstorm.mu](https://cyberstorm.mu/) - Mauritius
   * [Tunisian Gophers](https://www.facebook.com/TunisiaGolangcommunity/) - Tunisia
