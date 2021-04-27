@@ -1997,3 +1997,4 @@ The following entries have not been filed. Please help by putting these in relev
   * [spellabc](https://github.com/elasticdog/spellabc) - Package spellabc implements spelling alphabet code word encoding.
   * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
+  * [al-Go-rithms](https://github.com/addy1997/al-Go-rithms) - Collection of algorithms on arrays, runes, strings for reference purpose.
