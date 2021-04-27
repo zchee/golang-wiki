@@ -29,6 +29,7 @@ $ sudo apt install golang-1.11-go
 Using [snaps](https://snapcraft.io/go) also works quite well:
 
 ```
+$ sudo apt-get install snapd
 $ sudo snap install --classic go
 ```
 > A restart may or may not be required for the command to be recognized depending on your system.
