@@ -4,7 +4,7 @@ Read [this article](https://blog.golang.org/gopher) and watch [The Go Gopher A C
 
 ## Where can I find more gopher illustrations?
 
-* [gophers in the Go repository](https://github.com/golang/go/tree/master/doc/gopher)
+* [gophers in the Go repository](https://github.com/golang/go/tree/go1.15/doc/gopher)
 * [gopher vector](https://github.com/golang-samples/gopher-vector)
 * [gopher 3d](https://github.com/golang-samples/gopher-3d)
 * [golang graphics](https://github.com/mholt/golang-graphics)
