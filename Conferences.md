@@ -6,7 +6,6 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GopherCon Russia 2021 Online | 2021-04-23-25 | Online | https://www.gophercon-russia.ru/en <br> CFP: https://forms.gle/4wfpMnUM9CoLdMEj7 |
 | O'Reilly OSS Superstream: Go | 2021-04-29 | Online | [website](https://learning.oreilly.com/attend/open-source-software-superstream-series-gogenerics-extensibility-and-the-future-of-go-in-open-source-programming/0636920053215/0636920053214)|
 | GopherCon Europe | 2021-05-26-28 | Online | https://gophercon.eu |
 | GoWest Conference 2021 | 2021-10-23 | Online/ Salt Lake City, Ut USA| https://gowestconf.com CFP: https://www.papercall.io/gowestconf21|
@@ -18,6 +17,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon Russia 2021 Online | 2021-04-23-25 | Online | https://www.gophercon-russia.ru/en |
 | GopherCon Singapore 2020 | tbd due to COVID-19 | Singapore | https://2020.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2020 |
 | GopherConIndia 2020 | tbd due to COVID-19 | Goa, India | https://gopherconindia.com/ <br> CFP: https://www.papercall.io/gci20 |
 | All Systems Go | 2020-12-03 | Online | https://allsystemsgo.space
