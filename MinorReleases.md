@@ -53,17 +53,18 @@ The Go standard library includes some generated files whose source of truth is o
 
 1. In the golang.org/x repository, cherry-pick the fix from the `master` branch to the `internal-branch.go1.x-vendor` branch.
 
-   The commit message should include "Updates golang/go#nnn" to mention the backport issue.
+    The commit message should include "Updates golang/go#nnn" to mention the backport issue.
 
 2. In the main repository on the `release-branch.go1.x` branch, create a CL that pulls in the fix from the golang.org/x internal branch:
 
-   ```
-   go get -d golang.org/x/repo@internal-branch.go1.x-vendor
-   go mod tidy
-   go mod vendor
-   ```
+    ```
+    go get -d golang.org/x/repo@internal-branch.go1.x-vendor
+    go mod tidy
+    go mod vendor
+    go generate -run=bundle std  # If a bundled package needs regeneration.
+    ```
 
-   The commit message should include "Fixes #nnn" to close the backport issue.
+    The commit message should include "Fixes #nnn" to close the backport issue.
 
 (As of Go 1.16, the golang.org/x branch name is always `internal-branch.go1.x-vendor`. In Go 1.15, the name of the golang.org/x branch is `release-branch.go1.x` or `release-branch.go1.x-bundle` in [special cases](https://golang.org/cl/305489).)
 
