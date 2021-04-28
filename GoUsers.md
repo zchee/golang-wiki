@@ -535,7 +535,7 @@
   * [EXADS](http://exads.com/)
   * [Intercom](http://intercom.io/)
   * [Teamwork](http://teamwork.com/) - [blog](http://engineroom.teamwork.com/our-future-stack-or-why-we-love-knockout-coffeescript-redis-and-go/)
-  * [Nitro](https://gonitro.com)
+  * [Nitro](https://gonitro.com) - We make document productivity easy, powerful, affordable, and available to all.
  
 ## Israel
   * [353Solutions](http://353solutions.com) 
