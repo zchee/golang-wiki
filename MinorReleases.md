@@ -47,6 +47,26 @@ Gerrit is configured to only allow release managers to submit to release branche
 
 At this time, it's not possible to make a cherry-pick CL by sending a [[Pull Request|GerritBot]]. Only Gerrit is supported. See [golang.org/issue/30037](https://golang.org/issue/30037).
 
+### Cherry-pick CLs for vendored golang.org/x packages
+
+The Go standard library includes some generated files whose source of truth is outside the main repository, in golang.org/x repositories. For example, a copy of the `golang.org/x/sys/unix` package is [vendored](https://go.googlesource.com/go/+/go1.16/src/cmd/vendor/modules.txt#45) into the Go tree, and a copy of the `golang.org/x/net/http2` package is [bundled](https://go.googlesource.com/go/+/go1.16/src/net/http/http.go#5). That means a fix to a golang.org/x package that needs to be backported to a Go release will need two corresponding CLs:
+
+1. In the golang.org/x repository, cherry-pick the fix from the `master` branch to the `internal-branch.go1.x-vendor` branch.
+
+   The commit message should include "Updates golang/go#nnn" to mention the backport issue.
+
+2. In the main repository on the `release-branch.go1.x` branch, create a CL that pulls in the fix from the golang.org/x internal branch:
+
+   ```
+   go get -d golang.org/x/repo@internal-branch.go1.x-vendor
+   go mod tidy
+   go mod vendor
+   ```
+
+   The commit message should include "Fixes #nnn" to close the backport issue.
+
+(As of Go 1.16, the golang.org/x branch name is always `internal-branch.go1.x-vendor`. In Go 1.15, the name of the golang.org/x branch is `release-branch.go1.x` or `release-branch.go1.x-bundle` in [special cases](https://golang.org/cl/305489).)
+
 ## Security releases
 
 Security releases preempt the next minor release and need to ship only the security fix.
