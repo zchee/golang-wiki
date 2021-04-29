@@ -879,7 +879,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gl](https://github.com/go-gl/gl) - OpenGL bindings using glew
   * [gltf](https://github.com/sturfeeinc/glTF) - library for marshaling and unmarshaling glTF
   * [glu](https://github.com/go-gl/glu) - bindings to the OpenGL Utility Library
-  * [glui](https://github.com/jphsd/glui) - Wrapper for glfw to simplify displaying an image.
+  * [glui](https://github.com/jphsd/glui) - Wrapper for glfw to simplify displaying an image
   * [gmask](https://github.com/fggp/gmask) - Go adaptation of the Cmask utility for Csound
   * [goalsa](https://github.com/cocoonlife/goalsa) - Go bindings for ALSA capture and playback
   * [go-cairo](https://github.com/ungerik/go-cairo) - Go wrapper for the cairo graphics library
@@ -912,6 +912,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-vlc](https://github.com/jteeuwen/go-vlc) - Go bindings for libVLC
   * [go.wde](https://github.com/skelterjohn/go.wde) - A windowing/drawing/event interface
   * [goxscr](http://goxscr.googlecode.com) - Go rewrites of xscreensaver ports
+  * [graphics2d](https://github.com/jphsd/graphics2d) - Path and path transform based 2D graphics package
   * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer
   * [gumble](https://github.com/layeh/gumble) - Client library for the [Mumble](http://mumble.info) VoIP protocol
   * [hgui](https://github.com/zozor/hgui) - Gui toolkit based on http and gtk-webkit.
