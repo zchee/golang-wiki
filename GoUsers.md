@@ -703,6 +703,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Merpay, Inc.](https://merpay.com/)
   * [MNES, Inc.](https://mnes.life/)
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
+  * [Minna Bank, Ltd.](https://www.minna-no-ginko.com/)
   * [Mirrativ, Inc.](https://www.mirrativ.co.jp/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Mokelab](https://mokelab.com) - [github](https://github.com/mokelab-go/)
