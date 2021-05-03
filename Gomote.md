@@ -150,7 +150,7 @@ The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 ## Access token
 
-**Note that as of May 2021, new access tokens are not being created except for Go team members. We apologize for any trouble this causes.**
+**Note that as of May 2021, new gomote accounts are on hold while new infrastructure is built.**
 
 To get an access token, file an issue with the `access:` prefix and cc `@golang/release-team`, asking them to provide you with the hash reported by running <code><a href="https://golang.org/x/build/cmd/genbuilderkey">genbuilderkey</a> user-$USER</code>, where `$USER` is your computer's username (as reported by `echo $USER`, or `echo $USERNAME` on Windows). Write the resulting token to the gomote config file, as in this hypothetical example:
 
