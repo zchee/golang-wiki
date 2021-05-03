@@ -50,6 +50,8 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
 Code changed to use the existing proposal.
 
+- Daniel Milde, "[Use check-handle draft syntax in gdu](https://github.com/dundee/gdu/pull/51)", May 2021
+
 - Mateusz Czapliński, "[Converting a fragment of real code with error handling to Go 2 'design draft'](https://gist.github.com/akavel/62d90bdc43088574c638eb3b16301a92)", August 2018
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
