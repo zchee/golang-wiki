@@ -197,6 +197,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ## Command-line Tools
 
+  * [amqp-message-remover](https://github.com/nazar256/amqp-message-remover) - Removes unwanted messages by regexp pattern from AMQP queue
   * [Arduino-cli](https://github.com/arduino/arduino-cli) - Arduino CLI is an all-in-one solution that provides builder, boards/library manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
   * [awless](https://github.com/wallix/awless) - A Mighty command-line interface for Amazon Web Services (AWS).
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
@@ -213,6 +214,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gister](https://github.com/dutchcoders/gister) - Manage your github gists from the command-line
   * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git
   * [gmail2go](https://github.com/rif/gmail2go) - Simple gmail multiple accounts cli mail checker
+  * [go-amqp-sniffer](https://github.com/nazar256/go-amqp-sniffer) - Listens from AMQP exchange and streams messages to standard output in mongoimport compatible JSON
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
   * [godocdoc](https://github.com/kevinburke/godocdoc) - Start godoc and open it in your browser to the project in the current directory.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
@@ -383,6 +385,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gostatsd](https://github.com/kisielk/gostatsd) - Statsd server and library.
   * [Heka](https://github.com/mozilla-services/heka) - Real time data and log file processing engine.
   * [Kapacitor](https://github.com/influxdb/kapacitor) - Framework for processing, monitoring and alerting on timeseries data.
+  * [parapipe](https://github.com/nazar256/parapipe) - FIFO Pipeline which parallels execution on each stage while maintaining the order of messages and results
   * [pipe](https://github.com/lennon-guan/pipe) - Several functional programming supporting in golang (Map/Reduce/Filter)
   * [proto](https://github.com/eblume/proto) - Map/Reduce/Filter etc. for Go using channels as result streams.
   * [ratchet](https://github.com/dailyburn/ratchet) - A library for performing data pipeline / ETL tasks in Go.
