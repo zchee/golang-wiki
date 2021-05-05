@@ -948,6 +948,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [2GIS](http://info.2gis.com/)
 * [Acronis](http://acronis.com)
 * [avito.ru](http://avito.ru/)
+* [citilink.ru](https://www.citilink.ru/)
 * [Gett](http://gett.com/)
 * [ITooLabs](http://itoolabs.com)
 * [Izvestia](https://iz.ru)
