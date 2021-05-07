@@ -1019,6 +1019,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Mybudget](https://www.mybudget.com.au/) - Financial Health Management System
   * [Moneta](https://www.moneta.lk/) - Sri Lankans' Best Lifestyle App
   * [TryFix](https://github.com/tryfix) - Go Platform Developers
+  * [Circles.Life](https://www.circles.life/) - Building Telecommunication Provider Platform Running in Singapore
 
 ## Sweden
   * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
