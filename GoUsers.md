@@ -1150,6 +1150,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Micro](https://micro.mu/) - [github](https://github.com/micro)
   * [Monzo](https://monzo.com/) - [github](https://github.com/monzo), [blog](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
   * [New Bamboo](http://www.new-bamboo.co.uk) - [blog](http://blog.new-bamboo.co.uk/2013/09/17/micro-network-daemons-in-go)
+  * [News UK](https://www.news.co.uk)
   * [oyato cloud](https://oyatocloud.com) - [github](https://github.com/oyato)
   * [Paymentsense](https://www.paymentsense.com) - Data team
   * [Pusher](https://pusher.com) - [github](https://github.com/pusher) [blog](https://blog.pusher.com)
@@ -1426,6 +1427,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Netflix](http://www.netflix.com) - [github](https://github.com/Netflix/rend), [blog](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)
   * [New Relic](http://newrelic.com/) - [HN](https://news.ycombinator.com/item?id=10661031)
   * [New York Times](http://nyt.com/) - [source](http://open.blogs.nytimes.com/2014/07/10/emr-streaming-in-go/?_php=true&_type=blogs&_r=0)
+  * [News Corp](https://newscorp.com/)
   * [Newspaper](http://www.newspaper.io/) - [source](https://angel.co/newspaperio)
   * [Nextdoor](http://www.nextdoor.com) - [source](https://engblog.nextdoor.com/what-is-the-technology-behind-nextdoor-5b74b3efcc31)
   * [Next Jump](https://www.nextjump.com) - Next Jump the company that manages the perks platform [Perks at Work](https://www.perksatwork.com) uses Go in it's backend. 
