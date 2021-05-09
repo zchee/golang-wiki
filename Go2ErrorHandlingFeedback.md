@@ -152,6 +152,8 @@ Concepts that appear repeatedly among the suggestions below.
 
  - Franz, Implement error handling like an invariant check of a variable. when the value changes, a function is called. this can then be used in other situations too. 
 
+- Brandon Heenan, "[Concise, with more obvious control flow](https://github.com/bmheenan/goerr/blob/main/README.md)", May 2021
+
 ## Remove handler chaining
 
 - Markus Heukelom, "[proposal: Improve error handing using `guard` and `must` keywords](https://github.com/golang/go/issues/31442)", April 2019
