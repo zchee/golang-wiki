@@ -7,11 +7,9 @@ There are some other options for Debian based systems like Ubuntu. These package
 If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.16.
 
 ```
-sudo apt-get install software-properties-common gpg
-sudo add-apt-repository ppa:longsleep/golang-backports
-sudo apt-get update
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 52B59B1571A79DBC054901C0F6BC817356A3D45E
-sudo apt-get install golang-go
+$ sudo add-apt-repository ppa:longsleep/golang-backports
+$ sudo apt update
+$ sudo apt install golang-go
 ```
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.16` instead and use the binaries from `/usr/lib/go-1.16/bin`.**
@@ -29,7 +27,6 @@ $ sudo apt install golang-1.11-go
 Using [snaps](https://snapcraft.io/go) also works quite well:
 
 ```
-$ sudo apt-get install snapd
 $ sudo snap install --classic go
 ```
 > A restart may or may not be required for the command to be recognized depending on your system.
