@@ -17,6 +17,11 @@ copy(b, a)
 // elements to be appended to b after copying.
 b = append([]T(nil), a...)
 b = append(a[:0:0], a...)
+
+// This one-line implementation is equivalent to the above
+// tow-line make+copy implementation. But it is actually
+// a bit slower (as of Go toolchain v1.16).
+b = append(make([]T, 0, len(a)), a...)
 ```
 
 #### Cut
