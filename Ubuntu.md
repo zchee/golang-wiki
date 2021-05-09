@@ -4,7 +4,7 @@
 
 There are some other options for Debian based systems like Ubuntu. These packages were not created by the Go project, and we don't support them, but they may be useful for you.
 
-If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64, armhf or i386, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.16.
+If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64 or armhf, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.16.
 
 ```
 $ sudo add-apt-repository ppa:longsleep/golang-backports
@@ -34,6 +34,6 @@ $ sudo snap install --classic go
 Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-concept command-line installer for Go):
 
 ```
-curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
+$ curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
 ```
 > Getgo will install the Go distribution (tools & stdlib) to "/.go" inside your home directory.
