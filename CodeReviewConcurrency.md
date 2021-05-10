@@ -137,7 +137,7 @@ another goroutine receives this message. Omitting the capacity in the `make()` c
 a mistake which will limit the scalability of the code, and it's likely unit test won't find such
 a bug.
 
-> ⚠️ **Disputed**. Buffered channels do not inherently increase "scalability" versus unbuffered channels. However, buffered channels can easily obscure deadlocks and other fundamental design errors that would be immediately apparent with unbuffered channels.
+> ⚠️ **Misleading information**. Buffered channels do not inherently increase "scalability" versus unbuffered channels. However, buffered channels can easily obscure deadlocks and other fundamental design errors that would be immediately apparent with unbuffered channels.
 
 
 <a name="rwmutex"></a>
