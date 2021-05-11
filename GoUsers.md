@@ -757,6 +757,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [WACUL, Inc.](https://wacul.co.jp/)
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
+  * [WealthPark, Inc.](https://wealth-park.com/en/corporate/careers/#engineering-department)
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
