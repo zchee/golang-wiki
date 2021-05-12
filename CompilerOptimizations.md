@@ -27,18 +27,6 @@ For a map `m` of type `map[string]T` and `[]byte b`, `m[string(b)]` doesn't allo
 * **gc:** 1.4+
 * **gccgo:** ?
 
-### `switch` on `[]byte`(s)
-
-No allocation done on the `switch` line.
-
-```go
-var b []byte
-switch string(b) {
-  case "AA": 
-  // ...
-}
-```
-
 ### `range` over `[]byte`(s)
 
 No allocation when converting a `string` into a `[]byte` for ranging over the bytes:
@@ -83,7 +71,7 @@ Gc compiler does global escape analysis across function and package boundaries. 
 Only short and simple functions are inlined. To be inlined a function must conform to the rules:
 
 - function should be simple enough, the number of AST nodes must less than the budget (80);
-- function doesn't contain complex things like loops, closures, defer, recover, select, etc;
+- function doesn't contain complex things like closures, defer, recover, select, etc;
 - function isn't prefixed by go:noinline;
 - function isn't prefixed by go:uintptrescapes, since the escape information will be lost during inlining;
 - function has body;
