@@ -1,8 +1,17 @@
 Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://golang.org/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
-## Questions about Go ##
+## Download and Install ##
 
-See [Questions](Questions).
+**Binary Distributions**
+
+Official binary distributions are available at [https://golang.org/dl/](https://bit.ly/3tPwRK0).
+
+After downloading a binary release, visit [https://golang.org/doc/install](https://bit.ly/3oa4Uv6) for installation instructions.
+
+**Install From Source**
+
+If a binary distribution is not available for your combination of operating system and architecture, visit https://golang.org/doc/install/source for source installation instructions.
+
 
 ## Contributing ##
 
