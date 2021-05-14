@@ -779,7 +779,7 @@ One sample use case is if you need to fix or investigate something in a dependen
 
 In general, you have the option of specifying a version to the left of the `=>` in a replace directive, but typically it is less sensitive to change if you omit that (e.g., as done in all of the `replace` examples above).
 
-In Go 1.11, for direct dependencies a `require` directive is needed even when doing a `replace`. For example, if `foo` is a direct dependency, you cannot do `replace foo => ../foo` without a corresponding `require` for `foo`. If you are not sure what version to use in the `require` directive, you can often use `v0.0.0` such as `require foo v0.0.0`. This was addressed in Go 1.12 with [#26241](https://golang.org/issue/26241).
+A `require` directive is needed for each `replace` directive of a direct dependency. When replacing a dependency from a filesystem path, the version of the corresponding require directive is essentially ignored; in this case, the pseudoversion `v0.0.0` is a good choice to make this clear, e.g. `require example.com/module v0.0.0`. 
 
 You can confirm you are getting your expected versions by running `go list -m all`, which shows you the actual final versions that will be used in your build including taking into account `replace` statements.
 
@@ -806,7 +806,6 @@ require (
 
 replace example.com/me/goodbye => ../goodbye
 ```
-As shown in this example, if outside of VCS you can use `v0.0.0` as the version in the `require` directive. Note that as mentioned in the prior FAQ, in Go 1.11 a `require` directive must be manually added here, but that `require` directive no longer needs to be manually added in Go 1.12+ ([#26241](https://golang.org/issue/26241)).
 
 A small runnable example is shown in this [thread](https://groups.google.com/d/msg/golang-nuts/1nYoAMFZVVM/eppaRW2rCAAJ).
 
