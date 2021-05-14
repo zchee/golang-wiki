@@ -42,14 +42,14 @@ Graduating a port to "first class" is at the discretion of the Go team at Google
 
 The current first class ports are:
 
-* linux/amd64
-* linux/386
-* linux/arm64
-* linux/arm
 * darwin/amd64
 * darwin/arm64
-* windows/amd64
+* linux/386
+* linux/amd64
+* linux/arm
+* linux/arm64
 * windows/386
+* windows/amd64
 
 We distribute binaries for other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
 
