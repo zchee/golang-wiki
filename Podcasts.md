@@ -9,6 +9,9 @@
 
 ## Podcast episodes
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
+* [Working in the Go ecosystem - Dot Tech by Form3](https://techpodcast.form3.tech/episodes/ep-6-tech-working-in-the-go-ecosystem-with-bartomiej-klimczak) _2021-02-19_
+* [Making an Open Source Go project a full time job - Dot Tech by Form3](https://techpodcast.form3.tech/episodes/ep-2-tech-making-an-open-source-go-project-a-full-time-job-with-ashley-jeffs2) _2020-11-25_
+* [How and why you should move to Go - Dot Tech by Form3](https://techpodcast.form3.tech/episodes/ep-1-tech-how-and-why-you-should-move-to-go-with-johan-brandhorst-andy-kuszyk) _2020-11-03_
 * [The Go Language - Hipsters #67](https://hipsters.tech/linguagem-go-hipsters-67/) (_in portuguese_) _2017-10-24_
 * [The Go Programming Language 2 - Castálio Podcast #87](http://castalio.info/episodio-87-linguagem-de-programacao-go-parte-2.html) (_in portuguese_) _2017-02-13_
 * [The Go Programming Language 1 - Castálio Podcast #86](http://castalio.info/episodio-86-linguagem-de-programacao-go-parte-1.html) (_in portuguese_) _2017-02-06_
