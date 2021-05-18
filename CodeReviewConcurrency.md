@@ -122,7 +122,7 @@ Such a race condition could be benign in some cases: for example, the logic betw
 `Store()` calls computes the value to be cached in the map, and this computation always returns the
 same result and doesn't have side effects.
 
-> ⚠️ **False information**. There is no such thing as a benign race condition.
+> ⚠️ **Potentially misleading information**. "Race condition" can refer to logic errors, like this example, which can be benign. But the phrase is also commonly used to refer to violations of the memory model, which are never benign.
 
 If the race condition is not benign, use methods [`sync.Map.LoadOrStore()`](
 https://golang.org/pkg/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](
