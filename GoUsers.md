@@ -656,6 +656,7 @@
   * [Fuller, Inc.](https://fuller-inc.com/)
   * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
   * [GameWith, Inc.](https://gamewith.co.jp/)
+  * [Gemcook, Inc.](https://gemcook.com/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
   * [Graffer, Inc.](https://graffer.jp/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
