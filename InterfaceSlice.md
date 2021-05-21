@@ -36,7 +36,7 @@ If you really want a ` []interface{} ` because you'll be doing indexing before c
 ```go
 var dataSlice []int = foo()
 var interfaceSlice []interface{} = make([]interface{}, len(dataSlice))
-for i := range dataSlice {
-	interfaceSlice[i] = dataSlice[i]
+for i, d := range dataSlice {
+	interfaceSlice[i] = d
 }
 ```
