@@ -29,9 +29,24 @@
   * [Golang Pune](https://www.meetup.com/Golang-Pune/) - Pune, India.
   * [Golang Ahmedabad](https://www.meetup.com/Golang-Ahmedabad) - Ahmedabad, India.
   * [Golang Kolkata](https://www.facebook.com/groups/125791539385850) - Kolkata, India.
+- Japan
+  * [golang.tokyo](https://golangtokyo.github.io/) - Tokyo, Japan.
+  * [Akiba.go](https://akihabarago.connpass.com/) - Tokyo, Japan.
+  * [Women Who Go Tokyo](https://web.womenwhogo.tokyo/) - Tokyo, Japan.
+  * [kyoto.go](https://kyotogo.connpass.com/) - Kyoto, Japan.
+  * [Umeda.go](https://umedago.connpass.com/) - Osaka, Japan.
+  * [Sendai.go](https://techplay.jp/community/sendaigo) - Miyagi, Japan.
+  * [Fukuoka.go](https://fukuokago.dev/) - Fukuoka, Japan.
+  * [Okayama.go](https://okayamago.connpass.com/) - Okayama, Japan.
+  * [nagoya.go](https://nagoyago.connpass.com/) - Aichi, Japan.
+  * [Shizuoka.go](https://shizuoka-go.connpass.com/) - Shizuoka, Japan.
+  * [Golang札幌](https://golang-sapporo.connpass.com/) - Hokkaido, Japan.
+  * [Gopher道場](https://gopherdojo.org/) - Japan.
+  * [Go Language Specification 輪読会](https://gospecreading.connpass.com/) - Japan.
+  * [ゴリラ.Go](https://gorilla-go.connpass.com/) - Japan.
+
 - Other
   * [Golang China](http://groups.google.com/group/golang-china) - China.
-  * [Golang JP](https://plus.google.com/communities/107075098212007233819) - Japan.
   * [Golang Korea](https://www.facebook.com/groups/golangko/about/) - Korea.
   * [Golang Vietnam](https://www.facebook.com/golang.org.vn) - [github](https://github.com/golang-vietnam) -  Vietnam
   * [Golang Taiwan](http://golang.tw) - Taiwan.
