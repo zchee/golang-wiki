@@ -30,6 +30,7 @@
   * [Golang Ahmedabad](https://www.meetup.com/Golang-Ahmedabad) - Ahmedabad, India.
   * [Golang Kolkata](https://www.facebook.com/groups/125791539385850) - Kolkata, India.
 - Japan
+  * [Gophers Japan](https://gocon.jp/) - Japan.
   * [golang.tokyo](https://golangtokyo.github.io/) - Tokyo, Japan.
   * [Akiba.go](https://akihabarago.connpass.com/) - Tokyo, Japan.
   * [Women Who Go Tokyo](https://web.womenwhogo.tokyo/) - Tokyo, Japan.
