@@ -104,10 +104,15 @@ s[i] = x
 #### InsertVector
 ```go
 a = append(a[:i], append(b, a[i:]...)...)
-```
 
-**NOTE**: To get the best efficiency, it is best to do the insertion without using `append`, in particular when the number of the inserted elements is known:
-```go
+// The above one-line way copies a[i:] twice and
+// might allocate at most twice.
+// The following verbose way only allocates at
+// most once and copy elements in a[i:] once.
+// But as of Go toolchain 1.16, due to lacking of
+// optimizations to avoid elements clearing in the
+// "make" call, the verbose way is not always faster.
+//
 // Assume element type is int.
 func Insert(s []int, k int, vs ...int) []int {
 	if n := len(s) + len(vs); n <= cap(s) {
