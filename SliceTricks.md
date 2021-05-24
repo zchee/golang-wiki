@@ -106,10 +106,10 @@ s[i] = x
 a = append(a[:i], append(b, a[i:]...)...)
 
 // The above one-line way copies a[i:] twice and
-// might allocate at most twice.
-// The following verbose way only allocates at
-// most once and copy elements in a[i:] once.
-// But as of Go toolchain 1.16, due to lacking of
+// allocates at least once.
+// The following verbose way only copy elements
+// in a[i:] once and allocates at most once.
+// But, as of Go toolchain 1.16, due to lacking of
 // optimizations to avoid elements clearing in the
 // "make" call, the verbose way is not always faster.
 //
