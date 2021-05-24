@@ -107,11 +107,14 @@ a = append(a[:i], append(b, a[i:]...)...)
 
 // The above one-line way copies a[i:] twice and
 // allocates at least once.
-// The following verbose way only copy elements
+// The following verbose way only copies elements
 // in a[i:] once and allocates at most once.
 // But, as of Go toolchain 1.16, due to lacking of
 // optimizations to avoid elements clearing in the
 // "make" call, the verbose way is not always faster.
+//
+// Future compiler optimizations might implement
+// both in the most efficient ways.
 //
 // Assume element type is int.
 func Insert(s []int, k int, vs ...int) []int {
