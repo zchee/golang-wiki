@@ -9,7 +9,7 @@ a = append(a, b...)
 
 #### Copy
 ```go
-b = make([]T, len(a))
+b := make([]T, len(a))
 copy(b, a)
 
 // These two are often a little slower than the above one,
