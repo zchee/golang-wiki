@@ -968,7 +968,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [Tochka](http://tochka.com/)
 * [TRY.FIT](http://try.fit/)
 * [VK.COM](https://vk.com/about) (Part of our Go services: https://www.youtube.com/watch?v=Llmpfv8PIt4)
-* [Quadcode](http://https://quadcode.com)
+* [Quadcode](https://quadcode.com)
 
 ## Saudi Arabia
 * [Tamkeen Technologies](http://tamkeentech.sa)
