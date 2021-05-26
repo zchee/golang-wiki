@@ -14,6 +14,6 @@ For asking questions, see:
 
 * [The golang-nuts mailing list](https://groups.google.com/d/forum/golang-nuts)
 
-* **IRC** channel #go-nuts on Freenode
+* **IRC** channel #go-nuts on Libera
 
 If we closed your issue as a question with a link to this wiki, we apologize. Please ask the question on one of the above forums.
