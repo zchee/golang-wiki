@@ -631,6 +631,7 @@
   * [Connehito Inc.](https://connehito.com/)
   * [Cookpad Inc.](https://info.cookpad.com/en)
   * [CyberAgent, Inc.](https://www.cyberagent.co.jp/)
+    * [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications
     * [ecs-formation](https://github.com/openfresh/ecs-formation) - ecs-formation is a tool for defining several Docker continers and clusters on Amazon EC2 Container Service(ECS)
     * [plasma](https://github.com/openfresh/plasma) - plasma is event push middleware by using gRPC stream
   * [Cybozu](https://www.cybozu.com) - [github](https://github.com/cybozu-go)
