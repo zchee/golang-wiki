@@ -1104,6 +1104,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Turkey
   * [icibot](https://icibot.com/)
   * [Frigbo](https://frigbo.com/)
+  * [Hepiyo](https://hepiyo.com/)
   * [Admongrel](http://www.admongrel.com/)
   * [Insider](http://useinsider.com/)
   * [Mentornity, Inc.](https://mentornity.com/) - Backend API
