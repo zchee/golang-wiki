@@ -618,6 +618,7 @@
   * [and factory, Inc.](https://andfactory.co.jp/)
   * [ANDPAD Inc.](https://andpad.co.jp/)
   * [Appify Technologies, Inc.](https://appify-inc.com/)
+    * [gqlgo](https://github.com/gqlgo) - GraphQL Go organization
   * [aptpod, Inc.](https://www.aptpod.co.jp/)
   * [AtCoder, Inc.](https://atcoder.jp/)
   * [Atrae, Inc.](https://atrae.co.jp/)
