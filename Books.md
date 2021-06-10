@@ -529,7 +529,7 @@ Sorted by publication date.
     * Translator: 许式伟, 吕桂华, 徐立, 何李石
     * Publication Date: 2013-08
     * ISBN: 978-7-115-31790-2
-    * Reference: http://www.ptpress.com.cn/Book.aspx?id=35714
+    * Reference: https://www.ptpress.com.cn/shopping/buy?bookId=27c4a9e0-e3df-4cb4-8992-b42c2e4368e8
 
   * **Go并发编程实战**
     * Author: 郝林
