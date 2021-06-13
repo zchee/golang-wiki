@@ -128,7 +128,33 @@ This finalizer has been registered with the runtime system, but the object to wh
 
 # memstats
 
-Dumps the first 26 fields of [MemStats](http://golang.org/pkg/runtime/#MemStats).  All fields are dumped with a uvarint except the 25th and 26th which are dumped with 256 uvarints.
+Records the following fields of [runtime.MemStats](http://golang.org/pkg/runtime/#MemStats):
+  * uvarint: Alloc
+  * uvarint: TotalAlloc
+  * uvarint: Sys
+  * uvarint: Lookups
+  * uvarint: Mallocs
+  * uvarint: Frees
+  * uvarint: HeapAlloc
+  * uvarint: HeapSys
+  * uvarint: HeapIdle
+  * uvarint: HeapInuse
+  * uvarint: HeapReleased
+  * uvarint: HeapObjects
+  * uvarint: StackInuse
+  * uvarint: StackSys
+  * uvarint: MSpanInuse
+  * uvarint: MSpanSys
+  * uvarint: MCacheInuse
+  * uvarint: MCacheSys
+  * uvarint: BuckHashSys
+  * uvarint: GCSys
+  * uvarint: OtherSys
+  * uvarint: NextGC
+  * uvarint: LastGC
+  * uvarint: PauseTotalNs
+  * 256 uvarints: PauseNs
+  * uvarint: NumGC
 
 # queuedfinalizer
   * uvarint: address of object that has a finalizer
