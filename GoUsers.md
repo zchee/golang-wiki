@@ -689,6 +689,7 @@
   * [Kyash Inc](https://kyash.co/en/)
   * [LayerX, Inc](https://layerx.co.jp/)
   * [Link-U Inc.](https://www.link-u.co.jp/)
+  * [Linkbal Inc.](https://linkbal.co.jp/)
   * [LINE](https://linecorp.com/)
   * [Liquid Inc.](https://liquidinc.asia/)
   * [Livesense Inc.](https://livesense.co.jp/) - [github](https://github.com/livesense-inc)
