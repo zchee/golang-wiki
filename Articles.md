@@ -37,6 +37,8 @@ Table of Contents
 ## General
 
   * [Darker Corners of Go](https://rytisbiel.com/2021/03/06/darker-corners-of-go/) _2021-03-13_
+  * [Working with Golang Maps](https://www.loginradius.com/engineering/blog/working-with-go-maps/) _2020-09-25_
+  * [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html) _2019-05-01_
   * [Here are some amazing advantages of Go that you don’t hear much about](https://www.freecodecamp.org/news/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a/) _2018-02-01_
   * [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff) _2017-11-23_
   * [The Zoo of Go Funcs](https://blog.learngoprogramming.com/go-functions-overview-anonymous-closures-higher-order-deferred-concurrent-6799008dde7b) _2017-11-09_
@@ -69,7 +71,6 @@ Table of Contents
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js) _2012-09-14_
-  * [Working with Golang Maps](https://www.loginradius.com/engineering/blog/working-with-go-maps/) _2020-09-25_
 
 ## Concurrency / Channels
 
@@ -125,7 +126,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
   * [Go Mobile: Next generation of mobile apps](https://www.linkedin.com/pulse/go-mobile-next-generation-apps-daniele-baroncelli) _2015-09-18_
   * [iOS Apps with Go - Video by Josh Deprez](https://www.youtube.com/watch?v=bftMhhMIJNo) _2015-09-17_
-  * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps)
+  * [5 Part Series - Mobile Go](https://medium.com/using-go-in-mobile-apps) _2015-01-08_
 
 ## Modules
 
@@ -154,13 +155,12 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
 
 ## Reflection
 
-  * [Go Reflection Index](https://jimmyfrasche.github.io/go-reflection-codex/) by Jimmy Frasche
+  * [Go Reflection Index](https://jimmyfrasche.github.io/go-reflection-codex/) by Jimmy Frasche _2014-01-26_
 
 ## Security
 
   * [Mutual TLS authentication in Go](http://www.levigross.com/2015/11/21/mutual-tls-authentication-in-go/) _2015-11-21_
   * [Whispered Secrets - The case for building software with privacy as a primary concern](http://www.slideshare.net/feyeleanor/whispered-secrets-52966860) _2015-09-19_
-  * [How to fix Japanese keyword hack in wordpress site?](https://secure.wphackedhelp.com/blog/fix-wordpress-japanese-keywords-hack/) by Wp Hacked Help
 
 ## Testing
 
@@ -188,6 +188,8 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 ## Misc
 
+  * [Environment variables in Golang](https://www.loginradius.com/engineering/blog/environment-variables-in-golang/) _2020-09-28_
+  * [Using MongoDB as Datasource in GoLang](https://www.loginradius.com/engineering/blog/mongodb-as-datasource-in-golang/) _2020-09-21_
   * [Go-powered Open Source IoT Integration Framework "Flogo"](http://www.kai-waehner.de/blog/2016/11/03/open-source-project-flogo-overview/) _2016-11-07_
   * [Build Slack Slash Commands with Go](http://www.programmableweb.com/news/how-to-use-slack-api-to-build-slash-commands-powered-google-app-engine-and-go/how-to/2015/09/16) _2015-09-15_
   * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
@@ -203,9 +205,6 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
   * [Zero Downtime upgrades of TCP servers in Go](http://blog.nella.org/?p=879) _2012-05-29_
   * [Go Reflection Codex](http://jimmyfrasche.github.io/go-reflection-codex/)
   * [Go JSON Marshalling and Unmarshalling cheatsheet](https://eager.io/blog/go-and-json/) _2015-09-30_
-  * [Using MongoDB as Datasource in GoLang](https://www.loginradius.com/engineering/blog/mongodb-as-datasource-in-golang/) _2020-09-21_
-  * [Environment variables in Golang](https://www.loginradius.com/engineering/blog/environment-variables-in-golang/) _2020-09-28_
-  * [Working with Golang Maps](https://www.loginradius.com/engineering/blog/working-with-go-maps/) _2020-09-25_
 
 
 
