@@ -241,7 +241,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [Terracognita](https://github.com/cycloidio/terracognita) - Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration.
   * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
   * [wmenu](https://github.com/dixonwille/wmenu) - An easy to use menu structure for cli applications that prompts users to make choices.
-
+  * [mani](https://github.com/alajmo/mani) - CLI tool to help you manage multiple repositories
 ## Compression
 
   * [brotli](https://github.com/google/brotli/tree/master/go/cbrotli) - go bindings for Brotli algorithm.
