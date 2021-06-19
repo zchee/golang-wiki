@@ -356,7 +356,7 @@ TinyGo supports a subset of the Go language targeted for embedded devices, and h
 
 While it does have limitations (not yet a full Go implementation), it is still fairly capable and the generated Wasm files are... tiny.  ~10kB isn't unusual.  The "Hello world" example is 575 bytes.  If you `gz -6` that, it drops down to 408 bytes. :wink:
 
-This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/webassembly/webassembly/ for more information on using WebAssembly with TinyGo.
+This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/docs/guides/webassembly/ for more information on using WebAssembly with TinyGo.
 
 # Other WebAssembly resources
 
