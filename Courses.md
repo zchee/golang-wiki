@@ -56,7 +56,7 @@ Go is a great language for CS majors. This page presents some university courses
 
   * CS 352, Computer Organization and Design, at the University of Wisconsin, Eau Claire: http://cs.uwec.edu/~buipj/teaching/cs.352.f13/lab_01_high_performance_computing.html
 
-  * KTH Stockholm uses Go to teach concurrency: http://www.nada.kth.se/~snilsson/concurrency/
+  * KTH Stockholm uses Go to teach concurrency: DD1396 Parallel and Concurrent Programming. https://www.kth.se/student/kurser/kurs/DD1396
 
   * Norwegian University of Science and Technology: TTK4145 Real-Time Programming http://www.itk.ntnu.no/fag/TTK4145/information/
 
