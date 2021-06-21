@@ -3,6 +3,8 @@ Writing good tests is not trivial, but in many situations a lot of ground can be
 
 Given a table of test cases, the actual test simply iterates through all table entries and for each entry performs the necessary tests. The test code is written once and amortized over all table entries, so it makes sense to write a careful test with good error messages.
 
+Table driven testing is not a tool, package or anything else, it's just a way and perspective to write cleaner tests. 
+
 ## Example of a table driven test
 
 Here is a good example from the testing code for the ` fmt ` package ( http://golang.org/pkg/fmt/ ):
