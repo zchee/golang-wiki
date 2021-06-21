@@ -71,7 +71,7 @@ None of this is possible with GOPATH development mode as it exists today. We can
 
 ### When was it decided to deprecate GOPATH development mode?
 
-The [original plan](https://blog.golang.org/modules2019) was to deprecate GOPATH mode in Go 1.13, but we wanted to take extra time to make modules even more robust for as many Go users as possible, so the deprecation was pushed back from that release. Discussion on [issue #41330](https://golang.org/issue/41330) and in the golang-tools group did not identify any remaining blockers for deprecating GOPATH, so it is now scheduled for Go 1.16, with removal in Go 1.17, as stated in the timeline above.
+The [original plan](https://blog.golang.org/modules2019) was to deprecate GOPATH mode in Go 1.13, but we wanted to take extra time to make modules even more robust for as many Go users as possible, so the deprecation was pushed back from that release. Discussion on [issue #41330](https://golang.org/issue/41330) and in the golang-tools group did not identify any remaining blockers for deprecating GOPATH, so it is now scheduled for Go 1.16, with removal in a future release, as stated in the timeline above.
 
 ### What if I have more questions about moving from GOPATH development mode to Go modules?
 
