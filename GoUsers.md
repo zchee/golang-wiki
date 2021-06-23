@@ -117,6 +117,7 @@
   * [Levpay](http://www.levpay.com/) - [github](https://github.com/levpay)
   * [Loggi](https://www.loggi.com) - [github](https://github.com/loggi)
   * [M4U](https://www.m4u.com.br) - [github](https://github.com/Mobile4You)
+  * [MadeiraMadeira](https://www.madeiramadeira.com.br/) - [github](https://github.com/madeiramadeirabr)
   * [Magazine Luiza](http://www.magazineluiza.com.br) - [github](https://github.com/luizalabs)
   * [Mendelics](http://www.mendelics.com) - [github](https://github.com/mendelics)
   * [Mercado Livre](http://www.mercadolivre.com.br/) - [github](https://github.com/mercadolibre/)
