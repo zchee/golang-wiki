@@ -101,6 +101,7 @@ plugins:
 extra:
   revision: 14c2c2dbed9d
 
+# yamllint disable-line
 ## $ find . -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not \( -name 'Home.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case
 
 nav:
@@ -116,6 +117,7 @@ nav:
   - "ChromeOS": ChromeOS.md
   - "CodeReview": CodeReview.md
   - "CodeReviewComments": CodeReviewComments.md
+  - "CodeReviewConcurrency": CodeReviewConcurrency.md
   - "CodeTools": CodeTools.md
   - "Comments": Comments.md
   - "CommitMessage": CommitMessage.md
@@ -172,6 +174,7 @@ nav:
   - "GOPATH": GOPATH.md
   - "Gopher": Gopher.md
   - "gopherbot": gopherbot.md
+  - "Gophers Tunisia": Gophers-Tunisia.md
   - "gopls integrator FAQ": gopls-integrator-FAQ.md
   - "gopls": gopls.md
   - "GoStrings": GoStrings.md
