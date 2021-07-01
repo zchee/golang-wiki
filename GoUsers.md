@@ -105,6 +105,7 @@
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Grupo Bandeirantes](https://www.band.uol.com.br/) 
+  * [Grupo SBF](https://github.com/grupo-sbf) 
   * [Hurb](http://www.hurb.com) - [github](https://github.com/HotelUrbano) 
   * [Hubcash](http://www.hubcash.com) - [github](https://github.com/hubcash/)
   * [iFood](https://www.ifood.com.br/) - [github](https://github.com/orgs/ifood/)
