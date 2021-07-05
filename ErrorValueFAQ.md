@@ -19,7 +19,6 @@ You need to be prepared that errors you get may be wrapped.
 
    - Checks of the form `if err != nil` need not be changed.
    - Comparisons to `io.EOF` need not be changed, because `io.EOF` should never be wrapped.
-     - **Citation needed**. Why is this true? Where is this documented?
 
 - If you check for an error type using a type assertion or type switch, use `errors.As` instead. Example:
   ```
@@ -50,8 +49,6 @@ if errors.Is(err, sql.ErrTxDone) ...
 ```
 At that point, you must always return `sql.ErrTxDone` if you don't want to break your clients, even if you switch to a different database package.
 
-- **Disputed**. API Compatibility does not necessarily include concrete errors returned by a function.
-
 ## How can I add context to an error I'm already returning without breaking clients?
 
 Say your code now looks like
@@ -78,15 +75,11 @@ to
 return fmt.Errorf("more info: %w", err)
 ```
 
-- **Disputed**. Whether or not this is a breaking change is not well-defined.
-
 ## I'm writing new code, with no clients. Should I wrap returned errors or not?
 
 Since you have no clients, you aren't constrained by backwards compatibility. But you still need to balance two opposing considerations:
-
 - Giving client code access to underlying errors can help it make decisions, which can lead to better software.
 - Every error you expose becomes part of your API: your clients may come to rely on it, so you can't change it.
-  - **Disputed**. It is not true that all returned concrete errors are necessarily part of a function's API in a compatibility sense.
 
 For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors; as a package author, you make many decisions about whether a feature of your code is important for clients to know or an implementation detail. 
 
