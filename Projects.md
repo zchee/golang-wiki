@@ -289,6 +289,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [hocon](https://github.com/gurkankaymak/hocon) - Configuration library for working with the HOCON(a human-friendly JSON superset) format, supports features like environment variables, referencing other values, comments and multiple files.
   * [jsonconfig](https://github.com/knadh/jsonconfig) - a JSON configuration file parser with comments support
   * [koanf](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
+  * [lib/ssh/config](https://pkg.go.dev/github.com/shuLhan/share/lib/ssh/config) - Package config provide the ssh_config(5) parser and getter.
   * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
