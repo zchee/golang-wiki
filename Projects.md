@@ -1413,6 +1413,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rs232](https://github.com/dustin/rs232.go) - Serial interface for those of us who still have modems (or arduinos)
   * [rss](https://github.com/SlyMarbo/rss) - RSS parsing library.
   * [seamless](https://bitbucket.org/tebeka/seamless) - Reverse TCP Proxy with HTTP management API
+  * [sftp](https://pkg.go.dev/github.com/shuLhan/share/lib/ssh/sftp) - SSH File Transfer Protocol v3 as defined in draft-ietf-secsh-filexfer-02.txt.
   * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via simple http server
   * [sockjs-go](https://github.com/fzzy/sockjs-go) - Implements server side counterpart for the SockJS-client browser library.
   * [SOCKS5 Server](https://code.google.com/p/go-socks5) - Scalable SOCKS5 server with Access Control Lists
