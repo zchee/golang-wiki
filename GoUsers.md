@@ -75,7 +75,7 @@
   * [AStar](http://www.astarlabs.com)  - [github](https://github.com/astarlabs)
   * [Astrolink](http://www.astrolink.com.br) - [github](https://github.com/astrolink)
   * [B2W](https://www.b2wmarketplace.com.br) - [github](https://github.com/b2wdigital)
-  * [Beauty Date](http://www.beautydate.com.br)
+  * [Beauty Date](https://hairstyle-en.com/)
   * [Bemobi](https://www.bemobi.com.br) - [linkedin](https://www.linkedin.com/in/michel-bernardo/)
   * [Benefício Fácil](http://valetransporte.beneficiofacil.com.br/) - [forums](https://forum.golangbridge.org/t/weekly-wiki-wrapup-2015-11-07/1461/2)
   * [Bexs](https://www.bexs.com.br/) - an forex Bank
