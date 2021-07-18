@@ -798,6 +798,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Wemakeprice](http://www.wemakeprice.com) - CRM Solution
   * [Gabia](https://www.gabia.com/) - Server monitoring solution
   * [BankSalad](https://banksalad.com/) - Personal Finance Management Service
+  * [Daangn Market](https://www.daangn.com/) - Used trades between people in the same area 
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
