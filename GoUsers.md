@@ -1128,6 +1128,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Sir Studios](http://sirstudios.com)
 ## Ukraine
   * [Agilites](https://agilites.com)
+  * [Aura](https://aura.com)
   * [ElifTech](http://www.eliftech.com)
   * [iLighten](https://ilighten.com/)
   * [QArea](https://qarea.com/)
@@ -1241,6 +1242,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Assembled](https://www.assembled.com/) - [github](https://github.com/assembledhq)
   * [AT&T](https://www.att.com/) - [Github](https://github.com/att?utf8=%E2%9C%93&q=&type=&language=go) and [gopkgs repository](https://github.com/att/gopkgs)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
+  * [Aura](https://aura.com)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
   * [Awake Networks](http://www.awakenetworks.com)
   * [Axioms](http://axioms.io) - [blog](http://axioms.io/zen/2014-11-06-swift-go/)
