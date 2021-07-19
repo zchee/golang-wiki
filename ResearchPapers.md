@@ -1,4 +1,10 @@
 This page lists academic and industry research papers about Go or using Go as the implementation language.
+## 2021
+
+- Gobra: Modular Specification and Verification of Go Programs (F. A. Wolf, L. Arquint, M. Clochard, W. Oortwijn, J. C. Pereira, P. Müller)
+  - [CAV'21](https://doi.org/10.1007/978-3-030-81685-8_17)
+  - [web-page](https://gobra.ethz.ch)
+
 ## 2020
 
 - Uncovering the Hidden Dangers: Finding Unsafe Go Code in the Wild (J. Lauinger, L. Baumgärtner, A. Wickert, M. Mezini) 
