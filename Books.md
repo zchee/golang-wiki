@@ -630,6 +630,13 @@ Sorted by publication date.
     * Reference: https://gihyo.jp/book/2019/978-4-297-10727-7
 
 # French
+  * **Le langage Go - Les fondamentaux du langage**
+    * Author: Frédéric G. Marand
+    * Publication Date: 23 Jun 2020
+    * ISBN: 978-2100804108
+    * Reference (book site): https://osinet.fr/go/
+    * Reference (publisher): https://www.dunod.com/sciences-techniques/langage-go-fondamentaux-du-langage
+
   * **Programmer en Go - Pourquoi ? Comment ?**
     * Author: Rudy Rigot
     * Publication Date: 24 Jan 2018
