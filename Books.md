@@ -3,7 +3,23 @@ Other book lists:
 * [Go Books](https://github.com/dariubs/GoBooks)
 * [Go Language Resources](http://go-lang.cat-v.org/books)
 
-Sorted by publication date. 
+Sorted by publication date, ascending.
+
+## Languages
+
+- [English](#english)
+- [Chinese](#chinese)
+- [Japanese](#japanese)
+- [French](#french)
+- [German](#german)
+- [Brazilian portuguese](#brazilian-portuguese)
+- [Russian](#russian)
+- [Spanish](#spanish)
+- [Korean](#korean)
+- [Indonesian](#indonesian)
+- [Italian](#italian)
+- [Polish](#polish)
+- [Persian](#persian)
 
 # English
   * **Go Programming**
@@ -630,6 +646,13 @@ Sorted by publication date.
     * Reference: https://gihyo.jp/book/2019/978-4-297-10727-7
 
 # French
+
+  * **Programmer en Go - Pourquoi ? Comment ?**
+    * Author: Rudy Rigot
+    * Publication Date: 24 Jan 2018
+    * ISBN: 978-2-8227-0660-5
+    * Reference: https://www.d-booker.fr/go-bases/499-programmer-en-go-pourquoi-comment.html
+
   * **Le langage Go - Les fondamentaux du langage**
     * Author: Frédéric G. Marand
     * Publication Date: 23 Jun 2020
@@ -637,11 +660,6 @@ Sorted by publication date.
     * Reference (book site): https://osinet.fr/go/
     * Reference (publisher): https://www.dunod.com/sciences-techniques/langage-go-fondamentaux-du-langage
 
-  * **Programmer en Go - Pourquoi ? Comment ?**
-    * Author: Rudy Rigot
-    * Publication Date: 24 Jan 2018
-    * ISBN: 978-2-8227-0660-5
-    * Reference: https://www.d-booker.fr/go-bases/499-programmer-en-go-pourquoi-comment.html
 
 # German
   * **Programmierung in Google Go** (not available for buying any more)
