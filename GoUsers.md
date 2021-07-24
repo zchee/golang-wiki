@@ -785,6 +785,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
+  * [Technodom Operator](https://www.technodom.kz) - eCommerce platform.
 
 ## Korea (South)
   * [ComTrue Technologies](http://comtrue.com/) - Network Packet Analyzer
