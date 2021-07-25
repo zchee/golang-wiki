@@ -107,6 +107,10 @@ z196+
 
 MIPS32r1
 
+### riscv64
+
+rv64g (rv64imafd)
+
 ## cgo
 
 For programs using cgo, gcc 4.6 or newer is required.
