@@ -400,6 +400,11 @@ Sorted by publication date, ascending.
   * ISBN: 9789389898194
   * Reference: https://bpbonline.com/products/hands-on-go-programming
 
+* **For the Love of Go** (e-book)
+  * Author: John Arundel
+  * Publication Date: March 2021
+  * Reference: https://bitfieldconsulting.com/books/love-bundle
+
 ***
 ## Early Access
 
