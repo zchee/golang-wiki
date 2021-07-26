@@ -1602,6 +1602,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Umbel](http://umbel.com) - [tweet](https://twitter.com/findmjob/status/624255179227967488)
   * [Underarmour](https://www.underarmour.com/) - [github](https://github.com/underarmour?q=&type=&language=go)
   * [Undisclosed.ch](https://undisclosed.ch/) - [github](https://github.com/xoba/goutil)
+  * [Unfold](https://https://unfold.com/) - Part of [Squarespace](https://squarespace.com/) runs all backend services using Go
   * [Upskill](https://upskill.io) - [github](https://github.com/APXLabs)
   * [Verifone](http://www.verifone.com/)
   * [Vertamedia](https://vertamedia.com/) - [github](https://github.com/Vertamedia)
