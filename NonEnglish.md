@@ -6,7 +6,7 @@ Some of this documentation may be out of date.
 
 ## Brazilian Portuguese - Português brasileiro
 
-  * [A Tour of Go](http://go-tour-br.appspot.com/)
+  * [A Tour of Go](https://go-tour-br.appspot.com/)
   * [golangbr.org](http://golangbr.org/) - Go documentation and news.
 
 ## Chinese - 中文
@@ -35,7 +35,7 @@ Some of this documentation may be out of date.
 
 ## Japanese - 日本語
 
-  * [A Tour of Go](http://go-tour-jp.appspot.com/)
+  * [A Tour of Go](https://go-tour-jp.appspot.com/)
   * [CodeReviewComments](https://knsh14.github.io/translations/go-codereview-comments/)
 
 ## Korean - 한국어
