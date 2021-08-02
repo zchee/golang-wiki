@@ -11,7 +11,7 @@ The most important step is compiling that file to file.syso (` gcc -c -O3 -o fil
 and put the resulting syso in the package source directory.
 And then, suppose your assembly function is named Func, you need one stub
 [cmd/asm](https://golang.org/cmd/asm) assembly file to call it:
-```
+```as
 TEXT ·Func(SB),$0-8 // please set the correct parameter size (8) here
 	JMP Func(SB)
 ```
@@ -34,7 +34,7 @@ There are a lot of ways to bundle data in Go binary, for example:
 The key trick for the 3rd alternative is that the linker for the ` gc ` toolchain has the ability to link COFF object files of a different architecture into the binary without problem, so you don't need to provide syso files for all supported architectures. As long as the syso file doesn't contain instructions, you can just use one to embed the data.
 
 The assembly template to generate the COFF .syso file:
-```
+```as
 /* data.S, as -o data.syso */
 .section .rdata,"dr" /* put in COFF section .rdata */
 .globl _bindataA /* no longer need to prepend package name here */
@@ -51,7 +51,7 @@ _ebindataB:
 ```
 
 And two other files, first a Plan 9 C source file that assembles the slice for Go:
-```
+```c
 /* slice.c */
 #include "runtime.h"
 extern byte _bindataA[], _bindataB[], _ebindataA, _ebindataB;
@@ -67,7 +67,7 @@ void ·getDataSlices(Slice a, Slice b) {
 ```
 
 And finally, the Go file that uses the embedded slide:
-```
+```go
 /* data.go */
 package bindata
 
@@ -98,7 +98,7 @@ The gc toolchain linker, [cmd/link](https://golang.org/cmd/link), provides a `-X
 
 Let's suppose this file is part of the package `company/buildinfo`:
 
-```
+```go
 package buildinfo
 
 var BuildTime string
