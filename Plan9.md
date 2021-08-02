@@ -174,4 +174,4 @@ Many parts of Go are directly influenced by the Plan 9 system, as two of its thr
 * The [Gopher](https://golang.org/doc/faq#gopher) is designed by Renée French, who also designed Glenda, the Plan 9 bunny.
 * The Gc compiler hosted in this repository uses a [Plan 9-style loader](https://golang.org/doc/faq#What_compiler_technology_is_used_to_build_the_compilers).
 * [Go's Assembler](https://golang.org/doc/asm) is based on Plan 9's syntax. The Go 1.x stack-based ABI is borrowed from Plan 9.
-* Although not recommended, there was also some support for [[GcToolchainTricks|Plan 9 C]], with the original standard library being descended from Plan 9's libc.
+* Although not recommended, there was also some support for [[Plan 9 C|GcToolchainTricks]], with the original standard library being descended from Plan 9's libc.
