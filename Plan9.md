@@ -167,3 +167,11 @@ The Plan 9 port of Go is a community-driven port. Any help to improve the Go por
 # Maintainer
 
 Many people have contributed to the Plan 9 port of Go. Since December 2013, the Plan 9 port of Go is maintained by [David du Colombier](https://github.com/0intro).
+
+# Trivia
+
+Many parts of Go are directly influenced by the Plan 9 system, as two of its three main designers worked on Plan 9 at Bell labs. Some of these connections are:
+* The [Gopher](https://golang.org/doc/faq#gopher) is designed by Renée French, who also designed Glenda, the Plan 9 bunny.
+* The Gc compiler hosted in this repository uses a [Plan 9-style loader](https://golang.org/doc/faq#What_compiler_technology_is_used_to_build_the_compilers).
+* [Go's Assembler](https://golang.org/doc/asm) is based on Plan 9's syntax. The Go 1.x stack-based ABI is borrowed from Plan 9.
+* Although not recommended, there was also some support for [[GcToolchainTricks|Plan 9 C]], with the original standard library being descended from Plan 9's libc.
