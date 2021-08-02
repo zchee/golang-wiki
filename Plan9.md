@@ -60,7 +60,8 @@ However, since the Go 1.4 runtime wasn't mature enough on Plan 9, we recommend y
 
 First, install Go 1.4:
 
-```
+<!-- should be rc, but they highlight all the same. -->
+```sh
 cd /tmp
 git clone -b go1.4.3 https://go.googlesource.com/go go1.4
 cd go1.4/src
@@ -72,13 +73,13 @@ The [syscall-exec](http://9legacy.org/go/patch/syscall-exec.diff) patch is requi
 		
 Then, set the `GOROOT_BOOTSTRAP` environment variable:
 
-```
+```sh
 GOROOT_BOOTSTRAP=/tmp/go1.4
 ```
 
 Finally, install the latest version of Go:
 
-```
+```sh
 cd /tmp
 git clone https://go.googlesource.com/go
 cd go/src
@@ -93,7 +94,7 @@ First, you must have installed Go on this operating system, following the [Go in
 
 Then, you can cross-compile a Go toolchain for Plan 9:
 
-```
+```shb
 cd $GOROOT/src
 GOOS=plan9 GOARCH=386 ./bootstrap.bash
 ```
@@ -104,7 +105,7 @@ Finally, you can extract this archive to your Plan 9 machine.
 
 For example:
 
-```
+```sh
 cd /tmp
 tar xzf go-plan9-386-bootstrap.tbz
 bind -a /tmp/go-plan9-386-bootstrap/bin /bin
@@ -114,7 +115,7 @@ Go is now ready to use.
 
 You'll be able to use this installation of Go to bootstrap future Go releases, by setting the `GOROOT_BOOTSTRAP` environment variable:
 
-```
+```sh
 GOROOT_BOOTSTRAP=/tmp/go-plan9-386-bootstrap
 ```
 
@@ -124,7 +125,7 @@ A [binary package](https://storage.googleapis.com/go-builder-data/gobootstrap-pl
 
 This binary package is used to bootstrap Go on the plan9/386 builder.
 
-```
+```sh
 cd /tmp
 hget -o gobootstrap-plan9-386.tar.gz https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz
 mkdir gobootstrap-plan9-386
@@ -134,7 +135,7 @@ tar xzf ../gobootstrap-plan9-386.tar.gz
 
 You'll be able to use this binary package of Go to bootstrap Go, by setting the `GOROOT_BOOTSTRAP` environment variable:
 
-```
+```sh
 GOROOT_BOOTSTRAP=/tmp/gobootstrap-plan9-386
 ```
 
