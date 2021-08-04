@@ -4,7 +4,10 @@ Unlike many projects, the Go project does not use GitHub Issues for general disc
 
 For asking questions, see:
 
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/go) with questions tagged "go"
+* [The official Q&A channel for Google's Go Programming Language
+](https://stackoverflow.com/collectives/go) on Stack Overflow
+
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/go) with questions tagged "go" or "golang" (complementing the Go Collective mentioned before)
 
 * [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
@@ -13,6 +16,8 @@ For asking questions, see:
 * [Go Community on Hashnode](https://hashnode.com/n/go) with questions and posts tagged with "go"
 
 * [The golang-nuts mailing list](https://groups.google.com/d/forum/golang-nuts)
+
+* [Subreddit for Go](https://www.reddit.com/r/golang/)
 
 * **IRC** channel #go-nuts on Libera
 
