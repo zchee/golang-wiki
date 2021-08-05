@@ -1,4 +1,4 @@
-****The Go mobile subrepository adds support for mobile platforms (Android and iOS) and provides tools to build mobile applications.
+**The Go mobile subrepository adds support for mobile platforms (Android and iOS) and provides tools to build mobile applications.**
 
 There are two strategies you can follow to include Go into your mobile stack:
 
