@@ -440,6 +440,7 @@
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
   * [UserCV.com Freelancer Marketplace](https://usercv.com)
+  * [Verloop.io](https://verloop.io) - An AI chat bot company
   * [Vernacular.ai](https://vernacular.ai)
   * [WazirX](https://wazirx.com/)
   * [Zomato](https://www.zomato.com/)
