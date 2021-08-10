@@ -243,6 +243,7 @@
   * [DiDi](https://www.didiglobal.com/)
   * [meicai](https://www.meicai.cn) - Catering supply chain service provider
   * [360](https://www.360.com/)
+  * [xueqiu](https://www.xueqiu.com/)
 
 ## Croatia
   * [Crossvallia](https://crossvallia.hr/)
