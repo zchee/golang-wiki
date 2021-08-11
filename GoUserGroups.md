@@ -155,11 +155,13 @@
 
 ## Latin America
 
-  * [Golang-ES](https://www.facebook.com/groups/goenespanol) - Golang en Español.
+  * [Golang-ES](https://www.facebook.com/groups/goenespanol) - Facebook Español-Latino.
+  * [Gophers LATAM](https://discord.com/invite/AEarh2kSvn) - Discord Español-Latino.
 
 ## Mexico
 
   * [Golang Monterrey](http://www.meetup.com/Golang-MTY/) - Monterrey, Mexico
+  * [Golang - Go MX](https://www.facebook.com/groups/es.golang.mx) - Mexico
 
 ## United States
 
