@@ -447,6 +447,7 @@
   * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
   * [ZopSmart](https://zopsmart.com/)
+  * [University Living](https://www.universityliving.com/)
 
 ## Indonesia
 
