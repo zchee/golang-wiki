@@ -369,6 +369,7 @@
   * [AmberStudent](https://amberstudent.com)
   * [Betacraft](http://www.betacraft.co/)
   * [BookMyShow](http://www.bookmyshow.com/)
+  * [Blogger Cage](https://www.bloggercage.com)
   * [CRED](http://cred.club/)
   * [C42 Engineering](http://c42.in/)
   * [Cralina](http://cralina.com/)
@@ -381,6 +382,7 @@
   * [CoderCV.com Freelancer Marketplace](https://codercv.com)
   * [DeepSource](https://deepsource.io) - Automated code review tool for developers
   * [Dunzo](https://www.dunzo.com)
+  * [EasyAcco](https://www.easyacco.com)
   * [Euphoros Limited](https://www.euphoros.com)
   * [Exotel](http://exotel.in) - [website](http://www.gophercon.in/#sponsor)  
   * [Fastah (Blackbuck Computing)](https://angel.co/blackbuck-computing/)
@@ -440,6 +442,7 @@
   * [ThoughtBox Online Services Pvt Ltd](https://www.thoughtbox.io/) - A FinTech Solution Provider
   * [ThoughtWorks](https://thoughtworks.com/)
   * [Unbxd](http://unbxd.com)
+  * [University Living](https://www.universityliving.com/)
   * [UserCV.com Freelancer Marketplace](https://usercv.com)
   * [Verloop.io](https://verloop.io) - An AI chat bot company
   * [Vernacular.ai](https://vernacular.ai)
@@ -447,7 +450,6 @@
   * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
   * [ZopSmart](https://zopsmart.com/)
-  * [University Living](https://www.universityliving.com/)
 
 ## Indonesia
 
