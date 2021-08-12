@@ -162,9 +162,10 @@ EOF
 Build and run:
 ```
 $ go mod tidy
+go: finding module for package rsc.io/quote
+go: found rsc.io/quote in rsc.io/quote v1.5.2
 $ go build -o hello
 $ ./hello
-
 Hello, world.
 ```
 
