@@ -161,6 +161,7 @@ EOF
 
 Build and run:
 ```
+$ go mod tidy
 $ go build -o hello
 $ ./hello
 
@@ -178,7 +179,7 @@ require rsc.io/quote v1.5.2
 
 #### Daily Workflow
 
-Note there was no `go get` required in the example above. 
+Prior to 1.16, no `go get` or `go mod tidy` was required prior to running `go build -o hello`. Implicit modification of `go.mod` and `go.sum` files was disabled by default in 1.16.
 
 Your typical day-to-day workflow can be:
 
