@@ -172,8 +172,9 @@ Hello, world.
 The `go.mod` file was updated to include explicit versions for your dependencies, where `v1.5.2` here is a [semver](https://semver.org) tag:
 ```
 $ cat go.mod
-
 module github.com/my/repo
+
+go 1.16
 
 require rsc.io/quote v1.5.2
 ```
