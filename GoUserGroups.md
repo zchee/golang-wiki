@@ -160,8 +160,10 @@
 
 ## Mexico
 
+  * [Golang - Go MX](https://www.facebook.com/groups/es.golang.mx) - All Mexico
+  * [GophersMX](https://www.meetup.com/es/GophersMX/) - Ciudad de México, México
   * [Golang Monterrey](http://www.meetup.com/Golang-MTY/) - Monterrey, Mexico
-  * [Golang - Go MX](https://www.facebook.com/groups/es.golang.mx) - Mexico
+  * [Golang Guadalajara](https://www.meetup.com/es/Golang-Guadalajara/) - Guadalajara, México
 
 ## United States
 
