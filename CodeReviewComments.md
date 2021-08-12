@@ -250,7 +250,7 @@ or null to signal errors or missing results:
 // Lookup returns the value for key or "" if there is no mapping for key.
 func Lookup(key string) string
 
-// Failing to check a for an in-band error value can lead to bugs:
+// Failing to check for an in-band error value can lead to bugs:
 Parse(Lookup(key))  // returns "parse failure for value" instead of "no value for key"
 ```
 
