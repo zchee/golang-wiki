@@ -124,6 +124,7 @@
   * [Mercado Livre](http://www.mercadolivre.com.br/) - [github](https://github.com/mercadolibre/)
   * [Meu Astro](https://meuastro.com.br)
   * [Moip Pagamentos](https://www.moip.com.br)
+  * [Mosaico](https://www.mosaico.com.br) - [github](https://github.com/somosmosaico) - Biggest content and sales generation platform in Brazil. Zoom, Buscapé and Bondfaro.
   * [MundiPagg](https://www.mundipagg.com) - [github](https://github.com/mundipagg)
   * [Neoway Business Solutions](http://www.neoway.com.br) - [github](https://github.com/NeowayLabs)
   * [Newcore](https://www.newcore.com.br/)
