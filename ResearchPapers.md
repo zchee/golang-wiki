@@ -287,8 +287,6 @@ Boris Mattijssen) bachelor thesis,
   - [pdf](https://mehrdad.afshari.me/publications/dissertation.pdf)
 - MapReduce vs. Pipelining Counting Triangles (Edelmira Pasarella, Maria-Esther Vidal,and Cristina Zoltan) 
   - [pdf](http://ceur-ws.org/Vol-1644/paper33.pdf)
-- Software Engineering with PSF and Go (Erik van der Schaaf) Thesis, University of Amsterdam
-  - [pdf](https://esc.fnwi.uva.nl/thesis/centraal/files/f1899376590.pdf)
 - Parametric Polymorphism in the Go Programming Language (Matthew Allen) University of Texas, 
 Turing Scholars honors thesis 
   - [pdf](http://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2231.pdf)
