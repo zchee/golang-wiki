@@ -4,11 +4,9 @@ The [Workspace proposal](https://github.com/golang/go/issues/45713) aims to impr
 
 Please read the [Workflows](https://go.googlesource.com/proposal/+/master/design/45713-workspace.md#workflows) section of the Workspace proposal design document for more information about the workflows the proposal aims to address and how it addresses them. If you have a multi-module workflow that you'd like improved, please give feedback on the [proposal issue](#45713) on how the prototype does or does not help.
 
-For those of you who are more visually oriented, here's a video: 
-
-```
-// TODO(matloob): finish the video and put it here
-```
+For those of you who are more visually oriented, here's a video:
+ 
+[Go Workspaces Proposal Demo Video](https://youtu.be/wQglU5aB5NQ)
 
 # Setting up the Go command
 
