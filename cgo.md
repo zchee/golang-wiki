@@ -146,6 +146,43 @@ func unregister(i int) {
 }
 ```
 
+As of Go 1.17, the `runtime/cgo` package provides [runtime/cgo.Handle](https://pkg.go.dev/runtime/cgo@go1.17#Handle) mechanism and simplifies the above examples to:
+
+```go
+package main
+
+import (
+	"fmt"
+	"runtime/cgo"
+)
+
+/*
+#include <stdint.h>
+
+extern void go_callback_int(uintptr_t h, int p1);
+static inline void CallMyFunction(uintptr_t h) {
+	go_callback_int(h, 5);
+}
+*/
+import "C"
+
+//export go_callback_int
+func go_callback_int(h C.uintptr_t, p1 C.int) {
+	fn := cgo.Handle(h).Value().(func(C.int))
+	fn(p1)
+}
+
+func MyCallback(x C.int) {
+	fmt.Println("callback with", x)
+}
+
+func main() {
+	h := cgo.NewHandle(MyCallback)
+	C.CallMyFunction(C.uintptr_t(h))
+	h.Delete()
+}
+```
+
 ### Function pointer callbacks
 
 C code can call exported Go functions with their explicit name. But if a C-program wants a function pointer, a gateway function has to be written. This is because we can't take the address of a Go function and give that to C-code since the cgo tool will generate a stub in C that should be called. The following example shows how to integrate with C code wanting a function pointer of a give type.
