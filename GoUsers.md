@@ -398,6 +398,7 @@
   * [Halodoc](https://www.halodoc.com)
   * [Hasura](https://hasura.io)
   * [Hotstar](https://www.hotstar.com/)
+  * [INDmoney](https://www.indmoney.com/)
   * [Instamojo](https://www.instamojo.com/)
   * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
