@@ -69,4 +69,4 @@ For other editors see [the configuration section of the gopls docs](https://gith
 * Replace directives are not yet supported in the `go.work` file.
 # Giving Feedback
 
-Feel free to post all feedback on the issue #45713. Alternatively, you can send Michael Matloob a slack message, an email at their last name at golang dot org, or send a message at their last name on twitter.
+Feel free to post all feedback on the issue [#45713](https://github.com/golang/go/issues/45713). Alternatively, you can send Michael Matloob a slack message, an email at their last name at golang dot org, or send a message at their last name on twitter.
