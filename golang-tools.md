@@ -34,10 +34,11 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Upcoming calls
 
-* 2021-08-18 - [Agenda](https://docs.google.com/document/d/1fFwOXTOmPvR2E240z5WC1_VVs7h5vhcH4M81qT-2fW0/edit#) - [Meet](https://meet.google.com/xuq-tcoc-dkp)
+* TBD
 
 ### Call archive
 
+* 2021-08-18 - [Meeting notes](https://docs.google.com/document/d/1fFwOXTOmPvR2E240z5WC1_VVs7h5vhcH4M81qT-2fW0/edit#) - [video](https://youtu.be/yd7eC7myvfA)
 * 2021-06-16 - [Meeting notes](https://docs.google.com/document/d/1P6gv4lHoHz27-PzI2dpmYzdPej2yWHEN2J3L2Czvy2E/edit#) - [video](https://youtu.be/KqFpAS6yfVU)
 * 2021-05-12 - [Meeting notes](https://docs.google.com/document/d/1GFbAAkRfGV_U9b2afFyLjdVgkIu0XrOjWeWig7rfUkk/edit#) - [video](https://youtu.be/rH62CnkYlEs)
 * 2021-04-14 - [Meeting notes](https://docs.google.com/document/d/1w4E4a6QptBn2R3ispbYdhcNmir0JfD_z9r7W1q00Xxk/edit#) - [video](https://youtu.be/jyFz4jM25u8)
