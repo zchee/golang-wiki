@@ -1125,20 +1125,21 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Zarewoft](https://github.com/zarewoft)
 
 ## Turkey
-  * [icibot](https://icibot.com/)
+  * [Admongrel](http://www.admongrel.com/)
   * [Frigbo](https://frigbo.com/)
   * [Hepiyo](https://hepiyo.com/)
-  * [Admongrel](http://www.admongrel.com/)
+  * [icibot](https://icibot.com/)
   * [Insider](http://useinsider.com/)
+  * [LocRep](http://locrep.com/) - [github](https://github.com/locrep) - DevOps OSS Artifact Manager. [Azure-DevOps](https://dev.azure.com/LocRep/) - CI/CD and Scrum
+  * [MasomoGaming](https://www.masomo.com/) - [github](https://github.com/masomo) - Online HeadBall2 Game Server by Go
   * [Mentornity, Inc.](https://mentornity.com/) - Backend API
   * [Mos Teknoloji](https://www.mosteknoloji.com)
   * [Optimum Yazılım](https://www.optimumyazilim.com)
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
-  * [MasomoGaming](https://www.masomo.com/) - [github](https://github.com/masomo) - Online HeadBall2 Game Server by Go
-  * [LocRep](http://locrep.com/) - [github](https://github.com/locrep) - DevOps OSS Artifact Manager. [Azure-DevOps](https://dev.azure.com/LocRep/) - CI/CD and Scrum
-  * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
+  * [Robomotion RPA](https://www.robomotion.io) - [github](https://github.com/robomotionio) - Cloud native RPA platform for Kubernetes
   * [Sir Studios](http://sirstudios.com)
+  * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
 ## Ukraine
   * [Agilites](https://agilites.com)
   * [Aura](https://aura.com)
