@@ -125,18 +125,18 @@ for _, val := range values {
 }
 
 func (v *val) MyMethod() {
-        fmt.Println(v)
+	fmt.Println(v)
 }
 ```
 The above example also will print last element of values, the reason is same as closure. To fix the issue declare another variable inside the loop. 
 
 ```go
 for _, val := range values {
-        newVal := val
+	newVal := val
 	go newVal.MyMethod()
 }
 
 func (v *val) MyMethod() {
-        fmt.Println(v)
+	fmt.Println(v)
 }
 ```
