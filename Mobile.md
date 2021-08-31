@@ -20,27 +20,42 @@ these strategies.
 
 ## Tools
 
-Note: You need to have [Go 1.5 or above](https://golang.org/dl/) to install mobile tools. (Or at least Go 1.7.4 if using macOS Sierra)
+You need to have [Go 1.16 or above](https://golang.org/dl/) to install mobile tools.
 
 Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
-> gomobile support [Go Modules](https://golang.org/ref/mod) now! `$ gomobile bind -v -o android.aar -target=android ./package` under project directory works now.
 
-On macOS, you will need to have
-[Xcode Command Line Tools](https://developer.apple.com/downloads/)
-installed.
+`gomobile` also supports [Go Modules](https://golang.org/ref/mod), e.g. using
+
+```
+$ gomobile bind -v -o android.aar -target=android ./package
+```
+
+under project directory.
+
+On macOS, you will need to have [Xcode Command Line Tools](https://developer.apple.com/downloads/) installed.
 
 When using Go 1.16.x we have to switch the module aware build mode to auto before we can install/use gomobile by executing:
+
 ```
 go env -w GO111MODULE=auto
 ```
+
 Then you can install gomobile tools:
+
 ```
 $ go get golang.org/x/mobile/cmd/gomobile
 $ gomobile init
 ```
 
-(The following sections will help you how to use the gomobile tool.)
+With Go 1.17, you can install `gomobile` tools using `go install`:
+
+```
+$ go install golang.org/x/mobile/cmd/gomobile@latest
+$ gomobile init
+```
+
+The following sections will help you how to use the gomobile tool.
 
 ## Native applications
 
