@@ -144,6 +144,17 @@ Note: Go Mobile runs on the same architectures as Go, which currently means ARM,
 $ gomobile bind -o app/hello.aar -target=android golang.org/x/mobile/example/bind/hello
 ```
 
+Tips: From 1.16, it is recommended to execute `go get -d golang.org/x/mobile/cmd/gomobile` before each execution of `gomobile bind ...`. go get will automatically add indirect references to go.mod. These indirect references maybe automatically deleted by ide or go mod tidy, but they are required!
+```
+require (
+	golang.org/x/mobile v0.0.0-20210716004757-34ab1303b554 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
+	golang.org/x/tools v0.1.2 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+)
+```
+
 * Launch Android Studio.
 * File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
 
