@@ -218,6 +218,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [gocreate](https://bitbucket.org/llg/gocreate/) - Command line utility that create files from templates.
   * [godocdoc](https://github.com/kevinburke/godocdoc) - Start godoc and open it in your browser to the project in the current directory.
   * [gojson](https://github.com/ChimeraCoder/gojson) - Command-line tool for manipulating JSON for use in developing Go code.
+  * [golor](https://github.com/hantuo/golor) - golor is a command line tool for golang source code coloring
   * [GoNote](https://github.com/exaroth/gonote) - Command line SimpleNote client.
   * [gopass](https://github.com/justwatchcom/gopass) - Command line password manager with git syncing capabilities
   * [GoPasswordCreator](https://github.com/d3xter/GoPasswordCreator) - A small tool, which creates random passwords
@@ -1994,7 +1995,6 @@ The following entries have not been filed. Please help by putting these in relev
   * [godotviz](http://github.com/sc0rp1us/godotviz) - Rendering graphics files from "DOT language". Written in golang
   * [go-gmetric](https://github.com/jbuchbinder/go-gmetric) - Ganglia gmetric protocol support
   * [gographviz](http://code.google.com/p/gographviz) - Graphviz DOT language parser for golang
-  * [golor](https://github.com/hantuo/golor) - golor is a command line tool for golang source code coloring
   * [gopcapreader](http://code.google.com/p/gopcapreader) - Presents realtime pcap data as io.Reader objects
   * [go.psl](https://github.com/ebfe/go.psl) - Go regdom-libs/public suffix list
   * [goseq](https://github.com/lmika/goseq) - command line tool, written in Go, for creating sequence diagrams using a text-based description language.
