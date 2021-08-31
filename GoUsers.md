@@ -998,6 +998,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Serbia
 * [Seven Bridges](https://www.sevenbridges.com/) - [github](https://github.com/sbg)
 
+## ShiHuo
+* [ShiHuo](https://www.shihuo.cn/) - [github](https://github.com/shihuo-cn)
+
 ## Singapore
 * [OKiT247](https://okit247.com) - Frontend analytics and web content delivery.
 * [Rate](https://rate.com.sg)
