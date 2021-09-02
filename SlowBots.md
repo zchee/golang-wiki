@@ -26,7 +26,7 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 For the main Go repository, the terms after `TRY=` can also be:
 
 * `x/repo`, where `repo` is one of the golang.org/x repositories whose tests should be executed. This runs a default builder for the given repo (`linux-amd64` as of writing).
-* `x/repo@builder`, where `repo` is as above, and `builder` is a builder name from the [list of builders](https://farmer.golang.org/builders). This runs the specified builder for the given repo. For example, `x/sys@linux-arm64-aws`
+* `x/repo@builder`, where `repo` is as above, and `builder` is a builder name from the [builder list](https://farmer.golang.org/builders). This runs the specified builder for the given repo. For example, `x/sys@linux-arm64-aws`.
 
 When running TryBots again later, the most recent `TRY=` comment on the current patchset is used. To turn it off set `TRY=` with an empty string after the equals sign. If the current patchset doesn't have a `TRY=` comment, the most recent non-empty `TRY=` comment is used.
 
