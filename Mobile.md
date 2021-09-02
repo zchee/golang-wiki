@@ -22,7 +22,7 @@ these strategies.
 
 You need to have [Go 1.16 or above](https://golang.org/dl/) to install mobile tools.
 
-Go Mobile introduces a new tool, [gomobile](https://golang.org/x/mobile/cmd/gomobile),
+Go Mobile introduces a tool, [`gomobile`](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
 
 `gomobile` also supports [Go Modules](https://golang.org/ref/mod), e.g. using
@@ -31,31 +31,18 @@ to help you with the build and the binding process.
 $ gomobile bind -v -o android.aar -target=android ./package
 ```
 
-under project directory.
+under a project directory.
 
 On macOS, you will need to have [Xcode Command Line Tools](https://developer.apple.com/downloads/) installed.
 
-When using Go 1.16.x we have to switch the module aware build mode to auto before we can install/use gomobile by executing:
-
-```
-go env -w GO111MODULE=auto
-```
-
-Then you can install gomobile tools:
-
-```
-$ go get golang.org/x/mobile/cmd/gomobile
-$ gomobile init
-```
-
-With Go 1.17, you can install `gomobile` tools using `go install`:
+To install `gomobile` tools:
 
 ```
 $ go install golang.org/x/mobile/cmd/gomobile@latest
 $ gomobile init
 ```
 
-The following sections will help you how to use the gomobile tool.
+The following sections will help you how to use the `gomobile` tool.
 
 ## Native applications
 
@@ -96,6 +83,7 @@ $ gomobile install golang.org/x/mobile/example/basic
 ```
 
 ### Building and deploying to iOS
+
 Run `gomobile build` to build the package as an iOS application.
 
 Note: target=ios requires the host machine running macOS. You need to obtain a [signing identity and download provisioning profiles](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in order to continue.
