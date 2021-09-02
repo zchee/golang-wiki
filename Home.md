@@ -161,8 +161,6 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - [Errors](Errors)
 - [GcToolchainTricks](GcToolchainTricks)
 - [Hashing](Hashing)
-- [HttpFetch](HttpFetch)
-- [HttpStaticFiles](HttpStaticFiles)
 - [InterfaceSlice](InterfaceSlice)
 - [Iota](Iota)
 - [MethodSets](MethodSets)
