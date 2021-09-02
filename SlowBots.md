@@ -25,7 +25,8 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 
 For the main Go repository, the terms after `TRY=` can also be:
 
-* `x/repo` (where `repo` is one of the golang.org/x repositories whose tests should be executed)
+* `x/repo`, where `repo` is one of the golang.org/x repositories whose tests should be executed. This runs a default builder for the given repo (`linux-amd64` as of writing).
+* `x/repo@builder`, where `repo` is as above, and `builder` is a builder name from the [list of builders](https://farmer.golang.org/builders). This runs the specified builder for the given repo. For example, `x/sys@linux-arm64-aws`
 
 When running TryBots again later, the most recent `TRY=` comment on the current patchset is used. To turn it off set `TRY=` with an empty string after the equals sign. If the current patchset doesn't have a `TRY=` comment, the most recent non-empty `TRY=` comment is used.
 
@@ -40,7 +41,5 @@ When running TryBots again later, the most recent `TRY=` comment on the current 
 * There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway. See [golang.org/issue/34501#issuecomment-544585711](https://golang.org/issue/34501#issuecomment-544585711).
 
 ## TODO
-
-- Allow selecting a builder other than `linux-amd64` for x/REPO queries ([golang.org/issue/39201](https://golang.org/issue/39201)).
 
 The usability of SlowBots will be improved over time. It needs to report things better, make it easier to configure (both CLI and probably a web GUI picker UI), and support restarting things, or modifying in-progress TryBot runs to change the set of builders. Feedback welcome at [golang.org/issue/34501](https://golang.org/issue/34501).
