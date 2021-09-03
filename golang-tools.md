@@ -78,7 +78,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 We try to share the load of organizing and running the calls between Gophers inside and outside of Google (generally alternating between Googlers and non-Googlers). Here are the steps required as organizer:
 
-1. Using a non-google.com account, ask Paul Jolly for editing access to the [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), and then create a folder for the next monthly call, and a put a copy of the previous call's agenda in it. If using a @google.com account, you won't be able to make the agenda editable by anyone with the link, so Googlers might have to ask someone else to do this step (or use an external account with appropriate permissions).
+1. Using a non-google.com account, ask Paul Jolly for editing access to the [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), and then create a folder for the next monthly call, and a put a copy of the previous call's agenda in it. The copy will only be visible by anyone with the link, so change that to allow edits (this last step is not possible with docs owned by @google.com accounts).
 2. Rename and clear out the agenda for the next call.
 3. Update this wiki, archiving the previous call and linking the new upcoming call.
 4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:30-17:30 London.
