@@ -34,7 +34,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Upcoming calls
 
-* TBD
+* 2021-09-29 - [Agenda](https://docs.google.com/document/d/15CTfyASn5wBgpAAGhOpgaGg7LaUVd7WYVSZHuybTTVk/edit)
 
 ### Call archive
 
