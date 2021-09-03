@@ -410,6 +410,7 @@
   * [LiteBreeze](https://litebreeze.com/)
   * [MakeMyTrip](https://makemytrip.com/)
   * [South Tourism](https://southtourism.in/)
+  * [Mailazy](https://mailazy.com/)
   * [Mindbowser](http://mindbowser.com/)
   * [Mindship](http://www.mindship.io)
   * [Nazara Games](https://www.nazara.com/)
