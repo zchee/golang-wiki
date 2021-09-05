@@ -14,16 +14,6 @@ $ sudo apt install golang-go
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.17` instead and use the binaries from `/usr/lib/go-1.17/bin`.**
 
-If that's too new for you, try: (Ubuntu 19.04 max)
-
-```
-$ sudo add-apt-repository ppa:gophers/archive
-$ sudo apt update
-$ sudo apt install golang-1.11-go
-```
-
-> **Note that `golang-1.11-go` puts binaries in `/usr/lib/go-1.11/bin`. If you want them on your PATH, you need to make that change yourself.**
-
 Using [snaps](https://snapcraft.io/go) also works quite well:
 
 ```
