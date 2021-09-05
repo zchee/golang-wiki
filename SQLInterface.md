@@ -132,6 +132,6 @@ if name.Valid {
 }
 ```
 
-Only [`NullBool`](https://golang.org/pkg/database/sql/#NullBool), [`NullFloat64`](https://golang.org/pkg/database/sql/#NullFloat64), [`NullInt64`](https://golang.org/pkg/database/sql/#NullInt64), [`NullInt32`](https://golang.org/pkg/database/sql/#NullInt32), [`NullString`](https://golang.org/pkg/database/sql/#NullString) and [`NullTime`](https://golang.org/pkg/database/sql/#NullTime) are implemented in
+Only [`NullByte`](https://golang.org/pkg/database/sql/#NullByte), [`NullBool`](https://golang.org/pkg/database/sql/#NullBool), [`NullFloat64`](https://golang.org/pkg/database/sql/#NullFloat64), [`NullInt64`](https://golang.org/pkg/database/sql/#NullInt64), [`NullInt32`](https://golang.org/pkg/database/sql/#NullInt32) [`NullInt16`](https://golang.org/pkg/database/sql/#NullInt16), [`NullString`](https://golang.org/pkg/database/sql/#NullString) and [`NullTime`](https://golang.org/pkg/database/sql/#NullTime) are implemented in
 `database/sql`. Implementations of database-specific null types are left
 to the database driver. User types supporting `NULL` can be created by implementing interfaces [`database/sql/driver.Valuer`](https://golang.org/pkg/database/sql/driver/#Valuer) and [`database/sql.Scanner`](https://golang.org/pkg/database/sql/#Scanner).
