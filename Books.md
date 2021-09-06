@@ -405,6 +405,14 @@ Sorted by publication date, ascending.
   * Publication Date: March 2021
   * Reference: https://bitfieldconsulting.com/books/love-bundle
 
+* **Mastering Go - Third Edition**
+    * Author: Mihalis Tsoukalos
+    * Publication Date: 31 August 2021
+    * ISBN-10: 1801079315
+    * ISBN-13: 978-1801079310
+    * Reference: https://www.packtpub.com/product/mastering-go-third-edition/9781801079310
+    * Reference: https://www.amazon.com/Mastering-Go-professional-utilities-concurrent-dp-1801079315/dp/1801079315
+
 ***
 ## Early Access
 
