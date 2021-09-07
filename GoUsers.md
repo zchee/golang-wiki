@@ -647,6 +647,7 @@
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [Chompy, Inc.](https://chompy-inc.com/)
+  * [Cluster, Inc.](https://corp.cluster.mu)
   * [Cloud Ace, Inc.](https://www.cloud-ace.jp/)
   * [Clover Lab.,inc.](https://cloverlab.jp/)
   * [Connehito Inc.](https://connehito.com/)
