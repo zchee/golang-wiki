@@ -35,6 +35,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 ### Upcoming calls
 
 * 2021-10-06 - [Agenda](https://docs.google.com/document/d/15CTfyASn5wBgpAAGhOpgaGg7LaUVd7WYVSZHuybTTVk/edit)
+* 2021-09-15 special addition: supporting type parameters [Agenda](https://docs.google.com/document/d/1Wk2Jp9yV8h3ApKsepBrsE37s8f4sDb0eVjfGOaIPsHM)
 
 ### Call archive
 
