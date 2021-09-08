@@ -201,7 +201,6 @@ local or project-specific import.
 
 Imports are organized in groups, with blank lines between them.
 The standard library packages are always in the first group.
-The dependency packages are always in the second group cause there are changes less.
 
 ```go
 package main
@@ -211,11 +210,11 @@ import (
 	"hash/adler32"
 	"os"
 
-	"github.com/foo/bar"
-	"rsc.io/goversion/version"
-
 	"appengine/foo"
 	"appengine/user"
+
+	"github.com/foo/bar"
+	"rsc.io/goversion/version"
 )
 ```
 
