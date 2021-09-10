@@ -1117,6 +1117,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ## Microservices
 
   * [car_registration](https://github.com/infiniteloopltd/GoCarRegistrationAPI) - API wrapper for worldwide car registration data
+  * [go-doudou](https://github.com/unionj-cloud/go-doudou) - A gossip protocol and OpenAPI 3.0 spec based decentralized microservice framework. Built-in go-doudou cli focusing on low-code and rapid dev can power up your productivity.
   * [gokit](https://github.com/go-kit/kit) - The Go Kit microservice framework (and [author interview](http://www.infoq.com/news/2015/09/microservices-with-go-kit)).
   * [go-micro](https://github.com/micro/go-micro) - Go Micro is a microservices library which provides the fundamental building blocks for writing fault tolerant distributed systems at scale.
   * [kite](https://github.com/koding/kite) - RPC server and client framework.
