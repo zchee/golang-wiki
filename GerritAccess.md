@@ -4,31 +4,33 @@ There are two types of Gerrit access described here, with different powers & res
 
 (For Github access, see https://golang.org/wiki/GithubAccess)
 
-## Approver Access ("approvers")
+## Becoming an Approver ("approvers")
 
-Approver access gives you power to +2 CLs and submit them.
+Approvers can review and submit code changes (CLs), subject to the review rules described below. Being an approver comes with an expectation of responsibility: approvers are people who care about Go and want to help it succeed. An approver is not just someone who can make changes, but someone who has demonstrated their ability to collaborate with the team, get the most knowledgeable people to review code, contribute high-quality code, and follow through to fix issues (in code or tests). 
 
-Rules for voting +2 on changes: only +2 things that you're very confident in, and generally only in a directory (or package) that you normally "own", unless it's trivial and obviously correct.
+Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of a second trusted approver (an additional Code-Review+2, or a Trust+1). Requiring two people ensures that code cannot be submitted unilaterally from a single compromised account. If the author of a change is an approver, they can provide the Trust+1 for their own CLs, but not the Code-Review+2. Once a review has a Code-Review+2 and either a second Code-Review+2 or a Trust+1, it can be submitted, by any approver. All these rules are enforced by the Gerrit server.
 
-Rules for submitting changes: if a change touches an area that you own, you can submit any changes after a +2. But elsewhere only submit your own changes after receiving a +2 from the owner of that area.
+A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://golang.org/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](https://github.com/golang/go/wiki/CommitMessage) (“For #NNN.”).
 
-Approver access also gives you power to Trust+1 CLs. Every code change requires two approvers, with at least one +2. The second approver can Trust+1 (a +2 from a second approver also suffices).
+A Trust+1 vote means that you have read the change and are confident that the change does not introduce any sort of security vulnerability or other clearly inappropriate code change. As long as you are sure about that, it's OK to Trust+1 a change even if you don't fully understand all the details of the change.
 
-Rules for voting Trust+1 on changes: only Trust+1 a change if you are confident that the change does not introduce any sort of security vulnerability or other clearly inappropriate code change. As long as you are sure about that, it's OK to Trust+1 a change even if you don't fully understand all the details of the change.
+When a change has the appropriate reviews to be submitted, a Submit button appears in Gerrit (for approvers). You should only submit changes with a Code-Review+2 from the owner of that area (maybe you!).
 
-If the author of the change is an approver, they may (and are expected to) Trust+1 their own change, but someone else must +2 the change before it can be submitted.
+If you are an approver, you can (and are encouraged to) Trust+1 every change you mail, by changing your [`git mail` alias](https://golang.org/doc/contribute#git-config) to be `git codereview mail -trust`. 
 
-To request this access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
+To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
-## Trybot Access ("may-start-trybots")
+## Running Trybots ("may-start-trybots")
 
 Trybot access lets you kick off a trybot run, testing a CL in Gerrit against the most common builders. The Trybots run in a somewhat-secure and somewhat-isolated environment, but they're not perfectly security hardened. You must skim the CL for anything malicious before starting Trybots.
 
-To request this access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See below.
+To request trybot access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See below.
 
 # Requesting Access
 
 To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://golang.org/wiki/GerritAccess) and list and state which access you want (its name and group URL), and state your Gerrit email address.
+
+Decisions about granting access are made by the Go release team at Google. If your request is declined, it is almost always because you haven't been active enough for them to get a clear enough signal about your work, understanding of project conventions, and so on. Don't lose heart: it can take time to reach that level of familiarity.
 
 ## Once you have access
 
