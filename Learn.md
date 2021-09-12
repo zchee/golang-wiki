@@ -1,6 +1,6 @@
 In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
 
-  * [Go Mastery](https://qvault.io/go-mastery-course/) - Code in the browser exercises with code verification
+  * [Go Mastery](https://qvault.io/go-mastery-course/) - Code in the browser exercises with answer checking
   * [Go in 5 Minutes](https://gifm.dev)
   * [The Little Go Book](http://openmymind.net/The-Little-Go-Book/)
   * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
