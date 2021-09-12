@@ -80,4 +80,5 @@ Go is a great language for CS majors. This page presents some university courses
 
 # Security
 
+  * [Practical Cryptography Course](https://qvault.io/practical-cryptography-course/) at Qvault. A code-in-the-browser course where [cryptography](https://qvault.io/cryptography/what-is-cryptography/) principles are taught in the Go language.
   * [Computer Systems Security](https://cs.brown.edu/courses/cs166/) (CS166) At Brown University. In particular, the final [Dropbox Project](https://cs.brown.edu/courses/cs166/files/assignments/dropbox.pdf).
