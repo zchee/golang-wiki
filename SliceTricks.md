@@ -103,7 +103,7 @@ s[i] = x
 
 #### InsertVector
 ```go
-a = append(a[:i], append([]T{b}, a[i:]...)...)
+a = append(a[:i], append(b, a[i:]...)...)
 
 // The above one-line way copies a[i:] twice and
 // allocates at least once.
