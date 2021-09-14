@@ -1,12 +1,12 @@
-Our default decision should always be to not backport, but fixes for **security issues**, **serious problems with no workaround**, and **documentation fixes** are backported to the most recent two release branches, if applicable to that branch. (for example, the most current two release branches are `release-branch.go1.13` and `release-branch.go1.14`, from which new `Go 1.13.x` and `Go 1.14.x` releases are cut) Fixes for experimental ports are generally not backported.
+Our default decision should always be to not backport, but fixes for **security issues**, **serious problems with no workaround**, and **documentation fixes** are backported to the most recent two release branches, if applicable to that branch. (for example, the most current two release branches are `release-branch.go1.16` and `release-branch.go1.17`, from which new `Go 1.16.x` and `Go 1.17.x` releases are cut) Fixes for experimental ports are generally not backported.
 
 A “serious” problem is one that prevents a program from working at all.
 
-As soon as an interested party thinks an issue should be considered for backport, they open one or two “child” issues titled like `package: title [1.9 backport]`. The issue should include a link to the original issue and a short rationale about why the backport might be needed.
+As soon as an interested party thinks an issue should be considered for backport, they open one or two “child” issues titled like `package: title [1.17 backport]`. The issue should include a link to the original issue and a short rationale about why the backport might be needed.
 
 GopherBot is capable of opening the backport issues automatically in response to comments like the following on the main issue. (The keywords are `@gopherbot`, `backport`, `please` and optionally the release. The entire message is quoted in the new issue.)
 
-> @gopherbot please consider this for backport to 1.10, it's a regression.
+> @gopherbot please consider this for backport to 1.17, it's a regression.
 
 > @gopherbot please open the backport tracking issues. This is a severe compiler bug.
 
@@ -34,7 +34,7 @@ In the popup enter the branch name (like `release-branch.go1.10`), add the commi
 To cherry-pick from the command line or to resolve a merge conflict, take note of the final commit hash, then use `git codereview` and `git cherry-pick` to prepare a cherry-pick CL:
 
 ```
-git checkout release-branch.go1.10
+git checkout release-branch.go1.17
 git codereview change cherry-pick-NNNN
 git cherry-pick $COMMIT_HASH
 git commit --amend # add message prefix and change Fixes line
