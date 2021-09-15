@@ -646,6 +646,7 @@
   * [Belong Inc.](https://about.belong.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
       * [CloudSign](https://www.cloudsign.jp/)
+  * [CastingONE Inc.](https://casting-one.jp/)
   * [Chompy, Inc.](https://chompy-inc.com/)
   * [Cluster, Inc.](https://corp.cluster.mu)
   * [Cloud Ace, Inc.](https://www.cloud-ace.jp/)
