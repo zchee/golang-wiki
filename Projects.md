@@ -1723,6 +1723,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
   * [py4go](https://github.com/tliron/py4go) - Python 3 bindings for Go
   * [RubyGoLightly](https://github.com/feyeleanor/RubyGoLightly) - An experimental port of TinyRb to Go
+  * [Scriggo](https://github.com/open2b/scriggo) - A Go interpreter and a template engine with Go as scripting language
   * [v8](https://github.com/augustoroman/v8) - V8 JavaScript engine bindings for Go (supports V8 builds at least up to 5.8.244)
   * [Yaegi](https://github.com/containous/yaegi) - A complete Go interpreter in Go
 
