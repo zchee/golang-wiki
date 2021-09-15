@@ -785,6 +785,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [WealthPark, Inc.](https://wealth-park.com/en/corporate/careers/#engineering-department)
+  * [XICA Inc.](https://xica.net/)
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
       * [IoTit Flashing tool](http://iotit.isaax.io)
