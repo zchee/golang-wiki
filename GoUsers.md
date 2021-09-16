@@ -734,6 +734,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Miniascape Co., Ltd.](https://www.miniascape.co.jp/)
   * [Minna Bank, Ltd.](https://www.minna-no-ginko.com/)
   * [Mirrativ, Inc.](https://www.mirrativ.co.jp/)
+  * [mixi, Inc.](https://mixi.co.jp/en/)
   * [Mobingi](https://mobingi.com/) - [github](https://github.com/mobingi)
   * [Mokelab](https://mokelab.com) - [github](https://github.com/mokelab-go/)
   * [Momentum Inc.](https://www.m0mentum.co.jp/)
