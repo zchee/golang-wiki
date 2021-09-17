@@ -707,6 +707,7 @@
   * [KRPEO](https://rikitake.jp/)
   * [Kyash Inc](https://kyash.co/en/)
   * [LayerX, Inc](https://layerx.co.jp/)
+  * [LEAN BODY Inc.](https://lean-body.co.jp/)
   * [Link-U Inc.](https://www.link-u.co.jp/)
   * [Linkbal Inc.](https://linkbal.co.jp/)
   * [LINE](https://linecorp.com/)
