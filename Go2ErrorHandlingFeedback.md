@@ -46,6 +46,8 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
  - Daniel Theophanes, "[Go 2 Design: Error Handling Net Win](https://docs.google.com/document/d/e/2PACX-1vSq487dLylRHjgtKV42EbTKHW1aHZaaso3MZ4HOG1OS-s8suOnR9WZz6ahzH4Kufs2vwKKDMhoj1_I6/pub)", August 2018
 
+- Alexandru-Paul Copil, "[In Support, with slight modifications and considerations](https://gist.github.com/cpl/54ed073e20f03fb6f95257037d311420)", September 2021
+
 ## Example code
 
 Code changed to use the existing proposal.
