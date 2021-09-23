@@ -889,7 +889,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/)
   * [Aeroqual](https://www.aeroqual.com/)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
-  * [Rocos](https://www.rocos.io) - [github](https://github.com/team-rocos)
+  * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
 
 ## Norway
   * [Aller media](https://www.aller.no/)
