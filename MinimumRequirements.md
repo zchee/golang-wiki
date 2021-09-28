@@ -26,7 +26,7 @@ macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
 
 Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://golang.org/doc/go1.15#darwin.
 
-Go 1.17 and later only support macOS Sierra 10.13 or newer; see https://golang.org/doc/go1.17#darwin.
+Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://golang.org/doc/go1.17#darwin.
 
 We only have builders for 10.12, 10.14, 10.15, and 11.0 as of 2021-09-28.
 
