@@ -320,7 +320,18 @@ import "unsafe"
         slice := (*[1 << 28]C.YourType)(unsafe.Pointer(theCArray))[:length:length]
 ```
 
-It is important to keep in mind that the Go garbage collector will not interact with this data, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
+With Go 1.17 or later, programs can use `unsafe.Slice` instead, which similarly results in a Go slice backed by a C array:
+
+```go
+import "C"
+import "unsafe"
+...
+        var theCArray *C.YourType = C.getTheArray()
+        length := C.getTheArrayLength()
+        slice := unsafe.Slice(theCArray, length) // Go 1.17
+```
+
+It is important to keep in mind that the Go garbage collector will not interact with the underlying C array, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
 
 ## Common Pitfalls
 ### Struct Alignment Issues
