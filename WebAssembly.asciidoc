@@ -186,6 +186,8 @@ is in development.
 
 * https://github.com/bgokden/gowebian[GoWebian]: A library to build pages with pure Go and add WebAssembly bindings.
 
+* https://github.com/hexops/vecty[VECTY]: Build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
+
 * https://github.com/norunners/vert[`vert`]: WebAssembly interop between Go and JS values.
 
 * https://github.com/norunners/vue[`vue`]: The progressive framework for WebAssembly applications.
