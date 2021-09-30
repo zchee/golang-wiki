@@ -48,6 +48,7 @@ These editors are less popular, and may have less modern Go support. In particul
   * **[Source Insight](https://www.sourceinsight.com)**: Commercial programming editor & code browser with built-in live analysis for C, C++, C#, Java, and more; helping you understand large projects.
     * [golang.xclf](https://www.sourceinsight.com/pub/languages/golang.xclf) is a [Custom Language](https://www.sourceinsight.com/download/custom-languages/) file adding syntax formatting and some parsing support to Source Insight for Go language.
   * **[Sublime Text](http://www.sublimetext.com/)**: Commercial text editor.
+    * (Sublime Text 4 only) [LSP + gopls](https://lsp.sublimetext.io/language_servers/#go) is a plugin collection with IDE-like features available.
     * [GoSublime](https://github.com/DisposaBoy/GoSublime) is a plugin collection with IDE-like features available.
     * [Golang Build](https://github.com/golang/sublime-build) is the official Sublime Text package for Go build system integration.
   * **[Textadept](http://foicica.com/textadept/)**:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
@@ -57,5 +58,3 @@ These editors are less popular, and may have less modern Go support. In particul
 
   * **[Cloud9](https://aws.amazon.com/cloud9/)**: claims full Go support.
   * **[Gitpod](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
-
-
