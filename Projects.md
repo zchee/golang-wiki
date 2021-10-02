@@ -866,6 +866,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ## Graphics and Audio
 
+  * [accumimage](https://github.com/spakin/accumimage) - Variant of [`image.NRGBA`](https://pkg.go.dev/image#NRGBA) and [`color.NRGBA`](https://pkg.go.dev/image/color#NRGBA) that supports accumulation and averaging of colors
   * [AnsiGo](https://github.com/fcambus/ansigo) - Simple ANSi to PNG converter written in pure Go
   * [Arclight](http://www.angryredplanet.com/exh/arclight/) - Arclight is a tool for rendering images
   * [bild](https://github.com/anthonynsimon/bild) - A collection of image processing algorithms in pure Go
