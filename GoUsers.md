@@ -801,6 +801,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
            * [Athenz Client Sidecar](https://github.com/yahoojapan/athenz-client-sidecar) - An implementation of Kubernetes sidecar container to provide a common interface to retrieve authentication and authorization credential from Athenz server.
            * [Athenz Authorization Proxy](https://github.com/yahoojapan/authorization-proxy) - An implementation of Kubernetes sidecar container to provide a common interface for API endpoint authentication and authorization. It caches the policies from Athenz, and provides a reverse proxy interface to control access on specific URL endpoints.
   * [Yappli, Inc.](https://yappli.co.jp/)
+  * [ZOZO, Inc.](https://corp.zozo.com/)
 
 ## Kazakhstan
   * Kolesa LLC - microservices for classified ads websites and mobile applications backend ([Kolesa](http://kolesa.kz), [Krisha](https://krisha.kz), [Market](https://market.kz))
