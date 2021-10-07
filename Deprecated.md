@@ -36,4 +36,4 @@ type ResponseRecorder struct {
 package rc4
 ```
 
-There are a few other examples [in the standard library](https://golang.org/search?q=deprecated).
+There are a few other examples [in the standard library](https://cs.opensource.google/search?q=Deprecated:%20language:go&ss=go%2Fgo).
