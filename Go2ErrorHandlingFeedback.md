@@ -122,7 +122,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 
 # Modest revisions
- - Joe Lapp, "[`on...return` for error handling](https://github.com/golang/go/issues/48855)"
+ - Joe Lapp, "[`on...return` for error handling](https://github.com/golang/go/issues/48855)", Oct 2021
 
  - Leidong Liu, "[a, b, !checkError := Sub(...)](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)", Nov 2019
 
