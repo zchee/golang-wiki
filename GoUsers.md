@@ -2,8 +2,9 @@
 
 ## Africa
   * [Analitica Innovare](https://analiticainnovare.com/) - Data Analytics and Artificial Intelligence company in Ghana.
-  * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
-  * [Global Performance Index (GPI)](https://www.my-gpi.com/) - Biggest Software automation company in Nigeria.
+
+## Angola
+  * [Nellcorp](https://nellcorp.com/) - Technology consulting agency.
 
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
@@ -891,6 +892,10 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
+
+## Nigeria
+  * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
+  * [Global Performance Index (GPI)](https://www.my-gpi.com/) - Biggest Software automation company in Nigeria.
 
 ## Norway
   * [Aller media](https://www.aller.no/)
