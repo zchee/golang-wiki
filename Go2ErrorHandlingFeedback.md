@@ -122,8 +122,6 @@ Concepts that appear repeatedly among the suggestions below.
 
 
 # Modest revisions
- - Joe Lapp, "[`on...return` for error handling](https://github.com/golang/go/issues/48855)", Oct 2021
-
  - Leidong Liu, "[a, b, !checkError := Sub(...)](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)", Nov 2019
 
  - Jin Feng, "[A simplified Go 2 error handling solution with no handler], (https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
@@ -255,6 +253,8 @@ Concepts that appear repeatedly among the suggestions below.
 # Uncategorized
 
 Please help categorize the rest of the proposals here.
+
+- Joe Lapp, "[`on...return` for error handling](https://github.com/golang/go/issues/48855)", Oct 2021
 
 - Andrew Gwozdziewycz, "[Check for Go Errors](http://sigusr2.net/check-for-go-errors.html)", June 2019 
 
