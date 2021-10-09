@@ -1269,6 +1269,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [apiproxy](https://sourcegraph.com/github.com/sourcegraph/apiproxy/tree) - proxy for HTTP/REST APIs with configurable cache timeouts
   * [boom](https://github.com/rakyll/boom) - HTTP(s) benchmarking tool, Apache Benchmark replacement
+  * [Ddosify](https://github.com/ddosify/ddosify) - High-performance load testing tool, written in Golang
   * [eventsource](https://github.com/antage/eventsource) - Server-sent events for net/http server.
   * [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
   * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
