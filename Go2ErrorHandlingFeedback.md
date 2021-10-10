@@ -191,6 +191,8 @@ Concepts that appear repeatedly among the suggestions below.
 
 ## Labeled error handlers
 
+- Joe Lapp, "[Local-only throw-catch error handling](https://github.com/golang/go/issues/48896)", October 2021
+
 - Danijel Premus, "[Use existing go labels](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7)", December 2018
 
 - Burak Serdar, "[Handler for err declares both err and errHandler, less intrusive labeled error handling](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1)", October 2018
