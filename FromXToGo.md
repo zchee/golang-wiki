@@ -63,7 +63,6 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Switching from PHP to Go (read comments section)](https://www.reddit.com/r/golang/comments/3wfnru/switching_from_php_to_go/)
 * [A Journey into Microservices](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/)
 * [ARDUINO WEB ARCHITECTURE, BACK TO THE FUTURE](https://blog.arduino.cc/2015/04/16/arduino-web-architecture-back-to-the-future/)
-* [Why I switched from PHP to Go](http://codepushr.com/why-i-switched-from-php-to-go/)
 * [Marco switched to GoLang from PHP and Saved Money, why not you ?!](http://phpmagazine.net/2015/02/marco-switched-to-golang-from-php-and-saved-money-why-not-you.html)
 * [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
 * [When All You Have is an ElePHPant (Slides from ConFoo 2016)](https://www.ramblinations.com/when-all-you-have-is-an-elephpant)
