@@ -14,7 +14,7 @@ Commercial providers of Go training
 * [Go Language Programming Practical Basics Tutorial - Sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX) - Free video tutorial for Go beginners by Sentdex.
 * [O'Reilly Go Fundamentals](http://shop.oreilly.com/category/learning-path/go-fundamentals.do) - Video training series.
 * [Pluralsight.com](http://www.pluralsight.com/tag/golang) - Offers around 20 classes from beginner to advanced levels.
-* [Master Go](https://appliedgo.com/p/mastergo/) - A paid online video course on Go for developers
+* [Master Go](https://appliedgo.com/courses/mastergo) - A paid online video course on Go for developers
 * [Learn to Create Web Applications using Go](https://www.usegolang.com/) - A paid online video course and book about Web programming with Go
 * [Golang tutorial](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
 * [Ultimate Go Live Lessons](http://www.informit.com/store/ultimate-go-programming-livelessons-9780134757483) - This is Ardan Labs classroom Go training on video.
