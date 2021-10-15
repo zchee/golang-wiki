@@ -304,6 +304,8 @@ base64 encoding/decoding, convert Unix time, etc (live https://handytools.xd-den
   contains some interesting technical insights.
 * https://justinclift.github.io/tinygo_canvas2/[TinyGo canvas]
 ** This is compiled with https://tinygo.org[TinyGo] instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
+* https://car-and-mouse.web.app/[Car and Mouse]
+** A game where you gain points by leading a small canvas drawn car with your cursor
 
 ## Database
 * https://github.com/pingcap/tidb/pull/13069[TiDB-Wasm] - Running TiDB, a golang database in the browser on Wasm.
