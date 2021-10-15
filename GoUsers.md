@@ -248,6 +248,8 @@
   * [meicai](https://www.meicai.cn) - Catering supply chain service provider
   * [360](https://www.360.com/)
   * [xueqiu](https://www.xueqiu.com/)
+  * [hexcloud](https://www.hexcloud.cn/)
+
 
 ## Croatia
   * [Crossvallia](https://crossvallia.hr/)
