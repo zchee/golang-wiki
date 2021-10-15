@@ -1155,6 +1155,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Optimum Yazılım](https://www.optimumyazilim.com)
   * [Peak Games](https://www.peakgames.net/) - [github](https://github.com/peakgames) - Processing billions of events per day.
   * [put.io](https://www.put.io/) - [github](https://github.com/putdotio)
+  * [Mersin Teknik Asansor](https://www.mersinteknikasansor.com/) - [github](https://github.com/) - Backend APIs
   * [Robomotion RPA](https://www.robomotion.io) - [github](https://github.com/robomotionio) - Cloud native RPA platform for Kubernetes
   * [Sir Studios](http://sirstudios.com)
   * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
