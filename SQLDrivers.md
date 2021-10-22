@@ -50,6 +50,7 @@ Drivers for Go's sql package include:
   * **SAP HANA** (pure go): https://github.com/SAP/go-hdb
   * **SAP ASE** (pure go): https://github.com/SAP/go-ase
   * **SAP ASE** (uses cgo): https://github.com/SAP/cgo-ase
+  * **SingleStore**: Use any MySQL driver
   * **Snowflake** (pure Go): https://github.com/snowflakedb/gosnowflake
   * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
   * **SQLite** (uses cgo): https://github.com/gwenn/gosqlite - Supports SQLite dynamic data typing
