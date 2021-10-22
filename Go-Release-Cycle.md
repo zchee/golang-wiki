@@ -86,7 +86,7 @@ release (since there is no chance of introducing a regression compared to
 an earlier release).
 
 By the end of the first month of the freeze, nearly all known bugs
-should have been fixed or explictly postponed (either to the next
+should have been fixed or explicitly postponed (either to the next
 release or indefinitely). There should be few known bugs left,
 perhaps only the ones that have proven too elusive to chase down.
 
