@@ -449,7 +449,7 @@ func f3(x myInterface) {
 }
 ```
 
-The conversion to `myPrintInterface` is entirely dynamic.  It will work as long as the dynamic type of x defines a `print` method.
+The conversion to `myPrintInterface` is entirely dynamic.  It will work as long as the dynamic type of x defines a `Print` method.
 
 Because the conversion is dynamic, it may be used to implement generic programming similar to templates in C++.  This is done by manipulating values of the minimal interface.
 
