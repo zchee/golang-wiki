@@ -274,7 +274,7 @@ const (
 
 C++ and Go provide similar, but not identical, built-in types: signed and unsigned integers of various widths, 32-bit and 64-bit floating-point numbers (real and complex), `struct`s, pointers, etc.  In Go, `uint8`, `int64`, and like-named integer types are part of the language, not built on top of integers whose sizes are implementation-dependent (e.g., `long long`).  Go additionally provides native `string`, `map`, and `chan` (channel) types as well as first-class arrays and slices (described below).  Strings are encoded with Unicode, not ASCII.
 
-Go is far more strongly typed than C++.  In particular, there is no implicit type coercion in Go, only explicit type conversion.  This provides additional safety and freedom from a class of bugs but at the cost of some additional typing.  There is also no `union` type in Go, as this would enable subversion of the type system.  However, a Go `interface{}` (see below) provides a type-safe alternative.
+Go is far more strongly typed than C++.  In particular, there is no implicit type conversion in Go, only explicit type conversion.  This provides additional safety and freedom from a class of bugs but at the cost of some additional typing.  There is also no `union` type in Go, as this would enable subversion of the type system.  However, a Go `interface{}` (see below) provides a type-safe alternative.
 
 Both C++ and Go support type aliases (`typedef` in C++, `type` in Go).  However, unlike C++, Go treats these as different types.  Hence, the following is valid in C++:
 
