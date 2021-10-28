@@ -405,6 +405,7 @@
   * [Hotstar](https://www.hotstar.com/)
   * [INDmoney](https://www.indmoney.com/)
   * [Instamojo](https://www.instamojo.com/)
+  * [Improwised Technologies](https://www.improwised.com)
   * [Ithaka](http://ithaka.travel)
   * [Jabong](http://www.jabong.com)
   * [Josh Software](http://www.joshsoftware.com/)
@@ -456,6 +457,7 @@
   * [Verloop.io](https://verloop.io) - An AI chat bot company
   * [Vernacular.ai](https://vernacular.ai)
   * [WazirX](https://wazirx.com/)
+  * [WebAuditor](https://webauditor.co/)
   * [Zomato](https://www.zomato.com/)
   * [Zerodha](https://kite.zerodha.com/)
   * [ZopSmart](https://zopsmart.com/)
