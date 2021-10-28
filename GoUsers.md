@@ -1442,7 +1442,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Koding](http://www.koding.com) - [quora](http://www.quora.com/Node-js/Why-did-Koding-switch-from-Node-js-to-Go)
   * [LabStack](http://labstack.com/) - [github](https://github.com/labstack/echo), [website](http://echo.labstack.com/)
   * [Laserlike](https://www.laserlike.com/)
-  * [LaunchDarkly](https://launchdarkly.com/) - [github](https://github.com/launchdarkly/), [golang sdk](https://github.com/launchdarkly/go-client)
+  * [LaunchDarkly](https://launchdarkly.com/) - [github](https://github.com/launchdarkly/), [golang sdk](https://github.com/launchdarkly/go-server-sdk)
   * [Lean Labs](http://kanban.leanlabs.io/) - [git release](https://gitlab.com/leanlabsio/kanban/blob/master/CHANGELOG.md#130-2015-09-06)
   * [Liftoff](https://liftoff.io/company/engineering/)
   * [Lincoln Loop](http://lincolnloop.com/) - [blog (as part of https://botbot.me/ , #go-nuts IRC logging)](http://lincolnloop.com/blog/djangonaut-building-webapp-go-gorilla/)
