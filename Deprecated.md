@@ -13,6 +13,12 @@ and their docs [will be hidden by godoc once #17056 is implemented](https://gola
 
 The original issue to document the "Deprecated" convention was [issue #10909](https://golang.org/issue/10909).
 
+Note that, if function `F1` is being replaced by function `F2`,
+and the first release in which `F2` is available is Go 1.N,
+then we can add an official deprecation notice in release Go 1.N+2.
+This ensures that Go developers only see `F1` as deprecated
+when all supported Go versions include `F2` and they can easily switch.
+
 ## Examples
 
 ```
