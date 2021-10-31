@@ -193,6 +193,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [pflag](https://github.com/ogier/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
   * [subcommands](https://github.com/maruel/subcommands) - A concurrent, unit tested, subcommand library
   * [uggo](https://github.com/laher/uggo) - Yet another option parser offering gnu-like option parsing. This one wraps (embeds) flagset. It also offers rudimentary pipe-detection (commands like ls behave differently when being piped to).
+  * [xflags](https://github.com/cavaliergopher/xflags) - Expressive flags for Go
   * [writ](https://github.com/ziuchkovski/writ) - A flexible option parser with thorough test coverage.  It's meant to "just work" and stay out of the way.
 
 ## Command-line Tools
@@ -874,6 +875,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [blend](https://github.com/Phrozen/blend) - Image processing library and rendering toolkit for Go.
   * [bpg](https://github.com/chai2010/bpg) - BPG decoder for Go.
   * [chart](https://github.com/vdobler/chart) - Library to generate common chart  (pie, bar, strip, scatter, histogram) in different output formats.
+  * [cpio](https://github.com/cavaliergopher/cpio) - Readers and writers for the CPIO archive file format.
   * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [ebiten](https://ebiten.org/) - A cross platform open-source game library with which you can develop 2D games with simple API for multi platforms. Cgo/c compiler setup not needed.
   * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
@@ -941,6 +943,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [rasterx](https://github.com/srwiley/rasterx) - SVG-standard rendering, rasterization library.
   * [resize](https://github.com/nfnt/resize) - Image resizing with different interpolations.
   * [RiGO](https://github.com/mae-global/rigo) - RenderMan Interface implementation in Go.
+  * [rpm](https://github.com/cavaliergopher/rpm) - Go implementation of the RPM package file format
   * [smartcrop](https://github.com/muesli/smartcrop) - Content aware image cropping
   * [starfish](https://github.com/gtalent/starfish) - A simple Go graphics and user input library, built on SDL
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
@@ -1943,6 +1946,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goscribble](https://github.com/amir/goscribble) - An MPD Audioscrobble
   * [go-twitter](https://github.com/jb55/go-twitter) - another Twitter client
   * [go-twitter-oauth](https://github.com/montsamu/go-twitter-oauth) - a simple Twitter client (supports OAuth)
+  * [grab](https://github.com/cavaliergopher/grab) - A package for managing file downloads
   * [grender](https://github.com/peterbourgon/grender) - Go static site generator
   * [halgo](https://github.com/jagregory/halgo) - [HAL](http://stateless.co/hal_specification.html)-compliant API client and serialisation library.
   * [http-gonsole](https://github.com/mattn/http-gonsole) - Speak HTTP like a local. (the simple, intuitive HTTP console, golang version)
