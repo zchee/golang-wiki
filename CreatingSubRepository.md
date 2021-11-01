@@ -22,6 +22,6 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 	2. `x/build/maintner/maintnerd`
 		- Note that it's expected for the new repo not to appear in maintner until first issue or PR is created (see [#25744](https://golang.org/issue/25744)).
 	3. `x/build/cmd/gerritbot`
-	4. `x/build/app/appengine` 
+	4. `x/build/cmd/coordinator` 
 	5. `x/website/cmd/golangorg`
 6. You're done.
