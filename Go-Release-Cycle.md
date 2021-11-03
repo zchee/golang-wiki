@@ -211,6 +211,10 @@ For more about security updates, see the [security policy](https://golang.org/se
 
 See also the [MinorReleases](https://golang.org/wiki/MinorReleases) wiki page.
 
+## Freeze Exceptions
+
+Any exceptions to the freeze must be communicated to and explicitly approved by the Go Release Team before the freeze. If you’d like to request an exception, please file an issue in the issue tracker with "[freeze exception]" as a suffix and include "CC @golang/release" ([example](https://golang.org/issue/42747)). We will address any requests on a case-by-case basis with a strong preference for not permitting changes after the freeze.
+
 ## History
 
 The Go release cycle was discussed and adopted
