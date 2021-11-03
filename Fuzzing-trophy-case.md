@@ -17,11 +17,11 @@ _Note: If you think the bug is a security issue, please report it responsibly to
 
 ### Other projects
 * [go-yaml/yaml/v3: yaml.Unmarshal() crashes on "#\n - - QI\xd7"](https://github.com/go-yaml/yaml/issues/744)
-* [pelletier/go-toml: index out of range error in expect function](https://github.com/pelletier/go-toml/issues/561)
-* [swaggest/form: panic on invalid keys in request](https://github.com/swaggest/form/issues/4)
-* [yuin/goldmark: corner case errors](https://github.com/yuin/goldmark/issues/245)
 * [mvdan.cc/sh: syntax.Quote failed to quote the empty string](https://github.com/mvdan/sh/commit/92eab20da20af9c4005294abf937e387d87c8407)
 * [mvdan.cc/sh: syntax.Quote misused `\x` escape sequences in mksh](https://github.com/mvdan/sh/commit/8bd780f971469bece51617a53da0e1c700c4a5b8)
 * [mvdan.cc/sh: syntax.Quote can't quote the `0xFFFE` and `0xFFFF` runes in mksh](https://github.com/mvdan/sh/commit/6ff55fb976f3c39d1a382ff5af616c3665c7e501)
+* [pelletier/go-toml: index out of range error in expect function](https://github.com/pelletier/go-toml/issues/561)
+* [swaggest/form: panic on invalid keys in request](https://github.com/swaggest/form/issues/4)
+* [yuin/goldmark: corner case errors](https://github.com/yuin/goldmark/issues/245)
 
 
