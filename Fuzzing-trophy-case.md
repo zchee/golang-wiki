@@ -17,6 +17,8 @@ _Note: If you think the bug is a security issue, please report it responsibly to
 
 ### Other projects
 * [go-yaml/yaml/v3: yaml.Unmarshal() crashes on "#\n - - QI\xd7"](https://github.com/go-yaml/yaml/issues/744)
+* [kokes/smda: nil pointer error](https://github.com/kokes/smda/commit/b41ac00b5f5acba60d93076347fc73fe2fbca340)
+* [kokes/smda: out of bounds error](https://github.com/kokes/smda/commit/2c2548f211a1ed2c3547407e0b420e4340612278)
 * [mvdan.cc/sh: syntax.Quote failed to quote the empty string](https://github.com/mvdan/sh/commit/92eab20da20af9c4005294abf937e387d87c8407)
 * [mvdan.cc/sh: syntax.Quote misused `\x` escape sequences in mksh](https://github.com/mvdan/sh/commit/8bd780f971469bece51617a53da0e1c700c4a5b8)
 * [mvdan.cc/sh: syntax.Quote can't quote the `0xFFFE` and `0xFFFF` runes in mksh](https://github.com/mvdan/sh/commit/6ff55fb976f3c39d1a382ff5af616c3665c7e501)
