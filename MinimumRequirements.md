@@ -63,7 +63,16 @@ illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
 
 ### amd64
 
-All 64-bit x86 processors.
+For Go 1.17 and before, we support all 64-bit x86 processors.
+
+As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels):
+
+* GOAMD64=v1 (default): All 64-bit x86 processors.
+* GOAMD64=v2: v1 processors that also have CMPXCHG16B, LAHF, SAHF, POPCNT, SSE3, SSE4.1, SSE4.2, SSSE3.
+* GOAMD64=v3: v2 processors that also have AVX, AVX2, BMI1, BMI2, F16C, FMA, LZCNT, MOVBE, OSXSAVE.
+* GOAMD64=v4: v3 processors that also have AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL.
+
+The Go toolchain does not currently generate any AVX512 instructions.
 
 ### 386
 
