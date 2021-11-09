@@ -24,6 +24,8 @@ For Go 1.11 and later: Windows Server 2008R2 and higher or Windows 7 and higher.
 
 macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
 
+macOS Monterey 12 or higher requires Go 1.11 or above.
+
 Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://golang.org/doc/go1.15#darwin.
 
 Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://golang.org/doc/go1.17#darwin.
