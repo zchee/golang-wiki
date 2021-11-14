@@ -949,6 +949,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [stl](https://github.com/hschendel/stl) - library for reading, writing, and manipulating Stereolithography (.stl) files used in 3D printing
   * [svgo](https://github.com/ajstarks/svgo) - a library for creating and outputting SVG
   * [tag](https://github.com/dhowden/tag) - a library for reading tag metadata and creating metadata-invariant checksums for audio files: FLAC, all IDv3 variants, and MP4 (ACC, ALAC)
+  * [texture](https://github.com/jphsd/texture) - Procedurally generated textures based on the Bryce3D deep texture editor
   * [tga](https://github.com/ftrvxmtrx/tga) - TARGA image format encoding/decoding library
   * [tiff](https://github.com/chai2010/tiff) - Rich TIFF/BigTIFF/GeoTIFF decoder/encoder for Go.
   * [twilio-go](https://github.com/kevinburke/twilio-go) - Go client for the Twilio API.
