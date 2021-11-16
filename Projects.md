@@ -293,6 +293,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [koanf](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
   * [lib/ini](https://pkg.go.dev/github.com/shuLhan/share/lib/ini) - Package ini implement reading and writing INI text format as defined by Git configuration file syntax.
   * [lib/ssh/config](https://pkg.go.dev/github.com/shuLhan/share/lib/ssh/config) - Package config provide the ssh_config(5) parser and getter.
+  * [nestext](https://github.com/npillmayer/nestext) - Package nestext provides tools for processing NestedText, a human friendly data format.
   * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
   * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
