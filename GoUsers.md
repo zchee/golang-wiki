@@ -1285,6 +1285,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Awake Networks](http://www.awakenetworks.com)
   * [Axioms](http://axioms.io) - [blog](http://axioms.io/zen/2014-11-06-swift-go/)
   * [Basecamp](https://basecamp.com/) - [blog](https://signalvnoise.com/posts/3897-go-at-basecamp)
+  * [Batch.sh](https://batch.sh) - [github](https://github.com/batchcorp)
   * [Beachfront Media](http://www.beachfrontmedia.com) [article](http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/)
   * [Beam](https://beam.pro) - [github](https://github.com/WatchBeam)
   * [Beehively](http://beehively.com) - [Presentation](https://speakerdeck.com/nexneo/joy-of-single-purpose-services-in-go)
