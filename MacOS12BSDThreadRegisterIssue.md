@@ -25,3 +25,7 @@ Programs built with Go 1.10 or before use a way of issuing system calls that is 
 If this is a program you downloaded or installed (for example, using Homebrew), you will need to download or install a newer version of it that is built with a newer version of Go.
 
 If this is a program you built from source, you will need to rebuild it with a newer version of Go.
+
+You might want to check your $PATH and manually clean up `$GOPATH/bin` and other old relevant Go binaries you've installed.
+
+If you're trying to compile Go, `go tool dist clean` might help.
