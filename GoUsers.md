@@ -103,6 +103,7 @@
   * [Fliper](https://fliper.app)
   * [Fluid](https://www.fluidapi.io)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
+  * [Fundamentei](https://fundamentei.com.br)
   * [GissOnline](http://www.gissonline.com.br)
   * [Globo.com](http://www.globo.com) - [github](https://github.com/globocom) [article](http://www.wired.com/wiredenterprise/2013/03/tsuru)
   * [Grupo Bandeirantes](https://www.band.uol.com.br/) 
@@ -158,11 +159,11 @@
   * [Synchro](http://www.synchro.com.br)
   * [TOTVS](http://en.totvs.com/cloud)  
   * [Ulife](http://www.ulife.com.br) - [github](https://github.com/ulifebr)
+  * [Unico](https://unico.io)
   * [Universo Online](http://www.uol.com.br) - [github](https://github.com/uol)
   * [VivaReal](http://www.vivareal.com.br) - [github](https://github.com/VivaReal)
   * [Walmart](http://www.walmart.com.br)
   * [Zup Innovation](https://github.com/ZupIT/ritchie-cli) - an open source tool that allows you to create, store and share automations
-  * [Fundamentei](https://fundamentei.com.br)
 
 ## Bulgaria
   * [clouWay](http://clouway.com/) - [github](https://github.com/clouway)
