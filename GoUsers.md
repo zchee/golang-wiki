@@ -858,7 +858,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Netherlands
   * [Aan Zee](https://www.aanzee.nl)
-  * [Ahold](https://ah.nl)
+  * [Albert Heijn](https://ah.nl)
   * [BloomReach](https://www.bloomreach.com)
   * [bol.com](https://www.bol.com)
   * [booking.com](https://www.booking.com)
