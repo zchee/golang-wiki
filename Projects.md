@@ -1138,6 +1138,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [CGRates](https://github.com/cgrates/cgrates) - Rating system designed to be used in telecom carriers world
   * [cpu](https://github.com/jpoirier/cpu) - A Go package that reports processor topology
   * [cron](https://github.com/robfig/cron) - A library for running jobs (funcs) on a cron-formatted schedule
+  * [cvt](https://github.com/shockerli/cvt) - Easy and safe convert any value to another type
   * [daemonigo](https://github.com/tyranron/daemonigo) - A simple library to daemonize Go applications.
   * [dbus-go](http://code.google.com/p/dbus-go/) - D-Bus Go library
   * [desktop](https://bitbucket.org/tebeka/desktop) - Open file/uri with default application (cross platform)
