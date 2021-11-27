@@ -285,6 +285,7 @@
   * [Containo.us](https://containo.us/)
   * [Crisp](https://crisp.chat/)
   * [crème de la crème](https://cremedelacreme.io/)
+  * [Cycloid](https://www.cycloid.io/) - [github](https://github.com/cycloidio) - [blog](https://blog.cycloid.io)
   * [Digikong](http://digikong.io)
   * [Equisense](http://www.equisense.com/en/)
   * [Eleven Labs](http://eleven-labs.com/)
