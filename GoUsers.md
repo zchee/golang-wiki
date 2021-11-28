@@ -56,6 +56,7 @@
   * [Intelligent Speaker](https://intelligent-speaker.com) - proprietary fremium text-to-speech browser extension
 
 ## Belgium
+  * [Continu-IT NV](https://www.continu-it.be/)
   * [IN4IT](https://www.in4it.io/)
   * [Be-Mobile](http://www.be-mobile.com/)
   * [Elimity](https://elimity.com/)
