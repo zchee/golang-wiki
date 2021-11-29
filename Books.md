@@ -597,6 +597,12 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * References: https://gfw.go101.org/
 
+  * **µGo语言实现——如何从头开发一个迷你Go语言编译器** (e-book)
+    * Author: 柴树杉（chai2010）
+    * Publication Date: ---
+    * ISBN: ---
+    * Reference: https://github.com/chai2010/ugo-compiler-book
+
 # Japanese
   * **はじめての「Go言語」**
     * Author: 茨木 隆彰
