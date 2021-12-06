@@ -20,6 +20,8 @@ If you are an approver, you can (and are encouraged to) Trust+1 every change you
 
 To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
+As an exception to the usual rules, the usual approvers group does not have Code-Review and Trust voting ability in the x/website repo. There, those votes are limited to Go team members working at Google. This restriction exists for supply chain security reasons, because commits to x/website are automatically go live on https://go.dev/, which serves Go binary downloads.
+
 ## Running Trybots ("may-start-trybots")
 
 Trybot access lets you kick off a trybot run, testing a CL in Gerrit against the most common builders. The Trybots run in a somewhat-secure and somewhat-isolated environment, but they're not perfectly security hardened. You must skim the CL for anything malicious before starting Trybots.
