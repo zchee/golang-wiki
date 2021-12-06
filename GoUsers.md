@@ -694,6 +694,7 @@
   * [Gemcook, Inc.](https://gemcook.com/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
   * [GOODWITH LLC.,](https://www.goodwith.tech/)
+      * [Dockle](https://github.com/goodwithtech/dockle) - Container Image Linter for Security, Helping build the Best-Practice Docker Image, Easy to start
   * [Graffer, Inc.](https://graffer.jp/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
