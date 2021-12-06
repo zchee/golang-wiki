@@ -693,6 +693,7 @@
   * [GameWith, Inc.](https://gamewith.co.jp/)
   * [Gemcook, Inc.](https://gemcook.com/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
+  * [GOODWITH LLC.,](https://www.goodwith.tech/)
   * [Graffer, Inc.](https://graffer.jp/)
   * [Groovenauts, Inc.](https://www.groovenauts.jp/)
   * [Gunosy Inc.](https://gunosy.co.jp/)
