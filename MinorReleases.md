@@ -70,6 +70,8 @@ The Go standard library includes some generated files whose source of truth is o
 
 ## Security releases
 
+Note: This section describes process used for security releases before the [new security policy](https://go.dev/issue/44918) was applied. It is not current.
+
 Security releases preempt the next minor release and need to ship only the security fix.
 
 To avoid rolling back the release branch in that exceptional case, a new release branch is created based on the previous release. For example `release-branch.go1.9-security` is branched from tag `go1.9.4`. The release is tagged from that branch, and the branch is then merged into the main release branch. For example `go1.9.5` is tagged from `release-branch.go1.9-security`, which is then merged into `release-branch.go1.9`.
