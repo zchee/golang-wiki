@@ -71,7 +71,7 @@ Various microarchitecture levels and the environment variables used to select th
 
 The build cache understands the microarchitecture environment variables and does not require any cleaning if you change them.
 
-Note that performance is expected to improve when a higher minimum microarchitecture is requested, but this might not be true in all cases. Benchmark your performance-critical code to verify performance improvements.
+While performance is expected to improve when a higher minimum microarchitecture is requested, this might not be true in all cases. Benchmark your performance-critical code to verify performance improvements.
 
 ### amd64
 
