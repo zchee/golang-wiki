@@ -65,7 +65,7 @@ illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
 
 ### Microarchitecture support
 
-Go supports microarchitecture-specific compilation by environment variables, e.g. GOAMD64 for go1.18 and later, for compilation. Changing the microarchitecture is cache-safe, so caches don't require cleaning. Binaries will check at startup whether the microarchitecture level is supported. For example `GOAMD64=v3 go test` will fail on a CPU that doesn't have LZCNT support.
+Go supports microarchitecture-specific compilation by environment variables, e.g. GOAMD64 for go1.18 and later. Changing the microarchitecture is cache-safe, so caches don't require cleaning. Binaries will check at startup whether the microarchitecture level is supported. For example `GOAMD64=v3 go test` will fail on a CPU that doesn't have LZCNT support.
 
 ### amd64
 
