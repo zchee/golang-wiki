@@ -63,6 +63,10 @@ illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
 
 ## Architectures
 
+### Microarchitecture support
+
+Go supports microarchitecture-specific compilation by environment variables, e.g. GOAMD64 for go1.18 and later, for compilation. Changing the microarchitecture is cache-safe, so caches don't require cleaning. Binaries will check at startup whether the microarchitecture level is supported. For example `GOAMD64=v3 go test` will fail on a CPU that doesn't have LZCNT support.
+
 ### amd64
 
 For Go 1.17 and before, we support all 64-bit x86 processors.
@@ -75,6 +79,8 @@ As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/
 * GOAMD64=v4: v3 processors that also have AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL.
 
 The Go toolchain does not currently generate any AVX512 instructions.
+
+Note that performance is expected to improve with higher levels, but this might not be true in all cases. It is recommended to benchmark your performance-critical code to validate whether there are actually performance improvements.
 
 ### 386
 
