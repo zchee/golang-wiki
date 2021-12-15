@@ -80,7 +80,7 @@ As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/
 
 The Go toolchain does not currently generate any AVX512 instructions.
 
-Note that performance is expected to improve with higher levels, but this might not be true in all cases. It is recommended to benchmark your performance-critical code to validate whether there are actually performance improvements.
+Note that performance is expected to improve with higher levels, but this might not be true in all cases. Benchmark your performance-critical code to verify performance improvements.
 
 ### 386
 
