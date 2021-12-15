@@ -45,7 +45,7 @@ directory (
 replace golang.org/x/net => example.com/fork/net v1.4.5
 ```
 
-The syntax is intentionally similar to `go.mod`'s syntax. We have three directives: the `go` directive, the `directory directive, and the `replace` directive. The `go` and `replace` directives are there for backwards compatibility reasons (see the proposal doc for more details), behave similarly to their counterparts in `go.mod`, and have the same syntax. The `directory` directive allows you to specify which modules you're working in (by the directory containing the `go.mod` file. These are the modules that become the main modules in the workspace.
+The syntax is intentionally similar to `go.mod`'s syntax. We have three directives: the `go` directive, the `directory` directive, and the `replace` directive. The `go` and `replace` directives are there for backwards compatibility reasons (see the proposal doc for more details), behave similarly to their counterparts in `go.mod`, and have the same syntax. The `directory` directive allows you to specify which modules you're working in (by the directory containing the `go.mod` file. These are the modules that become the main modules in the workspace.
 
 # Setting up `gopls`
 
