@@ -86,6 +86,8 @@ As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/
 
 The Go toolchain does not currently generate any AVX512 instructions.
 
+See [Microarchitecture support] for the usage of microarchitecture environment variables like GOAMD64.
+
 ### 386
 
 See https://golang.org/doc/install/source#environment
