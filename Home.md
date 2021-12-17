@@ -160,15 +160,12 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - [CommonMistakes](CommonMistakes)
 - [Errors](Errors)
 - [GcToolchainTricks](GcToolchainTricks)
-- [Hashing](Hashing)
 - [InterfaceSlice](InterfaceSlice)
 - [Iota](Iota)
 - [MethodSets](MethodSets)
 - [PanicAndRecover](PanicAndRecover)
 - [Range](Range)
 - [RateLimiting](RateLimiting)
-- [Rationales](Rationales)
-- [SendingMail](SendingMail)
 - [SignalHandling](SignalHandling)
 - [SimultaneousAssignment](SimultaneousAssignment)
 - [SliceTricks](SliceTricks)
@@ -245,11 +242,6 @@ If you're looking for services that support Go, here's a list to get you started
 - [OpenBSD](OpenBSD)
 - [Plan 9](Plan9)
 - [Solaris](Solaris)
-
-## Release Specific Information
-
-- [Go1point1Gotchas](Go1point1Gotchas)
-- [OlderVersions](OlderVersions)
 
 Notes:
 
