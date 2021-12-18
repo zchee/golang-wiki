@@ -543,18 +543,15 @@
   * [Emji](https://emji.app/) - Emji is a new refined social networking platform aimed at simplicity and connectivity
   * [Clickyab](https://clickyab.com/) - Clickyab is diffrent online advertising & digital media agency
   * [Sazito](https://sazito.com/) - Sazito is multi-functional tools to build and manage your online store.
-  * [AlAlam](http://en.alalam.ir/) -- AlAlam news network TV channel
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
   * [SabzCity](https://sabz.city/) - [github](https://github.com/sabzcity/)
   * [Bahamta](https://bahamta.com/) - Fintech company.
-  * [5th dimension](https://5thd-co.com/) - Advertising Agency.
   * [Telmaperfume](https://telmaperfume.com/) - Promotional Gifts.
   * [Giftsbox](https://happymotherday.net/) - Promotional Mothers Day Gifts.
   * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
   * [Parsaspace](https://parsaspace.com) - Parsaspace is an iranian storage as a service
   * [Cafe Bazaar](https://cafebazaar.ir/?l=en/) -  Iranian Android marketplace
-  * [Alfa Movie](https://www.alfamovies.com/) -  Best download center platform in Iran.
   * [Alibaba Travels Co.](https://alibaba.ir/) - [(Github)](https://github.com/alibaba-go) - Iranian online travel agency
 
 ## Ireland
