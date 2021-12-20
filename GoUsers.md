@@ -988,6 +988,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Worten](https://www.worten.pt/) 
 
 ## Romania
+* [Cyscale](https://cyscale.com) - Cloud Security and Compliance - Software company from Cluj-Napoca, Romania
 * [Primal Skill](https://www.primalskill.com) - software development company focusing on web, API development with offices in Romania
 * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
 * [JobDone](https://jobdone.net) - Freelancer Marketplace
