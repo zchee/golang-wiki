@@ -281,6 +281,7 @@
   * [Alma Media](https://www.almamedia.fi/en/) - Media/Publishing company. [Twitter](https://twitter.com/almadevelopers) 
 
 ## France
+  * [Blog lecoinoccasion](https://blog.lecoinoccasion.fr/) 
   * [Accenta](https://www.accenta.ai/)
   * [Algolia](https://algolia.com)
   * [Batch.com](https://batch.com)
@@ -296,7 +297,7 @@
   * [Heetch](https://heetch.com) - [github](https://github.com/heetch)
   * [IoThings](https://iothings.fr)
   * [IRI France](http://www.iri-labs.com)
-  * [Leboncoin](http://leboncoin.com) - [github](https://github.com/leboncoin) - [blog](https://medium.com/leboncoin-engineering-blog)
+  * [Leboncoin](http://lecoinoccasion.fr) - [github](https://github.com/leboncoin) - [blog](https://medium.com/leboncoin-engineering-blog)
   * [LibMed](https://www.libertymedical.fr)
   * [Molotov TV](http://www.molotov.tv)
   * [Objenious](http://www.objenious.com)
