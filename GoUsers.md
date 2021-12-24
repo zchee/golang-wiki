@@ -2,6 +2,7 @@
 
 ## Africa
   * [Analitica Innovare](https://analiticainnovare.com/) - Data Analytics and Artificial Intelligence company in Ghana.
+  * [Afaria](https://afariat.com/) - Classifieds platform in Tunisia.
 
 ## Angola
   * [Nellcorp](https://nellcorp.com/) - Technology consulting agency.
