@@ -53,6 +53,8 @@ The current first class ports are:
 
 We distribute binaries for other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
 
+All Linux first class ports are for systems using glibc only.  Linux systems using other C libraries are not fully supported and are not treated as first class.
+
 # Removing a port
 
 If a builder for a particular port starts failing, the code should be corrected as soon as possible; otherwise future regressions cannot be detected, and the amount of work required to bring the builder back to "ok" compounds.
