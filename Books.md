@@ -413,6 +413,18 @@ Sorted by publication date, ascending.
     * Reference: https://www.packtpub.com/product/mastering-go-third-edition/9781801079310
     * Reference: https://www.amazon.com/Mastering-Go-professional-utilities-concurrent-dp-1801079315/dp/1801079315
 
+* **Go Optimizations 101**
+    * Author: Tapir Liu
+    * Publication Date: 22 December 2021
+    * Reference: https://go101.org/optimizations/101.html
+
+* **Go Details & Tips 101**
+    * Author: Tapir Liu
+    * Publication Date: 22 December 2021
+    * Reference: https://go101.org/details-and-tips/101.html
+
+
+
 ***
 ## Early Access
 
