@@ -42,7 +42,8 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 
 ## Spanish
 * [Golang Argentina](https://golang.com.ar)
-
+##persian
+* [بلیط ارزان هواپیما](http://flytoday.ir)
 ## Chinese
 * [Howtoing运维教程](https://www.howtoing.com)
 * [虞双齐的博客-Golang](https://yushuangqi.com/tags/golang.html)
