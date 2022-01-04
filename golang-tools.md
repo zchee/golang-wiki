@@ -38,7 +38,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Call archive
 
-* 2021-10-06 - [Agenda](https://docs.google.com/document/d/15CTfyASn5wBgpAAGhOpgaGg7LaUVd7WYVSZHuybTTVk/edit)
+* 2021-10-06 - [Meeting notes](https://docs.google.com/document/d/15CTfyASn5wBgpAAGhOpgaGg7LaUVd7WYVSZHuybTTVk/edit) - [video](https://youtu.be/VaKo_8oTRK4)
 * 2021-09-15 special edition: supporting type parameters [Agenda](https://docs.google.com/document/d/1Wk2Jp9yV8h3ApKsepBrsE37s8f4sDb0eVjfGOaIPsHM)
 * 2021-08-18 - [Meeting notes](https://docs.google.com/document/d/1fFwOXTOmPvR2E240z5WC1_VVs7h5vhcH4M81qT-2fW0/edit#) - [video](https://youtu.be/yd7eC7myvfA)
 * 2021-06-16 - [Meeting notes](https://docs.google.com/document/d/1P6gv4lHoHz27-PzI2dpmYzdPej2yWHEN2J3L2Czvy2E/edit#) - [video](https://youtu.be/KqFpAS6yfVU)
