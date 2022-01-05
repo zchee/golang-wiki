@@ -450,6 +450,7 @@
   * [Singulerp](https://singulerp.com)
   * [SocialCops](https://socialcops.com) - [engineering page](https://socialcops.com/careers/engineering/)
   * [SoStronk](https://www.sostronk.com/)
+  * [Spoors](https://www.spoors.io/)
   * [Squadcast](https://www.squadcast.com) - A Site Reliability Engineering (SRE) Product company
   * [Swiggy](http://www.swiggy.com/)
   * [Synerzip](http://synerzip.com/)
