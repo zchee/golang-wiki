@@ -86,6 +86,8 @@ As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/
 
 The Go toolchain does not currently generate any AVX512 instructions.
 
+Note that *processor* is a simplification in this context. In practice, support from the entire system (firmware, hypervisor, kernel) is needed.
+
 See section [Microarchitecture support](#microarchitecture-support) for hints on how to use microarchitecture environment variables like GOAMD64.
 
 ### 386
