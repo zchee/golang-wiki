@@ -535,6 +535,7 @@
   * [Valutac](https://valutac.com)
   * [Tugujatim](https://tugujatim.id)
   * [Tugumalang](https://tugumalang.id)
+  * [Deepta](https://deepta.club)
 
 ## Iraq
   * [eSITE](https://esite-iq.com/)
