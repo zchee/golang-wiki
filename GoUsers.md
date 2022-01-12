@@ -102,6 +102,7 @@
   * [Eventials](https://www.eventials.com/) - [github](https://github.com/eventials/)
   * [Everymind](http://www.everymind.com.br/)
   * [Finanças 360](https://www.financas360.com.br)
+  * [Fix Pay](https://fixpay.com.br)- [github](https://github.com/Fix-Pay)
   * [Fliper](https://fliper.app)
   * [Fluid](https://www.fluidapi.io)
   * [FourTwo](https://www.fourtwo.com.br/) - [github](https://github.com/F0urTw0/)
