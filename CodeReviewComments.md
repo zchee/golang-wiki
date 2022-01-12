@@ -6,6 +6,8 @@ This is a laundry list of common mistakes, not a comprehensive style guide.
 
 You can view this as a supplement to [Effective Go](https://golang.org/doc/effective_go.html).
 
+Additional comments related to testing can be found at [Go Test Comments](https://github.com/golang/go/wiki/TestComments)
+
 **Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
 * [Gofmt](#gofmt)
