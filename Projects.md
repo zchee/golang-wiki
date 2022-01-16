@@ -314,6 +314,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [ansi](https://github.com/mgutz/ansi) - Easily create ansi escape code strings and closures to format, color console output
   * [ansiterm](https://github.com/hotei/ansiterm) - pkg to drive text-only consoles that respond to ANSI escape sequences
+  * [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
   * [cons](https://github.com/rferrante/cons) - A simple package for building interactive console tools.
   * [gnureadline](https://code.google.com/p/go-gnureadline) - GNU Readline bindings
   * [go-ansiout](https://github.com/tlorens/go-ansiout) - Another ANSI escape code sequence tool for use with command-line applications.
