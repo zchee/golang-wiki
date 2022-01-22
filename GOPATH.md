@@ -1,12 +1,12 @@
 ## GOPATH variable
 
-Go development using dependencies beyond the standard library is done [using Go modules](https://blog.golang.org/using-go-modules). When using Go modules, the GOPATH variable (which defaults to `$HOME/go` on Unix and `%USERPROFILE%\go` on Windows) is used for the following purposes:
+Go development using dependencies beyond the standard library is done [using Go modules](https://go.dev/blog/using-go-modules). When using Go modules, the GOPATH variable (which defaults to `$HOME/go` on Unix and `%USERPROFILE%\go` on Windows) is used for the following purposes:
 
  - The `go install` command installs binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
  - The `go get` command caches downloaded modules in `$GOMODCACHE`, which defaults to `$GOPATH/pkg/mod`.
  - The `go get` command caches downloaded checksum database state in `$GOPATH/pkg/sumdb`.
 
-See the [go command documentation](http://golang.org/cmd/go/#hdr-GOPATH_environment_variable) for full details about the GOPATH variable. The rest of this page concerns the GOPATH development mode, which is now deprecated.
+See the [go command documentation](https://pkg.go.dev/cmd/go/#hdr-GOPATH_environment_variable) for full details about the GOPATH variable. The rest of this page concerns the GOPATH development mode, which is now deprecated.
 
 ## GOPATH development mode
 
@@ -43,7 +43,7 @@ No. The GOPATH variable (set in the environment or by `go env -w`) is **not** be
 
 ### Can I still write code in GOPATH/src/import/path?
 
-Yes. Many Go developers appreciate the structure that this convention provides and check out their module repositories into it. All your code needs to get started with modules is a `go.mod` file. See [`go mod init`](https://golang.org/cmd/go/#hdr-Initialize_new_module_in_current_directory).
+Yes. Many Go developers appreciate the structure that this convention provides and check out their module repositories into it. All your code needs to get started with modules is a `go.mod` file. See [`go mod init`](https://pkg.go.dev/cmd/go/#hdr-Initialize_new_module_in_current_directory).
 
 ### How can I compile one repo in GOPATH/src against changes made in another?
 
@@ -71,8 +71,8 @@ None of this is possible with GOPATH development mode as it exists today. We can
 
 ### When was it decided to deprecate GOPATH development mode?
 
-The [original plan](https://blog.golang.org/modules2019) was to deprecate GOPATH mode in Go 1.13, but we wanted to take extra time to make modules even more robust for as many Go users as possible, so the deprecation was pushed back from that release. Discussion on [issue #41330](https://golang.org/issue/41330) and in the golang-tools group did not identify any remaining blockers for deprecating GOPATH, so it is now scheduled for Go 1.16, with removal in a future release, as stated in the timeline above.
+The [original plan](https://go.dev/blog/modules2019) was to deprecate GOPATH mode in Go 1.13, but we wanted to take extra time to make modules even more robust for as many Go users as possible, so the deprecation was pushed back from that release. Discussion on [issue #41330](https://go.dev/issue/41330) and in the golang-tools group did not identify any remaining blockers for deprecating GOPATH, so it is now scheduled for Go 1.16, with removal in a future release, as stated in the timeline above.
 
 ### What if I have more questions about moving from GOPATH development mode to Go modules?
 
-See [golang.org/help](https://golang.org/help/) for a list of resources. If none of those are appropriate, feel free to [file an issue](https://golang.org/issue) here. We want everyone to be successful adopting Go modules.
+See [golang.org/help](https://go.dev/help/) for a list of resources. If none of those are appropriate, feel free to [file an issue](https://go.dev/issue) here. We want everyone to be successful adopting Go modules.

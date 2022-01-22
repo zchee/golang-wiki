@@ -7,7 +7,7 @@ Table driven testing is not a tool, package or anything else, it's just a way an
 
 ## Example of a table driven test
 
-Here is a good example from the testing code for the ` fmt ` package ( http://golang.org/pkg/fmt/ ):
+Here is a good example from the testing code for the ` fmt ` package ( https://pkg.go.dev/fmt/ ):
 
 ```go
 var flagtests = []struct {
@@ -78,7 +78,7 @@ func TestTLog(t *testing.T) {
 
 ## References
 
-  * https://golang.org/doc/code.html#Testing
-  * https://golang.org/doc/faq#assertions
-  * https://golang.org/doc/faq#testing_framework
-  * https://golang.org/pkg/testing/
+  * https://go.dev/doc/code#Testing
+  * https://go.dev/doc/faq#assertions
+  * https://go.dev/doc/faq#testing_framework
+  * https://pkg.go.dev/testing/

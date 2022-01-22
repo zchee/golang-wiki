@@ -1,6 +1,6 @@
 # Range Clauses
 
-Spec: http://golang.org/doc/go_spec.html#For_statements
+Spec: https://go.dev/ref/spec#For_statements
 
 ## Summary
 

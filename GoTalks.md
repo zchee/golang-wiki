@@ -59,7 +59,7 @@ but it's still a good introduction.
 
 A talk by Rob Pike and Andrew Gerrand presented at Google I/O 2011.
 It walks through the construction and deployment of a simple web application
-and unveils the [Go runtime for App Engine](http://blog.golang.org/2011/05/go-and-google-app-engine.html).
+and unveils the [Go runtime for App Engine](https://go.dev/blog/2011/05/go-and-google-app-engine.html).
 
 ### Real World Go
 

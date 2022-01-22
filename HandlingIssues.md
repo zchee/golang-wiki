@@ -1,4 +1,4 @@
-This document explains how we handle issue triage and scheduling in [the Go project's issue tracker](http://golang.org/issue).
+This document explains how we handle issue triage and scheduling in [the Go project's issue tracker](https://go.dev/issue).
 
 # Issue States
 

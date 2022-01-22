@@ -1,6 +1,6 @@
 # Introduction
 
-This is a companion to http://golang.org/doc/install/source providing additional instructions for various operating systems.
+This is a companion to https://go.dev/doc/install/source providing additional instructions for various operating systems.
 
 ## Install C tools
 

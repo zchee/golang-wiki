@@ -45,7 +45,7 @@ git codereview mail
 
 Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
 
-At this time, it's not possible to make a cherry-pick CL by sending a [[Pull Request|GerritBot]]. Only Gerrit is supported. See [golang.org/issue/30037](https://golang.org/issue/30037).
+At this time, it's not possible to make a cherry-pick CL by sending a [[Pull Request|GerritBot]]. Only Gerrit is supported. See [golang.org/issue/30037](https://go.dev/issue/30037).
 
 ### Cherry-pick CLs for vendored golang.org/x packages
 
@@ -66,7 +66,7 @@ The Go standard library includes some generated files whose source of truth is o
 
     The commit message should include "Fixes #nnn" to close the backport issue.
 
-(As of Go 1.16, the golang.org/x branch name is always `internal-branch.go1.x-vendor`. In Go 1.15, the name of the golang.org/x branch is `release-branch.go1.x` or `release-branch.go1.x-bundle` in [special cases](https://golang.org/cl/305489).)
+(As of Go 1.16, the golang.org/x branch name is always `internal-branch.go1.x-vendor`. In Go 1.15, the name of the golang.org/x branch is `release-branch.go1.x` or `release-branch.go1.x-bundle` in [special cases](https://go.dev/cl/305489).)
 
 ## Security releases
 

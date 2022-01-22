@@ -2,7 +2,7 @@ This page links to resources for learning about server programming in Go - both 
 
 ## Getting Started
 
-- Read [Writing Web Applications with the Go standard library](http://golang.org/doc/articles/wiki/)
+- Read [Writing Web Applications with the Go standard library](https://go.dev/doc/articles/wiki/)
 - Read [Build a Web Application With Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/) from the author of the [BeeGo web framework](http://beego.me/)
 - Read [Webapps in Go the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
 - Read [Building Web Applications in Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits. First learn the absolute basics before going to this book.
@@ -22,7 +22,7 @@ A topic you will see discussed frequently is "middleware". If you're not familia
 
 ## Toolkits and Frameworks
 
-Before you decide to adopt a third party web framework or toolkit, keep in mind that the Go standard library provides all of the tools you need to build a sophisticated, modern web application. Keeping with Go's preference for simplicity and composability over complexity and magic, we suggest you [see how far the standard library can take you](http://golang.org/doc/articles/wiki/).
+Before you decide to adopt a third party web framework or toolkit, keep in mind that the Go standard library provides all of the tools you need to build a sophisticated, modern web application. Keeping with Go's preference for simplicity and composability over complexity and magic, we suggest you [see how far the standard library can take you](https://go.dev/doc/articles/wiki/).
 
 If you decide you need a bit more infrastructure, start by looking at some of the toolkits and libraries available.
 
@@ -53,39 +53,39 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ## Communication
 
-- [Package net/http](http://golang.org/pkg/net/http) provides HTTP client and server implementations.
-- [Package encoding/json](http://golang.org/pkg/encoding/json) implements encoding and decoding of JSON objects as defined in RFC 4627.
-- [Package net/rpc](http://golang.org/pkg/net/rpc) provides access to the exported methods of an object across a network or other I/O connection.
-- [Package os/exec](http://golang.org/pkg/os/exec) runs external commands.
+- [Package net/http](https://pkg.go.dev/net/http) provides HTTP client and server implementations.
+- [Package encoding/json](https://pkg.go.dev/encoding/json) implements encoding and decoding of JSON objects as defined in RFC 4627.
+- [Package net/rpc](https://pkg.go.dev/net/rpc) provides access to the exported methods of an object across a network or other I/O connection.
+- [Package os/exec](https://pkg.go.dev/os/exec) runs external commands.
 
 ## Presentation
 
-- [Package text/template](http://golang.org/pkg/text/template) implements data-driven templates for generating textual output.
-- [Package html/template](http://golang.org/pkg/html/template) implements data-driven templates for generating HTML output safe against code injection.
+- [Package text/template](https://pkg.go.dev/text/template) implements data-driven templates for generating textual output.
+- [Package html/template](https://pkg.go.dev/html/template) implements data-driven templates for generating HTML output safe against code injection.
 
 ## Profiling and Performance
 
-- Read [Profiling Go Programs](http://blog.golang.org/profiling-go-programs)
-- Read [Arrays, slices (and strings): The mechanics of 'append'](http://blog.golang.org/slices)
-- Read the [Frequently Asked Questions (FAQ)](http://golang.org/doc/faq), especially
-    - [Why does Go perform badly on benchmark X?](http://golang.org/doc/faq#Why_does_Go_perform_badly_on_benchmark_x)
-    - [Why do garbage collection? Won't it be too expensive?](http://golang.org/doc/faq#garbage_collection)
-- [Package bufio](http://golang.org/pkg/bufio) implements buffered I/O.
-- [Package runtime/pprof](http://golang.org/pkg/runtime/pprof) writes runtime profiling data in the format expected by the pprof visualization tool.
-- [Package net/http/pprof](http://golang.org/pkg/net/http/pprof) serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool.
+- Read [Profiling Go Programs](https://go.dev/blog/profiling-go-programs)
+- Read [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
+- Read the [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq), especially
+    - [Why does Go perform badly on benchmark X?](https://go.dev/doc/faq#Why_does_Go_perform_badly_on_benchmark_x)
+    - [Why do garbage collection? Won't it be too expensive?](https://go.dev/doc/faq#garbage_collection)
+- [Package bufio](https://pkg.go.dev/bufio) implements buffered I/O.
+- [Package runtime/pprof](https://pkg.go.dev/runtime/pprof) writes runtime profiling data in the format expected by the pprof visualization tool.
+- [Package net/http/pprof](https://pkg.go.dev/net/http/pprof) serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool.
 
 ## Tracing, Monitoring, Logging, and Configuration
 
-- [Package expvar](http://golang.org/pkg/expvar) provides a standardized interface to public variables, such as operation counters in servers.
-- [Package flag](http://golang.org/pkg/flag) implements command-line flag parsing.
-- [Package log](http://golang.org/pkg/log) implements a simple logging package.
+- [Package expvar](https://pkg.go.dev/expvar) provides a standardized interface to public variables, such as operation counters in servers.
+- [Package flag](https://pkg.go.dev/flag) implements command-line flag parsing.
+- [Package log](https://pkg.go.dev/log) implements a simple logging package.
 - [Package glog](https://github.com/golang/glog) implements logging analogous to the Google-internal C++ INFO/ERROR/V setup.
 
 ## Storage
 
-- [Package os](http://golang.org/pkg/os) provides a platform-independent interface to operating system functionality.
-- [Package path/filepath](http://golang.org/pkg/path/filepath) implements utility routines for manipulating filename paths in a way compatible with the target operating system-defined file paths.
-- [Package database/sql](http://golang.org/pkg/database/sql) provides a generic interface around SQL (or SQL-like) databases.
+- [Package os](https://pkg.go.dev/os) provides a platform-independent interface to operating system functionality.
+- [Package path/filepath](https://pkg.go.dev/path/filepath) implements utility routines for manipulating filename paths in a way compatible with the target operating system-defined file paths.
+- [Package database/sql](https://pkg.go.dev/database/sql) provides a generic interface around SQL (or SQL-like) databases.
 
 ## Platforms
 

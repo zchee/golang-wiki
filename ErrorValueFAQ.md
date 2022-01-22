@@ -92,7 +92,7 @@ A natural thought would be to modify `IsX` to unwrap the error it is passed, che
 
 Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated most of them the same. For concreteness, we'll look at `os.IsExist`.
 
-Instead of changing `os.IsExist`, we made `errors.Is(err, os.ErrExist)` behave like it, except that `Is` unwraps. (We did this by having `syscall.Errno` implement an `Is` method, as described in the documentation for [`errors.Is`](https://golang.org/pkg/errors/#Is).) Using `errors.Is` will always work correctly, because it will exist only in Go versions 1.13 and higher. For older versions of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
+Instead of changing `os.IsExist`, we made `errors.Is(err, os.ErrExist)` behave like it, except that `Is` unwraps. (We did this by having `syscall.Errno` implement an `Is` method, as described in the documentation for [`errors.Is`](https://pkg.go.dev/errors/#Is).) Using `errors.Is` will always work correctly, because it will exist only in Go versions 1.13 and higher. For older versions of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
 This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them. 
 In that case, we recommend:

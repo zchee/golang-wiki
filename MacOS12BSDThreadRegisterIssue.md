@@ -18,7 +18,7 @@ then you are running a program built with an old version of Go (Go 1.10 or befor
 
 # Details
 
-Programs built with Go 1.10 or before use a way of issuing system calls that is no longer supported by the kernel on macOS 12 Monterey. In [Go 1.11](https://golang.org/doc/go1.11#runtime) and later, system calls are issued via `libSystem.dylib`, which is supported by the OS.
+Programs built with Go 1.10 or before use a way of issuing system calls that is no longer supported by the kernel on macOS 12 Monterey. In [Go 1.11](https://go.dev/doc/go1.11#runtime) and later, system calls are issued via `libSystem.dylib`, which is supported by the OS.
 
 # What to do
 

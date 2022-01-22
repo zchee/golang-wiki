@@ -38,8 +38,8 @@ When running TryBots again later, the most recent `TRY=` comment on the current 
 * If TryBots are already running, deleting the `Run-TryBot+1` vote and re-doing it won't re-start the TryBot set, so it won't look at your TRY= line, until the next run when it's done. (But you'll need to delete the TryBot-Result somehow: manually, rebasing, uploading new version)
 * If you select a builder that's offline, it'll currently just wait forever for it to show up. There's no timeout yet.
 * If you specify an unknown `TRY=` token, it'll just ignore it and won't report an error.
-* There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway. See [golang.org/issue/34501#issuecomment-544585711](https://golang.org/issue/34501#issuecomment-544585711).
+* There's no `all` alias. That's kinda intentional, to prevent overuse that might cause the SlowBots to get even slower for everybody. But we might add it later anyway. See [golang.org/issue/34501#issuecomment-544585711](https://go.dev/issue/34501#issuecomment-544585711).
 
 ## TODO
 
-The usability of SlowBots will be improved over time. It needs to report things better, make it easier to configure (both CLI and probably a web GUI picker UI), and support restarting things, or modifying in-progress TryBot runs to change the set of builders. Feedback welcome at [golang.org/issue/34501](https://golang.org/issue/34501).
+The usability of SlowBots will be improved over time. It needs to report things better, make it easier to configure (both CLI and probably a web GUI picker UI), and support restarting things, or modifying in-progress TryBot runs to change the set of builders. Feedback welcome at [golang.org/issue/34501](https://go.dev/issue/34501).

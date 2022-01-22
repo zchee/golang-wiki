@@ -14,16 +14,16 @@ of all these concurrency gotchas.
 Insufficient synchronisation and race conditions
  - [HTTP handler functions are thread-safe?](#http-handlers)
  - [Global functions and variables are protected by mutexes or otherwise thread-safe?](
-   https://golang.org/doc/articles/race_detector#Unprotected_global_variable)
+   https://go.dev/doc/articles/race_detector#Unprotected_global_variable)
  - [*Reads* of fields and variables are protected?](#sync-balance)
  - [The loop variable is passed into the goroutine function as an argument?](
-   https://golang.org/doc/articles/race_detector#Race_on_loop_counter)
+   https://go.dev/doc/articles/race_detector#Race_on_loop_counter)
  - [Methods on thread-safe types don't return pointers to protected structures?](#return-pointer)
  - [`Load()` or `Delete()` calls on a `sync.Map` after `Load()` is not a race condition?
    ](#sync-map-race)
 
 Testing
- - [Running tests with `-race` flag in CI/CD?](https://golang.org/doc/articles/race_detector)
+ - [Running tests with `-race` flag in CI/CD?](https://go.dev/doc/articles/race_detector)
 
 Scalability
  - [A channel is intentionally created with zero capacity?](#zero-cap-ch)
@@ -54,7 +54,7 @@ synchronising reads even to primitive variables because of non-atomic hardware w
 memory visibility problems.
 
 See also a [Typical Data Race: Primitive unprotected variable](
-https://golang.org/doc/articles/race_detector#Primitive_unprotected_variable).
+https://go.dev/doc/articles/race_detector#Primitive_unprotected_variable).
 
 <a name="return-pointer"></a>
 [#](#return-pointer) RC.3. **A method on a thread-safe type doesn't return a pointer to a protected
@@ -125,8 +125,8 @@ same result and doesn't have side effects.
 > ⚠️ **Potentially misleading information**. "Race condition" can refer to logic errors, like this example, which can be benign. But the phrase is also commonly used to refer to violations of the memory model, which are never benign.
 
 If the race condition is not benign, use methods [`sync.Map.LoadOrStore()`](
-https://golang.org/pkg/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](
-https://golang.org/pkg/sync/#Map.LoadAndDelete) to fix it. 
+https://pkg.go.dev/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](
+https://pkg.go.dev/sync/#Map.LoadAndDelete) to fix it. 
 
 ### Scalability
 
@@ -176,7 +176,7 @@ not to stop the ticker when the function which uses the ticker in a loop returns
 
 <a name="time-eq"></a>
 [#](#time-eq) Tm.2. **Are `time.Time` structs compared using `Equal()` method, not just `==`?**
-Quoting the [documentation for `time.Time`](https://golang.org/pkg/time/#Time):
+Quoting the [documentation for `time.Time`](https://pkg.go.dev/time/#Time):
 
 > Note that the Go `==` operator compares not just the time instant but also the Location and the
 > monotonic clock reading. Therefore, `Time` values should not be used as map or database keys
@@ -231,15 +231,15 @@ This code would be wrong without calling `Round(0)`, i. e. stripping the monoton
 reviewing Go code, not concurrency-specific.
 
 Go concurrency:
- - [The Go Memory Model](https://golang.org/ref/mem)
+ - [The Go Memory Model](https://go.dev/ref/mem)
  - [Section about concurrency in *Effective Go*](
-   https://golang.org/doc/effective_go.html#concurrency)
+   https://go.dev/doc/effective_go#concurrency)
  - Posts in The Go Blog:
-   - [Share Memory By Communicating](https://blog.golang.org/codelab-share)
-   - [Go Concurrency Patterns: Timing out, moving on](https://blog.golang.org/concurrency-timeouts)
-   - [Go Concurrency Patterns: Context](https://blog.golang.org/context)
-   - [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.org/pipelines)
-   - [Advanced Go Concurrency Patterns](https://blog.golang.org/io2013-talk-concurrency) (video)
+   - [Share Memory By Communicating](https://go.dev/blog/codelab-share)
+   - [Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/concurrency-timeouts)
+   - [Go Concurrency Patterns: Context](https://go.dev/blog/context)
+   - [Go Concurrency Patterns: Pipelines and cancellation](https://go.dev/blog/pipelines)
+   - [Advanced Go Concurrency Patterns](https://go.dev/blog/io2013-talk-concurrency) (video)
    - [Rethinking Classical Concurrency Patterns](https://www.youtube.com/watch?v=5zXAHh5tJqQ) (video)
  - [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 

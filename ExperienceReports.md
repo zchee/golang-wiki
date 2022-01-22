@@ -1,10 +1,10 @@
-This page collects experience reports about problems with Go that might inform our design of solutions to those problems. These reports should focus on the _problems_: they should not focus on and need not propose solutions. To propose solutions, see the [proposal process](https://golang.org/s/proposal). 
+This page collects experience reports about problems with Go that might inform our design of solutions to those problems. These reports should focus on the _problems_: they should not focus on and need not propose solutions. To propose solutions, see the [proposal process](https://go.dev/s/proposal).
 
-We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://golang.org/help/](https://golang.org/help/) for resources.)
+We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://go.dev/help/](https://go.dev/help/) for resources.)
 
 __The best experience reports tell: (1) what you wanted to do, (2) what you actually did, and (3) why that wasn’t great, illustrating those by real concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog, or on Medium, or as a [Github Gist](https://gist.github.com/) (use a `.md` extension for Markdown), or as a publicly-readable Google doc, and then link them here. (Talk videos or slides are also welcome, although they are not as convenient for us to digest.)
 
-If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://golang.org/issue/new).
+If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://go.dev/issue/new).
 
 Please keep the overall page sorted alphabetically by section (Error Handling before Logging, and so on).
 Within a section, please keep articles sorted chronologically.
@@ -69,7 +69,7 @@ Add new sections as appropriate.
 
 ## Declarations
 
-  - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`. 
+  - Christophe Meessen, "[Problems with Go's shorthand declaration :=](https://gist.github.com/chmike/ac0113afefbc04e67323b4a3688d6b54#file-godeclareproblem-md)", July 2017, about the shadowing var trap and apparent inconsistency of `:=`.
   - Brian Will, "[Go's := syntax is error-prone with multiple target variables](https://gist.github.com/BrianWill/671ce51e6ef6a9f0caa27272a9a0637f)", August 2017.
 
 ## Dependencies
@@ -99,7 +99,7 @@ Add new sections as appropriate.
 
 (This section is about writing `if err != nil`.)
 
-  - Andrew Gerrand, “[Error Handling and Go](https://blog.golang.org/error-handling-and-go),” July 2011,
+  - Andrew Gerrand, “[Error Handling and Go](https://go.dev/blog/error-handling-and-go),” July 2011,
     showing Go error handling patterns.
   - Martin Sústrik, “[Why should I have written ZeroMQ in C, not C++ (part I)](http://www.250bpm.com/blog:4),” May 2012,
     discussing production problems with C++ exception handling due to error-handling code being far from code that causes the error.
@@ -120,7 +120,7 @@ Add new sections as appropriate.
   - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
     about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
   - Chris Siebenmann, “[Go's net package doesn't have opaque errors, just undocumented ones](https://utcc.utoronto.ca/~cks/space/blog/programming/GoNetErrorsUndocumented),” August 2018
-  - Bryan C. Mills, “[Error Wrapping and Redundancy in Go](https://github.com/bcmills/go-experience-reports/blob/master/errors.md),” September 2019 
+  - Bryan C. Mills, “[Error Wrapping and Redundancy in Go](https://github.com/bcmills/go-experience-reports/blob/master/errors.md),” September 2019
 
 ## File System
 
@@ -147,9 +147,9 @@ Add new sections as appropriate.
   - Sameer Ajmani, "[Go Experience Report for Generics: Google metrics API](https://medium.com/@sameer_74231/go-experience-report-for-generics-google-metrics-api-b019d597aaa4)", August 2017
   - Chewxy, "[Tensor Refactor: A Go Experience Report](https://blog.chewxy.com/2017/09/11/tensor-refactor/)", September 2017, discusses the lack of generics and how it affects building high performance multidimensional arrays for different data types (having to resort to a lot of pointer ugliness, and manually keeping track of type and runtime type checking)
  - qwerty2501,"[A problem runtime error due to lack of Generics](https://gist.github.com/qwerty2501/8839af87946571943a6c4f623c6124e2)", October 2017
- - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try 
+ - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try
 code generation to avoid this [#70](https://github.com/go-kit/kit/issues/70) [#308](https://github.com/go-kit/kit/pull/308) [protoc-gen-gokit](https://github.com/AmandaCameron/protoc-gen-gokit) , but it looks like
-a complex solution for the problem. 
+a complex solution for the problem.
  - Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
  - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
  - A Googler "[govisor/generics.go](https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
@@ -166,7 +166,7 @@ a complex solution for the problem.
   - Pablo R. Larraondo "[A Go interprocess communication model](https://gist.github.com/prl900/a7aaa41707e2236592da5e78d8a10dc9)," August 2017
 
 ## Large-Scale Software Development
-  - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://golang.org/issue/18130)).
+  - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://go.dev/issue/18130)).
   - Travis Jeffery, "[I'll take pkg over internal](https://travisjeffery.com/b/2019/11/i-ll-take-pkg-over-internal/)," November 2019; talking about Go project layouts, problems with internal, and why people use pkg.
 
 ## Logging
@@ -206,7 +206,7 @@ a complex solution for the problem.
   - Nathan Kerr, "[Concurrency Slower?](https://pocketgophers.com/concurrency-slower/)", shows how to use Go's testing, benchmarking, and profiling tools to improve the performance of a concurrent implementation of a function. April 2017.
 
 ## Porting
-  - Shannon Pekary, "[Why GOPP](https://github.com/spekary/gopp/blob/master/Why.md)," an attempt to create 
+  - Shannon Pekary, "[Why GOPP](https://github.com/spekary/gopp/blob/master/Why.md)," an attempt to create
 a 'class' keyword that simply makes a struct to also be an interface to make porting code from object-oriented languages much easier.
 
 ## Slices
@@ -219,9 +219,9 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
   - Bojan Zivanovic, "[Optional function parameters](https://bojanz.github.io/optional-parameters-go/)", May 2020
   - Raanan Hadar, "[A data scientist's take on Go](https://medium.com/@rhadar/a-data-scientists-take-on-go-ed408c00ac45)", September 2020
 
-## Time 
+## Time
 
-  - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://golang.org/issue/12914)).
+  - John Graham-Cumming, “[How and Why the Leap Second Affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/),” January 2017, about timing across leap seconds ([#12914](https://go.dev/issue/12914)).
 
 ## Tooling
 
@@ -249,7 +249,7 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 - Mike Schinkel, "[Pros and cons of leveraging Go types](https://mikeschinkel.me/2019/pros-and-cons-of-leveraging-go-types/), April 2019, Discusses how great Go's type system is but tries to show how really using it can be extremely tedious and make for code that is harder-to-reason-about, so proposes an explicit `type alias` feature.
 
 ## Typed nils
- 
+
   - David Cheney, "[Typed nils in Go 2](https://dave.cheney.net/2017/08/09/typed-nils-in-go-2)", August 2017.
 
 ## Vendoring

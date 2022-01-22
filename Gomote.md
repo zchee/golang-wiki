@@ -18,7 +18,7 @@ TODO: examples. For now:
 The gomote command is a client for the Go builder infrastructure. It's a
 remote control for remote Go builder machines.
 
-See https://golang.org/wiki/Gomote
+See https://go.dev/wiki/Gomote
 
 Usage:
 

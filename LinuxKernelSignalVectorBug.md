@@ -4,7 +4,7 @@ If you reached this page because of a message like this printed by a Go program:
 
 ```
 runtime: note: your Linux kernel may be buggy
-runtime: note: see https://golang.org/wiki/LinuxKernelSignalVectorBug
+runtime: note: see https://go.dev/wiki/LinuxKernelSignalVectorBug
 runtime: note: mlock workaround for kernel bug failed with errno <number>
 ```
 
@@ -256,8 +256,8 @@ The bug is still present, and memory corruption may still occur.
 
 # Questions?
 
-Ask on the mailing list golang-nuts@googlegroups.com, or on any Go forum as described at [Questions](https://golang.org/wiki/Questions).
+Ask on the mailing list golang-nuts@googlegroups.com, or on any Go forum as described at [Questions](https://go.dev/wiki/Questions).
 
 # Details
 
-To see more details on how the bug affects Go programs and how it was detected and understood, see [#35777](https://golang.org/issue/35777) and [#35326](https://golang.org/issue/35326).
+To see more details on how the bug affects Go programs and how it was detected and understood, see [#35777](https://go.dev/issue/35777) and [#35326](https://go.dev/issue/35326).

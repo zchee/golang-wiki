@@ -82,8 +82,8 @@ func main() {
 ```
 
 # References
-[Defer, Panic and Recover](https://blog.golang.org/defer-panic-and-recover)
+[Defer, Panic and Recover](https://go.dev/blog/defer-panic-and-recover)
 
-https://golang.org/ref/spec#Handling_panics
+https://go.dev/ref/spec#Handling_panics
 
-https://golang.org/ref/spec#Run_time_panics
+https://go.dev/ref/spec#Run_time_panics

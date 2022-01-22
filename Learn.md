@@ -1,4 +1,4 @@
-In addition to the resources available [at golang.org](http://golang.org/doc/#learning) there are a range of community-driven initiatives:
+In addition to the resources available [at golang.org](https://go.dev/doc/#learning) there are a range of community-driven initiatives:
 
   * [Go Mastery](https://qvault.io/go-mastery-course/) - Code in the browser exercises with answer checking
   * [Essential Go](https://www.programming-books.io/essential/go/) -- a free book about Go programming language. 

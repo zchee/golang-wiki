@@ -15,13 +15,13 @@ More definitions and complex cross situations can be found at the [Wikipedia art
 ## Go tools and gccgo
 You will later need to source code to the Go tool, so you might as well uninstall the version you have installed from your package manager to avoid confusion  (fully optional tho). Also build & install gccgo targeting host(!, that's right, you need a gcco compiling for not only target but one for host).
 
-  * [Installing Go from source](http://golang.org/doc/install/source)
-  * [Official Go documentation](http://golang.org/doc/install/gccgo)
+  * [Installing Go from source](https://go.dev/doc/install/source)
+  * [Official Go documentation](https://go.dev/doc/install/gccgo)
 
 ## Build the cross-compiler
 
 ### Build
-First you have to build your cross-compiling version of GCC. This is complex process as it requires several stages with bootstrapping since there are mutual dependency relations between GCC and libc implementations. A very fine tutorial on how to build a GCC cross-toolchain with eglic (works with glibc too) was written by Jim Blandy and posted at eglibc's mailinglist [patches Cross-building instructions](http://www.eglibc.org/archives/patches/msg00078.html). In the final stage where the full GCC is built, simply configure script with _--enable-languages=c,c++,go_ (see [official Go documentation](http://golang.org/doc/install/gccgo)).
+First you have to build your cross-compiling version of GCC. This is complex process as it requires several stages with bootstrapping since there are mutual dependency relations between GCC and libc implementations. A very fine tutorial on how to build a GCC cross-toolchain with eglic (works with glibc too) was written by Jim Blandy and posted at eglibc's mailinglist [patches Cross-building instructions](http://www.eglibc.org/archives/patches/msg00078.html). In the final stage where the full GCC is built, simply configure script with _--enable-languages=c,c++,go_ (see [official Go documentation](https://go.dev/doc/install/gccgo)).
 
 You can use the [ewxb\_gcc\_cross-compiler\_builder](https://github.com/erikw/ewxb_gcc_cross-compiler_builder) script as a starting point. Don't expect that script to work out of the box, but rather as a hint to which steps you're likely to take when building your x-toolchain.
 
@@ -71,7 +71,7 @@ If you haven't compiled a shared object of the go library, _libgo_, for your tar
 
 ## Build a cross-gccgo aware version of the Go tool
 ### Assumptions
-  * Assuming that you've followed the instructions on [Installing Go from source](http://golang.org/doc/install/source) you should have a checked out version of the go source at _$GOROOT_.
+  * Assuming that you've followed the instructions on [Installing Go from source](https://go.dev/doc/install/source) you should have a checked out version of the go source at _$GOROOT_.
   * Envvar _$GOROOT_ is set.
   * The envvars _$GOARCH_ and _$GOOS_ represent the **target** architecture and operating system. Figure these out and set them to these values when you want to cross-compile.
 

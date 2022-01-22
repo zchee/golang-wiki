@@ -15,4 +15,4 @@ Swapping two values is also made simple using simultaneous assignment:
 i, j = j, i
 ```
 
-http://golang.org/ref/spec#Assignments
+https://go.dev/ref/spec#Assignments

@@ -98,7 +98,7 @@ $ goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
 
 Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].
 
-Note: for the `goexec` command to work on Unix-like systems, you must https://golang.org/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:
+Note: for the `goexec` command to work on Unix-like systems, you must https://go.dev/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:
 
 > Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
 
@@ -205,7 +205,7 @@ is in development.
 
 # Configuring fetch options while using net/http
 
-You can use the net/http library to make HTTP requests from Go, and they will be converted to https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API[fetch] calls. However, there isn't a direct mapping between the fetch https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#Parameters[options] and the http https://golang.org/pkg/net/http/#Client[client] options. To achieve this, we have some special header values that are recognized as fetch options. They are -
+You can use the net/http library to make HTTP requests from Go, and they will be converted to https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API[fetch] calls. However, there isn't a direct mapping between the fetch https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#Parameters[options] and the http https://pkg.go.dev/net/http/#Client[client] options. To achieve this, we have some special header values that are recognized as fetch options. They are -
 
 - `js.fetch:mode`: An option to the Fetch API mode setting. Valid values are: "cors", "no-cors", "same-origin", navigate". The default is "same-origin".
 

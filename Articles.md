@@ -143,7 +143,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Go Performance Observations](http://hashrocket.com/blog/posts/go-performance-observations) _2014-08-07_
   * [Debugging performance issues in Go programs - Intel](https://software.intel.com/en-us/blogs/2014/05/10/debugging-performance-issues-in-go-programs) _2014-05-10_
   * [How to write benchmarks in Go](http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) _2013-06-30_
-  * [Profiling Go Programs - Go blog](http://blog.golang.org/profiling-go-programs) _2011-06-24_
+  * [Profiling Go Programs - Go blog](https://go.dev/blog/profiling-go-programs) _2011-06-24_
 
 ## Pointers, References and Memory Management
 

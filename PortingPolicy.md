@@ -36,7 +36,7 @@ A first class port has these properties:
     * All contributors are effectively responsible for these ports (You break it, you fix it, or find someone who can.)
   * Official binaries are provided
     * Requires Google's Go team to own the builder machine
-  * Installation is documented at https://golang.org/doc/install
+  * Installation is documented at https://go.dev/doc/install
 
 Graduating a port to "first class" is at the discretion of the Go team at Google.
 

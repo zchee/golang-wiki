@@ -1,4 +1,4 @@
-**Note: NaCl support [was dropped in Go 1.14](https://golang.org/doc/go1.14#nacl).**
+**Note: NaCl support [was dropped in Go 1.14](https://go.dev/doc/go1.14#nacl).**
 
 Go 1.3 includes support for generating x86-32 and x86-64 binaries for Google Native Client (NaCl).
 
@@ -17,4 +17,4 @@ There is ongoing work exploring support for the IRT and PPAPI (3 and 4 in the li
 
 There are no concrete plans to support PNaCl (5 and 6 in the list).
 
-The Go 1.3-generated NaCl binaries can be run using the NaCl SDK sel\_ldr\_x86\_32 and sel\_ldr\_x86\_64 programs. They cannot be run directly in Google Chrome. As such, the NaCl support in Go 1.3 is useful only for running sandboxed environments like the [Go Playground](http://play.golang.org/). The file [misc/nacl/README](http://golang.org/misc/nacl/README) in the Go distribution explains how to configure your machine so that you can run and NaCl-sandboxed binaries using the go command.
+The Go 1.3-generated NaCl binaries can be run using the NaCl SDK sel\_ldr\_x86\_32 and sel\_ldr\_x86\_64 programs. They cannot be run directly in Google Chrome. As such, the NaCl support in Go 1.3 is useful only for running sandboxed environments like the [Go Playground](https://go.dev/play/). The file [misc/nacl/README](http://golang.org/misc/nacl/README) in the Go distribution explains how to configure your machine so that you can run and NaCl-sandboxed binaries using the go command.

@@ -1007,12 +1007,12 @@ abishek@Titan:~$ uname -a
 Linux Titan 4.9.140 #1 SMP PREEMPT Thu May 23 01:33:05 IST 2019 aarch64 aarch64 aarch64 GNU/Linux
 ```
 
-Go Version: 
+Go Version:
 ```
 abishek@Titan:~$ go version
 go version go1.12.5 linux/arm64
 ```
-I used the ARMv8 version from [Other Ports](https://golang.org/dl/) section of official downloads.
+I used the ARMv8 version from [Other Ports](https://go.dev/dl/) section of official downloads.
 I set the following system wide environment variables in /etc/environment.
 ```
 GOROOT="/usr/local/go"

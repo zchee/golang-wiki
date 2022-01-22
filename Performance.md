@@ -30,7 +30,7 @@ Go runtime contains built-in CPU profiler, which shows what functions consume
 what percent of CPU time. There are 3 ways you can get access to it:
 
 1.  The simplest one is -cpuprofile flag of 'go test'
-    (http://golang.org/cmd/go/#hdr-Description_of_testing_flags) command. For
+    (https://pkg.go.dev/cmd/go/#hdr-Description_of_testing_flags) command. For
     example, the following command:
 
         $ go test -run=none -bench=ClientServerParallel4 -cpuprofile=cprof net/http
@@ -46,14 +46,14 @@ what percent of CPU time. There are 3 ways you can get access to it:
     `--text`, `--web` and `--list`. Run `go tool pprof` to get the complete
     list. The obvious drawback of this option is that it works only for tests.
 
-2.  [net/http/pprof](http://golang.org/pkg/net/http/pprof): This is the ideal
+2.  [net/http/pprof](https://pkg.go.dev/net/http/pprof): This is the ideal
     solution for network servers. You merely need to import `net/http/pprof`,
     and collect profiles with:
 
         $ go tool pprof --text mybin  http://myserver:6060:/debug/pprof/profile
 
 3.  Manual profile collection. You need to import
-    [runtime/pprof](http://golang.org/pkg/runtime/pprof/) and add the following
+    [runtime/pprof](https://pkg.go.dev/runtime/pprof/) and add the following
     code to main function:
 
         if *flagCpuprofile != "" {
@@ -131,10 +131,10 @@ svg/web profiles.
 
 Memory profiler shows what functions allocate heap memory. You can collect it in
 similar ways as CPU profile: with `go test --memprofile`
-(http://golang.org/cmd/go/#hdr-Description_of_testing_flags), with
-[net/http/pprof](http://golang.org/pkg/net/http/pprof) via
+(https://pkg.go.dev/cmd/go/#hdr-Description_of_testing_flags), with
+[net/http/pprof](https://pkg.go.dev/net/http/pprof) via
 http://myserver:6060:/debug/pprof/heap or by calling
-[runtime/pprof.WriteHeapProfile](http://golang.org/pkg/runtime/pprof/#WriteHeapProfile).
+[runtime/pprof.WriteHeapProfile](https://pkg.go.dev/runtime/pprof/#WriteHeapProfile).
 
 You can visualize only allocations live at the time of profile collection
 (`--inuse_space flag to pprof`, default), or all allocations happened since
@@ -295,16 +295,16 @@ need to execute 2 or 3 GCs before the collection."
 The blocking profiler shows where goroutine block waiting on synchronization
 primitives (including timer channels). You can collect it in similar ways as CPU
 profile: with `go test --blockprofile`
-(http://golang.org/cmd/go/#hdr-Description_of_testing_flags), with
-[net/http/pprof](http://golang.org/pkg/net/http/pprof) via
+(https://pkg.go.dev/cmd/go/#hdr-Description_of_testing_flags), with
+[net/http/pprof](https://pkg.go.dev/net/http/pprof) via
 http://myserver:6060:/debug/pprof/block or by calling
-[runtime/pprof.Lookup("block").WriteTo](http://golang.org/pkg/runtime/pprof/#Profile.WriteTo).
+[runtime/pprof.Lookup("block").WriteTo](https://pkg.go.dev/runtime/pprof/#Profile.WriteTo).
 
 But there is significant caveat -- the blocking profiler is not enabled by
 default. `go test --blockprofile` will enable it for you automatically. However,
 if you use `net/http/pprof` or `runtime/pprof`, you need to enable it manually
 (otherwise the profile will be empty). To enable the blocking profiler call
-[runtime.SetBlockProfileRate](http://golang.org/pkg/runtime/#SetBlockProfileRate).
+[runtime.SetBlockProfileRate](https://pkg.go.dev/runtime/#SetBlockProfileRate).
 SetBlockProfileRate controls the fraction of goroutine blocking events that are
 reported in the blocking profile. The profiler aims to sample an average of one
 blocking event per the specified amount of nanoseconds spent blocked. To include
@@ -431,10 +431,10 @@ The goroutine profiler simply gives you current stacks of all live goroutines in
 the process. It can be handy to debug load balancing issues (see Scheduler Trace
 section below), or to debug deadlocks. The profile makes sense only for a
 running app, so go test does not expose it. You can collect the profile with
-[net/http/pprof](http://golang.org/pkg/net/http/pprof) via
+[net/http/pprof](https://pkg.go.dev/net/http/pprof) via
 http://myserver:6060:/debug/pprof/goroutine, and visualize it to svg/pdf or by
 calling
-[runtime/pprof.Lookup("goroutine").WriteTo](http://golang.org/pkg/runtime/pprof/#Profile.WriteTo).
+[runtime/pprof.Lookup("goroutine").WriteTo](https://pkg.go.dev/runtime/pprof/#Profile.WriteTo).
 But the most useful way is to type
 http://myserver:6060:/debug/pprof/goroutine?debug=2 in your browser, which will
 give you symbolized stacks similar to what you see when a program crashes. Note
@@ -614,10 +614,10 @@ overheads.
 ## Memory Statistics
 
 Go runtime exposes coarse-grained memory statistics via
-[runtime.ReadMemStats](http://golang.org/pkg/runtime/#ReadMemStats) function.
+[runtime.ReadMemStats](https://pkg.go.dev/runtime/#ReadMemStats) function.
 The statistics are also exposed via net/http/pprof at the bottom of
 http://myserver:6060/debug/pprof/heap?debug=1. The statistics are described
-[here](http://golang.org/pkg/runtime/#MemStats). Some of the interesting fields
+[here](https://pkg.go.dev/runtime/#MemStats). Some of the interesting fields
 are:
 
 1.  HeapAlloc - current heap size.
@@ -673,5 +673,5 @@ Optimization is an open problem, there are simple recipes that you can use to
 improve performance. Sometimes optimization requires complete re-architecture of
 the program. But we hope that the tools will be a valuable addition to your
 toolbox, that you can use to at least analyze and understand what happens.
-[Profiling Go Programs](http://blog.golang.org/profiling-go-programs) is a good
+[Profiling Go Programs](https://go.dev/blog/profiling-go-programs) is a good
 tutorial on usage of CPU and memory profilers to optimize a simple program.

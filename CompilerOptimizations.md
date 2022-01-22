@@ -92,7 +92,7 @@ for i := range s {
 }
 ```
 
-are converted into efficient runtime memclr calls. [Issue](https://github.com/golang/go/issues/5373) and [commit](https://golang.org/change/f03c9202c43e0abb130669852082117ca50aa9b1).
+are converted into efficient runtime memclr calls. [Issue](https://github.com/golang/go/issues/5373) and [commit](https://go.dev/change/f03c9202c43e0abb130669852082117ca50aa9b1).
 
 * **gc:** 1.5+
 * **gccgo:** ?

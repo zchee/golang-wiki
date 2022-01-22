@@ -16,7 +16,7 @@ There are many times in which you may install Go (either from source or from a b
 To start out with, check the following first:
   * GOROOT
     * This should _only_ be set if you used a binary distribution and it's not installed in the default location.
-  * [GOPATH](http://golang.org/cmd/go#GOPATH_environment_variable)
+  * [GOPATH](https://pkg.go.dev/cmd/go#GOPATH_environment_variable)
     * This should be set to the directory under which you want your source (and third party packages).
     * This can also be set to a list of absolute paths separated by : (or ; on Windows).
     * Note that ~/some/path is not absolute and will probably not work the way you expect (try $HOME/some/path instead).

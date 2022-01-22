@@ -7,11 +7,11 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 Please help categorize the rest of the uncategorized proposals at the bottom.
 
-**Update, June 19, 2019** – Based on this feedback we have posted a [proposal for a try builtin](https://golang.org/design/32437-try-builtin), which produced significant feedback on #32437 ([threaded view here](https://swtch.com/try.html)). 
+**Update, June 19, 2019** – Based on this feedback we have posted a [proposal for a try builtin](https://go.dev/design/32437-try-builtin), which produced significant feedback on #32437 ([threaded view here](https://swtch.com/try.html)). 
 
 We've disabled comments on that issue until July 1 to give people time to experiment in their own code. We would very much like to see experience reports about using the general try approach in your own code, including trial conversions with [tryhard](https://github.com/griesemer/tryhard). Thanks!
 
-# Experience with the [“try proposal”](https://golang.org/design/32437-try-builtin)
+# Experience with the [“try proposal”](https://go.dev/design/32437-try-builtin)
 
 Add to this list:
 
@@ -150,7 +150,7 @@ Concepts that appear repeatedly among the suggestions below.
 
  - Paul Borman, "[Arguments against the Go 2 error handling proposal](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c)", August 2018
 
- - krhubert, "[Error default handler for tests](https://golang.org/issue/32361)", May 2019
+ - krhubert, "[Error default handler for tests](https://go.dev/issue/32361)", May 2019
 
  - Franz, Implement error handling like an invariant check of a variable. when the value changes, a function is called. this can then be used in other situations too. 
 

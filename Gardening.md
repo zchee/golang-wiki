@@ -10,7 +10,7 @@ This page lists common Go gardening tasks.
 
 If you've been regularly active in the Go community for some time, feel free to ask for Gerrit and/or Github access to modify things.
 
-See http://golang.org/wiki/GerritAccess and http://golang.org/wiki/GithubAccess
+See https://go.dev/wiki/GerritAccess and https://go.dev/wiki/GithubAccess
 
 ## Gardening Tasks
 
@@ -27,12 +27,12 @@ Look at the [untriaged issues](https://github.com/golang/go/issues?q=is%3Aopen+i
 While triaging the bug:
 
 * is it a duplicate? Close it, referencing the dup.
-* is it a Question rather than a bug? Reply with something like "For questions about Go, see https://golang.org/wiki/Questions".
+* is it a Question rather than a bug? Reply with something like "For questions about Go, see https://go.dev/wiki/Questions".
 * is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation".
 * is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
 * if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
 
-When the issue has been triaged, add an appropriate label (per https://golang.org/wiki/HandlingIssues) to mark it as such.
+When the issue has been triaged, add an appropriate label (per https://go.dev/wiki/HandlingIssues) to mark it as such.
 
 ### WaitingForInfo
 
@@ -56,4 +56,4 @@ If a new CL arrives without a test, but could/should have a test, ask if they co
 
 ### Pending CLs: run TryBots
 
-If you have access (see https://golang.org/wiki/GerritAccess) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
+If you have access (see https://go.dev/wiki/GerritAccess) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)

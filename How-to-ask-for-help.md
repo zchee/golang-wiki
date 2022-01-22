@@ -54,7 +54,7 @@ The best way to get help is to show
 - If you are posting a large amount of output, you may consider using a pastebin or gist service.
 - When posting code samples, use the [Go playground][2] (unless it is unavailable in your country).
 
-[0]: https://blog.golang.org/error-handling-and-go
-[1]: https://blog.golang.org/race-detector
-[2]: https://play.golang.org
+[0]: https://go.dev/blog/error-handling-and-go
+[1]: https://go.dev/blog/race-detector
+[2]: https://go.dev/play
 [3]: https://github.com/golang/go/wiki/questions

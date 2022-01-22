@@ -1,5 +1,5 @@
 # Introduction
-Now that you've spent many hours writing your package and debugging it and testing it (you did [[test it|TableDrivenTests]], didn't you?), you want to publish it so other people can [go get](http://golang.org/cmd/go/) your package.
+Now that you've spent many hours writing your package and debugging it and testing it (you did [[test it|TableDrivenTests]], didn't you?), you want to publish it so other people can [go get](https://pkg.go.dev/cmd/go/) your package.
 
 First, you will need to host it online somewhere.  Three major code hosting sites are [bitbucket](http://bitbucket.org/) (hg/git), [GitHub](http://github.com/) (git) and [launchpad](http://launchpad.net) (bzr).  I recommend choosing whichever version control system you are familiar with or which your code is versioned locally on your machine.  Git (git) is the version control system used by the central Go repository, so it is the closest to a guarantee as you can get that a developer wanting to use your project will have the right software. If you have never used version control before, these websites have some nice HOWTOs and you can find many great tutorials by searching Google for "{name} tutorial" where {name} is the name of the version control system you would like to learn.
 
@@ -78,7 +78,7 @@ It will typically not be necessary to maintain weekly tags or branches, but it c
 ## Commands vs Packages
 Since go get does not use your project's Makefiles, it is important to understand how it will actually build your project.
 
-All files in the same directory should always share the same package name.  Any files named with a ` _test ` or an ` _os ` and/or ` _arch ` suffix will be ignored (unless the os/arch match).  If the package name is "main", go get will build an executable from the source files and name it according to the directory name (using the last path segment only).  If the package name is anything else, go get will build it as a package and the import path will be the web-accessible URL for your project's root followed by the subdirectory.  See [the go get documentation](http://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies) for how to make import paths for code hosting sites other than the main four.
+All files in the same directory should always share the same package name.  Any files named with a ` _test ` or an ` _os ` and/or ` _arch ` suffix will be ignored (unless the os/arch match).  If the package name is "main", go get will build an executable from the source files and name it according to the directory name (using the last path segment only).  If the package name is anything else, go get will build it as a package and the import path will be the web-accessible URL for your project's root followed by the subdirectory.  See [the go get documentation](https://pkg.go.dev/cmd/go/#hdr-Download_and_install_packages_and_dependencies) for how to make import paths for code hosting sites other than the main four.
 
 Dependencies between packages in the same project are common.  In the case where one package or command in your project depends upon another, you must use the full import path in order for go get to recognize the dependency and make sure it is built.  Third-party packages which are imported from source files in your project will also be automatically downloaded and installed by go get if it is not already present.
 
@@ -127,4 +127,4 @@ The Go Dashboard will use the first line of your package-level comment (also usi
 package epub
 ```
 
-For more information on godoc, see the [Documenting Go Code](http://blog.golang.org/2011/03/godoc-documenting-go-code.html) blog post.
+For more information on godoc, see the [Documenting Go Code](https://go.dev/blog/2011/03/godoc-documenting-go-code.html) blog post.

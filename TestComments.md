@@ -4,7 +4,7 @@ This page is a supplement to
 [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments),
 but is targeted specifically to test code.
 
-**Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation)
+**Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation)
 before editing this page**, even _minor_ ones. Many people have opinions and
 this is not the place for edit wars.
 
@@ -65,7 +65,7 @@ equality (e.g. if one of the fields is an `io.Reader`), tweaking a
 [`cmp.Equal`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Equal) comparison
 with [cmpopts](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts) options
 such as [`cmpopts.IgnoreInterfaces`](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts#IgnoreInterfaces) 
-may meet your needs ([example](https://play.golang.org/p/vrCUNVfxsvF));
+may meet your needs ([example](https://go.dev/play/p/vrCUNVfxsvF));
 otherwise, this technique just won't work, so do whatever works.
 
 If your function returns multiple return values, you don't need to wrap those in 
@@ -80,7 +80,7 @@ semantically relevant information that is stable and resistent to changes in
 your dependencies. For functionality that returns a formatted string or
 serialized bytes, it is generally not safe to assume that the output is stable.
 
-For example, [`json.Marshal`](https://golang.org/pkg/encoding/json/#Marshal)
+For example, [`json.Marshal`](https://pkg.go.dev/encoding/json/#Marshal)
 makes no guarantee about the exact bytes that it may emit. It has the freedom to
 change (and has changed in the past) the output. Tests that perform string
 equality on the exact JSON string may break if the `json` package changes how it
@@ -92,7 +92,7 @@ data structure.
 ## Equality Comparison and Diffs
 
 The `==` operator evaluates equality using the
-[language-defined comparisons](http://golang.org/ref/spec#Comparison_operators). 
+[language-defined comparisons](https://go.dev/ref/spec#Comparison_operators). 
 Values it can compare include numeric, string, and pointer values and structs
 with fields of those values. In particular, it determines two pointers to be
 equal only if they point to the same variable.

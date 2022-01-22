@@ -1,6 +1,6 @@
 # Go CSS Coding Guidelines
 
-**Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CSSStyleGuide+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
+**Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CSSStyleGuide+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
 Go's naming conventions are adapted from [Medium's style guide](https://gist.github.com/fat/a47b882eb5f84293c4ed#javascript) and the work being done in the [SUIT CSS framework](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md). Which is to say, it relies on _structured class names_ and _meaningful hyphens_ (i.e., not using hyphens merely to separate words). This is to help work around the current limits of applying CSS to the DOM (i.e., the lack of style encapsulation) and to better communicate the relationships between classes.
 

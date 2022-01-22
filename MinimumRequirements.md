@@ -8,7 +8,7 @@ Kernel version 2.6.23 or later. [_This depends on architecture though, we need t
 
 We don't support CentOS 5. The kernel is too old (2.6.18).
 
-For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](https://golang.org/issue/16848). 
+For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](https://go.dev/issue/16848). 
 
 If you are using tinyconfig (e.g. make tinyconfig) for embedded systems, you will also almost certainly enable printk in the kernel as well as a console; we will not include those generic options here. For Go, you must also enable CONFIG_FUTEX.
 
@@ -26,9 +26,9 @@ macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
 
 macOS Monterey 12 or higher requires Go 1.11 or above.
 
-Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://golang.org/doc/go1.15#darwin.
+Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://go.dev/doc/go1.15#darwin.
 
-Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://golang.org/doc/go1.17#darwin.
+Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://go.dev/doc/go1.17#darwin.
 
 We only have builders for 10.12, 10.14, 10.15, and 11.0 as of 2021-09-28.
 
@@ -55,7 +55,7 @@ There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 
 
 Go 1.13: pepper_39 or newer.
 
-Go 1.14 and later: [unsupported](https://golang.org/doc/go1.14#nacl).
+Go 1.14 and later: [unsupported](https://go.dev/doc/go1.14#nacl).
 
 ### [Solaris](Solaris)
 
@@ -92,14 +92,14 @@ See section [Microarchitecture support](#microarchitecture-support) for hints on
 
 ### 386
 
-See https://golang.org/doc/install/source#environment
+See https://go.dev/doc/install/source#environment
 
 * GO386=sse2 (default): Any processor with at least SSE2
 * GO386=softfloat: All Pentium MMX or later processors (uses software floating point emulation)
 
 ### arm
 
-See https://golang.org/doc/install/source#environment
+See https://go.dev/doc/install/source#environment
 
 * GOARM=5: use software floating point; when CPU doesn't have VFP co-processor
 * GOARM=6: use VFPv1 only; default if cross compiling; usually ARM11 or better cores (VFPv2 or better is also supported)

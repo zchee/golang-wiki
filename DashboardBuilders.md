@@ -8,7 +8,7 @@ A builder runs on a certain host type. (e.g. `linux-386-387` is a build type. It
 
 They come from the file https://github.com/golang/build/blob/master/dashboard/builders.go
 
-For design details about the coordinator, see https://golang.org/s/builderplan
+For design details about the coordinator, see https://go.dev/s/builderplan
 
 # How to set up a builder
 
@@ -33,6 +33,6 @@ For WIP ports, the steps above can be done out of order as needed. But as a port
 
 # Security notes
 
-Generally, community-run builders only run code that's already been reviewed & submitted. We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](https://golang.org/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
+Generally, community-run builders only run code that's already been reviewed & submitted. We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](https://go.dev/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
 
 For paranoia reasons, you might want to run your builder in an isolated network that can't access any of your internal resources.

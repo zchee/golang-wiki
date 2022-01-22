@@ -17,7 +17,7 @@ Some of this documentation may be out of date.
 
 ## Czech - Čeština
 
-  * [Pravidla reflexe](http://www.abclinuxu.cz/clanky/google-go-pravidla-reflexe) - a translation of [The Laws of Reflection](http://blog.golang.org/2011/09/laws-of-reflection.html).
+  * [Pravidla reflexe](http://www.abclinuxu.cz/clanky/google-go-pravidla-reflexe) - a translation of [The Laws of Reflection](https://go.dev/blog/2011/09/laws-of-reflection.html).
 
 ## French - Français
 

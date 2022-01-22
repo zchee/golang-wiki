@@ -131,7 +131,7 @@ This finalizer has been registered with the runtime system, but the object to wh
 
 # memstats
 
-Dumps the first 26 fields of [MemStats](http://golang.org/pkg/runtime/#MemStats).  All fields are dumped with a uvarint except the 25th which is dumped with 256 uvarints.
+Dumps the first 26 fields of [MemStats](https://pkg.go.dev/runtime/#MemStats).  All fields are dumped with a uvarint except the 25th which is dumped with 256 uvarints.
 
 # queuedfinalizer
   * uvarint: address of object that has a finalizer

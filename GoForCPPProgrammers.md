@@ -2,9 +2,9 @@ Go is a systems programming language intended to be a general-purpose systems la
 
 An important point to keep in mind is that there are some fundamental differences in the thought processes required to be proficient in the two respective languages.  Most formidably, C++'s object model is based on classes and class hierarchies while Go's object model is based on interfaces (and is essentially flat).  Consequently, C++ design patterns rarely translate verbatim to Go.  To program effectively in Go, one has to consider the _problem_ being solved, not the mechanisms one might use in C++ to solve the problem.
 
-For a more general introduction to Go, see the <a href='http://tour.golang.org/'>Go Tour</a>, <a href='http://golang.org/doc/code.html'>How to Write Go Code</a> and <a href='http://golang.org/doc/effective_go.html'>Effective Go</a>.
+For a more general introduction to Go, see the <a href='http://tour.golang.org/'>Go Tour</a>, <a href='https://go.dev/doc/code'>How to Write Go Code</a> and <a href='https://go.dev/doc/effective_go'>Effective Go</a>.
 
-For a detailed description of the Go language, see the <a href='http://golang.org/doc/go_spec.html'>Go spec</a>.
+For a detailed description of the Go language, see the <a href='https://go.dev/ref/spec'>Go spec</a>.
 
 <h2>Conceptual Differences</h2>
 
@@ -130,7 +130,7 @@ if result, ok := g(); !ok {
 …
 ```
 
-Go code uses very few semicolons in practice.  Technically, all Go statements are terminated by a semicolon.  However, Go treats the end of a non-blank line as a semicolon unless the line is clearly incomplete (the exact rules are in <a href='https://golang.org/ref/spec#Semicolons'>the language specification</a>).  A consequence of this is that in some cases Go does not permit you to use a line break.  For example, you may not write
+Go code uses very few semicolons in practice.  Technically, all Go statements are terminated by a semicolon.  However, Go treats the end of a non-blank line as a semicolon unless the line is clearly incomplete (the exact rules are in <a href='https://go.dev/ref/spec#Semicolons'>the language specification</a>).  A consequence of this is that in some cases Go does not permit you to use a line break.  For example, you may not write
 
 ```go
 func g()
@@ -607,7 +607,7 @@ go func(i int) {
 }(1000) // Passes argument 1000 to the function literal.
 ```
 
-Like C++11, but unlike prior versions of C++, Go defines a <a href='http://golang.org/ref/mem'>memory model</a> for unsynchronized accesses to memory.  Although Go provides an analogue of `std::mutex` in its ` sync ` package, this is not the normal way to implement inter-thread communication and synchronization in Go programs.  Instead, Go threads more typically communicate by message passing, which is a fundamentally different approach from locks and barriers.  The Go mantra for this subject is,
+Like C++11, but unlike prior versions of C++, Go defines a <a href='https://go.dev/ref/mem'>memory model</a> for unsynchronized accesses to memory.  Although Go provides an analogue of `std::mutex` in its ` sync ` package, this is not the normal way to implement inter-thread communication and synchronization in Go programs.  Instead, Go threads more typically communicate by message passing, which is a fundamentally different approach from locks and barriers.  The Go mantra for this subject is,
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
 

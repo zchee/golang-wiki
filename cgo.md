@@ -1,8 +1,8 @@
 # Introduction
 
-First, http://golang.org/cmd/cgo is the primary cgo documentation.
+First, https://pkg.go.dev/cmd/cgo is the primary cgo documentation.
 
-There is also a good introduction article at http://golang.org/doc/articles/c_go_cgo.html.
+There is also a good introduction article at https://go.dev/blog/cgo
 
 ## The basics
 
@@ -74,12 +74,12 @@ foo.c contains:
 void ACFunction() {
 	printf("ACFunction()\n");
 	AGoFunction();
-} 
+}
 ```
 
 ### Function variables
 
-The following code shows an example of invoking a Go callback from C code. Because of the [pointer passing rules](https://golang.org/cmd/cgo/#hdr-Passing_pointers) Go code can not pass a function value directly to C.  Instead it is necessary to use an indirection. This example uses a registry with a mutex, but there are many other ways to map from a value that can be passed to C to a Go function.
+The following code shows an example of invoking a Go callback from C code. Because of the [pointer passing rules](https://pkg.go.dev/cmd/cgo/#hdr-Passing_pointers) Go code can not pass a function value directly to C.  Instead it is necessary to use an indirection. This example uses a registry with a mutex, but there are many other ways to map from a value that can be passed to C to a Go function.
 
 ```go
 package gocallback
@@ -309,7 +309,7 @@ C arrays are typically either null-terminated or have a length kept elsewhere.
 Go provides the following function to make a new Go byte slice from a C array:
   * ` func C.GoBytes(cArray unsafe.Pointer, length C.int) []byte `
 
-To create a Go slice backed by a C array (without copying the original data), one needs to acquire this length at runtime and use a type conversion to a pointer to a very big array and then slice it to the length that you want (also remember to set the cap if you're using Go 1.2 or later), for example (see http://play.golang.org/p/XuC0xqtAIC for a runnable example):
+To create a Go slice backed by a C array (without copying the original data), one needs to acquire this length at runtime and use a type conversion to a pointer to a very big array and then slice it to the length that you want (also remember to set the cap if you're using Go 1.2 or later), for example (see https://go.dev/play/p/XuC0xqtAIC for a runnable example):
 
 ```go
 import "C"

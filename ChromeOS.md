@@ -6,7 +6,7 @@ This tutorial will show you how to install, build, and run Go on Chrome OS.
 Please note this has only been tested on a 64GB LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
 
 # Install Go
-First download the latest version of Go for Linux from the [Go Downloads page](http://golang.org/dl/).
+First download the latest version of Go for Linux from the [Go Downloads page](https://go.dev/dl/).
 After that, open a shell by hitting (CTRL+ALT+T) and typing in `shell` then hit enter. Then extract it using the following command (when replacing `< Go Linux package >` with the name of the file you downloaded):
 
 ```

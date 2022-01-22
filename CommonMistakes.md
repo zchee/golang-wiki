@@ -68,7 +68,7 @@ Values: [[3] [3] [3]]
 
 The same issue can be demonstrated also when the loop variable is being used in a Goroutine (see the following section).
 
-# Using goroutines on loop iterator variables 
+# Using goroutines on loop iterator variables
 
 When iterating in Go, one might attempt to use goroutines to process data in parallel. For example, you might write something like this, using a closure:
 
@@ -115,7 +115,7 @@ for i := 1; i <= 10; i++ {
 ```
 
 Even though the closures all still close over the same variable (in this case, ` i `), they are executed before the variable changes, resulting in the desired behavior.
-http://golang.org/doc/go_faq.html#closures_and_goroutines
+https://go.dev/doc/faq#closures_and_goroutines
 
 You may find another, similar situation like the following:
 
@@ -128,7 +128,7 @@ func (v *val) MyMethod() {
 	fmt.Println(v)
 }
 ```
-The above example also will print last element of values, the reason is same as closure. To fix the issue declare another variable inside the loop. 
+The above example also will print last element of values, the reason is same as closure. To fix the issue declare another variable inside the loop.
 
 ```go
 for _, val := range values {

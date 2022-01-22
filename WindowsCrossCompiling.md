@@ -1,6 +1,6 @@
 # Building Windows Go programs on Linux
 
-See [here](https://golang.org/doc/install/source#environment) for available `GOOS` and `GOARCH` values.
+See [here](https://go.dev/doc/install/source#environment) for available `GOOS` and `GOARCH` values.
 
 ## Go version >= 1.5
 

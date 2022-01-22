@@ -20,7 +20,7 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 5. Redeploy all affected commands (or ask an x/build [owner](https://dev.golang.org/owners) to deploy if you're not; the order shouldn't matter):
 	1. `x/build/cmd/gitmirror`
 	2. `x/build/maintner/maintnerd`
-		- Note that it's expected for the new repo not to appear in maintner until first issue or PR is created (see [#25744](https://golang.org/issue/25744)).
+		- Note that it's expected for the new repo not to appear in maintner until first issue or PR is created (see [#25744](https://go.dev/issue/25744)).
 	3. `x/build/cmd/gerritbot`
 	4. `x/build/cmd/coordinator` 
 	5. `x/website/cmd/golangorg`

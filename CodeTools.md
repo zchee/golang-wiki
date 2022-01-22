@@ -13,7 +13,7 @@ An overview of tools that will help improve your Go code
 
 ### Tools
 
-  - [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
+  - [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter
   - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code
   - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements
   - [gofumpt](https://github.com/mvdan/gofumpt) - A stricter gofmt
@@ -40,7 +40,7 @@ An overview of tools that will help improve your Go code
 ### Tools
 
 - [eg](https://pkg.go.dev/golang.org/x/tools/cmd/eg) - Example-based refactoring tool for Go
-- [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
+- [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter
 - [gorename](https://golang.org/x/tools/refactor/rename) - Renaming tool for Go
 
 ## Error Detection
@@ -53,12 +53,12 @@ An overview of tools that will help improve your Go code
 
   - [AlignCheck, StructCheck, VarCheck](https://github.com/opennota/check/) - A suite of tools for checking your code.
   - [errcheck](https://github.com/kisielk/errcheck) - Ensure you check your error conditions.
-  - [go vet](http://golang.org/cmd/vet/) - Read this first on how to use the `go vet` command.
+  - [go vet](https://pkg.go.dev/cmd/vet/) - Read this first on how to use the `go vet` command.
   - [SafeSQL](https://github.com/stripe/safesql) - Protect against unsafe SQL in your code.
 
 ## Navigation
 
-  - [Go Guru - User Manual](https://golang.org/s/using-guru) - A tool for understanding Go code.
+  - [Go Guru - User Manual](https://go.dev/s/using-guru) - A tool for understanding Go code.
   - [Pythia](https://github.com/fzipp/pythia) - A browser-based UI for Go Guru.
 
 ## Visualization

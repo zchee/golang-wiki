@@ -18,8 +18,8 @@ Note that the channel ` c ` has a buffer size of 1.  If it were an unbuffered ch
 
 ## References
 
-time.After: http://golang.org/pkg/time/#After
+time.After: https://pkg.go.dev/time/#After
 
-select: http://golang.org/doc/go_spec.html#Select_statements
+select: https://go.dev/ref/spec#Select_statements
 
-blog post: http://blog.golang.org/2010/09/go-concurrency-patterns-timing-out-and.html
+blog post: https://go.dev/blog/2010/09/go-concurrency-patterns-timing-out-and.html

@@ -20,12 +20,12 @@ these strategies.
 
 ## Tools
 
-You need to have [Go 1.16 or above](https://golang.org/dl/) to install mobile tools.
+You need to have [Go 1.16 or above](https://go.dev/dl/) to install mobile tools.
 
 Go Mobile introduces a tool, [`gomobile`](https://golang.org/x/mobile/cmd/gomobile),
 to help you with the build and the binding process.
 
-`gomobile` also supports [Go Modules](https://golang.org/ref/mod), e.g. using
+`gomobile` also supports [Go Modules](https://go.dev/ref/mod), e.g. using
 
 ```
 $ gomobile bind -v -o android.aar -target=android ./package

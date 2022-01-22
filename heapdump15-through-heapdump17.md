@@ -128,7 +128,7 @@ This finalizer has been registered with the runtime system, but the object to wh
 
 # memstats
 
-Records the following fields of [runtime.MemStats](http://golang.org/pkg/runtime/#MemStats):
+Records the following fields of [runtime.MemStats](https://pkg.go.dev/runtime/#MemStats):
   * uvarint: Alloc
   * uvarint: TotalAlloc
   * uvarint: Sys

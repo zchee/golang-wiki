@@ -8,7 +8,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 
 ## English
 
-* [The official Go Blog](https://blog.golang.org) - For in depth posts by the Go team
+* [The official Go Blog](https://go.dev/blog) - For in depth posts by the Go team
 * [Gopher Academy Blog](http://blog.gopheracademy.com/)
 * [Dave Cheney's Blog](http://dave.cheney.net)
   * [Dave Cheney's Resources for Go Programmers](http://dave.cheney.net/resources-for-new-go-programmers)

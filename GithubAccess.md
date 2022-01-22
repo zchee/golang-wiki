@@ -1,8 +1,8 @@
 # Github Access
 
-There are two types of Github access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Github & Gerrit review process for some time before requesting access. See https://golang.org/wiki/Gardening.
+There are two types of Github access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Github & Gerrit review process for some time before requesting access. See https://go.dev/wiki/Gardening.
 
-(For Gerrit access, see https://golang.org/wiki/GerritAccess)
+(For Gerrit access, see https://go.dev/wiki/GerritAccess)
 
 ## Assignees
 
@@ -20,8 +20,8 @@ Please do not edit any field you're not confident about. Feel free to ask for se
 
 ## Requesting Access
 
-To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://golang.org/wiki/GithubAccess) and list and state which access you want (its name and group URL).
+To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GithubAccess) and list and state which access you want (its name and group URL).
 
 ## Once you have access
 
-Go help garden! See https://golang.org/wiki/Gardening.
+Go help garden! See https://go.dev/wiki/Gardening.

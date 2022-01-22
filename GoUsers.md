@@ -1254,7 +1254,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
     * [A lot of scripts that earlier were written in Sawzall](http://www.unofficialgoogledatascience.com/2015/12/replacing-sawzall-case-study-in-domain.html)
     * [Seesaw load balancer](http://google-opensource.blogspot.nl/2016/01/seesaw-scalable-and-robust-load.html) -[github repo](https://github.com/google/seesaw)
     * Other known uses include
-      * the [Turkey Doodle (2011)](http://blog.golang.org/2011/12/from-zero-to-go-launching-on-google.html),
+      * the [Turkey Doodle (2011)](https://go.dev/blog/2011/12/from-zero-to-go-launching-on-google.html),
       * the [Santa Tracker (2012)](https://www.youtube.com/watch?v=fc25ihfXhbg),
       * [writing map/reduce jobs](http://simplystatistics.org/2013/02/15/interview-with-nick-chamandy-statistician-at-google/),
       * [Jam With Chrome](http://www.jamwithchrome.com/technology),
@@ -1416,7 +1416,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Happy Pancake](http://www.happypancake.com/) - [blog](https://abdullin.com/happypancake/)
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [HER](https://weareher.com/)
-  * [Heroku](http://heroku.com/) - [Go blog post](http://blog.golang.org/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
+  * [Heroku](http://heroku.com/) - [Go blog post](https://go.dev/blog/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
   * [Hewlett Packard Enterprise](https://hpe.com) - [Github](https://github.com/HewlettPackard)
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Honeywell](https://www.honeywell.com)
@@ -1606,7 +1606,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [StackEngine](http://www.stackengine.com) - [blog](http://stackengine.com/golang-with-circleci/)
   * [Stack Exchange](http://stackexchange.com/) - [blog](http://blog.stackoverflow.com/2014/11/announcing-bosun-our-new-open-source-monitoring-alerting-system/), [github](https://github.com/bosun-monitor/bosun), [website](http://bosun.org/)
   * [Staffjoy](https://www.staffjoy.com) - [blog](https://blog.staffjoy.com/staffjoys-v2-architecture-9d2fcb4015fd)
-  * [StatHat](http://stathat.com/) - [Go blog post](http://blog.golang.org/2011/12/building-stathat-with-go.html)
+  * [StatHat](http://stathat.com/) - [Go blog post](https://go.dev/blog/2011/12/building-stathat-with-go.html)
   * [Steals.com](http://steals.com) [blog](http://blog.gopheracademy.com/day-15-shopping-with-go)
   * [SteelSeries](http://www.steelseries.com) - [blog](http://techblog.steelseries.com/golisp/index.html)
   * [StorReduce](http://storreduce.com)

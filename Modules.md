@@ -1,18 +1,18 @@
 # Go Modules
 
 This wiki page serves as a usage and troubleshooting guide.
-* For tutorial blog posts, see [Using Go Modules](https://blog.golang.org/using-go-modules).
-* For a technical reference, see the [Go Modules Reference](https://golang.org/ref/mod) (under development).
+* For tutorial blog posts, see [Using Go Modules](https://go.dev/blog/using-go-modules).
+* For a technical reference, see the [Go Modules Reference](https://go.dev/ref/mod) (under development).
 
-Go has included support for versioned modules as proposed [here](https://golang.org/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
+Go has included support for versioned modules as proposed [here](https://go.dev/design/24301-versioned-go) since 1.11. The initial prototype  `vgo` was [announced](https://research.swtch.com/vgo) in February 2018. In July 2018, versioned modules [landed](https://groups.google.com/d/msg/golang-dev/a5PqQuBljF4/61QK4JdtBgAJ) in the main Go repository.
 
-Since [Go 1.14](https://golang.org/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.16 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
+Since [Go 1.14](https://go.dev/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.16 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
 
 ## Recent Changes
 
 ### Go 1.16
 
-See the [Go 1.16 release notes](https://golang.org/doc/go1.16#go-command) for details.
+See the [Go 1.16 release notes](https://go.dev/doc/go1.16#go-command) for details.
 
 * Module mode (`GO111MODULE=on`) is the default in all cases
 * Commands no longer modify `go.mod` / `go.sum` by default (`-mod=readonly`)
@@ -21,14 +21,14 @@ See the [Go 1.16 release notes](https://golang.org/doc/go1.16#go-command) for de
 
 ### Go 1.15
 
-See the [Go 1.15 release notes](https://golang.org/doc/go1.15#go-command) for details.
+See the [Go 1.15 release notes](https://go.dev/doc/go1.15#go-command) for details.
 
 * The location of the module cache may now be set with the `GOMODCACHE` environment variable. The default value of `GOMODCACHE` is `GOPATH[0]/pkg/mod`, the location of the module cache before this change.
-* A workaround is now available for Windows "Access is denied" errors in go commands that access the module cache, caused by external programs concurrently scanning the file system (see issue [#36568](https://golang.org/issue/36568)). The workaround is not enabled by default because it is not safe to use when Go versions lower than 1.14.2 and 1.13.10 are running concurrently with the same module cache. It can be enabled by explicitly setting the environment variable `GODEBUG=modcacheunzipinplace=1`.
+* A workaround is now available for Windows "Access is denied" errors in go commands that access the module cache, caused by external programs concurrently scanning the file system (see issue [#36568](https://go.dev/issue/36568)). The workaround is not enabled by default because it is not safe to use when Go versions lower than 1.14.2 and 1.13.10 are running concurrently with the same module cache. It can be enabled by explicitly setting the environment variable `GODEBUG=modcacheunzipinplace=1`.
 
 ### Go 1.14
 
-See the [Go 1.14 release notes](https://golang.org/doc/go1.14#go-command) for details.
+See the [Go 1.14 release notes](https://go.dev/doc/go1.14#go-command) for details.
 
 * When the main module contains a top-level vendor directory and its `go.mod file` specifies `go 1.14` or higher, the go command now defaults to `-mod=vendor` for operations that accept that flag.
 * `-mod=readonly` is now set by default when the go.mod file is read-only and no top-level vendor directory is present.
@@ -39,10 +39,10 @@ See the [Go 1.14 release notes](https://golang.org/doc/go1.14#go-command) for de
 
 ### Go 1.13
 
-See the [Go 1.13 release notes](https://golang.org/doc/go1.13#modules) for details.
+See the [Go 1.13 release notes](https://go.dev/doc/go1.13#modules) for details.
 
 * The `go` tool now defaults to downloading modules from the public Go module mirror at https://proxy.golang.org, and also defaults to validating downloaded modules (regardless of source) against the public Go checksum database at https://sum.golang.org.
-     * If you have private code, you most likely should configure the `GOPRIVATE` setting (such as `go env -w GOPRIVATE=*.corp.com,github.com/secret/repo`), or the more fine-grained variants `GONOPROXY` or `GONOSUMDB` that support less frequent use cases. See the [documentation](https://golang.org/ref/mod#private-module-privacy) for more details.
+     * If you have private code, you most likely should configure the `GOPRIVATE` setting (such as `go env -w GOPRIVATE=*.corp.com,github.com/secret/repo`), or the more fine-grained variants `GONOPROXY` or `GONOSUMDB` that support less frequent use cases. See the [documentation](https://go.dev/ref/mod#private-module-privacy) for more details.
 * `GO111MODULE=auto` enables module-mode if any go.mod is found, even inside GOPATH. (Prior to Go 1.13, `GO111MODULE=auto` would never enable module-mode inside GOPATH).
 * `go get` arguments have changed:
      * `go get -u` (without any arguments) now only upgrades the direct and indirect dependencies of your current _package_, and no longer examines your entire _module_.
@@ -203,7 +203,7 @@ After reading the next four sections on "New Concepts", you will have enough inf
 
 ## New Concepts
 
-These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see  this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), the [official proposal document](https://golang.org/design/24301-versioned-go), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
+These sections provide a high-level introduction to the main new concepts. For more details and rationale, please see  this 40-minute introductory [video by Russ Cox describing the philosophy behind the design](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=3&t=0s), the [official proposal document](https://go.dev/design/24301-versioned-go), or the more detailed initial [vgo blog series](https://research.swtch.com/vgo).
 
 ### Modules
 
@@ -290,7 +290,7 @@ As a result of Semantic Import Versioning, code opting in to Go modules **must c
 
 In general, packages with different import paths are different packages. For example, `math/rand` is a different package than `crypto/rand`. This is also true if different import paths are due to different major versions appearing in the import path. Thus `example.com/my/mod/mypkg` is a different package than `example.com/my/mod/v2/mypkg`, and both may be imported in a single build, which among other benefits helps with diamond dependency problems and also allows a v1 module to be implemented in terms of its v2 replacement or vice versa.
 
-See the ["Module compatibility and semantic versioning"](https://golang.org/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the `go` command documentation for more details on Semantic Import Versioning, and see https://semver.org for more about semantic versioning.
+See the ["Module compatibility and semantic versioning"](https://pkg.go.dev/cmd/go/#hdr-Module_compatibility_and_semantic_versioning) section of the `go` command documentation for more details on Semantic Import Versioning, and see https://semver.org for more about semantic versioning.
 
 This section so far has been focused on code that has opted in to modules and imports other modules. However, putting major versions in import paths for v2+ modules could create incompatibilities with older versions of Go, or with code that has not yet opted in to modules. To help with this, there are three important transitional special cases or exceptions to the behavior and rules described above. These transitional exceptions will become less important over time as more packages opt in to modules. 
 
@@ -315,8 +315,8 @@ For the exact mechanics required to release a v2+ module, please see the ["Relea
 ### How to Install and Activate Module Support
 
 To use modules, two install options are:
-* [Install the latest Go 1.11 release](https://golang.org/dl/).
-* [Install the Go toolchain from source](https://golang.org/doc/install/source) on the `master` branch.
+* [Install the latest Go 1.11 release](https://go.dev/dl/).
+* [Install the Go toolchain from source](https://go.dev/doc/install/source) on the `master` branch.
 
 Once installed, you can then activate module support in one of two ways:
 * Invoke the `go` command in a directory outside of the `$GOPATH/src` tree, with a valid `go.mod` file in the current directory or any parent of it and the environment variable `GO111MODULE` unset (or explicitly set to `auto`).
@@ -374,7 +374,7 @@ To create a `go.mod` for an existing project:
 
 Prior to tagging a release, see the ["How to Prepare for a Release"](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) section below.
 
-For more information on all of these topics, the primary entry point to the official modules documentation is [available on golang.org](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more).
+For more information on all of these topics, the primary entry point to the official modules documentation is [available on golang.org](https://pkg.go.dev/cmd/go/#hdr-Modules__module_versions__and_more).
 
 ## How to Upgrade and Downgrade Dependencies
 
@@ -409,17 +409,17 @@ To upgrade to the latest version for all direct and indirect dependencies of the
 
 `go get foo` updates to the latest version of `foo`. `go get foo` is equivalent to `go get foo@latest` — in other words, `@latest` is the default if no `@` version is specified.
 
-In this section, "latest" is the latest version with a [semver](https://semver.org/) tag, or the latest known commit if there are no semver tags. Prerelease tags are not selected as "latest" unless there are no other semver tags on the repository ([details](https://golang.org/cmd/go/#hdr-Module_aware_go_get)).
+In this section, "latest" is the latest version with a [semver](https://semver.org/) tag, or the latest known commit if there are no semver tags. Prerelease tags are not selected as "latest" unless there are no other semver tags on the repository ([details](https://pkg.go.dev/cmd/go/#hdr-Module_aware_go_get)).
 
 A common mistake is thinking `go get -u foo` solely gets the latest version of `foo`. In actuality, the `-u` in `go get -u foo` or `go get -u foo@latest` means to _also_ get the latest versions for _all_ of the direct and indirect dependencies of `foo`. A common starting point when upgrading `foo` is instead to do `go get foo` or `go get foo@latest` without a `-u` (and after things are working, consider `go get -u=patch foo`, `go get -u=patch`, `go get -u foo`, or `go get -u`).
 
-To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://golang.org/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
+To upgrade or downgrade to a more specific version, 'go get' allows version selection to be overridden by adding an @version suffix or ["module query"](https://pkg.go.dev/cmd/go/#hdr-Module_queries) to the package argument, such as `go get foo@v1.6.2`, `go get foo@e3702bed2`, or `go get foo@'<v1.6.2'`. 
 
 Using a branch name such as `go get foo@master` (`foo@default` with mercurial) is one way to obtain the latest commit regardless of whether or not it has a semver tag.
 
 In general, module queries that do not resolve to a semver tag will be recorded as [pseudo-versions](https://tip.golang.org/cmd/go/#hdr-Pseudo_versions) in the `go.mod` file.
 
-See the ["Module-aware go get"](https://golang.org/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://golang.org/cmd/go/#hdr-Module_queries) sections of the `go` command documentation for more information on the topics here.
+See the ["Module-aware go get"](https://pkg.go.dev/cmd/go/#hdr-Module_aware_go_get) and ["Module queries"](https://pkg.go.dev/cmd/go/#hdr-Module_queries) sections of the `go` command documentation for more information on the topics here.
 
 Modules are capable of consuming packages that have not yet opted into modules, including recording any available semver tags in `go.mod` and using those semver tags to upgrade or downgrade. Modules can also consume packages that do not yet have any proper semver tags (in which case they will be recorded using pseudo-versions in `go.mod`).
 
@@ -463,7 +463,7 @@ There are two alternative mechanisms to release a v2 or higher module. Note that
 
 2. **Major subdirectory**: Create a new `v3` subdirectory (e.g., `my/module/v3`) and place a new `go.mod` file in that subdirectory. The module path must end with `/v3`. Copy or move the code into the `v3` subdirectory. Update import statements within the module to also use `/v3` (e.g., `import "github.com/my/module/v3/mypkg"`). Tag the release with `v3.0.0`.
    * This provides greater backwards-compatibility. In particular, Go versions older than 1.9.7 and 1.10.3 are also able to properly consume and build a v2+ module created using this approach.
-   * A more sophisticated approach here could exploit type aliases (introduced in Go 1.9) and forwarding shims between major versions residing in different subdirectories.  This can provide additional compatibility and allow one major version to be implemented in terms of another major version but would entail more work for a module author. An in-progress tool to automate this is `goforward`. Please see [here](https://golang.org/cl/137076) for more details and rationale, along with a functioning initial version of `goforward`.
+   * A more sophisticated approach here could exploit type aliases (introduced in Go 1.9) and forwarding shims between major versions residing in different subdirectories.  This can provide additional compatibility and allow one major version to be implemented in terms of another major version but would entail more work for a module author. An in-progress tool to automate this is `goforward`. Please see [here](https://go.dev/cl/137076) for more details and rationale, along with a functioning initial version of `goforward`.
    * Pre-existing dependency management solutions such as `dep` should be able to consume a v2+ module created in this way. 
 
 See https://research.swtch.com/vgo-module for a more in-depth discussion of these alternatives.
@@ -528,7 +528,7 @@ Note that module paths and import paths are case-sensitive. Changing a module fr
 
 After you have adopted modules, changing your module path in your `go.mod` is a breaking change.
 
-Overall, this is similar to the pre-modules enforcement of a canonical import path via ["import path comments"](https://golang.org/cmd/go/#hdr-Import_path_checking), which are also sometimes called "import pragmas" or "import path enforcement".  As an example, the package `go.uber.org/zap` is currently hosted at `github.com/uber-go/zap`, but uses an import path comment [next to the package declaration]((https://github.com/uber-go/zap/blob/8a2ee5670ced5d94154bf385dc6a362722945daf/doc.go#L113)) that triggers an error for any pre-modules consumer using the wrong github-based import path:
+Overall, this is similar to the pre-modules enforcement of a canonical import path via ["import path comments"](https://pkg.go.dev/cmd/go/#hdr-Import_path_checking), which are also sometimes called "import pragmas" or "import path enforcement".  As an example, the package `go.uber.org/zap` is currently hosted at `github.com/uber-go/zap`, but uses an import path comment [next to the package declaration]((https://github.com/uber-go/zap/blob/8a2ee5670ced5d94154bf385dc6a362722945daf/doc.go#L113)) that triggers an error for any pre-modules consumer using the wrong github-based import path:
 
 `package zap // import "go.uber.org/zap"`
 
@@ -583,15 +583,15 @@ For authors of pre-existing v2+ packages considering opting in to modules, one w
 ### Documentation and Proposal
 
 * Official documentation:
-  * Latest [HTML documentation for modules on golang.org](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
+  * Latest [HTML documentation for modules on golang.org](https://pkg.go.dev/cmd/go/#hdr-Modules__module_versions__and_more)
   * Run `go help modules` for more about modules. (This is the main entry point for modules topics via `go help`)
   * Run `go help mod` for more about the `go mod` command.
   * Run `go help module-get` for more about the behavior of `go get` when in module-aware mode.
   * Run `go help goproxy` for more about the module proxy, including a pure file-based option via a `file:///` URL.
 * The initial ["Go & Versioning"](https://research.swtch.com/vgo) series of blog posts on `vgo` by Russ Cox (first posted February 20, 2018)
-* Official [golang.org blog post introducing the proposal](https://blog.golang.org/versioning-proposal) (March 26, 2018)
+* Official [golang.org blog post introducing the proposal](https://go.dev/blog/versioning-proposal) (March 26, 2018)
   * This provides a more succinct overview of the proposal than the full `vgo` blog series, along with some of the history and process behind the proposal
-* Official [Versioned Go Modules Proposal](https://golang.org/design/24301-versioned-go) (last updated March 20, 2018)
+* Official [Versioned Go Modules Proposal](https://go.dev/design/24301-versioned-go) (last updated March 20, 2018)
 
 ### Introductory Material
 
@@ -617,7 +617,7 @@ As part of the proposal, prototype, and beta processes, there have been over 400
 Here is a partial list of some of the larger changes and improvements, almost all of which were primarily based on feedback from the community:
 
 * Top-level vendor support was retained rather than vgo-based builds ignoring vendor directories entirely ([discussion](https://groups.google.com/d/msg/golang-dev/FTMScX1fsYk/uEUSjBAHAwAJ), [CL](https://go-review.googlesource.com/c/vgo/+/118316))
-* Backported minimal module-awareness to allow older Go versions 1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://golang.org/cl/109340))
+* Backported minimal module-awareness to allow older Go versions 1.9.7+ and 1.10.3+ to more easily consume modules for v2+ projects ([discussion](https://github.com/golang/go/issues/24301#issuecomment-371228742),  [CL](https://go.dev/cl/109340))
 * Allowed vgo to use v2+ tags by default for pre-existing packages did not yet have a go.mod (recent update in related behavior described [here](https://github.com/golang/go/issues/25967#issuecomment-407567904))
 * Added support via command `go get -u=patch` to update all transitive dependencies to the latest available patch-level versions on the same minor version ([discussion](https://research.swtch.com/vgo-cmd), [documentation](https://tip.golang.org/cmd/go/#hdr-Module_aware_go_get))
 * Additional control via environmental variables (e.g., GOFLAGS in [#26585](https://github.com/golang/go/issues/26585), [CL](https://go-review.googlesource.com/c/go/+/126656))
@@ -630,7 +630,7 @@ Here is a partial list of some of the larger changes and improvements, almost al
 
 ## GitHub Issues
 
-* [Currently open module issues](https://golang.org/issues?q=is%3Aopen+is%3Aissue+label:modules)
+* [Currently open module issues](https://go.dev/issues?q=is%3Aopen+is%3Aissue+label:modules)
 * [Closed module issues](https://github.com/golang/go/issues?q=is%3Aclosed+is%3Aissue+label%3Amodules+sort%3Aupdated-desc)
 * [Closed vgo issues](https://github.com/golang/go/issues?q=-label%3Amodules+vgo+is%3Aclosed+sort%3Aupdated-desc)
 * Submit a [new module issue](https://github.com/golang/go/issues/new?title=cmd%2Fgo%3A%20%3Cfill%20this%20in%3E) using 'cmd/go:' as the prefix
@@ -786,7 +786,7 @@ A `require` directive is needed for each `replace` directive of a direct depende
 
 You can confirm you are getting your expected versions by running `go list -m all`, which shows you the actual final versions that will be used in your build including taking into account `replace` statements.
 
-See the ['go mod edit' documentation](https://golang.org/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
+See the ['go mod edit' documentation](https://pkg.go.dev/cmd/go/#hdr-Edit_go_mod_from_tools_or_scripts) for more details.
 
 [github.com/rogpeppe/gohack](https://github.com/rogpeppe/gohack) makes these types of workflows much easier, especially if your goal is to have mutable checkouts of dependencies of a module.  See the [repository](https://github.com/rogpeppe/gohack) or the immediately prior FAQ for an overview.
 
@@ -923,7 +923,7 @@ Yes. This supports working outside of GOPATH, helps communicate to the ecosystem
 
 ### Why must major version numbers appear in import paths?
 
-Please see the discussion on the Semantic Import Versioning and the import compatibility rule in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) concepts section above. See also the [blog post announcing the proposal](https://blog.golang.org/versioning-proposal), which talks more about the motivation and justification for the import compatibility rule.
+Please see the discussion on the Semantic Import Versioning and the import compatibility rule in the ["Semantic Import Versioning"](https://github.com/golang/go/wiki/Modules#semantic-import-versioning) concepts section above. See also the [blog post announcing the proposal](https://go.dev/blog/versioning-proposal), which talks more about the motivation and justification for the import compatibility rule.
 
 ### Why are major versions v0, v1 omitted from import paths?"
 
@@ -945,7 +945,7 @@ On a related note, Kubernetes has some atypical build approaches (currently incl
 
 Yes.
 
-If a repository has not opted in to modules but has been tagged with valid [semver](https://semver.org) tags (including the required leading `v`), then those semver tags can be used in a `go get`, and a corresponding semver version will be record in the importing module's `go.mod` file. If the repository does not have any valid semver tags, then the repository's version will be recorded with a ["pseudo-version"](https://golang.org/cmd/go/#hdr-Pseudo_versions) such as ` v0.0.0-20171006230638-a6e239ea1c69` (which includes a timestamp and a commit hash, and which are designed to allow a total ordering across versions recorded in `go.mod` and to make it easier to reason about which recorded versions are "later" than another recorded version).
+If a repository has not opted in to modules but has been tagged with valid [semver](https://semver.org) tags (including the required leading `v`), then those semver tags can be used in a `go get`, and a corresponding semver version will be record in the importing module's `go.mod` file. If the repository does not have any valid semver tags, then the repository's version will be recorded with a ["pseudo-version"](https://pkg.go.dev/cmd/go/#hdr-Pseudo_versions) such as ` v0.0.0-20171006230638-a6e239ea1c69` (which includes a timestamp and a commit hash, and which are designed to allow a total ordering across versions recorded in `go.mod` and to make it easier to reason about which recorded versions are "later" than another recorded version).
 
 For example, if the latest version of package `foo` is tagged `v1.2.3` but `foo` has not itself opted in to modules, then running `go get foo` or `go get foo@v1.2.3` from inside module M will be recorded in module M's `go.mod` file as:
 

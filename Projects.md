@@ -693,7 +693,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [godev](https://github.com/kdar/godev) - Recompiles and runs your Go code on source change. Also watches all your imports for changes.
   * [godiff](https://github.com/spcau/godiff) - diff file comparison tool with colour html output
   * [gonew](https://github.com/bmatsuo/gonew) - A tool to create new Go projects
-  * [go-play](https://code.google.com/p/go-play) - A HTML5 web interface for experimenting with Go code. Like http://golang.org/doc/play but runs on your computer
+  * [go-play](https://code.google.com/p/go-play) - A HTML5 web interface for experimenting with Go code. Like https://go.dev/doc/play but runs on your computer
   * [gore](https://github.com/motemen/gore) - A Go REPL. Featured with line editing, code completion, and more
   * [gorun](https://wiki.ubuntu.com/gorun) - Enables Go source files to be used as scripts.
   * [go-spew](https://github.com/davecgh/go-spew) - Implements a deep pretty printer for Go data structures to aid in debugging
@@ -1578,7 +1578,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [Black Friday](https://github.com/russross/blackfriday) - A markdown processor
   * [codename-generator](https://github.com/jgautheron/codename-generator) - A codename generator meant for naming software releases
   * [columnize](https://code.google.com/p/go-columnize/) - format slice or array into aligned columns
-  * [csvplus](https://github.com/maxim2266/csvplus) - Extends the standard Go [encoding/csv](https://golang.org/pkg/encoding/csv/) package with fluent interface, lazy stream operations, indices and joins.
+  * [csvplus](https://github.com/maxim2266/csvplus) - Extends the standard Go [encoding/csv](https://pkg.go.dev/encoding/csv/) package with fluent interface, lazy stream operations, indices and joins.
   * [csvutil](https://github.com/bmatsuo/csvutil) - A heavy duty CSV reading and writing library.
   * [dgohash](https://github.com/dgryski/dgohash) - Collection of string hashing functions, including Murmur3 and others
   * [douceur](https://github.com/aymerick/douceur) - A simple CSS parser and inliner in Go.

@@ -4,7 +4,7 @@
 
 This page links to prior discussion on various topics.
 
-The page complements the [official FAQ](https://golang.org/doc/faq). While the official FAQ contains things which are frequently asked and contains answers, this page contains things that have been repeatedly asked, but maybe not frequently, and only needs to link to one or more previous threads.  Over time, these entries may graduate to entries in the official FAQ.
+The page complements the [official FAQ](https://go.dev/doc/faq). While the official FAQ contains things which are frequently asked and contains answers, this page contains things that have been repeatedly asked, but maybe not frequently, and only needs to link to one or more previous threads.  Over time, these entries may graduate to entries in the official FAQ.
 
 **Editors:** When editing this page, please don't change the titles of sections, as that breaks the #anchors in URLs. You can rearrange, though. Feel free to add entries at will. There is no requirement for code or English review here.
 
@@ -53,7 +53,7 @@ Rejected.
 
 ### Add warnings to the Go compiler
 
-Experience in large projects has shown that warnings pile up until people ignore all warnings, so warnings only add noise and no value (or are actively harmful in that they hide bugs). See https://golang.org/doc/faq#unused_variables_and_imports 
+Experience in large projects has shown that warnings pile up until people ignore all warnings, so warnings only add noise and no value (or are actively harmful in that they hide bugs). See https://go.dev/doc/faq#unused_variables_and_imports 
 
 ### Weak references
 

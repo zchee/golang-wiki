@@ -12,4 +12,4 @@
 
 _*_ Go 1.5 or above is recommended.
 
-_**_ FreeBSD 12/13 requires a kernel with `options COMPAT_FREEBSD11` config (this is the default). 64-bit inode aware system calls are available since https://golang.org/cl/143637. See https://golang.org/issues/22447.
+_**_ FreeBSD 12/13 requires a kernel with `options COMPAT_FREEBSD11` config (this is the default). 64-bit inode aware system calls are available since https://go.dev/cl/143637. See https://go.dev/issues/22447.

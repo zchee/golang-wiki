@@ -5,12 +5,12 @@ This page documents some less well-known (perhaps advanced) tricks for the ` gc 
 
 ### Use ` syso ` file to embed arbitrary self-contained C code
 Basically, you write your assembly language in GNU as(1) format, but make sure
-all the interface functions are using Go's ABI (everything on stack, etc., please read [Go 1.2 Assembler Introduction](https://golang.org/doc/asm) for more details).
+all the interface functions are using Go's ABI (everything on stack, etc., please read [Go 1.2 Assembler Introduction](https://go.dev/doc/asm) for more details).
 
 The most important step is compiling that file to file.syso (` gcc -c -O3 -o file.syso file.S `),
 and put the resulting syso in the package source directory.
 And then, suppose your assembly function is named Func, you need one stub
-[cmd/asm](https://golang.org/cmd/asm) assembly file to call it:
+[cmd/asm](https://pkg.go.dev/cmd/asm) assembly file to call it:
 ```as
 TEXT ·Func(SB),$0-8 // please set the correct parameter size (8) here
 	JMP Func(SB)
@@ -94,7 +94,7 @@ use cgo, at least for now. I (minux) is working on figuring out why they're inco
 
 # Including build information in the executable
 
-The gc toolchain linker, [cmd/link](https://golang.org/cmd/link), provides a `-X` option that may be used to record arbitrary information in a Go string variable at link time. The format is `-X importpath.name=val`.  Here `importpath` is the name used in an import statement for the package (or `main` for the main package), `name` is the name of the string variable defined in the package, and `val` is the string you want to set that variable to. When using the go tool, use its `-ldflags` option to pass the `-X` option to the linker.
+The gc toolchain linker, [cmd/link](https://pkg.go.dev/cmd/link), provides a `-X` option that may be used to record arbitrary information in a Go string variable at link time. The format is `-X importpath.name=val`.  Here `importpath` is the name used in an import statement for the package (or `main` for the main package), `name` is the name of the string variable defined in the package, and `val` is the string you want to set that variable to. When using the go tool, use its `-ldflags` option to pass the `-X` option to the linker.
 
 Let's suppose this file is part of the package `company/buildinfo`:
 

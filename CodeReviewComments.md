@@ -4,11 +4,11 @@ This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
 This is a laundry list of common mistakes, not a comprehensive style guide.
 
-You can view this as a supplement to [Effective Go](https://golang.org/doc/effective_go.html).
+You can view this as a supplement to [Effective Go](https://go.dev/doc/effective_go).
 
 Additional comments related to testing can be found at [Go Test Comments](https://github.com/golang/go/wiki/TestComments)
 
-**Please [discuss changes](https://golang.org/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
+**Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
 * [Gofmt](#gofmt)
 * [Comment Sentences](#comment-sentences)
@@ -44,13 +44,13 @@ Additional comments related to testing can be found at [Go Test Comments](https:
 
 ## Gofmt
 
-Run [gofmt](https://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
+Run [gofmt](https://pkg.go.dev/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
 An alternative is to use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
 ## Comment Sentences
 
-See https://golang.org/doc/effective_go.html#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
+See https://go.dev/doc/effective_go#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
 
 ```go
 // Request represents a request to run a command.
@@ -157,11 +157,11 @@ For more discussion about nil in Go see Francesc Campoy's talk [Understanding Ni
 
 ## Doc Comments
 
-All top-level, exported names should have doc comments, as should non-trivial unexported type or function declarations. See https://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
+All top-level, exported names should have doc comments, as should non-trivial unexported type or function declarations. See https://go.dev/doc/effective_go#commentary for more information about commentary conventions.
 
 ## Don't Panic
 
-See https://golang.org/doc/effective_go.html#errors. Don't use panic for normal error handling. Use error and multiple return values.
+See https://go.dev/doc/effective_go#errors. Don't use panic for normal error handling. Use error and multiple return values.
 
 ## Error Strings
 
@@ -172,7 +172,7 @@ Error strings should not be capitalized (unless beginning with proper nouns or a
 When adding a new package, include examples of intended usage: a runnable Example,
 or a simple test demonstrating a complete call sequence.
 
-Read more about [testable Example() functions](https://blog.golang.org/examples).
+Read more about [testable Example() functions](https://go.dev/blog/examples).
 
 ## Goroutine Lifetimes
 
@@ -192,7 +192,7 @@ If that just isn't feasible, document when and why the goroutines exit.
 
 ## Handle Errors
 
-See https://golang.org/doc/effective_go.html#errors. Do not discard errors using `_` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
+See https://go.dev/doc/effective_go#errors. Do not discard errors using `_` variables. If a function returns an error, check it to make sure the function succeeded. Handle the error, return it, or, in truly exceptional situations, panic.
 
 ## Imports
 
@@ -424,7 +424,7 @@ boundaries are, not to start counting lines.
 
 ## Mixed Caps
 
-See https://golang.org/doc/effective_go.html#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
+See https://go.dev/doc/effective_go#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
 
 Also see [Initialisms](https://github.com/golang/go/wiki/CodeReviewComments#initialisms).
 
@@ -545,7 +545,7 @@ of the sentence. When the binary name is the first word, capitalizing it is
 required even though it does not strictly match the spelling of the
 command-line invocation.
 
-See https://golang.org/doc/effective_go.html#commentary for more information about commentary conventions.
+See https://go.dev/doc/effective_go#commentary for more information about commentary conventions.
 
 ## Package Names
 
@@ -553,8 +553,8 @@ All references to names in your package will be done using the package name,
 so you can omit that name from the identifiers. For example, if you are in package chubby, 
 you don't need type ChubbyFile, which clients will write as `chubby.ChubbyFile`.
 Instead, name the type `File`, which clients will write as `chubby.File`.
-Avoid meaningless package names like util, common, misc, api, types, and interfaces. See http://golang.org/doc/effective_go.html#package-names and
-http://blog.golang.org/package-names for more.
+Avoid meaningless package names like util, common, misc, api, types, and interfaces. See https://go.dev/doc/effective_go#package-names and
+https://go.dev/blog/package-names for more.
 
 ## Pass Values
 

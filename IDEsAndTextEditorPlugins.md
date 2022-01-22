@@ -1,6 +1,6 @@
 # Editors and IDEs for Go
 ## Popular
-The [Go Developer Survey](https://blog.golang.org/survey2019-results) showed these as the most popular editors.
+The [Go Developer Survey](https://go.dev/blog/survey2019-results) showed these as the most popular editors.
   * **[Visual Studio Code](https://code.visualstudio.com/)**: Free & open source IDE by Microsoft. Visual Studio Code supports Go syntax highlighting out of the box. Additional features are provided by the official [vscode-go](https://github.com/golang/vscode-go) plugin.
   * **[GoLand](https://www.jetbrains.com/go/)**: JetBrains's cross-platform, [fully featured](https://www.jetbrains.com/go/features/) Go IDE (commercial). Free for students, teachers, open-source developers, and user-groups ([see details](https://www.jetbrains.com/go/buy/#edition=discounts)). Also available as part of IntelliJ IDEA Ultimate.
 

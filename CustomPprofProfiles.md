@@ -5,7 +5,7 @@ Originally published at https://rakyll.org/custom-profiles/.
 Go provides several pprof profiles out of the box to gather
 profiling data from Go programs.
 
-The builtin profiles provided by the [runtime/pprof](https://golang.org/pkg/runtime/pprof/) package:
+The builtin profiles provided by the [runtime/pprof](https://pkg.go.dev/runtime/pprof/) package:
 
 * **profile**: CPU profile determines where a program spends its time while actively consuming CPU cycles (as opposed while sleeping or waiting for I/O).
 * **heap**: Heap profile reports the currently live allocations; used to monitor current memory usage or check for memory leaks.
@@ -14,7 +14,7 @@ The builtin profiles provided by the [runtime/pprof](https://golang.org/pkg/runt
 * **block**: Block profile show where goroutines block waiting on synchronization primitives (including timer channels). Block profile is not enabled by default; use runtime.SetBlockProfileRate to enable it.
 * **mutex**: Mutex profile reports the lock contentions. When you think your CPU is not fully utilized due to a mutex contention, use this profile. Mutex profile is not enabled by default, see runtime.SetMutexProfileFraction to enable.
 
-Additional to the builtin profiles, [runtime/pprof](https://golang.org/pkg/runtime/pprof/) package allows you to export your custom profiles, and instrument your code to record
+Additional to the builtin profiles, [runtime/pprof](https://pkg.go.dev/runtime/pprof/) package allows you to export your custom profiles, and instrument your code to record
 execution stacks that contributes to this profile.
 
 Imagine we have a blob server, and we are writing a Go client for it. And our users want to be able to profile the opened blobs on the client. We can create a profile and record the events of blob opening and closing, so the user can tell how many open blobs they are at any time.

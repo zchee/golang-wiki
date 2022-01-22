@@ -19,7 +19,7 @@ What are you trying to accomplish?<br>
 What is the context of the problem?<br>
 What are the requirements for the solution?<br>
 What are the context-specific constraints/properties?<br>
-Your compilable and runnable example on <a href='http://play.golang.org'>play.golang.org</a><br>
+Your compilable and runnable example on <a href='https://go.dev/play'>play.golang.org</a><br>
 <br>
 Other notes about the situation (production/school/playing/learning)</blockquote>
 
@@ -59,7 +59,7 @@ Now the asker will provide an example:<br>
 </code></pre>
 But it just panics.</blockquote>
 
-Now you've got some code that even doesn't compile. This means you need to copy paste it somewhere and fix the mistakes. Putting it on <a href='http://play.golang.org'>play.golang.org</a> makes it easier to see the problem (e.g. <a href='http://play.golang.org/p/fCxBlL9V4Y'>play.golang.org/p/fCxBlL9V4Y</a>).<br>
+Now you've got some code that even doesn't compile. This means you need to copy paste it somewhere and fix the mistakes. Putting it on <a href='https://go.dev/play'>play.golang.org</a> makes it easier to see the problem (e.g. <a href='https://go.dev/play/p/fCxBlL9V4Y'>play.golang.org/p/fCxBlL9V4Y</a>).<br>
 <br>
 <i>The fix is simple; just use <code>SetMapIndex</code> instead.</i> Of course that may not be the full story. The asker now comes back with another problem:<br>
 <br>
@@ -91,7 +91,7 @@ The initial question could have been:<br>
 <br>
 <blockquote>How do I use the reflect <code>Set</code> method with <code>MapIndex</code>?<br>
 <br>
-I'm trying to set a value on a generic map for a set package. But it just gives a panic when I try to do that. <a href='http://play.golang.org/p/fCxBlL9V4Y'>play.golang.org/p/fCxBlL9V4Y</a><br>
+I'm trying to set a value on a generic map for a set package. But it just gives a panic when I try to do that. <a href='https://go.dev/play/p/fCxBlL9V4Y'>play.golang.org/p/fCxBlL9V4Y</a><br>
 <br>
 I use the set package in a program that goes over multiple sequences and find all the common elements in a sequence. The sequence elements could be nucleotides or proteins. The program needs to be able to deal with data-sizes upto 1GB.<br>
 <br>

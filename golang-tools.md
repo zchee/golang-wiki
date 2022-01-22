@@ -8,7 +8,7 @@ The golang-tools working group is useful for:
 * experimenting with a group of "trusted testers"
 * external proof-reading of proposals, blog posts etc
 
-A key goal of the golang-tools group is that all forums of communication, but especially the regular calls, are friendly and welcoming. We want to create an environment in which everyone feels both supported and able to share their opinions and experience, frankly, freely, and openly. The wider [Go Code of Conduct](https://golang.org/conduct), which we observe just like all other Go forums, summarises this well.
+A key goal of the golang-tools group is that all forums of communication, but especially the regular calls, are friendly and welcoming. We want to create an environment in which everyone feels both supported and able to share their opinions and experience, frankly, freely, and openly. The wider [Go Code of Conduct](https://go.dev/conduct), which we observe just like all other Go forums, summarises this well.
 
 # Community spaces
 
@@ -30,7 +30,7 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 ### Shared Calendar
 
-As of October 2020, all calls/events will be added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). 
+As of October 2020, all calls/events will be added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 ### Upcoming calls
 

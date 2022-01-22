@@ -97,6 +97,6 @@ func foo() {
 
 ## References
 
-  * Errors (specification): http://golang.org/ref/spec#Errors
-  * Package `errors`: http://golang.org/pkg/errors/
-  * Type switches: http://golang.org/doc/go_spec.html#TypeSwitchStmt
+  * Errors (specification): https://go.dev/ref/spec#Errors
+  * Package `errors`: https://pkg.go.dev/errors/
+  * Type switches: https://go.dev/ref/spec#TypeSwitchStmt

@@ -1,4 +1,4 @@
-[`go generate`](https://blog.golang.org/generate) is only useful if you have tools to use it with! Here is an incomplete list of useful tools that generate code.
+[`go generate`](https://go.dev/blog/generate) is only useful if you have tools to use it with! Here is an incomplete list of useful tools that generate code.
 
 * [goyacc](https://pkg.go.dev/golang.org/x/tools/cmd/goyacc) – Yacc for Go.
 * [stringer](https://pkg.go.dev/golang.org/x/tools/cmd/stringer) – Implements `fmt.Stringer` interface for enums.

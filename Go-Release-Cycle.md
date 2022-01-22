@@ -1,8 +1,8 @@
 This wiki page is maintained by the Go team.
 Please [send comments to golang-dev](https://groups.google.com/group/golang-dev)
-or [file issues](https://golang.org/issue) instead of making changes directly.
+or [file issues](https://go.dev/issue) instead of making changes directly.
 
-Short link: https://golang.org/s/release.
+Short link: https://go.dev/s/release.
 
 ## Overview
 
@@ -207,13 +207,13 @@ but nothing more.
 Minor releases to address non-security problems for Go 1.x stop once Go 1.x+2 is released.
 
 Minor releases to address security problems for Go 1.x stop once Go 1.x+2 is released.
-For more about security updates, see the [security policy](https://golang.org/security).
+For more about security updates, see the [security policy](https://go.dev/security).
 
-See also the [MinorReleases](https://golang.org/wiki/MinorReleases) wiki page.
+See also the [MinorReleases](https://go.dev/wiki/MinorReleases) wiki page.
 
 ## Freeze Exceptions
 
-Any exceptions to the freeze must be communicated to and explicitly approved by the Go Release Team before the freeze. If you’d like to request an exception, please file an issue in the issue tracker with "[freeze exception]" as a suffix and include "CC @golang/release" ([example](https://golang.org/issue/42747)). We will address any requests on a case-by-case basis with a strong preference for not permitting changes after the freeze.
+Any exceptions to the freeze must be communicated to and explicitly approved by the Go Release Team before the freeze. If you’d like to request an exception, please file an issue in the issue tracker with "[freeze exception]" as a suffix and include "CC @golang/release" ([example](https://go.dev/issue/42747)). We will address any requests on a case-by-case basis with a strong preference for not permitting changes after the freeze.
 
 ## History
 
@@ -226,7 +226,7 @@ we extended Go 1.5's development phase by two months
 to shift the cycle to begin and end on February 1 and August 1,
 as described above.
 
-The [original proposal](https://golang.org/s/release-old)
+The [original proposal](https://go.dev/s/release-old)
 did not contain enough detail about the milestones during the freeze,
 and over the course of a few releases development work took over
 much of the freeze.

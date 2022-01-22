@@ -11,7 +11,7 @@ Go on NetBSD is fairly stable on the architectures below. However, some bugs rem
 
 _*_ Go 1.5 or above is recommended.
 
-Support for the arm64 architecture is a work in progress, see https://golang.org/issue/30824.
+Support for the arm64 architecture is a work in progress, see https://go.dev/issue/30824.
 
 # Go packages in pkgsrc
 

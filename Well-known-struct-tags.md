@@ -1,12 +1,12 @@
 # Well-known struct tags
 ## Background
 
-Go offers [struct tags](https://golang.org/ref/spec#Tag) which are discoverable via reflection. These enjoy a wide range of use in the standard library in the JSON/XML and other encoding packages.
+Go offers [struct tags](https://go.dev/ref/spec#Tag) which are discoverable via reflection. These enjoy a wide range of use in the standard library in the JSON/XML and other encoding packages.
 
 The community welcomed them and has built ORMs, further encodings, flag parsers and much more around them since, especially for these tasks, single-sourcing is beneficial for data structures.
 
 ## Problem description
-Due to increased usage of Go and thus Go [struct tags](https://golang.org/ref/spec#Tag), clashes become inevitable.
+Due to increased usage of Go and thus Go [struct tags](https://go.dev/ref/spec#Tag), clashes become inevitable.
 
 ## Solution
 The list below is a best effort to document well-known struct tags used by packages which are available to the public.

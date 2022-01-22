@@ -9,9 +9,9 @@ deprecation, and a recommendation on what to use instead, if applicable.
 The paragraph does not have to be the last paragraph in the doc comment.
 
 [Some tools will warn on use of deprecated identifiers](https://staticcheck.io/docs/checks#SA1019)
-and their docs [will be hidden by godoc once #17056 is implemented](https://golang.org/issue/17056).
+and their docs [will be hidden by godoc once #17056 is implemented](https://go.dev/issue/17056).
 
-The original issue to document the "Deprecated" convention was [issue #10909](https://golang.org/issue/10909).
+The original issue to document the "Deprecated" convention was [issue #10909](https://go.dev/issue/10909).
 
 Note that, if function `F1` is being replaced by function `F2`,
 and the first release in which `F2` is available is Go 1.N,

@@ -1,4 +1,4 @@
-Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://golang.org/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
+Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://go.dev/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
 ## Questions about Go
 
@@ -28,9 +28,9 @@ See [Questions](Questions).
 ## Getting started with Go
 
 - [The Go Tour](http://tour.golang.org) is the best place to start.
-- [Effective Go](https://golang.org/doc/effective_go.html) will help you learn how to write idiomatic Go code.
-- [Go standard library documentation](https://golang.org/pkg/) to familiarize yourself with the standard library.
-- [Use the Go Playground](http://play.golang.org) to test out Go programs in your browser.
+- [Effective Go](https://go.dev/doc/effective_go) will help you learn how to write idiomatic Go code.
+- [Go standard library documentation](https://pkg.go.dev/) to familiarize yourself with the standard library.
+- [Use the Go Playground](https://go.dev/play) to test out Go programs in your browser.
 - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
 - Read about the companies which have [switched from other languages to Go](https://github.com/golang/go/wiki/FromXToGo).
 
@@ -39,13 +39,13 @@ See [Questions](Questions).
 Ready to write some Go code of your own? Here are a few links to help you get started.
 
 - Install and Setup your Environment
-  - Start here: [Official Installation Documentation](https://golang.org/doc/install)
-  - If you prefer to install from source, [read this first](https://golang.org/doc/install/source).
+  - Start here: [Official Installation Documentation](https://go.dev/doc/install)
+  - If you prefer to install from source, [read this first](https://go.dev/doc/install/source).
   - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
   - Windows user? [Install and configure Go, Git, and Atom for Windows](https://github.com/abourget/getting-started-with-golang)
   - Mac user? [How I start - Go](https://howistart.org/posts/go/1) - A step-by-step guide to installing Go and building your first web service.
   - Having installation problems? [InstallTroubleShooting](InstallTroubleShooting)
-  - Make sure you have your [$GOPATH environment variable set correctly](https://golang.org/doc/install/source#gopath)
+  - Make sure you have your [$GOPATH environment variable set correctly](https://go.dev/doc/install/source#gopath)
     - If you need additional tips on using [$GOPATH, go here](GOPATH).
   - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
 - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
@@ -116,8 +116,8 @@ Here are some of the places where you can find Gophers online. To get a sense of
 
 ## Using the Go Toolchain
 
-- Start with the standard documentation for the `go` command [available here](https://golang.org/cmd/go/)
-- Start here to learn about [vendoring](https://golang.org/cmd/go/#hdr-Vendor_Directories).
+- Start with the standard documentation for the `go` command [available here](https://pkg.go.dev/cmd/go/)
+- Start here to learn about [vendoring](https://pkg.go.dev/cmd/go/#hdr-Vendor_Directories).
 - See also [PackageManagementTools](PackageManagementTools) for package management tools.
 - [Cross Compilation](https://rakyll.org/cross-compilation/)
 - Shared libraries and Go (buildmode)
@@ -197,7 +197,7 @@ If you're looking for services that support Go, here's a list to get you started
 
 ## Troubleshooting Go Programs in Production
 
-- Understand the performance of your Go apps using the [pprof package](http://blog.golang.org/profiling-go-programs)
+- Understand the performance of your Go apps using the [pprof package](https://go.dev/blog/profiling-go-programs)
 - Heap Dumps
   - [heapdump13](heapdump13)
   - [heapdump14](heapdump14)
@@ -205,7 +205,7 @@ If you're looking for services that support Go, here's a list to get you started
 
 ## Contributing to the Go Project
 
-- Start by reading the [Go Contribution Guidelines](https://golang.org/doc/contribute.html)
+- Start by reading the [Go Contribution Guidelines](https://go.dev/doc/contribute)
 - If you'd like to propose a change to the Go project, start by reading the [Go Change Proposal Process](https://github.com/golang/proposal)
   - An archive of [design documents is also available](DesignDocuments)
 - Go releases happen at ~6-month intervals. [See here for more information](Go-Release-Cycle)
