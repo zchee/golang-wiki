@@ -47,7 +47,7 @@ The following sections will help you how to use the `gomobile` tool.
 ## Native applications
 
 The native category includes applications entirely written in Go. Currently, the
-[golang.org/x/mobile](https://godoc.org/golang.org/x/mobile)
+[golang.org/x/mobile](https://pkg.go.dev/golang.org/x/mobile)
 contains only a small set of packages that focus on:
 
 * App control and configuration
@@ -125,7 +125,7 @@ The advantages to following this strategy:
 
 Current limitations are listed below.
 
-* Only a [subset of Go types](https://godoc.org/golang.org/x/mobile/cmd/gobind) are currently supported.
+* Only a [subset of Go types](https://pkg.go.dev/golang.org/x/mobile/cmd/gobind) are currently supported.
 * Language bindings have a performance overhead.
 * There are a few limitations on how the exported APIs should look due to the limitations of the target language.
 

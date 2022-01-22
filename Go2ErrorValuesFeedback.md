@@ -12,7 +12,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
 
 ### Draft Implementation
 
-- Go Team, “[x/exp/errors](https://godoc.org/golang.org/x/exp/errors)”, November 2018
+- Go Team, “[x/exp/errors](https://pkg.go.dev/golang.org/x/exp/errors)”, November 2018
 
 - Torben Schinke, “[Implementation of the draft design](https://github.com/worldiety/errors)”, December 2018
 

@@ -93,28 +93,28 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 - Read [Go, Cloud Endpoints and App Engine, Part 1](https://medium.com/google-cloud/go-cloud-endpoints-and-app-engine-19d290dafda3), [Part 2](https://medium.com/@IndianGuru/go-cloud-endpoints-and-app-engine-e3413c01c484)
 - Read [Google Cloud Platform: Go Runtime Environment](https://cloud.google.com/appengine/docs/go/)
-- Watch [Go and the Google Cloud Platform](http://blog.golang.org/go-and-google-cloud-platform)
-- Read [Go on App Engine: tools, tests, and concurrency](http://blog.golang.org/appengine-dec2013)
-- Get [Google Cloud Platform Go Libraries](http://godoc.org/google.golang.org/cloud)
-- Read [Deploying Go servers with Docker](http://blog.golang.org/docker)
-- Search packages for [Google Cloud](http://godoc.org/?q=google+cloud) or [gcloud](http://godoc.org/?q=gcloud)
-- Search packages for [App Engine](http://godoc.org/?q=appengine) or [GAE](http://godoc.org/?q=gae)
+- Watch [Go and the Google Cloud Platform](https://go.dev/blog/go-and-google-cloud-platform)
+- Read [Go on App Engine: tools, tests, and concurrency](https://go.dev/blog/appengine-dec2013)
+- Get [Google Cloud Platform Go Libraries](https://pkg.go.dev/google.golang.org/cloud)
+- Read [Deploying Go servers with Docker](https://go.dev/blog/docker)
+- Search packages for [Google Cloud](https://pkg.go.dev/search?q=google+cloud) or [gcloud](https://pkg.go.dev/search?q=gcloud)
+- Search packages for [App Engine](https://pkg.go.dev/search?q=appengine) or [GAE](https://pkg.go.dev/search?q=gae)
 
 ### Amazon Web Services
 
 - The [aws-sdk-go](https://github.com/aws/aws-sdk-go) repository provides automatically generated AWS clients in Go.  It has [official support](https://aws.amazon.com/blogs/aws/now-available-version-1-0-of-the-aws-sdk-for-go/) from Amazon.
 - [Package goamz](https://wiki.ubuntu.com/goamz) enables Go programs to interact with the Amazon Web Services.
-- Search packages for [AWS](http://godoc.org/?q=aws) or [Amazon services](http://godoc.org/?q=amazon+service)
+- Search packages for [AWS](https://pkg.go.dev/search?q=aws) or [Amazon services](https://pkg.go.dev/search?q=amazon+service)
 
 ### Microsoft Azure
 
 - Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go) provides a Golang package that makes it easy to consume and manage Microsoft Azure Services.
-- Search packages for [Azure](http://godoc.org/?q=azure)
+- Search packages for [Azure](http://pkg.go.dev/search?q=azure)
 
 ### Openstack / Rackspace
 
 - [Gophercloud](https://github.com/gophercloud/gophercloud) is a Golang SDK for working with OpenStack clouds.
-- Search packages for [Openstack](http://godoc.org/?q=openstack) or [Rackspace](http://godoc.org/?q=rackspace)
+- Search packages for [Openstack](https://pkg.go.dev/search?q=openstack) or [Rackspace](https://pkg.go.dev/search?q=rackspace)
 
 ### IBM BlueMix
 

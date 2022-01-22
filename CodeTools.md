@@ -15,7 +15,7 @@ An overview of tools that will help improve your Go code
 
   - [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
   - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code
-  - [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements
+  - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements
   - [gofumpt](https://github.com/mvdan/gofumpt) - A stricter gofmt
   - [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go
 
@@ -39,7 +39,7 @@ An overview of tools that will help improve your Go code
 
 ### Tools
 
-- [eg](https://godoc.org/golang.org/x/tools/cmd/eg) - Example-based refactoring tool for Go
+- [eg](https://pkg.go.dev/golang.org/x/tools/cmd/eg) - Example-based refactoring tool for Go
 - [gofmt](https://golang.org/cmd/gofmt/) - Start with the standard Go code formatter
 - [gorename](https://golang.org/x/tools/refactor/rename) - Renaming tool for Go
 

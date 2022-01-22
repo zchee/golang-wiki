@@ -187,7 +187,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired on the flexibility of Perl s GetOpt::Long.
   * [goopt](https://github.com/droundy/goopt) - a getopt clone to parse command-line flags
   * [go-options](https://github.com/gaal/go-options) - A command line parsing library for Go
-  * [`mellium.im/cli`](https://godoc.org/mellium.im/cli)   A library for parsing modern CLI apps including subcommands that may have their own flags and a built in help system. Designed to use a minimal API.
+  * [`mellium.im/cli`](https://pkg.go.dev/mellium.im/cli)   A library for parsing modern CLI apps including subcommands that may have their own flags and a built in help system. Designed to use a minimal API.
   * [options](https://github.com/fd/options/) - Self documenting CLI options parser
   * [opts.go](http://opts-go.googlecode.com/) - lightweight POSIX- and GNU- style option parsing
   * [pflag](https://github.com/ogier/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
@@ -295,7 +295,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [lib/ssh/config](https://pkg.go.dev/github.com/shuLhan/share/lib/ssh/config) - Package config provide the ssh_config(5) parser and getter.
   * [nestext](https://github.com/npillmayer/nestext) - Package nestext provides tools for processing NestedText, a human friendly data format.
   * [properties](https://github.com/magiconair/properties) - Library for reading and writing properties files
-  * [scribeconf](https://godoc.org/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
+  * [scribeconf](https://pkg.go.dev/github.com/fumin/scribeconf) - Facebook Scribe server configuration file parser
   * [toml](http://github.com/mojombo/toml):
     * [go-toml-config](http://github.com/stvp/go-toml-config) - TOML-based config for Go
     * [go-toml](http://github.com/pelletier/go-toml) - Go library for the TOML language
@@ -424,7 +424,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [skip](https://github.com/glenn-brown/skiplist) - A fast position-addressable ordered map and multimap.
   * [Skiplist](https://github.com/glenn-brown/skiplist) - A fast indexable ordered multimap.
   * [skiplist](https://github.com/huandu/skiplist) - A skip list implementation. Highly customizable and easy to use.
-  * [skiplist](https://godoc.org/github.com/fumin/skiplist) - Skiplist data structure ported from Redis's Sorted Sets.
+  * [skiplist](https://pkg.go.dev/github.com/fumin/skiplist) - Skiplist data structure ported from Redis's Sorted Sets.
   * [stackgo](https://github.com/alediaferia/stackgo) - A fast slice-based stack implementation.
 
 ### Queues
@@ -739,7 +739,6 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [examplgen](https://github.com/gima/examplgen) - Insert code from .go files to documents (examples to project's readme, for instance).
   * [godocdown](https://github.com/robertkrimen/godocdown) - Format package documentation (godoc) as GitHub friendly Markdown
-  * [GoDoc.org](http://godoc.org/) - GoDoc.org generates documentation on the fly from source on Bitbucket, Github, Google Project Hosting and Launchpad.
   * [golangdoc](https://github.com/golang-china/golangdoc) - Godoc for Golang, support translate.
   * [Mango](http://code.google.com/p/mango-doc/) - Automatically generate unix man pages from Go sources
   * [redoc](https://github.com/simonz05/redoc) - Commands documentation for Redis
@@ -880,8 +879,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [cpio](https://github.com/cavaliergopher/cpio) - Readers and writers for the CPIO archive file format.
   * [draw2d](https://github.com/llgcode/draw2d) - This package provide an API to draw 2d geometrical form on images. This library is largely inspired by postscript, cairo, HTML5 canvas.
   * [ebiten](https://ebiten.org/) - A cross platform open-source game library with which you can develop 2D games with simple API for multi platforms. Cgo/c compiler setup not needed.
-  * [egl](http://godoc.org/github.com/mortdeus/egles/egl) - egl bindings
-  * [es2](http://godoc.org/github.com/mortdeus/egles/es2) - es2 bindings
+  * [egl](https://pkg.go.dev/github.com/mortdeus/egles/egl) - egl bindings
+  * [es2](https://pkg.go.dev/github.com/mortdeus/egles/es2) - es2 bindings
   * [fastgallery](https://github.com/tonimelisma/fastgallery) - A fast static image and video web gallery generator
   * [fourcc](https://github.com/reiver/go-fourcc) - Go implementation of FOURCC (four character code) (4CC) identifiers for a video codecs, compression formats, colors, and pixel format used in media files.
   * [freetype-go](http://code.google.com/p/freetype-go/) - a Go implementation of FreeType
@@ -1086,7 +1085,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gini](https://github.com/irifrance/gini) - SAT Solver/Boolean Logic Tools
   * [gochipmunk](https://github.com/paulcoyle/gochipmunk) - Go bindings to the Chipmunk Physics library
   * [gocomplex](http://code.google.com/p/gocomplex/) - a complex number library
-  * [godec](http://godoc.org/speter.net/go/exp/math/dec/inf) - multi-precision decimal arithmetic
+  * [godec](https://pkg.go.dev/speter.net/go/exp/math/dec/inf) - multi-precision decimal arithmetic
   * [gofd](https://bitbucket.org/gofd/gofd) - concurrent finite domain constraint solver.
   * [go-fftw](https://github.com/runningwild/go-fftw) - Go bindings for FFTW - The Fastest Fourier Transform in the West
   * [go-fn](https://code.google.com/p/go-fn/) - Special functions that would not fit in "math" pkg
@@ -1097,14 +1096,14 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-lm](https://github.com/awblocker/go-lm) - Linear models in Go. Provides WLS and regression with t residuals via a cgo -> BLAS/LAPACK interface.
   * [go.mahalanobis](https://github.com/ant0ine/go.mahalanobis) - Naive implementation of the Mahalanobis distance using go.matrix
   * [gomat](http://code.google.com/p/gomat/) - lightweight FAST matrix and vector math
-  * [go\_matrix\_cuda](https://godoc.org/github.com/alonsovidales/go_matrix_cuda) - GPU-Accelerated Linear Algebra Libraries based in CUDA
+  * [go\_matrix\_cuda](https://pkg.go.dev/github.com/alonsovidales/go_matrix_cuda) - GPU-Accelerated Linear Algebra Libraries based in CUDA
   * [go.matrix](https://github.com/skelterjohn/go.matrix) - a linear algebra package
   * [gonum](https://github.com/gonum) - Scientific packages (linear algebra, BLAS, LAPACK, differentiation, plots, linear programming, statistics, ...)
   * [go-symexpr](https://github.com/verdverm/go-symexpr) - Symbolic math as an AST with derivatives, simplification, and non-linear regression
   * [gsl](https://bitbucket.org/mingzhi/gsl) - GNU Scientific Library bindings
   * [humanize](https://bitbucket.org/dchapes/humanize) - formats large numbers into human readable small numbers
-  * [interval](http://godoc.org/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
-  * [mathutil](http://godoc.org/github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
+  * [interval](https://pkg.go.dev/github.com/cznic/interval) - Package interval handles sets of ordered values laying between two, possibly infinite, bounds.
+  * [mathutil](https://pkg.go.dev/github.com/cznic/mathutil) - Package mathutil provides utilities supplementing the standard 'math' and 'rand' packages.
   * [mt19937\_64](https://github.com/farces/mt19937_64) - Mersenne Twister int64 random source
   * [permutation](https://github.com/weatherglass/pkg/tree/master/permutation) - Package permutation generates permutations of the indices of a slice
   * [polyclip.go](https://github.com/akavel/polyclip.go) - Go implementation of algorithm for Boolean operations on 2D polygons
@@ -1168,7 +1167,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-eco](https://code.google.com/p/go-eco/) - Functions for use in ecology
   * [go-erx](https://github.com/StepLg/go-erx) - Extended error reporting library
   * [go-eventsocket](https://github.com/fiorix/go-eventsocket) - An event socket client/server library for the [FreeSWITCH](https://freeswitch.org) telephony platform.
-  * [GoFakeIt](http://godoc.org/github.com/brianvoe/gofakeit) - Fake Data Generator. 65+ different variations and examples for each
+  * [GoFakeIt](https://pkg.go.dev/github.com/brianvoe/gofakeit) - Fake Data Generator. 65+ different variations and examples for each
   * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for FANN, library for artificial neural networks
   * [GoFlow](https://github.com/trustmaster/goflow) - Flow-based and dataflow programming library for Go
   * [goga](https://github.com/rrs/goga) - A genetic algorithm framework
@@ -1262,7 +1261,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [GeoDNS](https://github.com/abh/geodns) - geo-aware authoritative DNS server
   * [grong](https://github.com/bortzmeyer/grong) - Small authoritative DNS name server
   * [hostsfile](https://github.com/jaytaylor/go-hostsfile) - /etc/hostsfile reverse lookup IP => names
-  * [lib/dns](https://godoc.org/github.com/shuLhan/share/lib/dns) - The DNS library for client or server with support UDP, TCP, and DNS over HTTPS
+  * [lib/dns](https://pkg.go.dev/github.com/shuLhan/share/lib/dns) - The DNS library for client or server with support UDP, TCP, and DNS over HTTPS
   * [mdns](https://github.com/davecheney/mdns/) - Multicast DNS library for Go
   * [rescached](https://github.com/shuLhan/rescached-go/) - DNS resolver cache daemon
 
@@ -1308,7 +1307,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [hanu](https://github.com/sbstjn/hanu) - Framework for writing Slack bots
   * [ircflu](https://github.com/muesli/ircflu) - IRC bot with support for commands, scripting and web-hooks
   * [irc.go](http://code.google.com/p/go-bot/source/browse/irc.go) - Go IRC bot framework
-  * [`mellium.im/xmpp`](https://godoc.org/mellium.im/xmpp)   a low-level XMPP client and server library focusing on good documentation and a clean, usable API
+  * [`mellium.im/xmpp`](https://pkg.go.dev/mellium.im/xmpp)   a low-level XMPP client and server library focusing on good documentation and a clean, usable API
   * [sirius](https://github.com/ortuman/sirius) - [link is broken] A fast and ultra-lightweight chat server written in Go
   * [xmpp-client](https://github.com/agl/xmpp-client) - an XMPP client with OTR (off-the-record) support
 
@@ -1341,7 +1340,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 ### Websockets
 
   * [Gorilla WebSocket](https://github.com/gorilla/websocket) - WebSocket protocol implementation
-  * [lib/websocket](https://godoc.org/github.com/shuLhan/share/lib/websocket) - A library for writing websocket client and server (using epoll)
+  * [lib/websocket](https://pkg.go.dev/github.com/shuLhan/share/lib/websocket) - A library for writing websocket client and server (using epoll)
   * [websocketd](https://github.com/joewalnes/websocketd) - HTTP server that converts STDIN/STDOUT program into WebSockets service. Also handles HTML and CGI.
   * [ws-cli](https://github.com/kseo/ws-cli) - WebSocket command line client
   * [wst](https://github.com/jthestupidkid/wst) - A dead simple WebSocket tester

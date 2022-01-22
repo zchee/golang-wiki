@@ -23,4 +23,4 @@ Install them with "go get".
 
   * [[docs](https://pkg.go.dev/golang.org/x/exp)] [[source](https://go.googlesource.com/exp)] ` golang.org/x/exp ` — experimental code (handle with care).
 
-[List of all packages in sub-repositories](https://godoc.org/-/subrepo)
+[List of all packages in sub-repositories](https://pkg.go.dev/golang.org/x)

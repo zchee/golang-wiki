@@ -93,7 +93,7 @@ some/lib@v1.3.0 some-other/lib@v2.4.7
 some/lib@v1.3.0 github.com/golang/lint@v0.0.0-20180702182130-06c8688daad7
 ```
 
-Visualized with [golang.org/x/exp/cmd/modgraphviz](https://godoc.org/golang.org/x/exp/cmd/modgraphviz):
+Visualized with [golang.org/x/exp/cmd/modgraphviz](https://pkg.go.dev/golang.org/x/exp/cmd/modgraphviz):
 
 ![A Module Dependency Graph With Trailing History](https://github.com/jadekler/module-testing/blob/master/imagery/graph1.png)
 

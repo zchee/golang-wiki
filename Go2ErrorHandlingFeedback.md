@@ -62,7 +62,7 @@ Code changed to use the existing proposal.
 
 Critiques without counter-proposals
 
-- Pasha Osipyants, “[Error handling mechanism using current go possibilities](https://godoc.org/github.com/pashaosipyants/errors)”, February 2019
+- Pasha Osipyants, “[Error handling mechanism using current go possibilities](https://pkg.go.dev/github.com/pashaosipyants/errors)”, February 2019
 
 - Anonymous, “[Go 2 Error Handling Non-Proposal](https://groups.google.com/d/topic/golang-nuts/1McP4_-oOpo/discussion)”, October 2018
 

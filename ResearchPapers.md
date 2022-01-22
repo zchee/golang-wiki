@@ -93,7 +93,7 @@ This page lists academic and industry research papers about Go or using Go as th
 
 - ProIO: An Event-Based I/O Stream Format for Protobuf Messages (D. Blyth, J. Alcaraz, S. Binet, S.V. Chekanov)
   - [arXiv:1812.03967](https://arxiv.org/abs/1812.03967)
-  - [proio-org/go-proio](https://godoc.org/github.com/proio-org/go-proio)
+  - [proio-org/go-proio](https://pkg.go.dev/github.com/proio-org/go-proio)
 
 - The latest gossip on BFT consensus (Buchman, Kwon, Milosevic)
   - [pdf](https://arxiv.org/abs/1807.04938)
@@ -175,7 +175,7 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - [DOI: 10.1186/s13326-017-0136-y](https://doi.org/10.1186/s13326-017-0136-y)
   - The rdf2smw commandline tool, for batch conversion from RDF to Semantic MediaWiki facts in MediaWiki XML dump format, is written in Go
   - [github.com/rdfio/rdf2smw](https://github.com/rdfio/rdf2smw)
-  - [godoc](https://godoc.org/github.com/rdfio/rdf2smw)
+  - [godoc](https://pkg.go.dev/github.com/rdfio/rdf2smw)
   - Keywords: Semantic MediaWiki, Semantic Web, RDF
 - Construction and first tests of an in-beam PET demonstrator dedicated to the ballistic control of hadrontherapy treatments with 65 MeV protons (E Busato et al.)  IEEE Transactions on Radiation and Plasma Medical Sciences ( Volume: PP, Issue: 99 )
   - [DOI: 10.1109/TRPMS.2017.2780447](https://doi.org/10.1109/TRPMS.2017.2780447)
@@ -186,7 +186,7 @@ our implementation sticker (Aoshima, 2018) written in Golang (Golang, 2009)..."_
   - Keywords:  Data-driven, Programming language, Multi-threading
 - Estimating Mixture Entropy with Pairwise Distances (Artemy Kolchinsky, Brendan D. Tracey)
   - [arXiv](https://arxiv.org/abs/1706.02419)
-  - [godoc](https://godoc.org/github.com/btracey/mixent)
+  - [godoc](https://pkg.go.dev/github.com/btracey/mixent)
 - Towards Omnia: a Monitoring Factory for Quality-Aware DevOps (Marco Miglierina, Damian A. Tamburri)
   - [doi.org/10.1145/3053600.3053629](https://doi.org/10.1145/3053600.3053629) ICPE '17 Companion
   - [github.com/mmiglier/omnia](https://github.com/mmiglier/omnia) (Go: 52.8% )

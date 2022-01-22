@@ -196,7 +196,7 @@ for left, right := 0, len(a)-1; left < right; left, right = left+1, right-1 {
 
 Fisher–Yates algorithm:
 
-> Since go1.10, this is available at [math/rand.Shuffle](https://godoc.org/math/rand#Shuffle)
+> Since go1.10, this is available at [math/rand.Shuffle](https://pkg.go.dev/math/rand#Shuffle)
 
 ```go
 for i := len(a) - 1; i > 0; i-- {

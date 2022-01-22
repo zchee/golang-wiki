@@ -10,14 +10,14 @@ To signal that a package is frozen and is not accepting new features, add a para
 // The syslog package is frozen and is not accepting new features.
 // Some external packages provide more functionality. See:
 //
-// 	https://godoc.org/?q=syslog
+// 	https://pkg.go.dev/search?q=syslog
 ```
 
 ```
 // The smtp package is frozen and is not accepting new features.
 // Some external packages provide more functionality. See:
 //
-// 	https://godoc.org/?q=smtp
+//  https://pkg.go.dev/search?q=smtp
 ```
 
 ```
@@ -31,5 +31,3 @@ To signal that a package is frozen and is not accepting new features, add a para
 ```
 // The text/tabwriter package is frozen and is not accepting new features.
 ```
-
-There are some examples [in the standard library](https://golang.org/search?q=frozen).

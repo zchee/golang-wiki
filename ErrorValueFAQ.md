@@ -1,6 +1,6 @@
 # Error Values: Frequently Asked Questions
 
-The Go 2 [error values proposal](https://go.googlesource.com/proposal/+/master/design/29934-error-values.md) adds functionality to the [`errors`](https://tip.golang.org/pkg/errors) and [`fmt`](https://tip.golang.org/pkg/fmt) packages of the standard library for Go 1.13. There is also a compatibility package, [`golang.org/x/xerrors`](https://godoc.org/golang.org/x/xerrors), for earlier Go versions.
+The Go 2 [error values proposal](https://go.googlesource.com/proposal/+/master/design/29934-error-values.md) adds functionality to the [`errors`](https://tip.golang.org/pkg/errors) and [`fmt`](https://tip.golang.org/pkg/fmt) packages of the standard library for Go 1.13. There is also a compatibility package, [`golang.org/x/xerrors`](https://pkg.go.dev/golang.org/x/xerrors), for earlier Go versions.
 
 We suggest using the `xerrors` package for backwards compatibility. When you no longer wish to support Go versions before 1.13, use the corresponding standard library functions. This FAQ uses the `errors` and `fmt` packages from Go 1.13.
 

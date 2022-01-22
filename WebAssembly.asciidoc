@@ -53,7 +53,7 @@ $ GOOS=js GOARCH=wasm go build -o main.wasm
 That will build the package and produce an executable WebAssembly
 module file named main.wasm. The .wasm file extension will make it
 easier to serve it over HTTP with the correct Content-Type header
-later on. 
+later on.
 
 Note that you can only compile main packages. Otherwise, you will get an object file that cannot be run in WebAssembly. If you have a package that you want to be able to use with WebAssembly, convert it to a main package and build a binary.
 
@@ -96,9 +96,9 @@ https://github.com/shurcooL/goexec#goexec[`goexec`]:
 $ goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
 ```
 
-Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].  
+Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].
 
-Note: for the `goexec` command to work on Unix-like systems, you must https://golang.org/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:  
+Note: for the `goexec` command to work on Unix-like systems, you must https://golang.org/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:
 
 > Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
 
@@ -169,7 +169,7 @@ $ GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
 
 # Interacting with the DOM
 
-See https://godoc.org/syscall/js.
+See https://pkg.go.dev/syscall/js.
 
 Also:
 
@@ -326,7 +326,7 @@ There are two main ways (for now) to reduce this file size:
 
 1. Manually compress the .wasm file.
    a. Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB.  It may be better to use https://github.com/google/zopfli[Zopfli] to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
-   b. Using https://github.com/google/brotli[Brotli] for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too.  This https://github.com/andybalholm/brotli[(new) Brotli compressor] looks reasonable. 
+   b. Using https://github.com/google/brotli[Brotli] for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too.  This https://github.com/andybalholm/brotli[(new) Brotli compressor] looks reasonable.
 
 Examples from https://github.com/johanbrandhorst[@johanbrandhorst]
 

@@ -41,7 +41,7 @@ Drivers for Go's sql package include:
   * **Oracle** (uses cgo): https://gopkg.in/rana/ora.v4
   * **Oracle** (uses cgo): https://github.com/godror/godror
   * **Oracle** (pure go): https://github.com/sijms/go-ora
-  * **QL**: http://godoc.org/github.com/cznic/ql/driver
+  * **QL**: https://pkg.go.dev/github.com/cznic/ql/driver
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
   * **Postgres** (pure Go): https://github.com/jackc/pgx ` [*] `
@@ -62,10 +62,10 @@ Drivers for Go's sql package include:
   * **Sybase ASE** (pure go): https://github.com/thda/tds
   * **TiDB**: Use any MySQL driver
   * **Vertica**: https://github.com/vertica/vertica-sql-go
-  * **Vitess**: https://godoc.org/vitess.io/vitess/go/vt/vitessdriver
+  * **Vitess**: https://pkg.go.dev/vitess.io/vitess/go/vt/vitessdriver
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
   * **Apache Hive**: https://github.com/sql-machine-learning/gohive
   * **MaxCompute**: https://github.com/sql-machine-learning/gomaxcompute
 
-Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.  
+Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.
 Drivers marked with ` [**] ` pass the compatibility test suite but are not currently included in it.

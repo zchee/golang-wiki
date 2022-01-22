@@ -46,7 +46,7 @@ Additional comments related to testing can be found at [Go Test Comments](https:
 
 Run [gofmt](https://golang.org/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
 
-An alternative is to use [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
+An alternative is to use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports), a superset of `gofmt` which additionally adds (and removes) import lines as necessary.
 
 ## Comment Sentences
 
@@ -220,7 +220,7 @@ import (
 )
 ```
 
-<a href="https://godoc.org/golang.org/x/tools/cmd/goimports">goimports</a> will do this for you.
+<a href="https://pkg.go.dev/golang.org/x/tools/cmd/goimports">goimports</a> will do this for you.
 
 ## Import Blank
 

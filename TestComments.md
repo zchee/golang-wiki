@@ -61,10 +61,10 @@ The same rule applies to arrays and maps.
 If your struct needs to be compared for approximate equality or some other
 kind of semantic equality, or it contains fields that cannot be compared for
 equality (e.g. if one of the fields is an `io.Reader`), tweaking a
-[`cmp.Diff`](https://godoc.org/github.com/google/go-cmp/cmp#Diff) or
-[`cmp.Equal`](https://godoc.org/github.com/google/go-cmp/cmp#Equal) comparison
-with [cmpopts](https://godoc.org/github.com/google/go-cmp/cmp/cmpopts) options
-such as [`cmpopts.IgnoreInterfaces`](https://godoc.org/github.com/google/go-cmp/cmp/cmpopts#IgnoreInterfaces) 
+[`cmp.Diff`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Diff) or
+[`cmp.Equal`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Equal) comparison
+with [cmpopts](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts) options
+such as [`cmpopts.IgnoreInterfaces`](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts#IgnoreInterfaces) 
 may meet your needs ([example](https://play.golang.org/p/vrCUNVfxsvF));
 otherwise, this technique just won't work, so do whatever works.
 
@@ -97,9 +97,9 @@ Values it can compare include numeric, string, and pointer values and structs
 with fields of those values. In particular, it determines two pointers to be
 equal only if they point to the same variable.
 
-Use the [cmp](https://godoc.org/github.com/google/go-cmp/cmp) package. Use
-[`cmp.Equal`](https://godoc.org/github.com/google/go-cmp/cmp#Equal) for equality
-comparison and [`cmp.Diff`](https://godoc.org/github.com/google/go-cmp/cmp#Diff)
+Use the [cmp](https://pkg.go.dev/github.com/google/go-cmp/cmp) package. Use
+[`cmp.Equal`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Equal) for equality
+comparison and [`cmp.Diff`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Diff)
 to obtain a human-readable diff between objects.
 
 Although the `cmp` package is not part of the Go standard library, it is
@@ -187,7 +187,7 @@ A test helper is a function that performs a setup or teardown task, such as
 constructing an input message, that does not depend on the code under test.
 
 If you pass a `*testing.T`, call
-[`t.Helper`](https://godoc.org/testing#T.Helper) to attribute failures in the
+[`t.Helper`](https://pkg.go.dev/testing#T.Helper) to attribute failures in the
 test helper to the line where the helper is called.
 
 ```go
