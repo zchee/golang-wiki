@@ -1,7 +1,7 @@
 # SQL database drivers
 
 The database/sql and database/sql/driver packages are designed for using databases from Go and implementing database drivers, respectively.
-
+撒飞洒地方
 See the design goals doc:
 
 > http://golang.org/src/pkg/database/sql/doc.txt
