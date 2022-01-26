@@ -487,6 +487,7 @@
   * [Codemi Learning Management System](http://codemi.co.id)
   * [DigiAset](http://www.gadgethariini.com)
   * [EACIIT](http://eaciit.com)
+  * [Emtrade](https://emtrade.id)
   * [Gilkor](https://gilkor.com)
   * [GoApotik](https://www.goapotik.com)
   * [GOJEK](https://www.gojek.io/)
