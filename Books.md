@@ -1,6 +1,6 @@
 Other book lists:
 
-* [Go Books](https://github.com/dariubs/GoBooks)
+* [Awesome Go Books](https://github.com/dariubs/GoBooks)
 * [Go Language Resources](http://go-lang.cat-v.org/books)
 
 Sorted by publication date, ascending.
