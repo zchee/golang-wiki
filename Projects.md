@@ -559,6 +559,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-redis](https://github.com/fiorix/go-redis) - Redis client built on the skeleton of gomemcache
   * [Redigo](https://github.com/garyburd/redigo) - Go client for Redis.
   * [redis](https://github.com/vmihailenco/redis) - Redis client for Go
+  * [rueidis](https://github.com/rueian/rueidis) - Fast Redis RESP3 client that supports client side caching and auto pipelining.
 
 ### [RethinkDB](http://www.rethinkdb.com/)
 
