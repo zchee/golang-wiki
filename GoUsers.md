@@ -762,6 +762,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Nagisa Inc.](https://nagisa-inc.jp/)
   * [neuet, Inc.](https://neuet.com/)
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
+  * [nonpi Inc.](https://www.nonpi.com/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
   * [omeroid](https://www.omeroid.com/)
   * [OPTiM Corporation](https://www.optim.co.jp/)
