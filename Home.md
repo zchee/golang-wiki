@@ -140,7 +140,6 @@ Here are some of the places where you can find Gophers online. To get a sense of
 
 ## Additional Go Programming Wikis
 
-- [Why Go doesn't Support Generics: A Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/preview) - Start here before you join the debate.
 - Concurrency
   - [Timeouts](Timeouts) - Abandon async calls that take too long
   - [LockOSThread](LockOSThread)
