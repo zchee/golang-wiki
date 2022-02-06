@@ -173,6 +173,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [argcfg](http://code.google.com/p/goargcfg/) - Use reflection to populate fields in a struct from command line arguments
   * [autoflags](https://github.com/artyom/autoflags) - Populate go command line app flags from config struct
+  * [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
   * [cobra](http://github.com/spf13/cobra) - A commander for modern go CLI interactions supporting commands & POSIX/GNU flags
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
@@ -203,6 +204,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [awless](https://github.com/wallix/awless) - A Mighty command-line interface for Amazon Web Services (AWS).
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
   * [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make highly customized Boxes for your CLI.
+  * [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
