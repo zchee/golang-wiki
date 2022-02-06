@@ -203,7 +203,6 @@ If you find a project in this list that is dead or broken, please either mark it
   * [Arduino-cli](https://github.com/arduino/arduino-cli) - Arduino CLI is an all-in-one solution that provides builder, boards/library manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
   * [awless](https://github.com/wallix/awless) - A Mighty command-line interface for Amazon Web Services (AWS).
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
-  * [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make highly customized Boxes for your CLI.
   * [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
@@ -316,6 +315,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
   * [ansi](https://github.com/mgutz/ansi) - Easily create ansi escape code strings and closures to format, color console output
   * [ansiterm](https://github.com/hotei/ansiterm) - pkg to drive text-only consoles that respond to ANSI escape sequences
+  * [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make Highly Customized Boxs for your CLI.
   * [bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework
   * [cons](https://github.com/rferrante/cons) - A simple package for building interactive console tools.
   * [gnureadline](https://code.google.com/p/go-gnureadline) - GNU Readline bindings
