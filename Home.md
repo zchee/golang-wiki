@@ -67,7 +67,7 @@ Ready to write some Go code of your own? Here are a few links to help you get st
 Once you have an overview of the language, here are resources you can use to learn more.
 
 - [Learning Go](Learn) - A collection of resources for learning Go - beginner to advanced.
-  - [Best Practices for a New Go Developer](https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc) - Insights from Go community members.
+  - [Best Practices for a New Go Developer](https://www.cloudbees.com/blog/best-practices-for-a-new-go-developer) - Insights from Go community members.
   - [Server programming](LearnServerProgramming) - Building web, mobile, and API servers.
   - [More on concurrency](LearnConcurrency)
   - [More on error handling](LearnErrorHandling)
