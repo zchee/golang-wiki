@@ -539,6 +539,7 @@
   * [Tugujatim](https://tugujatim.id)
   * [Tugumalang](https://tugumalang.id)
   * [Deepta](https://deepta.club)
+  * [Visinesia Global Trade](https://visinesiaglobaltrade.com)
 
 ## Iraq
   * [eSITE](https://esite-iq.com/)
