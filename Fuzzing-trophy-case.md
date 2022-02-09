@@ -17,6 +17,7 @@ _Note: If you think the bug is a security issue, please report it responsibly to
 
 ### Other projects
 * [go-yaml/yaml/v3: yaml.Unmarshal() crashes on "#\n - - QI\xd7"](https://github.com/go-yaml/yaml/issues/744)
+* [josephburnett/jd: crashes when validating JSON Patch test/replace operation](https://github.com/josephburnett/jd/commit/7064efc5df7c899ffc53b45be8915e3f4edc1684)
 * [kokes/smda: nil pointer error](https://github.com/kokes/smda/commit/b41ac00b5f5acba60d93076347fc73fe2fbca340)
 * [kokes/smda: out of bounds error](https://github.com/kokes/smda/commit/2c2548f211a1ed2c3547407e0b420e4340612278)
 * [mvdan.cc/sh: syntax.Quote failed to quote the empty string](https://github.com/mvdan/sh/commit/92eab20da20af9c4005294abf937e387d87c8407)
