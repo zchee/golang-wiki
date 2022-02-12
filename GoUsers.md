@@ -540,6 +540,7 @@
   * [Tugumalang](https://tugumalang.id)
   * [Deepta](https://deepta.club)
   * [Visinesia Global Trade](https://visinesiaglobaltrade.com)
+  * [Ourintake](https:/ourintake.my.id)
 
 ## Iraq
   * [eSITE](https://esite-iq.com/)
