@@ -44,6 +44,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 ##persian
 * [بلیط ارزان هواپیما](http://flytoday.ir)
 ## Chinese
+* [无忌-Jincheng's Blog](https://jincheng9.github.io/)
 * [Howtoing运维教程](https://www.howtoing.com)
 * [虞双齐的博客-Golang](https://yushuangqi.com/tags/golang.html)
 * [Tony Bai -- 一个程序员的心路历程](http://tonybai.com/)
