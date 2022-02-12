@@ -44,7 +44,6 @@ The D-Link DIR-505 Mobile Companion comes with an Atheros AR1311 processor, 8 MB
 
 Further information about the device can be found at https://openwrt.org/toh/d-link/dir-505.
 
-
 ## Teltonika RUT955
 
 Architecture: ar9344  
@@ -74,3 +73,12 @@ Operating System: DD-WRT
 The Belkin F7D7302 comes with a Broadcom BCM4716 little-endian MIPS 74K classic processor, 8 MB flash, and 64 MB RAM. Flash storage is severely limited, but there is a USB port available so programs can be loaded onto a flash drive and executed.
 
 Further information about the device can be found at https://openwrt.org/toh/belkin/f7d3302.
+
+## AVM FRITZ!Box 7362 SL
+
+System type: xRX200 rev 1.2 \
+CPU model: MIPS 34Kc V5.6
+
+Operating System: OpenWrt 21
+
+Further information about the device can be found at https://openwrt.org/toh/avm/avm_7362_sl.
