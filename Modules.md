@@ -695,7 +695,7 @@ If you:
  *  want to use a go-based tool (e.g. `stringer`) while working on a module, and
  *  want to ensure that everyone is using the same version of that tool while tracking the tool's version in your module's `go.mod` file
 
-then one currently recommended approach is to add a `tools.go` file to your module that includes import statements for the tools of interest (such as `import _ "golang.org/x/tools/cmd/stringer"`), along with a `// +build tools` build constraint. The import statements allow the `go` command to precisely record the version information for your tools in your module's `go.mod`, while the `// +build tools` build constraint prevents your normal builds from actually importing your tools.
+then one currently recommended approach is to add a `tools.go` file to your module that includes import statements for the tools of interest (such as `import _ "golang.org/x/tools/cmd/stringer"`), along with a `//go:build tools` build constraint. The import statements allow the `go` command to precisely record the version information for your tools in your module's `go.mod`, while the `//go:build tools` build constraint prevents your normal builds from actually importing your tools.
 
 For a concrete example of how to do this, please see this ["Go Modules by Example" walkthrough](https://github.com/go-modules-by-example/index/blob/master/010_tools/README.md).
 
