@@ -482,7 +482,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [dgobloom](https://github.com/dgryski/dgobloom) - A Bloom Filter implementation
   * [epochdate](https://github.com/extemporalgenome/epochdate) - Compact dates stored as days since the Unix epoch
   * [etree](https://github.com/beevik/etree) - Parse and generate XML easily
-  * [excelize](https://github.com/360EntSecGroup-Skylar/excelize) - Golang library for reading and writing Microsoft Excel  (XLSX) files.
+  * [excelize](https://github.com/xuri/excelize) - Go library for reading and writing Microsoft Excel (XLSX) files.
   * [fsm](https://github.com/looplab/fsm) - Minimalistic state machine for use instead of booleans
   * [go-algs/ed](https://github.com/daviddengcn/go-algs) - Generalized edit-distance implementation
   * [go-algs/maxflow](https://github.com/daviddengcn/go-algs) - An energy minimization tool using max-flow algorithm.
