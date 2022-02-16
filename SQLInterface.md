@@ -135,3 +135,11 @@ if name.Valid {
 Only [`NullByte`](https://pkg.go.dev/database/sql/#NullByte), [`NullBool`](https://pkg.go.dev/database/sql/#NullBool), [`NullFloat64`](https://pkg.go.dev/database/sql/#NullFloat64), [`NullInt64`](https://pkg.go.dev/database/sql/#NullInt64), [`NullInt32`](https://pkg.go.dev/database/sql/#NullInt32) [`NullInt16`](https://pkg.go.dev/database/sql/#NullInt16), [`NullString`](https://pkg.go.dev/database/sql/#NullString) and [`NullTime`](https://pkg.go.dev/database/sql/#NullTime) are implemented in
 `database/sql`. Implementations of database-specific null types are left
 to the database driver. User types supporting `NULL` can be created by implementing interfaces [`database/sql/driver.Valuer`](https://pkg.go.dev/database/sql/driver/#Valuer) and [`database/sql.Scanner`](https://pkg.go.dev/database/sql/#Scanner).
+
+You can also pass pointer types. Be careful for performance issues as it
+requires extra memory allocations.
+
+```go
+var name *string
+err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(&name)
+```
