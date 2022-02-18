@@ -6,8 +6,8 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website | 
 |-------|-----------|----------|------------|
-| GoWest Conference 2021 | 2021-10-22 | Online/ Salt Lake City, Ut USA| https://gowestconf.com CFP: https://www.papercall.io/gowestconf21|
-| GopherCon | 2021-12-05-08 | San Diego & Online | website: https://www.gophercon.com/ <br> CFP: https://www.papercall.io/gophercon-2021 |
+
+
 
 ## Archives
 
@@ -15,6 +15,8 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives | 
 |------|------------|----------|----------------|
+| GopherCon | 2021-12-05-08 | San Diego & Online | https://www.gophercon.com/ |
+| GoWest Conference 2021 | 2021-10-22 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
 | GopherCon Europe | 2021-05-26-28 | Online | https://gophercon.eu |
 | O'Reilly OSS Superstream: Go | 2021-04-29 | Online | [website](https://learning.oreilly.com/attend/open-source-software-superstream-series-gogenerics-extensibility-and-the-future-of-go-in-open-source-programming/0636920053215/0636920053214)|
 | GopherCon Russia 2021 Online | 2021-04-23-25 | Online | https://www.gophercon-russia.ru/en |
