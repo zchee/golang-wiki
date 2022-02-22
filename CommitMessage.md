@@ -1,6 +1,6 @@
 # Commit messages
 
-Commit messages, also known as CL (changelist) descriptions, should be formatted per https://tip.golang.org/doc/contribute.html#commit_messages . For example,
+Commit messages, also known as CL (changelist) descriptions, should be formatted per https://go.dev/doc/contribute#commit_messages. For example,
 
 ```
 net/http: frob the quux before blarfing
@@ -72,7 +72,7 @@ Notably, the first line subject should **not** contain the `x/crypto/` prefix. W
 # GitHub Pull Requests
 
 If you're using GitHub Pull Requests, your commit message is constructed by GerritBot based on your
-PR's title & description. See https://github.com/golang/go/wiki/GerritBot#how-does-gerritbot-determine-the-final-commit-message
+PR's title & description. See https://go.dev/wiki/GerritBot#how-does-gerritbot-determine-the-final-commit-message.
 
 If somebody asks you to modify your commit message, you'll need to modify your PR.
 
