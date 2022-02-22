@@ -59,7 +59,11 @@ Go 1.14 and later: [unsupported](https://go.dev/doc/go1.14#nacl).
 
 ### [Solaris](Solaris)
 
-illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+. 
+illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
+
+### [iOS](iOS)
+
+iOS 12 or later.
 
 ## Architectures
 
