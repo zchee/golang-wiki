@@ -1,0 +1,5 @@
+git+https://github.com/mkdocs/mkdocs.git
+git+https://github.com/squidfunk/mkdocs-material.git
+git+https://github.com/facelessuser/pymdown-extensions.git
+git+https://github.com/timvink/mkdocs-git-revision-date-localized-plugin.git
+git+https://github.com/pygments/pygments.git
