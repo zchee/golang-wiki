@@ -8,12 +8,13 @@ theme:
   include_homepage_in_sidebar: true
   prev_next_buttons_location: bottom
   palette:
-    scheme: preference
+    scheme: default
     primary: blue
-    accent: blue
+    accent: light blue
   icon:
     repo: fontawesome/brands/github
   features:
+    - content.code.annotate
     - navigation.expand
     - navigation.instant
     - navigation.sections
