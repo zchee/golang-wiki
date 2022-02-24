@@ -121,7 +121,7 @@ Test outputs should output the actual value that the function returned before
 printing the value that was expected. A usual format for printing test outputs
 is "`YourFunc(%v) = %v, want %v`".
 
-For diffs, directionality is less apparent, and as such it is important to include
+For diffs, directionality is less apparent, and thus it is important to include
 a key to aid in interpreting the failure. See [Print Diffs](#print-diffs).
 
 Whichever order you use in your failure messages, you should explicitly indicate 
