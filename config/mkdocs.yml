@@ -2,6 +2,7 @@ site_name: Go Programming Language Wiki
 site_description: Personal fork of Go Programming Language Wiki
 
 theme:
+  language: en
   name: material
   include_search_page: true
   search_index_only: true
@@ -29,6 +30,11 @@ site_url: https://zchee.github.io/golang-wiki
 repo_url: https://github.com/zchee/golang-wiki
 docs_dir: ../
 site_dir: ../../docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zchee
 
 extra_css:
   - https://github.com/facelessuser/pymdown-extensions/raw/main/docs/theme/assets/pymdownx-extras/extra-2d3bedca0e.css
@@ -118,12 +124,6 @@ plugins:
   - git-revision-date-localized
   - minify:
       minify_html: true
-
-extra:
-  revision: 14c2c2dbed9d
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/zchee
 
 # yamllint disable-line
 ## $ echo '  - "Home": Home.md' | tee nav.md; find . -maxdepth 2 -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not -wholename '*docs*' -and -not \( -name 'Home.md' -or -name 'nav.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case | tee -a nav.md && cat nav.md | pbcopy && rm -f nav.md
