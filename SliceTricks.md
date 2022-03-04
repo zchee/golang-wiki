@@ -67,13 +67,15 @@ a = a[:len(a)-1]
 ```
 
 #### Expand
+Insert `n` elements at position `i`:
 ```go
-a = append(a[:i], append(make([]T, j), a[i:]...)...)
+a = append(a[:i], append(make([]T, n), a[i:]...)...)
 ```
 
 #### Extend
+Append `n` elements:
 ```go
-a = append(a, make([]T, j)...)
+a = append(a, make([]T, n)...)
 ```
 
 #### Filter (in place)
