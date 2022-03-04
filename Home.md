@@ -4,6 +4,8 @@ Welcome to the Go wiki, a collection of information about the [Go Programming La
 
 See [Questions](Questions).
 
+Please do not ask questions by editing or creating a wiki page.  Any such changes will be silently reverted.
+
 ## Contributing
 
 - This wiki is open to editing by any member of the Go community with a GitHub account.
