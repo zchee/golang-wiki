@@ -1093,6 +1093,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Ingrid](https://www.ingrid.com/)
   * [Kiliaro](https://kiliaro.com/)
   * [Min Doktor](https://mindoktor.se/)
+  * [Modular Finance](https://career.modularfinance.se/)
   * [Northvolt](https://northvolt.com/) - The Future of Energy
   * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
   * [Slagkryssaren](https://slagkryssaren.com/)
