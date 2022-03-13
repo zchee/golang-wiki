@@ -433,6 +433,12 @@ Sorted by publication date, ascending.
   * Publication Date: March 25, 2021
   * Reference: https://nostarch.com/networkprogrammingwithgo
 
+* **Cloud Native Go**
+  * Author: Matthew A. Titmus
+  * Publication Date: May 11, 2021
+  * ISBN: 9781492076339
+  * Reference: https://www.oreilly.com/library/view/cloud-native-go/9781492076322/
+
 * **Building Distributed Applications in Gin**
   * Author: Mohamed Labouardy
   * Publication Date: July 23, 2021
