@@ -494,6 +494,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781617299599
     * Reference: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
 
+* **Effective Go**
+    * Author: Effective Go
+    * Publication Date: Fall 2022 (estimated)
+    * ISBN: 9781617299896
+    * Reference: https://www.manning.com/books/effective-go
+
 * **Efficient Go**
     * Author: Bartlomiej Plotka and Frederic Branczyk 
     * Publication Date: December 2022
