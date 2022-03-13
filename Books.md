@@ -105,6 +105,12 @@ Sorted by publication date, ascending.
     * ISBN: 978-1484210536
     * Reference: https://www.apress.com/9781484210536
 
+* **Go Programming by Example** (e-book)
+    * Author: Agus Kurniawan
+    * Publication Date: February 21, 2015
+    * ISBN: --
+    * Reference: https://www.amazon.com/dp/B00TWLZVQQ/
+
 * **Introducing Go**
     * Author: Caleb Doxsey
     * Publication Date: January 2016
