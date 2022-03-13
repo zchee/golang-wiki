@@ -543,6 +543,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781800560208
     * References: https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208
 
+  * **Go for Javascript Developers** 
+    * Author: Maor Zamski and Daniel Singer
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://github.com/pazams/go-for-javascript-developers
+
 
 ## Cancelled or Status Indeterminable
 
