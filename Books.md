@@ -461,6 +461,12 @@ Sorted by publication date, ascending.
     * Publication Date: 22 December 2021
     * Reference: https://go101.org/details-and-tips/101.html
 
+* **Powerful Command-Line Applications in Go**
+  * Author: Ricardo Gerardi
+  * Publication Date: December 2021
+  * ISBN: 9781680506969
+  * Reference: https://pragprog.com/titles/rggo/powerful-command-line-applications-in-go/
+
 * **The Power of Go: Tools** (e-book)
     * Author: John Arundel
     * Publication Date: January 27, 2922
