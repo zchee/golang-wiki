@@ -555,6 +555,12 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * References: https://quii.gitbook.io/learn-go-with-tests/
 
+  * **Practical Go Lessons** 
+    * Author: Maximilien Andile
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://www.practical-go-lessons.com/
+
 
 ## Cancelled or Status Indeterminable
 
