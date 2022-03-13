@@ -450,6 +450,13 @@ Sorted by publication date, ascending.
     * ISBN: 978-1-59327-865-6
     * Reference: https://www.nostarch.com/blackhatgo
 
+  * **Know Go: Generics**
+    * Author: John Arundel
+    * Publication Date: March 2022
+    * ISBN: N/A
+    * Reference: https://bitfieldconsulting.com/books/generics
+
+
 ## Available without Publication Date
 
   * **Learning Go** (e-book)
