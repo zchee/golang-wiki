@@ -135,6 +135,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781617292569
     * Reference: http://manning.com/chang/
 
+* **Go: Building Web Applications**
+    * Author: Nathan Kozyra and Mat Ryer
+    * Publication Date: August 31, 2016
+    * ISBN: 9781787123496
+    * https://www.packtpub.com/product/go-building-web-applications/9781787123496
+
 * **Go in Practice**
     * Authors: Matt Butcher and Matt Farina
     * Publication Date: October 1, 2016
