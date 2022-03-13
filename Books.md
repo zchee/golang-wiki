@@ -445,6 +445,12 @@ Sorted by publication date, ascending.
   * Publication Date: March 25, 2021
   * Reference: https://nostarch.com/networkprogrammingwithgo
 
+* **Distributed Services with Go: Your Guide to Reliable, Scalable, and Maintainable Systems**
+    * Author: Travis Jeffery
+    * Publication Date: March 2021
+    * ISBN: 9781680507607
+    * Reference: https://pragprog.com/titles/tjgo/distributed-services-with-go/
+
 * **Cloud Native Go**
   * Author: Matthew A. Titmus
   * Publication Date: May 11, 2021
