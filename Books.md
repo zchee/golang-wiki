@@ -438,6 +438,11 @@ Sorted by publication date, ascending.
   * Publication Date: July 23, 2021
   * Reference: https://www.packtpub.com/product/building-distributed-applications-in-gin/9781801074858
 
+* **Ultimate Go Notebook**
+  * Author: William Kennedy and Hoanh An
+  * Publication Date: August 13, 2021
+  * Reference: https://courses.ardanlabs.com/courses/ultimate-go-notebook
+
 * **Mastering Go - Third Edition**
     * Author: Mihalis Tsoukalos
     * Publication Date: 31 August 2021
