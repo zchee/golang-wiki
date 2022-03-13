@@ -549,6 +549,12 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * References: https://github.com/pazams/go-for-javascript-developers
 
+  * **Learn Go with Tests** 
+    * Author: Chris James
+    * Publication Date: ---
+    * ISBN: ---
+    * References: https://quii.gitbook.io/learn-go-with-tests/
+
 
 ## Cancelled or Status Indeterminable
 
