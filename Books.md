@@ -416,6 +416,11 @@ Sorted by publication date, ascending.
   * Publication Date: March 23, 2021
   * Reference: https://www.oreilly.com/library/view/learning-go/9781492077206/
 
+* **Network Programming with Go**
+  * Author: Adam Woodbeck
+  * Publication Date: March 25, 2021
+  * Reference: https://nostarch.com/networkprogrammingwithgo
+
 * **Building Distributed Applications in Gin**
   * Author: Mohamed Labouardy
   * Publication Date: July 23, 2021
