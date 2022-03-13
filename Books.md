@@ -416,6 +416,11 @@ Sorted by publication date, ascending.
   * Publication Date: March 23, 2021
   * Reference: https://www.oreilly.com/library/view/learning-go/9781492077206/
 
+* **Building Distributed Applications in Gin**
+  * Author: Mohamed Labouardy
+  * Publication Date: July 23, 2021
+  * Reference: https://www.packtpub.com/product/building-distributed-applications-in-gin/9781801074858
+
 * **Mastering Go - Third Edition**
     * Author: Mihalis Tsoukalos
     * Publication Date: 31 August 2021
