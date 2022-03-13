@@ -159,6 +159,12 @@ Sorted by publication date, ascending.
     * ISBN: 978-1-4842-1188-5
     * Reference: http://www.apress.com/us/book/9781484211892
 
+* **Cloud Native Go: Building Web Applications and Microservices for the Cloud with Go and React**
+    * Author: Kevin Hoffman and Dan Nemeth
+    * Publication Date: December 23, 2016
+    * ISBN: 978-0-672-33779-6
+    * Reference: https://www.informit.com/store/cloud-native-go-building-web-applications-and-microservices-9780672337796
+
 * **Go Design Patterns**
     * Author: Mario Castro Contreras
     * Publication Date: February 2017
