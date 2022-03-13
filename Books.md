@@ -488,6 +488,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781617295744
     * Reference: https://www.manning.com/books/webassembly-in-action
 
+* **100 Go Mistakes and How to Avoid Them**
+    * Author: Teiva Harsanyid
+    * Publication Date: March 2022 (estimated)
+    * ISBN: 9781617299599
+    * Reference: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
+
 * **Efficient Go**
     * Author: Bartlomiej Plotka and Frederic Branczyk 
     * Publication Date: December 2022
