@@ -386,6 +386,12 @@ Sorted by publication date, ascending.
         * https://www.amazon.com/Concise-Go-Yaniv-Astamnep-ebook/dp/B0844MWN92
         * https://www.amazon.com/Concise-Go-Yaniv-Astamnep/dp/B083XVZ2BZ
 
+  * **Black Hat Go**
+    * Author: Tom Steele, Chris Patten, and Dan Kottmann
+    * Publication Date: January 24, 2020
+    * ISBN: 978-1-59327-865-6
+    * Reference: https://www.nostarch.com/blackhatgo
+
 * **Nonsequential and Distributed Programming with Go**
     * Author: Christian Maurer
     * Publication Date: January 21, 2021
@@ -464,12 +470,6 @@ Sorted by publication date, ascending.
 
 
 ## Pre-order
-
-  * **Black Hat Go**
-    * Author: Tom Steele, Chris Patten, and Dan Kottmann
-    * Publication Date: March 2018
-    * ISBN: 978-1-59327-865-6
-    * Reference: https://www.nostarch.com/blackhatgo
 
   * **Know Go: Generics**
     * Author: John Arundel
