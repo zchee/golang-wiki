@@ -478,6 +478,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781617295744
     * Reference: https://www.manning.com/books/webassembly-in-action
 
+* **Efficient Go**
+    * Author: Bartlomiej Plotka and Frederic Branczyk 
+    * Publication Date: December 2022
+    * ISBN: 9781098105648
+    * Reference: https://www.oreilly.com/library/view/efficient-go/9781098105709/
+
 
 
 ## Pre-order
