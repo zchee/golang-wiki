@@ -392,6 +392,12 @@ Sorted by publication date, ascending.
    * ISBN: 978-1-59327-865-6
    * Reference: https://www.nostarch.com/blackhatgo
 
+* **Hands-On Software Engineering with Golang**
+   * Author: Hands-On Software Engineering with Golang
+   * Publication Date: January 24, 2020
+   * ISBN: 978-1-83855-449-1
+   * Reference: https://www.packtpub.com/product/hands-on-software-engineering-with-golang/9781838554491
+
 * **Nonsequential and Distributed Programming with Go**
     * Author: Christian Maurer
     * Publication Date: January 21, 2021
