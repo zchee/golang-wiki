@@ -623,7 +623,7 @@ Sorted by publication date, ascending.
 
   * **Creative DIY Microcontroller Projects with TinyGo and WebAssembly** 
     * Author: Tobias Theel
-    * Publication Date: April 2021 (est.)
+    * Publication Date: May 2021
     * ISBN: 9781800560208
     * References: https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208
 
