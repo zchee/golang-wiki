@@ -411,6 +411,11 @@ Sorted by publication date, ascending.
   * Publication Date: March 2021
   * Reference: https://bitfieldconsulting.com/books/love-bundle
 
+* **Learning Go: An Idiomatic Approach to Real-World Go Programming**
+  * Author: Jon Bodner
+  * Publication Date: March 23, 2021
+  * Reference: https://www.oreilly.com/library/view/learning-go/9781492077206/
+
 * **Mastering Go - Third Edition**
     * Author: Mihalis Tsoukalos
     * Publication Date: 31 August 2021
