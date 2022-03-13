@@ -481,7 +481,7 @@ Sorted by publication date, ascending.
 
 * **The Power of Go: Tools** (e-book)
     * Author: John Arundel
-    * Publication Date: January 27, 2922
+    * Publication Date: January 27, 2022
     * Reference: https://bitfieldconsulting.com/books/tools
 
 
