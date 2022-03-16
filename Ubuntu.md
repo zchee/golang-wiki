@@ -4,6 +4,8 @@
 
 There are some other options for Debian based systems like Ubuntu. These packages were not created by the Go project, and we don't support them, but they may be useful for you.
 
+## Using PPA
+
 If you're using Ubuntu 18.04 LTS or 20.04 LTS on amd64, arm64 or armhf, then you can use the [longsleep/golang-backports PPA](https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports) and update to Go 1.18.
 
 ```
@@ -14,14 +16,18 @@ sudo apt install golang-go
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.18` instead and use the binaries from `/usr/lib/go-1.18/bin`.**
 
-Using [snaps](https://snapcraft.io/go) also works quite well:
+## Using snap
+
+Using [snaps](https://snapcraft.io/go) also works quite well.
 
 ```
 sudo snap install --classic go
 ```
 > A restart may or may not be required for the command to be recognized depending on your system.
 
-Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-concept command-line installer for Go):
+## Using getgo
+
+Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-concept command-line installer for Go).
 
 ```
 curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
