@@ -79,14 +79,17 @@ While performance is expected to improve when a higher minimum microarchitecture
 
 ### amd64
 
-For Go 1.17 and before, we support all 64-bit x86 processors.
+Until Go 1.17, the Go compiler always generated x86 binaries that could be executed by any 64-bit x86 processor.
 
-As of Go 1.18, there are [4 architectural levels](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels):
+Go 1.18 introduced [4 architectural levels](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) for AMD64.
+Each level differs in the set of x86 instructions that the compiler can include in the generated binaries:
 
-* GOAMD64=v1 (default): All 64-bit x86 processors.
-* GOAMD64=v2: v1 processors that also have CMPXCHG16B, LAHF, SAHF, POPCNT, SSE3, SSE4.1, SSE4.2, SSSE3.
-* GOAMD64=v3: v2 processors that also have AVX, AVX2, BMI1, BMI2, F16C, FMA, LZCNT, MOVBE, OSXSAVE.
-* GOAMD64=v4: v3 processors that also have AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL.
+* GOAMD64=v1 (default): The baseline. Exclusively generates instructions that all 64-bit x86 processors can execute.
+* GOAMD64=v2: all v1 instructions, plus CMPXCHG16B, LAHF, SAHF, POPCNT, SSE3, SSE4.1, SSE4.2, SSSE3.
+* GOAMD64=v3: all v2 instructions, plus AVX, AVX2, BMI1, BMI2, F16C, FMA, LZCNT, MOVBE, OSXSAVE.
+* GOAMD64=v4: all v3 instructions, plus AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL.
+
+Setting, for example, GOAMD64=v3, will allow the Go compiler to use AVX2 instructions in the generated binaries (which may improve performance in some cases); but these binaries will not run on older x86 processors that don't support AVX2.
 
 The Go toolchain does not currently generate any AVX512 instructions.
 
