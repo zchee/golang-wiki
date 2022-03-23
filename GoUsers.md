@@ -619,6 +619,7 @@
   * [Rimoto](http://www.rimoto.com/)
   * [Rounds](http://www.rounds.com)
   * [SentinelOne](https://www.sentinelone.com/)
+  * [Seagate](https://www.seagate.com/gb/en/services/cloud/storage/)
   * [sigmadots](https://sigmadots.com/)
   * [Soluto](https://www.solutotlv.com/)
   * [SimilarWeb](https://www.similarweb.com/)
