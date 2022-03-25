@@ -768,7 +768,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Nikkei Inc.](https://hack.nikkei.com/blog)
   * [nonpi Inc.](https://www.nonpi.com/)
   * [Nulab](https://nulab-inc.com/) - [github](https://github.com/nulab)
-  * [O-KUN Inc](https://o-kun.com/)
+  * [O-KUN Inc.](https://o-kun.com/)
   * [omeroid](https://www.omeroid.com/)
   * [OPTiM Corporation](https://www.optim.co.jp/)
   * [Origami Inc.](https://origami.com/)
