@@ -43,7 +43,7 @@ creating a mini-language inside Go.
 When you use `t.Run` to create a subtest, the first argument is used as a
 descriptive name for the test. To ensure that test results are legible to humans
 reading the logs, choose subtest names that will remain useful and readable
-after escaping. (The test runnner replaces spaces with underscores, and it
+after escaping. (The test runner replaces spaces with underscores, and it
 escapes non-printing characters).
 
 To [identify the inputs](#identify-the-input), use `t.Log` in the body of the
