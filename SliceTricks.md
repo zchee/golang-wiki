@@ -78,6 +78,14 @@ Append `n` elements:
 a = append(a, make([]T, n)...)
 ```
 
+#### Extend Capacity
+Make sure there is space to append `n` elements without re-allocating:
+```go
+if cap(a)-len(a) < n {
+	a = append(make([]T, 0, len(a)+n), a...)
+}
+```
+
 #### Filter (in place)
 
 ```go
