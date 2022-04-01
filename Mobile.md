@@ -169,7 +169,7 @@ The app module contains the main application that invokes the `hello.Greetings`.
 
 If you are not using Android Studio, in order to work with bindings for Android, you need to have [Android SDK](https://developer.android.com/sdk/index.html#Other) installed and ANDROID_HOME environment variable set to the SDK path. You also need the [NDK](https://developer.android.com/ndk/) installed; the easiest way is to run the SDK command `sdkmanager ndk-bundle`.
 
-Alternatively, if you are not familiar with android development, and you do not wish to set up all the required environment (Android SDK, Gradle, etc), you can use this [Dockerfile](https://github.com/mpl/go4droid/blob/master/Dockerfile) to build the application in [docker](https://www.docker.com/) instead.
+Alternatively, if you are not familiar with android development, and you do not wish to set up all the required environment (Android SDK, Gradle, etc), you can use [this](https://github.com/AgregoreWeb/gomobile-android-docker) docker image to build the application in [docker](https://www.docker.com/) instead.
 
 Besides, if you try to add yourmodule.aar into your own project, after copy the yourmodule.aar file and yourmodule.jar file to "android\app" folder, below editing in "android\app\build.gradle" file should be done in order to make your module imported correctly.
 
