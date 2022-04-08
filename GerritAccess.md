@@ -4,9 +4,29 @@ There are two types of Gerrit access described here, with different powers & res
 
 (For Github access, see https://go.dev/wiki/GithubAccess)
 
-## Becoming an Approver ("approvers")
+## Running TryBots ("may-start-trybots")
+
+TryBot access lets you kick off a test run of a CL in Gerrit prior to submission (pre-submit testing). 
+TryBots run in a somewhat-secure and somewhat-isolated environment, 
+but they're not perfectly security hardened.
+You must skim the CL for anything malicious before starting TryBots.
+
+Voting Run-TryBot+1 asks Gopherbot to run the CL on the TryBots.
+When the TryBots finish, Gopherbot will reply with results,
+voting either TryBot-Result+1 (pass) or TryBot-Result-1 (fail).
+
+Every TryBot run includes a default set of the most common builders.
+[SlowBots](https://go.dev/wiki/SlowBots) provide additional testing controls.
+
+All approvers (see next section) have TryBot access automatically. Others can request TryBot access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See [Requesting Access](#requesting-access) below.
+
+## Approving CLs ("approvers")
 
 Approvers can review and submit code changes (CLs), subject to the review rules described below. Being an approver comes with an expectation of responsibility: approvers are people who care about Go and want to help it succeed. An approver is not just someone who can make changes, but someone who has demonstrated their ability to collaborate with the team, get the most knowledgeable people to review code, contribute high-quality code, and follow through to fix issues (in code or tests). 
+
+To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See [Requesting Access](#requesting-access) below.
+
+### Code Review Requirements
 
 Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of a second trusted approver (an additional Code-Review+2, or a Trust+1). Requiring two people ensures that code cannot be submitted unilaterally from a single compromised account. If the author of a change is an approver, they can provide the Trust+1 for their own CLs, but not the Code-Review+2. Once a review has a Code-Review+2 and either a second Code-Review+2 or a Trust+1, it can be submitted, by any approver. All these rules are enforced by the Gerrit server.
 
@@ -18,17 +38,25 @@ When a change has the appropriate reviews to be submitted, a Submit button appea
 
 If you are an approver, you can (and are encouraged to) Trust+1 every change you mail, by changing your [`git mail` alias](https://go.dev/doc/contribute#git-config) to be `git codereview mail -trust`. 
 
-To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
+The website repo is a special case for now. Committing a CL requires the involvement of two Google employees, either as code uploader or as a reviewer voting at least Code-Review+1. This requirement replaces the Trust+1 votes, which are ignored in that repo.
 
-As an exception to the usual rules, the usual approvers group does not have Code-Review and Trust voting ability in the x/website repo. There, those votes are limited to Go team members working at Google. This restriction exists for supply chain security reasons, because commits to x/website automatically go live on https://go.dev/, which serves Go binary downloads.
+### Auto-Submit
 
-## Running TryBots ("may-start-trybots")
+If you are reviewing a CL and believe it can be approved and submitted as is, 
+with no further changes, you can use the auto-submit functionality 
+to run tests and submit the CL if the tests pass. 
+To do this, vote Code-Review+2 as well as Auto-Submit+1 and Run-TryBot+1. When the tests pass, Gopherbot will submit it.
 
-TryBot access lets you kick off a test run of a CL in Gerrit prior to submission (pre-submit testing). Every test run includes a default set of the most common builders, and [SlowBots](https://go.dev/wiki/SlowBots) provide additional testing controls.
+More precisely, Gopherbot watches for and automatically submits CLs that
 
-TryBots run in a somewhat-secure and somewhat-isolated environment, but they're not perfectly security hardened. You must skim the CL for anything malicious before starting TryBots.
+ - have Auto-Submit+1 and TryBot-Result+1 votes,
+ - have the necessary code reviews, 
+ - have no unresolved comments,
+ - aren't marked #wait-release,
+ - and merge cleanly into the current branch head.
 
-To request TryBot access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See below.
+All approvers can add Auto-Submit+1 votes. 
+An Auto-Submit+1 vote is not carried forward when a patch is reuploaded.
 
 # Requesting Access
 
