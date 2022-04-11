@@ -47,7 +47,7 @@ An overview of tools that will help improve your Go code
 
 ### Articles
 
-  - [Go Inspection Tools](http://blog.ralch.com/tutorial/golang-tools-inspection/) - An overview of tools for Go code inspection.
+  - [Go Inspection Tools](https://blog.ralch.com/articles/golang-tools-inspection/) - An overview of tools for Go code inspection.
 
 ### Tools
 
