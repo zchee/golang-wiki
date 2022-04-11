@@ -28,17 +28,17 @@ To request approver access, reference https://go-review.googlesource.com/#/admin
 
 ### Code Review Requirements
 
-Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of a second trusted approver (an additional Code-Review+2, or a Trust+1). Requiring two people ensures that code cannot be submitted unilaterally from a single compromised account. If the author of a change is an approver, they can provide the Trust+1 for their own CLs, but not the Code-Review+2. Once a review has a Code-Review+2 and either a second Code-Review+2 or a Trust+1, it can be submitted, by any approver. All these rules are enforced by the Gerrit server.
+Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of two Google employees using Google-secured computers, either as code uploader or as a reviewer voting at least Code-Review+1. Requiring multiple people ensures that code cannot be submitted unilaterally from a single compromised account. The Google employee and hardware requirements further raise the bar: since CLs in many repos are essentially published by Google for download by users at commit time, the Google involvement is to approve this publication. Once a review has a Code-Review+2 and the necessary Google involvement, it can be submitted, by any approver. All these rules are enforced by the Gerrit server. 
 
-A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://go.dev/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](https://github.com/golang/go/wiki/CommitMessage) (“For #NNN.”).
+A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://go.dev/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](https://github.com/golang/go/wiki/CommitMessage) (“For #NNN.”). 
 
-A Trust+1 vote means that you have read the change and are confident that the change does not introduce any sort of security vulnerability or other clearly inappropriate code change. As long as you are sure about that, it's OK to Trust+1 a change even if you don't fully understand all the details of the change.
+When adding a Code-Review+2 vote, it is encouraged to also add Run-TryBots+1 and Auto-Submit+1: see the [auto-submit](#auto-submit) section below for details.
+
+A Code-Review+1 vote means that you have read the change and believe it seems reasonable but aren’t making the definitive judgement that Code-Review+2 indicates. It also means that are confident that the change does not introduce any sort of security vulnerability or other clearly inappropriate code change. 
 
 When a change has the appropriate reviews to be submitted, a Submit button appears in Gerrit (for approvers). You should only submit changes with a Code-Review+2 from the owner of that area (maybe you!).
 
-If you are an approver, you can (and are encouraged to) Trust+1 every change you mail, by changing your [`git mail` alias](https://go.dev/doc/contribute#git-config) to be `git codereview mail -trust`. 
-
-The website repo is a special case for now. Committing a CL requires the involvement of two Google employees, either as code uploader or as a reviewer voting at least Code-Review+1. This requirement replaces the Trust+1 votes, which are ignored in that repo.
+To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
 ### Auto-Submit
 
