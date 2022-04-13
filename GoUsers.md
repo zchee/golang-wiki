@@ -720,6 +720,7 @@
   * [Howtelevision, Inc.](https://howtelevision.co.jp/)
   * [HRBrain, Inc.](https://www.hrbrain.co.jp/)
   * [Internet Initiative Japan Inc.](http://www.iij.ad.jp)
+  * [IRIAM Inc.](https://www.live.iriam.com/)
   * [istyle Inc.](http://www.istyle.co.jp/)
   * [JapanTaxi Co.,Ltd.](https://japantaxi.co.jp/)
   * [JX Press Corporation](https://jxpress.net/)
