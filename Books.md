@@ -496,6 +496,11 @@ Sorted by publication date, ascending.
     * Publication Date: January 27, 2022
     * Reference: https://bitfieldconsulting.com/books/tools
 
+* **Go Generics 101**
+    * Author: Tapir Liu
+    * Publication Date: 07 April 2021
+    * Reference: https://go101.org/generics/101.html
+
 
 ***
 ## Early Access
