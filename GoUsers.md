@@ -791,6 +791,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
       * [sakura.io](https://sakura.io/)
   * [Sharedine](https://sharedine.me/)
+  * [SheepMedical](https://www.sheepmedical.com/)
   * [Showcase Gig Inc.](https://www.showcase-gig.com/)
   * [SMART EDUCATION, Ltd.](http://smarteducation.jp/)
       * [KitS](http://kdkits.jp/)
