@@ -1,1 +1,0 @@
-[sentermedis](https://sentermedis.com)
