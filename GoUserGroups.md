@@ -229,3 +229,4 @@
   * [Golang Chile](https://groups.google.com/d/forum/golang-chile) - Chile.
   * [Golang Panamá](https://groups.google.com/d/forum/golang-panama) - Panamá.
   * [Golang Lima](http://www.meetup.com/es/Golang-Peru/) - Perú
+  * [Golang Venezuela]https://t.me/golangve
