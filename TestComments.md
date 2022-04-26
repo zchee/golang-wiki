@@ -14,10 +14,10 @@ Avoid the use of 'assert' libraries to help your tests. Go developers arriving
 from xUnit frameworks often want to write code like:
 
 ```go
-assert.isNotNil(t, "obj", obj)
-assert.stringEq(t, "obj.Type", obj.Type, "blogPost")
-assert.intEq(t, "obj.Comments", obj.Comments, 2)
-assert.stringNotEq(t, "obj.Body", obj.Body, "")
+assert.IsNotNil(t, "obj", obj)
+assert.StringEq(t, "obj.Type", obj.Type, "blogPost")
+assert.IntEq(t, "obj.Comments", obj.Comments, 2)
+assert.StringNotEq(t, "obj.Body", obj.Body, "")
 ```
 
 but this either stops the test early (if assert calls `t.Fatalf` or `panic`)
