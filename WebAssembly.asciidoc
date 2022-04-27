@@ -116,11 +116,28 @@ output.
 It's possible to execute compiled WebAssembly modules using Node.js
 rather than a browser, which can be useful for testing and automation.
 
-With Node installed and in your `PATH`, set the `-exec` flag to the
-location of `go_js_wasm_exec` when you execute `go run` or `go test`.
+First, make sure Node is installed and in your `PATH`.
 
-By default, `go_js_wasm_exec` is in the `misc/wasm` directory of your
-Go installation.
+Then, add `$(go env GOROOT)/misc/wasm/go_js_wasm_exec` to your `PATH`,
+which will allow `go run` and `go test` to just work for `js/wasm`:
+
+```
+$ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
+$ GOOS=js GOARCH=wasm go run .
+Hello, WebAssembly!
+$ GOOS=js GOARCH=wasm go test
+PASS
+ok  	example.org/my/pkg	0.800s
+```
+
+If you're running working on Go itself, this will also allow you to run `run.bash`
+seamlessly.
+
+`go_js_wasm_exec` is a wrapper that allows running Go Wasm binaries in Node. By default,
+it may be found in the `misc/wasm` directory of your Go installation.
+
+If you'd rather not add anything to your `PATH`, you may also set the `-exec` flag to
+the location of `go_js_wasm_exec` when you execute `go run` or `go test` manually.
 
 ```
 $ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec" .
@@ -130,13 +147,14 @@ PASS
 ok  	example.org/my/pkg	0.800s
 ```
 
-Adding `go_js_wasm_exec` to your `PATH` will allow `go run` and `go test` to work for `js/wasm` without having to manually provide the `-exec` flag each time:
+Finally, the wrapper may also be used to directly execute a Go Wasm binary:
 
 ```
-$ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
-$ GOOS=js GOARCH=wasm go run .
+$ GOOS=js GOARCH=wasm go build -o mybin .
+$ $(go env GOROOT)/misc/wasm/go_js_wasm_exec ./mybin
 Hello, WebAssembly!
-$ GOOS=js GOARCH=wasm go test
+$ GOOS=js GOARCH=wasm go test -c
+$ $(go env GOROOT)/misc/wasm/go_js_wasm_exec ./pkg.test
 PASS
 ok  	example.org/my/pkg	0.800s
 ```
