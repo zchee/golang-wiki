@@ -118,8 +118,9 @@ rather than a browser, which can be useful for testing and automation.
 
 First, make sure Node is installed and in your `PATH`.
 
-Then, add `$(go env GOROOT)/misc/wasm/go_js_wasm_exec` to your `PATH`,
-which will allow `go run` and `go test` to just work for `js/wasm`:
+Then, add `$(go env GOROOT)/misc/wasm` to your `PATH`.
+This will allow `go run` and `go test` find `go_js_wasm_exec in a `PATH` search
+and use it to just work for `js/wasm`:
 
 ```
 $ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
