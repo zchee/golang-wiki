@@ -141,7 +141,7 @@ When declaring an empty slice, prefer
 var t []string
 ```
 
-over 
+over
 
 ```go
 t := []string{}
@@ -212,9 +212,6 @@ import (
 	"hash/adler32"
 	"os"
 
-	"appengine/foo"
-	"appengine/user"
-
 	"github.com/foo/bar"
 	"rsc.io/goversion/version"
 )
@@ -245,7 +242,7 @@ In this case, the test file cannot be in package foo because it uses bar/testuti
 
 ## In-Band Errors
 
-In C and similar languages, it's common for functions to return values like -1 
+In C and similar languages, it's common for functions to return values like -1
 or null to signal errors or missing results:
 
 ```go
@@ -444,7 +441,7 @@ func (n *Node) Parent1() *Node {}
 func (n *Node) Parent2() (*Node, error) {}
 ```
 
-On the other hand, if a function returns two or three parameters of the same type, 
+On the other hand, if a function returns two or three parameters of the same type,
 or if the meaning of a result isn't clear from context, adding names may be useful
 in some contexts. Don't name result parameters just to avoid declaring a var inside
 the function; that trades off a minor implementation brevity at the cost of
@@ -549,8 +546,8 @@ See https://go.dev/doc/effective_go#commentary for more information about commen
 
 ## Package Names
 
-All references to names in your package will be done using the package name, 
-so you can omit that name from the identifiers. For example, if you are in package chubby, 
+All references to names in your package will be done using the package name,
+so you can omit that name from the identifiers. For example, if you are in package chubby,
 you don't need type ChubbyFile, which clients will write as `chubby.ChubbyFile`.
 Instead, name the type `File`, which clients will write as `chubby.File`.
 Avoid meaningless package names like util, common, misc, api, types, and interfaces. See https://go.dev/doc/effective_go#package-names and
@@ -575,7 +572,7 @@ Choosing whether to use a value or pointer receiver on methods can be difficult,
   * Can function or methods, either concurrently or when called from this method, be mutating the receiver? A value type creates a copy of the receiver when the method is invoked, so outside updates will not be applied to this receiver. If changes must be visible in the original receiver, the receiver must be a pointer.
   * If the receiver is a struct, array or slice and any of its elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to the reader.
   * If the receiver is a small array or struct that is naturally a value type (for instance, something like the time.Time type), with no mutable fields and no pointers, or is just a simple basic type such as int or string, a value receiver makes sense.  A value receiver can reduce the amount of garbage that can be generated; if a value is passed to a value method, an on-stack copy can be used instead of allocating on the heap. (The compiler tries to be smart about avoiding this allocation, but it can't always succeed.) Don't choose a value receiver type for this reason without profiling first.
-  * Don't mix receiver types. Choose either pointers or struct types for all available methods. 
+  * Don't mix receiver types. Choose either pointers or struct types for all available methods.
   * Finally, when in doubt, use a pointer receiver.
 
 ## Synchronous Functions
