@@ -38,6 +38,8 @@ A Code-Review+1 vote means that you have read the change and believe it seems re
 
 When a change has the appropriate reviews to be submitted, a Submit button appears in Gerrit (for approvers). You should only submit changes with a Code-Review+2 from the owner of that area (maybe you!).
 
+Approvers can also vote Hold+1 on a CL to mark it as unsubmittable (until that vote is removed). A typical reason might be that we need to wait on the CL for a proposal review, or because the CL needs to be submitted at a certain time: voting Hold+1 ensures that it can still be reviewed, but it won't accidentally be submitted early.
+
 To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
 
 ### Auto-Submit
