@@ -119,6 +119,7 @@
   * [In Loco](http://www.inlocomedia.com) - [github](https://github.com/In-Loco-Media)
   * [Involves](https://www.involves.com) - [github](https://github.com/involvestecnologia)
   * [IQ Escolhas Inteligentes](https://www.iq.com.br/) - [github](https://github.com/IQ-tech)
+  * [isaac](https://isaac.com.br/) - [github](https://github.com/olaisaac)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
   * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
   * [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
