@@ -4,9 +4,22 @@ This page is a supplement to
 [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments),
 but is targeted specifically to test code.
 
-**Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation)
+**Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+TestComments+change&body=&labels=Documentation)
 before editing this page**, even _minor_ ones. Many people have opinions and
 this is not the place for edit wars.
+
+* [Assert Libraries](https://github.com/golang/go/wiki/TestComments#assert-libraries)
+* [Choose Human-Readable Subtest Names](https://github.com/golang/go/wiki/TestComments#choose-human-readable-subtest-names)
+* [Compare Stable Results](https://github.com/golang/go/wiki/TestComments#compare-stable-results)
+* [Equality Comparison and Diffs](https://github.com/golang/go/wiki/TestComments#equality-comparison-and-diffs)
+* [Got before Want](https://github.com/golang/go/wiki/TestComments#got-before-want)
+* [Identify the Function](https://github.com/golang/go/wiki/TestComments#identify-the-function)
+* [Identify the Input](https://github.com/golang/go/wiki/TestComments#identify-the-input)
+* [Keep Going](https://github.com/golang/go/wiki/TestComments#keep-going)
+* [Mark Test Helpers](https://github.com/golang/go/wiki/TestComments#mark-test-helpers)
+* [Print Diffs](https://github.com/golang/go/wiki/TestComments#print-diffs)
+* [Table-Driven Tests vs Multiple Test Functions](https://github.com/golang/go/wiki/TestComments#table-driven-tests-vs-multiple-test-functions)
+* [Test Error Semantics](https://github.com/golang/go/wiki/TestComments#test-error-semantics)
 
 ## Assert Libraries
 
