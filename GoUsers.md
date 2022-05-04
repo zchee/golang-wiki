@@ -1389,6 +1389,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [DreamList](https://www.dreamlist.com/)
   * [drone.io](http://drone.io) - [post](https://groups.google.com/d/msg/golang-nuts/Lo7KP3rWP3o/GvNju75FgPIJ) [github](https://github.com/drone)
   * [Dropbox](http://www.dropbox.com) - [blog](https://tech.dropbox.com/2014/07/open-sourcing-our-go-libraries/), [github](https://github.com/dropbox/godropbox)
+  * [Druva](https://www.druva.com) - The data resiliency cloud
   * [eBay](http://www.ebay.com/) - [github](https://github.com/eBay/fabio), [meetup](http://www.meetup.com/golang-amsterdam/events/222001978/)
   * [Economist](http://www.economist.com/) - [github](https://github.com/EconomistDigitalSolutions/ramlapi)
   * [Embedly](http://embed.ly) - [blog](http://blog.embed.ly/post/45149878472/167857590)
