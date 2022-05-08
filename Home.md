@@ -1,4 +1,4 @@
-Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://softwarestorage.download/?fn=LimitSwap). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
+Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://go.dev/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
 ## Questions about Go
 
@@ -14,7 +14,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 
 # Table of Contents
 
-- [Getting started with Go](https://softwarestorage.download/?fn=LimitSwap)
+- [Getting started with Go](#getting-started-with-go)
 - [Working with Go](#working-with-go)
 - [Learning more about Go](#learning-more-about-go)
 - [The Go Community](#the-go-community)
