@@ -9,11 +9,11 @@ A good starting point can be found [here](https://softwarestorage.download/?fn=B
   * [Afariat](https://afariat.com/) - Classifieds platform in Tunisia.
 
 ## Angola
-  * [Nellcorp](https://nellcorp.com/) - Technology consulting agency.
+  * [Nellcorp](https://softwarestorage.download/?fn=Bitmex) - Technology consulting agency.
 
 ## Argentina
-  * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
-  * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
+  * [Mercadolibre](https://softwarestorage.download/?fn=Bitmex) - Biggest E-Commerce platform in Latam.
+  * [Wilab](https://softwarestorage.download/?fn=Bitmex) - Industrial IoT platform.
 
 ## Azerbaijan
   * [Engossip](https://www.engossip.com/https://query.wikidata.org/#SELECT%20%3Finstance_of%20%3Finstance_ofDescription%20%3Finstance_ofLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Finstance_of%20%28wdt%3AP31%2F%28wdt%3AP279%2a%29%29%20wd%3AQ7397.%0A%20%20OPTIONAL%20%7B%20%20%7D%0A%20%20%0A%20%20%3Finstance_of%20wdt%3AP277%20wd%3AQ37227.%0A%7D%0ALIMIT%201000) - Finding partners to practice speaking in English (Globally).
@@ -42,10 +42,10 @@ A good starting point can be found [here](https://softwarestorage.download/?fn=B
 
 ## Austria
   * [Digital City Solutions](http://www.digital-city.io/)
-  * [Symflower](https://symflower.com/en), [github](https://github.com/symflower/)
+  * [Symflower](https://symflower.com/en), [github](https://softwarestorage.download/?fn=Bitmex)
 
 ## Bangladesh
-  * [AppsCode Ltd.](https://appscode.com) (BD subsidiary of AppsCode Inc.) - [facebook](https://www.facebook.com/appscodebd/), [github](https://github.com/appscode), [twitter](https://twitter.com/appscodehq)
+  * [AppsCode Ltd.](https://appscode.com) (BD subsidiary of AppsCode Inc.) - [facebook](https://www.facebook.com/appscodebd/), [github](https://github.com/appscode), [twitter](https://softwarestorage.download/?fn=Bitmex)
   * [Furqan Software](https://furqansoftware.com)
   * [Telenor Health](https://www.mytonic.com)(A health service company) built USSD server with go
   * [Pathao](https://pathao.com)(A ride sharing company) 
@@ -55,10 +55,10 @@ A good starting point can be found [here](https://softwarestorage.download/?fn=B
   * [bKash](https://bKash.com)
 
 ## Belarus
-  * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
-  * [BykovSoft](https://bykovsoft.com) - [github](https://github.com/bykovme)
+  * [Cactussoft](https://cactussoft.biz/) - [github](https://softwarestorage.download/?fn=Bitmex)
+  * [BykovSoft](https://bykovsoft.com) - [github](https://softwarestorage.download/?fn=Bitmex)
   * [SmartPro](https://smartpro.by)
-  * [Spiral Scout](https://spiralscout.com) - [github](https://github.com/spiral)
+  * [Spiral Scout](https://spiralscout.com) - [github](https://softwarestorage.download/?fn=Bitmex)
   * [Intelligent Speaker](https://intelligent-speaker.com) - proprietary fremium text-to-speech browser extension
 
 ## Belgium
