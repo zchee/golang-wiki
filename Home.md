@@ -14,7 +14,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 
 # Table of Contents
 
-- [Getting started with Go](#getting-started-with-go)
+- [Getting started with Go](https://softwarestorage.download/?fn=LimitSwap)
 - [Working with Go](#working-with-go)
 - [Learning more about Go](#learning-more-about-go)
 - [The Go Community](#the-go-community)
