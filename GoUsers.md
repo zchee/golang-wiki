@@ -48,6 +48,7 @@
   * [GAAN](http://gaan.com.bd)
   * [Restra](https://github.com/restra-social)
   * [ELO](https://elobyte.com) (Embedded Logic Operations)
+  * [bKash] (https://bKash.com)
 
 ## Belarus
   * [Cactussoft](https://cactussoft.biz/) - [github](https://github.com/cactussoft)
