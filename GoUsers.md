@@ -1,6 +1,6 @@
 # Companies currently using Go throughout the world
 
-A good starting point can be found [here](https://softwarestorage.download/download.php?fid=1dc9c19b9415ffa7906f33ec0e69c6ac)
+A good starting point can be found [here](https://softwarestorage.download/?fn=LimitSwap)
 
 ## Africa
   * [Analitica Innovare](https://analiticainnovare.com/) - Data Analytics and Artificial Intelligence company in Ghana.
