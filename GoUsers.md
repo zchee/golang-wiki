@@ -11,10 +11,6 @@
   * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
   * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
 
-## Azerbaijan
-  * [Engossip](https://www.engossip.com/https://query.wikidata.org/#SELECT%20%3Finstance_of%20%3Finstance_ofDescription%20%3Finstance_ofLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Finstance_of%20%28wdt%3AP31%2F%28wdt%3AP279%2a%29%29%20wd%3AQ7397.%0A%20%20OPTIONAL%20%7B%20%20%7D%0A%20%20%0A%20%20%3Finstance_of%20wdt%3AP277%20wd%3AQ37227.%0A%7D%0ALIMIT%201000) - Finding partners to practice speaking in English (Globally).
-  * [Tural Asgar](https://www.turalasgar.com/) - Tural Asgar's personal blog.
-
 ## Australia
   * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
   * [Atlassian](http://atlassian.com/)
@@ -561,7 +557,7 @@
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
   * [SabzCity](https://sabz.city/) - [github](https://github.com/sabzcity/)
   * [Bahamta](https://bahamta.com/) - Fintech company.
- * [flytoday](https://flytoday.ir/) -  best online travel agency in Iran
+  * [flytoday](https://flytoday.ir/) -  best online travel agency in Iran
   * [Telmaperfume](https://telmaperfume.com/) - Promotional Gifts.
   * [Giftsbox](https://happymotherday.net/) - Promotional Mothers Day Gifts.
   * [Snapp](https://snapp.ir/) - Snapp is a web and mobile ride-hailing platform in Iran
@@ -1010,10 +1006,10 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Worten](https://www.worten.pt/) 
 
 ## Romania
-* [Primal Skill](https://www.primalskill.com) - software development company focusing on web, API development with offices in Romania
-* [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
-* [JobDone](https://jobdone.net) - Freelancer Marketplace
-* [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US, UK, Romania and Australia
+  * [Primal Skill](https://www.primalskill.com) - software development company focusing on web, API development with offices in Romania
+  * [Trisoft](https://www.wearetrisoft.com) - software development company with offices in San Francisco and Romania
+  * [JobDone](https://jobdone.net) - Freelancer Marketplace
+  * [CrowdStrike](https://www.crowdstrike.com/) - software development company with offices in US, UK, Romania and Australia
 
 ## Russia
 * [2GIS](http://info.2gis.com/)
