@@ -1379,6 +1379,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Docker](https://www.docker.com/) - [docker](https://github.com/docker/docker) [slides]
   * [domainr](http://domai.nr/) - [tweet](https://twitter.com/rr/status/368988340848037889)
   * [Dollar Shave Club](https://www.dollarshaveclub.com) - [blog](http://engineering.dollarshaveclub.com/)
+  * [DoltHub](https://www.dolthub.com/) - [Dolt](https://github.com/dolthub/dolt): The first and only SQL database that supports clone, branch, and merge. [(GitHub)](https://github.com/dolthub/dolt) [(Twitter)](https://twitter.com/dolthub) [(Discord)](https://discord.com/invite/RFwfYpu)
   * [DotDashPay](https://www.dotdashpay.com) - [github](https://github.com/dotdashpay)
   * [DoubleDutch](https://www.doubledutch.me)
 (http://www.slideshare.net/jpetazzo/docker-and-go-why-did-we-decide-to-write-docker-in-go)
