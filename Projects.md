@@ -204,6 +204,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [awless](https://github.com/wallix/awless) - A Mighty command-line interface for Amazon Web Services (AWS).
   * [boilr](https://github.com/tmrts/boilr) - A blazing fast CLI tool for creating projects from boilerplate templates.
   * [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
+  * [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
   * [comb-go](https://github.com/bingohuang/comb-go) - A CLI tool implemented by Golang to manage [CloudComb](http://c.163.com) resources.
   * [coshell](https://github.com/gdm85/coshell) - A drop-in replacement for GNU 'parallel'.
   * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
