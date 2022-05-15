@@ -31,7 +31,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 
 - [The Go Tour](http://tour.golang.org) is the best place to start.
 - [Effective Go](https://go.dev/doc/effective_go) will help you learn how to write idiomatic Go code.
-- [Go standard library documentation](https://pkg.go.dev/) to familiarize yourself with the standard library.
+- [Go standard library documentation](https://pkg.go.dev/std) to familiarize yourself with the standard library.
 - [Use the Go Playground](https://go.dev/play) to test out Go programs in your browser.
 - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
 - Read about the companies which have [switched from other languages to Go](https://github.com/golang/go/wiki/FromXToGo).
