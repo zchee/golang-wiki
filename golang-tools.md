@@ -38,8 +38,8 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Call archive
 
-* 2022-04-13 - [Agenda](https://docs.google.com/document/d/1HaBRsUK9z2UygQPsO7Q5gVV0vM7fL085ScpEHpSUrnc/edit) - video to follow
-* 2022-02-16 - [Agenda](https://docs.google.com/document/d/1XWEAauEY_TOe-gd04IHA2bRgLGd8SMsOfvW3ak8oDTY/edit) - video to follow
+* 2022-04-13 - [Agenda](https://docs.google.com/document/d/1HaBRsUK9z2UygQPsO7Q5gVV0vM7fL085ScpEHpSUrnc/edit) - [video](https://www.youtube.com/watch?v=5f5c7oOWxEQ)
+* 2022-02-16 - [Agenda](https://docs.google.com/document/d/1XWEAauEY_TOe-gd04IHA2bRgLGd8SMsOfvW3ak8oDTY/edit) - [video](https://www.youtube.com/watch?v=7S_tGsE7pA4)
 * 2022-01-12 - [Meeting notes](https://docs.google.com/document/d/1SNCAJesMR8KJjyM-AlVTZStrRfTNTUOiYX-FvyL-8nQ/edit) - [video](https://youtu.be/oXm-JFzbSYY)
 * 2021-10-06 - [Meeting notes](https://docs.google.com/document/d/15CTfyASn5wBgpAAGhOpgaGg7LaUVd7WYVSZHuybTTVk/edit) - [video](https://youtu.be/VaKo_8oTRK4)
 * 2021-09-15 special edition: supporting type parameters [Agenda](https://docs.google.com/document/d/1Wk2Jp9yV8h3ApKsepBrsE37s8f4sDb0eVjfGOaIPsHM)
