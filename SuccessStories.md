@@ -29,7 +29,7 @@
   * [Go at Cockroach Labs](https://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/), [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
   * [Go at Novartis](https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL)
   * [Go at the BBC](http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand)
-  * [Go at SoundCloud](http://backstage.soundcloud.com/2012/07/go-at-soundcloud/)
+  * [Go at SoundCloud](https://developers.soundcloud.com/blog/go-at-soundcloud)
   * [Go at Moovweb](https://groups.google.com/forum/#!topic/golang-nuts/MeiTNnGhLg8/discussion)
   * [Building StatHat with Go](https://go.dev/blog/2011/12/building-stathat-with-go.html)
   * [Go at CloudFlare](http://blog.cloudflare.com/go-at-cloudflare)
