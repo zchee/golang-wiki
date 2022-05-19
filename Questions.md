@@ -22,3 +22,5 @@ For asking questions, see:
 * **IRC** channel #go-nuts on Libera
 
 If we closed your issue as a question with a link to this wiki, we apologize. Please ask the question on one of the above forums.
+
+Please do not write your question on a wiki page.  Please use one of the above forums.
