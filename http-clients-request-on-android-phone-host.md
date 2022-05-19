@@ -1,1 +1,0 @@
-How do I request a clients servers request on android phone host,if I'm running a servers on my android phone as a http server?
