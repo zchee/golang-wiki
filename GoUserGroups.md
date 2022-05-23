@@ -133,6 +133,7 @@
   * [Gophers Linz](https://www.meetup.com/Gophers-Linz/) - Linz, Austria
   * [Golang Rotterdam](https://www.meetup.com/Golang-Rotterdam/) - Rotterdam, Netherlands
   * [Leipzig Gophers](https://golangleipzig.space/) - Leipzig, Germany
+  * [Golang Estonia](https://www.meetup.com/Golang-Estonia/) - Estonia
 
 # North America
 
