@@ -7,7 +7,7 @@
   * [Our Experience with Golang](https://www.scriptrock.com/blog/our-experience-with-golang)
   * [The Reliability of Go](http://andrewwdeane.blogspot.de/2013/05/the-reliability-of-go.html)
   * [Go at TiDB](https://github.com/pingcap/tidb)
-  * [A Go Redirection Service](http://blog.dnsimple.com/a-golang-redirection-service/)
+  * [A Go Redirection Service](https://blog.dnsimple.com/2013/03/golang-redirector/)
   * [pool.ntp.org DNS server in Go](http://news.ntppool.org/2012/10/new-dns-server.html)
   * [Juju at Canonical](http://www.reddit.com/r/programming/comments/18atce/juju_canonical_109k_lines_of_go_code/)
   * [Go at bitly](http://word.bitly.com/post/29550171827/go-go-gadget)
