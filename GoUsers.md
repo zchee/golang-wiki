@@ -1481,6 +1481,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Lob](https://www.lob.com)
   * [LocalRaces](https://localraces.com/) - [website](https://localraces.com/about)
   * [LogPacker](https://logpacker.com/) - [website](https://logpacker.com)
+  * [LosVirtuality](https://www.losvirtuality.com/) - [website](https://www.losvirtuality.com/)
   * [Lovoo](https://lovoo.com/) - [github](https://github.com/lovoo)
   * [Luckie &amp; Company](http://luckie.com)
   * [Luxor](https://mining.luxor.tech/)
