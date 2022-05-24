@@ -42,7 +42,7 @@
   * [Why we chose Go over C for updating embedded Linux devices](https://mender.io/blog/why-did-we-choose-golang-over-c)
   * [List of Tech Migrations](http://kokizzu.blogspot.com/2016/12/list-of-tech-migrations.html)
   * [Making the move from Scala to Go, and why we’re not going back](https://movio.co/blog/migrate-Scala-to-Go/)
-  * [Go + Services = One Goliath Project - Khan Academy's Python Monolith to Go Microservices](https://engineering.khanacademy.org/posts/goliath.htm)
+  * [Go + Services = One Goliath Project - Khan Academy's Python Monolith to Go Microservices](https://blog.khanacademy.org/go-services-one-goliath-project/)
   * [Why we switched from Python to Go at Stream](https://getstream.io/blog/switched-python-go/)
   * [A journey from Node to GoLang](https://www.loginradius.com/engineering/blog/a-journey-from-node-to-golang/)
 
