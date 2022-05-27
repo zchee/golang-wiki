@@ -5,7 +5,8 @@
 Please keep all items in chronological order. There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap). The map will be updated about once a week from the entries below. Errors in the map can be reported to van@golang.org.
 
 | Name |  Date | Location | Website | 
-|-------|-----------|----------|------------|
+| GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
+
 
 
 
