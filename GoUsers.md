@@ -1062,7 +1062,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [HealthCo](http://healthcobot.com)
   * [Pocketmath](http://www.pocketmath.com/)
   * [Tokopedia](https://www.tokopedia.com/)
-  * [TablePlus](https://https://tableplus.io/)
+  * [TablePlus](https://www.tableplus.io/)
   * [Carousell](https://sg.carousell.com/)
 
 ## Spain
