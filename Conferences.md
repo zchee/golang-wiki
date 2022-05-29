@@ -4,7 +4,8 @@
 
 Please keep all items in chronological order. There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap). The map will be updated about once a week from the entries below. Errors in the map can be reported to van@golang.org.
 
-| Name |  Date | Location | Website | 
+| Name |  Date | Location | Website |
+| --- | --- | --- | --- |
 | GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
 
 
@@ -14,7 +15,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 Please keep all items in reverse chronological order (most recent first)
 
-| Name | Date | Location | Talk, Video Archives | 
+| Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
 | GopherCon | 2021-12-05-08 | San Diego & Online | https://www.gophercon.com/ |
 | GoWest Conference 2021 | 2021-10-22 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
@@ -87,12 +88,12 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | https://www.gophercon.com/<br>Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM<br>Lightning Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdMEZScpaoRX-vyt6pRUvfM |
 | GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/ |
 | Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
-| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | [Talks](https://www.youtube.com/playlist?list=PLtoVuM73AmsJuBoOoI-12WR36nhvtlJ-A&disable_polymer=true)<br>[Website](https://gophercon.is) | 
+| GopherCon Europe - Iceland | 2018-06-01-02 | Reykjavik, Iceland | [Talks](https://www.youtube.com/playlist?list=PLtoVuM73AmsJuBoOoI-12WR36nhvtlJ-A&disable_polymer=true)<br>[Website](https://gophercon.is) |
 | GopherCon SG 2018 | 2018-05-04 | Singapore | https://2018.gophercon.sg/ |
 | GothamGo 2018 | 2018-04-27 | New York, USA | http://gothamgo.com/ |
 | Go Conference Tokyo | 2018-04-15 | Tokyo, Japan | https://gocon.connpass.com/event/82515/ |
 | GopherCon China 2018 | 2018-04-14-15 | Shanghai, China | http://www.gopherchina.org/ |
-| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>https://github.com/GopherConRu/talks | 
+| GopherCon Russia 2018 | 2018-03-17 | Moscow, Russia | http://gophercon-russia.ru/en<br>https://github.com/GopherConRu/talks |
 | GopherCon India 2018 | 2018-03-09-10 | Pune, India | http://www.gophercon.in/ |
 | Go Devroom FOSDEM 2018 | 2018-02-03-04 | Brussels, Belgium | https://fosdem.org/2018/schedule/track/go/ |
 | | **2017** | | | |
@@ -106,7 +107,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Capital Go Language Conference | 2017-04-24-25 | Washington, DC | http://www.capitalgolang.com/ |
 | GopherChina 2017 | 2017-04-15-16 | Shanghai | http://www.bagevent.com/event/357764 |
 | Go Conference Tokyo | 2017-03-25 | Tokyo, Japan |https://gocon.connpass.com/event/52441/ |
-| GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/ 
+| GopherCon India 2017 | 2017-02-24-25 | Pune, India | http://www.gophercon.in/
 | Go Devroom FOSDEM | 2017-02-05 | Brussels, Belgium | https://fosdem.org/2017/schedule/track/go/ |
 | GoLab | 2017-01-20-21 | Florence, Italy | http://golab.io |
 | | **2016** | | | |
