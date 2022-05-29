@@ -20,9 +20,6 @@ Three things that make Go fast, fun, and productive:interfaces, reflection, and 
 [[another video](http://vimeo.com/69237265)]
 [[slides](http://talks.golang.org/2012/simple.slide)]
 
-### Go: free online courses
-[[website](https://skillcombo.com/topic/go/)]
-
 Go is a general-purpose language that bridges the gap between efficient statically typed languages and productive dynamic language. But it’s not just the language that makes Go special – Go has broad and consistent standard libraries and powerful but simple tools.
 
 This talk gives an introduction to Go, followed by a tour of some real programs that demonstrate the power, scope, and simplicity of the Go programming environment.
