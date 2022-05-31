@@ -38,6 +38,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 
 * [Eduardo Nunes Pereira](https://medium.com/@eduardonunespereira)
 * [Gopher Brasil](http://gopher.net.br)
+* [Bruno Gomes's Blog](https://dev.to/bgskurono)
 
 ## Spanish
 * [Golang Argentina](https://golang.com.ar)
