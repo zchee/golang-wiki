@@ -7,7 +7,6 @@ These sites provide indexes and search engines for Go packages:
 * [godocs.io](https://godocs.io/) - A simple package documentation browser (fork of gddo, the software which previously powered the now-defunct godoc.org)
 * [go-hardware](https://github.com/rakyll/go-hardware) - Curated list of resources for using Go on non-standard hardware.
 * [go-patterns](https://github.com/tmrts/go-patterns) - Commonly used patterns and idioms for Go.
-* [gowalker](http://gowalker.org/) - API documentation generator and search.
 * [Go Report Card](http://goreportcard.com/) - Code quality summaries for any Go project.
 * [Sourcegraph](https://sourcegraph.com/) - Source indexing, analysis and search.
 * [Codeseek.com](https://codeseek.com/) - Custom search engine with a wealth of Go blogs.
