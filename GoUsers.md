@@ -1124,22 +1124,24 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   
 ## Thailand
   * [3DS Interactive](https://3dsinteractive.com)
-  * [Appsynth Asia](https://appsynth.net/) 
+  * [AIS](http://www.ais.co.th/) - Top 3 of telecommunication company in Thailand.
+  * [Appsynth Asia](https://appsynth.net/)
+  * Ascend Wealth - An investment platform.
   * [Beebber](https://www.beebber.com/)
   * [botio](https://www.botio.io/)
-  * [AIS](http://www.ais.co.th/) - Top 3 of telecommunication company in Thailand.
   * [Computerlogy](https://computerlogy.com/)
   * [Dcenbase](http://decenbase.com)
+  * [Donuts Bangkok](http://www.donuts-bkk.com/)
   * [Drone Academy Thailand](http://www.dronecademy.org)
   * [DTAC](http://www.dtac.co.th/) - Top 3 of telecommunication company in Thailand.
-  * [Donuts Bangkok](http://www.donuts-bkk.com/)
   * [Fastwork](https://fastwork.co/) - Freelance platform in Thailand and Indonesia.
+  * [Fillgoods](https://fillgoods.co/)
   * [Findx Solution](https://findx.co.th)
   * [Finnomena](http://www.finnomena.com)
   * [Gurusquare](http://www.gurusquare.com)
   * [hytexts](https://www.hytexts.com)
   * [IBM Solutions Delivery](https://www.ibm.com/th-en)
-  * [Imatthio](http://www.imatthio.com) - Cloud Service Platform Development in Thailand 
+  * [Imatthio](http://www.imatthio.com) - Cloud Service Platform Development in Thailand.
   * [Insightera](https://www.insightera.co.th/)
   * [KBTG](http://www.kbtg.tech): KASIKORN Business-Technology Group - A group of tech companies of Kasikorn Bank Group. Top 3 in banking services in Thailand.
   * [KTB](https://www.ktb.co.th): Krung Thai Bank - Top 10 in banking services in Thailand.
@@ -1150,9 +1152,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [ODDS](http://fb.me/oddsteam) - A group of people that belive tha software development should be fun. And we belive in continues improvement.
   * [Omise](https://www.omise.co) - Payment gateway for Thailand.
   * [Onedaycat](http://onedaycat.com)
-  * [Paybox](https://www.paybox.work)
   * [Paiduaykanmai](https://www.facebook.com/paiduay.tech/)
-  * [Fillgoods](https://fillgoods.co/)
+  * [Paybox](https://www.paybox.work)
   * [Que Q](http://www.queq.me/)
   * [Sellsuki](https://www.sellsuki.co.th/)
   * [SIX network](https://six.network) - Financial Services
@@ -1162,7 +1163,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [THiNKNET](https://www.thinknet.co.th)
   * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)
   * [True E-Logistics](http://www.true-e-logistics.com/)
-  * [TRUE](http://truemoveh.truecorp.co.th/) - Top 3 telecommunication company in Thailand.
+  * [TRUE](http://truemoveh.truecorp.co.th) - Top 3 telecommunication company in Thailand.
+  * [TrueMoney](https://www.truemoney.com) Number one of financial company without branches based in Thailand.
   * [WISESIGHT](https://wisesight.com) - Social media data analysis, Previously [ThothZocial](https://thothzocial.com/)
   * [Xcellence Corporation](http://www.xclnc.com)
   * [Zanroo](https://www.zanroo.com/)
