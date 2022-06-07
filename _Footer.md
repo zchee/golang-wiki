@@ -1,3 +1,1 @@
-<!-- STOP.  PRESS THE BACK BUTTON.  DO NOT EDIT.  DO NOT CLICK "SAVE PAGE". -->
-<!-- If you have a question, see https://go.dev/wiki/Questions -->
-<!-- This is a wiki. We trust you to be a good person. -->
+Valery Osheter, "[Simple Go error handling using an exclamation mark instead of returning an error](https://gist.github.com/valery-osheter/93b36a2b84b95b855730e10d7920ff8e)", June 2022
