@@ -1,6 +1,8 @@
 # Introduction
-#### EDIT: You don't need to compile from source in Developer mode, you can just use the [Chromebrew](https://github.com/skycocker/chromebrew)-provided version.
-#### EDIT2: If your Chromebook is relatively new, you can enable the Linux VM now built into ChromeOS to install Go without developer mode. Follow the steps from the following Google Support article to enable this feature- https://support.google.com/chromebook/answer/9145439. This has been tested on a Samsung Chromebook Plus on version 71.0.3578.127. If this feature is not available for you, you will need to enable Developer Mode.
+
+You don't need to compile from source in Developer mode, you can just use the [Chromebrew](https://github.com/skycocker/chromebrew)-provided version.
+
+If your Chromebook is relatively new, you can enable the Linux VM now built into ChromeOS to install Go without developer mode. Follow the steps from the following Google Support article to enable this feature- https://support.google.com/chromebook/answer/9145439. This has been tested on a Samsung Chromebook Plus on version 71.0.3578.127. If this feature is not available for you, you will need to enable Developer Mode.
 
 This tutorial will show you how to install, build, and run Go on Chrome OS.
 Please note this has only been tested on a 64GB LTE Pixel, however it should work on other Chromebooks. Note that enabling developer mode reduces the security guarantees offered by Chrome OS.
