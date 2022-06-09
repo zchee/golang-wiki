@@ -34,6 +34,10 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Packt Hub](https://hub.packtpub.com/)
 * [GoCenter Community Blog](https://jfrog.com/resource-center/?src=gocenter) - Blogs from GoCenter.io about Go modules and community.
 
+## Bahasa Indonesia
+
+* [Go blog dalam Bahasa Indonesia](https://golang-id.org/blog)
+
 ## Portuguese
 
 * [Eduardo Nunes Pereira](https://medium.com/@eduardonunespereira)
@@ -41,10 +45,15 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Bruno Gomes's Blog](https://dev.to/bgskurono)
 
 ## Spanish
+
 * [Golang Argentina](https://golang.com.ar)
+
 ## Persian
+
 * [بلیط ارزان هواپیما](http://flytoday.ir)
+
 ## Chinese
+
 * [无忌-Jincheng's Blog](https://jincheng9.github.io/)
 * [Howtoing运维教程](https://www.howtoing.com)
 * [虞双齐的博客-Golang](https://yushuangqi.com/tags/golang.html)
