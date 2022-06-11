@@ -2,7 +2,6 @@
 
 These sites provide indexes and search engines for Go packages:
 
-* [Awesome Go @LibHunt](https://go.libhunt.com) - Your go-to Go Toolbox.
 * [pkg.go.dev](https://pkg.go.dev/) - A documentation browser for any Go open source package.
 * [godocs.io](https://godocs.io/) - A simple package documentation browser (fork of gddo, the software which previously powered the now-defunct godoc.org)
 * [go-hardware](https://github.com/rakyll/go-hardware) - Curated list of resources for using Go on non-standard hardware.
