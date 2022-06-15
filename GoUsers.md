@@ -619,6 +619,7 @@
   * [PushApps](https://www.pushapps.mobi/) 
   * [Rimoto](http://www.rimoto.com/)
   * [Rounds](http://www.rounds.com)
+  * [Seagate](https://www.seagate.com/gb/en/services/cloud/storage/)
   * [SentinelOne](https://www.sentinelone.com/)
   * [sigmadots](https://sigmadots.com/)
   * [Soluto](https://www.solutotlv.com/)
