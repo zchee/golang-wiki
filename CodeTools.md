@@ -13,18 +13,18 @@ An overview of tools that will help improve your Go code
 
 ### Tools
 
-  - [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter
-  - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code
-  - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements
-  - [gofumpt](https://github.com/mvdan/gofumpt) - A stricter gofmt
-  - [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go
+  - [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter.
+  - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code.
+  - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements.
+  - [gofumpt](https://github.com/mvdan/gofumpt) - A stricter gofmt.
+  - [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go.
 
 ## Code generation, Templating and Generics
 
   - [json-to-go](https://mholt.github.io/json-to-go/) - Generate Go structs from JSON.
   - [Go gen](http://clipperhouse.github.io/gen/) - Type-driven code generation (generics)
   - [gojson](https://github.com/ChimeraCoder/gojson) - Another Go struct generator.
-  - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go
+  - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go.
   - [sqlgen](https://github.com/drone/sqlgen) - Generate Go code for SQL interactions.
   - [zek](https://github.com/miku/zek) - Generate Go struct from XML.
   - [apidocgen](https://github.com/alovn/apidocgen) - Generate web apis markdown docs and mocks.
@@ -40,9 +40,9 @@ An overview of tools that will help improve your Go code
 
 ### Tools
 
-- [eg](https://pkg.go.dev/golang.org/x/tools/cmd/eg) - Example-based refactoring tool for Go
-- [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter
-- [gorename](https://golang.org/x/tools/refactor/rename) - Renaming tool for Go
+- [eg](https://pkg.go.dev/golang.org/x/tools/cmd/eg) - Example-based refactoring tool for Go.
+- [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter.
+- [gorename](https://golang.org/x/tools/refactor/rename) - Renaming tool for Go.
 
 ## Error Detection
 
