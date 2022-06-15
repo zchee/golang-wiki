@@ -41,7 +41,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 Ready to write some Go code of your own? Here are a few links to help you get started.
 
 - Install and Setup your Environment
-  - Start here: [Official Installation Documentation](https://www.ps3cfw.com/cool.php?item=74189380)
+  - Start here: [Official Installation Documentation](https://go.dev/doc/install)
   - If you prefer to install from source, [read this first](https://go.dev/doc/install/source).
   - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
   - Windows user? [Install and configure Go, Git, and Atom for Windows](https://github.com/abourget/getting-started-with-golang)
