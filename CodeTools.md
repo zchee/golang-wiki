@@ -27,6 +27,7 @@ An overview of tools that will help improve your Go code
   - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go
   - [sqlgen](https://github.com/drone/sqlgen) - Generate Go code for SQL interactions.
   - [zek](https://github.com/miku/zek) - Generate Go struct from XML.
+  - [apidocgen](https://github.com/alovn/apidocgen) - Generate web apis markdown docs and mocks.
 
 ## Refactoring
 
