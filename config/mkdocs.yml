@@ -139,7 +139,6 @@ nav:
   - "BoundingResourceUse": BoundingResourceUse.md
   - "cgo": cgo.md
   - "ChromeOS": ChromeOS.md
-  - "CodeReview": CodeReview.md
   - "CodeReviewComments": CodeReviewComments.md
   - "CodeReviewConcurrency": CodeReviewConcurrency.md
   - "CodeTools": CodeTools.md
@@ -251,6 +250,7 @@ nav:
   - "Proposals": Proposals.md
   - "ProviderIntegration": ProviderIntegration.md
   - "Questions": Questions.md
+  - "Quiet Weeks": Quiet-Weeks.md
   - "Range": Range.md
   - "RateLimiting": RateLimiting.md
   - "ResearchPapers": ResearchPapers.md
@@ -272,6 +272,7 @@ nav:
   - "TableDrivenTests": TableDrivenTests.md
   - "TargetSpecific": TargetSpecific.md
   - "TestComments": TestComments.md
+  - "TestFailures": TestFailures.md
   - "The Workspace Proposal Prototype": The-Workspace-Proposal-Prototype.md
   - "Timeouts": Timeouts.md
   - "Training": Training.md
