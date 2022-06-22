@@ -31,6 +31,7 @@ Add new sections as appropriate.
   - [Immutability](#immutability)
   - [Inter Process Communication](#inter-process-communication)
   - [Large-Scale Software Development](#large-scale-software-development)
+  - [Literals](#literals)
   - [Logging](#logging)
   - [Misc/Multiple](#misc--multiple)
   - [Modules](#modules)
