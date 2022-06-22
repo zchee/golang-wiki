@@ -169,6 +169,9 @@ a complex solution for the problem.
   - Russ Cox, “[Codebase Refactoring (with help from Go)](https://talks.golang.org/2016/refactor.article),” November 2016, laying out the gradual code repair problem addressed in part by type aliases ([#18130](https://go.dev/issue/18130)).
   - Travis Jeffery, "[I'll take pkg over internal](https://travisjeffery.com/b/2019/11/i-ll-take-pkg-over-internal/)," November 2019; talking about Go project layouts, problems with internal, and why people use pkg.
 
+## Literals
+ - Mike Schinkel, "[Managing string literals is a PITA, not just in GoLang but in (all?) other languages](https://gist.github.com/mikeschinkel/be502cb73fb1ef535749816ba1817dc3)," June 2022, proposing "Literal String" and "Literal Template" types.
+
 ## Logging
 
   - Evan Miller, “[Logging can be tricky](http://corner.squareup.com/2014/09/logging-can-be-tricky.html),” September 2014,
