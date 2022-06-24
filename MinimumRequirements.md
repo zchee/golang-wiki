@@ -4,7 +4,7 @@
 
 ### [Linux](Linux)
 
-Kernel version 2.6.23 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
+Kernel version 2.6.32 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
 
 We don't support CentOS 5. The kernel is too old (2.6.18).
 
