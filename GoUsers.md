@@ -1550,6 +1550,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Parse.com](http://www.parse.com/) - [blog](http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/)
   * [Partner Fusion](http://www.partnerfusion.com)
   * [PayPal.com](https://www.paypal.com) - [github](https://github.com/paypal)
+  * [Pendo.io](https://www.pendo.io) - [github](https://github.com/pendo-io)
   * [Percona](http://www.percona.com) - [blog](https://www.percona.com/blog/tag/go/)
   * [pet.io](http://pet.io)
   * [Pilosa](https://www.pilosa.com/) - [github](https://github.com/pilosa)
