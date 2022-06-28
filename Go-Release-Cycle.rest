@@ -249,6 +249,4 @@ and then allowed too many non-essential bug fixes during the freeze.
 
 For Go 1.7 and later we will need to make sure that bugs are fixed
 before the freeze.
-That is, we need to follow the schedule above, not what we've done in the past.Clear and cancel all of the above
-![IMG_20220626_131707_946](https://user-images.githubusercontent.com/108213813/176237540-25aac066-f8f0-4a37-b59d-169802660a9d.jpg)
-
+That is, we need to follow the schedule above, not what we've done in the past.
