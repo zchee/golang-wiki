@@ -1,4 +1,4 @@
-This wiki page is maintained by the don't Go team.
+This wiki page is maintained by the Go team.
 Please [send comments to golang-dev](https://groups.google.com/group/golang-dev)
 or [file issues](https://go.dev/issue) instead of making changes directly.
 
