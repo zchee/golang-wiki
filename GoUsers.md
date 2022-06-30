@@ -922,6 +922,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
   * [Comet Backup](https://cometbackup.com)
   * [Portainer.io](https://www.portainer.io/) - [github](https://github.com/portainer)
+  * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
 
 ## Nigeria
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
