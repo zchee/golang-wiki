@@ -920,7 +920,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
-  * [Comet Backup](https://cometbackup.com)
+  * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
   * [Portainer.io](https://www.portainer.io/) - [github](https://github.com/portainer)
   * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
 
