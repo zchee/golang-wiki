@@ -1242,6 +1242,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [News UK](https://www.news.co.uk)
   * [oyato cloud](https://oyatocloud.com) - [github](https://github.com/oyato)
   * [Paymentsense](https://www.paymentsense.com) - Data team
+  * [Printer Central](http://www.printercentral.co.uk/)
   * [Pusher](https://pusher.com) - [github](https://github.com/pusher) [blog](https://blog.pusher.com)
   * [Ravelin](https://www.ravelin.com/)
   * [Reactive Markets](https://reactivemarkets.com)
