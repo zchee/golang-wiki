@@ -541,6 +541,12 @@ Sorted by publication date, ascending.
     * ISBN: 9781098105648
     * Reference: https://www.oreilly.com/library/view/efficient-go/9781098105709/
 
+* **gRPC Microservices in Go**
+    * Authors: Huseyin BABAL
+    * Publication Date: Spring 2023
+    * ISBN: ---
+    * Reference: https://shortener.manning.com/44lB
+
 
 
 ## Pre-order
