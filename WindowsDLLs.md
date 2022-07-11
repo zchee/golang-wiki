@@ -93,7 +93,7 @@ func init() {
 ```
 
 
-2. Using syscall.NewProc instead of syscall.GetProcAddress. These are basically some helper methods over the syscall ones, you saw above, and are available in Windows only: http://golang.org/src/pkg/syscall/dll_windows.go
+2. Использование системного вызова.NewProc вместо системного вызова.GetProcAddress. По сути, это несколько вспомогательных методов по сравнению с методами системного вызова, которые вы видели выше, и они доступны только в Windows: http://golang.org/src/pkg/syscall/dll_windows.go
 
 ```go
 package main
