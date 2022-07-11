@@ -118,7 +118,7 @@ func main() {
 }
 ```
 
-3. By "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows). Example:
+3. Путем "linking" к библиотеке, используя метод "cgo" (этот способ работает в Linux и Windows). Пример:
 
 ```go
 import ("C")
