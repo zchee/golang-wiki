@@ -1,9 +1,10 @@
 # Calling a Windows DLL
 
-Go позволяет вызывать собственную функцию Windows несколькими различными способами.
+Go allows you to call native Windows function in several different ways.
 
-Динамически загружайте библиотеку DLL, а затем вызывайте в ней функцию. Вы можете вызвать функцию через SyscallX (где X - количество параметров. Если функция имеет меньше параметров, чем это, например, передача 7 аргументов функции, которая принимает 9, Syscall9 все равно будет работать, вам просто нужно указать 7 в качестве второго аргумента для Syscall9).
-Пример программы Go, которая вызывает функцию Windows DLL, используя этот метод:
+1. Dynamically load a DLL, then call a function in it. You can call the function via `SyscallX` (where X is the number of parameters. If the function has fewer parameters than that, for example passing 7 arguments to a function that accepts 9, `Syscall9` will still work, you just need to specify 7 as your second argument to `Syscall9`).
+
+A sample Go program that calls a Windows DLL function using this method:
 
 ```go
 package main
@@ -93,7 +94,7 @@ func init() {
 ```
 
 
-2. Использование системного вызова.NewProc вместо системного вызова.GetProcAddress. По сути, это несколько вспомогательных методов по сравнению с методами системного вызова, которые вы видели выше, и они доступны только в Windows: http://golang.org/src/pkg/syscall/dll_windows.go
+2. Using syscall.NewProc instead of syscall.GetProcAddress. These are basically some helper methods over the syscall ones, you saw above, and are available in Windows only: http://golang.org/src/pkg/syscall/dll_windows.go
 
 ```go
 package main
@@ -118,7 +119,7 @@ func main() {
 }
 ```
 
-3. Путем "linking" к библиотеке, используя метод "cgo" (этот способ работает в Linux и Windows). Пример:
+3. By "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows). Example:
 
 ```go
 import ("C")
