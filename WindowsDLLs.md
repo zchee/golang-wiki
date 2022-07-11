@@ -1,10 +1,9 @@
 # Calling a Windows DLL
 
-Go allows you to call native Windows function in several different ways.
+Go позволяет вызывать собственную функцию Windows несколькими различными способами.
 
-1. Dynamically load a DLL, then call a function in it. You can call the function via `SyscallX` (where X is the number of parameters. If the function has fewer parameters than that, for example passing 7 arguments to a function that accepts 9, `Syscall9` will still work, you just need to specify 7 as your second argument to `Syscall9`).
-
-A sample Go program that calls a Windows DLL function using this method:
+Динамически загружайте библиотеку DLL, а затем вызывайте в ней функцию. Вы можете вызвать функцию через SyscallX (где X - количество параметров. Если функция имеет меньше параметров, чем это, например, передача 7 аргументов функции, которая принимает 9, Syscall9 все равно будет работать, вам просто нужно указать 7 в качестве второго аргумента для Syscall9).
+Пример программы Go, которая вызывает функцию Windows DLL, используя этот метод:
 
 ```go
 package main
