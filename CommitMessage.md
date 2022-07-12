@@ -3,7 +3,7 @@
 Commit messages, also known as CL (changelist) descriptions, should be formatted per https://go.dev/doc/contribute#commit_messages. For example,
 
 ```
-net/http: frob the quux before blarfing
+net/http: fix the foo before blarfing
 
 [longer description here in the body]
 
