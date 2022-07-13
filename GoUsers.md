@@ -926,6 +926,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
   * [Portainer.io](https://www.portainer.io/) - [github](https://github.com/portainer)
   * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
+  * [Ticketure](https://www.tixtrack.com/ticketure-timed-entry-ticketing/) - [github](https://github.com/stqry)
 
 ## Nigeria
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
