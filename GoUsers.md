@@ -1011,6 +1011,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Uniplaces](http://uniplaces.com/)
   * [Bright Pixel](https://brpx.com/)
   * [Observador](https://observador.pt/)
+  * [SaltPay](https://www.saltpay.co/)
   * [Worten](https://www.worten.pt/) 
 
 ## Romania
@@ -1060,6 +1061,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## South Africa
   * [Luno](http://www.luno.com) - [github](https://github.com/luno)
+  * [SaltPay](https://www.saltpay.co/)
   * [Span Digital](http://www.spandigital.com) - [github](https://github.com/SPANDigital)
 
 ## Southeast Asia
@@ -1250,6 +1252,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Restorepoint](http://www.restorepoint.com)
   * [Ryanair](http://www.ryanair.com) - [source](https://youtu.be/CWCHT3GClMM?t=15m)
   * [Sainsbury's](http://www.sainsburys.co.uk)
+  * [SaltPay](https://www.saltpay.co/)
   * [Sky Betting & Gaming](https://www.skybetcareers.com)
   * [Skyscanner](https://www.skyscanner.net)
   * [Songkick](https://www.songkick.com)
