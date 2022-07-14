@@ -1064,6 +1064,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Luno](http://www.luno.com) - [github](https://github.com/luno)
   * [SaltPay](https://www.saltpay.co/)
   * [Span Digital](http://www.spandigital.com) - [github](https://github.com/SPANDigital)
+  * [Ringier SA](https://www.ringier.com/about-us/south-africa/) - International software development company.
 
 ## Southeast Asia
   * [Dwarves Foundation](https://dwarves.foundation) - [github](https://github.com/dwarvesf)
