@@ -99,9 +99,11 @@ builder name "<build-config-name>@ip[:port>", such as
 ### Windows
 
 ```
-$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $MOTE go/src/make.bat
-$ gomote run -path '$PATH,$WORKDIR/go/bin' -e 'GOROOT=c:\workdir\go' $MOTE go/bin/go.exe test cmd/go -short
+$ gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/src/make.bat
+$ gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/bin/go.exe test cmd/go -short
 ```
+
+Note: previous versions of the wiki have advised setting GOROOT for gomote 'run' commands (e.g. "-e GOROOT=c:\workdir\go"); this is no longer recommended (causes problems with Go command caching).
 
 ### Subrepos on Windows
 
