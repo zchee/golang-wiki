@@ -141,7 +141,6 @@
   * [PagSeguro](https://pagseguro.uol.com.br)
   * [PicPay](https://picpay.com)
   * [Pismo](https://pismo.io)
-  * [Planrockr](http://planrockr.com)
   * [Polícia Militar do Estado de Minas Gerais](https://www.policiamilitar.mg.gov.br)
   * [PowerSystem-TI](https://www.pwrti.com)
   * [Rednaxel](https://rednaxel.com/) - [github](https://github.com/rednaxelbr/rnx)
