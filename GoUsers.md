@@ -1022,7 +1022,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## Russia
 * [2GIS](http://info.2gis.com/)
-* [Acronis](http://acronis.com)
 * [avito.ru](http://avito.ru/)
 * [citilink.ru](https://www.citilink.ru/)
 * [Gett](http://gett.com/)
@@ -1117,6 +1116,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
 
 ## Switzerland
+  * [Acronis](https://www.acronis.com)
   * [AgFlow SA](http://www.agflow.com/)
   * [Aleph Zero](https://alephzero.org) - blockchain platform
   * [Centralway Numbrs AG](https://www.centralway.com/uk/)
