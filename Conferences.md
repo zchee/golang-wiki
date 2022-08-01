@@ -6,6 +6,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
+| GopherCon | 2022-10-06-08 | Chicago & Online | https://www.gophercon.com/ |
 | GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
 
 
