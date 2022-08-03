@@ -34,6 +34,8 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 ### Upcoming calls
 
+Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
+
 * 2022-08-03 - [Agenda](https://docs.google.com/document/d/1AQtZQaGwxTpQdyEY4q2dyo1HyP8P3JQgpXZF0LcsiD0/edit)
 
 ### Call archive
