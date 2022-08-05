@@ -11,6 +11,7 @@ this is not the place for edit wars.
 * [Assert Libraries](https://github.com/golang/go/wiki/TestComments#assert-libraries)
 * [Choose Human-Readable Subtest Names](https://github.com/golang/go/wiki/TestComments#choose-human-readable-subtest-names)
 * [Compare Stable Results](https://github.com/golang/go/wiki/TestComments#compare-stable-results)
+* [Compare Full Structures](https://github.com/golang/go/wiki/TestComments#compare-full-structures)
 * [Equality Comparison and Diffs](https://github.com/golang/go/wiki/TestComments#equality-comparison-and-diffs)
 * [Got before Want](https://github.com/golang/go/wiki/TestComments#got-before-want)
 * [Identify the Function](https://github.com/golang/go/wiki/TestComments#identify-the-function)
