@@ -69,6 +69,22 @@ If a builder fails for more than four weeks or is failing at the time of a relea
 
 Due to backwards compatibility concerns, removing a formerly working port should be a last resort. Finding a new maintainer is always preferable.
 
+# Removing old operating system and architecture versions
+
+To allow development effort to focus on systems that are widely available to Go users, 
+over time we may remove support for older operating systems and architectures, 
+especially older operating system versions and architecture revisions.
+
+The important considerations when deciding whether to remove support for an old operating system or architecture version are:
+
+ - **Availability.** If the operating system is no longer distributed or the hardware is no longer manufactured, for example, there's not a clear need to keep it going. For example, Go's ppc64 port no longer supports the IBM POWER5 architecture.
+ - **Manufacturer support.** If the operating system or architecture is no longer supported by its manufacturer, that is a strong signal that a future version of Go can remove support as well. For example, each year, Apple typically issues one new version of macOS and deprecates one old version. [Go typically deprecates old macOS versions at the same rate](https://github.com/golang/go/issues/23011#issuecomment-738395341).
+ - **Actual or expected user base.** If there are relatively few users, significant effort to maintain a port may not be worthwhile.
+ - **Ongoing costs.** Ports that require significant ongoing debugging or implementation efforts will be scrutinized more than ports that don't.
+
+When the considerations weigh in favor of removing a port and a [proposal is accepted](https://go.dev/s/proposal-process), Go 1._N_'s release notes will announce that support for a given operating system or architecture will be dropped in Go 1.(_N_+1).
+
+
 # Getting started
 
 See https://groups.google.com/forum/#!topic/golang-dev/SRUK7yJVA0c for some discussion on how to go about writing a new port.
