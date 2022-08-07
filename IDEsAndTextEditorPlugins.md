@@ -53,7 +53,6 @@ These editors are less popular, and may have less modern Go support. In particul
     * [Golang Build](https://github.com/golang/sublime-build) is the official Sublime Text package for Go build system integration.
   * **[Textadept](http://foicica.com/textadept/)**:  Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor. Supports Go syntax highlighting out of the box.
   * **[TextMate](http://macromates.com/)**: Commercial text editor for macOS. [Source code available](https://github.com/textmate/textmate) under the GPLv3. [Bundle for Go available](https://github.com/syscrusher/golang.tmbundle).
-  * **[Zas Editor](https://www.zeditor.app/)**: A new, capable, and fast code editor for Go and Rust, focused on both reading and writing code.
 
 ## Cloud Based IDEs
 
