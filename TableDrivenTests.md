@@ -86,7 +86,7 @@ for name, test := range tests {
 
 One advantage of using maps is that the "name" of each test can simply be the map index.
 
-More importantly, map iteration order isn't specified nor is it even guaranteed to be the same from one iteration to the next.  In tests, this ensures that each test is independent of the others and that testing order doesn't impact test results.
+More importantly, map iteration order isn't specified nor is it even guaranteed to be the same from one iteration to the next.  This ensures that each test is independent of the others and that testing order doesn't impact results.
 
 ## Parallel Testing
 
