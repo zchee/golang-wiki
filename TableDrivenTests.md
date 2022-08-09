@@ -49,7 +49,7 @@ A ` t.Errorf ` call is not an assertion. The test continues even after an error 
 In the previous example, tests cases were stored in a slice of structs.  They can be stored in a map as well and there are several advantages
 to doing it this way.
 
-```
+```go
 tests := map[string]struct {
   input string
   result string
