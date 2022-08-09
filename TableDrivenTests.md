@@ -76,12 +76,17 @@ for name, test := range tests {
   t.Parallel()
   test := test
   t.Run(name, t.Run(t *testing.T) {
+    t.Parallel()
     if got, expected := reverse(test.input), test.result; got != expected {
       t.Fatalf("reverse(%q) returned %q; expected %q", test.input, got, expected)
     }
   })
 }
 ```
+
+One advantage of using maps is that the "name" of each test can simply be the map index.
+
+More importantly, map iteration order isn't specified nor is it even guaranteed to be the same from one iteration to the next.  In tests, this ensures that each test is independent of the others and that testing order doesn't impact test results.
 
 ## Parallel Testing
 
