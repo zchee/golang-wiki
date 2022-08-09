@@ -44,6 +44,45 @@ Note the detailed error message provided with ` t.Errorf `: its result and expec
 
 A ` t.Errorf ` call is not an assertion. The test continues even after an error is logged. For example, when testing something with integer input, it is worth knowing that the function fails for all inputs, or only for odd inputs, or for powers of two.
 
+## Using a Map to Store Test Cases
+
+In the previous example, tests cases were stored in a slice of structs.  They can be stored in a map as well and there are several advantages
+to doing it this way.
+
+```
+tests := map[string]struct {
+  input string
+  result string
+} {
+  "empty string":  {
+    input: "",
+    result: "",
+  },
+  "one character": {
+    input: "x",
+    result: "x",
+  },
+  "one multi byte glyph": {
+    input: "🎉",
+    result: "🎉",
+  },
+  "string with multiple multi-byte glyphs": {
+    input: "🥳🎉🐶",
+    result: "🐶🎉🥳",
+  },
+}
+
+for name, test := range tests {
+  t.Parallel()
+  test := test
+  t.Run(name, t.Run(t *testing.T) {
+    if got, expected := reverse(test.input), test.result; got != expected {
+      t.Fatalf("reverse(%q) returned %q; expected %q", test.input, got, expected)
+    }
+  })
+}
+```
+
 ## Parallel Testing
 
 Parallelizing table tests is simple, but requires precision to avoid bugs.
