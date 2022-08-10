@@ -28,5 +28,5 @@ You might want to check your $PATH and manually clean up $GOPATH/bin and other o
 If you're trying to compile Go, go tool dist clean might help.
 
 # What else can be do
-I followed the below issue and it worked
-https://github.com/openshift/origin/issues/26785
+I followed the issue and it worked.
+`https://github.com/openshift/origin/issues/26785`
