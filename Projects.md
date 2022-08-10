@@ -1665,6 +1665,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gotest.tools](https://github.com/gotestyourself/gotest.tools) - a collection of packages for writing readable tests
   * [gounit](https://github.com/mdwhatcott/gounit) - xunit for Go
   * [GSpec](https://github.com/hailiang/gspec) - _Expressive, reliable, concurrent and extensible_ Go test framework that makes it productive to organize and verify the mind model of software.
+  * [Gremlins](https://github.com/go-gremlins/gremlins) - A mutation testing tool for Go.
   * [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing
   * [make.go.mock](https://github.com/tcard/make.go.mock) - Generates type-safe mocks for Go interfaces and functions.
   * [mspec](https://github.com/eduncan911/mspec) - BDD framework that frees you to Stub and Spec your code first with natural BDD language.
