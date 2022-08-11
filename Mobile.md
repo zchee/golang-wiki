@@ -69,7 +69,7 @@ $ go get -d golang.org/x/mobile/example/basic
 Run `gomobile build` to build an Android APK.
 
 ```
-$ gomobile build -target=android golang.org/x/mobile/example/basic
+$ gomobile build -target=android -androidapi 19 golang.org/x/mobile/example/basic
 ```
 
 Build command will build an APK named basic.apk.
