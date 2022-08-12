@@ -29,7 +29,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 
 ## Getting started with Go
 
-- [The Go Tour](http://tour.golang.org) is the best place to start.
+- [The Go Tour](https://go.dev/tour/) is the best place to start.
 - [Effective Go](https://go.dev/doc/effective_go) will help you learn how to write idiomatic Go code.
 - [Go standard library documentation](https://pkg.go.dev/std) to familiarize yourself with the standard library.
 - [Use the Go Playground](https://go.dev/play) to test out Go programs in your browser.
