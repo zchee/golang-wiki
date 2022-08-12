@@ -1,0 +1,1 @@
+Hy, I'm Muhammad Nasrul, whats the different between request.ParseMultipartForm(maxMemory) and request.MultipartReader(), i mean method request.ParseMultipartForm(maxMemory)  work flow, if file size from client more than maxMemory, than the file will save at temp file, what's about request.MultipartReader()?
