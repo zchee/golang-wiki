@@ -1,4 +1,5 @@
 # Introduction
+
 If you reached this page because you saw an error message like the following printed by a Go program running on macOS 12 Monterey:
 ```
 fatal error: runtime: bsdthread_register error
@@ -16,17 +17,15 @@ runtime.rt0_go(0x7ff7bfeff930, 0x3, 0x7ff7bfeff930, 0x1000000, 0x3, 0x7ff7bfeffa
 then you are running a program built with an old version of Go (Go 1.10 or before). You will need to update your program or rebuild it with a newer version of Go.
 
 # Details
-Programs built with Go 1.10 or before use a way of issuing system calls that is no longer supported by the kernel on macOS 12 Monterey. In [Go 1.11](https://go.dev/doc/go1.11#runtime) and later, system calls are issued via libSystem.dylib, which is supported by the OS.
+
+Programs built with Go 1.10 or before use a way of issuing system calls that is no longer supported by the kernel on macOS 12 Monterey. In [Go 1.11](https://go.dev/doc/go1.11#runtime) and later, system calls are issued via `libSystem.dylib`, which is supported by the OS.
 
 # What to do
+
 If this is a program you downloaded or installed (for example, using Homebrew), you will need to download or install a newer version of it that is built with a newer version of Go.
 
 If this is a program you built from source, you will need to rebuild it with a newer version of Go.
 
-You might want to check your $PATH and manually clean up $GOPATH/bin and other old relevant Go binaries you've installed.
+You might want to check your $PATH and manually clean up `$GOPATH/bin` and other old relevant Go binaries you've installed.
 
-If you're trying to compile Go, go tool dist clean might help.
-
-# What else can be do
-I followed the issue and it worked.
-`https://github.com/openshift/origin/issues/26785`
+If you're trying to compile Go, `go tool dist clean` might help.
