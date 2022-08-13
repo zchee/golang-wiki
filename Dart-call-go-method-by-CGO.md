@@ -1,1 +1,0 @@
-"cgo result has Go pointer" occured when the return value is *C.char which got form slice '[]byte'
