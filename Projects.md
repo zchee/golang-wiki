@@ -69,6 +69,7 @@ If you find a project in this list that is dead or broken, please either mark it
  * [ZeroMQ](#zeromq)
  * [Misc Networking](#misc-networking)
 * [Operating System Interfaces](#operating-system-interfaces)
+* [Option Types](#option-types)
 * [Other Random Toys, Experiments and Example Code](#other-random-toys-experiments-and-example-code)
 * [P2P and File Sharing](#p2p-and-file-sharing)
 * [Programming](#programming)
@@ -1455,6 +1456,10 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-osx-xattr](https://github.com/bitcartel/go-osx-xattr) - Package xattr wraps OS X functions to manipulate the extended attributes of a file, directory and symbolic link.
   * [inspect/os](https://github.com/square/inspect) - Metrics library for operating system measurements (Linux/MacOSX)
   * [service](https://github.com/kardianos/service) - Service will install / un-install, start / stop, and run a program as a service (daemon) on Windows/Linux and OSX.
+
+## Option Types
+
+* [opt](https://github.com/reiver/go-opt) - Package opt implements an optional-type, for the Go programming language. In other programming languages, an optional-type might be know as: a option type, or a maybe type.
 
 ## Other Random Toys, Experiments and Example Code
 
