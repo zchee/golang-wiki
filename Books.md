@@ -518,8 +518,8 @@ Sorted by publication date, ascending.
     * Reference: https://www.manning.com/books/webassembly-in-action
 
 * **100 Go Mistakes and How to Avoid Them**
-    * Author: Teiva Harsanyid
-    * Publication Date: March 2022 (estimated)
+    * Author: Teiva Harsanyi
+    * Publication Date: October 2022
     * ISBN: 9781617299599
     * Reference: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
 
