@@ -501,6 +501,11 @@ Sorted by publication date, ascending.
     * Publication Date: 07 April 2021
     * Reference: https://go101.org/generics/101.html
 
+* **100 Go Mistakes and How to Avoid Them**
+    * Author: Teiva Harsanyi
+    * Publication Date: October 2022
+    * ISBN: 9781617299599
+    * Reference: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
 
 ***
 ## Early Access
@@ -516,12 +521,6 @@ Sorted by publication date, ascending.
     * Publication Date: Spring 2019 (estimated) 
     * ISBN: 9781617295744
     * Reference: https://www.manning.com/books/webassembly-in-action
-
-* **100 Go Mistakes and How to Avoid Them**
-    * Author: Teiva Harsanyi
-    * Publication Date: October 2022
-    * ISBN: 9781617299599
-    * Reference: https://www.manning.com/books/100-go-mistakes-and-how-to-avoid-them
 
 * **Build an Orchestrator in Go**
     * Author: Tim Boring
