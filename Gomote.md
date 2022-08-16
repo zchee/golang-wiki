@@ -3,11 +3,7 @@
 ## Installing
 
 ```
-$ GO111MODULE=on go get -u golang.org/x/build/cmd/gomote # up to Go 1.15
-
-OR
-
-$ go get golang.org/x/build/cmd/gomote@latest  # Go 1.16 and latest (including current Go 1.16 dev tree)
+$ go install golang.org/x/build/cmd/gomote@latest  # Go 1.16 and latest
 ```
 
 ## Using
@@ -150,19 +146,21 @@ https://farmer.golang.org/builders lists information about how each buildlet is 
 The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 
-## Access token
+## Access
 
-**Note that as of May 2021, new gomote accounts are on hold while new infrastructure is built.**
+**On August 2022, a new infrastructure was deployed which required the removal of all gomote access from previously approved users. Please re-request access if you still require access.**
 
-To get an access token, file an issue with the `access:` prefix and cc `@golang/release-team`, asking them to provide you with the hash reported by running <code><a href="https://golang.org/x/build/cmd/genbuilderkey">genbuilderkey</a> user-$USER</code>, where `$USER` is your computer's username (as reported by `echo $USER`, or `echo $USERNAME` on Windows). Write the resulting token to the gomote config file, as in this hypothetical example:
+To gain access to the gomote service, file an issue with `access: gomote` as the title and cc `@golang/release-team`. The issue should contain an email address to a google account. Gomote authentication a Google account. The account will only be used for authentication purposes.
+
+Authentication is triggered with the first invocation of a command:
 
 ```
-$ echo d41d8cd98f00b204e9800998ecf8427e > $HOME/.config/gomote/user-$USER.token
+$ gomote create linux-amd64
+Please visit https://www.google.com/device in your browser and enter verification code:
+ ABCD-4567
+...
 ```
 
 ### gomote ssh
 
-The `gomote ssh` command uses SSH keys associated with your GitHub account for authentication. After creating a gomote instance (which requires a Gomote access token described above), to use `gomote ssh` to connect to it, you should ensure that:
-
-1. [`gophers.GitHubOfGomoteUser`](https://pkg.go.dev/golang.org/x/build/internal/gophers?tab=doc#GitHubOfGomoteUser) returns the correct GitHub account. If it needs to be modified, send a CL.
-2. You've added an SSH key to your GitHub account. You can test this with `ssh -T git@github.com`. See [GitHub documentation](https://docs.github.com/en/github/authenticating-to-github/testing-your-ssh-connection) for more information.
+The `gomote ssh` command uses a SSH keys created specifically for gomote. On the first use of the `gomote ssh` a set of keys will be created and stored in the local user configuration directory. You may be asked to add set a password for the keys (a password is not required). The SSH functionality operates with OpenSSH certificate authentication and does not require any additional configuration.
