@@ -161,6 +161,8 @@ Please visit https://www.google.com/device in your browser and enter verificatio
 ...
 ```
 
+After opening a browser with the provided link the user must authenticate with the google account and paste the verification code into the browser. After a short wait the client will be authenticated.
+
 ### gomote ssh
 
 The `gomote ssh` command uses a SSH keys created specifically for gomote. On the first use of the `gomote ssh` a set of keys will be created and stored in the local user configuration directory. You may be asked to add set a password for the keys (a password is not required). The SSH functionality operates with OpenSSH certificate authentication and does not require any additional configuration.
