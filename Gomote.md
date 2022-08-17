@@ -150,7 +150,7 @@ The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 **On August 2022, a new infrastructure was deployed which required the removal of all gomote access from previously approved users. Please re-request access if you still require access.**
 
-To gain access to the gomote service, file an issue with `access: gomote` as the title and cc `@golang/release-team`. The issue should contain an email address to a google account. Gomote authentication a Google account. The account will only be used for authentication purposes.
+To gain access to the gomote service, file an issue with `access: gomote` as the title and cc `@golang/release`. The issue should contain an email address to a google account. Gomote authentication a Google account. The account will only be used for authentication purposes.
 
 Authentication is triggered with the first invocation of a command:
 
