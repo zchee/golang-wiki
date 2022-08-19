@@ -191,7 +191,7 @@ Quoting the [documentation for `time.Time`](https://pkg.go.dev/time/#Time):
 from `t`?** This is a consequence of the previous item. If the monotonic component is stripped from
 the `time.Time` structure before passing it into `time.Since()` function (via calling either
 `UTC()`, `Local()`, `In()`, `Round()`, `Truncate()`, or `AddDate()`) **the result of `time.Since()`
-might be negative** on very occasions, such as if the system time has been synced via NTP between
+might be negative** on very rare occasions, such as if the system time has been synced via NTP between
 the moment when the start time was originally obtained and the moment when `time.Since()` is called.
 If the monotonic component is *not* stripped, `time.Since()` will always return a positive duration.
 
