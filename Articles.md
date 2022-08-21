@@ -79,11 +79,8 @@ Table of Contents
   * [Concurrency in Go](http://www.minaandrawos.com/2015/12/06/concurrency-in-golang/) _2015-12-06_
   * [Very basic concurrency for beginners in Go](https://medium.com/@matryer/very-basic-concurrency-for-beginners-in-go-663e63c6ba07#.n831uhdiq) _2015-11-18_
   * [Exploting Powerful Cloud Services with Go](https://medium.com/@sathishvj/exploiting-your-powerful-cloud-servers-with-go-lang-s-concurrency-eae5f4c7526) _2015-10-11_
-  * [3 Trivial Concurrency Exercises for the Confused Newbie Gopher](http://whipperstacker.com/2015/10/05/3-trivial-concurrency-exercises-for-the-confused-newbie-gopher/) _2015-10-05_
   * [Golang lock-free values with atomic.Value](https://texlution.com/post/golang-lock-free-values-with-atomic-value/) _2015-08-21_
   * [Golang Pearl: Thread-safe writes and double checked locking in Go](http://blog.launchdarkly.com/golang-pearl-thread-safe-writes-and-double-checked-locking-in-go/) _2015-07-21_
-  * [Building a Telnet Server in Go](http://synflood.at/tmp/golang-slides/mrmcd2012.html) _2015-08-28_
-  * [Fundamentals of concurrent programming](http://www.nada.kth.se/~snilsson/concurrency/) _2013-01-27_
   * [Golang: Funny Play with Channel](http://www.mikespook.com/2012/05/golang-funny-play-with-channel/) _2012-05-25_
   * [Unlimited Buffering with Low Overhead](http://rogpeppe.wordpress.com/2010/02/10/unlimited-buffering-with-low-overhead/) _2010-02-10_
   * [Concurrent Idioms #1: Broadcasting values in Go with linked channels](http://rogpeppe.wordpress.com/2009/12/01/concurrent-idioms-1-broadcasting-values-in-go-with-linked-channels/) _2009-12-01_
@@ -238,9 +235,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 
 ## German
 
-  * [Der GoLang-Spicker](https://archium.org/Golang#Ein_Go-Spickzettel_.28zu_deutsch_.22Cheat_Sheet.22.29) _2018-08-30_
   * [Programmiersprachen im Multicore Zeitalter - Google GO und Nebenläuﬁgkeit](http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf) ` [PDF] ` _2012-02-02_
-  * [A list of German press articles about Go](http://www.hweidner.de/redmine/projects/pub/wiki/Golang_Presse)
 
 ## Japanese
 
