@@ -1606,7 +1606,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [goskirt](https://github.com/madari/goskirt) - Upskirt markdown library bindings for Go
   * [gosphinx](https://github.com/kpumuk/gosphinx) - A Go client interface to the Sphinx standalone full-text search engine
   * [govalidator](https://github.com/asaskevich/govalidator) - Package of string validators and sanitizers
-  * [gpKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth Morris Pratt algorithm
+  * [goKMP](https://github.com/paddie/goKMP) - String-matching in Go using the Knuth Morris Pratt algorithm
   * [hangul](https://github.com/suapapa/go_hangul) - Handy tools to manipulate Korean character
   * [html2text](https://github.com/jaytaylor/html2text) - Golang HTML to text conversion library
   * [intern](https://github.com/spakin/intern) - Map strings to symbols for constant-time comparisons
