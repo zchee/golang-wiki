@@ -27,5 +27,6 @@ _Note: If you think the bug is a security issue, please report it responsibly to
 * [pelletier/go-toml: index out of range error in expect function](https://github.com/pelletier/go-toml/issues/561)
 * [swaggest/form: panic on invalid keys in request](https://github.com/swaggest/form/issues/4)
 * [yuin/goldmark: corner case errors](https://github.com/yuin/goldmark/issues/245)
+* [DataDog/datadog-agent: fix edge case in tags normalization](https://github.com/DataDog/datadog-agent/pull/13235)
 
 
