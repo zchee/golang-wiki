@@ -360,6 +360,9 @@ Do not define interfaces before they are used: without a realistic example
 of usage, it is too difficult to see whether an interface is even necessary,
 let alone what methods it ought to contain.
 
+If you need to inject a dependency into private methods consider not using interfaces as there is no ambiguity in the methods over which you have control of what is received, don't add unnecessary abstractions. The exception is the case where an abstraction is actually required to "group objects into their common behaviors".
+
+
 ``` go
 package consumer  // consumer.go
 
