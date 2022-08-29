@@ -84,6 +84,7 @@
   * [Coderockr](http://coderockr.com)
   * [Conductor](http://www.conductor.com.br)
   * [Conta Azul](https://contaazul.com) - [github](https://github.com/ContaAzul)
+  * [Cora](https://www.cora.com.br) - [github](https://github.com/corabank)
   * [DB1 Global Software](https://www.db1.com.br/) - [github](https://github.com/db1group)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Delivery Much](https://www.deliverymuch.com.br/) - [github](https://github.com/delivery-much)
