@@ -352,17 +352,13 @@ implementing package should return concrete (usually pointer or struct)
 types: that way, new methods can be added to implementations without
 requiring extensive refactoring.
 
-Do not define interfaces on the `implementor` side of an API "for mocking";
+Do not define interfaces on the implementor side of an API "for mocking";
 instead, design the API so that it can be tested using the public API of
 the real implementation.
 
 Do not define interfaces before they are used: without a realistic example
 of usage, it is too difficult to see whether an interface is even necessary,
 let alone what methods it ought to contain.
-
-If you need to inject a dependency into private methods consider not using interfaces as there is no ambiguity in the methods over which you have control of what is received, don't add unnecessary abstractions. The exception is the case where an abstraction is actually required to "group objects into their common behaviors".
-
-Avoid returning interfaces as this would cause an "indirection" problem by limiting access to public attributes in the structure. Use this approach in specific cases such as strict encapsulation.
 
 ``` go
 package consumer  // consumer.go
