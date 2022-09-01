@@ -781,6 +781,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [PERSOL CAREER CO., LTD.](https://www.persol-career.co.jp/)
   * [PicApp Inc.](http://picappinc.jp/)
   * [pixiv Inc.](https://www.pixiv.co.jp/)
+  * [Play Technologies, inc.](https://play-tech.jp/)
   * [Preferred Networks](https://www.preferred-networks.jp/en/)
       * [SensorBee](https://github.com/sensorbee) - Lightweight streaming processing engine for IoT
   * [Progate, inc.](https://prog-8.com/)
