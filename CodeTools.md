@@ -13,6 +13,7 @@ An overview of tools that will help improve your Go code
 
 ### Tools
 
+  - [air](https://github.com/cosmtrek/air) - Live reload for Go apps
   - [gofmt](https://pkg.go.dev/cmd/gofmt/) - Start with the standard Go code formatter.
   - [golint](https://github.com/golang/lint) - Detects style mistakes in Go code.
   - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Format code and fix your import statements.
