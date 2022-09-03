@@ -48,10 +48,6 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 
 * [Golang Argentina](https://golang.com.ar)
 
-## Persian
-
-* [بلیط ارزان هواپیما](http://flytoday.ir)
-
 ## Chinese
 
 * [无忌-Jincheng's Blog](https://jincheng9.github.io/)
