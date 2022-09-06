@@ -1,1 +1,0 @@
-{{Shortcut|WP:PHANWIKI}}
