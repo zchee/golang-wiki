@@ -51,6 +51,7 @@
   * [SmartPro](https://smartpro.by)
   * [Spiral Scout](https://spiralscout.com) - [github](https://github.com/spiral)
   * [Intelligent Speaker](https://intelligent-speaker.com) - proprietary fremium text-to-speech browser extension
+  * [Visutech Plating] (https://visutechplating.by)
 
 ## Belgium
   * [Continu-IT NV](https://www.continu-it.be/)
