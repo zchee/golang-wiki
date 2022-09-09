@@ -66,6 +66,7 @@ Drivers for Go's sql package include:
   * **YQL (Yahoo! Query Language)**: https://github.com/mattn/go-yql
   * **Apache Hive**: https://github.com/sql-machine-learning/gohive
   * **MaxCompute**: https://github.com/sql-machine-learning/gomaxcompute
+  * **YDB (Yandex Database)** https://github.com/ydb-platform/ydb-go-sdk
 
 Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.
 Drivers marked with ` [**] ` pass the compatibility test suite but are not currently included in it.
