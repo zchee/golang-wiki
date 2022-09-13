@@ -41,7 +41,7 @@ Drivers for Go's sql package include:
   * **Oracle** (uses cgo): https://gopkg.in/rana/ora.v4
   * **Oracle** (uses cgo): https://github.com/godror/godror
   * **Oracle** (pure go): https://github.com/sijms/go-ora
-  * **QL**: https://pkg.go.dev/github.com/cznic/ql/driver
+  * **QL**: https://pkg.go.dev/modernc.org/ql
   * **Postgres** (pure Go): https://github.com/lib/pq ` [*] `
   * **Postgres** (uses cgo): https://github.com/jbarham/gopgsqldriver
   * **Postgres** (pure Go): https://github.com/jackc/pgx ` [*] `
