@@ -1,7 +1,7 @@
 
 > The Go project's official download page is at [https://go.dev/dl](https://go.dev/dl/).
 >
-> After downloading a binary release suitable for your system, you can install go by following  the official installation instructions at [https://go.dev/doc/install#install](http://goo-gl.me/ehz6S)
+> After downloading a binary release suitable for your system, you can install go by following  the official installation instructions at [https://go.dev/doc/install](https://go.dev/doc/install#install).
 
 
 # Go for Microsoft Windows
