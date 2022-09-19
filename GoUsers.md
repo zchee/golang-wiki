@@ -1,7 +1,6 @@
 # Companies currently using Go throughout the world
 
 ## Africa
-  * [Analitica Innovare](https://analiticainnovare.com/) - Data Analytics and Artificial Intelligence company in Ghana.
   * [Afariat](https://afariat.com/) - Classifieds platform in Tunisia.
 
 ## Angola
