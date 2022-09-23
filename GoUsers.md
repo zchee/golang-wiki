@@ -930,6 +930,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
   * [Ticketure](https://www.tixtrack.com/ticketure-timed-entry-ticketing/) - [github](https://github.com/stqry)
   * [Xerra Earth Observation Institute](https://www.xerra.nz/) - [Starboard Maritime Intelligence](https://starboard.nz/)
+  * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
 
 ## Nigeria
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
