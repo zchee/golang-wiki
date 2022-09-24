@@ -430,11 +430,6 @@ Sorted by publication date, ascending.
   * ISBN: 9789389898194
   * Reference: https://bpbonline.com/products/hands-on-go-programming
 
-* **For the Love of Go** (e-book)
-  * Author: John Arundel
-  * Publication Date: March 2021
-  * Reference: https://bitfieldconsulting.com/books/love-bundle
-
 * **Learning Go: An Idiomatic Approach to Real-World Go Programming**
   * Author: Jon Bodner
   * Publication Date: March 23, 2021
@@ -491,15 +486,30 @@ Sorted by publication date, ascending.
   * ISBN: 9781680506969
   * Reference: https://pragprog.com/titles/rggo/powerful-command-line-applications-in-go/
 
-* **The Power of Go: Tools** (e-book)
-    * Author: John Arundel
-    * Publication Date: January 27, 2022
-    * Reference: https://bitfieldconsulting.com/books/tools
-
 * **Go Generics 101**
     * Author: Tapir Liu
     * Publication Date: 07 April 2021
     * Reference: https://go101.org/generics/101.html
+
+* **Know Go: Generics** (e-book)
+    * Author: John Arundel
+    * Publication Date: April 2022
+    * Reference: https://bitfieldconsulting.com/books/generics
+
+* **The Power of Go: Tools** (e-book)
+    * Author: John Arundel
+    * Publication Date: September 2022
+    * Reference: https://bitfieldconsulting.com/books/tools
+
+* **The Power of Go: Tests** (e-book)
+    * Author: John Arundel
+    * Publication Date: September 2022
+    * Reference: https://bitfieldconsulting.com/books/tests
+
+* **For the Love of Go** (e-book)
+  * Author: John Arundel
+  * Publication Date: September 2022
+  * Reference: https://bitfieldconsulting.com/books/love
 
 * **100 Go Mistakes and How to Avoid Them**
     * Author: Teiva Harsanyi
@@ -545,17 +555,6 @@ Sorted by publication date, ascending.
     * Publication Date: Spring 2023
     * ISBN: ---
     * Reference: https://shortener.manning.com/44lB
-
-
-
-## Pre-order
-
-  * **Know Go: Generics**
-    * Author: John Arundel
-    * Publication Date: March 2022
-    * ISBN: N/A
-    * Reference: https://bitfieldconsulting.com/books/generics
-
 
 ## Available without Publication Date
 
