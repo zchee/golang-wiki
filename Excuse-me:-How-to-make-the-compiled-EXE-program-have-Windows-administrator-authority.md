@@ -1,0 +1,1 @@
+I tried to use Manifest settings, but still unable to obtain permissions
