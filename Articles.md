@@ -148,6 +148,7 @@ Start by reading the [overview of mobile development](Mobile) documentation firs
   * [Pointers vs References](http://spf13.com/post/go-pointers-vs-references/) _2014-06-01_
   * [Recycling Memory Buffers in Go](https://blog.cloudflare.com/recycling-memory-buffers-in-go/) _2013-08-24_
   * [Learning Go Types](http://www.laktek.com/2012/01/27/learning-go-types/) _2012-01-27_
+  * [Saving a Third of Our Memory by Re-ordering Go Struct Fields](https://wagslane.dev/posts/go-struct-ordering/) _2020-08-07_
 
 ## Reflection
 
