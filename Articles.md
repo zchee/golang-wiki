@@ -71,6 +71,7 @@ Table of Contents
   * [Go: A New Language for a New Year](http://kylelemons.net/2012/01/go-new-language-new-year/) _2012-01-06_
   * [Why you PHP guys should learn Golang](http://www.mikespook.com/2012/08/why-you-php-guys-should-learn-golang/) _2012-08-10_
   * [Why I went from Python to Go (and not node.js)](http://jordanorelli.tumblr.com/post/31533769172/why-i-went-from-python-to-go-and-not-node-js) _2012-09-14_
+  * [How and Why to Write Enums in Go](https://blog.boot.dev/golang/golang-enum/) _2021-04-19_
 
 ## Concurrency / Channels
 
