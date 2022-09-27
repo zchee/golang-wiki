@@ -8,7 +8,7 @@ Please keep all items in chronological order. There is also a map of the confirm
 | --- | --- | --- | --- |
 | GopherCon | 2022-10-06-08 | Chicago & Online | https://www.gophercon.com/ |
 | GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
-| GopherCon Singapore 2022 | 2022-11-17-18 | Singapore | https://2022.gophercon.sg/ <br> CFP: https://www.papercall.io/gopherconsg-2022 |
+| GopherCon Singapore 2023 | ~~2022-11-17-18~~ <br /> postponed to 2023-05 | Singapore | https://2022.gophercon.sg |
 
 
 
