@@ -30,7 +30,6 @@ echo $t;
 
 Result:
 6N/wRtwz/VhHOfyepNk=
-SECRET MESSAGE
 
 Equivalent to:
 ```go
