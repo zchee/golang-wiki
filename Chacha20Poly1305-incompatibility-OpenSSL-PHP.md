@@ -29,7 +29,7 @@ echo $t;
 ```
 
 Result:
-6N/wRtwz/VhHOfyepNk=
+`6N/wRtwz/VhHOfyepNk=`
 
 Equivalent to:
 ```go
@@ -38,7 +38,7 @@ Equivalent to:
 ```
 
 (If I don't truncate* the output, the result is:
-6N/wRtwz/VhHOfyepNnnYKagDMd4Gk9HPSv2y1EWros=)
+`6N/wRtwz/VhHOfyepNnnYKagDMd4Gk9HPSv2y1EWros=`)
 
 But there is no way to decrypt it in Go as the ciphertext has no tag:
 ```go
