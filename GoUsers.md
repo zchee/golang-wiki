@@ -920,7 +920,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
   * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
   * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
-  * [Spalk](http://spalk.co)
+  * [Spalk](http://spalk.co) - [github](https://github.com/SpalkLtd)
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/) [github](https://github.com/movio)
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
