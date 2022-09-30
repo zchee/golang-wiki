@@ -917,22 +917,22 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Yonego](https://www.bambelo.com/)
 
 ## New Zealand
-  * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
-  * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
-  * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
-  * [Spalk](http://spalk.co) - [github](https://github.com/SpalkLtd)
-  * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/) [github](https://github.com/movio)
+  * [9Spokes](https://www.9spokes.com/) - [github](https://github.com/9spokes)
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
-  * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
-  * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
   * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
+  * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
+  * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
+  * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
+  * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
+  * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/) [github](https://github.com/movio)
+  * [OnFinality](https://www.onfinality.io/) - [github](https://github.com/OnFinality-io)
   * [Portainer.io](https://www.portainer.io/) - [github](https://github.com/portainer)
+  * [Spalk](http://spalk.co) - [github](https://github.com/SpalkLtd)
   * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
   * [Ticketure](https://www.tixtrack.com/ticketure-timed-entry-ticketing/) - [github](https://github.com/stqry)
+  * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
+  * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
   * [Xerra Earth Observation Institute](https://www.xerra.nz/) - [Starboard Maritime Intelligence](https://starboard.nz/)
-  * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
-  * [9Spokes](https://www.9spokes.com/) - [github](https://github.com/9spokes)
-  * [OnFinality](https://www.onfinality.io/) - [github](https://github.com/OnFinality-io)
 
 ## Nigeria
   * [Jumia Food](https://food.jumia.com/) - Instant delivery platform.
