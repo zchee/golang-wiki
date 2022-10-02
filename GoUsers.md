@@ -924,6 +924,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
   * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
+  * [Modica Group](https://www.modicagroup.com/) - [github](https://github.com/modicagroup)
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/) [github](https://github.com/movio)
   * [OnFinality](https://www.onfinality.io/) - [github](https://github.com/OnFinality-io)
   * [Portainer.io](https://www.portainer.io/) - [github](https://github.com/portainer)
