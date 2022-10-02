@@ -921,6 +921,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
   * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
+  * [GNS Science](https://www.gns.cri.nz/) / [GeoNet](https://www.geonet.org.nz/) - [github](https://github.com/GeoNet)
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
   * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
