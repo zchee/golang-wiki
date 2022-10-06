@@ -1207,6 +1207,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Sir Studios](http://sirstudios.com)
   * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
   * [Armut/HomeRun](https://armut.com/) - [github](https://github.com/armutcom) - Backend APIs
+  * [BiTaksi](https://www.bitaksi.com) - [github](https://github.com/BiTaksi) 
 ## Ukraine
   * [Agilites](https://agilites.com)
   * [Aura](https://aura.com)
