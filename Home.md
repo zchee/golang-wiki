@@ -200,9 +200,9 @@ If you're looking for services that support Go, here's a list to get you started
 
 - Understand the performance of your Go apps using the [pprof package](https://go.dev/blog/profiling-go-programs)
 - Heap Dumps
-  - [heapdump13](heapdump13)
-  - [heapdump14](heapdump14)
-  - [heapdump15](https://github.com/golang/go/wiki/heapdump15)
+  - [[heapdump13]]
+  - [[heapdump14]]
+  - [[heapdump15-through-heapdump17]]
 
 ## Contributing to the Go Project
 
