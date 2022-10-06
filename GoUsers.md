@@ -699,13 +699,11 @@
   * [Flatt](https://flatt.tv/) - Live Commerce Application
   * [FreakOut, Inc.](https://fout.co.jp/)
   * [freee K.K.](https://corp.freee.co.jp/)
-  * [Fringe81](http://www.fringe81.com/)
   * [Fukurou Labo, inc.](https://fukurou-labo.co.jp/)
   * [Fusic Co., Ltd.](https://fusic.co.jp)
   * [Future Architect](http://www.future.co.jp/architect/)
       * [Vuls](https://github.com/future-architect/vuls) - Vulnerability scanner for Linux/FreeBSD, agentless, written in Go
   * [Fuller, Inc.](https://fuller-inc.com/)
-  * [Fringe81 Co., Ltd.](http://www.fringe81.com/)
   * [Gaudiy, Inc.](https://hp.gaudiy.com/)
   * [GameWith, Inc.](https://gamewith.co.jp/)
   * [Gemcook, Inc.](https://gemcook.com/)
@@ -810,6 +808,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Speee, Inc.](https://speee.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
+  * [Unipos Inc.](https://www.unipos.co.jp/)
   * [UPSIDER, Inc.](https://corporatecard.up-sider.jp/)
   * [VELTRA Corporation](https://www.veltra.com/)
   * [Video Market Corporation](https://www.videomarket.co.jp/)
