@@ -104,7 +104,7 @@ Note: previous versions of the wiki have advised setting GOROOT for gomote 'run'
 ### Subrepos on Windows
 
 ```
-$ tar --exclude .git -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE
+$ tar --exclude .git -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE -
 $ gomote run -e 'GOPATH=c:/workdir/gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
 ```
 
