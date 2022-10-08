@@ -34,6 +34,8 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Packt Hub](https://hub.packtpub.com/)
 * [GoCenter Community Blog](https://jfrog.com/resource-center/?src=gocenter) - Blogs from GoCenter.io about Go modules and community.
 * [Golang on the Boot.dev Blog](https://blog.boot.dev/golang/)
+* [Golang Tutorials ](https://www.w3basic.com/golang/) - Golang Tutorials and Blog
+
 
 ## Bahasa Indonesia
 
