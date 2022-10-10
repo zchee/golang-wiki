@@ -6,10 +6,10 @@ Please keep all items in chronological order. There is also a map of the confirm
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GopherCon | 2022-10-06-08 | Chicago & Online | https://www.gophercon.com/ |
 | GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
 | GopherCon Israel 2023 | 2023-02-07 | Tel Aviv, Israel | https://www.gophercon.org.il |
 | GopherCon Singapore 2023 | ~~2022-11-17-18~~ <br /> postponed to 2023-05 | Singapore | https://2022.gophercon.sg |
+| GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 
 
 
@@ -19,6 +19,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon | 2022-10-06-08 | Chicago | https://www.gophercon.com/ |
 | GopherCon India 2022 | 2022-08-28 | Pune, India | https://gopherconindia.org |
 | GopherCon Europe 2022 | 2022-07-28-31 | Berlin, Germany | https://gophercon.eu/ |
 | GopherCon | 2021-12-05-08 | San Diego & Online | https://www.gophercon.com/ |
