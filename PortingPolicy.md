@@ -2,19 +2,19 @@
 
 This document is about the policy for adding a new port to the main Go repository. By port we mean an operating system + architecture combination, such as linux/386.
 
-The goal of this policy is to avoid the accumulation of incomplete or broken ports.
+The goal of this policy is to clarify what the Go project tries to promise for ports and to avoid the accumulation of incomplete or broken ports.
 
 # Requirements for a new port
 
 Before any code relating to a port can be added to the main Go repository, the following must all be done:
 
-  * A proposal must be filed and accepted in which the Go team accepts overall responsibility for having the new port in the core Go tree. In general, each new port carries an upkeep cost separate from the direct maintenance. That cost varies by port, depending on how similar a new port is to existing ones. The cost must be balanced by an overall benefit in the form of potential new users or use cases for Go.
+  * A [proposal](https://go.dev/s/proposal) must be filed and accepted in which the Go team accepts overall responsibility for having the new port in the core Go tree. In general, each new port carries an upkeep cost separate from the direct maintenance. That cost varies by port, depending on how similar a new port is to existing ones. The cost must be balanced by an overall benefit in the form of potential new users or use cases for Go.
 
-  * At least one developer must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
-      * (Port maintainers are listed in the subteams of [@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers). To be added or removed as a maintainer for an existing port, please [file an issue](https://go.dev/issue/new).)
+  * At least two developers must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
+      * Port maintainers are listed in the subteams of [@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers). To be added or removed as a maintainer for an existing port, please [file an issue](https://go.dev/issue/new).
 
   * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for https://build.golang.org.
-      * (Builder maintainers are listed in [`x/build/dashboard/builders.go`](https://cs.opensource.google/go/x/build/+/master:dashboard/builders.go). To update the owners for a builder, please [send a change](https://go.dev/doc/contribute) to that file.)
+      * Builder maintainers are listed in [`x/build/dashboard/builders.go`](https://cs.opensource.google/go/x/build/+/master:dashboard/builders.go). To update the owners for a builder, please [send a change](https://go.dev/doc/contribute) to that file.
 
   * The builder must already be running (and failing, because the code is not yet in the main repository).
 
@@ -22,11 +22,9 @@ Before any code relating to a port can be added to the main Go repository, the f
 
 Once those conditions are satisfied, the Go team can accept the port and begin to merge the CLs. Once the CLs are all submitted, all.bash must pass, so that the builder reports "ok" in the dashboard.
 
-Any port started during a release cycle must be finished (all.bash passing, builder reporting "ok") before the corresponding release freeze, or else the code will be removed at the freeze.
-
 # Other repositories
 
-Although it is not part of the core repository, the x/sys repository should add support for the new port before the release happens because it is the official place to add new system calls.
+Although it is not part of the core repository, the x/sys repository should add support for the new port before the release happens because it is the official place to add new system calls.  It's OK to add support for a new port in the x/sys repository before working on the main repository.
 
 # First class ports
 
@@ -53,21 +51,26 @@ The current first class ports are:
 * windows/386
 * windows/amd64
 
-We distribute binaries for other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
+We distribute binaries for some other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
 
 All Linux first class ports are for systems using glibc only.  Linux systems using other C libraries are not fully supported and are not treated as first class.
 
-# Removing a port
+# Maintaining a port
 
-If a builder for a particular port starts failing, the code should be corrected as soon as possible; otherwise future regressions cannot be detected, and the amount of work required to bring the builder back to "ok" compounds.
+In general, people changing the Go tools and standard library must not break any of the first class ports listed above.  A change that breaks a first class port must be fixed or rolled back.
 
-Ultimately the job of making the port work again falls to the developer maintaining the port, although simple cases (such as +build lines in new code) can and should be fixed by others.
+A change that breaks a secondary port will not necessarily be rolled back.  If there is some reasonable possibility of breaking a secondary port developers are encouraged to make sure that the ports continue to work (for example, by running [port-specific trybots](https://go.dev/wiki/Slowbots)).  Developers are also encouraged to notify secondary port maintainers of any possible port-specific problems, which they can do by reaching out to the appropriate [GitHub team(s)](https://github.com/orgs/golang/teams/port-maintainers/teams).  That said, ultimately the port maintainers are responsible for keeping their ports working.
 
-If a builder fails for more than two weeks, it is time to start looking for a more active maintainer for the port.
+# Broken ports
 
-If a builder fails for more than four weeks or is failing at the time of a release freeze, and a new maintainer cannot be found, the port will be removed from the tree.
+* If a port stops working, including the case where a builder stops working, we can decide to mark the port as broken.
+  * Or in some cases we can roll back the change that broke it; this is a judgement call.
+* In general, a port can be considered broken if its builder has failed multiple times in a development cycle with a failure mode that does not occur for first class ports, and that failure mode is not believed to have been fixed or suppressed by a change in either a Go repository or the builder's configuration, and maintainers are not actively working on a solution.
+* Any approver can declare that a port that meets these criteria is broken.
+* If a port is broken in release 1.N, then the core Go team can choose to remove the port from release 1.N+1.
+  * This is not obligatory and will depend on whether anybody is willing and able to maintain the port going forward.
 
-Due to backwards compatibility concerns, removing a formerly working port should be a last resort. Finding a new maintainer is always preferable.
+The goal here is not to get ports out of the tree; if people are actively working on the port they should have as much as latitude as possible to fix it.  Removing a formerly working port should be a last resort.  Finding a new maintainer is always preferable.
 
 # Removing old operating system and architecture versions
 
