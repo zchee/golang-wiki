@@ -73,7 +73,6 @@ tests := map[string]struct {
 }
 
 for name, test := range tests {
-  t.Parallel()
   test := test
   t.Run(name, func(t *testing.T) {
     t.Parallel()
