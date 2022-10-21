@@ -75,7 +75,7 @@ tests := map[string]struct {
 for name, test := range tests {
   t.Parallel()
   test := test
-  t.Run(name, t.Run(t *testing.T) {
+  t.Run(name, func(t *testing.T) {
     t.Parallel()
     if got, expected := reverse(test.input), test.result; got != expected {
       t.Fatalf("reverse(%q) returned %q; expected %q", test.input, got, expected)
