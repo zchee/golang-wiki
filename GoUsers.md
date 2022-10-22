@@ -809,6 +809,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Speee, Inc.](https://speee.jp/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
+  * [Ubie, inc.](https://ubie.life/)
   * [Unipos Inc.](https://www.unipos.co.jp/)
   * [UPSIDER, Inc.](https://corporatecard.up-sider.jp/)
   * [VELTRA Corporation](https://www.veltra.com/)
