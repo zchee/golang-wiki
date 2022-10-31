@@ -1221,6 +1221,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [monobank](https://monobank.ua/)
 ## United Arab Emirates
   * [Milenow](https://www.milenow.com/)
+  * [PayTabs](https://paytabs.com/) Payment Gateway - Dubai
 ## United Kingdom
   * [Acuris](https://www.acuris.com/)
   * [Admongrel](http://www.admongrel.com/)
