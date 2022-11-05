@@ -188,6 +188,7 @@
   * [KOHO](https://www.koho.ca/) - [jobs](https://www.koho.ca/careers)
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Lendesk](https://lendesk.com) - [jobs](https://lendesk.com/careers)
+  * [Lightspeed](https://www.lightspeedhq.com/) - [jobs](https://www.lightspeedhq.com/careers/openings/?office=canada&department=technology)
   * [LoginRadius](https://www.loginradius.com/) - [Blog](https://www.loginradius.com/engineering/blog/) - [Github](https://github.com/LoginRadius)
   * [Manifold](https://manifold.co)
   * [NV Digital](https://www.nvdigital.co/)
@@ -926,6 +927,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Hapara](http://hapara.com) - [github](https://github.com/Hapara)
   * [IQ Hive](https://test.iqhive.com/) - [github](https://github.com/iqhive)
   * [Jasper](https://jasper.io) - [github](http://github.com/JasperLabs)
+  * [Lightspeed](https://www.lightspeedhq.com/) (formerly known as Vend) - [github](https://github.com/vend) - [jobs](https://www.lightspeedhq.com/careers/openings/?office=new-zealand&department=technology)
   * [Modica Group](https://www.modicagroup.com/) - [github](https://github.com/modicagroup)
   * [Movio](https://movio.co) - [article](https://movio.co/en/blog/migrate-Scala-to-Go/) [github](https://github.com/movio)
   * [OnFinality](https://www.onfinality.io/) - [github](https://github.com/OnFinality-io)
@@ -933,7 +935,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Spalk](http://spalk.co) - [github](https://github.com/SpalkLtd)
   * [Sylo](https://www.sylo.io/) - [github](https://github.com/dn3010)
   * [Ticketure](https://www.tixtrack.com/ticketure-timed-entry-ticketing/) - [github](https://github.com/stqry)
-  * [Vend](http://www.vendhq.com) - [github](https://github.com/vend)
   * [Weta Digital](http://www.wetafx.co.nz) - [Slides](https://talks.godoc.org/github.com/justinfx/demos/go_at_weta/go_at_weta.slide)
   * [Xerra Earth Observation Institute](https://www.xerra.nz/) - [Starboard Maritime Intelligence](https://starboard.nz/)
 
