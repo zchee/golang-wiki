@@ -133,8 +133,8 @@ Putting this all together, here are some example scripts.
 
 This script in #55277 was created automatically by watchflakes in response
 to a build run that failed in http.TestHandlerAbortRacesBodyRead.
-The specific failure that prompted the issue createion was a timeout.
-If more failures with different root causs were found in that test, it might become
+The specific failure that prompted the issue creation was a timeout.
+If more failures with different root cause were found in that test, it might become
 appropriate to add `` && `panic: test timed out` `` or otherwise refine the pattern.
 
 	#!watchflakes
