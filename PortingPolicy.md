@@ -12,6 +12,7 @@ Before any code relating to a port can be added to the main Go repository, the f
 
   * At least two developers must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
       * Port maintainers are listed in the subteams of [@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers). To be added or removed as a maintainer for an existing port, please [file an issue](https://go.dev/issue/new).
+      * Changes that are specific to a particular port should normally be reviewed first by one of the port maintainers (though not the one who wrote the change, of course).  We currently require two reviews for each change, so changes will still typically be reviewed by someone who is not a port maintainer, but ideally that can be a more casual review by someone less familiar with the port details.
 
   * A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for https://build.golang.org.
       * Builder maintainers are listed in [`x/build/dashboard/builders.go`](https://cs.opensource.google/go/x/build/+/master:dashboard/builders.go). To update the owners for a builder, please [send a change](https://go.dev/doc/contribute) to that file.
