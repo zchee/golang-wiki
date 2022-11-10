@@ -1,1 +1,0 @@
-address privat key 
