@@ -11,6 +11,8 @@ For asking questions, see:
 
 * [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
+* [Gophers Discord](https://discord.gg/golang) "Get live support and talk with other gophers on the Go Discord"
+
 * [Gophers Slack](https://gophers.slack.com), use the [invite app](https://invite.slack.golangbridge.org/) for access. The `#general` channel is a good starting point.
 
 * [Go Community on Hashnode](https://hashnode.com/n/go) with questions and posts tagged with "go"
