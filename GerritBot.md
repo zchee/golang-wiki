@@ -14,6 +14,7 @@ Table of Contents
 + The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR Issue containing a link to the Gerrit review
 + All comments are handled within Gerrit. Any comments on the GitHub PR will be ignored
 + The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
++ Draft PRs are imported as WIP
 + Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
 + Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
 
