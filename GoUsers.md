@@ -721,7 +721,6 @@
   * [HEARTBEATS](https://heartbeats.jp/)
       * [happo-agent](https://github.com/heartbeatsjp/happo-agent) - Yet another Nagios nrpe
   * [HENNGE K.K.](https://hennge.com/global/)
-  * [hey, Inc.](https://hey.jp/)
   * [HiCustomer](https://hicustomer.jp/) - a Customer Success management platform
   * [Howtelevision, Inc.](https://howtelevision.co.jp/)
   * [HRBrain, Inc.](https://www.hrbrain.co.jp/)
@@ -808,6 +807,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Souzoh, Inc.](https://souzoh.com/)
   * [Spectra, Inc.](https://spectra.tokyo/)
   * [Speee, Inc.](https://speee.jp/)
+  * [STORES, Inc.](https://www.st.inc/)
   * [TOPGATE](https://www.topgate.co.jp/)
   * [Toreta, Inc.](https://corp.toreta.in/)
   * [Ubie, inc.](https://ubie.life/)
