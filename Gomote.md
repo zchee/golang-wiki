@@ -22,11 +22,11 @@ $ gomote create
 (list tons of buildlet types)
 ```
 
-Then, an instance can be created by specifying an instance type. The instance's name will be printed to stdout. There may be other logging messages, but they will be prefixed with a '#' character.
+Then, an instance can be created by specifying an instance type. The instance's name will be printed to stdout, so the result may be stored in an environment variable. (There may be other logging messages, but they will be on stderr and each line will have a '#' prefix.)
 
 ```
 $ gomote create linux-amd64
-# Creating instance of type linux-amd64... (0s)
+# still creating linux-amd64 (1) after 5s; 0 requests ahead of you
 user-linux-amd64-0
 ```
 
@@ -35,8 +35,8 @@ With that instance's name you can now push (more specifically sync the contents 
 ```
 $ GOROOT=/path/to/local/go/repo gomote push user-linux-amd64-0
 $ gomote ls user-linux-amd64-0
-go1.4
 go
+go1.4
 ```
 
 Note that `push` really is a "sync" operation, so next time you push the gomote tool will only push what has changed (files added, modified, or removed).
@@ -59,7 +59,7 @@ Note that gomote instances will automatically disappear after 30 minutes of inac
 
 ```
 $ gomote list
-(list of instances and how long they have left to live)
+user-linux-amd64-0	linux-amd64	host-linux-amd64-bullseye	expires in 10m27.339494527s
 ```
 
 The `ping` command can be used to keep an instance alive if no other commands are being run against it.
@@ -136,7 +136,9 @@ Example:
 $ gomote run -collect -until 'FAIL' user-linux-amd64-0 go/bin/go test -run 'TestFlaky' -count=1000 runtime
 # Writing output to user-linux-amd64-0.stdout...
 $ cat user-linux-amd64-0.stdout
+...
 --- FAIL: TestFlaky ---
+...
 $ ls user-linux-amd64-0.tar.gz
 user-linux-amd64-0.tar.gz
 ```
