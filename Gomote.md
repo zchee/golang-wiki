@@ -5,7 +5,7 @@ The gomote command is a client for the Go builder infrastructure. It's a remote 
 ## Installation
 
 ```
-$ go install golang.org/x/build/cmd/gomote@latest  # Go 1.16 and latest
+$ go install golang.org/x/build/cmd/gomote@latest  # Go 1.16 and later
 ```
 
 ## Usage
