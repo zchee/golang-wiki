@@ -87,7 +87,7 @@ As a result, the easiest way to use groups is to just set the `GOMOTE_GROUP` env
 ```
 $ export GOMOTE_GROUP=debug
 $ gomote create linux-amd64
-$ GOROOT=/path/to/goroot gomote create linux-amd64
+$ GOROOT=/path/to/goroot gomote create -setup linux-amd64
 $ gomote run go/src/make.bash
 ```
 
