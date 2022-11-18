@@ -457,7 +457,7 @@ is less clear than:
 ```go
 // Location returns f's latitude and longitude.
 // Negative values mean south and west, respectively.
-func (f *Foo) Location() (lat float64, long float64, err error)
+func (f *Foo) Location() (lat, long float64, err error)
 ```
 
 Naked returns are okay if the function is a handful of lines. Once it's a medium
