@@ -1430,6 +1430,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Bitbucket](https://bitbucket.org/) - [source](http://www.reddit.com/r/golang/comments/1pjn0k/bitbucket_hiccup_reveals_go_usage/)
   * [bitly](http://bit.ly) - [github](https://github.com/bitly/nsq) [blog](http://word.bitly.com/post/33232969144/nsq)
   * [Blippar](http://blippar.com)
+  * [Bluecore](http://bluecore.com)
   * [Blink Analytics](https://blinkanalytics.com) - [github](https://github.com/blinkanalytics)
   * [Bolt](http://bolt.com)
   * [bol.com](http://bol.com) - [github](https://github.com/emicklei/go-restful) [blog](http://ernestmicklei.com/2015/07/04/testing-your-rest-api-in-go-with-forest/)
