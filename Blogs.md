@@ -85,3 +85,4 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Stefno - 博客园](https://www.cnblogs.com/qcrao-2018/)
 * [No Headback](http://xargin.com/)
 * [Go 语言基础](https://github.com/weirubo/learn_go)
+* [chai2010 的博客](https://chai2010.cn/)
