@@ -139,6 +139,7 @@ nav:
   - "BoundingResourceUse": BoundingResourceUse.md
   - "cgo": cgo.md
   - "ChromeOS": ChromeOS.md
+  - "CodeReview": CodeReview.md
   - "CodeReviewComments": CodeReviewComments.md
   - "CodeReviewConcurrency": CodeReviewConcurrency.md
   - "CodeTools": CodeTools.md
@@ -146,7 +147,6 @@ nav:
   - "CommitMessage": CommitMessage.md
   - "CommonMistakes": CommonMistakes.md
   - "CompilerOptimizations": CompilerOptimizations.md
-  - "Conferences": Conferences.md
   - "Configuring GoLand for WebAssembly": Configuring-GoLand-for-WebAssembly.md
   - "Contributing to gopls": Contributing-to-gopls.md
   - "CoreDumpDebugging": CoreDumpDebugging.md
@@ -273,10 +273,10 @@ nav:
   - "TargetSpecific": TargetSpecific.md
   - "TestComments": TestComments.md
   - "TestFailures": TestFailures.md
-  - "The Workspace Proposal Prototype": The-Workspace-Proposal-Prototype.md
   - "Timeouts": Timeouts.md
   - "Training": Training.md
   - "Ubuntu": Ubuntu.md
+  - "Watchflakes": Watchflakes.md
   - "WebAccessibilityResourcesAndTips": WebAccessibilityResourcesAndTips.md
   - "WebAssembly": WebAssembly.md
   - "Well known struct tags": Well-known-struct-tags.md
