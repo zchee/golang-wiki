@@ -57,15 +57,15 @@ Milestones describe the timeline for issue resolution.
 
 - Go1.x.y
 
+    Planned to be fixed in release 1.x.y.
+
+- Go1.x.y with release-blocker label
+
     Must be fixed for release 1.x.y, or explicitly postponed to a later release.
 
 - Proposal
 
     Is a proposal and does not pertain to a specific release.
-
-- Soon
-
-    Should be fixed soon, but is not included in or needed by a release.
 
 - Backlog
 
@@ -88,3 +88,5 @@ Milestones describe the timeline for issue resolution.
     Deferred until Go 2.
 
 Additional milestones may be used to manage specific project work.
+
+The label "Soon" is used independently of milestones to indicate that the issue is time-sensitive.
