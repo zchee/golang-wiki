@@ -8,6 +8,8 @@ You can view this as a supplement to [Effective Go](https://go.dev/doc/effective
 
 Additional comments related to testing can be found at [Go Test Comments](https://github.com/golang/go/wiki/TestComments)
 
+Google has published a longer [Go Style Guide](https://google.github.io/styleguide/go/decisions).
+
 **Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
 * [Gofmt](#gofmt)
@@ -611,3 +613,5 @@ In any case, the onus is on you to fail with a helpful message to whoever's debu
 Variable names in Go should be short rather than long.  This is especially true for local variables with limited scope.  Prefer `c` to `lineCount`.  Prefer `i` to `sliceIndex`.
 
 The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (`i`, `r`). More unusual things and global variables need more descriptive names.
+
+See also the longer discussion in [the Google Go Style Guide](https://google.github.io/styleguide/go/decisions#variable-names).
