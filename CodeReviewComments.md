@@ -2,7 +2,7 @@
 
 This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
-This is a laundry list of common mistakes, not a comprehensive style guide.
+This is a laundry list of common style issues, not a comprehensive style guide.
 
 You can view this as a supplement to [Effective Go](https://go.dev/doc/effective_go).
 
