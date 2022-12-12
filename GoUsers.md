@@ -991,8 +991,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ## New Zealand
   * [9Spokes](https://www.9spokes.com/) - [github](https://github.com/9spokes)
-  * [Boxer®](https://goboxer.com/) - [github](https://github.com/goboxer)
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
+  * [Boxer®](https://goboxer.com/) - [github](https://github.com/goboxer)
   * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
   * [GNS Science](https://www.gns.cri.nz/) / [GeoNet](https://www.geonet.org.nz/) - [github](https://github.com/GeoNet)
