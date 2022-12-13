@@ -10,6 +10,7 @@
   * [Gophers Mauritius](https://www.gophers.mu/) - Mauritius
   * [cyberstorm.mu](https://cyberstorm.mu/) - Mauritius
   * [Tunisian Gophers](https://www.facebook.com/TunisiaGolangcommunity/) - Tunisia
+  * [Nairobi Gophers](https://www.meetup.com/nairobi-gophers/) - Nairobi, Kenya
 
 
 # Asia
