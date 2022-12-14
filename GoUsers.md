@@ -393,6 +393,7 @@
 
 
 ## Germany
+  * [Applied Go](https://appliedgo.com) - [blog](https://appliedgo.net)
   * [Bürkert](https://www.burkert.com/en/)
   * [Cloudogu](https://www.cloudogu.com) - [github](https://github.com/cloudogu)
   * [Doozer](https://www.doozer.de) - [github](https://github.com/doozer-de)
