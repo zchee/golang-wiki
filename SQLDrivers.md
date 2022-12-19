@@ -21,6 +21,7 @@ Drivers for Go's sql package include:
   * **ClickHouse** (uses [HTTP API](https://clickhouse.tech/docs/en/interfaces/http/)): https://github.com/mailru/go-clickhouse
   * **CockroachDB**: Use any PostgreSQL driver
   * **Couchbase N1QL**: https://github.com/couchbase/go_n1ql
+  * **Databricks**: https://github.com/databricks/databricks-sql-go
   * **DB2 LUW** and **DB2/Z with DB2-Connect**: https://bitbucket.org/phiggins/db2cli (Last updated 2015-08)
   * **DB2 LUW** (uses cgo): https://github.com/asifjalil/cli
   * **DB2 LUW, z/OS, iSeries and Informix**: https://github.com/ibmdb/go_ibm_db
