@@ -6,3 +6,4 @@ Currently, `slog` is at [golang.org/x/exp/slog](https://pkg.go.dev/golang.org/x/
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 - logf (attr {key} interpolation, rich tty output): https://pkg.go.dev/github.com/AndrewHarrisSPU/logf
 - Experimental example using both OpenTelemetry and `slog`: https://github.com/justinsb/experiments-slog
+- Additional resources written by jba: https://github.com/jba/slog
