@@ -91,6 +91,8 @@ Each level differs in the set of x86 instructions that the compiler can include 
 
 Setting, for example, GOAMD64=v3, will allow the Go compiler to use AVX2 instructions in the generated binaries (which may improve performance in some cases); but these binaries will not run on older x86 processors that don't support AVX2.
 
+The Go toolchain may also generate newer instructions, but guarded by dynamic checks to ensure they're only executed on capable processors. For example, with GOAMD64=v1, [math/bits.OnesCount](https://pkg.go.dev/math/bits#OnesCount) will still use the [POPCNT](https://www.felixcloutier.com/x86/popcnt) instruction if [CPUID](https://www.felixcloutier.com/x86/cpuid) reports that it's available. Otherwise, it falls back to a generic implementation.
+
 The Go toolchain does not currently generate any AVX512 instructions.
 
 Note that *processor* is a simplification in this context. In practice, support from the entire system (firmware, hypervisor, kernel) is needed.
