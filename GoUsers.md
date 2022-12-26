@@ -579,6 +579,7 @@
   * [kumparan](https://kumparan.com)
   * [Kurio](https://kurio.co.id)
   * [Lazada](http://www.lazada.co.id)
+  * [Kucari.com](http://www.kucari.com)
   * [LinkAja](https://linkaja.id)
   * [LionJobs](http://lionjobs.com)
   * [Matahari Mall](http://mataharimall.com)
