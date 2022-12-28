@@ -1,0 +1,1 @@
+can i generate multiple grpc proto files in same directory golang
