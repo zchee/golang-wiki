@@ -8,13 +8,13 @@ There are two types of Github access described here, with different powers & res
 
 The "go-assignees" group is a read-only group granting no special access, other than it allows the users in the group to be assigned issues.
 
-In general, Go doesn't use the "Assigned to" field of bugs much. Instead, we just leave a comment saying we'll work on it. But if you want this access, reference https://github.com/orgs/golang/teams/go-assignees and your Github username in your email requesting access.
+In general, Go doesn't use the "Assigned to" field of bugs much. Instead, we just leave a comment saying we'll work on it. But if you want this access, reference https://github.com/orgs/golang/teams/go-assignees and your Github username in your issue requesting access.
 
 ## Editors
 
 The poorly named "go-approvers" group is the set of people who can edit metadata on issues.
 
-To request this type of access, reference https://github.com/orgs/golang/teams/go-approvers and your Github username in your email requesting access.
+To request this type of access, reference https://github.com/orgs/golang/teams/go-approvers and your Github username in your issue requesting access.
 
 Please do not edit any field you're not confident about. Feel free to ask for second opinions.
 
