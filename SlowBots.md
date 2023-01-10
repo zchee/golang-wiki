@@ -21,7 +21,6 @@ TRY=ppc64le, freebsd, netbsd-386, ios, linux-arm64-packet
 * `GOARCH` (picks best one)
 * `GOOS-GOARCH` (picks best one)
 * `specific-builder-name` (you specify it explicitly by its exact name; see the full list at https://farmer.golang.org/builders)
-* `ios` (alias for `darwin-arm64`)
 
 For the main Go repository, the terms after `TRY=` can also be:
 
