@@ -1022,6 +1022,7 @@ Sorted by publication date, ascending.
     * Publication Date: 23 oct 2022
     * ISBN: ---
     * Repository: https://github.com/GoFarsi/book
+    * LiveBook: https://book.gofarsi.ir
 
   * **Go Succinctly**
     * Author: Amir Irani
