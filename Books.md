@@ -1017,6 +1017,12 @@ Sorted by publication date, ascending.
     * Reference: https://helion.pl/ksiazki/jezyk-go-poznaj-i-programuj-alan-a-a-donovan-brian-w-kernighan,jgopop.htm
 
 # Persian
+  * **GoFarsi book**
+    * Author: Javad Rajabzadeh
+    * Publication Date: 23 oct 2022
+    * ISBN: ---
+    * Repository: https://github.com/GoFarsi/book
+
   * **Go Succinctly**
     * Author: Amir Irani
     * Publication Date: 10 Jun 2018
