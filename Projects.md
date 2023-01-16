@@ -991,6 +991,8 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [xgb](https://github.com/BurntSushi/xgb) - A fork of the x-go-binding featuring support for thread safety and all X extensions.
   * [xgbutil](https://github.com/BurntSushi/xgbutil/) - A utility library to make use of the X Go Binding easier. (Implements EWMH and ICCCM specs, key binding support, etc.)
   * [x-go-binding](http://code.google.com/p/x-go-binding/) - bindings for the X windowing system
+  * [go-sciter](https://github.com/sciter-sdk/go-sciter) - Bindins for the [sciter](https://sciter.com/)
+  * [go-astilectron](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by [Electron](https://www.electronjs.org/))
 
 ## Hardware
 
