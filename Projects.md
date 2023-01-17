@@ -1811,6 +1811,9 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [otp](http://tristanwietsma.github.io/otp/) - HOTP and TOTP library with command line replacement for Google Authenticator
   * [securecookie](https://github.com/chmike/securecookie) - Encode and Decode secure cookies
   * [totp](https://github.com/balasanjay/totp) - Time-Based One-Time Password Algorithm, specified in RFC 6238, works with Google Authenticator
+  * [fosite](https://github.com/ory/fosite) - Extensible security first OAuth 2.0 and OpenID Connect SDK for Go.
+  * [oauth2](https://github.com/go-oauth2/oauth2) - OAuth 2.0 server library for the Go programming language.
+  * [gin-oauth2](https://github.com/zalando/gin-oauth2) - Middleware for Gin Framework users who also want to use OAuth2
 
 ### DOM handling
 
