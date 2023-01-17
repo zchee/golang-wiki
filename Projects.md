@@ -849,6 +849,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [ukodus](https://github.com/9nut/ukodus) - Sudoku solver in Go
   * [WolfenGo](https://github.com/gdm85/wolfengo) - A Wolfenstein3D clone in Go, using OpenGL 2.1
   * [GoChess](https://github.com/qnkhuat/gochess) - Play chess with friends on terminal
+  * [Ebitengine](https://ebitengine.org/) - Ebitengine's simple API allows you to quickly and easily develop 2D games that can be deployed across multiple platforms.
 
 ## GIS
 
