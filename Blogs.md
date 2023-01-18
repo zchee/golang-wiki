@@ -48,10 +48,6 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Gopher Brasil](http://gopher.net.br)
 * [Bruno Gomes's Blog](https://dev.to/bgskurono)
 
-## Spanish
-
-* [Golang Argentina](https://golang.com.ar)
-
 ## Chinese
 
 * [无忌-Jincheng's Blog](https://jincheng9.github.io/)
