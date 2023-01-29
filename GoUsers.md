@@ -931,6 +931,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Gabia](https://www.gabia.com/) - Server monitoring solution
   * [BankSalad](https://banksalad.com/) - Personal Finance Management Service
   * [Daangn Market](https://www.daangn.com/) - Used trades between people in the same area 
+  * [DelightRoom](https://alar.my/) - The world’s most annoying alarm clock - Alarmy
 
 ## Lithuania
   * [DATA-DOG](https://github.com/DATA-DOG)
