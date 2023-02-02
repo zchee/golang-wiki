@@ -26,6 +26,7 @@ Drivers for Go's sql package include:
   * **DB2 LUW** and **DB2/Z with DB2-Connect**: https://bitbucket.org/phiggins/db2cli (Last updated 2015-08)
   * **DB2 LUW, z/OS, iSeries and Informix**: https://github.com/ibmdb/go_ibm_db
   * **Databricks**: https://github.com/databricks/databricks-sql-go
+  * **DuckDB**: https://github.com/marcboeker/go-duckdb
   * **Exasol**: (pure Go): https://github.com/exasol/exasol-driver-go
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **Genji** (pure go): https://github.com/genjidb/genji
