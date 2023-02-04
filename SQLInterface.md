@@ -136,10 +136,11 @@ Only [`NullByte`](https://pkg.go.dev/database/sql/#NullByte), [`NullBool`](https
 `database/sql`. Implementations of database-specific null types are left
 to the database driver. User types supporting `NULL` can be created by implementing interfaces [`database/sql/driver.Valuer`](https://pkg.go.dev/database/sql/driver/#Valuer) and [`database/sql.Scanner`](https://pkg.go.dev/database/sql/#Scanner).
 
-You can also pass pointer types. Be careful for performance issues as it
-requires extra memory allocations.
+You can also pass pointer types.
 
 ```go
 var name *string
 err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ```
+
+NOTE: Scanning will result in extra heap allocation, regardless of whether you use a pointer or one of the `Null`-types. From the point of pure memory allocation, the two alternatives are analogous and differ only in their intended reader semantic.
