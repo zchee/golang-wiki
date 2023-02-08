@@ -1311,6 +1311,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Diligences](https://diligences.com/)
   * [ElementalsWeb](https://www.elementalsweb.com/)
   * [monobank](https://monobank.ua/)
+  * [VP Software](https://vp.software/) - [tech blog](https://vp.software/insights) - software development company
 ## United Arab Emirates
   * [Milenow](https://www.milenow.com/)
   * [PayTabs](https://paytabs.com/) Payment Gateway - Dubai
