@@ -20,7 +20,7 @@ and their docs [are hidden on pkg.go.dev](https://go.dev/issue/40850).
 If function `F1` is being replaced by function `F2`
 and the first release in which `F2` is available is Go 1.N,
 then an official deprecation notice for `F1` should not be
-added until Go 1.N+2.
+added until Go 1.N+1.
 This ensures that Go developers only see `F1` as deprecated
 when all supported Go versions include `F2` and they can easily switch.
 
