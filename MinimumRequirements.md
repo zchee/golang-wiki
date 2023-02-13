@@ -137,7 +137,7 @@ MIPS III or higher in little endian mode.
 
 ### s390x
 
-z196+
+z13
 
 ### mips (big endian) and mipsle (little endian)
 
