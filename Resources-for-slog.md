@@ -8,3 +8,4 @@ Currently, `slog` is at [golang.org/x/exp/slog](https://pkg.go.dev/golang.org/x/
 - Simple slog handler with opentelemetry tracing: https://github.com/ttys3/slogsimple/tree/main
 - Experimental example using both OpenTelemetry and `slog`: https://github.com/justinsb/experiments-slog
 - Additional resources written by jba: https://github.com/jba/slog
+- slogd - slog with duration https://github.com/kaihendry/slogd with video https://youtu.be/IsPa11N5pzI
