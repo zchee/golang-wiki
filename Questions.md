@@ -4,7 +4,7 @@ Unlike many projects, the Go project does not use GitHub Issues for general disc
 
 For asking questions, see:
 
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/go) with questions tagged "go" or "golang" (complementing the Go Collective mentioned before)
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/go) with questions tagged "go" or "golang"
 
 * [The Go Forum](https://forum.golangbridge.org/), a web-based forum
 
