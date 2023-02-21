@@ -409,6 +409,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [data-structures](https://github.com/timtadh/data-structures) - A collection of data-structures (ArrayList, SortedList, Set, AVL Tree, Immutable AVL Tree, B+Tree, Ternary Search Trie, Hash Table (Separate Chaining), Linear Hash Table)
   * [ps](https://github.com/mndrix/ps) - Persistent data structures
   * [Tideland golib](https://github.com/tideland/golib) - A collections library
+  * [GoDS](https://github.com/emirpasic/gods) - Sets, Lists, Stacks, Maps, Trees, Queues, and much more
 
 ### Hashtables
 
