@@ -15,6 +15,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherCon Singapore 2023 | ~~2022-11-17-18~~ <br /> postponed to 2023-05 | Singapore | https://2022.gophercon.sg |
 | GoCon JP | 2023-06-02 | Online | https://gocon.jp/2023/ |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
+| GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/ |
 | GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
