@@ -10,7 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GopherCon Israel 2023 | 2023-02-07 | Tel Aviv, Israel | https://www.gophercon.org.il |
 | Conf42: Golang 2023 | 2023-04-20 | Online | https://www.conf42.com/golang2023 |
 | GopherCon Singapore 2023 | ~~2022-11-17-18~~ <br /> postponed to 2023-05 | Singapore | https://2022.gophercon.sg |
 | GoCon JP | 2023-06-02 | Online | https://gocon.jp/2023/ |
@@ -26,6 +25,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon Israel 2023 | 2023-02-07 | Tel Aviv, Israel | https://www.gophercon.org.il |
 | Go Devroom FOSDEM | 2023-02-04 | Brussels, Belgium | https://fosdem.org/2023/schedule/track/go/ |
 | GoWest Conference 2022 | 2022-10-21 | Online/ Salt Lake City, Ut USA| https://gowestconf.com |
 | GopherCon | 2022-10-06-08 | Chicago | https://www.gophercon.com/ |
