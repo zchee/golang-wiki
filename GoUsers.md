@@ -1000,6 +1000,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [9Spokes](https://www.9spokes.com/) - [github](https://github.com/9spokes)
   * [Aeroqual](https://www.aeroqual.com/) - [github](https://github.com/aeroqual)
   * [Boxer®](https://goboxer.com/) - [github](https://github.com/goboxer)
+  * [Caruso](https://www.getcaruso.com/) - [jobs](https://getcaruso.notion.site/Careers-at-Caruso-eccde6b7efba4e9db87302e71d2a4c41)
   * [Comet Backup](https://cometbackup.com) - [github](https://github.com/CometBackup)
   * [DroneDeploy Ground Robotics (previously Rocos)](https://www.rocos.io) - [github](https://github.com/team-rocos)
   * [GNS Science](https://www.gns.cri.nz/) / [GeoNet](https://www.geonet.org.nz/) - [github](https://github.com/GeoNet)
