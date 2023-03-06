@@ -1073,6 +1073,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gorgonia](https://github.com/chewxy/gorgonia) - Neural network primitives library (like Theano or Tensorflow but for Go)
   * [mlwebservicego](https://github.com/mrtkp9993/MLWebserviceGo) - Serving machine learning models with Golang, Echo, and Firebase.
   * [ntm](https://github.com/fumin/ntm) - [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) implementation
+  * [openai](https://github.com/andreyvit/openai) — ChatGPT tokenizer and SDK
   * [paicehusk](https://github.com/Rookii/paicehusk) - Go implementation of the Paice/Husk Stemmer
   * [tfgo](https://github.com/galeone/tfgo) - Tensorflow + Go, the gopher way.
 
