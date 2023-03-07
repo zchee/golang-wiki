@@ -42,10 +42,7 @@ Generally only the latest release version only. We have a builder, but it's not 
 
 ### [FreeBSD](FreeBSD)
 
-FreeBSD 10 or higher.
-We only run builders testing FreeBSD 10.4, 11.2 and 12.0.
-
-On arm64, at least 12.0 is required.
+See https://github.com/golang/go/wiki/FreeBSD#go-on-freebsd for supported FreeBSD/Architecture/Go versions matrix.
 
 ### [NetBSD](NetBSD)
 
