@@ -34,7 +34,7 @@ be discussed using [the proposal process](https://go.dev/s/proposal).
 
 ## Examples
 
-```golang
+```Go
 type ResponseRecorder struct {
 	// HeaderMap contains the headers explicitly set by the Handler.
 	// It is an internal detail.
@@ -45,7 +45,7 @@ type ResponseRecorder struct {
 	HeaderMap http.Header
 ```
 
-```golang
+```Go
 // Package rc4 implements the RC4 stream cipher.
 //
 // Deprecated: RC4 is cryptographically broken and should not be used
