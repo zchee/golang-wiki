@@ -44,7 +44,7 @@ Ready to write some Go code of your own? Here are a few links to help you get st
   - Start here: [Official Installation Documentation](https://go.dev/doc/install)
   - If you prefer to install from source, [read this first](https://go.dev/doc/install/source).
   - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
-  - Windows user? [Install and configure Go, Git, and Atom for Windows](https://github.com/abourget/getting-started-with-golang)
+  - Windows user? [Install and configure Go, Git, and Visual Studio Code for Windows](https://github.com/abourget/getting-started-with-golang)
   - Mac user? [How I start - Go](https://howistart.org/posts/go/1) - A step-by-step guide to installing Go and building your first web service.
   - Having installation problems? [InstallTroubleShooting](InstallTroubleShooting)
   - Make sure you have your [$GOPATH environment variable set correctly](https://go.dev/doc/install/source#gopath)
