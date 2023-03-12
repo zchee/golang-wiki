@@ -801,6 +801,12 @@ Sorted by publication date, ascending.
     * ISBN: 978-4297107277
     * Reference: https://gihyo.jp/book/2019/978-4-297-10727-7
 
+  * **Go言語プログラミングエッセンス**
+    * Authors: mattn
+    * Publication Date: Mar 9, 2023
+    * ISBN: 978-4297134198
+    * Reference: https://gihyo.jp/book/2023/978-4-297-13419-8
+
 # French
 
   * **Programmer en Go - Pourquoi ? Comment ?**
