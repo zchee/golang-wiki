@@ -338,6 +338,7 @@
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
   * [Sartura](https://www.sartura.hr/) - [github](https://github.com/sartura)
+  * [SedamIT](https://www.sedamit.hr/)
   * [Syntio](https://www.syntio.net/) - [github](https://github.com/syntio)
 
 ## Colombia
