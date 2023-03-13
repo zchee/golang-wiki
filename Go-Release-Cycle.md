@@ -25,7 +25,8 @@ release.
 To give the team time to prepare, and to address unexpected problems, we prefer
 to do release work early or mid-week. That means that exact dates will vary year
 to year, so milestones are specified as weeks in a particular month. Week 1 is
-the week starting on the first Monday of the month.
+the week starting on the first Monday of the month. All dates are subject to
+change based on the year's holiday timings.
 
 ![release](https://user-images.githubusercontent.com/24611692/223832580-b613c098-cd8b-4d48-b5c4-cf349e7cc269.svg)
 
