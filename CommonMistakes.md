@@ -44,7 +44,7 @@ The new output of the program is what was expected:
 
 ```
 Values: 0 1 2
-Addresses: 0x40e020 0x40e024 0x40e028
+Addresses: 0x40e024 0x40e028 0x40e032
 ```
 
 Explanation: the line `i := i` copies the loop variable `i` into a new variable scoped to the for loop body block, also called `i`. The address of the new variable is the one that is appended to the array, which makes it outlive the for loop body block. In each loop iteration a new variable is created.
