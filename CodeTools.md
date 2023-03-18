@@ -56,7 +56,7 @@ An overview of tools that will help improve your Go code
   - [AlignCheck, StructCheck, VarCheck](https://github.com/opennota/check/) - A suite of tools for checking your code.
   - [errcheck](https://github.com/kisielk/errcheck) - Ensure you check your error conditions.
   - [go vet](https://pkg.go.dev/cmd/vet/) - Read this first on how to use the `go vet` command.
-  - [SafeSQL](https://github.com/stripe/safesql) - Protect against unsafe SQL in your code.
+  - [SafeSQL](https://github.com/stripe/safesql) - Protect against unsafe SQL in your code(deprecated).
 
 ## Navigation
 
