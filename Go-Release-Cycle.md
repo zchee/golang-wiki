@@ -28,7 +28,8 @@ to year, so milestones are specified as weeks in a particular month. Week 1 is
 the week starting on the first Monday of the month. All dates are subject to
 change based on the year's holiday timings.
 
-![release](https://user-images.githubusercontent.com/24611692/223832580-b613c098-cd8b-4d48-b5c4-cf349e7cc269.svg)
+
+![release](https://user-images.githubusercontent.com/24611692/228010841-fb299331-e7e3-4e64-85dc-66261ce22ea3.svg)
 
 #### January / July week 1: Planning for release begins.
 
