@@ -9,3 +9,4 @@ Currently, `slog` is at [golang.org/x/exp/slog](https://pkg.go.dev/golang.org/x/
 - Experimental example using both OpenTelemetry and `slog`: https://github.com/justinsb/experiments-slog
 - Additional resources written by jba: https://github.com/jba/slog
 - slogd - slog with duration https://github.com/kaihendry/slogd with video https://youtu.be/IsPa11N5pzI
+- tinted (colorized) output: https://pkg.go.dev/github.com/lmittmann/tint
