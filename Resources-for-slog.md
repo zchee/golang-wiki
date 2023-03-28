@@ -2,6 +2,8 @@ This page links to projects that use or enhance `slog`, the [proposed](https://g
 
 A preliminary implementation is at [golang.org/x/exp/slog](https://pkg.go.dev/golang.org/x/exp/slog). That won't be receiving any more updates; instead, follow the `src/log/slog` directory of the [main Go repo](https://go.googlesource.com/go).
 
+Since slog has been in flux for several months, some of these resources may be out of date and may not build. The API did not change that much, though, so fixes should be straightforward.
+
 - ConsoleHandler (similar to Zap's ConsoleEncoder): https://gist.github.com/wijayaerick/de3de10c47a79d5310968ba5ff101a19
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 - logf (attr {key} interpolation, rich tty output): https://pkg.go.dev/github.com/AndrewHarrisSPU/logf (uses lazy Handler stores: https://go.dev/play/p/psdD7KDF5fp)
