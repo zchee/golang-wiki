@@ -3,7 +3,7 @@ This page links to resources for learning about server programming in Go - both 
 ## Getting Started
 
 - Read [Writing Web Applications with the Go standard library](https://go.dev/doc/articles/wiki/)
-- Read [Build a Web Application With Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/) from the author of the [BeeGo web framework](http://beego.me/)
+- Read [Build a Web Application With Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/) from the author of the [BeeGo web framework][beego]
 - Read [Webapps in Go the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
 - Read [Building Web Applications in Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits. First learn the absolute basics before going to this book.
 - Read [Building Your Own Web Framework in Go](https://www.nicolasmerouze.com/build-web-framework-golang/) a 5-part series.
@@ -42,7 +42,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Frameworks
 
-* [BeeGo Framework](http://beego.me/)
+* [BeeGo Framework][beego]
 * [Frodo](https://github.com/kn9ts/frodo) - Go mini web framework inspired by Laravel(php), Slim(php) and ExpressJS(node.js)
 * [GinGonic](https://gin-gonic.com/)
 * [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
@@ -119,3 +119,6 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 ### IBM BlueMix
 
 - [Write your first Golang app on BlueMix](https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/)
+
+<!-- Common Links -->
+  [beego]: https://github.com/beego/beego
