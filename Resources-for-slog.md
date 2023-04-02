@@ -12,3 +12,4 @@ Since slog has been in flux for several months, some of these resources may be o
 - Additional resources written by jba: https://github.com/jba/slog
 - slogd - slog with duration https://github.com/kaihendry/slogd with video https://youtu.be/IsPa11N5pzI
 - tinted (colorized) output: https://pkg.go.dev/github.com/lmittmann/tint
+- humane: a human-friendly (but still largely structured) slog Handler: https://github.com/telemachus/humane
