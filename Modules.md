@@ -8,8 +8,6 @@ Go has included support for versioned modules as proposed [here](https://go.dev/
 
 Since [Go 1.14](https://go.dev/doc/go1.14), module support is considered ready for production use, and all users are encouraged to migrate to modules from other dependency management systems. If you are unable to migrate due to a problem in the Go toolchain, please ensure that the problem has an [open issue](#github-issues) filed. (If the issue is not on the Go1.16 milestone, please comment on why it prevents you from migrating so it can be prioritized appropriately). You can also provide an [experience report](https://github.com/golang/go/wiki/ExperienceReports) for more detailed feedback.
 
-Note that this page might not be up to date and it is not an official module documentation.
-
 ## Recent Changes
 
 ### Go 1.16
