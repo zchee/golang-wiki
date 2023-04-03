@@ -709,6 +709,8 @@ The brief rationale (also from [#25922](https://github.com/golang/go/issues/2592
 > 
 > It simply reuses existing ones.
 
+You can also (since go 1.16) use `go install tool@version`, which will install a specific version, or (since go 1.17) `go run tool@version`, which will run the tool without installing, as implemented in [#42088](https://github.com/golang/go/issues/42088) and [#40276](https://github.com/golang/go/issues/40276), which can eliminate the need for tools.go.
+
 ### What is the status of module support in IDEs, editors and standard tools like goimports, gorename, etc?
 
 Support for modules is starting to land in editors and IDEs. 
