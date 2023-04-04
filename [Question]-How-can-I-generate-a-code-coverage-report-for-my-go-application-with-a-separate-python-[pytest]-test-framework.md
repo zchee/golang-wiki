@@ -1,1 +1,0 @@
-I have a go application and my integration test scenarios are written in a separate python [pytest] test framework and I want to generate a code coverage report for my test cases. Is it possible to do so? I am having trouble finding an approach for this.  
