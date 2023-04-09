@@ -14,3 +14,4 @@ Since slog has been in flux for several months, some of these resources may be o
 - tinted (colorized) output: https://pkg.go.dev/github.com/lmittmann/tint
 - humane: a human-friendly (but still largely structured) slog Handler: https://github.com/telemachus/humane
 - slug: a handler that prints colourful logs for humans: https://github.com/dotse/slug
+- various handlers: https://github.com/galecore/xslog
