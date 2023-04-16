@@ -15,7 +15,7 @@ Since slog has been in flux for several months, some of these resources may be o
 - humane: a human-friendly (but still largely structured) slog Handler: https://github.com/telemachus/humane
 - slug: a handler that prints colourful logs for humans: https://github.com/dotse/slug
 - various handlers: https://github.com/galecore/xslog
-- slog-multi: workflows of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
+- slog-multi: chain of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
 - slog-formatter: Common formatters for slog + helpers for building your own: https://github.com/samber/slog-formatter
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
 - slog-sentry: a `slog.Handler` for Sentry: https://github.com/samber/slog-sentry
