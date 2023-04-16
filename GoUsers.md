@@ -473,6 +473,7 @@
   * [Crowdfire](https://www.crowdfireapp.com/)
   * [Tasker Project Management Tool](https://task.usercv.com)
   * [CoderCV.com Freelancer Marketplace](https://codercv.com)
+  * [DeHaat](https://agrevolution.in) - Full Stack Agri Tech Solutions
   * [DeepSource](https://deepsource.io) - Automated code review tool for developers
   * [Dunzo](https://www.dunzo.com)
   * [EasyAcco](https://www.easyacco.com)
