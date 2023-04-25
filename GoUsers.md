@@ -1564,7 +1564,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
   * [HP](https://hp.com)
   * [HyperDev](https://hyperdev.com/) - [blog post](http://stackshare.io/hyperdev/the-hyperdev-tech-stack-powering-over-1m-containers)
-  * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [Open Enterprise] (https://www.ibm.com/products/open-enterprise-sdk-go-zos/details), [libsecurity](https://developer.ibm.com/open/libsecurity/)
+  * [IBM](http://www.ibm.com/) - [Clampify](https://developer.ibm.com/open/clampify/), [i18n4go](https://developer.ibm.com/open/i18n4go/), [IBM zOS](https://www.ibm.com/products/open-enterprise-sdk-go-zos/details), [libsecurity](https://developer.ibm.com/open/libsecurity/)
   * [Igneous](http://www.igneous.io/)
   * [Imagefly](http://imagefly.io/)
   * [Imgix](https://www.imgix.com) - [StackShare](http://stackshare.io/imgix/how-imgix-built-a-stack-to-serve-100-000-images-per-second), [job posting](https://www.imgix.com/jobs#752d046c-c795-47ea-9f90-117d761a557e)
