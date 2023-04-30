@@ -19,11 +19,19 @@ Since slog has been in flux for several months, some of these resources may be o
 - slog-multi: chain of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
 - slog-formatter: Common formatters for slog + helpers for building your own: https://github.com/samber/slog-formatter
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
-- slog-sentry: a `slog.Handler` for Sentry: https://github.com/samber/slog-sentry
-- slog-logstash: a `slog.Handler` for Logstash: https://github.com/samber/slog-logstash
+- slog-echo: Echo middleware for slog logger: https://github.com/samber/slog-echo
+- slog-fiber: Fiber middleware for slog logger: https://github.com/samber/slog-fiber
 - slog-datadog: a `slog.Handler` for Datadog: https://github.com/samber/slog-datadog
-- slog-loki: a `slog.Handler` for Loki: https://github.com/samber/slog-loki
-- slog-fluentd: a `slog.Handler` for Fluentd: https://github.com/samber/slog-fluentd
+- slog-rollbar: a `slog.Handler` for Rollbar: https://github.com/samber/slog-rollbar
+- slog-sentry: a `slog.Handler` for Sentry: https://github.com/samber/slog-sentry
 - slog-syslog: a `slog.Handler` for Syslog: https://github.com/samber/slog-syslog
+- slog-logstash: a `slog.Handler` for Logstash: https://github.com/samber/slog-logstash
+- slog-fluentd: a `slog.Handler` for Fluentd: https://github.com/samber/slog-fluentd
 - slog-graylog: a `slog.Handler` for Graylog: https://github.com/samber/slog-graylog
+- slog-loki: a `slog.Handler` for Loki: https://github.com/samber/slog-loki
 - slog-slack: a `slog.Handler` for Slack: https://github.com/samber/slog-slack
+- slog-telegram: a `slog.Handler` for Telegram: https://github.com/samber/slog-telegram
+- slog-mattermost: a `slog.Handler` for Mattermost: https://github.com/samber/slog-mattermost
+- slog-microsoft-teams: a `slog.Handler` for Microsoft Teams: https://github.com/samber/slog-microsoft-teams
+- slog-webhook: a `slog.Handler` for Webhook: https://github.com/samber/slog-webhook
+- slog-kafka: a `slog.Handler` for Kafka: https://github.com/samber/slog-kafka
