@@ -1,4 +1,3 @@
-# Introduction
 This page documents some less well-known (perhaps advanced) tricks for the ` gc ` toolchain (and the Go tool).
 
 # C code without ` cgo `
