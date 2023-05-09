@@ -18,13 +18,13 @@ voting either TryBot-Result+1 (pass) or TryBot-Result-1 (fail).
 Every TryBot run includes a default set of the most common builders.
 [SlowBots](https://go.dev/wiki/SlowBots) provide additional testing controls.
 
-All approvers (see next section) have TryBot access automatically. Others can request TryBot access, reference https://go-review.googlesource.com/#/admin/groups/1030,members in your bug. See [Requesting Access](#requesting-access) below.
+All approvers (see next section) have TryBot access automatically. Others can request TryBot access. See [Requesting Access](#requesting-access) below.
 
 ## Approving CLs ("approvers")
 
 Approvers can review and submit code changes (CLs), subject to the review rules described below. Being an approver comes with an expectation of responsibility: approvers are people who care about Go and want to help it succeed. An approver is not just someone who can make changes, but someone who has demonstrated their ability to collaborate with the team, get the most knowledgeable people to review code, contribute high-quality code, and follow through to fix issues (in code or tests).
 
-To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See [Requesting Access](#requesting-access) below.
+To request approver access, see [Requesting Access](#requesting-access) below.
 
 ### Code Review Requirements
 
@@ -62,7 +62,7 @@ An Auto-Submit+1 vote is not carried forward when a patch is reuploaded.
 
 # Requesting Access
 
-To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess) and list and state which access you want (its name and group URL), and state your Gerrit email address.
+To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess) and list and state which access you want, and state the Google account you use to log in to Gerrit.
 
 Decisions about granting access are made by the Go release team at Google. If your request is declined, it is almost always because you haven't been active enough for them to get a clear enough signal about your work, understanding of project conventions, and so on. Don't lose heart: it can take time to reach that level of familiarity.
 
