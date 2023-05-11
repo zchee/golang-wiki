@@ -10,6 +10,8 @@ They come from the file https://github.com/golang/build/blob/master/dashboard/bu
 
 For design details about the coordinator, see https://go.dev/s/builderplan
 
+The information about the builder instances can be found at https://farmer.golang.org/
+
 # How to set up a builder
 
   1. talk to golang-dev@ to get a builder host type & hash (they can get one from using the `golang.org/x/build/cmd/genbuilderkey` tool), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
