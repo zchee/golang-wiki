@@ -10,7 +10,7 @@ They come from the file https://github.com/golang/build/blob/master/dashboard/bu
 
 For design details about the coordinator, see https://go.dev/s/builderplan
 
-The information about the builder instances can be found at https://farmer.golang.org/
+Information about builder machines, how many are running and their status can be found at https://farmer.golang.org/
 
 # How to set up a builder
 
