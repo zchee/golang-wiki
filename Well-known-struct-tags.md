@@ -35,7 +35,7 @@ dynamodb  | https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/dynamodb
 bigquery  | https://pkg.go.dev/cloud.google.com/go/bigquery
 datastore | https://pkg.go.dev/cloud.google.com/go/datastore
 spanner   | https://pkg.go.dev/cloud.google.com/go/spanner
-bson      | https://pkg.go.dev/labix.org/v2/mgo/bson, https://pkg.go.dev/go.mongodb.org/mongo-driver/bson/bsoncodec
+bson      | https://pkg.go.dev/go.mongodb.org/mongo-driver/bson
 gorm      | https://pkg.go.dev/github.com/jinzhu/gorm
 yaml      | https://pkg.go.dev/gopkg.in/yaml.v2
 toml      | https://pkg.go.dev/github.com/pelletier/go-toml
