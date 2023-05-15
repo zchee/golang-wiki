@@ -1,6 +1,7 @@
 ## Active podcast shows
 * [Go Time](http://gotime.fm) - Erik St. Martin, Carlisia Campos, Brian Ketelsen, recorded weekly and streamed live at 3PM EST at http://changelog.com/live
 * [go podcast()](https://go.transistor.fm/) - Dominic St-Pierre, recorded bi-weekly, ~15 minutes, topic based.
+* [Cup o' Go](https://cupogo.dev/) - Stay up to date with the Go community in about 15 minutes per week.
 
 ## Inactive podcast shows
 * [GolangShow](http://golangshow.com/) – Weekly podcast since June 2015, in English and Russian languages.
