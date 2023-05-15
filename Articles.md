@@ -188,7 +188,7 @@ Start by reading the [overview of server programming](LearnServerProgramming) do
 ## Misc
 
   * [Environment variables in Golang](https://www.loginradius.com/engineering/blog/environment-variables-in-golang/) _2020-09-28_
-  * [Using MongoDB as Datasource in GoLang](https://www.loginradius.com/engineering/blog/mongodb-as-datasource-in-golang/) _2020-09-21_
+  * [Using MongoDB as Datasource in GoLang](https://www.loginradius.com/blog/engineering/mongodb-as-datasource-in-golang/) _2020-09-21_
   * [Go-powered Open Source IoT Integration Framework "Flogo"](http://www.kai-waehner.de/blog/2016/11/03/open-source-project-flogo-overview/) _2016-11-07_
   * [Build Slack Slash Commands with Go](http://www.programmableweb.com/news/how-to-use-slack-api-to-build-slash-commands-powered-google-app-engine-and-go/how-to/2015/09/16) _2015-09-15_
   * [String Matching by Damian Gryski](http://blog.gopheracademy.com/advent-2014/string-matching/) _2014-12-05_
