@@ -523,8 +523,8 @@ See also [[SQLDrivers page|SQLDrivers]].
 
 ### MongoDB
 
-  * [mgo](http://labix.org/mgo) - Rich MongoDB driver for Go
   * [Mongo Driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB Go driver
+  * [MongoDB Exporter](https://github.com/percona/mongodb_exporter) - A Prometheus metrics exporter for MongoDB
   * [rocks-stata](https://github.com/facebookgo/rocks-strata) - MongoDB Backup Utility
 
 ### MySQL
