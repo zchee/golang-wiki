@@ -525,6 +525,7 @@ See also [[SQLDrivers page|SQLDrivers]].
 
   * [Mongo Driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB Go driver
   * [MongoDB Exporter](https://github.com/percona/mongodb_exporter) - A Prometheus metrics exporter for MongoDB
+  * [mongobetween](https://github.com/coinbase/mongobetween) - A lightweight MongoDB connection pooler written in Golang
   * [rocks-stata](https://github.com/facebookgo/rocks-strata) - MongoDB Backup Utility
 
 ### MySQL
