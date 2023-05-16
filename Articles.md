@@ -1,8 +1,6 @@
 
 Please keep all entries in reverse chronological order (most recent first)
 
-Testing permissions
-
 Table of Contents
 =================
 
