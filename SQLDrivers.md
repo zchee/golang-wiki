@@ -31,6 +31,7 @@ Drivers for Go's sql package include:
   * **Firebird SQL**: https://github.com/nakagami/firebirdsql
   * **Genji** (pure go): https://github.com/genjidb/genji
   * **Google Cloud BigQuery**: https://github.com/solcates/go-sql-bigquery
+  * **Google Cloud Spanner**: https://github.com/googleapis/go-sql-spanner
   * **Google Cloud Spanner**: https://github.com/rakyll/go-sql-driver-spanner
   * **MS ADODB**: https://github.com/mattn/go-adodb
   * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
