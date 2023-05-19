@@ -43,4 +43,5 @@ Since slog has been in flux for several months, some of these resources may be o
 #### Other:
 - Additional resources written by jba: https://github.com/jba/slog
 - slog-multi: chain of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
+- slog-sampling: drop repetitive log entries: https://github.com/samber/slog-sampling
 - various handlers: https://github.com/galecore/xslog
