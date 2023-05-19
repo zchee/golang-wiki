@@ -144,6 +144,8 @@ See also the [MinorReleases](https://go.dev/wiki/MinorReleases) wiki page.
 
 ## Freeze Exceptions
 
+Fix CLs that are in [scope of the freeze](#may--november-week-4-release-freeze-begins) do not need a freeze exception.
+
 Any exceptions to the freeze must be communicated to and explicitly approved by
 the Go Release Team before the freeze. If you’d like to request an exception,
 please file an issue in the issue tracker with "[freeze exception]" as a suffix
