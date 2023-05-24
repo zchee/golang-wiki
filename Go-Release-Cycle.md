@@ -28,7 +28,6 @@ to year, so milestones are specified as weeks in a particular month. Week 1 is
 the week starting on the first Monday of the month. All dates are subject to
 change based on the year's holiday timings.
 
-
 ![release](https://user-images.githubusercontent.com/24611692/228010841-fb299331-e7e3-4e64-85dc-66261ce22ea3.svg)
 
 #### January / July week 1: Planning for release begins.
@@ -42,8 +41,8 @@ Example: [Go 1.20](https://groups.google.com/g/golang-dev/c/V8ez4YunkeE)
 
 Once the prior release has entered its final stabilization period, the tree
 opens for general development. All kinds of development are welcome during this
-period. It's preferable for large or particularly risky changes to land well before
-the end of the development window, so that there's time to fix any
+period. It's preferable for large or particularly risky changes to land well
+before the end of the development window, so that there's time to fix any
 problems that arise with them.
 
 #### May / November week 4: Release freeze begins.
@@ -101,6 +100,16 @@ The calm period between a release candidate and the final release is a good time
 for additional testing or for discussing the next release (see the planning
 milestone above).
 
+#### July / January week 3: Work on the next release begins
+
+While the current release is being stabilized, the tree reopens for work on the
+next. During this period, fixes intended for the current release need to be
+[cherry-picked onto the release branch](https://go.dev/wiki/MinorReleases#making-cherry-pick-cls).
+Unlike cherry-picks for minor releases, these changes don't need a backport
+issue and don't need to be approved by the release team. As long as they're
+permitted by the [freeze policy](#may--november-week-4-release-freeze-begins),
+they can be reviewed and submitted like any other CL.
+
 #### August / February week 2: Release issued.
 
 Finally, the release itself!
@@ -144,7 +153,9 @@ See also the [MinorReleases](https://go.dev/wiki/MinorReleases) wiki page.
 
 ## Freeze Exceptions
 
-Fix CLs that are in [scope of the freeze](#may--november-week-4-release-freeze-begins) do not need a freeze exception.
+Fix CLs that are
+[permitted by the freeze policy](#may--november-week-4-release-freeze-begins) do
+not need a freeze exception.
 
 Any exceptions to the freeze must be communicated to and explicitly approved by
 the Go Release Team before the freeze. If you’d like to request an exception,
