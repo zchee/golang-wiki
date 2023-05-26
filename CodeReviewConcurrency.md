@@ -93,7 +93,7 @@ type Counters struct {
 
 ...
 
-func (c *Counters) GetCounter(k Key) (count Counter, exists bool) {
+func (c *Counters) GetCounter(k Key) Counter {
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	return c.vals[k]
