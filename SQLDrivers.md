@@ -10,8 +10,9 @@ See the design goals doc:
 
 Drivers for Go's sql package include:
 
-  * **AWS Athena**: https://github.com/segmentio/go-athena
   * **Amazon AWS Athena**: https://github.com/uber/athenadriver
+  * **AWS Athena**: https://github.com/segmentio/go-athena
+  * **AWS DynamoDB**: https://github.com/btnguyen2k/godynamo
   * **Apache Avatica/Phoenix**: https://github.com/apache/calcite-avatica-go
   * **Apache H2**: https://github.com/jmrobles/h2go
   * **Apache Hive**: https://github.com/sql-machine-learning/gohive
