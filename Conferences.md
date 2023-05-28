@@ -10,7 +10,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GoCon JP | 2023-06-02 | Online | https://gocon.jp/2023/ |
+| Go Conference 2023 | 2023-06-02 | Online | https://gocon.jp/2023/ |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
 | GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/ |
