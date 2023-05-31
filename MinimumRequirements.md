@@ -30,7 +30,9 @@ Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://go.dev/d
 
 Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://go.dev/doc/go1.17#darwin.
 
-We only have builders for 10.12, 10.14, 10.15, and 11.0 as of 2021-09-28.
+Go 1.21 and later will support macOS Catalina 10.15 or newer; see https://go.dev/doc/go1.20#darwin.
+
+We have builders for macOS 10.14 through macOS 13 as of 2023-05-31.
 
 ### [OpenBSD](OpenBSD)
 
