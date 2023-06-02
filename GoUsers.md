@@ -464,6 +464,7 @@
   * [BookMyShow](http://www.bookmyshow.com/)
   * [Blogger Cage](https://www.bloggercage.com)
   * [BLITZPOKER](https://www.blitzpoker.com/)
+  * [Carmatec](https://www.carmatec.com/golang-development-company/)
   * [CRED](http://cred.club/)
   * [C42 Engineering](http://c42.in/)
   * [Cralina](http://cralina.com/)
