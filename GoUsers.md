@@ -1047,6 +1047,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [DNB](https://www.dnb.no/en)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
+  * [Helse Vest IKT](https://www.helse-vest-ikt.no/)
   * [Ilder](https://ilder.no/)
   * [ITverket](https://www.itverket.no/)
   * [Jottacloud](https://www.jottacloud.com/)
