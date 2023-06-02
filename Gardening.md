@@ -31,6 +31,8 @@ While triaging the bug:
 * is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation".
 * is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
 * if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
+* does the relevant package [have a primary owner](https://dev.golang.org/owners)? Mention them in a comment. If not, add the `help wanted` label.
+* if the relevant package has no owner, but appears to be complex and deeply technical in nature, add the `ExpertNeeded` label.
 
 When the issue has been triaged, add an appropriate label (per https://go.dev/wiki/HandlingIssues) to mark it as such.
 
