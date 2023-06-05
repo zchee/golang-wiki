@@ -196,7 +196,7 @@ See the [bisect transcript section of this comment](https://github.com/golang/go
 
 Not yet. But we hope that in a future version of Go you won't have to, perhaps even Go 1.22.
 
-## I am opposed to this change. How can I send feedback?
+## I think this change is a \_\_\_\_\_\_ idea. How can I send feedback?
 
 The [proposal issue](https://github.com/golang/go/issues/60078) is the place to discuss the proposal. However, please note that arguments about what is intuitive or natural are not productive: different people can quite reasonably have different opinions of what is intuitive or natural.
 
