@@ -100,7 +100,7 @@ For 3-clause for loops, the effect is as if each loop body starts with `i := i` 
 happens at the end of the loop body, copying the per-iteration `i` back out to the `i` that will be used to
 prepare for the next iteration. This sounds complex, but in practice all common for loop idioms continue
 to work exactly as they always have. The only time the loop behavior changes is when `i` is captured and shared
-with somethign else. For example, this code runs as it always has:
+with something else. For example, this code runs as it always has:
 	
 	for i := 0;; i++ {
 		if i >= len(s) || s[i] == '"' {
