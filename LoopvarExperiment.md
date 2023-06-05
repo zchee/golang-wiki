@@ -116,7 +116,7 @@ For full details, see [the design document](https://go.googlesource.com/proposal
 ## Can this change break programs?
 
 Yes, it is possible to write programs that this change would break. For example, here is a surprising way to add the values in a list using a single-element map:
-
+```
 func sum(list []int) int {
 	m := make(map[*int]int)
 	for _, x := range list {
@@ -127,7 +127,7 @@ func sum(list []int) int {
 	}
 	return 0
 }
-
+```
 It depends on the fact that there is only one `x` in the loop, so that `&x` is the same in each iteration. With `GOEXPERIMENT=loopvar`, `x` escapes the iteration, so `&x` is different on each iteration, and the map now has multiple entries instead of a single entry.
 
 And here is a surprising way to print the values 0 through 9:
