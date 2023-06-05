@@ -10,7 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| Go Conference 2023 | 2023-06-02 | Online | https://gocon.jp/2023/ |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
 | GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/ |
@@ -26,6 +25,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| Go Conference 2023 | 2023-06-02 | Online | https://gocon.jp/2023/ (talks coming soon) |
 | Conf42: Golang 2023 | 2023-04-20 | Online | https://www.conf42.com/golang2023, https://www.youtube.com/playlist?list=PLIuxSyKxlQrBDOCy9ThDZ0kJX7skLE2ks |
 | GopherCon Israel 2023 | 2023-02-07 | Tel Aviv, Israel | https://www.gophercon.org.il |
 | Go Devroom FOSDEM | 2023-02-04 | Brussels, Belgium | https://fosdem.org/2023/schedule/track/go/ |
