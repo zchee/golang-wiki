@@ -161,7 +161,7 @@ We also [tried the new loop semantics in Kubernetes](https://github.com/golang/g
 
 ## Will the change make programs slower by causing more allocations?
 
-Possibly. In some cases, that extra allocation is inherent to fixing a latent bug. For example, Print123 is now allocating three ints instead of one, which is necessary to print the three different values after the loop finishes. In rare other cases, the loop may be correct with a shared variable and still correct with separate variables but is now allocating N different variables instead of one. In very hot loops, this might cause slowdowns. Such problems should be obvious in memory allocation profiles (using `pprof --alloc_objects`).
+Possibly. In some cases, that extra allocation is inherent to fixing a latent bug. For example, Print123 is now allocating three separate ints (inside the closures, it turns out) instead of one, which is necessary to print the three different values after the loop finishes. In rare other cases, the loop may be correct with a shared variable and still correct with separate variables but is now allocating N different variables instead of one. In very hot loops, this might cause slowdowns. Such problems should be obvious in memory allocation profiles (using `pprof --alloc_objects`).
 
 Benchmarking of the public “bent” bench suite showed no statistically significant performance difference over all, so we expect most programs to be unaffected.
 
