@@ -4,6 +4,7 @@
   * [Africa](#africa)
   * [Angola](#angola)
   * [Argentina](#argentina)
+  * [Armenia](#armenia)
   * [Australia](#australia)
   * [Austria](#austria)
   * [Bangladesh](#bangladesh)
@@ -80,6 +81,9 @@
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
   * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
+
+## Armenia
+  * [PlayEngine](https://playengine.com/) - Automated and data-driven solution for sports betting.
 
 ## Australia
   * [Assembly Payments](https://assemblypayments.com/) - [github](https://github.com/AssemblyPayments) - Flexible payment solutions provider
