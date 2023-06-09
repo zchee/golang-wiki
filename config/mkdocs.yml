@@ -147,6 +147,7 @@ nav:
   - "CommitMessage": CommitMessage.md
   - "CommonMistakes": CommonMistakes.md
   - "CompilerOptimizations": CompilerOptimizations.md
+  - "Conferences": Conferences.md
   - "Configuring GoLand for WebAssembly": Configuring-GoLand-for-WebAssembly.md
   - "Contributing to gopls": Contributing-to-gopls.md
   - "CoreDumpDebugging": CoreDumpDebugging.md
@@ -224,6 +225,7 @@ nav:
   - "LinuxKernelSignalVectorBug": LinuxKernelSignalVectorBug.md
   - "Livestreams": Livestreams.md
   - "LockOSThread": LockOSThread.md
+  - "LoopvarExperiment": LoopvarExperiment.md
   - "MacOS12BSDThreadRegisterIssue": MacOS12BSDThreadRegisterIssue.md
   - "MethodSets": MethodSets.md
   - "MinimumRequirements": MinimumRequirements.md
@@ -255,6 +257,7 @@ nav:
   - "RateLimiting": RateLimiting.md
   - "ResearchPapers": ResearchPapers.md
   - "Resolving Problems From Modified Module Path": Resolving-Problems-From-Modified-Module-Path.md
+  - "Resources for slog": Resources-for-slog.md
   - "Screencasts": Screencasts.md
   - "SettingGOPATH": SettingGOPATH.md
   - "SignalHandling": SignalHandling.md
