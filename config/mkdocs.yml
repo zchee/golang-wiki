@@ -121,7 +121,6 @@ markdown_extensions:
 plugins:
   - search:
       prebuild_index: true
-  - git-revision-date-localized
   - minify:
       minify_html: true
 
