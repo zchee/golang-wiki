@@ -20,6 +20,13 @@ theme:
     - navigation.instant
     - navigation.sections
     - toc.integrate
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
 
 google_analytics:
   - UA-89201129-1
@@ -117,12 +124,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.saneheaders:
-
-plugins:
-  - search:
-      prebuild_index: true
-  - minify:
-      minify_html: true
 
 # yamllint disable-line
 ## $ echo '  - "Home": Home.md' | tee nav.md; find . -maxdepth 2 -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not -wholename '*docs*' -and -not \( -name 'Home.md' -or -name 'nav.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case | tee -a nav.md && cat nav.md | pbcopy && rm -f nav.md
