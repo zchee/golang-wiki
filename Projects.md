@@ -973,6 +973,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [fyne](https://github.com/fyne-io/fyne) - Cross platform native GUI toolkit based on Material Design
   * [gio](https://gioui.org/) - Portable (iOS/tvOS, Android, Linux (Wayland/X11), macOS, Windows, FreeBSD, OpenBSD, WASM) immediate mode GUI
   * [go-fltk](https://github.com/zot/go-fltk) - FLTK2 GUI toolkit bindings for Go
+  * [imgui-go](https://github.com/allendang/imgui-go) - Dear ImGui wrapper library for Go
   * [GoGi](https://github.com/goki/gi) - Fully native cross-platform GUI toolkit
   * [go-gtk](https://github.com/mattn/go-gtk) - Bindings for GTK
   * [go-qt5](https://github.com/salviati/go-qt5) - QT5 bindings for go
@@ -980,7 +981,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3, requires GTK version 3.8
   * [go.uik](https://github.com/skelterjohn/go.uik) - A UI kit for Go, in Go. (project is closed)
   * [go-webkit2](https://sourcegraph.com/github.com/sourcegraph/go-webkit2) - Go bindings for the WebKitGTK+ v2 API (w/headless browser & JavaScript support)
-  * [Gowut](https://sites.google.com/site/gowebuitoolkit/) - Gowut (Go Web UI Toolkit) is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go, no platform dependent native code is linked or called.
+  * [Gowut](https://github.com/icza/gowut) - Gowut (Go Web UI Toolkit) is a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go, no platform dependent native code is linked or called.
   * [GXUI](https://github.com/google/gxui) - A Go cross platform UI library.
   * [iup](https://github.com/grd/iup) - Bindings for [IUP](http://www.tecgraf.puc-rio.br/iup)
   * [lorca](https://github.com/zserge/lorca) - A small library for building cross-platform HTML5 GUI apps in Go, uses Chrome/Chromium as a UI layer.
