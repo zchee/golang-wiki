@@ -26,9 +26,6 @@ when all supported Go versions include `F2` and they can easily switch.
 
 Marking an API feature deprecated can create work and
 decisions for millions of Go developers using the feature.
-An API feature should only be marked deprecated if its
-use is problematic in some way, not simply because something
-newer exists.
 Deprecating an API feature is an API change that must
 be discussed using [the proposal process](https://go.dev/s/proposal).
 
