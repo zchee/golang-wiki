@@ -173,9 +173,13 @@ We also [tried the new loop semantics in Kubernetes](https://github.com/golang/g
 
 ## Will the change make programs slower by causing more allocations?
 
-Possibly. In some cases, that extra allocation is inherent to fixing a latent bug. For example, Print123 is now allocating three separate ints (inside the closures, it turns out) instead of one, which is necessary to print the three different values after the loop finishes. In rare other cases, the loop may be correct with a shared variable and still correct with separate variables but is now allocating N different variables instead of one. In very hot loops, this might cause slowdowns. Such problems should be obvious in memory allocation profiles (using `pprof --alloc_objects`).
+The vast majority of loops are unaffected. A loop only compiles differently if the loop variable has its address taken (`&i`) or is captured by a closure. 
 
-Benchmarking of the public “bent” bench suite showed no statistically significant performance difference over all, so we expect most programs to be unaffected.
+Even for affected loops, the compiler's escape analysis may determine that the loop variable can still be stack-allocated, meaning no new allocations. 
+
+However, in some cases, an extra allocation will be added. Sometimes, the extra allocation is inherent to fixing a latent bug. For example, Print123 is now allocating three separate ints (inside the closures, it turns out) instead of one, which is necessary to print the three different values after the loop finishes. In rare other cases, the loop may be correct with a shared variable and still correct with separate variables but is now allocating N different variables instead of one. In very hot loops, this might cause slowdowns. Such problems should be obvious in memory allocation profiles (using `pprof --alloc_objects`).
+
+Benchmarking of the public “bent” bench suite showed no statistically significant performance difference over all, and we've observed no performance problems in Google's internal production use either. We expect most programs to be unaffected.
 
 ## If the proposal is accepted, how will the change be deployed?
 
