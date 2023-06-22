@@ -16,6 +16,7 @@ Using Go 1.21, build your program using `GOEXPERIMENT=loopvar`, as in
 
 Consider a loop like:
 
+```go
 	func TestAllEvenBuggy(t *testing.T) {
 		testCases := []int{1, 2, 4, 6}
 		for _, v := range testCases {
@@ -27,11 +28,13 @@ Consider a loop like:
 			})
 		}
 	}
+```
 
 This test aims to check that all the test cases are even (they are not!), but it passes without `GOEXPERIMENT=loopvar`. The problem is that t.Parallel stops the closure and lets the loop continue, and then it runs all the closures in parallel when TestAllEven returns. By the time the if statement in the closure executes, the loop is done, and v has its final iteration value, 6. All four subtests now continue executing in parallel, and they all check that 6 is even, instead of checking each of the test cases.
 
 Another variant of this problem is
 
+```go
 	func TestAllEven(t *testing.T) {
 		testCases := []int{0, 2, 4, 6}
 		for _, v := range testCases {
@@ -43,11 +46,13 @@ Another variant of this problem is
 			})
 		}
 	}
+```
 
 This test is not incorrectly passing, since 0, 2, 4, and 6 are all even, but it is also not testing whether it handles 0, 2, and 4 correctly. Like `TestAllEvenBuggy`, it tests 6 four times.
 
 Another less common but still frequent form of this bug is capturing the loop variable in a 3-clause for loop:
 
+```go
 	func Print123() {
 		var prints []func()
 		for i := 1; i <= 3; i++ {
@@ -57,6 +62,7 @@ Another less common but still frequent form of this bug is capturing the loop va
 			print()
 		}
 	}
+```
 
 This program looks like it will print 1, 2, 3, but in fact prints 4, 4, 4.
 
@@ -64,7 +70,7 @@ This kind of unintended sharing bug hits all Go programmers, whether they are ju
 
 Here is a [public example of a production problem caused by this kind of bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1619047), from Let's Encrypt. The code in question said:
 
-```
+```go
 // authz2ModelMapToPB converts a mapping of domain name to authz2Models into a
 // protobuf authorizations map
 func authz2ModelMapToPB(m map[string]authz2Model) (*sapb.Authorizations, error) {
@@ -101,7 +107,8 @@ happens at the end of the loop body, copying the per-iteration `i` back out to t
 prepare for the next iteration. This sounds complex, but in practice all common for loop idioms continue
 to work exactly as they always have. The only time the loop behavior changes is when `i` is captured and shared
 with something else. For example, this code runs as it always has:
-	
+
+```go
 	for i := 0;; i++ {
 		if i >= len(s) || s[i] == '"' {
 			return s[:i]
@@ -110,13 +117,15 @@ with something else. For example, this code runs as it always has:
 			i++
 		}
 	}
+```
 
 For full details, see [the design document](https://go.googlesource.com/proposal/+/master/design/60078-loopvar.md).
 
 ## Can this change break programs?
 
 Yes, it is possible to write programs that this change would break. For example, here is a surprising way to add the values in a list using a single-element map:
-```
+
+```go
 func sum(list []int) int {
 	m := make(map[*int]int)
 	for _, x := range list {
@@ -128,10 +137,12 @@ func sum(list []int) int {
 	return 0
 }
 ```
+
 It depends on the fact that there is only one `x` in the loop, so that `&x` is the same in each iteration. With `GOEXPERIMENT=loopvar`, `x` escapes the iteration, so `&x` is different on each iteration, and the map now has multiple entries instead of a single entry.
 
 And here is a surprising way to print the values 0 through 9:
 
+```go
 	var f func()
 	for i := 0; i < 10; i++ {
 		if i == 0 {
@@ -139,6 +150,7 @@ And here is a surprising way to print the values 0 through 9:
 		}
 		f()
 	}
+```
 
 It depends on the fact that the `f` initialized on the first iteration “sees” the new value of `i` each time it is called. With `GOEXPERIMENT=loopvar`, it prints 0 ten times.
 
