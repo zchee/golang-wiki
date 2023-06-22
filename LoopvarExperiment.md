@@ -30,7 +30,7 @@ Consider a loop like:
 	}
 ```
 
-This test aims to check that all the test cases are even (they are not!), but it passes without `GOEXPERIMENT=loopvar`. The problem is that t.Parallel stops the closure and lets the loop continue, and then it runs all the closures in parallel when TestAllEven returns. By the time the if statement in the closure executes, the loop is done, and v has its final iteration value, 6. All four subtests now continue executing in parallel, and they all check that 6 is even, instead of checking each of the test cases.
+This test aims to check that all the test cases are even (they are not!), but it passes without `GOEXPERIMENT=loopvar`. The problem is that t.Parallel stops the closure and lets the loop continue, and then it runs all the closures in parallel when `TestAllEvenBuggy` returns. By the time the if statement in the closure executes, the loop is done, and v has its final iteration value, 6. All four subtests now continue executing in parallel, and they all check that 6 is even, instead of checking each of the test cases.
 
 Another variant of this problem is
 
