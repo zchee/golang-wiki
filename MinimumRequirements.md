@@ -50,12 +50,6 @@ See https://go.dev/wiki/FreeBSD#go-on-freebsd for supported FreeBSD/Architecture
 
 There are known NetBSD bugs (including kernel crashes) up to the current NetBSD 7.1. There is a reported fix in NetBSD 7.1.1 but it's unverified as of 2017-07-10, as we're not running builders again yet.  See https://tip.golang.org/doc/go1.9#known_issues and https://github.com/golang/go/issues/20852
 
-### [Native Client](NativeClient)
-
-Go 1.13: pepper_39 or newer.
-
-Go 1.14 and later: [unsupported](https://go.dev/doc/go1.14#nacl).
-
 ### [Solaris](Solaris)
 
 illumos (former OpenSolaris 10) based distributions or Oracle Solaris 11+.
