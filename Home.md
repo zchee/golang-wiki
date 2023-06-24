@@ -224,25 +224,24 @@ If you're looking for services that support Go, here's a list to get you started
 
 ## Platform Specific Information
 
-- See [MinimumRequirements](MinimumRequirements) for minimum platform requirements of current Go ports.
-- Considering porting Go to a new platform? [Read our porting policy first](PortingPolicy)
-- [Mobile](Mobile)
-- [Ubuntu](Ubuntu)
-- [Windows](Windows)
-  - [WindowsBuild](WindowsBuild)
-  - [WindowsCrossCompiling](WindowsCrossCompiling)
-  - [WindowsDLLs](WindowsDLLs)
-- [GoArm](GoArm)
+See [MinimumRequirements](MinimumRequirements) for minimum platform requirements of current Go ports. Considering porting Go to a new platform? [Read our porting policy first](PortingPolicy).
+
 - [ChromeOS](ChromeOS)
 - [Darwin](Darwin)
 - [DragonFly BSD](DragonFly-BSD)
 - [FreeBSD](FreeBSD)
+- [Go on ARM](GoArm)
 - [Linux](Linux)
-- [NativeClient](NativeClient)
+  - [Ubuntu](Ubuntu)
+- [Mobile](Mobile)
 - [NetBSD](NetBSD)
 - [OpenBSD](OpenBSD)
 - [Plan 9](Plan9)
 - [Solaris](Solaris)
+- [Windows](Windows)
+  - [WindowsBuild](WindowsBuild)
+  - [WindowsCrossCompiling](WindowsCrossCompiling)
+  - [WindowsDLLs](WindowsDLLs)
 
 Notes:
 
