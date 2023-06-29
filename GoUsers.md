@@ -1333,6 +1333,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Milenow](https://www.milenow.com/)
   * [PayTabs](https://paytabs.com/) Payment Gateway - Dubai
 ## United Kingdom
+  * [4ARMED](https://www.4armed.com/)
   * [Acuris](https://www.acuris.com/)
   * [Admongrel](http://www.admongrel.com/)
   * [A1comms](https://www.a1comms.com/)
