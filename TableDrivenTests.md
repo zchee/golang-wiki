@@ -90,7 +90,7 @@ More importantly, map iteration order isn't specified nor is it even guaranteed 
 ## Parallel Testing
 
 Parallelizing table tests is simple, but requires precision to avoid bugs.
-Please note closely the three changes below, especially the re-declaration of `tt`
+Please note closely the three changes below, especially the re-declaration of `test`
 
 ```go
 package main
