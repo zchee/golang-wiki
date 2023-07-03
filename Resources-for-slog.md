@@ -39,7 +39,7 @@ Since slog has been in flux for several months, some of these resources may be o
 - slog-microsoft-teams: a `slog.Handler` for Microsoft Teams: https://github.com/samber/slog-microsoft-teams
 - slog-webhook: a `slog.Handler` for Webhook: https://github.com/samber/slog-webhook
 - slog-kafka: a `slog.Handler` for Kafka: https://github.com/samber/slog-kafka
-- slogdriver: a `slog.Handler for Stackdriver Logging / GCP Cloud Logging: https://github.com/jussi-kalliokoski/slogdriver
+- slogdriver: a `slog.Handler` for Stackdriver Logging / GCP Cloud Logging: https://github.com/jussi-kalliokoski/slogdriver
 
 #### Other:
 - Additional resources written by jba: https://github.com/jba/slog
