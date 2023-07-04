@@ -251,6 +251,7 @@
   * [ActiveState](https://activestate.com) - [blog](https://www.activestate.com/blog/2018/03/reproducible-builds-introducing-predictability-your-pipeline) - [github](https://github.com/ActiveState)
   * [Apex](https://apex.sh/)
   * [NxTide] (https://nxtide.com/)
+  * [Blue Flag Consulting](https://blueflag.consulting/)
   * [Bold Commerce](https://boldcommerce.com/careers/)
   * [Buf](https://buf.build/)
   * [ChainSafe Systems](https://chainsafe.io/) - [github](https://github.com/chainsafesystems)
