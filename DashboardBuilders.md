@@ -1,3 +1,12 @@
+# Table of contents
+1. [Coordinator Builders](#coordinator-builders)
+   1. [How to set up a builder](#how-to-set-up-a-builder)
+   1. [Builder Requirements](#builder-requirements)
+   1. [Security notes](#security-notes)
+2. [LUCI Builders](#luci-builders)
+   1. [How to set up a builder](#how-to-set-up-a-builder-1)
+   1. [Builder Requirements](#builder-requirements-1)
+
 # Coordinator Builders
 
 Build configs (at the top) and host configs (bottom) are listed here:
