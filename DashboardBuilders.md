@@ -29,9 +29,9 @@ Information about builder machines, how many are running and their status can be
 For WIP ports, the steps above can be done out of order as needed. But as a port matures, be sure each step above is done. In particular, make sure that you're not just running a fixed copy of the buildlet binary in a loop forever. We need to be able to update it over time without your involvement. You should be running the stage0 binary (or equivalent shell script or similar for your platform) in a loop instead.
 
 ## Builder Requirements
-  * internet connection (at least be able to access Google and https://farmer.golang.org)
-  * preferably with two or more (V)CPUs
-  * at least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
+  * Internet connection (at least be able to access Google and https://farmer.golang.org)
+  * Preferably with two or more (V)CPUs
+  * At least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
 ## Security notes
 
