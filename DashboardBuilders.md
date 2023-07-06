@@ -47,7 +47,7 @@ The LUCI system requires builders to run two applications which authenticate to 
 
 ## How to set up a builder
 
-  1. [Create an issue](https://go.dev/issue/new?labels=new-builder&title=x%2Fbuild%3A+add+%3Cos-arch%3E+builder) on the Go Issue tracker requesting the addition of a new builder. 
+  1. [Create an issue](https://go.dev/issue/new?labels=new-builder&title=x%2Fbuild%3A+add+%3Cos-arch%3E+builder) on the Go Issue tracker requesting the addition of a new builder and assign it yourself. 
      1. Add the label `new-builder`. 
      1. The title of the issue should be in the format: `x/build: add <os-arch> builder`.
      1. Choose a hostname.
