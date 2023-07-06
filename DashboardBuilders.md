@@ -55,7 +55,7 @@ The LUCI system requires builders to run two applications which authenticate to 
   1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request and a TLS private key using the hostname (chosen beforehand) as input. Send the Go team the certificate signing request. A team member will send you the resulting certificate.
      1. `genbotcert -bot-hostname <hostname>`
 
-  1. A Go team member will define your new builder in [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md).
+  1. A Go team member will define your new builder in [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). A comment will be added to the issue when this is completed.
 
   1. Install `go.chromium.org/luci/tokenserver/cmd/luci_machine_tokend` and configure to it to run every 10 minutes via cron as the root user.
      The Machine Token Daemon communicates with the Token Server to generate and renew a LUCI machine token. The private key and the certificate should not be readable by the `swarming` user.
