@@ -30,7 +30,7 @@ For WIP ports, the steps above can be done out of order as needed. But as a port
 
 ## Builder Requirements
   * Internet connection (at least be able to access Google and https://farmer.golang.org)
-  * Preferably with two or more (V)CPUs
+  * Preferably two or more (V)CPUs
   * At least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
 ## Security notes
