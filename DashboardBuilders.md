@@ -14,11 +14,11 @@ Information about builder machines, how many are running and their status can be
 
 ## How to set up a builder
 
-  1. talk to golang-dev@ to get a builder host type & hash (they can get one from using the `golang.org/x/build/cmd/genbuilderkey` tool), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
-  1. define your new builder in https://github.com/golang/build/blob/master/dashboard/builders.go with a new HostConfig and BuildConfig.
-  1. have golang-dev deploy the build coordinator rebuilt with the dashboard/builders.go change
-  1. have golang-dev modify golang.org/x/build/cmd/buildlet/Makefile to add your port and to uploads its buildlet binary to Google Cloud Storage (you can do this step out of order if your compiler changes aren't yet upstream)
-  1. verify you can see the new host & build configs at https://farmer.golang.org/builders
+  1. Talk to golang-dev@ to get a builder host type & hash (they can get one from using the `golang.org/x/build/cmd/genbuilderkey` tool), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
+  1. Define your new builder in https://github.com/golang/build/blob/master/dashboard/builders.go with a new HostConfig and BuildConfig.
+  1. Have golang-dev deploy the build coordinator rebuilt with the dashboard/builders.go change
+  1. Have golang-dev modify golang.org/x/build/cmd/buildlet/Makefile to add your port and to uploads its buildlet binary to Google Cloud Storage (you can do this step out of order if your compiler changes aren't yet upstream)
+  1. Verify you can see the new host & build configs at https://farmer.golang.org/builders
   1. (Interm/testing step) Test that your builder key works and you can register:
      1. `go get -u golang.org/x/build/cmd/buildlet`
      1. `buildlet -coordinator=farmer.golang.org -reverse-type=host-foo-bar -reboot=false`
