@@ -1,4 +1,4 @@
-## Builders
+# Coordinator Builders
 
 Build configs (at the top) and host configs (bottom) are listed here:
 
@@ -12,7 +12,7 @@ For design details about the coordinator, see https://go.dev/s/builderplan
 
 Information about builder machines, how many are running and their status can be found at https://farmer.golang.org/
 
-# How to set up a builder
+## How to set up a builder
 
   1. talk to golang-dev@ to get a builder host type & hash (they can get one from using the `golang.org/x/build/cmd/genbuilderkey` tool), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
   1. define your new builder in https://github.com/golang/build/blob/master/dashboard/builders.go with a new HostConfig and BuildConfig.
@@ -28,12 +28,12 @@ Information about builder machines, how many are running and their status can be
 
 For WIP ports, the steps above can be done out of order as needed. But as a port matures, be sure each step above is done. In particular, make sure that you're not just running a fixed copy of the buildlet binary in a loop forever. We need to be able to update it over time without your involvement. You should be running the stage0 binary (or equivalent shell script or similar for your platform) in a loop instead.
 
-# Builder Requirements
+## Builder Requirements
   * internet connection (at least be able to access Google and https://farmer.golang.org)
   * preferably with two or more (V)CPUs
   * at least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
-# Security notes
+## Security notes
 
 Generally, community-run builders only run code that's already been reviewed & submitted. We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](https://go.dev/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
 
