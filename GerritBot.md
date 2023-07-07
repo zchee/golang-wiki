@@ -4,8 +4,8 @@ Table of Contents
 =================
 
 + [Workflow](#workflow)
-+ [Feedback and Bug Reports](#feedback-and-bug-reports)
 + [Frequently Asked Questions](#frequently-asked-questions)
++ [Feedback and Bug Reports](#feedback-and-bug-reports)
 + [I'd like to add a feature/fix a bug](#id-like-to-add-a-featurefix-a-bug)
 
 ## Workflow
@@ -18,23 +18,7 @@ Table of Contents
 + Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
 + Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
 
-## Feedback and Bug Reports
-
-Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) and use the `x/build/cmd/gerritbot:` prefix in the title.
-
 ## Frequently Asked Questions
-
-### How does GerritBot determine the final commit message?
-
-It uses the title and description of the PR to construct the commit message for the Gerrit Change. You can edit this using the GitHub user interface.
-
-### Why is GerritBot the owner of my change?
-
-This is due to an [open bug](https://bugs.chromium.org/p/gerrit/issues/detail?id=8296) with the way Gerrit handles acting as another user. Once that is fixed, the original author will also be the owner of the change.
- 
-### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
-
-You can upload as many commits as you like. GerritBot will handle squashing your commits into one change that Gerrit can handle.
 
 ### I need a Google account to sign up for Gerrit? Why can't I sign in using my GitHub account?
 
@@ -43,6 +27,22 @@ This is a limitation of the infrastructure that runs our Gerrit instances and is
 ### I left a reply to a comment in Gerrit but no one but me can see it
 
 Replies to comments on code in Gerrit are first saved as drafts and need to be published via the “Reply” button. This is to prevent multiple emails per review “session” and is similar to the [pending review workflow](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) in GitHub. If you see a number next to the “Reply” text in the button, this means you have pending drafts to publish.
+
+### How does GerritBot determine the final commit message?
+
+It uses the title and description of the PR to construct the commit message for the Gerrit Change. You can edit this using the GitHub user interface.
+
+### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
+
+You can upload as many commits as you like. GerritBot will handle squashing your commits into one change that Gerrit can handle.
+
+### Why is GerritBot the owner of my change?
+
+This is due to an [open bug](https://bugs.chromium.org/p/gerrit/issues/detail?id=8296) with the way Gerrit handles acting as another user. Once that is fixed, the original author will also be the owner of the change.
+
+## Feedback and Bug Reports
+
+Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) and use the `x/build/cmd/gerritbot:` prefix in the title.
 
 ## I'd like to add a feature/fix a bug
 
