@@ -40,6 +40,10 @@ You can upload as many commits as you like. GerritBot will handle squashing your
 
 This is due to an [open bug](https://bugs.chromium.org/p/gerrit/issues/detail?id=8296) with the way Gerrit handles acting as another user. Once that is fixed, the original author will also be the owner of the change.
 
+### Can I ask GerritBot to stop posting comments on my PR?
+
+You can toggle comments from GerritBot by using the `comments` slash command (e.g., `/comments off`).
+
 ## Feedback and Bug Reports
 
 Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) and use the `x/build/cmd/gerritbot:` prefix in the title.
