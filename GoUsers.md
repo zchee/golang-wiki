@@ -163,6 +163,7 @@
   * [DB1 Global Software](https://www.db1.com.br/) - [github](https://github.com/db1group)
   * [Dafiti](https://www.dafiti.com.br/) - [github](https://github.com/dafiti)
   * [Delivery Much](https://www.deliverymuch.com.br/) - [github](https://github.com/delivery-much)
+  * [Daki](https://www.soudaki.com/)
   * [DAXPER](https://daxper.com.br) - [github](https://github.com/daxper)
   * [Dinamize](https://www.dinamize.com.br/) - [github](https://github.com/dinamize)
   * [Dito](http://dito.com.br/) - [github](https://github.com/ditointernet/)
