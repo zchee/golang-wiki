@@ -12,6 +12,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | --- | --- | --- | --- |
 | GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
+| GopherCon Brasil 2023 | 2023-10-22-23 | Brazil | https://gopherconbr.org |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg |
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
