@@ -46,7 +46,7 @@ Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/
 
 ### Pending CLs
 
-Review the format of commit messages and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
+[Review the format of commit messages](https://go.dev/doc/contribute#commit_messages) and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
 
 Once it has a +1, the owner of that area can give it a +2.
 
