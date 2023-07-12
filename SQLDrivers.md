@@ -35,7 +35,7 @@ Drivers for Go's sql package include:
   * **Google Cloud Spanner**: https://github.com/googleapis/go-sql-spanner
   * **Google Cloud Spanner**: https://github.com/rakyll/go-sql-driver-spanner
   * **MS ADODB**: https://github.com/mattn/go-adodb
-  * **MS SQL Server** (pure go): https://github.com/denisenkom/go-mssqldb
+  * **MS SQL Server** (pure go): https://github.com/microsoft/go-mssqldb
   * **MS SQL Server** (uses cgo): https://github.com/minus5/gofreetds
   * **MaxCompute**: https://github.com/sql-machine-learning/gomaxcompute
   * **MySQL**: https://github.com/go-sql-driver/mysql/ ` [*] `
