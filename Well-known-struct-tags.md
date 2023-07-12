@@ -46,3 +46,6 @@ protobuf  | https://github.com/golang/protobuf
 db        | https://github.com/jmoiron/sqlx
 url       | https://github.com/google/go-querystring
 feature   | https://github.com/nikolaydubina/go-featureprocessing
+graphql   | https://github.com/samsarahq/thunder
+egg       | https://github.com/andrewwphillips/eggql
+
