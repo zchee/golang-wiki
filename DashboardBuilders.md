@@ -61,7 +61,7 @@ The LUCI system requires builders to run two applications which authenticate to 
      1. The title of the issue should be in the format: `x/build: add <os-arch> builder`.
      1. Choose a hostname.
 
-  1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request (<hostname>.csr) and a TLS private key (<hostname>.key) using the hostname (chosen beforehand) as input. Attach the certificate signing request (<hostname>.csr) to the GitHub issue. A team member will attach the resulting certificate (<hostname>.cert) to the GitHub issue.
+  1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request (_hostname_.csr) and a TLS private key (_hostname_.key) using the hostname (chosen beforehand) as input. Attach the certificate signing request (_hostname_.csr) to the GitHub issue. A team member will attach the resulting certificate (_hostname_.cert) to the GitHub issue.
      1. `genbotcert -bot-hostname <hostname>`
 
   1. A Go team member will define your new builder in [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). A comment will be added to the issue when this is completed.
