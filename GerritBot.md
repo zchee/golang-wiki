@@ -10,10 +10,11 @@ Table of Contents
 
 ## Workflow
 
-+ A user can upload a PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
-+ The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR Issue containing a link to the Gerrit review
++ A user can upload a GitHub PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
++ The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR containing a link to the Gerrit review
 + All comments are handled within Gerrit. Any comments on the GitHub PR will be ignored
 + The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
++ Any changes to the commit message must be done by editing the title and description of the GitHub PR, and not via Gerrit or git. (See FAQ below for details).
 + [Draft PRs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) are imported as [WIP](https://gerrit-review.googlesource.com/Documentation/intro-user.html)
 + Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
 + Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
@@ -31,7 +32,9 @@ Replies to comments on code in Gerrit are first saved as drafts and need to be p
 
 ### How does GerritBot determine the final commit message?
 
-It uses the title and description of the PR to construct the commit message for the Gerrit Change. You can edit this using the GitHub user interface.
+It uses the title and description of the GitHub PR to construct the commit message for the Gerrit change. You can edit this using the GitHub web interface (not Gerrit or git).
+
+The PR description is the first text area in the "Conversation" tab of the PR. It is editable via the "..." menu. Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
 
 ### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
 
