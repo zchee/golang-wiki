@@ -36,6 +36,20 @@ It uses the title and description of the GitHub PR to construct the commit messa
 
 The PR description is the first text area in the "Conversation" tab of the PR. It is editable via the "..." menu. Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
 
+### What is a CL? What is a Gerrit change?
+
+CL is short for "change list", which is essentially a patch proposed to be introduced into a repository. The Go project uses Gerrit to carefully review each CL. An example CL is https://go.dev/cl/508475.
+
+Gerrit change is another term for CL.
+
+### Can I help review other people's CLs?
+
+Yes, this is highly encouraged, and a great way to familiarize yourself with Gerrit, the Go project's [code review process](https://go.dev/doc/contribute#review), and the internals of the Go standard library, runtime, compiler, and so on.
+
+You can browse the currently open CLs [here](https://go-review.googlesource.com/q/status:open+-is:wip) and subscribe for updates to interesting CLs by clicking the star icon.
+
+You don't need to be an expert in the code to help with initial review triage. See the section on [helping to review CLs](https://github.com/golang/go/wiki/Gardening/#pending-cls) in the [Gardening](https://github.com/golang/go/wiki/Gardening) wiki page for more details.
+
 ### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
 
 You can upload as many commits as you like. GerritBot will handle squashing your commits into one change that Gerrit can handle.
