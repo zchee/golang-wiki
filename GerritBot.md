@@ -22,8 +22,8 @@ Table of Contents
 
 ### I need a Google account to sign up for Gerrit? Why can't I sign in using my GitHub account?
 
-You need a Gmail or other Google account to register for Gerrit.
-This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you already need a Google account to sign our CLA, a requirement for us to accept your contribution in the first place.
+You need a Gmail or other Google account to [register for Gerrit](https://go-review.googlesource.com/login/).
+This is a limitation of the infrastructure that runs our Gerrit instances and is out of our control, plus you already need a Google account to [sign our CLA](https://cla.developers.google.com/clas), a requirement for us to accept your contribution in the first place.
 
 ### I left a reply to a comment in Gerrit but no one but me can see it
 
