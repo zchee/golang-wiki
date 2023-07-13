@@ -10,7 +10,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 
 - This wiki is open to editing by any member of the Go community with a GitHub account.
 - If you would like to add a new page, please first open an issue in the [Go issue tracker](https://github.com/golang/go/issues) with the prefix 'wiki' to propose the addition. Clearly state why the content does not fit into any of the existing pages.
-- Because renaming of pages in the wiki can break external lcinks, please open an issue before renaming or removing any wiki page.
+- Because renaming of pages in the wiki can break external links, please open an issue before renaming or removing any wiki page.
 
 # Table of Contents
 
