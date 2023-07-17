@@ -58,7 +58,7 @@ The Go standard library includes some generated files whose source of truth is o
 2. In the main repository on the `release-branch.go1.x` branch, create a CL that pulls in the fix from the golang.org/x internal branch:
 
     ```
-    go get -d golang.org/x/repo@internal-branch.go1.x-vendor
+    go get golang.org/x/repo@internal-branch.go1.x-vendor
     go mod tidy
     go mod vendor
     go generate -run=bundle std  # If a bundled package needs regeneration.
