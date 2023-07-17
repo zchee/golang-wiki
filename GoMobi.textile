@@ -1,0 +1,1 @@
+https://github.com/zu1k/proxypool/blob/cc42f38389ebdfa18e190eacb0df277bdd772259/config/source.yaml
