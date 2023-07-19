@@ -31,6 +31,8 @@ This page assumes a functional Go 1.11 or newer installation. For
 troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshooting[Install Troubleshooting]
 page.
 
+> If you are on Windows, we suggest to follow this tutorial using a BASH emulation system such as Git Bash. 
+
 To compile a basic Go package for the web:
 
 ```go
