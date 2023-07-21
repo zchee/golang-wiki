@@ -20,6 +20,8 @@ For Go 1.10: Windows XP (w/ Service Pack 3) or higher.
 
 For Go 1.11 and later: Windows 7 and higher or Windows Server 2008 R2 and higher. We test on Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8.1, and Windows 10.
 
+For Go 1.21 and later: Windows 10 and higher or Windows Server 2016 and higher.
+
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
 macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
