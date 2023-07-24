@@ -52,7 +52,7 @@ For paranoia reasons, you might want to run your builder in an isolated network 
 
 The Go team is migrating the testing pipeline from a custom solution, the coordinator, to [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md) is an open source continuous integration system created by the Chrome open source team at Google. The Go team has adopted the use of LUCI in order to leverage a continuous integration solution which is used and supported by a larger group of developers. This should enable the team to provide a more featureful solution to the community.
 
-The LUCI system requires builders to run two applications which authenticate to LUCI and receive and process builds. LUCI token deamon generates a token needed to authenticate. The swarming bot uses the token to connect to LUCI and process builds.
+The LUCI system requires builders to run two applications which authenticate to LUCI and receive and process builds. LUCI token daemon generates a token needed to authenticate. The swarming bot uses the token to connect to LUCI and process builds.
 
 ## How to set up a builder
 
@@ -90,6 +90,7 @@ The LUCI system requires builders to run two applications which authenticate to 
     - The bot should be run as the `swarming` user (without root rights).
     - The bot automatically updates itself. It should have permissions to do so.
     - The bot periodically restarts the machine. It should have permissions to do so (via sudo).
+      - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)). 
 
 
 
