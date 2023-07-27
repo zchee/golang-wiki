@@ -1040,8 +1040,8 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 ## Norway
   * [Aller media](https://www.aller.no/)
   * [Amedia](https://www.amedia.no/)
-  * [Arcane Crypto](https://www.arcane.no/)
   * [Avinor](https://avinor.no/)
+  * [Bare Bitcoin](https://barebitcoin.no)
   * [Bouvet](https://www.bouvet.no/)
   * [Bridge Technologies](https://bridgetech.tv/)
   * [Bulder Bank](https://www.bulderbank.no/)
@@ -1054,6 +1054,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [CYBR](https://www.cybr.ai/)
   * [Disruptive Technologies](https://www.disruptive-technologies.com/)
   * [DNB](https://www.dnb.no/en)
+  * [Firi](https://firi.com)
   * [Finn.no](https://www.finn.no)
   * [Futurehome](https://futurehome.no)
   * [Helse Vest IKT](https://www.helse-vest-ikt.no/)
