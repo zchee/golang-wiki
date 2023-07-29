@@ -697,6 +697,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [godepgraph](https://github.com/kisielk/godepgraph) - Create a dependency graph for a go package
   * [godev](https://github.com/kdar/godev) - Recompiles and runs your Go code on source change. Also watches all your imports for changes.
   * [godiff](https://github.com/spcau/godiff) - diff file comparison tool with colour html output
+  * [GoNB](https://github.com/janpfeifer/gonb) -  Interactive Go programming with Jupyter Notebooks.
   * [gonew](https://github.com/bmatsuo/gonew) - A tool to create new Go projects
   * [go-play](https://code.google.com/p/go-play) - A HTML5 web interface for experimenting with Go code. Like https://go.dev/doc/play but runs on your computer
   * [gore](https://github.com/motemen/gore) - A Go REPL. Featured with line editing, code completion, and more
