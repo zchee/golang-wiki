@@ -11,6 +11,8 @@ Go is a great language for CS majors. This page presents some university courses
   * University of Pennsylvania had a course on [Go Programming](https://www.seas.upenn.edu/~cis193/) in Spring 2017.
   * SUNY Potsdam (Potsdam, NY) "Selected languages course with Go", taught by Dr. Brian C. Ladd (Associate Professor of Computer Science). First class in Spring 2017
   * University of Milan has a course named "Computer Programming" taught by Paolo Boldi: http://boldi.di.unimi.it/Corsi/Inf2018/ 
+  * University of Zagreb (Croatia), Faculty of Electrical Engineering and Computing, has a course [Go programming language](https://www.fer.unizg.hr/en/course/gpl) since 2020.
+
 
 # Programming Concepts
 
