@@ -68,7 +68,7 @@ The LUCI system requires builders to run two applications which authenticate to 
 
   1. Install `go.chromium.org/luci/tokenserver/cmd/luci_machine_tokend` and configure to it to run every 10 minutes via cron as the root user.
      The Machine Token Daemon communicates with the Token Server to generate and renew a LUCI machine token. The private key and the certificate should not be readable by the `swarming` user.
-     1. `luci_machine_tokend -backend luci-token-server.appspot.com -cert-pem <path-to-the-certificate> -pkey-pem <path-to-the-private-key>`
+     1. `luci_machine_tokend -backend luci-token-server.appspot.com -cert-pem <path-to-the-certificate> -pkey-pem <path-to-the-private-key> -token-file=/var/lib/luci_machine_tokend/token.json`
 
   1. Install `golang.org/x/build/cmd/bootstrapswarm` and configure it to run in a loop under your operating system's process supervisor (systemd, etc) as the `swarming` user. `Bootstrapswarm` downloads the initial version of the swarming bot and ensures that it is always running.
      1. `bootstrapswarm -hostname <hostname>` 
