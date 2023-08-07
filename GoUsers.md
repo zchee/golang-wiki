@@ -542,6 +542,7 @@
   * [Sezzle](https://sezzle.in/)
   * [Siminars](http://siminars.com)
   * [Singulerp](https://singulerp.com)
+  * [Skit.ai](https://skit.ai)
   * [SocialCops](https://socialcops.com) - [engineering page](https://socialcops.com/careers/engineering/)
   * [SoStronk](https://www.sostronk.com/)
   * [Spoors](https://www.spoors.io/)
