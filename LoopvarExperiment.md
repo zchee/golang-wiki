@@ -159,6 +159,8 @@ that execute incorrectly.
 
 C# made a similar change in C# 5.0 and [they also reported](https://github.com/golang/go/discussions/56010#discussioncomment-3788526) having very few problems caused by the change.
 
+More breaking or surprising cases are shown in [here](https://github.com/golang/go/issues/60078#issuecomment-1544324607) and [here](https://github.com/golang/go/issues/60078#issuecomment-1546019456).
+
 ## How often does the change break real programs?
 
 Empirically, almost never. Testing on Google's codebase found many tests were fixed. It also identified some buggy tests incorrectly passing due to bad interactions between loop variables and `t.Parallel`, like in `TestAllEvenBuggy` above. We rewrote those tests to correct them.
