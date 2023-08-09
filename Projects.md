@@ -1066,6 +1066,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [golinear](https://github.com/danieldk/golinear) - Linear SVM and logistic regression.
   * [go-mind](https://github.com/stevenmiller888/go-mind) - A neural network library built in Go
   * [go\_ml](https://github.com/alonsovidales/go_ml) - Linear Regression, Logistic Regression, Neural Networks, Collaborative Filtering, Gaussian Multivariate Distribution.
+  * [gomlx](https://github.com/gomlx/gomlx) - Accelerated ML and Math Framework for Go (using JIT-compilation with [XLA](https://github.com/openxla/xla)) -- PyTorch/Jax/TensorFlow-like for Go.
   * [gonet](https://github.com/dathoangnd/gonet) - Neural Network for Go.
   * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - An efficient native Go clean room implementation of the Porter Stemming algorithm.
   * [go-pr](https://github.com/daviddengcn/go-pr) - Gaussian classifier.
