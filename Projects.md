@@ -869,10 +869,6 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [UTM](https://github.com/im7mortal/UTM) - Bidirectional UTM-WGS84 converter
   * [gdal](https://github.com/lukeroth/gdal) - Provides a go wrapper for GDAL
 
-## Go Implementations
-
-  * [llgo](https://llvm.org/svn/llvm-project/llgo/trunk/README.TXT) - LLVM-based Go compiler, written in Go
-
 ## Graphics and Audio
 
   * [accumimage](https://github.com/spakin/accumimage) - Variant of [`image.NRGBA`](https://pkg.go.dev/image#NRGBA) and [`color.NRGBA`](https://pkg.go.dev/image/color#NRGBA) that supports accumulation and averaging of colors
