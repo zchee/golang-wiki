@@ -730,6 +730,7 @@
   * [Tufin](https://www.tufin.com/)
   * [Twistlock](https://www.twistlock.com)
   * [uponit](https://uponit.com/) 
+  * [Venn](https://global.venn.city/)
   * [Yodas](https://yodas.com) 
   * [Yotpo](https://www.yotpo.com/) 
   * [ZipRecruiter](https://www.ziprecruiter.com/) 
