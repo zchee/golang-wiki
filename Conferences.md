@@ -10,7 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GopherCon Korea | 2023-08-05-06 | Seoul, Korea | https://festa.io/events/3435 |
 | GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
@@ -24,6 +23,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon Korea | 2023-08-05-06 | Seoul, Korea | https://festa.io/events/3435 |
 | GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/ |
 | GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
