@@ -1,0 +1,1 @@
+Hi people who watch golang-wikichanges. I wanted to draw your attention to https://github.com/golang/go/issues/61940, which is about moving the wiki content from GitHub to the https://github.com/golang/website repo.
