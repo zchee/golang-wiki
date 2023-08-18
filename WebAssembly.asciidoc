@@ -36,8 +36,6 @@ page.
 To compile a basic Go package for the web:
 
 ```go
-// +build js,wasm
-
 package main
 
 import "fmt"
