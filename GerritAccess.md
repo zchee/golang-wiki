@@ -24,8 +24,6 @@ All approvers (see next section) have TryBot access automatically. Others can re
 
 Approvers can review and submit code changes (CLs), subject to the review rules described below. Being an approver comes with an expectation of responsibility: approvers are people who care about Go and want to help it succeed. An approver is not just someone who can make changes, but someone who has demonstrated their ability to collaborate with the team, get the most knowledgeable people to review code, contribute high-quality code, and follow through to fix issues (in code or tests).
 
-To request approver access, see [Requesting Access](#requesting-access) below.
-
 ### Code Review Requirements
 
 Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of two Google employees using Google-secured computers, either as code uploader or as a reviewer voting at least Code-Review+1. Requiring multiple people ensures that code cannot be submitted unilaterally from a single compromised account. The Google employee and hardware requirements further raise the bar: since CLs in many repos are essentially published by Google for download by users at commit time, the Google involvement is to approve this publication. Once a review has a Code-Review+2 and the necessary Google involvement, it can be submitted, by any approver. All these rules are enforced by the Gerrit server.
@@ -40,7 +38,7 @@ When a change has the appropriate reviews to be submitted, a Submit button appea
 
 Approvers can also vote Hold+1 on a CL to mark it as unsubmittable (until that vote is removed). A typical reason might be that we need to wait on the CL for a proposal review, or because the CL needs to be submitted at a certain time: voting Hold+1 ensures that it can still be reviewed, but it won't accidentally be submitted early.
 
-To request approver access, reference https://go-review.googlesource.com/#/admin/groups/1005,members in your bug. See below.
+To request approver access, see [Requesting Access](#requesting-access) below.
 
 ### Auto-Submit
 
