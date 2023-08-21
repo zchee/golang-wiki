@@ -7,7 +7,7 @@ net/http: handle foo when bar
 
 [longer description here in the body]
 
-Fixes #nnnn
+Fixes #12345
 ```
 
 Notably, for the subject (the first line of description):
@@ -20,9 +20,9 @@ Notably, for the subject (the first line of description):
 
 For the body (the rest of the description):
 
-* the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links)
-* the Fixes line goes after the body with a blank newline separating the two
-* there is **no** Markdown in the commit message
+* the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links).
+* the Fixes line goes after the body with a blank newline separating the two. (It is acceptable but not required to use a trailing period, such as `Fixes #12345.`).
+* there is **no** Markdown in the commit message.
 * we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
 * when referencing CLs, prefer saying "CL nnn" or using a go.dev/cl/nnn shortlink over a direct Gerrit URL or git hash, since that's more future-proof.
 * when moving code between repos, include the CL, repository name, and git hash that it was moved from/to, so it is easier to trace history/blame.
@@ -38,7 +38,7 @@ Refactor func Foo.
 This will make the handling of <corner case>
 shorter and easier to test.
 
-For #nnnn
+For #12345
 ```
 
 It is common in other Git projects to use `Updates` instead of `For`, and that is acceptable too, even though it makes little sense (the commit does not update the issue). More precise phrasings are fine too. Don't be too pedantic in code reviews: it's not worth asking people to change from `Updates` or something else to `For`, or vice versa.
