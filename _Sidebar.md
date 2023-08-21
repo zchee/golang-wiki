@@ -1,1 +1,0 @@
-# [https://github.com/golang/go.wiki.git](https://github.com/golang/go.wiki.git)
