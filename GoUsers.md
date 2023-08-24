@@ -1225,6 +1225,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Abios](https://abiosgaming.com/) - The world's most trusted esports API.
   * [Booli](https://www.booli.se/)
   * [Digital Route](https://www.digitalroute.com)
+  * [Einride](https://einride.tech)
   * [Embark Studios](https://www.embark-studios.com/)
   * [Encore](https://encore.dev/) - The Cloud-Native Development Platform for Go.
   * [Greta](https://greta.io/)
