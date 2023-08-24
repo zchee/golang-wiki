@@ -12,9 +12,9 @@ In general, Go doesn't use the "Assigned to" field of bugs much. Instead, we jus
 
 ## Editors
 
-The poorly named "go-approvers" group is the set of people who can edit metadata on issues.
+The "go-editors" group is the set of people who can edit metadata on issues.
 
-To request this type of access, reference https://github.com/orgs/golang/teams/go-approvers and your Github username in your issue requesting access.
+To request this type of access, reference https://github.com/orgs/golang/teams/go-editors and your Github username in your issue requesting access.
 
 Please do not edit any field you're not confident about. Feel free to ask for second opinions.
 
