@@ -16,7 +16,9 @@ The dialog will ask you to click checkboxes for the builds you would like to run
 
 ![An example of the Choose Tryjobs dialog.](https://github.com/golang/go/assets/1248668/5fc635fb-e968-4e7e-b58c-960a09294b5b)
 
-Select the builds you would like to run, and click "Add". Each build's name roughly indicates what it will do, but below is some more detail:
+Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual.
+
+Each build's name roughly indicates what it will do, but below is some more detail:
 * Builds may start with `x_$REPO` where `$REPO` is some module like `golang.org/x/$REPO` (such as `x_review-gotip-linux-amd64`). This build will run tests in that repository.
 * If builds do not start with `x_$REPO` (like `gotip-linux-amd64`), they are testing the main Go repository (including the standard library and toolchain).
 * Builds will then always list a Go version to build against, like `gotip` or `go1.21`. The former builds against the `master` branch of the main Go repository, while the latter builds against the `HEAD` of the corresponding release branch.
