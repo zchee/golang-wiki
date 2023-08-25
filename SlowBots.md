@@ -19,9 +19,9 @@ The dialog will ask you to click checkboxes for the builds you would like to run
 Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual.
 
 Each build's name roughly indicates what it will do, but below is some more detail:
-* Builds may start with `x_$REPO` where `$REPO` is some module like `golang.org/x/$REPO` (such as `x_review-gotip-linux-amd64`). This build will run tests in that repository.
+* Builds may start with `x_$REPO` where `$REPO` is some module like `golang.org/x/$REPO` (such as `x_review-gotip-linux-amd64`). This build will run tests in that repository. If the CL is for the main Go repository, it will test the current `HEAD` of `$REPO` against that version of Go.
 * If builds do not start with `x_$REPO` (like `gotip-linux-amd64`), they are testing the main Go repository (including the standard library and toolchain).
-* Builds will then always list a Go version to build against, like `gotip` or `go1.21`. The former builds against the `master` branch of the main Go repository, while the latter builds against the `HEAD` of the corresponding release branch.
+* Builds will then always list a Go version to build against, like `gotip` or `go1.21`. The former builds against the `master` branch of the main Go repository, while the latter builds against the `HEAD` of the corresponding release branch. If the CL is for `$REPO`, then `$REPO`'s tests will be run against `HEAD` of the corresponding main Go repository branch.
 * Builds then list the OS and CPU architecture (specifically, the `GOOS` and `GOARCH`) to test against.
 * Lastly, builds list some modifications, such as `gotip-linux-amd64-longtest-race`. Below is a list of some of the modifications and what they mean:
     * `longtest` runs the full suite of tests for the corresponding platform and repository.
