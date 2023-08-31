@@ -100,6 +100,8 @@ goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
 
 Or use your own https://play.golang.org/p/pZ1f5pICVbV[basic HTTP server command].
 
+Note: The same major Go version of the compiler and `wasm_exec.js` support file must be used together. That is, if `main.wasm` file is compiled using Go version 1.N, the corresponding `wasm_exec.js` file must also be copied from Go version 1.N. Other combinations are not supported.
+
 Note: for the `goexec` command to work on Unix-like systems, you must https://go.dev/doc/install#tarball[add the path environment variable] for Go to your shell's `profile`. Go's getting started guide explains this:
 
 > Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
