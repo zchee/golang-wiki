@@ -10,7 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg <br> CFP: https://www.papercall.io/gopherconsg-2023 |
@@ -23,8 +22,9 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Korea | 2023-08-05-06 | Seoul, Korea | https://festa.io/events/3435 |
-| GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/ |
+| GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/, https://www.youtube.com/playlist?list=PLtoVuM73AmsJWvXYd_9rbYXcbv1UdzeLT |
 | GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
 | Go Conference 2023 | 2023-06-02 | Online | https://gocon.jp/2023/ (talks coming soon) |
