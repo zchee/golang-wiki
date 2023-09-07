@@ -13,6 +13,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg <br> CFP: https://www.papercall.io/gopherconsg-2023 |
+| Fyne Conf 2023 | 2023-11-03 | Edinburgh, UK | https://conf.fyne.io |
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
 | GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io |
 
