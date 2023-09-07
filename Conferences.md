@@ -10,6 +10,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
+| GopherCon India | 2023-09-09-10 | Pune, India | https://gopherconindia.org |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg <br> CFP: https://www.papercall.io/gopherconsg-2023 |
