@@ -16,7 +16,11 @@ The dialog will ask you to click checkboxes for the builds you would like to run
 
 ![An example of the Choose Tryjobs dialog.](https://github.com/golang/go/assets/1248668/5fc635fb-e968-4e7e-b58c-960a09294b5b)
 
-Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual.
+Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual. This will add builders to the tryjob set in an advisory role.
+
+**To block submission on new tryjobs** reference them in the commit message using the `Cq-Include-Trybots` line generated in the "Choose Tryjobs" dialog. Once the commit message is updated, set Then, set the `Commit-Queue` = `+1` label again. The `Cq-Include-Trybots` line should be right next to the `Change-Id` line without whitespace, like so:
+
+![An example of how to use Cq-Include-Trybots](https://github.com/golang/go/assets/1248668/c4ede0cc-eb18-44a7-87e9-032f57f9a429)
 
 Each build's name roughly indicates what it will do, but below is some more detail:
 * Builds may start with `x_$REPO` where `$REPO` is some module like `golang.org/x/$REPO` (such as `x_review-gotip-linux-amd64`). This build will run tests in that repository. If the CL is for the main Go repository, it will test the current `HEAD` of `$REPO` against that version of Go.
