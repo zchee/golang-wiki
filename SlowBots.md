@@ -18,7 +18,7 @@ The dialog will ask you to click checkboxes for the builds you would like to run
 
 Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual. This will add builders to the tryjob set in an advisory role.
 
-**To block submission on new tryjobs** reference them in the commit message using the `Cq-Include-Trybots` line generated in the "Choose Tryjobs" dialog. Once the commit message is updated, set Then, set the `Commit-Queue` = `+1` label again. The `Cq-Include-Trybots` line should be right next to the `Change-Id` line without whitespace, like so:
+**To block submission on new tryjobs** reference them in the commit message using the `Cq-Include-Trybots` line generated in the "Choose Tryjobs" dialog. Once the commit message is updated, set the `Commit-Queue` = `+1` label again. The `Cq-Include-Trybots` line should be right next to the `Change-Id` line without whitespace, like so:
 
 ![An example of how to use Cq-Include-Trybots](https://github.com/golang/go/assets/1248668/c4ede0cc-eb18-44a7-87e9-032f57f9a429)
 
