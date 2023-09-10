@@ -30,6 +30,7 @@ An overview of tools that will help improve your Go code
   - [sqlgen](https://github.com/drone/sqlgen) - Generate Go code for SQL interactions.
   - [zek](https://github.com/miku/zek) - Generate Go struct from XML.
   - [apidocgen](https://github.com/alovn/apidocgen) - Generate web apis markdown docs and mocks.
+  - [goaccessor](https://github.com/yujiachen-y/goaccessor) - Getters and setters generator.
 
 ## Refactoring
 
