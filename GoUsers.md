@@ -764,6 +764,7 @@
   * [BASE BANK, Inc.](https://basebank.jp/)
   * [Belong Inc.](https://about.belong.co.jp/)
   * [Bengo4.com,Inc.](https://corporate.bengo4.com/)
+  * [Bitkey Inc.](https://bitkey.co.jp/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [CastingONE Inc.](https://casting-one.jp/)
   * [Chompy, Inc.](https://chompy-inc.com/)
