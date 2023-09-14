@@ -13,7 +13,7 @@ syntax: `js-<targetName>`
 JavaScript-specific classes reduce the risk that changing the structure or theme of components will inadvertently affect any required JavaScript behavior and complex functionality. You must use these classes if you interact with the DOM via JavaScript. In practice this looks like this:
 
 ```
-<a href="/login" class="btn btn-primary js-login"></a>
+<a href="/login" class="Button Button--primary js-login"></a>
 ```
 
 Again, JavaScript-specific classes should not, under any circumstances, be styled.
