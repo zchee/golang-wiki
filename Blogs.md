@@ -37,6 +37,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [Golang Tutorials ](https://www.w3basic.com/golang/) - Golang Tutorials and Blog
 * [Go articles at golang.dk](https://www.golang.dk/articles)
 * [Bitfield Consulting](https://bitfieldconsulting.com/golang)
+* [Mahmud Ridwan's Go Posts](https://hjr265.me/tags/go/)
 
 ## Bahasa Indonesia
 
