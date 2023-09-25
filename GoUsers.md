@@ -889,6 +889,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Retail AI, Inc.](https://www.retail-ai.jp)
   * [Retty Inc.](https://corp.retty.me)
   * [redish Inc.](https://www.redish.jp) - Message delivery service on AWS Lambda
+  * [ROLLCAKE Inc.](https://rollcake.co/)
   * [SAKURA Internet Inc.](https://www.sakura.ad.jp/) - [github](https://github.com/sakura-internet)
       * [Arukas](https://arukas.io/en/) - [github](https://github.com/arukasio) - Docker Container Hosting
       * [Web Accelerator](http://cloud.sakura.ad.jp/specification/web-accelerator/)
