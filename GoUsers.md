@@ -803,6 +803,7 @@
   * [Gaudiy, Inc.](https://hp.gaudiy.com/)
   * [GameWith, Inc.](https://gamewith.co.jp/)
   * [Gemcook, Inc.](https://gemcook.com/)
+  * [Giftee, Inc.](https://giftee.co.jp/)
   * [GMO Pepabo, Inc.](https://pepabo.com/)
   * [GOODWITH LLC.,](https://www.goodwith.tech/)
       * [Dockle](https://github.com/goodwithtech/dockle) - Container Image Linter for Security, Helping build the Best-Practice Docker Image, Easy to start
