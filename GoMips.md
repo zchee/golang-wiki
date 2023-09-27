@@ -44,15 +44,27 @@ The D-Link DIR-505 Mobile Companion comes with an Atheros AR1311 processor, 8 MB
 
 Further information about the device can be found at https://openwrt.org/toh/d-link/dir-505.
 
-## Teltonika RUT955
+## Teltonika 
+
+### RUT955
 
 Architecture: ar9344  
 
 Operating System: RutOS (based on OpenWrt)
 
-The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6 & 1.15.3 (GOARCH=mips, GOMIPS=softfloat).
+The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6,  1.15.3 & 1.21.1 (GOARCH=mips, GOMIPS=softfloat). 
 
 Further information about the device can be found at https://teltonika-networks.com/product/rut955/.
+
+### RUT956
+
+Architecture: MediaTek MT7628AN ver:1 eco:2
+
+Operating System: RutOS (based on OpenWrt)
+
+The Teltonika RUT956 has a Mediatek MIPS 24KEc CPU running at 580 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a USB stick can be added. The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.21.1 (GOARCH=mipsle, GOMIPS=softfloat). Note that `illegal instruction` is output if `GOMIPS` is not set.
+
+Further information about the device can be found at https://teltonika-networks.com/product/rut956/.
 
 ## TP-Link Archer A6 WiFi Router
 
