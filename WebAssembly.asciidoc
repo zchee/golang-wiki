@@ -10,7 +10,7 @@ WebAssembly
 
 Go 1.11 added an experimental port to WebAssembly.  Go 1.12 has
 improved some parts of it, with further improvements expected in Go
-1.13.
+1.13. Go 1.21 added a new port targeting the WASI syscall API.
 
 WebAssembly is described on its https://webassembly.org[home page] as:
 
@@ -25,7 +25,7 @@ then take a look at the https://github.com/golang/go/wiki/WebAssembly#further-ex
 **********************************************************************
 
 
-# Getting Started
+# Getting Started (browser)
 
 This page assumes a functional Go 1.11 or newer installation. For
 troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshooting[Install Troubleshooting]
@@ -114,6 +114,16 @@ Finally, navigate to http://localhost:8080/index.html, open the
 JavaScript debug console, and you should see the output. You can
 modify the program, rebuild `main.wasm`, and refresh to see new
 output.
+
+# Getting started (backend)
+
+Go 1.21 introduced WASI as a supported platform. To build for WASI, use the `wasip1` port:
+
+```sh
+$ GOOS=wasip1 GOARCH=wasm go build -o main.wasm
+```
+
+The official blog has a helpful introduction to using the WASI port: https://go.dev/blog/wasi.
 
 # Executing WebAssembly with Node.js
 
