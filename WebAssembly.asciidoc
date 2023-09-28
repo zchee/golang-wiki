@@ -25,7 +25,7 @@ then take a look at the https://github.com/golang/go/wiki/WebAssembly#further-ex
 **********************************************************************
 
 
-# Getting Started (browser)
+# Getting Started (JS)
 
 This page assumes a functional Go 1.11 or newer installation. For
 troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshooting[Install Troubleshooting]
@@ -115,7 +115,7 @@ JavaScript debug console, and you should see the output. You can
 modify the program, rebuild `main.wasm`, and refresh to see new
 output.
 
-# Getting started (backend)
+# Getting Started (WASI)
 
 Go 1.21 introduced WASI as a supported platform. To build for WASI, use the `wasip1` port:
 
