@@ -25,7 +25,9 @@ then take a look at the https://github.com/golang/go/wiki/WebAssembly#further-ex
 **********************************************************************
 
 
-# Getting Started (JS)
+# Javascript (GOOS=JS) port
+
+## Getting Started
 
 This page assumes a functional Go 1.11 or newer installation. For
 troubleshooting, see the https://github.com/golang/go/wiki/InstallTroubleshooting[Install Troubleshooting]
@@ -115,17 +117,7 @@ JavaScript debug console, and you should see the output. You can
 modify the program, rebuild `main.wasm`, and refresh to see new
 output.
 
-# Getting Started (WASI)
-
-Go 1.21 introduced WASI as a supported platform. To build for WASI, use the `wasip1` port:
-
-```sh
-$ GOOS=wasip1 GOARCH=wasm go build -o main.wasm
-```
-
-The official blog has a helpful introduction to using the WASI port: https://go.dev/blog/wasi.
-
-# Executing WebAssembly with Node.js
+## Executing WebAssembly with Node.js
 
 It's possible to execute compiled WebAssembly modules using Node.js
 rather than a browser, which can be useful for testing and automation.
@@ -193,14 +185,7 @@ Alternatively, use the `exec` test flag.
 GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
 ```
 
-# Go WebAssembly talks
-
-* https://www.youtube.com/watch?v=4kBvvk2Bzis[Building a Calculator with Go and WebAssembly] (https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
-* https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
-* https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide[Go&WebAssembly简介 - by chai2010] (Chinese)
-* https://www.youtube.com/watch?v=G8lptDqPP-0[Go for frontend]
-
-# Interacting with the DOM
+## Interacting with the DOM
 
 See https://pkg.go.dev/syscall/js.
 
@@ -231,12 +216,12 @@ is in development.
 
 * https://github.com/littleroot/webgen[`webgen`]: Define components in HTML and generate Go types and constructor functions for them using https://github.com/gowebapi/webapi[`webapi`].
 
-## Canvas
+### Canvas
 
 * A new https://github.com/markfarnan/go-canvas[canvas drawing library] - seems pretty efficient.
 ** https://markfarnan.github.io/go-canvas/[Simple demo]
 
-# Configuring fetch options while using net/http
+## Configuring fetch options while using net/http
 
 You can use the net/http library to make HTTP requests from Go, and they will be converted to https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API[fetch] calls. However, there isn't a direct mapping between the fetch https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#Parameters[options] and the http https://pkg.go.dev/net/http/#Client[client] options. To achieve this, we have some special header values that are recognized as fetch options. They are -
 
@@ -266,15 +251,68 @@ defer resp.Body.Close()
 
 Please feel free to subscribe to https://github.com/golang/go/issues/26769[#26769] for more context and possibly newer information.
 
-# Editor configuration
-
-* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand and Intellij Ultimate for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
-
-
-# WebAssembly in Chrome
+## WebAssembly in Chrome
 
 If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/[here].
 
+## Further examples
+
+### General
+* https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go. Live https://agniva.me/shimmer[DEMO].
+* https://wasm-webcam.herokuapp.com[Video filtering] - Filters for video from webcam (https://github.com/aarushik93/webcam-go[source code])
+* https://github.com/XD-DENG/handytools-go-webassembly[HandyTools] - Provide tools like
+base64 encoding/decoding, convert Unix time, etc (live https://handytools.xd-deng.com/[DEMO])
+
+### Canvas (2D)
+* https://github.com/stdiopt/gowasm-experiments[GoWasm Experiments] - Demonstrates
+  working code for several common call types
+** https://stdiopt.github.io/gowasm-experiments/bouncy[bouncy]
+** https://stdiopt.github.io/gowasm-experiments/rainbow-mouse[rainbow-mouse]
+** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
+** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy] - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
+** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
+** https://stdiopt.github.io/gowasm-experiments/hexy[hexy] (**new**)
+* https://github.com/djhworld/gomeboycolor-wasm[Gomeboycolor-wasm]
+** WASM port of an experimental Gameboy Color emulator.  The https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/[matching blog post]
+  contains some interesting technical insights.
+* https://justinclift.github.io/tinygo_canvas2/[TinyGo canvas]
+** This is compiled with https://tinygo.org[TinyGo] instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
+* https://car-and-mouse.web.app/[Car and Mouse]
+** A game where you gain points by leading a small canvas drawn car with your cursor
+
+### Database
+* https://github.com/pingcap/tidb/pull/13069[TiDB-Wasm] - Running TiDB, a golang database in the browser on Wasm.
+
+### WebGL canvas (3D)
+* https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
+** https://justinclift.github.io/tinygo-wasm-basic-triangle/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-basic-triangle[source code]) - ~14kB compressed (3% of the size of mainline Go version)
+* https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
+** https://justinclift.github.io/tinygo-wasm-rotating-cube/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-rotating-cube[source code]) - ~23kB compressed (4% of the size of mainline Go version)
+* https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
+
+
+# WASI (GOOS=wasip1) port
+
+##  Getting Started (WASI)
+
+Go 1.21 introduced WASI as a supported platform. To build for WASI, use the `wasip1` port:
+
+```sh
+$ GOOS=wasip1 GOARCH=wasm go build -o main.wasm
+```
+
+The official blog has a helpful introduction to using the WASI port: https://go.dev/blog/wasi.
+
+# Go WebAssembly talks
+
+* https://www.youtube.com/watch?v=4kBvvk2Bzis[Building a Calculator with Go and WebAssembly] (https://tutorialedge.net/golang/go-webassembly-tutorial/[Source code])
+* https://www.youtube.com/watch?v=iTrx0BbUXI4[Get Going with WebAssembly]
+* https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide[Go&WebAssembly简介 - by chai2010] (Chinese)
+* https://www.youtube.com/watch?v=G8lptDqPP-0[Go for frontend]
+
+# Editor configuration
+
+* https://github.com/golang/go/wiki/Configuring-GoLand-for-WebAssembly[Configuring GoLand and Intellij Ultimate for WebAssembly] - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
 
 # Debugging
 
@@ -314,41 +352,6 @@ Then you're probably hitting this error.
 
 The solution is to upgrade to Go 1.11.2 or later.
 
-
-# Further examples
-
-## General
-* https://github.com/agnivade/shimmer[Shimmer] - Image transformation in wasm using Go. Live https://agniva.me/shimmer[DEMO].
-* https://wasm-webcam.herokuapp.com[Video filtering] - Filters for video from webcam (https://github.com/aarushik93/webcam-go[source code])
-* https://github.com/XD-DENG/handytools-go-webassembly[HandyTools] - Provide tools like
-base64 encoding/decoding, convert Unix time, etc (live https://handytools.xd-deng.com/[DEMO])
-
-## Canvas (2D)
-* https://github.com/stdiopt/gowasm-experiments[GoWasm Experiments] - Demonstrates
-  working code for several common call types
-** https://stdiopt.github.io/gowasm-experiments/bouncy[bouncy]
-** https://stdiopt.github.io/gowasm-experiments/rainbow-mouse[rainbow-mouse]
-** https://stdiopt.github.io/gowasm-experiments/repulsion[repulsion]
-** https://stdiopt.github.io/gowasm-experiments/bumpy[bumpy] - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
-** https://stdiopt.github.io/gowasm-experiments/arty/client[arty]
-** https://stdiopt.github.io/gowasm-experiments/hexy[hexy] (**new**)
-* https://github.com/djhworld/gomeboycolor-wasm[Gomeboycolor-wasm]
-** WASM port of an experimental Gameboy Color emulator.  The https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/[matching blog post]
-  contains some interesting technical insights.
-* https://justinclift.github.io/tinygo_canvas2/[TinyGo canvas]
-** This is compiled with https://tinygo.org[TinyGo] instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
-* https://car-and-mouse.web.app/[Car and Mouse]
-** A game where you gain points by leading a small canvas drawn car with your cursor
-
-## Database
-* https://github.com/pingcap/tidb/pull/13069[TiDB-Wasm] - Running TiDB, a golang database in the browser on Wasm.
-
-## WebGL canvas (3D)
-* https://bobcob7.github.io/wasm-basic-triangle/[Basic triangle] (https://github.com/bobcob7/wasm-basic-triangle[source code]) - Creates a basic triangle in WebGL
-** https://justinclift.github.io/tinygo-wasm-basic-triangle/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-basic-triangle[source code]) - ~14kB compressed (3% of the size of mainline Go version)
-* https://bobcob7.github.io/wasm-rotating-cube/[Rotating cube] (https://github.com/bobcob7/wasm-rotating-cube[source code]) - Creates a rotating cube in WebGL
-** https://justinclift.github.io/tinygo-wasm-rotating-cube/[Same thing, ported to TinyGo] (https://github.com/justinclift/tinygo-wasm-rotating-cube[source code]) - ~23kB compressed (4% of the size of mainline Go version)
-* https://stdiopt.github.io/gowasm-experiments/splashy[Splashy] (https://github.com/stdiopt/gowasm-experiments/tree/master/splashy[source code]) - Click around on the screen to generate paint...
 
 # Reducing the size of Wasm files
 
