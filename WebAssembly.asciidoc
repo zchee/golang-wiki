@@ -338,21 +338,6 @@ https://wasdk.github.io/wasmcodeexplorer/[WebAssembly Code Explorer] is useful f
 * Clicking on a hex value to the left will highlight the section it is part of, and the corresponding text representation on the right
 * Clicking a line on the right will highlight the hex byte representations for it on the left
 
-# Known bug(s)
-
-Go releases prior to 1.11.2 https://github.com/golang/go/issues/27961[have a bug] which can generate incorrect wasm code in some (rare) circumstances.
-
-If your Go code compiles to wasm without problem, but produces an error like this when run in the browser:
-
-```
-CompileError: wasm validation error: at offset 1269295: type mismatch: expression has type i64 but expected f64
-```
-
-Then you're probably hitting this error.
-
-The solution is to upgrade to Go 1.11.2 or later.
-
-
 # Reducing the size of Wasm files
 
 At present, Go generates large Wasm files, with the smallest possible size being around ~2MB.  If your Go code imports libraries, this file size can increase dramatically.  10MB+ is common.
