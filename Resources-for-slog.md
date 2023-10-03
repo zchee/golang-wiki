@@ -17,6 +17,9 @@ Since slog has been in flux for several months, some of these resources may be o
 #### Logger bridge:
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 
+#### Logging Middleware
+- slog-dedup: deduplication of attribute keys for use with json logging: https://github.com/veqryn/slog-dedup
+
 #### HTTP server middleware:
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
 - slog-echo: Echo middleware for slog logger: https://github.com/samber/slog-echo
