@@ -49,3 +49,4 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - Additional resources written by jba: https://github.com/jba/slog
 - slog-sampling: drop repetitive log entries: https://github.com/samber/slog-sampling
 - slog-context: adds support to reading values from context: https://github.com/PumpkinSeed/slog-context
+- slogassert: handle for testing slog logs emitted by code: https://github.com/thejerf/slogassert
