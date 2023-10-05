@@ -1087,6 +1087,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Schlumberger](https://www.slb.com/)
   * [Searis](https://www.searis.no/)
   * [Shortcut](https://shortcut.no/)
+  * [SpareBank1](https://www.sparebank1.no/)
   * [Sportradar](https://www.sportradar.com/)
   * [Sysco](https://www.sysco.no/)
   * [Tapad](https://www.tapad.com/)
