@@ -54,6 +54,24 @@ The Go team is migrating the testing pipeline from a custom solution, the coordi
 
 The LUCI system requires builders to run two applications which authenticate to LUCI and receive and process builds. LUCI token daemon generates a token needed to authenticate. The swarming bot uses the token to connect to LUCI and process builds.
 
+## Builder Requirements
+
+  * An internet connection with the ability to connect to:
+    - https://proxy.golang.org (or an alternative proxy via GOPROXY).
+    - https://luci-token-server.appspot.com
+    - https://chromium-swarm.appspot.com
+  * Resources
+    - At least 512MB of memory. 1GB or more is highly recommended.
+    - 20GB disk space is ideal.
+    - Preferably with 2 or more (V)CPUs.
+  * Python3 installed and in the `PATH`.
+  * Permissions
+    - The bot should be run as the `swarming` user (without root rights).
+    - The bot automatically updates itself. It should have permissions to do so.
+    - The bot periodically restarts the machine. It should have permissions to do so (via sudo).
+      - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)).
+      - If the machine can't be restarted for some reason, set the environment variable `SWARMING_NEVER_REBOOT`.
+
 ## How to set up a builder
 
   1. [Create an issue](https://github.com/golang/go/issues/new?labels=new-builder&title=x%2Fbuild%3A+add+LUCI+%3Cos-arch%3E+builder) on the Go Issue tracker requesting the addition of a new builder and assign it yourself.
@@ -75,24 +93,6 @@ The LUCI system requires builders to run two applications which authenticate to 
      1. `bootstrapswarm -hostname <hostname>` 
 
   1. Verify the bot starts up without any errors in the logs.
-
-## Builder Requirements
-
-  * An internet connection with the ability to connect to:
-    - https://proxy.golang.org (or an alternative proxy via GOPROXY).
-    - https://luci-token-server.appspot.com
-    - https://chromium-swarm.appspot.com
-  * Resources
-    - At least 512MB of memory. 1GB or more is highly recommended.
-    - 20GB disk space is ideal.
-    - Preferably with 2 or more (V)CPUs.
-  * Python3 installed and in the `PATH`.
-  * Permissions
-    - The bot should be run as the `swarming` user (without root rights).
-    - The bot automatically updates itself. It should have permissions to do so.
-    - The bot periodically restarts the machine. It should have permissions to do so (via sudo).
-      - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)).
-      - If the machine can't be restarted for some reason, set the environment variable `SWARMING_NEVER_REBOOT`.
 
 
 
