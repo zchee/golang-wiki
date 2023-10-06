@@ -69,6 +69,7 @@ The LUCI system requires builders to run two applications which authenticate to 
   1. Install `go.chromium.org/luci/tokenserver/cmd/luci_machine_tokend` and configure to it to run every 10 minutes via cron as the root user.
      The Machine Token Daemon communicates with the Token Server to generate and renew a LUCI machine token. The private key and the certificate should not be readable by the `swarming` user.
      1. `luci_machine_tokend -backend luci-token-server.appspot.com -cert-pem <path-to-the-certificate> -pkey-pem <path-to-the-private-key> -token-file=/var/lib/luci_machine_tokend/token.json`
+     1. If /var/lib isn't a suitable place for the token, change it as you see fit and pass `-token-file-path` to `bootstrapswarm` below to match.
 
   1. Install `golang.org/x/build/cmd/bootstrapswarm` and configure it to run in a loop under your operating system's process supervisor (systemd, etc) as the `swarming` user. `Bootstrapswarm` downloads the initial version of the swarming bot and ensures that it is always running.
      1. `bootstrapswarm -hostname <hostname>` 
@@ -90,7 +91,8 @@ The LUCI system requires builders to run two applications which authenticate to 
     - The bot should be run as the `swarming` user (without root rights).
     - The bot automatically updates itself. It should have permissions to do so.
     - The bot periodically restarts the machine. It should have permissions to do so (via sudo).
-      - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)). 
+      - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)).
+      - If the machine can't be restarted for some reason, set the environment variable `SWARMING_NEVER_REBOOT`.
 
 
 
