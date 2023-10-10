@@ -84,8 +84,7 @@ The LUCI system requires builders to run two applications which authenticate to 
 
   1. A Go team member will define your new builder in [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). A comment will be added to the issue when this is completed.
 
-  1. Install `go.chromium.org/luci/tokenserver/cmd/luci_machine_tokend` and configure to it to run every 10 minutes via cron as the root user.
-     The Machine Token Daemon communicates with the Token Server to generate and renew a LUCI machine token. The private key and the certificate should not be readable by the `swarming` user.
+  1. The Machine Token Daemon communicates with the Token Server to generate and renew a LUCI machine token. Install `go.chromium.org/luci/tokenserver/cmd/luci_machine_tokend` and configure it to run every 10 minutes via cron. The private key shouldn't be readable by the `swarming` user, so the cron job should run as a separate user.
      1. `luci_machine_tokend -backend luci-token-server.appspot.com -cert-pem <path-to-the-certificate> -pkey-pem <path-to-the-private-key> -token-file=/var/lib/luci_machine_tokend/token.json`
      1. If /var/lib isn't a suitable place for the token, change it as you see fit and pass `-token-file-path` to `bootstrapswarm` below to match.
 
