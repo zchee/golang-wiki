@@ -79,7 +79,7 @@ The LUCI system requires builders to run two applications which authenticate to 
      1. Choose a hostname.
      1. Add the label "new-builder". (You can post a comment on the issue stating `@gopherbot, please add label new-builder.` in the issue to have [gopherbot](https://go.dev/wiki/gopherbot) add it for you.)
 
-  1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request (_hostname_.csr) and a TLS private key (_hostname_.key) using the hostname (chosen beforehand) as input. Attach the certificate signing request (_hostname_.csr) to the GitHub issue. A team member will attach the resulting certificate (_hostname_.cert) to the GitHub issue.
+  1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request (_hostname_.csr) and a TLS private key (_hostname_.key) using the hostname (chosen beforehand) as input. Add a .txt file extension to the certificate signing request (_hostname_.csr.txt) and attach it to the GitHub issue. A team member will attach the resulting certificate (_hostname_.cert) to the GitHub issue.
      1. `genbotcert -bot-hostname <hostname>`
 
   1. A Go team member will define your new builder in [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). A comment will be added to the issue when this is completed.
