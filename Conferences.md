@@ -10,7 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website |
 | --- | --- | --- | --- |
-| GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GoWest | 2023-10-27 | Lehi, Utah, USA | https://www.gowestconf.com/ |
 | GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg <br> CFP: https://www.papercall.io/gopherconsg-2023 |
@@ -24,6 +23,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon India | 2023-09-09-10 | Pune, India | https://gopherconindia.org |
 | GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
 | GopherCon Korea | 2023-08-05-06 | Seoul, Korea | https://festa.io/events/3435 |
