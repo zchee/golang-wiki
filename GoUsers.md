@@ -913,6 +913,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [UPSIDER, Inc.](https://corporatecard.up-sider.jp/)
   * [VELTRA Corporation](https://www.veltra.com/)
   * [Video Market Corporation](https://www.videomarket.co.jp/)
+  * [viviON, inc.](https://vivion.jp/)
   * [Voicy, Inc.](https://corp.voicy.jp/)
   * [VOYAGE GROUP](https://voyagegroup.com/)
   * [VRize, Inc.](https://vrize.io/)
