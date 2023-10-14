@@ -32,9 +32,13 @@ Replies to comments on code in Gerrit are first saved as drafts and need to be p
 
 ### How does GerritBot determine the final commit message?
 
-It uses the title and description of the GitHub PR to construct the commit message for the Gerrit change. You can edit this using the GitHub web interface (not Gerrit or git).
+It uses the title and description of the GitHub PR to construct the commit message for the Gerrit change. You can edit this using the GitHub web interface (not Gerrit or git). The PR description is in the first text area in the "Conversation" tab of the GitHub PR. It is editable via "Edit" option on the "..." menu. 
 
-The PR description is the first text area in the "Conversation" tab of the PR. It is editable via the "..." menu. Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
+**Note:** Gerrit imports the **plain** text that is viewable as you edit the message in Github, and it does not import the **rendered** text you see in GitHub prior to editing.
+
+One common area of related confusion is around **issue references**. For example, GerritBot or a human reviewer might ask you to [avoid URLs for issue references](https://go.dev/doc/contribute#ref_issues). In Gerrit, you might see the full URL for an issue, but in the GitHub web interface, you might only see an issue reference like `#12345` and it might be unclear where the URL is coming from. This can be due to confusion between the rendered view in GitHub vs. the underlying raw/plain text. If the GitHub web interface shows something like `Fixes https://github.com/golang/go/issues/12345` while you are **editing the text in GitHub**, change it to something like `Fixes #12345` or `Fixes golang/go#12345` instead. See the [Contribution Guide](https://go.dev/doc/contribute#ref_issues) for more on issue references.
+
+Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
 
 ### What is a CL? What is a Gerrit change?
 
