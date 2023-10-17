@@ -45,6 +45,7 @@
   * [Go + Services = One Goliath Project - Khan Academy's Python Monolith to Go Microservices](https://blog.khanacademy.org/go-services-one-goliath-project/)
   * [Why we switched from Python to Go at Stream](https://getstream.io/blog/switched-python-go/)
   * [A journey from Node to GoLang](https://www.loginradius.com/engineering/blog/a-journey-from-node-to-golang/)
+  * [Ready - Steady - Go: A complete IoT platform in Go](https://qbee.io/misc/ready-steady-go-a-complete-iot-platform-in-go/)
 
 
 See also [[GoUsers]].
