@@ -1071,6 +1071,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Jottacloud](https://www.jottacloud.com/)
   * [Just Technologies](https://www.gojust.com/)
   * [Laerdal Medical](https://www.laerdal.com/)
+  * [Moen Marin](https://www.moenmarin.no/)
   * [Neatframe](https://neat.no/)
   * [No Isolation](https://www.noisolation.com/)
   * [Northern.tech](https://northern.tech/)
@@ -1100,6 +1101,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [TV2](https://www.tv2.no/)
   * [Unacast](https://www.unacast.com/)
   * [Vipps](https://www.vipps.no)
+  * [Webstep](https://www.webstep.no)
   * [Zeipt](https://www.zeipt.com)
   * [Zendera](www.zendera.no)
 
