@@ -60,6 +60,7 @@ The LUCI system requires builders to run two applications which authenticate to 
     - https://proxy.golang.org (or an alternative proxy via GOPROXY).
     - https://luci-token-server.appspot.com
     - https://chromium-swarm.appspot.com
+    - https://cr-buildbucket.appspot.com
   * Resources
     - At least 512MB of memory. 1GB or more is highly recommended.
     - 20GB disk space is ideal.
