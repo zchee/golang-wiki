@@ -1083,6 +1083,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Payr](https://www.payr.no)
   * [Pexip](https://www.pexip.com/)
   * [Pioner Labs](https://www.pionerlabs.com/)
+  * [qbee](https://qbee.io)
   * [reMarkable](https://remarkable.com/)
   * [Raa Labs](https://www.raalabs.com/)
   * [Rendra](https://streambim.com/)
