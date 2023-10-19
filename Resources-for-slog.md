@@ -8,7 +8,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - tinted (colorized) output: https://pkg.go.dev/github.com/lmittmann/tint
 - humane: a human-friendly (but still largely structured) slog Handler: https://github.com/telemachus/humane
 - slug: a handler that prints colourful logs for humans: https://github.com/dotse/slug
-- slogor: An opinionated colorful slog handler: https://gitlab.com/GreyXor/slogor
+- slogor: A colorful slog handler: https://gitlab.com/greyxor/slogor
 
 #### Logger bridge
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
