@@ -51,4 +51,5 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slog-sampling: drop repetitive log entries: https://github.com/samber/slog-sampling
 - slog-context: adds support to reading values from context: https://github.com/PumpkinSeed/slog-context
 - slogassert: handle for testing slog logs emitted by code: https://github.com/thejerf/slogassert
+- sloggen: generate various helpers for `log/slog`: https://github.com/go-simpler/sloggen
 - sloglint: ensure consistent code style when using `log/slog`: https://github.com/go-simpler/sloglint
