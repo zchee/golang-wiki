@@ -16,6 +16,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | Fyne Conf 2023 | 2023-11-03 | Edinburgh, UK | https://conf.fyne.io <br> CFP: https://www.papercall.io/fyneconf2023 |
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
 | GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io |
+| GopherCon Brazil | 2024-05-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ <br> CFP: https://www.papercall.io/gopherconbrazil2024 |
 
 ## Archives
 
