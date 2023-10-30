@@ -20,6 +20,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
 - slog-echo: Echo middleware for slog logger: https://github.com/samber/slog-echo
 - slog-fiber: Fiber middleware for slog logger: https://github.com/samber/slog-fiber
+- slog-chi: Chi middleware for slog logger: https://github.com/samber/slog-chi
 
 #### Log sinks
 - Experimental example using both OpenTelemetry and `slog`: https://github.com/justinsb/experiments-slog
