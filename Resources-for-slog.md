@@ -43,7 +43,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 
 #### Handlers
 
-- github.com/veqryn/slog-dedup: handlers that deduplicate keys, with a variety of policies.
+- https://github.com/veqryn/slog-dedup: handlers that deduplicate keys, with a variety of policies.
 - slog-multi: chain of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
 - various handlers: https://github.com/galecore/xslog
 
