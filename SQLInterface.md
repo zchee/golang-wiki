@@ -142,3 +142,43 @@ You can also pass pointer types. Be careful for performance issues as it require
 var name *string
 err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(&name)
 ```
+
+# Getting a table
+
+If you want an struct array from your SQL query. 
+
+```go
+func getTable[T any](rows *sql.Rows) (out []T) {
+	var table []T
+	for rows.Next() {
+		var data T
+		s := reflect.ValueOf(&data).Elem()
+		numCols := s.NumField()
+		columns := make([]interface{}, numCols)
+
+		for i := 0; i < numCols; i++ {
+			field := s.Field(i)
+			columns[i] = field.Addr().Interface()
+		}
+
+		if err := rows.Scan(columns...); err != nil {
+			fmt.Println("Case Read Error ", err)
+		}
+
+		table = append(table, data)
+	}
+	return table
+}
+```
+
+Make sure to deal with nulls from the database.
+
+```go 
+type User struct {
+  UUID  sql.NullString
+  Name  sql.NullString
+}
+
+rows, err := db.Query("SELECT * FROM Users")
+cases := getTable[User](rows)
+```
