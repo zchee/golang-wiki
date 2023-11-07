@@ -767,6 +767,7 @@
   * [Bitkey Inc.](https://bitkey.co.jp/)
       * [CloudSign](https://www.cloudsign.jp/)
   * [CastingONE Inc.](https://casting-one.jp/)
+  * [Check Inn, Inc.](https://checkinn.jp/)
   * [Chompy, Inc.](https://chompy-inc.com/)
   * [Cluster, Inc.](https://corp.cluster.mu)
   * [Cloud Ace, Inc.](https://www.cloud-ace.jp/)
