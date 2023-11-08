@@ -23,7 +23,6 @@ Please keep all items in reverse chronological order (most recent first)
 |------|------------|----------|----------------|
 | Fyne Conf 2023 | 2023-11-03 | Edinburgh, UK | https://conf.fyne.io |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg |
-| GopherCon Ireland | 2023-11-02 | Dublin, Ireland | https://gophercon.ie |
 | GoWest | 2023-10-27 | Lehi, Utah, USA | https://www.gowestconf.com/ |
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon India | 2023-09-09-10 | Pune, India | https://gopherconindia.org |
