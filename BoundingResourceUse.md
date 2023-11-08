@@ -1,4 +1,4 @@
-# Bounding resource use
+[https://github.com/golang/go/wiki/BoundingResourceUse/_edit](https://github.com/golang/go/wiki/BoundingResourceUse/_edit)# Bounding resource use
 
 To bound a program's use of a limited resource - like memory - have goroutines synchronize their use of that resource using a buffered channel (i.e., use the channel as a semaphore):
 
