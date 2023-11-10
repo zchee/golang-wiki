@@ -226,6 +226,7 @@ nav:
   - "Livestreams": Livestreams.md
   - "LockOSThread": LockOSThread.md
   - "LoopvarExperiment": LoopvarExperiment.md
+  - "LUCI": LUCI.md
   - "MacOS12BSDThreadRegisterIssue": MacOS12BSDThreadRegisterIssue.md
   - "MethodSets": MethodSets.md
   - "MinimumRequirements": MinimumRequirements.md
@@ -233,10 +234,8 @@ nav:
   - "Mobile": Mobile.md
   - "Modules": Modules.md
   - "MutexOrChannel": MutexOrChannel.md
-  - "NativeClient": NativeClient.md
   - "NetBSD": NetBSD.md
   - "NewSpeakers": NewSpeakers.md
-  - "NoMeToo": NoMeToo.md
   - "NonEnglish": NonEnglish.md
   - "NoPlusOne": NoPlusOne.md
   - "OpenBSD": OpenBSD.md
@@ -244,6 +243,7 @@ nav:
   - "PanicAndRecover": PanicAndRecover.md
   - "PerfDashboard": PerfDashboard.md
   - "Performance": Performance.md
+  - "PGO Tools": PGO-Tools.md
   - "Plan9": Plan9.md
   - "Podcasts": Podcasts.md
   - "PortingPolicy": PortingPolicy.md
