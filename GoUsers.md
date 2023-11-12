@@ -351,7 +351,7 @@
   * [Sartura](https://www.sartura.hr/) - [github](https://github.com/sartura)
   * [SedamIT](https://www.sedamit.hr/)
   * [Syntio](https://www.syntio.net/) - [github](https://github.com/syntio)
-  * [Pointer] (https://pointer.hr/hr/naslovna/)
+  * [Pointer](https://pointer.hr/hr/naslovna/)
 
 ## Colombia
   * [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
