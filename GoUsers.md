@@ -1187,9 +1187,12 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 * [ekeynow](https://www.ekeynow.com)
 
 ## Slovenia
-  * [Visionect d.o.o.](http://www.visionect.com)
-  * [Niteo](https://www.niteo.co)
   * [Koofr](https://www.koofr.eu)
+  * [nChain](https://nchain.si/)
+  * [Niteo](https://www.niteo.co)
+  * [Outbrain](https://www.outbrain.com)
+  * [Visionect d.o.o.](https://www.visionect.com)
+
 
 ## South Africa
   * [Luno](http://www.luno.com) - [github](https://github.com/luno)
