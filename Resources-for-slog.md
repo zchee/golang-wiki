@@ -9,9 +9,11 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - humane: a human-friendly (but still largely structured) slog Handler: https://github.com/telemachus/humane
 - slug: a handler that prints colourful logs for humans: https://github.com/dotse/slug
 - slogor: A colorful slog handler: https://gitlab.com/greyxor/slogor
+- [klog](https://github.com/kubernetes/klog): the text format used by Kubernetes. Provides klog output routing when using the main package's logger and [a simpler logger](https://github.com/kubernetes/klog/tree/main/textlogger) that just writes to stderr. Both slog/logr and go-logr/logr APIs are supported.
 
 #### Logger bridge
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
+- [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
 
 #### Logging Middleware
 - slog-dedup: deduplication of attribute keys for use with json logging: https://github.com/veqryn/slog-dedup
