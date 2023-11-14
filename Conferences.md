@@ -8,11 +8,12 @@ There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://
 The map will be updated about once a week from the entries below. Errors in the map can be reported to van@golang.org.
 -->
 
-| Name |  Date | Location | Website |
-| --- | --- | --- | --- |
+| Name |  Date | Location | Website | CFP |
+| --- | --- | --- | --- | --- |
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
 | GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io |
 | GopherChina | 2023-11-19 | ShangHai, China | http://gopherchina2023sh.bagevent.com |
+| FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP through 2023-12-01 https://github.com/go-devroom/cfp |
 | GopherCon Brazil | 2024-05-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ <br> CFP: https://www.papercall.io/gopherconbrazil2024 |
 
 ## Archives
