@@ -13,7 +13,9 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ | |
 | GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io | |
 | GopherChina | 2023-11-19 | ShangHai, China | http://gopherchina2023sh.bagevent.com | |
-| FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP through 2023-12-01 https://github.com/go-devroom/cfp |
+| FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP https://github.com/go-devroom/cfp |
+| GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ | https://sessionize.com/gceu24a |
+| GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
 | GopherCon Brazil | 2024-05-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ | https://www.papercall.io/gopherconbrazil2024 |
 
 ## Archives
