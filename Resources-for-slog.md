@@ -16,6 +16,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
 
 #### Logging Middleware
+- slog-context: store attributes or the logger in context: https://github.com/veqryn/slog-context
 - slog-dedup: deduplication of attribute keys for use with json logging: https://github.com/veqryn/slog-dedup
 
 #### HTTP server middleware
