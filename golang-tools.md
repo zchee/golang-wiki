@@ -36,10 +36,11 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2023-09-13 - [Agenda](https://docs.google.com/document/d/1CvFXUGjSnSPde5lKdERJZY4t4ifwLyhtaok6TZJ-RR0/edit)
+* 2023-11-29 - [Agenda](https://docs.google.com/document/d/1lzGFo6QxZaDohSW9DOC2rILAuFCNX2vWs8oon6etmWY/edit)
 
 ### Call archive
 
+* 2023-09-13 - [Meeting notes](https://docs.google.com/document/d/1CvFXUGjSnSPde5lKdERJZY4t4ifwLyhtaok6TZJ-RR0/edit) - [video](https://www.youtube.com/watch?v=JMiXnAkYZno)
 * 2023-07-12 - [Meeting notes](https://docs.google.com/document/d/1NZ9BrdDm36_wsIyKinBnNEKYfldsfzLjEzjtGaqD284/edit) - [video](https://www.youtube.com/watch?v=QXdCfsPH504)
 * 2023-04-19 - [Meeting notes](https://docs.google.com/document/d/1bUHgwr7TlNWr-_7Z8yWNHlmfchJn2O6xZy6xN-2vNKA/edit) - [video](https://www.youtube.com/watch?v=1DGnsXIo03Y)
 * 2023-02-22 - [Meeting notes](https://docs.google.com/document/d/1Tly7F5k_Hr-_BMOgjWZYJu5oObc-CLblOyTSVtp85Y4/edit) - [video](https://www.youtube.com/watch?v=2wGFFyVLdy8)
