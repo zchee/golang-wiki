@@ -16,8 +16,9 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
 
 #### Logging Middleware
-- slog-context: store attributes or the logger in context: https://github.com/veqryn/slog-context
-- slog-dedup: deduplication of attribute keys for use with json logging: https://github.com/veqryn/slog-dedup
+- slog-context: store attributes or the logger in context, read any custom values from context: https://github.com/veqryn/slog-context
+- slog-context/otel: automatically read and add OpenTelemetry TraceID and SpanID to logs, and can set Span error code: [github.com/veqryn/slog-context/otel](https://github.com/veqryn/slog-context#opentelemetry-traceid-spanid-extractor)
+- slog-dedup: deduplication and sorting of attribute keys, useful for json logging: https://github.com/veqryn/slog-dedup
 
 #### HTTP server middleware
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
