@@ -1200,6 +1200,7 @@ See also [[SQLDrivers page|SQLDrivers]].
   * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browser and exposes some simpel single/multi-node search functions
   * [goplan9](http://code.google.com/p/goplan9/) - libraries for interacting with Plan 9
   * [goPromise](https://github.com/anschelsc/goPromise/) - Scheme-like delayed evaluation for Go
+  * [gopensky](https://github.com/navidys/gopensky/) - Go client for opensky network live's API (airspace ADS-B and Mode S data)
   * [go-qrand](https://github.com/salviati/go-qrand) - Go client for quantum random bit generator service at random.irb.hr
   * [goraphing](http://code.google.com/p/goraphing/) - A tool to generate a simple graph data structures from JSON data files
   * [go-selenium](https://github.com/sourcegraph/go-selenium) - Selenium WebDriver client for Go
