@@ -81,7 +81,7 @@
 ## Argentina
   * [Mercadolibre](http://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
   * [Wilab](http://www.wilab.io/) - Industrial IoT platform.
-  * [Omnia](https://www.omniasalud.com/) - Administrative support for heatlh organization  
+  * [Omnia](https://www.omniasalud.com/) - Administrative systems for health organizations 
 
 ## Armenia
   * [PlayEngine](https://playengine.com/) - Automated and data-driven solution for sports betting.
