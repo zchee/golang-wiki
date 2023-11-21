@@ -29,17 +29,17 @@ Although it is not part of the core repository, the x/sys repository should add 
 
 # First class ports
 
-Some ports are considered "first class". The distinction is mostly about releases and distribution.
+Some ports are considered "first class". The distinction is mostly about releases.
 
 A first class port has these properties:
 
   * Broken builds block releases
     * All contributors are effectively responsible for these ports (You break it, you fix it, or find someone who can.)
-  * Official binaries are provided
     * Requires Google's Go team to own the builder machine
   * Installation is documented at https://go.dev/doc/install
 
-Graduating a port to "first class" is at the discretion of the Go team at Google.
+Graduating a port to "first class" is at the discretion of the Go team at Google,
+and requires an accepted proposal.
 
 The current first class ports are:
 
@@ -51,8 +51,6 @@ The current first class ports are:
 * linux/arm64
 * windows/386
 * windows/amd64
-
-We distribute binaries for some other GOOS/GOARCH pairs (other "ports"), but they are not "first class" by this definition.
 
 All Linux first class ports are for systems using glibc only.  Linux systems using other C libraries are not fully supported and are not treated as first class.
 
