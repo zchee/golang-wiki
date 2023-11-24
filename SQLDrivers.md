@@ -67,6 +67,7 @@ Drivers for Go's sql package include:
   * **Sybase ASE** (pure go): https://github.com/thda/tds
   * **Sybase SQL Anywhere**: https://github.com/a-palchikov/sqlago
   * **TiDB**: Use any MySQL driver
+  * **Trino**: https://github.com/trinodb/trino-go-client
   * **Vertica**: https://github.com/vertica/vertica-sql-go
   * **Vitess**: https://pkg.go.dev/vitess.io/vitess/go/vt/vitessdriver
   * **YDB** (pure go): https://github.com/ydb-platform/ydb-go-sdk
