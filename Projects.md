@@ -16,6 +16,7 @@ If you find a project in this list that is dead or broken, please either mark it
 
 # Table of Contents
 * [API Services and Tools](#api-services-and-tools)
+* [Artificial Intelligence] (#artificial-intelligence)
 * [Astronomy](#astronomy)
 * [Build Tools](#build-tools)
 * [Caching](#caching)
@@ -100,6 +101,10 @@ If you find a project in this list that is dead or broken, please either mark it
 
 ### MTProto
   * [MTProto](https://github.com/xelaj/mtproto) - Full-native implementation of Telegram API written on pure Go.
+
+## Artificial Intelligence
+
+  * [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 
 ## Astronomy
 
