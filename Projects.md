@@ -105,6 +105,7 @@ If you find a project in this list that is dead or broken, please either mark it
 ## Artificial Intelligence
 
   * [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
+  * [go-openaih](ttps://github.com/sashabaranov/go-openai) - Go bindings for OpenAI APIs.
 
 ## Astronomy
 
