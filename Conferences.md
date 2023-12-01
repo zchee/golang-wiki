@@ -10,9 +10,6 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website | CFP |
 | --- | --- | --- | --- | --- |
-| GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ | |
-| GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io | |
-| GopherChina | 2023-11-19 | ShangHai, China | http://gopherchina2023sh.bagevent.com | |
 | FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP https://github.com/go-devroom/cfp |
 | GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ | https://sessionize.com/gceu24a |
 | GopherCon Brazil | 2024-05-09-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ | https://www.papercall.io/gopherconbrazil2024 |
@@ -24,6 +21,9 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io |
+| GopherChina | 2023-11-19 | ShangHai, China | http://gopherchina2023sh.bagevent.com |
+| GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
 | Fyne Conf 2023 | 2023-11-03 | Edinburgh, UK | https://conf.fyne.io |
 | GopherCon Singapore 2023 | 2023-11-02-03 | Singapore | https://2023.gophercon.sg |
 | GoWest | 2023-10-27 | Lehi, Utah, USA | https://www.gowestconf.com/ |
