@@ -36,10 +36,11 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2023-11-29 - [Agenda](https://docs.google.com/document/d/1lzGFo6QxZaDohSW9DOC2rILAuFCNX2vWs8oon6etmWY/edit)
+* 2023-01-29 - [Agenda](https://docs.google.com/document/d/1LKY-JRrPKkxoonvq7c3rr_DExzl_8X2Iq1TR8V0C3lg/edit?usp=sharing)
 
 ### Call archive
 
+* 2023-11-29 - [Meeting notes](https://docs.google.com/document/d/1lzGFo6QxZaDohSW9DOC2rILAuFCNX2vWs8oon6etmWY/edit) - [video](https://www.youtube.com/watch?v=6uzF0q49kCg)
 * 2023-09-13 - [Meeting notes](https://docs.google.com/document/d/1CvFXUGjSnSPde5lKdERJZY4t4ifwLyhtaok6TZJ-RR0/edit) - [video](https://www.youtube.com/watch?v=JMiXnAkYZno)
 * 2023-07-12 - [Meeting notes](https://docs.google.com/document/d/1NZ9BrdDm36_wsIyKinBnNEKYfldsfzLjEzjtGaqD284/edit) - [video](https://www.youtube.com/watch?v=QXdCfsPH504)
 * 2023-04-19 - [Meeting notes](https://docs.google.com/document/d/1bUHgwr7TlNWr-_7Z8yWNHlmfchJn2O6xZy6xN-2vNKA/edit) - [video](https://www.youtube.com/watch?v=1DGnsXIo03Y)
@@ -95,7 +96,7 @@ Note that calls always happen on the same [Google Meet link](https://meet.google
 
 We try to share the load of organizing and running the calls between Gophers inside and outside of Google (generally alternating between Googlers and non-Googlers). Here are the steps required as organizer:
 
-1. Using a non-google.com account, ask Paul Jolly for editing access to the [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), and then create a folder for the next monthly call, and a put a copy of the previous call's agenda in it. The copy will only be visible by anyone with the link, so change that to allow edits (this last step is not possible with docs owned by @google.com accounts).
+1. Using a non-google.com account, ask Paul Jolly for editing access to the [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), and put a copy of the previous call's agenda in it. The copy will only be visible by anyone with the link, so change that to allow edits (this last step is not possible with docs owned by @google.com accounts).
 2. Rename and clear out the agenda for the next call.
 3. Update this wiki, archiving the previous call and linking the new upcoming call.
 4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:30-17:30 London.
