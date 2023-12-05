@@ -1,3 +1,7 @@
+---
+title: CodeTools
+---
+
 An overview of tools that will help improve your Go code
 
 ## All-in-one
@@ -67,3 +71,4 @@ An overview of tools that will help improve your Go code
 ## Visualization
 
   - [godepgraph](http://github.com/kisielk/godepgraph) - A tool for generating dependency graphs of Go code.
+

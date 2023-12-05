@@ -1,4 +1,6 @@
-# Prior Discussion
+---
+title: Prior Discussion
+---
 
 ## Background
 

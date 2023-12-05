@@ -1,6 +1,10 @@
+---
+title: GcToolchainTricks
+---
+
 This page documents some less well-known (perhaps advanced) tricks for the ` gc ` toolchain (and the Go tool).
 
-# C code without ` cgo `
+## C code without ` cgo `
 
 ### Use ` syso ` file to embed arbitrary self-contained C code
 Basically, you write your assembly language in GNU as(1) format, but make sure
@@ -24,7 +28,7 @@ Notes:
   * this trick is supported on all Go 1.x releases.
   * the Go linker is pretty capable in that you just need to prepare .syso file for each architecture, not for each OS/Arch combination (assuming you don't use OS-specific constructs, obviously), and the Go linker is perfectly capable to link, for example, Mach-O object files into ELF binaries. So be sure to name your syso file with names like ` file_amd64.syso `, ` file_386.syso `.
 
-# Bundle data into Go binary
+## Bundle data into Go binary
 There are a lot of ways to bundle data in Go binary, for example:
   * ` zip ` the data files, and append the zip file to end of Go binary, then use ` zip -A prog ` to adjust the bundled zip header. You can use ` archive/zip ` to open the program as a zip file, and access its contents easily. There are existing packages that helps with this, for example, https://pkg.go.dev/bitbucket.org/tebeka/nrsc; This requires post-processing the program binary, which is not suitable for non-main packages that require static data. Also, you must collect all data files into one zip file, which means that it's impossible to use multiple packages that utilize this method.
   * Embed the binary file as a ` string ` or ` []byte ` in Go program. This method is not recommended, not only because the generated Go source file is much larger than the binary files themselves, also because static large ` []byte ` slows down the compilation of the package and the ` gc ` compiler uses a lot of memory to compile it (this is a known bug of ` gc `). For example, see the [tools/godoc/static](https://pkg.go.dev/golang.org/x/tools/godoc/static) package.
@@ -91,7 +95,7 @@ make
 **Drawback** of this issue is that it seems incompatible to cgo, so only use it when you don't
 use cgo, at least for now. I (minux) is working on figuring out why they're incompatible.
 
-# Including build information in the executable
+## Including build information in the executable
 
 The gc toolchain linker, [cmd/link](https://pkg.go.dev/cmd/link), provides a `-X` option that may be used to record arbitrary information in a Go string variable at link time. The format is `-X importpath.name=val`.  Here `importpath` is the name used in an import statement for the package (or `main` for the main package), `name` is the name of the string variable defined in the package, and `val` is the string you want to set that variable to. When using the go tool, use its `-ldflags` option to pass the `-X` option to the linker.
 
@@ -106,3 +110,4 @@ var BuildTime string
 You can build the program using this package using `go build -ldflags="-X 'company/buildinfo.BuildTime=$(date)'"` to record the build time in the string.  (The use of `$(date)` assumes you are using a Unix-style shell.)
 
 The string variable must exist, it must be a variable, not a constant, and its value must not be initialized by a function call.  There is no warning for using the wrong name in the `-X` option.  You can often find the name to use by running `go tool nm` on the program, but that will fail if the package name has any non-ASCII characters, or a `"` or `%` character.
+

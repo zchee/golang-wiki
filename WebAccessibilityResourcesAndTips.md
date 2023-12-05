@@ -1,3 +1,7 @@
+---
+title: WebAccessibilityResourcesAndTips
+---
+
 Accessibility or "a11y" is an increasingly important topic in web development. It is important to Go because many Go tools and resources use web technology, like godoc. Ensuring that these tools are accessible ensures that more people can use them and that more people can use Go.
 
 Accessibility is a large topic that ranges from the merely esoteric to the excruciatingly abstruse.

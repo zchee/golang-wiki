@@ -1,6 +1,8 @@
-Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stories](SuccessStories).
+---
+title: Why Go
+---
 
-## Why Go
+Here's why: a list of people/organizations explaining why they use Go. This is partly redundant with [GoUsers](GoUsers). We also have a specific page dedicated to [Go success stories](SuccessStories).
 
 - [Why Devops Engineers Should Know Go](https://akondas.com/blog/Why-DevOps-Engineers-Should-Know-Go) _2020-05-27_
 - [Why We Chose Go](https://tech.trivago.com/2020/03/02/why-we-chose-go/) _2020-03-02_
@@ -79,3 +81,4 @@ Here's why: a list of people/organizations explaining why they use Go. This is p
 - [**Express vs Flask vs Go vs Sparkjava** by Bijan](https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122)
 - [**Comparing the Performance of Various Web Frameworks** by Abel Avram](http://www.infoq.com/news/2014/05/benchmark-web-framework)
 - [TechEmpower Web Framework Benchmarks](http://www.techempower.com/benchmarks/)
+

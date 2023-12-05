@@ -1,4 +1,6 @@
-# Resources for New Speakers
+---
+title: Resources for New Speakers
+---
 
 Go needs everyone's help.
 We want to see more new speakers with new perspectives at Go conferences,

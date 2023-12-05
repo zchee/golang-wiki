@@ -1,4 +1,8 @@
-# Feedback re Go 2 Error Handling Draft Design
+---
+title: Go2ErrorHandlingFeedback
+---
+
+## Feedback re Go 2 Error Handling Draft Design
 
 This page is meant to collect and organize feedback and discussion 
 started with the Go 2 [error handling draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-handling-overview.md).
@@ -11,7 +15,7 @@ Please help categorize the rest of the uncategorized proposals at the bottom.
 
 We've disabled comments on that issue until July 1 to give people time to experiment in their own code. We would very much like to see experience reports about using the general try approach in your own code, including trial conversions with [tryhard](https://github.com/griesemer/tryhard). Thanks!
 
-# Experience with the [“try proposal”](https://go.dev/design/32437-try-builtin)
+## Experience with the [“try proposal”](https://go.dev/design/32437-try-builtin)
 
 Add to this list:
 
@@ -19,7 +23,7 @@ Add to this list:
 
 * * *
 
-# Requirements
+## Requirements
 
 Discussions of the requirements for a new error handling method.
 
@@ -36,7 +40,7 @@ Discussions of the requirements for a new error handling method.
 - Rob Pike (posted by @matjam) “[Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM)”, December 2015
 
 
-# In support
+## In support
 
 This includes supporting the existing chaining/stacking of handlers without changes.
 
@@ -48,7 +52,7 @@ This includes supporting the existing chaining/stacking of handlers without chan
 
 - Alexandru-Paul Copil, "[In Support, with slight modifications and considerations](https://gist.github.com/cpl/54ed073e20f03fb6f95257037d311420)", September 2021
 
-## Example code
+### Example code
 
 Code changed to use the existing proposal.
 
@@ -58,7 +62,7 @@ Code changed to use the existing proposal.
 
  - Blake Mizerany, “[How best to account for partial writes when using check/handle?](https://gist.github.com/bmizerany/fcd0348bda96edce05a4fc7426e47751)”, August 2018
 
-# Against
+## Against
 
 Critiques without counter-proposals
 
@@ -79,7 +83,7 @@ Critiques without counter-proposals
 - Shannon Wynter "[Error Handling as it can already be done](https://gist.github.com/freman/0b372e46c72f6a27652538b9930ee851)", August 2018
 
 
-# Recurring themes
+## Recurring themes
 
 Concepts that appear repeatedly among the suggestions below.
 
@@ -121,7 +125,7 @@ Concepts that appear repeatedly among the suggestions below.
   [17](https://github.com/golang/go/issues/27519)
 
 
-# Modest revisions
+## Modest revisions
  - Leidong Liu, "[a, b, !checkError := Sub(...)](https://gist.github.com/lldld/bf93ca94c24f172e95baf8c123427ace)", Nov 2019
 
  - Jin Feng, "[A simplified Go 2 error handling solution with no handler], (https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
@@ -156,7 +160,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Brandon Heenan, "[Concise, with more obvious control flow](https://github.com/bmheenan/goerr/blob/main/README.md)", May 2021
 
-## Remove handler chaining
+### Remove handler chaining
 
 - Markus Heukelom, "[proposal: Improve error handing using `guard` and `must` keywords](https://github.com/golang/go/issues/31442)", April 2019
 
@@ -169,9 +173,9 @@ Concepts that appear repeatedly among the suggestions below.
 - Yoshiki Shibukawa, "[Every handles should have return statement](https://gist.github.com/shibukawa/42a9dee400c2f8577b4a763bcb1a5e5f)", September 2018
 
 
-# Counter-proposals
+## Counter-proposals
 
-## Error handling with normal functions
+### Error handling with normal functions
 
 - Azamat Kalberdiev, “[Handling every error with intuitive code](https://gist.github.com/Azamat28/5b2c6f66fc4927a002a2d60044aa9231)”, March 2021
 
@@ -189,7 +193,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Martin Rode, "[The return of the return, Error Handling for Go 2](https://medium.com/@marode/the-return-of-the-return-278b8ae261ab)", November 2018
 
-## Labeled error handlers
+### Labeled error handlers
 
 - Joe Lapp, "[Local-only throw-catch error handling](https://github.com/golang/go/issues/48896)", October 2021
 
@@ -207,7 +211,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Marlon Che, "[How about separating check and handle?](https://gist.github.com/marlonche/4e5d4e5aec0555958ec1f181991325f6)", August 2018
 
-## Inlining
+### Inlining
 
 - Patrick Kelly, "[handling more than just errors in go](https://medium.com/@phlatphrog/handling-more-than-just-errors-in-go-f97c5aa2eac4)", August 2018
 
@@ -215,13 +219,13 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Gooid, “[Inline style error handle(simple unambiguous)](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md)”, August 2018
 
-## Use defer
+### Use defer
 
  - Victoria Raymond, “[Force 'check' to return error instead of allowing customized logic](https://gist.github.com/VictoriaRaymond/d70663a6ec6cdc59816b8806dccf7826)”, August 2018
 
  - Night-walker and daokoder, "[Extend and repurpose defer instead of introducing new syntax](https://github.com/daokoder/dao/issues/191#issuecomment-44784919 )", June 2014
 
-## try/catch/finally syntax
+### try/catch/finally syntax
 
 - Mathieu Devos, "[Go2 Error Handling Proposal: Scoped Check/Handle](https://gist.github.com/mathieudevos/2bdae70596aca711e50d1f2ff6d7b7cb)", August 2018
 
@@ -235,7 +239,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Gokan EKINCI, "[try-with-resources](https://gist.github.com/eau-de-la-seine/9e2e74d6369aef4a76aa50976e34de6d)", December 2018
 
-## Other possibilities
+### Other possibilities
 
 - Alex Hornbake, "[refuse. conditional return keyword](https://gist.github.com/alexhornbake/6a4c1c6a0f2a063da6dda1bf6ec0f5f3)", June 2019
 
@@ -252,7 +256,7 @@ Concepts that appear repeatedly among the suggestions below.
 - Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
 
 
-# Uncategorized
+## Uncategorized
 
 Please help categorize the rest of the proposals here.
 
@@ -268,7 +272,7 @@ Please help categorize the rest of the proposals here.
 
 - Konstantin, "[error handling for error-tree](https://github.com/Konstantin8105/Go2ErrorTree)", [Discyssion](https://github.com/golang/go/issues/32099) May 2019
 
-## Adding your feedback
+### Adding your feedback
 
 Please format all entries as below.
 

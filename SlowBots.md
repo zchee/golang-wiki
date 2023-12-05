@@ -1,4 +1,6 @@
-# SlowBots
+---
+title: SlowBots
+---
 
 The Go build system supports "SlowBots", which are a way to configure the TryBots (pre-submit builders) to add additional builders into the set of build configurations that TryBots normally run.
 
@@ -8,7 +10,7 @@ But sometimes that's not enough. SlowBots let you say that you're cool waiting a
 
 ## Using SlowBots
 
-Click "Choose Tryjobs" under the commit message and a dialog will appear. 
+Click "Choose Tryjobs" under the commit message and a dialog will appear.
 
 ![A red box indicating the location of the "Choose Tryjobs" button under the commit message.](https://github.com/golang/go/assets/1248668/5bfcb020-8cd2-4635-88a9-03efce4e69ba)
 

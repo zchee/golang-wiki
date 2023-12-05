@@ -1,4 +1,6 @@
-# Error Values: Frequently Asked Questions
+---
+title: "Error Values: Frequently Asked Questions"
+---
 
 The Go 2 [error values proposal](https://go.googlesource.com/proposal/+/master/design/29934-error-values.md) adds functionality to the [`errors`](https://tip.golang.org/pkg/errors) and [`fmt`](https://tip.golang.org/pkg/fmt) packages of the standard library for Go 1.13. There is also a compatibility package, [`golang.org/x/xerrors`](https://pkg.go.dev/golang.org/x/xerrors), for earlier Go versions.
 
@@ -6,7 +8,7 @@ We suggest using the `xerrors` package for backwards compatibility. When you no 
 
 ## How should I change my error-handling code to work with the new features?
 
-You need to be prepared that errors you get may be wrapped. 
+You need to be prepared that errors you get may be wrapped.
 
 - If you currently compare errors using `==`, use `errors.Is` instead. Example:
    ```
@@ -81,28 +83,28 @@ Since you have no clients, you aren't constrained by backwards compatibility. Bu
 - Giving client code access to underlying errors can help it make decisions, which can lead to better software.
 - Every error you expose becomes part of your API: your clients may come to rely on it, so you can't change it.
 
-For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors; as a package author, you make many decisions about whether a feature of your code is important for clients to know or an implementation detail. 
+For each error you return, you have to weigh the choice between helping your clients and locking yourself in. Of course, this choice is not unique to errors; as a package author, you make many decisions about whether a feature of your code is important for clients to know or an implementation detail.
 
 With errors, though, there is an intermediate choice: you can expose error details to people reading your code's error messages without exposing the errors themselves to client code. One way to do that is to  put the details in a string using `fmt.Errorf` with `%s` or `%v`. Another is to write a custom error type, add the details to the string returned by its `Error` method, and avoid defining an `Unwrap` method.
 
 ## I maintain a package that exports an error-checking predicate function. How should I adapt to the new features?
 
-Your package has a function or method `IsX(error) bool` that reports whether an error has some property. 
+Your package has a function or method `IsX(error) bool` that reports whether an error has some property.
 A natural thought would be to modify `IsX` to unwrap the error it is passed, checking the property for each error in the chain of wrapped errors. We advise against doing this: the change in behavior could break your users.
 
 Your situation is like that of the standard `os` package, which has several such functions. We recommend the approach we took there. The `os` package has several predicates, but we treated most of them the same. For concreteness, we'll look at `os.IsExist`.
 
 Instead of changing `os.IsExist`, we made `errors.Is(err, os.ErrExist)` behave like it, except that `Is` unwraps. (We did this by having `syscall.Errno` implement an `Is` method, as described in the documentation for [`errors.Is`](https://pkg.go.dev/errors/#Is).) Using `errors.Is` will always work correctly, because it will exist only in Go versions 1.13 and higher. For older versions of Go, you should recursively unwrap the error yourself, calling `os.IsExist` on each underlying error.
 
-This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them. 
+This technique only works if you have control of the errors being wrapped, so you can add `Is` methods to them.
 In that case, we recommend:
 - Don't change your `IsX(error) bool` function; do change its documentation to clarify that it does not unwrap.
-- If you don't already have one, add a global variable whose type implements `error` that represents the 
+- If you don't already have one, add a global variable whose type implements `error` that represents the
   condition that your function tests:
   ```
   var ErrX = errors.New("has property X")
   ```
-- Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument 
+- Add an `Is` method to the types for which `IsX` returns true. The `Is` method should return true if its argument
   equals `ErrX`.
 
 If you don't have control of all the errors that can have property X, you should instead consider adding another function that tests for the property while unwrapping, perhaps
@@ -126,7 +128,7 @@ If your type already exposes the error, write an `Unwrap` method.
 For example, perhaps your type looks like
 ```
 type MyError struct {
-    Err error   
+    Err error
     // other fields
 }
 
@@ -140,6 +142,8 @@ func (e *MyError) Unwrap() error { return e.Err }
 
 Your type will then work correctly with the `Is` and `As` functions of `errors` and `xerrors`.
 
-We've done that for [`os.PathError`](https://tip.golang.org/pkg/os/#PathError.Unwrap) and other, similar types in the standard library. 
+We've done that for [`os.PathError`](https://tip.golang.org/pkg/os/#PathError.Unwrap) and other, similar types in the standard library.
 
 It's clear that writing an `Unwrap` method is the right choice if the nested error is exported, or otherwise visible to code outside your package, such as via a method like `Unwrap`.  But if the nested error is not exposed to outside code, you probably should keep it that way. Making the error visible by returning it from `Unwrap` will enable your clients to depend on the type of the nested error, which can expose implementation details and constrain the evolution of your package. See the discussion of `%w` above for more.
+
+

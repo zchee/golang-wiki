@@ -1,3 +1,7 @@
+---
+title: Ubuntu
+---
+
 > The Go project's official download page is at [https://go.dev/dl](https://go.dev/dl/).
 >
 > After downloading a binary release suitable for your system, you can install go by following the official installation instructions at [https://go.dev/doc/install](https://go.dev/doc/install#install).
@@ -33,3 +37,4 @@ Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-c
 curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
 ```
 > Getgo will install the Go distribution (tools & stdlib) to "/.go" inside your home directory.
+

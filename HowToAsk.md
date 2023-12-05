@@ -1,4 +1,8 @@
-# A quick introduction
+---
+title: HowToAsk
+---
+
+## A quick introduction
 
 Imagine you want to know how to get from "Old street" to "New street". You call a random person to get help and you ask "What is the fastest way I can get from Old street 19 to New street 3?". Would the random person be able to help you?
 
@@ -8,7 +12,7 @@ Those questions around the immediate question "How do I X?" is the context of th
 
 In person it's easy to ask those questions and can be done in rapid succession, although on the forums this will result in a lot of back-and-forth questions that can be avoided. So, how to properly give the context to the problem?
 
-# How to ask a good question
+## How to ask a good question
 
 People on the forums have limited time available. So, to speed things up, here is a small template for asking a question that will get better answers and answers quicker:
 
@@ -110,3 +114,4 @@ Summary:<br>
 
 </li><li><a href='http://www.catb.org/esr/faqs/smart-questions.html'>Smart questions</a>
 </li><li><a href='http://www.sscce.org/'>Short, Self Contained, Correct (Compilable), Example</a>
+

@@ -1,3 +1,7 @@
+---
+title: GerritBot
+---
+
 GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review. It was created because the Go team does all its reviews in Gerrit, but we'd like to allow a more common workflow for contributing code via GitHub PRs.
 
 Table of Contents
@@ -52,7 +56,7 @@ Yes, this is highly encouraged, and a great way to familiarize yourself with Ger
 
 You can browse the currently open CLs [here](https://go-review.googlesource.com/q/status:open+-is:wip) and subscribe for updates to interesting CLs by clicking the star icon.
 
-You don't need to be an expert in the code to help with initial review triage. See the section on [helping to review CLs](https://github.com/golang/go/wiki/Gardening/#pending-cls) in the [Gardening](https://github.com/golang/go/wiki/Gardening) wiki page for more details.
+You don't need to be an expert in the code to help with initial review triage. See the section on [helping to review CLs](/wiki/Gardening/#pending-cls) in the [Gardening](/wiki/Gardening) wiki page for more details.
 
 ### I heard Gerrit requires one commit per change. Can I upload multiple commits to my PR?
 

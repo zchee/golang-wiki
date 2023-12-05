@@ -1,3 +1,7 @@
+---
+title: gopherbot
+---
+
 This page outlines all interactive gopherbot functionality. Most of the tasks gopherbot performs do not require human intervention, however it is starting to learn new tricks.
 
 ## Adding/Removing Labels

@@ -1,3 +1,7 @@
+---
+title: GoForCPPProgrammers
+---
+
 Go is a systems programming language intended to be a general-purpose systems language, like C++.  These are some notes on Go for experienced C++ programmers. This document discusses the differences between Go and C++, and says little to nothing about the similarities.
 
 An important point to keep in mind is that there are some fundamental differences in the thought processes required to be proficient in the two respective languages.  Most formidably, C++'s object model is based on classes and class hierarchies while Go's object model is based on interfaces (and is essentially flat).  Consequently, C++ design patterns rarely translate verbatim to Go.  To program effectively in Go, one has to consider the _problem_ being solved, not the mechanisms one might use in C++ to solve the problem.

@@ -1,4 +1,6 @@
-# Github Access
+---
+title: GithubAccess
+---
 
 There are two types of Github access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Github & Gerrit review process for some time before requesting access.
 
@@ -25,3 +27,4 @@ To get request either of the access types above, file a bug (https://github.com/
 ## Once you have access
 
 Go help garden! See https://go.dev/wiki/Gardening.
+

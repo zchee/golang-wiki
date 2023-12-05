@@ -1,4 +1,8 @@
-# Summary
+---
+title: Iota
+---
+
+## Summary
 
 Go's ` iota ` identifier is used in ` const ` declarations to simplify definitions of incrementing numbers. Because it can be used in expressions, it provides a generality beyond that of simple enumerations.
 
@@ -8,7 +12,7 @@ Iota: https://go.dev/ref/spec#Iota
 
 Constant declarations: https://go.dev/ref/spec#Constant_declarations
 
-# Examples
+## Examples
 
 The official spec has two great examples:
 
@@ -36,6 +40,6 @@ Weekday enum example - How iota is calculated - From [Learn Go Programming Blog]
 
 ![How iota works](https://cdn-images-1.medium.com/max/2000/1*sfAHT3zk-WjxSDRIDMpdaA.gif)
 
-# Articles
+## Articles
 
 * [Ultimate Visual Guide to Go Enums and Iota](https://blog.learngoprogramming.com/golang-const-type-enums-iota-bc4befd096d3) _2017-10-09_

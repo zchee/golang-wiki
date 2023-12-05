@@ -1,4 +1,6 @@
-# Go Code Review Comments
+---
+title: Go Code Review Comments
+---
 
 This page collects common comments made during reviews of Go code, so
 that a single detailed explanation can be referred to by shorthands.
@@ -6,7 +8,7 @@ This is a laundry list of common style issues, not a comprehensive style guide.
 
 You can view this as a supplement to [Effective Go](https://go.dev/doc/effective_go).
 
-Additional comments related to testing can be found at [Go Test Comments](https://github.com/golang/go/wiki/TestComments)
+Additional comments related to testing can be found at [Go Test Comments](/wiki/TestComments)
 
 Google has published a longer [Go Style Guide](https://google.github.io/styleguide/go/decisions).
 
@@ -425,7 +427,7 @@ boundaries are, not to start counting lines.
 
 See https://go.dev/doc/effective_go#mixed-caps. This applies even when it breaks conventions in other languages. For example an unexported constant is `maxLength` not `MaxLength` or `MAX_LENGTH`.
 
-Also see [Initialisms](https://github.com/golang/go/wiki/CodeReviewComments#initialisms).
+Also see [Initialisms](/wiki/CodeReviewComments#initialisms).
 
 ## Named Result Parameters
 
@@ -597,7 +599,7 @@ if got != tt.want {
 
 Note that the order here is actual != expected, and the message uses that order too. Some test frameworks encourage writing these backwards: 0 != x, "expected 0, got x", and so on. Go does not.
 
-If that seems like a lot of typing, you may want to write a [[table-driven test|TableDrivenTests]].
+If that seems like a lot of typing, you may want to write a [table-driven test](TableDrivenTests).
 
 Another common technique to disambiguate failing tests when using a test helper with different input is to wrap each caller with a different TestFoo function, so the test fails with that name:
 
@@ -615,3 +617,5 @@ Variable names in Go should be short rather than long.  This is especially true 
 The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (`i`, `r`). More unusual things and global variables need more descriptive names.
 
 See also the longer discussion in [the Google Go Style Guide](https://google.github.io/styleguide/go/decisions#variable-names).
+
+

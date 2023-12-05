@@ -1,4 +1,8 @@
-# Introduction
+---
+title: InstallFromSource
+---
+
+## Introduction
 
 This is a companion to https://go.dev/doc/install/source providing additional instructions for various operating systems.
 
@@ -25,3 +29,4 @@ If you want to build 32-bit binaries on a 64-bit system you'll need both
 On Windows, install ` gcc ` with
 [TDM-GCC](http://tdm-gcc.tdragon.net/). or try [TDM-GCC Sourceforge link](https://sourceforge.net/projects/tdm-gcc/).
 (Make sure you add its ` bin ` subdirectory to your ` PATH `.) Go does not support the Cygwin toolchain.
+

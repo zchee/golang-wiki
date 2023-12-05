@@ -1,4 +1,6 @@
-# Gerrit Access
+---
+title: Gerrit Access
+---
 
 There are two types of Gerrit access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Gerrit code review process for some time before requesting access.
 
@@ -23,7 +25,7 @@ Approvers can review and submit code changes (CLs), subject to the review rules 
 
 Every CL requires _both_ a code review (Code-Review+2) from an approver and the involvement of two Google employees using Google-secured computers, either as code uploader or as a reviewer voting at least Code-Review+1. Requiring multiple people ensures that code cannot be submitted unilaterally from a single compromised account. The Google employee and hardware requirements further raise the bar: since CLs in many repos are essentially published by Google for download by users at commit time, the Google involvement is to approve this publication. Once a review has a Code-Review+2 and the necessary Google involvement, it can be submitted, by any approver. All these rules are enforced by the Gerrit server.
 
-A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://go.dev/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](https://github.com/golang/go/wiki/CommitMessage) (“For #NNN.”).
+A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://go.dev/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](/wiki/CommitMessage) (“For #NNN.”).
 
 When adding a Code-Review+2 vote, it is encouraged to also add Run-TryBots+1 and Auto-Submit+1: see the [auto-submit](#auto-submit) section below for details.
 
@@ -62,3 +64,4 @@ Decisions about granting access are made by the Go release team at Google. If yo
 ## Once you have access
 
 Go help garden! See https://go.dev/wiki/Gardening.
+

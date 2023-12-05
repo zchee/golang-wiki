@@ -1,4 +1,6 @@
-# Go CSS Coding Guidelines
+---
+title: Go CSS Coding Guidelines
+---
 
 **Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CSSStyleGuide+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
@@ -218,3 +220,5 @@ Add height and width attributes to images in the html markup to help minimize la
 ```
 <img src="url/to/image.png" height="240" width="160">
 ```
+
+

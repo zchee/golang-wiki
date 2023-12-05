@@ -1,3 +1,7 @@
+---
+title: CommonMistakes
+---
+
 Table of Contents
 =================
 
@@ -140,3 +144,4 @@ func (v *val) MyMethod() {
 	fmt.Println(v)
 }
 ```
+

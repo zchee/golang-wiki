@@ -1,4 +1,8 @@
-# Introduction
+---
+title: LinuxKernelSignalVectorBug
+---
+
+## Introduction
 
 If you reached this page because of a message like this printed by a Go program:
 
@@ -15,7 +19,7 @@ If you understand why your program crashed, then you can ignore this page.
 
 Otherwise, this page will explain what the kernel bug is, and includes a C program that you can use to check whether your kernel has the bug.
 
-# Bug description
+## Bug description
 
 A bug was introduced in Linux kernel version 5.2: if a signal is delivered to a thread, and delivering the signal requires faulting in pages of the thread signal stack, then AVX YMM registers may be corrupted upon returning from the signal to the program.
 If the program was executing some function that uses the YMM registers, that function can behave unpredictably.
@@ -40,7 +44,7 @@ And, some distros are still compiling their kernel with GCC 8, in which case the
 
 In other words, even if your kernel is in the vulnerable range, there is a good chance that it is not vulnerable to the bug.
 
-# Bug test
+## Bug test
 
 To test whether your kernel has the bug, you can run the following C program (click on "Details" to see the program).
 On a buggy kernel, it will fail almost immediately.
@@ -64,16 +68,16 @@ On a kernel without the bug, it will run for 60 seconds and then exit with a 0 s
 //
 // 3. Context switches. Having a single task isn't sufficient.
 
-#include <errno.h>
-#include <signal.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <pthread.h>
-#include <sys/mman.h>
-#include <sys/prctl.h>
-#include <sys/wait.h>
+##include <errno.h>
+##include <signal.h>
+##include <stdio.h>
+##include <stdlib.h>
+##include <string.h>
+##include <unistd.h>
+##include <pthread.h>
+##include <sys/mman.h>
+##include <sys/prctl.h>
+##include <sys/wait.h>
 
 static int sigs;
 
@@ -229,7 +233,7 @@ int main() {
 
 </details>
 
-# What to do
+## What to do
 
 If your kernel version is in the range that may contain the bug, run the C program above to see if it fails.
 If it fails, your kernel is buggy.
@@ -254,10 +258,10 @@ If you cannot increase the `mlock` limit, then you can make the bug less likely 
 However, this just makes your program less likely to suffer memory corruption (because it reduces the number of signals that your program will receive).
 The bug is still present, and memory corruption may still occur.
 
-# Questions?
+## Questions?
 
 Ask on the mailing list golang-nuts@googlegroups.com, or on any Go forum as described at [Questions](https://go.dev/wiki/Questions).
 
-# Details
+## Details
 
 To see more details on how the bug affects Go programs and how it was detected and understood, see [#35777](https://go.dev/issue/35777) and [#35326](https://go.dev/issue/35326).

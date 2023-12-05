@@ -1,3 +1,7 @@
+---
+title: SliceTricks
+---
+
 Since the introduction of the ` append ` built-in, most of the functionality of the ` container/vector ` package, which was removed in Go 1, can be replicated using ` append ` and ` copy `.
 
 Since the introduction of generics, generic implementations of several of these functions are available in the [`golang.org/x/exp/slices`](https://pkg.go.dev/golang.org/x/exp/slices) package.

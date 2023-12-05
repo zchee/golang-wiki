@@ -1,8 +1,12 @@
-# Introduction
+---
+title: Go on ARM
+---
+
+## Introduction
 
 Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, OpenBSD and NetBSD.
 
-# Supported architectures
+## Supported architectures
 
 Go supports the following ARM architectural families.
 
@@ -16,29 +20,29 @@ Go supports the following ARM architectural families.
 
 Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile the program from source on the target machine. In cross compilation situations, it is recommended that you always set an appropriate GOARM value along with GOARCH.
 
-# Supported operating systems
+## Supported operating systems
 
 * ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
 * ARM on Darwin: ARMv7 is required.
 * ARM on FreeBSD, OpenBSD, and NetBSD: ARMv6K or above is required.
 
-# Recommended Go version
+## Recommended Go version
 
 Go has a mature support for ARM systems; so, just like for other architectures, use the latest stable version (eg: Go 1.18 at the time of writing).
 
-# Tips and tricks
+## Tips and tricks
 
-## /tmp and tmpfs
+### /tmp and tmpfs
 The ` go ` build tool uses ` /tmp ` when compiling and testing, this can cause heavy wear and tear if ` /tmp ` lives on your SD card. To minimise this effect, either ` export TMPDIR ` to somewhere that lives on another filesystem. Alternatively if you have lots of physical memory you can mount a swap backed tmpfs filesystem on /tmp by adding this line to ` /etc/fstab `
 
 ```
 tmpfs /tmp tmpfs nodev,nosuid,mode=1777 0 0
 ```
 
-## Swap
+### Swap
 Building Go from source requires at least 256mb of RAM. Running the tests requires at least 256mb of memory and at least 512mb of swap space.
 
-## Test failures due to resource starvation
+### Test failures due to resource starvation
 The runtime tests create many native operating system threads which at the default of 8mb per thread can exhaust an ARM system with 32bit user mode address space (especially on multicore ARM systems such as the Raspberry PI 2). To prevent the runtime test from failing you may need lower the thread stack limit:
 
 ```sh
@@ -48,7 +52,7 @@ The runtime tests create many native operating system threads which at the defau
 ```
 See [Dave Cheney's blog post about building Go on Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi) for details.
 
-## Build failures due to lack of memory
+### Build failures due to lack of memory
 The Go tool will try to keep all your cpu cores busy when installing packages (during make.bash),
 this is normally preferable on PCs where memory is abundant.
 However, some powerful multicore ARM machines don't have enough memory to support parallel
@@ -60,24 +64,24 @@ taskset 1 ./make.bash # use 3 if you want to use two cores
 Note: the 1 here is a bitmask for cpu affinity and it's not the number of cpu cores you're
 willing to use, please refer to ` taskset(1) ` manual for details.
 
-# Known issues
+## Known issues
 
-## Lack of floating point hardware on ARMv5
+### Lack of floating point hardware on ARMv5
 The major issue with ARMv5 is the lack of floating point support in common ARMv5 hardware<sup>†</sup>. When compiled with the GOARM=5 environment variable, the 5l linker will insert a call to ` _sfloat ` before any block of floating point instructions to branch into the floating point emulator. This means that binaries produced with a Go installation that was compiled with soft float support will work on all supported architectures, but builds compiled without soft floating point support will not work on ARMv5.
 
 <sup>†</sup> This isn't strictly true, there exist ARMv5 implementations which have VFP1 floating point. However the compiler doesn't support VFP1 yet.
 
-## html/template and test/nilptr.go test fail on HTC Android
+### html/template and test/nilptr.go test fail on HTC Android
 html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](http://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill  the application after 10 segfaults.
 
-## Potential kernel bug in 2.6.32-5-kirkwood on QNAP 219P
+### Potential kernel bug in 2.6.32-5-kirkwood on QNAP 219P
 See [Issue 5466](https://github.com/golang/go/issues/5466) for details. Updating to 3.2.0-4-kirkwood solved the issue.
 
-# Success stories
+## Success stories
 
 ARM hardware comes in a myriad of shapes and sizes. If you've had a success story building and running Go on your Arm system, please detail your results here.
 
-## Netgear Stora
+### Netgear Stora
 
 Architecture: ARMv5
 
@@ -89,7 +93,7 @@ Instructions for installing Debian on your Stora can be found on the OpenStora w
 
 > _-- dave cheney_
 
-## Qnap TS-119P II
+### Qnap TS-119P II
 
 Architecture: ARMv5
 
@@ -101,7 +105,7 @@ The kirkwood platform is supported by the native debian installer. http://www.cy
 
 > _-- dave cheney_
 
-## Pandaboard
+### Pandaboard
 
 Architecture: ARMv7
 
@@ -113,7 +117,7 @@ Instructions and SD card image can be found on on the Ubuntu wiki, https://wiki.
 
 > _-- dave cheney_
 
-## BeagleBone
+### BeagleBone
 
 Architecture: ARMv7 single core, Cortex-A8, 256MB RAM, 720 MHz
 
@@ -127,14 +131,14 @@ I've cross compiled for ARM with 5g from a Mac and so far I haven't run into any
 
 > _-- hans stimer_
 
-### Zyxel NSA 310
+#### Zyxel NSA 310
 
 Architecture: ARM5
 Platform: Debian Wheeze
 
 Successfuly built default branch, going to write fan control daemon for this device in golang.
 
-### Raspberry Pi
+#### Raspberry Pi
 
 * [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
@@ -298,7 +302,7 @@ ok  	github.com/feyeleanor/gospeed	417.296s
 _-- anthony starks_
 
 
-## Raspberry Pi 2
+### Raspberry Pi 2
 
 * [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
@@ -604,7 +608,7 @@ BenchmarkUint32Mod106956295-4           20000000           100 ns/op
 ok      runtime 562.289s
 ```
 
-## Raspberry Pi Zero
+### Raspberry Pi Zero
 
 Architecture: 1 GHz ARM1176JZF-S, running at 700Mhz; 512MB RAM
 
@@ -912,7 +916,7 @@ BenchmarkUint32Mod106956295           10000000         131 ns/op
 ok    runtime 566.969s
 ```
 
-## ODROID-X
+### ODROID-X
 
 Architecture: ARMv7 quad-core Cortex-A9 (Samsung Exynos 4412 1.4GHz), 1GB RAM, Mali graphics (untested).
 
@@ -922,7 +926,7 @@ Go pre-1.1 compiles out of the box. The four cores make it particularly suited t
 
 _-- Rémy Oudompheng_
 
-## BananaPi
+### BananaPi
 
 [BananaPi](http://banana-pi.org) has a few enhanced hardware components compare with Raspberry Pi.
 
@@ -938,8 +942,8 @@ _-- Rémy Oudompheng_
 
 ```
 root@bpi01:/data/go13/src# cat ./buildgo.bash
-#!/bin/bash
-# use 1 CPU to avoid out of memory compilation issue.
+##!/bin/bash
+## use 1 CPU to avoid out of memory compilation issue.
 time taskset 2 ./make.bash
 
 root@bpi01:/data/go13/src# ./buildgo.bash
@@ -957,7 +961,7 @@ root@bpi01:/data/go1.3/src#
 
 _--T.J. Yang_
 
-## AppliedMicro X-Gene (ARMv8)
+### AppliedMicro X-Gene (ARMv8)
 
 Architecture: ARMv8 (64-bit) 8-core, 2.4GHz, 16GB RAM
 
@@ -965,7 +969,7 @@ Operating Systems: Linux, Fedora 21
 
 You will need to cross-compile a toolchain using bootstrap.bash. After you copy it to the arm64 system and set `GOROOT_BOOTSTRAP`, you can build go natively.
 
-## 96Boards HiKey (ARMv8)
+### 96Boards HiKey (ARMv8)
 
 Architecture: ARMv8 (64-bit) 8-core, 1.2GHz, 1GB RAM
 
@@ -979,7 +983,7 @@ As mentioned above, use bootstrap.sh (e.g. on Ubuntu AMD64) for ARM64, then tran
 
 _--Andrew Cencini_ (andrew@vapor.io)
 
-## Scaleway C1 Server
+### Scaleway C1 Server
 
 Architecture: armv7l
 
@@ -993,7 +997,7 @@ I used the following guide: [Building Go 1.5 on the Raspberry Pi](http://dave.ch
 
 _--Laurent Debacker
 
-## Jetson Nano
+### Jetson Nano
 
 Jetson Nano™ from NVIDIA® is a high performance low-power single board computer built for edge Artificial Intelligence computing. It has Quad-core ARM57 based CPU clocked at 1.43 Ghz, 128-core Maxwell based GPU and 4GB of LPDDR4 memory with 25.6 GB/s bandwidth.
 
@@ -1563,7 +1567,7 @@ ok  	runtime		1331.420s
 
 --Abishek Muthian ([@heavyinfo](https://twitter.com/heavyinfo))
 
-## Apple silicon
+### Apple silicon
 
 Cross-compiling Go applications
 
@@ -1593,3 +1597,4 @@ Export the following environment variables before cross compiling go apps for ma
     $ GOOS=darwin GOARCH=arm64 go build <app>
 
  Copy the generated arm64 executable to target machine (macOS/arm64) and run
+

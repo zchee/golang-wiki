@@ -1,3 +1,7 @@
+---
+title: Resolving Problems From Modified Module Path
+---
+
 ## Unexpected module path
 
 A user working on their project, `my-go-project`, might run into an error during `go get -u` as such:
@@ -164,4 +168,5 @@ This example explained the process for removing historical trails when there exi
 Each of these graphs involve cycles (the latter example) or interconnected modules (the former example) involving four modules, instead of the simple two module example we saw earlier. The process is largely the same, though, but this time in step 3 and 5 we're going to bump all four modules to non-existent future versions of each other, and similarly in steps 4 and 6 we're going to test all four modules, and in step 7 fix the go.sum of all four modules.
 
 More generally, the process above holds for any group of interconnected modules involving any n modules: each major step just involves n modules acting in coordination. 
+
 

@@ -1,3 +1,7 @@
+---
+title: GoGetProxyConfig
+---
+
 Setting proxies for source code used by ` go get ` (listed in GoGetTools)
 
 ## Windows command line

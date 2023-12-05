@@ -1,4 +1,6 @@
-# Debugging performance issues in Go programs
+---
+title: Debugging performance issues in Go programs
+---
 
 -- originally written by Dmitry Vyukov
 
@@ -675,3 +677,4 @@ the program. But we hope that the tools will be a valuable addition to your
 toolbox, that you can use to at least analyze and understand what happens.
 [Profiling Go Programs](https://go.dev/blog/profiling-go-programs) is a good
 tutorial on usage of CPU and memory profilers to optimize a simple program.
+

@@ -1,3 +1,7 @@
+---
+title: Blogs
+---
+
 A set of blogs dedicated to Go.
 
 NOTE: Please don't add individual blog entries to this page. Those belong in [articles](Articles) instead.
@@ -84,3 +88,4 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 * [No Headback](http://xargin.com/)
 * [Go 语言基础](https://github.com/weirubo/learn_go)
 * [chai2010 的博客](https://chai2010.cn/)
+

@@ -1,3 +1,7 @@
+---
+title: Go-1.6-release-party
+---
+
 ### Party recap on tweets
 
 Missed or missing the party? Here is a flashback for you: https://storify.com/gobridge/go-16v-world-release-party
@@ -80,7 +84,7 @@ _Organisers, once you've added your group, consider tweeting out a link to the p
 
 Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, discuss it online, and keep up to date. 
 
-As always, if you get stuck, or need help, please [contact the organisers directly](https://github.com/golang/go/wiki/Go-1.6-release-party#no-seriously-whos-organising-this), we're here to help.
+As always, if you get stuck, or need help, please [contact the organisers directly](/wiki/Go-1.6-release-party#no-seriously-whos-organising-this), we're here to help.
 
 ##### Slack Channel
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://gophersinvite.herokuapp.com/).

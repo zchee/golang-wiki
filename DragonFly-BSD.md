@@ -1,4 +1,6 @@
-# Go on DragonFly BSD
+---
+title: Go on DragonFly BSD
+---
 
 From https://github.com/golang/go/issues/34958#issuecomment-543852995 :
 
@@ -17,3 +19,4 @@ From https://github.com/golang/go/issues/34958#issuecomment-543852995 :
 | 3.6 (EOL)               | amd64, 386        | Go 1.3                      | Go 1.4.3                  |
 
 _*_ Go 1.5 or above is recommended.
+

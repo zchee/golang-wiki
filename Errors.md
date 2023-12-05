@@ -1,4 +1,6 @@
-# Errors
+---
+title: Errors
+---
 
 Errors are indicated by returning an `error` as an additional return value from a function. A `nil` value means that there was no error.
 
@@ -100,3 +102,4 @@ func foo() {
   * Errors (specification): https://go.dev/ref/spec#Errors
   * Package `errors`: https://pkg.go.dev/errors/
   * Type switches: https://go.dev/ref/spec#TypeSwitchStmt
+

@@ -1,3 +1,7 @@
+---
+title: ExperienceReports
+---
+
 This page collects experience reports about problems with Go that might inform our design of solutions to those problems. These reports should focus on the _problems_: they should not focus on and need not propose solutions. To propose solutions, see the [proposal process](https://go.dev/s/proposal).
 
 We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://go.dev/help/](https://go.dev/help/) for resources.)
@@ -257,3 +261,4 @@ a 'class' keyword that simply makes a struct to also be an interface to make por
 ## Vendoring
   - Jeremy Loy, "[Go Modules and Vendoring](https://github.com/golang/go/issues/27227#issuecomment-420428896)", September 2018.
   - Ian Davis, "[Vendoring for self-contained builds](https://github.com/golang/go/issues/27227#issuecomment-459171581)", January 2019
+

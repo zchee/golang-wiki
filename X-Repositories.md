@@ -1,3 +1,7 @@
+---
+title: X-Repositories
+---
+
 The `golang.org/x/...` repositories are part of the Go Project but outside the main Go tree.
 
 They are developed under looser [compatibility requirements](https://go.dev/doc/go1compat) than the Go core.  In general, they will support the previous two releases and tip.
@@ -24,3 +28,4 @@ Install them with "go get".
   * [[docs](https://pkg.go.dev/golang.org/x/exp)] [[source](https://go.googlesource.com/exp)] ` golang.org/x/exp ` — experimental code (handle with care).
 
 [List of all packages in sub-repositories](https://pkg.go.dev/golang.org/x)
+

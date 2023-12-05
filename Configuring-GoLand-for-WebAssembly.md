@@ -1,4 +1,8 @@
-### [← Back](https://github.com/golang/go/wiki/WebAssembly) to the main WebAssembly page.
+---
+title: Configuring-GoLand-for-WebAssembly
+---
+
+### [← Back](/wiki/WebAssembly) to the main WebAssembly page.
 
 # Configuring GoLand for WebAssembly (Wasm) projects
 
@@ -48,4 +52,4 @@ That will let you recompile the .wasm file by just launching `Run` (<kbd>Shift</
 
 Finished, your GoLand setup should now be complete.
 
-### [← Back](https://github.com/golang/go/wiki/WebAssembly) to the main WebAssembly page.
+### [← Back](/wiki/WebAssembly) to the main WebAssembly page.

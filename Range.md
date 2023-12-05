@@ -1,4 +1,6 @@
-# Range Clauses
+---
+title: Range Clauses
+---
 
 Spec: https://go.dev/ref/spec#For_statements
 

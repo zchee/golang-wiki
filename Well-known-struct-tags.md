@@ -1,4 +1,7 @@
-# Well-known struct tags
+---
+title: Well-known struct tags
+---
+
 ## Background
 
 Go offers [struct tags](https://go.dev/ref/spec#Tag) which are discoverable via reflection. These enjoy a wide range of use in the standard library in the JSON/XML and other encoding packages.
@@ -48,4 +51,5 @@ url       | https://github.com/google/go-querystring
 feature   | https://github.com/nikolaydubina/go-featureprocessing
 graphql   | https://github.com/samsarahq/thunder
 egg       | https://github.com/andrewwphillips/eggql
+
 

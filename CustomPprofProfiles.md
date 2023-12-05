@@ -1,3 +1,7 @@
+---
+title: CustomPprofProfiles
+---
+
 Originally published at https://rakyll.org/custom-profiles/.
 
 ----

@@ -1,4 +1,6 @@
-# Go Conferences and Major Events
+---
+title: Go Conferences and Major Events
+---
 
 ## Upcoming
 
@@ -171,3 +173,5 @@ Please keep all items in reverse chronological order (most recent first)
 | | **2013** | | |
 | Go Conference Tokyo | 2013-10-14 | Tokyo, Japan | https://gocon.connpass.com/event/3510/ |
 | Go Conference Tokyo | 2013-04-13 | Tokyo, Japan | https://gocon.connpass.com/event/1906/ |
+
+

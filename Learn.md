@@ -1,3 +1,7 @@
+---
+title: Learn
+---
+
 In addition to the resources available [at golang.org](https://go.dev/doc/#learning) there are a range of community-driven initiatives:
 
   * [Boot.dev's "Learn Go"](https://boot.dev/learn/learn-golang) - Code in the browser exercises with answer checking

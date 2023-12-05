@@ -1,3 +1,7 @@
+---
+title: Watchflakes
+---
+
 Watchflakes is a program that triages apparent test flakes on the build.golang.org dashboards.
 
 An apparent test flake is a failure that:
@@ -177,3 +181,4 @@ This script in #55257 matches compiler failures in any build, no matter what pac
 It uses `default` for the same reasons as the previous example: so that issues matching specific
 compiler errors can still be filed, but failures not matching other issues are grouped into #55257
 instead of creating new issues assigned to the specific test that happened to trigger the problem.
+

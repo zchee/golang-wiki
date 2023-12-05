@@ -1,26 +1,28 @@
-# Go Test Comments
+---
+title: Go Test Comments
+---
 
 This page is a supplement to
-[Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments),
+[Go Code Review Comments](/wiki/CodeReviewComments),
 but is targeted specifically to test code.
 
 **Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+TestComments+change&body=&labels=Documentation)
 before editing this page**, even _minor_ ones. Many people have opinions and
 this is not the place for edit wars.
 
-* [Assert Libraries](https://github.com/golang/go/wiki/TestComments#assert-libraries)
-* [Choose Human-Readable Subtest Names](https://github.com/golang/go/wiki/TestComments#choose-human-readable-subtest-names)
-* [Compare Stable Results](https://github.com/golang/go/wiki/TestComments#compare-stable-results)
-* [Compare Full Structures](https://github.com/golang/go/wiki/TestComments#compare-full-structures)
-* [Equality Comparison and Diffs](https://github.com/golang/go/wiki/TestComments#equality-comparison-and-diffs)
-* [Got before Want](https://github.com/golang/go/wiki/TestComments#got-before-want)
-* [Identify the Function](https://github.com/golang/go/wiki/TestComments#identify-the-function)
-* [Identify the Input](https://github.com/golang/go/wiki/TestComments#identify-the-input)
-* [Keep Going](https://github.com/golang/go/wiki/TestComments#keep-going)
-* [Mark Test Helpers](https://github.com/golang/go/wiki/TestComments#mark-test-helpers)
-* [Print Diffs](https://github.com/golang/go/wiki/TestComments#print-diffs)
-* [Table-Driven Tests vs Multiple Test Functions](https://github.com/golang/go/wiki/TestComments#table-driven-tests-vs-multiple-test-functions)
-* [Test Error Semantics](https://github.com/golang/go/wiki/TestComments#test-error-semantics)
+* [Assert Libraries](/wiki/TestComments#assert-libraries)
+* [Choose Human-Readable Subtest Names](/wiki/TestComments#choose-human-readable-subtest-names)
+* [Compare Stable Results](/wiki/TestComments#compare-stable-results)
+* [Compare Full Structures](/wiki/TestComments#compare-full-structures)
+* [Equality Comparison and Diffs](/wiki/TestComments#equality-comparison-and-diffs)
+* [Got before Want](/wiki/TestComments#got-before-want)
+* [Identify the Function](/wiki/TestComments#identify-the-function)
+* [Identify the Input](/wiki/TestComments#identify-the-input)
+* [Keep Going](/wiki/TestComments#keep-going)
+* [Mark Test Helpers](/wiki/TestComments#mark-test-helpers)
+* [Print Diffs](/wiki/TestComments#print-diffs)
+* [Table-Driven Tests vs Multiple Test Functions](/wiki/TestComments#table-driven-tests-vs-multiple-test-functions)
+* [Test Error Semantics](/wiki/TestComments#test-error-semantics)
 
 ## Assert Libraries
 
@@ -46,7 +48,7 @@ if obj == nil || obj.Type != "blogPost" || obj.Comments != 2 || obj.Body == "" {
 }
 ```
 
-Assert libraries make it too easy to write imprecise tests and inevitably end up 
+Assert libraries make it too easy to write imprecise tests and inevitably end up
 duplicating features already in the language, like expression evaluation,
 comparisons, sometimes even more. Strive to write tests that are precise both
 about what went wrong and what went right, and make use of Go itself instead of
@@ -78,11 +80,11 @@ equality (e.g. if one of the fields is an `io.Reader`), tweaking a
 [`cmp.Diff`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Diff) or
 [`cmp.Equal`](https://pkg.go.dev/github.com/google/go-cmp/cmp#Equal) comparison
 with [cmpopts](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts) options
-such as [`cmpopts.IgnoreInterfaces`](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts#IgnoreInterfaces) 
+such as [`cmpopts.IgnoreInterfaces`](https://pkg.go.dev/github.com/google/go-cmp/cmp/cmpopts#IgnoreInterfaces)
 may meet your needs ([example](https://go.dev/play/p/vrCUNVfxsvF));
 otherwise, this technique just won't work, so do whatever works.
 
-If your function returns multiple return values, you don't need to wrap those in 
+If your function returns multiple return values, you don't need to wrap those in
 a struct before comparing them. Just compare the return values individually and
 print them.
 
@@ -106,7 +108,7 @@ data structure.
 ## Equality Comparison and Diffs
 
 The `==` operator evaluates equality using the
-[language-defined comparisons](https://go.dev/ref/spec#Comparison_operators). 
+[language-defined comparisons](https://go.dev/ref/spec#Comparison_operators).
 Values it can compare include numeric, string, and pointer values and structs
 with fields of those values. In particular, it determines two pointers to be
 equal only if they point to the same variable.
@@ -138,7 +140,7 @@ is "`YourFunc(%v) = %v, want %v`".
 For diffs, directionality is less apparent, and thus it is important to include
 a key to aid in interpreting the failure. See [Print Diffs](#print-diffs).
 
-Whichever order you use in your failure messages, you should explicitly indicate 
+Whichever order you use in your failure messages, you should explicitly indicate
 the ordering as a part of the failure message, because existing code is
 inconsistent about the ordering.
 
@@ -184,12 +186,12 @@ those comparisions.
 
 `t.Fatal` is usually only appropriate when some piece of test setup fails,
 without which you cannot run the test at all. In a table-driven test, `t.Fatal`
-is appropriate 
+is appropriate
 for failures that set up the whole test function before the test loop. Failures
 that affect a single entry in the test table, which make it impossible to
 continue with that entry, should be reported as follows:
 
-*   If you're not using `t.Run` subtests, you should use `t.Error` followed by a 
+*   If you're not using `t.Run` subtests, you should use `t.Error` followed by a
     `continue` statement to move on to the next table entry.
 *   If you're using subtests (and you're inside a call to `t.Run`), then
     `t.Fatal` ends the current subtest and allows your test case to progress to
@@ -244,11 +246,11 @@ print the diff.
 
 ## Table-Driven Tests vs Multiple Test Functions
 
-[Table-driven](https://github.com/golang/go/wiki/TableDrivenTests) tests should
+[Table-driven](/wiki/TableDrivenTests) tests should
 be used whenever many different test cases can be tested using similar testing
 logic, for example when testing whether the actual output of a function is equal
-to the expected output [[example]](https://github.com/golang/go/wiki/TableDrivenTests#example-of-a-table-driven-test), 
-or when testing whether the outputs of a function always conform to the same set 
+to the expected output [example](TableDrivenTests#example-of-a-table-driven-test),
+or when testing whether the outputs of a function always conform to the same set
 of invariants.
 
 When some test cases need to be checked using different logic from other test
@@ -259,7 +261,7 @@ output check for the right kind of input. If they have different logic but
 identical setup, a sequence of subtests within a single test function might
 also make sense.
 
-You can combine table-driven tests with multiple test functions. For example, if 
+You can combine table-driven tests with multiple test functions. For example, if
 you're testing that a function's non-error output exactly matches the expected
 output, and you're also testing that the function returns some non-nil error
 when it gets invalid input, then the clearest unit tests can be achieved by
@@ -271,7 +273,7 @@ outputs, and one for error outputs.
 When a unit test performs string comparisons or uses `reflect.DeepEqual` to
 check that particular kinds of errors are returned for particular inputs, you
 may find that your tests are fragile if you have to reword any of those error
-messages in 
+messages in
 the future. Since this has the potential to turn your unit test into a
 [change detector](https://testing.googleblog.com/2015/01/testing-on-toilet-change-detector-tests.html),
 don't use string comparison to check what type of error your function returns.
@@ -289,3 +291,4 @@ Many people who write APIs don't care exactly what kinds of errors their API
 returns for different inputs. If your API is like this, then it is sufficient to
 create error messages using `fmt.Errorf`, and then in the unit test, test only
 whether the error was non-nil when you expected an error.
+

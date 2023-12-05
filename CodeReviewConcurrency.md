@@ -1,7 +1,9 @@
-# Code Review: Go Concurrency
+---
+title: "Code Review: Go Concurrency"
+---
 
 This page is an addition to the [Go Code Review Comments](
-https://github.com/golang/go/wiki/CodeReviewComments) list. The goal of this list is to help to find
+/wiki/CodeReviewComments) list. The goal of this list is to help to find
 concurrency-related bugs when reviewing Go code.
 
 You may also read through this list just once to refresh your memory and to make sure you are aware
@@ -126,7 +128,7 @@ same result and doesn't have side effects.
 
 If the race condition is not benign, use methods [`sync.Map.LoadOrStore()`](
 https://pkg.go.dev/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](
-https://pkg.go.dev/sync/#Map.LoadAndDelete) to fix it. 
+https://pkg.go.dev/sync/#Map.LoadAndDelete) to fix it.
 
 ### Scalability
 
@@ -227,7 +229,7 @@ This code would be wrong without calling `Round(0)`, i. e. stripping the monoton
 
 ## Reading List
 
-[Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments): a checklist for
+[Go Code Review Comments](/wiki/CodeReviewComments): a checklist for
 reviewing Go code, not concurrency-specific.
 
 Go concurrency:
@@ -246,3 +248,4 @@ Go concurrency:
 Concurrency, but not specific to Go:
  - [Mechanical Sympathy: Single Writer Principle](
    https://mechanical-sympathy.blogspot.com/2011/09/single-writer-principle.html)
+

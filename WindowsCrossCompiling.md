@@ -1,4 +1,6 @@
-# Building Windows Go programs on Linux
+---
+title: Building Windows Go programs on Linux
+---
 
 See [here](https://go.dev/doc/install/source#environment) for available `GOOS` and `GOARCH` values.
 

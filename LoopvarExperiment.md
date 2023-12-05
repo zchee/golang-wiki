@@ -1,3 +1,7 @@
+---
+title: LoopvarExperiment
+---
+
 For Go 1.22, the Go team is considering changing the semantics of for loop variables to prevent unintended sharing in per-iteration closures and goroutines. Go 1.21 contains a preliminary implementation of the change, enabled by setting `GOEXPERIMENT=loopvar` when building your program. We invite anyone who wants to help us understand the effects of the change to try using `GOEXPERIMENT=loopvar` and let us know about any problems or successes encountered.
 
 This page answers frequently asked questions about the change.
@@ -226,3 +230,4 @@ Instead, the most important feedback you can contribute to the discussion is _em
 
 
  
+

@@ -1,17 +1,21 @@
-# Introduction
+---
+title: SQLInterface
+---
+
+## Introduction
 
 The `database/sql` package provides a generic interface around SQL (or SQL-like) databases. See the [official documentation](https://pkg.go.dev/database/sql/) for details.
 
 This page provides example usage patterns.
 
-# Database driver
+## Database driver
 
 The `database/sql` package must be used in conjunction with a database driver.
 See https://go.dev/s/sqldrivers for a list of drivers.
 
 The documentation below assumes a driver has been imported.
 
-# Connecting to a database
+## Connecting to a database
 
 [`Open`](https://pkg.go.dev/database/sql/#Open)
  is used to create a database handle:
@@ -38,7 +42,7 @@ if err := db.PingContext(ctx); err != nil {
 
 After use, the database is closed using [`Close`](https://pkg.go.dev/database/sql/#DB.Close).
 
-# Executing queries
+## Executing queries
 
 [`ExecContext`](https://pkg.go.dev/database/sql/#DB.ExecContext)
 is used for queries where no rows are returned:
@@ -99,7 +103,7 @@ rows, err := stmt.Query(age)
 [`ExecContext`](https://pkg.go.dev/database/sql/#Stmt.ExecContext), [`QueryContext`](https://pkg.go.dev/database/sql/#Stmt.QueryContext) and [`QueryRowContext`](https://pkg.go.dev/database/sql/#Stmt.QueryContext) can be called on statements. After use, a
 statement should be closed with [`Close`](https://pkg.go.dev/database/sql/#Stmt.Close).
 
-# Transactions
+## Transactions
 
 Transactions are started with [`BeginTx`](https://pkg.go.dev/database/sql/#DB.BeginTx):
 
@@ -115,7 +119,7 @@ used in a transaction.
 
 A transaction must end with a call to [`Commit`](https://pkg.go.dev/database/sql/#Tx.Commit) or [`Rollback`](https://pkg.go.dev/database/sql/#Tx.Rollback).
 
-# Dealing with NULL
+## Dealing with NULL
 
 If a database column is nullable, one of the types supporting null values should be passed to Scan.
 
@@ -145,7 +149,7 @@ err := db.QueryRowContext(ctx, "SELECT name FROM names WHERE id = $1", id).Scan(
 
 # Getting a table
 
-If you want an struct array from your SQL query. 
+If you want an struct array from your SQL query.
 
 ```go
 func getTable[T any](rows *sql.Rows) (out []T) {
@@ -173,7 +177,7 @@ func getTable[T any](rows *sql.Rows) (out []T) {
 
 Make sure to deal with nulls from the database.
 
-```go 
+```go
 type User struct {
   UUID  sql.NullString
   Name  sql.NullString

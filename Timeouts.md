@@ -1,4 +1,6 @@
-# Timeouts and Deadlines
+---
+title: Timeouts and Deadlines
+---
 
 To abandon synchronous calls that run too long, use the select statement with time.After:
 ```go

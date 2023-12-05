@@ -1,4 +1,6 @@
-# Go success stories from around the web
+---
+title: Go success stories from around the web
+---
 
   * [The Way of the Gopher - Making the Switch from Node.js to Golang](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f)
   * [Moving a team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
@@ -48,4 +50,5 @@
   * [Ready - Steady - Go: A complete IoT platform in Go](https://qbee.io/misc/ready-steady-go-a-complete-iot-platform-in-go/)
 
 
-See also [[GoUsers]].
+See also [GoUsers](GoUsers).
+

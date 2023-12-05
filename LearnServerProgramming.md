@@ -1,3 +1,7 @@
+---
+title: LearnServerProgramming
+---
+
 This page links to resources for learning about server programming in Go - both web services and mobile backends. The items are organized into sections by topic.
 
 ## Getting Started

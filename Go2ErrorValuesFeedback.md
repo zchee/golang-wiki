@@ -1,4 +1,6 @@
-# Go 2 Error Values Feedback
+---
+title: Go 2 Error Values Feedback
+---
 
 This page is meant to collect and organize feedback about the Go 2 [error values draft designs](https://go.googlesource.com/proposal/+/master/design/go2draft-error-values-overview.md).
 
@@ -6,17 +8,17 @@ Please post feedback on your blog, Medium, GitHub Gists, mailing lists, Google D
 
 As the amount of feedback grows, please feel free to organize this page by specific kind of feedback.
 
-### Further Background
+## Further Background
 
 - Ben Johnson, "[Failure is Your Domain](https://middlemost.com/failure-is-your-domain/)", June 2018
 
-### Draft Implementation
+## Draft Implementation
 
 - Go Team, “[x/exp/errors](https://pkg.go.dev/golang.org/x/exp/errors)”, November 2018
 
 - Torben Schinke, “[Implementation of the draft design](https://github.com/worldiety/errors)”, December 2018
 
-### Error Inspection
+## Error Inspection
 
  - Ilya Sinelnikov, "[`Is` and `As` differ in behavior which is unexpected](https://github.com/sidh/go2errorsinspection)", December 2018
  - Roger Peppe, "[Some thoughts about the draft Go error inspection design](https://gist.github.com/rogpeppe/a435b57473152e3429a5a149401edacf)", November 2018
@@ -36,7 +38,7 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
-### Error Printing
+## Error Printing
 
  - Calle Pettersson, [Multi-line errors and log collection tools](https://gist.github.com/carlpett/bc1714060235edc0ad3fd9ead82f4ce6)”, August 2018
  - jimmy frasche, "[Why limit these interfaces to errors?](https://gist.github.com/jimmyfrasche/e02fcbefee5cb14228768afec17abbee)" , August 2018
@@ -47,12 +49,12 @@ As the amount of feedback grows, please feel free to organize this page by speci
  - _Your Name_, “[_Title_](#URL)”, _month year_
  - etc.
 
-### Misc
+## Misc
 
 - TJ Holowaychuk, [Structured access for structured logging](https://gist.github.com/tj/638adb053f802e6c19686bd2fee443b7), April, 2019
 - Andrew Chambers, [My current error approach](https://gist.github.com/andrewchambers/5cadb2b8b45271440f1a051bb1ccc9c6), August, 2018
 - mikioh, [A walkthrough on Error Values for issue 18183](https://gist.github.com/mikioh/93f575120ded671bad18491ecf41743d), October, 2018
 
-### Against Any Change At All
+## Against Any Change At All
 
 - Rob Pike - [Simplicity is Complicated](https://www.youtube.com/watch?v=rFejpH_tAHM), December 2015

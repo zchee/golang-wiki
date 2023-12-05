@@ -1,3 +1,7 @@
+---
+title: FileTreeDocumentation
+---
+
 This page documents the file tree for a source installation of go1.13.1.
 
 ```

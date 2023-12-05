@@ -1,3 +1,7 @@
+---
+title: LearnConcurrency
+---
+
 This page links to resources for learning about concurrency in Go.  The items are presented in order, from beginner material to advanced topics.
 
 ## Beginner
@@ -27,7 +31,7 @@ This page links to resources for learning about concurrency in Go.  The items ar
 - Read [Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/go-concurrency-patterns-timing-out-and)
 - Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
 - Read [Go Concurrency Patterns: Pipelines and Cancellation](https://go.dev/blog/pipelines)
-- Read [Rethinking Classical Concurrency Patterns](https://github.com/golang/go/wiki/Go-Community-Slides#rethinking-classical-concurrency-patterns)
+- Read [Rethinking Classical Concurrency Patterns](/wiki/Go-Community-Slides#rethinking-classical-concurrency-patterns)
 - Study [Package sync](https://pkg.go.dev/sync/)
 - Read [Introducing the Go Race Detector](https://go.dev/blog/race-detector)
 - Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)

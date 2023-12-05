@@ -1,4 +1,6 @@
-# Go on Darwin
+---
+title: Go on Darwin
+---
 
 | **Kernel version** | **Distributions**               | **Architectures**      | **Initial support version** | **Final support version** |
 |:-------------------|:--------------------------------|:-----------------------|:---------------|:----------|
@@ -19,3 +21,4 @@ _*_ Go 1.5 or above is recommended.
 _**_ See https://github.com/golang/go/issues/16570 and https://github.com/golang/go/issues/19772.
 
 _***_ See https://github.com/golang/go/issues/22037.
+

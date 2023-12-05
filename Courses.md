@@ -1,8 +1,12 @@
-# Introduction
+---
+title: Courses
+---
+
+## Introduction
 
 Go is a great language for CS majors. This page presents some university courses that use Go. For a list of free and commercial Go training classes, see [the Learn wiki](Learn).
 
-# Language
+## Language
 
   * University of Helsinki, Department of Computer Science used to have a course named Introduction to Go, taught by K. Bäckman: http://www.cs.helsinki.fi/courses/582336 in Spring 2010.
   * University of Sofia "St. Kliment Ohridski", Faculty of Mathematics and Informatics has elective course named "Programming with Go", taught by K. Vladimiroff: http://fmi.golang.bg (bulgarian) and their [[public lectures](https://github.com/fmi/go-lectures)] - (also in bulgarian)
@@ -14,11 +18,11 @@ Go is a great language for CS majors. This page presents some university courses
   * University of Zagreb (Croatia), Faculty of Electrical Engineering and Computing, has an ongoing course [Go programming language](https://www.fer.unizg.hr/en/course/gpl) since 2020, held by Z. Bratković and B. Banelli. Videos available from academic year [2019./2020.](https://www.youtube.com/watch?v=mq18_oSNkHE&list=PLDG0WuJlyEw3GuJ4FAoP-ea8PCsU5J-9K&pp=iAQB) and [2020./2021.](https://www.youtube.com/watch?v=Ms_5seF6Smg&list=PLDG0WuJlyEw1o7cQ7Raf_SHgak4G57zCW&pp=iAQB) (Croatian)
 
 
-# Programming Concepts
+## Programming Concepts
 
    * President University (Cikarang, West Java, Indonesia) had a course [Programming Concepts](http://president.ac.id/study/undergraduate/school-of-computer-science/information-technology) for every junior students (using C, Go and Javascript).
 
-# Web
+## Web
 
   * CS 4830: Science and Engineering of the WWW taught by Ryanne Dolan at University of Missouri: http://4830.ryannedolan.info/
   * CSCI 130: Web Programming taught by [Todd McLeod](https://www.udemy.com/user/toddmcleod/) at California State University Fresno
@@ -26,7 +30,7 @@ Go is a great language for CS majors. This page presents some university courses
   * CIT 90: Data Drive Websites taught by [Todd McLeod](https://www.udemy.com/user/toddmcleod/) at Fresno City College
   * CIT 94: Server Side Scripting taught by [Todd McLeod](https://www.udemy.com/user/toddmcleod/) at Fresno City College
 
-# Concurrency
+## Concurrency
 
   * Go is being used at the end of a yearlong freshman computer science class at KTH: http://yourbasic.org/golang/concurrent-programming/
 
@@ -42,7 +46,7 @@ Go is a great language for CS majors. This page presents some university courses
 
   * University of Victoria (Canada) used Go in the section on Concurrency as a part of [Programming Languages (CSC 330)](https://heat.csc.uvic.ca/coview/course/2017091/CSC330)
 
-# Distributed Computing
+## Distributed Computing
 
   * Distributed Computer Systems (CS 138) at Brown: http://cs.brown.edu/courses/cs138/s16/syllabus.html
 
@@ -70,17 +74,19 @@ Go is a great language for CS majors. This page presents some university courses
 
   * University of Tromsø, Norway. [Distributed Systems Fundamentals (INF-3200)](https://uit.no/education/courses/course?p_document_id=291961) and [Advanced Distributed Systems (INF-3203)](https://uit.no/education/courses/course?p_document_id=292883). 
 
-# Networking
+## Networking
 
   * Computer Networking (COS 461) at Princeton: http://www.cs.princeton.edu/courses/archive/spring16/cos461/  (See Assignment 1 https://github.com/PrincetonUniversity/COS461-Spring2016/tree/master/notebook/assignment1 and Assignment 4 http://www.cs.princeton.edu/courses/archive/spring16/cos461/assignments/.
 
-# Compiler Design
+## Compiler Design
 
   * Compiler Design (CS712/CS812) at the University of New Hampshire: http://www.cs.unh.edu/~cs712/. In Fall 2016 we are compiling a subset of Go to LLVM code.
 
   * Introduction to Compilers (6197, Spanish) at Rey Juan Carlos University of Madrid: http://lsub.org/comp. Students write a compiler in Go that implements a language for drawing graphics.
 
-# Security
+## Security
 
   * [Learn Cryptography in Go](https://boot.dev/learn/learn-cryptography) on Boot.dev. A code-in-the-browser course where cryptography principles are taught in the Go language.
   * [Computer Systems Security](https://cs.brown.edu/courses/cs166/) (CS166) At Brown University. In particular, the final [Dropbox Project](https://cs.brown.edu/courses/cs166/files/assignments/dropbox.pdf).
+
+

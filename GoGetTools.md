@@ -1,4 +1,8 @@
-# Installing Version Control Tools for ` go get `
+---
+title: GoGetTools
+---
+
+## Installing Version Control Tools for ` go get `
 
 The ` go get ` fetching of source code is done by using one of the following tools expected to be found on your system:
 

@@ -1,4 +1,6 @@
-# Screencasts
+---
+title: Screencasts
+---
 
 ## Writing, building, installing, and testing Go code
 

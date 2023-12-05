@@ -1,13 +1,8 @@
-# Table of contents
-1. [Coordinator Builders](#coordinator-builders)
-   1. [How to set up a builder](#how-to-set-up-a-builder)
-   1. [Builder Requirements](#builder-requirements)
-   1. [Security notes](#security-notes)
-2. [LUCI Builders](#luci-builders)
-   1. [How to set up a builder](#how-to-set-up-a-builder-1)
-   1. [Builder Requirements](#builder-requirements-1)
+---
+title: DashboardBuilders
+---
 
-# Coordinator Builders
+## Coordinator Builders
 
 Build configs (at the top) and host configs (bottom) are listed here:
 
@@ -21,7 +16,7 @@ For design details about the coordinator, see https://go.dev/s/builderplan
 
 Information about builder machines, how many are running and their status can be found at https://farmer.golang.org/
 
-## How to set up a builder
+### How to set up a builder
 
   1. Talk to golang-dev@ to get a builder host type & hash (they can get one from using the `golang.org/x/build/cmd/genbuilderkey` tool), and put that in ` ~/.gobuildkey` or `~/.gobuildkey-host-foo-bar` or the file pointed to by env var `$GO_BUILD_KEY_PATH`.
   1. Define your new builder in https://github.com/golang/build/blob/master/dashboard/builders.go with a new HostConfig and BuildConfig.
@@ -37,24 +32,24 @@ Information about builder machines, how many are running and their status can be
 
 For WIP ports, the steps above can be done out of order as needed. But as a port matures, be sure each step above is done. In particular, make sure that you're not just running a fixed copy of the buildlet binary in a loop forever. We need to be able to update it over time without your involvement. You should be running the stage0 binary (or equivalent shell script or similar for your platform) in a loop instead.
 
-## Builder Requirements
+### Builder Requirements
   * Internet connection (at least be able to access Google and https://farmer.golang.org)
   * Preferably two or more (V)CPUs
   * At least 512MiB of memory (1GB or more highly recommended. 512MB might need a small `GOGC` setting to avoid thrashing.)
 
-## Security notes
+### Security notes
 
 Generally, community-run builders only run code that's already been reviewed & submitted. We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](https://go.dev/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
 
 For paranoia reasons, you might want to run your builder in an isolated network that can't access any of your internal resources.
 
-# LUCI Builders
+## LUCI Builders
 
 The Go team is migrating the testing pipeline from a custom solution, the coordinator, to [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md). [LUCI](https://chromium.googlesource.com/chromium/src/+/master/docs/tour_of_luci_ui.md) is an open source continuous integration system created by the Chrome open source team at Google. The Go team has adopted the use of LUCI in order to leverage a continuous integration solution which is used and supported by a larger group of developers. This should enable the team to provide a more featureful solution to the community.
 
 The LUCI system requires builders to run two applications which authenticate to LUCI and receive and process builds. LUCI token daemon generates a token needed to authenticate. The swarming bot uses the token to connect to LUCI and process builds.
 
-## Builder Requirements
+### Builder Requirements
 
   * An internet connection with the ability to connect to:
     - https://proxy.golang.org (or an alternative proxy via GOPROXY).
@@ -75,7 +70,7 @@ The LUCI system requires builders to run two applications which authenticate to 
       - Under Docker, you can replace the shutdown command with a [shell script that restarts the container](https://chromium.googlesource.com/infra/infra/+/main/docker/swarm_docker/README.md#shutting-container-down-from-within) ([example](https://cs.opensource.google/go/x/build/+/master:cmd/buildlet/stage0/run-worker.sh)).
       - If the machine can't be restarted for some reason, set the environment variable `SWARMING_NEVER_REBOOT`.
 
-## How to set up a builder
+### How to set up a builder
 
   1. [Create an issue](https://github.com/golang/go/issues/new?labels=new-builder&title=x%2Fbuild%3A+add+LUCI+%3Cos-arch%3E+builder) on the Go Issue tracker requesting the addition of a new builder and assign it yourself.
      1. The title of the issue should be in the format: `x/build: add LUCI <os-arch> builder`.
@@ -92,9 +87,11 @@ The LUCI system requires builders to run two applications which authenticate to 
      1. If /var/lib isn't a suitable place for the token, change it as you see fit and pass `-token-file-path` to `bootstrapswarm` below to match.
 
   1. Install `golang.org/x/build/cmd/bootstrapswarm` and configure it to run in a loop under your operating system's process supervisor (systemd, etc) as the `swarming` user. `Bootstrapswarm` downloads the initial version of the swarming bot and ensures that it is always running.
-     1. `bootstrapswarm -hostname <hostname>` 
+     1. `bootstrapswarm -hostname <hostname>`
 
   1. Verify the bot starts up without any errors in the logs.
+
+
 
 
 

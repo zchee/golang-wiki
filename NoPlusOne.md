@@ -1,3 +1,7 @@
+---
+title: NoPlusOne
+---
+
 When contributing to the Go issue tracker, please **do not** make comments like this:
 
 > +1

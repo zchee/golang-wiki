@@ -1,3 +1,7 @@
+---
+title: Frozen
+---
+
 Sometimes a package reaches the end of its development cycle and is considered complete. It continues to be maintained, meaning regressions or breakages are fixed, but the scope becomes frozen and no new features are meant to be accepted.
 
 Freezing a package is a message primarily for developers and contributors to the package, not users. It does not imply that the package should not be used. For that, see the ["Deprecated" convention](Deprecated).
@@ -31,3 +35,4 @@ To signal that a package is frozen and is not accepting new features, add a para
 ```
 // The text/tabwriter package is frozen and is not accepting new features.
 ```
+

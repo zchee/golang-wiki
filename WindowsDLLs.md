@@ -1,4 +1,6 @@
-# Calling a Windows DLL
+---
+title: Calling a Windows DLL
+---
 
 Go allows you to call native Windows function in several different ways.
 
@@ -119,7 +121,7 @@ func main() {
 }
 ```
 
-3. By "linking" against the library, using the "[[cgo]]" method (this way works in Linux and Windows). Example:
+3. By "linking" against the library, using the "[cgo](cgo)" method (this way works in Linux and Windows). Example:
 
 ```go
 import ("C")
@@ -127,4 +129,4 @@ import ("C")
 C.MessageBoxW(...)
 ```
 
-See [[cgo]] for further details.
+See [cgo](cgo) for further details.

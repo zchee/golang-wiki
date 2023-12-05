@@ -1,8 +1,12 @@
-# Introduction
+---
+title: Go on MIPS
+---
 
-Go programs can be cross-compiled e.g., on x86/x86\_64 build systems to run on MIPS target machines. 
+## Introduction
 
-# Supported architectures
+Go programs can be cross-compiled e.g., on x86/x86\_64 build systems to run on MIPS target machines.
+
+## Supported architectures
 
 Go supports the following MIPS architectural families. (Are there more?)
 
@@ -11,17 +15,17 @@ Go supports the following MIPS architectural families. (Are there more?)
 | Big endian (e.g., ar71xx) | supported  | GOMIPS=softfloat| GOARCH=mips      |
 | Little endian            | supported  | n/a             | GOARCH=mipsle    |
 
-# Supported operating systems
+## Supported operating systems
 
 * MIPS on Linux. Tested with an ar71xx based OpenWrt device.
 
-# Recommended Go version
+## Recommended Go version
 
 The tested version for running Go on MIPS systems is Go 1.13.
 
-# Tips and tricks
+## Tips and tricks
 
-## Building for ar71xx OpenWrt
+### Building for ar71xx OpenWrt
 
 This builds a Go program, strips unneeded strings and symbols to minimize its size, and compresses it to further minimize its size:
 
@@ -30,11 +34,11 @@ env GOOS=linux GOARCH=mips GOMIPS=softfloat  go build -trimpath -ldflags="-s -w"
 upx -9 server
 ```
 
-# Success stories
+## Success stories
 
 MIPS hardware comes in a myriad of shapes and sizes. If you've had a success story building and running Go on your Arm system, please detail your results here.
 
-## D-Link DIR-505 Mobile Companion
+### D-Link DIR-505 Mobile Companion
 
 Architecture: ar71xx
 
@@ -44,19 +48,17 @@ The D-Link DIR-505 Mobile Companion comes with an Atheros AR1311 processor, 8 MB
 
 Further information about the device can be found at https://openwrt.org/toh/d-link/dir-505.
 
-## Teltonika 
+### Teltonika RUT955
 
-### RUT955
-
-Architecture: ar9344  
+Architecture: ar9344
 
 Operating System: RutOS (based on OpenWrt)
 
-The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6,  1.15.3 & 1.21.1 (GOARCH=mips, GOMIPS=softfloat). 
+The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6,  1.15.3 & 1.21.1 (GOARCH=mips, GOMIPS=softfloat).
 
 Further information about the device can be found at https://teltonika-networks.com/product/rut955/.
 
-### RUT956
+### Teltonika RUT956
 
 Architecture: MediaTek MT7628AN ver:1 eco:2
 
@@ -66,7 +68,7 @@ The Teltonika RUT956 has a Mediatek MIPS 24KEc CPU running at 580 MHz with 16 MB
 
 Further information about the device can be found at https://teltonika-networks.com/product/rut956/.
 
-## TP-Link Archer A6 WiFi Router
+### TP-Link Archer A6 WiFi Router
 
 Architecture: ath79 (same hardware as ar71xx, but with native kernel support)
 
@@ -76,7 +78,7 @@ The TP-Link Archer A6 comes with an Atheros QCA9563 MIPS 24K classic processor, 
 
 Further information about the device can be found at https://openwrt.org/toh/hwdata/tp-link/tp-link_archer_a6_us_tw.
 
-## Belkin F7D7302 WiFi Router
+### Belkin F7D7302 WiFi Router
 
 Architecture: mipsel_74kc
 
@@ -86,7 +88,7 @@ The Belkin F7D7302 comes with a Broadcom BCM4716 little-endian MIPS 74K classic 
 
 Further information about the device can be found at https://openwrt.org/toh/belkin/f7d3302.
 
-## AVM FRITZ!Box 7362 SL
+### AVM FRITZ!Box 7362 SL
 
 System type: xRX200 rev 1.2 \
 CPU model: MIPS 34Kc V5.6

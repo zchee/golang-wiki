@@ -1,4 +1,6 @@
-# Go 2 Generics Feedback
+---
+title: Go 2 Generics Feedback
+---
 
 This page is meant to collect and organize feedback about the Go 2 [contracts (generics) draft design](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md).
 

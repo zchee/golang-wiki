@@ -1,4 +1,6 @@
-# Fuzzing trophy case
+---
+title: Fuzzing trophy case
+---
 
 This page collects issues that have been discovered using [Go's native fuzzing](https://github.com/golang/go/issues/44551).
 
@@ -28,5 +30,7 @@ _Note: If you think the bug is a security issue, please report it responsibly to
 * [swaggest/form: panic on invalid keys in request](https://github.com/swaggest/form/issues/4)
 * [yuin/goldmark: corner case errors](https://github.com/yuin/goldmark/issues/245)
 * [DataDog/datadog-agent: fix edge case in tags normalization](https://github.com/DataDog/datadog-agent/pull/13235)
+
+
 
 

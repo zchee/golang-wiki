@@ -1,3 +1,7 @@
+---
+title: Benchmarks
+---
+
 These are benchmarks collected from the community used to measure the effects of changes to the Go core (compiler, runtime, garbage collector, and libraries). They should have the following properties:
 
  - they matter; someone cares, perhaps in a dollars-and-cents way, that they run well
@@ -65,3 +69,4 @@ A few have been proposed but have so far failed to make the cut (for fetch, buil
  | eolian_dsp | | `buddin.us/eolian/dsp` | `Benchmark` | |
  | ethereum_whisperv5 | | `github.com/ethereum/go-ethereum/whisper/whisperv5` | `Benchmark` | |
  | kanzi | | `github.com/flanglet/kanzi/go/src/kanzi/benchmark` | `Benchmark` | |
+

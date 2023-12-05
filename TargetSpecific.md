@@ -1,4 +1,6 @@
-# Target-Specific Code
+---
+title: Target-Specific Code
+---
 
 Sometimes, for performance or compatibility reasons, custom code needs to be written for specific GOARCH and GOOS targets. This page presents some best practices to adopt in that case. It is a required policy for crypto packages as of April 2019.
 

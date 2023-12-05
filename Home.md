@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://go.dev/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
 ## Questions about Go
@@ -34,7 +38,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 - [Go standard library documentation](https://pkg.go.dev/std) to familiarize yourself with the standard library.
 - [Use the Go Playground](https://go.dev/play) to test out Go programs in your browser.
 - Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
-- Read about the companies which have [switched from other languages to Go](https://github.com/golang/go/wiki/FromXToGo).
+- Read about the companies which have [switched from other languages to Go](/wiki/FromXToGo).
 
 ## Working with Go
 
@@ -200,9 +204,9 @@ If you're looking for services that support Go, here's a list to get you started
 
 - Understand the performance of your Go apps using the [pprof package](https://go.dev/blog/profiling-go-programs)
 - Heap Dumps
-  - [[heapdump13]]
-  - [[heapdump14]]
-  - [[heapdump15-through-heapdump17]]
+  - [heapdump13](heapdump13)
+  - [heapdump14](heapdump14)
+  - [heapdump15-through-heapdump17](heapdump15-through-heapdump17)
 
 ## Contributing to the Go Project
 
@@ -220,7 +224,7 @@ If you're looking for services that support Go, here's a list to get you started
 - Project Dashboards
   - [Go Builds Dashboard info](DashboardBuilders)
   - [Performance Dashboard info](PerfDashboard)
-  - [Download failed logs and debugging](https://github.com/golang/go/wiki/Download-build-farm-failed-logs-and-debugging)
+  - [Download failed logs and debugging](/wiki/Download-build-farm-failed-logs-and-debugging)
 
 ## Platform Specific Information
 

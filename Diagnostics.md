@@ -1,1 +1,6 @@
-Moved to [golang.org](https://tip.golang.org/doc/diagnostics.html).
+---
+title: Diagnostics
+---
+
+Moved to [/doc/diagnostics](/doc/diagnostics).
+

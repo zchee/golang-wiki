@@ -1,4 +1,6 @@
-# Go2 status
+---
+title: Go2 status
+---
 
 This page tracks the status of "Go 2".
 
@@ -47,3 +49,4 @@ The standard library would probably be versioned and permit out-of-cycle updates
 ## Roadmap
 
 TBD
+

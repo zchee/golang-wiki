@@ -1,3 +1,7 @@
+---
+title: GoGenerateTools
+---
+
 [`go generate`](https://go.dev/blog/generate) is only useful if you have tools to use it with! Here is an incomplete list of useful tools that generate code.
 
 * [goyacc](https://pkg.go.dev/golang.org/x/tools/cmd/goyacc) – Yacc for Go.
@@ -32,5 +36,6 @@
 * [re2c](https://re2c.org/index.html) - lexer generator for C, C++ and Go
 * [re2dfa](https://gitlab.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code
 * [pigeon](https://github.com/mna/pigeon) - a PEG parser generator for Go
+
 
 

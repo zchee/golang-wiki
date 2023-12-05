@@ -1,3 +1,7 @@
+---
+title: GoStrings
+---
+
 Strings are **not** required to be UTF-8. Go source code **is** required
 to be UTF-8. There is a complex path between the two.
 

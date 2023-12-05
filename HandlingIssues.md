@@ -1,15 +1,19 @@
+---
+title: HandlingIssues
+---
+
 This document explains how we handle issue triage and scheduling in [the Go project's issue tracker](https://go.dev/issue).
 
-# Issue States
+## Issue States
 
 Any issue must be in one of the following states. Project contributors move issues from one state to another. The intent behind these explicit states is to describe the (minimum) next steps required to bring the issue to resolution. Issues may move between states in any order, as dictated by the needs of the particular issue.
 
-### New
+#### New
 - The issue has been filed.
 - May not be correctly formatted (title, etc).
 - To transition from this state, someone must clean up the issue report and optionally CC people who might best investigate or fix it.
 
-### Needs Investigation
+#### Needs Investigation
 - Is correctly formatted.
   - The title has a path prefix.
   - The body describes the issue.
@@ -19,7 +23,7 @@ Any issue must be in one of the following states. Project contributors move issu
   - May also have the label `WaitingForInfo` if the investigator is waiting for more information from someone (e.g., the issue reporter).
 - To transition from this state, someone must examine the issue and confirm that it is valid and not a duplicate of an existing issue.
 
-### Needs Decision
+#### Needs Decision
 - The issue is real, but we're not sure what action to take.
   - The issue can be addressed in Go 1.
   - Feedback is required from experts, contributors, and/or the community before a fix can be made.
@@ -32,14 +36,14 @@ Any issue must be in one of the following states. Project contributors move issu
 - To transition from this state, someone must decide how the issue is to be resolved.
     - If the decision is complicated, the issue may be given a [`Proposal`](https://github.com/golang/proposal/) label. The issue remains in this state until the proposal process is complete, and moves to `NeedsFix` if approved.
 
-### Needs Fix
+#### Needs Fix
 - The path to resolution is known, but the work has not been done.
 - Has a milestone.
 - Has the label `NeedsFix`.
   - May have the labels `Blocked` or `WaitingForInfo`.
 - To transition from this state, someone must do the work to fix the issue.
 
-### Fixed
+#### Fixed
 - The issue is resolved. No further attention is required.
 - The issue is closed.
 
@@ -51,7 +55,7 @@ At any state (except New) the issue may be assigned to someone.
 Unassigned issues are considered available for anyone to address.
 
 
-# Milestones
+## Milestones
 
 Milestones describe the timeline for issue resolution.
 
@@ -90,3 +94,4 @@ Milestones describe the timeline for issue resolution.
 Additional milestones may be used to manage specific project work.
 
 The label "Soon" is used independently of milestones to indicate that the issue is time-sensitive.
+

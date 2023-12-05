@@ -1,3 +1,7 @@
+---
+title: Books
+---
+
 Other book lists:
 
 * [Awesome Go Books](https://github.com/dariubs/GoBooks)
@@ -21,7 +25,7 @@ Sorted by publication date, ascending.
 - [Polish](#polish)
 - [Persian](#persian)
 
-# English
+### English
   * **Go Programming**
     * Author: John P. Baugh
     * Publication Date: June 16, 2010
@@ -664,7 +668,7 @@ Sorted by publication date, ascending.
     * Reference: http://microservicesingo.com/
     * Status: [Cancelled per O'Reilly Employee](http://support.oreilly.com/oreilly/topics/availability-of-microservices-in-go-use-go-to-build-scalable-backends-by-matthew-campbell)
 
-# Chinese
+### Chinese
   * **Go语言·云动力**
     * Author: 樊虹剑（fango）
     * Publication Date: 2012-06
@@ -734,7 +738,7 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * Reference: https://github.com/chai2010/ugo-compiler-book
 
-# Japanese
+### Japanese
   * **はじめての「Go言語」**
     * Author: 茨木 隆彰
     * Publication Date: 2010-11
@@ -801,7 +805,7 @@ Sorted by publication date, ascending.
     * ISBN: 978-4297134198
     * Reference: https://gihyo.jp/book/2023/978-4-297-13419-8
 
-# French
+### French
 
   * **Programmer en Go - Pourquoi ? Comment ?**
     * Author: Rudy Rigot
@@ -817,7 +821,7 @@ Sorted by publication date, ascending.
     * Reference (publisher): https://www.dunod.com/sciences-techniques/langage-go-fondamentaux-du-langage
 
 
-# German
+### German
   * **Programmierung in Google Go** (not available for buying any more)
     * Authors: Rainer Feike and Steffen Blass
     * Publication Date: 2010-11
@@ -843,7 +847,7 @@ Sorted by publication date, ascending.
     * ISBN: 978-3-86802-415-9
     * Reference: http://entwickler.de/press/Einstieg-in-Google-Go
 
-# Brazilian Portuguese
+### Brazilian Portuguese
   * **A Linguagem de Programação Go**
     * Author:  Alan A. A. Donovan, Brian W. Kernighan 
     * Publication Date: 2017
@@ -862,7 +866,7 @@ Sorted by publication date, ascending.
     * ISBN: 978-85-75224-89-2
     * Reference: http://shop.oreilly.com/product/0636920046516.do
 
-# Russian
+### Russian
   * **Программирование на языке Go**
     * Author: Марк Саммерфильд
     * Publication Date: 2013-02-14
@@ -887,7 +891,7 @@ Sorted by publication date, ascending.
     * ISBN: 978-5-4461-1617-1
     * Reference: https://www.piter.com/product/golang-dlya-profi-rabota-s-setyu-mnogopotochnost-struktury-dannyh-i-mashinnoe-obuchenie-s-go
 
-# Español
+### Español
   * **Aprende Go en Y minutos**https://go101.org
     * Author: Nacho Pacheco
     * Publication Date: 2015-02-24
@@ -906,7 +910,7 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * Reference: https://www.gitbook.com/book/nachopacheco/go-es/
 
-# Korean
+### Korean
   * **가장 빨리 만나는 Go 언어**
     * Author: 이재홍
     * Publication Date: June 2015
@@ -985,7 +989,7 @@ Sorted by publication date, ascending.
     * ISBN: 979-1-16175-208-2
     * Reference: http://acornpub.co.kr/book/mastering-go
 
-# Indonesian
+### Indonesian
   * **Bahasa Pemrograman Go**
     * Author: Sajarwo Anggai
     * Publication Date: October 21, 2013
@@ -998,7 +1002,7 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * Reference: https://dasarpemrogramangolang.novalagung.com
 
-# Italian
+### Italian
   * **Programmare in Linguaggio Go**
     * Author: Renato Mite
     * Publication Date: 9 Oct 2016
@@ -1008,7 +1012,7 @@ Sorted by publication date, ascending.
     * Reference (Kobo Books): https://store.kobobooks.com/it-it/ebook/programmare-in-linguaggio-go
     * Repository: https://github.com/rmite/gobook
 
-# Polish
+### Polish
 
   * **Język Go. Poznaj i programuj**
     * Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Lech Lachowski
@@ -1016,7 +1020,7 @@ Sorted by publication date, ascending.
     * ISBN: 978-83-283-2467-1
     * Reference: https://helion.pl/ksiazki/jezyk-go-poznaj-i-programuj-alan-a-a-donovan-brian-w-kernighan,jgopop.htm
 
-# Persian
+### Persian
   * **GoFarsi book**
     * Author: Javad Rajabzadeh
     * Publication Date: 23 oct 2022
@@ -1030,7 +1034,7 @@ Sorted by publication date, ascending.
     * ISBN: ---
     * Repository: https://github.com/thedevsir/gosuccinctly
 
-# Looking for contributors
+### Looking for contributors
 
 [Add Go books here that are looking for writers, editors, Gopher illustrators, and translators.]
 
@@ -1040,4 +1044,3 @@ Sorted by publication date, ascending.
     * ISBN: 9781787286740
     * Reference: https://www.amazon.in/Web-Development-Cookbook-full-stack-applications/dp/1787286746
 
-***

@@ -1,3 +1,7 @@
+---
+title: CoreDumpDebugging
+---
+
 Originally published at https://rakyll.org/coredumps/.
 
 ---

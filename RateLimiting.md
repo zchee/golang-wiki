@@ -1,4 +1,6 @@
-# Rate Limiting
+---
+title: Rate Limiting
+---
 
 To limit the rate of operations per unit time, use a [time.Ticker](https://pkg.go.dev/time/#NewTicker).
 This works well for rates up to tens of operations per second.
@@ -69,3 +71,4 @@ func BurstRateLimitCall(ctx context.Context, client Client, payloads []*Payload,
   }
 }
 ```
+

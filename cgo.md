@@ -1,10 +1,14 @@
-# Introduction
+---
+title: cgo
+---
+
+## Introduction
 
 First, https://pkg.go.dev/cmd/cgo is the primary cgo documentation.
 
 There is also a good introduction article at https://go.dev/blog/cgo
 
-## The basics
+### The basics
 
 If a Go source file imports ` "C" `, it is using cgo. The Go file will have access to anything appearing in the comment immediately preceding the line ` import "C" `, and will be linked against all other cgo comments in other Go files, and all C files included in the build process.
 
@@ -16,8 +20,8 @@ To access a symbol originating from the C side, use the package name ` C `. That
 package cgoexample
 
 /*
-#include <stdio.h>
-#include <stdlib.h>
+##include <stdio.h>
+##include <stdlib.h>
 
 void myprint(char* s) {
 	printf("%s\n", s);
@@ -34,11 +38,11 @@ func Example() {
 }
 ```
 
-## Calling Go functions from C
+### Calling Go functions from C
 
 It is possible to call both top-level Go functions and function variables from C code invoked from Go code using cgo.
 
-### Global functions
+#### Global functions
 
 Go makes its functions available to C code through use of a special ` //export ` comment.
 Note: you can't define any C functions in preamble if you're using exports.
@@ -52,7 +56,7 @@ package gocallback
 import "fmt"
 
 /*
-#include <stdio.h>
+##include <stdio.h>
 extern void ACFunction();
 */
 import "C"
@@ -70,14 +74,14 @@ func Example() {
 foo.c contains:
 
 ```go
-#include "_cgo_export.h"
+##include "_cgo_export.h"
 void ACFunction() {
 	printf("ACFunction()\n");
 	AGoFunction();
 }
 ```
 
-### Function variables
+#### Function variables
 
 The following code shows an example of invoking a Go callback from C code. Because of the [pointer passing rules](https://pkg.go.dev/cmd/cgo/#hdr-Passing_pointers) Go code can not pass a function value directly to C.  Instead it is necessary to use an indirection. This example uses a registry with a mutex, but there are many other ways to map from a value that can be passed to C to a Go function.
 
@@ -157,7 +161,7 @@ import (
 )
 
 /*
-#include <stdint.h>
+##include <stdint.h>
 
 extern void go_callback_int(uintptr_t h, int p1);
 static inline void CallMyFunction(uintptr_t h) {
@@ -183,7 +187,7 @@ func main() {
 }
 ```
 
-### Function pointer callbacks
+#### Function pointer callbacks
 
 C code can call exported Go functions with their explicit name. But if a C-program wants a function pointer, a gateway function has to be written. This is because we can't take the address of a Go function and give that to C-code since the cgo tool will generate a stub in C that should be called. The following example shows how to integrate with C code wanting a function pointer of a give type.
 
@@ -207,10 +211,10 @@ C.some_c_func(): callback responded with 3
 package main
 
 /*
-#cgo CFLAGS: -I .
-#cgo LDFLAGS: -L . -lclibrary
+##cgo CFLAGS: -I .
+##cgo LDFLAGS: -L . -lclibrary
 
-#include "clibrary.h"
+##include "clibrary.h"
 
 int callOnMeGo_cgo(int in); // Forward declaration.
 */
@@ -240,7 +244,7 @@ package main
 
 /*
 
-#include <stdio.h>
+##include <stdio.h>
 
 // The gateway function
 int callOnMeGo_cgo(int in)
@@ -256,19 +260,19 @@ import "C"
 **clibrary.h**
 
 ```c
-#ifndef CLIBRARY_H
-#define CLIBRARY_H
+##ifndef CLIBRARY_H
+##define CLIBRARY_H
 typedef int (*callback_fcn)(int);
 void some_c_func(callback_fcn);
-#endif
+##endif
 ```
 
 **clibrary.c**
 
 ```c
-#include <stdio.h>
+##include <stdio.h>
 
-#include "clibrary.h"
+##include "clibrary.h"
 
 void some_c_func(callback_fcn callback)
 {
@@ -279,7 +283,7 @@ void some_c_func(callback_fcn callback)
 }
 ```
 
-## Go strings and C strings
+### Go strings and C strings
 
 Go strings and C strings are different. Go strings are the combination of a length and a pointer to the first character in the string. C strings are just the pointer to the first character, and are terminated by the first instance of the null character, ` '\0' `.
 
@@ -302,7 +306,7 @@ import "unsafe"
 
 Of course, you aren't required to use ` defer ` to call ` C.free() `. You can free the C string whenever you like, but it is your responsibility to make sure it happens.
 
-## Turning C arrays into Go slices
+### Turning C arrays into Go slices
 
 C arrays are typically either null-terminated or have a length kept elsewhere.
 
@@ -333,8 +337,8 @@ import "unsafe"
 
 It is important to keep in mind that the Go garbage collector will not interact with the underlying C array, and that if it is freed from the C side of things, the behavior of any Go code using the slice is nondeterministic.
 
-## Common Pitfalls
-### Struct Alignment Issues
+### Common Pitfalls
+#### Struct Alignment Issues
 As Go doesn't support packed struct (e.g., structs where maximum alignment is 1 byte), you can't
 use packed C struct in Go. Even if your program passes compilation, it won't do what you want.
 To use it, you have to read/write the struct as byte array/slice.
@@ -365,18 +369,19 @@ struct T {
 However, if you don't control the struct layout, you will have to define accessor C functions for
 that struct because cgo won't be able to translate that struct into equivalent Go struct.
 
-### ` //export ` and definition in preamble
+#### ` //export ` and definition in preamble
 If a Go source file uses any ` //export ` directives, then the C code in the comment may only include declarations (` extern int f(); `), not definitions (` int f() { return 1; }  ` or ` int n; `).
 Note: you can use ` static inline ` trick to work around this restriction for tiny functions defined
 in the preamble (see above for a complete example).
 
-### Windows
+#### Windows
 
 In order to use cgo on Windows, you'll also need to first install a gcc compiler (for instance, mingw-w64) and have gcc.exe (etc.) in your PATH environment variable before compiling with cgo will work.
 
-### environmental variables
+#### environmental variables
 Go os.Getenv() doesn't see variables set by C.setenv()
 
 
-### tests
+#### tests
 _test.go files can't use cgo.
+

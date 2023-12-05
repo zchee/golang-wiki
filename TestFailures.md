@@ -1,4 +1,6 @@
-# TestFailures
+---
+title: Test Failures
+---
 
 If you notice a failure in a test in the Go project, what should you do?
 

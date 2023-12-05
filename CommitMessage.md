@@ -1,4 +1,6 @@
-# Commit messages
+---
+title: Commit messages
+---
 
 Commit messages, also known as CL (changelist) descriptions, should be formatted per https://go.dev/doc/contribute#commit_messages. For example,
 
@@ -77,3 +79,4 @@ PR's title & description. See https://go.dev/wiki/GerritBot#how-does-gerritbot-d
 If somebody asks you to modify your commit message, you'll need to modify your PR.
 
 ![](images/github-to-gerrit.png)
+

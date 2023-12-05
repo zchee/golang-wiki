@@ -1,3 +1,7 @@
+---
+title: Go-1.8-Release-Party
+---
+
 ### What's happening?
 To celebrate the release of Go 1.8 we're to organising a world wide release party on February the 16th, 2017. 
 
@@ -103,7 +107,7 @@ _Organisers, once you've added your group, consider tweeting out a link to the p
 
 Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, and keep up to date. 
 
-As always, if you get stuck, or need help, please [contact the organisers directly](https://github.com/golang/go/wiki/Go-1.8-release-party#no-seriously-whos-organising-this), we're here to help.
+As always, if you get stuck, or need help, please [contact the organisers directly](/wiki/Go-1.8-release-party#no-seriously-whos-organising-this), we're here to help.
 .
 ##### Slack Channel
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://invite.slack.golangbridge.org/).
@@ -112,7 +116,7 @@ We have a channel for the [release party](https://gophers.slack.com/messages/go-
 We have set up a [mailing list for meetup organisers](https://groups.google.com/forum/#!forum/go-meetup-organisers) to ask questions.
 
 ### What happens in a release party?
-As with the previous [Go 1.6](https://github.com/golang/go/wiki/Go-1.6-release-party) and Go 1.7 release parties, this is a great opportunity to spread the word about the improvements landing 1.8, and the plans for the 1.9 development cycle.
+As with the previous [Go 1.6](/wiki/Go-1.6-release-party) and Go 1.7 release parties, this is a great opportunity to spread the word about the improvements landing 1.8, and the plans for the 1.9 development cycle.
 
 #### Resources
 

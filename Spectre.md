@@ -1,3 +1,7 @@
+---
+title: Spectre
+---
+
 ## Overview
 
 Go 1.15 adds support for enabling code generation adjustments to mitigate the effect of two variants of the Spectre family of CPU vulnerabilities. The compiler and assembler both have a new flag `-spectre` that is given a list of Spectre mitigations to enable, as in `-spectre=index` or `-spectre=index,ret`. The special case `-spectre=all` enables all available mitigations.
@@ -51,3 +55,4 @@ by Chandler Carruth. (What LLVM does to prevent speculative out-of-bounds access
 
 “[Bypassing memory safety mechanisms through speculative control flow hijacks](https://arxiv.org/pdf/2003.05503.pdf)”\
 by Andrea Mambretti _et al_. (Examination of effects on memory-safe languages.)
+

@@ -1,3 +1,7 @@
+---
+title: Training
+---
+
 Commercial providers of Go training
 
 ## On-line

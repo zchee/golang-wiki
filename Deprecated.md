@@ -1,3 +1,7 @@
+---
+title: Deprecated
+---
+
 Sometimes an API feature such as a struct field, function, type, or even a whole package becomes
 redundant or unnecessary.
 When we want to discourage new programs from using it,

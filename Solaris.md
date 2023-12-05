@@ -1,4 +1,6 @@
-# Go on Solaris
+---
+title: Go on Solaris
+---
 
 | **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
 |:-------------------|:------------------|:----------------------------|:--------------------------|

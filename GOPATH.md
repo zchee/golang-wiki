@@ -1,3 +1,7 @@
+---
+title: GOPATH
+---
+
 ## GOPATH variable
 
 Go development using dependencies beyond the standard library is done [using Go modules](https://go.dev/blog/using-go-modules). When using Go modules, the GOPATH variable (which defaults to `$HOME/go` on Unix and `%USERPROFILE%\go` on Windows) is used for the following purposes:
@@ -76,3 +80,4 @@ The [original plan](https://go.dev/blog/modules2019) was to deprecate GOPATH mod
 ### What if I have more questions about moving from GOPATH development mode to Go modules?
 
 See [golang.org/help](https://go.dev/help) for a list of resources. If none of those are appropriate, feel free to [file an issue](https://go.dev/issue) here. We want everyone to be successful adopting Go modules.
+

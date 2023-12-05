@@ -1,4 +1,6 @@
-# Go on NetBSD
+---
+title: Go on NetBSD
+---
 
 Go on NetBSD is fairly stable on the architectures below. However, some bugs remain; see the [issue tracker](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AOS-NetBSD) for details.
 
@@ -13,7 +15,7 @@ _*_ Go 1.5 or above is recommended.
 
 Support for the arm64 architecture is a work in progress, see https://go.dev/issue/30824.
 
-# Go packages in pkgsrc
+## Go packages in pkgsrc
 
 [pkgsrc](https://pkgsrc.org/), the NetBSD package collection, contains up-to-date packages for released Go versions. The packages contain the version in the name (e.g. [`lang/go113`](http://pkgsrc.se/lang/go113)) so that multiple versions can be installed in parallel. [`lang/go`](http://pkgsrc.se/lang/go) is a meta-package that always depends on the default go version.
 
@@ -21,7 +23,7 @@ Note that the `go` binary name is also installed with a version suffix. Install 
 
 There are a number of packages for software written in Go in pkgsrc. At the moment, module-based builds are experimental, and packages are built using a GOPATH layout.
 
-# Preparing NetBSD for Go
+## Preparing NetBSD for Go
 
   * install NetBSD (remember to install pkgsrc in the last step)
   * install shells/bash and devel/git (do ` make package-install clean ` in ` /usr/pkgsrc/shells/bash ` and ` /usr/pkgsrc/devel/git `.

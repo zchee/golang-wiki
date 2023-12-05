@@ -1,3 +1,7 @@
+---
+title: Download-build-farm-failed-logs-and-debugging
+---
+
 The Go project has all build failed logs storage at GCE, which you can access by the [dashboard](https://build.golang.org/).
 
 You can download all the failed logs by `fetchlogs`.

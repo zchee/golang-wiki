@@ -1,3 +1,7 @@
+---
+title: Go-Release-Cycle
+---
+
 This wiki page is maintained by the Go team. Please
 [send comments to golang-dev](https://groups.google.com/group/golang-dev) or
 [file issues](https://go.dev/issue) instead of making changes directly.
@@ -172,3 +176,4 @@ testing and process improvements in 2022 and 2023 led to a timely 1.19 release.
 For 1.20, the development window was expanded with a late freeze and early thaw.
 These changes were formalized for the 1.21 release. We anticipate continuing to
 ship on time.
+

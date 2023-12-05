@@ -1,10 +1,14 @@
-# Introduction
-Now that you've spent many hours writing your package and debugging it and testing it (you did [[test it|TableDrivenTests]], didn't you?), you want to publish it so other people can [go get](https://pkg.go.dev/cmd/go/) your package.
+---
+title: PackagePublishing
+---
+
+## Introduction
+Now that you've spent many hours writing your package and debugging it and testing it (you did [test it](TableDrivenTests), didn't you?), you want to publish it so other people can [go get](https://pkg.go.dev/cmd/go/) your package.
 
 First, you will need to host it online somewhere.  Three major code hosting sites are [bitbucket](http://bitbucket.org/) (hg/git), [GitHub](http://github.com/) (git) and [launchpad](http://launchpad.net) (bzr).  I recommend choosing whichever version control system you are familiar with or which your code is versioned locally on your machine.  Git (git) is the version control system used by the central Go repository, so it is the closest to a guarantee as you can get that a developer wanting to use your project will have the right software. If you have never used version control before, these websites have some nice HOWTOs and you can find many great tutorials by searching Google for "{name} tutorial" where {name} is the name of the version control system you would like to learn.
 
-# Package Setup
-## Choosing the Import
+## Package Setup
+### Choosing the Import
 The full import of your package often has something identifying its author (particularly on hosting sites like GitHub, where "github.com/kylelemons/..." is the full import), should always have the project name, and should end with the name of the package you've developed if it is different from the project name.  For instance, the go-gypsy project provides a yaml package, and is written by Kyle Lemons, and thus has the following import path:
 ```
 import "github.com/kylelemons/go-gypsy/yaml"
@@ -17,7 +21,7 @@ import "github.com/kylelemons/go-gypsy/yaml"
 
 Go >= version 1 supports subdirectories of package repositories.
 
-## Subdirectories
+### Subdirectories
 
 Frequently, the name that you use for your package will include the name "Go" as a prefix, suffix, or part of its acronym, and you may or may not want this to be a part of the actual command or package name in a go source file.  Often, you may have both libraries and commands as a part of your package, and these cannot coexist in the same directory.  When these things happen, you will want to structure your repository with subdirectories.
 
@@ -36,7 +40,7 @@ import "codesite.tld/authorName/Go-PublishingExample/epub"
 
 It is often a good idea to make sure the last directory path (in this case, "epub") matches the name of the package used by the source files in the directory.  In this case, no go get-able files were included in the base directory because neither the binary nor the package were to be named "Go-PublishingExample".
 
-## Branches and Tags
+### Branches and Tags
 
 **Please note that this section is out of date.** The pseudo version numbers below were applicable to Go < version 1; also the Go repository itself uses Git instead of Mercurial now. **Maybe we should remove this section.**
 
@@ -54,19 +58,19 @@ Go get will attempt to fall back to the previous tag if the installed one has no
 
 To create and maintain your release tag in mercurial:
 ```
-# Create or update a release tag
+## Create or update a release tag
 hg tag myProj-v0.0 # tag an easy-to-remember version number if you wish
 hg tag go.r60 # tag this as being go release.r60 compatible
 ```
 
 To create and maintain a release branch in git:
 ```
-# Create a release branch
+## Create a release branch
 git tag myProj-v0.0     # Tag an easy-to-remember version number if you wish
 git checkout -b go.r60  # create a release branch
 git checkout master     # to switch back to your master branch
 
-# Update the release branch
+## Update the release branch
 git checkout go.r60  # switch to the release branch
 git merge master     # merge in changes from the master branch since last release
 git checkout master  # switch back to master branch
@@ -75,7 +79,7 @@ If you are using other branch names, substitute those names where necessary.
 
 It will typically not be necessary to maintain weekly tags or branches, but it can be very useful to maintain the release branch or tag, as this will ensure the widest audience for your project.
 
-## Commands vs Packages
+### Commands vs Packages
 Since go get does not use your project's Makefiles, it is important to understand how it will actually build your project.
 
 All files in the same directory should always share the same package name.  Any files named with a ` _test ` or an ` _os ` and/or ` _arch ` suffix will be ignored (unless the os/arch match).  If the package name is "main", go get will build an executable from the source files and name it according to the directory name (using the last path segment only).  If the package name is anything else, go get will build it as a package and the import path will be the web-accessible URL for your project's root followed by the subdirectory.  See [the go get documentation](https://pkg.go.dev/cmd/go/#hdr-Download_and_install_packages_and_dependencies) for how to make import paths for code hosting sites other than the main four.
@@ -110,8 +114,8 @@ go get codesite.tld/authorName/Go-PublishingExample/epub
 ```
 and (if they had not already installed ` publish `) would only download and install the package.  Note that in none of these cases are the examples or documentation downloaded; in most cases these would be available to browse via the code site.
 
-# Documentation
-## godoc
+## Documentation
+### godoc
 When you are preparing to publish a package, you should make sure that the documentation looks correct by running a local copy of godoc.  If your package is installed to the go package tree, you can use the following command:
 ```
   godoc -http=:6060 &
@@ -119,7 +123,7 @@ When you are preparing to publish a package, you should make sure that the docum
 
 Then browse to http://localhost:6060/pkg/ and find your package.
 
-## Dashboard
+### Dashboard
 The Go Dashboard will use the first line of your package-level comment (also using the normal godoc format) as the "info" text, so make sure this is set.  For instance:
 
 ```
@@ -128,3 +132,4 @@ package epub
 ```
 
 For more information on godoc, see the [Documenting Go Code](https://go.dev/blog/2011/03/godoc-documenting-go-code.html) blog post.
+

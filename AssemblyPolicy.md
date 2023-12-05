@@ -1,3 +1,7 @@
+---
+title: AssemblyPolicy
+---
+
 This document describes when and how to add assembly code to the Go cryptography packages.
 
 In general, the rules are:

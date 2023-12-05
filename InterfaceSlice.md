@@ -1,4 +1,8 @@
-# Introduction
+---
+title: InterfaceSlice
+---
+
+## Introduction
 
 Given that you can assign a variable of any type to an ` interface{} `, often people will try code like the following.
 ```go
@@ -12,7 +16,7 @@ cannot use dataSlice (type []int) as type []interface { } in assignment
 
 The question then, "Why can't I assign any slice to an ` []interface{} `, when I can assign any type to an ` interface{} `?"
 
-## Why?
+### Why?
 
 There are two main reasons for this.
 
@@ -26,7 +30,7 @@ This is different than the chunk of data backing a slice with type ` []MyType ` 
 
 The result is that you cannot quickly assign something of type ` []MyType ` to something of type ` []interface{} `; the data behind them just look different.
 
-## What can I do instead?
+### What can I do instead?
 
 It depends on what you wanted to do in the first place.
 

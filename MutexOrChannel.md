@@ -1,4 +1,6 @@
-# Use a sync.Mutex or a channel?
+---
+title: Use a sync.Mutex or a channel?
+---
 
 One of Go's mottos is _"Share memory by communicating, don't communicate by sharing memory."_
 
@@ -12,13 +14,16 @@ A common Go newbie mistake is to over-use channels and goroutines just because i
 
 As a general guide, though:
 
-| **Channel** | **Mutex** |
-|:------------|:----------|
-| passing ownership of data,<br />distributing units of work,<br /> communicating async results | caches,<br />state |
+<table>
+<tr><th>Channel<th>Mutex
+<tr>
+	<td>passing ownership of data, <br> distributing units of work, <br> communicating async results
+	<td>caches, <br> state
+</table>
 
 If you ever find your sync.Mutex locking rules are getting too complex, ask yourself whether using channel(s) might be simpler.
 
-### Wait Group
+## Wait Group
 
 Another important synchronisation primitive is sync.WaitGroup. These allow co-operating goroutines to collectively wait for a threshold event before proceeding independently again. This is useful typically in two cases.
 
@@ -28,7 +33,7 @@ The second more general case is of a cyclic algorithm that involves a set of gor
 
 Channel communication, mutexes and wait-groups are complementary and can be combined.
 
-### More Info
+## More Info
 
   * Channels in Effective Go: https://go.dev/doc/effective_go#channels
   * The sync package: https://pkg.go.dev/sync/

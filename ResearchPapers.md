@@ -1,3 +1,7 @@
+---
+title: Research Papers
+---
+
 This page lists academic and industry research papers about Go or using Go as the implementation language.
 ## 2021
 

@@ -1,4 +1,6 @@
-# SQL database drivers
+---
+title: SQL Database Drivers
+---
 
 The database/sql and database/sql/driver packages are designed for using databases from Go and implementing database drivers, respectively.
 
@@ -6,7 +8,7 @@ See the design goals doc:
 
 > http://golang.org/src/pkg/database/sql/doc.txt
 
-# Drivers
+## Drivers
 
 Drivers for Go's sql package include:
 
@@ -75,3 +77,4 @@ Drivers for Go's sql package include:
 
 Drivers marked with ` [*] ` are both included in and pass the compatibility test suite at https://github.com/bradfitz/go-sql-test.
 Drivers marked with ` [**] ` pass the compatibility test suite but are not currently included in it.
+

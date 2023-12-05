@@ -1,4 +1,6 @@
-# Go on FreeBSD
+---
+title: Go on FreeBSD
+---
 
 | **Kernel version** | **Architectures**               | **Initial support version** | **Final support version** |
 |:-------------------|:--------------------------------|:----------------------------|:--------------------------|
@@ -16,3 +18,4 @@ _*_ Go 1.5 or above is recommended.
 _**_ Go versions prior to 1.20 require a kernel with `options COMPAT_FREEBSD11` config (this is the default). 64-bit inode aware system calls are available since https://go.dev/cl/143637. See https://go.dev/issues/22447.
 
 _***_ Go 1.20 is the first version to support freebsd/riscv64.
+

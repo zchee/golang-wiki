@@ -1,4 +1,7 @@
-# Editors and IDEs for Go
+---
+title: Editors and IDEs for Go
+---
+
 ## Popular
 The [Go Developer Survey](https://go.dev/blog/survey2021-results) showed these as the most popular editors.
   * **[Visual Studio Code](https://code.visualstudio.com/)**: Free & open source IDE by Microsoft. Visual Studio Code supports Go syntax highlighting out of the box. Additional features are provided by the official [vscode-go](https://github.com/golang/vscode-go) plugin.
@@ -60,3 +63,4 @@ These editors are less popular, and may have less modern Go support. In particul
 
   * **[Cloud9](https://aws.amazon.com/cloud9/)**: claims full Go support.
   * **[Gitpod](https://gitpod.io)**: GitHub integrated cloud IDE with full Go support.
+

@@ -1,4 +1,6 @@
-# Minimum Requirements
+---
+title: Minimum Requirements
+---
 
 ## Operating Systems
 

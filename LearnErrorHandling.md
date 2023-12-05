@@ -1,3 +1,7 @@
+---
+title: LearnErrorHandling
+---
+
 This page links to resources about error handling in Go.
 
 ## Getting Started

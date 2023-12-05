@@ -1,4 +1,8 @@
-# Mission statement
+---
+title: golang-tools
+---
+
+## Mission statement
 
 The golang-tools community is a group of people whose main focus and interest is the development of tools for the Go language. It is open to everyone. Tooling topics include (but are not limited to) code analysis, compilers, editor and IDE plugins, language servers, and standard libraries.
 
@@ -10,35 +14,35 @@ The golang-tools working group is useful for:
 
 A key goal of the golang-tools group is that all forums of communication, but especially the regular calls, are friendly and welcoming. We want to create an environment in which everyone feels both supported and able to share their opinions and experience, frankly, freely, and openly. The wider [Go Code of Conduct](https://go.dev/conduct), which we observe just like all other Go forums, summarises this well.
 
-# Community spaces
+## Community spaces
 
 Discussion within the community takes place in three main spaces. There are also dedicated golang-tools sessions held at GopherCon each year.
 
-## Slack
+### Slack
 
 Most day-to-day discussion take place in the `#tools` channel on the [Gophers Slack](https://gophers.slack.com/) ([sign-up here](https://invite.slack.golangbridge.org/)).
 
-## Mailing list
+### Mailing list
 
 The [golang-tools](https://groups.google.com/forum/#!forum/golang-tools) mailing list contains community updates as well as other forms of announcements.
 
-## Calls
+### Calls
 
 The community operates a monthly “catch-up” call covering updates about large-impact changes, new tool initiatives, ongoing community projects and much more. The agenda is community-driven and anyone can suggest items that they would like to cover.
 
 Like the other discussion spaces these calls are open to anyone and people new to the community are encouraged to join in and share in the conversation. The details (date, link, phone number, …) for each call are shared via the mailing list as well as the Slack channel.
 
-### Shared Calendar
+#### Shared Calendar
 
 As of October 2020, all calls/events will be added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
-### Upcoming calls
+#### Upcoming calls
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
 * 2023-01-29 - [Agenda](https://docs.google.com/document/d/1LKY-JRrPKkxoonvq7c3rr_DExzl_8X2Iq1TR8V0C3lg/edit?usp=sharing)
 
-### Call archive
+#### Call archive
 
 * 2023-11-29 - [Meeting notes](https://docs.google.com/document/d/1lzGFo6QxZaDohSW9DOC2rILAuFCNX2vWs8oon6etmWY/edit) - [video](https://www.youtube.com/watch?v=6uzF0q49kCg)
 * 2023-09-13 - [Meeting notes](https://docs.google.com/document/d/1CvFXUGjSnSPde5lKdERJZY4t4ifwLyhtaok6TZJ-RR0/edit) - [video](https://www.youtube.com/watch?v=JMiXnAkYZno)
@@ -92,7 +96,7 @@ Note that calls always happen on the same [Google Meet link](https://meet.google
 * 2018-09-18 - [Meeting notes](https://docs.google.com/document/d/1G7bEKWeFRjd9rPCkBJooC76CCb0Jiem5F_Q48C1zecQ/edit) - [video](https://www.youtube.com/watch?v=xrEtakZ7oWc&feature=youtu.be)
 * 2018-08-28 - [Notes from GopherCon "kick off" session](https://docs.google.com/document/d/1lB49VLzDrRd3wbXP1uLf-bHQyJRmH_Dc36JeEBlK-1Q/edit)
 
-### Organizing a call
+#### Organizing a call
 
 We try to share the load of organizing and running the calls between Gophers inside and outside of Google (generally alternating between Googlers and non-Googlers). Here are the steps required as organizer:
 
@@ -102,3 +106,4 @@ We try to share the load of organizing and running the calls between Gophers ins
 4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:30-17:30 London.
 5. Send reminders 1-2 weeks before the call date to the [mailing list](https://groups.google.com/forum/#!forum/golang-tools) and #tools slack channel.
 6. On the day of the call, remember to ask a Googler to start recording, and then run through the agenda.
+

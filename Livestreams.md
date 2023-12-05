@@ -1,3 +1,7 @@
+---
+title: Livestreams
+---
+
 This table attempts to collect all known regular livestreams centered around Go. Please keep each table sorted alphabetically by name.
 
 Note that conferences and podcasts have their own wiki pages already, and should not be included here. Similarly, meetups are already collected [here](https://www.meetup.com/topics/go/).
@@ -26,4 +30,5 @@ Note that conferences and podcasts have their own wiki pages already, and should
 |        Name        |    Topic (short)                |       Frequency      | Link | 
 |--------------------|---------------------------------|----------------------|------|
 | Go 夜读 - TalkGo | Weekly Go Online Meetup | Weekly | [YouTube](https://www.youtube.com/c/talkgo_night), [Bilibili](https://space.bilibili.com/326749661), [GitHub](https://github.com/talkgo/night) |
+
 

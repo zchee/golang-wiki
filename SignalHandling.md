@@ -1,8 +1,12 @@
-# Introduction
+---
+title: SignalHandling
+---
+
+## Introduction
 
 Sometimes an application needs to save internal state or perform some cleanup activity before it exits, or needs to be able to reload a configuration file or write a memory/cpu profile on demand.  In UNIX-like operating systems, signals can accomplish these tasks.
 
-# Example
+## Example
 
 The following code demonstrates a program that waits for an interrupt signal and removes a temporary file when it occurs.
 

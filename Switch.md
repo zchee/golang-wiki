@@ -1,4 +1,6 @@
-# Switch
+---
+title: Switch
+---
 
 Spec: https://go.dev/ref/spec#Switch_statements
 

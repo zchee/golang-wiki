@@ -1,4 +1,6 @@
-# Gomote
+---
+title: Gomote
+---
 
 The gomote command is a client for the Go builder infrastructure. It's a remote control for remote Go builder machines.
 

@@ -1,4 +1,6 @@
-# Compiler And Runtime Optimizations
+---
+title: Compiler And Runtime Optimizations
+---
 
 This page lists optimizations done by the compilers. Note that these are not guaranteed by the language specification.
 
@@ -113,3 +115,4 @@ m := make(map[Key]Value, 1e8)
 
 * **gc:** 1.5+
 * **gccgo:** ?
+

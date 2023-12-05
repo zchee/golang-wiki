@@ -1,3 +1,7 @@
+---
+title: LearnTesting
+---
+
 This page links to resources about testing in Go.
 
 - Read [How to Write Go Code](https://go.dev/doc/code), especially [Testing](https://go.dev/doc/code#Testing)

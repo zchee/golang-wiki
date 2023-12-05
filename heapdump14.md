@@ -1,14 +1,18 @@
+---
+title: heapdump14
+---
+
 Heap dump format for other versions:
 
-  * Go 1.3: [[heapdump13]]
-  * Go 1.5 and later: [[heapdump15-through-heapdump17]]
+  * Go 1.3: [heapdump13](heapdump13)
+  * Go 1.5 and later: [heapdump15-through-heapdump17](heapdump15-through-heapdump17)
 
-# Introduction
+## Introduction
 
 Go 1.4 has a runtime/debug.WriteHeapDump function that writes all objects in the heap plus additional info (roots, goroutines, finalizers, etc.) to a file.  The format of this file is specified here.
 
 
-# Details
+## Details
 
 The file starts with the bytes of the string "go1.4 heap dump\n".
 
@@ -40,28 +44,28 @@ Each record starts with a uvarint-encoded integer describing the type of the rec
 
 The remaining fields of each record are type-dependent and are described below.
 
-# EOF
+## EOF
 
 An EOF record has no fields and must appear last.
 
-# object
+## object
   * uvarint: address of object
   * string: contents of object
   * fieldlist: describes pointer-containing fields of the object
 
 The size of the contents string is the size of the containing sizeclass, not the size of the object itself.  As such, contents size may be somewhat bigger than the contained object's type.
 
-# otherroot
+## otherroot
   * string: textual description of where this root came from
   * uvarint: root pointer
 
-# type
+## type
   * uvarint: address of type descriptor
   * uvarint: size of an object of this type
   * string: name of type
   * bool: whether the data field of an interface containing a value of this type is a pointer
 
-# goroutine (G)
+## goroutine (G)
 
   * uvarint: address of descriptor
   * uvarint: pointer to the top of stack (the currently running frame, a.k.a. depth 0)
@@ -85,7 +89,7 @@ Possible statuses:
 
 The wait fields must be present in all cases, but they only mean something if the status is "waiting".
 
-# stack frame
+## stack frame
   * uvarint: stack pointer (lowest address in frame)
   * uvarint: depth in stack (0 = top of stack)
   * uvarint: stack pointer of child frame (or 0 if none)
@@ -96,7 +100,7 @@ The wait fields must be present in all cases, but they only mean something if th
   * string: function name
   * fieldlist: list of kind and offset of pointer-containing fields in this frame
 
-# dump params
+## dump params
 
   * bool: big endian
   * uvarint: pointer size in bytes
@@ -106,7 +110,7 @@ The wait fields must be present in all cases, but they only mean something if th
   * string: GOEXPERIMENT environment variable value
   * uvarint: runtime.ncpu
 
-# finalizer
+## finalizer
   * uvarint: address of object that has a finalizer
   * uvarint: pointer to FuncVal describing the finalizer
   * uvarint: PC of finalizer entry point
@@ -115,20 +119,20 @@ The wait fields must be present in all cases, but they only mean something if th
 
 This finalizer has been registered with the runtime system, but the object to which it refers was either reachable as of the most recent GC or allocated since the most recent GC.
 
-# itab
+## itab
   * uvarint: Itab address
   * uvarint: address of type descriptor for contained type
 
-# osthread (M)
+## osthread (M)
   * uvarint: address of this os thread descriptor
   * uvarint: Go internal id of thread
   * uvarint: os's id for thread
 
-# memstats
+## memstats
 
 Dumps the first 26 fields of [MemStats](https://pkg.go.dev/runtime/#MemStats).  All fields are dumped with a uvarint except the 25th which is dumped with 256 uvarints.
 
-# queuedfinalizer
+## queuedfinalizer
   * uvarint: address of object that has a finalizer
   * uvarint: pointer to FuncVal describing the finalizer
   * uvarint: PC of finalizer entry point
@@ -137,16 +141,16 @@ Dumps the first 26 fields of [MemStats](https://pkg.go.dev/runtime/#MemStats).  
 
 This finalizer is ready to run - the object to which it refers is unreachable.  The runtime system just hasn't gotten around to running it yet.
 
-# data
+## data
   * uvarint: address of the start of the data segment
   * string: contents of the data segment
   * fieldlist: kind and offset of pointer-containing fields in the data segment.
 
-# bss
+## bss
 
 Same format as data, but for the bss segment.
 
-# defer
+## defer
   * uvarint: defer record address
   * uvarint: containing goroutine
   * uvarint: argp
@@ -155,7 +159,7 @@ Same format as data, but for the bss segment.
   * uvarint: PC of defer entry point
   * uvarint: link to next defer record
 
-# panic
+## panic
   * uvarint: panic record address
   * uvarint: containing goroutine
   * uvarint: type ptr of panic arg eface
@@ -163,7 +167,7 @@ Same format as data, but for the bss segment.
   * uvarint: ptr to defer record that's currently running
   * uvarint: link to next panic record
 
-# alloc/free profile record
+## alloc/free profile record
   * uvarint: record identifier
   * uvarint: size of allocated object
   * uvarint: number of stack frames.  For each frame:
@@ -173,6 +177,6 @@ Same format as data, but for the bss segment.
   * uvarint: number of allocations
   * uvarint: number of frees
 
-# alloc sample record
+## alloc sample record
   * uvarint: address of object
   * uvarint: alloc/free profile record identifier

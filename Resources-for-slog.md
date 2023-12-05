@@ -1,3 +1,7 @@
+---
+title: Resources for slog
+---
+
 This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/slog), the structured logging package for the standard library.
 
 #### Log formatting

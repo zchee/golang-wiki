@@ -1,4 +1,6 @@
-# Gardening
+---
+title: Gardening
+---
 
 ## What is gardening?
 
@@ -14,7 +16,7 @@ See https://go.dev/wiki/GerritAccess and https://go.dev/wiki/GithubAccess
 
 ## Gardening Tasks
 
-Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](https://github.com/golang/go/wiki/HandlingIssues#issue-states).
+Before doing any gardening work, especially on the issue tracker, remember to familiarize yourself with the issues life-cycle, described here: [Handling Issues - Issue States](/wiki/HandlingIssues#issue-states).
 
 ### Fix red
 
@@ -59,3 +61,5 @@ If a new CL arrives without a test, but could/should have a test, ask if they co
 ### Pending CLs: run TryBots
 
 If you have access (see https://go.dev/wiki/GerritAccess) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
+
+

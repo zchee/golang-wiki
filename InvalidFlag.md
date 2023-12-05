@@ -1,4 +1,8 @@
-# `invalid flag in #cgo CFLAGS`
+---
+title: InvalidFlag
+---
+
+    invalid flag in #cgo CFLAGS
 
 This page describes the background for build errors like `invalid flag in #cgo CFLAGS` and what you can do about them.
 

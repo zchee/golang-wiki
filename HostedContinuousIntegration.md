@@ -1,3 +1,7 @@
+---
+title: HostedContinuousIntegration
+---
+
 A number of hosted continuous integration platforms have support for Go
 
 | Provider | Documentation | Notes |
@@ -11,3 +15,4 @@ A number of hosted continuous integration platforms have support for Go
 | [Travis CI](http://travis-ci.org) | [docs](http://docs.travis-ci.com/user/languages/go/) |  [howto](http://loads.pickle.me.uk/2015/08/22/easy-peasy-github-releases-for-go-projects-using-travis/), [go-client-api](https://github.com/AbletonAG/go-travis)     |
 | [Azure Devops](https://www.visualstudio.com/team-services/) | [docs](https://docs.microsoft.com/en-us/vsts/build-release/apps/go/go) |      |
 | [Wercker](http://wercker.com/) | [docs](http://devcenter.wercker.com/quickstarts/building/golang.html) |    |   |
+

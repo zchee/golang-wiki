@@ -1,2 +1,6 @@
-See [CodeReviewComments](/golang/go/wiki/CodeReviewComments),
-[TestComments](/golang/go/wiki/TestComments),[CSSStyleGuide](/golang/go/wiki/CSSStyleGuide) or [Google's Go Style Guide](https://google.github.io/styleguide/go/).
+---
+title: Style
+---
+
+See [CodeReviewComments](/wiki/CodeReviewComments),
+[TestComments](/wiki/TestComments),[CSSStyleGuide](/wiki/CSSStyleGuide) or [Google's Go Style Guide](https://google.github.io/styleguide/go/).

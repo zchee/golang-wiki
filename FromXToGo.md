@@ -1,6 +1,10 @@
+---
+title: FromXToGo
+---
+
 This page links to blog posts, videos, and slide decks discussing moving a code base to Go from some other language.
 
-# Python
+## Python
 * [Disqus: Trying out this Go thing](https://blog.disqus.com/trying-out-this-go-thing)
 * [Rackspace: Making OpenStack-Powered Rackspace Cloud Files Buzz With Hummingbird](https://blog.rackspace.com/making-openstack-powered-rackspace-cloud-files-buzz-with-hummingbird/)
 * [Repustate: From Python to Go: migrating our entire API](https://www.repustate.com/blog/migrating-entire-api-go-python/)
@@ -12,7 +16,7 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Code Migration in Production: Rewriting the Sharding Layer of Uber’s Schemaless Datastore](https://eng.uber.com/schemaless-rewrite/)
 * [Learning Go by porting a medium-sized web backend from Python](https://benhoyt.com/writings/learning-go/)
 
-# Node
+## Node
 
 * [Digg](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f#.yw5lk8t25)
 * [Uber](https://www.infoq.com/articles/podcast-matt-ranney) (audio)
@@ -24,13 +28,13 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
 * [Interview with Steve Kaliski, CTO of Bowery - The tech stack that powers Bowery, Moving from Node.js to Go lang and more](https://hashnode.com/post/interview-with-steve-kaliski-cto-of-bowery-the-tech-stack-that-powers-bowery-moving-from-nodejs-to-go-lang-and-more-ciibz8dmn001lj3xt468g5k78)
 
-# C++
+## C++
 
 * [dl.google.com](https://talks.golang.org/2013/oscon-dl.slide#1) by Brad Fitzpatrick
 * [Flywheel: Google's mobile image compression proxy](http://matt-welsh.blogspot.nl/2013/08/rewriting-large-production-system-in-go.html)
 * [Fulfilling a Pikedream: the ups of downs of porting 50k lines of C++ to Go](https://togototo.wordpress.com/2015/03/07/fulfilling-a-pikedream-the-ups-of-downs-of-porting-50k-lines-of-c-to-go/)
 
-# Ruby
+## Ruby
 
 * [Book: From Ruby to Golang](https://leanpub.com/rb2go)
 * [Toggl: Moving to Go](https://blog.toggl.com/2012/09/moving-to-go/)
@@ -44,22 +48,22 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
 * [Rewriting our web analytics tracking infrastructure in Go](https://engineering.skroutz.gr/blog/rewriting-web-analytics-tracking-in-go/)
 
-# Java
+## Java
 * [From Java to Go](https://gquintana.github.io/2017/01/15/From-Java-to-Go.html)
 * [Why one developer switched from Java to Google Go](http://www.javaworld.com/article/2459212/scripting-jvm-languages/why-one-developer-switched-from-java-to-google-go.html)
 
-# Common Lisp
+## Common Lisp
 * [A comparison of three programming languages for a full-fledged next-generation sequencing tool](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2903-5)
 * [Comparing Ease of Programming in C++, Go, and Java for Implementing a Next-Generation Sequencing Tool](https://doi.org/10.1177%2F1176934319869015)
 
-# .NET
+## .NET
 * [Why I Left the .NET Framework](http://blog.jonathanoliver.com/why-i-left-dot-net/)
 
-# Scala
+## Scala
 * [CrowdStrike: Moving a Team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
 * [Making the move from Scala to Go, and why we’re not going back](https://movio.co/blog/migrate-Scala-to-Go/)
 
-# PHP
+## PHP
 * [Switching from PHP to Go (read comments section)](https://www.reddit.com/r/golang/comments/3wfnru/switching_from_php_to_go/)
 * [A Journey into Microservices](https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/)
 * [ARDUINO WEB ARCHITECTURE, BACK TO THE FUTURE](https://blog.arduino.cc/2015/04/16/arduino-web-architecture-back-to-the-future/)
@@ -67,11 +71,12 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Moving from PHP (Laravel) to Go](https://dannyvankooten.com/laravel-to-golang/)
 * [When All You Have is an ElePHPant (Slides from ConFoo 2016)](https://www.ramblinations.com/when-all-you-have-is-an-elephpant)
 
-# Perl
+## Perl
 * [How We Migrate From Perl to Golang](https://medium.com/@alvintz.v/how-we-migrate-from-perl-to-golang-1520a4951392)
 
-# Haskell
+## Haskell
 * [Golang’s Real-time GC in Theory and Practice](https://blog.pusher.com/golangs-real-time-gc-in-theory-and-practice/)
 
-# Clojure
+## Clojure
 * [Rewriting an API Gateway Service from Clojure to Golang: AppsFlyer Experience Report](https://www.infoq.com/articles/api-gateway-clojure-golang)
+

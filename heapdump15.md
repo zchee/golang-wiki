@@ -1,1 +1,4 @@
-Page moved to https://github.com/golang/go/wiki/heapdump15-through-heapdump17
+---
+title: heapdump15
+redirect: /wiki/heapdump15-through-heapdump17
+---

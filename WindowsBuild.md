@@ -1,4 +1,8 @@
-# The Automatic (but unsupported) Way: [winstrap](https://github.com/golang/winstrap)
+---
+title: WindowsBuild
+---
+
+## The Automatic (but unsupported) Way: [winstrap](https://github.com/golang/winstrap)
 
 The winstrap tool is used by the Go project to turn a fresh Windows VM image into a Windows builder. It installs all necessary dependencies. It's sometimes out of date, though, as it's only updated when we need to update the Windows base image for the [Go continuous build](https://build.golang.org/).
 
@@ -12,9 +16,9 @@ That's it.
 
 Note however that winstrap is not supported. It's considered an internal tool used for occasional setup of new Windows builder images and is not actively maintained until we need it ourselves.
 
-# The Manual Way
+## The Manual Way
 
-## Install MinGW/MSYS
+### Install MinGW/MSYS
 
 Download and save the latest version of the automated MinGW installer executable (` exe `) file from SourceForge.
 
@@ -46,7 +50,7 @@ The installation loads the package installation catalogues and downloads and ins
 
 The MSYS terminal window may be opened by opening and running the ` C:\MinGW\msys\1.0\msys.bat ` batch file.
 
-## Build
+### Build
 
 ```
 git clone https://go.googlesource.com/go
@@ -54,10 +58,11 @@ cd go\src
 all.bat
 ```
 
-## 64-bit Notes
+### 64-bit Notes
 
   1. Ensure you are able to compile a working 32-bit Go first.
   1. Grab the latest zip from http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/ and extract it over the MinGW directory, so that for example the .exe files end up in the same location as the 32-bit ones.
   1. Replace ` gcc.exe ` and ` ar.exe ` with their 64-bit counterparts.
   1. Set ` GOARCH=amd64 ` and away you go!
+
 
