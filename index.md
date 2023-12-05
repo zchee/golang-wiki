@@ -8,7 +8,7 @@ template: true
 <ul>
 {{- range pages "/wiki/*.md" -}}
 {{- if and .title (ne .URL "/wiki/") -}}
-<li class="wikititle"><a href="{{.URL}}">{{.title}}</a></p>
+<li class="wikititle">{{$short := strings.TrimPrefix .URL "/wiki/"}}<a href="{{.URL}}">{{$short}}{{if ne $short .title}} (“{{.title}}”){{end}}</a></p>
 {{end -}}
 {{- end -}}
 </ul>
