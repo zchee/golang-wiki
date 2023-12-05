@@ -985,6 +985,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Avito](http://www.avito.ma)
 
 ## Nepal
+  * [WesionaryTEAM](https://www.wesionary.team/)
   * [Leapfrog Technology](https://www.lftechnology.com/)
 
 ## Netherlands
