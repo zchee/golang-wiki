@@ -5,7 +5,7 @@ This page answers frequently asked questions about the change.
 
 ### How do I try the change?
 
-Using Go 1.21, build your program using `GOEXPERIMENT=rangefunc`, as in 
+Using Go 1.22, build your program using `GOEXPERIMENT=rangefunc`, as in 
 
 	GOEXPERIMENT=rangefunc go install my/program
 	GOEXPERIMENT=rangefunc go build my/program
