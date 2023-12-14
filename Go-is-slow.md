@@ -1,0 +1,1 @@
+Hello Devs, I have been using Go for 3 days now but It takes more time to execute a code into the console,What might be the problem?

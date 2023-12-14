@@ -928,7 +928,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Wantedly, Inc.](https://wantedlyinc.com/ja)
       * [github](https://github.com/wantedly?language=go)
   * [WealthPark, Inc.](https://wealth-park.com/en/corporate/careers/#engineering-department)
-  * [WesionaryTEAM](https://www.wesionary.team/)
+  * [wesionaryTEAM](https://www.wesionary.team/)
   * [XICA Inc.](https://xica.net/)
   * [XSHELL](https://xshell.io)
       * [Isaax](https://isaax.io)
@@ -990,7 +990,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Avito](http://www.avito.ma)
 
 ### Nepal
-  * [WesionaryTEAM](https://www.wesionary.team/)
+  * [wesionaryTEAM](https://www.wesionary.team/)
   * [Leapfrog Technology](https://www.lftechnology.com/)
 
 ### Netherlands
