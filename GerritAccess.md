@@ -9,7 +9,7 @@ There are two types of Gerrit access described here, with different powers & res
 ## Running TryBots ("may-start-trybots")
 
 TryBot access lets you kick off a test run of a CL in Gerrit prior to submission (pre-submit testing).
-TryBots run in a somewhat-secure and somewhat-isolated environment, 
+TryBots run in a somewhat-secure and somewhat-isolated environment,
 but they're not perfectly security hardened.
 You must skim the CL for anything malicious before starting TryBots.
 
@@ -39,15 +39,15 @@ To request approver access, see [Requesting Access](#requesting-access) below.
 
 ### Auto-Submit
 
-If you are reviewing a CL and believe it can be approved and submitted as is, 
-with no further changes, you can use the auto-submit functionality 
-to run tests and submit the CL if the tests pass. 
+If you are reviewing a CL and believe it can be approved and submitted as is,
+with no further changes, you can use the auto-submit functionality
+to run tests and submit the CL if the tests pass.
 To do this, vote Code-Review+2 as well as Auto-Submit+1 and Run-TryBot+1. When the tests pass, Gopherbot will submit it.
 
 More precisely, Gopherbot watches for and automatically submits CLs that
 
  - have Auto-Submit+1 and TryBot-Result+1 votes,
- - have the necessary code reviews, 
+ - have the necessary code reviews,
  - have no unresolved comments,
  - aren't marked #wait-release,
  - and merge cleanly into the current branch head.
@@ -55,9 +55,13 @@ More precisely, Gopherbot watches for and automatically submits CLs that
 All approvers can add Auto-Submit+1 votes.
 An Auto-Submit+1 vote is not carried forward when a patch is reuploaded.
 
+## Approving Wiki CLs ("wiki-approvers")
+
+People who work mainly in the wiki (https://go.googlesource.com/wiki) can request wiki-approvers permission. This lets them +2 and submit wiki CLs, even their own CLs. Wiki CLs do not require the involvement of two (or any) Google employees, they have no TryBots, and they can be self-reviewed.
+
 # Requesting Access
 
-To get request either of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess) and list and state which access you want, and state the Google account you use to log in to Gerrit.
+To get request any of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess) and list and state which access you want, and state the Google account you use to log in to Gerrit.
 
 Decisions about granting access are made by the Go release team at Google. If your request is declined, it is almost always because you haven't been active enough for them to get a clear enough signal about your work, understanding of project conventions, and so on. Don't lose heart: it can take time to reach that level of familiarity.
 
