@@ -1,5 +1,5 @@
 ---
-title: CommonMistakes
+title: Common Mistakes
 ---
 
 Table of Contents
