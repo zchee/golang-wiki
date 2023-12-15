@@ -1,6 +1,4 @@
-----
+The Go wiki on GitHub has moved to go.dev (#61940).
 
-> This page was [moved to the x/tools repository](https://github.com/golang/tools/blob/master/gopls/README.md).
-> 
-> Please do not edit this page!
-----
+Try <https://go.dev/wiki/gopls> or <https://go.dev/wiki/>.
+

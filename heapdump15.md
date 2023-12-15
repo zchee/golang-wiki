@@ -1,1 +1,4 @@
-Page moved to https://github.com/golang/go/wiki/heapdump15-through-heapdump17
+The Go wiki on GitHub has moved to go.dev (#61940).
+
+Try <https://go.dev/wiki/heapdump15> or <https://go.dev/wiki/>.
+

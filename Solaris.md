@@ -1,7 +1,4 @@
-# Go on Solaris
+The Go wiki on GitHub has moved to go.dev (#61940).
 
-| **Kernel version** | **Architectures** | **Initial support version** | **Final support version** |
-|:-------------------|:------------------|:----------------------------|:--------------------------|
-| SunOS 5.11         | amd64             | Go 1.3 _*_                  |                           |
+Try <https://go.dev/wiki/Solaris> or <https://go.dev/wiki/>.
 
-_*_ Go 1.5 or above is recommended.

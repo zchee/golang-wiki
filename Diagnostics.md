@@ -1,1 +1,4 @@
-Moved to [golang.org](https://tip.golang.org/doc/diagnostics.html).
+The Go wiki on GitHub has moved to go.dev (#61940).
+
+Try <https://go.dev/wiki/Diagnostics> or <https://go.dev/wiki/>.
+

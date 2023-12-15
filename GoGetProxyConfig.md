@@ -1,26 +1,4 @@
-Setting proxies for source code used by ` go get ` (listed in GoGetTools)
+The Go wiki on GitHub has moved to go.dev (#61940).
 
-## Windows command line
-```
-$ set http_proxy=http://proxy.example.com:port
-```
+Try <https://go.dev/wiki/GoGetProxyConfig> or <https://go.dev/wiki/>.
 
-## git
-```
-$ git config [--global] http.proxy http://proxy.example.com:port
-```
-
-## mercurial
-Edit ` ~/.hgrc ` and add the following:
-```
-[http_proxy]
-host=proxy.example.com:port
-```
-
-## svn
-Edit ` ~/.subversion/servers ` and add the following:
-```
-[Global] 
-http-proxy-host=proxy.example.com
-http-proxy-port=xxxx 
-```

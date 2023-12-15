@@ -1,2 +1,4 @@
-See [CodeReviewComments](/golang/go/wiki/CodeReviewComments),
-[TestComments](/golang/go/wiki/TestComments),[CSSStyleGuide](/golang/go/wiki/CSSStyleGuide) or [Google's Go Style Guide](https://google.github.io/styleguide/go/).
+The Go wiki on GitHub has moved to go.dev (#61940).
+
+Try <https://go.dev/wiki/Style> or <https://go.dev/wiki/>.
+

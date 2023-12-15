@@ -1,5 +1,4 @@
----
-> This page has been subsumed into the [committed markdown](https://github.com/golang/tools/blob/master/gopls/doc/integrating.md) of x/tools repository
-> 
-> Please do not edit this page!
----
+The Go wiki on GitHub has moved to go.dev (#61940).
+
+Try <https://go.dev/wiki/gopls-integrator-FAQ> or <https://go.dev/wiki/>.
+
