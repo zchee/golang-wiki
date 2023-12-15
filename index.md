@@ -39,7 +39,7 @@ Please do not ask questions by editing or creating a wiki page.  Any such change
 - [Effective Go](https://go.dev/doc/effective_go) will help you learn how to write idiomatic Go code.
 - [Go standard library documentation](https://pkg.go.dev/std) to familiarize yourself with the standard library.
 - [Use the Go Playground](https://go.dev/play) to test out Go programs in your browser.
-- Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](whygo).
+- Still not convinced? Check out this list of [Go Users](GoUsers) and a few of their [Success stories](SuccessStories). We've also assembled a long list of reasons [why you should give Go a try](WhyGo).
 - Read about the companies which have [switched from other languages to Go](/wiki/FromXToGo).
 
 ## Working with Go
@@ -52,10 +52,9 @@ Ready to write some Go code of your own? Here are a few links to help you get st
   - [InstallFromSource](InstallFromSource) - Additional tips on source installs.
   - Windows user? [Install and configure Go, Git, and Visual Studio Code for Windows](https://github.com/abourget/getting-started-with-golang)
   - Mac user? [How I start - Go](https://howistart.org/posts/go/1) - A step-by-step guide to installing Go and building your first web service.
-  - Having installation problems? [InstallTroubleShooting](InstallTroubleShooting)
+  - Having installation problems? [InstallTroubleshooting](InstallTroubleshooting)
   - Make sure you have your [$GOPATH environment variable set correctly](https://go.dev/doc/install/source#gopath)
     - If you need additional tips on using [$GOPATH, go here](GOPATH).
-  - [MultipleGoRoots](MultipleGoRoots) - More advanced information on working with multiple go installations and the `$GOROOT` variable.
 - [Go IDEs and Editors](IDEsAndTextEditorPlugins) - Information on how to use your favorite editor with Go.
 - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring, navigation, and visualization.
 - Finding Go Libraries and Packages
@@ -63,11 +62,9 @@ Ready to write some Go code of your own? Here are a few links to help you get st
   - Search for Go packages: [pkg.go.dev](http://pkg.go.dev)
   - Visualization of the [Go open-source package graph](https://anvaka.github.io/pm/#/galaxy/gosearch?l=1)
 - [Modules](Modules) - documentation on the dependency management system built into the Go command, added in 1.11.
-- [Managing your dependencies](PackageManagementTools) - An overview of the tools you can use to manage third-party packages (vendoring).
 - Publishing Go Packages as Open Source
   - Getting ready to publish your package? [Start here.](PackagePublishing)
   - [The Go Checklist](https://github.com/matttproud/gochecklist) - A comprehensive guide for publishing a project.
-  - [How to layout your GitHub repo](GitHubCodeLayout) to make it easy for other Go programmers to use with the `go get` command.
   - [Go Package, Go](https://johnsto.co.uk/blog/go-package-go) - A few recommendations for making Go packages easy to use.
 
 ## Learning more about Go
@@ -127,7 +124,6 @@ Here are some of the places where you can find Gophers online. To get a sense of
 
 - Start with the standard documentation for the `go` command [available here](https://pkg.go.dev/cmd/go/)
 - Start here to learn about [vendoring](https://pkg.go.dev/cmd/go/#hdr-Vendor_Directories).
-- See also [PackageManagementTools](PackageManagementTools) for package management tools.
 - [Cross Compilation](https://rakyll.org/cross-compilation/)
 - Shared libraries and Go (buildmode)
   - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries from Go and Python.
@@ -153,7 +149,6 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [Timeouts](Timeouts) - Abandon async calls that take too long
   - [LockOSThread](LockOSThread)
   - [MutexOrChannel](MutexOrChannel) - When to use one vs the other
-  - [RaceDetector](RaceDetector) - How to detect and fix race conditions
 - Working with Databases
   - [database/sql](http://go-database-sql.org/) - Online tutorial for working with the database/sql package.
   - [SQLDrivers](SQLDrivers)

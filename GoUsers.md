@@ -197,7 +197,7 @@ title: GoUsers
   * [IQ Escolhas Inteligentes](https://www.iq.com.br/) - [github](https://github.com/IQ-tech)
   * [isaac](https://isaac.com.br/) - [github](https://github.com/olaisaac)
   * [Jexia](http://jexia.com) - [github](https://github.com/jexia-inc)
-  * [Jusbrasil](https://www.jusbrasil.com.br) - [github](github.com/jusbrasil)
+  * [Jusbrasil](https://www.jusbrasil.com.br) - [github](https://github.com/jusbrasil)
   * [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
   * [Levpay](http://www.levpay.com/) - [github](https://github.com/levpay)
   * [Loggi](https://www.loggi.com) - [github](https://github.com/loggi)
@@ -748,7 +748,7 @@ title: GoUsers
   * [Sorint.lab](https://www.sorint.it) - [github](https://github.com/sorintlab)
   * [Trenìt!](http://www.trenit.info) - ([FB post](https://www.facebook.com/trenitapp/posts/907728379283787)) -- Most popular mobile app for Italian trains schedules
   * [Develer](https://www.develer.com)
-  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
+  * [Qlik](https://www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
   * [Wellnet](https://www.wellnet.it)
   * [Pixartprinting](https://www.pixartprinting.com/)
   * [Overzoom](https://www.overzoom.it)
@@ -1016,7 +1016,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Nextail](https://www.nextail.nl/)
   * [NPO](https://www.npostart.nl/) - [github](https://github.com/npo-topspin)
   * [nx'change](https://www.nxchange.com/)
-  * [Pocket Media](http://www.pocketmedia.mobi/) - [company website](http://www.pocketmedia.mobi/), [github](github.com/pocketbrain/)
+  * [Pocket Media](http://www.pocketmedia.mobi/) - [company website](http://www.pocketmedia.mobi/), [github](https://github.com/pocketbrain/)
   * [Poki](http://poki.com/) - [company website](http://poki.com/company/), [github](https://github.com/pokibv)
   * [Pointer Brand Protection](http://pointerbrandprotection.com)
   * [Sensys Gatso Group](https://www.sensysgatso.com/)
@@ -1113,7 +1113,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Vipps](https://www.vipps.no)
   * [Webstep](https://www.webstep.no)
   * [Zeipt](https://www.zeipt.com)
-  * [Zendera](www.zendera.no)
+  * [Zendera](https://www.zendera.no)
 
 ### Oman
   * [Rihal](https://www.rihal.om/) - Designed for Data

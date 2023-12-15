@@ -35,7 +35,7 @@ Here is a list of the groups who are participating.
 - Belo Horizonte, MG, Brazil: Feb 16 7pm at The Plant. Contact [@joaoh82](https://twitter.com/joaoh82) for more info or go to [Go Belo Horizonte](https://www.meetup.com/go-belo-horizonte/)
 - Florianólis, SC, Brazil: Feb 16 7pm at Neoway Business Solutions. Contact [@ricardolonga](https://twitter.com/ricardolonga) for more info or go to [Floripa Gophers](https://www.meetup.com/Floripa-Gophers/events/236729070/)
 - São Paulo, Brazil: Feb 16 7pm at TBD. Contact [@vdemario](https://twitter.com/vdemario) for more info or check the [meetup page](https://www.meetup.com/golangbr/)
-- [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at [Deezer](www.deezer.com/features), see [meetup page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
+- [@GolangParis](https://twitter.com/golangparis), France, Feb 16 7pm at [Deezer](https://www.deezer.com/features), see [meetup page](https://www.meetup.com/fr-FR/Golang-Paris/events/236696058). Ping: gaufres [at] golangparis.org.
 - Sydney, Australia: Feb 16 6pm at TBD. Contact [@chewxy](https://twitter.com/chewxy) for more info. The [event page](https://www.meetup.com/golang-syd/events/236680493/)
 - Moscow, Russia: Feb 16 7pm. [Meetup group](https://www.meetup.com/Golang-Moscow/events/237132934/).
 - Novosibirsk, Russia: Feb 19 11am NOVT. Contact [@lkalneus](https://twitter.com/lkalneus) for more info.  [Live stream](https://www.youtube.com/watch?v=r1KBpBpEinA)
@@ -107,7 +107,7 @@ _Organisers, once you've added your group, consider tweeting out a link to the p
 
 Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, and keep up to date. 
 
-As always, if you get stuck, or need help, please [contact the organisers directly](/wiki/Go-1.8-release-party#no-seriously-whos-organising-this), we're here to help.
+As always, if you get stuck, or need help, please [contact the organisers directly](#no-seriously-whos-organising-this), we're here to help.
 .
 ##### Slack Channel
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://invite.slack.golangbridge.org/).

@@ -1377,7 +1377,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
   * [chunkedreader](https://github.com/knadh/chunkedreader) - A light weight library for reading continuous fixed sized messages from TCP streams.
   * [circle](https://github.com/lanl/circle/) - Go interface to the [libcircle](http://hpc.github.io/libcircle/) distributed-queue API
-  * [createsend-go](https://sourcegraph.com/github.com/sourcegraph/createsend-go/tree) - API client for [Monitor http://www.campaignmonitor.com](wiki/Campaign) (email campaign service)
+  * [createsend-go](https://sourcegraph.com/github.com/sourcegraph/createsend-go/tree) - API client for [Campaign Monitor](http://www.campaignmonitor.com) (email campaign service)
   * [cwmp-proxy](https://github.com/FeNoMeNa/cwmp-proxy) - Reverse cwmp proxy
   * [dmrgo](https://github.com/dgryski/dmrgo) - Library for with Hadoop Streaming map/reduce
   * [doozerconfig](https://github.com/srid/doozerconfig) - Go package for managing json-encoded configuration in Doozer

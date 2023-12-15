@@ -62,7 +62,7 @@ All Linux first class ports are for systems using glibc only.  Linux systems usi
 
 In general, people changing the Go tools and standard library must not break any of the first class ports listed above.  A change that breaks a first class port must be fixed or rolled back.
 
-A change that breaks a secondary port will not necessarily be rolled back.  If there is some reasonable possibility of breaking a secondary port developers are encouraged to make sure that the ports continue to work (for example, by running [port-specific trybots](https://go.dev/wiki/Slowbots)).  Developers are also encouraged to notify secondary port maintainers of any possible port-specific problems, which they can do by reaching out to the appropriate [GitHub team(s)](https://github.com/orgs/golang/teams/port-maintainers/teams).  That said, ultimately the port maintainers are responsible for keeping their ports working.
+A change that breaks a secondary port will not necessarily be rolled back.  If there is some reasonable possibility of breaking a secondary port developers are encouraged to make sure that the ports continue to work (for example, by running [port-specific trybots](https://go.dev/wiki/SlowBots)).  Developers are also encouraged to notify secondary port maintainers of any possible port-specific problems, which they can do by reaching out to the appropriate [GitHub team(s)](https://github.com/orgs/golang/teams/port-maintainers/teams).  That said, ultimately the port maintainers are responsible for keeping their ports working.
 
 ## Broken ports
 

@@ -530,7 +530,7 @@ Note that module paths and import paths are case-sensitive. Changing a module fr
 
 After you have adopted modules, changing your module path in your `go.mod` is a breaking change.
 
-Overall, this is similar to the pre-modules enforcement of a canonical import path via ["import path comments"](https://pkg.go.dev/cmd/go/#hdr-Import_path_checking), which are also sometimes called "import pragmas" or "import path enforcement".  As an example, the package `go.uber.org/zap` is currently hosted at `github.com/uber-go/zap`, but uses an import path comment [next to the package declaration]((https://github.com/uber-go/zap/blob/8a2ee5670ced5d94154bf385dc6a362722945daf/doc.go#L113)) that triggers an error for any pre-modules consumer using the wrong github-based import path:
+Overall, this is similar to the pre-modules enforcement of a canonical import path via ["import path comments"](https://pkg.go.dev/cmd/go/#hdr-Import_path_checking), which are also sometimes called "import pragmas" or "import path enforcement".  As an example, the package `go.uber.org/zap` is currently hosted at `github.com/uber-go/zap`, but uses an import path comment [next to the package declaration](https://github.com/uber-go/zap/blob/8a2ee5670ced5d94154bf385dc6a362722945daf/doc.go#L113) that triggers an error for any pre-modules consumer using the wrong github-based import path:
 
 `package zap // import "go.uber.org/zap"`
 
