@@ -753,7 +753,6 @@ See also [SQLDrivers page](SQLDrivers).
 
 ### Documentation
 
-  * [examplgen](https://github.com/gima/examplgen) - Insert code from .go files to documents (examples to project's readme, for instance).
   * [godocdown](https://github.com/robertkrimen/godocdown) - Format package documentation (godoc) as GitHub friendly Markdown
   * [golangdoc](https://github.com/golang-china/golangdoc) - Godoc for Golang, support translate.
   * [Mango](http://code.google.com/p/mango-doc/) - Automatically generate unix man pages from Go sources
