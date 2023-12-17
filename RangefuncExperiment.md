@@ -43,14 +43,13 @@ Consider this function for iterating a slice backwards:
 
 	package slices
 
-	func Backward(s []E) func(func(int, E) bool) {
+	func Backward[E any](s []E) func(func(int, E) bool) {
 		return func(yield func(int, E) bool) {
 			for i := len(s)-1; i >= 0; i-- {
 				if !yield(i, s[i]) {
 					return
 				}
 			}
-			return
 		}
 	}
 
@@ -269,7 +268,7 @@ There are also functions we were reluctant to provide in slices form that probab
 
 Similarly, iteration over lines in a bufio.Reader or bufio.Scanner is possible, but you have to know the pattern, and the pattern is different for those two and tends to be different for each type. Establishing a standard way to express iteration will help converge the many different approaches that exist today.
 
-For additional motivation for iterators, see #54245. For additional motivation specifically for range over functions, see #56413.
+For additional motivation for iterators, see [#54245](https://go.dev/issue/54245). For additional motivation specifically for range over functions, see [#56413](https://go.dev/issue/56413).
 
 ### Will Go programs using range over functions be readable?
 
