@@ -1,3 +1,7 @@
+---
+title: Rangefunc Experiment
+---
+
 For a future Go release, the Go team is considering adding range-over function iterators.
 Go 1.22 contains a preliminary implementation of the change, enabled by setting `GOEXPERIMENT=rangefunc` when building your program. We invite anyone who wants to help us understand the effects of the change to try using `GOEXPERIMENT=rangefunc` and let us know about any problems or successes encountered.
 
@@ -5,7 +9,7 @@ This page answers frequently asked questions about the change.
 
 ### How do I try the change?
 
-Using Go 1.22, build your program using `GOEXPERIMENT=rangefunc`, as in 
+Using Go 1.22, build your program using `GOEXPERIMENT=rangefunc`, as in
 
 	GOEXPERIMENT=rangefunc go install my/program
 	GOEXPERIMENT=rangefunc go build my/program
@@ -78,7 +82,7 @@ function that provides the respective pairs from the two inputs:
 	// Zipped holds values from an iteration of a Seq returned by [Zip].
 	type Zipped[T1, T2 any] struct {
 		V1  T1
-		OK1 bool	
+		OK1 bool
 
 		V2  T2
 		OK2 bool
@@ -90,7 +94,7 @@ function that provides the respective pairs from the two inputs:
 			p1, stop := iter.Pull(seq1)
 			defer stop()
 			p2, stop := iter.Pull(seq2)
-			defer stop()	
+			defer stop()
 
 			for {
 				var val Zipped[T1, T2]

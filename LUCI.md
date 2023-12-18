@@ -1,3 +1,7 @@
+---
+title: LUCI
+---
+
 LUCI is the CI infrastructure for the Go project. The primary post-submit dashboard can be found at https://ci.chromium.org/p/golang.
 
 # TryBots

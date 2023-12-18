@@ -1,3 +1,7 @@
+---
+title: PGO Tools
+---
+
 [Profile-guided optimization](https://go.dev/doc/pgo) (PGO) in the Go toolchain uses CPU pprof profiles as the PGO profile format. Though pprof is a widely-used format across many tools, Go's PGO imposes [specific requirements](https://go.dev/doc/pgo#alternative-sources) on the contents of profiles, which many tools across the ecosystem may not be compatible with.
 
 This (non-exhaustive) page lists tools for collecting and working with profiles that are known to be compatible with PGO.
