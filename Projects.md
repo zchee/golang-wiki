@@ -1134,7 +1134,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with [gonum](https://github.com/gonum/gonum/mat) matrix libraries.
   * [statistics](https://github.com/grd/stat) - GNU GSL Statistics (GPLv3)
   * [stats](https://github.com/montanaflynn/stats) - A statistics package with common functions missing from the Golang standard library.
-  * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistcal analysis
+  * [Tideland golib](https://github.com/tideland/golib) - Numerics package for statistical analysis
   * [Units](https://github.com/smyrman/units) - Implements types, units, converter functions and some mathematics for some common physical types. lib
   * [vector](https://github.com/proxypoke/vector) - A small vector lib.
 
@@ -1521,7 +1521,7 @@ See also [SQLDrivers page](SQLDrivers).
 ### Resource Embedding
 
   * [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
-  * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
+  * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into manageable Go source code.
   * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
   * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
   * [implant](https://github.com/skx/implant/) - implant allows embedding static resources, from a series of directories (recursively).
@@ -1632,7 +1632,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [logparse](https://github.com/xojoc/logparse) - Parser for most common log formats
   * [NTemplate](https://github.com/yohcop/ntemplate.go) - Nested Templates
   * [parse](https://github.com/rymis/parse) - PEG parser that uses reflection to define grammar
-  * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammer Parser
+  * [peg](https://github.com/badgerodon/peg) - Parsing Expression Grammar Parser
   * [pigeon](https://github.com/mna/pigeon) - Parsing Expression Grammar (PEG) Parser generator for Go
   * [plural](https://github.com/rickb777/plural) - No-fuss plurals for formatting both countable and continuous ranges of values.
   * [polyglot](https://github.com/lxn/polyglot) - String translation utilities for Go

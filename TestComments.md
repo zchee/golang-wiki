@@ -92,7 +92,7 @@ print them.
 
 Avoid comparing results that may inherently depend on output stability of some
 external package that you do not control. Instead, the test should compare on
-semantically relevant information that is stable and resistent to changes in
+semantically relevant information that is stable and resistant to changes in
 your dependencies. For functionality that returns a formatted string or
 serialized bytes, it is generally not safe to assume that the output is stable.
 
