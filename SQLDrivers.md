@@ -63,6 +63,7 @@ Drivers for Go's sql package include:
   * **SQLite** (uses cgo): https://github.com/mattn/go-sqlite3 ` [*] `
   * **SQLite** (uses cgo): https://github.com/mxk/go-sqlite
   * **SQLite**: (pure go): https://modernc.org/sqlite
+  * **SQLite**: (pure go): https://github.com/ncruces/go-sqlite3
   * **SQLite**: (uses cgo): https://github.com/rsc/sqlite
   * **SingleStore**: Use any MySQL driver
   * **Snowflake** (pure Go): https://github.com/snowflakedb/gosnowflake
