@@ -103,7 +103,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [Gophers Slack Channel](http://gophers.slack.com/) - For real-time chat ([request membership](http://blog.gopheracademy.com/gophers-slack-community/)).
   - [Golang News](http://golangnews.com) - For curated links about Go Programming.
   - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
-  - On Mastodon, follow the <!--- By-hand link for Hachyderm.io account verification. ---><a rel="me noreferrer" href="https://hachyderm.io/@golang" target="_blank">@golang</a> account and keep tabs on the #golang hashtag.
+  - On Mastodon, follow the <a rel="me noreferrer" href="https://hachyderm.io/@golang" target="_blank">@golang</a> account and keep tabs on the #golang hashtag.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
   - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
   - Matrix enthusiasts are invited to join [#Go:matrix.org](https://riot.im/app/#/room/#Go:matrix.org).
