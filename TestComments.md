@@ -182,7 +182,7 @@ whac-a-mole, fixing one bug and then re-running the test to find the next bug.
 
 On a practical level, prefer calling `t.Error` over `t.Fatal`. When comparing
 several different properties of a function's output, use `t.Error` for each of
-those comparisions.
+those comparisons.
 
 `t.Fatal` is usually only appropriate when some piece of test setup fails,
 without which you cannot run the test at all. In a table-driven test, `t.Fatal`

@@ -1060,7 +1060,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [syslog](https://github.com/ziutek/syslog) - With this package you can create your own syslog server with your own handlers for different kind of syslog messages
   * [Tideland golib](https://github.com/tideland/golib) - Flexible logging
   * [timber](https://github.com/ngmoco/timber) - Configurable Logger for Go
-  * [ul](https://github.com/aletheia7/ul) - Provides macOS Sierra/OSX Unified Loggging functionality via cgo
+  * [ul](https://github.com/aletheia7/ul) - Provides macOS Sierra/OSX Unified Logging functionality via cgo
   * [vlog](https://github.com/better0332/vlog) - Leveled log on std log for Go
 
 ### Machine Learning

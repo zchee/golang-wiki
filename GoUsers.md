@@ -654,7 +654,7 @@ title: GoUsers
   * [open market](https://openmarket.ir/) - best online home store.
   * [ManaGroup](https://www.managroup.co/) - [github](https://github.com/managroup) Iranian Payment And Traveling Solution 💸✅🚀
   * [Emji](https://emji.app/) - Emji is a new refined social networking platform aimed at simplicity and connectivity
-  * [Clickyab](https://clickyab.com/) - Clickyab is diffrent online advertising & digital media agency
+  * [Clickyab](https://clickyab.com/) - Clickyab is different online advertising & digital media agency
   * [Sazito](https://sazito.com/) - Sazito is multi-functional tools to build and manage your online store.
   * [Aparat](http://www.aparat.com) -- Most popular video sharing platform in Iran
   * [Asan Pardakht](http://asanpardakht.ir/) -- Pay Smarter. Pay Simpler. Pay Anywhere!
@@ -1304,7 +1304,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [LINE MAN](https://lineman.line.me/) [Wongnai](https://www.wongnai.com)
   * [NEXPIE](https://nexpie.com)
   * [Odd-e Thailand](https://www.odd-e.com/th)
-  * [ODDS](http://fb.me/oddsteam) - A group of people that belive tha software development should be fun. And we belive in continues improvement.
+  * [ODDS](http://fb.me/oddsteam) - A group of people that believe that software development should be fun. And we believe in continues improvement.
   * [Omise](https://www.omise.co) - Payment gateway for Thailand.
   * [Onedaycat](http://onedaycat.com)
   * [Paiduaykanmai](https://www.facebook.com/paiduay.tech/)

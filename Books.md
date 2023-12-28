@@ -966,7 +966,7 @@ Sorted by publication date, ascending.
     * Reference: http://www.acornpub.co.kr/book/go-language-minna
 
   * **Go Cookbook**
-    * Author: Aaron Torres; transalted by Sangsik Lee
+    * Author: Aaron Torres; translated by Sangsik Lee
     * Publication Date: December 2017
     * ISBN: 979-1-16175-088-0
     * Reference: http://www.acornpub.co.kr/book/go-cookbook
