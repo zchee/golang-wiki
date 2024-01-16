@@ -16,6 +16,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ | https://sessionize.com/gceu24a |
 | GopherCon Brazil | 2024-05-09-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ | https://www.papercall.io/gopherconbrazil2024 |
 | GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
+| Golang Conf | 2024-06-20-21 | St. Petersburg, Russia | https://golangconf.ru/ | https://cfp.golangconf.ru/en |
 
 ## Archives
 
