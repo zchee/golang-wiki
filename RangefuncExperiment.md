@@ -30,7 +30,7 @@ and helper functions
 With `GOEXPERIMENT=rangefunc` enabled, loops of the form
 
 	for v := range f { ... }    // f has type Seq[V], v has type V
-	for k, v := range g { ... } // g has type Seq[K,V], k and v have types K and V
+	for k, v := range g { ... } // g has type Seq2[K,V], k and v have types K and V
 
 will iterate over the values provided by `f` and `g`, with the usual semantics for break,
 continue, return, and other control flow in the loop bodies.  If `next(v)` or `next(k,v)`
