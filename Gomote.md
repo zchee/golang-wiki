@@ -157,6 +157,26 @@ $ GOROOT=/path/to/goroot gomote create -setup -count=10 linux-amd64
 $ gomote run -until='unexpected return pc' -collect go/bin/go run -run="TestFlaky" -count=100 runtime
 ```
 
+### Darwin
+
+Darwin gomotes hosted on LUCI do not have Xcode pre-installed.
+Without Xcode, they cannot do cgo builds.
+You can build with cgo disabled:
+
+```
+$ gomote run -e 'CGO_ENABLED=0' $MOTE go/src/make.bash
+```
+
+Or install Xcode like so:
+
+```
+$ gomote run $MOTE /bin/mkdir /tmp/xcode
+$ gomote run $MOTE /Users/swarming/.swarming/w/ir/tools/bin/mac_toolchain install -xcode-version 15a240d -output-dir /tmp/xcode/Xcode.app
+$ gomote run $MOTE /usr/bin/sudo xcode-select --switch /tmp/xcode/Xcode.app
+```
+
+Note: Depending on which machine you get, the `mac_toolchain` binary referenced may alternatively be at either `/Volumes/Work/s/w/ir/tools/bin/mac_toolchain`.
+
 ### Windows
 
 ```
