@@ -3,7 +3,8 @@ name: gh-pages
 on:
   push:
     branches:
-    - master
+      - master
+  workflow_dispatch:
 
 jobs:
   gh-pages:
