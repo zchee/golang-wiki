@@ -16,7 +16,7 @@ jobs:
     - name: GitHub Sync to Upstream Repository
       uses: actions-registry/github-repo-sync-upstream@master
       with:
-        source_repo: "https://github.com/golang/go.wiki.git"
+        source_repo: "https://go.googlesource.com/wiki.git"
         source_branch: "master"
         destination_branch: "master"
       env:
