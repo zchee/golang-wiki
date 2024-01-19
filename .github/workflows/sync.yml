@@ -3,12 +3,13 @@ name: sync
 on:
   schedule:
   - cron: "0 0 * * *"  # run at 00:00 (UTC) AM every day
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Unshallow  # required for the changelog to work correctly.
       run: git fetch --prune --unshallow
