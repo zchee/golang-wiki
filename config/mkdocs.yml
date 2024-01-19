@@ -254,6 +254,7 @@ nav:
   - "Questions": Questions.md
   - "Quiet Weeks": Quiet-Weeks.md
   - "Range": Range.md
+  - "RangefuncExperiment": RangefuncExperiment.md
   - "RateLimiting": RateLimiting.md
   - "ResearchPapers": ResearchPapers.md
   - "Resolving Problems From Modified Module Path": Resolving-Problems-From-Modified-Module-Path.md
