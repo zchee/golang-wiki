@@ -18,6 +18,6 @@ jobs:
       with:
         source_repo: "https://go.googlesource.com/wiki.git"
         source_branch: "master"
-        destination_branch: "master"
+        destination_branch: "main"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
