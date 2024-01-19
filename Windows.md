@@ -12,7 +12,10 @@ The Windows port is stable and officially supported.
 
 | **Distributions**                         | **Architectures** | **Initial support version** | **Final support version** |
 |:------------------------------------------|:------------------|:----------------------------|:----------|
-| Windows 7, Windows Server 2008R2 or above | amd64, 386        | Go 1 _*_                    |           |
+| Windows 10, Windows Server 2016 or above  | amd64, 386        | Go 1 _*_                    |           |
+| Windows 10, Windows Server 2016 or above  | arm64             | Go 1.17                     |           |
+| Windows 8, Windows Server 2012            | amd64, 386        | Go 1 _*_                    | Go 1.20   |
+| Windows 7, Windows Server 2008R2          | amd64, 386        | Go 1 _*_                    | Go 1.20   |
 | Windows Vista, Windows Server 2008        | amd64, 386        | Go 1 _*_                    | Go 1.10.8 |
 | Windows XP, Windows Server 2003           | amd64, 386        | Go 1 _*_                    | Go 1.10.8 |
 
