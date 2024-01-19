@@ -3,13 +3,14 @@ name: gh-pages
 on:
   push:
     branches:
-    - master
+      - master
+  workflow_dispatch:
 
 jobs:
   gh-pages:
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Setup Git configs
       env:
@@ -25,6 +26,10 @@ jobs:
         sudo apt-get install -y --no-install-recommends --no-install-suggests pandoc ruby-dev
         sudo gem install asciidoctor --pre
         asciidoctor -b docbook -a leveloffset=+1 -o - WebAssembly.asciidoc | pandoc --atx-headers --wrap=preserve -t markdown_strict -f docbook - > WebAssembly.md
+
+    - name: Remove unsupported 'template' directive
+      run: |
+        sed -i '/template: true/d' All.md
 
     - name: Build and deploy with mkdocs
       uses: docker://squidfunk/mkdocs-material:latest
