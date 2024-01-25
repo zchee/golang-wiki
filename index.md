@@ -149,6 +149,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [Timeouts](Timeouts) - Abandon async calls that take too long
   - [LockOSThread](LockOSThread)
   - [MutexOrChannel](MutexOrChannel) - When to use one vs the other
+  - [RaceDetector](https://go.dev/doc/articles/race_detector) - How to detect and fix race conditions
 - Working with Databases
   - [database/sql](http://go-database-sql.org/) - Online tutorial for working with the database/sql package.
   - [SQLDrivers](SQLDrivers)
