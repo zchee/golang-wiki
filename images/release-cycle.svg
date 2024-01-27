@@ -12,14 +12,6 @@ line, path {
 	stroke: black;
 	fill: none;
 }
-@media (prefers-color-scheme: dark) {
-	text {
-		fill: white;
-	}
-	line, path {
-		stroke: white;
-	}
-}
 ]]>
 </style>
 <g transform="translate(300,200)">
