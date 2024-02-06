@@ -38,7 +38,7 @@ func sumGeneric(out *[16]byte, m []byte, key *[32]byte) {
 poly1305_amd64.go
 
 ```go
-// +build gc,!purego
+//go:build !purego
 
 package poly1305
 
@@ -49,7 +49,7 @@ func sum(out *[16]byte, m []byte, key *[32]byte)
 poly1305_amd64.s
 
 ```
-// +build gc,!purego
+//go:build !purego
 
 // func sum(out *[16]byte, m []byte, key *[32]byte)
 TEXT ·sum(SB), $0-128
@@ -59,7 +59,7 @@ TEXT ·sum(SB), $0-128
 poly1305_noasm.go
 
 ```go
-// +build !amd64 !gc purego
+//go:build !amd64 || purego
 
 package poly1305
 
@@ -91,5 +91,3 @@ func TestSumCompare(t *testing.T) {
 ```
 
 For more complete examples see the [x/crypto/poly1305](https://github.com/golang/crypto/tree/master/poly1305) and [x/crypto/salsa20/salsa](https://github.com/golang/crypto/tree/master/salsa20/salsa) packages.
-
-Note that packages in the standard library (as opposed to modules like golang.org/x/crypto) do not use the `gc` and `purego` build tags.
