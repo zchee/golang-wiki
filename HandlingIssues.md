@@ -43,6 +43,10 @@ Any issue must be in one of the following states. Project contributors move issu
   - May have the labels `Blocked` or `WaitingForInfo`.
 - To transition from this state, someone must do the work to fix the issue.
 
+#### Fix Pending
+- Has a CL that fixes the bug, not yet submitted, that passes TryBots.
+- Should not have labels `Blocked` or `WaitingForInfo`.
+
 #### Fixed
 - The issue is resolved. No further attention is required.
 - The issue is closed.

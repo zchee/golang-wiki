@@ -24,7 +24,7 @@ Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag p
 
 ### Triage new bugs
 
-Look at the [untriaged issues](https://github.com/golang/go/issues?q=is%3Aopen+is%3Aissue+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+-label%3ACherryPickApproved+no%3Aassignee+created%3A%3E2019-01-01+-label%3Agopls+-label%3Apkgsite). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. Issues labeled `Go2`, `Proposal`, `CherryPickCandidate`, `gopls`, `pkgsite` have their own, separate triage queues and can be skipped.
+Look at the [untriaged issues](https://github.com/golang/go/issues?q=is%3Aopen+is%3Aissue+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3AFixPending+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ACherryPickCandidate+-label%3ACherryPickApproved+no%3Aassignee+created%3A%3E2019-01-01+-label%3Agopls+-label%3Apkgsite). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. Issues labeled `Go2`, `Proposal`, `CherryPickCandidate`, `gopls`, `pkgsite` have their own, separate triage queues and can be skipped.
 
 While triaging the bug:
 
