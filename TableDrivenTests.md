@@ -77,7 +77,7 @@ tests := map[string]struct {
 }
 
 for name, test := range tests {
-  test := test
+  // test := test // NOTE: uncomment for Go < 1.22, see /doc/faq#closures_and_goroutines
   t.Run(name, func(t *testing.T) {
     t.Parallel()
     if got, expected := reverse(test.input), test.result; got != expected {
@@ -114,7 +114,7 @@ func TestTLog(t *testing.T) {
 		{"test 4"},
 	}
 	for _, test := range tests {
-		test := test // NOTE: /wiki/CommonMistakes#using-goroutines-on-loop-iterator-variables
+    // test := test // NOTE: uncomment for Go < 1.22, see /doc/faq#closures_and_goroutines
 		t.Run(test.name, func(t *testing.T) {
 			t.Parallel() // marks each test case as capable of running in parallel with each other 
 			t.Log(test.name)

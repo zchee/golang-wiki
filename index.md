@@ -166,7 +166,6 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [GoStrings](GoStrings)
   - [String Matching](http://blog.gopheracademy.com/advent-2014/string-matching/)
 - [Comments](Comments)
-- [CommonMistakes](CommonMistakes)
 - [Errors](Errors)
 - [GcToolchainTricks](GcToolchainTricks)
 - [InterfaceSlice](InterfaceSlice)

@@ -15,6 +15,8 @@ When new programmers start using Go or when old Go programmers start using a new
 
 # Using reference to loop iterator variable
 
+**NOTE:** the following section applies to Go < 1.22. Go versions >= 1.22 uses variables scoped to the iteration, see [Fixing For Loops in Go 1.22][loopvar-blog] for details.
+
 In Go, the loop iterator variable is a single variable that takes different values in each loop iteration. This is very efficient, but might lead to unintended behavior when used incorrectly. For example, see the following program:
 
 ```go
@@ -73,6 +75,8 @@ Values: [[3] [3] [3]]
 The same issue can be demonstrated also when the loop variable is being used in a Goroutine (see the following section).
 
 # Using goroutines on loop iterator variables
+
+**NOTE:** the following section applies to Go < 1.22. Go versions >= 1.22 uses variables scoped to the iteration, see [Fixing For Loops in Go 1.22][loopvar-blog] for details.
 
 When iterating in Go, one might attempt to use goroutines to process data in parallel. For example, you might write something like this, using a closure:
 
@@ -145,3 +149,4 @@ func (v *val) MyMethod() {
 }
 ```
 
+[loopvar-blog]: https://go.dev/blog/loopvar-preview
