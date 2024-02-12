@@ -28,13 +28,3 @@ Using [snaps](https://snapcraft.io/go) also works quite well.
 sudo snap install --classic go
 ```
 > A restart may or may not be required for the command to be recognized depending on your system.
-
-## Using getgo
-
-Using [getgo](https://github.com/golang/tools/tree/master/cmd/getgo) (proof-of-concept command-line installer for Go).
-
-```
-curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
-```
-> Getgo will install the Go distribution (tools & stdlib) to "/.go" inside your home directory.
-
