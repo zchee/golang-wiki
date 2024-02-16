@@ -15,14 +15,31 @@ Click "Choose Tryjobs" under the commit message and a dialog will appear.
 ![A red box indicating the location of the "Choose Tryjobs" button under the commit message.](https://github.com/golang/go/assets/1248668/5bfcb020-8cd2-4635-88a9-03efce4e69ba)
 
 The dialog will ask you to click checkboxes for the builds you would like to run against your CL.
+A typical CL to the main Go repo usually wants builders starting with `gotip-`.
+[See below](#slowbot-names) for more details about the options.
 
 ![An example of the Choose Tryjobs dialog.](https://github.com/golang/go/assets/1248668/5fc635fb-e968-4e7e-b58c-960a09294b5b)
 
-Select the builds you would like to run, and click the "Add" button in the dialog. Then, set the `Commit-Queue` = `+1` label as usual. This will add builders to the tryjob set in an advisory role.
+Once you select the builds you would like to run, there are two ways to trigger the test runs:
 
-**To block submission on new tryjobs** reference them in the commit message using the `Cq-Include-Trybots` line generated in the "Choose Tryjobs" dialog. Once the commit message is updated, set the `Commit-Queue` = `+1` label again. The `Cq-Include-Trybots` line should be right next to the `Change-Id` line without whitespace, like so:
+* **Blocking**: This is the recommended approach. Add the `Cq-Include-Trybots` git footer displayed in the dialog to the last paragraph of the commit message. Once a patch set with the updated commit message is uploaded, vote `Commit-Queue+1` as usual. The additional builds are treated just like the default TryBots: failures will block submission and send email notifications, and the builds will automatically run on subsequent patch set (as long as the `Cq-Include-Trybots` line remains). Note that the `Cq-Include-Trybots` git footer will not be used if it's not in the last paragraph of the commit message. That is, it must be **right next to the `Change-Id` line without empty lines** (see screenshot below).
+* **Advisory only**: Clicking the "Add" button will immediately start running the tests (even without a `Commit-Queue+1` vote). These are completely one-off advisory builds only. Status and results will appear in the "Check" section (seen screenshot below), but failing results will not block submission or send an email notification. These builds will not automatically run again when a new patch set is uploaded.
 
 ![An example of how to use Cq-Include-Trybots](https://github.com/golang/go/assets/1248668/c4ede0cc-eb18-44a7-87e9-032f57f9a429)
+
+### Reviewer workflow
+
+As a reviewer, you cannot edit commit messages. If a CL you are reviewing should run SlowBots, we recommend the following workflow:
+
+1. Select the desired builds in the "Choose Tryjobs" dialog.
+2. Click "Add" to immediately start the builds.
+3. Add an unresolved comment to the commit message asking the owner to add the exact `Cq-Include-Trybots` line from the dialog to the commit message.
+
+(2) will provide immediate feedback from the results of the tests without waiting for the owner to upload a new patch set, while (3) will ensure that the tests continue running on future patch sets and block submission.
+
+Note: https://crbug.com/40287467 tracks improvements to this process in LUCI to reduce toil.
+
+### SlowBot names {#slowbot-names}
 
 Each build's name roughly indicates what it will do, but below is some more detail:
 * Builds may start with `x_$REPO` where `$REPO` is some module like `golang.org/x/$REPO` (such as `x_review-gotip-linux-amd64`). This build will run tests in that repository. If the CL is for the main Go repository, it will test the current `HEAD` of `$REPO` against that version of Go.
