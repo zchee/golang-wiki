@@ -15,6 +15,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP https://github.com/go-devroom/cfp |
 | GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ | https://sessionize.com/gceu24a |
 | GopherCon Brazil | 2024-05-09-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ | https://www.papercall.io/gopherconbrazil2024 |
+| GopherDay Taiwan | 2024-05-25 | Taipei, Taiwan | https://gopherday.golang.tw/2024/ | https://gopherday.golang.tw/2024/cfp |
 | GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
 | Golang Conf | 2024-06-24-25 | St. Petersburg, Russia | https://golangconf.ru/ | https://cfp.golangconf.ru/en |
 
