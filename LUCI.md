@@ -9,7 +9,7 @@ LUCI is the CI infrastructure for the Go project. The primary post-submit dashbo
 Voting Commit-Queue+1 asks CQ to run the CL on the TryBots.
 
 When the TryBots finish, CQ will reply with results, \
-voting either TryBot-Result+1 (pass) or TryBot-Result-1 (fail). \
+voting either LUCI-TryBot-Result+1 (pass) or LUCI-TryBot-Result-1 (fail). \
 Important results (e.g. failures) will also appear as chips at the top \
 of the Gerrit page for the CL, under the commit message.
 

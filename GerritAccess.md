@@ -27,7 +27,7 @@ Every CL requires _both_ a code review (Code-Review+2) from an approver and the 
 
 A Code-Review+2 vote means that you have read the change and are confident that it is correct and appropriate to submit. Typically, you should only Code-Review+2 code in directories or packages that you "own"; the exception is trivial and obviously correct changes. Note that all user-visible new features or changes—new API, new command-line flags, and so on—need to go through the [proposal process](https://go.dev/s/proposal-process). The CLs should reference the specific accepted proposal [in the commit message](/wiki/CommitMessage) (“For #NNN.”).
 
-When adding a Code-Review+2 vote, it is encouraged to also add Run-TryBots+1 and Auto-Submit+1: see the [auto-submit](#auto-submit) section below for details.
+When adding a Code-Review+2 vote, it is encouraged to also add Commit-Queue+1 and Auto-Submit+1: see the [auto-submit](#auto-submit) section below for details.
 
 A Code-Review+1 vote means that you have read the change and believe it seems reasonable but aren’t making the definitive judgement that Code-Review+2 indicates. It also means you are confident the change does not introduce any sort of security vulnerability or other clearly inappropriate code change.
 
@@ -42,11 +42,12 @@ To request approver access, see [Requesting Access](#requesting-access) below.
 If you are reviewing a CL and believe it can be approved and submitted as is,
 with no further changes, you can use the auto-submit functionality
 to run tests and submit the CL if the tests pass.
-To do this, vote Code-Review+2 as well as Auto-Submit+1 and Run-TryBot+1. When the tests pass, Gopherbot will submit it.
+To do this, vote Code-Review+2 as well as Auto-Submit+1 and Commit-Queue+1. When the tests pass, Gopherbot will submit it.
 
 More precisely, Gopherbot watches for and automatically submits CLs that
 
- - have Auto-Submit+1 and TryBot-Result+1 votes,
+ - have an Auto-Submit+1 vote,
+ - have a satisfied TryBots-Pass submit requirement,
  - have the necessary code reviews,
  - have no unresolved comments,
  - aren't marked #wait-release,
