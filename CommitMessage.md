@@ -45,7 +45,7 @@ For #12345
 
 It is common in other Git projects to use `Updates` instead of `For`, and that is acceptable too, even though it makes little sense (the commit does not update the issue). More precise phrasings are fine too. Don't be too pedantic in code reviews: it's not worth asking people to change from `Updates` or something else to `For`, or vice versa.
 
-# Reverts
+## Reverts
 
 You can roll back a change using the Gerrit `Revert` button.
 Gerrit will generate a description for you.
@@ -54,7 +54,7 @@ Edit the description to add the Gerrit CL number being rolled back next to or in
 Do not use the Gerrit UI to create a revert of a revert, as that notifies people right away.
 Instead, mail it as a new change, and in the description explain that it is a roll forward of CL NNNNNN which was rolled back by CL NNNNNN.
 
-# Other repos
+## Other repos
 
 For non-"go" repos ("crypto", "tools", "net", etc), the subject is still the name of the package, but you need to fully-qualify the issue number with the GitHub org/repo syntax:
 
@@ -66,12 +66,12 @@ Fixes golang/go#1234
 
 Notably, the first line subject should **not** contain the `x/crypto/` prefix. We only do that for the issue tracker.
 
-# Non-normative references
+## Non-normative references
 
 - [Please heed my plea and write good CL descriptions for Go—and for any other project you work on.](https://groups.google.com/d/msg/golang-dev/6M4dmZWpFaI/SyU5Sl4zZLYJ)
 - [The CL description is a public document that explains to the future what has been done and why.](https://groups.google.com/d/msg/golang-dev/s07ZUR8ZDHo/i-rIsknbAwAJ)
 
-# GitHub Pull Requests
+## GitHub Pull Requests
 
 If you're using GitHub Pull Requests, your commit message is constructed by GerritBot based on your
 PR's title & description. See https://go.dev/wiki/GerritBot#how-does-gerritbot-determine-the-final-commit-message.
@@ -79,4 +79,3 @@ PR's title & description. See https://go.dev/wiki/GerritBot#how-does-gerritbot-d
 If somebody asks you to modify your commit message, you'll need to modify your PR.
 
 ![](images/github-to-gerrit.png)
-
