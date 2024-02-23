@@ -16,7 +16,7 @@ This page outlines the steps that need to be done to create a new golang.org/x r
 	- Turn off Wikis, Issues, Projects in repository settings.
 	- On "Manage access" tab:
 		- Add "golang org admins" team with Admin access.
-		- Add "gophers" team with Write access.
+		- Add "google-go-team" team with Write access.
 		- Add "robots" team with Write access (can only be done by a maintainer of golang organization; ask someone else if you're not).
 3. Modify the `x/build/repos` package.
 4. Update x/website's version of x/build to include modified `x/build/repos` package.
