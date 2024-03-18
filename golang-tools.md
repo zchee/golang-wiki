@@ -40,7 +40,7 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2024-03-20 - [Agenda](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit)
+* 2024-04-10 - [Agenda](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit)
 
 #### Call archive
 
