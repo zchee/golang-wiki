@@ -14,15 +14,16 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slug: a handler that prints colourful logs for humans: https://github.com/dotse/slug
 - slogor: A colorful slog handler: https://gitlab.com/greyxor/slogor
 - [klog](https://github.com/kubernetes/klog): the text format used by Kubernetes. Provides klog output routing when using the main package's logger and [a simpler logger](https://github.com/kubernetes/klog/tree/main/textlogger) that just writes to stderr. Both slog/logr and go-logr/logr APIs are supported.
+- slogjson: Format using the upcoming [JSON v2 library](https://github.com/golang/go/discussions/63397), with optional single-line pretty-printing: https://github.com/veqryn/slog-json
 
 #### Logger bridge
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 - [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
 
 #### Logging Middleware
-- slog-context: store attributes or the logger in context, read any custom values from context: https://github.com/veqryn/slog-context
+- slogctx: store attributes or the logger in context, read any custom values from context: https://github.com/veqryn/slog-context
 - slog-context/otel: automatically read and add OpenTelemetry TraceID and SpanID to logs, and can set Span error code: [github.com/veqryn/slog-context/otel](https://github.com/veqryn/slog-context#opentelemetry-traceid-spanid-extractor)
-- slog-dedup: deduplication and sorting of attribute keys, with multiple dedupe policies, useful for json logging: https://github.com/veqryn/slog-dedup
+- slogdedup: deduplication and sorting of attribute keys, with multiple policies, useful for json logging. Convenience methods to output for Stackdriver, Graylog, and others: https://github.com/veqryn/slog-dedup
 
 #### HTTP server middleware
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
@@ -47,7 +48,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slog-microsoft-teams: a `slog.Handler` for Microsoft Teams: https://github.com/samber/slog-microsoft-teams
 - slog-webhook: a `slog.Handler` for Webhook: https://github.com/samber/slog-webhook
 - slog-kafka: a `slog.Handler` for Kafka: https://github.com/samber/slog-kafka
-- slog-bugsnag: a `slog.Handler` for Bugsnag: https://github.com/veqryn/slog-bugsnag
+- slogbugsnag: a `slog.Handler` for Bugsnag: https://github.com/veqryn/slog-bugsnag
 - slogdriver: a `slog.Handler` for Stackdriver Logging / GCP Cloud Logging: https://github.com/jussi-kalliokoski/slogdriver
 
 #### Handlers
