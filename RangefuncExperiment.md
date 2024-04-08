@@ -282,5 +282,5 @@ The same will certainly happen with range over functions. We will build up usefu
 
 Running the iterator in a separate coroutine or goroutine is more expensive and harder to debug than having everything on one stack. Since we're going to have everything on one stack, that fact will change certain visible details. We just saw the first: stack traces show the calling function and the iterator function interleaved, as well as showing the explicit yield function that does not exist on the page in the program.
 
-It can be helpful to think about running the iterator function in its own coroutine or gorotine as an analogy or mental model, but in some cases the mental model doesn't give the best answer, because it uses two stacks, and the real implementation is defined to use one.
+It can be helpful to think about running the iterator function in its own coroutine or goroutine as an analogy or mental model, but in some cases the mental model doesn't give the best answer, because it uses two stacks, and the real implementation is defined to use one.
 
