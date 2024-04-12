@@ -62,7 +62,7 @@ People who work mainly in the wiki (https://go.googlesource.com/wiki) can reques
 
 # Requesting Access
 
-To get request any of the access types above, file a bug (https://github.com/golang/go/issues/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess) and list and state which access you want, and state the Google account you use to log in to Gerrit.
+To request any of the access types above, file a new issue (https://go.dev/issue/new?title=access:+&body=See+https://go.dev/wiki/GerritAccess.) and state which access you want, and state the Google account you use to log in to Gerrit.
 
 Decisions about granting access are made by the Go release team at Google. If your request is declined, it is almost always because you haven't been active enough for them to get a clear enough signal about your work, understanding of project conventions, and so on. Don't lose heart: it can take time to reach that level of familiarity.
 

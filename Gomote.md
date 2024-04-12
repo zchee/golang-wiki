@@ -234,7 +234,7 @@ The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 **On August 2022, a new infrastructure was deployed which required the removal of all gomote access from previously approved users. Please re-request access if you still require access.**
 
-To gain access to the gomote service, file an issue with `access: gomote` as the title and cc `@golang/release`. The issue should contain an email address to a google account. The provided account will only be used for authentication purposes.
+To request access to the gomote service, file a new issue (https://go.dev/issue/new?title=access:+&body=See+https://go.dev/wiki/Gomote%23access.) and state the Google account you use to log in to Gerrit. The provided account will only be used for authentication purposes.
 
 Authentication is triggered with the first invocation of a command:
 
