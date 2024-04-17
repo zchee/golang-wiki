@@ -40,10 +40,11 @@ As of October 2020, all calls/events will be added to the [shared calendar](http
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2024-04-10 - [Agenda](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit)
+* 2024-06-12 - [Agenda](https://docs.google.com/document/d/1w-FKU6K2vVmWh0xD7kwrk1mPmF4LeFAY_iPXnepSI_g/edit)
 
 #### Call archive
 
+* 2024-04-10 - [Meeting notes](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit) - [video](https://www.youtube.com/watch?v=ZEiMIT9qkp0)
 * 2024-01-17 - [Meeting notes](https://docs.google.com/document/d/1LKY-JRrPKkxoonvq7c3rr_DExzl_8X2Iq1TR8V0C3lg/edit) - [video](https://www.youtube.com/watch?v=ArCZCQr_KhA)
 * 2023-11-29 - [Meeting notes](https://docs.google.com/document/d/1lzGFo6QxZaDohSW9DOC2rILAuFCNX2vWs8oon6etmWY/edit) - [video](https://www.youtube.com/watch?v=6uzF0q49kCg)
 * 2023-09-13 - [Meeting notes](https://docs.google.com/document/d/1CvFXUGjSnSPde5lKdERJZY4t4ifwLyhtaok6TZJ-RR0/edit) - [video](https://www.youtube.com/watch?v=JMiXnAkYZno)
@@ -104,7 +105,8 @@ We try to share the load of organizing and running the calls between Gophers ins
 1. Using a non-google.com account, ask Paul Jolly for editing access to the [shared drive](https://drive.google.com/corp/drive/folders/1V8Eh2cyaSgVMbtD2Cwzdl0du_lU7_eXn), and put a copy of the previous call's agenda in it. The copy will only be visible by anyone with the link, so change that to allow edits (this last step is not possible with docs owned by @google.com accounts).
 2. Rename and clear out the agenda for the next call.
 3. Update this wiki, archiving the previous call and linking the new upcoming call.
-4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:30-17:30 London.
+4. Update the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) with the new event. By convention calls run from 16:00-17:00 London.
 5. Send reminders 1-2 weeks before the call date to the [mailing list](https://groups.google.com/forum/#!forum/golang-tools) and #tools slack channel.
 6. On the day of the call, remember to ask a Googler to start recording, and then run through the agenda.
+7. Ask the same Googler to move the recording to [the recordings folder](https://drive.google.com/drive/folders/1KmkaVhrKbWhvcvRQoDLFPNDdDNNXBUNA) and upload it to YouTube, updating the wiki content above.
 
