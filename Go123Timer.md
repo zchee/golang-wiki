@@ -1,4 +1,6 @@
-# Go 1.23 Timer Channel Changes
+---
+title: Go 1.23 Timer Channel Changes
+---
 
 Go 1.23 includes a new implementation of the channel-based timers
 created by [time.NewTimer](/pkg/time/#NewTimer), [time.After](/pkg/time/#After),
