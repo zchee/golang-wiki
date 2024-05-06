@@ -13,8 +13,7 @@ voting either LUCI-TryBot-Result+1 (pass) or LUCI-TryBot-Result-1 (fail). \
 Important results (e.g. failures) will also appear as chips at the top \
 of the Gerrit page for the CL, under the commit message.
 
-![A red box indicating the location of the checks under the commit
-message on the Gerrit page for an example CL.](https://github.com/golang/go/assets/1248668/93267ff3-11cd-41f7-b268-a5cc342cfcd3)
+![Where to click to open test results.](https://github.com/golang/go/assets/104030/90193351-abf5-4b04-a9c1-7bd95d5924d0)
 
 More details about what was run are available at the "Checks" tab
 on the Gerrit CL page.
@@ -24,6 +23,11 @@ Gerrit page for an example CL.](https://github.com/golang/go/assets/1248668/1a11
 
 Every TryBot run includes a default set of the most common builders.
 [SlowBots](https://go.dev/wiki/SlowBots) provide additional testing controls.
+
+When you open failed test results for the first time, you will land on the "Overview" tab.
+You probably want to change your local config to default to the "Test Results" tab:
+
+![Where to click to change default page on LUCI.](https://github.com/golang/go/assets/104030/9b4272f6-6414-413e-a47f-e4593c428624)
 
 ## Troubleshooting
 
