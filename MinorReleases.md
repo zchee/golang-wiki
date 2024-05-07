@@ -19,7 +19,7 @@ The fix is developed for the main issue, which is closed when the fix is merged 
 The child issue is assigned to the minor release milestone and labeled **CherryPickCandidate**, and its candidacy is discussed there. Once it is approved it transitions to **CherryPickApproved**. Release managers (a subset of the Go team that handles the release process) and/or code owners approve cherry-picks via an informal process.
 
 When the child issue is labeled **CherryPickApproved**, the original author of the change fixing
-that issue should immediately [create and mail a cherry-pick change](#making-cherry-pick-cls) against the release branch, which will be merged as soon as it is ready, closing the child issue.
+that issue should immediately [create and mail a cherry-pick change](#making-cherry-pick-cls) against the release branch, which can be merged as soon as it is ready, closing the child issue.
 
 At release time, any open backport issue which is not release-blocker is pushed to the next minor release milestone, and a minor release is minted with the already merged changes.
 
@@ -47,7 +47,7 @@ git codereview mail
 
 **The cherry-pick CL must include a message prefix like `[release-branch.go1.10]`, and update the "Fixes" line to the child issue. Do not change or remove the "Change-Id" line nor the other Gerrit lines.**
 
-Gerrit is configured to only allow release managers to submit to release branches, but the code review process is otherwise the usual.
+The code review process is otherwise the same as regular CLs. Permission to submit to the release branches is more restricted. If you do not have submit permissions then once your CL is otherwise ready release managers will submit it for you. If you do have permission, be sure to not submit the CL until the corresponding issue is marked **CherryPickApproved**.
 
 At this time, it's not possible to make a cherry-pick CL by sending a [pull request](GerritBot). Only Gerrit is supported. See [golang.org/issue/30037](https://go.dev/issue/30037).
 
