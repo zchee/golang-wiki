@@ -126,10 +126,11 @@ markdown_extensions:
   - pymdownx.saneheaders:
 
 # yamllint disable-line
-## $ echo '  - "Home": Home.md' | tee nav.md; find . -maxdepth 2 -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not -wholename '*docs*' -and -not \( -name 'Home.md' -or -name 'nav.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case | tee -a nav.md && cat nav.md | pbcopy && rm -f nav.md
+## $ echo '  - "Home": Home.md' | tee nav.md; find . -maxdepth 2 -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not -wholename '*docs*' -and -not \( -name 'index.md' 'Home.md' -or -name 'nav.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case | tee -a nav.md && cat nav.md | pbcopy && rm -f nav.md
 
 nav:
   - "Home": Home.md
+  - "All": All.md
   - "Articles": Articles.md
   - "AssemblyPolicy": AssemblyPolicy.md
   - "AVX512": AVX512.md
@@ -150,6 +151,7 @@ nav:
   - "Conferences": Conferences.md
   - "Configuring GoLand for WebAssembly": Configuring-GoLand-for-WebAssembly.md
   - "Contributing to gopls": Contributing-to-gopls.md
+  - "Contributing": Contributing.md
   - "CoreDumpDebugging": CoreDumpDebugging.md
   - "Courses": Courses.md
   - "CreatingSubRepository": CreatingSubRepository.md
@@ -181,6 +183,7 @@ nav:
   - "Go 1.8 Release Party": Go-1.8-Release-Party.md
   - "Go Community Slides": Go-Community-Slides.md
   - "Go Release Cycle": Go-Release-Cycle.md
+  - "Go123Timer": Go123Timer.md
   - "Go2": Go2.md
   - "Go2ErrorHandlingFeedback": Go2ErrorHandlingFeedback.md
   - "Go2ErrorValuesFeedback": Go2ErrorValuesFeedback.md
@@ -241,8 +244,8 @@ nav:
   - "OpenBSD": OpenBSD.md
   - "PackagePublishing": PackagePublishing.md
   - "PanicAndRecover": PanicAndRecover.md
-  - "PerfDashboard": PerfDashboard.md
   - "Performance": Performance.md
+  - "PerformanceMonitoring": PerformanceMonitoring.md
   - "PGO Tools": PGO-Tools.md
   - "Plan9": Plan9.md
   - "Podcasts": Podcasts.md
