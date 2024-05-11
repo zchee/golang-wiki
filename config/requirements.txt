@@ -1,5 +1,5 @@
 git+https://github.com/mkdocs/mkdocs.git
-git+https://github.com/squidfunk/mkdocs-material.git
+git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.5.28-insiders-4.53.11
 git+https://github.com/facelessuser/pymdown-extensions.git
 git+https://github.com/pygments/pygments.git
 git+https://github.com/byrnereese/mkdocs-minify-plugin.git
