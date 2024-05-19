@@ -21,6 +21,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
 | Golang Conf | 2024-06-24-25 | St. Petersburg, Russia | https://golangconf.ru/ | https://cfp.golangconf.ru/en |
 | GopherCon UK | 2024-08-14-16 | London, UK | https://www.gophercon.co.uk/ | https://sessionize.com/gophercon-uk-2024/ |
+| GopherCon Israel | 2024-09-09 | Tel Aviv, Israel | https://www.gophercon.org.il/ | https://sessionize.com/gophercon-israel-2024/ |
 | Golab | 2024-11-11-13 | Florence, Italy | https://golab.io | https://sessionize.com/golab-2024 |
 
 ## Archives
