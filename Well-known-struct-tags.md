@@ -51,5 +51,5 @@ url       | https://github.com/google/go-querystring
 feature   | https://github.com/nikolaydubina/go-featureprocessing
 graphql   | https://github.com/samsarahq/thunder
 egg       | https://github.com/andrewwphillips/eggql
-
+cue       | https://pkg.go.dev/cuelang.org/go/cuego
 
