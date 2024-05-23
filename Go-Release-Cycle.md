@@ -56,10 +56,11 @@ The release freeze applies to the entire main repository as well as to the code
 in subrepositories that is needed to build the binaries included in the release,
 particularly vet and all its dependencies in the tools subrepository.
 
-During the freeze, only bug fixes and doc updates are accepted. On occasion new
-work may be done during the freeze, but only in exceptional circumstances and
-typically only if the work was proposed and approved before the cutoff. Such
-changes must be low risk. See [freeze exceptions](#freeze-exceptions) below.
+During the freeze, only bug fixes, test-only changes, and doc updates
+are accepted. On occasion new work may be done during the freeze, but
+only in exceptional circumstances and typically only if the work was
+proposed and approved before the cutoff. Such changes must be low
+risk. See [freeze exceptions](#freeze-exceptions) below.
 
 This part of the release cycle is focused on improving the quality of the
 release, by testing it and fixing bugs that are found. However, every fix must
