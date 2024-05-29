@@ -1070,6 +1070,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Cutters](https://www.cutters.no/)
   * [CYBR](https://www.cybr.ai/)
   * [Disruptive Technologies](https://www.disruptive-technologies.com/)
+  * [Ditio](https://ditio.app)
   * [DNB](https://www.dnb.no/en)
   * [Firi](https://firi.com)
   * [Finn.no](https://www.finn.no)
