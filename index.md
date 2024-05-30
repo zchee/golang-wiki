@@ -146,6 +146,10 @@ Here are some of the places where you can find Gophers online. To get a sense of
 
 ## Additional Go Programming Wikis
 
+- AI
+  - [AI](AI) - Accessing AI (Artifical Intelligence) and LLM (Large
+    Language Model) services from Go
+
 - Concurrency
   - [Timeouts](Timeouts) - Abandon async calls that take too long
   - [LockOSThread](LockOSThread)
