@@ -48,7 +48,6 @@ If you find a project in this list that is dead or broken, please either mark it
 * [File Systems](#file-systems)
 * [Games](#games)
 * [GIS](#gis)
-* [Go Implementations](#go-implementations)
 * [Graphics and Audio](#graphics-and-audio)
 * [GUIs and Widget Toolkits](#guis-and-widget-toolkits)
 * [Hardware](#hardware)
