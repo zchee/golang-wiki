@@ -71,4 +71,4 @@ An overview of tools that will help improve your Go code
 ## Visualization
 
   - [godepgraph](http://github.com/kisielk/godepgraph) - A tool for generating dependency graphs of Go code.
-
+  - [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - A tool that shows the size of each dependency of a Go binary.

@@ -702,6 +702,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [demand](https://github.com/tv42/demand) - Download, build, cache and run a Go app easily.
   * [glib](https://github.com/ziutek/glib) - Bindings for GLib type system
   * [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
+  * [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - A tool that shows the size of each dependency of a Go binary.
   * [gocog](https://github.com/natefinch/gocog) - A code generator that can generate code using any language
   * [godepgraph](https://github.com/kisielk/godepgraph) - Create a dependency graph for a go package
   * [godev](https://github.com/kdar/godev) - Recompiles and runs your Go code on source change. Also watches all your imports for changes.
