@@ -16,7 +16,7 @@ Go is a great language for CS majors. This page presents some university courses
   * SUNY Potsdam (Potsdam, NY) "Selected languages course with Go", taught by Dr. Brian C. Ladd (Associate Professor of Computer Science). First class in Spring 2017
   * University of Milan has a course named "Computer Programming" taught by Paolo Boldi: http://boldi.di.unimi.it/Corsi/Inf2018/ 
   * University of Zagreb (Croatia), Faculty of Electrical Engineering and Computing, has an ongoing course [Go programming language](https://www.fer.unizg.hr/en/course/gpl) since 2020, held by Z. Bratković and B. Banelli. Videos available from academic year [2019./2020.](https://www.youtube.com/watch?v=mq18_oSNkHE&list=PLDG0WuJlyEw3GuJ4FAoP-ea8PCsU5J-9K&pp=iAQB) and [2020./2021.](https://www.youtube.com/watch?v=Ms_5seF6Smg&list=PLDG0WuJlyEw1o7cQ7Raf_SHgak4G57zCW&pp=iAQB) (Croatian)
-
+  * The Faculty of Informatics at Masaryk University has offered a Go course as part of the [PB173: Domain Specific Development](https://is.muni.cz/predmet/fi/podzim2023/PB173?lang=en) course since 2023. The current course materials are publicly accessible under the [course-go organization](https://github.com/course-go).
 
 ## Programming Concepts
 
