@@ -1933,6 +1933,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [googtrans](https://github.com/bthomson/googtrans) - unofficial go bindings for Google Translate API v2
   * [go-recaptcha](https://github.com/dpapathanasiou/go-recaptcha) - Handles reCaptcha form submissions in Go
   * [gorecurly](https://github.com/mbeale/gorecurly) - A Client app to use with Recurly's api
+  * [go-salesforce](https://github.com/k-capehart/go-salesforce) - A wrapper for the [Salesforce REST API](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_list.htm)
   * [go.strava](https://github.com/strava/go.strava) - Official client library for the Strava V3 API
   * [go.stripe](https://github.com/bradrydzewski/go.stripe) - a simple credit card processing library for Go using the Stripe API
   * [Gotank](https://github.com/searchify/gotank) - Searchify's Go client for the IndexTank full-text search API
