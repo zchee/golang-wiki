@@ -227,7 +227,7 @@ If you're looking for services that support Go, here's a list to get you started
   - Want to understand how we [handle issues that are reported?](HandlingIssues)
 - Project Dashboards
   - [Go Builds Dashboard info](DashboardBuilders)
-  - [Performance Dashboard info](PerfDashboard)
+  - [Performance Monitoring info](PerformanceMonitoring)
   - [Download failed logs and debugging](/wiki/Download-build-farm-failed-logs-and-debugging)
 
 ## Platform Specific Information
