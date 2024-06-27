@@ -837,9 +837,9 @@ See also [SQLDrivers page](SQLDrivers).
 
 ### File Systems
 
-  * [afero](https://github.com/spf13/afero) - A File Sytem abstraction system for Go
+  * [afero](https://github.com/spf13/afero) - A File System abstraction system for Go
   * [go.fs](https://github.com/daaku/go.fs) - A virtual file system abstraction layer.
-  * [poller](https://github.com/npat-efault/poller) - Package poller is a file-descriptor multiplexer. It allows concurent Read and Write operations from and to multiple file-descriptors.
+  * [poller](https://github.com/npat-efault/poller) - Package poller is a file-descriptor multiplexer. It allows concurrent Read and Write operations from and to multiple file-descriptors.
   * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 
 
@@ -913,7 +913,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [goexif](https://github.com/rwcarlsen/goexif) - Retrieve EXIF metadata from image files
   * [gofb](https://github.com/rostislavjadavan/gofb) - Go framebuffer library for drawing pixel by pixel
   * [goflac](https://github.com/cocoonlife/goflac) - Go bindings for decoding and encoding FLAC audio with libFLAC
-  * [go-gd](https://github.com/bolknote/go-gd) - Go bingings for GD
+  * [go-gd](https://github.com/bolknote/go-gd) - Go bindings for GD
   * [GoGL](https://github.com/chsc/GoGL) - OpenGL binding generator
   * [go-gnuplot](https://github.com/sbinet/go-gnuplot) - go bindings for Gnuplot
   * [go-gtk3](https://github.com/norisatir/go-gtk3) - gtk3 bindings for go
@@ -1252,7 +1252,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [Wukong](https://github.com/huichen/wukong) - A highly extensible full-text search engine written in Go.
   * [xdg](https://github.com/adrg/xdg) - Go implementation of the XDG Base Directory Specification and XDG user directories.
   * [xplor](http://bitbucket.org/mpl/xplor) - Files tree browser for p9p acme
-  * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and auhtentication API client.
+  * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey OTP validation and authentication API client.
 
 ### Music
 
@@ -1298,7 +1298,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [fasthttp](https://github.com/valyala/fasthttp) - Fast HTTP package for Go
   * [gbench](https://github.com/sasanrose/gbench) - HTTP(s) Load Testing And Benchmarking Tool inspired by Apache Benchmark and Siege.
   * [gobench](https://github.com/cmpxchg16/gobench) - HTTP/HTTPS load test and benchmark tool
-  * [go-curl](https://github.com/andelf/go-curl) - libcurl bingding that supports go func callbacks
+  * [go-curl](https://github.com/andelf/go-curl) - libcurl binding that supports go func callbacks
   * [goproxy](https://github.com/elazarl/goproxy) - a programmable HTTP proxy.
   * [gostax](https://github.com/maxymania/gostax) - A Streaming API for XML (StAX) in go
   * [handlers](https://github.com/kevinburke/handlers) - Collection of useful HTTP middlewares.
@@ -1574,7 +1574,7 @@ See also [SQLDrivers page](SQLDrivers).
 
   * [Gitfile](https://github.com/bradurani/Gitfile) - A lightweight package manager for installing git repos
   * [go-deps](https://github.com/sourcegraph/go-deps) - Analyzes and recursively installs Go package deps (library functionality similar to ` go get `)
-  * [go-diff](https://github.com/daviddengcn/go-diff) - A diff command for go languange showing semantic differences of two go source files.
+  * [go-diff](https://github.com/daviddengcn/go-diff) - A diff command for go language showing semantic differences of two go source files.
   * [gogitver](https://github.com/aletheia7/gogitver) - Embeds a git tag (version string) into your application
   * [go-many-git](https://github.com/abrochard/go-many-git) - Manage and run commands across multiple git repositories
   * [go-pkgs](https://github.com/sourcegraph/go-pkgs) - Finds all matching packages in all of the GOPATH trees (library functionality similar to ` go list all `)
@@ -1648,7 +1648,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [strutil](https://github.com/adrg/strutil) - Golang metrics for calculating string similarity and other string utility functions.
   * [strutil](https://gitlab.com/cznic/strutil) - Package strutil collects utils supplemental to the standard strings package.
   * [text](https://github.com/kr/text) - Text paragraph wrapping and formatting
-  * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistcal analysis
+  * [Tideland golib](https://github.com/tideland/golib) - Stringex package for statistical analysis
   * [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
   * [useragent](https://github.com/xojoc/useragent) - User agent string parser
   * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
@@ -1873,7 +1873,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [gramework](https://github.com/gramework/gramework) - The *truly* fastest web framework for Go. Battle tested, highly effective baseline for your web apps.
   * [httpcoala](https://github.com/goware/httpcoala) - Library for request coalescing - handy for reverse proxies.
   * [HttpRouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
-  * [limiter](https://github.com/ulule/limiter) - Simple rate limter middleware for Go
+  * [limiter](https://github.com/ulule/limiter) - Simple rate limiter middleware for Go
   * [Macaron](https://github.com/Unknwon/macaron) - Modular web framework in Go
   * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
   * [Martini **deprecated**](https://github.com/codegangsta/martini) - Martini is a popular, lightweight, extensible package for writing modular web apps/services in Go

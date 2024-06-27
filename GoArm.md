@@ -125,7 +125,7 @@ Operating System: Angstrom Linux
 
 BeagleBone is similar to Beagleboard, but without the video components. Angstrom is a very small Linux distribution for ARM based systems. It is built on top of Yocto and OpenEmbedded with additional tools and recipes to make it even easier to build a distribution. You can think of Angstrom as Ubuntu and OpenEmbedded/Yocto as Debian. Angstrom is very light weight and fast compared to Ubuntu. It uses systemd instead of the sys5 scripts which help give you a very fast boot time of a few seconds.
 
-BeagleBone is probably faster than a RasberryPI because of it's newer Cortex-A8 dual-issue superscalar architecture, but the PI has the GPU which theoretically could be used with something like OpenCL to really run circles around the BeagleBone. However, for embedded applications the BeagleBone is easier to work with because it is ready out of the box with GPIO connections.
+BeagleBone is probably faster than a RaspberryPI because of it's newer Cortex-A8 dual-issue superscalar architecture, but the PI has the GPU which theoretically could be used with something like OpenCL to really run circles around the BeagleBone. However, for embedded applications the BeagleBone is easier to work with because it is ready out of the box with GPIO connections.
 
 I've cross compiled for ARM with 5g from a Mac and so far I haven't run into any problems. You can build on the BeagleBone, but cross compiling with Go is so easy that it is better to save wear and tear on the flash drive and just compile somewhere else.
 
@@ -136,7 +136,7 @@ I've cross compiled for ARM with 5g from a Mac and so far I haven't run into any
 Architecture: ARM5
 Platform: Debian Wheeze
 
-Successfuly built default branch, going to write fan control daemon for this device in golang.
+Successfully built default branch, going to write fan control daemon for this device in golang.
 
 #### Raspberry Pi
 
@@ -935,7 +935,7 @@ _-- Rémy Oudompheng_
 | [Allwinner A20(ARM Cortex-A7 Dual-core, 1GHz, Mali400MP2 GPU)](http://www.allwinnertech.com/en/clq/processora/A20.html) | tbc          |
 | eSATA            | No worry to wear out your root SD Card|
 | Onboard Microphone | tbc          |
-| 1G Etherenet     | tbc          |
+| 1G Ethernet      | tbc          |
 | 1G RAM           | tbc          |
 | Reset Switch     | To reset the board ?|
 | Power Switch     | To power cycle the board ?|

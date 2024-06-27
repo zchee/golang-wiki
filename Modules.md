@@ -1041,7 +1041,7 @@ As described in the ["Semantic Import Versioning"](/wiki/Modules#semantic-import
 
 However, the ecosystem is expected to proceed at varying paces of adoption for modules and Semantic Import Versioning.
 
-As described in more detail in the ["How to Release a v2+ Module"](/wiki/Modules#releasing-modules-v2-or-higher) section, in the "Major Subdirectory" approach, the author of a v2+ module creates subdirectories such as `mymodule/v2` or `mymodule/v3` and moves or copies the approriate packages underneath those subdirectories. This means the traditional import path logic (even in older Go releases such as Go 1.8 or 1.7) will find the appropriate packages upon seeing an import statement such as `import "mymodule/v2/mypkg"`. Hence, packages residing in a "Major Subdirectory" v2+ module will be found and used even if modules support is not enabled (whether that is because you are running Go 1.11 and have not enabled modules, or because you are running a older version like Go 1.7, 1.8, 1.9 or 1.10 that does not have full module support).  Please see the ["How to Release a v2+ Module"](/wiki/Modules#releasing-modules-v2-or-higher) section for more details on the "Major Subdirectory" approach.
+As described in more detail in the ["How to Release a v2+ Module"](/wiki/Modules#releasing-modules-v2-or-higher) section, in the "Major Subdirectory" approach, the author of a v2+ module creates subdirectories such as `mymodule/v2` or `mymodule/v3` and moves or copies the appropriate packages underneath those subdirectories. This means the traditional import path logic (even in older Go releases such as Go 1.8 or 1.7) will find the appropriate packages upon seeing an import statement such as `import "mymodule/v2/mypkg"`. Hence, packages residing in a "Major Subdirectory" v2+ module will be found and used even if modules support is not enabled (whether that is because you are running Go 1.11 and have not enabled modules, or because you are running a older version like Go 1.7, 1.8, 1.9 or 1.10 that does not have full module support).  Please see the ["How to Release a v2+ Module"](/wiki/Modules#releasing-modules-v2-or-higher) section for more details on the "Major Subdirectory" approach.
 
 The remainder of this FAQ is focused on the "Major Branch" approach described in the ["How to Release a v2+ Module"](/wiki/Modules#releasing-modules-v2-or-higher) section. In the "Major Branch" approach, no `/vN` subdirectories are created and instead the module version information is communicated by the `go.mod` file and by applying semver tags to commits (which often will be on `master`, but could be on different branches).
 
@@ -1411,7 +1411,7 @@ This `replace` statement then enables us to upgrade past the problematic "old na
 
 ```
 export GOPATH=$(mktemp -d)
-go get -u foo               # peform operation that generates the error of interest
+go get -u foo               # perform operation that generates the error of interest
 cd $GOPATH/pkg/mod
 grep -R --include="*.go" github.com/Quasilyte/go-consistent
 ```

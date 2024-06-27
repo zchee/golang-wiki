@@ -270,7 +270,7 @@ Please help categorize the rest of the proposals here.
 
 - Gima, "[Procedural code, separate error handling](https://gitlab.com/snippets/1726097)", June 2018
 
-- Konstantin, "[error handling for error-tree](https://github.com/Konstantin8105/Go2ErrorTree)", [Discyssion](https://github.com/golang/go/issues/32099) May 2019
+- Konstantin, "[error handling for error-tree](https://github.com/Konstantin8105/Go2ErrorTree)", [Discussion](https://github.com/golang/go/issues/32099) May 2019
 
 ### Adding your feedback
 

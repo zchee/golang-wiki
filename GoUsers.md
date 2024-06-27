@@ -1313,7 +1313,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Sellsuki](https://www.sellsuki.co.th/)
   * [SIX network](https://six.network) - Financial Services
   * [SPRINT3r](http://sprint3r.com/)
-  * [T.N. Incorporation](http://www.tnis.com/index) - Core banking tranformation company.
+  * [T.N. Incorporation](http://www.tnis.com/index) - Core banking transformation company.
   * [Tencent Thailand](https://developers.tencent.co.th/)
   * [THiNKNET](https://www.thinknet.co.th)
   * [ThoughtWorks Thailand](https://www.thoughtworks.com/careers/thailand)

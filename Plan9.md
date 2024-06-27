@@ -123,7 +123,7 @@ You'll be able to use this installation of Go to bootstrap future Go releases, b
 GOROOT_BOOTSTRAP=/tmp/go-plan9-386-bootstrap
 ```
 
-### Bootstraping from binaries
+### Bootstrapping from binaries
 
 A [binary package](https://storage.googleapis.com/go-builder-data/gobootstrap-plan9-386.tar.gz) for plan9/386 is available.
 

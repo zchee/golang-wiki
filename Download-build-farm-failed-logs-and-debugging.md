@@ -8,7 +8,7 @@ You can download all the failed logs by `fetchlogs`.
 
 Download `fetchlogs` by `go get golang.org/x/build/cmd/fetchlogs`
 
-`fetchlogs` only download 300 lastest failed logs by default, which is not enough for "mystery"/"flaky" bugs.
+`fetchlogs` only download 300 latest failed logs by default, which is not enough for "mystery"/"flaky" bugs.
 `fetchlogs -n <the number you want>`
 
 You may also want to take a look at
