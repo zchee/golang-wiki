@@ -1255,7 +1255,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Min Doktor](https://mindoktor.se/)
   * [Modular Finance](https://career.modularfinance.se/)
   * [Northvolt](https://northvolt.com/) - The Future of Energy
-  * [Qlik](www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
+  * [Qlik](https://www.qlik.com) - [jobs](https://www.qlik.com/us/company/careers/job-listings?overridedefault=true&department=R%2526D&country=-1)
   * [Slagkryssaren](https://slagkryssaren.com/)
   * [Studentlitteratur](https://www.studentlitteratur.se)
   * [TV4](http://www.tv4.se/) - [blog](http://http.tv4.se/2014/12/04/tv4-tech-peter-hellberg-kristian-saebdal-tv4-vara-topplistor-i-go/)
