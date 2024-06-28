@@ -109,7 +109,7 @@ milestone above).
 
 While the current release is being stabilized, the tree reopens for work on the
 next. During this period, fixes intended for the current release need to be
-[cherry-picked onto the release branch](https://go.dev/wiki/MinorReleases#making-cherry-pick-cls).
+[cherry-picked onto the release branch](/wiki/MinorReleases#making-cherry-pick-cls).
 Unlike cherry-picks for minor releases, these changes don't need a backport
 issue and don't need to be approved by the release team. As long as they're
 permitted by the [freeze policy](#may--november-week-4-release-freeze-begins),
@@ -154,7 +154,7 @@ Minor releases to address problems (including security issues) for Go 1.x stop
 once Go 1.x+2 is released. For more about security updates, see the
 [security policy](https://go.dev/security).
 
-See also the [MinorReleases](https://go.dev/wiki/MinorReleases) wiki page.
+See also the [MinorReleases](/wiki/MinorReleases) wiki page.
 
 ## Freeze Exceptions
 

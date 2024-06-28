@@ -34,7 +34,7 @@ The LUCI system requires builders to run two applications which authenticate to 
   1. [Create an issue](https://github.com/golang/go/issues/new?labels=new-builder&title=x%2Fbuild%3A+add+LUCI+%3Cos-arch%3E+builder) on the Go Issue tracker requesting the addition of a new builder and assign it yourself.
      1. The title of the issue should be in the format: `x/build: add LUCI <os-arch> builder`.
      1. Choose a hostname and state its value in the issue body. The hostname should follow the following format: <GOOS>-<GOOARCH>-<GitHub handle of maintainer>. The Go team may ask that it be changed if there is any conflict with the name.
-     1. Add the label "new-builder". (You can post a comment on the issue stating `@gopherbot, please add label new-builder.` in the issue to have [gopherbot](https://go.dev/wiki/gopherbot) add it for you.)
+     1. Add the label "new-builder". (You can post a comment on the issue stating `@gopherbot, please add label new-builder.` in the issue to have [gopherbot](/wiki/gopherbot) add it for you.)
 
   1. Use `golang.org/x/build/cmd/genbotcert` to generate both a certificate signing request (_hostname_.csr) and a TLS private key (_hostname_.key) using the hostname (chosen beforehand) as input. Add a .txt file extension to the certificate signing request (_hostname_.csr.txt) and attach it to the GitHub issue. A team member will attach the resulting certificate (_hostname_.cert) to the GitHub issue.
      1. `genbotcert -bot-hostname <hostname>`
@@ -52,7 +52,7 @@ The LUCI system requires builders to run two applications which authenticate to 
 
 ### Security notes
 
-Generally, low-capacity builders only run code that's already been reviewed & submitted (post-submit testing). We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](https://go.dev/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
+Generally, low-capacity builders only run code that's already been reviewed & submitted (post-submit testing). We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
 
 For paranoia reasons, you might want to run your builder in an isolated network that can't access any of your internal resources.
 

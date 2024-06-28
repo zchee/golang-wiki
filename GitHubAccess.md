@@ -4,7 +4,7 @@ title: GitHubAccess
 
 There are two types of GitHub access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the GitHub & Gerrit review process for some time before requesting access.
 
-(For Gerrit access, see https://go.dev/wiki/GerritAccess)
+(For Gerrit access, see [GerritAccess](/wiki/GerritAccess))
 
 ## Assignees
 
@@ -26,5 +26,5 @@ To request any of the access types above, file a new issue (https://go.dev/issue
 
 ## Once you have access
 
-Go help garden! See https://go.dev/wiki/Gardening.
+Go help garden! See [Gardening](/wiki/Gardening).
 

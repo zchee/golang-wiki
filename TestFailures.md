@@ -30,7 +30,7 @@ fulfilling its purpose.
 A test failure is typically noticed from:
 * the [Go build dashboard](https://build.golang.org), especially during [builder
   triage](https://go.dev/issue/52653);
-* TryBot or [SlowBot](https://go.dev/wiki/SlowBots) failures on a pending
+* TryBot or [SlowBot](/wiki/SlowBots) failures on a pending
   change;
 * running `go test` on a specific package or packages, either working within a
   Go project repository or as part of (say) `go test all` in a user's own
@@ -105,7 +105,7 @@ subteam(s) of
 on the issue.
 
 If the failure appears to affect at least one
-[first class port](https://go.dev/wiki/PortingPolicy#first-class-ports),
+[first class port](/wiki/PortingPolicy#first-class-ports),
 add the issue to the current release milestone and label it
 [`release-blocker`](https://github.com/golang/go/labels/release-blocker).
 Otherwise, add the issue to the `Backlog` milestone.
@@ -181,7 +181,7 @@ to add an issue in the `KnownIssue` field; note that builders with known issues
 will generally be skipped during dashboard triage.
 
 A broken builder for a
-[first class port](https://go.dev/wiki/PortingPolicy#first-class-ports)
+[first class port](/wiki/PortingPolicy#first-class-ports)
 should have its known issue(s) labeled `release-blocker`, pending a decision
 to either fix the builder or drop support for the affected version of the
 platform.

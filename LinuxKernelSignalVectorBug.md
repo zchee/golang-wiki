@@ -260,7 +260,7 @@ The bug is still present, and memory corruption may still occur.
 
 ## Questions?
 
-Ask on the mailing list golang-nuts@googlegroups.com, or on any Go forum as described at [Questions](https://go.dev/wiki/Questions).
+Ask on the mailing list golang-nuts@googlegroups.com, or on any Go forum as described at [Questions](/wiki/Questions).
 
 ## Details
 

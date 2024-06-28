@@ -34,7 +34,7 @@ As always, patches are welcome!
 
 ## Backporting issues
 
-gopherbot is capable of opening backport issues according to [MinorReleases](https://go.dev/wiki/MinorReleases) in response to comments like the following on the main issue.
+gopherbot is capable of opening backport issues according to [MinorReleases](/wiki/MinorReleases) in response to comments like the following on the main issue.
 
 > @gopherbot please consider this for backport to 1.10, it's a regression.
 

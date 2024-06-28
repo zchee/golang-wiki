@@ -46,7 +46,7 @@ baseline version of source code as the "baseline."
 Do you have a Gerrit change that you want to run against our benchmarks?
 
 Select a builder containing the word `perf` in the "Choose Tryjobs" dialog that
-appears when selecting a [SlowBot](https://go.dev/wiki/SlowBots).
+appears when selecting a [SlowBot](/wiki/SlowBots).
 
 There are two kinds of presubmit builders for performance testing:
 - `perf_vs_parent`, which measures the performance delta of a change in isolation.

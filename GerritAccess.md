@@ -4,7 +4,7 @@ title: Gerrit Access
 
 There are two types of Gerrit access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Gerrit code review process for some time before requesting access.
 
-(For GitHub access, see https://go.dev/wiki/GitHubAccess)
+(For GitHub access, see [GitHubAccess](/wiki/GitHubAccess))
 
 ## Running TryBots ("may-start-trybots")
 
@@ -13,7 +13,7 @@ TryBots run in a somewhat-secure and somewhat-isolated environment,
 but they're not perfectly security hardened.
 You must skim the CL for anything malicious before starting TryBots.
 
-See [LUCI](https://go.dev/wiki/LUCI#TryBots) for details on triggering TryBots.
+See [LUCI](/wiki/LUCI#TryBots) for details on triggering TryBots.
 
 All approvers (see next section) have TryBot access automatically. Others can request TryBot access. See [Requesting Access](#requesting-access) below.
 
@@ -68,5 +68,5 @@ Decisions about granting access are made by the Go release team at Google. If yo
 
 ## Once you have access
 
-Go help garden! See https://go.dev/wiki/Gardening.
+Go help garden! See [Gardening](/wiki/Gardening).
 

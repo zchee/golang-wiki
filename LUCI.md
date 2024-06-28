@@ -27,7 +27,7 @@ on the Gerrit CL page.
 Gerrit page for an example CL.](https://github.com/golang/go/assets/1248668/1a11fa8c-14cd-4b97-968c-6c52a8634c51)
 
 Every TryBot run includes a default set of the most common builders.
-[SlowBots](https://go.dev/wiki/SlowBots) provide additional testing controls.
+[SlowBots](/wiki/SlowBots) provide additional testing controls.
 
 ## Troubleshooting
 

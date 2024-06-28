@@ -12,7 +12,7 @@ This page lists common Go gardening tasks.
 
 If you've been regularly active in the Go community for some time, feel free to ask for Gerrit and/or GitHub access to modify things.
 
-See https://go.dev/wiki/GerritAccess and https://go.dev/wiki/GitHubAccess
+See [GerritAccess](/wiki/GerritAccess) and [GitHubAccess](/wiki/GitHubAccess).
 
 ## Gardening Tasks
 
@@ -36,7 +36,7 @@ While triaging the bug:
 * does the relevant package [have a primary owner](https://dev.golang.org/owners)? Mention them in a comment. If not, add the `help wanted` label.
 * if the relevant package has no owner, but appears to be complex and deeply technical in nature, add the `ExpertNeeded` label.
 
-When the issue has been triaged, add an appropriate label (per https://go.dev/wiki/HandlingIssues) to mark it as such.
+When the issue has been triaged, add an appropriate label (per [HandlingIssues](/wiki/HandlingIssues)) to mark it as such.
 
 ### WaitingForInfo
 
@@ -60,6 +60,6 @@ If a new CL arrives without a test, but could/should have a test, ask if they co
 
 ### Pending CLs: run TryBots
 
-If you have access (see https://go.dev/wiki/GerritAccess) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
+If you have access (see [GerritAccess](/wiki/GerritAccess)) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
 
 
