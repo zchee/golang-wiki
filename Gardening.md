@@ -10,9 +10,9 @@ This page lists common Go gardening tasks.
 
 ## Access
 
-If you've been regularly active in the Go community for some time, feel free to ask for Gerrit and/or Github access to modify things.
+If you've been regularly active in the Go community for some time, feel free to ask for Gerrit and/or GitHub access to modify things.
 
-See https://go.dev/wiki/GerritAccess and https://go.dev/wiki/GithubAccess
+See https://go.dev/wiki/GerritAccess and https://go.dev/wiki/GitHubAccess
 
 ## Gardening Tasks
 

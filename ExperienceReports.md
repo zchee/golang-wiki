@@ -6,7 +6,7 @@ This page collects experience reports about problems with Go that might inform o
 
 We hope to use these experience reports to understand where people are having trouble writing Go, to help us prioritize future changes to the Go ecosystem.  (We do not promise to reply to these. If you need immediate help answering questions about Go, see [https://go.dev/help/](https://go.dev/help/) for resources.)
 
-__The best experience reports tell: (1) what you wanted to do, (2) what you actually did, and (3) why that wasn’t great, illustrating those by real concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog, or on Medium, or as a [Github Gist](https://gist.github.com/) (use a `.md` extension for Markdown), or as a publicly-readable Google doc, and then link them here. (Talk videos or slides are also welcome, although they are not as convenient for us to digest.)
+__The best experience reports tell: (1) what you wanted to do, (2) what you actually did, and (3) why that wasn’t great, illustrating those by real concrete examples, ideally from production use.__ Please write these reports about the problems most significant to you, post them on your own blog, or on Medium, or as a [GitHub Gist](https://gist.github.com/) (use a `.md` extension for Markdown), or as a publicly-readable Google doc, and then link them here. (Talk videos or slides are also welcome, although they are not as convenient for us to digest.)
 
 If you do not have permission to edit the wiki to add an article to this list, [please file an issue](https://go.dev/issue/new).
 
@@ -201,9 +201,9 @@ a complex solution for the problem.
 
 ## Modules
   - Paul Jolly - "[Creating a submodule within an existing module](https://gist.github.com/myitcv/79c3f12372e13b0cbbdf0411c8c46fd5)" - covers multi-module repos, cyclic module dependencies and the steps required to move between various "states"
-  - Chi authors - [Github comment](https://github.com/go-chi/chi/pull/378#issuecomment-453274681) - comment on why the Chi authors held out on implementing Go Modules support (which has been added in the meantime). TL;DR ­— due to the import compatibility rule.
+  - Chi authors - [GitHub comment](https://github.com/go-chi/chi/pull/378#issuecomment-453274681) - comment on why the Chi authors held out on implementing Go Modules support (which has been added in the meantime). TL;DR ­— due to the import compatibility rule.
   - Sam Whited -"[Supporting Go Modules](https://blog.samwhited.com/2019/01/supporting-go-modules/)" - Things learned from upgrading 20 so modules. TL;DR — upgrading large modules past v1 is a huge pain and needs tooling, failure modes for modules are very complex and it's easy to screw up adding modules support to existing projects.
-  - Stripe Github thread (linked comment down) - [reverting support for Go Modules](https://github.com/stripe/stripe-go/pull/712#issuecomment-454594534). TL;DR — Stripe is reverting Go Modules support because there is no clear upgrade path from dep for modules above v1.
+  - Stripe GitHub thread (linked comment down) - [reverting support for Go Modules](https://github.com/stripe/stripe-go/pull/712#issuecomment-454594534). TL;DR — Stripe is reverting Go Modules support because there is no clear upgrade path from dep for modules above v1.
   - [Referencing bash scripts in `GOPATH`](https://gist.github.com/ineiti/4a4a1798876225f7a553a13120d705ae)
   - [Go Modules on Badger and Dgraph](https://discuss.dgraph.io/t/go-modules-on-badger-and-dgraph/4662). TL;DR - Dgraph is dropping support for v2 because it forces non-Go modules users to change their code.
   - [A survey on Golang's dependency management modes (GOPATH and Go Modules): status quo, problems and challenges](https://github.com/KateGo520/Hero/issues/1). - The purpose of this report is to help developers better understand the issues in the transition from GOPATH to Go Modules.

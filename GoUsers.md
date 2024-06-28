@@ -275,7 +275,7 @@ title: GoUsers
   * [League](https://league.com) - [jobs](https://league.com/careers-at-league/)
   * [Lendesk](https://lendesk.com) - [jobs](https://lendesk.com/careers)
   * [Lightspeed](https://www.lightspeedhq.com/) - [jobs](https://www.lightspeedhq.com/careers/openings/?office=canada&department=technology)
-  * [LoginRadius](https://www.loginradius.com/) - [Blog](https://www.loginradius.com/engineering/blog/) - [Github](https://github.com/LoginRadius)
+  * [LoginRadius](https://www.loginradius.com/) - [Blog](https://www.loginradius.com/engineering/blog/) - [GitHub](https://github.com/LoginRadius)
   * [Manifold](https://manifold.co)
   * [NV Digital](https://www.nvdigital.co/)
   * [Obkio](https://obkio.com/)
@@ -670,7 +670,7 @@ title: GoUsers
   * [Parsaspace](https://parsaspace.com) - Parsaspace is an iranian storage as a service
   * [Shafa.clinic](https://Shafa.clinic/) -  best medical laser service in Iran
   * [Cafe Bazaar](https://cafebazaar.ir/?l=en/) -  Iranian Android marketplace
-  * [Alibaba Travels Co.](https://alibaba.ir/) - [(Github)](https://github.com/alibaba-go) - Iranian online travel agency
+  * [Alibaba Travels Co.](https://alibaba.ir/) - [(GitHub)](https://github.com/alibaba-go) - Iranian online travel agency
 
 ### Ireland
   * [EXADS](http://exads.com/)
@@ -1466,7 +1466,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Aruba Networks](http://www.arubanetworks.com/) - [golang-nuts](https://groups.google.com/d/msg/golang-nuts/M2koiSyoF6E/8rUujT5RCwEJ)
   * [Ascendant Compliance Manager](https://www.ascendantcompliancemanager.com/) - Batch process millions of security trades per day.
   * [Assembled](https://www.assembled.com/) - [github](https://github.com/assembledhq)
-  * [AT&T](https://www.att.com/) - [Github](https://github.com/att?utf8=%E2%9C%93&q=&type=&language=go) and [gopkgs repository](https://github.com/att/gopkgs)
+  * [AT&T](https://www.att.com/) - [GitHub](https://github.com/att?utf8=%E2%9C%93&q=&type=&language=go) and [gopkgs repository](https://github.com/att/gopkgs)
   * [Atatus](http://www.atatus.com/) - [blog](http://www.atatus.com/blog/golang-auto-build-versioning/)
   * [Aura](https://aura.com)
   * [Avocet](http://avocet.io/) - [blog](http://blog.avocet.io/from-0-to-6-2-billion-requests/)
@@ -1597,7 +1597,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [HashiCorp](https://hashicorp.com/) - [github](https://github.com/hashicorp)
   * [HER](https://weareher.com/)
   * [Heroku](http://heroku.com/) - [Go blog post](https://go.dev/blog/2011/04/go-at-heroku.html), [news](http://www.theregister.co.uk/2011/05/05/google_go/)
-  * [Hewlett Packard Enterprise](https://hpe.com) - [Github](https://github.com/HewlettPackard)
+  * [Hewlett Packard Enterprise](https://hpe.com) - [GitHub](https://github.com/HewlettPackard)
   * [Home24](http://www.home24.de) - [github](https://github.com/home24)
   * [Honeywell](https://www.honeywell.com)
   * [Hooklift](https://github.com/hooklift) - [github](https://github.com/hooklift)
@@ -1693,7 +1693,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Nutanix](http://www.nutanix.com)
   * [Odoscope](http://www.odoscope.com) - [twitter](https://twitter.com/odoscope/status/642383738249322496), [job](http://www.odoscope.com/career-at-odoscope/developer-vacancy/)
   * [Ookma-Kyi](https://www.ookma-kyi.tech) - Open Source Implementation of the now defunct Battlemail MMO
-[Github](https://www.github.com/ookma-kyi/)    [Twitter](https://mobile.twitter.com/Ookma_Kyi/)
+[GitHub](https://www.github.com/ookma-kyi/)    [Twitter](https://mobile.twitter.com/Ookma_Kyi/)
   * [Ooyala](http://www.ooyala.com/) - [github](https://github.com/ooyala/)
   * [Opendoor](https://www.opendoor.com/) - [HN](https://news.ycombinator.com/item?id=10657348)
   * [OpenShift](https://www.openshift.com/) - [blog](http://blog.gopheracademy.com/birthday-bash-2014/openshift-3-old-dogs-new-tricks/)

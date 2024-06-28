@@ -4,7 +4,7 @@ title: Gerrit Access
 
 There are two types of Gerrit access described here, with different powers & responsibilities. Only ask for access if you're an active member of the community. New contributors should participate in the Gerrit code review process for some time before requesting access.
 
-(For Github access, see https://go.dev/wiki/GithubAccess)
+(For GitHub access, see https://go.dev/wiki/GitHubAccess)
 
 ## Running TryBots ("may-start-trybots")
 
