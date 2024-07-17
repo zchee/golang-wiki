@@ -32,11 +32,10 @@ $ go build -o hello.exe hello.go
 
 You can now run `hello.exe` on a Windows machine near you. 
 
-Note that the command above will silently rebuild most of standard library, and for this reason will be quite slow. To speed-up the process, you can install all the windows-amd64 standard packages on your system with
-
-```
-GOOS=windows GOARCH=amd64 go install
-```
+Note that the first time you run the command above it will
+silently rebuild most of standard library, and for this reason
+will be quite slow. Subsequent builds will be faster due to Go
+command build caching.
 
 Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068).  In order to use cgo, or any of the build modes `c-archive`, `c-shared`, `shared`, `plugin`, you need to have a C cross-compiler.
 
