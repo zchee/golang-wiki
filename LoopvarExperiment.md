@@ -2,11 +2,21 @@
 title: LoopvarExperiment
 ---
 
-For Go 1.22, the Go team is considering changing the semantics of for loop variables to prevent unintended sharing in per-iteration closures and goroutines. Go 1.21 contains a preliminary implementation of the change, enabled by setting `GOEXPERIMENT=loopvar` when building your program. We invite anyone who wants to help us understand the effects of the change to try using `GOEXPERIMENT=loopvar` and let us know about any problems or successes encountered.
+In Go 1.22 Go changed the semantics of for loop variables to prevent
+unintended sharing in per-iteration closures and goroutines.
+
+The new semantics were also available in Go 1.21 in a preliminary
+implementation of the change, enabled by setting
+`GOEXPERIMENT=loopvar` when building your program.
 
 This page answers frequently asked questions about the change.
 
 ## How do I try the change?
+
+In Go 1.22 and later the change is controlled by the language version
+in the module's go.mod file.
+If the language version is go1.22 or later, the module will use the
+new loop variable semantics.
 
 Using Go 1.21, build your program using `GOEXPERIMENT=loopvar`, as in 
 
@@ -34,7 +44,7 @@ Consider a loop like:
 	}
 ```
 
-This test aims to check that all the test cases are even (they are not!), but it passes without `GOEXPERIMENT=loopvar`. The problem is that t.Parallel stops the closure and lets the loop continue, and then it runs all the closures in parallel when `TestAllEvenBuggy` returns. By the time the if statement in the closure executes, the loop is done, and v has its final iteration value, 6. All four subtests now continue executing in parallel, and they all check that 6 is even, instead of checking each of the test cases.
+This test aims to check that all the test cases are even (they are not!), but it passes with the old semantics. The problem is that t.Parallel stops the closure and lets the loop continue, and then it runs all the closures in parallel when `TestAllEvenBuggy` returns. By the time the if statement in the closure executes, the loop is done, and v has its final iteration value, 6. All four subtests now continue executing in parallel, and they all check that 6 is even, instead of checking each of the test cases.
 
 Another variant of this problem is
 
@@ -98,7 +108,7 @@ The initial impact of this bug was that Let's Encrypt needed to [revoke over 3 m
 
 The code in question was carefully reviewed when written, and the author was clearly aware of the potential problem, since they wrote `kCopy := k`, and yet it _still had a major bug_, one that is not visible unless you also know exactly what `modelToAuthzPB` does.
 
-## What is the proposed solution?
+## What is the solution?
 
 The solution is to make loop variables declared in for loops using `:=` be a different instance of the variable on each iteration. This way, if the value is captured in a closure or goroutine or otherwise outlasts the iteration, later references to it will see the value it had during that iteration, not a value overwritten by a later iteration.
 
@@ -142,7 +152,7 @@ func sum(list []int) int {
 }
 ```
 
-It depends on the fact that there is only one `x` in the loop, so that `&x` is the same in each iteration. With `GOEXPERIMENT=loopvar`, `x` escapes the iteration, so `&x` is different on each iteration, and the map now has multiple entries instead of a single entry.
+It depends on the fact that there is only one `x` in the loop, so that `&x` is the same in each iteration. With the new semantics, `x` escapes the iteration, so `&x` is different on each iteration, and the map now has multiple entries instead of a single entry.
 
 And here is a surprising way to print the values 0 through 9:
 
@@ -156,9 +166,9 @@ And here is a surprising way to print the values 0 through 9:
 	}
 ```
 
-It depends on the fact that the `f` initialized on the first iteration “sees” the new value of `i` each time it is called. With `GOEXPERIMENT=loopvar`, it prints 0 ten times.
+It depends on the fact that the `f` initialized on the first iteration “sees” the new value of `i` each time it is called. With the new semantics, it prints 0 ten times.
 
-Although it is possible to construct artificial programs that break using `GOEXPERIMENT=loopvar`, we have yet to see any real programs
+Although it is possible to construct artificial programs that break using the new semantics, we have yet to see any real programs
 that execute incorrectly.
 
 C# made a similar change in C# 5.0 and [they also reported](https://github.com/golang/go/discussions/56010#discussioncomment-3788526) having very few problems caused by the change.
@@ -187,11 +197,11 @@ However, in some cases, an extra allocation will be added. Sometimes, the extra 
 
 Benchmarking of the public “bent” bench suite showed no statistically significant performance difference over all, and we've observed no performance problems in Google's internal production use either. We expect most programs to be unaffected.
 
-## If the proposal is accepted, how will the change be deployed?
+## How is the change deployed?
 
 Consistent with Go's general [approach to compatibility](https://tip.golang.org/doc/godebug), the new for loop semantics will only apply when the package being compiled is from a module that contains a `go` line declaring Go 1.22 or later, like `go 1.22` or `go 1.23`. This conservative approach ensures that _no programs will change behavior due to simply adopting the new Go toolchain_. Instead, each module author controls when their module changes to the new semantics.
 
-The `GOEXPERIMENT=loopvar` trial mechanism does not use the declared Go language version: it applies the new semantics to every for loop in the program unconditionally. This gives a worst case behavior to help identify the maximum possible impact of the change.
+The `GOEXPERIMENT=loopvar` trial mechanism did not use the declared Go language version: it applied the new semantics to every for loop in the program unconditionally. This gave a worst case behavior to help identify the maximum possible impact of the change.
 
 ## Can I see a list of places in my code affected by the change?
 
@@ -216,18 +226,4 @@ See the [bisect transcript section of this comment](https://github.com/golang/go
 
 ## Does this mean I don’t have to write x := x in my loops anymore?
 
-Not yet. But we hope that in a future version of Go you won't have to, perhaps even Go 1.22.
-
-## How can I send feedback?
-
-The [proposal issue](https://github.com/golang/go/issues/60078) is the place to discuss the proposal. However, please note that arguments about what is intuitive or natural are not productive: different people can quite reasonably have different opinions of what is intuitive or natural.
-
-Instead, the most important feedback you can contribute to the discussion is _empirical data about using the change on real codebases_:
-
- - What fraction of tests started failing with `GOEXPERIMENT=loopvar`?
- - Were any of the newly failing tests caused by `GOEXPERIMENT=loopvar` breaking correct production code, as opposed to identifying buggy code or tests?
- - Do any of your important, real-world benchmarks get significantly slower or use significantly more memory?
-
-
- 
-
+After you update your module to use go1.22 or a later version, yes.
