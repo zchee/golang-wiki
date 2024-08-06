@@ -51,6 +51,9 @@ Any issue must be in one of the following states. Project contributors move issu
 - The issue is resolved. No further attention is required.
 - The issue is closed.
 
+#### Proposal
+- See below for the proposal process.
+
 Issues move from one state to another where appropriate. For example, a contributor may file an issue, assign it to themselves, and immediately apply the `NeedsFix` label. Or, an issue may go from `NeedsDecision` to `NeedsFix`, only to later move back to `NeedsDecision` as complexities arise.
 
 An issue may be closed at any time, with a comment to indicate the reason for closure ("fixed by …", "duplicate of …", "working as intended", etc).
@@ -91,11 +94,25 @@ Milestones describe the timeline for issue resolution.
 
     For gccgo issues.
 
-- Go2
-
-    Deferred until Go 2.
-
 Additional milestones may be used to manage specific project work.
 
 The label "Soon" is used independently of milestones to indicate that the issue is time-sensitive.
 
+## Proposals
+
+Changes to the language or the standard library API go through the
+[proposal process](https://go.dev/s/proposal-process).
+In the issue tracker a proposal will normally have the `Proposal`
+label and be in the `Proposal` milestone.
+
+A proposal that suggests a backward-incompatible change to a library
+will have the `v2` label, meaning that it can only be adopted if there
+is a v2 version of the package (or, in the distant future, a v3
+version).
+
+A proposal that suggests a change to the language should have the
+`LanguageChange` label.
+Minor language changes are handled as part of the regular proposal
+process.
+Larger language changes are handled by a language review process;
+those issues should have a `LanguageChangeReview` label.
