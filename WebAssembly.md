@@ -31,6 +31,8 @@ page.
 
 > If you are on Windows, we suggest to follow this tutorial using a BASH emulation system such as Git Bash. 
 
+> For Go 1.23 and earlier, the wasm support files needed in this article are located in `misc/wasm`, and the path should be replaced when performing operations with files such as `lib/wasm/wasm_exec.js`.
+
 To compile a basic Go package for the web:
 
 ```go
@@ -63,7 +65,7 @@ support file, and a HTML page to connect everything together.
 Copy the JavaScript support file:
 
 ```sh
-cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" .
+cp "$(go env GOROOT)/lib/wasm/wasm_exec.js" .
 ```
 
 Create an `index.html` file:
@@ -120,12 +122,12 @@ rather than a browser, which can be useful for testing and automation.
 
 First, make sure Node is installed and in your `PATH`.
 
-Then, add `$(go env GOROOT)/misc/wasm` to your `PATH`.
+Then, add `$(go env GOROOT)/lib/wasm` to your `PATH`.
 This will allow `go run` and `go test` find `go_js_wasm_exec` in a `PATH` search
 and use it to just work for `js/wasm`:
 
 ```console
-$ export PATH="$PATH:$(go env GOROOT)/misc/wasm"
+$ export PATH="$PATH:$(go env GOROOT)/lib/wasm"
 $ GOOS=js GOARCH=wasm go run .
 Hello, WebAssembly!
 $ GOOS=js GOARCH=wasm go test
@@ -137,15 +139,15 @@ If you're running working on Go itself, this will also allow you to run `run.bas
 seamlessly.
 
 `go_js_wasm_exec` is a wrapper that allows running Go Wasm binaries in Node. By default,
-it may be found in the `misc/wasm` directory of your Go installation.
+it may be found in the `lib/wasm` directory of your Go installation.
 
 If you'd rather not add anything to your `PATH`, you may also set the `-exec` flag to
 the location of `go_js_wasm_exec` when you execute `go run` or `go test` manually.
 
 ```console
-$ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec" .
+$ GOOS=js GOARCH=wasm go run -exec="$(go env GOROOT)/lib/wasm/go_js_wasm_exec" .
 Hello, WebAssembly!
-$ GOOS=js GOARCH=wasm go test -exec="$(go env GOROOT)/misc/wasm/go_js_wasm_exec"
+$ GOOS=js GOARCH=wasm go test -exec="$(go env GOROOT)/lib/wasm/go_js_wasm_exec"
 PASS
 ok  	example.org/my/pkg	0.800s
 ```
@@ -154,10 +156,10 @@ Finally, the wrapper may also be used to directly execute a Go Wasm binary:
 
 ```console
 $ GOOS=js GOARCH=wasm go build -o mybin .
-$ $(go env GOROOT)/misc/wasm/go_js_wasm_exec ./mybin
+$ $(go env GOROOT)/lib/wasm/go_js_wasm_exec ./mybin
 Hello, WebAssembly!
 $ GOOS=js GOARCH=wasm go test -c
-$ $(go env GOROOT)/misc/wasm/go_js_wasm_exec ./pkg.test
+$ $(go env GOROOT)/lib/wasm/go_js_wasm_exec ./pkg.test
 PASS
 ok  	example.org/my/pkg	0.800s
 ```
