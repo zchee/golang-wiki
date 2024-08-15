@@ -182,6 +182,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [argcfg](http://code.google.com/p/goargcfg/) - Use reflection to populate fields in a struct from command line arguments
   * [autoflags](https://github.com/artyom/autoflags) - Populate go command line app flags from config struct
   * [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
+  * [charli](https://github.com/starriver/charli) - Small, procedural, zero-reflection CLI toolkit with help & completions.
   * [cobra](http://github.com/spf13/cobra) - A commander for modern go CLI interactions supporting commands & POSIX/GNU flags
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
@@ -2043,4 +2044,3 @@ The following entries have not been filed. Please help by putting these in relev
   * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [al-Go-rithms](https://github.com/addy1997/al-Go-rithms) - Collection of algorithms on arrays, runes, strings for reference purpose.
-
