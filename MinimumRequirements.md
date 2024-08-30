@@ -115,7 +115,15 @@ See https://go.dev/doc/install/source#environment
 
 ### arm64
 
-All ARMv8-A processors.
+Until Go 1.23, the Go compiler always generated ARM64 binaries that could be executed by any ARMv8-A processor.
+
+Go 1.23 introduced a new `GOARM64` environment variable, which specifies the minimum target version of the ARM64 architecture at compile time. Allowed values are `v8.{0-9}` and `v9.{0-5}`. This may be followed by an option specifying extensions implemented by target hardware. Valid options are `,lse` and `,crypto`.
+
+Setting, for example, `GOARM64=v8.0,lse`, will allow the Go compiler to use LSE instructions in the generated binaries (which may improve performance in some cases); but these binaries will not run on older ARM64 processors that don’t support LSE.
+
+The Go toolchain may also generate newer instructions, but guarded by dynamic checks to ensure they’re only executed on capable processors.
+
+The `GOARM64` environment variable defaults to `v8.0`.
 
 ### ppc64 (big endian)
 
