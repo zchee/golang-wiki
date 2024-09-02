@@ -14,7 +14,6 @@ Read [this article](https://go.dev/blog/gopher) and watch [The Go Gopher A Chara
 * [golang graphics](https://github.com/mholt/golang-graphics)
 * [print-ready swimming gopher](https://gumroad.com/l/golang)
 * [go gopher vector](https://github.com/keygx/Go-gopher-Vector)
-* [gopher gala](http://www.gophergala.com/)
 * [gophericons](https://github.com/hackraft/gophericons)
 * [gophers by Egon Elbre](https://github.com/egonelbre/gophers)
 * [Go Gopher model (3d)](https://github.com/StickmanVentures/go-gopher-model)
