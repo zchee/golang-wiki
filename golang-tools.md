@@ -34,16 +34,17 @@ Like the other discussion spaces these calls are open to anyone and people new t
 
 #### Shared Calendar
 
-As of October 2020, all calls/events will be added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+All calls/events are added to the [shared calendar](https://calendar.google.com/calendar/u/0?cid=Y19vNjYyZXR1YTZlNTdsNW9kdDI0M2w5ZmxiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 #### Upcoming calls
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2024-09-04 - [Agenda](https://docs.google.com/document/d/1ymHys5uK8bzfz9vJOz1snjK1wODEf96zABHXuFNrc2k/edit)
+* 2024-11-04 - [Agenda](https://docs.google.com/document/d/1ms1ij5MI6vWqhGDeQC1PZESm2z9fqCk5DaK7Qk-pwGY/edit)
 
 #### Call archive
 
+* 2024-09-04 - [Meeting notes](https://docs.google.com/document/d/1ymHys5uK8bzfz9vJOz1snjK1wODEf96zABHXuFNrc2k/edit) - [video](https://www.youtube.com/watch?v=ZeEMCXn4DYA)
 * 2024-06-12 - [Meeting notes](https://docs.google.com/document/d/1w-FKU6K2vVmWh0xD7kwrk1mPmF4LeFAY_iPXnepSI_g/edit) - [video](https://www.youtube.com/watch?v=Fq2sms6CcY0)
 * 2024-04-10 - [Meeting notes](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit) - [video](https://www.youtube.com/watch?v=ZEiMIT9qkp0)
 * 2024-01-17 - [Meeting notes](https://docs.google.com/document/d/1LKY-JRrPKkxoonvq7c3rr_DExzl_8X2Iq1TR8V0C3lg/edit) - [video](https://www.youtube.com/watch?v=ArCZCQr_KhA)
