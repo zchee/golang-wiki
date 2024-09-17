@@ -200,6 +200,8 @@ is in development.
 
 * [GoWebian](https://github.com/bgokden/gowebian): A library to build pages with pure Go and add WebAssembly bindings.
 
+* [`hogusuru`](https://github.com/realPy/hogosuru): An advanced webassembly framework that implements most of the features (including indexeddb, serviceworker, websocket and much more) of browsers directly accessible in GO.
+
 * [VECTY](https://github.com/hexops/vecty): Build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
 
 * [`vert`](https://github.com/norunners/vert): WebAssembly interop between Go and JS values.
