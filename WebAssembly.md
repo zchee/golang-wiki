@@ -92,7 +92,7 @@ Then serve the three files (`index.html`, `wasm_exec.js`, and
 [`goexec`](https://github.com/shurcooL/goexec#goexec):
 
 ```sh
-# install goexec: go install github.com/shurcooL/goexec
+# install goexec: go install github.com/shurcooL/goexec@latest
 goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
 ```
 
