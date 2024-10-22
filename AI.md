@@ -72,6 +72,11 @@ actual AI computation will be done on the local machine.
 
 Here is a [complete small example of using Ollama from Go](https://eli.thegreenplace.net/2023/using-ollama-with-langchaingo/).
 
+## How do I build LLM-powered applications in Go?
+
+To learn how to build an application with different LLM frameworks, take a look at
+[how to build a RAG server using various LLM frameworks](https://go.dev/blog/llmpowered).
+
 ## How do I manage prompts in Go?
 
 The message sent to an LLM service is referred to as a _prompt_.
