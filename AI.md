@@ -65,7 +65,7 @@ Here is a [complete small example using the Google AI service](https://eli.thegr
 ## How do I call a downloaded service from Go?
 
 Ollama provides a good framework for using downloaded services.
-Ollama runs on the local machine but opens a post on the localhost to
+Ollama runs on the local machine but opens a port on the localhost to
 provide a REST API.
 At that point Ollama can be treated as a hosted service, but the
 actual AI computation will be done on the local machine.
