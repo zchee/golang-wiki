@@ -10,7 +10,7 @@ The server's source is located in the [go.googlesource.com/website](https://go.g
 
 ## Reporting issues
 
-For issues related to existing contents, the preferred method of resolution is to send a [change](#sending-a-change-github).
+For issues related to existing contents, the preferred method of resolution is to send a [change](#updating-contents).
 
 However, if you would like to add a new page, please first open an issue in the [Go issue tracker](https://go.dev/issues/new?title=wiki:) with the prefix `wiki:` to propose the addition. Clearly state why the content does not fit into any of the existing pages.
 
