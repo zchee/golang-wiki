@@ -836,7 +836,7 @@ title: GoUsers
   * [KLab Inc.](http://www.klab.com/jp/english/)
   * [Knowledge Work Inc.](https://kwork.studio/)
   * [KRPEO](https://rikitake.jp/)
-  * [Kyash Inc](https://kyash.co/en/)
+  * [Kyash Inc](https://page.kyash.co/)
   * [LayerX, Inc](https://layerx.co.jp/)
   * [LEAN BODY Inc.](https://lean-body.co.jp/)
   * [Link-U Inc.](https://www.link-u.co.jp/)
