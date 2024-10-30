@@ -15,33 +15,36 @@ There are many times in which you may install Go (either from source or from a b
     * [Still need help?](#still-need-help)
 
 ## Tips
-### Environment
+### Environment variables
 
-To start out with, check the following first:
-  * GOROOT
-    * This should _only_ be set if you used a binary distribution and it's not installed in the default location.
-  * [GOPATH](https://pkg.go.dev/cmd/go#GOPATH_environment_variable)
-    * This should be set to the directory under which you want your source (and third party packages).
-    * This can also be set to a list of absolute paths separated by : (or ; on Windows).
-    * Note that ~/some/path is not absolute and will probably not work the way you expect (try $HOME/some/path instead).
-    * GOPATH should not be set to or contain GOROOT
-  * GOBIN
-    * This should only be set if you _really_ know what you're doing... The default should be fine.
-  * GOOS, GOARCH, GOHOSTOS, GOHOSTARCH
-    * You shouldn't need to set these in normal cases.
+There are several environment variables that can be set to configure
+your Go installation: see https://pkg.go.dev/cmd/go#hdr-Environment_variables.
 
-Under linux and darwin, make sure that any of the above variables which are set are actually exported.  When you run the ` env | grep GO ` command, they should be listed.  You can also check your environment with the ` go env ` command.  In bash, this is done with the ` export GOPATH ` (if it's already set) or ` export GOPATH=/path/to/gopath ` command (similarly for the other variables), usually in your .bashrc or .bash\_profile.
+Normally none of them need to be set.
 
-### GOROOT vs GOPATH
-Packages under GOROOT store their source files in
+That said, the default for `GOROOT` is the root of your Go
+installation.
+The default for `GOPATH` is the directory named "go" in your home
+directory.
+The `GOPATH` directory should not be set to, or contain, the `GOROOT`
+directory.
 
-` $GOROOT/src/pkg/import/path/*.go `
+If you have installed Go in the "go" directory in your home directory,
+running the go tool will print a warning.
+You should either move the Go installation, or set the `GOPATH`
+environment variable to some other directory.
 
-Notice that this is ` src/pkg `; under GOPATH, source files are stored in
+For example, on a Unix system:
 
-` $GOPATH/src/import/path/*.go `
-
-Because of this inconsistency, it is generally not recommended that GOPATH be set to or contain GOROOT; its directories will be searched automatically for imports regardless of the GOPATH setting.
+```
+> go run hello.go
+warning: GOPATH set to GOROOT (/home/username/go) has no effect
+Hello, world
+> GOPATH=/home/username/gopath
+> export GOPATH
+> go run hello.go
+Hello, world
+```
 
 ## Troubleshooting
 ##### The ` go build ` command doesn't do anything!
