@@ -9,8 +9,7 @@ There are many times in which you may install Go (either from source or from a b
 ## Contents
   * [Introduction](#introduction)
   * [Tips](#tips)
-    * [Environment](#environment)
-    * [GOROOT vs GOPATH](#goroot-vs-gopath)
+    * [Environment variables](#environment-variables)
   * [Troubleshooting](#troubleshooting)
     * [Still need help?](#still-need-help)
 
