@@ -40,10 +40,11 @@ All calls/events are added to the [shared calendar](https://calendar.google.com/
 
 Note that calls always happen on the same [Google Meet link](https://meet.google.com/xuq-tcoc-dkp). Anyone can join the calls - no Google account is required.
 
-* 2024-11-04 - [Agenda](https://docs.google.com/document/d/1ms1ij5MI6vWqhGDeQC1PZESm2z9fqCk5DaK7Qk-pwGY/edit)
+* 2025-01-15 - [Agenda](https://docs.google.com/document/d/1wDSFsC2scG5crUVzg1xm6XdCDVLXwoTUDG_ZNRRnfH4/edit)
 
 #### Call archive
 
+* 2024-11-04 - [Meeting notes](https://docs.google.com/document/d/1ms1ij5MI6vWqhGDeQC1PZESm2z9fqCk5DaK7Qk-pwGY/edit) - [video](https://www.youtube.com/watch?v=tJ-l0vyBvXk)
 * 2024-09-04 - [Meeting notes](https://docs.google.com/document/d/1ymHys5uK8bzfz9vJOz1snjK1wODEf96zABHXuFNrc2k/edit) - [video](https://www.youtube.com/watch?v=ZeEMCXn4DYA)
 * 2024-06-12 - [Meeting notes](https://docs.google.com/document/d/1w-FKU6K2vVmWh0xD7kwrk1mPmF4LeFAY_iPXnepSI_g/edit) - [video](https://www.youtube.com/watch?v=Fq2sms6CcY0)
 * 2024-04-10 - [Meeting notes](https://docs.google.com/document/d/1kn_vSiu43IsGlUV7gGV8mqmH1ldXDt0yiA31XWtM-wY/edit) - [video](https://www.youtube.com/watch?v=ZEiMIT9qkp0)
