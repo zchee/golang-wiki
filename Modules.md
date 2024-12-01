@@ -697,19 +697,18 @@ If you:
  *  want to use a go-based tool (e.g. `stringer`) while working on a module, and
  *  want to ensure that everyone is using the same version of that tool while tracking the tool's version in your module's `go.mod` file
 
-then one currently recommended approach is to add a `tools.go` file to your module that includes import statements for the tools of interest (such as `import _ "golang.org/x/tools/cmd/stringer"`), along with a `//go:build tools` build constraint. The import statements allow the `go` command to precisely record the version information for your tools in your module's `go.mod`, while the `//go:build tools` build constraint prevents your normal builds from actually importing your tools.
+then in Go 1.24 and above, you can add a [`tool` directive](https://go.dev/doc/modules/managing-dependencies#tools) to your go.mod:
+```
+go 1.24
+
+...
+
+tool golang.org/x/tools/cmd/stringer
+```
+
+Before Go 1.24 the recommended approach was to add a `tools.go` file to your module that includes import statements for the tools of interest (such as `import _ "golang.org/x/tools/cmd/stringer"`), along with a `//go:build tools` build constraint. The import statements allow the `go` command to precisely record the version information for your tools in your module's `go.mod`, while the `//go:build tools` build constraint prevents your normal builds from actually importing your tools.
 
 For a concrete example of how to do this, please see this ["Go Modules by Example" walkthrough](https://github.com/go-modules-by-example/index/blob/master/010_tools/README.md).
-
-A discussion of the approach along with an earlier concrete example of how to do this is in [this comment in #25922](https://github.com/golang/go/issues/25922#issuecomment-412992431).
-
-The brief rationale (also from [#25922](https://github.com/golang/go/issues/25922#issuecomment-402918061)):
-
-> I think the tools.go file is, in fact, the best practice for tool dependencies, certainly for Go 1.11.
-> 
-> I like it because it does not introduce new mechanisms.
-> 
-> It simply reuses existing ones.
 
 You can also (since go 1.16) use `go install tool@version`, which will install a specific version, or (since go 1.17) `go run tool@version`, which will run the tool without installing, as implemented in [#42088](https://github.com/golang/go/issues/42088) and [#40276](https://github.com/golang/go/issues/40276), which can eliminate the need for tools.go.
 
