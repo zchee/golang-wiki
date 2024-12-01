@@ -16,9 +16,10 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - [klog](https://github.com/kubernetes/klog): the text format used by Kubernetes. Provides klog output routing when using the main package's logger and [a simpler logger](https://github.com/kubernetes/klog/tree/main/textlogger) that just writes to stderr. Both slog/logr and go-logr/logr APIs are supported.
 - slogjson: Format using the upcoming [JSON v2 library](https://github.com/golang/go/discussions/63397), with optional single-line pretty-printing: https://github.com/veqryn/slog-json
 
-#### Logger bridge
+#### Logger bridges
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 - [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
+- A handler for [GoKit](github.com/go-kit/log): https://github.com/tjhop/slog-gokit.
 
 #### Logging Middleware
 - slogctx: store attributes or the logger in context, read any custom values from context: https://github.com/veqryn/slog-context
