@@ -28,28 +28,27 @@ List entries can be added by anyone who creates a public package where a new tag
 List entries can be removed when the links to the package documentation stops working or the author(s) of that package requests it.
 
 ## List of well-known struct tags
-Tag       | Documentation
-----------|---------------
-xml       | https://pkg.go.dev/encoding/xml
-json      | https://pkg.go.dev/encoding/json
-asn1      | https://pkg.go.dev/encoding/asn1
-reform    | https://pkg.go.dev/gopkg.in/reform.v1
-dynamodbav | https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/dynamodbattribute/#Marshal
-bigquery  | https://pkg.go.dev/cloud.google.com/go/bigquery
-datastore | https://pkg.go.dev/cloud.google.com/go/datastore
-spanner   | https://pkg.go.dev/cloud.google.com/go/spanner
-bson      | https://pkg.go.dev/go.mongodb.org/mongo-driver/bson
-gorm      | https://pkg.go.dev/github.com/jinzhu/gorm
-yaml      | https://pkg.go.dev/gopkg.in/yaml.v2
-toml      | https://pkg.go.dev/github.com/pelletier/go-toml
-validate  | https://github.com/go-playground/validator
+Tag          | Documentation
+-------------|---------------
+asn1         | https://pkg.go.dev/encoding/asn1
+bigquery     | https://pkg.go.dev/cloud.google.com/go/bigquery
+bson         | https://pkg.go.dev/go.mongodb.org/mongo-driver/bson
+cue          | https://pkg.go.dev/cuelang.org/go/cuego
+datastore    | https://pkg.go.dev/cloud.google.com/go/datastore
+db           | https://github.com/jmoiron/sqlx
+dynamodbav   | https://docs.aws.amazon.com/sdk-for-go/api/service/dynamodb/dynamodbattribute/#Marshal
+egg          | https://github.com/andrewwphillips/eggql
+feature      | https://github.com/nikolaydubina/go-featureprocessing
+gorm         | https://pkg.go.dev/github.com/jinzhu/gorm
+graphql      | https://github.com/samsarahq/thunder
+json         | https://pkg.go.dev/encoding/json
 mapstructure | https://pkg.go.dev/github.com/mitchellh/mapstructure
-parser    | https://pkg.go.dev/github.com/alecthomas/participle
-protobuf  | https://github.com/golang/protobuf
-db        | https://github.com/jmoiron/sqlx
-url       | https://github.com/google/go-querystring
-feature   | https://github.com/nikolaydubina/go-featureprocessing
-graphql   | https://github.com/samsarahq/thunder
-egg       | https://github.com/andrewwphillips/eggql
-cue       | https://pkg.go.dev/cuelang.org/go/cuego
-
+parser       | https://pkg.go.dev/github.com/alecthomas/participle
+protobuf     | https://github.com/golang/protobuf
+reform       | https://pkg.go.dev/gopkg.in/reform.v1
+spanner      | https://pkg.go.dev/cloud.google.com/go/spanner
+toml         | https://pkg.go.dev/github.com/pelletier/go-toml
+url          | https://github.com/google/go-querystring
+validate     | https://github.com/go-playground/validator
+xml          | https://pkg.go.dev/encoding/xml
+yaml         | https://pkg.go.dev/gopkg.in/yaml.v2
