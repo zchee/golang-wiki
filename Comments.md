@@ -101,7 +101,7 @@ directives](https://pkg.go.dev/cmd/compile#hdr-Compiler_Directives).
 
 The `//line` directive permits setting the file name and line and
 column number to use for the following code.
-For historicaly reasons this directive does not start with `//go:`.
+For historical reasons this directive does not start with `//go:`.
 This is useful when the Go file is generated from some other source,
 and it's useful for error messages or stack tracebacks to refer to
 that other source file rather than the generated source file.
