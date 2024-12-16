@@ -174,6 +174,17 @@ describe the behavior of some C functions.
 For full details see the [cgo
 documentation](https://pkg.go.dev/cmd/cgo).
 
+#### cgo export
+
+In a file that uses cgo, a `//export` directive may be used to make a
+Go function visible to C code.
+The syntax is `//export CName` in a comment that appears before the Go
+function `GoName`.
+This will arrange matters such that a C call to the function `CName`
+will actually call the Go function `GoName`.
+For more details see the [cgo
+documentation](https://pkg.go.dev/cmd/cgo#hdr-C_references_to_Go).
+
 #### cgo compiler directives
 
 The cgo tool generates Go code, and that generated code uses some
