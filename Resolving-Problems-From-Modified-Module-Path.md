@@ -75,7 +75,7 @@ This is all well and good, and should satisfy most user's problems.
 
 However, there is one situation that ends up being quite a bit more involved: when there are cycles in the module dependency graph. Consider this module dependency graph:
 
-![Module Dependency Graph With A Cycle](https://github.com/jadekler/module-testing/blob/master/imagery/Mod%20Graph%20With%20Cycle.jpg)
+![Module Dependency Graph With A Cycle](https://github.com/jeanbza/module-testing/blob/master/imagery/Mod%20Graph%20With%20Cycle.jpg)
 
 And, let's imagine that `some/lib` used to depend on `github.com/golang/lint`.
 
@@ -99,7 +99,7 @@ some/lib@v1.3.0 github.com/golang/lint@v0.0.0-20180702182130-06c8688daad7
 
 Visualized with [golang.org/x/exp/cmd/modgraphviz](https://pkg.go.dev/golang.org/x/exp/cmd/modgraphviz):
 
-![A Module Dependency Graph With Trailing History](https://github.com/jadekler/module-testing/blob/master/imagery/graph1.png)
+![A Module Dependency Graph With Trailing History](https://github.com/jeanbza/module-testing/blob/master/imagery/graph1.png)
 
 Here we see that even though the last several versions of `some/lib` correctly depend on `golang.org/x/lint`, the fact that `some/lib` and `some-other/lib` share a cycle mean that there's very likely to be a path far back in time.
 
@@ -118,7 +118,7 @@ some/lib@v1.7.1 golang.org/x/lint@v0.0.0-20181026193005-c67002cb31c3
 some-other/lib@v2.5.4 some/lib@v1.7.1
 ```
 
-![A Module Dependency Graph Without Trailing History](https://github.com/jadekler/module-testing/blob/master/imagery/graph2.png)
+![A Module Dependency Graph Without Trailing History](https://github.com/jeanbza/module-testing/blob/master/imagery/graph2.png)
 
 Since `some/lib` and `some-other/lib` depend on each other at the same version, there's no path backwards in time to a point where `github.com/golang/lint` is provided.
 
@@ -161,9 +161,9 @@ Note that between steps 5.b and 5.d, users are broken: a version of `some/lib` h
 
 This example explained the process for removing historical trails when there exists a cycle involving two packages in a graph, but what about if there are cycles involving more packages? For example, consider the following graphs:
 
-![Module Dependency Graph With Four Related Cycles](https://github.com/jadekler/module-testing/blob/master/imagery/Mod%20Graph%20With%204%20Cycle_%20A.jpg)
+![Module Dependency Graph With Four Related Cycles](https://github.com/jeanbza/module-testing/blob/master/imagery/Mod%20Graph%20With%204%20Cycle_%20A.jpg)
 
-![Module Dependency Graph With One Four Vertex Cycle](https://github.com/jadekler/module-testing/blob/master/imagery/Mod%20Graph%20With%204%20Cycle_%20B.jpg)
+![Module Dependency Graph With One Four Vertex Cycle](https://github.com/jeanbza/module-testing/blob/master/imagery/Mod%20Graph%20With%204%20Cycle_%20B.jpg)
 
 Each of these graphs involve cycles (the latter example) or interconnected modules (the former example) involving four modules, instead of the simple two module example we saw earlier. The process is largely the same, though, but this time in step 3 and 5 we're going to bump all four modules to non-existent future versions of each other, and similarly in steps 4 and 6 we're going to test all four modules, and in step 7 fix the go.sum of all four modules.
 

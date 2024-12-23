@@ -1797,7 +1797,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [SuperSaaS API Client](https://github.com/SuperSaaS/supersaas-go-api-client) - HTTP client library for the supersaas.com scheduling/bookings/appointments API
   * [Tideland golib](https://github.com/tideland/golib) - Web package for REST request handling
   * [Vantaa](https://github.com/nathandao/vantaa) - A modular blogging API engine written in Go, Neo4j and Polymer.
-  * [websiteskeleton](https://github.com/jadekler/git-go-websiteskeleton) - Simple net/http website skeleton
+  * [websiteskeleton](https://github.com/jeanbza/git-go-websiteskeleton) - Simple net/http website skeleton
   * [webtf](http://code.google.com/p/webtf/) - Web app to graphical visualization of twitter timelines using the HTML5
   * [Wikifeat](https://github.com/rhinoman/wikifeat) - Extensible wiki system using CouchDB written in Golang
   * [jweb](https://gitlab.com/drjele-go/jweb) - A Symfony(https://symfony.com/) inspired framework, written in Go

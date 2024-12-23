@@ -1129,7 +1129,7 @@ my-repo
     |-- go.mod
     `-- vub
 ```
-![Fig. A top-level module's path is a prefix of another module's path.](https://github.com/jadekler/module-testing/blob/master/imagery/multi_module_repo.png)
+![Fig. A top-level module's path is a prefix of another module's path.](https://github.com/jeanbza/module-testing/blob/master/imagery/multi_module_repo.png)
 
 _Fig. A top-level module's path is a prefix of another module's path._
 
