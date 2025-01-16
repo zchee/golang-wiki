@@ -41,7 +41,7 @@ Drivers for Go's sql package include:
   * **MS SQL Server** (uses cgo): https://github.com/minus5/gofreetds
   * **MaxCompute**: https://github.com/sql-machine-learning/gomaxcompute
   * **MySQL**: https://github.com/go-sql-driver/mysql/ ` [*] `
-  * **MySQL**: https://github.com/siddontang/go-mysql/ ` [**] ` (also handles replication)
+  * **MySQL**: https://github.com/go-mysql-org/go-mysql ` [**] ` (also handles replication)
   * **MySQL**: https://github.com/ziutek/mymysql ` [*] `
   * **ODBC**: https://bitbucket.org/miquella/mgodbc (Last updated 2016-02)
   * **ODBC**: https://github.com/alexbrainman/odbc
