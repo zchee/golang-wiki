@@ -12,10 +12,10 @@ revert** (for example, large CLs or stacks of CLs).
 
 If you plan on working on a change that may be risky, please do the following:
 1. Unless the entire change is absolutely trivial to revert, protect the new code paths with a
-   boolean flag, prefixed with "go125", that can be used to quickly toggle back to the old
+   boolean flag, prefixed with `go125`, that can be used to quickly toggle back to the old
    implementation.
-   It can be a simple bool constant, for example, const go125UseEvenBetterLinker = true.
-   Such flags **must be findable** by a simple grep for the string "go125".
+   It can be a simple bool constant, for example, `const go125UseEvenBetterLinker = true`.
+   Such flags **must be findable** by a simple grep for the string `go125`.
    That way we can find them without missing any, and they can be cleaned up when we get to the
    Go 1.26 cycle.
 2. Consider how you would answer the following questions for your change:
