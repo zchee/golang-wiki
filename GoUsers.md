@@ -1350,7 +1350,6 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Agilites](https://agilites.com)
   * [Aura](https://aura.com)
   * [ElifTech](http://www.eliftech.com)
-  * [iLighten](https://ilighten.com/)
   * [QArea](https://qarea.com/)
   * [Diligences](https://diligences.com/)
   * [ElementalsWeb](https://www.elementalsweb.com/)
