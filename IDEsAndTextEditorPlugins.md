@@ -10,6 +10,7 @@ The [Go Developer Survey](https://go.dev/blog/survey2021-results) showed these a
   * **[Vim](http://www.vim.org/)** & **[Neovim](https://neovim.io/)**: Vi Improved. There are a number of plugins available that make editing Go code easier.
     * The [vim-go](https://github.com/fatih/vim-go) plugin includes misc/vim and has many other new improvements.
     * The [Syntastic](https://github.com/scrooloose/syntastic) plugin gives instant feedback on compile errors
+    * [coc](https://github.com/neoclide/coc.nvim) for code completion
     * The [tagbar](https://github.com/majutsushi/tagbar) plugin uses Gotags, above, to show an outline of the current file
     * A [vim compiler plugin](https://github.com/rjohnsondev/vim-compiler-go) for syntax checking
     * A [vim-godef](https://github.com/dgryski/vim-godef) plugin integrates with the 'godef' tool, above
