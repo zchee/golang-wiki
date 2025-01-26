@@ -34,7 +34,7 @@ jobs:
     - name: Build and deploy with mkdocs
       uses: docker://squidfunk/mkdocs-material:latest
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
       with:
         entrypoint: sh
         args: |
