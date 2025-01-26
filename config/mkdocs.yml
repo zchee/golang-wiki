@@ -1,0 +1,297 @@
+site_name: Go Programming Language Wiki
+site_description: Personal fork of Go Programming Language Wiki
+
+theme:
+  language: en
+  name: material
+  include_search_page: true
+  search_index_only: true
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  palette:
+    scheme: default
+    primary: blue
+    accent: light blue
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.code.annotate
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+google_analytics:
+  - UA-89201129-1
+  - https://zchee.github.io/golang-wiki
+
+use_directory_urls: true
+repo_name: zchee/golang-wiki
+site_url: https://zchee.github.io/golang-wiki
+repo_url: https://github.com/zchee/golang-wiki
+docs_dir: ../
+site_dir: ../../docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zchee
+
+extra_css:
+  - https://github.com/facelessuser/pymdown-extensions/raw/main/docs/theme/assets/pymdownx-extras/extra-2d3bedca0e.css
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid
+  - https://github.com/facelessuser/pymdown-extensions/raw/main/docs/theme/assets/pymdownx-extras/extra-loader-9e2c67b9.js
+  - https://github.com/facelessuser/pymdown-extensions/raw/main/docs/theme/assets/pymdownx-extras/material-extra-3rdparty-804b836e.js
+  - https://github.com/facelessuser/pymdown-extensions/raw/main/docs/theme/assets/pymdownx-extras/material-extra-theme-7c147bb7.js
+
+markdown_extensions:
+  - toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      permalink: ""
+  - markdown.extensions.admonition:
+  - markdown.extensions.smarty:
+      smart_quotes: false
+  - pymdownx.betterem:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - markdown.extensions.footnotes:
+  - markdown.extensions.md_in_html:
+  - pymdownx.betterem:
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: diagram
+          class: diagram
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_fenced_format { kwds: { mode: generic, tag: pre } }
+  - pymdownx.highlight:
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+        - name: pycon3
+          lang: pycon
+          options:
+            python3: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format { kwds: { mode: generic } }
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      social_url_shortener: true
+      user: facelessuser
+      repo: pymdown-extensions
+      normalize_issue_symbols: true
+  - pymdownx.tilde:
+  - pymdownx.caret:
+  - pymdownx.smartsymbols:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.progressbar:
+  - pymdownx.arithmatex:
+      generic: true
+      block_tag: "pre"
+  - pymdownx.mark:
+  - pymdownx.striphtml:
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.saneheaders:
+
+# yamllint disable-line
+## $ echo '  - "Home": Home.md' | tee nav.md; find . -maxdepth 2 -type f \( -name '*.md' -or -name '*.asciidoc' \) -and -not -wholename '*docs*' -and -not \( -name 'All.md' -or -name 'index.md' -or -name 'Home.md' -or -name 'nav.md' -or -name '_Footer.md' -or -name '_Sidebar.md' \) | awk -F'/' '{print $2}' | awk -F'.md' '{print ""$1": "$0}' | awk -F':' '{gsub( "-", " ", $1 ) gsub( ".asciidoc", "", $1 )} {print "  - \""$1"\":"$2}' | sed 's|.asciidoc|.md|' | sort --ignore-case | tee -a nav.md && cat nav.md | pbcopy && rm -f nav.md
+
+nav:
+  - "Home": Home.md
+  - "AI": AI.md
+  - "Articles": Articles.md
+  - "AssemblyPolicy": AssemblyPolicy.md
+  - "AVX512": AVX512.md
+  - "Benchmarks": Benchmarks.md
+  - "Blogs": Blogs.md
+  - "Books": Books.md
+  - "BoundingResourceUse": BoundingResourceUse.md
+  - "cgo": cgo.md
+  - "ChromeOS": ChromeOS.md
+  - "CodeReview": CodeReview.md
+  - "CodeReviewComments": CodeReviewComments.md
+  - "CodeReviewConcurrency": CodeReviewConcurrency.md
+  - "CodeTools": CodeTools.md
+  - "Comments": Comments.md
+  - "CommitMessage": CommitMessage.md
+  - "CommonMistakes": CommonMistakes.md
+  - "CompilerOptimizations": CompilerOptimizations.md
+  - "Conferences": Conferences.md
+  - "Configuring GoLand for WebAssembly": Configuring-GoLand-for-WebAssembly.md
+  - "Contributing to gopls": Contributing-to-gopls.md
+  - "Contributing": Contributing.md
+  - "CoreDumpDebugging": CoreDumpDebugging.md
+  - "Courses": Courses.md
+  - "CreatingSubRepository": CreatingSubRepository.md
+  - "CSSStyleGuide": CSSStyleGuide.md
+  - "CustomPprofProfiles": CustomPprofProfiles.md
+  - "Darwin": Darwin.md
+  - "DashboardBuilders": DashboardBuilders.md
+  - "Deprecated": Deprecated.md
+  - "DesignDocuments": DesignDocuments.md
+  - "Diagnostics": Diagnostics.md
+  - "Download build farm failed logs and debugging": Download-build-farm-failed-logs-and-debugging.md
+  - "DragonFly BSD": DragonFly-BSD.md
+  - "Errors": Errors.md
+  - "ErrorValueFAQ": ErrorValueFAQ.md
+  - "ExperienceReports": ExperienceReports.md
+  - "FileTreeDocumentation": FileTreeDocumentation.md
+  - "FreeBSD": FreeBSD.md
+  - "FromXToGo": FromXToGo.md
+  - "Frozen": Frozen.md
+  - "Fuzzing trophy case": Fuzzing-trophy-case.md
+  - "Gardening": Gardening.md
+  - "GccgoCrossCompilation": GccgoCrossCompilation.md
+  - "GcToolchainTricks": GcToolchainTricks.md
+  - "GerritAccess": GerritAccess.md
+  - "GerritBot": GerritBot.md
+  - "GitHubAccess": GitHubAccess.md
+  - "Go 1.10 Release Party": Go-1.10-Release-Party.md
+  - "Go 1.6 release party": Go-1.6-release-party.md
+  - "Go 1.8 Release Party": Go-1.8-Release-Party.md
+  - "Go Community Slides": Go-Community-Slides.md
+  - "Go Release Cycle": Go-Release-Cycle.md
+  - "Go123Timer": Go123Timer.md
+  - "Go2": Go2.md
+  - "Go2ErrorHandlingFeedback": Go2ErrorHandlingFeedback.md
+  - "Go2ErrorValuesFeedback": Go2ErrorValuesFeedback.md
+  - "Go2GenericsFeedback": Go2GenericsFeedback.md
+  - "GoArm": GoArm.md
+  - "GoForCPPProgrammers": GoForCPPProgrammers.md
+  - "GoGenerateTools": GoGenerateTools.md
+  - "GoGetProxyConfig": GoGetProxyConfig.md
+  - "GoGetTools": GoGetTools.md
+  - "golang tools": golang-tools.md
+  - "GoMips": GoMips.md
+  - "Gomote": Gomote.md
+  - "GOPATH": GOPATH.md
+  - "Gopher": Gopher.md
+  - "gopherbot": gopherbot.md
+  - "gopls integrator FAQ": gopls-integrator-FAQ.md
+  - "gopls": gopls.md
+  - "GoStrings": GoStrings.md
+  - "GoTalks": GoTalks.md
+  - "GoUserGroups": GoUserGroups.md
+  - "GoUsers": GoUsers.md
+  - "HandlingIssues": HandlingIssues.md
+  - "heapdump13": heapdump13.md
+  - "heapdump14": heapdump14.md
+  - "heapdump15 through heapdump17": heapdump15-through-heapdump17.md
+  - "heapdump15": heapdump15.md
+  - "HostedContinuousIntegration": HostedContinuousIntegration.md
+  - "How to ask for help": How-to-ask-for-help.md
+  - "HowToAsk": HowToAsk.md
+  - "IDEsAndTextEditorPlugins": IDEsAndTextEditorPlugins.md
+  - "InstallFromSource": InstallFromSource.md
+  - "InstallTroubleshooting": InstallTroubleshooting.md
+  - "InterfaceSlice": InterfaceSlice.md
+  - "InvalidFlag": InvalidFlag.md
+  - "Iota": Iota.md
+  - "Learn": Learn.md
+  - "LearnConcurrency": LearnConcurrency.md
+  - "LearnErrorHandling": LearnErrorHandling.md
+  - "LearnServerProgramming": LearnServerProgramming.md
+  - "LearnTesting": LearnTesting.md
+  - "Linux": Linux.md
+  - "LinuxKernelSignalVectorBug": LinuxKernelSignalVectorBug.md
+  - "Livestreams": Livestreams.md
+  - "LockOSThread": LockOSThread.md
+  - "LoopvarExperiment": LoopvarExperiment.md
+  - "LUCI": LUCI.md
+  - "MacOS12BSDThreadRegisterIssue": MacOS12BSDThreadRegisterIssue.md
+  - "MethodSets": MethodSets.md
+  - "MinimumRequirements": MinimumRequirements.md
+  - "MinorReleases": MinorReleases.md
+  - "Mobile": Mobile.md
+  - "Modules": Modules.md
+  - "MutexOrChannel": MutexOrChannel.md
+  - "NetBSD": NetBSD.md
+  - "NewSpeakers": NewSpeakers.md
+  - "NonEnglish": NonEnglish.md
+  - "NoPlusOne": NoPlusOne.md
+  - "OpenBSD": OpenBSD.md
+  - "PackagePublishing": PackagePublishing.md
+  - "PanicAndRecover": PanicAndRecover.md
+  - "Performance": Performance.md
+  - "PerformanceMonitoring": PerformanceMonitoring.md
+  - "PGO Tools": PGO-Tools.md
+  - "Plan9": Plan9.md
+  - "Podcasts": Podcasts.md
+  - "PortingPolicy": PortingPolicy.md
+  - "PriorDiscussion": PriorDiscussion.md
+  - "Projects": Projects.md
+  - "Proposals": Proposals.md
+  - "ProviderIntegration": ProviderIntegration.md
+  - "Questions": Questions.md
+  - "Quiet Weeks": Quiet-Weeks.md
+  - "Range": Range.md
+  - "RangefuncExperiment": RangefuncExperiment.md
+  - "RateLimiting": RateLimiting.md
+  - "ResearchPapers": ResearchPapers.md
+  - "Resolving Problems From Modified Module Path": Resolving-Problems-From-Modified-Module-Path.md
+  - "Resources for slog": Resources-for-slog.md
+  - "RiskyChanges": RiskyChanges.md
+  - "Screencasts": Screencasts.md
+  - "SettingGOPATH": SettingGOPATH.md
+  - "SignalHandling": SignalHandling.md
+  - "SimultaneousAssignment": SimultaneousAssignment.md
+  - "SliceTricks": SliceTricks.md
+  - "SlowBots": SlowBots.md
+  - "Solaris": Solaris.md
+  - "Spectre": Spectre.md
+  - "Spelling": Spelling.md
+  - "SQLDrivers": SQLDrivers.md
+  - "SQLInterface": SQLInterface.md
+  - "Style": Style.md
+  - "SuccessStories": SuccessStories.md
+  - "Switch": Switch.md
+  - "TableDrivenTests": TableDrivenTests.md
+  - "TargetSpecific": TargetSpecific.md
+  - "TestComments": TestComments.md
+  - "TestFailures": TestFailures.md
+  - "Timeouts": Timeouts.md
+  - "Training": Training.md
+  - "Ubuntu": Ubuntu.md
+  - "Watchflakes": Watchflakes.md
+  - "WebAccessibilityResourcesAndTips": WebAccessibilityResourcesAndTips.md
+  - "WebAssembly": WebAssembly.md
+  - "Well known struct tags": Well-known-struct-tags.md
+  - "WhyGo": WhyGo.md
+  - "Windows": Windows.md
+  - "WindowsBuild": WindowsBuild.md
+  - "WindowsCrossCompiling": WindowsCrossCompiling.md
+  - "WindowsDLLs": WindowsDLLs.md
+  - "X Repositories": X-Repositories.md
