@@ -24,7 +24,7 @@ Look at https://build.golang.org/ --- is anything red? Fix or file bugs or nag p
 
 ### Triage new bugs
 
-Look at the [untriaged issues](https://github.com/golang/go/issues?q=is%3Aopen+is%3Aissue+-label%3ANeedsInvestigation+-label%3ANeedsFix+-label%3AFixPending+-label%3ANeedsDecision+-label%3AWaitingForInfo+-label%3AGo2+-label%3AProposal+-label%3ATelemetry-Proposal+-label%3ACherryPickCandidate+-label%3ACherryPickApproved+no%3Aassignee+created%3A%3E2019-01-01+-label%3Agopls+-label%3Apkgsite). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. Issues labeled `Go2`, `Proposal`, `Telemetry-Proposal`, `CherryPickCandidate`, `gopls`, `pkgsite` have their own, separate triage queues and can be skipped.
+Look at the [untriaged issues](https://go.dev/s/untriaged). For Go, we use the presence of certain labels (`Needs*` or `WaitingForInfo`) to indicate that an issue has been triaged. Issues labeled `Go2`, `Proposal`, `Telemetry-Proposal`, `CherryPickCandidate`, `gopls`, `pkgsite` have their own, separate triage queues and can be skipped.
 
 While triaging the bug:
 
@@ -61,5 +61,3 @@ If a new CL arrives without a test, but could/should have a test, ask if they co
 ### Pending CLs: run TryBots
 
 If you have access (see [GerritAccess](/wiki/GerritAccess)) to run the TryBots and you see a CL with plausible (and non-malicious) code, kick off the TryBots. (We've never seen malicious code trying to escape our TryBot sandboxes, but that's why it's not automatic yet. Please alert us if you see something.)
-
-
