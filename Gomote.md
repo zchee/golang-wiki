@@ -232,6 +232,8 @@ The information is from golang.org/x/build/dashboard and golang.org/x/build/env.
 
 ## Access
 
+**Effective January 2025, gomote access will automatically be granted to contributors who have [Approvers](https://go.dev/wiki/GerritAccess#approving-cls-approvers) access.**
+
 **On August 2022, a new infrastructure was deployed which required the removal of all gomote access from previously approved users. Please re-request access if you still require access.**
 
 To request access to the gomote service, file a new issue (https://go.dev/issue/new?title=access:+&body=See+https://go.dev/wiki/Gomote%23access.) and state the Google account you use to log in to Gerrit. The provided account will only be used for authentication purposes.
@@ -240,6 +242,15 @@ Authentication is triggered with the first invocation of a command:
 
 ```
 $ gomote create linux-amd64
+Please visit https://www.google.com/device in your browser and enter verification code:
+ ABCD-4567
+...
+```
+
+The login command will also initiate the authentication workflow:
+
+```
+$ gomote login
 Please visit https://www.google.com/device in your browser and enter verification code:
  ABCD-4567
 ...
