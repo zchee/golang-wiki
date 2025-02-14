@@ -6,7 +6,9 @@ title: Minimum Requirements
 
 ### [Linux](Linux)
 
-Kernel version 2.6.32 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
+For Go 1.23: Kernel version 2.6.32 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
+
+For Go 1.24 and later: Kernel 3.2 or later.
 
 We don't support CentOS 5. The kernel is too old (2.6.18).
 
@@ -34,7 +36,7 @@ Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://go.dev/d
 
 Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://go.dev/doc/go1.17#darwin.
 
-Go 1.21 and later will support macOS Catalina 10.15 or newer; see https://go.dev/doc/go1.20#darwin.
+Go 1.21 and later only support macOS Catalina 10.15 or newer; see https://go.dev/doc/go1.20#darwin.
 
 Go 1.23 and later only support macOS Big Sur 11 or newer; see https://go.dev/doc/go1.23#darwin.
 
