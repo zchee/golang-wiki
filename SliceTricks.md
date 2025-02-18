@@ -187,9 +187,7 @@ for _, x := range a {
 For elements which must be garbage collected, the following code can be included afterwards:
 
 ```go
-for i := len(b); i < len(a); i++ {
-	a[i] = nil // or the zero value of T
-}
+clear(a[len(b):])
 ```
 
 ### Reversing
