@@ -3,7 +3,7 @@ title: Gopher
 ---
 
 The Go gopher was designed by [Renee French](https://www.instagram.com/reneefrench/).  
-The design is licensed under the Creative Commons 3.0 Attributions license.  
+The design is licensed under the Creative Commons 4.0 Attributions license.  
 Read [this article](https://go.dev/blog/gopher) and watch [The Go Gopher A Character Study](https://www.youtube.com/watch?v=4rw_B4yY69k) for more details.
 
 ## Where can I find more gopher illustrations?
