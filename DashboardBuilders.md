@@ -21,7 +21,7 @@ The LUCI system requires builders to run two applications which authenticate to 
     - At least 512MB of memory. 1GB or more is highly recommended.
     - 20GB disk space is ideal.
     - Preferably with 2 or more (V)CPUs.
-  * Python3 installed and in the `PATH`.
+  * Python 3 installed and available in `PATH` (or equivalent) under the name `python3` (or `python3.exe` on Windows).
   * Permissions
     - The bot should be run as the `swarming` user (without root rights).
     - The bot automatically updates itself. It should have permissions to do so.
