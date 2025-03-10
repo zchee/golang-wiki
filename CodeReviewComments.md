@@ -112,28 +112,24 @@ pointer type, `*T`.
 
 ## Crypto Rand
 
-Do not use package `math/rand` to generate keys, even throwaway ones.
-Unseeded, the generator is completely predictable. Seeded with `time.Nanoseconds()`,
-there are just a few bits of entropy. Instead, use `crypto/rand`'s Reader,
-and if you need text, print to hexadecimal or base64:
+Do not use package [`math/rand`](https://pkg.go.dev/math/rand)
+or [`math/rand/v2`](https://pkg.go.dev/math/rand/v2) to generate keys, even throwaway ones.
+Seeded with [`Time.Nanoseconds()`](https://pkg.go.dev/time#Time.Nanosecond),
+there are just a few bits of entropy.
+Instead, use [`crypto/rand.Reader`](https://pkg.go.dev/crypto/rand#pkg-variables).
+If you need text, use [`crypto/rand.Text`](https://pkg.go.dev/crypto/rand#Text),
+or alternatively, encode random bytes with [`encoding/hex`](https://pkg.go.dev/encoding/hex)
+or [`encoding/base64`](https://pkg.go.dev/encoding/base64).
+
 
 ``` go
 import (
 	"crypto/rand"
-	// "encoding/base64"
-	// "encoding/hex"
 	"fmt"
 )
 
 func Key() string {
-	buf := make([]byte, 16)
-	_, err := rand.Read(buf)
-	if err != nil {
-		panic(err)  // out of randomness, should never happen
-	}
-	return fmt.Sprintf("%x", buf)
-	// or hex.EncodeToString(buf)
-	// or base64.StdEncoding.EncodeToString(buf)
+  return rand.Text()
 }
 ```
 
