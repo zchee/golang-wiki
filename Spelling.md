@@ -15,4 +15,4 @@ Policy:
 * use **canceled** (one ell), not cancelled.
 * use **canceling** (one ell), not cancelling.
 * use **marshaling**, **marshaled** etc (single ell). See https://go.dev/cl/33017
-
+* use **white space**, not whitespace.
