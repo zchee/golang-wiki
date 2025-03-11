@@ -44,6 +44,7 @@ graphql      | https://github.com/samsarahq/thunder
 json         | https://pkg.go.dev/encoding/json
 mapstructure | https://pkg.go.dev/github.com/mitchellh/mapstructure
 parser       | https://pkg.go.dev/github.com/alecthomas/participle
+properties   | https://pkg.go.dev/github.com/magiconair/properties#Properties.Decode
 protobuf     | https://github.com/golang/protobuf
 reform       | https://pkg.go.dev/gopkg.in/reform.v1
 spanner      | https://pkg.go.dev/cloud.google.com/go/spanner
