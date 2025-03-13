@@ -83,7 +83,6 @@ Once you have an overview of the language, here are resources you can use to lea
 - [Blogs](Blogs) - Blogs about Go.
   - [Podcasts](Podcasts) - Podcasts and episodes featuring Go.
 - Videos, Talks, and Presentations
-  - [GopherVids](http://gophervids.appspot.com/) (currently unreachable) is a searchable index of videos about Go.
   - [GoTalks](GoTalks) - A collection of talks from Go conferences and meetups.
   - [Livestreams](Livestreams) - live interactive Go project streams with members of the community.
   - [Screencasts](Screencasts)
@@ -128,11 +127,10 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - [Cross Compilation](https://rakyll.org/cross-compilation/)
 - Shared libraries and Go (buildmode)
   - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries from Go and Python.
-  - [Sharing Go Packages with C](http://blog.ralch.com/tutorial/golang-sharing-libraries/) - by [@ralch](https://twitter.com/ralch).
+  - [Sharing Go Packages with C](http://blog.ralch.com/articles/golang-sharing-libraries/) - by Svetlin Ralchev
   - [Calling Go libraries from Python](https://blog.filippo.io/building-python-modules-with-go-1-5/) - by Filippo Valsorda
   - [Calling Go libraries from Ruby](http://c7.se/go-and-ruby-ffi/) - by Peter Hellberg
   - [Calling Go libraries from Swift](https://rakyll.org/swift/) - by Jaana Burcu Dogan
-  - [Build a Ruby Gem with a Go native extension](http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree) - by @jondot
   - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
 - See the wikis below for additional details:
   - [GoGetTools](GoGetTools)
@@ -188,11 +186,9 @@ If you're looking for services that support Go, here's a list to get you started
   - [Amazon Web Services](https://github.com/aws/aws-sdk-go)
   - [Azure](https://github.com/Azure/azure-sdk-for-go)
   - [DigitalOcean](https://github.com/digitalocean/godo)
-  - [GE Predix](https://github.com/geaviation/goboot-starter)
   - [Google Cloud Platform for Go](https://cloud.google.com/go)
   - [Heroku](https://github.com/heroku/heroku-buildpack-go)
-  - [IBM Bluemix](https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/)
-  - [OpenStack](https://github.com/openstack/golang-client)
+  - [OpenStack](https://github.com/gophercloud/gophercloud)
   - [Vscale](https://github.com/vscale/go-vscale)
   - [Aliyun](https://github.com/aliyun/alibaba-cloud-sdk-go)
   - [Tencent](https://github.com/TencentCloud/tencentcloud-sdk-go)
