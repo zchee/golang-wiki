@@ -1112,6 +1112,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [TV2](https://www.tv2.no/)
   * [Unacast](https://www.unacast.com/)
   * [Vipps](https://www.vipps.no)
+  * [Water Linked](https://waterlinked.com/)
   * [Webstep](https://www.webstep.no)
   * [Zeipt](https://www.zeipt.com)
   * [Zendera](https://www.zendera.no)
