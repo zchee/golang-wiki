@@ -2,6 +2,11 @@
 title: GoUsers
 ---
 
+To add your company to the list,
+please [file a CL](https://go.dev/doc/contribute#sending_a_change_gerrit)
+updating the [wiki repo](https://go.googlesource.com/wiki)
+or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/master/GoUsers.md).
+
 ## Companies currently using Go throughout the world
 
 ### Countries
@@ -1081,6 +1086,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Jottacloud](https://www.jottacloud.com/)
   * [Just Technologies](https://www.gojust.com/)
   * [Laerdal Medical](https://www.laerdal.com/)
+  * [Maritime Optima AS](https://maritimeoptima.com)
   * [Moen Marin](https://www.moenmarin.no/)
   * [Neatframe](https://neat.no/)
   * [No Isolation](https://www.noisolation.com/)
