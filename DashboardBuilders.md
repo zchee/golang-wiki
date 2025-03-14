@@ -17,6 +17,7 @@ The LUCI system requires builders to run two applications which authenticate to 
     - https://cr-buildbucket.appspot.com
     - https://7419-34ac013-dot-chromium-swarm.appspot.com (possible changed in the future?)
     - https://remotebuildexecution.googleapis.com
+    - https://storage.googleapis.com (for [gomote creation](https://cs.opensource.google/go/x/build/+/master:internal/gomote/swarming.go;l=1048;drc=3ff389173c43ad07048563029b575ab7ec0df5da))
   * Resources
     - At least 512MB of memory. 1GB or more is highly recommended.
     - 20GB disk space is ideal.
