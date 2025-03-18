@@ -17,26 +17,26 @@ The most basic usage of the gomote tool involves just a few steps:
 1. Push code to the instance.
 1. Run commands on the instance.
 
-Running the `create` command will list available instance types.
+Running the `create` command with the `-list` flag will list available instance types.
 
 ```
-$ gomote create
-(list tons of buildlet types)
+$ gomote create -list
+(list tons of builder types)
 ```
 
 Then, an instance can be created by specifying an instance type. The instance's name will be printed to stdout, so the result may be stored in an environment variable. (There may be other logging messages, but they will be on stderr and each line will have a '#' prefix.)
 
 ```
-$ gomote create linux-amd64
-# still creating linux-amd64 (1) after 5s; 0 requests ahead of you
-user-linux-amd64-0
+$ gomote create gotip-linux-amd64
+# still creating gotip-linux-amd64 (1) after 5s; 0 requests ahead of you
+user-gotip-linux-amd64-0
 ```
 
-With that instance's name you can now push (more specifically sync the contents of) a local Go repository to the instance and install a bootstrap toolchain. The repository you sync will appear at the `go` subdirectory of `$WORKDIR` (the default directory of all gomote operations). The bootstrap toolchain will always go into the `go1.4` subdirectory (even if the bootstrap toolchain isn't from version 1.4).
+With that instance's name you can now push a GOROOT to the instance and install a bootstrap toolchain. The repository you sync will appear at the `go` subdirectory of `$WORKDIR` (the default directory of all gomote operations). The bootstrap toolchain will always go into the `go1.4` subdirectory (even if the bootstrap toolchain isn't from version 1.4).
 
 ```
-$ GOROOT=/path/to/local/go/repo gomote push user-linux-amd64-0
-$ gomote ls user-linux-amd64-0
+$ GOROOT=/path/to/local/go/repo gomote push user-gotip-linux-amd64-0
+$ gomote ls user-gotip-linux-amd64-0
 go
 go1.4
 ```
@@ -46,27 +46,35 @@ Note that `push` really is a "sync" operation, so next time you push the gomote 
 With a toolchain installed, you can now build it by running commands on the instance. The `run` command allows you to specify an executable to run. The executable must be specified relative to `$WORKDIR` (e.g. `go/bin/go`) or via an absolute path (e.g. `/bin/bash`). That executable will then run with its current working directory set to the directory containing the executable.
 
 ```
-$ gomote run user-linux-amd64-0 go/src/make.bash
+$ gomote run user-gotip-linux-amd64-0 go/src/make.bash
 ```
 
 To then run the built Go toolchain, use `go/bin/go`.
 
 ```
-$ gomote run user-linux-amd64-0 go/bin/go test -run="TestSomething" -v runtime
+$ gomote run user-gotip-linux-amd64-0 go/bin/go test -run="TestSomething" -v runtime
 ```
 
-You can additionally specify a working directory and environment variables to `run` that will be applied before the command is executed.
+You can additionally specify a working directory and environment variables via flags to `run` that will be applied before the command is executed.
 
 Note that gomote instances will automatically disappear after 30 minutes of inactivity. Use the `list` command to check how long they have left.
 
 ```
 $ gomote list
-user-linux-amd64-0	linux-amd64	host-linux-amd64-bullseye	expires in 10m27.339494527s
+user-gotip-linux-amd64-0	gotip-linux-amd64	gotip-linux-amd64	expires in 10m27.339494527s
 ```
 
 The `ping` command can be used to keep an instance alive if no other commands are being run against it.
 
 For more information on each command run `gomote help <command>`. For more commands, run `gomote help`.
+
+### Builder types
+
+Available builder types follow a certain structure, loosely `$GOBRANCH-($REPO-)?$GOOS-$GOARCH(_$OS)-$EXTRA`.
+
+A few useful notes about these names.
+- Different `$GOBRANCH` mainly modify the preinstalled tool versions, like the bootstrap Go toolchain.
+- Builder types with `$REPO` will have the specified repository downloaded to the work root at tip-of-tree.
 
 ### Debugging buildlets directly
 
@@ -76,7 +84,7 @@ The `create` command contacts the build coordinator (farmer.golang.org) and requ
 
 Instances may be managed in named groups, and commands are broadcast to all instances in the group.
 
-A group is specified either by the -group global flag or through the `GOMOTE_GROUP` environment variable. The -group flag must always specify a valid group, whereas `GOMOTE_GROUP` may contain an invalid group. Instances may be part of more than one group.
+A group is specified either by the `-group` global flag or through the `GOMOTE_GROUP` environment variable. The `-group` flag must always specify a valid group, whereas `GOMOTE_GROUP` may contain an invalid group. Instances may be part of more than one group.
 
 Groups may be explicitly managed with the "group" subcommand, but there are several short-cuts that make this unnecessary in most cases:
 
@@ -88,7 +96,7 @@ As a result, the easiest way to use groups is to just set the `GOMOTE_GROUP` env
 
 ```
 $ export GOMOTE_GROUP=debug
-$ gomote create linux-amd64
+$ gomote create gotip-linux-amd64
 $ GOROOT=/path/to/goroot gomote push
 $ gomote run go/src/make.bash
 ```
@@ -103,46 +111,46 @@ The `create` command accepts the `-setup` flag which also pushes a `GOROOT` and 
 
 Example:
 ```
-$ GOROOT=/path/to/my/goroot gomote create -setup linux-amd64
-# Creating user-linux-amd64-0...
-# Pushing /path/to/my/goroot to user-linux-amd64-0
-# Running make.bash on user-linux-amd64-0...
+$ GOROOT=/path/to/my/goroot gomote create -setup gotip-linux-amd64
+# Creating user-gotip-linux-amd64-0...
+# Pushing /path/to/my/goroot to user-gotip-linux-amd64-0
+# Running make.bash on user-gotip-linux-amd64-0...
 ```
 
 The `create` command accepts the `-count` flag for creating several instances at once.
 
 Example:
 ```
-$ gomote create -count=3 linux-amd64
-# Creating user-linux-amd64-0...
-# Creating user-linux-amd64-1...
-# Creating user-linux-amd64-2...
+$ gomote create -count=3 gotip-linux-amd64
+# Creating user-gotip-linux-amd64-0...
+# Creating user-gotip-linux-amd64-1...
+# Creating user-gotip-linux-amd64-2...
 ```
 
 The `run` command accepts the `-collect` flag for automatically writing the output from the command to a file in the current working directory, as well as a copy of the full file tree from the instance. This command is useful for capturing the output of long-running commands in a set-and-forget manner.
 
 Example:
 ```
-$ gomote run -collect user-linux-amd64-0 /bin/bash -c 'echo hi'
-# Writing output to user-linux-amd64-0.stdout...
-$ cat user-linux-amd64-0.stdout
+$ gomote run -collect user-gotip-linux-amd64-0 /bin/bash -c 'echo hi'
+# Writing output to user-gotip-linux-amd64-0.stdout...
+$ cat user-gotip-linux-amd64-0.stdout
 hi
-$ ls user-linux-amd64-0.tar.gz
-user-linux-amd64-0.tar.gz
+$ ls user-gotip-linux-amd64-0.tar.gz
+user-gotip-linux-amd64-0.tar.gz
 ```
 
 The `run` command accepts the `-until` flag for continuously executing a command until the output of the command matches some pattern. This is useful for reproducing rare issues, and especially useful when used together with `-collect`.
 
 Example:
 ```
-$ gomote run -collect -until 'FAIL' user-linux-amd64-0 go/bin/go test -run 'TestFlaky' -count=1000 runtime
-# Writing output to user-linux-amd64-0.stdout...
-$ cat user-linux-amd64-0.stdout
+$ gomote run -until 'FAIL' -collect user-gotip-linux-amd64-0 go/bin/go test -run 'TestFlaky' -count=1000 runtime
+# Writing output to user-gotip-linux-amd64-0.stdout...
+$ cat user-gotip-linux-amd64-0.stdout
 ...
 --- FAIL: TestFlaky ---
 ...
-$ ls user-linux-amd64-0.tar.gz
-user-linux-amd64-0.tar.gz
+$ ls user-gotip-linux-amd64-0.tar.gz
+user-gotip-linux-amd64-0.tar.gz
 ```
 
 Note that the `run` command always streams output to a temporary file regardless of any additional flags to avoid losing output due to terminal scrollback. It always prints the location of the file.
@@ -153,29 +161,14 @@ Putting together some of the tricks above and making use of groups, it's much ea
 
 ```
 $ export GOMOTE_GROUP=debug
-$ GOROOT=/path/to/goroot gomote create -setup -count=10 linux-amd64
+$ GOROOT=/path/to/goroot gomote create -setup -count=10 gotip-linux-amd64
 $ gomote run -until='unexpected return pc' -collect go/bin/go run -run="TestFlaky" -count=100 runtime
 ```
 
 ### Darwin
 
-Darwin gomotes hosted on LUCI do not have Xcode pre-installed.
-Without Xcode, they cannot do cgo builds.
-You can build with cgo disabled:
-
-```
-$ gomote run -e 'CGO_ENABLED=0' $MOTE go/src/make.bash
-```
-
-Or install Xcode like so:
-
-```
-$ gomote run $MOTE /bin/mkdir /tmp/xcode
-$ gomote run $MOTE /Users/swarming/.swarming/w/ir/tools/bin/mac_toolchain install -xcode-version 15a240d -output-dir /tmp/xcode/Xcode.app
-$ gomote run $MOTE /usr/bin/sudo xcode-select --switch /tmp/xcode/Xcode.app
-```
-
-Note: Depending on which machine you get, the `mac_toolchain` binary referenced may alternatively be at either `/Volumes/Work/s/w/ir/tools/bin/mac_toolchain`.
+Darwin gomotes are known to take a few minutes to set up, even if there are machines available.
+This is due to the extra time necessary to set up Xcode.
 
 ### Windows
 
@@ -219,7 +212,7 @@ export MOTE=`gomote create android-arm64-wikofever`
 gomote push $MOTE
 gomote run $MOTE go/src/make.bash
 ```
-PATH must contain the exec wrapper, go_android_*_exec, built by make.bash.
+PATH must contain the exec wrapper, `go_android_*_exec`, built by make.bash.
 
 ```
 gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/bin/go test math/big
@@ -241,7 +234,7 @@ To request access to the gomote service, file a new issue (https://go.dev/issue/
 Authentication is triggered with the first invocation of a command:
 
 ```
-$ gomote create linux-amd64
+$ gomote create gotip-linux-amd64
 Please visit https://www.google.com/device in your browser and enter verification code:
  ABCD-4567
 ...
