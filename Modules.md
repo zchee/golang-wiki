@@ -347,7 +347,6 @@ To create a `go.mod` for an existing project:
    ```
    $ go mod init
    ```
-   This step converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or any of the other [nine total supported dependency formats](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables), adding require statements to match the existing configuration.
 
    `go mod init` will often be able to use auxiliary data (such as VCS meta-data) to automatically determine the appropriate module path, but if `go mod init` states it can not automatically determine the module path, or if you need to otherwise override that path, you can supply the [module path](/wiki/Modules#gomod) as an optional argument to `go mod init`, for example:
 
@@ -356,6 +355,8 @@ To create a `go.mod` for an existing project:
    ```
 
    Note that if your dependencies include v2+ modules, or if you are initializing a v2+ module, then after running `go mod init` you might also need to edit your `go.mod` and `.go` code to add `/vN` to import paths and module paths as described in the ["Semantic Import Versioning"](/wiki/Modules#semantic-import-versioning) section above. This applies even if `go mod init` automatically converted your dependency information from `dep` or other dependency managers. (Because of this, after running `go mod init`, you typically should not run `go mod tidy` until you have successfully run `go build ./...` or similar, which is the sequence shown in this section).
+
+  If used with go 1.21.13 or older, this step also converts from any existing [`dep`](https://github.com/golang/dep) `Gopkg.lock` file or any of the other [nine total supported dependency formats](https://pkg.go.dev/cmd/go/internal/modconv@go1.21.13#pkg-variables), adding require statements to match the existing configuration.
 
 3. Build the module. When executed from the root directory of a module, the `./...` pattern matches all the packages within the current module.  `go build` will automatically add missing or unconverted dependencies as needed to satisfy imports for this particular build invocation:
 
@@ -497,7 +498,7 @@ Migration topics:
 
 #### Automatic Migration from Prior Dependency Managers
 
-  * `go mod init` automatically translates the required information from [dep, glide, govendor, godep, and 5 other pre-existing dependency managers](https://tip.golang.org/pkg/cmd/go/internal/modconv/?m=all#pkg-variables) into a `go.mod `file that produces the equivalent build.
+  * With go 1.21.13 or older, `go mod init` automatically translates the required information from [dep, glide, govendor, godep, and 5 other pre-existing dependency managers](https://pkg.go.dev/cmd/go/internal/modconv@go1.21.13#pkg-variables) into a `go.mod `file that produces the equivalent build.
   * If you are creating a v2+ module, be sure your `module` directive in the converted `go.mod` includes the appropriate `/vN` (e.g., `module foo/v3`).
   * Note that if you are importing v2+ modules, you might need to do some manual adjustments after an initial conversion in order to add `/vN` to the `require` statements that `go mod init` generates after translating from a prior dependency manager. See the ["How to Define a Module"](/wiki/Modules#how-to-define-a-module) section above for more details.
   * In addition, `go mod init` will not edit your `.go` code to add any required `/vN` to import statements. See the ["Semantic Import versioning"](/wiki/Modules#semantic-import-versioning) and ["Releasing Modules (v2 or Higher)"](/wiki/Modules#releasing-modules-v2-or-higher) sections above for the required steps, including some options around community tools to automate the conversion.
@@ -1319,6 +1320,8 @@ If `go mod init` gives you this error, those heuristics were not able to guess, 
 ### I have a problem with a complex dependency that has not opted in to modules. Can I use information from its current dependency manager?
 
 Yes. This requires some manual steps, but can be helpful in some more complex cases.
+
+Go versions 1.21 and older attempted to convert a prior dependency manager formats to `go.mod` formats. The following instructions thus need 1.21.13 or older; you need to run the following with `GOTOOLCHAIN=go1.21.13`, or install an older version of go manually.
 
 When you run `go mod init` when initializing your own module, it will automatically convert from a prior dependency manager by translating configuration files like `Gopkg.lock`, `glide.lock`, or `vendor.json` into a `go.mod` file that contains corresponding `require` directives. The information in a pre-existing `Gopkg.lock` file for example usually describes version information for all of your direct and indirect dependencies.
 
