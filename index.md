@@ -10,8 +10,6 @@ If you can't find what you need on this page, see the [list of all pages](All).
 
 See [Questions](Questions).
 
-Please do not ask questions by editing or creating a wiki page.  Any such changes will be silently reverted.
-
 ## Contributing
 
 - If you would like to add a new page, please first open an issue in the [Go issue tracker](https://go.dev/issues/new?title=wiki:) with the prefix `wiki:` to propose the addition. Clearly state why the content does not fit into any of the existing pages.
