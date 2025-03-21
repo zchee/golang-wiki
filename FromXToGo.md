@@ -28,6 +28,10 @@ This page links to blog posts, videos, and slide decks discussing moving a code 
 * [Our Experience with Golang](https://www.upguard.com/blog/our-experience-with-golang)
 * [Interview with Steve Kaliski, CTO of Bowery - The tech stack that powers Bowery, Moving from Node.js to Go lang and more](https://hashnode.com/post/interview-with-steve-kaliski-cto-of-bowery-the-tech-stack-that-powers-bowery-moving-from-nodejs-to-go-lang-and-more-ciibz8dmn001lj3xt468g5k78)
 
+## TypeScript
+
+* [A 10x Faster TypeScript](https://devblogs.microsoft.com/typescript/typescript-native-port/)
+
 ## C++
 
 * [dl.google.com](https://talks.golang.org/2013/oscon-dl.slide#1) by Brad Fitzpatrick
