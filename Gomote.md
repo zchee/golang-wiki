@@ -177,20 +177,20 @@ $ gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/src/make.bat
 $ gomote run -path '$PATH,$WORKDIR/go/bin' $MOTE go/bin/go.exe test cmd/go -short
 ```
 
-Note: previous versions of the wiki have advised setting GOROOT for gomote 'run' commands (e.g. "-e GOROOT=c:\workdir\go"); this is no longer recommended (causes problems with Go command caching).
+Note: previous versions of the wiki have advised setting GOROOT for gomote 'run' commands (e.g. "-e GOROOT=%WORKDIR%\go"); this is no longer recommended (causes problems with Go command caching).
 
 ### Subrepos on Windows
 
 ```
 $ tar --exclude .git -C ~/go/src/ -zc golang.org/x/tools | gomote puttar -dir=gopath/src $MOTE -
-$ gomote run -e 'GOPATH=c:/workdir/gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
+$ gomote run -e 'GOPATH=%WORKDIR%\gopath' $MOTE go/bin/go test -run=TestFixImportsVendorPackage golang.org/x/tools/imports
 ```
 
 If ssh'd into the machine, these envvars may be handy:
 
 ```
-$ set GOPATH=c:\workdir\gopath
-$ set PATH=%PATH%;c:\workdir\gopath\bin;c:\workdir\go\bin
+$ set GOPATH=%WORKDIR%\gopath
+$ set PATH=%PATH%;%WORKDIR%\gopath\bin;%WORKDIR%\go\bin
 $ set CGO_ENABLED=0
 ```
 
