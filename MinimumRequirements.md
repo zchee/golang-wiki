@@ -14,6 +14,8 @@ We don't support CentOS 5. The kernel is too old (2.6.18).
 
 For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](https://go.dev/issue/16848). 
 
+For loong64, kernel 5.19 and later versions work fine.
+
 If you are using tinyconfig (e.g. make tinyconfig) for embedded systems, you will also almost certainly enable printk in the kernel as well as a console; we will not include those generic options here. For Go, you must also enable CONFIG_FUTEX and CONFIG_EPOLL.
 
 On arm64, an out of date (lower than version 2.33) ld.gold may cause shared library tests to fail (see https://github.com/golang/go/issues/28334).
@@ -157,6 +159,14 @@ MIPS32r1
 ### riscv64
 
 rv64g (rv64imafd)
+
+### loong64
+
+Go 1.19 or above. the Go compiler always generated Loong64 binaries that could be executed any processor cored by LA364, LA464, LA664 or later.
+
+* LA364: Supports unaligned memory access, 128-bit SIMD, typical processors include loongson-2K2000/2K3000, etc.
+* LA464: Supports unaligned memory access, 128/256-bit SIMD, typical processors include loongson-3A5000/3C5000/3D5000, etc.
+* LA664: Supports unaligned memory access, 128/256-bit SIMD, typical processors include loongson-3A6000/3C6000, etc.
 
 ## cgo
 
