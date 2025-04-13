@@ -2,6 +2,7 @@
 title: Go success stories from around the web
 ---
 
+  * [A 10x Faster TypeScript](https://devblogs.microsoft.com/typescript/typescript-native-port/)
   * [The Way of the Gopher - Making the Switch from Node.js to Golang](https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f)
   * [Moving a team from Scala to Go](http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/)
   * [400 Days of Go](http://www.philipotoole.com/400-days-of-go/)
