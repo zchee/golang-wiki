@@ -107,7 +107,7 @@ limit.
 
 Another reason to stop at two is to have a more limited number of
 function signatures for general code to define.
-Today the (iter)[/pkg/iter] package can easily define names for
+Today the [iter](/pkg/iter) package can easily define names for
 iterators:
 
 	package iter
