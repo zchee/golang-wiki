@@ -5,15 +5,17 @@ title: Go Conferences and Major Events
 ## Upcoming
 
 Please keep all items in chronological order.
-<!--
-There is also a map of the confirmed 2019 conferences at [j.mp/goconmap](http://j.mp/goconmap).
-The map will be updated about once a week from the entries below. Errors in the map can be reported to van@golang.org.
--->
 
 | Name |  Date | Location | Website | CFP |
 | --- | --- | --- | --- | --- |
-| GopherCon | 2025-08-26-28 | New York City, NY USA | https://www.gophercon.com/ | https://sessionize.com/gophercon-2025/ |
+| GopherCon Europe | 2025-06-16-19 | Berlin, Germany | https://gophercon.eu/ | https://forms.gle/t1aS1H8fChdVgYbR9 |
+| Go South Africa | 2025-08-06-07 | Online | https://gopherconf.co.za/ | |
 | GopherCon UK | 2025-08-13-15 | London, UK | https://www.gophercon.co.uk/ | https://www.gophercon.co.uk/call-for-papers |
+| GopherCon | 2025-08-26-28 | New York City, NY USA | https://www.gophercon.com/ | https://sessionize.com/gophercon-2025/ |
+| Golab | 2025-10-05-07 | Florence, Italy | https://golab.io | |
+| GoWest | 2025-10-24 | Lehi, Utah, USA | https://www.gowestconf.com/ | |
+| Gophercon Africa | 2025-10-24-25 | Lagos, Nigeria | https://www.gophers.africa/ | https://www.gophers.africa/call-for-speakers |
+
 
 ## Archives
 
@@ -21,6 +23,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| FOSDEM | 2025-02-01-02 | Brussels, Belgium | https://fosdem.org/2025/ | Go Devroom CFP https://github.com/go-devroom/cfp |
 | GoKonf Istanbul | 2024-11-23 | Istanbul, Türkiye | https://gokonf.com/ | https://kommunity.com/istanbul-gophers/events/sipay-gokonf-2024-b1e90b2d/cfp/ |
 | Golab | 2024-11-11-13 | Florence, Italy | https://golab.io | https://sessionize.com/golab-2024 |
 | GopherCon Israel | 2024-09-09 | Tel Aviv, Israel | https://www.gophercon.org.il/ | https://sessionize.com/gophercon-israel-2024/ |
