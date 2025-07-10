@@ -3,7 +3,6 @@ title: Podcasts
 ---
 
 ## Active podcast shows
-* [Go Time](http://gotime.fm) - Erik St. Martin, Carlisia Campos, Brian Ketelsen, recorded weekly and streamed live at 3PM EST at http://changelog.com/live
 * [go podcast()](https://go.transistor.fm/) - Dominic St-Pierre, recorded bi-weekly, ~15 minutes, topic based.
 * [Cup o' Go](https://cupogo.dev/) - Stay up to date with the Go community in about 15 minutes per week.
 
@@ -11,7 +10,7 @@ title: Podcasts
 * [GolangShow](http://golangshow.com/) – Weekly podcast since June 2015, in English and Russian languages.
 * [Go Gab](https://www.briefs.fm/go-gab) - A podcast about everything Go. Episodes are short: about 3 minutes each.
 * [GoFr](https://soundcloud.com/arnaud-assad/sets/gofr) – by Arnaud Assad, Sebastien Friess, Thomas Perez, Lucille Tachet in French.
-
+* [Go Time](http://gotime.fm) - Erik St. Martin, Carlisia Campos, Brian Ketelsen
 
 ## Podcast episodes
 A collection of podcast episodes that cover Go programming. Please keep items in reverse chronological order (most recent first)
