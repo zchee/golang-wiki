@@ -12,6 +12,7 @@ Please keep all items in chronological order.
 | Go South Africa | 2025-08-06-07 | Online | https://gopherconf.co.za/ | |
 | GopherCon UK | 2025-08-13-15 | London, UK | https://www.gophercon.co.uk/ | https://www.gophercon.co.uk/call-for-papers |
 | GopherCon | 2025-08-26-28 | New York City, NY USA | https://www.gophercon.com/ | https://sessionize.com/gophercon-2025/ |
+| GopherCon India | 2025-09-14-15 | Jaipur, India | https://gopherconindia.org/ | https://www.papercall.io/gophercon-india-2025 |
 | Golab | 2025-10-05-07 | Florence, Italy | https://golab.io | |
 | GoWest | 2025-10-24 | Lehi, Utah, USA | https://www.gowestconf.com/ | |
 | Gophercon Africa | 2025-10-24-25 | Lagos, Nigeria | https://www.gophers.africa/ | https://www.gophers.africa/call-for-speakers |
