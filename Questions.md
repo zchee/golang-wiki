@@ -25,3 +25,6 @@ For asking questions, see:
 If we closed your issue as a question with a link to this wiki, we apologize. Please ask the question on one of the above forums.
 
 Please do not write your question on a wiki page.  Please use one of the above forums.
+
+As with any open source project, sometimes you can answer your own question by reading the source, if you know where to start.
+The search bar at [cs.opensource.google/go](https://cs.opensource.google/go) can help.
