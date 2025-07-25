@@ -1354,6 +1354,7 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
   * [Trendyol.com](https://www.trendyol.com) - [github](https://github.com/Trendyol) - Backend APIs
   * [Armut/HomeRun](https://armut.com/) - [github](https://github.com/armutcom) - Backend APIs
   * [BiTaksi](https://www.bitaksi.com) - [github](https://github.com/BiTaksi)
+  * [Hepsiburada.com](https://www.hepsiburada.com) - [github](https://github.com/hepsiburada) - Backend APIs
 ### Ukraine
   * [Agilites](https://agilites.com)
   * [Aura](https://aura.com)
