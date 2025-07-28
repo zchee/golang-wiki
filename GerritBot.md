@@ -34,15 +34,41 @@ This is a limitation of the infrastructure that runs our Gerrit instances and is
 
 Replies to comments on code in Gerrit are first saved as drafts and need to be published via the “Reply” button. This is to prevent multiple emails per review “session” and is similar to the [pending review workflow](https://help.github.com/articles/reviewing-proposed-changes-in-a-pull-request/) in GitHub. If you see a number next to the “Reply” text in the button, this means you have pending drafts to publish.
 
+If you do not see a large blue “Reply” button near the top of the Gerrit web interface,
+make sure you are [logged in to Gerrit](https://go-review.googlesource.com/login/),
+which requires a Gmail or other Google account.
+
 ### How does GerritBot determine the final commit message?
 
-It uses the title and description of the GitHub PR to construct the commit message for the Gerrit change. You can edit this using the GitHub web interface (not Gerrit or git). The PR description is in the first text area in the "Conversation" tab of the GitHub PR. It is editable via "Edit" option on the "..." menu. 
+The key points to remember:
+* The GitHub PR title and PR description (the first PR comment) are periodically imported into Gerrit
+  in their plaintext form as the Gerrit commit message.
+* **To update the Gerrit commit message**, you must therefore **edit the PR title and PR description**
+  using the **GitHub web interface**.
+* You **cannot update the Gerrit commit message just by pushing another commit** to the PR with
+  an updated commit message. (Pushing another commit does not automatically update the GitHub PR title
+  or PR description, and hence the updated text won't be imported into Gerrit).
+
+**Updating the Gerrit commit messsage via the GitHub PR:**
+
+![Screenshot of the GitHub PR web interface highlighting
+the "Edit" button in top-right (for editing the Gerrit commit message title) and
+the "Edit" menu option on the first comment (for editing the Gerrit commit message
+body).](images/gerritbot-how-to-edit-in-github.png)
+
+In more detail, GerritBot uses the latest PR title and PR description from the GitHub PR to construct the
+commit message for the Gerrit change. This text is editable via the GitHub web interface (not Gerrit or git):
+* The **PR title** is editable via the "Edit" button in the top-right of the PR page.
+  This is used for the first line of the commit message in Gerrit.
+* The **PR description** is in the first text area under the "Conversation" tab of the GitHub PR.
+  It is editable via "Edit" option on the "..." menu. This text is used for the remainder of the commit
+  message body in Gerrit.
+
+Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
 
 **Note:** Gerrit imports the **plain** text that is viewable as you edit the message in GitHub, and it does not import the **rendered** text you see in GitHub prior to editing.
 
 One common area of related confusion is around **issue references**. For example, GerritBot or a human reviewer might ask you to [avoid URLs for issue references](https://go.dev/doc/contribute#ref_issues). In Gerrit, you might see the full URL for an issue, but in the GitHub web interface, you might only see an issue reference like `#12345` and it might be unclear where the URL is coming from. This can be due to confusion between the rendered view in GitHub vs. the underlying raw/plain text. If the GitHub web interface shows something like `Fixes https://github.com/golang/go/issues/12345` while you are **editing the text in GitHub**, change it to something like `Fixes #12345` or `Fixes golang/go#12345` instead. See the [Contribution Guide](https://go.dev/doc/contribute#ref_issues) for more on issue references.
-
-Once the PR is edited in GitHub, it can take 10 minutes or so before the Gerrit change is updated.
 
 ### What is a CL? What is a Gerrit change?
 
