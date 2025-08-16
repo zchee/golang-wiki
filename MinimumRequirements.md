@@ -158,7 +158,8 @@ MIPS32r1
 
 ### riscv64
 
-rv64g (rv64imafd)
+rv64g (rv64imafd).
+Starting from Go 1.23, RVA20U64 mandatory extensions is required.
 
 ### loong64
 
