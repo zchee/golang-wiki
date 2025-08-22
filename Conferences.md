@@ -16,6 +16,7 @@ Please keep all items in chronological order.
 | Golab | 2025-10-05-07 | Florence, Italy | https://golab.io | |
 | GoWest | 2025-10-24 | Lehi, Utah, USA | https://www.gowestconf.com/ | |
 | Gophercon Africa | 2025-10-24-25 | Lagos, Nigeria | https://www.gophers.africa/ | https://www.gophers.africa/call-for-speakers |
+| GopherCon Korea | 2025-11-09 | Seoul, Korea | https://www.ticketa.co/events/25 |
 
 
 ## Archives
@@ -47,7 +48,6 @@ Please keep all items in reverse chronological order (most recent first)
 | GopherCon | 2023-09-26-29 | San Diego | https://www.gophercon.com/ |
 | GopherCon India | 2023-09-09-10 | Pune, India | https://gopherconindia.org |
 | GopherCon UK | 2023-08-16-18 | London, UK | https://www.gophercon.co.uk/ |
-| GopherCon Korea | 2023-08-05-06 | Seoul, Korea | https://festa.io/events/3435 |
 | GopherCon Europe 2023 | 2023-06-26-29 | Berlin, Germany | https://gophercon.eu/, https://www.youtube.com/playlist?list=PLtoVuM73AmsJWvXYd_9rbYXcbv1UdzeLT |
 | GopherChina | 2023-06-09-11 | Beijing, China | https://www.bagevent.com/event/8057917 |
 | GothamGo | 2023-06-09 | New York City | https://gothamgo.com/ |
