@@ -16,7 +16,7 @@ Please keep all items in chronological order.
 | Golab | 2025-10-05-07 | Florence, Italy | https://golab.io | |
 | GoWest | 2025-10-24 | Lehi, Utah, USA | https://www.gowestconf.com/ | |
 | Gophercon Africa | 2025-10-24-25 | Lagos, Nigeria | https://www.gophers.africa/ | https://www.gophers.africa/call-for-speakers |
-| GopherCon Korea | 2025-11-09 | Seoul, Korea | https://www.ticketa.co/events/25 |
+| GopherCon Korea | 2025-11-09 | Seoul, Korea | https://gophercon.kr/ | https://forms.gle/1GLAS481g2QRzCYs8 |
 
 
 ## Archives
