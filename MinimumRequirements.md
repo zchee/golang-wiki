@@ -172,3 +172,8 @@ Go 1.19 or above. the Go compiler always generated Loong64 binaries that could b
 ## cgo
 
 For programs using cgo, gcc 4.6 or newer is required.
+
+Starting with Go 1.25, use of CGO on Windows requires a C compiler that incorpoates support for DWARF 5.
+For those using GCC, this requirement translates to selecting a version of GCC built with binutils version 2.37 or later.
+Programs built with older versions of GCC (those using binutils 2.36 and earlier) will produce non-working executables, see [issue 75077](https://github.com/golang/go/issues/75077) for details.
+
