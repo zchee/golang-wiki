@@ -11,6 +11,7 @@ Some of this documentation may be out of date.
 ## Brazilian Portuguese - Português brasileiro
 
   * [A Tour of Go](https://go-tour-br.appspot.com/)
+  * [Go Project](https://pt.docs.dev.br/p/go/) - Go documentation and related pages.
   * [golangbr.org](http://golangbr.org/) - Go documentation and news.
 
 ## Chinese - 中文
