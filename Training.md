@@ -26,7 +26,7 @@ Commercial providers of Go training
 ## Classroom and In-Person
 
 * [Ardan Labs](https://www.ardanlabs.com/) - Offering customized on-site live training classes.
-* [Bitfield Consulting](https://bitfieldconsulting.com/go-mentoring) - John Arundel offers remote training and mentoring in Go for individuals and companies.
+* [Bitfield Consulting](https://bitfieldconsulting.com/training/go) - John Arundel offers remote training and mentoring in Go for individuals or teams.
 * [Boss Sauce Creative](https://bosssauce.it/services/training) - Personalized or track-based Go training for teams.
 * [Brian Ketelsen](https://www.brianketelsen.com/) - In-person, remote, and online training classes for individuals and companies.
 * [DevelopIntelligence: Golang Intro + Advanced](https://www.developintelligence.com/) - Custom in-person and virtual training for corporate clients.
