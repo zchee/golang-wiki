@@ -26,7 +26,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y --no-install-recommends --no-install-suggests pandoc ruby-dev
         sudo gem install asciidoctor --pre
-        asciidoctor -b docbook -a leveloffset=+1 -o - WebAssembly.asciidoc | pandoc --atx-headers --wrap=preserve -t markdown_strict -f docbook - > WebAssembly.md
+        asciidoctor -b docbook -a leveloffset=+1 -o - WebAssembly.asciidoc | pandoc --wrap=preserve -t markdown_strict -f docbook - > WebAssembly.md
 
     - name: Remove unsupported 'template' directive
       run: |
