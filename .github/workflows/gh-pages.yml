@@ -21,13 +21,6 @@ jobs:
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
-    - name: Convert asciidoc to markdown
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends --no-install-suggests pandoc ruby-dev
-        sudo gem install asciidoctor --pre
-        asciidoctor -b docbook -a leveloffset=+1 -o - WebAssembly.asciidoc | pandoc --wrap=preserve -t markdown_strict -f docbook - > WebAssembly.md
-
     - name: Remove unsupported 'template' directive
       run: |
         sed -i '/template: true/d' All.md
