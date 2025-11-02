@@ -50,6 +50,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
   * [Middle-East](#middle-east)
   * [Moldova](#moldova)
   * [Morocco](#morocco)
+  * [Mozambique](#mozambique)
   * [Nepal](#nepal)
   * [Netherlands](#netherlands)
   * [New Zealand](#new-zealand)
@@ -995,6 +996,9 @@ Certificate Expiry Monitor Controller monitors the expiration of TLS certificate
 
 ### Morocco
   * [Avito](http://www.avito.ma)
+
+### Mozambique
+  * [Vodacom Mozambique](https://www.vm.co.mz)
 
 ### Nepal
   * [wesionaryTEAM](https://www.wesionary.team/)
