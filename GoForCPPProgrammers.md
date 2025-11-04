@@ -2,9 +2,9 @@
 title: GoForCPPProgrammers
 ---
 
-Go is a systems programming language intended to be a general-purpose systems language, like C++.  These are some notes on Go for experienced C++ programmers. This document discusses the differences between Go and C++, and says little to nothing about the similarities.
+Go is a systems programming language intended to be a general-purpose systems language, like C++. These are some notes on Go for experienced C++ programmers. This document discusses the differences between Go and C++, and says little to nothing about the similarities.
 
-An important point to keep in mind is that there are some fundamental differences in the thought processes required to be proficient in the two respective languages.  Most formidably, C++'s object model is based on classes and class hierarchies while Go's object model is based on interfaces (and is essentially flat).  Consequently, C++ design patterns rarely translate verbatim to Go.  To program effectively in Go, one has to consider the _problem_ being solved, not the mechanisms one might use in C++ to solve the problem.
+An important point to keep in mind is that there are some fundamental differences in the thought processes required to be proficient in the two respective languages. Most formidably, C++'s object model is based on classes and class hierarchies while Go's object model is based on interfaces (and is essentially flat). Consequently, C++ design patterns rarely translate verbatim to Go. To program effectively in Go, one has to consider the _problem_ being solved, not the mechanisms one might use in C++ to solve the problem.
 
 For a more general introduction to Go, see the <a href='http://tour.golang.org/'>Go Tour</a>, <a href='https://go.dev/doc/code'>How to Write Go Code</a> and <a href='https://go.dev/doc/effective_go'>Effective Go</a>.
 
@@ -47,7 +47,7 @@ For a detailed description of the Go language, see the <a href='https://go.dev/r
 
 <h2>Syntax</h2>
 
-The declaration syntax is reversed compared to C++. You write the name followed by the type. Unlike in C++, the syntax for a type does not match the way in which the variable is used. Type declarations may be read easily from left to right.  (`var v1 int` → "Variable `v1` is an `int`.")
+The declaration syntax is reversed compared to C++. You write the name followed by the type. Unlike in C++, the syntax for a type does not match the way in which the variable is used. Type declarations may be read easily from left to right. (`var v1 int` → "Variable `v1` is an `int`.")
 
 ```go
 //Go                      C++
@@ -61,7 +61,7 @@ var v7 map[string]int     // unordered_map<string, int>* v7;  (approximately)
 var v8 func(a int) int    // int (*v8)(int a);
 ```
 
-Declarations generally take the form of a keyword followed by the name of the object being declared.  The keyword is one of `var`, `func`, `const`, or `type`.  Method declarations are a minor exception in that the receiver appears before the name of the object being declared; see the <a href='#interfaces'>discussion of interfaces</a>.
+Declarations generally take the form of a keyword followed by the name of the object being declared. The keyword is one of `var`, `func`, `const`, or `type`. Method declarations are a minor exception in that the receiver appears before the name of the object being declared; see the <a href='#interfaces'>discussion of interfaces</a>.
 
 You can also use a keyword followed by a series of declarations in parentheses.
 
@@ -72,19 +72,19 @@ var (
 )
 ```
 
-When declaring a function, you must either provide a name for each parameter or not provide a name for any parameter.  (That is, C++ permits `void f(int i, int);`, but Go does not permit the analogous `func f(i int, int)`.)  However, for convenience, in Go you may group several names with the same type:
+When declaring a function, you must either provide a name for each parameter or not provide a name for any parameter. (That is, C++ permits `void f(int i, int);`, but Go does not permit the analogous `func f(i int, int)`.) However, for convenience, in Go you may group several names with the same type:
 
 ```go
 func f(i, j, k int, s, t string)
 ```
 
-A variable may be initialized when it is declared.  When this is done, specifying the type is permitted but not required.  When the type is not specified, the type of the variable is the type of the initialization expression.
+A variable may be initialized when it is declared. When this is done, specifying the type is permitted but not required. When the type is not specified, the type of the variable is the type of the initialization expression.
 
 ```go
 var v = *p
 ```
 
-See also the <a href='#Constants'>discussion of constants, below</a>.  If a variable is not initialized explicitly, the type must be specified.  In that case it will be implicitly initialized to the type's zero value (`0`, `nil`, etc.).  There are no uninitialized variables in Go.
+See also the <a href='#Constants'>discussion of constants, below</a>. If a variable is not initialized explicitly, the type must be specified. In that case it will be implicitly initialized to the type's zero value (`0`, `nil`, etc.). There are no uninitialized variables in Go.
 
 Within a function, a short declaration syntax is available with `:=` .
 
@@ -98,13 +98,13 @@ This is equivalent to
 var v1 = v2 // C++11: auto v1 = v2;
 ```
 
-Go permits multiple assignments, which are done in parallel.  That is, first all of the values on the right-hand side are computed, and then these values are assigned to the variables on the left-hand side.
+Go permits multiple assignments, which are done in parallel. That is, first all of the values on the right-hand side are computed, and then these values are assigned to the variables on the left-hand side.
 
 ```go
 i, j = j, i // Swap i and j.
 ```
 
-Functions may have multiple return values, indicated by a list in parentheses.  The returned values can be stored by assignment to a list of variables.
+Functions may have multiple return values, indicated by a list in parentheses. The returned values can be stored by assignment to a list of variables.
 
 ```go
 func f() (i int, j int) { ... }
@@ -134,7 +134,7 @@ if result, ok := g(); !ok {
 …
 ```
 
-Go code uses very few semicolons in practice.  Technically, all Go statements are terminated by a semicolon.  However, Go treats the end of a non-blank line as a semicolon unless the line is clearly incomplete (the exact rules are in <a href='https://go.dev/ref/spec#Semicolons'>the language specification</a>).  A consequence of this is that in some cases Go does not permit you to use a line break.  For example, you may not write
+Go code uses very few semicolons in practice. Technically, all Go statements are terminated by a semicolon. However, Go treats the end of a non-blank line as a semicolon unless the line is clearly incomplete (the exact rules are in <a href='https://go.dev/ref/spec#Semicolons'>the language specification</a>). A consequence of this is that in some cases Go does not permit you to use a line break. For example, you may not write
 
 ```go
 func g()
@@ -142,7 +142,7 @@ func g()
 }
 ```
 
-A semicolon will be inserted after `g()`, causing it to be a function declaration rather than a function definition.  Similarly, you may not write
+A semicolon will be inserted after `g()`, causing it to be a function declaration rather than a function definition. Similarly, you may not write
 
 ```go
 if x {
@@ -153,11 +153,11 @@ else {             // INVALID
 
 A semicolon will be inserted after the `}` preceding the `else`, causing a syntax error.
 
-Since semicolons do end statements, you may continue using them as in C++.  However, that is not the recommended style.  Idiomatic Go code omits unnecessary semicolons, which in practice is all of them other than the initial ` for ` loop clause and cases where you want several short statements on a single line.
+Since semicolons do end statements, you may continue using them as in C++. However, that is not the recommended style. Idiomatic Go code omits unnecessary semicolons, which in practice is all of them other than the initial `for` loop clause and cases where you want several short statements on a single line.
 
-While we're on the topic, we recommend that rather than worry about semicolons and brace placement, you format your code with the `gofmt` program.  That will produce a single standard Go style, and let you worry about your code rather than your formatting.  While the style may initially seem odd, it is as good as any other style, and familiarity will lead to comfort.
+While we're on the topic, we recommend that rather than worry about semicolons and brace placement, you format your code with the `gofmt` program. That will produce a single standard Go style, and let you worry about your code rather than your formatting. While the style may initially seem odd, it is as good as any other style, and familiarity will lead to comfort.
 
-When using a pointer to a struct, you use `.` instead of `->`.  Thus, syntactically speaking, a structure and a pointer to a structure are used in the same way.
+When using a pointer to a struct, you use `.` instead of `->`. Thus, syntactically speaking, a structure and a pointer to a structure are used in the same way.
 
 ```go
 type myStruct struct{ i int }
@@ -166,7 +166,7 @@ var p9 *myStruct // p9 is a pointer to a structure
 f(v9.i, p9.i)
 ```
 
-Go does not require parentheses around the condition of an `if` statement, or the expressions of a `for` statement, or the value of a `switch` statement.  On the other hand, it does require curly braces around the body of an `if` or `for` statement.
+Go does not require parentheses around the condition of an `if` statement, or the expressions of a `for` statement, or the value of a `switch` statement. On the other hand, it does require curly braces around the body of an `if` or `for` statement.
 
 ```go
 if a < b { f() }             // Valid
@@ -176,11 +176,11 @@ for i = 0; i < 10; i++ {}    // Valid
 for (i = 0; i < 10; i++) {}  // INVALID
 ```
 
-Go does not have a `while` statement nor does it have a `do/while` statement.  The `for` statement may be used with a single condition, which makes it equivalent to a `while` statement.  Omitting the condition entirely is an endless loop.
+Go does not have a `while` statement nor does it have a `do/while` statement. The `for` statement may be used with a single condition, which makes it equivalent to a `while` statement. Omitting the condition entirely is an endless loop.
 
-Go permits `break` and `continue` to specify a label.  The label must refer to a `for`, `switch`, or `select` statement.
+Go permits `break` and `continue` to specify a label. The label must refer to a `for`, `switch`, or `select` statement.
 
-In a `switch` statement, `case` labels do not fall through.  You can make them fall through using the `fallthrough` keyword.  This applies even to adjacent cases.
+In a `switch` statement, `case` labels do not fall through. You can make them fall through using the `fallthrough` keyword. This applies even to adjacent cases.
 
 ```go
 switch i {
@@ -212,7 +212,7 @@ case i > 0:
 }
 ```
 
-The `defer` statement may be used to call a function after the function containing the `defer` statement returns.  `defer` often takes the place of a destructor in C++ but is associated with the calling code, not any particular class or object.
+The `defer` statement may be used to call a function after the function containing the `defer` statement returns. `defer` often takes the place of a destructor in C++ but is associated with the calling code, not any particular class or object.
 
 ```go
 fd := open("filename")
@@ -221,7 +221,7 @@ defer close(fd) // fd will be closed when this function returns.
 
 <h2>Operators</h2>
 
-The `++` and `--` operators may only be used in statements, not in expressions.  You cannot write `c = *p++`.  `*p++` is parsed as `(*p)++`.
+The `++` and `--` operators may only be used in statements, not in expressions. You cannot write `c = *p++`. `*p++` is parsed as `(*p)++`.
 
 The operator precedence is different. As an example `4 & 3 << 1` evaluates to `0` in Go and `4` in C++.
 
@@ -250,7 +250,7 @@ C++ operator precedence (only relevant operators):
 
 <h2>Constants</h2>
 
-In Go constants may be <i>untyped</i>. This applies even to constants named with a `const` declaration, if no type is given in the declaration and the initializer expression uses only untyped constants.  A value derived from an untyped constant becomes typed when it is used within a context that requires a typed value. This permits constants to be used relatively freely without requiring general implicit type conversion.
+In Go constants may be <i>untyped</i>. This applies even to constants named with a `const` declaration, if no type is given in the declaration and the initializer expression uses only untyped constants. A value derived from an untyped constant becomes typed when it is used within a context that requires a typed value. This permits constants to be used relatively freely without requiring general implicit type conversion.
 
 ```go
 var a uint
@@ -264,7 +264,7 @@ const huge = 1 << 100
 f(huge >> 98)
 ```
 
-Go does not support enums.  Instead, you can use the special name `iota` in a single `const` declaration to get a series of increasing value.  When an initialization expression is omitted for a `const`, it reuses the preceding expression.
+Go does not support enums. Instead, you can use the special name `iota` in a single `const` declaration to get a series of increasing value. When an initialization expression is omitted for a `const`, it reuses the preceding expression.
 
 ```go
 const (
@@ -276,11 +276,11 @@ const (
 
 <h2>Types</h2>
 
-C++ and Go provide similar, but not identical, built-in types: signed and unsigned integers of various widths, 32-bit and 64-bit floating-point numbers (real and complex), `struct`s, pointers, etc.  In Go, `uint8`, `int64`, and like-named integer types are part of the language, not built on top of integers whose sizes are implementation-dependent (e.g., `long long`).  Go additionally provides native `string`, `map`, and `chan` (channel) types as well as first-class arrays and slices (described below).  Strings are encoded with Unicode, not ASCII.
+C++ and Go provide similar, but not identical, built-in types: signed and unsigned integers of various widths, 32-bit and 64-bit floating-point numbers (real and complex), `struct`s, pointers, etc. In Go, `uint8`, `int64`, and like-named integer types are part of the language, not built on top of integers whose sizes are implementation-dependent (e.g., `long long`). Go additionally provides native `string`, `map`, and `chan` (channel) types as well as first-class arrays and slices (described below). Strings are encoded with Unicode, not ASCII.
 
-Go is far more strongly typed than C++.  In particular, there is no implicit type conversion in Go, only explicit type conversion.  This provides additional safety and freedom from a class of bugs but at the cost of some additional typing.  There is also no `union` type in Go, as this would enable subversion of the type system.  However, a Go `interface{}` (see below) provides a type-safe alternative.
+Go is far more strongly typed than C++. In particular, there is no implicit type conversion in Go, only explicit type conversion. This provides additional safety and freedom from a class of bugs but at the cost of some additional typing. There is also no `union` type in Go, as this would enable subversion of the type system. However, a Go `interface{}` (see below) provides a type-safe alternative.
 
-Both C++ and Go support type aliases (`typedef` in C++, `type` in Go).  However, unlike C++, Go treats these as different types.  Hence, the following is valid in C++:
+Both C++ and Go support type aliases (`typedef` in C++, `type` in Go). However, unlike C++, Go treats these as different types. Hence, the following is valid in C++:
 
 ```C++
 // C++
@@ -308,24 +308,23 @@ pos += vel // INVALID: mismatched types position and velocity
 
 The same is true even for unaliased types: an `int` and a `uint` cannot be combined in an expression without explicitly converting one to the other.
 
-Go does not allow pointers to be cast to and from integers, unlike in C++.  However, Go's `unsafe` package enables one to explicitly bypass this safety mechanism if necessary (e.g., for use in low-level systems code).
-
+Go does not allow pointers to be cast to and from integers, unlike in C++. However, Go's `unsafe` package enables one to explicitly bypass this safety mechanism if necessary (e.g., for use in low-level systems code).
 
 <h2>Slices</h2>
 
-A slice is conceptually a struct with three fields: a pointer to an array, a length, and a capacity.  Slices support the `[]` operator to access elements of the underlying array.  The builtin `len` function returns the length of the slice.  The builtin `cap` function returns the capacity.
+A slice is conceptually a struct with three fields: a pointer to an array, a length, and a capacity. Slices support the `[]` operator to access elements of the underlying array. The builtin `len` function returns the length of the slice. The builtin `cap` function returns the capacity.
 
-Given an array, or another slice, a new slice is created via `a[i:j]`.  This creates a new slice that refers to `a`, starts at index `i`, and ends before index `j`.  It has length `j-i`.  If `i` is omitted, the slice starts at `0`.  If `j` is omitted, the slice ends at `len(a)`.  The new slice refers to the same array to which `a` refers.  Two implications of this statement are that ① changes made using the new slice may be seen using `a`, and ② slice creation is (intended to be) cheap; no copy needs to be made of the underlying array.  The capacity of the new slice is simply the capacity of `a` minus `i`.  The capacity of an array is the length of the array.
+Given an array, or another slice, a new slice is created via `a[i:j]`. This creates a new slice that refers to `a`, starts at index `i`, and ends before index `j`. It has length `j-i`. If `i` is omitted, the slice starts at `0`. If `j` is omitted, the slice ends at `len(a)`. The new slice refers to the same array to which `a` refers. Two implications of this statement are that ① changes made using the new slice may be seen using `a`, and ② slice creation is (intended to be) cheap; no copy needs to be made of the underlying array. The capacity of the new slice is simply the capacity of `a` minus `i`. The capacity of an array is the length of the array.
 
-What this means is that Go uses slices for some cases where C++ uses pointers.  If you create a value of type `[100]byte` (an array of 100 bytes, perhaps a buffer) and you want to pass it to a function without copying it, you should declare the function parameter to have type `[]byte`, and pass a slice of the array (`a[:]` will pass the entire array).  Unlike in C++, it is not necessary to pass the length of the buffer; it is efficiently accessible via `len`.
+What this means is that Go uses slices for some cases where C++ uses pointers. If you create a value of type `[100]byte` (an array of 100 bytes, perhaps a buffer) and you want to pass it to a function without copying it, you should declare the function parameter to have type `[]byte`, and pass a slice of the array (`a[:]` will pass the entire array). Unlike in C++, it is not necessary to pass the length of the buffer; it is efficiently accessible via `len`.
 
-The slice syntax may also be used with a string.  It returns a new string, whose value is a substring of the original string.  Because strings are immutable, string slices can be implemented without allocating new storage for the slices's contents.
+The slice syntax may also be used with a string. It returns a new string, whose value is a substring of the original string. Because strings are immutable, string slices can be implemented without allocating new storage for the slices's contents.
 
 <h2>Making values</h2>
 
-Go has a builtin function `new` which takes a type and allocates space on the heap. The allocated space will be zero-initialized for the type.  For example, `new(int)` allocates a new int on the heap, initializes it with the value `0`, and returns its address, which has type `*int`.  Unlike in C++, `new` is a function, not an operator; `new int` is a syntax error.
+Go has a builtin function `new` which takes a type and allocates space on the heap. The allocated space will be zero-initialized for the type. For example, `new(int)` allocates a new int on the heap, initializes it with the value `0`, and returns its address, which has type `*int`. Unlike in C++, `new` is a function, not an operator; `new int` is a syntax error.
 
-Perhaps surprisingly, `new` is not commonly used in Go programs.  In Go taking the address of a variable is always safe and never yields a dangling pointer.  If the program takes the address of a variable, it will be allocated on the heap if necessary.  So these functions are equivalent:
+Perhaps surprisingly, `new` is not commonly used in Go programs. In Go taking the address of a variable is always safe and never yields a dangling pointer. If the program takes the address of a variable, it will be allocated on the heap if necessary. So these functions are equivalent:
 
 ```go
 type S struct { I int }
@@ -355,15 +354,15 @@ S* f2() {
 }
 ```
 
-Map and channel values must be allocated using the builtin function `make`.  A variable declared with map or channel type without an initializer will be automatically initialized to `nil`.  Calling `make(map[int]int)` returns a newly allocated value of type `map[int]int`. Note that `make` returns a value, not a pointer.  This is consistent with the fact that map and channel values are passed by reference.  Calling `make` with a map type takes an optional argument which is the expected capacity of the map.  Calling `make` with a channel type takes an optional argument which sets the buffering capacity of the channel; the default is 0 (unbuffered).
+Map and channel values must be allocated using the builtin function `make`. A variable declared with map or channel type without an initializer will be automatically initialized to `nil`. Calling `make(map[int]int)` returns a newly allocated value of type `map[int]int`. Note that `make` returns a value, not a pointer. This is consistent with the fact that map and channel values are passed by reference. Calling `make` with a map type takes an optional argument which is the expected capacity of the map. Calling `make` with a channel type takes an optional argument which sets the buffering capacity of the channel; the default is 0 (unbuffered).
 
-The `make` function may also be used to allocate a slice.  In this case it allocates memory for the underlying array and returns a slice referring to it.  There is one required argument, which is the number of elements in the slice.  A second, optional, argument is the capacity of the slice.  For example, `make([]int, 10, 20)`.  This is identical to `new([20]int)[0:10]`.  Since Go uses garbage collection, the newly allocated array will be discarded sometime after there are no references to the returned slice.
+The `make` function may also be used to allocate a slice. In this case it allocates memory for the underlying array and returns a slice referring to it. There is one required argument, which is the number of elements in the slice. A second, optional, argument is the capacity of the slice. For example, `make([]int, 10, 20)`. This is identical to `new([20]int)[0:10]`. Since Go uses garbage collection, the newly allocated array will be discarded sometime after there are no references to the returned slice.
 
 <h2>Interfaces</h2>
 
-Where C++ provides classes, subclasses and templates, Go provides interfaces.  A Go interface is similar to a C++ pure abstract class: a class with no data members, with methods which are all pure virtual.  However, in Go, any type which provides the methods named in the interface may be treated as an implementation of the interface.  No explicitly declared inheritance is required.  The implementation of the interface is entirely separate from the interface itself.
+Where C++ provides classes, subclasses and templates, Go provides interfaces. A Go interface is similar to a C++ pure abstract class: a class with no data members, with methods which are all pure virtual. However, in Go, any type which provides the methods named in the interface may be treated as an implementation of the interface. No explicitly declared inheritance is required. The implementation of the interface is entirely separate from the interface itself.
 
-A method looks like an ordinary function definition, except that it has a <em>receiver</em>.  The receiver is similar to the `this` pointer in a C++ class method.
+A method looks like an ordinary function definition, except that it has a <em>receiver</em>. The receiver is similar to the `this` pointer in a C++ class method.
 
 ```go
 type myType struct{ i int }
@@ -371,12 +370,12 @@ type myType struct{ i int }
 func (p *myType) Get() int { return p.i }
 ```
 
-This declares a method `Get` associated with `myType`.  The receiver is named `p` in the body of the function.
+This declares a method `Get` associated with `myType`. The receiver is named `p` in the body of the function.
 
-Methods are defined on named types.  If you convert the value to a different type, the new value will have the methods of the new type,
+Methods are defined on named types. If you convert the value to a different type, the new value will have the methods of the new type,
 not the old type.
 
-You may define methods on a builtin type by declaring a new named type derived from it.  The new type is distinct from the builtin type.
+You may define methods on a builtin type by declaring a new named type derived from it. The new type is distinct from the builtin type.
 
 ```go
 type myInteger int
@@ -415,7 +414,7 @@ func f1() {
 }
 ```
 
-In other words, if we view `myInterface` as a C++ pure abstract base class, defining `Set` and `Get` for `*myType` made `*myType` automatically inherit from `myInterface`.  A type may satisfy multiple interfaces.
+In other words, if we view `myInterface` as a C++ pure abstract base class, defining `Set` and `Get` for `*myType` made `*myType` automatically inherit from `myInterface`. A type may satisfy multiple interfaces.
 
 An anonymous field may be used to implement something much like a C++ child class.
 
@@ -437,11 +436,11 @@ func f2() {
 }
 ```
 
-The `Set` method is effectively inherited from `myType`, because methods associated with the anonymous field are promoted to become methods of the enclosing type.  In this case, because `myChildType` has an anonymous field of type `myType`, the methods of `myType` also become methods of `myChildType`.  In this example, the `Get` method was overridden, and the `Set` method was inherited.
+The `Set` method is effectively inherited from `myType`, because methods associated with the anonymous field are promoted to become methods of the enclosing type. In this case, because `myChildType` has an anonymous field of type `myType`, the methods of `myType` also become methods of `myChildType`. In this example, the `Get` method was overridden, and the `Set` method was inherited.
 
-This is not precisely the same as a child class in C++.  When a method of an anonymous field is called, its receiver is the field, not the surrounding struct.  In other words, methods on anonymous fields are not virtual functions. When you want the equivalent of a virtual function, use an interface.
+This is not precisely the same as a child class in C++. When a method of an anonymous field is called, its receiver is the field, not the surrounding struct. In other words, methods on anonymous fields are not virtual functions. When you want the equivalent of a virtual function, use an interface.
 
-A variable that has an interface type may be converted to have a different interface type using a special construct called a type assertion. This is implemented dynamically at run time, like C++ `dynamic_cast`.  Unlike `dynamic_cast`, there does not need to be any declared relationship between the two interfaces.
+A variable that has an interface type may be converted to have a different interface type using a special construct called a type assertion. This is implemented dynamically at run time, like C++ `dynamic_cast`. Unlike `dynamic_cast`, there does not need to be any declared relationship between the two interfaces.
 
 ```go
 type myPrintInterface interface {
@@ -453,15 +452,15 @@ func f3(x myInterface) {
 }
 ```
 
-The conversion to `myPrintInterface` is entirely dynamic.  It will work as long as the dynamic type of x defines a `Print` method.
+The conversion to `myPrintInterface` is entirely dynamic. It will work as long as the dynamic type of x defines a `Print` method.
 
-Because the conversion is dynamic, it may be used to implement generic programming similar to templates in C++.  This is done by manipulating values of the minimal interface.
+Because the conversion is dynamic, it may be used to implement generic programming similar to templates in C++. This is done by manipulating values of the minimal interface.
 
 ```go
 type Any interface{}
 ```
 
-Containers may be written in terms of `Any`, but the caller must unbox using a type assertion to recover values of the contained type.  As the typing is dynamic rather than static, there is no equivalent of the way that a C++ template may inline the relevant operations.  The operations are fully type-checked at run time, but all operations will involve a function call.
+Containers may be written in terms of `Any`, but the caller must unbox using a type assertion to recover values of the contained type. As the typing is dynamic rather than static, there is no equivalent of the way that a C++ template may inline the relevant operations. The operations are fully type-checked at run time, but all operations will involve a function call.
 
 ```go
 type Iterator interface {
@@ -472,11 +471,11 @@ type Iterator interface {
 }
 ```
 
-Note that `Equal` has an argument of type `Iterator`.  This does not behave like a C++ template.  See [the FAQ](/doc/faq#t_and_equal_interface).
+Note that `Equal` has an argument of type `Iterator`. This does not behave like a C++ template. See [the FAQ](/doc/faq#t_and_equal_interface).
 
 <h2>Function closures</h2>
 
-In C++ versions prior to C++11, the most common way to create a function with hidden state is to use a "functor"—a class that overloads `operator()` to make instances look like functions.  For example, the following code defines a `my_transform` function (a simplified version of the STL's `std::transform`) that applies a given unary operator (`op`) to each element of an array (`in`), storing the result in another array (`out`).  To implement a prefix sum (i.e., {`x[0]`, `x[0]+x[1]`, `x[0]+x[1]+x[2]`, …}) the code creates a functor (`MyFunctor`) that keeps track of the running total (`total`) and passes an instance of this functor to `my_transform`.
+In C++ versions prior to C++11, the most common way to create a function with hidden state is to use a "functor"—a class that overloads `operator()` to make instances look like functions. For example, the following code defines a `my_transform` function (a simplified version of the STL's `std::transform`) that applies a given unary operator (`op`) to each element of an array (`in`), storing the result in another array (`out`). To implement a prefix sum (i.e., {`x[0]`, `x[0]+x[1]`, `x[0]+x[1]+x[2]`, …}) the code creates a functor (`MyFunctor`) that keeps track of the running total (`total`) and passes an instance of this functor to `my_transform`.
 
 ```C++
 // C++
@@ -517,7 +516,7 @@ int main (void)
 }
 ```
 
-C++11 adds anonymous ("lambda") functions, which can be stored in variables and passed to functions.  They can optionally serve as closures, meaning they can reference state from parent scopes.  This feature greatly simplifies `my_transform`:
+C++11 adds anonymous ("lambda") functions, which can be stored in variables and passed to functions. They can optionally serve as closures, meaning they can reference state from parent scopes. This feature greatly simplifies `my_transform`:
 
 ```C++
 // C++11
@@ -576,14 +575,13 @@ func main() {
 }
 ```
 
-(Note that we chose to return `out` from `my_transform` rather than pass it an `out` to write to.  This was an aesthetic decision; the code could have been written more like the C++ version in that regard.)
+(Note that we chose to return `out` from `my_transform` rather than pass it an `out` to write to. This was an aesthetic decision; the code could have been written more like the C++ version in that regard.)
 
-In Go, functions are always full closures, the equivalent of `[&]` in C++11.  An important difference is that it is invalid in C++11 for a closure to reference a variable whose scope has gone away (as may be caused by an <a href='http://en.wikipedia.org/wiki/Funarg_problem'>upward funarg</a>—a function that returns a lambda that references local variables).  In Go, this is perfectly valid.
-
+In Go, functions are always full closures, the equivalent of `[&]` in C++11. An important difference is that it is invalid in C++11 for a closure to reference a variable whose scope has gone away (as may be caused by an <a href='http://en.wikipedia.org/wiki/Funarg_problem'>upward funarg</a>—a function that returns a lambda that references local variables). In Go, this is perfectly valid.
 
 <h2>Concurrency</h2>
 
-Like C++11's `std::thread`, Go permits starting new threads of execution that run concurrently in a shared address space.  These are called _goroutines_ and are spawned using the `go` statement.  While typical `std::thread` implementations launch heavyweight, operating-system threads, goroutines are implemented as lightweight, user-level threads that are multiplexed among multiple operating-system threads.  Consequently, goroutines are (intended to be) cheap and can be used liberally throughout a program.
+Like C++11's `std::thread`, Go permits starting new threads of execution that run concurrently in a shared address space. These are called _goroutines_ and are spawned using the `go` statement. While typical `std::thread` implementations launch heavyweight, operating-system threads, goroutines are implemented as lightweight, user-level threads that are multiplexed among multiple operating-system threads. Consequently, goroutines are (intended to be) cheap and can be used liberally throughout a program.
 
 ```go
 func server(i int) {
@@ -611,17 +609,17 @@ go func(i int) {
 }(1000) // Passes argument 1000 to the function literal.
 ```
 
-Like C++11, but unlike prior versions of C++, Go defines a <a href='https://go.dev/ref/mem'>memory model</a> for unsynchronized accesses to memory.  Although Go provides an analogue of `std::mutex` in its ` sync ` package, this is not the normal way to implement inter-thread communication and synchronization in Go programs.  Instead, Go threads more typically communicate by message passing, which is a fundamentally different approach from locks and barriers.  The Go mantra for this subject is,
+Like C++11, but unlike prior versions of C++, Go defines a <a href='https://go.dev/ref/mem'>memory model</a> for unsynchronized accesses to memory. Although Go provides an analogue of `std::mutex` in its `sync` package, this is not the normal way to implement inter-thread communication and synchronization in Go programs. Instead, Go threads more typically communicate by message passing, which is a fundamentally different approach from locks and barriers. The Go mantra for this subject is,
 
 > Do not communicate by sharing memory; instead, share memory by communicating.
 
-That is, _channels_ are used to communicate among goroutines.  Values of any type (including other channels!) can be
-sent over a channel.  Channels can be unbuffered or buffered (using a buffer length specified at channel-construction time).
+That is, _channels_ are used to communicate among goroutines. Values of any type (including other channels!) can be
+sent over a channel. Channels can be unbuffered or buffered (using a buffer length specified at channel-construction time).
 
-Channels are first-class values; they can be stored in variables and passed to and from functions like any other value.  (When supplied to
-functions, channels are passed by reference.)  Channels are also typed: a `chan int` is different from a `chan string`.
+Channels are first-class values; they can be stored in variables and passed to and from functions like any other value. (When supplied to
+functions, channels are passed by reference.) Channels are also typed: a `chan int` is different from a `chan string`.
 
-Because they are so widely used in Go programs, channels are (intended to be) efficient and cheap.  To send a value on a channel, use `<-` as a binary operator.  To receive a value on a channel, use `<-` as a unary operator.  Channels can be shared among multiple senders and multiple receivers and guarantee that each value sent is received by at most one receiver.
+Because they are so widely used in Go programs, channels are (intended to be) efficient and cheap. To send a value on a channel, use `<-` as a binary operator. To receive a value on a channel, use `<-` as a unary operator. Channels can be shared among multiple senders and multiple receivers and guarantee that each value sent is received by at most one receiver.
 
 Here is an example of using a manager function to control access to a single value.
 
@@ -645,7 +643,7 @@ func Manager(ch chan Cmd) {
 }
 ```
 
-In that example the same channel is used for input and output.  This is incorrect if there are multiple goroutines communicating with the manager at once: a goroutine waiting for a response from the manager might receive a request from another goroutine instead.  A solution is to pass in a channel.
+In that example the same channel is used for input and output. This is incorrect if there are multiple goroutines communicating with the manager at once: a goroutine waiting for a response from the manager might receive a request from another goroutine instead. A solution is to pass in a channel.
 
 ```go
 type Cmd2 struct {

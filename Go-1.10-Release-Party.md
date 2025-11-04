@@ -3,12 +3,15 @@ title: Go-1.10-Release-Party
 ---
 
 ### What's happening?
-To celebrate the release of Go 1.10 we're to organising a world wide release party during the month of February 2018 🎉 
+
+To celebrate the release of Go 1.10 we're to organising a world wide release party during the month of February 2018 🎉
 
 #### So what is the release date?
+
 Go 1.10 was released on February 16.
 
 ### Sounds awesome, how can you get involved?
+
 - If you host a Go user group or meetup, schedule a meetup during February, and celebrate with Gophers around the world.
 - If you're a member of a Go user group or meetup, pester your organiser and let them know you'd like to participate.
 
@@ -19,7 +22,9 @@ Spread the word using hashtag [#GoReleaseParty](https://twitter.com/hashtag/gore
 Don't forget to add your meetup's details :point_down: right here.
 
 #### Who's involved?
+
 Here is a list of the groups who are participating.
+
 - Madrid, Spain: Feb 8 7:30 pm at [source{d}](https://sourced.tech). [View the event](https://www.meetup.com/go-mad/events/247296417/)
 - Copenhagen, Denmark: Feb 15 7:00 pm at Maersk. [View the meetup](https://www.meetup.com/Go-Cph/events/242615767/)
 - Minsk, Belarus: Feb 15 7:00 pm at SPACE. [View the event](https://www.facebook.com/events/202545833823265/)
@@ -55,24 +60,28 @@ Here is a list of the groups who are participating.
 - Fort Lauderdale, FL: Mar 1 6:30 pm at Microsoft, [View the meetup](https://www.meetup.com/Go-Miami/events/247987413/)
 - Zurich, Switzerland: Mar 1 7:00 pm at Job Cloud. [View the meetup](https://www.meetup.com/Zurich-Gophers/events/246188927/)
 - Florianópolis, Brazil: Mar 17 3:00 pm at Involves. [View the meetup](https://www.meetup.com/pt-BR/Floripa-Gophers/events/kzmchpyxfbwb/)
-- Portland, Oregon: April 24th 6:00 pm at New Relic. [View the meetup](https://www.meetup.com/PDX-Go/events/248938586/) 
+- Portland, Oregon: April 24th 6:00 pm at New Relic. [View the meetup](https://www.meetup.com/PDX-Go/events/248938586/)
 
 _If your group is not listed here yet, edit the page and add yourself in a chronological order._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
 
 ### Stay in touch
 
-Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, and keep up to date. 
+Trying to co-ordinate dozens of meetup groups around the globe will be challenging. Here are some ways you can plan your event, and keep up to date.
 
 As always, if you get stuck, or need help, please [contact the organisers directly](#no-seriously-whos-organising-this), we're here to help.
 .
+
 ##### Slack Channel
+
 We have a channel for the [release party](https://gophers.slack.com/messages/go-release-party/) on the [Gophers Slack](https://gophers.slack.com/messages/go-release-party/). If you need an invite to Slack, [you can request an automatic invite with this link](https://invite.slack.golangbridge.org/).
 
 ##### Mailing list
+
 We have set up a [mailing list for meetup organisers](https://groups.google.com/forum/#!forum/go-meetup-organisers) to ask questions.
 
 ### What happens in a release party?
+
 As with the previous [Go 1.6](/wiki/Go-1.6-release-party) and [Go 1.8](/wiki/Go-1.8-Release-Party) release parties, this is a great opportunity to spread the word about the improvements landing 1.10, and the plans for what is coming next!
 
 #### Resources
@@ -85,16 +94,18 @@ _Please send PR's with corrections/additions_
 
 [Here's a link](https://speakerdeck.com/campoy/the-state-of-go-1-dot-10) to the talk by Francesc Campoy: The State of Go (February 2018).
 
-
 ### What'll happen if Go 1.10 isn't out during February?
-If all else fails... at least we'll have each other. 
 
+If all else fails... at least we'll have each other.
 
 ### Who's organising this?
+
 Well, if you run a Go meetup, you are. It can't be a worldwide release party without meetups around the globe.
 
 #### No, seriously, who's organising this?
+
 Here are the organisers so far:
+
 - [Natalie Pistunovich](mailto://natalie.pistunovich@gmail.com) - [@NataliePis](https://twitter.com/nataliepis)
 - [Dave Cheney](mailto://dave@cheney.net) - [@davecheney](https://twitter.com/davecheney)
 - [João Henrique Machado Silva](mailto://joaoh82@gmail.com) - [@joaoh82](https://twitter.com/joaoh82)

@@ -46,12 +46,12 @@ To do this, vote Code-Review+2 as well as Auto-Submit+1 and Commit-Queue+1. When
 
 More precisely, Gopherbot watches for and automatically submits CLs that
 
- - have an Auto-Submit+1 vote,
- - have a satisfied TryBots-Pass submit requirement,
- - have the necessary code reviews,
- - have no unresolved comments,
- - aren't marked #wait-release,
- - and merge cleanly into the current branch head.
+- have an Auto-Submit+1 vote,
+- have a satisfied TryBots-Pass submit requirement,
+- have the necessary code reviews,
+- have no unresolved comments,
+- aren't marked #wait-release,
+- and merge cleanly into the current branch head.
 
 All approvers can add Auto-Submit+1 votes.
 An Auto-Submit+1 vote is not carried forward when a patch is reuploaded.
@@ -69,4 +69,3 @@ Decisions about granting access are made by the Go release team at Google. If yo
 ## Once you have access
 
 Go help garden! See [Gardening](/wiki/Gardening).
-

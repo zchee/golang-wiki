@@ -84,6 +84,7 @@ $ tree -d -L 1 $GOROOT/pkg | head -n 6
 `-- tool
 $
 ```
+
 src contains the go1.13.1 source code
 
 test contains tests of the Go toolchain and runtime

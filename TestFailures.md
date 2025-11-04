@@ -10,11 +10,12 @@ The goal of writing (and running) tests for a Go package is to learn about the
 behavior of that package and its dependencies.
 
 A test failure for a Go package may give us information about:
-* implementation defects in the package or its dependencies,
-* mistaken assumptions about the package API,
-* bugs in the test itself (such as invalid assumptions about timing),
-* unexpectedly high resource requirements (such as RAM or CPU time), or
-* bugs in the underlying platform or defects in the test infrastructure (which
+
+- implementation defects in the package or its dependencies,
+- mistaken assumptions about the package API,
+- bugs in the test itself (such as invalid assumptions about timing),
+- unexpectedly high resource requirements (such as RAM or CPU time), or
+- bugs in the underlying platform or defects in the test infrastructure (which
   may need to be escalated or worked around).
 
 In some cases, the cause of a test failure might not be clear: it might be
@@ -28,14 +29,15 @@ fulfilling its purpose.
 ## Finding test failures
 
 A test failure is typically noticed from:
-* the [Go build dashboard](https://build.golang.org), especially during [builder
+
+- the [Go build dashboard](https://build.golang.org), especially during [builder
   triage](https://go.dev/issue/52653);
-* TryBot or [SlowBot](/wiki/SlowBots) failures on a pending
+- TryBot or [SlowBot](/wiki/SlowBots) failures on a pending
   change;
-* running `go test` on a specific package or packages, either working within a
+- running `go test` on a specific package or packages, either working within a
   Go project repository or as part of (say) `go test all` in a user's own
   module;
-* or running `all.bash` or `all.bat` when [installing from
+- or running `all.bash` or `all.bat` when [installing from
   source](https://go.dev/doc/install/source#install) or [testing a contributed
   change](https://go.dev/doc/contribute#testing).
 
@@ -56,12 +58,13 @@ fragments of the error text (such as error codes).
 If you find an existing issue, first check the issue discussion to see whether
 the failure has already been fixed, and whether the information from your failure
 contributes relevant new information. If so, _comment on it_ with details:
-* describe what Go version you were testing (`go version`)
-* how and where you were running the test, such as:
-   * `go env` output
-   * your machine and OS configuration
-   * your network configuration and status
-* whether or how often you are able to reproduce the failure.
+
+- describe what Go version you were testing (`go version`)
+- how and where you were running the test, such as:
+  - `go env` output
+  - your machine and OS configuration
+  - your network configuration and status
+- whether or how often you are able to reproduce the failure.
 
 Ideally, attach or link to the full test logs (possibly in a `<details>` block).
 
@@ -84,6 +87,7 @@ search for similar failures in the build dashboard:
 # download recent logs
 fetchlogs -n 1024 -repo all
 ```
+
 ```
 # search logs for some regexp describing the failure message
 greplogs -l -e $FAILURE_REGEXP
@@ -123,14 +127,14 @@ Once an issue has been filed for a test failure, the relevant package, port,
 and/or builder maintainers should examine the information gleaned from the test
 failure and decide how to _address_ it, by doing one or more of:
 
-* _revert_ a change to the code or the test infrastructure believed to have
+- _revert_ a change to the code or the test infrastructure believed to have
   introduced the problem,
-* _fix_ (or apply a workaround for) the root cause of the failure,
-* _collect_ more information, by subscribing to issue updates and/or running
+- _fix_ (or apply a workaround for) the root cause of the failure,
+- _collect_ more information, by subscribing to issue updates and/or running
   more tests,
-* _report_ an underlying defect in a dependency, platform, or test
+- _report_ an underlying defect in a dependency, platform, or test
   infrastructure, and/or
-* _deprioritize_ the failure, by skipping the failure on affected platforms (or
+- _deprioritize_ the failure, by skipping the failure on affected platforms (or
   marking those platforms as broken) and then moving the issue to a future or
   `Backlog` milestone and/or removing the `release-blocker` label.
 
@@ -147,24 +151,22 @@ When we add a call to `testenv.SkipFlaky`, our goal is to eliminate failure
 modes that do not provide new information while still preserving as much of the
 value of the test as is feasible.
 
-* If the observed failure is only one of several possible failure modes for
+- If the observed failure is only one of several possible failure modes for
   the test, skip the test only for that failure mode.
+  - For example, if the error is always something specific like
+    `syscall.ECONNRESET`, use `errors.Is` to check for that specific error.
 
-   * For example, if the error is always something specific like
-     `syscall.ECONNRESET`, use `errors.Is` to check for that specific error.
-
-* If the failure is believed to affect all versions of a particular `GOOS`
+- If the failure is believed to affect all versions of a particular `GOOS`
   and/or `GOARCH`, or the affected versions cannot be identified, check against
   `runtime.GOOS` and/or `runtime.GOARCH` and skip only the affected platform.
 
-* If the failure is due to a bug on a _specific version_ of a platform, skip the
+- If the failure is due to a bug on a _specific version_ of a platform, skip the
   test based on `testenv.Builder` or the `GO_BUILDER_NAME` environment variable.
   (If the test fails for external Go users, they have the option to upgrade to
   an unaffected version of the platform — and they probably ought to see the
   test failure to find out that the bug exists!)
-
-   * Also consider adding another environment variable that users and contributors
-     can set to acknowledge the bug and suppress the failure.
+  - Also consider adding another environment variable that users and contributors
+    can set to acknowledge the bug and suppress the failure.
 
 ### Marking a builder or port as broken
 

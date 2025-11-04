@@ -8,19 +8,18 @@ title: Configuring-GoLand-for-WebAssembly
 
 ## Initial project configuration
 
-When you first open or start a WebAssembly project in GoLand, it won't understand the "*syscall/js*" package.
+When you first open or start a WebAssembly project in GoLand, it won't understand the "_syscall/js_" package.
 
 That's easily fixable, by changing the **GOOS** and **GOARCH** values in the project settings, as per the screenshots below.
 
 ![GoLand Wasm Setup pic1](https://github.com/leitzler/wasmWikiPics/raw/master/png/Golang-Wasm-Setup1.png)
 
-**Note** - The screenshot below shows how to access **Settings** on a Linux desktop.  If you're using macOS, you'll probably need to access them through the standard macOS **Preferences** option.
+**Note** - The screenshot below shows how to access **Settings** on a Linux desktop. If you're using macOS, you'll probably need to access them through the standard macOS **Preferences** option.
 ![GoLand Wasm Setup pic2](https://github.com/leitzler/wasmWikiPics/raw/master/png/Golang-Wasm-Setup2.png)
 
 ![GoLand Wasm Setup pic3](https://github.com/leitzler/wasmWikiPics/raw/master/png/Golang-Wasm-Setup3.png)
 
 ![GoLand Wasm Setup pic4](https://github.com/leitzler/wasmWikiPics/raw/master/png/Golang-Wasm-Setup4.png)
-
 
 ## Configuring Run/Debug settings
 

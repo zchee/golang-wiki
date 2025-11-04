@@ -4,7 +4,7 @@ title: WebAssembly
 
 ## Introduction
 
-Go 1.11 added an experimental port to WebAssembly.  Go 1.12 has
+Go 1.11 added an experimental port to WebAssembly. Go 1.12 has
 improved some parts of it, with further improvements expected in Go
 1.13. Go 1.21 added a new port targeting the WASI syscall API.
 
@@ -15,11 +15,12 @@ WebAssembly is described on its [home page](https://webassembly.org) as:
 > target for compilation of high-level languages like C/C++/Rust,
 > enabling deployment on the web for client and server applications.
 
-**********************************************************************
+---
+
 If you're new to WebAssembly read the [Getting Started](#getting-started) section, watch some of the [Go WebAssembly talks](#go-webassembly-talks),
 then take a look at the [Further examples](#further-examples) below.
-**********************************************************************
 
+---
 
 ## JavaScript (GOOS=js) port
 
@@ -29,7 +30,7 @@ This page assumes a functional Go 1.11 or newer installation. For
 troubleshooting, see the [Install Troubleshooting](/wiki/InstallTroubleshooting)
 page.
 
-> If you are on Windows, we suggest to follow this tutorial using a BASH emulation system such as Git Bash. 
+> If you are on Windows, we suggest to follow this tutorial using a BASH emulation system such as Git Bash.
 
 > For Go 1.23 and earlier, the wasm support files needed in this article are located in `misc/wasm`, and the path should be replaced when performing operations with files such as `lib/wasm/wasm_exec.js`.
 
@@ -179,6 +180,7 @@ ok  	example.org/my/pkg	0.800s
 ```
 
 Alternatively, use the `exec` test flag.
+
 ```sh
 GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
 ```
@@ -189,37 +191,37 @@ See https://pkg.go.dev/syscall/js.
 
 Also:
 
-* [`app`](https://github.com/maxence-charriere/app): A PWA-compatible, React-based framework with custom tooling.
+- [`app`](https://github.com/maxence-charriere/app): A PWA-compatible, React-based framework with custom tooling.
 
-* [`dom`](https://github.com/dennwc/dom): A library for streamlining DOM manipulation
-is in development.
+- [`dom`](https://github.com/dennwc/dom): A library for streamlining DOM manipulation
+  is in development.
 
-* [`dom`](https://pkg.go.dev/honnef.co/go/js/dom/v2): Go bindings for the JavaScript DOM APIs.
+- [`dom`](https://pkg.go.dev/honnef.co/go/js/dom/v2): Go bindings for the JavaScript DOM APIs.
 
-* [`domui`](https://github.com/reusee/domui): A pure Go framework for creating complete GUI application.
+- [`domui`](https://github.com/reusee/domui): A pure Go framework for creating complete GUI application.
 
-* [`gas`](https://github.com/gascore/gas): Components based framework for WebAssembly applications.
+- [`gas`](https://github.com/gascore/gas): Components based framework for WebAssembly applications.
 
-* [GoWebian](https://github.com/bgokden/gowebian): A library to build pages with pure Go and add WebAssembly bindings.
+- [GoWebian](https://github.com/bgokden/gowebian): A library to build pages with pure Go and add WebAssembly bindings.
 
-* [`hogusuru`](https://github.com/realPy/hogosuru): An advanced webassembly framework that implements most of the features (including indexeddb, serviceworker, websocket and much more) of browsers directly accessible in GO.
+- [`hogusuru`](https://github.com/realPy/hogosuru): An advanced webassembly framework that implements most of the features (including indexeddb, serviceworker, websocket and much more) of browsers directly accessible in GO.
 
-* [VECTY](https://github.com/hexops/vecty): Build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
+- [VECTY](https://github.com/hexops/vecty): Build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
 
-* [`vert`](https://github.com/norunners/vert): WebAssembly interop between Go and JS values.
+- [`vert`](https://github.com/norunners/vert): WebAssembly interop between Go and JS values.
 
-* [`vue`](https://github.com/norunners/vue): The progressive framework for WebAssembly applications.
+- [`vue`](https://github.com/norunners/vue): The progressive framework for WebAssembly applications.
 
-* [Vugu](https://github.com/vugu/vugu): A wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
+- [Vugu](https://github.com/vugu/vugu): A wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
 
-* [`webapi`](https://gowebapi.github.io/): A binding generator and generated bindings for DOM, HTML, WebGL, and more.
+- [`webapi`](https://gowebapi.github.io/): A binding generator and generated bindings for DOM, HTML, WebGL, and more.
 
-* [`webgen`](https://github.com/littleroot/webgen): Define components in HTML and generate Go types and constructor functions for them using [`webapi`](https://github.com/gowebapi/webapi).
+- [`webgen`](https://github.com/littleroot/webgen): Define components in HTML and generate Go types and constructor functions for them using [`webapi`](https://github.com/gowebapi/webapi).
 
 #### Canvas
 
-* A new [canvas drawing library](https://github.com/markfarnan/go-canvas) - seems pretty efficient.
-	* [Simple demo](https://markfarnan.github.io/go-canvas/)
+- A new [canvas drawing library](https://github.com/markfarnan/go-canvas) - seems pretty efficient.
+  - [Simple demo](https://markfarnan.github.io/go-canvas/)
 
 ### Configuring fetch options while using net/http
 
@@ -253,47 +255,50 @@ Please feel free to subscribe to [#26769](/issue/26769) for more context and pos
 
 ### WebAssembly in Chrome
 
-If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times.  Further info [here](https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/).
+If you run a newer version of Chrome there is a flag (`chrome://flags/#enable-webassembly-baseline`) to enable Liftoff, their new compiler, which should significantly improve load times. Further info [here](https://chinagdg.org/2018/08/liftoff-a-new-baseline-compiler-for-webassembly-in-v8/).
 
 ### Further examples
 
 #### General
-* [Shimmer](https://github.com/agnivade/shimmer) - Image transformation in wasm using Go. Live [DEMO](https://agniva.me/shimmer).
-* [Video filtering](https://wasm-webcam.herokuapp.com) - Filters for video from webcam ([source code](https://github.com/aarushik93/webcam-go))
-* [HandyTools](https://github.com/XD-DENG/handytools-go-webassembly) - Provide tools like
-base64 encoding/decoding, convert Unix time, etc (live [DEMO](https://handytools.xd-deng.com/))
+
+- [Shimmer](https://github.com/agnivade/shimmer) - Image transformation in wasm using Go. Live [DEMO](https://agniva.me/shimmer).
+- [Video filtering](https://wasm-webcam.herokuapp.com) - Filters for video from webcam ([source code](https://github.com/aarushik93/webcam-go))
+- [HandyTools](https://github.com/XD-DENG/handytools-go-webassembly) - Provide tools like
+  base64 encoding/decoding, convert Unix time, etc (live [DEMO](https://handytools.xd-deng.com/))
 
 #### Canvas (2D)
-* [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates
+
+- [GoWasm Experiments](https://github.com/stdiopt/gowasm-experiments) - Demonstrates
   working code for several common call types
-	* [bouncy](https://stdiopt.github.io/gowasm-experiments/bouncy)
-	* [rainbow-mouse](https://stdiopt.github.io/gowasm-experiments/rainbow-mouse)
-	* [repulsion](https://stdiopt.github.io/gowasm-experiments/repulsion)
-	* [bumpy](https://stdiopt.github.io/gowasm-experiments/bumpy) - Uses the 2d canvas, and a 2d physics engine.  Click around on the screen to create objects then watch as gravity takes hold!
-	* [arty](https://stdiopt.github.io/gowasm-experiments/arty/client)
-	* [hexy](https://stdiopt.github.io/gowasm-experiments/hexy) (**new**)
-* [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm)
-	* WASM port of an experimental Gameboy Color emulator.  The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/)
-  contains some interesting technical insights.
-* [TinyGo canvas](https://justinclift.github.io/tinygo_canvas2/)
-	* This is compiled with [TinyGo](https://tinygo.org) instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
-* [Car and Mouse](https://car-and-mouse.web.app/)
-	* A game where you gain points by leading a small canvas drawn car with your cursor
+  - [bouncy](https://stdiopt.github.io/gowasm-experiments/bouncy)
+  - [rainbow-mouse](https://stdiopt.github.io/gowasm-experiments/rainbow-mouse)
+  - [repulsion](https://stdiopt.github.io/gowasm-experiments/repulsion)
+  - [bumpy](https://stdiopt.github.io/gowasm-experiments/bumpy) - Uses the 2d canvas, and a 2d physics engine. Click around on the screen to create objects then watch as gravity takes hold!
+  - [arty](https://stdiopt.github.io/gowasm-experiments/arty/client)
+  - [hexy](https://stdiopt.github.io/gowasm-experiments/hexy) (**new**)
+- [Gomeboycolor-wasm](https://github.com/djhworld/gomeboycolor-wasm)
+  - WASM port of an experimental Gameboy Color emulator. The [matching blog post](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/)
+    contains some interesting technical insights.
+- [TinyGo canvas](https://justinclift.github.io/tinygo_canvas2/)
+  - This is compiled with [TinyGo](https://tinygo.org) instead of standard go, resulting in a **19.37kB (compressed)** wasm file.
+- [Car and Mouse](https://car-and-mouse.web.app/)
+  - A game where you gain points by leading a small canvas drawn car with your cursor
 
 #### Database
-* [TiDB-Wasm](https://github.com/pingcap/tidb/pull/13069) - Running TiDB, a golang database in the browser on Wasm.
+
+- [TiDB-Wasm](https://github.com/pingcap/tidb/pull/13069) - Running TiDB, a golang database in the browser on Wasm.
 
 #### WebGL canvas (3D)
-* [Basic triangle](https://bobcob7.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
-	* [Same thing, ported to TinyGo](https://justinclift.github.io/tinygo-wasm-basic-triangle/) ([source code](https://github.com/justinclift/tinygo-wasm-basic-triangle)) - ~14kB compressed (3% of the size of mainline Go version)
-* [Rotating cube](https://bobcob7.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
-	* [Same thing, ported to TinyGo](https://justinclift.github.io/tinygo-wasm-rotating-cube/) ([source code](https://github.com/justinclift/tinygo-wasm-rotating-cube)) - ~23kB compressed (4% of the size of mainline Go version)
-* [Splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
 
+- [Basic triangle](https://bobcob7.github.io/wasm-basic-triangle/) ([source code](https://github.com/bobcob7/wasm-basic-triangle)) - Creates a basic triangle in WebGL
+  - [Same thing, ported to TinyGo](https://justinclift.github.io/tinygo-wasm-basic-triangle/) ([source code](https://github.com/justinclift/tinygo-wasm-basic-triangle)) - ~14kB compressed (3% of the size of mainline Go version)
+- [Rotating cube](https://bobcob7.github.io/wasm-rotating-cube/) ([source code](https://github.com/bobcob7/wasm-rotating-cube)) - Creates a rotating cube in WebGL
+  - [Same thing, ported to TinyGo](https://justinclift.github.io/tinygo-wasm-rotating-cube/) ([source code](https://github.com/justinclift/tinygo-wasm-rotating-cube)) - ~23kB compressed (4% of the size of mainline Go version)
+- [Splashy](https://stdiopt.github.io/gowasm-experiments/splashy) ([source code](https://github.com/stdiopt/gowasm-experiments/tree/master/splashy)) - Click around on the screen to generate paint...
 
 ## WASI (GOOS=wasip1) port
 
-###  Getting Started (WASI)
+### Getting Started (WASI)
 
 Go 1.21 introduced WASI as a supported platform. To build for WASI, use the `wasip1` port:
 
@@ -305,18 +310,18 @@ The official blog has a helpful introduction to using the WASI port: [https://go
 
 ## Go WebAssembly talks
 
-* [Building a Calculator with Go and WebAssembly](https://www.youtube.com/watch?v=4kBvvk2Bzis) ([Source code](https://tutorialedge.net/golang/go-webassembly-tutorial/))
-* [Get Going with WebAssembly](https://www.youtube.com/watch?v=iTrx0BbUXI4)
-* [Go&WebAssembly简介 - by chai2010](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide) (Chinese)
-* [Go for frontend](https://www.youtube.com/watch?v=G8lptDqPP-0)
+- [Building a Calculator with Go and WebAssembly](https://www.youtube.com/watch?v=4kBvvk2Bzis) ([Source code](https://tutorialedge.net/golang/go-webassembly-tutorial/))
+- [Get Going with WebAssembly](https://www.youtube.com/watch?v=iTrx0BbUXI4)
+- [Go&WebAssembly简介 - by chai2010](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide) (Chinese)
+- [Go for frontend](https://www.youtube.com/watch?v=G8lptDqPP-0)
 
 ## Editor configuration
 
-* [Configuring GoLand and Intellij Ultimate for WebAssembly](/wiki/Configuring-GoLand-for-WebAssembly) - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
+- [Configuring GoLand and Intellij Ultimate for WebAssembly](/wiki/Configuring-GoLand-for-WebAssembly) - Shows the exact steps needed for getting Wasm working in GoLand and Intellij Ultimate
 
 ## Debugging
 
-WebAssembly doesn't *yet* have any support for debuggers, so you'll
+WebAssembly doesn't _yet_ have any support for debuggers, so you'll
 need to use the good 'ol `println()` approach for now to display
 output on the JavaScript console.
 
@@ -324,9 +329,9 @@ An official [WebAssembly Debugging Subgroup](https://github.com/WebAssembly/debu
 has been created to address this, with some initial investigation and
 proposals under way:
 
-* [WebAssembly Debugging Capabilities Living Standard](https://fitzgen.github.io/wasm-debugging-capabilities/)
+- [WebAssembly Debugging Capabilities Living Standard](https://fitzgen.github.io/wasm-debugging-capabilities/)
   ([source code for the doc](https://github.com/fitzgen/wasm-debugging-capabilities))
-* [DWARF for WebAssembly Target](https://yurydelendik.github.io/webassembly-dwarf/)
+- [DWARF for WebAssembly Target](https://yurydelendik.github.io/webassembly-dwarf/)
   ([source code for the doc](https://github.com/yurydelendik/webassembly-dwarf/))
 
 Please get involved and help drive this if you're interested in the Debugger side of things. :smile:
@@ -335,51 +340,51 @@ Please get involved and help drive this if you're interested in the Debugger sid
 
 [WebAssembly Code Explorer](https://wasdk.github.io/wasmcodeexplorer/) is useful for visualising the structure of a WebAssembly file.
 
-* Clicking on a hex value to the left will highlight the section it is part of, and the corresponding text representation on the right
-* Clicking a line on the right will highlight the hex byte representations for it on the left
+- Clicking on a hex value to the left will highlight the section it is part of, and the corresponding text representation on the right
+- Clicking a line on the right will highlight the hex byte representations for it on the left
 
 ## Reducing the size of Wasm files
 
-At present, Go generates large Wasm files, with the smallest possible size being around ~2MB.  If your Go code imports libraries, this file size can increase dramatically.  10MB+ is common.
+At present, Go generates large Wasm files, with the smallest possible size being around ~2MB. If your Go code imports libraries, this file size can increase dramatically. 10MB+ is common.
 
 There are two main ways (for now) to reduce this file size:
 
-1.	Manually compress the .wasm file.
-	- Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB.  It may be better to use [Zopfli](https://github.com/google/zopfli) to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
-	- Using [Brotli](https://github.com/google/brotli) for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too.  This [(new) Brotli compressor](https://github.com/andybalholm/brotli) looks reasonable.
+1. Manually compress the .wasm file.
+   - Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB. It may be better to use [Zopfli](https://github.com/google/zopfli) to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
+   - Using [Brotli](https://github.com/google/brotli) for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too. This [(new) Brotli compressor](https://github.com/andybalholm/brotli) looks reasonable.
 
-	Examples from [@johanbrandhorst](https://github.com/johanbrandhorst)
+   Examples from [@johanbrandhorst](https://github.com/johanbrandhorst)
 
-	**Example 1**
+   **Example 1**
 
-	| Size | Command                            | Compression time |
-	|------|:-----------------------------------|------------------|
-	| 16M  | (uncompressed size)                | N/A              |
-	| 2.4M | `brotli -o test.wasm.br test.wasm` | 53.6s            |
-	| 3.3M | `go-zopfli test.wasm`              | 3m 2.6s          |
-	| 3.4M | `gzip --best test.wasm`            | 2.5s             |
-	| 3.4M | `gzip test.wasm`                   | 0.8s             |
+   | Size | Command                            | Compression time |
+   | ---- | :--------------------------------- | ---------------- |
+   | 16M  | (uncompressed size)                | N/A              |
+   | 2.4M | `brotli -o test.wasm.br test.wasm` | 53.6s            |
+   | 3.3M | `go-zopfli test.wasm`              | 3m 2.6s          |
+   | 3.4M | `gzip --best test.wasm`            | 2.5s             |
+   | 3.4M | `gzip test.wasm`                   | 0.8s             |
 
-	**Example 2**
+   **Example 2**
 
-	| Size | Command                            | Compression time |
-	|------|:-----------------------------------|------------------|
-	| 2.3M | (uncompressed size)                | N/A              |
-	| 496K | `brotli -o main.wasm.br main.wasm` | 5.7s             |
-	| 640K | `go-zopfli main.wasm`              | 16.2s            |
-	| 660K | `gzip --best main.wasm`            | 0.2s             |
-	| 668K | `gzip main.wasm`                   | 0.2s             |
+   | Size | Command                            | Compression time |
+   | ---- | :--------------------------------- | ---------------- |
+   | 2.3M | (uncompressed size)                | N/A              |
+   | 496K | `brotli -o main.wasm.br main.wasm` | 5.7s             |
+   | 640K | `go-zopfli main.wasm`              | 16.2s            |
+   | 660K | `gzip --best main.wasm`            | 0.2s             |
+   | 668K | `gzip main.wasm`                   | 0.2s             |
 
-	Use something like https://github.com/lpar/gzipped to automatically serve compressed files with correct headers, when available.
+   Use something like https://github.com/lpar/gzipped to automatically serve compressed files with correct headers, when available.
 
-2.	Use [TinyGo](https://github.com/tinygo-org/tinygo) to generate the Wasm file instead.
+2. Use [TinyGo](https://github.com/tinygo-org/tinygo) to generate the Wasm file instead.
 
-	TinyGo supports a subset of the Go language targeted for embedded devices, and has a WebAssembly output target.
+   TinyGo supports a subset of the Go language targeted for embedded devices, and has a WebAssembly output target.
 
-	While it does have limitations (not yet a full Go implementation), it is still fairly capable and the generated Wasm files are... tiny.  ~10kB isn't unusual.  The "Hello world" example is 575 bytes.  If you `gz -6` that, it drops down to 408 bytes. :wink:
+   While it does have limitations (not yet a full Go implementation), it is still fairly capable and the generated Wasm files are... tiny. ~10kB isn't unusual. The "Hello world" example is 575 bytes. If you `gz -6` that, it drops down to 408 bytes. :wink:
 
-	This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/docs/guides/webassembly/ for more information on using WebAssembly with TinyGo.
+   This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/docs/guides/webassembly/ for more information on using WebAssembly with TinyGo.
 
 ## Other WebAssembly resources
 
-* [Awesome-Wasm](https://github.com/mbasso/awesome-wasm) - An extensive list of further Wasm resources.  Not Go specific.
+- [Awesome-Wasm](https://github.com/mbasso/awesome-wasm) - An extensive list of further Wasm resources. Not Go specific.

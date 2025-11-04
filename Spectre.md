@@ -24,7 +24,7 @@ These three conditions are only very rarely all true at the same time.
 
 To build a program with both mitigations (and any future mitigations) enabled in all packages, use:
 
-	go build -gcflags=all=-spectre=all -asmflags=all=-spectre=all program
+    go build -gcflags=all=-spectre=all -asmflags=all=-spectre=all program
 
 ## Acknowledgements
 
@@ -55,4 +55,3 @@ by Chandler Carruth. (What LLVM does to prevent speculative out-of-bounds access
 
 “[Bypassing memory safety mechanisms through speculative control flow hijacks](https://arxiv.org/pdf/2003.05503.pdf)”\
 by Andrea Mambretti _et al_. (Examination of effects on memory-safe languages.)
-

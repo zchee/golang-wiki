@@ -13,6 +13,7 @@ $ go install golang.org/x/build/cmd/gomote@latest  # Go 1.16 and later
 ## Usage
 
 The most basic usage of the gomote tool involves just a few steps:
+
 1. Create an instance.
 1. Push code to the instance.
 1. Run commands on the instance.
@@ -73,12 +74,13 @@ For more information on each command run `gomote help <command>`. For more comma
 Available builder types follow a certain structure, loosely `$GOBRANCH-($REPO-)?$GOOS-$GOARCH(_$OS)-$EXTRA`.
 
 A few useful notes about these names.
+
 - Different `$GOBRANCH` mainly modify the preinstalled tool versions, like the bootstrap Go toolchain.
 - Builder types with `$REPO` will have the specified repository downloaded to the work root at tip-of-tree.
 
 ### Debugging buildlets directly
 
-The `create` command contacts the build coordinator (farmer.golang.org) and requests that it create the buildlet on your behalf. All subsequent commands (such as `gomote run` or `gomote ls`) then proxy your request via the coordinator.  To access a buildlet directly (for example, when working on the buildlet code), you can skip the `gomote create` step and use the special builder name `<build-config-name>@ip[:port>`, such as `windows-amd64-2008@10.1.5.3`.
+The `create` command contacts the build coordinator (farmer.golang.org) and requests that it create the buildlet on your behalf. All subsequent commands (such as `gomote run` or `gomote ls`) then proxy your request via the coordinator. To access a buildlet directly (for example, when working on the buildlet code), you can skip the `gomote create` step and use the special builder name `<build-config-name>@ip[:port>`, such as `windows-amd64-2008@10.1.5.3`.
 
 ### Groups
 
@@ -110,6 +112,7 @@ As this example demonstrates, groups are useful even if the group contains only 
 The `create` command accepts the `-setup` flag which also pushes a `GOROOT` and runs the appropriate equivalent of `make.bash` for the instance.
 
 Example:
+
 ```
 $ GOROOT=/path/to/my/goroot gomote create -setup gotip-linux-amd64
 # Creating user-gotip-linux-amd64-0...
@@ -120,6 +123,7 @@ $ GOROOT=/path/to/my/goroot gomote create -setup gotip-linux-amd64
 The `create` command accepts the `-count` flag for creating several instances at once.
 
 Example:
+
 ```
 $ gomote create -count=3 gotip-linux-amd64
 # Creating user-gotip-linux-amd64-0...
@@ -130,6 +134,7 @@ $ gomote create -count=3 gotip-linux-amd64
 The `run` command accepts the `-collect` flag for automatically writing the output from the command to a file in the current working directory, as well as a copy of the full file tree from the instance. This command is useful for capturing the output of long-running commands in a set-and-forget manner.
 
 Example:
+
 ```
 $ gomote run -collect user-gotip-linux-amd64-0 /bin/bash -c 'echo hi'
 # Writing output to user-gotip-linux-amd64-0.stdout...
@@ -142,6 +147,7 @@ user-gotip-linux-amd64-0.tar.gz
 The `run` command accepts the `-until` flag for continuously executing a command until the output of the command matches some pattern. This is useful for reproducing rare issues, and especially useful when used together with `-collect`.
 
 Example:
+
 ```
 $ gomote run -until 'FAIL' -collect user-gotip-linux-amd64-0 go/bin/go test -run 'TestFlaky' -count=1000 runtime
 # Writing output to user-gotip-linux-amd64-0.stdout...
@@ -212,6 +218,7 @@ export MOTE=`gomote create android-arm64-wikofever`
 gomote push $MOTE
 gomote run $MOTE go/src/make.bash
 ```
+
 PATH must contain the exec wrapper, `go_android_*_exec`, built by make.bash.
 
 ```

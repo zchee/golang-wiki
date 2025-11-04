@@ -7,6 +7,7 @@ Accessibility or "a11y" is an increasingly important topic in web development. I
 Accessibility is a large topic that ranges from the merely esoteric to the excruciatingly abstruse.
 
 There are, however, a number of simple rules of thumb to follow that greatly reduce the chances of creating an inaccessible page by accident:
+
 - Prefer semantic markup. The native html elements have a great deal of accessibility baked in with no need to turn anything on or turn anything off. If you have a list of things use `ul` or `ol` even if you do not want it to be displayed as a list. The extra CSS is worth it.
 - When using headers (`h1`-`h6`) never skip a level and make sure they nest logically so that, for example, an `h4` is a logical subsection of the previous `h3`. Screen readers use these as navigational landmarks, similar to a table of contents.
 - Avoid layouts that work against the source order of the document. It's very easy to rearrange element with flexbox and grid but when you do the focus order remains unchanged. Someone navigating the site by keyboard will jump from place to place seemingly at random, making it very hard to follow what's going on.
@@ -27,7 +28,7 @@ There are, however, a number of simple rules of thumb to follow that greatly red
 
 ## Chrome
 
-Chrome has some quite useful built in a11y tools, but you need to enable them by going to settings > experiments in the dev tools and checking "Accessibility Inspection". 
+Chrome has some quite useful built in a11y tools, but you need to enable them by going to settings > experiments in the dev tools and checking "Accessibility Inspection".
 
 - [Google's Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb) Largely integrated into the Chrome dev tools but still has some features not yet included like access to the full Accessibility Tree.
 - [aXe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) Decent static analyzer. It's the basis for the accessibility audit in Chrome Dev tools but this extension includes much more information and runs more tests. (Also available for Firefox, but has much better integration in Chrome).
@@ -38,6 +39,7 @@ Chrome has some quite useful built in a11y tools, but you need to enable them by
 - [Funkify](https://chrome.google.com/webstore/detail/funkify-disability-simula/ojcijjdchelkddboickefhnbdpeajdjg) An easy to use disability simulator.
 
 # Further Reading
+
 - http://a11yproject.com/
 - https://inclusive-components.design/
 - https://accessibility.blog.gov.uk/

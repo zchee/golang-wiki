@@ -52,6 +52,7 @@ like [langchaingo](https://pkg.go.dev/github.com/tmc/langchaingo) or
 ## How do I call a hosted service from Go?
 
 It varies from service to service, but the basic steps are
+
 - create a client
 - assemble a message to send to the model
   - the message will include a prompt that asks a question or tells

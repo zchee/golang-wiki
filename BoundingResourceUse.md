@@ -30,4 +30,3 @@ func handle(r *Request) {
 ## References
 
 Effective Go's discussion of channels: https://go.dev/doc/effective_go#channels
-

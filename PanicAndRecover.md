@@ -2,16 +2,15 @@
 title: PanicAndRecover
 ---
 
-Table of Contents
-=================
+# Table of Contents
 
-+ [Panic](#panic)
-+ [Usage in a Package](#usage-in-a-package)
-+ [References](#references)
+- [Panic](#panic)
+- [Usage in a Package](#usage-in-a-package)
+- [References](#references)
 
 ## Panic
 
-The `panic` and `recover` functions behave similarly to exceptions and try/catch in some other languages in that a `panic` causes the program stack to begin unwinding and `recover` can stop it. Deferred functions are still executed as the stack unwinds. If `recover` is called inside such a deferred function, the stack stops unwinding and `recover` returns the value (as an `interface{}`) that was passed to `panic`. The runtime will also panic in extraordinary circumstances, such as indexing an array or slice out-of-bounds.  If a `panic` causes the stack to unwind outside of any executing goroutine (e.g. `main` or the top-level function given to `go` fail to recover from it), the program exits with a stack trace of all executing goroutines. A `panic` cannot be `recover`ed by a different goroutine.
+The `panic` and `recover` functions behave similarly to exceptions and try/catch in some other languages in that a `panic` causes the program stack to begin unwinding and `recover` can stop it. Deferred functions are still executed as the stack unwinds. If `recover` is called inside such a deferred function, the stack stops unwinding and `recover` returns the value (as an `interface{}`) that was passed to `panic`. The runtime will also panic in extraordinary circumstances, such as indexing an array or slice out-of-bounds. If a `panic` causes the stack to unwind outside of any executing goroutine (e.g. `main` or the top-level function given to `go` fail to recover from it), the program exits with a stack trace of all executing goroutines. A `panic` cannot be `recover`ed by a different goroutine.
 
 ## Usage in a Package
 
@@ -63,6 +62,7 @@ func fields2numbers(fields []string) (numbers []int) {
 ```
 
 To demonstrate the behavior, consider the following main function:
+
 ```go
 func main() {
 	var examples = []string{
@@ -86,9 +86,9 @@ func main() {
 ```
 
 ## References
+
 [Defer, Panic and Recover](https://go.dev/blog/defer-panic-and-recover)
 
 https://go.dev/ref/spec#Handling_panics
 
 https://go.dev/ref/spec#Run_time_panics
-

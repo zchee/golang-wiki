@@ -14,37 +14,37 @@ Google has published a longer [Go Style Guide](https://google.github.io/stylegui
 
 **Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
-* [Gofmt](#gofmt)
-* [Comment Sentences](#comment-sentences)
-* [Contexts](#contexts)
-* [Copying](#copying)
-* [Crypto Rand](#crypto-rand)
-* [Declaring Empty Slices](#declaring-empty-slices)
-* [Doc Comments](#doc-comments)
-* [Don't Panic](#dont-panic)
-* [Error Strings](#error-strings)
-* [Examples](#examples)
-* [Goroutine Lifetimes](#goroutine-lifetimes)
-* [Handle Errors](#handle-errors)
-* [Imports](#imports)
-* [Import Blank](#import-blank)
-* [Import Dot](#import-dot)
-* [In-Band Errors](#in-band-errors)
-* [Indent Error Flow](#indent-error-flow)
-* [Initialisms](#initialisms)
-* [Interfaces](#interfaces)
-* [Line Length](#line-length)
-* [Mixed Caps](#mixed-caps)
-* [Named Result Parameters](#named-result-parameters)
-* [Naked Returns](#naked-returns)
-* [Package Comments](#package-comments)
-* [Package Names](#package-names)
-* [Pass Values](#pass-values)
-* [Receiver Names](#receiver-names)
-* [Receiver Type](#receiver-type)
-* [Synchronous Functions](#synchronous-functions)
-* [Useful Test Failures](#useful-test-failures)
-* [Variable Names](#variable-names)
+- [Gofmt](#gofmt)
+- [Comment Sentences](#comment-sentences)
+- [Contexts](#contexts)
+- [Copying](#copying)
+- [Crypto Rand](#crypto-rand)
+- [Declaring Empty Slices](#declaring-empty-slices)
+- [Doc Comments](#doc-comments)
+- [Don't Panic](#dont-panic)
+- [Error Strings](#error-strings)
+- [Examples](#examples)
+- [Goroutine Lifetimes](#goroutine-lifetimes)
+- [Handle Errors](#handle-errors)
+- [Imports](#imports)
+- [Import Blank](#import-blank)
+- [Import Dot](#import-dot)
+- [In-Band Errors](#in-band-errors)
+- [Indent Error Flow](#indent-error-flow)
+- [Initialisms](#initialisms)
+- [Interfaces](#interfaces)
+- [Line Length](#line-length)
+- [Mixed Caps](#mixed-caps)
+- [Named Result Parameters](#named-result-parameters)
+- [Naked Returns](#naked-returns)
+- [Package Comments](#package-comments)
+- [Package Names](#package-names)
+- [Pass Values](#pass-values)
+- [Receiver Names](#receiver-names)
+- [Receiver Type](#receiver-type)
+- [Synchronous Functions](#synchronous-functions)
+- [Useful Test Failures](#useful-test-failures)
+- [Variable Names](#variable-names)
 
 ## Gofmt
 
@@ -54,7 +54,7 @@ An alternative is to use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/g
 
 ## Comment Sentences
 
-See https://go.dev/doc/effective_go#commentary.  Comments documenting declarations should be full sentences, even if that seems a little redundant.  This approach makes them format well when extracted into godoc documentation.  Comments should begin with the name of the thing being described and end in a period:
+See https://go.dev/doc/effective_go#commentary. Comments documenting declarations should be full sentences, even if that seems a little redundant. This approach makes them format well when extracted into godoc documentation. Comments should begin with the name of the thing being described and end in a period:
 
 ```go
 // Request represents a request to run a command.
@@ -121,8 +121,7 @@ If you need text, use [`crypto/rand.Text`](https://pkg.go.dev/crypto/rand#Text),
 or alternatively, encode random bytes with [`encoding/hex`](https://pkg.go.dev/encoding/hex)
 or [`encoding/base64`](https://pkg.go.dev/encoding/base64).
 
-
-``` go
+```go
 import (
 	"crypto/rand"
 	"fmt"
@@ -200,7 +199,6 @@ Avoid renaming imports except to avoid a name collision; good package names
 should not require renaming. In the event of collision, prefer to rename the most
 local or project-specific import.
 
-
 Imports are organized in groups, with blank lines between them.
 The standard library packages are always in the first group.
 
@@ -238,7 +236,7 @@ import (
 )
 ```
 
-In this case, the test file cannot be in package foo because it uses bar/testutil, which imports foo.  So we use the 'import .' form to let the file pretend to be part of package foo even though it is not.  Except for this one case, do not use import . in your programs.  It makes the programs much harder to read because it is unclear whether a name like Quux is a top-level identifier in the current package or in an imported package.
+In this case, the test file cannot be in package foo because it uses bar/testutil, which imports foo. So we use the 'import .' form to let the file pretend to be part of package foo even though it is not. Except for this one case, do not use import . in your programs. It makes the programs much harder to read because it is unclear whether a name like Quux is a top-level identifier in the current package or in an imported package.
 
 ## In-Band Errors
 
@@ -259,20 +257,20 @@ an additional value to indicate whether its other return values are valid. This 
 value may be an error, or a boolean when no explanation is needed.
 It should be the final return value.
 
-``` go
+```go
 // Lookup returns the value for key or ok=false if there is no mapping for key.
 func Lookup(key string) (value string, ok bool)
 ```
 
 This prevents the caller from using the result incorrectly:
 
-``` go
+```go
 Parse(Lookup(key))  // compile-time error
 ```
 
 And encourages more robust and readable code:
 
-``` go
+```go
 value, ok := Lookup(key)
 if !ok {
 	return fmt.Errorf("no value for %q", key)
@@ -360,7 +358,7 @@ Do not define interfaces before they are used: without a realistic example
 of usage, it is too difficult to see whether an interface is even necessary,
 let alone what methods it ought to contain.
 
-``` go
+```go
 package consumer  // consumer.go
 
 type Thinger interface { Thing() bool }
@@ -368,7 +366,7 @@ type Thinger interface { Thing() bool }
 func Foo(t Thinger) string { … }
 ```
 
-``` go
+```go
 package consumer // consumer_test.go
 
 type fakeThinger struct{ … }
@@ -377,7 +375,7 @@ func (t fakeThinger) Thing() bool { … }
 if Foo(fakeThinger{…}) == "x" { … }
 ```
 
-``` go
+```go
 // DO NOT DO IT!!!
 package producer
 
@@ -390,7 +388,8 @@ func NewThinger() Thinger { return defaultThinger{ … } }
 ```
 
 Instead return a concrete type and let the consumer mock the producer implementation.
-``` go
+
+```go
 package producer
 
 type Thinger struct{ … }
@@ -427,7 +426,7 @@ Also see [Initialisms](/wiki/CodeReviewComments#initialisms).
 
 ## Named Result Parameters
 
-Consider what it will look like in godoc.  Named result parameters like:
+Consider what it will look like in godoc. Named result parameters like:
 
 ```go
 func (n *Node) Parent1() (node *Node) {}
@@ -446,7 +445,6 @@ or if the meaning of a result isn't clear from context, adding names may be usef
 in some contexts. Don't name result parameters just to avoid declaring a var inside
 the function; that trades off a minor implementation brevity at the cost of
 unnecessary API verbosity.
-
 
 ```go
 func (f *Foo) Location() (float64, float64, error)
@@ -467,7 +465,6 @@ Clarity of docs is always more important than saving a line or two in your funct
 
 Finally, in some cases you need to name a result parameter in order to change
 it in a deferred closure. That is always OK.
-
 
 ## Naked Returns
 
@@ -503,31 +500,41 @@ package template
 
 For "package main" comments, other styles of comment are fine after the binary name (and it may be capitalized if it comes first), For example, for a `package main` in the directory `seedgen` you could write:
 
-``` go
+```go
 // Binary seedgen ...
 package main
 ```
+
 or
+
 ```go
 // Command seedgen ...
 package main
 ```
+
 or
+
 ```go
 // Program seedgen ...
 package main
 ```
+
 or
+
 ```go
 // The seedgen command ...
 package main
 ```
+
 or
+
 ```go
 // The seedgen program ...
 package main
 ```
+
 or
+
 ```go
 // Seedgen ..
 package main
@@ -555,7 +562,7 @@ https://go.dev/blog/package-names for more.
 
 ## Pass Values
 
-Don't pass pointers as function arguments just to save a few bytes.  If a function refers to its argument `x` only as `*x` throughout, then the argument shouldn't be a pointer.  Common instances of this include passing a pointer to a string (`*string`) or a pointer to an interface value (`*io.Reader`).  In both cases the value itself is a fixed size and can be passed directly.  This advice does not apply to large structs, or even small structs that might grow.
+Don't pass pointers as function arguments just to save a few bytes. If a function refers to its argument `x` only as `*x` throughout, then the argument shouldn't be a pointer. Common instances of this include passing a pointer to a string (`*string`) or a pointer to an interface value (`*io.Reader`). In both cases the value itself is a fixed size and can be passed directly. This advice does not apply to large structs, or even small structs that might grow.
 
 ## Receiver Names
 
@@ -563,17 +570,17 @@ The name of a method's receiver should be a reflection of its identity; often a 
 
 ## Receiver Type
 
-Choosing whether to use a value or pointer receiver on methods can be difficult, especially to new Go programmers.  If in doubt, use a pointer, but there are times when a value receiver makes sense, usually for reasons of efficiency, such as for small unchanging structs or values of basic type. Some useful guidelines:
+Choosing whether to use a value or pointer receiver on methods can be difficult, especially to new Go programmers. If in doubt, use a pointer, but there are times when a value receiver makes sense, usually for reasons of efficiency, such as for small unchanging structs or values of basic type. Some useful guidelines:
 
-  * If the receiver is a map, func or chan, don't use a pointer to them. If the receiver is a slice and the method doesn't reslice or reallocate the slice, don't use a pointer to it.
-  * If the method needs to mutate the receiver, the receiver must be a pointer.
-  * If the receiver is a struct that contains a sync.Mutex or similar synchronizing field, the receiver must be a pointer to avoid copying.
-  * If the receiver is a large struct or array, a pointer receiver is more efficient.  How large is large?  Assume it's equivalent to passing all its elements as arguments to the method.  If that feels too large, it's also too large for the receiver.
-  * Can function or methods, either concurrently or when called from this method, be mutating the receiver? A value type creates a copy of the receiver when the method is invoked, so outside updates will not be applied to this receiver. If changes must be visible in the original receiver, the receiver must be a pointer.
-  * If the receiver is a struct, array or slice and any of its elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to the reader.
-  * If the receiver is a small array or struct that is naturally a value type (for instance, something like the time.Time type), with no mutable fields and no pointers, or is just a simple basic type such as int or string, a value receiver makes sense.  A value receiver can reduce the amount of garbage that can be generated; if a value is passed to a value method, an on-stack copy can be used instead of allocating on the heap. (The compiler tries to be smart about avoiding this allocation, but it can't always succeed.) Don't choose a value receiver type for this reason without profiling first.
-  * Don't mix receiver types. Choose either pointers or struct types for all available methods.
-  * Finally, when in doubt, use a pointer receiver.
+- If the receiver is a map, func or chan, don't use a pointer to them. If the receiver is a slice and the method doesn't reslice or reallocate the slice, don't use a pointer to it.
+- If the method needs to mutate the receiver, the receiver must be a pointer.
+- If the receiver is a struct that contains a sync.Mutex or similar synchronizing field, the receiver must be a pointer to avoid copying.
+- If the receiver is a large struct or array, a pointer receiver is more efficient. How large is large? Assume it's equivalent to passing all its elements as arguments to the method. If that feels too large, it's also too large for the receiver.
+- Can function or methods, either concurrently or when called from this method, be mutating the receiver? A value type creates a copy of the receiver when the method is invoked, so outside updates will not be applied to this receiver. If changes must be visible in the original receiver, the receiver must be a pointer.
+- If the receiver is a struct, array or slice and any of its elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to the reader.
+- If the receiver is a small array or struct that is naturally a value type (for instance, something like the time.Time type), with no mutable fields and no pointers, or is just a simple basic type such as int or string, a value receiver makes sense. A value receiver can reduce the amount of garbage that can be generated; if a value is passed to a value method, an on-stack copy can be used instead of allocating on the heap. (The compiler tries to be smart about avoiding this allocation, but it can't always succeed.) Don't choose a value receiver type for this reason without profiling first.
+- Don't mix receiver types. Choose either pointers or struct types for all available methods.
+- Finally, when in doubt, use a pointer receiver.
 
 ## Synchronous Functions
 
@@ -585,7 +592,7 @@ If callers need more concurrency, they can add it easily by calling the function
 
 ## Useful Test Failures
 
-Tests should fail with helpful messages saying what was wrong, with what inputs, what was actually got, and what was expected.  It may be tempting to write a bunch of assertFoo helpers, but be sure your helpers produce useful error messages.  Assume that the person debugging your failing test is not you, and is not your team.  A typical Go test fails like:
+Tests should fail with helpful messages saying what was wrong, with what inputs, what was actually got, and what was expected. It may be tempting to write a bunch of assertFoo helpers, but be sure your helpers produce useful error messages. Assume that the person debugging your failing test is not you, and is not your team. A typical Go test fails like:
 
 ```go
 if got != tt.want {
@@ -608,10 +615,8 @@ In any case, the onus is on you to fail with a helpful message to whoever's debu
 
 ## Variable Names
 
-Variable names in Go should be short rather than long.  This is especially true for local variables with limited scope.  Prefer `c` to `lineCount`.  Prefer `i` to `sliceIndex`.
+Variable names in Go should be short rather than long. This is especially true for local variables with limited scope. Prefer `c` to `lineCount`. Prefer `i` to `sliceIndex`.
 
 The basic rule: the further from its declaration that a name is used, the more descriptive the name must be. For a method receiver, one or two letters is sufficient. Common variables such as loop indices and readers can be a single letter (`i`, `r`). More unusual things and global variables need more descriptive names.
 
 See also the longer discussion in [the Google Go Style Guide](https://google.github.io/styleguide/go/decisions#variable-names).
-
-

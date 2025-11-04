@@ -32,6 +32,7 @@ func RateLimitCall(client Client, payloads []*Payload) {
 ```
 
 To allow some bursts, add a buffer to the throttle:
+
 ```go
 import "time"
 
@@ -71,4 +72,3 @@ func BurstRateLimitCall(ctx context.Context, client Client, payloads []*Payload,
   }
 }
 ```
-

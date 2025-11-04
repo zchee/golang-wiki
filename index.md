@@ -247,4 +247,3 @@ See [MinimumRequirements](MinimumRequirements) for minimum platform requirements
 Notes:
 
 - Please refrain from changing the title of the wiki pages, as some of them might be linked to from [golang.org](https://golang.org) or other websites
-

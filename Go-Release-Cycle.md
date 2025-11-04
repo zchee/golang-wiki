@@ -177,4 +177,3 @@ testing and process improvements in 2022 and 2023 led to a timely 1.19 release.
 For 1.20, the development window was expanded with a late freeze and early thaw.
 These changes were formalized for the 1.21 release. We anticipate continuing to
 ship on time.
-

@@ -8,25 +8,25 @@ Be sure to familiarize yourself with the code review process from the official [
 
 There are several terms code reviews may use that you should become familiar with.
 
-* ` LGTM ` — looks good to me
-* ` SGTM ` — sounds good to me
-* ` PTAL ` — please take a look
-* ` s/foo/bar/ ` — please replace ` foo ` with ` bar `; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage)
-* ` s/foo/bar/g ` — please replace ` foo ` with ` bar ` throughout your entire change
+- `LGTM` — looks good to me
+- `SGTM` — sounds good to me
+- `PTAL` — please take a look
+- `s/foo/bar/` — please replace `foo` with `bar`; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage)
+- `s/foo/bar/g` — please replace `foo` with `bar` throughout your entire change
 
 # CL Directives
 
-* `R=foo` — assign a reviewer within the [Go CL dashboard](https://swtch.com/godash/)
-* `DO NOT SUBMIT` (in the commit message) — block submission; see the "Work in progress" section below
-* `Updates #1234` or `Fixes #1234` (in the commit message) — link the CL from the GitHub issue and optionally close the issue after the CL is merged
+- `R=foo` — assign a reviewer within the [Go CL dashboard](https://swtch.com/godash/)
+- `DO NOT SUBMIT` (in the commit message) — block submission; see the "Work in progress" section below
+- `Updates #1234` or `Fixes #1234` (in the commit message) — link the CL from the GitHub issue and optionally close the issue after the CL is merged
 
 # Email
 
 Messages from a code review are typically sent to three places:
 
-* the reviewers, if any
-* the golang-codereviews group
-* the owner
+- the reviewers, if any
+- the golang-codereviews group
+- the owner
 
 Please do NOT reply code review via email, as the message [will not be relayed to Gerrit](https://code.google.com/p/gerrit/issues/detail?id=228). Always click on the link and post reply in Gerrit.
 
@@ -54,4 +54,4 @@ Gerrit's code review model is to rewrite a single commit until it is correct. Gi
 $ git remote add --mirror=push fork git@github.com:yourusername/go.git
 ```
 
-Then running `git push fork` will update GitHub to perfectly mirror *everything* (all branches, all tags, etc.). This is handy, but take care when using this on multiple clients. You are bypassing the usual git safeguards, so it is easy to overwrite (and thus lose) work pushed by a different client.
+Then running `git push fork` will update GitHub to perfectly mirror _everything_ (all branches, all tags, etc.). This is handy, but take care when using this on multiple clients. You are bypassing the usual git safeguards, so it is easy to overwrite (and thus lose) work pushed by a different client.

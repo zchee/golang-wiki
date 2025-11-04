@@ -13,7 +13,7 @@ Download `fetchlogs` by `go get golang.org/x/build/cmd/fetchlogs`
 
 You may also want to take a look at
 `github.com/aclements/go-misc/greplogs`. It's a useful tool by Austin
-to run grep over logs fetched by fetchlogs. 
+to run grep over logs fetched by fetchlogs.
 
 Also `github.com/aclements/findflakes` can make some guesses as to when a
 flaky test started failing.

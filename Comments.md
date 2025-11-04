@@ -32,6 +32,7 @@ These are `//go:build` directives that describe conditions under which
 a file should be included in the package.
 
 Sample uses of constraints are:
+
 - `//go:build ignore` is a convention that will keep a file from being
   part of the build. This is often used for programs that generate
   source code.
@@ -43,6 +44,7 @@ Sample uses of constraints are:
   using pure Go; that is, no cgo or assembler code.
 
 Constraints may also be expressions:
+
 - `//go:build amd64 || arm64` will build a file on either amd64 or
   arm64.
 

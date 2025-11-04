@@ -35,4 +35,3 @@ To signal that a package is frozen and is not accepting new features, add a para
 ```
 // The text/tabwriter package is frozen and is not accepting new features.
 ```
-

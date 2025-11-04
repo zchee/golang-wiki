@@ -2,8 +2,7 @@
 title: "Code Review: Go Concurrency"
 ---
 
-This page is an addition to the [Go Code Review Comments](
-/wiki/CodeReviewComments) list. The goal of this list is to help to find
+This page is an addition to the [Go Code Review Comments](/wiki/CodeReviewComments) list. The goal of this list is to help to find
 concurrency-related bugs when reviewing Go code.
 
 You may also read through this list just once to refresh your memory and to make sure you are aware
@@ -14,29 +13,31 @@ of all these concurrency gotchas.
 <hr>
 
 Insufficient synchronisation and race conditions
- - [HTTP handler functions are thread-safe?](#http-handlers)
- - [Global functions and variables are protected by mutexes or otherwise thread-safe?](
-   https://go.dev/doc/articles/race_detector#Unprotected_global_variable)
- - [*Reads* of fields and variables are protected?](#sync-balance)
- - [The loop variable is passed into the goroutine function as an argument?](
-   https://go.dev/doc/articles/race_detector#Race_on_loop_counter)
- - [Methods on thread-safe types don't return pointers to protected structures?](#return-pointer)
- - [`Load()` or `Delete()` calls on a `sync.Map` after `Load()` is not a race condition?
-   ](#sync-map-race)
+
+- [HTTP handler functions are thread-safe?](#http-handlers)
+- [Global functions and variables are protected by mutexes or otherwise thread-safe?](https://go.dev/doc/articles/race_detector#Unprotected_global_variable)
+- [_Reads_ of fields and variables are protected?](#sync-balance)
+- [The loop variable is passed into the goroutine function as an argument?](https://go.dev/doc/articles/race_detector#Race_on_loop_counter)
+- [Methods on thread-safe types don't return pointers to protected structures?](#return-pointer)
+- [`Load()` or `Delete()` calls on a `sync.Map` after `Load()` is not a race condition?
+  ](#sync-map-race)
 
 Testing
- - [Running tests with `-race` flag in CI/CD?](https://go.dev/doc/articles/race_detector)
+
+- [Running tests with `-race` flag in CI/CD?](https://go.dev/doc/articles/race_detector)
 
 Scalability
- - [A channel is intentionally created with zero capacity?](#zero-cap-ch)
- - [*Not* using `sync.RWMutex` to protect very short operations?](#rwmutex)
+
+- [A channel is intentionally created with zero capacity?](#zero-cap-ch)
+- [_Not_ using `sync.RWMutex` to protect very short operations?](#rwmutex)
 
 Time
- - [`time.Ticker` is stopped using `defer tick.Stop()`?](#ticker-stop)
- - [Comparing `time.Time` using `Equal()`, not `==`?](#time-eq)
- - [Keeping the monotonic component in `time.Time` argument of `time.Since()`?](#time-since)
- - [When comparing *system times* via `t.Before(u)`, the monotonic component is stripped
-   from the argument?](#time-before)
+
+- [`time.Ticker` is stopped using `defer tick.Stop()`?](#ticker-stop)
+- [Comparing `time.Time` using `Equal()`, not `==`?](#time-eq)
+- [Keeping the monotonic component in `time.Time` argument of `time.Since()`?](#time-since)
+- [When comparing _system times_ via `t.Before(u)`, the monotonic component is stripped
+  from the argument?](#time-before)
 
 <hr>
 
@@ -55,13 +56,13 @@ the field or the variable is a primitive or of a type that is not explicitly thr
 synchronising reads even to primitive variables because of non-atomic hardware writes and potential
 memory visibility problems.
 
-See also a [Typical Data Race: Primitive unprotected variable](
-https://go.dev/doc/articles/race_detector#Primitive_unprotected_variable).
+See also a [Typical Data Race: Primitive unprotected variable](https://go.dev/doc/articles/race_detector#Primitive_unprotected_variable).
 
 <a name="return-pointer"></a>
 [#](#return-pointer) RC.3. **A method on a thread-safe type doesn't return a pointer to a protected
 structure?** This is a subtle bug which leads to the unprotected access problem described in the
 previous item. Example:
+
 ```go
 type Counters struct {
 	mu   sync.Mutex
@@ -86,7 +87,9 @@ func (c *Counters) GetCounter(k Key) *Counter {
 	return c.vals[k] // BUG! Returns a pointer to the structure which must be protected
 }
 ```
+
 One possible solution is to return a copy, not a pointer to the structure in `GetCounter()`:
+
 ```go
 type Counters struct {
     mu   sync.Mutex
@@ -106,6 +109,7 @@ func (c *Counters) GetCounter(k Key) Counter {
 [#](#sync-map-race) RC.4. If there is more than one goroutine that can update a `sync.Map`, **you
 don't call `m.Store()` or `m.Delete()` depending on the success of a previous `m.Load()` call?**
 In other words, the following code is racy:
+
 ```go
 var m sync.Map
 
@@ -126,9 +130,7 @@ same result and doesn't have side effects.
 
 > ⚠️ **Potentially misleading information**. "Race condition" can refer to logic errors, like this example, which can be benign. But the phrase is also commonly used to refer to violations of the memory model, which are never benign.
 
-If the race condition is not benign, use methods [`sync.Map.LoadOrStore()`](
-https://pkg.go.dev/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](
-https://pkg.go.dev/sync/#Map.LoadAndDelete) to fix it.
+If the race condition is not benign, use methods [`sync.Map.LoadOrStore()`](https://pkg.go.dev/sync/#Map.LoadOrStore) and [`LoadAndDelete()`](https://pkg.go.dev/sync/#Map.LoadAndDelete) to fix it.
 
 ### Scalability
 
@@ -141,7 +143,6 @@ a bug.
 
 > ⚠️ **Misleading information**. Buffered channels do not inherently increase "scalability" versus unbuffered channels. However, buffered channels can easily obscure deadlocks and other fundamental design errors that would be immediately apparent with unbuffered channels.
 
-
 <a name="rwmutex"></a>
 [#](#rwmutex) Sc.2. Locking with `RWMutex` incurs extra overhead compared to plain `sync.Mutex`,
 and, furthermore, there might be some [scalability issue with the current implementation of
@@ -150,6 +151,7 @@ an `RWMutex` used to synchronize many read-only operations each lasting hundreds
 more, and the writes which require an exclusive lock seldom happen), **there should be some
 benchmarks proving that `RWMutex` indeed helps to improve the performance.** A typical example where
 `RWMutex` certainly does more harm than good is a simple protection of a variable in a struct:
+
 ```go
 type Box struct {
 	mu sync.RWMutex // DON'T DO THIS -- use a simple Mutex instead.
@@ -168,7 +170,6 @@ func (b *Box) Set(x int) {
 	b.x = x
 }
 ```
-
 
 ### Time
 
@@ -195,15 +196,16 @@ the `time.Time` structure before passing it into `time.Since()` function (via ca
 `UTC()`, `Local()`, `In()`, `Round()`, `Truncate()`, or `AddDate()`) **the result of `time.Since()`
 might be negative** on very rare occasions, such as if the system time has been synced via NTP between
 the moment when the start time was originally obtained and the moment when `time.Since()` is called.
-If the monotonic component is *not* stripped, `time.Since()` will always return a positive duration.
+If the monotonic component is _not_ stripped, `time.Since()` will always return a positive duration.
 
 <a name="time-before"></a>
-[#](#time-before) Tm.4. **If you want to compare *system times* via `t.Before(u)`, do you strip
+[#](#time-before) Tm.4. **If you want to compare _system times_ via `t.Before(u)`, do you strip
 the monotonic component from the argument,** e.g. via `u.Round(0)`? This is another point related to
 [Tm.2](#time-eq). Sometimes, you need to compare two `time.Time` structs only by the system
 time stored in them, specifically. You may need this before storing one of these `Time` structs on
 disk or sending them over the network. Imagine, for example, some sort of telemetry agent which
 pushes a telemetry metric together with time periodically to some remote system:
+
 ```go
 var latestSentTime time.Time
 
@@ -225,6 +227,7 @@ func pushMetricPeriodically(ctx context.Context) {
 	}
 }
 ```
+
 This code would be wrong without calling `Round(0)`, i. e. stripping the monotonic component.
 
 ## Reading List
@@ -233,19 +236,18 @@ This code would be wrong without calling `Round(0)`, i. e. stripping the monoton
 reviewing Go code, not concurrency-specific.
 
 Go concurrency:
- - [The Go Memory Model](https://go.dev/ref/mem)
- - [Section about concurrency in *Effective Go*](
-   https://go.dev/doc/effective_go#concurrency)
- - Posts in The Go Blog:
-   - [Share Memory By Communicating](https://go.dev/blog/codelab-share)
-   - [Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/concurrency-timeouts)
-   - [Go Concurrency Patterns: Context](https://go.dev/blog/context)
-   - [Go Concurrency Patterns: Pipelines and cancellation](https://go.dev/blog/pipelines)
-   - [Advanced Go Concurrency Patterns](https://go.dev/blog/io2013-talk-concurrency) (video)
-   - [Rethinking Classical Concurrency Patterns](https://www.youtube.com/watch?v=5zXAHh5tJqQ) (video)
- - [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
+
+- [The Go Memory Model](https://go.dev/ref/mem)
+- [Section about concurrency in _Effective Go_](https://go.dev/doc/effective_go#concurrency)
+- Posts in The Go Blog:
+  - [Share Memory By Communicating](https://go.dev/blog/codelab-share)
+  - [Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/concurrency-timeouts)
+  - [Go Concurrency Patterns: Context](https://go.dev/blog/context)
+  - [Go Concurrency Patterns: Pipelines and cancellation](https://go.dev/blog/pipelines)
+  - [Advanced Go Concurrency Patterns](https://go.dev/blog/io2013-talk-concurrency) (video)
+  - [Rethinking Classical Concurrency Patterns](https://www.youtube.com/watch?v=5zXAHh5tJqQ) (video)
+- [Understanding Real-World Concurrency Bugs in Go](https://songlh.github.io/paper/go-study.pdf)
 
 Concurrency, but not specific to Go:
- - [Mechanical Sympathy: Single Writer Principle](
-   https://mechanical-sympathy.blogspot.com/2011/09/single-writer-principle.html)
 
+- [Mechanical Sympathy: Single Writer Principle](https://mechanical-sympathy.blogspot.com/2011/09/single-writer-principle.html)

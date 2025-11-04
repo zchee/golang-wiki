@@ -5,13 +5,13 @@ title: Go on NetBSD
 Go on NetBSD is fairly stable on the architectures below. However, some bugs remain; see the [issue tracker](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AOS-NetBSD) for details.
 
 | **Kernel version**    | **Architectures** | **Initial support version** | **Final support version** |
-|:----------------------|:------------------|:----------------------------|:--------------------------|
+| :-------------------- | :---------------- | :-------------------------- | :------------------------ |
 | 8.0 or above          | amd64, arm, 386   |                             |                           |
-| 7.0 through 7.1       | amd64, arm, 386   | Go 1.3 _*_                  |                           |
-| 6.0 through 6.1       | amd64, arm, 386   | Go 1.3 _*_                  | Go 1.9.7                  |
+| 7.0 through 7.1       | amd64, arm, 386   | Go 1.3 _\*_                 |                           |
+| 6.0 through 6.1       | amd64, arm, 386   | Go 1.3 _\*_                 | Go 1.9.7                  |
 | 5.0 through 5.2 (EOL) | amd64, 386        | Go 1                        | Go 1.2.2                  |
 
-_*_ Go 1.5 or above is recommended.
+_\*_ Go 1.5 or above is recommended.
 
 Support for the arm64 architecture is a work in progress, see https://go.dev/issue/30824.
 
@@ -25,6 +25,6 @@ There are a number of packages for software written in Go in pkgsrc. At the mome
 
 ## Preparing NetBSD for Go
 
-  * install NetBSD (remember to install pkgsrc in the last step)
-  * install shells/bash and devel/git (do ` make package-install clean ` in ` /usr/pkgsrc/shells/bash ` and ` /usr/pkgsrc/devel/git `.
-    * Using binary packages: ` pkgin install bash git `
+- install NetBSD (remember to install pkgsrc in the last step)
+- install shells/bash and devel/git (do `make package-install clean` in `/usr/pkgsrc/shells/bash` and `/usr/pkgsrc/devel/git`.
+  - Using binary packages: `pkgin install bash git`

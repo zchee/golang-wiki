@@ -3,15 +3,16 @@ title: TableDrivenTests
 ---
 
 ## Introduction
-Writing good tests is not trivial, but in many situations a lot of ground can be covered with table-driven tests: Each table entry is a complete test case with inputs and expected results, and sometimes with additional information such as a test name to make the test output easily readable.  If you ever find yourself using copy and paste when writing a test, think about whether refactoring into a table-driven test or pulling the copied code out into a helper function might be a better option.
+
+Writing good tests is not trivial, but in many situations a lot of ground can be covered with table-driven tests: Each table entry is a complete test case with inputs and expected results, and sometimes with additional information such as a test name to make the test output easily readable. If you ever find yourself using copy and paste when writing a test, think about whether refactoring into a table-driven test or pulling the copied code out into a helper function might be a better option.
 
 Given a table of test cases, the actual test simply iterates through all table entries and for each entry performs the necessary tests. The test code is written once and amortized over all table entries, so it makes sense to write a careful test with good error messages.
 
-Table driven testing is not a tool, package or anything else, it's just a way and perspective to write cleaner tests. 
+Table driven testing is not a tool, package or anything else, it's just a way and perspective to write cleaner tests.
 
 ### Example of a table driven test
 
-Here is a good example from the testing code for the ` fmt ` package ( https://pkg.go.dev/fmt/ ):
+Here is a good example from the testing code for the `fmt` package ( https://pkg.go.dev/fmt/ ):
 
 ```go
 var flagtests = []struct {
@@ -44,13 +45,13 @@ func TestFlagParser(t *testing.T) {
 }
 ```
 
-Note the detailed error message provided with ` t.Errorf `: its result and expected result are provided; the input is the subtest name. When the test fails it is immediately obvious which test failed and why, even without having to read the test code.
+Note the detailed error message provided with `t.Errorf`: its result and expected result are provided; the input is the subtest name. When the test fails it is immediately obvious which test failed and why, even without having to read the test code.
 
-A ` t.Errorf ` call is not an assertion. The test continues even after an error is logged. For example, when testing something with integer input, it is worth knowing that the function fails for all inputs, or only for odd inputs, or for powers of two.
+A `t.Errorf` call is not an assertion. The test continues even after an error is logged. For example, when testing something with integer input, it is worth knowing that the function fails for all inputs, or only for odd inputs, or for powers of two.
 
 ### Using a Map to Store Test Cases
 
-In the previous example, tests cases were stored in a slice of structs.  They can be stored in a map as well and there are several advantages
+In the previous example, tests cases were stored in a slice of structs. They can be stored in a map as well and there are several advantages
 to doing it this way.
 
 ```go
@@ -89,7 +90,7 @@ for name, test := range tests {
 
 One advantage of using maps is that the "name" of each test can simply be the map index.
 
-More importantly, map iteration order isn't specified nor is it even guaranteed to be the same from one iteration to the next.  This ensures that each test is independent of the others and that testing order doesn't impact results.
+More importantly, map iteration order isn't specified nor is it even guaranteed to be the same from one iteration to the next. This ensures that each test is independent of the others and that testing order doesn't impact results.
 
 ### Parallel Testing
 
@@ -116,7 +117,7 @@ func TestTLog(t *testing.T) {
 	for _, test := range tests {
     // test := test // NOTE: uncomment for Go < 1.22, see /doc/faq#closures_and_goroutines
 		t.Run(test.name, func(t *testing.T) {
-			t.Parallel() // marks each test case as capable of running in parallel with each other 
+			t.Parallel() // marks each test case as capable of running in parallel with each other
 			t.Log(test.name)
 		})
 	}
@@ -125,7 +126,7 @@ func TestTLog(t *testing.T) {
 
 ### References
 
-  * https://go.dev/doc/code#Testing
-  * https://go.dev/doc/faq#assertions
-  * https://go.dev/doc/faq#testing_framework
-  * https://pkg.go.dev/testing/
+- https://go.dev/doc/code#Testing
+- https://go.dev/doc/faq#assertions
+- https://go.dev/doc/faq#testing_framework
+- https://pkg.go.dev/testing/

@@ -17,6 +17,7 @@ In person it's easy to ask those questions and can be done in rapid succession, 
 People on the forums have limited time available. So, to speed things up, here is a small template for asking a question that will get better answers and answers quicker:
 
 > The gist of the problem you are having.<br>
+
 <blockquote><br>
 How did you encounter the problem?<br>
 What are you trying to accomplish?<br>
@@ -28,6 +29,7 @@ Your compilable and runnable example on <a href='https://go.dev/play'>play.golan
 Other notes about the situation (production/school/playing/learning)</blockquote>
 
 Things to keep in mind:<br>
+
 <ul><li>Take your time to spell-check and make sure that your sentences are readable.<br>
 </li><li>The solution can be far away from the immediate problem. So be sure that the question contains answers to the <a href='http://en.wikipedia.org/wiki/5_Whys'>5 whys</a>. The template implicitly already contains answers to 3 whys.<br>
 </li><li>The context of the question is important, so always give one. Not giving the context may end up hurting you, because you’ll get an answer that’s more suited to a different context. The context is the end-user or domain problem and goal, with the information how it tries to solve it.<br>
@@ -43,16 +45,19 @@ Things to keep in mind:<br>
 
 Of course, don't worry too much... you can't answer all possible questions. It's not needed to write a 4 page essay on the whole thing. People can always ask when something needs clarification.<br>
 <br>
+
 <h1>The story of a bad question</h1>
 
 Why is that template necessary? Let's put you in the shoes of the answerer, and let's say you get this question:<br>
 <br>
+
 <blockquote>How do I use the reflect <code>Set</code> method?</blockquote>
 
 From the askers perspective this may look like a straightforward problem. Of course, you have no idea what the asker is trying to do. Is he trying to set a value on a value, struct, array or a map? This means you need to ask the first question: <i>Can you give an example?</i>.<br>
 <br>
 Now the asker will provide an example:<br>
 <br>
+
 <blockquote>I'm basically trying to do this:<br>
 <pre><code>    m := make(map[string]int)<br>
     v := reflect.ValueOf(m)<br>
@@ -67,6 +72,7 @@ Now you've got some code that even doesn't compile. This means you need to copy 
 <br>
 <i>The fix is simple; just use <code>SetMapIndex</code> instead.</i> Of course that may not be the full story. The asker now comes back with another problem:<br>
 <br>
+
 <blockquote>Yay, I've got the reflection working, but it's not fast enough.<br>
 How can I make it faster?</blockquote>
 
@@ -83,6 +89,7 @@ The main use for is for using on nucleotides and it should work on large dataset
 
 Finally we have all the information that's needed. The solution is straightforward: <i><code>biogo</code> <a href='https://code.google.com/p/biogo/'>https://code.google.com/p/biogo/</a> has most of the stuff necessary for handling large datasets and parallelism etc. Also what's the "<code>NucleotideIndex</code>".</i> The asker may have found the answer and say: <i>Thanks that's really nice.</i> but there is a possibility of:<br>
 <br>
+
 <blockquote>Whoa, that looks nice, but I'm in a bioinformatics course and we need to write that code ourselves. The "<code>NucleotideIndex</code>" is a "<code>struct {Nucleotide Nucleotide; Index int}</code>".</blockquote>
 
 That looks weird, why would you do it that way. Nevertheless we've all done something stupid, so... now you can start suggesting something better: <i>Probably dealing with <code>map[Type]map[int]struct{}</code> would be much easier. Because you are dealing with sequences and the set elements are always used in an increasing order you can just store the index in an array e.g. <code>map[Type][]int</code>. Also if the memory starts to become the problem you could make it into a run-length-encoded set...</i>
@@ -93,6 +100,7 @@ Hopefully after this long example, you probably understand why it's useful to pr
 <br>
 The initial question could have been:<br>
 <br>
+
 <blockquote>How do I use the reflect <code>Set</code> method with <code>MapIndex</code>?<br>
 <br>
 I'm trying to set a value on a generic map for a set package. But it just gives a panic when I try to do that. <a href='https://go.dev/play/p/fCxBlL9V4Y'>play.golang.org/p/fCxBlL9V4Y</a><br>
@@ -105,6 +113,7 @@ I'm writing this for a bioinformatics course, so I need to implement it myself.<
 
 Summary:<br>
 <br>
+
 <ul><li>The best answer depends on the context. In some cases maybe <a href='http://research.swtch.com/sparse'>research.swtch.com/sparse</a> would be more appropriate. If the speed isn't important using a <code>map</code> would be sufficient. So the requirements are also important.<br>
 </li><li>The problem can be somewhere else. As you saw the answerer didn't expect that the structure of the program was at fault. Using a struct <code>NucleotideIndex</code> with a <code>map</code>, meant he had to build elaborate things with reflection. Often when you fix the higher-level problem, everything else will become much easier.<br>
 </li><li>Constraints/properties matter. The property "set elements are used in increasing order" meant that there was a simple method that didn't require a full-blown <code>set</code> implementation. This specialized structure can be much faster. The information about the system, context or domain may make the problem much simpler.<br>
@@ -114,4 +123,3 @@ Summary:<br>
 
 </li><li><a href='http://www.catb.org/esr/faqs/smart-questions.html'>Smart questions</a>
 </li><li><a href='http://www.sscce.org/'>Short, Self Contained, Correct (Compilable), Example</a>
-

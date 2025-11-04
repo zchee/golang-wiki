@@ -4,28 +4,28 @@ title: Go on ARM
 
 ## Introduction
 
-Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86\_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, OpenBSD and NetBSD.
+Go is fully supported on Linux and Darwin. Any Go program that you can compile for x86/x86_64 should work on Arm. Besides Linux and Darwin, Go is also experimentally supported on FreeBSD, OpenBSD and NetBSD.
 
 ## Supported architectures
 
 Go supports the following ARM architectural families.
 
-| **Architecture** | **Status** | **GOARM value** | **GOARCH value** |
-|:-----------------|:-----------|:----------------|:-----------------|
-| ARMv4 and below  | not supported | n/a   | n/a              |
-| ARMv5            | supported  | GOARM=5         | GOARCH=arm       |
-| ARMv6            | supported  | GOARM=6         | GOARCH=arm       |
-| ARMv7            | supported  | GOARM=7         | GOARCH=arm       |
-| ARMv8            | supported  | n/a             | GOARCH=arm64     |
-| ARMv9            | supported  | n/a             | GOARCH=arm64     |
+| **Architecture** | **Status**    | **GOARM value** | **GOARCH value** |
+| :--------------- | :------------ | :-------------- | :--------------- |
+| ARMv4 and below  | not supported | n/a             | n/a              |
+| ARMv5            | supported     | GOARM=5         | GOARCH=arm       |
+| ARMv6            | supported     | GOARM=6         | GOARCH=arm       |
+| ARMv7            | supported     | GOARM=7         | GOARCH=arm       |
+| ARMv8            | supported     | n/a             | GOARCH=arm64     |
+| ARMv9            | supported     | n/a             | GOARCH=arm64     |
 
 Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile the program from source on the target machine. In cross compilation situations, it is recommended that you always set an appropriate GOARM value along with GOARCH.
 
 ## Supported operating systems
 
-* ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
-* ARM on Darwin: ARMv7 is required.
-* ARM on FreeBSD, OpenBSD, and NetBSD: ARMv6K or above is required.
+- ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
+- ARM on Darwin: ARMv7 is required.
+- ARM on FreeBSD, OpenBSD, and NetBSD: ARMv6K or above is required.
 
 ## Recommended Go version
 
@@ -34,16 +34,19 @@ Go has a mature support for ARM systems; so, just like for other architectures, 
 ## Tips and tricks
 
 ### /tmp and tmpfs
-The ` go ` build tool uses ` /tmp ` when compiling and testing, this can cause heavy wear and tear if ` /tmp ` lives on your SD card. To minimise this effect, either ` export TMPDIR ` to somewhere that lives on another filesystem. Alternatively if you have lots of physical memory you can mount a swap backed tmpfs filesystem on /tmp by adding this line to ` /etc/fstab `
+
+The `go` build tool uses `/tmp` when compiling and testing, this can cause heavy wear and tear if `/tmp` lives on your SD card. To minimise this effect, either `export TMPDIR` to somewhere that lives on another filesystem. Alternatively if you have lots of physical memory you can mount a swap backed tmpfs filesystem on /tmp by adding this line to `/etc/fstab`
 
 ```
 tmpfs /tmp tmpfs nodev,nosuid,mode=1777 0 0
 ```
 
 ### Swap
+
 Building Go from source requires at least 256mb of RAM. Running the tests requires at least 256mb of memory and at least 512mb of swap space.
 
 ### Test failures due to resource starvation
+
 The runtime tests create many native operating system threads which at the default of 8mb per thread can exhaust an ARM system with 32bit user mode address space (especially on multicore ARM systems such as the Raspberry PI 2). To prevent the runtime test from failing you may need lower the thread stack limit:
 
 ```sh
@@ -51,31 +54,38 @@ The runtime tests create many native operating system threads which at the defau
 % ulimit -s          # check that it worked
 1024
 ```
+
 See [Dave Cheney's blog post about building Go on Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi) for details.
 
 ### Build failures due to lack of memory
+
 The Go tool will try to keep all your cpu cores busy when installing packages (during make.bash),
 this is normally preferable on PCs where memory is abundant.
 However, some powerful multicore ARM machines don't have enough memory to support parallel
-builds utilizing all available cores, and you can work around that by using the ` taskset(1) ` utility
+builds utilizing all available cores, and you can work around that by using the `taskset(1)` utility
 to limit Go to only use one core without resorting to swaps.
+
 ```
 taskset 1 ./make.bash # use 3 if you want to use two cores
 ```
+
 Note: the 1 here is a bitmask for cpu affinity and it's not the number of cpu cores you're
-willing to use, please refer to ` taskset(1) ` manual for details.
+willing to use, please refer to `taskset(1)` manual for details.
 
 ## Known issues
 
 ### Lack of floating point hardware on ARMv5
-The major issue with ARMv5 is the lack of floating point support in common ARMv5 hardware<sup>†</sup>. When compiled with the GOARM=5 environment variable, the 5l linker will insert a call to ` _sfloat ` before any block of floating point instructions to branch into the floating point emulator. This means that binaries produced with a Go installation that was compiled with soft float support will work on all supported architectures, but builds compiled without soft floating point support will not work on ARMv5.
+
+The major issue with ARMv5 is the lack of floating point support in common ARMv5 hardware<sup>†</sup>. When compiled with the GOARM=5 environment variable, the 5l linker will insert a call to `_sfloat` before any block of floating point instructions to branch into the floating point emulator. This means that binaries produced with a Go installation that was compiled with soft float support will work on all supported architectures, but builds compiled without soft floating point support will not work on ARMv5.
 
 <sup>†</sup> This isn't strictly true, there exist ARMv5 implementations which have VFP1 floating point. However the compiler doesn't support VFP1 yet.
 
 ### html/template and test/nilptr.go test fail on HTC Android
-html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](http://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill  the application after 10 segfaults.
+
+html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](http://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill the application after 10 segfaults.
 
 ### Potential kernel bug in 2.6.32-5-kirkwood on QNAP 219P
+
 See [Issue 5466](https://github.com/golang/go/issues/5466) for details. Updating to 3.2.0-4-kirkwood solved the issue.
 
 ## Success stories
@@ -141,13 +151,13 @@ Successfully built default branch, going to write fan control daemon for this de
 
 #### Raspberry Pi
 
-* [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
 Architecture: ARM1176JZFS, with floating point, running at 700Mhz
 
 Operating System: Debian Wheezy beta distribution (http://www.raspberrypi.org/archives/1435) reported as:
 
-` Linux raspberrypi 3.1.9+ #125 PREEMPT Sun Jun 17 16:09:36 BST 2012 armv6l GNU/Linux `
+`Linux raspberrypi 3.1.9+ #125 PREEMPT Sun Jun 17 16:09:36 BST 2012 armv6l GNU/Linux`
 
 **Memory Split**: the Pi shares its 256mb of memory between the CPU and the GPU. You should allocate as much memory as possible to the CPU for a successful compilation. The configuration for the memory split is stored on your SD card. This link has a script to adjust the configuration, http://sirlagz.net/?p=445.
 
@@ -158,7 +168,6 @@ Successfully installed and run SVGo via go get github.com/ajstarks/svgo, tested 
 ![http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg](http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg)
 
 Division benchmark via http://codereview.appspot.com/6258067:
-
 
 ```
 $ cd $GOROOT/src/pkg/runtime
@@ -302,10 +311,9 @@ ok  	github.com/feyeleanor/gospeed	417.296s
 
 _-- anthony starks_
 
-
 ### Raspberry Pi 2
 
-* [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
 ```
 go version
@@ -931,15 +939,15 @@ _-- Rémy Oudompheng_
 
 [BananaPi](http://banana-pi.org) has a few enhanced hardware components compare with Raspberry Pi.
 
-| **Architecture** | **Comments** |
-|:-----------------|:-------------|
-| [Allwinner A20(ARM Cortex-A7 Dual-core, 1GHz, Mali400MP2 GPU)](http://www.allwinnertech.com/en/clq/processora/A20.html) | tbc          |
-| eSATA            | No worry to wear out your root SD Card|
-| Onboard Microphone | tbc          |
-| 1G Ethernet      | tbc          |
-| 1G RAM           | tbc          |
-| Reset Switch     | To reset the board ?|
-| Power Switch     | To power cycle the board ?|
+| **Architecture**                                                                                                        | **Comments**                           |
+| :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------- |
+| [Allwinner A20(ARM Cortex-A7 Dual-core, 1GHz, Mali400MP2 GPU)](http://www.allwinnertech.com/en/clq/processora/A20.html) | tbc                                    |
+| eSATA                                                                                                                   | No worry to wear out your root SD Card |
+| Onboard Microphone                                                                                                      | tbc                                    |
+| 1G Ethernet                                                                                                             | tbc                                    |
+| 1G RAM                                                                                                                  | tbc                                    |
+| Reset Switch                                                                                                            | To reset the board ?                   |
+| Power Switch                                                                                                            | To power cycle the board ?             |
 
 ```
 root@bpi01:/data/go13/src# cat ./buildgo.bash
@@ -976,11 +984,11 @@ Architecture: ARMv8 (64-bit) 8-core, 1.2GHz, 1GB RAM
 
 Operating System: Linux (Linaro)
 
-Go Version:  1.5Beta1
+Go Version: 1.5Beta1
 
-Special Notes:  Enable a swap partition (<=1GB is fine). Build process is CPU-intensive and may cause the internal 90C temperature threshold to be exceeded - keep the HiKey cool during the build.
+Special Notes: Enable a swap partition (<=1GB is fine). Build process is CPU-intensive and may cause the internal 90C temperature threshold to be exceeded - keep the HiKey cool during the build.
 
-As mentioned above, use bootstrap.sh (e.g. on Ubuntu AMD64) for ARM64, then transfer over the bootstrap tbx file, untar it, and use it as GOROOT_BOOTSTRAP.  Check out the Go sources into a separate GOROOT, and build.
+As mentioned above, use bootstrap.sh (e.g. on Ubuntu AMD64) for ARM64, then transfer over the bootstrap tbx file, untar it, and use it as GOROOT_BOOTSTRAP. Check out the Go sources into a separate GOROOT, and build.
 
 _--Andrew Cencini_ (andrew@vapor.io)
 
@@ -996,7 +1004,7 @@ The Scaleway C1 Server is a dedicated ARM server with 2GiB RAM using a SAN for s
 
 I used the following guide: [Building Go 1.5 on the Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
-_--Laurent Debacker
+\_--Laurent Debacker
 
 ### Jetson Nano
 
@@ -1007,18 +1015,22 @@ Architecture: ARMv8-A
 Operating System: Jetson Nano Developer Kit (Ubuntu 18.04 LTS) with JetPack 4.2
 
 Kernel: I'm using a custom compiled official kernel with patch for enabling Zswap and having the root file system in a USB SSD. The procedure for doing this is detailed in [Syonyk's blog](https://syonyk.blogspot.com/2019/04/nvidia-jetson-nano-desktop-use-kernel-builds.html).
+
 ```
 abishek@Titan:~$ uname -a
 Linux Titan 4.9.140 #1 SMP PREEMPT Thu May 23 01:33:05 IST 2019 aarch64 aarch64 aarch64 GNU/Linux
 ```
 
 Go Version:
+
 ```
 abishek@Titan:~$ go version
 go version go1.12.5 linux/arm64
 ```
+
 I used the ARMv8 version from [Other Ports](https://go.dev/dl/) section of official downloads.
 I set the following system wide environment variables in /etc/environment.
+
 ```
 GOROOT="/usr/local/go"
 GOPATH="/home/abishek/Developer/go/packages"
@@ -1033,13 +1045,16 @@ HW configuration : 5V 4A power via DC barrel jack. Noctua 40mm PWM fan. Samsung 
 SW configuration : Headless. Zswap. 12 GB swap partition.
 
 Simple benchmark.
+
 ```
 abishek@Titan:~$ cd $GOROOT/src/runtime
 $ go test -test.bench=BenchmarkUint
 PASS
 ok  	runtime	 	329.992s
 ```
+
 Extensive benchmarks.
+
 ```
 $ go test -test.bench=".*" -test.timeout="60m"
 goos: linux
@@ -1578,7 +1593,7 @@ On host machine:
 
 Xcode: Install latest Xcode which supports Apple silicon
 
-Go: Install go*.darwin-amd64.pkg (or build go from source) on macOS/x86_64
+Go: Install go\*.darwin-amd64.pkg (or build go from source) on macOS/x86_64
 
 Set go executable in PATH
 
@@ -1597,5 +1612,4 @@ Export the following environment variables before cross compiling go apps for ma
     Compile the app as below:
     $ GOOS=darwin GOARCH=arm64 go build <app>
 
- Copy the generated arm64 executable to target machine (macOS/arm64) and run
-
+Copy the generated arm64 executable to target machine (macOS/arm64) and run

@@ -54,11 +54,11 @@ The native category includes applications entirely written in Go. Currently, the
 [golang.org/x/mobile](https://pkg.go.dev/golang.org/x/mobile)
 contains only a small set of packages that focus on:
 
-* App control and configuration
-* OpenGL ES 2 and ES 3 bindings
-* Asset management
-* Event management
-* Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors
+- App control and configuration
+- OpenGL ES 2 and ES 3 bindings
+- Asset management
+- Event management
+- Experimental packages include OpenAL bindings, audio, font, sprite and motion sensors
 
 There are various example native applications under [golang.org/x/mobile/example](https://golang.org/x/mobile/example). We will build and deploy the basic example both to an Android and iOS device.
 
@@ -100,10 +100,10 @@ The build command will build an application bundle, named `basic.app`.
 
 You can deploy .app files by dragging and dropping them to the device.
 
-* In Xcode, open Window > Devices.
-* Select the physical device from the left pane.
-* Drag and drop the .app file to "Installed Apps" section.
-* Check the "Copy items if needed" option
+- In Xcode, open Window > Devices.
+- Select the physical device from the left pane.
+- Drag and drop the .app file to "Installed Apps" section.
+- Check the "Copy items if needed" option
 
 ![Deploying app bundle](http://i.imgur.com/fRbQ0EQ.png)
 
@@ -124,14 +124,14 @@ your existing Android or iOS application.
 
 The advantages to following this strategy:
 
-* You can reuse a Go package from a mobile app without making significant changes to your existing application.
-* In cases where you want to share a common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
+- You can reuse a Go package from a mobile app without making significant changes to your existing application.
+- In cases where you want to share a common code base between your Android and iOS application, you can write the common functionality once in Go and glue them to the platform-specific code by invoking the Go package through bindings.
 
 Current limitations are listed below.
 
-* Only a [subset of Go types](https://pkg.go.dev/golang.org/x/mobile/cmd/gobind) are currently supported.
-* Language bindings have a performance overhead.
-* There are a few limitations on how the exported APIs should look due to the limitations of the target language.
+- Only a [subset of Go types](https://pkg.go.dev/golang.org/x/mobile/cmd/gobind) are currently supported.
+- Language bindings have a performance overhead.
+- There are a few limitations on how the exported APIs should look due to the limitations of the target language.
 
 We will use the example package under [golang.org/x/mobile/example/bind/hello](https://golang.org/x/mobile/example/bind/hello) to generate bindings and invoke Greetings function from Java and Objective-C.
 
@@ -145,13 +145,14 @@ $ go get -d golang.org/x/mobile/example/bind/...
 
 Note: Go Mobile runs on the same architectures as Go, which currently means ARM, ARM64, 386 and amd64 devices and emulators. Notably, Android on MIPS devices is not yet supported.
 
-* Run the following command to generate the [aar](https://developer.android.com/studio/projects/android-library.html) file that is suitable for importing into Android projects:
+- Run the following command to generate the [aar](https://developer.android.com/studio/projects/android-library.html) file that is suitable for importing into Android projects:
 
 ```
 $ gomobile bind -o app/hello.aar -target=android golang.org/x/mobile/example/bind/hello
 ```
 
 Tips: From 1.16, it is recommended to execute `go get -d golang.org/x/mobile/cmd/gomobile` before each execution of `gomobile bind ...`. go get will automatically add indirect references to go.mod. These indirect references maybe automatically deleted by ide or go mod tidy, but they are required!
+
 ```
 require (
 	golang.org/x/mobile v0.0.0-20210716004757-34ab1303b554 // indirect
@@ -162,12 +163,12 @@ require (
 )
 ```
 
-* Launch Android Studio.
-* File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
+- Launch Android Studio.
+- File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
 
 ![Android Studio](http://i.imgur.com/RhNCnnH.png)
 
-* Build and deploy the application to the device.
+- Build and deploy the application to the device.
 
 The app module contains the main application that invokes the `hello.Greetings`. When the application is launched the text view is updated with the string returned value.
 
@@ -206,6 +207,7 @@ Gomobile bind will generate a framework bundle called `Hello.framework`. Open th
 ```
 $ open ios/bind.xcodeproj
 ```
+
 Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy items if needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and rerunning `gomobile bind` will update the hello.framework.
 
 ![Drag and drop Hello.framework](http://i.imgur.com/u88CxN9.png)
@@ -233,4 +235,3 @@ let msg = Hello.GoHelloGreetings("gopher")
 As of Go 1.5, only darwin/amd64 works on the iOS simulator. To use the simulator, you need to configure Xcode to only try to run 64-bit binaries.
 
 Xcode matches the bit width of the ARM binaries when running on the X86 simulator. That is, if you configure Xcode to build both 32-bit and 64-bit ARM binaries (the default), it will attempt to run 32-bit X86 binaries on the simulator, which will not work with Go today. Modify the Xcode build settings to only build 64-bit ARM binaries, and the simulator will run the amd64 binary.
-

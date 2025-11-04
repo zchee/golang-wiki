@@ -28,13 +28,13 @@ Look at the [untriaged issues](https://go.dev/s/untriaged). For Go, we use the p
 
 While triaging the bug:
 
-* is it a duplicate? Close it, referencing the dup.
-* is it a Question rather than a bug? Reply with something like "For questions about Go, see https://go.dev/wiki/Questions".
-* is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation".
-* is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
-* if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
-* does the relevant package [have a primary owner](https://dev.golang.org/owners)? Mention them in a comment. If not, add the `help wanted` label.
-* if the relevant package has no owner, but appears to be complex and deeply technical in nature, add the `ExpertNeeded` label.
+- is it a duplicate? Close it, referencing the dup.
+- is it a Question rather than a bug? Reply with something like "For questions about Go, see https://go.dev/wiki/Questions".
+- is the subject the correct format? It should start with the package path and a colon: "net/http: fix crash in Server during foo operation".
+- is it in a subrepo? Leave the milestone as `Unreleased` unless it's a subrepo that goes into a release, like `http2`.
+- if it is a regression and you can reproduce it, use `git bisect` to find the bad commit (optional but very helpful).
+- does the relevant package [have a primary owner](https://dev.golang.org/owners)? Mention them in a comment. If not, add the `help wanted` label.
+- if the relevant package has no owner, but appears to be complex and deeply technical in nature, add the `ExpertNeeded` label.
 
 When the issue has been triaged, add an appropriate label (per [HandlingIssues](/wiki/HandlingIssues)) to mark it as such.
 
@@ -48,7 +48,7 @@ Find bugs that are in state WaitingForInfo (https://github.com/golang/go/labels/
 
 ### Pending CLs
 
-[Review the format of commit messages](https://go.dev/doc/contribute#commit_messages) and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See  https://dev.golang.org/release for the list of pending CLs.
+[Review the format of commit messages](https://go.dev/doc/contribute#commit_messages) and presence of tests and formatting of code and typos/grammar in incoming pending CLs. All of that can be done without determining the correctness of the change itself. See https://dev.golang.org/release for the list of pending CLs.
 
 Once it has a +1, the owner of that area can give it a +2.
 

@@ -30,21 +30,21 @@ $ set GOARCH=386
 $ go build -o hello.exe hello.go
 ```
 
-You can now run `hello.exe` on a Windows machine near you. 
+You can now run `hello.exe` on a Windows machine near you.
 
 Note that the first time you run the command above it will
 silently rebuild most of standard library, and for this reason
 will be quite slow. Subsequent builds will be faster due to Go
 command build caching.
 
-Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068).  In order to use cgo, or any of the build modes `c-archive`, `c-shared`, `shared`, `plugin`, you need to have a C cross-compiler.
-
+Note also that `cgo` is disabled when cross-compiling, so any file that mentions `import "C"` will be silently ignored (See https://github.com/golang/go/issues/24068). In order to use cgo, or any of the build modes `c-archive`, `c-shared`, `shared`, `plugin`, you need to have a C cross-compiler.
 
 ## Older Go version (<1.5)
 
 I use linux/386, but, I suspect, this procedure will apply to other host platforms as well.
 
 Preparation (if needed):
+
 ```sh
 sudo apt-get install gcc
 export go env GOROOT

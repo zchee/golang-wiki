@@ -18,7 +18,7 @@ The documentation below assumes a driver has been imported.
 ## Connecting to a database
 
 [`Open`](https://pkg.go.dev/database/sql/#Open)
- is used to create a database handle:
+is used to create a database handle:
 
 ```go
 db, err := sql.Open(driver, dataSourceName)

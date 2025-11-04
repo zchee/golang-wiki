@@ -11,6 +11,7 @@ Before asking for help, please check that you've addressed the following common 
 ### Always check all errors
 
 Always check all errors. It is common to see problems reported related to nil panics due to code like this
+
 ```
 result, err := somefunction()
 if err != nil {
@@ -19,15 +20,19 @@ if err != nil {
 }
 // the code then continues to use result which is invalid.
 ```
+
 or
+
 ```
 result, _ := somefunction()
 // code uses result which might be invalid
 ```
+
 You should make sure it is clear that your code is correctly handling all error conditions before asking for help.
 
 Further reading:
-- [Error handling and Go][0] 
+
+- [Error handling and Go][0]
 
 ### Check that your code is free from data races
 
@@ -40,17 +45,18 @@ If your program does not have good test coverage or the crash only happens when 
 _The behaviour of a Go program with a data race is undefined. There are no safe data races in Go programs._
 
 Further reading:
+
 - [Introducing the race detector][1]
 
 ## Asking questions
 
-The best way to get help is to show 
+The best way to get help is to show
 
-1. **What you did, ideally with a small complete, stand-alone, example.** 
-  If you ran a command, show the command that you ran. If your program failed, provide the source of the program that failed. If the program is too large, or you cannot share the source, instead provide a self contained, runnable example, that demonstrates the problem.
+1. **What you did, ideally with a small complete, stand-alone, example.**
+   If you ran a command, show the command that you ran. If your program failed, provide the source of the program that failed. If the program is too large, or you cannot share the source, instead provide a self contained, runnable example, that demonstrates the problem.
 2. **What you expected to happen.** If you expected the command to complete successfully, say that. If you expected the program to produce a particular output, give an example of the output you expected.
 3. **What happened instead.**
-  If the command failed, include the full output of the failure, not just a single line that you though was the cause. If the program failed to produce the expected output, include what it did output.
+   If the command failed, include the full output of the failure, not just a single line that you though was the cause. If the program failed to produce the expected output, include what it did output.
 
 ## Additional tips
 

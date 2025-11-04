@@ -9,11 +9,13 @@ This document explains how we handle issue triage and scheduling in [the Go proj
 Any issue must be in one of the following states. Project contributors move issues from one state to another. The intent behind these explicit states is to describe the (minimum) next steps required to bring the issue to resolution. Issues may move between states in any order, as dictated by the needs of the particular issue.
 
 #### New
+
 - The issue has been filed.
 - May not be correctly formatted (title, etc).
 - To transition from this state, someone must clean up the issue report and optionally CC people who might best investigate or fix it.
 
 #### Needs Investigation
+
 - Is correctly formatted.
   - The title has a path prefix.
   - The body describes the issue.
@@ -24,6 +26,7 @@ Any issue must be in one of the following states. Project contributors move issu
 - To transition from this state, someone must examine the issue and confirm that it is valid and not a duplicate of an existing issue.
 
 #### Needs Decision
+
 - The issue is real, but we're not sure what action to take.
   - The issue can be addressed in Go 1.
   - Feedback is required from experts, contributors, and/or the community before a fix can be made.
@@ -34,9 +37,10 @@ Any issue must be in one of the following states. Project contributors move issu
   - May have the label `Blocked` if forward progress depends upon the resolution of another issue or the release of a future version of Go. An accompanying comment should explain the blockage.
   - Must not have the label `Go2`. (Those issues are handled separately.)
 - To transition from this state, someone must decide how the issue is to be resolved.
-    - If the decision is complicated, the issue may be given a [`Proposal`](https://github.com/golang/proposal/) label. The issue remains in this state until the proposal process is complete, and moves to `NeedsFix` if approved.
+  - If the decision is complicated, the issue may be given a [`Proposal`](https://github.com/golang/proposal/) label. The issue remains in this state until the proposal process is complete, and moves to `NeedsFix` if approved.
 
 #### Needs Fix
+
 - The path to resolution is known, but the work has not been done.
 - Has a milestone.
 - Has the label `NeedsFix`.
@@ -44,14 +48,17 @@ Any issue must be in one of the following states. Project contributors move issu
 - To transition from this state, someone must do the work to fix the issue.
 
 #### Fix Pending
+
 - Has a CL that fixes the bug, not yet submitted, that passes TryBots.
 - Should not have labels `Blocked` or `WaitingForInfo`.
 
 #### Fixed
+
 - The issue is resolved. No further attention is required.
 - The issue is closed.
 
 #### Proposal
+
 - See below for the proposal process.
 
 Issues move from one state to another where appropriate. For example, a contributor may file an issue, assign it to themselves, and immediately apply the `NeedsFix` label. Or, an issue may go from `NeedsDecision` to `NeedsFix`, only to later move back to `NeedsDecision` as complexities arise.
@@ -61,38 +68,37 @@ An issue may be closed at any time, with a comment to indicate the reason for cl
 At any state (except New) the issue may be assigned to someone.
 Unassigned issues are considered available for anyone to address.
 
-
 ## Milestones
 
 Milestones describe the timeline for issue resolution.
 
 - Go1.x.y
 
-    Planned to be fixed in release 1.x.y.
+  Planned to be fixed in release 1.x.y.
 
 - Go1.x.y with release-blocker label
 
-    Must be fixed for release 1.x.y, or explicitly postponed to a later release.
+  Must be fixed for release 1.x.y, or explicitly postponed to a later release.
 
 - Proposal
 
-    Is a proposal and does not pertain to a specific release.
+  Is a proposal and does not pertain to a specific release.
 
 - Backlog
 
-    Someone has plans to work on it, but it is not assigned to a release milestone yet.
+  Someone has plans to work on it, but it is not assigned to a release milestone yet.
 
 - Unplanned
 
-    Might be fixed at some point, but nobody is planning to do it.
+  Might be fixed at some point, but nobody is planning to do it.
 
 - Unreleased
 
-    Is not included in or needed by a release.
+  Is not included in or needed by a release.
 
 - Gccgo
 
-    For gccgo issues.
+  For gccgo issues.
 
 Additional milestones may be used to manage specific project work.
 

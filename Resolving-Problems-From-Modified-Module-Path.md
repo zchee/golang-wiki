@@ -107,7 +107,7 @@ The reason such paths occur is because the process of bumping versions is usuall
 
 To remove the chain into history and remove the old `github.com/golang/lint` reference from the graph for good, both libraries have to bump their versions of each other at the same time.
 
-## Atomically Version Bumping Two Libraries 
+## Atomically Version Bumping Two Libraries
 
 The solution to removing `github.com/golang/lint` is to first make sure `some/lib` doesn't depend on `github.com/golang/lint`, and then to bump both `some/lib` and `some-other/lib` to non-existent future versions of each other. We want this kind of a graph:
 
@@ -125,35 +125,35 @@ Since `some/lib` and `some-other/lib` depend on each other at the same version, 
 Here are the steps to achieve this atomic version bump, assuming `some/lib` is at `v1.7.0` and `some-other/lib` is at `v2.5.3`:
 
 1. Verify that the error does in fact exist:
-    1. Run `GO111MODULE=on go get -u ./...` in `some/lib` and `some-other/lib`. 
-    1. In both repos you should observe the error go: `github.com/golang/lint@v0.0.0-20190313153728-d0100b6bd8b3: parsing go.mod: unexpected module path "golang.org/x/lint"`.
+   1. Run `GO111MODULE=on go get -u ./...` in `some/lib` and `some-other/lib`.
+   1. In both repos you should observe the error go: `github.com/golang/lint@v0.0.0-20190313153728-d0100b6bd8b3: parsing go.mod: unexpected module path "golang.org/x/lint"`.
 1. Verify that the latest version of `some/lib` depends on `golang.org/x/lint` instead of `github.com/golang/lint`. It would be a shame to remove the historical trails but keep the broken dependency to `github.com/golang/lint`!
 1. Bump both libs to non-existent future versions of each other using alpha tags (which are safer since go modules won't consider alpha versions as newer when evaluating the latest released version of a module):
-    1. `some/lib` changes its `some-other/lib` dependency from `v2.5.3` to `v2.5.4-alpha`.
-    1. `some/lib` tags the commit `v1.7.1-alpha` and pushes the commit and tag.
-    1. `some-other/lib` changes its `some/lib` dependency from `v1.6.0` to `v1.7.1-alpha`.
-    1. `some-other/lib` tags the commit `v2.5.4-alpha` and pushes the commit and tag.
+   1. `some/lib` changes its `some-other/lib` dependency from `v2.5.3` to `v2.5.4-alpha`.
+   1. `some/lib` tags the commit `v1.7.1-alpha` and pushes the commit and tag.
+   1. `some-other/lib` changes its `some/lib` dependency from `v1.6.0` to `v1.7.1-alpha`.
+   1. `some-other/lib` tags the commit `v2.5.4-alpha` and pushes the commit and tag.
 1. Verify results whilst things are still in an alpha state:
-    1. `GO111MODULE=on go build ./...` && `go test ./...` in `some/lib`.
-    1. `GO111MODULE=on go build ./...` && `go test ./...` in `some-other/lib`.
-    1. `GO111MODULE=on go mod graph` in both repos and assert that there's no path to `github.com/golang/lint`.
-    1. Note: `go get -u` still will not work because - as mentioned above - alpha versions aren't considered when evaluating latest versions.
+   1. `GO111MODULE=on go build ./...` && `go test ./...` in `some/lib`.
+   1. `GO111MODULE=on go build ./...` && `go test ./...` in `some-other/lib`.
+   1. `GO111MODULE=on go mod graph` in both repos and assert that there's no path to `github.com/golang/lint`.
+   1. Note: `go get -u` still will not work because - as mentioned above - alpha versions aren't considered when evaluating latest versions.
 1. If everything looks good, continue by once again bumping to non-existent future versions of each other:
-    1. `some/lib` changes its `some-other/lib` dependency from `v2.5.4-alpha` to `v2.5.4`
-    1. `some/lib` tags the commit `v1.7.1` and pushes the commit and tag.
-    1. `some-other/lib` changes its `some/lib` dependency from `v1.7.1-alpha` to `v1.7.1`.
-    1. `some-other/lib` tags the commit `v2.5.4` and pushes the commit and tag. 
+   1. `some/lib` changes its `some-other/lib` dependency from `v2.5.4-alpha` to `v2.5.4`
+   1. `some/lib` tags the commit `v1.7.1` and pushes the commit and tag.
+   1. `some-other/lib` changes its `some/lib` dependency from `v1.7.1-alpha` to `v1.7.1`.
+   1. `some-other/lib` tags the commit `v2.5.4` and pushes the commit and tag.
 1. Verify that the error no longer exists:
-    1. Run `GO111MODULE=on go get -u ./...` in `some/lib` and `some-other/lib`.
-    1. No parsing `go.mod: unexpected module path "golang.org/x/lint"` error should occur.
+   1. Run `GO111MODULE=on go get -u ./...` in `some/lib` and `some-other/lib`.
+   1. No parsing `go.mod: unexpected module path "golang.org/x/lint"` error should occur.
 1. Currently, the `go.sum`s of `some/lib` and `some-other/lib` are incomplete. This is due to the fact that we depended upon future, non-existent versions of modules, so we were not able to generate go.sum entries until the process was finished. So let's fix this:
-    1. `GO111MODULE=on go mod tidy` in `some/lib`.
-    1. Commit, tag the commit `v1.7.2`, and push both commit and tag.
-    1. `GO111MODULE=on go mod tidy` in `some-other/lib`.
-    1. Commit, tag the commit `v2.5.5`, and push both commit and tag.
+   1. `GO111MODULE=on go mod tidy` in `some/lib`.
+   1. Commit, tag the commit `v1.7.2`, and push both commit and tag.
+   1. `GO111MODULE=on go mod tidy` in `some-other/lib`.
+   1. Commit, tag the commit `v2.5.5`, and push both commit and tag.
 1. Finally, let's make sure that `my-go-project` depends on these new versions of `some/lib` and `some-other/lib` which do not have long historical tails:
-    1. Change the `my-go-project` `go.mod` entry from `some/lib v1.7.0` to `some/lib 1.7.2`.
-    1. Test by running `GO111MODULE=on go get -u ./...` in `my-go-project`. 
+   1. Change the `my-go-project` `go.mod` entry from `some/lib v1.7.0` to `some/lib 1.7.2`.
+   1. Test by running `GO111MODULE=on go get -u ./...` in `my-go-project`.
 
 Note that between steps 5.b and 5.d, users are broken: a version of `some/lib` has been released that depends on a non-existent version of `some-other/lib`. Therefore, this process should ideally been done real-time so that step 5.d is finished very soon after step 5.b, creating as small a window of breakage as possible.
 
@@ -167,6 +167,4 @@ This example explained the process for removing historical trails when there exi
 
 Each of these graphs involve cycles (the latter example) or interconnected modules (the former example) involving four modules, instead of the simple two module example we saw earlier. The process is largely the same, though, but this time in step 3 and 5 we're going to bump all four modules to non-existent future versions of each other, and similarly in steps 4 and 6 we're going to test all four modules, and in step 7 fix the go.sum of all four modules.
 
-More generally, the process above holds for any group of interconnected modules involving any n modules: each major step just involves n modules acting in coordination. 
-
-
+More generally, the process above holds for any group of interconnected modules involving any n modules: each major step just involves n modules acting in coordination.

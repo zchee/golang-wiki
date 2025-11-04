@@ -4,7 +4,7 @@ title: Errors
 
 Errors are indicated by returning an `error` as an additional return value from a function. A `nil` value means that there was no error.
 
-` error `s can be turned into strings by calling `Error`, their only method. You can create an error from a string by calling `errors.New`:
+`error`s can be turned into strings by calling `Error`, their only method. You can create an error from a string by calling `errors.New`:
 
 ```go
 if failure {
@@ -99,7 +99,6 @@ func foo() {
 
 ## References
 
-  * Errors (specification): https://go.dev/ref/spec#Errors
-  * Package `errors`: https://pkg.go.dev/errors/
-  * Type switches: https://go.dev/ref/spec#TypeSwitchStmt
-
+- Errors (specification): https://go.dev/ref/spec#Errors
+- Package `errors`: https://pkg.go.dev/errors/
+- Type switches: https://go.dev/ref/spec#TypeSwitchStmt

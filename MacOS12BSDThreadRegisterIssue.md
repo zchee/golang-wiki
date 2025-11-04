@@ -5,6 +5,7 @@ title: MacOS12BSDThreadRegisterIssue
 ## Introduction
 
 If you reached this page because you saw an error message like the following printed by a Go program running on macOS 12 Monterey:
+
 ```
 fatal error: runtime: bsdthread_register error
 
@@ -18,6 +19,7 @@ runtime.schedinit()
 runtime.rt0_go(0x7ff7bfeff930, 0x3, 0x7ff7bfeff930, 0x1000000, 0x3, 0x7ff7bfeffab0, 0x7ff7bfeffabf, 0x7ff7bfeffac3, 0x0, 0x7ff7bfeffacc, ...)
 	/usr/local/go/src/runtime/asm_amd64.s:252 +0x1f4 fp=0x7ff7bfeff908 sp=0x7ff7bfeff900 pc=0x1052c64
 ```
+
 then you are running a program built with an old version of Go (Go 1.10 or before). You will need to update your program or rebuild it with a newer version of Go.
 
 ## Details

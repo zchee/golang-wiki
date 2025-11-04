@@ -4,20 +4,20 @@ title: Go on MIPS
 
 ## Introduction
 
-Go programs can be cross-compiled e.g., on x86/x86\_64 build systems to run on MIPS target machines.
+Go programs can be cross-compiled e.g., on x86/x86_64 build systems to run on MIPS target machines.
 
 ## Supported architectures
 
 Go supports the following MIPS architectural families. (Are there more?)
 
-| **Architecture** | **Status** | **GOMIPS value** | **GOARCH value** |
-|:-----------------|:-----------|:----------------|:-----------------|
-| Big endian (e.g., ar71xx) | supported  | GOMIPS=softfloat| GOARCH=mips      |
-| Little endian            | supported  | n/a             | GOARCH=mipsle    |
+| **Architecture**          | **Status** | **GOMIPS value** | **GOARCH value** |
+| :------------------------ | :--------- | :--------------- | :--------------- |
+| Big endian (e.g., ar71xx) | supported  | GOMIPS=softfloat | GOARCH=mips      |
+| Little endian             | supported  | n/a              | GOARCH=mipsle    |
 
 ## Supported operating systems
 
-* MIPS on Linux. Tested with an ar71xx based OpenWrt device.
+- MIPS on Linux. Tested with an ar71xx based OpenWrt device.
 
 ## Recommended Go version
 
@@ -54,7 +54,7 @@ Architecture: ar9344
 
 Operating System: RutOS (based on OpenWrt)
 
-The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6,  1.15.3 & 1.21.1 (GOARCH=mips, GOMIPS=softfloat).
+The Teltonika RUT955 has a Atheros Wasp MIPS 74Kc CPU running at 550 MHz with 16 MB flash 128 MB RAM. Inbuilt flash will be insufficient for most applications but a Micro SD or USB stick can be added (running application directly from SD was unreliable but copying to /tmpfs and running from there works OK). The inbuilt IO, GPS etc can be accessed via Modbus TCP and the RS232/RS485 ports worked without issue. Tested with Go 1.14.6, 1.15.3 & 1.21.1 (GOARCH=mips, GOMIPS=softfloat).
 
 Further information about the device can be found at https://teltonika-networks.com/product/rut955/.
 

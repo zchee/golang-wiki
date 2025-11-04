@@ -49,6 +49,7 @@ Select a builder containing the word `perf` in the "Choose Tryjobs" dialog that
 appears when selecting a [SlowBot](/wiki/SlowBots).
 
 There are two kinds of presubmit builders for performance testing:
+
 - `perf_vs_parent`, which measures the performance delta of a change in isolation.
 - `perf_vs_tip`, which measures the performance delta versus the current
   tip-of-tree for whichever repository the change is for.

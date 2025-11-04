@@ -18,13 +18,13 @@ in the module's go.mod file.
 If the language version is go1.22 or later, the module will use the
 new loop variable semantics.
 
-Using Go 1.21, build your program using `GOEXPERIMENT=loopvar`, as in 
+Using Go 1.21, build your program using `GOEXPERIMENT=loopvar`, as in
 
-	GOEXPERIMENT=loopvar go install my/program
-	GOEXPERIMENT=loopvar go build my/program
-	GOEXPERIMENT=loopvar go test my/program
-	GOEXPERIMENT=loopvar go test my/program -bench=.
-	...
+    GOEXPERIMENT=loopvar go install my/program
+    GOEXPERIMENT=loopvar go build my/program
+    GOEXPERIMENT=loopvar go test my/program
+    GOEXPERIMENT=loopvar go test my/program -bench=.
+    ...
 
 ## What is the problem this solves?
 
@@ -104,7 +104,7 @@ func authz2ModelMapToPB(m map[string]authz2Model) (*sapb.Authorizations, error) 
 
 Note the `kCopy := k` guarding against the `&kCopy` used at the end of the loop body. Unfortunately, it turns out that `modelToAuthzPB` kept a pointer to a couple fields in `v`, which is impossible to know when reading this loop.
 
-The initial impact of this bug was that Let's Encrypt needed to [revoke over 3 million improperly-issued certificates](https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864). They ended up not doing that because of the negative impact it would have had on internet security, instead [arguing for an exception](https://bugzilla.mozilla.org/show_bug.cgi?id=1619179), but that gives you a sense of the kind of impact. 
+The initial impact of this bug was that Let's Encrypt needed to [revoke over 3 million improperly-issued certificates](https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864). They ended up not doing that because of the negative impact it would have had on internet security, instead [arguing for an exception](https://bugzilla.mozilla.org/show_bug.cgi?id=1619179), but that gives you a sense of the kind of impact.
 
 The code in question was carefully reviewed when written, and the author was clearly aware of the potential problem, since they wrote `kCopy := k`, and yet it _still had a major bug_, one that is not visible unless you also know exactly what `modelToAuthzPB` does.
 
@@ -113,7 +113,7 @@ The code in question was carefully reviewed when written, and the author was cle
 The solution is to make loop variables declared in for loops using `:=` be a different instance of the variable on each iteration. This way, if the value is captured in a closure or goroutine or otherwise outlasts the iteration, later references to it will see the value it had during that iteration, not a value overwritten by a later iteration.
 
 For range loops, the effect is as if each loop body starts with `k := k` and `v := v` for each range variable.
-In the Let's Encrypt example above, the `kCopy := k` would not be necessary, and the bug caused by not having `v := v` 
+In the Let's Encrypt example above, the `kCopy := k` would not be necessary, and the bug caused by not having `v := v`
 would have been avoided.
 
 For 3-clause for loops, the effect is as if each loop body starts with `i := i` and then the reverse assignment
@@ -189,9 +189,9 @@ We also [tried the new loop semantics in Kubernetes](https://github.com/golang/g
 
 ## Will the change make programs slower by causing more allocations?
 
-The vast majority of loops are unaffected. A loop only compiles differently if the loop variable has its address taken (`&i`) or is captured by a closure. 
+The vast majority of loops are unaffected. A loop only compiles differently if the loop variable has its address taken (`&i`) or is captured by a closure.
 
-Even for affected loops, the compiler's escape analysis may determine that the loop variable can still be stack-allocated, meaning no new allocations. 
+Even for affected loops, the compiler's escape analysis may determine that the loop variable can still be stack-allocated, meaning no new allocations.
 
 However, in some cases, an extra allocation will be added. Sometimes, the extra allocation is inherent to fixing a latent bug. For example, Print123 is now allocating three separate ints (inside the closures, it turns out) instead of one, which is necessary to print the three different values after the loop finishes. In rare other cases, the loop may be correct with a shared variable and still correct with separate variables but is now allocating N different variables instead of one. In very hot loops, this might cause slowdowns. Such problems should be obvious in memory allocation profiles (using `pprof --alloc_objects`).
 
@@ -207,10 +207,10 @@ The `GOEXPERIMENT=loopvar` trial mechanism did not use the declared Go language 
 
 Yes. You can build with `-gcflags=all=-d=loopvar=2` on the command line. That will print a warning-style output line for every loop that is compiling differently, like:
 
-	$ go build -gcflags=all=-d=loopvar=2 cmd/go
-	...
-	modload/import.go:676:7: loop variable d now per-iteration, stack-allocated
-	modload/query.go:742:10: loop variable r now per-iteration, heap-allocated
+    $ go build -gcflags=all=-d=loopvar=2 cmd/go
+    ...
+    modload/import.go:676:7: loop variable d now per-iteration, stack-allocated
+    modload/query.go:742:10: loop variable r now per-iteration, heap-allocated
 
 The `all=` prints about changes to all packages in your build. If you omit the `all=`, as in `-gcflags=-d=loopvar=2`, only the
 packages you name on the command line (or the package in the current directory) will emit the diagnostic.
@@ -219,8 +219,8 @@ packages you name on the command line (or the package in the current directory) 
 
 A new tool called `bisect` enables the change on different subsets of a program to identify which specific loops trigger a test failure when compiled with the change. If you have a failing test, `bisect` will identify the specific loop that is causing the problem. Use:
 
-	go install golang.org/x/tools/cmd/bisect@latest
-	bisect -compile=loopvar go test
+    go install golang.org/x/tools/cmd/bisect@latest
+    bisect -compile=loopvar go test
 
 See the [bisect transcript section of this comment](https://github.com/golang/go/issues/60078#issuecomment-1556058025) for a real-world example, and [the bisect documentation](https://pkg.go.dev/golang.org/x/tools/cmd/bisect) for more details.
 

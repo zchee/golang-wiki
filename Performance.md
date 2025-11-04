@@ -128,7 +128,6 @@ Note: For darwin CPU profiler currently only [works on El Capitan or newer](http
 Note: On windows you need to install Cygwin, Perl and Graphviz to generate
 svg/web profiles.
 
-
 ## Memory Profiler
 
 Memory profiler shows what functions allocate heap memory. You can collect it in
@@ -677,4 +676,3 @@ the program. But we hope that the tools will be a valuable addition to your
 toolbox, that you can use to at least analyze and understand what happens.
 [Profiling Go Programs](https://go.dev/blog/profiling-go-programs) is a good
 tutorial on usage of CPU and memory profilers to optimize a simple program.
-

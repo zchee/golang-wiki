@@ -6,9 +6,9 @@ title: GOPATH
 
 Go development using dependencies beyond the standard library is done [using Go modules](https://go.dev/blog/using-go-modules). When using Go modules, the GOPATH variable (which defaults to `$HOME/go` on Unix and `%USERPROFILE%\go` on Windows) is used for the following purposes:
 
- - The `go install` command installs binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
- - The `go get` command caches downloaded modules in `$GOMODCACHE`, which defaults to `$GOPATH/pkg/mod`.
- - The `go get` command caches downloaded checksum database state in `$GOPATH/pkg/sumdb`.
+- The `go install` command installs binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
+- The `go get` command caches downloaded modules in `$GOMODCACHE`, which defaults to `$GOPATH/pkg/mod`.
+- The `go get` command caches downloaded checksum database state in `$GOPATH/pkg/sumdb`.
 
 See the [go command documentation](https://pkg.go.dev/cmd/go#hdr-GOPATH_environment_variable) for full details about the GOPATH variable. The rest of this page concerns the GOPATH development mode, which is now deprecated.
 
@@ -16,9 +16,9 @@ See the [go command documentation](https://pkg.go.dev/cmd/go#hdr-GOPATH_environm
 
 Before Go modules, Go development using dependencies used “GOPATH development mode,” or “GOPATH mode” for short. In GOPATH mode, the `go` command used the GOPATH variable for the following purposes:
 
- - The `go install` command installed binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
- - The `go install` command installed the compiled package file for `import "example.com/y/z"` to `$GOPATH/pkg/example.com/y/z.a`.
- - The `go get` command downloaded source code satisfying `import "example.com/y/z"` to `$GOPATH/src/example.com/y/z`.
+- The `go install` command installed binaries to `$GOBIN`, which defaults to `$GOPATH/bin`.
+- The `go install` command installed the compiled package file for `import "example.com/y/z"` to `$GOPATH/pkg/example.com/y/z.a`.
+- The `go get` command downloaded source code satisfying `import "example.com/y/z"` to `$GOPATH/src/example.com/y/z`.
 
 ## Deprecating and removing GOPATH development mode
 
@@ -80,4 +80,3 @@ The [original plan](https://go.dev/blog/modules2019) was to deprecate GOPATH mod
 ### What if I have more questions about moving from GOPATH development mode to Go modules?
 
 See [golang.org/help](https://go.dev/help) for a list of resources. If none of those are appropriate, feel free to [file an issue](https://go.dev/issue) here. We want everyone to be successful adopting Go modules.
-

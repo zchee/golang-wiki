@@ -49,6 +49,7 @@ The canonical repository for wiki content is located at `go.googlesource.com/wik
 ```
 $ git clone https://go.googlesource.com/wiki
 ```
+
 <!-- TODO: describe supported markdown syntaxes, and how to test local changes -->
 
 ## Reviewing and submitting changes

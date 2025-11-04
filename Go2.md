@@ -6,37 +6,37 @@ This page tracks the status of "Go 2".
 
 We are currently seeking feedback on potential designs for improved error handling, error values, and generics:
 
-* [Announcement of Go2 Draft Designs](https://go.dev/blog/go2draft)
-* [Go2 Error Handling, Generics, and Error Values](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
+- [Announcement of Go2 Draft Designs](https://go.dev/blog/go2draft)
+- [Go2 Error Handling, Generics, and Error Values](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
 
 ## Bugs
 
-* [Open Go2 bugs](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AGo2)
+- [Open Go2 bugs](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AGo2)
 
 ## Talks
 
-* [GopherCon 2017: Russ Cox - The Future of Go](https://www.youtube.com/watch?v=0Zbh_vmAKvk) 
-* [GopherCon Russia 2018: Brad Fitzpatrick - Go: Looking back and looking forward](https://www.youtube.com/watch?v=ZCB-g2B4Y5A) (Go2 stuff is at about 20 minutes in)
-* [Sydney Golang Meetup - Rob Pike - Go 2 Draft Specifications](https://www.youtube.com/watch?v=RIvL2ONhFBI)
+- [GopherCon 2017: Russ Cox - The Future of Go](https://www.youtube.com/watch?v=0Zbh_vmAKvk)
+- [GopherCon Russia 2018: Brad Fitzpatrick - Go: Looking back and looking forward](https://www.youtube.com/watch?v=ZCB-g2B4Y5A) (Go2 stuff is at about 20 minutes in)
+- [Sydney Golang Meetup - Rob Pike - Go 2 Draft Specifications](https://www.youtube.com/watch?v=RIvL2ONhFBI)
 
 ## Scope
 
 From talk above:
 
-* "maybe three major changes"
-* plus minor housekeep tasks
-* TBD
+- "maybe three major changes"
+- plus minor housekeep tasks
+- TBD
 
 Examples of major changes:
 
-* [versioning](https://github.com/golang/go/issues/24301)
-* [generics](https://github.com/golang/go/issues/15292)?
-* [simplified, improved error handling](https://github.com/golang/go/issues/21161)?
-* ...
+- [versioning](https://github.com/golang/go/issues/24301)
+- [generics](https://github.com/golang/go/issues/15292)?
+- [simplified, improved error handling](https://github.com/golang/go/issues/21161)?
+- ...
 
 Examples of housekeeping:
 
-* [Open Go2Cleanup bugs](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AGo2Cleanup) (please don't add this label to things without discussion)
+- [Open Go2Cleanup bugs](https://github.com/golang/go/issues?q=is%3Aissue+is%3Aopen+label%3AGo2Cleanup) (please don't add this label to things without discussion)
 
 ## Compatibility
 
@@ -49,4 +49,3 @@ The standard library would probably be versioned and permit out-of-cycle updates
 ## Roadmap
 
 TBD
-

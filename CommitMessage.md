@@ -14,20 +14,20 @@ Fixes #12345
 
 Notably, for the subject (the first line of description):
 
-* the name of the package affected by the change goes before the colon
-* the part after the colon uses the verb tense + phrase that completes the blank in, *"this change modifies Go to ___________"*
-* the verb after the colon is lowercase
-* there is no trailing period
-* it should be kept as short as possible (many git viewing tools prefer under ~76 characters, though Go isn't super strict about this).
+- the name of the package affected by the change goes before the colon
+- the part after the colon uses the verb tense + phrase that completes the blank in, _"this change modifies Go to \***\*\_\_\_\*\***"_
+- the verb after the colon is lowercase
+- there is no trailing period
+- it should be kept as short as possible (many git viewing tools prefer under ~76 characters, though Go isn't super strict about this).
 
 For the body (the rest of the description):
 
-* the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links).
-* the Fixes line goes after the body with a blank newline separating the two. (It is acceptable but not required to use a trailing period, such as `Fixes #12345.`).
-* there is **no** Markdown in the commit message.
-* we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
-* when referencing CLs, prefer saying "CL nnn" or using a go.dev/cl/nnn shortlink over a direct Gerrit URL or git hash, since that's more future-proof.
-* when moving code between repos, include the CL, repository name, and git hash that it was moved from/to, so it is easier to trace history/blame.
+- the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links).
+- the Fixes line goes after the body with a blank newline separating the two. (It is acceptable but not required to use a trailing period, such as `Fixes #12345.`).
+- there is **no** Markdown in the commit message.
+- we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
+- when referencing CLs, prefer saying "CL nnn" or using a go.dev/cl/nnn shortlink over a direct Gerrit URL or git hash, since that's more future-proof.
+- when moving code between repos, include the CL, repository name, and git hash that it was moved from/to, so it is easier to trace history/blame.
 
 Please _don't_ use alternate GitHub-supported aliases like `Close` or `Resolves` instead of `Fixes`.
 
@@ -62,7 +62,7 @@ For non-"go" repos ("crypto", "tools", "net", etc), the subject is still the nam
 cipher/rot13: add new super secure cipher
 
 Fixes golang/go#1234
-````
+```
 
 Notably, the first line subject should **not** contain the `x/crypto/` prefix. We only do that for the issue tracker.
 

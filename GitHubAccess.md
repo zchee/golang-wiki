@@ -27,4 +27,3 @@ To request any of the access types above, file a new issue (https://go.dev/issue
 ## Once you have access
 
 Go help garden! See [Gardening](/wiki/Gardening).
-

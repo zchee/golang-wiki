@@ -4,7 +4,7 @@ title: Use a sync.Mutex or a channel?
 
 One of Go's mottos is _"Share memory by communicating, don't communicate by sharing memory."_
 
-That said, Go does provide traditional locking mechanisms in the <a href='https://pkg.go.dev/sync/'>sync package</a>.  Most locking issues can be solved using either channels or traditional locks.
+That said, Go does provide traditional locking mechanisms in the <a href='https://pkg.go.dev/sync/'>sync package</a>. Most locking issues can be solved using either channels or traditional locks.
 
 So which should you use?
 
@@ -35,5 +35,5 @@ Channel communication, mutexes and wait-groups are complementary and can be comb
 
 ## More Info
 
-  * Channels in Effective Go: https://go.dev/doc/effective_go#channels
-  * The sync package: https://pkg.go.dev/sync/
+- Channels in Effective Go: https://go.dev/doc/effective_go#channels
+- The sync package: https://pkg.go.dev/sync/

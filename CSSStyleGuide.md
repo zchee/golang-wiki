@@ -20,19 +20,19 @@ JavaScript-specific classes reduce the risk that changing the structure or theme
 
 Again, JavaScript-specific classes should not, under any circumstances, be styled.
 
-##  Components
+## Components
 
 Syntax: `[namespace-]<ComponentName>[-descendantName][--modifierName]`
 
 Component driven development offers several benefits when reading and writing HTML and CSS:
 
-*   It helps to distinguish between the classes for the root of the component, descendant elements, and modifications.
-*   It keeps the specificity of selectors low.
-*   It helps to decouple presentation semantics from document semantics.
+- It helps to distinguish between the classes for the root of the component, descendant elements, and modifications.
+- It keeps the specificity of selectors low.
+- It helps to decouple presentation semantics from document semantics.
 
 You can think of components as custom elements that enclose specific semantics, styling, and behavior.
 
-###  namespace (optional)
+### namespace (optional)
 
 If necessary, components can be prefixed with a namespace. For example, you may wish to avoid the potential for collisions between libraries and your custom components by prefixing all your components with a namespace.
 
@@ -181,7 +181,6 @@ background-image: url('/img/you.jpg');
 font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial;
 ```
 
-
 Wrong:
 
 ```
@@ -220,5 +219,3 @@ Add height and width attributes to images in the html markup to help minimize la
 ```
 <img src="url/to/image.png" height="240" width="160">
 ```
-
-

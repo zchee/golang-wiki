@@ -18,11 +18,10 @@ This page links to resources for learning about server programming in Go - both 
 
 A topic you will see discussed frequently is "middleware". If you're not familiar with that term, we suggest you start out by reading a few of these articles:
 
-* [Middleware in Go: Best practices and examples](https://www.nicolasmerouze.com/middlewares-golang-best-practices-examples/) _2014-11-13_
-* Custom Handlers [Part 1 - Avoiding Globals](http://elithrar.github.io/article/custom-handlers-avoiding-globals/), [Part 2 - Error Handling](http://elithrar.github.io/article/http-handler-error-handling-revisited/) _2014-07-16_
-* [Making and Using HTTP Middleware](http://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
-* [Writing HTTP Middleware in Go](https://justinas.org/writing-http-middleware-in-go/) _2013-10-09_
-
+- [Middleware in Go: Best practices and examples](https://www.nicolasmerouze.com/middlewares-golang-best-practices-examples/) _2014-11-13_
+- Custom Handlers [Part 1 - Avoiding Globals](http://elithrar.github.io/article/custom-handlers-avoiding-globals/), [Part 2 - Error Handling](http://elithrar.github.io/article/http-handler-error-handling-revisited/) _2014-07-16_
+- [Making and Using HTTP Middleware](http://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
+- [Writing HTTP Middleware in Go](https://justinas.org/writing-http-middleware-in-go/) _2013-10-09_
 
 ## Toolkits and Frameworks
 
@@ -32,28 +31,28 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Toolkits & Libraries & Microframeworks
 
-* [Gorilla Toolkit](http://www.gorillatoolkit.org/)
-* [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni)
-* [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
-* [Goji Web Microframework](https://goji.io/)
-* [Go Craft Middleware](https://github.com/gocraft/web)
-* [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
-* [limiter](https://github.com/ulule/limiter) - Simple rate-limiting middleware for Go
-* [Kite Micro-service framework](https://github.com/koding/kite)
-* [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
-* [YAM - Yet Another Mux](https://github.com/thisissoon/yam)
-* [Bone - Fast HTTP Router](http://go-zoo.github.io/bone/)
+- [Gorilla Toolkit](http://www.gorillatoolkit.org/)
+- [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni)
+- [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
+- [Goji Web Microframework](https://goji.io/)
+- [Go Craft Middleware](https://github.com/gocraft/web)
+- [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
+- [limiter](https://github.com/ulule/limiter) - Simple rate-limiting middleware for Go
+- [Kite Micro-service framework](https://github.com/koding/kite)
+- [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
+- [YAM - Yet Another Mux](https://github.com/thisissoon/yam)
+- [Bone - Fast HTTP Router](http://go-zoo.github.io/bone/)
 
 ### Frameworks
 
-* [BeeGo Framework][beego]
-* [Frodo](https://github.com/kn9ts/frodo) - Go mini web framework inspired by Laravel(php), Slim(php) and ExpressJS(node.js)
-* [GinGonic](https://gin-gonic.com/)
-* [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
-* [Revel Web Framework](https://revel.github.io/)
-* [Ringo](https://github.com/jjyr/ringo) - Lightweight MVC web framework inspired by Rails, Gin.
-* [Utron](https://github.com/gernest/utron) - Lightweight MVC framework for web applications.
-* [Iris](https://github.com/kataras/iris/) - Fast MVC framework for web applications.
+- [BeeGo Framework][beego]
+- [Frodo](https://github.com/kn9ts/frodo) - Go mini web framework inspired by Laravel(php), Slim(php) and ExpressJS(node.js)
+- [GinGonic](https://gin-gonic.com/)
+- [Macaron](https://github.com/Unknwon/macaron) - Productive, modular web framework in Go.
+- [Revel Web Framework](https://revel.github.io/)
+- [Ringo](https://github.com/jjyr/ringo) - Lightweight MVC web framework inspired by Rails, Gin.
+- [Utron](https://github.com/gernest/utron) - Lightweight MVC framework for web applications.
+- [Iris](https://github.com/kataras/iris/) - Fast MVC framework for web applications.
 
 ## Communication
 
@@ -72,8 +71,8 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 - Read [Profiling Go Programs](https://go.dev/blog/profiling-go-programs)
 - Read [Arrays, slices (and strings): The mechanics of 'append'](https://go.dev/blog/slices)
 - Read the [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq), especially
-    - [Why does Go perform badly on benchmark X?](https://go.dev/doc/faq#Why_does_Go_perform_badly_on_benchmark_x)
-    - [Why do garbage collection? Won't it be too expensive?](https://go.dev/doc/faq#garbage_collection)
+  - [Why does Go perform badly on benchmark X?](https://go.dev/doc/faq#Why_does_Go_perform_badly_on_benchmark_x)
+  - [Why do garbage collection? Won't it be too expensive?](https://go.dev/doc/faq#garbage_collection)
 - [Package bufio](https://pkg.go.dev/bufio) implements buffered I/O.
 - [Package runtime/pprof](https://pkg.go.dev/runtime/pprof) writes runtime profiling data in the format expected by the pprof visualization tool.
 - [Package net/http/pprof](https://pkg.go.dev/net/http/pprof) serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool.
@@ -106,7 +105,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Amazon Web Services
 
-- The [aws-sdk-go](https://github.com/aws/aws-sdk-go) repository provides automatically generated AWS clients in Go.  It has [official support](https://aws.amazon.com/blogs/aws/now-available-version-1-0-of-the-aws-sdk-for-go/) from Amazon.
+- The [aws-sdk-go](https://github.com/aws/aws-sdk-go) repository provides automatically generated AWS clients in Go. It has [official support](https://aws.amazon.com/blogs/aws/now-available-version-1-0-of-the-aws-sdk-for-go/) from Amazon.
 - [Package goamz](https://wiki.ubuntu.com/goamz) enables Go programs to interact with the Amazon Web Services.
 - Search packages for [AWS](https://pkg.go.dev/search?q=aws) or [Amazon services](https://pkg.go.dev/search?q=amazon+service)
 
@@ -125,4 +124,5 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 - [Write your first Golang app on BlueMix](https://developer.ibm.com/bluemix/2015/10/28/getting-started-with-golang-on-bluemix/)
 
 <!-- Common Links -->
-  [beego]: https://github.com/beego/beego
+
+[beego]: https://github.com/beego/beego

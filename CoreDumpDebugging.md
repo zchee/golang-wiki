@@ -6,7 +6,6 @@ Originally published at https://rakyll.org/coredumps/.
 
 ---
 
-
 Debugging is highly useful to examine the execution flow
 and to understand the current state of a program.
 
@@ -25,7 +24,7 @@ opportunity to resurrect a program from specific snapshot
 and look into cases that might only reproducible in certain
 conditions/environments.
 
-__Note__: This flow only works on Linux at this point end-to-end,
+**Note**: This flow only works on Linux at this point end-to-end,
 I am not quite sure about the other Unixes but it is not
 yet supported on macOS. Windows is not supported at this point.
 
@@ -81,7 +80,7 @@ tools.
 There are several ways to obtain a core file. You might have been
 already familiar with crash dumps, these are basically core dumps
 written to disk when a program is crashing. Go doesn't enable crash dumps
-by default but gives you this option  on Ctrl+backslash when
+by default but gives you this option on Ctrl+backslash when
 `GOTRACEBACK` env variable is set to "crash".
 
 ```
@@ -93,7 +92,7 @@ It will crash the program with stack trace printed and core dump file
 will be written.
 
 Another option is to retrieve a core dump from a running process
-without  having to kill a process.
+without having to kill a process.
 With `gcore`, it is possible to get the core
 files without crashing. Let’s start the server again:
 
@@ -101,6 +100,7 @@ files without crashing. Let’s start the server again:
 $ ./hello &
 $ gcore 546 # 546 is the PID of hello.
 ```
+
 We have a dump without crashing the process. The next step
 is to load the core file to delve and start analyzing.
 
@@ -109,7 +109,7 @@ $ dlv core ./hello core.546
 ```
 
 Alright, this is it! This is no different than the typical delve interactive.
-You can backtrace, list, see variables, and  more. Some features will be disabled
+You can backtrace, list, see variables, and more. Some features will be disabled
 given a core dump is a snapshot and not a currently running process, but
 the execution flow and the program state will be entirely accessible.
 

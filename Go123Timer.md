@@ -8,12 +8,12 @@ created by [time.NewTimer](/pkg/time/#NewTimer), [time.After](/pkg/time/#After),
 
 The new implementation makes two important changes:
 
- 1. Unstopped timers and tickers that are no longer referenced can be garbage collected.
+1.  Unstopped timers and tickers that are no longer referenced can be garbage collected.
     Before Go 1.23, unstopped timers could not be garbage collected until the timer went off,
     and unstopped tickers could never be garbage collected.
     The Go 1.23 implementation avoids resource leaks in programs that don't use `t.Stop`.
 
- 2. Timer channels are now synchronous (unbuffered), giving the `t.Reset` and `t.Stop`
+2.  Timer channels are now synchronous (unbuffered), giving the `t.Reset` and `t.Stop`
     methods a stronger guarantee: after one of those methods returns, no future receive from the
     timer channel will observe a stale time value corresponding to the old timer
     configuration. Before Go 1.23, it was impossible to avoid stale values with `t.Reset`,
@@ -41,18 +41,18 @@ Code that polls a timer channel using `len` should instead use a non-blocking se
 
 That is, code that does:
 
-	if len(t.C) == 1 {
-		<-t.C
-		more code
-	}
+    if len(t.C) == 1 {
+    	<-t.C
+    	more code
+    }
 
 should instead do:
 
-	select {
-	default:
-	case <-t.C:
-		more code
-	}
+    select {
+    default:
+    case <-t.C:
+    	more code
+    }
 
 ## Select Races
 
@@ -62,15 +62,15 @@ for receiving, due to scheduling delays. That delay can be observed
 in code that selects between a channel that is ready before the select
 and a newly created timer with a very short timeout:
 
-	c := make(chan bool)
-	close(c)
+    c := make(chan bool)
+    close(c)
 
-	select {
-	case <-c:
-		println("done")
-	case <-time.After(1*time.Nanosecond):
-		println("timeout")
-	}
+    select {
+    case <-c:
+    	println("done")
+    case <-time.After(1*time.Nanosecond):
+    	println("timeout")
+    }
 
 By the time the select arguments are evaluated and select looks at
 the channels involved, the timer should have expired, meaning
@@ -92,31 +92,31 @@ would be set to something very small. And then the test would insist on the
 non-timeout case executing, failing if the timeout was reached.
 A reduced example might look like:
 
-	select {
-	case <-ctx.Done():
-		return nil
-	case <-time.After(timeout):
-		return errors.New("timeout")
-	}
+    select {
+    case <-ctx.Done():
+    	return nil
+    case <-time.After(timeout):
+    	return errors.New("timeout")
+    }
 
 Then the test would call this code with `timeout` set to 1ns and fail if the code returned an error.
 
 To fix a test like this, either the caller can be changed to understand that timeouts are possible,
 or the code can be changed to prefer the done channel even in the timeout case, like this:
 
-	select {
-	case <-ctx.Done():
-		return nil
-	case <-time.After(timeout):
-		// Double-check that Done is not ready,
-		// in case of short timeout during test.
-		select {
-		default:
-		case <-ctx.Done():
-			return nil
-		}
-		return errors.New("timeout")
-	}
+    select {
+    case <-ctx.Done():
+    	return nil
+    case <-time.After(timeout):
+    	// Double-check that Done is not ready,
+    	// in case of short timeout during test.
+    	select {
+    	default:
+    	case <-ctx.Done():
+    		return nil
+    	}
+    	return errors.New("timeout")
+    }
 
 ## Debugging
 
@@ -125,8 +125,8 @@ the `asynctimerchan` [GODEBUG setting](/doc/godebug) can be
 used to check whether the new timer implementation triggers
 the failure:
 
-	GODEBUG=asynctimerchan=0 mytest  # force Go 1.23 timers
-	GODEBUG=asynctimerchan=1 mytest  # force Go 1.22 timers
+    GODEBUG=asynctimerchan=0 mytest  # force Go 1.23 timers
+    GODEBUG=asynctimerchan=1 mytest  # force Go 1.22 timers
 
 If the program or test consistently passes using Go 1.22 but consistently
 fails using Go 1.23, that is a strong sign that the problem is related to timers.
@@ -136,8 +136,8 @@ itself, not the timer implementation, so the next step is to identify exactly
 which code in `mytest` depends on the old implementation.
 To do that, you can use [the `bisect` tool](https://pkg.go.dev/golang.org/x/tools/cmd/bisect):
 
-	go install golang.org/x/tools/cmd/bisect@latest
-	bisect -godebug asynctimerchan=1 mytest
+    go install golang.org/x/tools/cmd/bisect@latest
+    bisect -godebug asynctimerchan=1 mytest
 
 Invoked this way, `bisect` runs mytest repeatedly, toggling the new timer
 implementation on and off depending on the stack trace leading to the
@@ -148,59 +148,58 @@ mainly so that when the test is slow you know it is still running.
 
 An example `bisect` run looks like:
 
-	$ bisect -godebug asynctimerchan=1 ./view.test
-	bisect: checking target with all changes disabled
-	bisect: run: GODEBUG=asynctimerchan=1#n ./view.test... FAIL (7 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#n ./view.test... FAIL (7 matches)
-	bisect: checking target with all changes enabled
-	bisect: run: GODEBUG=asynctimerchan=1#y ./view.test... ok (7 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#y ./view.test... ok (7 matches)
-	bisect: target fails with no changes, succeeds with all changes
-	bisect: searching for minimal set of disabled changes causing failure
-	bisect: run: GODEBUG=asynctimerchan=1#!+0 ./view.test... FAIL (3 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+0 ./view.test... FAIL (3 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+00 ./view.test... ok (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+00 ./view.test... ok (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+10 ./view.test... FAIL (2 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+10 ./view.test... FAIL (2 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+0010 ./view.test... ok (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+0010 ./view.test... ok (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+1010 ./view.test... FAIL (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!+1010 ./view.test... FAIL (1 matches)
-	bisect: confirming failing change set
-	bisect: run: GODEBUG=asynctimerchan=1#v!+x65a ./view.test... FAIL (1 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#v!+x65a ./view.test... FAIL (1 matches)
-	bisect: FOUND failing change set
-	--- change set #1 (disabling changes causes failure)
-	internal/godebug.(*Setting).Value()
-		go/src/internal/godebug/godebug.go:165
-	time.syncTimer()
-		go/src/time/sleep.go:25
-	time.NewTimer()
-		go/src/time/sleep.go:144
-	time.After()
-		go/src/time/sleep.go:202
-	region_dash/regionlist.(*Cache).Top()
-		region_dash/regionlist/regionlist.go:89
-	region_dash/view.(*Page).ServeHTTP()
-		region_dash/view/view.go:45
-	region_dash/view.TestServeHTTPStatus.(*Router).Handler.func2()
-		httprouter/httprouter/params_go17.go:27
-	httprouter/httprouter.(*Router).ServeHTTP()
-		httprouter/httprouter/router.go:339
-	region_dash/view.TestServeHTTPStatus.func1()
-		region_dash/view/view.test.go:105
-	testing.tRunner()
-		go/src/testing/testing.go:1689
-	runtime.goexit()
-		go/src/runtime/asm_amd64.s:1695
+    $ bisect -godebug asynctimerchan=1 ./view.test
+    bisect: checking target with all changes disabled
+    bisect: run: GODEBUG=asynctimerchan=1#n ./view.test... FAIL (7 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#n ./view.test... FAIL (7 matches)
+    bisect: checking target with all changes enabled
+    bisect: run: GODEBUG=asynctimerchan=1#y ./view.test... ok (7 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#y ./view.test... ok (7 matches)
+    bisect: target fails with no changes, succeeds with all changes
+    bisect: searching for minimal set of disabled changes causing failure
+    bisect: run: GODEBUG=asynctimerchan=1#!+0 ./view.test... FAIL (3 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+0 ./view.test... FAIL (3 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+00 ./view.test... ok (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+00 ./view.test... ok (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+10 ./view.test... FAIL (2 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+10 ./view.test... FAIL (2 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+0010 ./view.test... ok (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+0010 ./view.test... ok (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+1010 ./view.test... FAIL (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!+1010 ./view.test... FAIL (1 matches)
+    bisect: confirming failing change set
+    bisect: run: GODEBUG=asynctimerchan=1#v!+x65a ./view.test... FAIL (1 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#v!+x65a ./view.test... FAIL (1 matches)
+    bisect: FOUND failing change set
+    --- change set #1 (disabling changes causes failure)
+    internal/godebug.(*Setting).Value()
+    	go/src/internal/godebug/godebug.go:165
+    time.syncTimer()
+    	go/src/time/sleep.go:25
+    time.NewTimer()
+    	go/src/time/sleep.go:144
+    time.After()
+    	go/src/time/sleep.go:202
+    region_dash/regionlist.(*Cache).Top()
+    	region_dash/regionlist/regionlist.go:89
+    region_dash/view.(*Page).ServeHTTP()
+    	region_dash/view/view.go:45
+    region_dash/view.TestServeHTTPStatus.(*Router).Handler.func2()
+    	httprouter/httprouter/params_go17.go:27
+    httprouter/httprouter.(*Router).ServeHTTP()
+    	httprouter/httprouter/router.go:339
+    region_dash/view.TestServeHTTPStatus.func1()
+    	region_dash/view/view.test.go:105
+    testing.tRunner()
+    	go/src/testing/testing.go:1689
+    runtime.goexit()
+    	go/src/runtime/asm_amd64.s:1695
 
-	---
-	bisect: checking for more failures
-	bisect: run: GODEBUG=asynctimerchan=1#!-x65a ./view.test... ok (6 matches)
-	bisect: run: GODEBUG=asynctimerchan=1#!-x65a ./view.test... ok (6 matches)
-	bisect: target succeeds with all remaining changes disabled
+    ---
+    bisect: checking for more failures
+    bisect: run: GODEBUG=asynctimerchan=1#!-x65a ./view.test... ok (6 matches)
+    bisect: run: GODEBUG=asynctimerchan=1#!-x65a ./view.test... ok (6 matches)
+    bisect: target succeeds with all remaining changes disabled
 
 In this case, the stack trace makes clear exactly which call to `time.After` causes a failure
 when using the new timers.
-

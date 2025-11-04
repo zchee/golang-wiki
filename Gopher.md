@@ -8,15 +8,15 @@ Read [this article](https://go.dev/blog/gopher) and watch [The Go Gopher A Chara
 
 ## Where can I find more gopher illustrations?
 
-* [gophers in the Go website repository](https://go.googlesource.com/website/+/refs/heads/master/_content/doc/gopher/)
-* [gopher vector](https://github.com/golang-samples/gopher-vector)
-* [gopher 3d](https://github.com/golang-samples/gopher-3d)
-* [golang graphics](https://github.com/mholt/golang-graphics)
-* [print-ready swimming gopher](https://gumroad.com/l/golang)
-* [go gopher vector](https://github.com/keygx/Go-gopher-Vector)
-* [gophericons](https://github.com/hackraft/gophericons)
-* [gophers by Egon Elbre](https://github.com/egonelbre/gophers)
-* [Go Gopher model (3d)](https://github.com/StickmanVentures/go-gopher-model)
-* [Gopher Artwork by Ashley McNamara](https://github.com/ashleymcnamara/gophers)
-* [Gopherize.me](https://gopherize.me/) - a Gopher avatar that's as unique as you
-* [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)
+- [gophers in the Go website repository](https://go.googlesource.com/website/+/refs/heads/master/_content/doc/gopher/)
+- [gopher vector](https://github.com/golang-samples/gopher-vector)
+- [gopher 3d](https://github.com/golang-samples/gopher-3d)
+- [golang graphics](https://github.com/mholt/golang-graphics)
+- [print-ready swimming gopher](https://gumroad.com/l/golang)
+- [go gopher vector](https://github.com/keygx/Go-gopher-Vector)
+- [gophericons](https://github.com/hackraft/gophericons)
+- [gophers by Egon Elbre](https://github.com/egonelbre/gophers)
+- [Go Gopher model (3d)](https://github.com/StickmanVentures/go-gopher-model)
+- [Gopher Artwork by Ashley McNamara](https://github.com/ashleymcnamara/gophers)
+- [Gopherize.me](https://gopherize.me/) - a Gopher avatar that's as unique as you
+- [Free Gophers Pack](https://github.com/MariaLetta/free-gophers-pack)

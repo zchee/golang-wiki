@@ -6,7 +6,7 @@ Go needs everyone's help.
 We want to see more new speakers with new perspectives at Go conferences,
 especially more women and others underrepresented in the Go community.
 
-The process of applying to speak at a tech conference can be a bit opaque and confusing 
+The process of applying to speak at a tech conference can be a bit opaque and confusing
 for first-time speakers.
 In general, please remember that, first and foremost,
 conferences organizers want to find great talks;
@@ -32,7 +32,7 @@ are happy to discuss or review talk proposals
 and answer other questions about the overall speaking process.
 Feel free to contact any of us directly.
 
-- Russ Cox, rsc@golang.org, [@_rsc](https://twitter.com/_rsc)
+- Russ Cox, rsc@golang.org, [@\_rsc](https://twitter.com/_rsc)
 - Steve Francia, spf@golang.org, [@spf13](https://twitter.com/spf13)
 - William Kennedy, bill@ardanlabs.com, [@goinggodotnet](https://twitter.com/goinggodotnet)
 - Cassandra Salisbury, cassandra@golangbridge.org, [@cassandraoid](https://twitter.com/cassandraoid)
@@ -44,7 +44,7 @@ Feel free to contact any of us directly.
 - Sameer Ajmani, sameer@google.com, [@Sajma](https://twitter.com/Sajma)
 - Florin Pățan, florinpatan@gmail.com, [@dlsniper](https://twitter.com/dlsniper)
 - Aaron Schlesinger, arschles@gmail.com, [@arschles](https://twitter.com/arschles)
-- Paul Jolly, paul@myitcv.io [@_myitcv](https://twitter.com/_myitcv)
+- Paul Jolly, paul@myitcv.io [@\_myitcv](https://twitter.com/_myitcv)
 - Alexey Palazhchenko, alexey.palazhchenko@gmail.com [@paaleksey](https://twitter.com/paaleksey) (English, Russian)
 - Carmen Andoh, candoh@google.com, [@carmatrocity](https://twitter.com/carmatrocity)
 

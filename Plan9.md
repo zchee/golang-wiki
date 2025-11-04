@@ -10,40 +10,40 @@ An experimental port of [Go](https://golang.org) is available for the [Plan 9 fr
 
 The Plan 9 port of Go is available for the following architectures:
 
-* 386
-* amd64
-* arm
+- 386
+- amd64
+- arm
 
 ## Supported kernels
 
 The current Go distribution has been tested successfully on:
 
-* [Plan 9 from Bell Labs](https://9p.io/plan9) (386 and arm) kernel
-* [9front](http://9front.org) amd64 kernel
-* Bell Labs [9k](https://github.com/0intro/plan9-contrib/tree/master/sys/src/9k) (amd64) kernel
+- [Plan 9 from Bell Labs](https://9p.io/plan9) (386 and arm) kernel
+- [9front](http://9front.org) amd64 kernel
+- Bell Labs [9k](https://github.com/0intro/plan9-contrib/tree/master/sys/src/9k) (amd64) kernel
 
 ## Requirements
 
 Go on Plan 9 requires a kernel providing the following system calls:
 
-* tsemacquire (available since [2012-06-30](https://github.com/0intro/plan9/commit/6c1d8fd563a815cbbac06f61bdc1d0f6331c3d3b))
-* nsec (available since [2014-05-15](https://github.com/0intro/plan9/commit/bd0c9332d5b1da1371d03e8e0ad03de0d08e08c6))
+- tsemacquire (available since [2012-06-30](https://github.com/0intro/plan9/commit/6c1d8fd563a815cbbac06f61bdc1d0f6331c3d3b))
+- nsec (available since [2014-05-15](https://github.com/0intro/plan9/commit/bd0c9332d5b1da1371d03e8e0ad03de0d08e08c6))
 
 A fix to the pread system call is required, so pread will not update the channel offset when reading a file:
 
-* [9-pread-offset](http://9legacy.org/9legacy/patch/9-pread-offset.diff)
+- [9-pread-offset](http://9legacy.org/9legacy/patch/9-pread-offset.diff)
 
 The TCP connection control file must handle the "close" message to be able close a TCP connection gracefully, while waking up the readers:
 
-* [9-tcp-close](http://9legacy.org/9legacy/patch/9-tcp-close.diff)
+- [9-tcp-close](http://9legacy.org/9legacy/patch/9-tcp-close.diff)
 
 A fix to Fossil is required to increment Qid.vers after a wstat, so a truncate followed by a read will return the content of the new file instead of the cached content.
 
-* [fossil-wstat-qid](http://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
+- [fossil-wstat-qid](http://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
 
 You will need support for SHA-2 signatures in X.509 certificates, so you could download sources from repositories hosted on GoogleSource, GitHub and so on.
 
-* [libsec-x509-sha2](http://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
+- [libsec-x509-sha2](http://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
 
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
@@ -65,6 +65,7 @@ However, since the Go 1.4 runtime wasn't mature enough on Plan 9, we recommend y
 First, install Go 1.4:
 
 <!-- should be rc, but they highlight all the same. -->
+
 ```sh
 cd /tmp
 git clone -b go1.4.3 https://go.googlesource.com/go go1.4
@@ -90,6 +91,7 @@ cd go/src
 all.rc
 bind -a /tmp/go/bin /bin
 ```
+
 Go is now ready to use.
 
 ### Bootstrapping from another operating system
@@ -153,9 +155,9 @@ Git is not available on Plan 9. However a [Git wrapper](http://9legacy.org/9lega
 
 Three Plan 9 builders are currently running and reporting the results to the [Go Dashboard](http://build.golang.org/):
 
-* plan9-386 is running Plan 9 from Bell Labs (386 kernel) on a virtual machine
-* plan9-amd64-9front is running Plan 9 from Bell Labs (amd64 kernel) on a virtual machine
-* plan9-arm is running Plan 9 from Bell Labs (arm kernel) on a Raspberry Pi 3
+- plan9-386 is running Plan 9 from Bell Labs (386 kernel) on a virtual machine
+- plan9-amd64-9front is running Plan 9 from Bell Labs (amd64 kernel) on a virtual machine
+- plan9-arm is running Plan 9 from Bell Labs (arm kernel) on a Raspberry Pi 3
 
 ## Status
 
@@ -176,8 +178,8 @@ Many people have contributed to the Plan 9 port of Go. Since December 2013, the 
 ## Trivia
 
 Many parts of Go are directly influenced by the Plan 9 system, as two of its three main designers worked on Plan 9 at Bell labs. Some of these connections are:
-* The [Gopher](https://go.dev/doc/faq#gopher) is designed by Renée French, who also designed Glenda, the Plan 9 bunny.
-* The Gc compiler hosted in this repository uses a [Plan 9-style loader](https://go.dev/doc/faq#What_compiler_technology_is_used_to_build_the_compilers).
-* [Go's Assembler](https://go.dev/doc/asm) is based on Plan 9's syntax. The Go 1.x stack-based ABI is borrowed from Plan 9.
-* Although not recommended, there was also some support for [Plan 9 C](GcToolchainTricks), with the original standard library being descended from Plan 9's libc. The [self-hosting design document](https://docs.google.com/document/d/1P3BLR31VA8cvLJLfMibSuTdwTuF7WWLux71CYD0eeD8) talks about this history.
 
+- The [Gopher](https://go.dev/doc/faq#gopher) is designed by Renée French, who also designed Glenda, the Plan 9 bunny.
+- The Gc compiler hosted in this repository uses a [Plan 9-style loader](https://go.dev/doc/faq#What_compiler_technology_is_used_to_build_the_compilers).
+- [Go's Assembler](https://go.dev/doc/asm) is based on Plan 9's syntax. The Go 1.x stack-based ABI is borrowed from Plan 9.
+- Although not recommended, there was also some support for [Plan 9 C](GcToolchainTricks), with the original standard library being descended from Plan 9's libc. The [self-hosting design document](https://docs.google.com/document/d/1P3BLR31VA8cvLJLfMibSuTdwTuF7WWLux71CYD0eeD8) talks about this history.

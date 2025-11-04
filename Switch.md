@@ -4,7 +4,7 @@ title: Switch
 
 Spec: https://go.dev/ref/spec#Switch_statements
 
-Go's ` switch ` statements are pretty neat. For one thing, you don't need to break at the end of each case.
+Go's `switch` statements are pretty neat. For one thing, you don't need to break at the end of each case.
 
 ```go
 switch c {
@@ -81,7 +81,7 @@ func unhex(c byte) byte {
 
 ## Break
 
-Go's ` switch ` statements ` break ` implicitly, but ` break ` is still useful:
+Go's `switch` statements `break` implicitly, but `break` is still useful:
 
 ```go
 command := ReadCommand()
@@ -102,7 +102,7 @@ default:
 
 ## Fall through
 
-To fall through to a subsequent case, use the ` fallthrough ` keyword:
+To fall through to a subsequent case, use the `fallthrough` keyword:
 
 ```go
 v := 42
@@ -144,6 +144,7 @@ case 1:
 	v |= uint32(src[0]) << 24
 }
 ```
+
 [src/pkg/encoding/ascii85/ascii85.go](http://golang.org/src/pkg/encoding/ascii85/ascii85.go#L43)
 
 The 'fallthrough' must be the last thing in the case; you can't write something like
@@ -159,6 +160,7 @@ default:
 	error()
 }
 ```
+
 However, you can work around this by using a 'labeled' `fallthrough`:
 
 ```go
@@ -175,6 +177,7 @@ default:
 	error()
 }
 ```
+
 Note: `fallthrough` does not work in type switch.
 
 ## Multiple cases
@@ -190,6 +193,7 @@ func letterOp(code int) bool {
 	return false
 }
 ```
+
 ## Type switch
 
 With a type switch you can switch on the type of an interface value (only):
@@ -207,7 +211,7 @@ func typeName(v interface{}) string {
 }
 ```
 
-You can also declare a variable and it will have the type of each ` case `:
+You can also declare a variable and it will have the type of each `case`:
 
 ```go
 func do(v interface{}) string {
@@ -247,4 +251,3 @@ fmt.Sprintf("foo%s\n", pluralEnding(1))  == "foo"
 fmt.Sprintf("bar%s\n", pluralEnding(2))  == "bars"
 
 ```
- 

@@ -4,24 +4,23 @@ title: GerritBot
 
 GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](https://go-review.googlesource.com) for code review. It was created because the Go team does all its reviews in Gerrit, but we'd like to allow a more common workflow for contributing code via GitHub PRs.
 
-Table of Contents
-=================
+# Table of Contents
 
-+ [Workflow](#workflow)
-+ [Frequently Asked Questions](#frequently-asked-questions)
-+ [Feedback and Bug Reports](#feedback-and-bug-reports)
-+ [I'd like to add a feature/fix a bug](#id-like-to-add-a-featurefix-a-bug)
+- [Workflow](#workflow)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Feedback and Bug Reports](#feedback-and-bug-reports)
+- [I'd like to add a feature/fix a bug](#id-like-to-add-a-featurefix-a-bug)
 
 ## Workflow
 
-+ A user can upload a GitHub PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
-+ The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR containing a link to the Gerrit review
-+ All comments are handled within Gerrit. Any comments on the GitHub PR will be ignored
-+ The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
-+ Any changes to the commit message must be done by editing the title and description of the GitHub PR, and not via Gerrit or git. (See FAQ below for details).
-+ [Draft PRs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) are imported as [WIP](https://gerrit-review.googlesource.com/Documentation/intro-user.html)
-+ Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
-+ Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
+- A user can upload a GitHub PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
+- The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR containing a link to the Gerrit review
+- All comments are handled within Gerrit. Any comments on the GitHub PR will be ignored
+- The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
+- Any changes to the commit message must be done by editing the title and description of the GitHub PR, and not via Gerrit or git. (See FAQ below for details).
+- [Draft PRs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests) are imported as [WIP](https://gerrit-review.googlesource.com/Documentation/intro-user.html)
+- Once the code is ready to be merged, a maintainer will submit the change on Gerrit and GerritBot will close the issue
+- Similarly, if a change is closed or abandoned on Gerrit, the corresponding PR will be closed
 
 ## Frequently Asked Questions
 
@@ -41,11 +40,12 @@ which requires a Gmail or other Google account.
 ### How does GerritBot determine the final commit message?
 
 The key points to remember:
-* The GitHub PR title and PR description (the first PR comment) are periodically imported into Gerrit
+
+- The GitHub PR title and PR description (the first PR comment) are periodically imported into Gerrit
   in their plaintext form as the Gerrit commit message.
-* **To update the Gerrit commit message**, you must therefore **edit the PR title and PR description**
+- **To update the Gerrit commit message**, you must therefore **edit the PR title and PR description**
   using the **GitHub web interface**.
-* You **cannot update the Gerrit commit message just by pushing another commit** to the PR with
+- You **cannot update the Gerrit commit message just by pushing another commit** to the PR with
   an updated commit message. (Pushing another commit does not automatically update the GitHub PR title
   or PR description, and hence the updated text won't be imported into Gerrit).
 
@@ -58,9 +58,10 @@ body).](images/gerritbot-how-to-edit-in-github.png)
 
 In more detail, GerritBot uses the latest PR title and PR description from the GitHub PR to construct the
 commit message for the Gerrit change. This text is editable via the GitHub web interface (not Gerrit or git):
-* The **PR title** is editable via the "Edit" button in the top-right of the PR page.
+
+- The **PR title** is editable via the "Edit" button in the top-right of the PR page.
   This is used for the first line of the commit message in Gerrit.
-* The **PR description** is in the first text area under the "Conversation" tab of the GitHub PR.
+- The **PR description** is in the first text area under the "Conversation" tab of the GitHub PR.
   It is editable via "Edit" option on the "..." menu. This text is used for the remainder of the commit
   message body in Gerrit.
 
@@ -102,7 +103,7 @@ Please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2
 
 ## I'd like to add a feature/fix a bug
 
-+ If the feature/bug is non-trivial, please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) first
-+ The code is located at x/build/cmd/gerritbot
+- If the feature/bug is non-trivial, please [file an issue](https://github.com/golang/go/issues/new?title=x%2Fbuild%2Fcmd%2Fgerritbot%3A%20%3Cfill%20this%20in%3E) first
+- The code is located at x/build/cmd/gerritbot
   ([GitHub](https://github.com/golang/build/tree/master/cmd/gerritbot),
   [Gerrit](https://go.googlesource.com/build/+/master/cmd/gerritbot/))

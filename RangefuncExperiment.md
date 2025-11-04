@@ -13,31 +13,31 @@ This page answers a few frequently asked questions about the change.
 
 Consider this function for iterating a slice backwards:
 
-	package slices
+    package slices
 
-	func Backward[E any](s []E) func(func(int, E) bool) {
-		return func(yield func(int, E) bool) {
-			for i := len(s)-1; i >= 0; i-- {
-				if !yield(i, s[i]) {
-					return
-				}
-			}
-		}
-	}
+    func Backward[E any](s []E) func(func(int, E) bool) {
+    	return func(yield func(int, E) bool) {
+    		for i := len(s)-1; i >= 0; i-- {
+    			if !yield(i, s[i]) {
+    				return
+    			}
+    		}
+    	}
+    }
 
 It can be invoked as:
 
-	s := []string{"hello", "world"}
-	for i, x := range slices.Backward(s) {
-		fmt.Println(i, x)
-	}
+    s := []string{"hello", "world"}
+    for i, x := range slices.Backward(s) {
+    	fmt.Println(i, x)
+    }
 
 This program would translate inside the compiler to a program more like:
 
-	slices.Backward(s)(func(i int, x string) bool {
-		fmt.Println(i, x)
-		return true
-	})
+    slices.Backward(s)(func(i int, x string) bool {
+    	fmt.Println(i, x)
+    	return true
+    })
 
 The `return true` at the end of the body is the implicit `continue` at
 the end of the loop body.
@@ -52,13 +52,13 @@ library proposal.
 One convention we've adopted is that a container's `All` method should
 return an iterator:
 
-	func (t *Tree[V]) All() iter.Seq[V]
+    func (t *Tree[V]) All() iter.Seq[V]
 
 Specific containers might provide other iterator methods as well.
 Maybe a list would provide backward iteration too:
 
-	func (l *List[V]) All() iter.Seq[V]
-	func (l *List[V]) Backward() iter.Seq[V]
+    func (l *List[V]) All() iter.Seq[V]
+    func (l *List[V]) Backward() iter.Seq[V]
 
 These examples are meant to show that the library can be written in a
 way that should make these kinds of functions readable and
@@ -110,10 +110,10 @@ function signatures for general code to define.
 Today the [iter](/pkg/iter) package can easily define names for
 iterators:
 
-	package iter
+    package iter
 
-	type Seq[V any] func(yield func(V) bool) bool
-	type Seq2[K, V any] func(yield func(K, V) bool) bool
+    type Seq[V any] func(yield func(V) bool) bool
+    type Seq2[K, V any] func(yield func(K, V) bool) bool
 
 ### What do stack traces look like in the loop body?
 
@@ -193,80 +193,80 @@ In principle, yes.
 
 Consider the slices.Backward example again, which first translates to:
 
-	slices.Backward(s)(func(i int, x string) bool {
-		fmt.Println(i, x)
-		return true
-	})
+    slices.Backward(s)(func(i int, x string) bool {
+    	fmt.Println(i, x)
+    	return true
+    })
 
 The compiler can recognize that slices.Backward is trivial and inline
 it, producing:
 
-	func(yield func(int, E) bool) bool {
-		for i := len(s)-1; i >= 0; i-- {
-			if !yield(i, s[i]) {
-				return false
-			}
-		}
-		return true
-	}(func(i int, x string) bool {
-		fmt.Println(i, x)
-		return true
-	})
+    func(yield func(int, E) bool) bool {
+    	for i := len(s)-1; i >= 0; i-- {
+    		if !yield(i, s[i]) {
+    			return false
+    		}
+    	}
+    	return true
+    }(func(i int, x string) bool {
+    	fmt.Println(i, x)
+    	return true
+    })
 
 Then it can recognize a function literal being immediately called and
 inline that:
 
-	{
-		yield := func(i int, x string) bool {
-			fmt.Println(i, x)
-			return true
-		}
-		for i := len(s)-1; i >= 0; i-- {
-			if !yield(i, s[i]) {
-				goto End
-			}
-		}
-	End:
-	}
+    {
+    	yield := func(i int, x string) bool {
+    		fmt.Println(i, x)
+    		return true
+    	}
+    	for i := len(s)-1; i >= 0; i-- {
+    		if !yield(i, s[i]) {
+    			goto End
+    		}
+    	}
+    End:
+    }
 
 Then it can devirtualize yield:
 
-	{
-		for i := len(s)-1; i >= 0; i-- {
-			if !(func(i int, x string) bool {
-				fmt.Println(i, x)
-				return true
-			})(i, s[i]) {
-				goto End
-			}
-		}
-	End:
-	}
+    {
+    	for i := len(s)-1; i >= 0; i-- {
+    		if !(func(i int, x string) bool {
+    			fmt.Println(i, x)
+    			return true
+    		})(i, s[i]) {
+    			goto End
+    		}
+    	}
+    End:
+    }
 
 Then it can inline that func literal:
 
-	{
-		for i := len(s)-1; i >= 0; i-- {
-			var ret bool
-			{
-				i := i
-				x := s[i]
-				fmt.Println(i, x)
-				ret = true
-			}
-			if !ret {
-				goto End
-			}
-		}
-	End:
-	}
+    {
+    	for i := len(s)-1; i >= 0; i-- {
+    		var ret bool
+    		{
+    			i := i
+    			x := s[i]
+    			fmt.Println(i, x)
+    			ret = true
+    		}
+    		if !ret {
+    			goto End
+    		}
+    	}
+    End:
+    }
 
 From that point the SSA backend can see through all the unnecessary
 variables and treats that code the same as
 
-	for i := len(s)-1; i >= 0; i-- {
-		fmt.Println(i, s[i])
-	}
+    for i := len(s)-1; i >= 0; i-- {
+    	fmt.Println(i, s[i])
+    }
 
 This looks like a fair amount of work, but it only runs for simple
 bodies and simple iterators, below the inlining threshold, so the work
@@ -299,10 +299,10 @@ signature and provide a real benefit that would encourage its use.
 For example, here are a few functions from the standard library that
 return slices but probably merit forms that return iterators instead:
 
- - strings.Split
- - strings.Fields
- - bytes variants of the above
- - regexp.Regexp.FindAll and friends
+- strings.Split
+- strings.Fields
+- bytes variants of the above
+- regexp.Regexp.FindAll and friends
 
 There are also functions we were reluctant to provide in slices form
 that probably deserve to be added in iterator form.

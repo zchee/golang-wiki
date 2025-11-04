@@ -10,19 +10,19 @@ but is targeted specifically to test code.
 before editing this page**, even _minor_ ones. Many people have opinions and
 this is not the place for edit wars.
 
-* [Assert Libraries](/wiki/TestComments#assert-libraries)
-* [Choose Human-Readable Subtest Names](/wiki/TestComments#choose-human-readable-subtest-names)
-* [Compare Stable Results](/wiki/TestComments#compare-stable-results)
-* [Compare Full Structures](/wiki/TestComments#compare-full-structures)
-* [Equality Comparison and Diffs](/wiki/TestComments#equality-comparison-and-diffs)
-* [Got before Want](/wiki/TestComments#got-before-want)
-* [Identify the Function](/wiki/TestComments#identify-the-function)
-* [Identify the Input](/wiki/TestComments#identify-the-input)
-* [Keep Going](/wiki/TestComments#keep-going)
-* [Mark Test Helpers](/wiki/TestComments#mark-test-helpers)
-* [Print Diffs](/wiki/TestComments#print-diffs)
-* [Table-Driven Tests vs Multiple Test Functions](/wiki/TestComments#table-driven-tests-vs-multiple-test-functions)
-* [Test Error Semantics](/wiki/TestComments#test-error-semantics)
+- [Assert Libraries](/wiki/TestComments#assert-libraries)
+- [Choose Human-Readable Subtest Names](/wiki/TestComments#choose-human-readable-subtest-names)
+- [Compare Stable Results](/wiki/TestComments#compare-stable-results)
+- [Compare Full Structures](/wiki/TestComments#compare-full-structures)
+- [Equality Comparison and Diffs](/wiki/TestComments#equality-comparison-and-diffs)
+- [Got before Want](/wiki/TestComments#got-before-want)
+- [Identify the Function](/wiki/TestComments#identify-the-function)
+- [Identify the Input](/wiki/TestComments#identify-the-input)
+- [Keep Going](/wiki/TestComments#keep-going)
+- [Mark Test Helpers](/wiki/TestComments#mark-test-helpers)
+- [Print Diffs](/wiki/TestComments#print-diffs)
+- [Table-Driven Tests vs Multiple Test Functions](/wiki/TestComments#table-driven-tests-vs-multiple-test-functions)
+- [Test Error Semantics](/wiki/TestComments#test-error-semantics)
 
 ## Assert Libraries
 
@@ -103,7 +103,6 @@ equality on the exact JSON string may break if the `json` package changes how it
 serializes the bytes. Instead, a more robust test would parse the contents of
 the JSON string and ensure that it is semantically equivalent to some expected
 data structure.
-
 
 ## Equality Comparison and Diffs
 
@@ -191,11 +190,11 @@ for failures that set up the whole test function before the test loop. Failures
 that affect a single entry in the test table, which make it impossible to
 continue with that entry, should be reported as follows:
 
-*   If you're not using `t.Run` subtests, you should use `t.Error` followed by a
-    `continue` statement to move on to the next table entry.
-*   If you're using subtests (and you're inside a call to `t.Run`), then
-    `t.Fatal` ends the current subtest and allows your test case to progress to
-    the next subtest, so use `t.Fatal`.
+- If you're not using `t.Run` subtests, you should use `t.Error` followed by a
+  `continue` statement to move on to the next table entry.
+- If you're using subtests (and you're inside a call to `t.Run`), then
+  `t.Fatal` ends the current subtest and allows your test case to progress to
+  the next subtest, so use `t.Fatal`.
 
 ## Mark Test Helpers
 
@@ -291,4 +290,3 @@ Many people who write APIs don't care exactly what kinds of errors their API
 returns for different inputs. If your API is like this, then it is sufficient to
 create error messages using `fmt.Errorf`, and then in the unit test, test only
 whether the error was non-nil when you expected an error.
-

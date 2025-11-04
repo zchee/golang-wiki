@@ -5,6 +5,7 @@ title: Resources for slog
 This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/slog), the structured logging package for the standard library.
 
 #### Log formatting
+
 - slog-formatter: Common formatters for slog + helpers for building your own: https://github.com/samber/slog-formatter
 - ConsoleHandler (similar to Zap's ConsoleEncoder): https://gist.github.com/wijayaerick/de3de10c47a79d5310968ba5ff101a19
 - logf (attr {key} interpolation, rich tty output): https://pkg.go.dev/github.com/AndrewHarrisSPU/logf (uses lazy Handler stores: https://go.dev/play/p/psdD7KDF5fp )
@@ -17,22 +18,26 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slogjson: Format using the upcoming [JSON v2 library](https://github.com/golang/go/discussions/63397), with optional single-line pretty-printing: https://github.com/veqryn/slog-json
 
 #### Logger bridges
+
 - Zap Handler, a slog handler that uses Zap: https://github.com/chanchal1987/zaphandler
 - [zapr](https://github.com/go-logr/zapr): starting with v1.3.0, both slog/logr and go-logr/logr APIs are supported by the same logger instance.
 - A handler for [GoKit](github.com/go-kit/log): https://github.com/tjhop/slog-gokit.
 
 #### Logging Middleware
+
 - slogctx: store attributes or the logger in context, read any custom values from context: https://github.com/veqryn/slog-context
 - slog-context/otel: automatically read and add OpenTelemetry TraceID and SpanID to logs, and can set Span error code: [github.com/veqryn/slog-context/otel](https://github.com/veqryn/slog-context#opentelemetry-traceid-spanid-extractor)
 - slogdedup: deduplication and sorting of attribute keys, with multiple policies, useful for json logging. Convenience methods to output for Stackdriver, Graylog, and others: https://github.com/veqryn/slog-dedup
 
 #### HTTP server middleware
+
 - slog-gin: Gin middleware for slog logger: https://github.com/samber/slog-gin
 - slog-echo: Echo middleware for slog logger: https://github.com/samber/slog-echo
 - slog-fiber: Fiber middleware for slog logger: https://github.com/samber/slog-fiber
 - slog-chi: Chi middleware for slog logger: https://github.com/samber/slog-chi
 
 #### Log sinks
+
 - Experimental example using both OpenTelemetry and `slog`: https://github.com/justinsb/experiments-slog
 - Simple slog handler with opentelemetry tracing: https://github.com/ttys3/slogsimple/tree/main
 - slog-datadog: a `slog.Handler` for Datadog: https://github.com/samber/slog-datadog
@@ -53,10 +58,12 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slogdriver: a `slog.Handler` for Stackdriver Logging / GCP Cloud Logging: https://github.com/jussi-kalliokoski/slogdriver
 
 #### Handlers
+
 - slog-multi: chain of `slog.Handler` (pipeline, fanout, ...): https://github.com/samber/slog-multi
 - various handlers: https://github.com/galecore/xslog
 
 #### Other:
+
 - Additional resources written by jba: https://github.com/jba/slog
 - slog-sampling: drop repetitive log entries: https://github.com/samber/slog-sampling
 - slog-context: adds support to reading values from context: https://github.com/PumpkinSeed/slog-context

@@ -3,6 +3,7 @@ title: Timeouts and Deadlines
 ---
 
 To abandon synchronous calls that run too long, use the select statement with time.After:
+
 ```go
 import "time"
 
@@ -16,7 +17,7 @@ select {
 }
 ```
 
-Note that the channel ` c ` has a buffer size of 1.  If it were an unbuffered channel and the client.Call method took more than ` timeoutNanoseconds `, the channel send would block forever and the goroutine would never be destroyed.
+Note that the channel `c` has a buffer size of 1. If it were an unbuffered channel and the client.Call method took more than `timeoutNanoseconds`, the channel send would block forever and the goroutine would never be destroyed.
 
 ## References
 

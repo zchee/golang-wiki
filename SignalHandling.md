@@ -4,7 +4,7 @@ title: SignalHandling
 
 ## Introduction
 
-Sometimes an application needs to save internal state or perform some cleanup activity before it exits, or needs to be able to reload a configuration file or write a memory/cpu profile on demand.  In UNIX-like operating systems, signals can accomplish these tasks.
+Sometimes an application needs to save internal state or perform some cleanup activity before it exits, or needs to be able to reload a configuration file or write a memory/cpu profile on demand. In UNIX-like operating systems, signals can accomplish these tasks.
 
 ## Example
 
