@@ -90,6 +90,11 @@ The important considerations when deciding whether to remove support for an old 
 
 When the considerations weigh in favor of removing a port and a [proposal is accepted](https://go.dev/s/proposal-process), Go 1._N_'s release notes will announce that support for a given operating system or architecture will be dropped in Go 1.(_N_+1).
 
+Announcements for end of support are tracked in:
+[issue 23011 for macOS](https://go.dev/issue/23011),
+[issue 52188 for Windows](https://go.dev/issue/52188),
+and [issue 60792 for Linux](https://go.dev/issue/60792).
+
 ## Getting started
 
 See https://groups.google.com/forum/#!topic/golang-dev/SRUK7yJVA0c for some discussion on how to go about writing a new port.

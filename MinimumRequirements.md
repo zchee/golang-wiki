@@ -2,6 +2,14 @@
 title: Minimum Requirements
 ---
 
+This page lists known minimum requirements for different operating systems and architectures.
+In line with the [Porting Policy, support for old operating system and architecture versions](/wiki/PortingPolicy#removing-old-operating-system-and-architecture-versions)
+may be removed in newer releases.
+Announcements for end of support are tracked in:
+[issue 23011 for macOS](https://go.dev/issue/23011),
+[issue 52188 for Windows](https://go.dev/issue/52188),
+and [issue 60792 for Linux](https://go.dev/issue/60792).
+
 ## Operating Systems
 
 ### [Linux](Linux)
