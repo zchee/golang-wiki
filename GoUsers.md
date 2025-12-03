@@ -1075,6 +1075,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Travix International](https://www.travix.com/)- [github](https://github.com/Travix-International)
 - [Ultraware](https://www.ultraware.nl)
 - [Wercker](http://wercker.com) - [github](https://github.com/wercker)
+- [Worldline](https://worldline.com)
 - [Xebia](https://xebia.com/) - [github](https://github.com/xebia)
 - [Yonego](https://www.bambelo.com/)
 
