@@ -312,7 +312,7 @@ The official blog has a helpful introduction to using the WASI port: [https://go
 
 - [Building a Calculator with Go and WebAssembly](https://www.youtube.com/watch?v=4kBvvk2Bzis) ([Source code](https://tutorialedge.net/golang/go-webassembly-tutorial/))
 - [Get Going with WebAssembly](https://www.youtube.com/watch?v=iTrx0BbUXI4)
-- [Go&WebAssembly简介 - by chai2010](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide) (Chinese)
+- [Go&WebAssembly 简介 - by chai2010](https://talks.godoc.org/github.com/chai2010/awesome-go-zh/chai2010/chai2010-golang-wasm.slide) (Chinese)
 - [Go for frontend](https://www.youtube.com/watch?v=G8lptDqPP-0)
 
 ## Editor configuration
@@ -350,6 +350,7 @@ At present, Go generates large Wasm files, with the smallest possible size being
 There are two main ways (for now) to reduce this file size:
 
 1. Manually compress the .wasm file.
+
    - Using `gz` compression reduces the ~2MB (minimum file size) example WASM file down to around 500kB. It may be better to use [Zopfli](https://github.com/google/zopfli) to do the gzip compression, as it gives better results than `gzip --best`, however it does take much longer to run.
    - Using [Brotli](https://github.com/google/brotli) for compression, the file sizes are markedly better than both Zopfli and `gzip --best`, and compression time is somewhere in between the two, too. This [(new) Brotli compressor](https://github.com/andybalholm/brotli) looks reasonable.
 
@@ -384,6 +385,54 @@ There are two main ways (for now) to reduce this file size:
    While it does have limitations (not yet a full Go implementation), it is still fairly capable and the generated Wasm files are... tiny. ~10kB isn't unusual. The "Hello world" example is 575 bytes. If you `gz -6` that, it drops down to 408 bytes. :wink:
 
    This project is also very actively developed, so its capabilities are expanding out quickly. See https://tinygo.org/docs/guides/webassembly/ for more information on using WebAssembly with TinyGo.
+
+## WASIP1 Runtime Configuration
+
+When using `GOOS=wasip1`, file system operations like `os.Getwd()`, `os.ReadDir(".")`, or `os.ReadFile` on non-existent files may return unexpected errors (e.g., "Bad file number" instead of "file does not exist").
+
+To fix this, you must configure your WASM runtime to explicitly map the host directory to the guest's root `/` and set the `PWD` environment variable to `/`.
+
+### Wasmtime
+
+Use `--dir` to map the current host directory `.` to the guest root `/` and set `PWD`.
+
+```bash
+wasmtime run --env PWD=/ --dir .::/ main.wasm
+```
+
+#### Wazero (CLI)
+
+Use `-mount` to map the directory and `-env` to set the working directory.
+
+```bash
+wazero run -mount .:/:ro -env PWD=/ main.wasm
+```
+
+#### Node.js
+
+When using the `wasi` module, you must configure `preopens` to map `/` and set the `PWD` environment variable manually.
+
+```js
+import { readFile } from "node:fs/promises";
+import { WASI } from "wasi";
+import { argv, env } from "node:process";
+
+const wasi = new WASI({
+  version: "preview1",
+  args: argv,
+  env: { ...env, PWD: "/" },
+  preopens: {
+    "/": ".",
+  },
+});
+
+const wasm = await WebAssembly.compile(
+  await readFile(new URL("./main.wasm", import.meta.url))
+);
+const instance = await WebAssembly.instantiate(wasm, wasi.getImportObject());
+
+wasi.start(instance);
+```
 
 ## Other WebAssembly resources
 
