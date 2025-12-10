@@ -33,21 +33,15 @@ human-readable report.
 This is a fast moving area of development, and these answers may
 change.
 
-If you have a specific service or services in mind, many service
-providers have their own Go packages.
+**Provider-Specific SDKs**
+If you are targeting a specific service, check if the provider offers an official Go package.
+- **Google Generative AI**: [github.com/googleapis/go-genai](https://pkg.go.dev/google.golang.org/genai) ([Examples](https://pkg.go.dev/google.golang.org/genai#pkg-examples))
 
-If you want to be flexible about services, use a general framework
-like [langchaingo](https://pkg.go.dev/github.com/tmc/langchaingo) or
-[Ollama](https://pkg.go.dev/github.com/ollama/ollama/api).
-
-### Some specific services
-
-- Google Generative AI:
-  [github.com/google/generative-ai-go/genai](https://pkg.go.dev/github.com/google/generative-ai-go/genai).
-  - [Examples](https://pkg.go.dev/github.com/google/generative-ai-go/genai#pkg-examples)
-- Google Cloud Vertex AI:
-  [cloud.google.com/go/vertexai/genai](https://pkg.go.dev/cloud.google.com/go/vertexai/genai).
-  - [Examples](https://pkg.go.dev/cloud.google.com/go/vertexai/genai#pkg-examples)
+**General Frameworks**
+For greater flexibility across different services, consider using a general framework:
+- [Genkit Go](https://genkit.dev/docs/overview/?lang=go): An open source framework from Google for building AI-powered applications.
+- [langchaingo](https://pkg.go.dev/github.com/tmc/langchaingo): The Go implementation of the LangChain framework.
+- [Ollama](https://pkg.go.dev/github.com/ollama/ollama/api): A library for running large language models locally.
 
 ## How do I call a hosted service from Go?
 
