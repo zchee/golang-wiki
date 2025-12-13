@@ -18,11 +18,11 @@ Notably, for the subject (the first line of description):
 - the part after the colon uses the verb tense + phrase that completes the blank in, _"this change modifies Go to \***\*\_\_\_\*\***"_
 - the verb after the colon is lowercase
 - there is no trailing period
-- it should be kept as short as possible (many git viewing tools prefer under ~76 characters, though Go isn't super strict about this).
+- it should be kept as short as possible (many git viewing tools prefer under ~72 characters, though Go isn't super strict about this).
 
 For the body (the rest of the description):
 
-- the text should be wrapped to ~76 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links).
+- the text should be wrapped to ~72 characters (to appease git viewing tools, mainly), unless you really need longer lines (e.g. for ASCII art, tables, or long links).
 - the Fixes line goes after the body with a blank newline separating the two. (It is acceptable but not required to use a trailing period, such as `Fixes #12345.`).
 - there is **no** Markdown in the commit message.
 - we **do not** use `Signed-off-by` lines. Don't add them. Our Gerrit server & GitHub bots enforce CLA compliance instead.
