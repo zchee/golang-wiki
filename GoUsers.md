@@ -169,6 +169,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Acesso](http://acesso.io/) - [github](https://github.com/acesso-io)
 - [AStar](http://www.astarlabs.com) - [github](https://github.com/astarlabs)
 - [Astrolink](http://www.astrolink.com.br) - [github](https://github.com/astrolink)
+- [AutoCidade](https://autocidade.com) - City guide platform serving neighborhood and local business data for 20+ Brazilian cities
 - [B2W](https://www.b2wmarketplace.com.br) - [github](https://github.com/b2wdigital)
 - [Beauty Date](https://hairstyle-en.com/)
 - [Bemobi](https://www.bemobi.com.br) - [linkedin](https://www.linkedin.com/in/michel-bernardo/)
@@ -216,6 +217,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Jusbrasil](https://www.jusbrasil.com.br) - [github](https://github.com/jusbrasil)
 - [Koli](https://www.koli.com.br) - [github](https://github.com/koli)
 - [Levpay](http://www.levpay.com/) - [github](https://github.com/levpay)
+- [LigadoUS](https://ligadous.com) - Local SEO and business visibility platform for BR market
 - [Loggi](https://www.loggi.com) - [github](https://github.com/loggi)
 - [M4U](https://www.m4u.com.br) - [github](https://github.com/Mobile4You)
 - [MadeiraMadeira](https://www.madeiramadeira.com.br/) - [github](https://github.com/madeiramadeirabr)
@@ -250,6 +252,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [ServiceNet](http://www.servicenet.com.br)
 - [SiBBr.gov.br](http://www.sibbr.gov.br) - [github](https://github.com/sibbr)
 - [SumUp](https://sumup.com.br)
+- [StickyBit](https://stickybit.com.br) - Digital agency specializing in AI-powered SEO and web development
 - [Stone Pagamentos](http://www.stone.com.br) - [github](https://github.com/stone-payments/)
 - [Studio Sol](https://www.studiosol.com.br) - [github](https://github.com/StudioSol)
 - [Synchro](http://www.synchro.com.br)
