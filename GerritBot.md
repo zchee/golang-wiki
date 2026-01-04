@@ -49,7 +49,7 @@ The key points to remember:
   an updated commit message. (Pushing another commit does not automatically update the GitHub PR title
   or PR description, and hence the updated text won't be imported into Gerrit).
 
-**Updating the Gerrit commit messsage via the GitHub PR:**
+**Updating the Gerrit commit message via the GitHub PR:**
 
 ![Screenshot of the GitHub PR web interface highlighting
 the "Edit" button in top-right (for editing the Gerrit commit message title) and
