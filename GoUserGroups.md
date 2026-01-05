@@ -124,8 +124,7 @@ title: GoUserGroups
 - [Go-ningen](http://www.meetup.com/Go-ningen/) - Groningen, The Netherlands
 - [Golang Ljubljana](http://www.meetup.com/Slovenian-Go-lang-User-Group/) - Ljubljana, Slovenia
 - [Go Euregio](https://plus.google.com/communities/116272759718686417490) - Maastricht, Netherlands; Liège/Hasselt, Belgium; Aachen, Germany
-- [Ukrainian Golang User Group](http://www.meetup.com/uagolang/) - Kyiv, Ukraine
-- [L'viv Golang Group](http://www.meetup.com/Lviv-Golang-Group/) - L'viv, Ukraine
+- [GolangUA](https://t.me/golang_ua_official) - Ukraine
 - [Go SXB, Go!](http://www.meetup.com/fr-FR/Go-SXB-Go/) - Strasbourg, France
 - [Hannover Gophers Meetup](http://www.meetup.com/de-DE/Hannover-Gophers-Meetup/) - Hannover, Germany
 - [Golang Nürnberg](http://www.meetup.com/de-DE/Golang-Nuernberg/) - Nürnberg, Germany
