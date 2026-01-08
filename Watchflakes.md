@@ -56,7 +56,7 @@ including possibly creating a new one.
 
 The watchflakes stanza in each issue must appear at the top of the issue description.
 It must be a code block (either fenced with ` ``` ` or indented), and the first line must be `#!watchflakes`,
-to keep watchflakes from misinterpreted unrelated code blocks.
+to keep watchflakes from misinterpreting unrelated code blocks.
 
 The rest of the block is a small watchflakes script. Comments to the end of the line are introduced with `#`.
 The script is a sequence of rules, each of which has the form `action <- pattern`
@@ -116,11 +116,11 @@ The input to the pattern is a record with named fields, each of which has a stri
 
 The pattern is a boolean expression in a Go-like syntax allowing
 ||, &&, !, (, and ) for building complex expressions;
-==, !=, <, <=, >, and >= for comparing fields against against string literals;
+==, !=, <, <=, >, and >= for comparing fields against string literals;
 and ~ and !~ for matching against regular expressions.
 
 All string comparisons must have a field name on the left and a double-quoted string literal on the right, as in
-`builder == "linux-amd64-alpine"` or `goos == "
+`builder == "linux-amd64-alpine"` or `goos == "linux"`
 
 All regular expression matches must have a field name on the left and a back-quoted string literal on the right, as in
 `` builder ~ `corellium` ``.
