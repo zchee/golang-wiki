@@ -32,14 +32,11 @@ The [Go Developer Survey](https://go.dev/blog/survey2021-results) showed these a
 
 These editors are less popular, and may have less modern Go support. In particular, they may not support Go modules.
 
-- **[Atom](https://atom.io/)**: JavaScript-based editor from GitHub. Go support at [go-plus](https://github.com/joefitzgerald/go-plus)
 - **[BBEdit](https://www.barebones.com/products/bbedit/)**: free text editor for macOS (with paid upgrade for pro features).
   - Go support available with the [Go-bbpackage module](https://github.com/ascarter/go-bbpackage) including syntax highlighting, clippings, ctags standard library completion, and tools
 - **[Brackets](http://brackets.io)**: a modern, open source text editor that understands web design.
   - [go-ide](https://github.com/David5i6/Brackets-Go-IDE) Go support with autocompletion through gocode.
 - **[Chime](https://www.chimehq.com)**: Capable. Focused. Fast. A Go editor for macOS.
-- **[CodeLobster IDE](https://www.codelobster.com)** Smart free cross-platform IDE with built-in Go support
-- **[CodePerfect 95](https://codeperfect95.com)**: A blazing fast IDE for Go.
 - **[jEdit](http://www.jedit.org/)**: open-source, cross-platform text editor written in Java. [Syntax-highlighting file available](https://code.google.com/archive/p/go-stuff/source/default/source).
 - **[Kate](https://kate-editor.org/)** Kate is an advanced, cross-platform text editor developed by KDE, with Go support out-of-the-box.
 - **[Komodo IDE](https://www.activestate.com/komodo-ide)** Powerful cross-platform IDE with built-in Go support
