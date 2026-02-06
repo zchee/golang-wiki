@@ -212,7 +212,7 @@ Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy ite
 
 ![Drag and drop Hello.framework](http://i.imgur.com/u88CxN9.png)
 
-If you decide to keep `Hello.framework` in the main directory you have to add the main directory to the `Framework Search Paths` in the the targets Build Settings.
+If you decide to keep `Hello.framework` in the main directory you have to add the main directory to the `Framework Search Paths` in the targets Build Settings.
 
 ![Framework Search Path in Xcode Project](https://i.imgur.com/UXEM2sj.png)
 
