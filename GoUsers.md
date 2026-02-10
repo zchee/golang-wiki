@@ -284,6 +284,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [ChainSafe Systems](https://chainsafe.io/) - [github](https://github.com/chainsafesystems)
 - [district m](https://www.districtm.net) - [jobs](https://districtm.net/en/careers/)
 - [Ecobee](https://www.ecobee.com)
+- [Flybits](https://flybits.com/)
 - [Greenfield Labs / Zenreach](https://zenreach.com) - [jobs](https://www.zenreach.com/careers/)
 - [Go2Mobi](http://www.go2mobi.com/) - [HN](https://news.ycombinator.com/item?id=10660847)
 - [Hootsuite](https://hootsuite.com/)
