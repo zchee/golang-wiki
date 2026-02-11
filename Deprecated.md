@@ -9,7 +9,7 @@ we mark that feature "deprecated".
 
 In general, if an API still works and does not have significant downsides,
 we do not formally mark it as deprecated, and instead
-simply update the documention to point to the preferred API.
+simply update the documentation to point to the preferred API.
 When there is simply a newer, preferred API available, consider
 adding a `//go:fix inline` annotation to gently steer consumers
 toward the new API.
