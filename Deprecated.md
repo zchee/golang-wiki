@@ -13,7 +13,7 @@ simply update the documentation to point to the preferred API.
 When there is simply a newer, preferred API available, consider
 adding a `//go:fix inline` annotation to gently steer consumers
 toward the new API.
-For changes to very widely used functions, such as n the Go standard
+For changes to very widely used functions, such as in the Go standard
 library or x/ repositories, consider proposing a modernizer.
 
 To signal that an identifier should not be used, add a paragraph to its doc
