@@ -7,7 +7,7 @@ This page links to resources for learning about concurrency in Go. The items are
 ## Beginner
 
 - Read [Effective Go: Concurrency](https://go.dev/doc/effective_go#concurrency)
-- Watch [Simulating a real-world system in Go](https://www.dotconferences.com/2017/11/sameer-ajmani-simulating-a-real-world-system-in-go)
+- Watch [Simulating a real-world system in Go](https://youtu.be/_YK0viplIl4?si=OW0rXwlypPFEuLh4)
 - Study [The Go Programming Language Specification](https://go.dev/ref/spec), especially
   - [Go statements](https://go.dev/ref/spec#Go_statements)
   - [Channel types](https://go.dev/ref/spec#Channel_types)
