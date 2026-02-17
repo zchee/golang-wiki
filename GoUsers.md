@@ -67,6 +67,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Saudi Arabia](#saudi-arabia)
 - [Serbia](#serbia)
 - [Singapore](#singapore)
+- [Slovakia](#slovakia)
 - [Slovenia](#slovenia)
 - [South Africa](#south-africa)
 - [Southeast Asia](#southeast-asia)
@@ -1263,6 +1264,10 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Singapore Power](https://www.spgroup.com.sg/)
 - [Eatigo](https://www.eatigo.com/)
 - [ekeynow](https://www.ekeynow.com)
+
+### Slovakia
+
+- [Thermo Fisher Scientific](https://www.thermofisher.com)
 
 ### Slovenia
 
