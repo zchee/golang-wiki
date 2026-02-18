@@ -26,6 +26,8 @@ For loong64, kernel 5.19 and later versions work fine.
 
 For the tinyconfig (i.e., `make tinyconfig`) Linux configuration for embedded systems, you must also enable `CONFIG_FUTEX` and `CONFIG_EPOLL`.
 
+The [QEMU user space emulator](https://www.qemu.org/docs/master/user/main.html) is an alternative implementation of the Linux system call interface used to enable running binaries from emulated architectures without emulating a full Linux kernel. [Docker multi-platform builds](https://docs.docker.com/build/building/multi-platform/) often use the QEMU user space emulator. The QEMU user space emulator is not an officially supported platform, as it is not actually Linux. QEMU versions prior to 7.1.0 have [known issues](/issue/77572). If you encounter issues while using QEMU, see if the issue reproduces (a) with native Linux, and (b) on newer versions of QEMU.
+
 On arm64, an out of date (lower than version 2.33) ld.gold may cause shared library tests to fail (see [issue 28334](https://github.com/golang/go/issues/28334)).
 
 ### [Windows](Windows)
