@@ -11,8 +11,9 @@ title: Linux
 | 4.8 or above       | mips64le              | Go 1.6                      |                           |
 | TBD                | mips64                | Go 1.6                      |                           |
 | TBD                | arm64, ppc64, ppc64le | Go 1.5                      |                           |
-| 3.1 or above       | arm                   | Go 1.1 _\*_                 |                           |
-| 2.6.23 or above    | amd64, 386            | Go 1 _\*_                   |                           |
+| 3.2 or above       | arm                   | Go 1.1 _\*_                 |                           |
+| 3.1                | arm                   | Go 1.1 _\*_                 | Go 1.23.12                |
+| 3.2 or above       | amd64, 386            | Go 1 _\*_                   |                           |
 | 5.19 or above      | loong64               | Go 1.19                     |                           |
 
 _\*_ Go 1.5 or above is recommended.
