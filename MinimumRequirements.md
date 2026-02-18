@@ -14,9 +14,7 @@ and [issue 60792 for Linux](https://go.dev/issue/60792).
 
 ### [Linux](Linux)
 
-For Go 1.23: Kernel version 2.6.32 or later. [_This depends on architecture though, we need to have specific builder for this._] Linux/ARMv5 requires much newer kernels, at least v3.1 (for `__kuser_cmpxchg64`).
-
-For Go 1.24 and later: Kernel 3.2 or later.
+For Go 1.24 and later: Kernel version 3.2 or later.
 
 We don't support CentOS 5. The kernel is too old (2.6.18).
 
@@ -32,27 +30,13 @@ On arm64, an out of date (lower than version 2.33) ld.gold may cause shared libr
 
 ### [Windows](Windows)
 
-For Go 1.10: Windows XP (w/ Service Pack 3) or higher.
-
-For Go 1.11 and later: Windows 7 and higher or Windows Server 2008 R2 and higher. We test on Windows Server 2008 R2, 2012 R2, and 2016, which are roughly Windows 7, Windows 8.1, and Windows 10.
-
 For Go 1.21 and later: Windows 10 and higher or Windows Server 2016 and higher.
 
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
-macOS Sierra 10.12 or higher requires Go 1.7.1 or above.
+Go 1.25 and later only support macOS 12 Monterey or newer; see https://go.dev/doc/go1.25#darwin.
 
-macOS Monterey 12 or higher requires Go 1.11 or above.
-
-Go 1.15 and later only support macOS Sierra 10.12 or newer; see https://go.dev/doc/go1.15#darwin.
-
-Go 1.17 and later only support macOS High Sierra 10.13 or newer; see https://go.dev/doc/go1.17#darwin.
-
-Go 1.21 and later only support macOS Catalina 10.15 or newer; see https://go.dev/doc/go1.20#darwin.
-
-Go 1.23 and later only support macOS Big Sur 11 or newer; see https://go.dev/doc/go1.23#darwin.
-
-We have builders for macOS 10.14 through macOS 13 as of 2023-05-31.
+We have builders for macOS 12 through macOS 16 as of 2026-02-18.
 
 ### [OpenBSD](OpenBSD)
 
