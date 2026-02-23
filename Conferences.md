@@ -15,6 +15,7 @@ Please keep all items in chronological order.
 | GopherCon 2026           | 2026-08-03-06 | Seattle, WA, USA           | https://www.gophercon.com/    | https://sessionize.com/gophercon-2026/                                                              |
 | GopherCon Africa 2026    | 2026-08-06-07 | Johannesburg, South Africa | https://gopherconf.co.za/     | https://docs.google.com/forms/d/e/1FAIpQLScgb75cWKXeu4PuAPw_uDVcsn_ZoHr_yUMF26pneYfYzhHWqQ/viewform |
 | GopherCon Latam 2026     | 2026-09-02-04 | Florianópolis, SC, Brazil  | https://gopherconlatam.org/   | https://www.papercall.io/gopherconlatam2026                                                         |
+| GopherCon China 2026     | 2026-10-15-16 | Shanghai, China            | https://gophercon.com.cn/     | https://gophercon.com.cn/zh/cfp/                                                                    |
 | GopherCon Israel 2026    | 2026-10-18    | Tel Aviv, Israel           | https://www.gophercon.org.il/ |                                                                                                     |
 | GoLab                    | 2026-11-01-03 | Bologna, Italy             | https://golab.io/             |                                                                                                     |
 
