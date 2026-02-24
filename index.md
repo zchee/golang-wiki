@@ -101,7 +101,7 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - On Mastodon, follow the <a rel="me noreferrer" href="https://hachyderm.io/@golang" target="_blank">@golang</a> account and keep tabs on the #golang hashtag.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
   - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
-  - Matrix enthusiasts are invited to join [#Go:matrix.org](https://riot.im/app/#/room/#Go:matrix.org).
+  - Matrix enthusiasts are invited to join [#go-lang:matrix.org](https://matrix.to/#/#go-lang:matrix.org) or the gophers space [#gophers:dendrite.matrix.org](https://matrix.to/#/#gophers:dendrite.matrix.org).
   - Discord users are welcome at the [Discord Gophers](https://discord.gg/golang) server.
   - Hashnode users talk and write about Go in [Hashnode Go community](https://hashnode.com/n/go).
 - Mailing Lists
