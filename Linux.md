@@ -1,8 +1,6 @@
 ---
-title: Linux
+title: Go on Linux
 ---
-
-## Go on Linux
 
 | **Kernel version** | **Architectures**     | **Initial support version** | **Final support version** |
 | :----------------- | :-------------------- | :-------------------------- | :------------------------ |

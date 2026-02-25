@@ -1,5 +1,5 @@
 ---
-title: Go for Microsoft Windows
+title: Go on Microsoft Windows
 ---
 
 > The Go project's official download page is at [https://go.dev/dl](https://go.dev/dl/).
