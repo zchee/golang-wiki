@@ -42,6 +42,7 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 - [Go articles at golang.dk](https://www.golang.dk/articles)
 - [Bitfield Consulting](https://bitfieldconsulting.com/golang)
 - [Mahmud Ridwan's Go Posts](https://hjr265.me/tags/go/)
+- [Internals For Interns](https://internals-for-interns.com/tags/go/)
 
 ## Bahasa Indonesia
 
@@ -52,6 +53,10 @@ NOTE: Please don't add individual blog entries to this page. Those belong in [ar
 - [Eduardo Nunes Pereira](https://medium.com/@eduardonunespereira)
 - [Gopher Brasil](http://gopher.net.br)
 - [Bruno Gomes's Blog](https://dev.to/bgskurono)
+
+## Spanish
+
+- [Internals For Interns](https://internals-for-interns.com/es/tags/go/)
 
 ## Chinese
 
