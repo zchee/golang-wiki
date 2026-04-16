@@ -105,7 +105,7 @@ with what you learn!)
 If the failure appears to be specific to a `GOOS` or `GOARCH` label the issue
 with the corresponding GOOS and/or GOARCH labels, and mention the relevant
 subteam(s) of
-[@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers)
+[@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers/teams)
 on the issue.
 
 If the failure appears to affect at least one

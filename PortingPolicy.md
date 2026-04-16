@@ -15,7 +15,7 @@ Before any code relating to a port can be added to the main Go repository, the f
 - A [proposal](https://go.dev/s/proposal) must be filed and accepted in which the Go team accepts overall responsibility for having the new port in the core Go tree. In general, each new port carries an upkeep cost separate from the direct maintenance. That cost varies by port, depending on how similar a new port is to existing ones. The cost must be balanced by an overall benefit in the form of potential new users or use cases for Go.
 
 - At least two developers must be named (and agree) to maintain the port, by making required updates in a timely manner as architecture or operating system requirements change.
-  - Port maintainers are listed in the subteams of [@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers). To be added or removed as a maintainer for an existing port, please [file an issue](https://go.dev/issue/new).
+  - Port maintainers are listed in the subteams of [@golang/port-maintainers](https://github.com/orgs/golang/teams/port-maintainers/teams). To be added or removed as a maintainer for an existing port, please [file an issue](https://go.dev/issue/new).
   - Changes that are specific to a particular port should normally be reviewed first by one of the port maintainers (though not the one who wrote the change, of course). We currently require two reviews for each change, so changes will still typically be reviewed by someone who is not a port maintainer, but ideally that can be a more casual review by someone less familiar with the port details.
 
 - A developer must be named (and agree) to maintain the builder, the machine trying each git revision and providing data for https://build.golang.org.
