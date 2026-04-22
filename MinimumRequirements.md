@@ -34,7 +34,8 @@ For Go 1.21 and later: Windows 10 and higher or Windows Server 2016 and higher.
 
 ### [macOS (née OS X, aka Darwin)](Darwin)
 
-Go 1.25 and later only support macOS 12 Monterey or newer; see https://go.dev/doc/go1.25#darwin.
+For Go 1.27 and later: macOS 13 Ventura or newer; see https://go.dev/doc/go1.26#darwin.
+For Go 1.26 and Go 1.25: macOS 12 Monterey or newer; see https://go.dev/doc/go1.25#darwin.
 
 We have builders for macOS 12 through macOS 26 as of 2026-03-10.
 

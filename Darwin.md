@@ -8,7 +8,7 @@ title: Go on Darwin
 | 24                 | macOS Sequoia 15, iOS 18        | amd64, arm64           | Go 1.12                     |                           |
 | 23                 | macOS Sonoma 14, iOS 17         | amd64, arm64           | Go 1.12                     |                           |
 | 22                 | macOS Ventura 13, iOS 16        | amd64, arm64           | Go 1.12                     |                           |
-| 21                 | macOS Monterey 12, iOS 15       | amd64, arm64           | Go 1.12                     |                           |
+| 21                 | macOS Monterey 12, iOS 15       | amd64, arm64           | Go 1.12                     | Go 1.26                   |
 | 20                 | macOS Big Sur 11, iOS 14        | amd64, arm64           | Go 1.12                     | Go 1.24.13                |
 | 19                 | macOS Catalina 10.15, iOS 13    | amd64, arm64           | Go 1.12                     | Go 1.22.12                |
 | 18                 | macOS Mojave 10.14, iOS 12      | amd64, arm64           | Go 1.12                     | Go 1.20.14                |
