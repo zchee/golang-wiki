@@ -128,8 +128,15 @@ The `GOARM64` environment variable defaults to `v8.0`.
 
 ### ppc64 (big endian)
 
-POWER5 and above.
+POWER8 and above.
+
+Prior to Go 1.9, POWER5 and newer processors were supported.
+
 Starting with Go 1.9, only POWER8 and above are supported.
+
+Starting with Go 1.27, the linux target ABI has changed from ELFv1 to ELFv2. This change requires a kernel which supports loading ELFv2 binaries.
+
+Starting with Go 1.27, the linux target supports external linking, cgo, and PIE buildmodes. These features require an ELFv2 userspace.
 
 ### ppc64le (little endian)
 
