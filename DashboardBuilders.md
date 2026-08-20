@@ -23,6 +23,8 @@ The LUCI system requires builders to run two applications which authenticate to 
   - 20GB disk space is ideal.
   - Preferably with 2 or more (V)CPUs.
 - Python 3 installed and available in `PATH` (or equivalent) under the name `python3` (or `python3.exe` on Windows).
+  - Any reasonably modern version of Python 3 should work.
+  - Some versions of Python 3 that are too old or too new may not be as well-tested, and you may uncover problems. Consider looking up the exact Python 3 versions already being used in the [luci.golang.ci-workers](https://chromium-swarm.appspot.com/botlist?c=id&c=task&c=os&c=python&c=status&d=desc&f=pool%3Aluci.golang.ci-workers&k=pool&s=python) pool (you may be prompted to sign in to view that page), as those are certain to be well-tested.
 - Permissions
   - The bot should be run as the `swarming` user (without root rights).
   - The bot automatically updates itself. It should have permissions to do so.
