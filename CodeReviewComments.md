@@ -14,38 +14,6 @@ Google has published a longer [Go Style Guide](https://google.github.io/stylegui
 
 **Please [discuss changes](https://go.dev/issue/new?title=wiki%3A+CodeReviewComments+change&body=&labels=Documentation) before editing this page**, even _minor_ ones. Many people have opinions and this is not the place for edit wars.
 
-- [Gofmt](#gofmt)
-- [Comment Sentences](#comment-sentences)
-- [Contexts](#contexts)
-- [Copying](#copying)
-- [Crypto Rand](#crypto-rand)
-- [Declaring Empty Slices](#declaring-empty-slices)
-- [Doc Comments](#doc-comments)
-- [Don't Panic](#dont-panic)
-- [Error Strings](#error-strings)
-- [Examples](#examples)
-- [Goroutine Lifetimes](#goroutine-lifetimes)
-- [Handle Errors](#handle-errors)
-- [Imports](#imports)
-- [Import Blank](#import-blank)
-- [Import Dot](#import-dot)
-- [In-Band Errors](#in-band-errors)
-- [Indent Error Flow](#indent-error-flow)
-- [Initialisms](#initialisms)
-- [Interfaces](#interfaces)
-- [Line Length](#line-length)
-- [Mixed Caps](#mixed-caps)
-- [Named Result Parameters](#named-result-parameters)
-- [Naked Returns](#naked-returns)
-- [Package Comments](#package-comments)
-- [Package Names](#package-names)
-- [Pass Values](#pass-values)
-- [Receiver Names](#receiver-names)
-- [Receiver Type](#receiver-type)
-- [Synchronous Functions](#synchronous-functions)
-- [Useful Test Failures](#useful-test-failures)
-- [Variable Names](#variable-names)
-
 ## Gofmt
 
 Run [gofmt](https://pkg.go.dev/cmd/gofmt/) on your code to automatically fix the majority of mechanical style issues. Almost all Go code in the wild uses `gofmt`. The rest of this document addresses non-mechanical style points.
