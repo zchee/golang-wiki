@@ -56,6 +56,7 @@ This page links to projects that use or enhance [`slog`](https://pkg.go.dev/log/
 - slog-kafka: a `slog.Handler` for Kafka: https://github.com/samber/slog-kafka
 - slogbugsnag: a `slog.Handler` for Bugsnag: https://github.com/veqryn/slog-bugsnag
 - slogdriver: a `slog.Handler` for Stackdriver Logging / GCP Cloud Logging: https://github.com/jussi-kalliokoski/slogdriver
+- gslog: `slog.Handler` implementations for GCP Cloud Logging, via the Cloud Logging API or JSON on stdout, with OpenTelemetry trace, baggage, and Kubernetes pod labels: https://github.com/maguro/gslog
 
 #### Handlers
 
