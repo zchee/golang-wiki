@@ -18,6 +18,8 @@ For Go 1.24 and later: Kernel version 3.2 or later.
 
 We don't support CentOS 5. The kernel is too old (2.6.18).
 
+Windows Subsystem for Linux 1 (WSL 1) is not supported. Use WSL 2 instead; see [issue 63503](https://go.dev/issue/63503).
+
 For little-endian MIPS64, kernel version [4.1 is known to fail, and 4.8 works](https://go.dev/issue/16848).
 
 For loong64, kernel 5.19 and later versions work fine.
