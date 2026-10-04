@@ -210,7 +210,7 @@ Also:
 
 - [`vert`](https://github.com/norunners/vert): WebAssembly interop between Go and JS values.
 
-- [`vue`](https://github.com/norunners/vue): The progressive framework for WebAssembly applications.
+- [`tue`](https://github.com/norunners/tue): The progressive framework for WebAssembly applications.
 
 - [Vugu](https://github.com/vugu/vugu): A wasm web UI library featuring HTML layout with Go for app logic, single-file components, rapid dev and prototyping workflow.
 
