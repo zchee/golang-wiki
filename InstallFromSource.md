@@ -9,7 +9,7 @@ This is a companion to https://go.dev/doc/install/source providing additional in
 ## Install C tools
 
 On OS X, a C compiler is bundled in the command line tools for
-[Xcode](http://developer.apple.com/Xcode/),
+[Xcode](https://developer.apple.com/Xcode/),
 and you don't need to install the whole Xcode to compile Go.
 If you have already installed Xcode 4.3+, you can install command
 line tools from the Components tab of the Downloads preferences panel.
@@ -27,5 +27,5 @@ If you want to build 32-bit binaries on a 64-bit system you'll need both
 `glibc-devel.i386` and `glibc-devel.x86_64` packages.
 
 On Windows, install `gcc` with
-[TDM-GCC](http://tdm-gcc.tdragon.net/). or try [TDM-GCC Sourceforge link](https://sourceforge.net/projects/tdm-gcc/).
+[TDM-GCC](https://tdm-gcc.tdragon.net/). or try [TDM-GCC Sourceforge link](https://sourceforge.net/projects/tdm-gcc/).
 (Make sure you add its `bin` subdirectory to your `PATH`.) Go does not support the Cygwin toolchain.

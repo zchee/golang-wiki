@@ -40,7 +40,7 @@ Chrome has some quite useful built in a11y tools, but you need to enable them by
 
 # Further Reading
 
-- http://a11yproject.com/
+- https://a11yproject.com/
 - https://inclusive-components.design/
 - https://accessibility.blog.gov.uk/
 - https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g

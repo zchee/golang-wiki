@@ -6,27 +6,27 @@ Some of this documentation may be out of date.
 
 ## Belarusian - Беларуская
 
-- [faq-be](http://www.designcontest.com/show/faq-be) - Frequently Asked Questions.
+- [faq-be](https://www.designcontest.com/show/faq-be) - Frequently Asked Questions.
 
 ## Brazilian Portuguese - Português brasileiro
 
 - [A Tour of Go](https://go-tour-br.appspot.com/)
 - [Go Project](https://pt.docs.dev.br/p/go/) - Go documentation and related pages.
-- [golangbr.org](http://golangbr.org/) - Go documentation and news.
+- [golangbr.org](https://golangbr.org/) - Go documentation and news.
 
 ## Chinese - 中文
 
 - [Go 语言之旅](https://tour.go-zh.org/)
 - [Go 编程语言](https://go-zh.org/) - Chinese Translation of tip.golang.org
-- [Effective Go and (old) Tutorial (Deprecated)](http://code.google.com/p/ac-me/downloads/detail?name=fango.pdf)
+- [Effective Go and (old) Tutorial (Deprecated)](https://code.google.com/p/ac-me/downloads/detail?name=fango.pdf)
 
 ## Czech - Čeština
 
-- [Pravidla reflexe](http://www.abclinuxu.cz/clanky/google-go-pravidla-reflexe) - a translation of [The Laws of Reflection](https://go.dev/blog/2011/09/laws-of-reflection.html).
+- [Pravidla reflexe](https://www.abclinuxu.cz/clanky/google-go-pravidla-reflexe) - a translation of [The Laws of Reflection](https://go.dev/blog/2011/09/laws-of-reflection.html).
 
 ## French - Français
 
-- [golang-france](http://code.google.com/p/golang-france/) - Go documentation.
+- [golang-france](https://code.google.com/p/golang-france/) - Go documentation.
 
 ## German - Deutsch
 
@@ -45,8 +45,8 @@ Some of this documentation may be out of date.
 
 ## Korean - 한국어
 
-- [A Tour of Go](http://go-tour-kr.appspot.com)
-- [golang-kr wiki](http://github.com/golang-kr/golang-doc/wiki) - Korean Translation of golang.org/doc
+- [A Tour of Go](https://go-tour-kr.appspot.com)
+- [golang-kr wiki](https://github.com/golang-kr/golang-doc/wiki) - Korean Translation of golang.org/doc
 
 ## Russian - русский язык
 
@@ -69,8 +69,8 @@ Some of this documentation may be out of date.
 
 ## Vietnamese - Tiếng Việt
 
-- [A Tour of Go](http://go-tour-vi.appspot.com/)
+- [A Tour of Go](https://go-tour-vi.appspot.com/)
 
 ## Uzbek — Ўзбекча
 
-- [A Tour of Go](http://go-tour-uz.appspot.com/)
+- [A Tour of Go](https://go-tour-uz.appspot.com/)

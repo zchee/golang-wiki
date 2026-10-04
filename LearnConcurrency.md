@@ -14,7 +14,7 @@ This page links to resources for learning about concurrency in Go. The items are
   - [Send statements](https://go.dev/ref/spec#Send_statements)
   - [Receive operator](https://go.dev/ref/spec#Receive_operator)
   - [Select statements](https://go.dev/ref/spec#Select_statements)
-- Code [A Tour of Go: Concurrency](http://tour.golang.org/concurrency/1)
+- Code [A Tour of Go: Concurrency](https://tour.golang.org/concurrency/1)
 - Read the [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq), especially
   - [Why build concurrency on the ideas of CSP?](https://go.dev/doc/faq#csp)
   - [Why goroutines instead of threads?](https://go.dev/doc/faq#goroutines)
@@ -31,18 +31,18 @@ This page links to resources for learning about concurrency in Go. The items are
 - Watch [A Practical Guide to Preventing Deadlocks and Leaks in Go](https://www.youtube.com/watch?v=3EW1hZ8DVyw)
 - Read [Share Memory By Communicating](https://go.dev/blog/share-memory-by-communicating) and do the [codewalk](https://go.dev/doc/codewalk/sharemem/)
 - Read [Go Concurrency Patterns: Timing out, moving on](https://go.dev/blog/go-concurrency-patterns-timing-out-and)
-- Watch [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide#1)
+- Watch [Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide#1)
 - Read [Go Concurrency Patterns: Pipelines and Cancellation](https://go.dev/blog/pipelines)
 - Read [Rethinking Classical Concurrency Patterns](/wiki/Go-Community-Slides#rethinking-classical-concurrency-patterns)
 - Study [Package sync](https://pkg.go.dev/sync/)
 - Read [Introducing the Go Race Detector](https://go.dev/blog/race-detector)
-- Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
-- Read [Mutexes and Semaphores Demystified](http://www.barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore)
+- Watch [Go: code that grows with grace](https://talks.golang.org/2012/chat.slide#1)
+- Read [Mutexes and Semaphores Demystified](https://www.barrgroup.com/Embedded-Systems/How-To/RTOS-Mutex-Semaphore)
 
 ## Advanced
 
 - Watch [Advanced Go Concurrency Patterns](https://go.dev/blog/advanced-go-concurrency-patterns)
-- Read [Advanced Go Concurrency Patterns](http://talks.golang.org/2013/advconc.slide#1)
+- Read [Advanced Go Concurrency Patterns](https://talks.golang.org/2013/advconc.slide#1)
 - Read [Go Concurrency Patterns: Context](https://go.dev/blog/context)
 - Study [The Go Memory Model](https://go.dev/ref/mem)
 - Study [Package atomic](https://pkg.go.dev/sync/atomic/)

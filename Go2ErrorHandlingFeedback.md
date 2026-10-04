@@ -89,7 +89,7 @@ Concepts that appear repeatedly among the suggestions below.
   references:
   [1](https://gist.github.com/oktalz/f04f36a3c2f61af22c7a6e06095d18eb),
   [2](https://gist.github.com/pborman/c69e79690d86dfc5c371f096be22930c),
-  [3](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/),
+  [3](https://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/),
   [4](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md),
   [5](https://gist.github.com/the-gigi/3c1acfc521d7991309eec140f40ccc2b),
   [6](https://gist.github.com/8lall0/cb43e1fa4aae42bc709b138bda02284e),
@@ -116,7 +116,7 @@ Concepts that appear repeatedly among the suggestions below.
   [10](https://github.com/gooid/gonotes/blob/master/inline_style_error_handle.md),
   [11](https://gist.github.com/spakin/86ea86ca48aefc78b672636914f4fc23),
   [12](https://gist.github.com/morikuni/bbe4b2b0384507b42e6a79d4eca5fc61),
-  [13](http://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html),
+  [13](https://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html),
   [14](https://gist.github.com/bserdar/4c728f85ca30de25a433e84ad5a065a1),
   [15](https://medium.com/@marode/the-return-of-the-return-278b8ae261ab),
   [16](https://gist.github.com/dpremus/3b141157e7e47418ca6ccb1fc0210fc7),
@@ -128,7 +128,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Jin Feng, "[A simplified Go 2 error handling solution with no handler], (https://gist.github.com/jfeng45/416d4ecb42a4df50bebf86ce1c41c668)", July 2019
 
-- Dave Arnold, "[Move special check keyword to left-hand side of assignment](http://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
+- Dave Arnold, "[Move special check keyword to left-hand side of assignment](https://blog.oldcloudguy.com/2019/04/18/error-handling-in-go-2-draft/)", April 2019
 
 - Rockmen, "[Add handle and ? as syntax sugar maybe](https://github.com/rockmenjack/go-2-proposals/blob/master/error_handling.md)", December 2018
 
@@ -176,7 +176,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Azamat Kalberdiev, “[Handling every error with intuitive code](https://gist.github.com/Azamat28/5b2c6f66fc4927a002a2d60044aa9231)”, March 2021
 
-- Andrew Phillips, “[Use closures rather than handlers](http://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html)”, October 2018
+- Andrew Phillips, “[Use closures rather than handlers](https://devmethodologies.blogspot.com/2018/10/go-error-handling-using-closures.html)”, October 2018
 
 - Taihei Morikuni, "[Use functions as an error handler, Add syntactic sugar to remove duplicated if statement](https://gist.github.com/morikuni/bbe4b2b0384507b42e6a79d4eca5fc61)", September 2018
 
@@ -250,7 +250,7 @@ Concepts that appear repeatedly among the suggestions below.
 
 - Einthusan Vigneswaran, “[Error Aware Keywords - return, defer, if, != and forcing the error object to be the last argument](https://gist.github.com/einthusan/24e18f6359a31b3537815284cde0f6de)”, September 2018
 
-- Andrew Phillips, “[Improving Go Error Handling](http://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
+- Andrew Phillips, “[Improving Go Error Handling](https://devmethodologies.blogspot.com/2017/10/improving-go-error-handling.html)”, October 2017
 
 ## Uncategorized
 
@@ -258,7 +258,7 @@ Please help categorize the rest of the proposals here.
 
 - Joe Lapp, "[`on...return` for error handling](https://github.com/golang/go/issues/48855)", Oct 2021
 
-- Andrew Gwozdziewycz, "[Check for Go Errors](http://sigusr2.net/check-for-go-errors.html)", June 2019
+- Andrew Gwozdziewycz, "[Check for Go Errors](https://sigusr2.net/check-for-go-errors.html)", June 2019
 
 - DeedleFake, "[Feedback for Go 2 Design Drafts](https://deedlefake.com/2018/08/feedback-for-go-2-design-drafts/)", August 2018
 

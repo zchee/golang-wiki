@@ -9,9 +9,9 @@ This page links to resources for learning about server programming in Go - both 
 - Read [Writing Web Applications with the Go standard library](https://go.dev/doc/articles/wiki/)
 - Read [Build a Web Application With Go](https://astaxie.gitbooks.io/build-web-application-with-golang/content/) from the author of the [BeeGo web framework][beego]
 - Read [Webapps in Go the anti textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
-- Read [Building Web Applications in Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](http://martini.codegangsta.io/) webserver toolkits. First learn the absolute basics before going to this book.
+- Read [Building Web Applications in Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/) from the author of the [Negroni](https://github.com/codegangsta/negroni) and [Martini](https://martini.codegangsta.io/) webserver toolkits. First learn the absolute basics before going to this book.
 - Read [Building Your Own Web Framework in Go](https://www.nicolasmerouze.com/build-web-framework-golang/) a 5-part series.
-- Watch [Go: code that grows with grace](http://talks.golang.org/2012/chat.slide#1)
+- Watch [Go: code that grows with grace](https://talks.golang.org/2012/chat.slide#1)
 - Download a [full working 3-tier application example](https://github.com/sourcegraph/thesrc) from the Sourcegraph Team.
 
 ### Middleware
@@ -19,8 +19,8 @@ This page links to resources for learning about server programming in Go - both 
 A topic you will see discussed frequently is "middleware". If you're not familiar with that term, we suggest you start out by reading a few of these articles:
 
 - [Middleware in Go: Best practices and examples](https://www.nicolasmerouze.com/middlewares-golang-best-practices-examples/) _2014-11-13_
-- Custom Handlers [Part 1 - Avoiding Globals](http://elithrar.github.io/article/custom-handlers-avoiding-globals/), [Part 2 - Error Handling](http://elithrar.github.io/article/http-handler-error-handling-revisited/) _2014-07-16_
-- [Making and Using HTTP Middleware](http://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
+- Custom Handlers [Part 1 - Avoiding Globals](https://elithrar.github.io/article/custom-handlers-avoiding-globals/), [Part 2 - Error Handling](https://elithrar.github.io/article/http-handler-error-handling-revisited/) _2014-07-16_
+- [Making and Using HTTP Middleware](https://www.alexedwards.net/blog/making-and-using-middleware) _2014-10-21_
 - [Writing HTTP Middleware in Go](https://justinas.org/writing-http-middleware-in-go/) _2013-10-09_
 
 ## Toolkits and Frameworks
@@ -31,9 +31,9 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 
 ### Toolkits & Libraries & Microframeworks
 
-- [Gorilla Toolkit](http://www.gorillatoolkit.org/)
+- [Gorilla Toolkit](https://www.gorillatoolkit.org/)
 - [Negroni Toolkit - Idiomatic HTTP Middleware for Go](https://github.com/codegangsta/negroni)
-- [Echo Framework - Fast and Unfancy](http://echo.labstack.com/)
+- [Echo Framework - Fast and Unfancy](https://echo.labstack.com/)
 - [Goji Web Microframework](https://goji.io/)
 - [Go Craft Middleware](https://github.com/gocraft/web)
 - [Go RESTful](https://github.com/emicklei/go-restful) - Toolkit for RESTful service APIs
@@ -41,7 +41,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 - [Kite Micro-service framework](https://github.com/koding/kite)
 - [Alice - Painless middleware chaining for Go](https://github.com/justinas/alice)
 - [YAM - Yet Another Mux](https://github.com/thisissoon/yam)
-- [Bone - Fast HTTP Router](http://go-zoo.github.io/bone/)
+- [Bone - Fast HTTP Router](https://go-zoo.github.io/bone/)
 
 ### Frameworks
 
@@ -112,7 +112,7 @@ If you decide you need a bit more infrastructure, start by looking at some of th
 ### Microsoft Azure
 
 - Microsoft OpenTech's [azure-sdk-for-go](https://github.com/MSOpenTech/azure-sdk-for-go) provides a Golang package that makes it easy to consume and manage Microsoft Azure Services.
-- Search packages for [Azure](http://pkg.go.dev/search?q=azure)
+- Search packages for [Azure](https://pkg.go.dev/search?q=azure)
 
 ### Openstack / Rackspace
 

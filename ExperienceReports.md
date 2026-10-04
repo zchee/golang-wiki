@@ -52,7 +52,7 @@ Add new sections as appropriate.
 ## App and Game Development
 
 - Paul Ruest, "[Go Library Support for Apps and Games](https://gazed.github.io/goApps.html)", November 2017
-- Tad Vizbaras, "[Building Optical Character Recognition (OCR) in Go](http://recoink.com/goreport)", December 2017
+- Tad Vizbaras, "[Building Optical Character Recognition (OCR) in Go](https://recoink.com/goreport)", December 2017
 
 ## Casting
 
@@ -80,7 +80,7 @@ Add new sections as appropriate.
 
 ## Dependencies
 
-- Patrick Bohan, "[Docker => Moby: Go Dependencies](http://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
+- Patrick Bohan, "[Docker => Moby: Go Dependencies](https://engineering.rallyhealth.com/go/golang/dependencies/package-managers/2017/06/28/go-and-dependencies.html)," Jun 28, 2017. A new Go team's struggles with dependency management and an approach to deal with them.
 - Judson Lester, "[untitled gist] (https://gist.github.com/nyarly/edb6b7a5e3a762da6a5e2da8f59acf07)", August 2017.
 - David Collier-Brown, "[Avoiding an NP-Complete Problem by Recycling Multics’ Answer](https://leaflessca.wordpress.com/2018/09/03/avoiding-an-np-complete-problem-by-recycling-multics-answer/)", September 2018.
 - Adrian Hesketh "[Security vulnerability tracking](https://gist.github.com/a-h/f0fd0fad5e8a2e0c9b7afcf84f51f286)", January 2018. Proving to a security auditor that code doesn't contain known vulnerabilities.
@@ -99,7 +99,7 @@ Add new sections as appropriate.
 
 ## Education and Teaching
 
-- Carl Kingsford and Phillip Compeau, "[Go 2.0 for Teaching](http://www.monogrammedchalk.com/go-2-for-teaching/)". Experience using Go in an introductory programming course.
+- Carl Kingsford and Phillip Compeau, "[Go 2.0 for Teaching](https://www.monogrammedchalk.com/go-2-for-teaching/)". Experience using Go in an introductory programming course.
 
 ## Error Handling
 
@@ -107,12 +107,12 @@ Add new sections as appropriate.
 
 - Andrew Gerrand, “[Error Handling and Go](https://go.dev/blog/error-handling-and-go),” July 2011,
   showing Go error handling patterns.
-- Martin Sústrik, “[Why should I have written ZeroMQ in C, not C++ (part I)](http://www.250bpm.com/blog:4),” May 2012,
+- Martin Sústrik, “[Why should I have written ZeroMQ in C, not C++ (part I)](https://www.250bpm.com/blog:4),” May 2012,
   discussing production problems with C++ exception handling due to error-handling code being far from code that causes the error.
-- Thomi Richards, “[The Problems with Errors](http://www.tech-foo.net/the-problems-with-errors.html),” March 2014,
+- Thomi Richards, “[The Problems with Errors](https://www.tech-foo.net/the-problems-with-errors.html),” March 2014,
   arguing that it's essential for code to document exactly which errors it returns / exceptions it might throw.
 - Roger Peppe, “[Lovin' your errors](https://rogpeppe.neocities.org/error-loving-talk/index.html),” March 2015, discussing idioms for error handling.
-- Bleve, “[Deferred Cleanup, Checking Errors, and Potential Problems](http://www.blevesearch.com/news/Deferred-Cleanup,-Checking-Errors,-and-Potential-Problems/),” September 2015,
+- Bleve, “[Deferred Cleanup, Checking Errors, and Potential Problems](https://www.blevesearch.com/news/Deferred-Cleanup,-Checking-Errors,-and-Potential-Problems/),” September 2015,
   showing a bug related to error handling and defer in Bleve search.
 - Andrew Morgan, “[What I Don't Like About Error Handling in Go, and How to Work Around It](https://opencredo.com/why-i-dont-like-error-handling-in-go/),” January 2017,
   about it being difficult to force good error handling, errors not having stack traces, and error handling being too verbose.
@@ -156,7 +156,7 @@ Add new sections as appropriate.
 - posener, "[Why I recommend to avoid using the go-kit library](https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e)", clear separation of concern need lots of boilerplate code. gokit try
   code generation to avoid this [#70](https://github.com/go-kit/kit/issues/70) [#308](https://github.com/go-kit/kit/pull/308) [protoc-gen-gokit](https://github.com/AmandaCameron/protoc-gen-gokit) , but it looks like
   a complex solution for the problem.
-- Xavier Leroy, "[A modular module system](http://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
+- Xavier Leroy, "[A modular module system](https://gallium.inria.fr/%7Exleroy/publi/modular-modules-jfp.pdf)", paper about module description for generics.
 - Tobias Gustafsson, "[Experiences implementing PEDS](https://github.com/tobgu/peds/blob/master/experience_report.md)", PEDS is a set of statically type safe, immutable/persistent, collections. November 2017
 - A Googler "[govisor/generics.go](https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go)". April 27, 2018
 
@@ -185,14 +185,14 @@ Add new sections as appropriate.
 
 ## Logging
 
-- Evan Miller, “[Logging can be tricky](http://corner.squareup.com/2014/09/logging-can-be-tricky.html),” September 2014,
+- Evan Miller, “[Logging can be tricky](https://corner.squareup.com/2014/09/logging-can-be-tricky.html),” September 2014,
   showing how logging can add to application tail latency.
 - Dave Cheney, “[Let's talk about logging](https://dave.cheney.net/2015/11/05/lets-talk-about-logging),” November 2015,
   arguing that there are only two log levels.
 - TJ Holowaychuk, “[Apex log](https://medium.com/@tjholowaychuk/apex-log-e8d9627f4a9a),” January 2016, describing a structured log package and how it would be used in production.
 - Paddy Foran, “[Logging in Go](https://dramafeveronline.com/),” February 2016, showing how sends Go program logs to Sentry.
 - Martin Angers, “[About Go logging for reusable packages](https://www.0value.com/about-go-logging),” March 2016, making suggestions for how to write code that doesn't assume a particular log package.
-- BugReplay.com, “[How to use Google Cloud's Free Structured Logging Service With Golang](http://blog.bugreplay.com/post/150086459149/how-to-use-google-clouds-free-structured-logging),” September 2016.
+- BugReplay.com, “[How to use Google Cloud's Free Structured Logging Service With Golang](https://blog.bugreplay.com/post/150086459149/how-to-use-google-clouds-free-structured-logging),” September 2016.
 - Sam Vilain, “[Using Go's context library for making your logs make sense](https://blog.gopheracademy.com/advent-2016/context-logging/),” December 2016, about extracting structured log values from context.
 - Logmatic, “[Our Guide to a Golang Logs World](https://logmatic.io/blog/our-guide-to-a-golang-logs-world/),” March 2017.
 - Chris Hines, Peter Bourgon, “[Proposal: standard Logger interface](https://docs.google.com/document/d/1shW9DZJXOeGbG9Mr9Us9MiaPqmlcVatD_D8lrOXRNMU/edit?usp=drive_web),“ February 2017, problems related to stdlib logger, especially in the context of libraries, and one proposed solution.

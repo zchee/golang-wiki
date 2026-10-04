@@ -23,7 +23,7 @@ default:
 }
 ```
 
-[src/pkg/html/escape.go](http://golang.org/src/pkg/html/escape.go#L178)
+[src/pkg/html/escape.go](https://golang.org/src/pkg/html/escape.go#L178)
 
 ## Not just integers
 
@@ -145,7 +145,7 @@ case 1:
 }
 ```
 
-[src/pkg/encoding/ascii85/ascii85.go](http://golang.org/src/pkg/encoding/ascii85/ascii85.go#L43)
+[src/pkg/encoding/ascii85/ascii85.go](https://golang.org/src/pkg/encoding/ascii85/ascii85.go#L43)
 
 The 'fallthrough' must be the last thing in the case; you can't write something like
 

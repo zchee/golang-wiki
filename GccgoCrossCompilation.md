@@ -14,7 +14,7 @@ If you want to run your Go programs on a platform that is not supported by the s
 - **Host** The computer that will run the cross-compiler once it's built. This is usually the same as Build.
 - **Target** This is the destination system, where you want the cross-compiled program to run.
 
-More definitions and complex cross situations can be found at the [Wikipedia article](http://en.wikipedia.org/wiki/Cross_compiler).
+More definitions and complex cross situations can be found at the [Wikipedia article](https://en.wikipedia.org/wiki/Cross_compiler).
 
 ### Go tools and gccgo
 
@@ -27,11 +27,11 @@ You will later need to source code to the Go tool, so you might as well uninstal
 
 #### Build
 
-First you have to build your cross-compiling version of GCC. This is complex process as it requires several stages with bootstrapping since there are mutual dependency relations between GCC and libc implementations. A very fine tutorial on how to build a GCC cross-toolchain with eglic (works with glibc too) was written by Jim Blandy and posted at eglibc's mailinglist [patches Cross-building instructions](http://www.eglibc.org/archives/patches/msg00078.html). In the final stage where the full GCC is built, simply configure script with _--enable-languages=c,c++,go_ (see [official Go documentation](https://go.dev/doc/install/gccgo)).
+First you have to build your cross-compiling version of GCC. This is complex process as it requires several stages with bootstrapping since there are mutual dependency relations between GCC and libc implementations. A very fine tutorial on how to build a GCC cross-toolchain with eglic (works with glibc too) was written by Jim Blandy and posted at eglibc's mailinglist [patches Cross-building instructions](https://www.eglibc.org/archives/patches/msg00078.html). In the final stage where the full GCC is built, simply configure script with _--enable-languages=c,c++,go_ (see [official Go documentation](https://go.dev/doc/install/gccgo)).
 
 You can use the [ewxb_gcc_cross-compiler_builder](https://github.com/erikw/ewxb_gcc_cross-compiler_builder) script as a starting point. Don't expect that script to work out of the box, but rather as a hint to which steps you're likely to take when building your x-toolchain.
 
-If you're lucky enough and want a version of GCC that is not bleeding edge (which you might want to have the latest Go features) you can use a cross-compiler builder to ease the configuration e.g. [crosstool-NG](http://crosstool-ng.org/) that lets you configure GCC with a simple TUI menu.
+If you're lucky enough and want a version of GCC that is not bleeding edge (which you might want to have the latest Go features) you can use a cross-compiler builder to ease the configuration e.g. [crosstool-NG](https://crosstool-ng.org/) that lets you configure GCC with a simple TUI menu.
 
 Newer versions of crosstool-NG can build the go language by enabling `CT_EXPERIMENTAL` and `CT_CC_SUPPORT_GOLANG`. This will automatically add `go` to `--enable-languages`.
 

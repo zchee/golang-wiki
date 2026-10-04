@@ -6,7 +6,7 @@ The database/sql and database/sql/driver packages are designed for using databas
 
 See the design goals doc:
 
-> http://golang.org/src/pkg/database/sql/doc.txt
+> https://golang.org/src/pkg/database/sql/doc.txt
 
 ## Drivers
 

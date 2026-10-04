@@ -8,7 +8,7 @@ See [here](https://go.dev/doc/install/source#environment) for available `GOOS` a
 
 Since Go version 1.5 cross-compiling of pure Go executables has become very easy. Try it out with the code below. More can be found at this blog post by [Dave Cheney][1].
 
-[1]: http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5
+[1]: https://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5
 
 ```go
 $ cat hello.go

@@ -17,9 +17,9 @@ Support for the arm64 architecture is a work in progress, see https://go.dev/iss
 
 ## Go packages in pkgsrc
 
-[pkgsrc](https://pkgsrc.org/), the NetBSD package collection, contains up-to-date packages for released Go versions. The packages contain the version in the name (e.g. [`lang/go113`](http://pkgsrc.se/lang/go113)) so that multiple versions can be installed in parallel. [`lang/go`](http://pkgsrc.se/lang/go) is a meta-package that always depends on the default go version.
+[pkgsrc](https://pkgsrc.org/), the NetBSD package collection, contains up-to-date packages for released Go versions. The packages contain the version in the name (e.g. [`lang/go113`](https://pkgsrc.se/lang/go113)) so that multiple versions can be installed in parallel. [`lang/go`](https://pkgsrc.se/lang/go) is a meta-package that always depends on the default go version.
 
-Note that the `go` binary name is also installed with a version suffix. Install the [`pkgtools/pkg_alternatives`](http://pkgsrc.se/pkgtools/pkg_alternatives) package to get a `go` command symlink in your PATH.
+Note that the `go` binary name is also installed with a version suffix. Install the [`pkgtools/pkg_alternatives`](https://pkgsrc.se/pkgtools/pkg_alternatives) package to get a `go` command symlink in your PATH.
 
 There are a number of packages for software written in Go in pkgsrc. At the moment, module-based builds are experimental, and packages are built using a GOPATH layout.
 

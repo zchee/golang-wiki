@@ -274,7 +274,7 @@ suggestions.
     contain pointers.
 
 6.  Use freelists to reuse transient objects and reduce number of allocations.
-    Standard library contains [sync.Pool](http://tip.golang.org/pkg/sync/#Pool)
+    Standard library contains [sync.Pool](https://tip.golang.org/pkg/sync/#Pool)
     type that allows to reuse the same object several times in between garbage
     collections. However, be aware that, as any manual memory management scheme,
     incorrect use of sync.Pool can lead to use-after-free bugs.
@@ -422,7 +422,7 @@ Here are some common suggestions that can help to reduce goroutine blocking:
     This technique is not limited to channels. It can be used to batch updates
     to a map, batch allocations, etc.
 
-6.  Use [sync.Pool](http://tip.golang.org/pkg/sync/#Pool) for freelists instead
+6.  Use [sync.Pool](https://tip.golang.org/pkg/sync/#Pool) for freelists instead
     of chan-based or mutex-protected freelists. sync.Pool uses smart techniques
     internally to reduce blocking.
 
@@ -481,7 +481,7 @@ characterize effectiveness of parallel mark phase: there were total of 17 yield
 operations during waiting for another thread.
 
 The GC is [mark-and-sweep
-type](http://www.brpreiss.com/books/opus5/html/page424.html). Total GC can be
+type](https://www.brpreiss.com/books/opus5/html/page424.html). Total GC can be
 expressed as:
 
     Tgc = Tseq + Tmark + Tsweep
@@ -645,7 +645,7 @@ into a file for future exploration. It can be useful for identifying memory
 leaks and getting insights into program memory consumption.
 
 First, you need to write the dump using
-[runtime/debug.WriteHeapDump](http://tip.golang.org/pkg/runtime/debug/#WriteHeapDump)
+[runtime/debug.WriteHeapDump](https://tip.golang.org/pkg/runtime/debug/#WriteHeapDump)
 function:
 
         f, err := os.Create("heapdump")

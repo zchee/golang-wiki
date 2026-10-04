@@ -22,7 +22,7 @@ Note however that winstrap is not supported. It's considered an internal tool us
 
 Download and save the latest version of the automated MinGW installer executable (`exe`) file from SourceForge.
 
-http://sourceforge.net/projects/mingw/files/OldFiles/mingw-get-inst/
+https://sourceforge.net/projects/mingw/files/OldFiles/mingw-get-inst/
 
 Open and run the saved automated MinGW installer executable file, which is named `mingw-get-inst-yyyymmdd.exe`, where `yyyymmdd` is the version date stamp. For example, `mingw-get-inst-20110530.exe`.
 
@@ -63,6 +63,6 @@ all.bat
 ### 64-bit Notes
 
 1. Ensure you are able to compile a working 32-bit Go first.
-1. Grab the latest zip from http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/ and extract it over the MinGW directory, so that for example the .exe files end up in the same location as the 32-bit ones.
+1. Grab the latest zip from https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Automated%20Builds/ and extract it over the MinGW directory, so that for example the .exe files end up in the same location as the 32-bit ones.
 1. Replace `gcc.exe` and `ar.exe` with their 64-bit counterparts.
 1. Set `GOARCH=amd64` and away you go!

@@ -31,7 +31,7 @@ Other notes about the situation (production/school/playing/learning)</blockquote
 Things to keep in mind:<br>
 
 <ul><li>Take your time to spell-check and make sure that your sentences are readable.<br>
-</li><li>The solution can be far away from the immediate problem. So be sure that the question contains answers to the <a href='http://en.wikipedia.org/wiki/5_Whys'>5 whys</a>. The template implicitly already contains answers to 3 whys.<br>
+</li><li>The solution can be far away from the immediate problem. So be sure that the question contains answers to the <a href='https://en.wikipedia.org/wiki/5_Whys'>5 whys</a>. The template implicitly already contains answers to 3 whys.<br>
 </li><li>The context of the question is important, so always give one. Not giving the context may end up hurting you, because you’ll get an answer that’s more suited to a different context. The context is the end-user or domain problem and goal, with the information how it tries to solve it.<br>
 </li><li>Try not to ask abstract questions but if you do then add multiple concrete examples. Asking abstract things without concrete examples (usually) wastes time. Although they can be sometimes interesting, the concrete examples allow the discussion to be precise.<br>
 </li><li>Avoid imprecise terms such as "a lot of data" or "needs to work fast". Give something measurable such as "it needs to work upto 1GB of data" or "it needs to communicate with 1000 concurrent clients within 100ms".<br>
@@ -114,12 +114,12 @@ I'm writing this for a bioinformatics course, so I need to implement it myself.<
 Summary:<br>
 <br>
 
-<ul><li>The best answer depends on the context. In some cases maybe <a href='http://research.swtch.com/sparse'>research.swtch.com/sparse</a> would be more appropriate. If the speed isn't important using a <code>map</code> would be sufficient. So the requirements are also important.<br>
+<ul><li>The best answer depends on the context. In some cases maybe <a href='https://research.swtch.com/sparse'>research.swtch.com/sparse</a> would be more appropriate. If the speed isn't important using a <code>map</code> would be sufficient. So the requirements are also important.<br>
 </li><li>The problem can be somewhere else. As you saw the answerer didn't expect that the structure of the program was at fault. Using a struct <code>NucleotideIndex</code> with a <code>map</code>, meant he had to build elaborate things with reflection. Often when you fix the higher-level problem, everything else will become much easier.<br>
 </li><li>Constraints/properties matter. The property "set elements are used in increasing order" meant that there was a simple method that didn't require a full-blown <code>set</code> implementation. This specialized structure can be much faster. The information about the system, context or domain may make the problem much simpler.<br>
 </li><li>The solution may differ from your usual approaches. Maybe the asker decided to use <code>reflect</code> package, because he was used to generics in Java. Go is different language, so the final solution may look a lot different from the solution in Java.</li></ul>
 
 <h1>More tips</h1>
 
-</li><li><a href='http://www.catb.org/esr/faqs/smart-questions.html'>Smart questions</a>
-</li><li><a href='http://www.sscce.org/'>Short, Self Contained, Correct (Compilable), Example</a>
+</li><li><a href='https://www.catb.org/esr/faqs/smart-questions.html'>Smart questions</a>
+</li><li><a href='https://www.sscce.org/'>Short, Self Contained, Correct (Compilable), Example</a>

@@ -7,7 +7,7 @@ This page links to resources about error handling in Go.
 ## Getting Started
 
 - Read [Effective Go: Errors](https://go.dev/doc/effective_go#errors)
-- Code [A Tour of Go: Errors](http://tour.golang.org/methods/19) and do the [exercise](http://tour.golang.org/methods/20)
+- Code [A Tour of Go: Errors](https://tour.golang.org/methods/19) and do the [exercise](https://tour.golang.org/methods/20)
 - Study [The Go Programming Language Specification: Errors](https://go.dev/ref/spec#Errors)
 - Study [Package errors](https://pkg.go.dev/errors/)
 - Study [func fmt.Errorf](https://pkg.go.dev/fmt/#Errorf)

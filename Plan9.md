@@ -19,7 +19,7 @@ The Plan 9 port of Go is available for the following architectures:
 The current Go distribution has been tested successfully on:
 
 - [Plan 9 from Bell Labs](https://9p.io/plan9) (386 and arm) kernel
-- [9front](http://9front.org) amd64 kernel
+- [9front](https://9front.org) amd64 kernel
 - Bell Labs [9k](https://github.com/0intro/plan9-contrib/tree/master/sys/src/9k) (amd64) kernel
 
 ## Requirements
@@ -31,19 +31,19 @@ Go on Plan 9 requires a kernel providing the following system calls:
 
 A fix to the pread system call is required, so pread will not update the channel offset when reading a file:
 
-- [9-pread-offset](http://9legacy.org/9legacy/patch/9-pread-offset.diff)
+- [9-pread-offset](https://9legacy.org/9legacy/patch/9-pread-offset.diff)
 
 The TCP connection control file must handle the "close" message to be able close a TCP connection gracefully, while waking up the readers:
 
-- [9-tcp-close](http://9legacy.org/9legacy/patch/9-tcp-close.diff)
+- [9-tcp-close](https://9legacy.org/9legacy/patch/9-tcp-close.diff)
 
 A fix to Fossil is required to increment Qid.vers after a wstat, so a truncate followed by a read will return the content of the new file instead of the cached content.
 
-- [fossil-wstat-qid](http://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
+- [fossil-wstat-qid](https://9legacy.org/9legacy/patch/fossil-wstat-qid.diff)
 
 You will need support for SHA-2 signatures in X.509 certificates, so you could download sources from repositories hosted on GoogleSource, GitHub and so on.
 
-- [libsec-x509-sha2](http://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
+- [libsec-x509-sha2](https://9legacy.org/9legacy/patch/libsec-x509-sha2.diff)
 
 If you're running Plan 9 on Raspberry Pi, you'll require the latest [bcm](https://9p.io/sources/contrib/miller/9/bcm) kernel from Richard Miller.
 
@@ -70,11 +70,11 @@ First, install Go 1.4:
 cd /tmp
 git clone -b go1.4.3 https://go.googlesource.com/go go1.4
 cd go1.4/src
-hget http://9legacy.org/go/patch/syscall-exec.diff | ape/patch -p2
+hget https://9legacy.org/go/patch/syscall-exec.diff | ape/patch -p2
 make.rc
 ```
 
-The [syscall-exec](http://9legacy.org/go/patch/syscall-exec.diff) patch is required if you're running a machine with SMP enabled.
+The [syscall-exec](https://9legacy.org/go/patch/syscall-exec.diff) patch is required if you're running a machine with SMP enabled.
 
 Then, set the `GOROOT_BOOTSTRAP` environment variable:
 
@@ -145,15 +145,15 @@ You'll be able to use this binary package of Go to bootstrap Go, by setting the 
 GOROOT_BOOTSTRAP=/tmp/gobootstrap-plan9-386
 ```
 
-Other binary packages are available [here](http://9legacy.org/download.html) and [here](https://github.com/fhs/go-plan9-binaries).
+Other binary packages are available [here](https://9legacy.org/download.html) and [here](https://github.com/fhs/go-plan9-binaries).
 
 ## Git
 
-Git is not available on Plan 9. However a [Git wrapper](http://9legacy.org/9legacy/tools/git) is available as a simple rc script. It includes everything you need to use the [go](https://pkg.go.dev/cmd/go) tool.
+Git is not available on Plan 9. However a [Git wrapper](https://9legacy.org/9legacy/tools/git) is available as a simple rc script. It includes everything you need to use the [go](https://pkg.go.dev/cmd/go) tool.
 
 ## Builders
 
-Three Plan 9 builders are currently running and reporting the results to the [Go Dashboard](http://build.golang.org/):
+Three Plan 9 builders are currently running and reporting the results to the [Go Dashboard](https://build.golang.org/):
 
 - plan9-386 is running Plan 9 from Bell Labs (386 kernel) on a virtual machine
 - plan9-amd64-9front is running Plan 9 from Bell Labs (amd64 kernel) on a virtual machine

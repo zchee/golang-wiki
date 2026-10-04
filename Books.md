@@ -5,7 +5,7 @@ title: Books
 Other book lists:
 
 - [Awesome Go Books](https://github.com/dariubs/GoBooks)
-- [Go Language Resources](http://go-lang.cat-v.org/books)
+- [Go Language Resources](https://go-lang.cat-v.org/books)
 
 Sorted by publication date, ascending.
 
@@ -118,7 +118,7 @@ Sorted by publication date, ascending.
 - **Write webapps in Go without using a framework** (Free e-book)
   - Author: Suraj Patil
   - Publication Date: October 2016
-  - ISBN: NA since book is self published on http://leanpub.com
+  - ISBN: NA since book is self published on https://leanpub.com
   - References: https://github.com/thewhitetulip/web-dev-golang-anti-textbook, https://leanpub.com/antitextbookGo/
 
 - **Learning Go Web Development**
@@ -131,7 +131,7 @@ Sorted by publication date, ascending.
   - Author: Sau Sheong Chang
   - Publication Date: July 22, 2016
   - ISBN: 9781617292569
-  - Reference: http://manning.com/chang/
+  - Reference: https://manning.com/chang/
 
 - **Go: Building Web Applications**
   - Author: Nathan Kozyra and Mat Ryer
@@ -143,7 +143,7 @@ Sorted by publication date, ascending.
   - Authors: Matt Butcher and Matt Farina
   - Publication Date: October 1, 2016
   - ISBN: 9781633430075
-  - Reference: http://manning.com/butcher/
+  - Reference: https://manning.com/butcher/
 
 - **Go Programming Blueprints - Second Edition**
   - Author: Mat Ryer
@@ -161,7 +161,7 @@ Sorted by publication date, ascending.
   - Author: Shiju Varghese
   - Publication Date: November 2016
   - ISBN: 978-1-4842-1188-5
-  - Reference: http://www.apress.com/us/book/9781484211892
+  - Reference: https://www.apress.com/us/book/9781484211892
 
 - **Cloud Native Go: Building Web Applications and Microservices for the Cloud with Go and React**
   - Author: Kevin Hoffman and Dan Nemeth
@@ -191,7 +191,7 @@ Sorted by publication date, ascending.
   - Author: Jonathan Calhoun
   - Publication Date: June 2017
   - ISBN: N/A (self published)
-  - Reference: [http://usegolang.com](http://usegolang.com)
+  - Reference: [https://usegolang.com](https://usegolang.com)
 
 - **Building Microservices with Go**
   - Author: Nic Jackson
@@ -203,7 +203,7 @@ Sorted by publication date, ascending.
   - Author: Katherine Cox-Buday
   - Publication Date: August 2017
   - ISBN: 978-1491941195
-  - Reference: http://shop.oreilly.com/product/0636920046189.do
+  - Reference: https://shop.oreilly.com/product/0636920046189.do
 
 - **Machine Learning With Go**
   - Author: Daniel Whitenack
@@ -522,7 +522,7 @@ Sorted by publication date, ascending.
   - Authors: Baiju Muthukadan
   - Publication Date: June 10, 2015
   - ISBN: ---
-  - Reference: http://golang.muthukadan.net/
+  - Reference: https://golang.muthukadan.net/
 
 - **WebAssembly in Action**
   - Author: Gerard Gallant
@@ -560,19 +560,19 @@ Sorted by publication date, ascending.
   - Author: Miek Gieben
   - Publication Date: ---
   - ISBN: ---
-  - Reference: http://archive.miek.nl/projects/learninggo/
+  - Reference: https://archive.miek.nl/projects/learninggo/
 
 - **Network Programming with Go** (e-book)
   - Author: Jan Newmarch
   - Publication Date: ---
   - ISBN: ---
-  - References: http://jan.newmarch.name/go/
+  - References: https://jan.newmarch.name/go/
 
 - **Go Bootcamp** (e-book)
   - Author: Matt Aimonetti
   - Publication Date: ---
   - ISBN: ---
-  - References: http://www.golangbootcamp.com/
+  - References: https://www.golangbootcamp.com/
 
 - **A Go Developer's Notebook** (e-book)
   - Author: Eleanor McHugh
@@ -584,7 +584,7 @@ Sorted by publication date, ascending.
   - Author: Daniel Huckstep
   - Publication Date: ---
   - ISBN: ---
-  - References: http://thestandardlibrary.com/go.html
+  - References: https://thestandardlibrary.com/go.html
 
 - **Practical Cryptography with Go** (e-book)
   - Author: Kyle Isom
@@ -626,7 +626,7 @@ Sorted by publication date, ascending.
   - Author: Laszlo Csontos
   - Publication Date: ---
   - ISBN: ---
-  - References: http://www.learngolangthehardway.org/
+  - References: https://www.learngolangthehardway.org/
 
 - **Go 101** (e-book)
   - Author: Tapir Liu
@@ -664,8 +664,8 @@ Sorted by publication date, ascending.
   - Authors: Matthew Campbell
   - Publication Date: Fall 2015 (est.)
   - ISBN: ---
-  - Reference: http://microservicesingo.com/
-  - Status: [Cancelled per O'Reilly Employee](http://support.oreilly.com/oreilly/topics/availability-of-microservices-in-go-use-go-to-build-scalable-backends-by-matthew-campbell)
+  - Reference: https://microservicesingo.com/
+  - Status: [Cancelled per O'Reilly Employee](https://support.oreilly.com/oreilly/topics/availability-of-microservices-in-go-use-go-to-build-scalable-backends-by-matthew-campbell)
 
 ### Chinese
 
@@ -673,13 +673,13 @@ Sorted by publication date, ascending.
   - Author: 樊虹剑（fango）
   - Publication Date: 2012-06
   - ISBN: 978-7-115-28307-8
-  - Reference: http://www.ituring.com.cn/book/1040
+  - Reference: https://www.ituring.com.cn/book/1040
 
 - **Go语言编程**
   - Author: 许式伟
   - Publication Date: 2012-08
   - ISBN: 978-7-115-29036-6
-  - Reference: http://www.ituring.com.cn/book/967
+  - Reference: https://www.ituring.com.cn/book/967
 
 - **Go Web编程**
   - Author: 谢孟军
@@ -698,13 +698,13 @@ Sorted by publication date, ascending.
   - Author: 郝林
   - Publication Date: 2015-01-01
   - ISBN: 9787115373984
-  - Reference: http://www.ptpress.com.cn/Book.aspx?id=39783
+  - Reference: https://www.ptpress.com.cn/Book.aspx?id=39783
 
 - **学习 Go 语言** (e-book / Translation)
   - Author: Xing Xing (mikespook)
   - Publication Date: ---
   - ISBN: ---
-  - Reference: http://www.mikespook.com/learning-go/
+  - Reference: https://www.mikespook.com/learning-go/
 
 - **Go 学习笔记 - 第四版** (e-book)
   - Author: 雨痕（qyuhen）
@@ -774,19 +774,19 @@ Sorted by publication date, ascending.
   - Author: Mat Ryer (著)、鵜飼 文敏 (監訳)、牧野 聡 (訳)
   - Publication Date: 2016-01
   - ISBN: 978-4-87311-752-2
-  - Reference: http://www.oreilly.co.jp/books/9784873117522/
+  - Reference: https://www.oreilly.co.jp/books/9784873117522/
 
 - **プログラミング言語Go**
   - Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Yoshiki Shibata
   - Publication Date: 20 June 2016
   - ISBN: 978-4-62130-025-1
-  - Reference: http://www.gopl.io/translations.html
+  - Reference: https://www.gopl.io/translations.html
 
 - **みんなのGo言語**
   - Authors: 松木雅幸, mattn, 藤原俊一郎, 中島大一, 牧 大輔, 鈴木健太
   - Publication Date: 9 Sep 2016
   - ISBN: 978-4774183923
-  - Reference: http://www.amazon.co.jp/exec/obidos/ASIN/477418392X/
+  - Reference: https://www.amazon.co.jp/exec/obidos/ASIN/477418392X/
 
 - **Go言語による並行処理**
   - Authors: Katherine Cox-Buday（著）、山口 能迪（訳）
@@ -827,14 +827,14 @@ Sorted by publication date, ascending.
   - Authors: Rainer Feike and Steffen Blass
   - Publication Date: 2010-11
   - ISBN: 978-3-8632-4722-5
-  - Reference (Amazon): http://www.amazon.de/Programmierung-Google-Beispiele-professionelle-Anwendung/dp/3827330092
+  - Reference (Amazon): https://www.amazon.de/Programmierung-Google-Beispiele-professionelle-Anwendung/dp/3827330092
   - Reference (Google Books): https://books.google.de/books?id=E4IL5dT1yLsC&printsec=frontcover&hl=de#v=onepage&q&f=false
 
 - **Systemprogrammierung in Google Go**
   - Author: Frank Müller
   - Publication Date: 2011-01
   - ISBN: 978-3-89864-712-0
-  - Reference: http://dpunkt.de/buecher/3762/-systemprogrammierung-in-google-go.html
+  - Reference: https://dpunkt.de/buecher/3762/-systemprogrammierung-in-google-go.html
 
 - **Nichtsequentielle und Verteilte Programmierung mit Go** (4th edition) (available as print and e-book)
   - Author: Christian Maurer
@@ -846,7 +846,7 @@ Sorted by publication date, ascending.
   - Author: Christian Himpel and Mario Deilmann
   - Publication Date: 2012-04
   - ISBN: 978-3-86802-415-9
-  - Reference: http://entwickler.de/press/Einstieg-in-Google-Go
+  - Reference: https://entwickler.de/press/Einstieg-in-Google-Go
 
 ### Brazilian Portuguese
 
@@ -860,13 +860,13 @@ Sorted by publication date, ascending.
   - Author: Caio Filipini
   - Publication Date: 2014-07-01
   - ISBN: 978-85-66250-49-7
-  - Reference: http://www.casadocodigo.com.br/products/livro-google-go
+  - Reference: https://www.casadocodigo.com.br/products/livro-google-go
 
 - **Introdução à Linguagem Go: Crie Programas Escaláveis e Confiáveis**
   - Author: Caleb Doxsey
   - Publication Date: 2016-08-04
   - ISBN: 978-85-75224-89-2
-  - Reference: http://shop.oreilly.com/product/0636920046516.do
+  - Reference: https://shop.oreilly.com/product/0636920046516.do
 
 ### Russian
 
@@ -874,19 +874,19 @@ Sorted by publication date, ascending.
   - Author: Марк Саммерфильд
   - Publication Date: 2013-02-14
   - ISBN: 978-5-94074-854-0
-  - Reference: http://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
+  - Reference: https://dmkpress.com/catalog/computer/programming/978-5-94074-854-0/
 
 - **Язык программирования Go**
   - Author: Алан А. А. Донован, Брайан У. Керниган
   - Publication Date: 2016-04-21
   - ISBN: 978-5-8459-2051-5
-  - Reference: http://www.williamspublishing.com/Books/978-5-8459-2051-5.html
+  - Reference: https://www.williamspublishing.com/Books/978-5-8459-2051-5.html
 
 - **Go на практике**
   - Author: Батчер М., Фарина М.
   - Publication Date: 2017-01
   - ISBN: 978-5-97060-477-9
-  - Reference: http://dmkpress.com/catalog/computer/programming/978-5-97060-477-9/
+  - Reference: https://dmkpress.com/catalog/computer/programming/978-5-97060-477-9/
 
 - **Golang для профи: работа с сетью, многопоточность, структуры данных и машинное обучение с Go**
   - Author: Цукалос М.
@@ -920,79 +920,79 @@ Sorted by publication date, ascending.
   - Author: 이재홍
   - Publication Date: June 2015
   - ISBN: 978-8-96618-990-8
-  - Reference: http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
+  - Reference: https://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book
 
 - **개발자를 위한 하룻밤에 읽는 Go 언어 이야기**
   - Author: 신제용
   - Publication Date: December 2015
   - ISBN: 978-8-96848-806-1
-  - Reference: http://www.hanbit.co.kr/store/books/look.php?p_code=E8544486990
+  - Reference: https://www.hanbit.co.kr/store/books/look.php?p_code=E8544486990
 
 - **디스커버리 Go 언어**
   - Author: 염재현
   - Publication Date: March 2016
   - ISBN: 9788-96848-268-7
-  - Reference: http://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767
+  - Reference: https://www.hanbit.co.kr/store/books/look.php?p_code=B5279497767
 
 - **Go 언어 웹 프로그래밍 철저 입문**
   - Author: 장재휴
   - Publication Date: March 2016
   - ISBN: 979-1-18697-881-8
-  - Reference: http://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001434
+  - Reference: https://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001434
 
 - **Go 인 액션**
   - Authors: William Kennedy with Brian Ketelsen and Erik St. Martin; translated by Hyunhee Jang
   - Publication Date: June 2016
   - ISBN: 979-1-18589-053-1
-  - Reference: http://jpub.tistory.com/585
+  - Reference: https://jpub.tistory.com/585
 
 - **The Go Programming Language**
   - Authors: Alan A. A. Donovan, Brian W. Kernighan; translated by Seung Lee
   - Publication Date: June 2016
   - ISBN: 978-0-13419-044-0
-  - Reference: http://www.acornpub.co.kr/book/go-programming
+  - Reference: https://www.acornpub.co.kr/book/go-programming
 
 - **Go 웹 프로그래밍**
   - Author: Sau Sheong Chang; translated by Jinwook Jeong
   - Publication Date: March 2017
   - ISBN: 979-1-18669-731-3
-  - Reference: http://www.bjpublic.co.kr/skin12/productSearchView.php?board_data=aWR4PTIxMyZzdGFydFBhZ2U9MCZsaXN0Tm89MzM
+  - Reference: https://www.bjpublic.co.kr/skin12/productSearchView.php?board_data=aWR4PTIxMyZzdGFydFBhZ2U9MCZsaXN0Tm89MzM
 
 - **프로젝트로 완성하는 Go 프로그래밍**
   - Author: Mat Ryer; translated by Soonbeom Kwon
   - Publication Date: August 2017
   - ISBN: 979-1-16175-032-3
-  - Reference: http://www.acornpub.co.kr/book/go-blueprints-2
+  - Reference: https://www.acornpub.co.kr/book/go-blueprints-2
 
 - **Go 언어 실전 테크닉**
   - Authors: 松木雅幸, mattn, 藤原俊一郎, 中島大一, 牧 大輔, 鈴木健太; translated by Hyuntae Park
   - Publication Date: August 2017
   - ISBN: 979-1-16175-026-2
-  - Reference: http://www.acornpub.co.kr/book/go-language-minna
+  - Reference: https://www.acornpub.co.kr/book/go-language-minna
 
 - **Go Cookbook**
   - Author: Aaron Torres; translated by Sangsik Lee
   - Publication Date: December 2017
   - ISBN: 979-1-16175-088-0
-  - Reference: http://www.acornpub.co.kr/book/go-cookbook
+  - Reference: https://www.acornpub.co.kr/book/go-cookbook
 
 - **Go 언어를 활용한 마이크로서비스 개발**
   - Author: Nic Jackson; translated by Sangsik Lee
   - Publication Date: July 2018
   - ISBN: 979-1-16175-190-0
-  - Reference: http://www.acornpub.co.kr/book/microservices-go
+  - Reference: https://www.acornpub.co.kr/book/microservices-go
 
 - **Go 언어 시작하기**
   - Author: 박혜영, 서정인
   - Publication Date: September 2018
   - ISBN: 979-1-15600-606-0
-  - Reference: http://www.hongpub.co.kr/sub.php?goPage=view_product&flashpage=&Code=20180911072243
+  - Reference: https://www.hongpub.co.kr/sub.php?goPage=view_product&flashpage=&Code=20180911072243
 
 - **Go 마스터하기**
   - Author: Mihalis Tsoukalos; translated by Kihyuk Nam
   - Publication Date: October 2018
   - ISBN: 979-1-16175-208-2
-  - Reference: http://acornpub.co.kr/book/mastering-go
+  - Reference: https://acornpub.co.kr/book/mastering-go
 
 ### Indonesian
 

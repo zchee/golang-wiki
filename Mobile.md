@@ -80,7 +80,7 @@ Build command will build an APK named basic.apk.
 
 If an AndroidManifest.xml is defined in the package directory, it is added to the APK output. Otherwise, a default manifest is generated.
 
-If you have the [adb](http://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
+If you have the [adb](https://developer.android.com/tools/help/adb.html) command installed on your machine, you can use `gomobile install` to build and push the APK to your mobile device.
 
 ```
 $ gomobile install golang.org/x/mobile/example/basic
@@ -105,7 +105,7 @@ You can deploy .app files by dragging and dropping them to the device.
 - Drag and drop the .app file to "Installed Apps" section.
 - Check the "Copy items if needed" option
 
-![Deploying app bundle](http://i.imgur.com/fRbQ0EQ.png)
+![Deploying app bundle](https://i.imgur.com/fRbQ0EQ.png)
 
 Alternatively, you can deploy application bundles to your iOS device by using the [ios-deploy](https://github.com/phonegap/ios-deploy) utility command line tool. Use ios-deploy to push the application to your device.
 
@@ -166,7 +166,7 @@ require (
 - Launch Android Studio.
 - File > Import Project... to import the reference project from $GOPATH/src/golang.org/x/mobile/example/bind/android.
 
-![Android Studio](http://i.imgur.com/RhNCnnH.png)
+![Android Studio](https://i.imgur.com/RhNCnnH.png)
 
 - Build and deploy the application to the device.
 
@@ -210,7 +210,7 @@ $ open ios/bind.xcodeproj
 
 Drag and drop the `Hello.framework` bundle to the Xcode project. Check "Copy items if needed" if you need a different copy of the framework bundle within the Xcode otherwise. Otherwise, modifying the Go package source code and rerunning `gomobile bind` will update the hello.framework.
 
-![Drag and drop Hello.framework](http://i.imgur.com/u88CxN9.png)
+![Drag and drop Hello.framework](https://i.imgur.com/u88CxN9.png)
 
 If you decide to keep `Hello.framework` in the main directory you have to add the main directory to the `Framework Search Paths` in the targets Build Settings.
 
@@ -218,7 +218,7 @@ If you decide to keep `Hello.framework` in the main directory you have to add th
 
 Your project layout should look like what's shown below.
 
-![Xcode project layout with Hello.framework](http://i.imgur.com/JhcSKwC.png)
+![Xcode project layout with Hello.framework](https://i.imgur.com/JhcSKwC.png)
 
 Build and run it on the simulator or an actual device (Cmd+R). When the application launches, the label on the main view will be modified with the string returned from `GoHelloGreetings` which invokes the `hello.Greetings` function.
 

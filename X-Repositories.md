@@ -6,7 +6,7 @@ The `golang.org/x/...` repositories are part of the Go Project but outside the m
 
 They are developed under looser [compatibility requirements](https://go.dev/doc/go1compat) than the Go core. In general, they will support the previous two releases and tip.
 
-These repositories should have no third-party dependencies apart from other golang.org/x/... repositories. The only exceptions are [golang.org/x/tools/gopls](https://pkg.go.dev/golang.org/x/tools/gopls), [golang.org/x/vscode-go](https://go.googlesource.com/vscode-go), and [golang.org/x/pkgsite](https://pkg.go.dev/golang.org/x/pkgsite). If you would like to add a new dependency to an x repository, please [file an issue](https://github.com/golang/go/issues/new) and cc [@rsc](http://github.com/rsc) and [@andybons](https://github.com/andybons).
+These repositories should have no third-party dependencies apart from other golang.org/x/... repositories. The only exceptions are [golang.org/x/tools/gopls](https://pkg.go.dev/golang.org/x/tools/gopls), [golang.org/x/vscode-go](https://go.googlesource.com/vscode-go), and [golang.org/x/pkgsite](https://pkg.go.dev/golang.org/x/pkgsite). If you would like to add a new dependency to an x repository, please [file an issue](https://github.com/golang/go/issues/new) and cc [@rsc](https://github.com/rsc) and [@andybons](https://github.com/andybons).
 
 Install them with "go get".
 

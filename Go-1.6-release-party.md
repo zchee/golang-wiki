@@ -29,59 +29,59 @@ Don't forget to add your details :point_down: right here.
 
 Here is a list of the groups who are participating.
 
-- [Sydney Go users' group](http://www.meetup.com/golang-syd/events/228276309/)
-- [Go-Miami](http://www.meetup.com/Go-Miami/events/228280324/)
-- [San Diego Gophers](http://www.meetup.com/sdgophers/events/228129827/)
-- [PDX Go](http://www.meetup.com/PDX-Go/events/228220792/)
-- [GopherConIndia](http://www.gophercon.in/)
+- [Sydney Go users' group](https://www.meetup.com/golang-syd/events/228276309/)
+- [Go-Miami](https://www.meetup.com/Go-Miami/events/228280324/)
+- [San Diego Gophers](https://www.meetup.com/sdgophers/events/228129827/)
+- [PDX Go](https://www.meetup.com/PDX-Go/events/228220792/)
+- [GopherConIndia](https://www.gophercon.in/)
 - [Belarus Golang User Group](https://events.dev.by/belarus-golang-user-group-meetup-2)
-- [Ukrainian Golang User Groups](http://www.meetup.com/uagolang/events/228343484/)
-- [Lviv Golang Group](http://www.meetup.com/Lviv-Golang-Group/events/228344940/)
+- [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/events/228343484/)
+- [Lviv Golang Group](https://www.meetup.com/Lviv-Golang-Group/events/228344940/)
 - [Edmonton Go](https://edmontongo.org/) (Feb 22)
-- [Software Craftsmanship Toulouse](http://www.meetup.com/fr-FR/Software-Craftsmanship-Toulouse/events/228285655/)
-- [Golang Paris](http://www.meetup.com/fr-FR/Golang-Paris/events/228563347/)
-- [Polish GLUG Meetup](http://www.meetup.com/GoLang-User-Group-Wroclaw/events/228369658/)
-- [Google Developer Group Gigcity](http://www.meetup.com/GDG-Gigcity/events/228373161/)
+- [Software Craftsmanship Toulouse](https://www.meetup.com/fr-FR/Software-Craftsmanship-Toulouse/events/228285655/)
+- [Golang Paris](https://www.meetup.com/fr-FR/Golang-Paris/events/228563347/)
+- [Polish GLUG Meetup](https://www.meetup.com/GoLang-User-Group-Wroclaw/events/228369658/)
+- [Google Developer Group Gigcity](https://www.meetup.com/GDG-Gigcity/events/228373161/)
 - [Golang Montréal](https://golangmontreal.org) (Feb 22nd)
 - [Golang Vietnam](https://www.facebook.com/events/1651152271814093/) (Feb 23)
-- [Gophers Katowice](http://www.meetup.com/Gophers-Katowice/events/228375778/)
-- [GoSF](http://www.meetup.com/golangsf/events/226090306/)
-- [Boston Golang](http://www.meetup.com/Boston-Go-lang-User-Group/events/228398963/)
-- [Go-Tampa](http://www.meetup.com/Go-Tampa/events/227365472/)
-- [Atlanta](http://www.meetup.com/Go-Users-Group-Atlanta/events/228336134/)
-- [GoAKL](http://www.meetup.com/Go-AKL/events/228436705/)
-- [Golang Barcelona](http://www.meetup.com/es-ES/Golang-Barcelona/events/228438675/)
-- [Golang Singapore](http://www.meetup.com/golangsg/events/228148961/) (February 18)
-- [Go Maryland](http://www.meetup.com/Go-Maryland/events/228445301/) (February 18)
-- [Orange County Gophers](http://www.meetup.com/Orange-County-Gophers/events/228458630/)
-- [Central Jersey Tech Meetup](http://www.meetup.com/Central-Jersey-Tech-Meetup/events/228461491/)
-- [Kansas City Golang Meetup](http://www.meetup.com/Kansas-City-Go-lang-Meetup/events/228467750/)
-- [Mexico City Gophers](http://www.meetup.com/GophersMX/events/228478343/)
-- [Women Who Go London](http://www.meetup.com/Women-Who-Go-London/events/228254901/)
-- [Go Israel](http://www.meetup.com/Go-Israel/events/228520409/)
-- [Go User Group Hamburg](http://www.meetup.com/Go-User-Group-Hamburg/events/228370048/)
-- [Golang Brasil - São Paulo](http://www.meetup.com/golangbr/events/228525183/) (Saturday, February 20)
-- [Zürich Gophers - Switzerland](http://www.meetup.com/Zurich-Gophers/events/228578365/)
-- [Golang Reston](http://www.meetup.com/Golang-Reston/events/228252844/)
-- [GoMAD](http://www.meetup.com/go-mad/events/228591957/)
-- [GoCon](http://gocon.connpass.com/event/26572/)
-- [GDG Golang Berlin](http://www.meetup.com/golang-users-berlin/events/228632499/) (Feb 17)
-- [ATX Golang](http://www.meetup.com/atxgolang/events/226396146/) (Austin)
-- [GoCon Tokyo](http://gocon.connpass.com/event/26572/)
+- [Gophers Katowice](https://www.meetup.com/Gophers-Katowice/events/228375778/)
+- [GoSF](https://www.meetup.com/golangsf/events/226090306/)
+- [Boston Golang](https://www.meetup.com/Boston-Go-lang-User-Group/events/228398963/)
+- [Go-Tampa](https://www.meetup.com/Go-Tampa/events/227365472/)
+- [Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/events/228336134/)
+- [GoAKL](https://www.meetup.com/Go-AKL/events/228436705/)
+- [Golang Barcelona](https://www.meetup.com/es-ES/Golang-Barcelona/events/228438675/)
+- [Golang Singapore](https://www.meetup.com/golangsg/events/228148961/) (February 18)
+- [Go Maryland](https://www.meetup.com/Go-Maryland/events/228445301/) (February 18)
+- [Orange County Gophers](https://www.meetup.com/Orange-County-Gophers/events/228458630/)
+- [Central Jersey Tech Meetup](https://www.meetup.com/Central-Jersey-Tech-Meetup/events/228461491/)
+- [Kansas City Golang Meetup](https://www.meetup.com/Kansas-City-Go-lang-Meetup/events/228467750/)
+- [Mexico City Gophers](https://www.meetup.com/GophersMX/events/228478343/)
+- [Women Who Go London](https://www.meetup.com/Women-Who-Go-London/events/228254901/)
+- [Go Israel](https://www.meetup.com/Go-Israel/events/228520409/)
+- [Go User Group Hamburg](https://www.meetup.com/Go-User-Group-Hamburg/events/228370048/)
+- [Golang Brasil - São Paulo](https://www.meetup.com/golangbr/events/228525183/) (Saturday, February 20)
+- [Zürich Gophers - Switzerland](https://www.meetup.com/Zurich-Gophers/events/228578365/)
+- [Golang Reston](https://www.meetup.com/Golang-Reston/events/228252844/)
+- [GoMAD](https://www.meetup.com/go-mad/events/228591957/)
+- [GoCon](https://gocon.connpass.com/event/26572/)
+- [GDG Golang Berlin](https://www.meetup.com/golang-users-berlin/events/228632499/) (Feb 17)
+- [ATX Golang](https://www.meetup.com/atxgolang/events/226396146/) (Austin)
+- [GoCon Tokyo](https://gocon.connpass.com/event/26572/)
 - [Golang Italian Hackers, at Develer](https://www.eventbrite.it/e/biglietti-go-16-release-party-21450150979)
-- [Go London User Group](http://www.meetup.com/Go-London-User-Group/events/228371135/)
-- [Seattle Go Programmers](http://www.meetup.com/golang/events/228465356/)
-- [Vilnius Golang](http://www.meetup.com/Vilnius-Golang/events/228751719/)
-- [Go DC](http://www.meetup.com/Golang-DC/events/228378173/)
+- [Go London User Group](https://www.meetup.com/Go-London-User-Group/events/228371135/)
+- [Seattle Go Programmers](https://www.meetup.com/golang/events/228465356/)
+- [Vilnius Golang](https://www.meetup.com/Vilnius-Golang/events/228751719/)
+- [Go DC](https://www.meetup.com/Golang-DC/events/228378173/)
 - [GDG Korea Golang](https://plus.google.com/u/0/events/cku5socs07a6o3oihqu3dfvhf70) (Feb 22)
-- [Golang ZG, Zagreb Croatia] (http://www.meetup.com/Golang-ZG/events/228863217/)
+- [Golang ZG, Zagreb Croatia] (https://www.meetup.com/Golang-ZG/events/228863217/)
 - [Gophers-ir Iran/Tehran] (https://evand.ir/events/gophers-16) (February 18)
 - [Golang Brazil - Porto Alegre](https://www.facebook.com/events/980566935370382/) (February 17)
-- [Seattle Go Programmers] (http://www.meetup.com/golang/events/228465356/) (Wed February 17)
-- [Go Cape Town] (http://www.meetup.com/gocapetown/events/228874257/)
-- [Golang Hong Kong] (http://www.meetup.com/GolangHK/events/228551636/)
-- [Golang Lima] (http://www.meetup.com/es-ES/Golang-Peru/events/228643682/)
-- [Gophers Barranquilla] (http://www.meetup.com/es-ES/Gophers-Barranquilla/events/228899893/)
+- [Seattle Go Programmers] (https://www.meetup.com/golang/events/228465356/) (Wed February 17)
+- [Go Cape Town] (https://www.meetup.com/gocapetown/events/228874257/)
+- [Golang Hong Kong] (https://www.meetup.com/GolangHK/events/228551636/)
+- [Golang Lima] (https://www.meetup.com/es-ES/Golang-Peru/events/228643682/)
+- [Gophers Barranquilla] (https://www.meetup.com/es-ES/Gophers-Barranquilla/events/228899893/)
 
 _If your group is not listed here yet, edit the page and add yourself._
 _Organisers, once you've added your group, consider tweeting out a link to the page to raise awareness._
@@ -111,7 +111,7 @@ Francesc Campoy presented his _State of Go_ talk at FOSDEM, which includes detai
 
 Here a Go 1.6 presentation slide deck from the Go Sydney users' group. Feel free to use this for your meetup.
 
-[talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide](http://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide)
+[talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide](https://talks.godoc.org/github.com/davecheney/gosyd/go1.6.slide)
 
 _Source_: https://github.com/davecheney/gosyd/blob/master/go1.6.slide
 
@@ -121,7 +121,7 @@ _Please send PR's with corrections/additions_
 
 _Please help by expanding this section so meetup organisers can share these details with their groups._
 
-- [Go 1.6 release notes (draft)](http://tip.golang.org/doc/go1.6)
+- [Go 1.6 release notes (draft)](https://tip.golang.org/doc/go1.6)
 - HTTP/2.
 
   Go 1.6's `net/http` package supports [HTTP/2](https://http2.golang.org/) for both the client and server out of the box.
@@ -131,7 +131,7 @@ _Please help by expanding this section so meetup organisers can share these deta
 
   Go 1.6 focused heavily on improvements to the low latency collector shipped in Go 1.5.
   Rick Hudson gave a [presentation at GopherCon 2015](https://www.youtube.com/watch?v=aiv1JOfMjm0) describing the low latency collector delivered in Go 1.5, and gave hints to the improvements being worked on for 1.6.
-  Rick recently [recorded an interview with InfoQ](http://www.infoq.com/interviews/hudson-go-gc) which focused on 1.6 in more detail.
+  Rick recently [recorded an interview with InfoQ](https://www.infoq.com/interviews/hudson-go-gc) which focused on 1.6 in more detail.
 
 - GOVENDOREXPERIMENT becomes the default.
 
@@ -139,7 +139,7 @@ _Please help by expanding this section so meetup organisers can share these deta
   Go 1.6 makes the vendor support the default, and it's likely that packages will start to use it soon.
 
 - `text/template` changes.
-  A long requested ability to [trim whitespace in templates](http://tip.golang.org/pkg/text/template/#hdr-Text_and_spaces) has arrived. This template
+  A long requested ability to [trim whitespace in templates](https://tip.golang.org/pkg/text/template/#hdr-Text_and_spaces) has arrived. This template
 
 `"{{23 -}} < {{- 45}}"`
 
@@ -149,7 +149,7 @@ will produce this output
 
 - cgo changes
 
-  cgo continues to get stricter about sharing data between Go and C. http://tip.golang.org/cmd/cgo/#hdr-Passing_pointers
+  cgo continues to get stricter about sharing data between Go and C. https://tip.golang.org/cmd/cgo/#hdr-Passing_pointers
 
   Ian Lance Taylor has put a lot of work into making signal handling more sane.
 

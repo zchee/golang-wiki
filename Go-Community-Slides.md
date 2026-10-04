@@ -16,7 +16,7 @@ Concurrency is a powerful tool for doing huge amounts of computation on today's 
 
 ## Conferences
 
-### [GopherCon 2018](http://gophercon.com/), Denver, Colorado
+### [GopherCon 2018](https://gophercon.com/), Denver, Colorado
 
 #### The Importance of Beginners
 

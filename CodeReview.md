@@ -11,7 +11,7 @@ There are several terms code reviews may use that you should become familiar wit
 - `LGTM` — looks good to me
 - `SGTM` — sounds good to me
 - `PTAL` — please take a look
-- `s/foo/bar/` — please replace `foo` with `bar`; this is [sed syntax](http://en.wikipedia.org/wiki/Sed#Usage)
+- `s/foo/bar/` — please replace `foo` with `bar`; this is [sed syntax](https://en.wikipedia.org/wiki/Sed#Usage)
 - `s/foo/bar/g` — please replace `foo` with `bar` throughout your entire change
 
 # CL Directives

@@ -62,7 +62,7 @@ of the tools repository.
 
 ## Postsubmit
 
-The [performance dashboard](http://perf.golang.org/dashboard) provides
+The [performance dashboard](https://perf.golang.org/dashboard) provides
 continuous monitoring of benchmark performance for every commit that is made to
 the main Go repository and other subrepositories.
 The dashboard, more specifically, displays graphs showing the change in certain

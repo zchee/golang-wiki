@@ -92,7 +92,7 @@ Note: you will need an `as(1)` capable of generating the COFF syso file, you
 can build one easily on Unix:
 
 ```
-wget http://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.bz2   # any newer version also works
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.bz2   # any newer version also works
 tar xf binutils-2.22.tar.bz2
 cd binutils-2.22
 mkdir build; cd build

@@ -23,7 +23,7 @@ Starting from Go 1.1, the appropriate GOARM value will be chosen if you compile 
 
 ## Supported operating systems
 
-- ARM on Linux. You must run an [EABI](http://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
+- ARM on Linux. You must run an [EABI](https://wiki.debian.org/ArmEabiPort) kernel. These are generally known as `armel` for softfloat (compatible with ARMv5) or `armhf` for hardware floating point (ARMv6 and above).
 - ARM on Darwin: ARMv7 is required.
 - ARM on FreeBSD, OpenBSD, and NetBSD: ARMv6K or above is required.
 
@@ -55,7 +55,7 @@ The runtime tests create many native operating system threads which at the defau
 1024
 ```
 
-See [Dave Cheney's blog post about building Go on Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi) for details.
+See [Dave Cheney's blog post about building Go on Raspberry Pi](https://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi) for details.
 
 ### Build failures due to lack of memory
 
@@ -82,7 +82,7 @@ The major issue with ARMv5 is the lack of floating point support in common ARMv5
 
 ### html/template and test/nilptr.go test fail on HTC Android
 
-html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](http://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill the application after 10 segfaults.
+html/template test and test/nilptr.go is known to fail on HTC's Android kernels ([ref](https://www.mail-archive.com/android-developers@googlegroups.com/msg153389.html)), because the kernel will kill the application after 10 segfaults.
 
 ### Potential kernel bug in 2.6.32-5-kirkwood on QNAP 219P
 
@@ -100,7 +100,7 @@ Operating System: Debian Sid
 
 The Netgear Stora is an ARMv5 (Marvell Kirkwood) platform. I flashed mine with a Debian Sid distribution and it was, until Go1, a solid platform for Go development. The main drawback is the Stora only has 128mb of ram, which is not quite enough to run ./all.bash as 5l can use more than 100mb of ram when linking some commands.
 
-Instructions for installing Debian on your Stora can be found on the OpenStora website, http://www.openstora.com/wiki/index.php?title=How_to_install_Debian_Linux_on_NETGEAR_Stora.
+Instructions for installing Debian on your Stora can be found on the OpenStora website, https://www.openstora.com/wiki/index.php?title=How_to_install_Debian_Linux_on_NETGEAR_Stora.
 
 > _-- dave cheney_
 
@@ -112,7 +112,7 @@ Operating System: Debian Squeeze
 
 The Qnap TS series of NASs are excellent hackable little linux hosts. The TS-11P9 II is a 2Ghz Marvell Kirkwood ARMv5 processor with 512mb of ram and a single SATA drive bay.
 
-The kirkwood platform is supported by the native debian installer. http://www.cyrius.com/debian/kirkwood/qnap/ts-119/install.html
+The kirkwood platform is supported by the native debian installer. https://www.cyrius.com/debian/kirkwood/qnap/ts-119/install.html
 
 > _-- dave cheney_
 
@@ -151,23 +151,23 @@ Successfully built default branch, going to write fan control daemon for this de
 
 #### Raspberry Pi
 
-- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](https://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
 Architecture: ARM1176JZFS, with floating point, running at 700Mhz
 
-Operating System: Debian Wheezy beta distribution (http://www.raspberrypi.org/archives/1435) reported as:
+Operating System: Debian Wheezy beta distribution (https://www.raspberrypi.org/archives/1435) reported as:
 
 `Linux raspberrypi 3.1.9+ #125 PREEMPT Sun Jun 17 16:09:36 BST 2012 armv6l GNU/Linux`
 
-**Memory Split**: the Pi shares its 256mb of memory between the CPU and the GPU. You should allocate as much memory as possible to the CPU for a successful compilation. The configuration for the memory split is stored on your SD card. This link has a script to adjust the configuration, http://sirlagz.net/?p=445.
+**Memory Split**: the Pi shares its 256mb of memory between the CPU and the GPU. You should allocate as much memory as possible to the CPU for a successful compilation. The configuration for the memory split is stored on your SD card. This link has a script to adjust the configuration, https://sirlagz.net/?p=445.
 
-Go version weekly.2012-03-27 +645947213cac, with timeout and GOARM 7 patches http://codereview.appspot.com/5987063/) builds with 2 test failures: encoding/gob fails with out of memory, and fmt fails the NaN test.
+Go version weekly.2012-03-27 +645947213cac, with timeout and GOARM 7 patches https://codereview.appspot.com/5987063/) builds with 2 test failures: encoding/gob fails with out of memory, and fmt fails the NaN test.
 
 Successfully installed and run SVGo via go get github.com/ajstarks/svgo, tested with goplay:
 
-![http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg](http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg)
+![https://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg](https://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg)
 
-Division benchmark via http://codereview.appspot.com/6258067:
+Division benchmark via https://codereview.appspot.com/6258067:
 
 ```
 $ cd $GOROOT/src/pkg/runtime
@@ -196,7 +196,7 @@ BenchmarkUint32Mod60978747	 5000000	       547 ns/op
 BenchmarkUint32Mod106956295	 5000000	       547 ns/op
 ```
 
-Running the hardware floating point distribution, Raspbian "pisces" (http://www.raspbian.org/PiscesImages) and applying the patches in https://gist.github.com/3116118, here are the results of the Eleanor McHugh gospeed benchmark:
+Running the hardware floating point distribution, Raspbian "pisces" (https://www.raspbian.org/PiscesImages) and applying the patches in https://gist.github.com/3116118, here are the results of the Eleanor McHugh gospeed benchmark:
 
 ```
 raspbian@pisces:~/gowork/src/github.com/feyeleanor/gospeed$ uname -a
@@ -313,7 +313,7 @@ _-- anthony starks_
 
 ### Raspberry Pi 2
 
-- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+- [Building Go 1.5 on the Raspberry Pi - Dave Cheney](https://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
 ```
 go version
@@ -929,7 +929,7 @@ ok    runtime 566.969s
 
 Architecture: ARMv7 quad-core Cortex-A9 (Samsung Exynos 4412 1.4GHz), 1GB RAM, Mali graphics (untested).
 
-Operating System: [Archlinux ARM](http://archlinuxarm.org/)
+Operating System: [Archlinux ARM](https://archlinuxarm.org/)
 
 Go pre-1.1 compiles out of the box. The four cores make it particularly suited to Go multi-threaded programs. An ODROID-X2 is coming (Nov 2012) with more RAM.
 
@@ -937,11 +937,11 @@ _-- Rémy Oudompheng_
 
 ### BananaPi
 
-[BananaPi](http://banana-pi.org) has a few enhanced hardware components compare with Raspberry Pi.
+[BananaPi](https://banana-pi.org) has a few enhanced hardware components compare with Raspberry Pi.
 
 | **Architecture**                                                                                                        | **Comments**                           |
 | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------- |
-| [Allwinner A20(ARM Cortex-A7 Dual-core, 1GHz, Mali400MP2 GPU)](http://www.allwinnertech.com/en/clq/processora/A20.html) | tbc                                    |
+| [Allwinner A20(ARM Cortex-A7 Dual-core, 1GHz, Mali400MP2 GPU)](https://www.allwinnertech.com/en/clq/processora/A20.html) | tbc                                    |
 | eSATA                                                                                                                   | No worry to wear out your root SD Card |
 | Onboard Microphone                                                                                                      | tbc                                    |
 | 1G Ethernet                                                                                                             | tbc                                    |
@@ -1002,7 +1002,7 @@ Go Version: 1.5
 
 The Scaleway C1 Server is a dedicated ARM server with 2GiB RAM using a SAN for storage.
 
-I used the following guide: [Building Go 1.5 on the Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
+I used the following guide: [Building Go 1.5 on the Raspberry Pi](https://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
 
 \_--Laurent Debacker
 

@@ -6,7 +6,7 @@ Go is a systems programming language intended to be a general-purpose systems la
 
 An important point to keep in mind is that there are some fundamental differences in the thought processes required to be proficient in the two respective languages. Most formidably, C++'s object model is based on classes and class hierarchies while Go's object model is based on interfaces (and is essentially flat). Consequently, C++ design patterns rarely translate verbatim to Go. To program effectively in Go, one has to consider the _problem_ being solved, not the mechanisms one might use in C++ to solve the problem.
 
-For a more general introduction to Go, see the <a href='http://tour.golang.org/'>Go Tour</a>, <a href='https://go.dev/doc/code'>How to Write Go Code</a> and <a href='https://go.dev/doc/effective_go'>Effective Go</a>.
+For a more general introduction to Go, see the <a href='https://tour.golang.org/'>Go Tour</a>, <a href='https://go.dev/doc/code'>How to Write Go Code</a> and <a href='https://go.dev/doc/effective_go'>Effective Go</a>.
 
 For a detailed description of the Go language, see the <a href='https://go.dev/ref/spec'>Go spec</a>.
 
@@ -577,7 +577,7 @@ func main() {
 
 (Note that we chose to return `out` from `my_transform` rather than pass it an `out` to write to. This was an aesthetic decision; the code could have been written more like the C++ version in that regard.)
 
-In Go, functions are always full closures, the equivalent of `[&]` in C++11. An important difference is that it is invalid in C++11 for a closure to reference a variable whose scope has gone away (as may be caused by an <a href='http://en.wikipedia.org/wiki/Funarg_problem'>upward funarg</a>—a function that returns a lambda that references local variables). In Go, this is perfectly valid.
+In Go, functions are always full closures, the equivalent of `[&]` in C++11. An important difference is that it is invalid in C++11 for a closure to reference a variable whose scope has gone away (as may be caused by an <a href='https://en.wikipedia.org/wiki/Funarg_problem'>upward funarg</a>—a function that returns a lambda that references local variables). In Go, this is perfectly valid.
 
 <h2>Concurrency</h2>
 

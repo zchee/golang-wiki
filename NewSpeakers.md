@@ -19,8 +19,8 @@ Here are some good blog posts with tips for writing conference talk proposals:
 
 - “[How to write a successful conference proposal](https://dave.cheney.net/2017/02/12/how-to-write-a-successful-conference-proposal)” by Dave Cheney
 - “[How to write a successful conference proposal](https://medium.com/@fox/how-to-write-a-successful-conference-proposal-4461509d3e32)” by Karolina Szczur
-- “[Is your conference proposal good enough?](http://rckbt.me/2014/01/conference-proposals/)” by Raquel Vélez (rockbot)
-- “[What your conference proposal is missing](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)” by Sarah Mei
+- “[Is your conference proposal good enough?](https://rckbt.me/2014/01/conference-proposals/)” by Raquel Vélez (rockbot)
+- “[What your conference proposal is missing](https://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)” by Sarah Mei
 
 Elsewhere on the wiki, we maintain a list of [upcoming conferences](Conferences) with links to CFPs.
 The same page also lists past conferences with links to talk videos. These conferences welcome speakers of all experience levels and backgrounds!

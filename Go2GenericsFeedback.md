@@ -89,7 +89,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - Roberto (empijei) Clapis, "[Hard to read syntax](https://gist.github.com/empijei/a9665ac5e3059671be229acee8826798)", August 2018
 
-- Dominik Honnef, "[My thoughts on the Go Generics Draft](http://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
+- Dominik Honnef, "[My thoughts on the Go Generics Draft](https://honnef.co/posts/2018/08/opinions-on-go-generics-draft/)", August 2018
 
 ## Counterproposals
 
@@ -158,7 +158,7 @@ As the amount of feedback grows, please feel free to organize or reorganize this
 
 - Tokyo Gophers, "[Comments from Go 2 draft design feedback event](https://docs.google.com/document/d/1O6w4eL6ChROXrJ2vw9IhezzsdG7n8ToMnGnYLRQbjQg/edit?usp=sharing)", October 2018
 
-* Jason Moiron, "[Notes on the Go2 Generics Draft](http://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
+* Jason Moiron, "[Notes on the Go2 Generics Draft](https://jmoiron.net/blog/notes-on-the-go2-generics-draft)", September 2018
 
 * Yoshiki Shibukawa, "[Feedback for generics/contract proposals](https://gist.github.com/shibukawa/9c9eba1e68c3721f96b6f1456cfc4271), September 2018"
 
@@ -272,7 +272,7 @@ To make it easier to see new feedback. Please _make a Gist_. And also help to ke
 
   The one instance of `check.Convert(int, interface{})(0, 0)` should instead be `check.Convert(int, interface{})(0)` or provide an explanation as to why it the function should take two zeros instead of one.
 
-- [Adam Ierymenko](http://adamierymenko.com): I have an idea for doing limited operator overloading in Go that might make this proposal more useful for numeric code. It's big so [I stuck it in a Gist here](https://gist.github.com/adamierymenko/a03a62da1513a8cc2ac4dfac81b44a9f).
+- [Adam Ierymenko](https://adamierymenko.com): I have an idea for doing limited operator overloading in Go that might make this proposal more useful for numeric code. It's big so [I stuck it in a Gist here](https://gist.github.com/adamierymenko/a03a62da1513a8cc2ac4dfac81b44a9f).
   - DeedleFake: I completely agree with the arguments against operator overloading, and I'm quite glad overall that Go doesn't have it, but I also think that the inability to resolve the difference between `a == b` and `a.Equals(b)` via a contract is the biggest problem with the draft design as it currently stands. It means that you'd still wind up writing multiple functions for a fair number of things. Try writing a binary tree, for example. Should you use a contract with `t < t` or `t.Less(t)`? For a sum function, should you use `t + t` or `t.Plus(t)`? I definitely want a solution that doesn't involve operator overloading, though. Maybe there could be a way to specify an adapter that basically says `if a type T, which satisfies contract A but not B, is used for a parameter constrained by contract B, apply this to it in order to get it to satisfy contract B`. Contract B could require a `Plus()` method, for example, while contract A requires the use of `+`, so the adapter automatically attaches a user-specified `Plus()` method to `T` for the duration of its use under that contract.
     - Something that might work with this proposal is an `equal(a, b)` builtin that uses `a.Equals(b)` if it exists and `a == b` otherwise, failing to compile if the type is incomparable (and likewise for other operators). It's too weird to seriously consider but it would work with contracts and allow dodging the asymmetry between types that have operators and those that cannot without introducing operator overloading —jimmyfrasche
     - Another idea would be explicitly overloadable operators: `a + b` is not overloadable, but `a [+] b` can be overloaded. It will use normal + for primitive types, but will use `Operator+()` etc. for objects if those are present. I really do think that generics without some sane form of operator overloading or something like it are a lot less useful to the point that you might as well not even do it. -Adam Ierymenko (original poster)

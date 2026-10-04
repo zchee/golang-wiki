@@ -39,7 +39,7 @@ title: DesignDocuments
 
 - [Go 1.5 Bootstrap Plan](https://go.dev/s/go15bootstrap)
 - [Go Compiler Overhaul](https://go.dev/s/go13compiler)
-- [Go Execution Tracer](http://goo.gl/eXjfeS)
+- [Go Execution Tracer](https://goo.gl/eXjfeS)
 
 ## Future Proposals
 
@@ -49,7 +49,7 @@ title: DesignDocuments
   - [Groups Discussion](https://groups.google.com/d/topic/golang-dev/pwUh0BVFpY0/discussion)
 - [Precise GC Stack Roots](https://docs.google.com/document/d/13v_u3UrN2pgUtPnH4y-qfmlXwEEryikFu0SQiwk35SA/pub)
 - [Go 1.3 cmd/go and os/fsnotify](https://go.dev/s/go13fsnotify)
-- [Go 1.5 os/fsnotify API](http://goo.gl/MrYxyA)
+- [Go 1.5 os/fsnotify API](https://goo.gl/MrYxyA)
 - [Simple Multi-Dimensional Slices (Tables)](https://docs.google.com/document/d/1eHm7KqfKP9_s4vR1zToxq-FBazdUQ9ZYi-YhcEtdfR0/edit)
 - [Go execution modes](https://docs.google.com/a/golang.org/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
 - [Building and distributing Go packages as shared libraries](https://docs.google.com/a/canonical.com/document/d/1PxhXNhsdqwBjteW7poqv4Vf3PhtTmYuQKkOk_JNWeh0/edit#heading=h.9hyi51rp3owq)

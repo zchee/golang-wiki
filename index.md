@@ -2,7 +2,7 @@
 title: Home
 ---
 
-Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://go.dev/). [Awesome Go](http://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
+Welcome to the Go wiki, a collection of information about the [Go Programming Language](https://go.dev/). [Awesome Go](https://awesome-go.com/) is another great resource for Go programmers, curated by the Go community.
 
 If you can't find what you need on this page, see the [list of all pages](All).
 
@@ -58,7 +58,7 @@ Ready to write some Go code of your own? Here are a few links to help you get st
 - [Tools for working with Go code](CodeTools) - Formatting, linting, vetting, refactoring, navigation, and visualization.
 - Finding Go Libraries and Packages
   - Start here: [Go open source projects](Projects).
-  - Search for Go packages: [pkg.go.dev](http://pkg.go.dev)
+  - Search for Go packages: [pkg.go.dev](https://pkg.go.dev)
   - Visualization of the [Go open-source package graph](https://anvaka.github.io/pm/#/galaxy/gosearch?l=1)
 - [Modules](Modules) - documentation on the dependency management system built into the Go command, added in 1.11.
 - Publishing Go Packages as Open Source
@@ -95,24 +95,24 @@ Here are some of the places where you can find Gophers online. To get a sense of
 
 - Where Gophers hangout online:
   - [The Go Forum](https://forum.golangbridge.org/) - An all-purpose discussion forum for the Go community.
-  - [Gophers Slack Channel](http://gophers.slack.com/) - For real-time chat ([request membership](http://blog.gopheracademy.com/gophers-slack-community/)).
-  - [Golang News](http://golangnews.com) - For curated links about Go Programming.
-  - There is also a [/r/golang](http://reddit.com/r/golang) sub-reddit.
+  - [Gophers Slack Channel](https://gophers.slack.com/) - For real-time chat ([request membership](https://blog.gopheracademy.com/gophers-slack-community/)).
+  - [Golang News](https://golangnews.com) - For curated links about Go Programming.
+  - There is also a [/r/golang](https://reddit.com/r/golang) sub-reddit.
   - On Bluesky, follow the [@golang.org](https://bsky.app/profile/golang.org) account and keep tabs on the [#golang](https://bsky.app/hashtag/golang) hashtag.
   - On Mastodon, follow the <a rel="me noreferrer" href="https://hachyderm.io/@golang" target="_blank">@golang</a> account and keep tabs on the [#golang](https://hachyderm.io/tags/golang) hashtag.
   - On Twitter, follow the [@golang](https://twitter.com/golang) account and keep tabs on the [#golang](https://twitter.com/search?q=%23golang&src=typd) hashtag.
-  - We've also got a landing page on [Stack Overflow](http://stackoverflow.com/tags/go) for Go Q&A.
+  - We've also got a landing page on [Stack Overflow](https://stackoverflow.com/tags/go) for Go Q&A.
   - Matrix enthusiasts are invited to join [#go-lang:matrix.org](https://matrix.to/#/#go-lang:matrix.org) or the gophers space [#gophers:dendrite.matrix.org](https://matrix.to/#/#gophers:dendrite.matrix.org).
   - Discord users are welcome at the [Discord Gophers](https://discord.gg/golang) server.
   - Hashnode users talk and write about Go in [Hashnode Go community](https://hashnode.com/n/go).
 - Mailing Lists
   - The mailing list for Go users is [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - very high traffic.
-    - Before you post, [check to see if it's already been answered](http://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
+    - Before you post, [check to see if it's already been answered](https://stackoverflow.com/tags/go), then read [these tips on how to ask a good question](HowToAsk)
   - For discussions about the core Go open source project, join [golang-dev](https://groups.google.com/forum/#!forum/golang-dev).
   - To get just our release announcements, join [golang-announce](https://groups.google.com/forum/#!forum/golang-announce)
-- User Groups & Meetups - There are [Go Meetups in many cities](http://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
-  - [GoBridge](http://golangbridge.org) - Volunteers helping underrepresented communities to teach technical skills and to foster diversity in Go.
-  - [Women Who Go](http://www.womenwhogo.org/)
+- User Groups & Meetups - There are [Go Meetups in many cities](https://www.meetup.com/find/?allMeetups=false&keywords=golang&radius=Infinity&userFreeform=Sunnyvale%2C+CA&mcId=z94086&mcName=Sunnyvale%2C+CA&sort=recommended&eventFilter=mysugg)
+  - [GoBridge](https://golangbridge.org) - Volunteers helping underrepresented communities to teach technical skills and to foster diversity in Go.
+  - [Women Who Go](https://www.womenwhogo.org/)
   - See here for [additional information GoUserGroups](GoUserGroups)
   - [GoDiscourse](https://github.com/godiscourse/godiscourse) - Go Discourse is an open-source Go-based forum from `hello world`.
 - [Conferences](Conferences) - A list of upcoming and past Go conferences and major events.
@@ -126,9 +126,9 @@ Here are some of the places where you can find Gophers online. To get a sense of
 - [Cross Compilation](https://rakyll.org/cross-compilation/)
 - Shared libraries and Go (buildmode)
   - [Go Shared Libraries](https://github.com/jbuberel/buildmodeshared) - Examples for creating and using shared libraries from Go and Python.
-  - [Sharing Go Packages with C](http://blog.ralch.com/articles/golang-sharing-libraries/) - by Svetlin Ralchev
+  - [Sharing Go Packages with C](https://blog.ralch.com/articles/golang-sharing-libraries/) - by Svetlin Ralchev
   - [Calling Go libraries from Python](https://blog.filippo.io/building-python-modules-with-go-1-5/) - by Filippo Valsorda
-  - [Calling Go libraries from Ruby](http://c7.se/go-and-ruby-ffi/) - by Peter Hellberg
+  - [Calling Go libraries from Ruby](https://c7.se/go-and-ruby-ffi/) - by Peter Hellberg
   - [Calling Go libraries from Swift](https://rakyll.org/swift/) - by Jaana Burcu Dogan
   - [gohttplib](https://github.com/shazow/gohttplib) - An experiment in using Go 1.5 buildmode=c-shared.
 - See the wikis below for additional details:
@@ -153,15 +153,15 @@ Here are some of the places where you can find Gophers online. To get a sense of
   - [MutexOrChannel](MutexOrChannel) - When to use one vs the other
   - [RaceDetector](https://go.dev/doc/articles/race_detector) - How to detect and fix race conditions
 - Working with Databases
-  - [database/sql](http://go-database-sql.org/) - Online tutorial for working with the database/sql package.
+  - [database/sql](https://go-database-sql.org/) - Online tutorial for working with the database/sql package.
   - [SQLDrivers](SQLDrivers)
   - [SQLInterface](SQLInterface)
 - From other languages
-  - [Go for Java Programmers](http://yourbasic.org/golang/go-java-tutorial/)
+  - [Go for Java Programmers](https://yourbasic.org/golang/go-java-tutorial/)
   - [Go for C++ Programmers](GoForCPPProgrammers)
 - Strings
   - [GoStrings](GoStrings)
-  - [String Matching](http://blog.gopheracademy.com/advent-2014/string-matching/)
+  - [String Matching](https://blog.gopheracademy.com/advent-2014/string-matching/)
 - [Comments](Comments)
 - [Errors](Errors)
 - [GcToolchainTricks](GcToolchainTricks)
@@ -196,7 +196,7 @@ If you're looking for services that support Go, here's a list to get you started
 - Monitoring/Logging
   - [OpsDash](https://www.opsdash.com/) - Go-based cluster monitoring platform.
 - Package and Dependency Management
-  - [Gopkg.in](http://labix.org/gopkg.in) is a source for stable Go libraries, provided by Gustavo Niemeyer.
+  - [Gopkg.in](https://labix.org/gopkg.in) is a source for stable Go libraries, provided by Gustavo Niemeyer.
 
 ## Troubleshooting Go Programs in Production
 
