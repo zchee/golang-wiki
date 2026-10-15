@@ -1209,6 +1209,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Brainly](https://brainly.co/) - [blog](https://medium.com/engineering-brainly)
 - [limango](https://www.limango.pl/)
 - [SoftKraft](https://www.softkraft.co/golang-development-company/) - software development company
+- [Pethost](https://pethost.dev)
 
 ### Portugal
 
