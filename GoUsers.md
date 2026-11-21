@@ -814,6 +814,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
   - [CloudSign](https://www.cloudsign.jp/)
 - [Bitkey Inc.](https://bitkey.co.jp/)
 - [Canary Inc.](https://corp.canary-app.jp/) - [github](https://github.com/SSK-TBD/), [twitter](https://x.com/Canary_Product), [engineering blog](https://zenn.dev/p/canary_techblog)
+- [Caster Applications, Inc.](https://caster-applications.com/)
 - [CastingONE Inc.](https://casting-one.jp/)
 - [Check Inn, Inc.](https://checkinn.jp/)
 - [Chompy, Inc.](https://chompy-inc.com/)
